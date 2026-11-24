@@ -28,8 +28,6 @@ h1, h2, h3, p { margin: 0; }
 h1 { font: 500 clamp(35px, 5.7vw, 78px)/1.18 var(--serif); text-wrap: balance; overflow-wrap: anywhere; }
 .hero p { color: var(--muted); margin-bottom: 12px; font-size: 14px; }
 .cover h1 { letter-spacing: .05em; }
-.engraving { width: 30%; height: 100%; position: absolute; right: 0; top: 0; overflow: hidden; z-index: -1; }
-.engraving i { position: absolute; width: 170%; height: 180%; border: 1px solid #9daf9f; border-radius: 50%; top: calc(25% + var(--n)*6px); left: calc(-19% + var(--n)*3px); transform: rotate(-28deg); }
 .day { display: grid; grid-template-columns: minmax(120px, 1fr) 4fr; gap: 20px; padding-top: 28px; }
 .day h2 { font: 500 30px/1.3 Georgia, var(--serif); font-variant-numeric: tabular-nums; }
 .day h2 small { display: block; font: 14px/1.6 Georgia, serif; color: var(--muted); }
@@ -56,8 +54,33 @@ dt { color: var(--muted); } dd { margin: 0; }
   .details div { grid-template-columns: 5em 1fr; }
   .cover h1 { max-width: 74%; }
 }
+:root { --paper:#f6f3eb; --ink:#182e28; --accent:#954c36; }
+.cover { padding:24px 0 16px; border-bottom:1px solid var(--ink); }
+.cover h1 { font:500 20px/1.5 var(--serif); letter-spacing:.06em; }
+.edition { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2fr); gap:5%; padding:34px 0 40px; }
+.folio { font:normal clamp(48px,7vw,100px)/1 Georgia,serif; letter-spacing:-.045em; }
+.folio small { display:block; font:18px/2 Georgia,serif; letter-spacing:.14em; }
+.folio em { font-weight:normal; color:var(--accent); margin:0 .04em; }
+.dispatch { border-top:1px solid var(--line); padding:18px 0; }
+.dispatch:first-child { border:0; padding-top:0; }
+.dispatch h3 { font:500 clamp(27px,3.5vw,48px)/1.3 var(--serif); }
+.dispatch h3 span { display:block; margin-top:4px; font:400 clamp(17px,1.6vw,22px)/1.5 var(--serif); }
+.dispatch p { color:var(--muted); font-size:13px; margin-top:8px; }
+.holdings { margin-top:36px; }
+.holdings>h2 { font:500 17px var(--serif); color:var(--accent); }
+.holding { display:flex; align-items:baseline; justify-content:space-between; gap:20px; border-top:1px solid var(--line); margin-top:14px; padding:18px 0; }
+.holding h2 { font:500 34px var(--serif); }
+.holding small { font:15px Georgia,serif; color:var(--muted); }
+.holding>a { text-decoration:underline; }
+@media(max-width:640px) {
+  .edition { display:block; padding:20px 0; }
+  .folio { font-size:52px; padding-bottom:16px; border-bottom:1px solid var(--ink); }
+  .folio small { display:inline; margin-right:12px; font-size:14px; }
+  .dispatch:first-child { padding-top:18px; }
+  .holding { display:block; } .holding>a { display:inline-block; margin-top:12px; }
+}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html"><span class="mark" aria-hidden="true">观</span>观势</a>
 <nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html" aria-current="location">机构档案</a></nav></header>
 <main><header class="hero "><p>机构档案</p><h1>盈远投资</h1></header>
-<section class="day"><h2><time datetime="2026-11-23"><small>2026</small>11.23</time></h2><div><article class="entry"><h3><a href="event-90288.html">森木磊石完成新一轮战略融资</a></h3></article></div></section></main></body></html>
+<section class="holdings"><h2>参投记录</h2><article class="holding"><div><small>2026-11-23</small><h2><a href="company-9a4c71f8ff42f81c0930.html">森木磊石</a></h2></div><a href="event-90288.html">森木磊石完成新一轮战略融资</a></article></section></main></body></html>

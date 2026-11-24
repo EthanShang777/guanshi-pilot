@@ -112,15 +112,13 @@ def render(events):
             f'<a href="{url}"' + (' aria-current="location"' if label == section else '') + f'>{label}</a>'
             for url,label in nav_items
         )
-        engraving = ''.join(f'<i style="--n:{n}"></i>' for n in range(14))
-        art = f'<div class="engraving" aria-hidden="true">{engraving}</div>' if cover else ''
         caption = f'<p>{html.escape(meta)}</p>' if meta else ''
         Path(path).write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} · 观势</title><style>{css}</style></head>
 <body><header class="top"><a class="brand" href="index.html"><span class="mark" aria-hidden="true">观</span>观势</a>
 <nav aria-label="栏目">{nav}</nav></header>
-<main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1>{art}</header>
+<main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1></header>
 {content}</main></body></html>''')
 
     def timeline(items):
@@ -132,7 +130,21 @@ def render(events):
         return ''.join(sections)
 
     ordered = sorted(events,key=lambda e:(e['day'],e['id']),reverse=True)
-    page('index.html','融资时间线','融资事件',timeline(ordered),cover=True)
+    def dispatch(e):
+        company = html.escape(e['company'])
+        headline = html.escape(e['title'].removeprefix(e['company']).strip() or e['title'])
+        parties = '、'.join(link(filename('institution', n), n) for n in e['investors'])
+        return (f'<article class="dispatch"><h3><a href="{event_url(e)}">{company}'
+                f'<span>{headline}</span></a></h3><p>{parties}</p></article>')
+
+    editions = []
+    for day, entries in groupby(ordered, key=lambda e:e['day']):
+        stamp = date.fromisoformat(day)
+        rows = ''.join(dispatch(e) for e in entries)
+        editions.append(f'<section class="edition"><h2 class="folio"><time datetime="{day}">'
+                        f'<small>{stamp:%Y}</small>{stamp:%m}<em>/</em>{stamp:%d}</time></h2>'
+                        f'<div class="dispatches">{rows}</div></section>')
+    page('index.html','融资时间线','融资事件',''.join(editions),cover=True)
     for e in ordered:
         fields = [('融资公司',link(filename('company',e['company']),e['company'])),
                   ('投资方','、'.join(link(filename('institution',n),n) for n in e['investors']) or '见原文')]
@@ -156,7 +168,14 @@ def render(events):
             desc = {'三有利康':'北京三有利康细胞科技有限公司成立于 2021 年，研发精准亚型间充质干细胞药物。',
                     '烟台生命岛':'投中网披露的三有利康 Pre-A 轮投资方。'}.get(name,'')
             intro = '<p class="intro">'+desc+'</p>' if desc else ''
-            page(filename(kind,name),name,label,intro+timeline(items),meta=label)
+            if kind=='institution':
+                relations = ''.join(
+                    '<article class="holding"><div><small>'+html.escape(item['day'])+'</small><h2>'+
+                    link(filename('company',item['company']),item['company'])+'</h2></div>'+
+                    link(event_url(item),item['title'])+'</article>' for item in items)
+                page(filename(kind,name),name,label,intro+'<section class="holdings"><h2>参投记录</h2>'+relations+'</section>',meta=label)
+            else:
+                page(filename(kind,name),name,label,intro+timeline(items),meta=label)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
