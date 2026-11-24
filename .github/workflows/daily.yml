@@ -1,6 +1,11 @@
 name: Daily financing update
 on:
   workflow_dispatch:
+    inputs:
+      reconcile_all:
+        description: Recheck all pilot disclosures against the cloud master
+        type: boolean
+        default: false
   schedule:
     - cron: '37 11 * * *'
 permissions:
@@ -23,7 +28,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: cp ledger.json "$RUNNER_TEMP/previous-ledger.json"
       - run: python update.py --replay-check
+      - name: Sync changed disclosures to financing master
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          RECONCILE_ALL: ${{ inputs.reconcile_all }}
+        run: |
+          if [ "$RECONCILE_ALL" = "true" ]; then
+            python sync_financing.py
+          else
+            python sync_financing.py "$RUNNER_TEMP/previous-ledger.json"
+          fi
       - name: Save ledger and pages
         run: |
           git config user.name github-actions[bot]
