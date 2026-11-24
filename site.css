@@ -171,3 +171,7 @@ nav a[aria-current] {color:#b4f0c4}
 #matches .deal>a,.search-entry a {color:var(--green);font-weight:500;}
 .search-entry {margin:10px 0 16px;}
 @media(max-width:640px){#archive-form label{width:100%;}}
+.top nav {flex-wrap:wrap;justify-content:flex-end}.research-node {margin:14px 0;padding:14px 16px;border:1px solid var(--line);border-radius:10px}.research-node summary{cursor:pointer;color:var(--green)}
+.source-list {padding-left:22px}.source-list a,.comparison a,.profile-directory a {overflow-wrap:anywhere;}
+.deal dd {padding:4px 0 12px}.deal dt {color:var(--green)}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px}.comparison section{min-width:0;padding:20px;background:#18211b;border-radius:14px}.comparison select{display:block;width:100%;padding:10px;margin:10px 0}.comparison p{margin:12px 0}
+@media(max-width:700px){.top{display:block}.top nav{display:grid;grid-template-columns:repeat(3,1fr);gap:0 10px;margin-top:8px}.top nav a{text-align:center}.comparison{grid-template-columns:1fr}}

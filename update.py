@@ -122,9 +122,10 @@ def link(url, label):
 
 def render(events):
     from itertools import groupby
+    from reader import build_library
 
     css = Path('site.css').read_text()
-    nav_items = [('index.html','融资事件'), ('companies.html','公司档案'), ('institutions.html','机构档案')]
+    nav_items = [('index.html','融资事件'), ('companies.html','公司档案'), ('institutions.html','机构档案'), ('reports.html','研究周报'), ('landscape.html','赛道画布'), ('changes.html','变化追踪')]
 
     def page(path, title, section, content, *, meta='', cover=False):
         nav = ''.join(
@@ -169,14 +170,13 @@ def render(events):
         body='<section class="counterparties"><h2>融资记录</h2>'+''.join(link('historical-'+r['key']+'.html',r['day']+' · '+r['stage']) for r in items)+'</section>'
         body+='<section class="counterparties"><h2>相关研究</h2>'+''.join(link('report-'+rid+'.html',reports[rid]['title']) for rid in refs)+'</section>'
         page(filename('research-company',name),name,'公司档案',body,meta='历史研究档案')
-    for rid,report in reports.items():
-        companies=[name for name,items in research_companies.items() if any(rid in r['reports'] for r in items)]
-        body='<p class="intro">'+html.escape(report['summary'])+'</p><section class="counterparties"><h2>有来源关联的公司</h2>'+''.join(link(filename('research-company',name),name) for name in companies)+'</section>'
-        page('report-'+rid+'.html',report['title'],'融资事件',body,meta='周报摘要　'+report['start']+' — '+report['end'])
+    build_library(page,link,filename,reports,research_companies,index_rows)
     options=''.join('<option>'+html.escape(s)+'</option>' for s in sorted({r['sector'] for r in index_rows}))
+    years=sorted({r['day'][:4] for r in index_rows if r['day']}, reverse=True)
+    year_options=''.join('<option>'+html.escape(y)+'</option>' for y in years)
     controls=('<p class="intro">每日试站记录及有投中网公开报道的历史样本。</p><form id="archive-form"><label>公司<input name="company" type="search"></label>'
               '<label>投资机构<input name="investor" type="search"></label><label>赛道<select name="sector"><option value="">全部赛道</option>'+options+
-              '</select></label><button type="reset">清除条件</button></form><p id="match-count" aria-live="polite"></p><section id="matches"></section>'
+              '</select></label><label>年份<select name="year"><option value="">全部年份</option>'+year_options+'</select></label><label>轮次关键词<input type="search" name="stage"></label><button type="reset">清除条件</button></form><p id="match-count" aria-live="polite"></p><section id="matches"></section>'
               '<nav><button id="prev">上一页</button><button id="next">下一页</button></nav>')
     public_keys=('key','href','company','day','sector','stage','amount','investors','aliases')
     data=json.dumps([{k:r[k] for k in public_keys} for r in sorted(index_rows,key=lambda r:r['day'],reverse=True)],ensure_ascii=False).replace('<',r'\u003c')
@@ -287,7 +287,7 @@ def render(events):
                     rows.append(link(filename('research-company',name),name+' · 历史研究档案'))
         count_label = '家公司' if is_company else '家机构'
         directory = f'<div class="sector-summary"><strong>试站收录 {len(rows)} {count_label}</strong></div>'
-        page(index,label,label,directory+'<div class="profile-directory">'+''.join(rows)+'</div>',cover=True)
+        page(index,label,label,(link('research-companies.html','公司研究库与同行对照 →') if is_company else '')+directory+'<div class="profile-directory">'+''.join(rows)+'</div>',cover=True)
         for name,items in groups.items():
             desc = {'三有利康':'北京三有利康细胞科技有限公司成立于 2021 年，研发精准亚型间充质干细胞药物。',
                     '烟台生命岛':'投中网披露的三有利康 Pre-A 轮投资方。'}.get(name,'')
@@ -310,8 +310,18 @@ def render(events):
                                link(event_url(e),'查看融资详情 →')+'</article>')
             intro = '<p class="intro">'+html.escape(desc)+'</p>' if desc else ''
             heading = '融资历程' if is_company else '参投记录'
+            layout = ''
+            if not is_company:
+                matrix = {}
+                for row in index_rows:
+                    if name in row['investors']:
+                        matrix.setdefault((row['sector'],row['stage'] or '阶段未列明'),[]).append(row)
+                cells = ''.join('<details class="research-node"><summary>'+html.escape(sector+' · '+stage)+
+                                f' · {len(deals)} 项</summary>'+''.join('<p>'+link(r['href'],r['company']+' · '+r['day'])+'</p>' for r in deals)+'</details>'
+                                for (sector,stage),deals in sorted(matrix.items()))
+                layout = '<section class="profile-records"><h2>投资布局</h2><p>检索样本中按机构名称精确匹配的融资记录</p>'+cells+'</section>'
             page(filename(kind,name),name,label,summary+intro+f'<section class="profile-records"><h2>{heading}</h2>'+
-                 ''.join(records)+'</section>',meta=label)
+                 ''.join(records)+'</section>'+layout,meta=label)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()

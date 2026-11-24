@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>具身智能：客户试运行、分层控制与量产口径 · 观势</title><style>:root {
+  --paper: #f8f7f1;
+  --ink: #172e26;
+  --green: #30624e;
+  --muted: #58645c;
+  --line: #c9cec3;
+  --serif: "Songti SC", "Noto Serif CJK SC", "Noto Serif SC", SimSun, Georgia, serif;
+  font: 16px/1.65 "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+* { box-sizing: border-box; }
+body { margin: 0 auto; max-width: 1320px; padding: 0 clamp(20px, 6vw, 88px) 70px; }
+a { color: inherit; text-decoration: none; text-underline-offset: .22em; }
+a:hover { color: var(--green); text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+::selection { background: #d1e6cb; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 22px 0; border-bottom: 1px solid var(--ink); }
+.brand { display: inline-flex; align-items: center; gap: 12px; font: 600 26px var(--serif); }
+.mark { background: var(--ink); color: var(--paper); padding: 6px 8px; font-size: 22px; line-height: 1; border-radius: 3px; }
+nav { display: flex; gap: clamp(10px, 2vw, 32px); }
+nav a { padding: 10px 0 6px; border-bottom: 2px solid transparent; font-size: 14px; }
+nav a[aria-current] { border-color: var(--green); font-weight: 600; }
+.hero { position: relative; isolation: isolate; overflow: hidden; padding: clamp(36px, 6vw, 78px) 0; border-bottom: 3px double var(--ink); }
+h1, h2, h3, p { margin: 0; }
+h1 { font: 500 clamp(35px, 5.7vw, 78px)/1.18 var(--serif); text-wrap: balance; overflow-wrap: anywhere; }
+.hero p { color: var(--muted); margin-bottom: 12px; font-size: 14px; }
+.cover h1 { letter-spacing: .05em; }
+.day { display: grid; grid-template-columns: minmax(120px, 1fr) 4fr; gap: 20px; padding-top: 28px; }
+.day h2 { font: 500 30px/1.3 Georgia, var(--serif); font-variant-numeric: tabular-nums; }
+.day h2 small { display: block; font: 14px/1.6 Georgia, serif; color: var(--muted); }
+.entry { padding: 17px 0 22px; border-bottom: 1px solid var(--line); }
+.entry:first-child { padding-top: 0; }
+.entry a, .directory a { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
+.entry a::after, .directory a::after { content: '↗'; color: var(--green); font: 18px Georgia, serif; }
+.entry h3 { font: 500 clamp(22px, 2.4vw, 34px)/1.5 var(--serif); }
+.directory { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); column-gap: 44px; }
+.directory a { padding: 18px 0; border-bottom: 1px solid var(--line); font: 500 22px/1.6 var(--serif); }
+.details, .intro { max-width: 800px; }
+.details div { display: grid; grid-template-columns: 8em 1fr; gap: 1rem; padding: 19px 0; border-bottom: 1px solid var(--line); }
+dt { color: var(--muted); } dd { margin: 0; }
+.details a { color: var(--green); text-decoration: underline; }
+.intro { padding: 24px 0 0; }
+@media(max-width:640px) {
+  .top { gap: 8px; padding: 12px 0; }
+  .brand { gap: 6px; font-size: 21px; }
+  .mark { font-size: 18px; }
+  nav { gap: 9px; } nav a { font-size: 13px; padding: 12px 0; }
+  .day { grid-template-columns: 1fr; gap: 14px; }
+  .day h2 { font-size: 21px; } .day h2 small { display:inline; margin-right:8px; }
+  .directory { grid-template-columns: 1fr; }
+  .details div { grid-template-columns: 5em 1fr; }
+  .cover h1 { max-width: 74%; }
+}
+:root { --paper:#f6f3eb; --ink:#182e28; --accent:#954c36; }
+.cover { padding:24px 0 16px; border-bottom:1px solid var(--ink); }
+.cover h1 { font:500 20px/1.5 var(--serif); letter-spacing:.06em; }
+.edition { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2fr); gap:5%; padding:34px 0 40px; }
+.folio { font:normal clamp(48px,7vw,100px)/1 Georgia,serif; letter-spacing:-.045em; }
+.folio small { display:block; font:18px/2 Georgia,serif; letter-spacing:.14em; }
+.folio em { font-weight:normal; color:var(--accent); margin:0 .04em; }
+.dispatch { border-top:1px solid var(--line); padding:18px 0; }
+.dispatch:first-child { border:0; padding-top:0; }
+.dispatch h3 { font:500 clamp(27px,3.5vw,48px)/1.3 var(--serif); }
+.dispatch h3 span { display:block; margin-top:4px; font:400 clamp(17px,1.6vw,22px)/1.5 var(--serif); }
+.dispatch p { color:var(--muted); font-size:13px; margin-top:8px; }
+.holdings { margin-top:36px; }
+.holdings>h2 { font:500 17px var(--serif); color:var(--accent); }
+.holding { display:flex; align-items:baseline; justify-content:space-between; gap:20px; border-top:1px solid var(--line); margin-top:14px; padding:18px 0; }
+.holding h2 { font:500 34px var(--serif); }
+.holding small { font:15px Georgia,serif; color:var(--muted); }
+.holding>a { text-decoration:underline; }
+@media(max-width:640px) {
+  .edition { display:block; padding:20px 0; }
+  .folio { font-size:52px; padding-bottom:16px; border-bottom:1px solid var(--ink); }
+  .folio small { display:inline; margin-right:12px; font-size:14px; }
+  .dispatch:first-child { padding-top:18px; }
+  .holding { display:block; } .holding>a { display:inline-block; margin-top:12px; }
+}
+:root { --paper:#f3f4ed; --ink:#131c1c; --green:#2547aa; --accent:#2547aa; --line:#c8cfc4; --serif:"Helvetica Neue","PingFang SC","Microsoft YaHei",Arial,sans-serif; }
+body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
+.top { padding:20px 0; }
+.brand { gap:9px; font:bold 28px/1 var(--serif); letter-spacing:-.05em; }
+.wordmark { font:bold 12px/1 Arial,sans-serif; letter-spacing:.03em; }
+.hero h1 { font-weight:650; letter-spacing:-.035em; }
+.cover { border:0; padding:26px 0 14px; }
+.cover h1 { font:600 24px/1.3 var(--serif); }
+.atlas { position:relative; display:flex; align-items:stretch; gap:0; flex-wrap:wrap; min-inline-size:0; padding:0; margin:0; border:0; background:#182eb4; color:#f2f6ed; }
+.atlas legend,.switch { position:absolute; width:1px; height:1px; clip-path:inset(50%); overflow:hidden; }
+.atlas > label { order:2; cursor:pointer; padding:12px 18px; font-size:14px; color:#e7eafa; border-top:1px solid #ffffff55; flex:auto; text-align:center; }
+.switch:checked + label { background:#d4ff70; color:#122427; }
+.switch:focus-visible + label { outline:3px solid #ffb13c; outline-offset:-4px; }
+.plate { display:none; order:1; flex-basis:100%; min-width:0; align-items:center; padding:clamp(22px,3vw,52px); gap:3%; }
+.switch:checked + label + .plate { display:grid; grid-template-columns:minmax(0, .95fr) minmax(0,1.5fr); }
+.subject h2 { font:650 clamp(46px,6vw,90px)/1.1 var(--serif); letter-spacing:-.055em; overflow-wrap:anywhere; margin:26px 0 16px; }
+.subject small { font:13px/1.4 var(--serif); letter-spacing:.08em; }
+.subject p { font-size:16px; }
+.atlas a:hover { color:#d4ff70; }
+.atlas a:focus-visible { outline-color:#d4ff70; }
+.folio { font-family:Arial,sans-serif; font-weight:600; }
+.dispatch h3 { font-weight:600; }
+@media(max-width:640px) {
+ .top {padding:13px 0;} .brand { font-size:24px; } .wordmark {font-size:9px;} .cover {padding:20px 0 12px;}
+ .switch:checked + label + .plate {grid-template-columns:1fr;} .plate {padding:21px 20px 12px;}
+ .subject h2 {font-size:46px;margin:10px 0 5px;} .subject p {font-size:14px;}
+ .weave svg {height:130px;} .atlas > label {font-size:12px;padding:12px 4px;}
+ .hero:not(.cover) {padding:34px 0;} .weave {grid-template-columns:1.65fr 1fr;}
+}
+:root {color-scheme:dark;--paper:#0b0e0d;--ink:#eff3ee;--green:#90e9ae;--accent:#8ed8a5;--muted:#a7b5ac;--line:#334039;}
+.top {border-color:#354139}.brand {font-weight:550}.wordmark {color:#aeb9b2}
+nav a[aria-current] {color:#b4f0c4}
+.cover h1 {font-weight:450}.hero:not(.cover) {margin-top:22px;padding:clamp(32px,5vw,66px);border:1px solid #46745a;border-radius:20px;background:radial-gradient(ellipse at 85% 130%,#448a5b,transparent 65%),linear-gradient(120deg,#123022,#204f36);}.hero p {color:#c4dccc}
+.atlas {border-radius:18px;overflow:hidden;border:1px solid #344439;background:radial-gradient(ellipse at 79% 66%,#263c2e,transparent 47%),linear-gradient(120deg,#101512,#101311 80%);}
+.atlas >label {background:#151d18;color:#cad7cf;border-color:#334338}
+.switch:checked + label {background:#215c3b;color:#edfdf1;box-shadow:inset 0 2px #92e2a6}
+.plate {min-height:330px;padding-block:28px;}
+.subject h2 {font-weight:470;letter-spacing:-.035em}.subject small {color:#a3b8aa}
+.atlas a:hover {color:#a9efbf}
+.archive-view {min-width:0;}
+.rack {position:relative;isolation:isolate;perspective:820px;height:230px;overflow:hidden;}
+.sheet {--step:clamp(27px,4vw,61px);position:absolute;inset:50% auto auto 50%;width:clamp(120px,14vw,205px);height:156px;
+  display:flex;flex-direction:column;justify-content:space-between;padding:14px 16px;border-radius:13px;cursor:pointer;
+  border:1px solid #f1fff2aa;box-shadow:inset 2px 1px 3px #ffffff8c,4px 9px 12px #0005;
+  background:linear-gradient(145deg,#c5d2c9c9,#8b98939e 52%,#435249bf);color:#112318;
+  transform:translate(-50%,-50%) translateX(calc(var(--offset)*var(--step))) rotateY(var(--tilt)) rotateZ(-6deg) scale(calc(1 - var(--depth)*.055));
+  z-index:calc(6 - var(--depth));}
+.sheet.chosen {color:white;background:linear-gradient(143deg,#a3edbaeb,#2d9a59ed 46%,#145c35fa);border-color:#b1f3c7;}
+.sheet b {font-size:17px;font-weight:500}.sheet small{font:13px/1.4 Arial,sans-serif}
+.sheet i {width:63%;height:22px;background:repeating-linear-gradient(0deg,currentColor 0 2px,transparent 2px 7px);opacity:.22}
+.ends {text-align:center;font-size:14px;color:#c4e5cd;line-height:1.85}.ends a {text-decoration:underline}
+.details,.directory,.holdings {margin-top:24px;padding:clamp(18px,3vw,38px);background:#151b17;border:1px solid #334038;border-radius:16px;}
+.directory a,.dispatch h3,.holding h2 {font-weight:450}.folio em {color:var(--accent)}
+@media(max-width:640px){.plate{min-height:0;padding:22px 18px 16px}.rack{height:162px}.sheet{width:126px;height:106px;padding:9px;--step:32px}.ends{font-size:13px}.subject h2{font-size:42px}.subject p{font-size:14px}.directory,.holdings,.details{padding:16px}}
+.arc {border:1px solid #324539;border-radius:18px;overflow:hidden;background:radial-gradient(ellipse at 50% 47%,#233b2b,#111713 53%,#101411);}
+.arc-track {--step:clamp(107px,12vw,180px);display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;align-items:center;height:clamp(236px,25vw,350px);overscroll-behavior-x:contain;}
+.arc-track::-webkit-scrollbar {display:none}
+.arc-track::before,.arc-track::after {content:'';flex:0 0 calc(50% - var(--step)/2);}
+.arc-slot {flex:0 0 var(--step);position:relative;display:grid;place-items:center;scroll-snap-align:center;min-width:0;}
+.arc-card {--lit:0;position:relative;isolation:isolate;width:calc(var(--step)*1.27);height:clamp(146px,14vw,210px);border:1px solid #d7e2d7;border-radius:12px;padding:14px;display:flex;flex-direction:column;align-items:start;justify-content:space-between;text-align:left;color:#13231a;background:linear-gradient(145deg,#d9e0dadf,#93a29aa6 65%,#84958aaf);box-shadow:inset 2px 2px 3px #ffffff88,4px 9px 16px #0005;cursor:pointer;}
+.arc-card::before {position:absolute;inset:0;content:'';border-radius:inherit;z-index:-1;background:linear-gradient(145deg,#bbf3cc,#62bc81 42%,#368754);opacity:var(--lit);}
+.arc-card strong {font:500 clamp(20px,2.5vw,42px)/1 Arial,sans-serif;overflow-wrap:anywhere;}
+.arc-card b {font-size:16px}.arc-card small {font:12px Georgia,serif;}
+.arc-bottom {border-top:1px solid #34453a;padding:18px clamp(15px,3vw,36px);display:flex;justify-content:space-between;align-items:center;gap:14px;background:#141c16;}
+.arc-record h2 {font-size:clamp(18px,2vw,28px);font-weight:500}.arc-record p {font-size:13px;color:#b7c8ba;margin-top:5px;}
+.arc-controls {display:flex;align-items:center;gap:6px;white-space:nowrap;}
+.arc-controls button {color:#dcf1df;border:1px solid #536b58;background:transparent;border-radius:50%;width:42px;height:42px;font-size:23px;cursor:pointer;}
+.arc-controls button:disabled {opacity:.35}.arc-controls output {font-size:12px;min-width:30px;text-align:center}
+@media(max-width:640px){.arc-bottom{align-items:start;flex-direction:column}.arc-controls{align-self:end}.arc-track{height:220px}}
+.sector-summary,.deal-summary {display:flex;align-items:baseline;gap:clamp(16px,5vw,70px);padding:22px 0;border-bottom:1px solid var(--line)}
+.sector-summary span,.deal small,.deal-summary small,.holding p {color:var(--muted);font-size:14px}
+.deal {border-bottom:1px solid var(--line);padding:26px 0;}
+.deal h2 {font-size:clamp(30px,4vw,50px);font-weight:500}
+.deal p,.holding p {margin-top:4px}.deal>a,.counterparties a {display:inline-block;color:var(--green);padding:10px 0}
+.deal-summary div {min-width:0}.deal-summary strong {display:block;font-size:clamp(24px,4vw,52px);font-weight:500;line-height:1.4}
+.counterparties {padding:22px 0}.counterparties h2 {font-size:17px;margin-bottom:8px}
+.counterparties a {display:block;border-bottom:1px solid var(--line);min-height:44px}
+.evidence {color:var(--muted);padding:12px 0}
+.profile-directory {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:36px;}
+.directory-row {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;border-bottom:1px solid var(--line);}
+.directory-row strong,.profile-records h3 {font-size:clamp(21px,2.1vw,30px);font-weight:500;overflow-wrap:anywhere;}
+.directory-row small {display:block;color:var(--muted);font-size:14px;margin-top:4px;}
+.directory-row i {font-style:normal;color:var(--green);}
+.profile-summary a,.related a {color:var(--green);}
+.profile-records {margin-top:30px;}
+.profile-records>h2 {font-weight:500;font-size:18px;color:var(--muted);}
+.profile-records .related {margin:10px 0;color:var(--muted);font-size:14px;}
+@media(max-width:640px){.profile-directory{grid-template-columns:1fr;}.directory-row{padding:15px 0;}}
+#archive-form {display:flex;align-items:end;flex-wrap:wrap;gap:12px;margin:24px 0;}
+#archive-form label {display:grid;gap:4px;color:var(--muted);}
+#archive-form input,#archive-form select,#archive-form button,#prev,#next {font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#18231d;color:var(--ink);}
+#matches .deal>a,.search-entry a {color:var(--green);font-weight:500;}
+.search-entry {margin:10px 0 16px;}
+@media(max-width:640px){#archive-form label{width:100%;}}
+.top nav {flex-wrap:wrap;justify-content:flex-end}.research-node {margin:14px 0;padding:14px 16px;border:1px solid var(--line);border-radius:10px}.research-node summary{cursor:pointer;color:var(--green)}
+.source-list {padding-left:22px}.source-list a,.comparison a,.profile-directory a {overflow-wrap:anywhere;}
+.deal dd {padding:4px 0 12px}.deal dt {color:var(--green)}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px}.comparison section{min-width:0;padding:20px;background:#18211b;border-radius:14px}.comparison select{display:block;width:100%;padding:10px;margin:10px 0}.comparison p{margin:12px 0}
+@media(max-width:700px){.top{display:block}.top nav{display:grid;grid-template-columns:repeat(3,1fr);gap:0 10px;margin-top:8px}.top nav a{text-align:center}.comparison{grid-template-columns:1fr}}
+</style></head>
+<body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
+<main><header class="hero "><p>具身智能　2026-11-02 — 2026-11-08</p><h1>具身智能：客户试运行、分层控制与量产口径</h1></header>
+<p class="intro">中国客户部署与触觉供应链融资出现进展；区分研究演示、试运行、制造下线与收入。覆盖11笔具身融资条目及2项共享世界模型事件，保留金额冲突与跨周交割边界。11月9日补充上纬启元一万台下线公告，不将下线等同交付。</p><section class="profile-records"><h2>当周事件与证据</h2><article class="deal"><h3>PyRUA-REAL：代码技能迭代</h3><p>论文真实任务91.1%为多个开发版本试验汇总，不是冻结终版部署可靠性；网线插接仍需在线智能体。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2611.06768">论文</a></li><li><a href="https://arxiv.org/html/2611.06768v1">实验与方法全文</a></li></ul></article><article class="deal"><h3>Apple HALO：分层指令与动作控制</h3><p>宇树G1研究平台；单任务91%与单环境多任务序列平均70%须分开。不是Apple机器人产品发布。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2611.06908">论文</a></li><li><a href="https://arxiv.org/html/2611.06908v1">实验全文</a></li></ul></article><article class="deal"><h3>灵犀X2焕新版及配置边界</h3><p>当前官方手册31主动自由度，全空间负载不超过1千克。电池421Wh与当周媒体500Wh存在配置或版本疑问。</p><ul class="source-list"><li><a href="https://www.ithome.com/1/023/497.htm">发布报道</a></li><li><a href="https://x2-aimdk.agibot.com/zh-cn/latest/about_agibot_X2/robot_specifications.html">官方规格</a></li></ul></article><article class="deal"><h3>Aptiv客户侧披露逐步部署机器人</h3><p>与它石智航、上海电气战略协议；数百台逐步部署，不是全部验收。集成方案初期生产计划在年末。</p><ul class="source-list"><li><a href="https://ir.aptiv.com/news/news-details/2026/Aptiv-Accelerates-Robotics-Expansion-With-Industry-Partners-2026-d-6_DOGBsW/default.aspx">客户原始公告</a></li></ul></article><article class="deal"><h3>灵初进入李宁物流中心试运行</h3><p>公司称正式商业订单及系统部署，仍在试运行和异常压力测试；无独立客户验收或效率数据。</p><ul class="source-list"><li><a href="https://www.psibot.ai/业内领先！物流拣选场景落地，灵初智能入驻李宁/">灵初公司公告</a></li></ul></article><article class="deal"><h3>上纬启元Q1/T1合计下线一万台</h3><p>当日补充。发行人公告称合计下线10000台，仍在量产爬坡和商业验证；未披露交付验收数量，营收占比低。</p><ul class="source-list"><li><a href="https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-09/12696266.PDF">发行人公告PDF</a></li></ul></article><article class="deal"><h3>Agility完成SPAC合并并挂牌</h3><p>美国11月4日完成合并、11月5日挂牌；既有事件进程更新，约4.65亿美元为毛额且不重复计新增融资。</p><ul class="source-list"><li><a href="https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination">合并公告</a></li><li><a href="https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt">挂牌公告</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2074973/000121390026116898/ea0311204-8k_churchill11.htm">SEC文件</a></li></ul></article><article class="deal"><h3>机器科学／RoboScience A2融资披露</h3><p>交易方原文只写数亿元，未明确币种；不补写人民币。部分二级媒体出现国联民生资本，不自动等同国联通宝。</p><ul class="source-list"><li><a href="https://finance.sina.com.cn/cj/2026-11-02/doc-inixiiqx2335807.shtml">交易方披露</a></li></ul></article><article class="deal"><h3>简智／GenRobot A+融资披露</h3><p>2026年第三季度完成，本周披露；政府网站为北京商报转载，不是政府独立核验。</p><ul class="source-list"><li><a href="https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202611/t20261103_4929717.html">北京商报转载</a></li></ul></article><article class="deal"><h3>灵枢智肤 种子轮融资披露</h3><p>两轮合计金额不能拆成单轮金额；领投和单轮各方出资未披露。领甪资本为财务顾问。</p><ul class="source-list"><li><a href="https://www.36kr.com/p/4051972607530113">灵枢原创采访</a></li></ul></article><article class="deal"><h3>灵枢智肤 天使轮融资披露</h3><p>两轮合计金额不能拆成单轮金额；领投和单轮各方出资未披露。领甪资本为财务顾问。</p><ul class="source-list"><li><a href="https://www.36kr.com/p/4051972607530113">灵枢原创采访</a></li></ul></article><article class="deal"><h3>飒智智能／SAGE Pre-B融资披露</h3><p>单轮与累计金额口径冲突，本轮金额保留null；指数资本为财务顾问。</p><ul class="source-list"><li><a href="https://indexvc.com/service/trade/18782.html">财务顾问原披露</a></li></ul></article><article class="deal"><h3>赛感科技 Pre-A++融资披露</h3><p>创始人原创采访；原文未明确币种。汽车制造订单达成不等于交付验收。</p><ul class="source-list"><li><a href="https://www.36kr.com/p/4047980565887233">赛感原创采访</a></li></ul></article><article class="deal"><h3>伟势（苏州）机器人科技有限公司 种子轮融资披露</h3><p>11月5日报道正文称11月4日获悉。驭势资本为财务顾问。产品迭代和交付准备不是已批量验收。</p><ul class="source-list"><li><a href="https://news-pro.smm.cn/article/1964787">报道</a></li></ul></article><article class="deal"><h3>安徽擎天智能科技有限公司 Pre-A融资披露</h3><p>来源使用基金称谓，具体法律全称未核实；原文币种未明确。不能与擎天租混同。</p><ul class="source-list"><li><a href="https://news.pedaily.cn/202611/571452.shtml">投资界报道</a></li></ul></article><article class="deal"><h3>奇林波 天使轮融资披露</h3><p>领投角色及其他个人身份未披露。</p><ul class="source-list"><li><a href="https://www.36kr.com/p/4052696726328452">原创报道</a></li></ul></article><article class="deal"><h3>Tutor Intelligence Series B融资披露</h3><p>稳定ID沿用源站日期；累计融资1.17亿美元不是本轮金额。远程人力需计入单位经济。</p><ul class="source-list"><li><a href="https://a16z.com/announcement/investing-in-tutor-intelligence/">a16z投资说明</a></li></ul></article><article class="deal"><h3>SYNCERE Pre-seed融资披露</h3><p>参与方名单非穷尽；家庭交付为公司披露，未披露交付数量。</p><ul class="source-list"><li><a href="https://syncere.com/newsroom/funding">公司融资页</a></li></ul></article><article class="deal"><h3>物原科技／TensorWorld Seed融资披露</h3><p>融资披露；实际交割与未披露字段以资本记录和来源为准。</p><ul class="source-list"><li><a href="https://zhidx.com/p/607705.html">智东西：物原科技披露1.05亿美元种子资金</a></li></ul></article><article class="deal"><h3>幂级智能／DenseAI 第三轮（正式轮次名称未披露）融资披露</h3><p>融资披露；实际交割与未披露字段以资本记录和来源为准。</p><ul class="source-list"><li><a href="https://api3.cls.cn/share/article/2526500?app=stib&amp;os=ios&amp;sv=203">科创板日报：幂级智能第三轮与半年累计融资</a></li><li><a href="https://cn.investing.com/news/stock-market-news/article-3651009">智通财经：幂级智能本轮具体金额未单独披露</a></li><li><a href="https://finance.eastmoney.com/a/202611043922167334.html">科创板日报11月4日短讯转载</a></li></ul></article></section><section class="profile-records"><h2>本期来源</h2><ul class="source-list"><li><a href="https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-09/12696266.PDF">发行人公告PDF</a></li><li><a href="https://arxiv.org/abs/2611.06768">论文</a></li><li><a href="https://arxiv.org/html/2611.06768v1">实验与方法全文</a></li><li><a href="https://arxiv.org/abs/2611.06908">论文</a></li><li><a href="https://arxiv.org/html/2611.06908v1">实验全文</a></li><li><a href="https://apple-aiml-research.github.io/ml-halo/">项目页</a></li><li><a href="https://www.ithome.com/1/023/497.htm">发布报道</a></li><li><a href="https://x2-aimdk.agibot.com/zh-cn/latest/about_agibot_X2/robot_specifications.html">官方规格</a></li><li><a href="https://x2-aimdk.agibot.com/zh-cn/latest/about_agibot_X2/onboard_computer.html">官方计算平台说明</a></li><li><a href="https://www.36kr.com/p/4051972607530113">灵枢原创采访</a></li><li><a href="https://www.36kr.com/p/4047980565887233">赛感原创采访</a></li><li><a href="https://ir.aptiv.com/news/news-details/2026/Aptiv-Accelerates-Robotics-Expansion-With-Industry-Partners-2026-d-6_DOGBsW/default.aspx">客户原始公告</a></li><li><a href="https://www.psibot.ai/业内领先！物流拣选场景落地，灵初智能入驻李宁/">灵初公司公告</a></li><li><a href="https://a16z.com/announcement/investing-in-tutor-intelligence/">a16z投资说明</a></li><li><a href="https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-11-2-tutor-intelligence-raises-75-million-series-b-led-by-andreessen-horowitz-to-scale-frontier-robotics-model-training-manufacturing-and-deployment">公司新闻稿转载</a></li><li><a href="https://syncere.com/newsroom/funding">公司融资页</a></li><li><a href="https://www.aol.com/articles/syncere-raises-11m-pre-seed-140000000.html">公司新闻稿转载</a></li><li><a href="https://finance.sina.com.cn/cj/2026-11-02/doc-inixiiqx2335807.shtml">交易方披露</a></li><li><a href="https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202611/t20261103_4929717.html">北京商报转载</a></li><li><a href="https://cn.technode.com/post/2026-11-02/genrobot-ai-100-million-series-a-plus-funding/">同期科技媒体报道</a></li><li><a href="https://indexvc.com/service/trade/18782.html">财务顾问原披露</a></li><li><a href="https://www.36kr.com/p/4053394503603076">11月3日报道</a></li><li><a href="https://news-pro.smm.cn/article/1964787">报道</a></li><li><a href="https://cn.investing.com/news/stock-market-news/article-3651004">同日报道交叉核对</a></li><li><a href="https://news.pedaily.cn/202611/571452.shtml">投资界报道</a></li><li><a href="https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixuqia5481433.shtml">全文转载</a></li><li><a href="https://www.36kr.com/p/4052696726328452">原创报道</a></li><li><a href="https://zhidx.com/p/607705.html">原报道</a></li><li><a href="https://api3.cls.cn/share/article/2526500?app=stib&amp;os=ios&amp;sv=203">科创板日报</a></li><li><a href="https://cn.investing.com/news/stock-market-news/article-3651009">智通报道</a></li><li><a href="https://www.businesswire.com/news/home/20261102314852/en/">公司新闻稿</a></li><li><a href="https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination">合并公告</a></li><li><a href="https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt">挂牌公告</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/2074973/000121390026116898/ea0311204-8k_churchill11.htm">SEC文件</a></li><li><a href="https://www.36kr.com/p/4056586458862728">本周报道</a></li><li><a href="https://scfzfund.sdholding.com/news/company/864685984723013.html">更早披露候选</a></li><li><a href="https://arxiv.org/abs/2609.37530">RawVLA</a></li><li><a href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation">Cosmos本周说明博客</a></li></ul></section></main></body></html>

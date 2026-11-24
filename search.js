@@ -4,15 +4,15 @@
   const list = document.querySelector('#matches');
   const count = document.querySelector('#match-count');
   const params = new URLSearchParams(location.search);
-  const keys = ['company','investor','sector'];
+  const keys = ['company','investor','sector','year','stage'];
   const norm = s => s.normalize('NFKC').trim().toLowerCase();
   for (const key of keys) form.elements[key].value = params.get(key) || '';
   let page = Math.max(1, Number(params.get('page')) || 1);
   function render() {
-    const [company, investor, sector] = keys.map(k=>norm(form.elements[k].value));
+    const [company, investor, sector, year, stage] = keys.map(k=>norm(form.elements[k].value));
     const found = rows.filter(r=>[r.company,...r.aliases].some(n=>norm(n).includes(company)) &&
       (!investor || r.investors.some(n=>norm(n).includes(investor))) &&
-      (!sector || norm(r.sector)===sector));
+      (!sector || norm(r.sector)===sector) && (!year || r.day.startsWith(year)) && (!stage || norm(r.stage).includes(stage)));
     const pages = Math.max(1,Math.ceil(found.length/24));
     page = Math.min(pages,Math.max(1,Math.floor(page)));
     const url = new URLSearchParams();

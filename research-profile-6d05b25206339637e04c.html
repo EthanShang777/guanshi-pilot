@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>睿尔曼 / RealMan · 观势</title><style>:root {
+  --paper: #f8f7f1;
+  --ink: #172e26;
+  --green: #30624e;
+  --muted: #58645c;
+  --line: #c9cec3;
+  --serif: "Songti SC", "Noto Serif CJK SC", "Noto Serif SC", SimSun, Georgia, serif;
+  font: 16px/1.65 "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+* { box-sizing: border-box; }
+body { margin: 0 auto; max-width: 1320px; padding: 0 clamp(20px, 6vw, 88px) 70px; }
+a { color: inherit; text-decoration: none; text-underline-offset: .22em; }
+a:hover { color: var(--green); text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+::selection { background: #d1e6cb; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 22px 0; border-bottom: 1px solid var(--ink); }
+.brand { display: inline-flex; align-items: center; gap: 12px; font: 600 26px var(--serif); }
+.mark { background: var(--ink); color: var(--paper); padding: 6px 8px; font-size: 22px; line-height: 1; border-radius: 3px; }
+nav { display: flex; gap: clamp(10px, 2vw, 32px); }
+nav a { padding: 10px 0 6px; border-bottom: 2px solid transparent; font-size: 14px; }
+nav a[aria-current] { border-color: var(--green); font-weight: 600; }
+.hero { position: relative; isolation: isolate; overflow: hidden; padding: clamp(36px, 6vw, 78px) 0; border-bottom: 3px double var(--ink); }
+h1, h2, h3, p { margin: 0; }
+h1 { font: 500 clamp(35px, 5.7vw, 78px)/1.18 var(--serif); text-wrap: balance; overflow-wrap: anywhere; }
+.hero p { color: var(--muted); margin-bottom: 12px; font-size: 14px; }
+.cover h1 { letter-spacing: .05em; }
+.day { display: grid; grid-template-columns: minmax(120px, 1fr) 4fr; gap: 20px; padding-top: 28px; }
+.day h2 { font: 500 30px/1.3 Georgia, var(--serif); font-variant-numeric: tabular-nums; }
+.day h2 small { display: block; font: 14px/1.6 Georgia, serif; color: var(--muted); }
+.entry { padding: 17px 0 22px; border-bottom: 1px solid var(--line); }
+.entry:first-child { padding-top: 0; }
+.entry a, .directory a { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
+.entry a::after, .directory a::after { content: '↗'; color: var(--green); font: 18px Georgia, serif; }
+.entry h3 { font: 500 clamp(22px, 2.4vw, 34px)/1.5 var(--serif); }
+.directory { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); column-gap: 44px; }
+.directory a { padding: 18px 0; border-bottom: 1px solid var(--line); font: 500 22px/1.6 var(--serif); }
+.details, .intro { max-width: 800px; }
+.details div { display: grid; grid-template-columns: 8em 1fr; gap: 1rem; padding: 19px 0; border-bottom: 1px solid var(--line); }
+dt { color: var(--muted); } dd { margin: 0; }
+.details a { color: var(--green); text-decoration: underline; }
+.intro { padding: 24px 0 0; }
+@media(max-width:640px) {
+  .top { gap: 8px; padding: 12px 0; }
+  .brand { gap: 6px; font-size: 21px; }
+  .mark { font-size: 18px; }
+  nav { gap: 9px; } nav a { font-size: 13px; padding: 12px 0; }
+  .day { grid-template-columns: 1fr; gap: 14px; }
+  .day h2 { font-size: 21px; } .day h2 small { display:inline; margin-right:8px; }
+  .directory { grid-template-columns: 1fr; }
+  .details div { grid-template-columns: 5em 1fr; }
+  .cover h1 { max-width: 74%; }
+}
+:root { --paper:#f6f3eb; --ink:#182e28; --accent:#954c36; }
+.cover { padding:24px 0 16px; border-bottom:1px solid var(--ink); }
+.cover h1 { font:500 20px/1.5 var(--serif); letter-spacing:.06em; }
+.edition { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2fr); gap:5%; padding:34px 0 40px; }
+.folio { font:normal clamp(48px,7vw,100px)/1 Georgia,serif; letter-spacing:-.045em; }
+.folio small { display:block; font:18px/2 Georgia,serif; letter-spacing:.14em; }
+.folio em { font-weight:normal; color:var(--accent); margin:0 .04em; }
+.dispatch { border-top:1px solid var(--line); padding:18px 0; }
+.dispatch:first-child { border:0; padding-top:0; }
+.dispatch h3 { font:500 clamp(27px,3.5vw,48px)/1.3 var(--serif); }
+.dispatch h3 span { display:block; margin-top:4px; font:400 clamp(17px,1.6vw,22px)/1.5 var(--serif); }
+.dispatch p { color:var(--muted); font-size:13px; margin-top:8px; }
+.holdings { margin-top:36px; }
+.holdings>h2 { font:500 17px var(--serif); color:var(--accent); }
+.holding { display:flex; align-items:baseline; justify-content:space-between; gap:20px; border-top:1px solid var(--line); margin-top:14px; padding:18px 0; }
+.holding h2 { font:500 34px var(--serif); }
+.holding small { font:15px Georgia,serif; color:var(--muted); }
+.holding>a { text-decoration:underline; }
+@media(max-width:640px) {
+  .edition { display:block; padding:20px 0; }
+  .folio { font-size:52px; padding-bottom:16px; border-bottom:1px solid var(--ink); }
+  .folio small { display:inline; margin-right:12px; font-size:14px; }
+  .dispatch:first-child { padding-top:18px; }
+  .holding { display:block; } .holding>a { display:inline-block; margin-top:12px; }
+}
+:root { --paper:#f3f4ed; --ink:#131c1c; --green:#2547aa; --accent:#2547aa; --line:#c8cfc4; --serif:"Helvetica Neue","PingFang SC","Microsoft YaHei",Arial,sans-serif; }
+body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
+.top { padding:20px 0; }
+.brand { gap:9px; font:bold 28px/1 var(--serif); letter-spacing:-.05em; }
+.wordmark { font:bold 12px/1 Arial,sans-serif; letter-spacing:.03em; }
+.hero h1 { font-weight:650; letter-spacing:-.035em; }
+.cover { border:0; padding:26px 0 14px; }
+.cover h1 { font:600 24px/1.3 var(--serif); }
+.atlas { position:relative; display:flex; align-items:stretch; gap:0; flex-wrap:wrap; min-inline-size:0; padding:0; margin:0; border:0; background:#182eb4; color:#f2f6ed; }
+.atlas legend,.switch { position:absolute; width:1px; height:1px; clip-path:inset(50%); overflow:hidden; }
+.atlas > label { order:2; cursor:pointer; padding:12px 18px; font-size:14px; color:#e7eafa; border-top:1px solid #ffffff55; flex:auto; text-align:center; }
+.switch:checked + label { background:#d4ff70; color:#122427; }
+.switch:focus-visible + label { outline:3px solid #ffb13c; outline-offset:-4px; }
+.plate { display:none; order:1; flex-basis:100%; min-width:0; align-items:center; padding:clamp(22px,3vw,52px); gap:3%; }
+.switch:checked + label + .plate { display:grid; grid-template-columns:minmax(0, .95fr) minmax(0,1.5fr); }
+.subject h2 { font:650 clamp(46px,6vw,90px)/1.1 var(--serif); letter-spacing:-.055em; overflow-wrap:anywhere; margin:26px 0 16px; }
+.subject small { font:13px/1.4 var(--serif); letter-spacing:.08em; }
+.subject p { font-size:16px; }
+.atlas a:hover { color:#d4ff70; }
+.atlas a:focus-visible { outline-color:#d4ff70; }
+.folio { font-family:Arial,sans-serif; font-weight:600; }
+.dispatch h3 { font-weight:600; }
+@media(max-width:640px) {
+ .top {padding:13px 0;} .brand { font-size:24px; } .wordmark {font-size:9px;} .cover {padding:20px 0 12px;}
+ .switch:checked + label + .plate {grid-template-columns:1fr;} .plate {padding:21px 20px 12px;}
+ .subject h2 {font-size:46px;margin:10px 0 5px;} .subject p {font-size:14px;}
+ .weave svg {height:130px;} .atlas > label {font-size:12px;padding:12px 4px;}
+ .hero:not(.cover) {padding:34px 0;} .weave {grid-template-columns:1.65fr 1fr;}
+}
+:root {color-scheme:dark;--paper:#0b0e0d;--ink:#eff3ee;--green:#90e9ae;--accent:#8ed8a5;--muted:#a7b5ac;--line:#334039;}
+.top {border-color:#354139}.brand {font-weight:550}.wordmark {color:#aeb9b2}
+nav a[aria-current] {color:#b4f0c4}
+.cover h1 {font-weight:450}.hero:not(.cover) {margin-top:22px;padding:clamp(32px,5vw,66px);border:1px solid #46745a;border-radius:20px;background:radial-gradient(ellipse at 85% 130%,#448a5b,transparent 65%),linear-gradient(120deg,#123022,#204f36);}.hero p {color:#c4dccc}
+.atlas {border-radius:18px;overflow:hidden;border:1px solid #344439;background:radial-gradient(ellipse at 79% 66%,#263c2e,transparent 47%),linear-gradient(120deg,#101512,#101311 80%);}
+.atlas >label {background:#151d18;color:#cad7cf;border-color:#334338}
+.switch:checked + label {background:#215c3b;color:#edfdf1;box-shadow:inset 0 2px #92e2a6}
+.plate {min-height:330px;padding-block:28px;}
+.subject h2 {font-weight:470;letter-spacing:-.035em}.subject small {color:#a3b8aa}
+.atlas a:hover {color:#a9efbf}
+.archive-view {min-width:0;}
+.rack {position:relative;isolation:isolate;perspective:820px;height:230px;overflow:hidden;}
+.sheet {--step:clamp(27px,4vw,61px);position:absolute;inset:50% auto auto 50%;width:clamp(120px,14vw,205px);height:156px;
+  display:flex;flex-direction:column;justify-content:space-between;padding:14px 16px;border-radius:13px;cursor:pointer;
+  border:1px solid #f1fff2aa;box-shadow:inset 2px 1px 3px #ffffff8c,4px 9px 12px #0005;
+  background:linear-gradient(145deg,#c5d2c9c9,#8b98939e 52%,#435249bf);color:#112318;
+  transform:translate(-50%,-50%) translateX(calc(var(--offset)*var(--step))) rotateY(var(--tilt)) rotateZ(-6deg) scale(calc(1 - var(--depth)*.055));
+  z-index:calc(6 - var(--depth));}
+.sheet.chosen {color:white;background:linear-gradient(143deg,#a3edbaeb,#2d9a59ed 46%,#145c35fa);border-color:#b1f3c7;}
+.sheet b {font-size:17px;font-weight:500}.sheet small{font:13px/1.4 Arial,sans-serif}
+.sheet i {width:63%;height:22px;background:repeating-linear-gradient(0deg,currentColor 0 2px,transparent 2px 7px);opacity:.22}
+.ends {text-align:center;font-size:14px;color:#c4e5cd;line-height:1.85}.ends a {text-decoration:underline}
+.details,.directory,.holdings {margin-top:24px;padding:clamp(18px,3vw,38px);background:#151b17;border:1px solid #334038;border-radius:16px;}
+.directory a,.dispatch h3,.holding h2 {font-weight:450}.folio em {color:var(--accent)}
+@media(max-width:640px){.plate{min-height:0;padding:22px 18px 16px}.rack{height:162px}.sheet{width:126px;height:106px;padding:9px;--step:32px}.ends{font-size:13px}.subject h2{font-size:42px}.subject p{font-size:14px}.directory,.holdings,.details{padding:16px}}
+.arc {border:1px solid #324539;border-radius:18px;overflow:hidden;background:radial-gradient(ellipse at 50% 47%,#233b2b,#111713 53%,#101411);}
+.arc-track {--step:clamp(107px,12vw,180px);display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;align-items:center;height:clamp(236px,25vw,350px);overscroll-behavior-x:contain;}
+.arc-track::-webkit-scrollbar {display:none}
+.arc-track::before,.arc-track::after {content:'';flex:0 0 calc(50% - var(--step)/2);}
+.arc-slot {flex:0 0 var(--step);position:relative;display:grid;place-items:center;scroll-snap-align:center;min-width:0;}
+.arc-card {--lit:0;position:relative;isolation:isolate;width:calc(var(--step)*1.27);height:clamp(146px,14vw,210px);border:1px solid #d7e2d7;border-radius:12px;padding:14px;display:flex;flex-direction:column;align-items:start;justify-content:space-between;text-align:left;color:#13231a;background:linear-gradient(145deg,#d9e0dadf,#93a29aa6 65%,#84958aaf);box-shadow:inset 2px 2px 3px #ffffff88,4px 9px 16px #0005;cursor:pointer;}
+.arc-card::before {position:absolute;inset:0;content:'';border-radius:inherit;z-index:-1;background:linear-gradient(145deg,#bbf3cc,#62bc81 42%,#368754);opacity:var(--lit);}
+.arc-card strong {font:500 clamp(20px,2.5vw,42px)/1 Arial,sans-serif;overflow-wrap:anywhere;}
+.arc-card b {font-size:16px}.arc-card small {font:12px Georgia,serif;}
+.arc-bottom {border-top:1px solid #34453a;padding:18px clamp(15px,3vw,36px);display:flex;justify-content:space-between;align-items:center;gap:14px;background:#141c16;}
+.arc-record h2 {font-size:clamp(18px,2vw,28px);font-weight:500}.arc-record p {font-size:13px;color:#b7c8ba;margin-top:5px;}
+.arc-controls {display:flex;align-items:center;gap:6px;white-space:nowrap;}
+.arc-controls button {color:#dcf1df;border:1px solid #536b58;background:transparent;border-radius:50%;width:42px;height:42px;font-size:23px;cursor:pointer;}
+.arc-controls button:disabled {opacity:.35}.arc-controls output {font-size:12px;min-width:30px;text-align:center}
+@media(max-width:640px){.arc-bottom{align-items:start;flex-direction:column}.arc-controls{align-self:end}.arc-track{height:220px}}
+.sector-summary,.deal-summary {display:flex;align-items:baseline;gap:clamp(16px,5vw,70px);padding:22px 0;border-bottom:1px solid var(--line)}
+.sector-summary span,.deal small,.deal-summary small,.holding p {color:var(--muted);font-size:14px}
+.deal {border-bottom:1px solid var(--line);padding:26px 0;}
+.deal h2 {font-size:clamp(30px,4vw,50px);font-weight:500}
+.deal p,.holding p {margin-top:4px}.deal>a,.counterparties a {display:inline-block;color:var(--green);padding:10px 0}
+.deal-summary div {min-width:0}.deal-summary strong {display:block;font-size:clamp(24px,4vw,52px);font-weight:500;line-height:1.4}
+.counterparties {padding:22px 0}.counterparties h2 {font-size:17px;margin-bottom:8px}
+.counterparties a {display:block;border-bottom:1px solid var(--line);min-height:44px}
+.evidence {color:var(--muted);padding:12px 0}
+.profile-directory {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:36px;}
+.directory-row {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;border-bottom:1px solid var(--line);}
+.directory-row strong,.profile-records h3 {font-size:clamp(21px,2.1vw,30px);font-weight:500;overflow-wrap:anywhere;}
+.directory-row small {display:block;color:var(--muted);font-size:14px;margin-top:4px;}
+.directory-row i {font-style:normal;color:var(--green);}
+.profile-summary a,.related a {color:var(--green);}
+.profile-records {margin-top:30px;}
+.profile-records>h2 {font-weight:500;font-size:18px;color:var(--muted);}
+.profile-records .related {margin:10px 0;color:var(--muted);font-size:14px;}
+@media(max-width:640px){.profile-directory{grid-template-columns:1fr;}.directory-row{padding:15px 0;}}
+#archive-form {display:flex;align-items:end;flex-wrap:wrap;gap:12px;margin:24px 0;}
+#archive-form label {display:grid;gap:4px;color:var(--muted);}
+#archive-form input,#archive-form select,#archive-form button,#prev,#next {font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#18231d;color:var(--ink);}
+#matches .deal>a,.search-entry a {color:var(--green);font-weight:500;}
+.search-entry {margin:10px 0 16px;}
+@media(max-width:640px){#archive-form label{width:100%;}}
+.top nav {flex-wrap:wrap;justify-content:flex-end}.research-node {margin:14px 0;padding:14px 16px;border:1px solid var(--line);border-radius:10px}.research-node summary{cursor:pointer;color:var(--green)}
+.source-list {padding-left:22px}.source-list a,.comparison a,.profile-directory a {overflow-wrap:anywhere;}
+.deal dd {padding:4px 0 12px}.deal dt {color:var(--green)}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px}.comparison section{min-width:0;padding:20px;background:#18211b;border-radius:14px}.comparison select{display:block;width:100%;padding:10px;margin:10px 0}.comparison p{margin:12px 0}
+@media(max-width:700px){.top{display:block}.top nav{display:grid;grid-template-columns:repeat(3,1fr);gap:0 10px;margin-top:8px}.top nav a{text-align:center}.comparison{grid-template-columns:1fr}}
+</style></head>
+<body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
+<main><header class="hero "><p>研究档案　2026-11-12</p><h1>睿尔曼 / RealMan</h1></header>
+<section class="profile-records"><h2>研究问题</h2><p>硬件与数采一体化能否创造可验证的数据价值，而不只是增加设备销售？</p></section><article class="deal"><h3>档案判断</h3><p>与穹彻的数据工具链、刻行的数据工作流可形成对标：睿尔曼以自有硬件控制数据采集链路，潜在优势是同步与标定一致性；代价是跨本体复用和硬件资本占用。投资判断应从采集数量转向有效数据成本、模型增益与重复采购。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.realman-robotics.cn/cn/main/data-services.html">睿尔曼官方数据服务</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网提供机械臂、关节模组、轮式机器人与达尔文数据服务，区分开源、标准和定制数据集，并描述遥操、设备管理、采集质检及交付流程。远程人工操作不等于自主作业，官网规模及性能指标未独立核验。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.realman-robotics.cn/cn/main/data-services.html">睿尔曼官方数据服务</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>睿尔曼第四代开发文档说明，六维力版本可将自定义轨迹周期性透传给底层力位混合补偿模块，最高支持200Hz指令下发。文档明确效果依赖稳定周期与轨迹平滑；该频率不是模型推理速度或整套操作闭环成功率。</p><p class="hint">未运行硬件或验证策略泛化、商业收入。</p><ul class="source-list"><li><a href="https://develop.realman-robotics.com/robot4th/apic/classes/forcePositionControl/">睿尔曼第四代 API2：透传力位混合控制补偿</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断：开放轨迹接口有利于集成上层策略，但接口可用不代表策略跨本体即插即用。应分别测策略推理延迟、通信抖动、底层跟踪与接触误差，固定任务比较失败恢复、人工接管和有效轨迹成本。数据采集业务的价值还取决于同步质量、力数据配置和标定是否可追溯；若模型提升只来自同一机械臂同一环境，不能据此外推通用数据平台溢价。与DOBOT及节卡比较时分开硬件销售、采集服务和可复用软件收入。</p><p class="hint">未运行硬件或验证策略泛化、商业收入。</p><ul class="source-list"><li><a href="https://develop.realman-robotics.com/robot4th/apic/classes/forcePositionControl/">睿尔曼第四代 API2：透传力位混合控制补偿</a></li></ul></article></main></body></html>
