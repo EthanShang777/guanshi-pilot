@@ -86,7 +86,20 @@
       "amount_display": "近亿元人民币",
       "business": "硅基 Micro-LED 驱动芯片",
       "investor_role": "联合投资"
+    },
+    {
+      "id": "90291",
+      "day": "2026-11-24",
+      "company": "章鱼动力再",
+      "title": "章鱼动力再获数亿元投资",
+      "sector": "待归类",
+      "round": "",
+      "first_close": false,
+      "investors": [],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261124-90291.html"
+      ]
     }
   ],
-  "through": "2026-11-23"
+  "through": "2026-11-24"
 }
