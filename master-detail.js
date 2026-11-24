@@ -17,7 +17,7 @@
         if(!value && label==='估值')continue;
         const cell=el('div','');cell.append(el('small',label),el('strong',value||'未列明'));summary.append(cell);
       }
-      root.append(summary,el('p',[row.dateKind,row.day||'日期未列明',row.sector,row.sub].filter(Boolean).join(' · ')),link(row.companyHref,'公司档案 →'));
+      root.append(summary,el('p',[row.dateKind,row.day||'日期未列明',row.location,row.sector,row.sub].filter(Boolean).join(' · ')),link(row.companyHref,'公司档案 →'));
       const parties=el('section','');parties.className='counterparties';parties.append(el('h2','参与机构'));
       for(const [n,url] of row.parties)parties.append(link(url,n+' →'));
       if(!row.parties.length)parties.append(el('p','未列明'));root.append(parties);

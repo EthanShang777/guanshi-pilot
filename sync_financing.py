@@ -18,6 +18,10 @@ def sync(events):
     params=[v for registry,country in registries.items() for v in ('co:'+registry+':*',country)]
     query(db,"UPDATE financing_events SET country=CASE "+cases+" ELSE country END WHERE country='' AND ("+
           ' OR '.join('company_id GLOB ?' for _ in registries)+')',params+params[::2])
+    locations=json.loads(Path('country-locations.json').read_text())
+    for key,place in locations.items():
+        if key.startswith('cv:flash:'):
+            query(db,"UPDATE financing_events SET country=? WHERE event_id=? AND country=''",[place[0],key])
     query(db,'CREATE INDEX IF NOT EXISTS financing_by_date ON financing_events(date_key)')
     additions=linked=held=0
     for e in events:
