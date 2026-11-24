@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>EMQX</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>持久消息带来的业务恢复收益，能否覆盖副本存储和延迟成本并形成增购？</p></section><article class="deal"><h3>档案判断</h3><p>EMQX补充物理设备与AI之间的实时消息层，可与TDengine时序存储和分析层区分。潜在价值在设备接入、弱网恢复与持续运维，而非单纯接入模型；可靠消息传递不等于执行器安全或任务成功。应核查AI增购是否独立付费，以及云资源、跨区域通信和现场集成对毛利的影响。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.emqx.com/en">EMQX官方AI与IoT数据平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网介绍MQTT消息、规则引擎及数据集成，提供Cloud、Enterprise、Edge及Neuron产品，并称内置MCP支持设备与AI连接。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.emqx.com/en">EMQX官方AI与IoT数据平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>EMQX企业版文档区分内存普通会话与落盘持久会话：节点重启时前者会丢失会话状态，后者可恢复。需开启durable_sessions.enable且会话过期时间大于零；消息分发取决于订阅端会话是否持久化，而非只看发布端。文档同时说明落盘及批处理会牺牲吞吐、增加延迟，不能将普通会话的性能数字直接套给持久配置。</p><p class="hint">无独立压测、客户合同或AI增购数据。</p><ul class="source-list"><li><a href="https://docs.emqx.com/en/emqx/latest/guides/durability/durability_introduction.html">EMQX Enterprise：MQTT Durable Sessions</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>这使“设备连接到AI”的投资比较有了可测边界：价值应落在断网、重启后的业务恢复，而不只是连接数或MCP支持。要把磁盘、副本、追赶积压与端到端延迟放进同一成本账；消息送达也不证明机器人命令只执行一次、业务已落库或动作安全，仍需应用回执和幂等。只有付费客户愿意为这些恢复能力持续增购，才能支持超越基础MQTT接入的收入判断。</p><p class="hint">无独立压测、客户合同或AI增购数据。</p><ul class="source-list"><li><a href="https://docs.emqx.com/en/emqx/latest/guides/durability/durability_introduction.html">EMQX Enterprise：MQTT Durable Sessions</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>持久消息带来的业务恢复收益，能否覆盖副本存储和延迟成本并形成增购？</p></section><article class="deal"><h3>档案判断</h3><p>EMQX补充物理设备与AI之间的实时消息层，可与TDengine时序存储和分析层区分。潜在价值在设备接入、弱网恢复与持续运维，而非单纯接入模型；可靠消息传递不等于执行器安全或任务成功。应核查AI增购是否独立付费，以及云资源、跨区域通信和现场集成对毛利的影响。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.emqx.com/en">EMQX官方AI与IoT数据平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网介绍MQTT消息、规则引擎及数据集成，提供Cloud、Enterprise、Edge及Neuron产品，并称内置MCP支持设备与AI连接。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.emqx.com/en">EMQX官方AI与IoT数据平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>EMQX企业版文档区分内存普通会话与落盘持久会话：节点重启时前者会丢失会话状态，后者可恢复。需开启durable_sessions.enable且会话过期时间大于零；消息分发取决于订阅端会话是否持久化，而非只看发布端。文档同时说明落盘及批处理会牺牲吞吐、增加延迟，不能将普通会话的性能数字直接套给持久配置。</p><p class="hint">无独立压测、客户合同或AI增购数据。</p><ul class="source-list"><li><a href="https://docs.emqx.com/en/emqx/latest/guides/durability/durability_introduction.html">EMQX Enterprise：MQTT Durable Sessions</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>这使“设备连接到AI”的投资比较有了可测边界：价值应落在断网、重启后的业务恢复，而不只是连接数或MCP支持。要把磁盘、副本、追赶积压与端到端延迟放进同一成本账；消息送达也不证明机器人命令只执行一次、业务已落库或动作安全，仍需应用回执和幂等。只有付费客户愿意为这些恢复能力持续增购，才能支持超越基础MQTT接入的收入判断。</p><p class="hint">无独立压测、客户合同或AI增购数据。</p><ul class="source-list"><li><a href="https://docs.emqx.com/en/emqx/latest/guides/durability/durability_introduction.html">EMQX Enterprise：MQTT Durable Sessions</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

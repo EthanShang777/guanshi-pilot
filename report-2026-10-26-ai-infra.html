@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>AI 基础设施　2026-10-19 — 2026-10-25</p><h1>AI Infra投资周报：推理软件、存储与验证计算重新分配价值</h1></header>
-<p class="reading-lead">开源推理引擎提供了可检查的工程成果，线上服务能力还需要独立验证。</p><article class="deal"><h3>DeepInfer开源：离线引擎与完整服务边界</h3><p>官方代码可核实；支持双硬件不等于性能同等；完整KV缓存与服务调度仍需集成。</p><a href="https://github.com/deepseek-ai/DeepInfer">查看这条证据 ↗</a></article><details class="research-node"><summary>推理/存储 · 1 项</summary><article class="deal"><h3>DeepInfer开源：离线引擎与完整服务边界</h3><p>官方代码可核实；支持双硬件不等于性能同等；完整KV缓存与服务调度仍需集成。</p><ul class="source-list"><li><a href="https://github.com/deepseek-ai/DeepInfer">DeepSeek 官方 DeepInfer 仓库</a></li><li><a href="https://github.com/deepseek-ai/DeepInfer/blob/main/deepinfer/worker/cache_engine.py">DeepInfer 官方仓库文件提交日期</a></li><li><a href="https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md">DeepSeek 官方部署 Q&amp;A</a></li></ul></article></details><details class="research-node"><summary>推理服务 · 1 项</summary><article class="deal"><h3>硅基流动原模型ID升级至1017</h3><p>公司公告称已升级；不推断收入或价格变化。</p><ul class="source-list"><li><a href="https://docs.siliconflow.cn/docs/release-notes/overview">硅基流动官方更新公告</a></li></ul></article></details><details class="research-node"><summary>数据 · 1 项</summary><article class="deal"><h3>华为云AI DataLake版本文档更新</h3><p>本周文档更新，不等同首次发布或客户商用。</p><ul class="source-list"><li><a href="https://support.huaweicloud.com/verspt-bulletin-aidatalake/aidatalake_bulletin_0003.html">华为云 AI DataLake 26.9.0 版本说明</a></li></ul></article></details><details class="research-node"><summary>算力部署 · 1 项</summary><article class="deal"><h3>灵衢智算集群仍处公测</h3><p>日期为指南更新；首次公测日期未确认，审核制、资源有限。</p><ul class="source-list"><li><a href="https://support.huaweicloud.com/usermanual-aics/aics_03_0100.html">华为云灵衢智算集群公测说明</a></li></ul></article></details><details class="research-node"><summary>运维 · 1 项</summary><article class="deal"><h3>NVIDIA发布Minerva</h3><p>IREN使用属公司声明，其他多家为计划部署。</p><ul class="source-list"><li><a href="https://blogs.nvidia.com/blog/minerva-platform-infrastructure/">NVIDIA 官方 Minerva 公告</a></li></ul></article></details><details class="research-node"><summary>供给/交付 · 1 项</summary><article class="deal"><h3>DSX POD参考设计公布</h3><p>2027年初交付目标，14天仅指准备就绪场地部署。</p><ul class="source-list"><li><a href="https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment">NVIDIA 官方 DSX POD 公告</a></li></ul></article></details><details class="research-node"><summary>海外对标／训练推理基础设施邻接 · 1 项</summary><article class="deal"><h3>Flapping Airplanes A轮补录：算力与数据效率研究</h3><p>Index公告$1B Series A并描述megakernels及训练推理全栈优化；Bloomberg报道$6B投后估值。仅证明融资和研究方向，不能证明生产收益、量产部署或递归自我改进成立。</p><ul class="source-list"><li><a href="https://www.indexventures.com/perspectives/toward-more-efficient-ai-leading-flapping-airplanes-1b-series-a/">Index Ventures：Flapping Airplanes $1B Series A（2026-10-21）</a></li><li><a href="https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round">Bloomberg Law：Flapping Airplanes融资与投后估值（2026-10-21）</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>DeepInfer开源和硅基流动服务升级强化中国推理工程化；铭芯启睿A轮及LPU研发启动值得跟进；海外对标Tenstorrent、Blacksmith及NVIDIA运维/交付。明确公测、计划和已部署边界。 修订补录Flapping Airplanes $1B A轮及训练/推理效率邻接分析；不改变原三笔融资。</p><ul class="source-list"><li><a href="https://github.com/deepseek-ai/DeepInfer">DeepSeek 官方 DeepInfer 仓库</a></li><li><a href="https://github.com/deepseek-ai/DeepInfer/blob/main/deepinfer/worker/cache_engine.py">DeepInfer 官方仓库文件提交日期</a></li><li><a href="https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md">DeepSeek 官方部署 Q&amp;A</a></li><li><a href="https://docs.siliconflow.cn/docs/release-notes/overview">硅基流动官方更新公告</a></li><li><a href="https://support.huaweicloud.com/verspt-bulletin-aidatalake/aidatalake_bulletin_0003.html">华为云 AI DataLake 26.9.0 版本说明</a></li><li><a href="https://support.huaweicloud.com/usermanual-aics/aics_03_0100.html">华为云灵衢智算集群公测说明</a></li><li><a href="https://www.chinastarmarket.cn/detail/2508542">科创板日报：铭芯启睿 A 轮融资</a></li><li><a href="https://www.donews.com/news/detail/1/6746482.html">DoNews：铭芯启睿融资及卢涛加入</a></li><li><a href="https://memsilicon.com/gsjj">铭芯启睿官网公司介绍</a></li><li><a href="https://blogs.nvidia.com/blog/minerva-platform-infrastructure/">NVIDIA 官方 Minerva 公告</a></li><li><a href="https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment">NVIDIA 官方 DSX POD 公告</a></li><li><a href="https://www.blacksmith.sh/blog/series-c">Blacksmith 官方 Series C 公告</a></li><li><a href="https://www.prnewswire.com/news-releases/blacksmith-raises-sequoia-led-series-c-at-1-billion-valuation-to-scale-code-validation-302915140.html">Blacksmith 公司发布的 PR Newswire 融资公告</a></li><li><a href="https://forgeglobal.com/blacksmith_ipo/">Forge Blacksmith 融资资料（日期与官方公告不同）</a></li><li><a href="https://tenstorrent.com/newsroom/tenstorrent-announces-series-e">Tenstorrent 官方 Series E 公告</a></li><li><a href="https://www.36kr.com/p/4037831216518279">36氪：观复芯种子轮报道（待一手复核）</a></li><li><a href="https://www.36kr.com/p/4022774173405057">无问芯穹10月12日融资报道（非本周）</a></li><li><a href="https://www.indexventures.com/perspectives/toward-more-efficient-ai-leading-flapping-airplanes-1b-series-a/">Index Ventures：Flapping Airplanes $1B Series A（2026-10-21）</a></li><li><a href="https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round">Bloomberg Law：Flapping Airplanes融资与投后估值（2026-10-21）</a></li></ul></details></main></body></html>
+<p class="reading-lead">开源推理引擎提供了可检查的工程成果，线上服务能力还需要独立验证。</p><article class="deal"><h3>DeepInfer开源：离线引擎与完整服务边界</h3><p>官方代码可核实；支持双硬件不等于性能同等；完整KV缓存与服务调度仍需集成。</p><a href="https://github.com/deepseek-ai/DeepInfer">查看这条证据 ↗</a></article><details class="research-node"><summary>推理/存储 · 1 项</summary><article class="deal"><h3>DeepInfer开源：离线引擎与完整服务边界</h3><p>官方代码可核实；支持双硬件不等于性能同等；完整KV缓存与服务调度仍需集成。</p><ul class="source-list"><li><a href="https://github.com/deepseek-ai/DeepInfer">DeepSeek 官方 DeepInfer 仓库</a></li><li><a href="https://github.com/deepseek-ai/DeepInfer/blob/main/deepinfer/worker/cache_engine.py">DeepInfer 官方仓库文件提交日期</a></li><li><a href="https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md">DeepSeek 官方部署 Q&amp;A</a></li></ul></article></details><details class="research-node"><summary>推理服务 · 1 项</summary><article class="deal"><h3>硅基流动原模型ID升级至1017</h3><p>公司公告称已升级；不推断收入或价格变化。</p><ul class="source-list"><li><a href="https://docs.siliconflow.cn/docs/release-notes/overview">硅基流动官方更新公告</a></li></ul></article></details><details class="research-node"><summary>数据 · 1 项</summary><article class="deal"><h3>华为云AI DataLake版本文档更新</h3><p>本周文档更新，不等同首次发布或客户商用。</p><ul class="source-list"><li><a href="https://support.huaweicloud.com/verspt-bulletin-aidatalake/aidatalake_bulletin_0003.html">华为云 AI DataLake 26.9.0 版本说明</a></li></ul></article></details><details class="research-node"><summary>算力部署 · 1 项</summary><article class="deal"><h3>灵衢智算集群仍处公测</h3><p>日期为指南更新；首次公测日期未确认，审核制、资源有限。</p><ul class="source-list"><li><a href="https://support.huaweicloud.com/usermanual-aics/aics_03_0100.html">华为云灵衢智算集群公测说明</a></li></ul></article></details><details class="research-node"><summary>运维 · 1 项</summary><article class="deal"><h3>NVIDIA发布Minerva</h3><p>IREN使用属公司声明，其他多家为计划部署。</p><ul class="source-list"><li><a href="https://blogs.nvidia.com/blog/minerva-platform-infrastructure/">NVIDIA 官方 Minerva 公告</a></li></ul></article></details><details class="research-node"><summary>供给/交付 · 1 项</summary><article class="deal"><h3>DSX POD参考设计公布</h3><p>2027年初交付目标，14天仅指准备就绪场地部署。</p><ul class="source-list"><li><a href="https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment">NVIDIA 官方 DSX POD 公告</a></li></ul></article></details><details class="research-node"><summary>海外对标／训练推理基础设施邻接 · 1 项</summary><article class="deal"><h3>Flapping Airplanes A轮补录：算力与数据效率研究</h3><p>Index公告$1B Series A并描述megakernels及训练推理全栈优化；Bloomberg报道$6B投后估值。仅证明融资和研究方向，不能证明生产收益、量产部署或递归自我改进成立。</p><ul class="source-list"><li><a href="https://www.indexventures.com/perspectives/toward-more-efficient-ai-leading-flapping-airplanes-1b-series-a/">Index Ventures：Flapping Airplanes $1B Series A（2026-10-21）</a></li><li><a href="https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round">Bloomberg Law：Flapping Airplanes融资与投后估值（2026-10-21）</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>DeepInfer开源和硅基流动服务升级强化中国推理工程化；铭芯启睿A轮及LPU研发启动值得跟进；海外对标Tenstorrent、Blacksmith及NVIDIA运维/交付。明确公测、计划和已部署边界。 修订补录Flapping Airplanes $1B A轮及训练/推理效率邻接分析；不改变原三笔融资。</p><ul class="source-list"><li><a href="https://github.com/deepseek-ai/DeepInfer">DeepSeek 官方 DeepInfer 仓库</a></li><li><a href="https://github.com/deepseek-ai/DeepInfer/blob/main/deepinfer/worker/cache_engine.py">DeepInfer 官方仓库文件提交日期</a></li><li><a href="https://github.com/deepseek-ai/DeepInfer/blob/main/doc/inference_deployment_qa.md">DeepSeek 官方部署 Q&amp;A</a></li><li><a href="https://docs.siliconflow.cn/docs/release-notes/overview">硅基流动官方更新公告</a></li><li><a href="https://support.huaweicloud.com/verspt-bulletin-aidatalake/aidatalake_bulletin_0003.html">华为云 AI DataLake 26.9.0 版本说明</a></li><li><a href="https://support.huaweicloud.com/usermanual-aics/aics_03_0100.html">华为云灵衢智算集群公测说明</a></li><li><a href="https://www.chinastarmarket.cn/detail/2508542">科创板日报：铭芯启睿 A 轮融资</a></li><li><a href="https://www.donews.com/news/detail/1/6746482.html">DoNews：铭芯启睿融资及卢涛加入</a></li><li><a href="https://memsilicon.com/gsjj">铭芯启睿官网公司介绍</a></li><li><a href="https://blogs.nvidia.com/blog/minerva-platform-infrastructure/">NVIDIA 官方 Minerva 公告</a></li><li><a href="https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment">NVIDIA 官方 DSX POD 公告</a></li><li><a href="https://www.blacksmith.sh/blog/series-c">Blacksmith 官方 Series C 公告</a></li><li><a href="https://www.prnewswire.com/news-releases/blacksmith-raises-sequoia-led-series-c-at-1-billion-valuation-to-scale-code-validation-302915140.html">Blacksmith 公司发布的 PR Newswire 融资公告</a></li><li><a href="https://forgeglobal.com/blacksmith_ipo/">Forge Blacksmith 融资资料（日期与官方公告不同）</a></li><li><a href="https://tenstorrent.com/newsroom/tenstorrent-announces-series-e">Tenstorrent 官方 Series E 公告</a></li><li><a href="https://www.36kr.com/p/4037831216518279">36氪：观复芯种子轮报道（待一手复核）</a></li><li><a href="https://www.36kr.com/p/4022774173405057">无问芯穹10月12日融资报道（非本周）</a></li><li><a href="https://www.indexventures.com/perspectives/toward-more-efficient-ai-leading-flapping-airplanes-1b-series-a/">Index Ventures：Flapping Airplanes $1B Series A（2026-10-21）</a></li><li><a href="https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round">Bloomberg Law：Flapping Airplanes融资与投后估值（2026-10-21）</a></li></ul></details></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

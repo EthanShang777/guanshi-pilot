@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>E2B</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>智能体沙箱能否形成可持续的软件收入，而非低毛利计算转售？</p></section><article class="deal"><h3>档案判断</h3><p>与Modal相比，E2B更强调智能体完整执行环境及客户云部署。对中国AI Infra与Agent公司的价值在于评估执行层能否形成模型无关的开发者黏性，而不是将智能体热度直接等同沙箱利润。应拆分底层计算成本、环境管理软件价值和企业集成负担。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://e2b.dev/">E2B官方智能体执行基础设施</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>E2B官方介绍以每会话隔离微虚拟机承载代码执行、电脑操作、后台任务与强化学习采样，可选托管或客户云。注册团队、客户标志与演示任务不是付费客户或独立性能证据；运行模拟任务不等于拥有世界模型，提供强化学习环境也不等于递归自我改进。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://e2b.dev/">E2B官方智能体执行基础设施</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>E2B文档说明正常暂停保存文件和内存，但来宾代理不响应时，默认暂停得到的快照可能只能从磁盘重启，不能恢复内存；未刷盘写入也可能丢失。strict参数会改为拒绝暂停并保留运行状态，要求SDK 2.63.0或以上。节点忙时拒绝暂停的行为逐区域上线，文档提示不同区域可能返回500或503。因此“暂停成功”不能一概等同“进程可无损续跑”。</p><p class="hint">未测试具体区域及SDK；不将平台状态等同业务完成或恢复保证。</p><ul class="source-list"><li><a href="https://docs.e2b.dev/sandbox/persistence">E2B Sandbox persistence：暂停拒绝与不响应快照恢复边界</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>与Daytona、Modal比较应覆盖故障恢复而非只看正常路径：在同一状态规模下区分健康暂停、快照忙、代理不响应与断线，核实际恢复方式、检查点丢失量和恢复后任务成功率。保存内存本身不能证明外部连接或已经提交的动作可安全重放，业务需有原任务标识与结果核对。投资价值在于减少客户重算、人工排障和重复执行损失，同时控制持久化及支持成本；应跟踪故障客户的留存和付费扩张，不把SDK功能表或沙箱创建数当商业壁垒。</p><p class="hint">未测试具体区域及SDK；不将平台状态等同业务完成或恢复保证。</p><ul class="source-list"><li><a href="https://docs.e2b.dev/sandbox/persistence">E2B Sandbox persistence：暂停拒绝与不响应快照恢复边界</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>智能体沙箱能否形成可持续的软件收入，而非低毛利计算转售？</p></section><article class="deal"><h3>档案判断</h3><p>与Modal相比，E2B更强调智能体完整执行环境及客户云部署。对中国AI Infra与Agent公司的价值在于评估执行层能否形成模型无关的开发者黏性，而不是将智能体热度直接等同沙箱利润。应拆分底层计算成本、环境管理软件价值和企业集成负担。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://e2b.dev/">E2B官方智能体执行基础设施</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>E2B官方介绍以每会话隔离微虚拟机承载代码执行、电脑操作、后台任务与强化学习采样，可选托管或客户云。注册团队、客户标志与演示任务不是付费客户或独立性能证据；运行模拟任务不等于拥有世界模型，提供强化学习环境也不等于递归自我改进。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://e2b.dev/">E2B官方智能体执行基础设施</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>E2B文档说明正常暂停保存文件和内存，但来宾代理不响应时，默认暂停得到的快照可能只能从磁盘重启，不能恢复内存；未刷盘写入也可能丢失。strict参数会改为拒绝暂停并保留运行状态，要求SDK 2.63.0或以上。节点忙时拒绝暂停的行为逐区域上线，文档提示不同区域可能返回500或503。因此“暂停成功”不能一概等同“进程可无损续跑”。</p><p class="hint">未测试具体区域及SDK；不将平台状态等同业务完成或恢复保证。</p><ul class="source-list"><li><a href="https://docs.e2b.dev/sandbox/persistence">E2B Sandbox persistence：暂停拒绝与不响应快照恢复边界</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>与Daytona、Modal比较应覆盖故障恢复而非只看正常路径：在同一状态规模下区分健康暂停、快照忙、代理不响应与断线，核实际恢复方式、检查点丢失量和恢复后任务成功率。保存内存本身不能证明外部连接或已经提交的动作可安全重放，业务需有原任务标识与结果核对。投资价值在于减少客户重算、人工排障和重复执行损失，同时控制持久化及支持成本；应跟踪故障客户的留存和付费扩张，不把SDK功能表或沙箱创建数当商业壁垒。</p><p class="hint">未测试具体区域及SDK；不将平台状态等同业务完成或恢复保证。</p><ul class="source-list"><li><a href="https://docs.e2b.dev/sandbox/persistence">E2B Sandbox persistence：暂停拒绝与不响应快照恢复边界</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

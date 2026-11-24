@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>清程极智</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>引擎优化与API路由能否分别形成可持续优势，而非依赖适配项目或价格差？</p></section><article class="deal"><h3>档案判断</h3><p>清程极智补充国产推理引擎到服务路由的纵向对照：与中科加禾编译层、趋动池化层及九章云极交付层分别比较。低精度推理节省需同时核任务质量和真实吞吐；评测平台又参与流量路由时，应核评测独立性、模型版本一致性和服务商利益关系，不能只以最低Token单价判断价值。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.qc-ai.cn/about">清程极智官方产品与系统软件介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网介绍八卦炉训练软件栈、赤兔推理引擎及AI Ping模型服务评测与调用平台，称赤兔支持多类硬件和低精度推理，AI Ping提供服务聚合与路由。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.qc-ai.cn/about">清程极智官方产品与系统软件介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Chitu 当前 CLI 文档区分启动器：Docker 的自动平台检测覆盖 NVIDIA、Ascend、Hygon、MetaX；Apptainer 仅检测 NVIDIA 与 Hygon。实例重启入口要求运行中 Router 已预声明该实例，并提供协调器地址；不是任意失败请求的自动恢复承诺。</p><p class="hint">文档列举不等于独立兼容验证，未核客户实际安装版本。</p><ul class="source-list"><li><a href="https://github.com/thu-pacman/chitu/blob/public-main/docs/en/CLI.md">Chitu 官方仓库 CLI 配置及启动平台边界</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断应把“可启动”与“可经济交付”分开：锁定引擎提交、容器、驱动、芯片、模型与精度，先核部署成功和质量，再按相同请求分布测首Token、逐Token及尾延迟、有效完成率与每合格任务全成本。多实例/PD分离还需注入单实例故障，核路由重连、在途请求丢失和恢复用时。国产适配广度只有转化为较少交付工时、付费复用和续费才构成商业护城河；开源下载、单卡能跑或峰值吞吐不能直接证明这一点。</p><p class="hint">缺少客户合同、交付工时、续费及独立负载数据。</p><ul class="source-list"><li><a href="https://github.com/thu-pacman/chitu/blob/public-main/docs/en/CLI.md">Chitu 官方仓库 CLI 配置及启动平台边界</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>引擎优化与API路由能否分别形成可持续优势，而非依赖适配项目或价格差？</p></section><article class="deal"><h3>档案判断</h3><p>清程极智补充国产推理引擎到服务路由的纵向对照：与中科加禾编译层、趋动池化层及九章云极交付层分别比较。低精度推理节省需同时核任务质量和真实吞吐；评测平台又参与流量路由时，应核评测独立性、模型版本一致性和服务商利益关系，不能只以最低Token单价判断价值。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.qc-ai.cn/about">清程极智官方产品与系统软件介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网介绍八卦炉训练软件栈、赤兔推理引擎及AI Ping模型服务评测与调用平台，称赤兔支持多类硬件和低精度推理，AI Ping提供服务聚合与路由。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.qc-ai.cn/about">清程极智官方产品与系统软件介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Chitu 当前 CLI 文档区分启动器：Docker 的自动平台检测覆盖 NVIDIA、Ascend、Hygon、MetaX；Apptainer 仅检测 NVIDIA 与 Hygon。实例重启入口要求运行中 Router 已预声明该实例，并提供协调器地址；不是任意失败请求的自动恢复承诺。</p><p class="hint">文档列举不等于独立兼容验证，未核客户实际安装版本。</p><ul class="source-list"><li><a href="https://github.com/thu-pacman/chitu/blob/public-main/docs/en/CLI.md">Chitu 官方仓库 CLI 配置及启动平台边界</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断应把“可启动”与“可经济交付”分开：锁定引擎提交、容器、驱动、芯片、模型与精度，先核部署成功和质量，再按相同请求分布测首Token、逐Token及尾延迟、有效完成率与每合格任务全成本。多实例/PD分离还需注入单实例故障，核路由重连、在途请求丢失和恢复用时。国产适配广度只有转化为较少交付工时、付费复用和续费才构成商业护城河；开源下载、单卡能跑或峰值吞吐不能直接证明这一点。</p><p class="hint">缺少客户合同、交付工时、续费及独立负载数据。</p><ul class="source-list"><li><a href="https://github.com/thu-pacman/chitu/blob/public-main/docs/en/CLI.md">Chitu 官方仓库 CLI 配置及启动平台边界</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

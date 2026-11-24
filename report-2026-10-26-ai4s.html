@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>科学智能　2026-10-19 — 2026-10-25</p><h1>AI4S与虚拟细胞周报｜从模型声明走向实验、数据与交付验证</h1></header>
-<p class="reading-lead">虚拟细胞公司的技术路线和融资进度都有更新，实验反馈与客户交付仍需分别验证。</p><article class="deal"><h3>元示两轮融资与虚拟细胞产线声明</h3><p>近亿元为两轮合计；泛化与产线能力为公司声明，未独立验证</p><a href="https://api3.cls.cn/share/article/2512467?app=stib&amp;os=web&amp;sv=849">查看这条证据 ↗</a></article><details class="research-node"><summary>融资与交易 · 2 项</summary><article class="deal"><h3>元示两轮融资与虚拟细胞产线声明</h3><p>近亿元为两轮合计；泛化与产线能力为公司声明，未独立验证</p><ul class="source-list"><li><a href="https://api3.cls.cn/share/article/2512467?app=stib&amp;os=web&amp;sv=849">科创板日报：元示科技两轮融资</a></li></ul></article><article class="deal"><h3>元材新界材料研发融资披露</h3><p>客户使用和授权为报道声明；首次公告日有冲突</p><ul class="source-list"><li><a href="https://api3.cls.cn/share/article/2508541?app=stib&amp;os=android&amp;sv=815">科创板日报：元材新界种子轮</a></li></ul></article></details><details class="research-node"><summary>产品与研究进展 · 3 项</summary><article class="deal"><h3>虚拟细胞挑战赛最终测试集开放</h3><p>官方日程及开放声明，成绩尚未披露；截止11月5日UTC</p><ul class="source-list"><li><a href="https://virtualcellchallenge.org/">Virtual Cell Challenge 2026 官方</a></li></ul></article><article class="deal"><h3>Reflector Bio模型公司亮相</h3><p>细胞效应预测为公司声明；独立复现和融资额未核实</p><ul class="source-list"><li><a href="https://reflector.bio/news/emerges-from-stealth/">Reflector Bio 官方发布</a></li></ul></article><article class="deal"><h3>OpenAI收购Orchestra Bio</h3><p>买方称已收购，金额及具体交割日未知</p><ul class="source-list"><li><a href="https://openai.com/index/openai-to-acquire-orchestra-bio/">OpenAI：收购 Orchestra Bio</a></li></ul></article></details><details class="research-node"><summary>实验与数据 · 2 项</summary><article class="deal"><h3>Agent4Sci科学ML代理评测预印本</h3><p>作者报告20任务11领域；主要收益为工程优化，不等同科学发现</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.28763">Agent4Sci 预印本，2026-10-20提交</a></li></ul></article><article class="deal"><h3>神经疾病数据与工具许可合同</h3><p>10月22日签署，五年最高55m美元，按履约计费；商业许可非融资</p><ul class="source-list"><li><a href="https://investors.tempus.com/node/10841/html">Tempus 2026-10-23 Form 8-K</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>元示两轮近亿元须分腿留未知，元材新界材料应用待客户核验；海外Warp化学服务、Pathos临床与数据采购、Orchestra并购形成不同商业路径。VCC最终盲测开放，未见成绩；融资与商业合同严格分列。</p><ul class="source-list"><li><a href="https://api3.cls.cn/share/article/2512467?app=stib&amp;os=web&amp;sv=849">科创板日报：元示科技两轮融资</a></li><li><a href="https://api3.cls.cn/share/article/2508541?app=stib&amp;os=android&amp;sv=815">科创板日报：元材新界种子轮</a></li><li><a href="https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline">Pathos 官方：Series E</a></li><li><a href="https://medicaex.com/businesswire/warp-sciences-emerges-from-stealth-with-215-million-to-build-u-s-chemistry-services-for-drug-research/">Warp 公司 Business Wire 新闻稿</a></li><li><a href="https://lsvp.com/stories/why-were-backing-warp/">Lightspeed：为何领投 Warp A轮</a></li><li><a href="https://openai.com/index/openai-to-acquire-orchestra-bio/">OpenAI：收购 Orchestra Bio</a></li><li><a href="https://virtualcellchallenge.org/">Virtual Cell Challenge 2026 官方</a></li><li><a href="https://arxiv.org/abs/2610.28763">Agent4Sci 预印本，2026-10-20提交</a></li><li><a href="https://reflector.bio/news/emerges-from-stealth/">Reflector Bio 官方发布</a></li><li><a href="https://investors.tempus.com/node/10841/html">Tempus 2026-10-23 Form 8-K</a></li><li><a href="https://www.vbdata.cn/intelAuthor?authorId=1005">动脉网首发索引：元示两轮</a></li><li><a href="https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec02002lfey">证券之星转述天眼查日期</a></li></ul></details></main></body></html>
+<p class="reading-lead">虚拟细胞公司的技术路线和融资进度都有更新，实验反馈与客户交付仍需分别验证。</p><article class="deal"><h3>元示两轮融资与虚拟细胞产线声明</h3><p>近亿元为两轮合计；泛化与产线能力为公司声明，未独立验证</p><a href="https://api3.cls.cn/share/article/2512467?app=stib&amp;os=web&amp;sv=849">查看这条证据 ↗</a></article><details class="research-node"><summary>融资与交易 · 2 项</summary><article class="deal"><h3>元示两轮融资与虚拟细胞产线声明</h3><p>近亿元为两轮合计；泛化与产线能力为公司声明，未独立验证</p><ul class="source-list"><li><a href="https://api3.cls.cn/share/article/2512467?app=stib&amp;os=web&amp;sv=849">科创板日报：元示科技两轮融资</a></li></ul></article><article class="deal"><h3>元材新界材料研发融资披露</h3><p>客户使用和授权为报道声明；首次公告日有冲突</p><ul class="source-list"><li><a href="https://api3.cls.cn/share/article/2508541?app=stib&amp;os=android&amp;sv=815">科创板日报：元材新界种子轮</a></li></ul></article></details><details class="research-node"><summary>产品与研究进展 · 3 项</summary><article class="deal"><h3>虚拟细胞挑战赛最终测试集开放</h3><p>官方日程及开放声明，成绩尚未披露；截止11月5日UTC</p><ul class="source-list"><li><a href="https://virtualcellchallenge.org/">Virtual Cell Challenge 2026 官方</a></li></ul></article><article class="deal"><h3>Reflector Bio模型公司亮相</h3><p>细胞效应预测为公司声明；独立复现和融资额未核实</p><ul class="source-list"><li><a href="https://reflector.bio/news/emerges-from-stealth/">Reflector Bio 官方发布</a></li></ul></article><article class="deal"><h3>OpenAI收购Orchestra Bio</h3><p>买方称已收购，金额及具体交割日未知</p><ul class="source-list"><li><a href="https://openai.com/index/openai-to-acquire-orchestra-bio/">OpenAI：收购 Orchestra Bio</a></li></ul></article></details><details class="research-node"><summary>实验与数据 · 2 项</summary><article class="deal"><h3>Agent4Sci科学ML代理评测预印本</h3><p>作者报告20任务11领域；主要收益为工程优化，不等同科学发现</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.28763">Agent4Sci 预印本，2026-10-20提交</a></li></ul></article><article class="deal"><h3>神经疾病数据与工具许可合同</h3><p>10月22日签署，五年最高55m美元，按履约计费；商业许可非融资</p><ul class="source-list"><li><a href="https://investors.tempus.com/node/10841/html">Tempus 2026-10-23 Form 8-K</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>元示两轮近亿元须分腿留未知，元材新界材料应用待客户核验；海外Warp化学服务、Pathos临床与数据采购、Orchestra并购形成不同商业路径。VCC最终盲测开放，未见成绩；融资与商业合同严格分列。</p><ul class="source-list"><li><a href="https://api3.cls.cn/share/article/2512467?app=stib&amp;os=web&amp;sv=849">科创板日报：元示科技两轮融资</a></li><li><a href="https://api3.cls.cn/share/article/2508541?app=stib&amp;os=android&amp;sv=815">科创板日报：元材新界种子轮</a></li><li><a href="https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline">Pathos 官方：Series E</a></li><li><a href="https://medicaex.com/businesswire/warp-sciences-emerges-from-stealth-with-215-million-to-build-u-s-chemistry-services-for-drug-research/">Warp 公司 Business Wire 新闻稿</a></li><li><a href="https://lsvp.com/stories/why-were-backing-warp/">Lightspeed：为何领投 Warp A轮</a></li><li><a href="https://openai.com/index/openai-to-acquire-orchestra-bio/">OpenAI：收购 Orchestra Bio</a></li><li><a href="https://virtualcellchallenge.org/">Virtual Cell Challenge 2026 官方</a></li><li><a href="https://arxiv.org/abs/2610.28763">Agent4Sci 预印本，2026-10-20提交</a></li><li><a href="https://reflector.bio/news/emerges-from-stealth/">Reflector Bio 官方发布</a></li><li><a href="https://investors.tempus.com/node/10841/html">Tempus 2026-10-23 Form 8-K</a></li><li><a href="https://www.vbdata.cn/intelAuthor?authorId=1005">动脉网首发索引：元示两轮</a></li><li><a href="https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec02002lfey">证券之星转述天眼查日期</a></li></ul></details></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

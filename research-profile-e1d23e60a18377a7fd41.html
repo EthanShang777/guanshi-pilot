@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>讯飞医疗</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>多场景医疗AI能否形成持续付费和可独立验证的临床价值？</p></section><article class="deal"><h3>档案判断</h3><p>讯飞医疗补充基层与院内医疗AI对标，可与森亿比较覆盖入口、语音工作流和临床数据治理。多场景产品目录不等于同一模型在所有场景有效；需分拆基层公共项目、医院软件与个人健康助手的付费方、交付成本和回款。医学知识更新不等于递归自我改进，医疗工作流工具也不等于虚拟细胞模型。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.xunfeihealthcare.com/">讯飞医疗官方产品与技术框架</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网列示全科医生助理、AI诊疗助理、医疗语音输入、慢病管理及讯飞晓医，覆盖基层卫生、医院与健康交互。其医学知识自学习与诊疗推理属于公司技术框架描述，不能直接认定已实现自主更新临床模型或替代医生决策。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.xunfeihealthcare.com/">讯飞医疗官方产品与技术框架</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>讯飞医疗官网人才计划文章称首批拟为1000名大学生村医免费配备智医助理。页面标2026-02-27，正文却描述2025主题大会的9月12至13日活动，应保留页面日期与事件日期的差别；该计划人数不是付费席位、已交付数量或新增收入。</p><p class="hint">未核实际发放、激活、留存、后续付费和临床成效。</p><ul class="source-list"><li><a href="https://www.xunfeihealthcare.com/news/181/1095.html">讯飞医疗基层人才计划：免费配备与日期口径</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>这一免费计划为医疗AI的分发和培训提供了可核方向，但研究必须按免费支持、政府采购、医院购买分组，追踪发放→医生激活→持续使用→建议被复核采纳→付费主体及续费。累计辅助建议数会受重复调用和使用年限影响，不能除以覆盖医生数就得到收入或诊疗效果。重点核免费期的培训与支持成本、地方系统集成成本，以及付费项目验收和实际回款；医疗价值另用预先定义的错误率、医生修订与患者结局验证，不能把考试通过或采纳率当临床安全终点。</p><p class="hint">未取得免费队列后续数据、采购合同或独立临床评估。</p><ul class="source-list"><li><a href="https://www.xunfeihealthcare.com/news/181/1095.html">讯飞医疗基层人才计划：免费配备与日期口径</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>多场景医疗AI能否形成持续付费和可独立验证的临床价值？</p></section><article class="deal"><h3>档案判断</h3><p>讯飞医疗补充基层与院内医疗AI对标，可与森亿比较覆盖入口、语音工作流和临床数据治理。多场景产品目录不等于同一模型在所有场景有效；需分拆基层公共项目、医院软件与个人健康助手的付费方、交付成本和回款。医学知识更新不等于递归自我改进，医疗工作流工具也不等于虚拟细胞模型。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.xunfeihealthcare.com/">讯飞医疗官方产品与技术框架</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网列示全科医生助理、AI诊疗助理、医疗语音输入、慢病管理及讯飞晓医，覆盖基层卫生、医院与健康交互。其医学知识自学习与诊疗推理属于公司技术框架描述，不能直接认定已实现自主更新临床模型或替代医生决策。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.xunfeihealthcare.com/">讯飞医疗官方产品与技术框架</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>讯飞医疗官网人才计划文章称首批拟为1000名大学生村医免费配备智医助理。页面标2026-02-27，正文却描述2025主题大会的9月12至13日活动，应保留页面日期与事件日期的差别；该计划人数不是付费席位、已交付数量或新增收入。</p><p class="hint">未核实际发放、激活、留存、后续付费和临床成效。</p><ul class="source-list"><li><a href="https://www.xunfeihealthcare.com/news/181/1095.html">讯飞医疗基层人才计划：免费配备与日期口径</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>这一免费计划为医疗AI的分发和培训提供了可核方向，但研究必须按免费支持、政府采购、医院购买分组，追踪发放→医生激活→持续使用→建议被复核采纳→付费主体及续费。累计辅助建议数会受重复调用和使用年限影响，不能除以覆盖医生数就得到收入或诊疗效果。重点核免费期的培训与支持成本、地方系统集成成本，以及付费项目验收和实际回款；医疗价值另用预先定义的错误率、医生修订与患者结局验证，不能把考试通过或采纳率当临床安全终点。</p><p class="hint">未取得免费队列后续数据、采购合同或独立临床评估。</p><ul class="source-list"><li><a href="https://www.xunfeihealthcare.com/news/181/1095.html">讯飞医疗基层人才计划：免费配备与日期口径</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>明视脑机 / Mindtrix</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>短期感知结果能否转化为持续、可支付的功能获益？</p></section><article class="deal"><h3>档案判断</h3><p>视觉重建脑机接口应按严肃医疗器械评估，而非通用AI用户规模。投资价值取决于持续功能获益、长期植入安全和注册支付路径；电极数量与短期实验感知不能直接替代临床终点。</p><p class="hint">IIT研究不等于注册临床完成；不提供治疗建议或推断受试者疗效。</p><ul class="source-list"><li><a href="https://www.mindtrix.cn/about">明视脑机官网：公司简介与研发历程</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网自述聚焦植入式视觉重建，推进柔性电极与全植入刺激系统，列有研究者发起实验历程。这只确认公司披露，不证明临床有效、注册获批或商业可售。</p><p class="hint">IIT研究不等于注册临床完成；不提供治疗建议或推断受试者疗效。</p><ul class="source-list"><li><a href="https://www.mindtrix.cn/about">明视脑机官网：公司简介与研发历程</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>技术页分别列ECOG-RS 128通道记录/刺激电极、MT-RS16与MT-RS256刺激仪；这些是不同器件和配置，不能合并成同一已植入系统的通道数。全植入无线视觉系统、个性化刺激与闭环控制是公司方向和主张，目录存在不等于整体系统完成注册验证。</p><p class="hint">未取得独立临床结果、注册文件或产品收入，非治疗建议。</p><ul class="source-list"><li><a href="https://www.mindtrix.cn/technology">明视脑机技术页：系统目标与电极刺激仪产品区分</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>研究应从器件通道转向可用知觉：固定受试者、训练量与照明条件，核定位、识别和移动任务的盲评表现，区分诱发光点、图形辨认和日常功能。长期随访应记录有效通道比例、刺激阈值变化、重复标定及停用原因；将手术、康复训练、维护和替换成本纳入支付可行性。科研器件销售与植入医疗系统两条收入路径应分别核证，不能互相替代临床里程碑。</p><p class="hint">未取得独立临床结果、注册文件或产品收入，非治疗建议。</p><ul class="source-list"><li><a href="https://www.mindtrix.cn/technology">明视脑机技术页：系统目标与电极刺激仪产品区分</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>短期感知结果能否转化为持续、可支付的功能获益？</p></section><article class="deal"><h3>档案判断</h3><p>视觉重建脑机接口应按严肃医疗器械评估，而非通用AI用户规模。投资价值取决于持续功能获益、长期植入安全和注册支付路径；电极数量与短期实验感知不能直接替代临床终点。</p><p class="hint">IIT研究不等于注册临床完成；不提供治疗建议或推断受试者疗效。</p><ul class="source-list"><li><a href="https://www.mindtrix.cn/about">明视脑机官网：公司简介与研发历程</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网自述聚焦植入式视觉重建，推进柔性电极与全植入刺激系统，列有研究者发起实验历程。这只确认公司披露，不证明临床有效、注册获批或商业可售。</p><p class="hint">IIT研究不等于注册临床完成；不提供治疗建议或推断受试者疗效。</p><ul class="source-list"><li><a href="https://www.mindtrix.cn/about">明视脑机官网：公司简介与研发历程</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>技术页分别列ECOG-RS 128通道记录/刺激电极、MT-RS16与MT-RS256刺激仪；这些是不同器件和配置，不能合并成同一已植入系统的通道数。全植入无线视觉系统、个性化刺激与闭环控制是公司方向和主张，目录存在不等于整体系统完成注册验证。</p><p class="hint">未取得独立临床结果、注册文件或产品收入，非治疗建议。</p><ul class="source-list"><li><a href="https://www.mindtrix.cn/technology">明视脑机技术页：系统目标与电极刺激仪产品区分</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>研究应从器件通道转向可用知觉：固定受试者、训练量与照明条件，核定位、识别和移动任务的盲评表现，区分诱发光点、图形辨认和日常功能。长期随访应记录有效通道比例、刺激阈值变化、重复标定及停用原因；将手术、康复训练、维护和替换成本纳入支付可行性。科研器件销售与植入医疗系统两条收入路径应分别核证，不能互相替代临床里程碑。</p><p class="hint">未取得独立临床结果、注册文件或产品收入，非治疗建议。</p><ul class="source-list"><li><a href="https://www.mindtrix.cn/technology">明视脑机技术页：系统目标与电极刺激仪产品区分</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

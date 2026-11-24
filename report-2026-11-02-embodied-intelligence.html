@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>具身智能　2026-10-26 — 2026-11-01</p><h1>具身智能投资周报｜从发布参数转向可收费任务</h1></header>
-<p class="reading-lead">具身智能的观察重点转向机器人能以什么成本完成客户任务。</p><article class="deal"><h3>智元全栈成果：模型、控制、末端与部署工具</h3><p></p><a href="https://www.agibot.com.cn/article/315/detail/261.html">查看这条证据 ↗</a></article><details class="research-node"><summary>部署与交付 · 1 项</summary><article class="deal"><h3>智元全栈成果：模型、控制、末端与部署工具</h3><p></p><ul class="source-list"><li><a href="https://www.agibot.com.cn/article/315/detail/261.html">智元创新日全栈技术成果</a></li><li><a href="https://www.agibot.com.cn/article/315/detail/251.html">智元官方预告：10月29日创新日</a></li></ul></article></details><details class="research-node"><summary>产品与研究进展 · 4 项</summary><article class="deal"><h3>GXO与Agility拟于2027年初扩展两个站点</h3><p></p><ul class="source-list"><li><a href="https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations">GXO and Agility expand partnership</a></li></ul></article><article class="deal"><h3>Bedrock C轮及工程场景扩展</h3><p></p><ul class="source-list"><li><a href="https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html">Bedrock Robotics $600 million Series C</a></li></ul></article><article class="deal"><h3>临界点现场披露手套及产线应用</h3><p></p><ul class="source-list"><li><a href="https://huacheng.gz-cmc.com/pages/2026/10/29/a541f94dd41e4ed7aef1ee1651c65737.html">广州日报：临界点数据手套真机Ready</a></li></ul></article><article class="deal"><h3>Agility合并预期资金构成更新</h3><p></p><ul class="source-list"><li><a href="https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination">Agility / Churchill XI expected $465 million capital</a></li></ul></article></details><details class="research-node"><summary>融资与交易 · 3 项</summary><article class="deal"><h3>Machenta种子轮及少示范操作路线</h3><p></p><ul class="source-list"><li><a href="https://creandum.com/stories/backing-machenta/">Creandum: Backing Machenta</a></li></ul></article><article class="deal"><h3>Foundry A轮与自主装配工厂模式</h3><p></p><ul class="source-list"><li><a href="https://markets.chroniclejournal.com/observerreporter/article/bizwire-2026-10-28-foundry-robotics-raises-100-million-series-a-to-build-americas-first-autonomous-factory-for-assembly">Foundry Robotics $100 million Series A</a></li></ul></article><article class="deal"><h3>矩侨A轮及触觉采集供应链</h3><p></p><ul class="source-list"><li><a href="https://www.36kr.com/p/4046601648559232">多维资本：矩侨工业亿元A轮</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>中国聚焦智元部署栈与触觉供应链；海外比较少示范策略、施工自主化及自营装配。4笔交易方材料股权融资、3笔媒体条款待补线索和Agility条件资本腿分列，不把演示、计划扩点或SPAC预计资金当已交付收入。</p><ul class="source-list"><li><a href="https://www.agibot.com.cn/article/315/detail/261.html">智元创新日全栈技术成果</a></li><li><a href="https://www.36kr.com/p/4046601648559232">多维资本：矩侨工业亿元A轮</a></li><li><a href="https://creandum.com/stories/backing-machenta/">Creandum: Backing Machenta</a></li><li><a href="https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html">Bedrock Robotics $600 million Series C</a></li><li><a href="https://www.bvp.com/news/bedrock-robotics-deploying-autonomous-equipment-for-the-built-world">Bessemer: Deploying autonomous equipment</a></li><li><a href="https://markets.chroniclejournal.com/observerreporter/article/bizwire-2026-10-28-foundry-robotics-raises-100-million-series-a-to-build-americas-first-autonomous-factory-for-assembly">Foundry Robotics $100 million Series A</a></li><li><a href="https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination">Agility / Churchill XI expected $465 million capital</a></li><li><a href="https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations">GXO and Agility expand partnership</a></li><li><a href="https://www.leiphone.com/category/industrynews/nJq4rGZfOy0npdjw.html">原力无限获浙创投近亿元投资</a></li><li><a href="https://www.zhangtongshe.com/article/detail?id=104028">艾利特机器人完成2亿元融资</a></li><li><a href="https://www.frenchtechjournal.com/bleu-robotics-5m-humanoid-robot-software/">Bleu Robotics €5M round and CEO interview</a></li><li><a href="https://www.cventures.vc/founder/bleu-robotics/">Contrarian Ventures: Bleu Robotics</a></li><li><a href="https://huacheng.gz-cmc.com/pages/2026/10/29/a541f94dd41e4ed7aef1ee1651c65737.html">广州日报：临界点数据手套真机Ready</a></li><li><a href="https://d-robotics-ai-lab.github.io/large-model-team/blog/uranus/">Uranus官方博客（8月25日，排除本周首次发布）</a></li><li><a href="https://www.agibot.com.cn/article/315/detail/251.html">智元官方预告：10月29日创新日</a></li></ul></details></main></body></html>
+<p class="reading-lead">具身智能的观察重点转向机器人能以什么成本完成客户任务。</p><article class="deal"><h3>智元全栈成果：模型、控制、末端与部署工具</h3><p></p><a href="https://www.agibot.com.cn/article/315/detail/261.html">查看这条证据 ↗</a></article><details class="research-node"><summary>部署与交付 · 1 项</summary><article class="deal"><h3>智元全栈成果：模型、控制、末端与部署工具</h3><p></p><ul class="source-list"><li><a href="https://www.agibot.com.cn/article/315/detail/261.html">智元创新日全栈技术成果</a></li><li><a href="https://www.agibot.com.cn/article/315/detail/251.html">智元官方预告：10月29日创新日</a></li></ul></article></details><details class="research-node"><summary>产品与研究进展 · 4 项</summary><article class="deal"><h3>GXO与Agility拟于2027年初扩展两个站点</h3><p></p><ul class="source-list"><li><a href="https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations">GXO and Agility expand partnership</a></li></ul></article><article class="deal"><h3>Bedrock C轮及工程场景扩展</h3><p></p><ul class="source-list"><li><a href="https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html">Bedrock Robotics $600 million Series C</a></li></ul></article><article class="deal"><h3>临界点现场披露手套及产线应用</h3><p></p><ul class="source-list"><li><a href="https://huacheng.gz-cmc.com/pages/2026/10/29/a541f94dd41e4ed7aef1ee1651c65737.html">广州日报：临界点数据手套真机Ready</a></li></ul></article><article class="deal"><h3>Agility合并预期资金构成更新</h3><p></p><ul class="source-list"><li><a href="https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination">Agility / Churchill XI expected $465 million capital</a></li></ul></article></details><details class="research-node"><summary>融资与交易 · 3 项</summary><article class="deal"><h3>Machenta种子轮及少示范操作路线</h3><p></p><ul class="source-list"><li><a href="https://creandum.com/stories/backing-machenta/">Creandum: Backing Machenta</a></li></ul></article><article class="deal"><h3>Foundry A轮与自主装配工厂模式</h3><p></p><ul class="source-list"><li><a href="https://markets.chroniclejournal.com/observerreporter/article/bizwire-2026-10-28-foundry-robotics-raises-100-million-series-a-to-build-americas-first-autonomous-factory-for-assembly">Foundry Robotics $100 million Series A</a></li></ul></article><article class="deal"><h3>矩侨A轮及触觉采集供应链</h3><p></p><ul class="source-list"><li><a href="https://www.36kr.com/p/4046601648559232">多维资本：矩侨工业亿元A轮</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>中国聚焦智元部署栈与触觉供应链；海外比较少示范策略、施工自主化及自营装配。4笔交易方材料股权融资、3笔媒体条款待补线索和Agility条件资本腿分列，不把演示、计划扩点或SPAC预计资金当已交付收入。</p><ul class="source-list"><li><a href="https://www.agibot.com.cn/article/315/detail/261.html">智元创新日全栈技术成果</a></li><li><a href="https://www.36kr.com/p/4046601648559232">多维资本：矩侨工业亿元A轮</a></li><li><a href="https://creandum.com/stories/backing-machenta/">Creandum: Backing Machenta</a></li><li><a href="https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html">Bedrock Robotics $600 million Series C</a></li><li><a href="https://www.bvp.com/news/bedrock-robotics-deploying-autonomous-equipment-for-the-built-world">Bessemer: Deploying autonomous equipment</a></li><li><a href="https://markets.chroniclejournal.com/observerreporter/article/bizwire-2026-10-28-foundry-robotics-raises-100-million-series-a-to-build-americas-first-autonomous-factory-for-assembly">Foundry Robotics $100 million Series A</a></li><li><a href="https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination">Agility / Churchill XI expected $465 million capital</a></li><li><a href="https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations">GXO and Agility expand partnership</a></li><li><a href="https://www.leiphone.com/category/industrynews/nJq4rGZfOy0npdjw.html">原力无限获浙创投近亿元投资</a></li><li><a href="https://www.zhangtongshe.com/article/detail?id=104028">艾利特机器人完成2亿元融资</a></li><li><a href="https://www.frenchtechjournal.com/bleu-robotics-5m-humanoid-robot-software/">Bleu Robotics €5M round and CEO interview</a></li><li><a href="https://www.cventures.vc/founder/bleu-robotics/">Contrarian Ventures: Bleu Robotics</a></li><li><a href="https://huacheng.gz-cmc.com/pages/2026/10/29/a541f94dd41e4ed7aef1ee1651c65737.html">广州日报：临界点数据手套真机Ready</a></li><li><a href="https://d-robotics-ai-lab.github.io/large-model-team/blog/uranus/">Uranus官方博客（8月25日，排除本周首次发布）</a></li><li><a href="https://www.agibot.com.cn/article/315/detail/251.html">智元官方预告：10月29日创新日</a></li></ul></details></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

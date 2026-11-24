@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>Mem0</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>跨会话记忆能否提高真实任务成功率而不放大旧信息错误？</p></section><article class="deal"><h3>档案判断</h3><p>Mem0提供Agent记忆层对标，与PingCAP持久状态和RAGFlow文档检索不同，关注从交互提取可复用上下文。压缩可能减少Token，但也可能丢失限定条件或保留过期事实；记住信息不等于按时执行任务，更不等于模型权重自我改进。投资价值应看记忆纠错、时间有效性、用户隔离及对任务成功率的净贡献，而非只看记忆问答分数。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://mem0.ai/">Mem0官方持久记忆平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网将Mem0定位为跨会话与Agent的持久记忆层，介绍从输入中抽取、更新和检索记忆及压缩上下文，并展示企业部署和读写审计能力。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://mem0.ai/">Mem0官方持久记忆平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Mem0入门文档将对话中的事实抽取成单独记忆，添加时指定user_id，搜索时示例显式提供用户过滤条件，并由应用将检索结果交给模型上下文。文档也介绍可把保存和检索交由Agent工具调用。这说明记忆服务与应用执行仍是不同环节；示例本身不能证明调用方遗漏过滤时仍具备完整租户隔离。</p><p class="hint">未调用第三方记忆API或传输用户资料；不证明当前产品安全缺陷或收入。</p><ul class="source-list"><li><a href="https://docs.mem0.ai/platform/quickstart">Mem0 Platform Quickstart</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断：记忆层应按每个成功完成任务的总成本衡量，而不只统计压缩Token。基准需包含用户更正、时间限定、临时偏好、相互矛盾信息和多用户同名实体，对比长上下文与普通检索，同时记录错误记忆写入、漏删、误召回及人工纠正工时。任务调度、执行回执和重试应独立验证，避免把找回历史意图当成承诺已经履行。商业化优先核付费应用的持续调用、停用后迁移成本与托管毛利；跨会话留存改善需与产品变化控制变量，不能归因于接入记忆API本身。</p><p class="hint">未调用第三方记忆API或传输用户资料；不证明当前产品安全缺陷或收入。</p><ul class="source-list"><li><a href="https://docs.mem0.ai/platform/quickstart">Mem0 Platform Quickstart</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>跨会话记忆能否提高真实任务成功率而不放大旧信息错误？</p></section><article class="deal"><h3>档案判断</h3><p>Mem0提供Agent记忆层对标，与PingCAP持久状态和RAGFlow文档检索不同，关注从交互提取可复用上下文。压缩可能减少Token，但也可能丢失限定条件或保留过期事实；记住信息不等于按时执行任务，更不等于模型权重自我改进。投资价值应看记忆纠错、时间有效性、用户隔离及对任务成功率的净贡献，而非只看记忆问答分数。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://mem0.ai/">Mem0官方持久记忆平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网将Mem0定位为跨会话与Agent的持久记忆层，介绍从输入中抽取、更新和检索记忆及压缩上下文，并展示企业部署和读写审计能力。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://mem0.ai/">Mem0官方持久记忆平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Mem0入门文档将对话中的事实抽取成单独记忆，添加时指定user_id，搜索时示例显式提供用户过滤条件，并由应用将检索结果交给模型上下文。文档也介绍可把保存和检索交由Agent工具调用。这说明记忆服务与应用执行仍是不同环节；示例本身不能证明调用方遗漏过滤时仍具备完整租户隔离。</p><p class="hint">未调用第三方记忆API或传输用户资料；不证明当前产品安全缺陷或收入。</p><ul class="source-list"><li><a href="https://docs.mem0.ai/platform/quickstart">Mem0 Platform Quickstart</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断：记忆层应按每个成功完成任务的总成本衡量，而不只统计压缩Token。基准需包含用户更正、时间限定、临时偏好、相互矛盾信息和多用户同名实体，对比长上下文与普通检索，同时记录错误记忆写入、漏删、误召回及人工纠正工时。任务调度、执行回执和重试应独立验证，避免把找回历史意图当成承诺已经履行。商业化优先核付费应用的持续调用、停用后迁移成本与托管毛利；跨会话留存改善需与产品变化控制变量，不能归因于接入记忆API本身。</p><p class="hint">未调用第三方记忆API或传输用户资料；不证明当前产品安全缺陷或收入。</p><ul class="source-list"><li><a href="https://docs.mem0.ai/platform/quickstart">Mem0 Platform Quickstart</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

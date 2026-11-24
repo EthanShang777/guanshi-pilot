@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>大寰机器人 / DH-ROBOTICS</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>五指方案相对平行夹爪是否带来足以覆盖维护与控制成本的任务增量？</p></section><article class="deal"><h3>档案判断</h3><p>大寰提供从工业夹爪走向多指操作的对照样本，可与Robotiq的夹爪平台、帕西尼的触觉多指路线比较。投资判断应围绕目标任务是否真的需要增加自由度，以及工业渠道和维护能力能否迁移；不能用既有夹爪客户数量证明灵巧手规模落地。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.dh-robotics.com/product/dh-5-6">大寰官方DH-5-6灵巧手产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>大寰官网展示电动夹爪与精密运动产品，并列出DH-5-6五指灵巧手。产品页标称6个主动自由度、11个总自由度，触觉阵列为选配而非标配。寿命、力和节拍属于公司测试声明，未独立验证；列出的数采、医疗搬运和家庭整理用途不代表实际客户部署或医疗批准。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.dh-robotics.com/product/dh-5-6">大寰官方DH-5-6灵巧手产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>AG官网介绍二指和三指连杆自适应电爪，参数表将夹持力标为单爪口径，将±0.03毫米标为位置重复精度，并分别列出型号的行程、重量与接口。页面多项合作明确称演示；这些信息不等于多指灵巧手能力或通用抓取成功率。</p><p class="hint">未独立测试抓取、寿命或客户收入。</p><ul class="source-list"><li><a href="https://en.dh-robotics.com/product/ag">大寰AG自适应电爪官方产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断：工业夹爪与多指灵巧手应按任务而非自由度数量估值。规则物体场景中，低复杂度夹爪可能以维护、节拍和集成成本取胜；灵巧手溢价需由少换夹具、覆盖更多物体和真实良率证明。对同一工件族比较抓取失败、滑落与表面损伤、指尖耗材、停机及换型成本；单爪力不能直接换算可搬质量，位置重复精度也不能代替力精度。跨机器人联合演示只作为兼容线索，需另核持续采购及净毛利。</p><p class="hint">未独立测试抓取、寿命或客户收入。</p><ul class="source-list"><li><a href="https://en.dh-robotics.com/product/ag">大寰AG自适应电爪官方产品页</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>五指方案相对平行夹爪是否带来足以覆盖维护与控制成本的任务增量？</p></section><article class="deal"><h3>档案判断</h3><p>大寰提供从工业夹爪走向多指操作的对照样本，可与Robotiq的夹爪平台、帕西尼的触觉多指路线比较。投资判断应围绕目标任务是否真的需要增加自由度，以及工业渠道和维护能力能否迁移；不能用既有夹爪客户数量证明灵巧手规模落地。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.dh-robotics.com/product/dh-5-6">大寰官方DH-5-6灵巧手产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>大寰官网展示电动夹爪与精密运动产品，并列出DH-5-6五指灵巧手。产品页标称6个主动自由度、11个总自由度，触觉阵列为选配而非标配。寿命、力和节拍属于公司测试声明，未独立验证；列出的数采、医疗搬运和家庭整理用途不代表实际客户部署或医疗批准。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.dh-robotics.com/product/dh-5-6">大寰官方DH-5-6灵巧手产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>AG官网介绍二指和三指连杆自适应电爪，参数表将夹持力标为单爪口径，将±0.03毫米标为位置重复精度，并分别列出型号的行程、重量与接口。页面多项合作明确称演示；这些信息不等于多指灵巧手能力或通用抓取成功率。</p><p class="hint">未独立测试抓取、寿命或客户收入。</p><ul class="source-list"><li><a href="https://en.dh-robotics.com/product/ag">大寰AG自适应电爪官方产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断：工业夹爪与多指灵巧手应按任务而非自由度数量估值。规则物体场景中，低复杂度夹爪可能以维护、节拍和集成成本取胜；灵巧手溢价需由少换夹具、覆盖更多物体和真实良率证明。对同一工件族比较抓取失败、滑落与表面损伤、指尖耗材、停机及换型成本；单爪力不能直接换算可搬质量，位置重复精度也不能代替力精度。跨机器人联合演示只作为兼容线索，需另核持续采购及净毛利。</p><p class="hint">未独立测试抓取、寿命或客户收入。</p><ul class="source-list"><li><a href="https://en.dh-robotics.com/product/ag">大寰AG自适应电爪官方产品页</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

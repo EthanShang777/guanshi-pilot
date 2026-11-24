@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>XREAL</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>空间显示体验能否转化为持续使用及独立于硬件换代的软件价值？ Eye与主机的整套成本换来多少任务收益，兼容组合变化对活跃装机、开发维护及退货率有何影响？</p></section><article class="deal"><h3>档案判断</h3><p>XREAL为Rokid提供空间显示与操作系统生态对标：观影扩屏、空间应用和AI助手的付费动机不同，不能把显示设备销量直接计作AI活跃用户。自研芯片与光学设计可能改善体验和成本，但Android XR依赖、应用适配与硬件更新节奏也影响差异化；生态接入不代表独占分发或模型能力。</p><p class="hint">分析待验证；产品展示不等于实测性能、交付规模或付费留存。</p><ul class="source-list"><li><a href="https://www.xreal.com/">XREAL官方产品与空间计算平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>XREAL官网展示AR眼镜、Beam Pro及AURA，介绍X1原生3DoF和AURA的Android XR、Gemini与Google Play生态。上述为公司产品与平台描述；首页同时有购买和预约表述，本轮不据此认定AURA在各地区已普遍交付。</p><p class="hint">分析待验证；产品展示不等于实测性能、交付规模或付费留存。</p><ul class="source-list"><li><a href="https://www.xreal.com/">XREAL官方产品与空间计算平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>SDK 3.1.0说明One系列需配XREAL Eye并更新眼镜固件才新增6DoF，列出的测试主机为Beam Pro和Samsung S25。兼容矩阵仍将该组合的手部跟踪、平面检测、深度网格和空间锚点列为不支持，不能把6DoF概括成Air 2 Ultra的全部空间能力。官网同时提示Android 16兼容问题仍在调查；这是开发组合限制，不等于所有眼镜显示功能均不可用。</p><p class="hint">未进行真机兼容或客户留存测试，不将功能说明当新增销售证据。</p><ul class="source-list"><li><a href="https://docs.xreal.com/Release%20Note/XREAL%20SDK%203.1.0">XREAL SDK 3.1.0官方版本说明</a></li><li><a href="https://docs.xreal.com/XREALDevices/Compatibility">XREAL SDK官方兼容性矩阵</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资分析应拆分显示观看、头部空间定位和环境理解三种价值：同一任务对比整套眼镜、配件与主机成本，以及空间漂移、重新定位成功率、应用崩溃与30/90日留存。SDK兼容组合收敛可能降低维护复杂度，也可能压缩可触达用户，这需要开发者付费应用、活跃装机和售后成本验证。不能由接口升级推断出货增长或开发生态护城河。</p><p class="hint">未进行真机兼容或客户留存测试，不将功能说明当新增销售证据。</p><ul class="source-list"><li><a href="https://docs.xreal.com/Release%20Note/XREAL%20SDK%203.1.0">XREAL SDK 3.1.0官方版本说明</a></li><li><a href="https://docs.xreal.com/XREALDevices/Compatibility">XREAL SDK官方兼容性矩阵</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>空间显示体验能否转化为持续使用及独立于硬件换代的软件价值？ Eye与主机的整套成本换来多少任务收益，兼容组合变化对活跃装机、开发维护及退货率有何影响？</p></section><article class="deal"><h3>档案判断</h3><p>XREAL为Rokid提供空间显示与操作系统生态对标：观影扩屏、空间应用和AI助手的付费动机不同，不能把显示设备销量直接计作AI活跃用户。自研芯片与光学设计可能改善体验和成本，但Android XR依赖、应用适配与硬件更新节奏也影响差异化；生态接入不代表独占分发或模型能力。</p><p class="hint">分析待验证；产品展示不等于实测性能、交付规模或付费留存。</p><ul class="source-list"><li><a href="https://www.xreal.com/">XREAL官方产品与空间计算平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>XREAL官网展示AR眼镜、Beam Pro及AURA，介绍X1原生3DoF和AURA的Android XR、Gemini与Google Play生态。上述为公司产品与平台描述；首页同时有购买和预约表述，本轮不据此认定AURA在各地区已普遍交付。</p><p class="hint">分析待验证；产品展示不等于实测性能、交付规模或付费留存。</p><ul class="source-list"><li><a href="https://www.xreal.com/">XREAL官方产品与空间计算平台介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>SDK 3.1.0说明One系列需配XREAL Eye并更新眼镜固件才新增6DoF，列出的测试主机为Beam Pro和Samsung S25。兼容矩阵仍将该组合的手部跟踪、平面检测、深度网格和空间锚点列为不支持，不能把6DoF概括成Air 2 Ultra的全部空间能力。官网同时提示Android 16兼容问题仍在调查；这是开发组合限制，不等于所有眼镜显示功能均不可用。</p><p class="hint">未进行真机兼容或客户留存测试，不将功能说明当新增销售证据。</p><ul class="source-list"><li><a href="https://docs.xreal.com/Release%20Note/XREAL%20SDK%203.1.0">XREAL SDK 3.1.0官方版本说明</a></li><li><a href="https://docs.xreal.com/XREALDevices/Compatibility">XREAL SDK官方兼容性矩阵</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资分析应拆分显示观看、头部空间定位和环境理解三种价值：同一任务对比整套眼镜、配件与主机成本，以及空间漂移、重新定位成功率、应用崩溃与30/90日留存。SDK兼容组合收敛可能降低维护复杂度，也可能压缩可触达用户，这需要开发者付费应用、活跃装机和售后成本验证。不能由接口升级推断出货增长或开发生态护城河。</p><p class="hint">未进行真机兼容或客户留存测试，不将功能说明当新增销售证据。</p><ul class="source-list"><li><a href="https://docs.xreal.com/Release%20Note/XREAL%20SDK%203.1.0">XREAL SDK 3.1.0官方版本说明</a></li><li><a href="https://docs.xreal.com/XREALDevices/Compatibility">XREAL SDK官方兼容性矩阵</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

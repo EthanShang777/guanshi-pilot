@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>Rokid</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>AI眼镜能否从硬件首购转化为高频使用与可持续软件收益？ 企业客户相对手机基线的任务净节时是多少，断网/断连后哪些功能保留，Demo转付费部署与跨现场复制成本如何？</p></section><article class="deal"><h3>档案判断</h3><p>Rokid补充AI应用的可穿戴分发入口，与纯软件助手比较免手持交互的增量价值，而非把模型接入等同模型护城河。字幕显示和摄像头可拓宽使用场景，也引入光学成本、续航、隐私与退货压力；AR观影产品和AI眼镜不能合并计算活跃用户或软件付费。</p><p class="hint">分析待验证；产品展示不等于实测性能、交付规模或付费留存。</p><ul class="source-list"><li><a href="https://global.rokid.com/pages/rokid-glasses">Rokid Glasses 官方产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Rokid产品页展示带显示眼镜的字幕翻译、视觉问答及会议转写，并说明AI交互支持ChatGPT与Gemini。国际官网区分带显示、无显示AI眼镜和AR产品线；这些是产品功能宣传，不证明各地区可用性、实际留存或独家模型合作。</p><p class="hint">分析待验证；产品展示不等于实测性能、交付规模或付费留存。</p><ul class="source-list"><li><a href="https://global.rokid.com/pages/rokid-glasses">Rokid Glasses 官方产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Glass3官方SDK明确区分手机与眼镜端：手机负责连接、数据通道和网络请求转发，眼镜调用硬件并回传结果；同时支持独立眼镜应用。离线语音命令与在线ASR/TTS并列，在线服务通常需要API凭据，私有语音部署另有SDK。因此不能把支持离线命令等同于所有语音和AI能力完全离线，也不把企业版接口套到全部消费型号。</p><p class="hint">未取得客户验收、付费转化和单位经济数据，不推定规模部署。</p><ul class="source-list"><li><a href="https://x-docs.rokid.com/docs/en/terminal-sdk/getting-started/%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97.html">Rokid Glass3 SDK双端架构官方说明</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>企业眼镜的投资价值应由工作流ROI而非演示能力确认：选定巡检或远程协作任务，比较同任务手机方案的完成时间、返工率、连续佩戴时长、断网可用性与运维成本；把硬件毛利、云调用和软件续费分开。重点核验第三方开发者从Demo转付费部署的比例及跨现场复制工时。双端架构可能降低眼镜算力负担，但也引入连接、手机兼容和权限维护成本，这是待实测的权衡而非已证优势。</p><p class="hint">未取得客户验收、付费转化和单位经济数据，不推定规模部署。</p><ul class="source-list"><li><a href="https://x-docs.rokid.com/docs/en/terminal-sdk/getting-started/%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97.html">Rokid Glass3 SDK双端架构官方说明</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>AI眼镜能否从硬件首购转化为高频使用与可持续软件收益？ 企业客户相对手机基线的任务净节时是多少，断网/断连后哪些功能保留，Demo转付费部署与跨现场复制成本如何？</p></section><article class="deal"><h3>档案判断</h3><p>Rokid补充AI应用的可穿戴分发入口，与纯软件助手比较免手持交互的增量价值，而非把模型接入等同模型护城河。字幕显示和摄像头可拓宽使用场景，也引入光学成本、续航、隐私与退货压力；AR观影产品和AI眼镜不能合并计算活跃用户或软件付费。</p><p class="hint">分析待验证；产品展示不等于实测性能、交付规模或付费留存。</p><ul class="source-list"><li><a href="https://global.rokid.com/pages/rokid-glasses">Rokid Glasses 官方产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Rokid产品页展示带显示眼镜的字幕翻译、视觉问答及会议转写，并说明AI交互支持ChatGPT与Gemini。国际官网区分带显示、无显示AI眼镜和AR产品线；这些是产品功能宣传，不证明各地区可用性、实际留存或独家模型合作。</p><p class="hint">分析待验证；产品展示不等于实测性能、交付规模或付费留存。</p><ul class="source-list"><li><a href="https://global.rokid.com/pages/rokid-glasses">Rokid Glasses 官方产品页</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Glass3官方SDK明确区分手机与眼镜端：手机负责连接、数据通道和网络请求转发，眼镜调用硬件并回传结果；同时支持独立眼镜应用。离线语音命令与在线ASR/TTS并列，在线服务通常需要API凭据，私有语音部署另有SDK。因此不能把支持离线命令等同于所有语音和AI能力完全离线，也不把企业版接口套到全部消费型号。</p><p class="hint">未取得客户验收、付费转化和单位经济数据，不推定规模部署。</p><ul class="source-list"><li><a href="https://x-docs.rokid.com/docs/en/terminal-sdk/getting-started/%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97.html">Rokid Glass3 SDK双端架构官方说明</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>企业眼镜的投资价值应由工作流ROI而非演示能力确认：选定巡检或远程协作任务，比较同任务手机方案的完成时间、返工率、连续佩戴时长、断网可用性与运维成本；把硬件毛利、云调用和软件续费分开。重点核验第三方开发者从Demo转付费部署的比例及跨现场复制工时。双端架构可能降低眼镜算力负担，但也引入连接、手机兼容和权限维护成本，这是待实测的权衡而非已证优势。</p><p class="hint">未取得客户验收、付费转化和单位经济数据，不推定规模部署。</p><ul class="source-list"><li><a href="https://x-docs.rokid.com/docs/en/terminal-sdk/getting-started/%E6%8E%A5%E5%85%A5%E6%8C%87%E5%8D%97.html">Rokid Glass3 SDK双端架构官方说明</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

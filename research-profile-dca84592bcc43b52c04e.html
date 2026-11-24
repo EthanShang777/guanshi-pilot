@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>3Chat.ai</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>智能客服是否真正降低每个已解决问题的成本并提高留存？</p></section><article class="deal"><h3>档案判断</h3><p>客户运营AI应用的投资重点在实际解决率与留存，而非回复量。人工接管、知识权限和渠道失败处理构成运营闭环；外部工作平台分发可增加触达，也带来渠道依赖和获客成本风险。</p><p class="hint">公告日期2026-10-08，不作为当前新增；功能发布不等于客户采用、问题解决或付费留存。</p><ul class="source-list"><li><a href="https://group.3chatai.cn/t/topic/453">3Chat.ai官方社区V5.5更新公告</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方社区V5.5公告介绍实时翻译、客户分组知识范围、自定义记忆摘要与客户运营插件。已核公告存在，不代表功能已独立验收或能产生收入增长。</p><p class="hint">公告日期2026-10-08，不作为当前新增；功能发布不等于客户采用、问题解决或付费留存。</p><ul class="source-list"><li><a href="https://group.3chatai.cn/t/topic/453">3Chat.ai官方社区V5.5更新公告</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>v5.3历史公告区分Agent配置生成、构建后检查和情景知识检索，并称转人工后仍可提取客户画像；同一公告明确这一画像能力当时不支持群聊。Builder自检不是独立评测，也不是底层模型自行升级；历史限制需在现行版本重测，不能与v5.5能力混成一个无版本产品承诺。</p><p class="hint">本轮未登录试用、未接触真实客户数据；当前版本及实际收益待核。</p><ul class="source-list"><li><a href="https://group.3chatai.cn/t/topic/432">3Chat v5.3官方公告：Builder校验、情景检索和转人工画像</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>客户运营研究应追踪画像字段的来源对话、更新时间、人工修正和过期策略，测试客户否定、预算变化及不同联系人混聊能否正确撤回旧结论。离线测试须隔离训练对话与保留客户，线上以随机分组核转化增量；把误更新CRM、重复跟进和错误承诺造成的退款/客服成本计入贡献利润，才能区分看似活跃的对话与有价值的业务闭环。</p><p class="hint">本轮未登录试用、未接触真实客户数据；当前版本及实际收益待核。</p><ul class="source-list"><li><a href="https://group.3chatai.cn/t/topic/432">3Chat v5.3官方公告：Builder校验、情景检索和转人工画像</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>智能客服是否真正降低每个已解决问题的成本并提高留存？</p></section><article class="deal"><h3>档案判断</h3><p>客户运营AI应用的投资重点在实际解决率与留存，而非回复量。人工接管、知识权限和渠道失败处理构成运营闭环；外部工作平台分发可增加触达，也带来渠道依赖和获客成本风险。</p><p class="hint">公告日期2026-10-08，不作为当前新增；功能发布不等于客户采用、问题解决或付费留存。</p><ul class="source-list"><li><a href="https://group.3chatai.cn/t/topic/453">3Chat.ai官方社区V5.5更新公告</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方社区V5.5公告介绍实时翻译、客户分组知识范围、自定义记忆摘要与客户运营插件。已核公告存在，不代表功能已独立验收或能产生收入增长。</p><p class="hint">公告日期2026-10-08，不作为当前新增；功能发布不等于客户采用、问题解决或付费留存。</p><ul class="source-list"><li><a href="https://group.3chatai.cn/t/topic/453">3Chat.ai官方社区V5.5更新公告</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>v5.3历史公告区分Agent配置生成、构建后检查和情景知识检索，并称转人工后仍可提取客户画像；同一公告明确这一画像能力当时不支持群聊。Builder自检不是独立评测，也不是底层模型自行升级；历史限制需在现行版本重测，不能与v5.5能力混成一个无版本产品承诺。</p><p class="hint">本轮未登录试用、未接触真实客户数据；当前版本及实际收益待核。</p><ul class="source-list"><li><a href="https://group.3chatai.cn/t/topic/432">3Chat v5.3官方公告：Builder校验、情景检索和转人工画像</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>客户运营研究应追踪画像字段的来源对话、更新时间、人工修正和过期策略，测试客户否定、预算变化及不同联系人混聊能否正确撤回旧结论。离线测试须隔离训练对话与保留客户，线上以随机分组核转化增量；把误更新CRM、重复跟进和错误承诺造成的退款/客服成本计入贡献利润，才能区分看似活跃的对话与有价值的业务闭环。</p><p class="hint">本轮未登录试用、未接触真实客户数据；当前版本及实际收益待核。</p><ul class="source-list"><li><a href="https://group.3chatai.cn/t/topic/432">3Chat v5.3官方公告：Builder校验、情景检索和转人工画像</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

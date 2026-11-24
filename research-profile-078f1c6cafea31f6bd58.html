@@ -190,8 +190,81 @@ nav a[aria-current] {color:#b4f0c4}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
 @media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
+button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
+#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+#local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
+#local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
+mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>遨博智能 / AUBO</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>多产品线能否形成可复用的平台优势，而非增加定制交付复杂度？ 能否提供固定软硬件版本下跨客户部署工时、非预期停机和恢复时间，以及本体与集成项目分开核算的毛利？</p></section><article class="deal"><h3>档案判断</h3><p>遨博与DOBOT、JAKA可共同构成国内协作机器人延伸具身产业的比较组。零部件、整机与工作站覆盖可能带来渠道复用，也可能增加定制交付和售后负担。投资判断应拆开标准产品毛利与集成服务毛利，不能把传统机器人收入全部归入新具身业务。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.aubo-robotics.cn/">遨博智能官方产品矩阵</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>遨博官网列示工业协作机器人、焊接与码垛工作站，以及AMR、人形双臂、关节模块等具身产品类别，并覆盖科教和商用场景。目录可确认产品路线，但不能仅据目录推定具体出货、客户验收或人形规模量产；康养产品展示也不是医疗疗效和注册审批证明。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.aubo-robotics.cn/">遨博智能官方产品矩阵</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方 servoJoint 指南要求网线直连和实时系统，并提示示例需适配；抖动或自动停止时需要调参，且存在自动退出伺服模式机制。该接口证明可接入关节控制，不证明任意主机、网络或外部策略均具备同等稳定性，也不是端到端自主作业能力。</p><p class="hint">尚无统一任务实测或客户合同证据，不将接口说明视为独立性能认证。</p><ul class="source-list"><li><a href="https://docs.aubo-robotics.cn/application_notes/53-servoj/index.html">遨博 servoJoint 接口使用指南</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>一级市场应把开放控制接口的价值落实到客户集成成本与可重复验收：固定硬件、固件、主机和任务后比较轨迹误差、抖动、非预期停机、恢复时间及部署工时；同时拆分本体销售毛利和集成项目毛利。能调用 SDK 不等于量产线长期稳定，更不能由示例推断订单或收入。</p><p class="hint">尚无统一任务实测或客户合同证据，不将接口说明视为独立性能认证。</p><ul class="source-list"><li><a href="https://docs.aubo-robotics.cn/application_notes/53-servoj/index.html">遨博 servoJoint 接口使用指南</a></li></ul></article></main></body></html>
+<section class="profile-records"><h2>研究问题</h2><p>多产品线能否形成可复用的平台优势，而非增加定制交付复杂度？ 能否提供固定软硬件版本下跨客户部署工时、非预期停机和恢复时间，以及本体与集成项目分开核算的毛利？</p></section><article class="deal"><h3>档案判断</h3><p>遨博与DOBOT、JAKA可共同构成国内协作机器人延伸具身产业的比较组。零部件、整机与工作站覆盖可能带来渠道复用，也可能增加定制交付和售后负担。投资判断应拆开标准产品毛利与集成服务毛利，不能把传统机器人收入全部归入新具身业务。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.aubo-robotics.cn/">遨博智能官方产品矩阵</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>遨博官网列示工业协作机器人、焊接与码垛工作站，以及AMR、人形双臂、关节模块等具身产品类别，并覆盖科教和商用场景。目录可确认产品路线，但不能仅据目录推定具体出货、客户验收或人形规模量产；康养产品展示也不是医疗疗效和注册审批证明。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.aubo-robotics.cn/">遨博智能官方产品矩阵</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方 servoJoint 指南要求网线直连和实时系统，并提示示例需适配；抖动或自动停止时需要调参，且存在自动退出伺服模式机制。该接口证明可接入关节控制，不证明任意主机、网络或外部策略均具备同等稳定性，也不是端到端自主作业能力。</p><p class="hint">尚无统一任务实测或客户合同证据，不将接口说明视为独立性能认证。</p><ul class="source-list"><li><a href="https://docs.aubo-robotics.cn/application_notes/53-servoj/index.html">遨博 servoJoint 接口使用指南</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>一级市场应把开放控制接口的价值落实到客户集成成本与可重复验收：固定硬件、固件、主机和任务后比较轨迹误差、抖动、非预期停机、恢复时间及部署工时；同时拆分本体销售毛利和集成项目毛利。能调用 SDK 不等于量产线长期稳定，更不能由示例推断订单或收入。</p><p class="hint">尚无统一任务实测或客户合同证据，不将接口说明视为独立性能认证。</p><ul class="source-list"><li><a href="https://docs.aubo-robotics.cn/application_notes/53-servoj/index.html">遨博 servoJoint 接口使用指南</a></li></ul></article></main><script>(() => {
+  const toggle = document.querySelector('#local-toggle');
+  const bar = document.querySelector('#local-find');
+  const input = bar.querySelector('input');
+  const [prev,next,close] = bar.querySelectorAll('button');
+  const count = bar.querySelector('output');
+  const root = document.querySelector('main');
+  let hits = [], current = -1, opened = [];
+  function clear() {
+    for (const mark of hits) {
+      const parent = mark.parentNode;
+      if (parent) {mark.replaceWith(document.createTextNode(mark.textContent));parent.normalize();}
+    }
+    hits = []; current = -1;
+    for (const box of opened) box.open = false;
+    opened = [];
+  }
+  function go(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].classList.remove('here');
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    for (let el=hit.parentElement;el && el!==root;el=el.parentElement) {
+      if(el.tagName==='DETAILS' && !el.open){el.open=true;opened.push(el);}
+    }
+    hit.classList.add('here');
+    count.textContent=(current+1)+' / '+hits.length;
+    hit.scrollIntoView({block:'center',behavior:'instant'});
+  }
+  function find() {
+    clear();
+    const q=input.value.trim().toLowerCase();
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    if(q) while(walker.nextNode()) {
+      const node=walker.currentNode;
+      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+    }
+    for(const node of nodes){
+      const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
+      let start=0, at;
+      while((at=lower.indexOf(q,start))!==-1){
+        frag.append(text.slice(start,at));
+        const mark=document.createElement('mark');
+        mark.className='local-hit';mark.textContent=text.slice(at,at+q.length);
+        frag.append(mark);hits.push(mark);start=at+q.length;
+      }
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    prev.disabled=next.disabled=hits.length<2;
+    count.textContent=q?'本页无匹配':'';
+    go(0);
+  }
+  function show(open) {
+    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
+    if(open) input.focus();
+    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
+  }
+  toggle.onclick=()=>show(bar.hidden);
+  close.onclick=()=>show(false);
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
+  input.oninput=e=>{if(!e.isComposing)find()};
+  input.addEventListener('compositionend',find);
+  input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
+  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+})();
+</script></body></html>

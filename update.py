@@ -134,6 +134,7 @@ def render(events):
 
     from finder import SearchText, build_finder
     searchable=[]
+    local_script=Path("within-page.js").read_text()
 
     def page(path, title, section, content, *, meta='', cover=False):
         nav = ''.join(
@@ -149,9 +150,10 @@ def render(events):
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} · 观势</title><style>{css}</style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目">{nav}</nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
+<nav aria-label="栏目">{nav}</nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
+<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
 <main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1></header>
-{content}</main></body></html>''')
+{content}</main><script>{local_script}</script></body></html>''')
 
     ordered = sorted(events,key=lambda e:(e['day'],e['id']),reverse=True)
     historical = json.loads(Path('history-public.json').read_text())
