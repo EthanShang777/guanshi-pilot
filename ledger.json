@@ -10,8 +10,73 @@
         "烟台生命岛"
       ],
       "sources": [
-        "https://www.chinaventure.com.cn/news/111-20261123-394140.html"
+        "https://www.chinaventure.com.cn/news/111-20261123-394140.html",
+        "https://www.chinaventure.com.cn/flash/20261123-90289.html"
+      ]
+    },
+    {
+      "id": "90286",
+      "day": "2026-11-23",
+      "company": "瑞莱谱",
+      "title": "瑞莱谱完成新一轮融资",
+      "round": "B++轮",
+      "first_close": false,
+      "investors": [
+        "广州健康产投私募基金管理有限公司",
+        "广州市白云投资基金管理有限公司"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261123-90286.html"
+      ]
+    },
+    {
+      "id": "90287",
+      "day": "2026-11-23",
+      "company": "昂拓生物",
+      "title": "昂拓生物完成B轮5,500万美元融资",
+      "round": "B轮",
+      "first_close": false,
+      "investors": [
+        "弘晖基金",
+        "龙磐投资"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261123-90287.html"
+      ]
+    },
+    {
+      "id": "90288",
+      "day": "2026-11-23",
+      "company": "森木磊石",
+      "title": "森木磊石完成新一轮战略融资",
+      "round": "战略融资",
+      "first_close": false,
+      "investors": [
+        "中车资本",
+        "复星创富",
+        "盈远投资",
+        "文晞投资/一维创投"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261123-90288.html"
+      ]
+    },
+    {
+      "id": "90290",
+      "day": "2026-11-23",
+      "company": "数字光芯",
+      "title": "数字光芯完成近亿元 B 轮融资",
+      "round": "B轮",
+      "first_close": true,
+      "investors": [
+        "毅达资本",
+        "赛智伯乐",
+        "锡创投（国联金投和合）"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261123-90290.html"
       ]
     }
-  ]
+  ],
+  "through": "2026-11-23"
 }
