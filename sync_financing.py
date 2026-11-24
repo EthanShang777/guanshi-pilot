@@ -16,6 +16,16 @@ def sync(events):
         matches=query(db,'''SELECT event_id,sources_json FROM financing_events
             WHERE EXISTS (SELECT 1 FROM json_each(financing_events.sources_json)
                           WHERE value IN (SELECT value FROM json_each(?)))''',[packed(urls)])
+        nearby=[]
+        if not matches:
+            nearby=query(db,'''SELECT event_id,sources_json,round,investors_json FROM financing_events
+                WHERE date_key BETWEEN date(?,'-14 days') AND date(?,'+14 days')
+                AND (instr(company_name,?)>0 OR instr(?,company_name)>0)''',
+                [e['day'],e['day'],e['company'],e['company']])
+            if len(nearby)==1 and e['round'] and nearby[0]['round']==e['round']:
+                names={i['name'] for i in json.loads(nearby[0]['investors_json']) if isinstance(i,dict)}
+                if names.intersection(e['investors']):
+                    matches=nearby
         if len(matches)==1:
             row=matches[0]
             old=json.loads(row['sources_json'])
@@ -25,9 +35,6 @@ def sync(events):
                       [packed(merged),row['event_id'],row['sources_json']])
                 linked+=1
             continue
-        nearby=query(db,'''SELECT event_id FROM financing_events WHERE date_key BETWEEN date(?,'-14 days') AND date(?,'+14 days')
-             AND (instr(company_name,?)>0 OR instr(?,company_name)>0) LIMIT 1''',
-             [e['day'],e['day'],e['company'],e['company']])
         if matches or nearby:
             held+=1
             print('Possible existing transaction, preserved for reconciliation:',e['id'])
