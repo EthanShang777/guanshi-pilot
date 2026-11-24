@@ -64,7 +64,7 @@ def build_library(page,link,filename,reports,companies,index_rows,live):
         page('report-'+rid+'.html',r['title'],'研究周报',body,meta=TOPICS[r['topic']]+'　'+r['start']+' — '+r['end'])
     topic_links=directory([link('landscape-'+k+'.html',v) for k,v in TOPICS.items()])
     weeks=''.join(subsection(esc(w),directory([reportlink(rid) for rid in ids])) for w,ids in by_week.items())
-    page('reports.html','研究周报','研究周报',topic_links+weeks,meta='按方向或归档周阅读')
+    page('reports.html','研究周报','研究周报',topic_links+weeks)
     from atlas import build_atlas
     page('landscape.html','赛道画布','赛道画布',build_atlas(index_rows,reports,live,filename,TOPICS,subject))
     profiles=library['profiles']
@@ -107,4 +107,4 @@ def build_library(page,link,filename,reports,companies,index_rows,live):
         ref=r['sources'][0]
         changes+=card(esc(r['title']),'<small>'+esc(r['day'])+' 复核</small><p class="review-result">'+esc(r.get('reading_result') or r['reason'])+'</p>'+
                       link(ref['url'],ref['title']+' ↗')+'<details class="research-node"><summary>此前判断与验证条件</summary><dl>'+fields+'</dl>'+sources(r['sources'])+'</details>')
-    page('changes.html','变化追踪','变化追踪',changes,meta='有复核记录的历史判断')
+    page('changes.html','变化追踪','变化追踪',changes)
