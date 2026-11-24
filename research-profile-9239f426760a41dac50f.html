@@ -180,8 +180,18 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
+.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
+.find-link span {font:24px/1 Arial,sans-serif}
+.reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
+.reading-pick small,#found small {color:var(--muted);font-size:13px}
+.reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
+.reading-pick p a {display:inline-block;color:var(--green);padding:5px 0;font-size:14px}
+.lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
+#found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
+#found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>AutoMQ</h1></header>
 <section class="profile-records"><h2>研究问题</h2><p>秒级分区调整能否转化为更短业务积压和更少人工介入？</p></section><article class="deal"><h3>档案判断</h3><p>AutoMQ补充AI数据链路中的消息持久化与弹性基础设施，和Timeplus、RisingWave的流式计算形成分层对照。对象存储可能改善保留成本与扩缩容，但冷读、请求费用、尾延迟和故障域需合并评估。消息层降本并不证明AI业务收入，应区分传统Kafka迁移与新AI数据负载；不将对象存储耐久度直接等同端到端服务可用性。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.automq.com/">AutoMQ官方对象存储Kafka架构介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网介绍以对象存储为基础的Kafka兼容架构，提供BYOC及软件部署，并列示迁移、连接器及湖表集成。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.automq.com/">AutoMQ官方对象存储Kafka架构介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>AutoMQ团队2026年9月29日运行指南区分Broker分区所有权调整与消费者组再平衡，并要求同时核遥测新鲜度、流量倾斜、实际分区移动、客户端影响和集群恢复。指南明确秒级分区调整仍可能带来元数据刷新、重试、缓存/存储影响及消费积压，不等于客户端无感。</p><p class="hint">没有客户实际SLO、账单或续费验证。</p><ul class="source-list"><li><a href="https://www.automq.com/blog/operating-automq-self-balancing-five-signals-before-intervention">AutoMQ官方：Operating Self-Balancing, Five Signals Before You Intervene</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>这让存算分离的投资判断从“迁移更快”转到“业务恢复更快”：免全量日志搬迁可能降低扩缩容成本，但不消除WAL、共享存储、缓存和控制协调成本。要在突发负载、热分区及故障场景下核消费者追平时间、尾延迟、人工介入频率和云账单；若只是Broker负载均匀而应用积压未降，不能算客户收益。比传统Kafka更低的操作负担，需通过持续运行与客户续费证据验证。</p><p class="hint">没有客户实际SLO、账单或续费验证。</p><ul class="source-list"><li><a href="https://www.automq.com/blog/operating-automq-self-balancing-five-signals-before-intervention">AutoMQ官方：Operating Self-Balancing, Five Signals Before You Intervene</a></li></ul></article></main></body></html>

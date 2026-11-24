@@ -180,8 +180,18 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
+.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
+.find-link span {font:24px/1 Arial,sans-serif}
+.reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
+.reading-pick small,#found small {color:var(--muted);font-size:13px}
+.reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
+.reading-pick p a {display:inline-block;color:var(--green);padding:5px 0;font-size:14px}
+.lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
+#found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
+#found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>Alluxio</h1></header>
 <section class="profile-records"><h2>研究问题</h2><p>在可复现版本与数据新鲜度约束下，加速的净经济收益如何？</p></section><article class="deal"><h3>档案判断</h3><p>Alluxio可作为JuiceFS等数据底座的对标：核心卖点是保留原存储并增加缓存，而非重建权威数据源。投资价值取决于节约的GPU空等与跨云传输能否覆盖缓存成本。命中率、冷启动和模型检查点写回风险需分别测量；客户案例的加速比例不能直接外推所有训练任务或商业收入。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.alluxio.io/">Alluxio官方AI缓存架构与场景</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网定位计算侧分布式缓存，位于计算和持久存储之间，支持S3/POSIX/Python访问及训练、推理和多云场景。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.alluxio.io/">Alluxio官方AI缓存架构与场景</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方DA文档区分Immutable、Skip Cache与Max Age：不可变策略不再检查底层存储更新；Max Age到期后在下次访问检查；绕过缓存时一致性取决于底层存储。文档称缓存过滤未启用时行为等同Immutable，因此缓存命中并不证明读到最新版本。</p><p class="hint">未验证客户配置、生产延迟、收入或续费。</p><ul class="source-list"><li><a href="https://documentation.alluxio.io/ee-da-en/cache/managing-data-in-the-cache">Alluxio 官方缓存管理：一致性与新鲜度策略</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断：训练数据快照与持续更新的检索语料不应共用未经区分的加速指标。前者重视固定版本复现，后者还要验证更正、删除和版本变化多久可见；同JuiceData或原生对象存储对比时，应将校验请求、回源流量、缓存重建与过期内容造成的重算计入成本。有效优势应是在约定新鲜度下减少GPU等待，而非单独提高缓存命中率。</p><p class="hint">未验证客户配置、生产延迟、收入或续费。</p><ul class="source-list"><li><a href="https://documentation.alluxio.io/ee-da-en/cache/managing-data-in-the-cache">Alluxio 官方缓存管理：一致性与新鲜度策略</a></li></ul></article></main></body></html>

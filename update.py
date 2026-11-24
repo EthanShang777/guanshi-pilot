@@ -132,17 +132,24 @@ def render(events):
     css = Path('site.css').read_text()
     nav_items = [('index.html','融资事件'), ('companies.html','公司档案'), ('institutions.html','机构档案'), ('reports.html','研究周报'), ('landscape.html','赛道画布'), ('changes.html','变化追踪')]
 
+    from finder import SearchText, build_finder
+    searchable=[]
+
     def page(path, title, section, content, *, meta='', cover=False):
         nav = ''.join(
             f'<a href="{url}"' + (' aria-current="location"' if label == section else '') + f'>{label}</a>'
             for url,label in nav_items
         )
+        if path!='find.html' and not path.startswith('archive-'):
+            parser=SearchText()
+            parser.feed(content)
+            searchable.append([title,section,path,' '.join([meta,*parser.parts])])
         caption = f'<p>{html.escape(meta)}</p>' if meta else ''
         Path(path).write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} · 观势</title><style>{css}</style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目">{nav}</nav></header>
+<nav aria-label="栏目">{nav}</nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
 <main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1></header>
 {content}</main></body></html>''')
 
@@ -223,6 +230,18 @@ def render(events):
                 link(event_url(e),e['company'])+'</h2><p>'+html.escape(terms(e) if e.get('amount_display') else e['title'])+
                 '</p>'+link(event_url(e),'查看融资详情 →')+'</article>')
 
+    def reading_pick():
+        latest=max(r['week'] for r in reports.values())
+        choices=[(rid,r) for rid,r in reports.items() if r['week']==latest and r.get('lead_evidence')]
+        choices.sort(key=lambda pair:pair[1]['topic']!='world-model')
+        for rid,r in choices:
+            evidence=next((e for e in r['events'] if e['title']==r['lead_evidence'] and e['sources']),None)
+            if evidence:
+                return ('<aside class="reading-pick"><small>研究选读　·　'+html.escape(latest)+' 归档</small><h2>'+
+                        link('report-'+rid+'.html',r['reading_lead'])+'</h2><p>'+link('report-'+rid+'.html','阅读周报 →')+
+                        '　'+link(evidence['sources'][0]['url'],'查看证据 ↗')+'</p></aside>')
+        return ''
+
     def archive_page(batch, number, total, sector=None):
         editions = []
         for day, entries in groupby(batch,key=lambda e:e['day']):
@@ -239,7 +258,7 @@ def render(events):
         if total>1:
             pager = '<nav aria-label="融资时间线分页">'+(link(url(number-1),'上一页') if number>1 else '')+f'<span>{number} / {total}</span>'+(link(url(number+1),'下一页') if number<total else '')+'</nav>'
         featured = number==1 and sector is None
-        content = ('<p class="search-entry">'+link("search.html","检索公司、投资机构与赛道 →")+'</p>'+sector_shelf() if featured else '')+pager+''.join(editions)
+        content = ('<p class="search-entry">'+link("search.html","检索公司、投资机构与赛道 →")+'</p>'+reading_pick()+sector_shelf() if featured else '')+pager+''.join(editions)
         if sector:
             info = f'<div class="sector-summary"><strong>{len(sectors[sector])} 笔融资</strong><span>最近披露　{sectors[sector][0]["day"]}</span></div>'
             content = info+pager+''.join(sector_entry(e) for e in batch)
@@ -327,6 +346,8 @@ def render(events):
                 layout = '<section class="profile-records"><h2>投资布局</h2><p>检索样本中按机构名称精确匹配的融资记录</p>'+cells+'</section>'
             page(filename(kind,name),name,label,summary+intro+f'<section class="profile-records"><h2>{heading}</h2>'+
                  ''.join(records)+'</section>'+layout,meta=label)
+
+    build_finder(page,searchable)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()

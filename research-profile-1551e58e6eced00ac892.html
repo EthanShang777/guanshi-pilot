@@ -180,8 +180,18 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
+.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
+.find-link span {font:24px/1 Arial,sans-serif}
+.reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
+.reading-pick small,#found small {color:var(--muted);font-size:13px}
+.reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
+.reading-pick p a {display:inline-block;color:var(--green);padding:5px 0;font-size:14px}
+.lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
+#found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
+#found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>Together AI</h1></header>
 <section class="profile-records"><h2>研究问题</h2><p>推理优化与开发者工作流能否形成超越算力转售的持续优势？</p></section><article class="deal"><h3>档案判断</h3><p>作为硅基流动、无问芯穹及基流的海外对标，Together AI的价值在于把推理调度、算力和模型定制联成开发者工作流。投资判断应分开看硬件供给利润与软件优化溢价，避免把低Token报价直接视为高毛利或可持续优势。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.together.ai/">Together AI官方云平台产品说明</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>Together AI官网区分无服务器、批量、保留吞吐及专用推理，并提供GPU计算与微调。产品覆盖不等于所有负载下成本或性能领先；官网模型目录、性能和客户声明未在本轮独立实测。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.together.ai/">Together AI官方云平台产品说明</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>本次所读官方批处理文档的折扣列表只列whisper-large-v3，并写明未列模型按标准费率、专用推理不适用该折扣，不能把“最高50%”套用所有模型。页面先称24小时为最大窗口，后又明确为best-effort且可能超时，承诺口径存在不一致。文档还说明批次COMPLETED可包含逐请求错误，结果需按custom_id对账，输入输出文件保留7天。以上为当前文档观察，非本轮实测或合同SLA。</p><p class="hint">当前文档不代表历史定价或合同；无真实负载及客户发票验证。</p><ul class="source-list"><li><a href="https://docs.together.ai/docs/inference/batch/overview">Together Batch Overview：折扣、完成窗口与逐请求错误</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>对比国内推理平台应按相同模型、任务质量与截止时间计算每个成功有效结果的成本，而非宣传折扣或每百万token单价。异步队列可以吸收闲置算力是经营假设，需用GPU利用率、排队长尾、超时重跑与客户留存证实；低价格也可能侵蚀毛利。投资核验优先三项：逐模型发票与折扣；按custom_id核成功、失败、重复和超时；批量客户是否扩大付费用量且减少人工对账。文件短期保留还要求客户可重复取证，下载次数和批次完成数不能代替成功结果或收入。</p><p class="hint">当前文档不代表历史定价或合同；无真实负载及客户发票验证。</p><ul class="source-list"><li><a href="https://docs.together.ai/docs/inference/batch/overview">Together Batch Overview：折扣、完成窗口与逐请求错误</a></li></ul></article></main></body></html>

@@ -180,8 +180,18 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
+.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
+.find-link span {font:24px/1 Arial,sans-serif}
+.reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
+.reading-pick small,#found small {color:var(--muted);font-size:13px}
+.reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
+.reading-pick p a {display:inline-block;color:var(--green);padding:5px 0;font-size:14px}
+.lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
+#found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
+#found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>Timeplus</h1></header>
 <section class="profile-records"><h2>研究问题</h2><p>恢复策略下的有效事件完整性与运营成本是否达标？</p></section><article class="deal"><h3>档案判断</h3><p>Timeplus补充AI数据基础设施中的流式计算层，与EMQX消息接入、TDengine时序存储形成研究对照，而非认定三者已有合作。投资价值需看增量处理是否减少数据延迟及运维成本；低延迟不保证事件顺序、模型判断或外部动作正确。应分拆传统分析管道迁移与AI工作负载新增，避免把客户案例节省比例普遍化。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.timeplus.com/">Timeplus官方实时数据管道介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网介绍单二进制流式SQL平台，联合处理实时与历史数据，支持边缘、云和BYOC；列示Enterprise、Proton OSS及AgentGuard。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://www.timeplus.com/">Timeplus官方实时数据管道介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方查询设置文档显示 recovery_policy 默认 strict，脏数据处理失败可使物化视图不可用；选择 best_effort 后会从检查点尝试恢复，最多重试三次后跳过脏数据继续处理。因此持续运行不能自动作为数据完整性证据，检查点恢复也不等于所有输入均已正确处理。</p><p class="hint">未验证生产故障表现、客户付费或准确率。</p><ul class="source-list"><li><a href="https://docs.timeplus.com/query-settings">Timeplus 官方查询设置与恢复策略</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断：面向实时Agent与告警，容错策略是在可用性和完整性之间作取舍，不能仅用低延迟证明业务价值。应把跳过的数据、漏告警、重处理及人工修复纳入每个有效事件的成本；同RisingWave或传统流处理比较时固定脏数据比例和恢复策略，避免不同容错口径造成性能假优势。</p><p class="hint">未验证生产故障表现、客户付费或准确率。</p><ul class="source-list"><li><a href="https://docs.timeplus.com/query-settings">Timeplus 官方查询设置与恢复策略</a></li></ul></article></main></body></html>

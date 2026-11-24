@@ -180,8 +180,18 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
+.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
+.find-link span {font:24px/1 Arial,sans-serif}
+.reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
+.reading-pick small,#found small {color:var(--muted);font-size:13px}
+.reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
+.reading-pick p a {display:inline-block;color:var(--green);padding:5px 0;font-size:14px}
+.lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
+#found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
+#found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><a class="find-link" href="find.html" aria-label="全站搜索"><span aria-hidden="true">⌕</span> 搜索</a></header>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>InfiniFlow / RAGFlow</h1></header>
 <section class="profile-records"><h2>研究问题</h2><p>每个可核结论的总成本，能否比通用RAG拼装方案更低？</p></section><article class="deal"><h3>档案判断</h3><p>RAGFlow补充从文档处理到检索上下文再到Agent工作流的一体化路线，可与FastGPT、BISHENG和底层Zilliz分别对照。差异化需落在复杂文档结构保真、引用与更新准确性，而非仅能生成完整报告。投研示例不能证明公司识别、日期口径或财务数字正确；开源入口向云端和企业部署转换的经济性还取决于解析、索引及人工复核成本。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://ragflow.io/">RAGFlow官方平台与商业版本介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>RAGFlow官网署名InfiniFlow，列示多格式数据摄取、向量与BM25混合检索及重排、可视化Agent与MCP编排；提供云端分层计划和企业BYOC、本地部署。</p><p class="hint">分析待验证，不将官网展示当独立验收或规模收入。</p><ul class="source-list"><li><a href="https://ragflow.io/">RAGFlow官方平台与商业版本介绍</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>RAGFlow 1.0.0搜索设置文档将检索和生成分开：元数据限制参与检索的内容；关键词权重用于在精确术语和语义匹配间调节；重排候选数扩大覆盖也增加开销，重排模型增加调用及延迟。用于摘要、关联搜索和思维导图的LLM又独立于嵌入及重排模型，不能把切换生成模型当作修复召回错误。</p><p class="hint">未独立评测；不推断客户收入、准确率或其他版本能力。</p><ul class="source-list"><li><a href="https://ragflow.io/docs/v1.0.0/search_settings">RAGFlow 1.0.0官方：Search Settings</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>对投研等高信息密度任务，产品差异应按证据链定位：公司名、轮次或编号没召回，是检索层问题；召回正确但金额或主体写错，是生成或复核问题。把参数越开越大未必提高单位成本效益。应以带答案与原始出处的固定题集比较每个可核结论的成本、引用准确率和人工修订量，再看这些改进能否减少企业交付工时并带来续费，而不是以报告篇幅或功能数量衡量。</p><p class="hint">未独立评测；不推断客户收入、准确率或其他版本能力。</p><ul class="source-list"><li><a href="https://ragflow.io/docs/v1.0.0/search_settings">RAGFlow 1.0.0官方：Search Settings</a></li></ul></article></main></body></html>
