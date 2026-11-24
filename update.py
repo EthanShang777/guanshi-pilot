@@ -138,7 +138,6 @@ def render(events):
                 f'<span>{headline}</span></a></h3><p>{parties}</p></article>')
 
     def relation_poster(items):
-        from math import sin, pi
         from itertools import islice
 
         # Feature one event per company from the newest disclosure date.
@@ -148,22 +147,20 @@ def render(events):
                 break
             featured.setdefault(event['company'],event)
         panels = []
-        for i,e in enumerate(islice(featured.values(),5)):
-            strands = []
-            names = e['investors']
-            for j,name in enumerate(names):
-                end = (j+0.5)*240/len(names)
-                for k in range(18):
-                    t = k/17
-                    y = end+(t-.5)*9
-                    mid = 35+sin((t+i*.13)*pi)*150
-                    strands.append(f'<path d="M -5 {110+45*t:.1f} C 70 {mid-110:.1f}, 120 {mid+85:.1f}, 180 {mid:.1f} S 275 {y:.1f}, 325 {y:.1f}"/>')
-            diagram = '<svg aria-hidden="true" viewBox="0 0 320 240" preserveAspectRatio="none">'+''.join(strands)+'</svg>'
-            parties = ''.join(link(filename('institution',name),name) for name in names)
+        cards = list(islice(featured.values(),5))
+        for i,e in enumerate(cards):
+            layers = []
+            for j,card in enumerate(cards):
+                offset = j-i
+                layers.append(f'<label aria-hidden="true" for="f{j}" class="sheet {"chosen" if j==i else ""}" '
+                              f'style="--offset:{offset};--depth:{abs(offset)};--tilt:{-36 if offset<0 else 36 if offset>0 else -9}deg">'
+                              f'<small>{html.escape(card["round"] or "融资记录")}</small><i></i><b>{html.escape(card["company"])}</b></label>')
+            diagram = '<div class="rack">'+''.join(layers)+'</div>'
+            parties = '、'.join(link(filename('institution',name),name) for name in e['investors'])
             checked = ' checked' if i==0 else ''
             panels.append(f'<input class="switch" type="radio" name="feature" id="f{i}"{checked}><label for="f{i}">{html.escape(e["company"])}</label>'
                           f'<section class="plate"><div class="subject"><small>{html.escape(e["day"])}　/　融资披露</small><h2>{link(filename("company",e["company"]),e["company"])}</h2>'
-                          f'<p>{link(event_url(e), e["title"])}</p></div><div class="weave">{diagram}<div class="ends">{parties or "投资方见原文"}</div></div></section>')
+                          f'<p>{link(event_url(e), e["title"])}</p></div><div class="archive-view">{diagram}<div class="ends">{parties or "投资方见原文"}</div></div></section>')
         return '<fieldset class="atlas"><legend>当日融资关系</legend>'+''.join(panels)+'</fieldset>' if panels else ''
 
     editions = []
