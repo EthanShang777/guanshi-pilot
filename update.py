@@ -141,6 +141,46 @@ def render(events):
 {content}</main></body></html>''')
 
     ordered = sorted(events,key=lambda e:(e['day'],e['id']),reverse=True)
+    historical = json.loads(Path('history-public.json').read_text())
+    reports = json.loads(Path('research-index.json').read_text())
+    return_link = """<script>(()=>{const value=new URLSearchParams(location.search).get('fromSearch');if(value===null)return;const q=new URLSearchParams(value),focus=q.get('focus');q.delete('focus');const a=document.createElement('a');a.href='search.html?'+q+(focus?'#'+encodeURIComponent(focus):'');a.textContent='← 返回筛选结果';document.querySelector('main').prepend(a)})();</script>"""
+    index_rows = []
+    for event in ordered:
+        index_rows.append(dict(key=event['id'],company=event['company'],investors=event['investors'],aliases=[],day=event['day'],
+                               sector=event.get('sector','待归类'),stage=event['round'],amount=event.get('amount_display',''),href=event_url(event)))
+    linked_sources = {u for event in ordered for u in event['sources']}
+    research_companies = {}
+    for row in historical:
+        if row['source'] in linked_sources and any(e['company']==row['company'] and row['source'] in e['sources'] for e in ordered):
+            continue
+        href = 'historical-'+row['key']+'.html'
+        index_rows.append({**row,'href':href})
+        citations = [link('report-'+rid+'.html',reports[rid]['title']) for rid in row.get('reports',[])]
+        body = (f'<div class="deal-summary"><div><small>历史记录金额</small><strong>{html.escape(row["amount"] or "未列明")}</strong></div>'
+                f'<div><small>轮次</small><strong>{html.escape(row["stage"] or "未列明")}</strong></div></div>'
+                '<section class="counterparties"><h2>档案所列参与方</h2><p>'+html.escape('、'.join(row['investors']) or '未列明')+'</p></section>')
+        if citations:
+            research_companies.setdefault(row['company'],[]).append(row)
+            body+='<section class="counterparties"><h2>相关研究</h2>'+''.join(citations)+link(filename('research-company',row['company']),'公司研究档案 →')+'</section>'
+        page(href,row['company'],'融资事件',body+'<footer class="evidence">'+link(row['source'],'投中网报道 ↗')+'</footer>'+return_link,
+             meta=(row['date_kind'] or '档案日期')+'　'+row['day'])
+    for name,items in research_companies.items():
+        refs=dict.fromkeys(rid for item in items for rid in item['reports'])
+        body='<section class="counterparties"><h2>融资记录</h2>'+''.join(link('historical-'+r['key']+'.html',r['day']+' · '+r['stage']) for r in items)+'</section>'
+        body+='<section class="counterparties"><h2>相关研究</h2>'+''.join(link('report-'+rid+'.html',reports[rid]['title']) for rid in refs)+'</section>'
+        page(filename('research-company',name),name,'公司档案',body,meta='历史研究档案')
+    for rid,report in reports.items():
+        companies=[name for name,items in research_companies.items() if any(rid in r['reports'] for r in items)]
+        body='<p class="intro">'+html.escape(report['summary'])+'</p><section class="counterparties"><h2>有来源关联的公司</h2>'+''.join(link(filename('research-company',name),name) for name in companies)+'</section>'
+        page('report-'+rid+'.html',report['title'],'融资事件',body,meta='周报摘要　'+report['start']+' — '+report['end'])
+    options=''.join('<option>'+html.escape(s)+'</option>' for s in sorted({r['sector'] for r in index_rows}))
+    controls=('<p class="intro">每日试站记录及有投中网公开报道的历史样本。</p><form id="archive-form"><label>公司<input name="company" type="search"></label>'
+              '<label>投资机构<input name="investor" type="search"></label><label>赛道<select name="sector"><option value="">全部赛道</option>'+options+
+              '</select></label><button type="reset">清除条件</button></form><p id="match-count" aria-live="polite"></p><section id="matches"></section>'
+              '<nav><button id="prev">上一页</button><button id="next">下一页</button></nav>')
+    public_keys=('key','href','company','day','sector','stage','amount','investors','aliases')
+    data=json.dumps([{k:r[k] for k in public_keys} for r in sorted(index_rows,key=lambda r:r['day'],reverse=True)],ensure_ascii=False).replace('<',r'\u003c')
+    page('search.html','融资交叉检索','融资事件',controls+'<script type="application/json" id="search-data">'+data+'</script><script>'+Path('search.js').read_text()+'</script>',cover=True)
     def dispatch(e):
         company = html.escape(e['company'])
         headline = html.escape(e['title'].removeprefix(e['company']).strip() or e['title'])
@@ -194,7 +234,7 @@ def render(events):
         if total>1:
             pager = '<nav aria-label="融资时间线分页">'+(link(url(number-1),'上一页') if number>1 else '')+f'<span>{number} / {total}</span>'+(link(url(number+1),'下一页') if number<total else '')+'</nav>'
         featured = number==1 and sector is None
-        content = (sector_shelf() if featured else '')+pager+''.join(editions)
+        content = ('<p class="search-entry">'+link("search.html","检索公司、投资机构与赛道 →")+'</p>'+sector_shelf() if featured else '')+pager+''.join(editions)
         if sector:
             info = f'<div class="sector-summary"><strong>{len(sectors[sector])} 笔融资</strong><span>最近披露　{sectors[sector][0]["day"]}</span></div>'
             content = info+pager+''.join(sector_entry(e) for e in batch)
@@ -226,7 +266,7 @@ def render(events):
                    f'<section class="counterparties"><h2>{role}机构</h2>{parties or "见原文"}</section>'+notes+
                    '<footer class="evidence">'+link(filename('company',e['company']),'公司档案')+' · '+
                    link(filename('sector',sector),sector)+' · '+sources+'</footer>')
-        page(event_url(e),e['company'],'融资事件',content,meta='融资披露　'+e['day'])
+        page(event_url(e),e['company'],'融资事件',content+return_link,meta='融资披露　'+e['day'])
 
     for kind,label,index in [('company','公司档案','companies.html'),('institution','机构档案','institutions.html')]:
         groups = {}
@@ -241,8 +281,12 @@ def render(events):
             context = ' · '.join(filter(None,(sector,latest['round']))) if is_company else '最近参投 · '+latest['company']
             rows.append(f'<a class="directory-row" href="{filename(kind,name)}"><span><strong>{html.escape(name)}</strong>'
                         f'<small>{html.escape(context)}</small></span><i aria-hidden="true">→</i></a>')
+        if is_company:
+            for name in research_companies:
+                if name not in groups:
+                    rows.append(link(filename('research-company',name),name+' · 历史研究档案'))
         count_label = '家公司' if is_company else '家机构'
-        directory = f'<div class="sector-summary"><strong>试站收录 {len(groups)} {count_label}</strong></div>'
+        directory = f'<div class="sector-summary"><strong>试站收录 {len(rows)} {count_label}</strong></div>'
         page(index,label,label,directory+'<div class="profile-directory">'+''.join(rows)+'</div>',cover=True)
         for name,items in groups.items():
             desc = {'三有利康':'北京三有利康细胞科技有限公司成立于 2021 年，研发精准亚型间充质干细胞药物。',

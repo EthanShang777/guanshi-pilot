@@ -165,3 +165,9 @@ nav a[aria-current] {color:#b4f0c4}
 .profile-records>h2 {font-weight:500;font-size:18px;color:var(--muted);}
 .profile-records .related {margin:10px 0;color:var(--muted);font-size:14px;}
 @media(max-width:640px){.profile-directory{grid-template-columns:1fr;}.directory-row{padding:15px 0;}}
+#archive-form {display:flex;align-items:end;flex-wrap:wrap;gap:12px;margin:24px 0;}
+#archive-form label {display:grid;gap:4px;color:var(--muted);}
+#archive-form input,#archive-form select,#archive-form button,#prev,#next {font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#18231d;color:var(--ink);}
+#matches .deal>a,.search-entry a {color:var(--green);font-weight:500;}
+.search-entry {margin:10px 0 16px;}
+@media(max-width:640px){#archive-form label{width:100%;}}
