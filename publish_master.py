@@ -69,13 +69,20 @@ def sector_url(section,sector):
     if section=='融资事件':return filename('sector',sector)
     return filename('companies' if section=='公司档案' else 'institutions',sector)
 
+def financing_table(rows, body_id=''):
+    columns=('公司','公告日期','轮次 / 类型','融资金额','投资方','估值','所属赛道')
+    return ('<div class="finance-scroll" tabindex="0" role="region" aria-label="融资事件表"><table class="finance-grid">'
+            '<thead><tr>'+''.join('<th scope="col">'+name+'</th>' for name in columns)+'</tr></thead><tbody'+
+            (' id="'+body_id+'"' if body_id else '')+'>'+rows+'</tbody></table></div>')
+
 def list_pages(base,title,section,items,make_row,first=''):
     size=60
     def url(i):return base if i==0 else base[:-5]+'-'+str(i+1)+'.html'
     pages=max(1,(len(items)+size-1)//size)
     for i in range(pages):
         nav='<nav>'+ (link(url(i-1),'上一页') if i else '')+f'　{i+1} / {pages}　'+(link(url(i+1),'下一页') if i+1<pages else '')+'</nav>'
-        body=(first if i==0 else '')+nav+''.join(make_row(r) for r in items[i*size:(i+1)*size])+nav
+        rows=''.join(make_row(r) for r in items[i*size:(i+1)*size])
+        body=(first if i==0 else '')+nav+(financing_table(rows) if section=='融资事件' else rows)+nav
         page(url(i),title,section,body)
 
 def build(rows):
@@ -120,7 +127,9 @@ def build(rows):
         buckets['deal-'+key[:2]][key]=d
     for key,records in buckets.items():dump(data/(key+'.json'),records)
     def event_row(d):
-        return '<article class="deal"><small>'+esc(d['day'] or '日期未列明')+' · '+esc(d['sector'])+'</small><h3>'+link(d['href'],d['company'])+'</h3><p>'+esc(' · '.join(filter(None,[d['stage'],d['amount']])))+'</p></article>'
+        cells=[d['day'],d['stage'],d['amount'],'、'.join(d['investors']),d['valuation'],' / '.join(filter(None,[d['sector'],d['sub']]))]
+        return ('<tr><th scope="row">'+link(d['href'],d['company'])+'</th>'+
+                ''.join('<td>'+esc(v or '未记录')+'</td>' for v in cells)+'</tr>')
     counts=Counter({s:len(items) for s,items in groups.items()})
     for section,stat,slug in [('融资事件',counts,'financing'),('公司档案',Counter({k:len({d['companyHref'] for d in v}) for k,v in groups.items()}),'company'),
                               ('机构档案',Counter({k:len({i for d in v for i in d['investors']}) for k,v in groups.items()}),'institution')]:
@@ -165,7 +174,7 @@ def build(rows):
     atlas.OUTPUT=OUT/'atlas'
     build_library(page,link,filename,research,refs,deals,[])
     by_year=defaultdict(list)
-    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors')])
+    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub')])
     for year,items in by_year.items():dump(data/('search-'+year+'.json'),items)
     manifest={'events':len(deals),'companies':len(companies),'institutions':len(institutions),'years':list(by_year),'sectors':list(groups)}
     dump(data/'manifest.json',manifest)
@@ -173,7 +182,7 @@ def build(rows):
     form=shell.split('<form id="archive-form">',1)[1].split('</form>',1)[0]
     import re
     form=re.sub(r'(<select name="(sector|year)"><option value="">[^<]+</option>).*?</select>',r'\1</select>',form)
-    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p><section id="matches"></section><nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
+    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
     for p in Path('.').glob('research-company-*.html'):
         if not (OUT/p.name).exists():
             title=re.search(r'<h1>(.*?)</h1>',p.read_text()).group(1)

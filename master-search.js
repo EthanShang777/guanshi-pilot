@@ -28,7 +28,12 @@
         if(page>1)q.set('page',page);history.replaceState(null,'','search.html'+(q.size?'?'+q:''));
         count.textContent=n.toLocaleString()+' 笔 · 第 '+page+' / '+pages+' 页';list.replaceChildren();
         for(const r of found.slice((page-1)*24,page*24)){
-          const a=document.createElement('a');a.className='directory-row';a.href='deal.html?id='+r[0];a.textContent=[r[1],r[3],r[5],r[6]].filter(Boolean).join(' · ');list.append(a);
+          const tr=document.createElement('tr'), company=document.createElement('th'), a=document.createElement('a');
+          company.scope='row';a.href='deal.html?id='+r[0];a.textContent=r[1];company.append(a);tr.append(company);
+          for(const value of [r[3],r[5],r[6],r[7].join('、'),r[8],[r[4],r[9]].filter(Boolean).join(' / ')]){
+            tr.insertCell().textContent=value||'未记录';
+          }
+          list.append(tr);
         }
         document.querySelector('#prev').disabled=page<=1;document.querySelector('#next').disabled=page>=pages;
       }catch{if(seq===version)count.textContent='数据加载失败，请刷新重试。';}
