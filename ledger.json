@@ -80,7 +80,10 @@
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261123-90290.html"
       ],
-      "sector": "芯片与算力"
+      "sector": "芯片与算力",
+      "amount_display": "近亿元人民币",
+      "business": "硅基 Micro-LED 驱动芯片",
+      "investor_role": "联合投资"
     }
   ],
   "through": "2026-11-23"

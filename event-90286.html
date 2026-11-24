@@ -148,6 +148,15 @@ nav a[aria-current] {color:#b4f0c4}
 .arc-controls button {color:#dcf1df;border:1px solid #536b58;background:transparent;border-radius:50%;width:42px;height:42px;font-size:23px;cursor:pointer;}
 .arc-controls button:disabled {opacity:.35}.arc-controls output {font-size:12px;min-width:30px;text-align:center}
 @media(max-width:640px){.arc-bottom{align-items:start;flex-direction:column}.arc-controls{align-self:end}.arc-track{height:220px}}
+.sector-summary,.deal-summary {display:flex;align-items:baseline;gap:clamp(16px,5vw,70px);padding:22px 0;border-bottom:1px solid var(--line)}
+.sector-summary span,.deal small,.deal-summary small,.holding p {color:var(--muted);font-size:14px}
+.deal {border-bottom:1px solid var(--line);padding:26px 0;}
+.deal h2 {font-size:clamp(30px,4vw,50px);font-weight:500}
+.deal p,.holding p {margin-top:4px}.deal>a,.counterparties a {display:inline-block;color:var(--green);padding:10px 0}
+.deal-summary div {min-width:0}.deal-summary strong {display:block;font-size:clamp(24px,4vw,52px);font-weight:500;line-height:1.4}
+.counterparties {padding:22px 0}.counterparties h2 {font-size:17px;margin-bottom:8px}
+.counterparties a {display:block;border-bottom:1px solid var(--line);min-height:44px}
+.evidence {color:var(--muted);padding:12px 0}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
 <nav aria-label="栏目"><a href="index.html" aria-current="location">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a></nav></header>

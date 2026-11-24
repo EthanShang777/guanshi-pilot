@@ -177,6 +177,15 @@ def render(events):
                 '<button aria-label="上一赛道">‹</button><output></output><button aria-label="下一赛道">›</button>'
                 '</div></div></section>') if cards else ''
 
+    def terms(e):
+        return ' · '.join(filter(None,[e['round'], '首关' if e.get('first_close') else '',e.get('amount_display')]))
+
+    def sector_entry(e):
+        description = e.get('business','')
+        return ('<article class="deal"><small>'+html.escape(description or e['day'])+'</small><h2>'+
+                link(event_url(e),e['company'])+'</h2><p>'+html.escape(terms(e) if e.get('amount_display') else e['title'])+
+                '</p>'+link(event_url(e),'查看融资详情 →')+'</article>')
+
     def archive_page(batch, number, total, sector=None):
         editions = []
         for day, entries in groupby(batch,key=lambda e:e['day']):
@@ -194,6 +203,9 @@ def render(events):
             pager = '<nav aria-label="融资时间线分页">'+(link(url(number-1),'上一页') if number>1 else '')+f'<span>{number} / {total}</span>'+(link(url(number+1),'下一页') if number<total else '')+'</nav>'
         featured = number==1 and sector is None
         content = (sector_shelf() if featured else '')+pager+''.join(editions)
+        if sector:
+            info = f'<div class="sector-summary"><strong>{len(sectors[sector])} 笔融资</strong><span>最近披露　{sectors[sector][0]["day"]}</span></div>'
+            content = info+pager+''.join(sector_entry(e) for e in batch)
         if featured:
             content += f'<script>{shelf_script}</script>'
         page(url(number),sector or '融资时间线','融资事件',content,meta='行业赛道' if sector else '',cover=True)
@@ -215,6 +227,17 @@ def render(events):
             fields.append(('财务顾问','微纳资本（独家）'))
         fields.append(('资料来源',' · '.join(link(u,'投中网原文' if i==0 else '相关披露') for i,u in enumerate(e['sources']))))
         facts = ''.join(f'<div><dt>{label}</dt><dd>{value}</dd></div>' for label,value in fields)
+        if e.get('amount_display'):
+            sector = e['sector']
+            money = html.escape(e['amount_display'])
+            stage = html.escape(e['round'])
+            scope = '首次交割金额' if e.get('first_close') else '披露融资金额'
+            investors = ''.join(link(filename('institution',name),name+' →') for name in e['investors'])
+            content = (f'<div class="deal-summary"><div><small>{scope}</small><strong>{money}</strong></div><div><small>融资轮次</small><strong>{stage}</strong></div></div>'
+                       '<section class="counterparties"><h2>'+html.escape(e.get('investor_role','参投'))+'机构</h2>'+investors+'</section>'
+                       '<footer class="evidence">'+link(filename('company',e['company']),'公司档案')+' · '+link(filename('sector',sector),sector)+' · '+link(e['sources'][0],'投中网原文 ↗')+'</footer>')
+            page(event_url(e),e['company'],'融资事件',content,meta='融资披露　'+e['day'])
+            continue
         page(event_url(e),e['title'],'融资事件','<dl class="details">'+facts+'</dl>',meta=e['day']+'  投中网披露')
 
     for kind,label,index in [('company','公司档案','companies.html'),('institution','机构档案','institutions.html')]:
@@ -230,10 +253,11 @@ def render(events):
             intro = '<p class="intro">'+desc+'</p>' if desc else ''
             if kind=='institution':
                 relations = ''.join(
-                    '<article class="holding"><div><small>'+html.escape(item['day'])+'</small><h2>'+
-                    link(filename('company',item['company']),item['company'])+'</h2></div>'+
-                    link(event_url(item),item['title'])+'</article>' for item in items)
-                page(filename(kind,name),name,label,intro+'<section class="holdings"><h2>参投记录</h2>'+relations+'</section>',meta=label)
+                    '<article class="holding"><div><small>披露于 '+html.escape(item['day'])+'</small><h2>'+
+                    link(event_url(item),item['company'])+'</h2><p>'+html.escape(terms(item) if item.get('amount_display') else item['title'])+
+                    '</p></div>'+link(event_url(item),'查看该笔融资 →')+'</article>' for item in items)
+                count=len({item['company'] for item in items})
+                page(filename(kind,name),name,label,intro+f'<section class="holdings"><h2>试站收录 · {count} 家被投公司</h2>'+relations+'</section>',meta=label)
             else:
                 page(filename(kind,name),name,label,intro+timeline(items),meta=label)
 
