@@ -30,7 +30,7 @@
         for(const r of found.slice((page-1)*24,page*24)){
           const tr=document.createElement('tr'), company=document.createElement('th'), a=document.createElement('a');
           company.scope='row';a.href='deal.html?id='+r[0];a.textContent=r[1];company.append(a);tr.append(company);
-          for(const value of [r[3],r[5],r[6],r[7].join('、'),r[8],[r[4],r[9]].filter(Boolean).join(' / ')]){
+          for(const value of [r[10],r[3],r[5],r[6],r[7].join('、'),r[8],[r[4],r[9]].filter(Boolean).join(' / ')]){
             tr.insertCell().textContent=value||'未记录';
           }
           list.append(tr);

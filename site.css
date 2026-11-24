@@ -196,13 +196,13 @@ nav a[aria-current] {color:#b4f0c4}
 mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 
 .finance-scroll{overflow-x:auto;max-width:100%;margin:12px 0;isolation:isolate;border:1px solid var(--line);border-radius:12px}
-.finance-grid{width:100%;min-width:960px;border-collapse:separate;border-spacing:0;table-layout:fixed;text-align:left;font-size:14px;line-height:1.55}
+.finance-grid{width:100%;min-width:1060px;border-collapse:separate;border-spacing:0;table-layout:fixed;text-align:left;font-size:14px;line-height:1.55}
 .finance-grid :is(th,td){padding:12px 10px;vertical-align:top;overflow-wrap:anywhere;border-bottom:1px solid var(--line)}
 .finance-grid thead th{background:#19271e;color:#bdcdc2;font-weight:500}
 .finance-grid tr>:first-child{position:sticky;left:0;width:18%;background:#111b15;border-right:1px solid var(--line)}
 .finance-grid thead tr>:first-child{background:#19271e}
-.finance-grid tr>:nth-child(2){width:108px;white-space:nowrap}
-.finance-grid tr>:nth-child(5){width:22%}
-.finance-grid tr>:nth-child(4){font-weight:600}
+.finance-grid tr>:nth-child(3){width:108px;white-space:nowrap}
+.finance-grid tr>:nth-child(6){width:22%}
+.finance-grid tr>:nth-child(5){font-weight:600}
 .finance-grid tbody tr:last-child>*{border-bottom:0}
 @media(max-width:640px){.finance-grid tr>:first-child{width:126px}}

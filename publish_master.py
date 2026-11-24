@@ -70,7 +70,7 @@ def sector_url(section,sector):
     return filename('companies' if section=='公司档案' else 'institutions',sector)
 
 def financing_table(rows, body_id=''):
-    columns=('公司','公告日期','轮次 / 类型','融资金额','投资方','估值','所属赛道')
+    columns=('公司','国家 / 地区','公告日期','轮次 / 类型','融资金额','投资方','估值','所属赛道')
     return ('<div class="finance-scroll" tabindex="0" role="region" aria-label="融资事件表"><table class="finance-grid">'
             '<thead><tr>'+''.join('<th scope="col">'+name+'</th>' for name in columns)+'</tr></thead><tbody'+
             (' id="'+body_id+'"' if body_id else '')+'>'+rows+'</tbody></table></div>')
@@ -106,7 +106,7 @@ def build(rows):
         c=entity(companies,'company',row['company_id'] or row['event_id'],row['company_name'])
         d=dict(key=key,href='deal.html?id='+key,company=row['company_name'],companyHref=c['href'],day=row['date'],
                sector=row['primary_sector'] or '待归类',sub=row['secondary_sector'],stage=row['round'],amount=row['amount'],
-               valuation=row['valuation'],dateKind=row['date_kind'],sources=urls,investors=[],parties=[],aliases=[],reports=[])
+               country=row.get('country') or '',valuation=row['valuation'],dateKind=row['date_kind'],sources=urls,investors=[],parties=[],aliases=[],reports=[])
         c['events'].append(d);names[d['company']].add(c['href'])
         for item in json.loads(row['investors_json'] or '[]'):
             n=item.get('name') if isinstance(item,dict) else item
@@ -127,7 +127,7 @@ def build(rows):
         buckets['deal-'+key[:2]][key]=d
     for key,records in buckets.items():dump(data/(key+'.json'),records)
     def event_row(d):
-        cells=[d['day'],d['stage'],d['amount'],'、'.join(d['investors']),d['valuation'],' / '.join(filter(None,[d['sector'],d['sub']]))]
+        cells=[d['country'],d['day'],d['stage'],d['amount'],'、'.join(d['investors']),d['valuation'],' / '.join(filter(None,[d['sector'],d['sub']]))]
         return ('<tr><th scope="row">'+link(d['href'],d['company'])+'</th>'+
                 ''.join('<td>'+esc(v or '未记录')+'</td>' for v in cells)+'</tr>')
     counts=Counter({s:len(items) for s,items in groups.items()})
@@ -174,7 +174,7 @@ def build(rows):
     atlas.OUTPUT=OUT/'atlas'
     build_library(page,link,filename,research,refs,deals,[])
     by_year=defaultdict(list)
-    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub')])
+    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub','country')])
     for year,items in by_year.items():dump(data/('search-'+year+'.json'),items)
     manifest={'events':len(deals),'companies':len(companies),'institutions':len(institutions),'years':list(by_year),'sectors':list(groups)}
     dump(data/'manifest.json',manifest)

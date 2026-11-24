@@ -8,6 +8,16 @@ def packed(value):
 
 def sync(events):
     db=database()
+    if 'country' not in {c['name'] for c in query(db,'PRAGMA table_info(financing_events)')}:
+        query(db,"ALTER TABLE financing_events ADD COLUMN country TEXT NOT NULL DEFAULT ''")
+    # Registry identifiers establish jurisdiction; exchange listings alone do not.
+    registries={'cn_uscc':'中国','jp_corporate_number':'日本','gb_companies_house':'英国',
+                'fr_siren':'法国','sg_uen':'新加坡','se_orgnr':'瑞典','se_org_number':'瑞典',
+                'fi_business_id':'芬兰','be_kbo':'比利时'}
+    cases=' '.join('WHEN company_id GLOB ? THEN ?' for _ in registries)
+    params=[v for registry,country in registries.items() for v in ('co:'+registry+':*',country)]
+    query(db,"UPDATE financing_events SET country=CASE "+cases+" ELSE country END WHERE country='' AND ("+
+          ' OR '.join('company_id GLOB ?' for _ in registries)+')',params+params[::2])
     query(db,'CREATE INDEX IF NOT EXISTS financing_by_date ON financing_events(date_key)')
     additions=linked=held=0
     for e in events:
