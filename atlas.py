@@ -5,8 +5,10 @@ from pathlib import Path
 from html import escape
 
 
+OUTPUT = Path('atlas')
+
 def build_atlas(rows, reports, live, filename, topics, subject):
-    directory = Path('atlas')
+    directory = OUTPUT
     directory.mkdir(exist_ok=True)
     catalog = []
     lookup = defaultdict(list)
@@ -15,6 +17,7 @@ def build_atlas(rows, reports, live, filename, topics, subject):
 
     def write_group(title, kind, key, populate):
         nodes = {}
+        seen = set()
         def node(role, name, url='', identity=None):
             ident = role+'|'+(identity or name)
             nodes.setdefault(ident, dict(name=name, role=role, url=url, edges=[]))
@@ -22,7 +25,8 @@ def build_atlas(rows, reports, live, filename, topics, subject):
         def edge(a, b, verb, reverse):
             for src, dst, label in [(a,b,verb),(b,a,reverse)]:
                 entry = [dst,label]
-                if entry not in nodes[src]['edges']:
+                if (src,dst,label) not in seen:
+                    seen.add((src,dst,label))
                     nodes[src]['edges'].append(entry)
         root = node(kind,title)
         populate(root,node,edge)
@@ -37,7 +41,17 @@ def build_atlas(rows, reports, live, filename, topics, subject):
                 deals = {i for company in members for i,_ in nodes[company]['edges'] if nodes[i]['role']=='融资'}
                 n['summary']=f'{len(members)} 家公司 · {len(deals)} 笔融资'
         file = filename('graph',key).replace('.html','.json')
-        (directory/file).write_text(json.dumps(nodes,ensure_ascii=False,separators=(',',':')))
+        if len(nodes)>500:
+            # Keep the overview and each neighbourhood load independent of sector size.
+            chunks=defaultdict(dict)
+            for ident,n in nodes.items():
+                bucket=sum(map(ord,ident))%64
+                chunks[bucket][ident]=n
+            for bucket,items in chunks.items():
+                (directory/(file+'.'+str(bucket))).write_text(json.dumps(items,ensure_ascii=False,separators=(',',':')))
+            (directory/file).write_text(json.dumps({'sharded':True}))
+        else:
+            (directory/file).write_text(json.dumps(nodes,ensure_ascii=False,separators=(',',':')))
         catalog.append([title,file,root])
         for ident,n in nodes.items():
             lookup[n['name']].append([file,ident])
@@ -49,8 +63,8 @@ def build_atlas(rows, reports, live, filename, topics, subject):
         def financing(root,node,edge):
             for r in items:
                 name=r['company']
-                company=node('公司',name,filename('company',name) if name in live_by_company else '')
-                business=by_href.get(r['href'],{}).get('business')
+                company=node('公司',name,r.get('companyHref') or (filename('company',name) if name in live_by_company else ''),r.get('companyHref'))
+                business=r.get('sub') or by_href.get(r['href'],{}).get('business')
                 parent=root
                 if business:
                     parent=node('业务方向',business)
@@ -59,7 +73,7 @@ def build_atlas(rows, reports, live, filename, topics, subject):
                 deal=node('融资',name+' · '+r['day']+' · '+(r['stage'] or '轮次未列明'),r['href'],r['href'])
                 edge(company,deal,'融资记录','融资公司')
                 for inv in r['investors']:
-                    investor=node('机构',inv,filename('institution',inv) if inv in live_by_investor else '')
+                    investor=node('机构',inv,dict(r.get('parties',[])).get(inv) or (filename('institution',inv) if inv in live_by_investor else ''))
                     edge(deal,investor,'参与投资','参与融资')
                 for rid in r.get('reports',[]):
                     edge(deal,node('周报',reports[rid]['title'],'report-'+rid+'.html',rid),'关联研究','相关融资')
@@ -77,7 +91,12 @@ def build_atlas(rows, reports, live, filename, topics, subject):
                     if item['company']:
                         edge(evidence,node('研究主体',item['company']),'涉及主体','相关事件')
         write_group(title,'研究方向','topic-'+topic,research)
-    (directory/'search.json').write_text(json.dumps(lookup,ensure_ascii=False,separators=(',',':')))
+    chunks=defaultdict(dict)
+    for name,hits in lookup.items():
+        if name:chunks[ord(name.lower()[0])%128][name]=hits
+    for bucket,items in chunks.items():
+        (directory/f'search-{bucket}.json').write_text(json.dumps(items,ensure_ascii=False,separators=(',',':')))
+    (directory/'search.json').write_text(json.dumps(list(chunks)))
     options=''.join(f'<option value="{f}" data-root="{escape(root,quote=True)}">{escape(title)}</option>' for title,f,root in catalog)
     return ('<link rel="stylesheet" href="atlas.css"><section id="atlas"><div class="atlas-tools">'
             '<select aria-label="选择赛道或研究方向">'+options+'</select><input type="search" placeholder="搜索画布" aria-label="搜索画布"></div>'

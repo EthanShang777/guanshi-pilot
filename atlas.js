@@ -22,7 +22,13 @@
   async function visit(file,id,saved=null,remember=true) {
     const version=++loadVersion;
     try {
-      const slice=await data(file);
+      let slice=await data(file);
+      if(slice.sharded){
+        const part=key=>data(file+'.'+Array.from(key).reduce((sum,c)=>sum+c.codePointAt(0),0)%64);
+        const group=await part(id);
+        const links=group[id].edges.slice((saved?.page||0)*4,(saved?.page||0)*4+4);
+        slice=Object.assign({},group,...await Promise.all(links.map(([key])=>part(key))));
+      }
       if(version!==loadVersion)return;
       if(!slice[id])throw Error();
       if(remember && state)history.push({...state});
@@ -62,9 +68,9 @@
     status.replaceChildren(document.createTextNode(n.edges.length+' 个关联 '));
     if(n.edges.length>pageSize){
       const pages=Math.ceil(n.edges.length/pageSize);
-      status.append(button('上一组',()=>{state.page=(state.page+pages-1)%pages;render();}),
+      status.append(button('上一组',()=>{visit(state.file,state.id,{...state,page:(state.page+pages-1)%pages},false);}),
         document.createTextNode(' '+(state.page+1)+' / '+pages+' '),
-        button('下一组',()=>{state.page=(state.page+1)%pages;render();}));
+        button('下一组',()=>{visit(state.file,state.id,{...state,page:(state.page+1)%pages},false);}));
     }
     transform();
   }
@@ -103,7 +109,7 @@
   search.oninput=async ()=>{
     const q=search.value.trim().toLowerCase();results.replaceChildren();if(!q)return;
     try {
-      const index=await data('search.json');if(q!==search.value.trim().toLowerCase())return;
+      const bucket=q.codePointAt(0)%128;const catalog=await data('search.json');const index=Array.isArray(catalog)?(catalog.includes(bucket)?await data('search-'+bucket+'.json'):{}):catalog;if(q!==search.value.trim().toLowerCase())return;
       const names=Object.keys(index).filter(n=>n.toLowerCase().includes(q)).sort((a,b)=>a.length-b.length);
       for(const name of names){
         for(const [file,id] of index[name]){

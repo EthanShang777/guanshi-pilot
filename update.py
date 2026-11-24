@@ -397,6 +397,7 @@ def render(events):
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('--replay-check',action='store_true')
+    parser.add_argument('--ingest-only',action='store_true')
     args=parser.parse_args()
     state=json.loads(STATE.read_text())
     rows=scan(state)
@@ -405,5 +406,5 @@ if __name__=='__main__':
     if args.replay_check:
         apply(state,rows)
         assert snapshot==json.dumps(state,ensure_ascii=False,indent=2)+'\n','重复运行改变了总账'
-    render(state['events'])
+    if not args.ingest_only:render(state['events'])
     STATE.write_text(snapshot)
