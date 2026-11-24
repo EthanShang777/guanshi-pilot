@@ -155,3 +155,13 @@ nav a[aria-current] {color:#b4f0c4}
 .counterparties {padding:22px 0}.counterparties h2 {font-size:17px;margin-bottom:8px}
 .counterparties a {display:block;border-bottom:1px solid var(--line);min-height:44px}
 .evidence {color:var(--muted);padding:12px 0}
+.profile-directory {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:36px;}
+.directory-row {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;border-bottom:1px solid var(--line);}
+.directory-row strong,.profile-records h3 {font-size:clamp(21px,2.1vw,30px);font-weight:500;overflow-wrap:anywhere;}
+.directory-row small {display:block;color:var(--muted);font-size:14px;margin-top:4px;}
+.directory-row i {font-style:normal;color:var(--green);}
+.profile-summary a,.related a {color:var(--green);}
+.profile-records {margin-top:30px;}
+.profile-records>h2 {font-weight:500;font-size:18px;color:var(--muted);}
+.profile-records .related {margin:10px 0;color:var(--muted);font-size:14px;}
+@media(max-width:640px){.profile-directory{grid-template-columns:1fr;}.directory-row{padding:15px 0;}}

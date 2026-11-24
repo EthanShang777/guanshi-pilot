@@ -140,14 +140,6 @@ def render(events):
 <main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1></header>
 {content}</main></body></html>''')
 
-    def timeline(items):
-        sections = []
-        for day, entries in groupby(items, key=lambda e:e['day']):
-            stamp = date.fromisoformat(day)
-            rows = ''.join('<article class="entry"><h3>'+link(event_url(e),e['title'])+'</h3></article>' for e in entries)
-            sections.append(f'<section class="day"><h2><time datetime="{day}"><small>{stamp.year}</small>{stamp:%m.%d}</time></h2><div>{rows}</div></section>')
-        return ''.join(sections)
-
     ordered = sorted(events,key=lambda e:(e['day'],e['id']),reverse=True)
     def dispatch(e):
         company = html.escape(e['company'])
@@ -241,21 +233,41 @@ def render(events):
         for e in ordered:
             for name in ([e['company']] if kind=='company' else e['investors']):
                 groups.setdefault(name,[]).append(e)
-        directory = ''.join(link(filename(kind,n),n) for n in groups)
-        page(index,label,label,'<div class="directory">'+directory+'</div>',cover=True)
+        is_company = kind == 'company'
+        rows = []
+        for name,items in groups.items():
+            latest = items[0]
+            sector = latest.get('sector','待归类')
+            context = ' · '.join(filter(None,(sector,latest['round']))) if is_company else '最近参投 · '+latest['company']
+            rows.append(f'<a class="directory-row" href="{filename(kind,name)}"><span><strong>{html.escape(name)}</strong>'
+                        f'<small>{html.escape(context)}</small></span><i aria-hidden="true">→</i></a>')
+        count_label = '家公司' if is_company else '家机构'
+        directory = f'<div class="sector-summary"><strong>试站收录 {len(groups)} {count_label}</strong></div>'
+        page(index,label,label,directory+'<div class="profile-directory">'+''.join(rows)+'</div>',cover=True)
         for name,items in groups.items():
             desc = {'三有利康':'北京三有利康细胞科技有限公司成立于 2021 年，研发精准亚型间充质干细胞药物。',
                     '烟台生命岛':'投中网披露的三有利康 Pre-A 轮投资方。'}.get(name,'')
-            intro = '<p class="intro">'+desc+'</p>' if desc else ''
-            if kind=='institution':
-                relations = ''.join(
-                    '<article class="holding"><div><small>披露于 '+html.escape(item['day'])+'</small><h2>'+
-                    link(event_url(item),item['company'])+'</h2><p>'+html.escape(terms(item) if item.get('amount_display') else item['title'])+
-                    '</p></div>'+link(event_url(item),'查看该笔融资 →')+'</article>' for item in items)
-                count=len({item['company'] for item in items})
-                page(filename(kind,name),name,label,intro+f'<section class="holdings"><h2>试站收录 · {count} 家被投公司</h2>'+relations+'</section>',meta=label)
-            else:
-                page(filename(kind,name),name,label,intro+timeline(items),meta=label)
+            latest = items[0]
+            sector = latest.get('sector','待归类')
+            metric = ('所属赛道',link(filename('sector',sector),sector)) if is_company else (
+                '收录被投公司',str(len({e['company'] for e in items}))+' 家')
+            summary = (f'<div class="deal-summary profile-summary"><div><small>{metric[0]}</small><strong>{metric[1]}</strong></div>'
+                       f'<div><small>收录融资事件</small><strong>{len(items)} 笔</strong></div></div>')
+            records = []
+            for e in items:
+                caption = (e['round'] or '融资') if is_company else e['company']
+                fact = terms(e) if e.get('amount_display') else e['title']
+                if is_company and e.get('amount_display'):
+                    fact = ('首次交割金额 · ' if e.get('first_close') else '披露金额 · ')+e['amount_display']
+                parties = '、'.join(link(filename('institution',n),n) for n in e['investors'])
+                related = f'<p class="related">参投机构　{parties}</p>' if is_company and parties else ''
+                records.append('<article class="deal"><small>披露于 '+html.escape(e['day'])+'</small><h3>'+
+                               link(event_url(e),caption)+'</h3><p>'+html.escape(fact)+'</p>'+related+
+                               link(event_url(e),'查看融资详情 →')+'</article>')
+            intro = '<p class="intro">'+html.escape(desc)+'</p>' if desc else ''
+            heading = '融资历程' if is_company else '参投记录'
+            page(filename(kind,name),name,label,summary+intro+f'<section class="profile-records"><h2>{heading}</h2>'+
+                 ''.join(records)+'</section>',meta=label)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()

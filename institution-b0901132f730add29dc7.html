@@ -157,8 +157,18 @@ nav a[aria-current] {color:#b4f0c4}
 .counterparties {padding:22px 0}.counterparties h2 {font-size:17px;margin-bottom:8px}
 .counterparties a {display:block;border-bottom:1px solid var(--line);min-height:44px}
 .evidence {color:var(--muted);padding:12px 0}
+.profile-directory {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:36px;}
+.directory-row {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;border-bottom:1px solid var(--line);}
+.directory-row strong,.profile-records h3 {font-size:clamp(21px,2.1vw,30px);font-weight:500;overflow-wrap:anywhere;}
+.directory-row small {display:block;color:var(--muted);font-size:14px;margin-top:4px;}
+.directory-row i {font-style:normal;color:var(--green);}
+.profile-summary a,.related a {color:var(--green);}
+.profile-records {margin-top:30px;}
+.profile-records>h2 {font-weight:500;font-size:18px;color:var(--muted);}
+.profile-records .related {margin:10px 0;color:var(--muted);font-size:14px;}
+@media(max-width:640px){.profile-directory{grid-template-columns:1fr;}.directory-row{padding:15px 0;}}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
 <nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html" aria-current="location">机构档案</a></nav></header>
 <main><header class="hero "><p>机构档案</p><h1>广州市白云投资基金管理有限公司</h1></header>
-<section class="holdings"><h2>试站收录 · 1 家被投公司</h2><article class="holding"><div><small>披露于 2026-11-23</small><h2><a href="event-90286.html">瑞莱谱</a></h2><p>瑞莱谱完成新一轮融资</p></div><a href="event-90286.html">查看该笔融资 →</a></article></section></main></body></html>
+<div class="deal-summary profile-summary"><div><small>收录被投公司</small><strong>1 家</strong></div><div><small>收录融资事件</small><strong>1 笔</strong></div></div><section class="profile-records"><h2>参投记录</h2><article class="deal"><small>披露于 2026-11-23</small><h3><a href="event-90286.html">瑞莱谱</a></h3><p>瑞莱谱完成新一轮融资</p><a href="event-90286.html">查看融资详情 →</a></article></section></main></body></html>
