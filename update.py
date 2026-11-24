@@ -127,7 +127,7 @@ def link(url, label):
 
 def render(events):
     from itertools import groupby
-    from reader import build_library
+    from reader import TOPICS, build_library
 
     css = Path('site.css').read_text()
     nav_items = [('index.html','融资事件'), ('companies.html','公司档案'), ('institutions.html','机构档案'), ('reports.html','研究周报'), ('landscape.html','赛道画布'), ('changes.html','变化追踪')]
@@ -135,6 +135,20 @@ def render(events):
     from finder import SearchText, build_finder
     searchable=[]
     local_script=Path("within-page.js").read_text()
+
+    shelves = {}
+    def shelf(label, choices):
+        cards, records = [], []
+        for title, detail, href in choices:
+            cards.append('<div class="arc-slot"><button class="arc-card"><small>'+html.escape(label)+
+                         '</small><strong>'+html.escape(title)+'</strong><b>'+html.escape(detail)+'</b></button></div>')
+            records.append('<article class="arc-record" hidden><h2>'+link(href,title+' →')+'</h2></article>')
+        if not cards:
+            return ''
+        return ('<section class="arc"><div class="arc-track" tabindex="0" aria-label="'+label+'，左右滑动">'+
+                ''.join(cards)+'</div><div class="arc-bottom"><div>'+''.join(records)+'</div><div class="arc-controls">'+
+                '<button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button>'+
+                '</div></div></section>')
 
     def page(path, title, section, content, *, meta='', cover=False):
         nav = ''.join(
@@ -145,6 +159,10 @@ def render(events):
             parser=SearchText()
             parser.feed(content)
             searchable.append([title,section,path,' '.join([meta,*parser.parts])])
+        if 'class="arc-track"' not in content:
+            deck = shelves.get(section) or shelf('浏览栏目', [(label,'',url) for url,label in nav_items])
+            content = deck+content if path in dict(nav_items) else content+deck
+        content += '<script defer src="shelf.js"></script>'
         caption = f'<p>{html.escape(meta)}</p>' if meta else ''
         Path(path).write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -163,6 +181,27 @@ def render(events):
     for event in ordered:
         index_rows.append(dict(key=event['id'],company=event['company'],investors=event['investors'],aliases=[],day=event['day'],
                                sector=event.get('sector','待归类'),stage=event['round'],amount=event.get('amount_display',''),href=event_url(event)))
+    sectors = {}
+    for event in ordered:
+        sector = event.get("sector", COMPANY_SECTORS.get(event["company"], "待归类"))
+        sectors.setdefault(sector, []).append(event)
+    shelves['融资事件'] = shelf('行业赛道', [(sector,f'{len(items)} 笔融资',filename('sector',sector))
+                                          for sector,items in sectors.items()])
+    for section, key, index in [('公司档案','company','companies.html'),('机构档案','institution','institutions.html')]:
+        choices = []
+        for sector,items in sectors.items():
+            names = {name for e in items for name in ([e['company']] if key=='company' else e['investors'])}
+            if names:
+                choices.append((sector,f'{len(names)} 家',index+'#'+filename('group',sector)[:-5]))
+        shelves[section] = shelf('行业赛道',choices)
+    topics = [(name,str(sum(r['topic']==key for r in reports.values()))+' 期研究','landscape-'+key+'.html')
+              for key,name in TOPICS.items()]
+    for section in ('研究周报','赛道画布'):
+        shelves[section] = shelf('研究方向',topics)
+    reviews = json.loads(Path('research-library.json').read_text())['reviews']
+    months = sorted({r['day'][:7] for r in reviews},reverse=True)
+    shelves['变化追踪'] = shelf('复核月份',[(m,str(sum(r['day'].startswith(m) for r in reviews))+' 项复核',
+                                           '#review-'+m) for m in months])
     linked_sources = {u for event in ordered for u in event['sources']}
     research_companies = {}
     for row in historical:
@@ -202,12 +241,8 @@ def render(events):
         return (f'<article class="dispatch"><h3><a href="{event_url(e)}">{company}'
                 f'<span>{headline}</span></a></h3><p>{parties}</p></article>')
 
-    shelf_script = Path('shelf.js').read_text()
 
-    sectors = {}
-    for event in ordered:
-        sector = event.get("sector", COMPANY_SECTORS.get(event["company"], "待归类"))
-        sectors.setdefault(sector, []).append(event)
+
     page_size = 24
 
     def sector_shelf():
@@ -264,8 +299,6 @@ def render(events):
         if sector:
             info = f'<div class="sector-summary"><strong>{len(sectors[sector])} 笔融资</strong><span>最近披露　{sectors[sector][0]["day"]}</span></div>'
             content = info+pager+''.join(sector_entry(e) for e in batch)
-        if featured:
-            content += f'<script>{shelf_script}</script>'
         page(url(number),sector or '融资时间线','融资事件',content,meta='行业赛道' if sector else '',cover=True)
 
     def paginate(items,sector=None):
@@ -307,13 +340,21 @@ def render(events):
             context = ' · '.join(filter(None,(sector,latest['round']))) if is_company else '最近参投 · '+latest['company']
             rows.append(f'<a class="directory-row" href="{filename(kind,name)}"><span><strong>{html.escape(name)}</strong>'
                         f'<small>{html.escape(context)}</small></span><i aria-hidden="true">→</i></a>')
+        row_by_name = dict(zip(groups,rows))
         if is_company:
             for name in research_companies:
                 if name not in groups:
                     rows.append(link(filename('research-company',name),name+' · 历史研究档案'))
         count_label = '家公司' if is_company else '家机构'
         directory = f'<div class="sector-summary"><strong>试站收录 {len(rows)} {count_label}</strong></div>'
-        page(index,label,label,(link('research-companies.html','公司研究库与同行对照 →') if is_company else '')+directory+'<div class="profile-directory">'+''.join(rows)+'</div>',cover=True)
+        grouped = []
+        for sector,items in sectors.items():
+            names = dict.fromkeys(n for e in items for n in ([e['company']] if is_company else e['investors']))
+            if names:
+                grouped.append('<section id="'+filename('group',sector)[:-5]+'"><h2>'+html.escape(sector)+'</h2>'+
+                               ''.join(row_by_name[n] for n in names)+'</section>')
+        directory_body = ''.join(grouped)+''.join(rows[len(groups):])
+        page(index,label,label,(link('research-companies.html','公司研究库与同行对照 →') if is_company else '')+directory+'<div class="profile-directory">'+directory_body+'</div>',cover=True)
         for name,items in groups.items():
             desc = {'三有利康':'北京三有利康细胞科技有限公司成立于 2021 年，研发精准亚型间充质干细胞药物。',
                     '烟台生命岛':'投中网披露的三有利康 Pre-A 轮投资方。'}.get(name,'')

@@ -98,7 +98,11 @@ def build_library(page,link,filename,reports,companies,index_rows):
     compare+='<script type="application/json" id="profiles">'+json.dumps(sample,ensure_ascii=False).replace('<',r'\u003c')+'</script><script>'+Path('compare.js').read_text()+'</script>'
     page('compare.html','公司对照','公司档案',compare,meta='档案判断、待验证问题与依据')
     changes=''
+    month=None
     for r in sorted(library['reviews'],key=lambda r:r['day'],reverse=True):
+        if month != r['day'][:7]:
+            month=r['day'][:7]
+            changes+=f'<h2 id="review-{month}">{month}</h2>'
         fields=''.join('<dt>'+label+'</dt><dd>'+esc(r[k])+'</dd>' for k,label in [('question','跟踪问题'),('original','此前判断'),('reason','完整复核说明'),('next','下次验证')] if r[k] and (k!='question' or r[k]!=r['title']))
         ref=r['sources'][0]
         changes+=card(esc(r['title']),'<small>'+esc(r['day'])+' 复核</small><p class="review-result">'+esc(r.get('reading_result') or r['reason'])+'</p>'+

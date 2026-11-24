@@ -32,7 +32,7 @@
     current = nearest;
     slots.forEach((slot,i) => {
       const button = slot.firstElementChild;
-      button.setAttribute("aria-label",(i === current ? "进入" : "选择")+button.querySelector("strong").textContent+"赛道");
+      button.setAttribute("aria-label",(i === current ? "进入" : "选择")+button.querySelector("strong").textContent);
     });
     records.forEach((record,i) => record.hidden = i !== current);
     counter.textContent = (current + 1) + ' / ' + slots.length;

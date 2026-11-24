@@ -33,7 +33,7 @@ jobs:
             git commit -m 'Refresh financing timeline from ChinaVenture'
             git push
           fi
-      - run: mkdir public && cp *.html site.css public/
+      - run: mkdir public && cp *.html site.css shelf.js public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
