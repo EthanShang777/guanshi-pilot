@@ -13,7 +13,8 @@
         "https://www.chinaventure.com.cn/news/111-20261123-394140.html",
         "https://www.chinaventure.com.cn/flash/20261123-90289.html"
       ],
-      "sector": "医疗健康"
+      "sector": "医疗健康",
+      "amount_display": "数千万元人民币"
     },
     {
       "id": "90286",
@@ -45,7 +46,8 @@
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261123-90287.html"
       ],
-      "sector": "医疗健康"
+      "sector": "医疗健康",
+      "amount_display": "5,500万美元"
     },
     {
       "id": "90288",

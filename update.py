@@ -218,27 +218,23 @@ def render(events):
     for sector,items in sectors.items():
         paginate(items,sector)
     for e in ordered:
-        fields = [('融资公司',link(filename('company',e['company']),e['company'])),
-                  ('投资方','、'.join(link(filename('institution',n),n) for n in e['investors']) or '见原文')]
-        if e.get('first_close'):
-            fields.append(('金额口径','本次披露金额为本轮首次交割金额。'))
+        sector = e.get('sector', COMPANY_SECTORS.get(e['company'],'待归类'))
+        money = html.escape(e.get('amount_display') or '见原文')
+        stage = html.escape(e.get('round') or '见原文')
+        scope = '首次交割金额' if e.get('first_close') else '披露融资金额'
+        parties = ''.join(link(filename('institution',n),n+' →') for n in e['investors'])
+        role = html.escape(e.get('investor_role','参投'))
+        notes = ''
         if e['id']=='seed':
-            fields.append(('融资用途','资金用于推进核心管线临床试验和研究者发起的临床研究。'))
-            fields.append(('财务顾问','微纳资本（独家）'))
-        fields.append(('资料来源',' · '.join(link(u,'投中网原文' if i==0 else '相关披露') for i,u in enumerate(e['sources']))))
-        facts = ''.join(f'<div><dt>{label}</dt><dd>{value}</dd></div>' for label,value in fields)
-        if e.get('amount_display'):
-            sector = e['sector']
-            money = html.escape(e['amount_display'])
-            stage = html.escape(e['round'])
-            scope = '首次交割金额' if e.get('first_close') else '披露融资金额'
-            investors = ''.join(link(filename('institution',name),name+' →') for name in e['investors'])
-            content = (f'<div class="deal-summary"><div><small>{scope}</small><strong>{money}</strong></div><div><small>融资轮次</small><strong>{stage}</strong></div></div>'
-                       '<section class="counterparties"><h2>'+html.escape(e.get('investor_role','参投'))+'机构</h2>'+investors+'</section>'
-                       '<footer class="evidence">'+link(filename('company',e['company']),'公司档案')+' · '+link(filename('sector',sector),sector)+' · '+link(e['sources'][0],'投中网原文 ↗')+'</footer>')
-            page(event_url(e),e['company'],'融资事件',content,meta='融资披露　'+e['day'])
-            continue
-        page(event_url(e),e['title'],'融资事件','<dl class="details">'+facts+'</dl>',meta=e['day']+'  投中网披露')
+            notes = '<dl class="details"><div><dt>融资用途</dt><dd>推进核心管线临床试验和研究者发起的临床研究。</dd></div><div><dt>财务顾问</dt><dd>微纳资本（独家）</dd></div></dl>'
+        sources = ' · '.join(link(u,'投中网原文 ↗' if i==0 else '相关披露 ↗') for i,u in enumerate(e['sources']))
+        headline = '' if e.get('amount_display') else '<p class="intro">'+html.escape(e['title'])+'</p>'
+        content = (f'<div class="deal-summary"><div><small>{scope}</small><strong>{money}</strong></div>'
+                   f'<div><small>融资轮次</small><strong>{stage}</strong></div></div>'+headline+
+                   f'<section class="counterparties"><h2>{role}机构</h2>{parties or "见原文"}</section>'+notes+
+                   '<footer class="evidence">'+link(filename('company',e['company']),'公司档案')+' · '+
+                   link(filename('sector',sector),sector)+' · '+sources+'</footer>')
+        page(event_url(e),e['company'],'融资事件',content,meta='融资披露　'+e['day'])
 
     for kind,label,index in [('company','公司档案','companies.html'),('institution','机构档案','institutions.html')]:
         groups = {}
