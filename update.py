@@ -116,7 +116,7 @@ def render(events):
         Path(path).write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} · 观势</title><style>{css}</style></head>
-<body><header class="top"><a class="brand" href="index.html"><span class="mark" aria-hidden="true">观</span>观势</a>
+<body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
 <nav aria-label="栏目">{nav}</nav></header>
 <main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1></header>
 {content}</main></body></html>''')
@@ -137,6 +137,35 @@ def render(events):
         return (f'<article class="dispatch"><h3><a href="{event_url(e)}">{company}'
                 f'<span>{headline}</span></a></h3><p>{parties}</p></article>')
 
+    def relation_poster(items):
+        from math import sin, pi
+        from itertools import islice
+
+        # Feature one event per company from the newest disclosure date.
+        featured = {}
+        for event in items:
+            if event['day'] != items[0]['day']:
+                break
+            featured.setdefault(event['company'],event)
+        panels = []
+        for i,e in enumerate(islice(featured.values(),5)):
+            strands = []
+            names = e['investors']
+            for j,name in enumerate(names):
+                end = (j+0.5)*240/len(names)
+                for k in range(18):
+                    t = k/17
+                    y = end+(t-.5)*9
+                    mid = 35+sin((t+i*.13)*pi)*150
+                    strands.append(f'<path d="M -5 {110+45*t:.1f} C 70 {mid-110:.1f}, 120 {mid+85:.1f}, 180 {mid:.1f} S 275 {y:.1f}, 325 {y:.1f}"/>')
+            diagram = '<svg aria-hidden="true" viewBox="0 0 320 240" preserveAspectRatio="none">'+''.join(strands)+'</svg>'
+            parties = ''.join(link(filename('institution',name),name) for name in names)
+            checked = ' checked' if i==0 else ''
+            panels.append(f'<input class="switch" type="radio" name="feature" id="f{i}"{checked}><label for="f{i}">{html.escape(e["company"])}</label>'
+                          f'<section class="plate"><div class="subject"><small>{html.escape(e["day"])}　/　融资披露</small><h2>{link(filename("company",e["company"]),e["company"])}</h2>'
+                          f'<p>{link(event_url(e), e["title"])}</p></div><div class="weave">{diagram}<div class="ends">{parties or "投资方见原文"}</div></div></section>')
+        return '<fieldset class="atlas"><legend>当日融资关系</legend>'+''.join(panels)+'</fieldset>' if panels else ''
+
     editions = []
     for day, entries in groupby(ordered, key=lambda e:e['day']):
         stamp = date.fromisoformat(day)
@@ -144,7 +173,7 @@ def render(events):
         editions.append(f'<section class="edition"><h2 class="folio"><time datetime="{day}">'
                         f'<small>{stamp:%Y}</small>{stamp:%m}<em>/</em>{stamp:%d}</time></h2>'
                         f'<div class="dispatches">{rows}</div></section>')
-    page('index.html','融资时间线','融资事件',''.join(editions),cover=True)
+    page('index.html','融资时间线','融资事件',relation_poster(ordered)+''.join(editions),cover=True)
     for e in ordered:
         fields = [('融资公司',link(filename('company',e['company']),e['company'])),
                   ('投资方','、'.join(link(filename('institution',n),n) for n in e['investors']) or '见原文')]
