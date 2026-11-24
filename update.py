@@ -159,19 +159,21 @@ def render(events):
             parser=SearchText()
             parser.feed(content)
             searchable.append([title,section,path,' '.join([meta,*parser.parts])])
-        if 'class="arc-track"' not in content:
+        if path!='landscape.html' and 'class="arc-track"' not in content:
             deck = shelves.get(section) or shelf('浏览栏目', [(label,'',url) for url,label in nav_items])
             content = deck+content if path in dict(nav_items) else content+deck
         content += '<script defer src="shelf.js"></script>'
         caption = f'<p>{html.escape(meta)}</p>' if meta else ''
+        search_bar = '<div id="local-find" role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button hidden disabled aria-label="上一处">↑</button><button hidden disabled aria-label="下一处">↓</button><button hidden aria-label="清除关键词">×</button></div>' if path!='landscape.html' else ''
+        local_js = local_script if search_bar else ''
         Path(path).write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} · 观势</title><style>{css}</style></head>
 <body><header class="top"><a class="brand" href="index.html">观势</a>
 <nav aria-label="栏目">{nav}</nav></header>
 <main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1></header>
-<div id="local-find" role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button hidden disabled aria-label="上一处">↑</button><button hidden disabled aria-label="下一处">↓</button><button hidden aria-label="清除关键词">×</button></div>
-{content}</main><script>{local_script}</script></body></html>''')
+{search_bar}
+{content}</main><script>{local_js}</script></body></html>''')
 
     ordered = sorted(events,key=lambda e:(e['day'],e['id']),reverse=True)
     historical = json.loads(Path('history-public.json').read_text())
@@ -223,7 +225,7 @@ def render(events):
         body='<section class="counterparties"><h2>融资记录</h2>'+''.join(link('historical-'+r['key']+'.html',r['day']+' · '+r['stage']) for r in items)+'</section>'
         body+='<section class="counterparties"><h2>相关研究</h2>'+''.join(link('report-'+rid+'.html',reports[rid]['title']) for rid in refs)+'</section>'
         page(filename('research-company',name),name,'公司档案',body,meta='历史研究档案')
-    build_library(page,link,filename,reports,research_companies,index_rows)
+    build_library(page,link,filename,reports,research_companies,index_rows,ordered)
     options=''.join('<option>'+html.escape(s)+'</option>' for s in sorted({r['sector'] for r in index_rows}))
     years=sorted({r['day'][:4] for r in index_rows if r['day']}, reverse=True)
     year_options=''.join('<option>'+html.escape(y)+'</option>' for y in years)

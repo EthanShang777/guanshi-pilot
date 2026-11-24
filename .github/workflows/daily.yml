@@ -28,12 +28,12 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add ledger.json '*.html'
+          git add atlas ledger.json '*.html'
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh financing timeline from ChinaVenture'
             git push
           fi
-      - run: mkdir public && cp *.html site.css shelf.js public/
+      - run: mkdir public && cp *.html site.css shelf.js atlas.js atlas.css public/ && cp -R atlas public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

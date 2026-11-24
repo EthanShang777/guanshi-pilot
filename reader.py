@@ -33,7 +33,7 @@ def subject(topic,event):
         if re.search(pattern,title):return name
     return '产品与研究进展'
 
-def build_library(page,link,filename,reports,companies,index_rows):
+def build_library(page,link,filename,reports,companies,index_rows,live):
     library=json.loads(Path('research-library.json').read_text())
     def sources(refs):
         return '<ul class="source-list">'+''.join('<li>'+link(s['url'],s['title'])+'</li>' for s in refs)+'</ul>' if refs else ''
@@ -65,8 +65,8 @@ def build_library(page,link,filename,reports,companies,index_rows):
     topic_links=directory([link('landscape-'+k+'.html',v) for k,v in TOPICS.items()])
     weeks=''.join(subsection(esc(w),directory([reportlink(rid) for rid in ids])) for w,ids in by_week.items())
     page('reports.html','研究周报','研究周报',topic_links+weeks,meta='按方向或归档周阅读')
-    page('landscape.html','赛道画布','赛道画布',topic_links+subsection('融资行业',directory([
-        link('search.html?'+urlencode({'sector':s}),s) for s in sorted({r['sector'] for r in index_rows})])),meta='研究方向与融资行业')
+    from atlas import build_atlas
+    page('landscape.html','赛道画布','赛道画布',build_atlas(index_rows,reports,live,filename,TOPICS,subject))
     profiles=library['profiles']
     by_name={p['name']:p for p in profiles}
     for topic,ids in by_topic.items():
