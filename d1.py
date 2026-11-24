@@ -13,6 +13,8 @@ NAME = 'guanshi-financing'
 MD5 = '8e117ed792c8d68c29b6d893283e6aec'
 DIGEST = '35ae70491436ec6a9df1c0a7b0d59e70f0423effd89af93f6364c9418ea10996'
 
+FIELDS = 'date company_name primary_sector secondary_sector round investors_json amount valuation date_kind sources_json event_id company_id raw_company_key date_key sector sector_source'.split()
+
 def api(path='', body=None):
     req=urllib.request.Request(BASE+path, data=json.dumps(body).encode() if body is not None else None,
                                headers={'Authorization':'Bearer '+os.environ['CF_TOKEN'],'Content-Type':'application/json'})
@@ -56,7 +58,7 @@ def baseline():
         rows=query(db,'SELECT * FROM financing_events WHERE event_id>? ORDER BY event_id LIMIT 500',[last])
         if not rows: break
         for row in rows:
-            digest.update((json.dumps(list(row.values()),ensure_ascii=False,separators=(',',':'))+'\n').encode())
+            digest.update((json.dumps([row[k] for k in FIELDS],ensure_ascii=False,separators=(',',':'))+'\n').encode())
         count+=len(rows); last=rows[-1]['event_id']
     print('Verified cloud rows:',count,'SHA-256:',digest.hexdigest(),flush=True)
     assert count==54059 and digest.hexdigest()==DIGEST
