@@ -133,6 +133,21 @@ nav a[aria-current] {color:#b4f0c4}
 .details,.directory,.holdings {margin-top:24px;padding:clamp(18px,3vw,38px);background:#151b17;border:1px solid #334038;border-radius:16px;}
 .directory a,.dispatch h3,.holding h2 {font-weight:450}.folio em {color:var(--accent)}
 @media(max-width:640px){.plate{min-height:0;padding:22px 18px 16px}.rack{height:162px}.sheet{width:126px;height:106px;padding:9px;--step:32px}.ends{font-size:13px}.subject h2{font-size:42px}.subject p{font-size:14px}.directory,.holdings,.details{padding:16px}}
+.arc {border:1px solid #324539;border-radius:18px;overflow:hidden;background:radial-gradient(ellipse at 50% 47%,#233b2b,#111713 53%,#101411);}
+.arc-track {--step:clamp(107px,12vw,180px);display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;align-items:center;height:clamp(236px,25vw,350px);overscroll-behavior-x:contain;}
+.arc-track::-webkit-scrollbar {display:none}
+.arc-track::before,.arc-track::after {content:'';flex:0 0 calc(50% - var(--step)/2);}
+.arc-slot {flex:0 0 var(--step);position:relative;display:grid;place-items:center;scroll-snap-align:center;min-width:0;}
+.arc-card {--lit:0;position:relative;isolation:isolate;width:calc(var(--step)*1.27);height:clamp(146px,14vw,210px);border:1px solid #d7e2d7;border-radius:12px;padding:14px;display:flex;flex-direction:column;align-items:start;justify-content:space-between;text-align:left;color:#13231a;background:linear-gradient(145deg,#d9e0dadf,#93a29aa6 65%,#84958aaf);box-shadow:inset 2px 2px 3px #ffffff88,4px 9px 16px #0005;cursor:pointer;}
+.arc-card::before {position:absolute;inset:0;content:'';border-radius:inherit;z-index:-1;background:linear-gradient(145deg,#bbf3cc,#62bc81 42%,#368754);opacity:var(--lit);}
+.arc-card strong {font:500 clamp(20px,2.5vw,42px)/1 Arial,sans-serif;overflow-wrap:anywhere;}
+.arc-card b {font-size:16px}.arc-card small {font:12px Georgia,serif;}
+.arc-bottom {border-top:1px solid #34453a;padding:18px clamp(15px,3vw,36px);display:flex;justify-content:space-between;align-items:center;gap:14px;background:#141c16;}
+.arc-record h2 {font-size:clamp(18px,2vw,28px);font-weight:500}.arc-record p {font-size:13px;color:#b7c8ba;margin-top:5px;}
+.arc-controls {display:flex;align-items:center;gap:6px;white-space:nowrap;}
+.arc-controls button {color:#dcf1df;border:1px solid #536b58;background:transparent;border-radius:50%;width:42px;height:42px;font-size:23px;cursor:pointer;}
+.arc-controls button:disabled {opacity:.35}.arc-controls output {font-size:12px;min-width:30px;text-align:center}
+@media(max-width:640px){.arc-bottom{align-items:start;flex-direction:column}.arc-controls{align-self:end}.arc-track{height:220px}}
 </style></head>
 <body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
 <nav aria-label="栏目"><a href="index.html" aria-current="location">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a></nav></header>

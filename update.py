@@ -137,40 +137,37 @@ def render(events):
         return (f'<article class="dispatch"><h3><a href="{event_url(e)}">{company}'
                 f'<span>{headline}</span></a></h3><p>{parties}</p></article>')
 
-    def relation_poster(items):
-        from itertools import islice
+    shelf_script = Path('shelf.js').read_text()
 
-        # Feature one event per company from the newest disclosure date.
-        featured = {}
-        for event in items:
-            if event['day'] != items[0]['day']:
-                break
-            featured.setdefault(event['company'],event)
-        panels = []
-        cards = list(islice(featured.values(),5))
-        for i,e in enumerate(cards):
-            layers = []
-            for j,card in enumerate(cards):
-                offset = j-i
-                layers.append(f'<label aria-hidden="true" for="f{j}" class="sheet {"chosen" if j==i else ""}" '
-                              f'style="--offset:{offset};--depth:{abs(offset)};--tilt:{-36 if offset<0 else 36 if offset>0 else -9}deg">'
-                              f'<small>{html.escape(card["round"] or "融资记录")}</small><i></i><b>{html.escape(card["company"])}</b></label>')
-            diagram = '<div class="rack">'+''.join(layers)+'</div>'
-            parties = '、'.join(link(filename('institution',name),name) for name in e['investors'])
-            checked = ' checked' if i==0 else ''
-            panels.append(f'<input class="switch" type="radio" name="feature" id="f{i}"{checked}><label for="f{i}">{html.escape(e["company"])}</label>'
-                          f'<section class="plate"><div class="subject"><small>{html.escape(e["day"])}　/　融资披露</small><h2>{link(filename("company",e["company"]),e["company"])}</h2>'
-                          f'<p>{link(event_url(e), e["title"])}</p></div><div class="archive-view">{diagram}<div class="ends">{parties or "投资方见原文"}</div></div></section>')
-        return '<fieldset class="atlas"><legend>当日融资关系</legend>'+''.join(panels)+'</fieldset>' if panels else ''
+    def archive_page(batch, number, total):
+        cards, records, editions = [], [], []
+        for e in batch:
+            title = html.escape(e['title'])
+            name = html.escape(e['company'])
+            cards.append(f'<div class="arc-slot"><button class="arc-card" aria-label="选择{name}融资事件">'
+                         f'<small>{e["day"]}</small><strong>{html.escape(e["round"] or "融资")}</strong><b>{name}</b></button></div>')
+            parties = '、'.join(link(filename('institution',n),n) for n in e['investors'])
+            records.append('<article class="arc-record" hidden><h2>'+link(event_url(e),e['title'])+'</h2><p>'+
+                           link(filename('company',e['company']),e['company'])+'　'+parties+'</p></article>')
+        for day, entries in groupby(batch,key=lambda e:e['day']):
+            stamp = date.fromisoformat(day)
+            rows = ''.join(dispatch(e) for e in entries)
+            editions.append(f'<section class="edition"><h2 class="folio"><time datetime="{day}"><small>{stamp.year}</small>'
+                            f'{stamp:%m}<em>/</em>{stamp:%d}</time></h2><div class="dispatches">{rows}</div></section>')
+        def url(i):
+            return 'index.html' if i==1 else f'archive-{i}.html'
+        pager = ''
+        if total>1:
+            pager = '<nav aria-label="融资时间线分页">'+(link(url(number-1),'上一页') if number>1 else '')+f'<span>{number} / {total}</span>'+(link(url(number+1),'下一页') if number<total else '')+'</nav>'
+        shelf = ('<section class="arc"><div class="arc-track" tabindex="0" aria-label="融资档案，左右滑动">' +
+                 ''.join(cards)+'</div><div class="arc-bottom"><div>'+''.join(records)+'</div><div class="arc-controls">'
+                 '<button aria-label="上一笔">‹</button><output></output><button aria-label="下一笔">›</button></div></div></section>') if cards else ''
+        page(url(number),'融资时间线','融资事件',shelf+pager+''.join(editions)+f'<script>{shelf_script}</script>',cover=True)
 
-    editions = []
-    for day, entries in groupby(ordered, key=lambda e:e['day']):
-        stamp = date.fromisoformat(day)
-        rows = ''.join(dispatch(e) for e in entries)
-        editions.append(f'<section class="edition"><h2 class="folio"><time datetime="{day}">'
-                        f'<small>{stamp:%Y}</small>{stamp:%m}<em>/</em>{stamp:%d}</time></h2>'
-                        f'<div class="dispatches">{rows}</div></section>')
-    page('index.html','融资时间线','融资事件',relation_poster(ordered)+''.join(editions),cover=True)
+    page_size = 24
+    total = max(1,(len(ordered)+page_size-1)//page_size)
+    for i in range(total):
+        archive_page(ordered[i*page_size:(i+1)*page_size],i+1,total)
     for e in ordered:
         fields = [('融资公司',link(filename('company',e['company']),e['company'])),
                   ('投资方','、'.join(link(filename('institution',n),n) for n in e['investors']) or '见原文')]
