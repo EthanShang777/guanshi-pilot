@@ -57,6 +57,23 @@ def investors(body):
                 names.append(name)
     return list(dict.fromkeys(names))
 
+# Public display names matched to the primary sectors in the local V2 timeline.
+COMPANY_SECTORS = {
+    "数字光芯": "芯片与算力", "森木磊石": "工业制造", "昂拓生物": "医疗健康",
+    "三有利康": "医疗健康", "瑞莱谱": "医疗健康",
+}
+BUSINESS_TERMS = {
+    "医疗健康": ("细胞治疗", "核酸药物", "医疗器械", "制药企业", "医疗质谱"),
+    "芯片与算力": ("芯片设计企业", "驱动芯片企业", "算力芯片", "半导体设备企业"),
+    "工业制造": ("工业装备制造", "智能装备制造"),
+}
+
+def classify(company, body):
+    if company in COMPANY_SECTORS:
+        return COMPANY_SECTORS[company]
+    matches = [sector for sector,terms in BUSINESS_TERMS.items() if any(word in body for word in terms)]
+    return matches[0] if len(matches)==1 else "待归类"
+
 def apply(state, rows):
     events = state["events"]
     before = len(events)
@@ -80,12 +97,14 @@ def apply(state, rows):
             if len(candidates)==1:
                 existing = candidates[0]
         if existing:
+            if existing.get("sector","待归类")=="待归类":
+                existing["sector"]=classify(company,body)
             if url not in existing["sources"]:
                 existing["sources"].append(url)
                 linked += 1
             existing["investors"] = list(dict.fromkeys(existing["investors"]+parties))
         else:
-            events.append(dict(id=path.split('-')[-1][:-5],day=day,company=company,title=title,
+            events.append(dict(id=path.split('-')[-1][:-5],day=day,company=company,title=title,sector=classify(company,body),
                                round=stage,first_close=('首次交割' in body or '首关' in body),investors=parties,sources=[url]))
     state["through"] = max([state.get("through","")]+[r[1] for r in rows])
     print(f"扫描 {len(rows)} 条，新增 {len(events)-before} 笔，已有事件追加 {linked} 个来源，未收录 {skipped} 条")
@@ -139,35 +158,53 @@ def render(events):
 
     shelf_script = Path('shelf.js').read_text()
 
-    def archive_page(batch, number, total):
-        cards, records, editions = [], [], []
-        for e in batch:
-            title = html.escape(e['title'])
-            name = html.escape(e['company'])
-            cards.append(f'<div class="arc-slot"><button class="arc-card" aria-label="选择{name}融资事件">'
-                         f'<small>{e["day"]}</small><strong>{html.escape(e["round"] or "融资")}</strong><b>{name}</b></button></div>')
-            parties = '、'.join(link(filename('institution',n),n) for n in e['investors'])
-            records.append('<article class="arc-record" hidden><h2>'+link(event_url(e),e['title'])+'</h2><p>'+
-                           link(filename('company',e['company']),e['company'])+'　'+parties+'</p></article>')
+    sectors = {}
+    for event in ordered:
+        sector = event.get("sector", COMPANY_SECTORS.get(event["company"], "待归类"))
+        sectors.setdefault(sector, []).append(event)
+    page_size = 24
+
+    def sector_shelf():
+        cards, records = [], []
+        for sector,items in sorted(sectors.items(),key=lambda pair:(pair[0]=="待归类",-len(pair[1]),pair[0])):
+            name = html.escape(sector)
+            cards.append(f'<div class="arc-slot"><button class="arc-card" aria-label="选择{name}赛道">'
+                         f'<small>行业赛道</small><strong>{name}</strong><b>{len(items)} 笔融资</b></button></div>')
+            records.append('<article class="arc-record" hidden><h2>'+link(filename('sector',sector),name+' →')+'</h2>'
+                           '<p>最近披露 · '+html.escape(items[0]['title'])+'</p></article>')
+        return ('<section class="arc"><div class="arc-track" tabindex="0" aria-label="行业赛道，左右滑动">'+
+                ''.join(cards)+'</div><div class="arc-bottom"><div>'+''.join(records)+'</div><div class="arc-controls">'
+                '<button aria-label="上一赛道">‹</button><output></output><button aria-label="下一赛道">›</button>'
+                '</div></div></section>') if cards else ''
+
+    def archive_page(batch, number, total, sector=None):
+        editions = []
         for day, entries in groupby(batch,key=lambda e:e['day']):
             stamp = date.fromisoformat(day)
             rows = ''.join(dispatch(e) for e in entries)
             editions.append(f'<section class="edition"><h2 class="folio"><time datetime="{day}"><small>{stamp.year}</small>'
                             f'{stamp:%m}<em>/</em>{stamp:%d}</time></h2><div class="dispatches">{rows}</div></section>')
         def url(i):
+            if sector:
+                base=filename('sector',sector)[:-5]
+                return base+('.html' if i==1 else f'-{i}.html')
             return 'index.html' if i==1 else f'archive-{i}.html'
         pager = ''
         if total>1:
             pager = '<nav aria-label="融资时间线分页">'+(link(url(number-1),'上一页') if number>1 else '')+f'<span>{number} / {total}</span>'+(link(url(number+1),'下一页') if number<total else '')+'</nav>'
-        shelf = ('<section class="arc"><div class="arc-track" tabindex="0" aria-label="融资档案，左右滑动">' +
-                 ''.join(cards)+'</div><div class="arc-bottom"><div>'+''.join(records)+'</div><div class="arc-controls">'
-                 '<button aria-label="上一笔">‹</button><output></output><button aria-label="下一笔">›</button></div></div></section>') if cards else ''
-        page(url(number),'融资时间线','融资事件',shelf+pager+''.join(editions)+f'<script>{shelf_script}</script>',cover=True)
+        featured = number==1 and sector is None
+        content = (sector_shelf() if featured else '')+pager+''.join(editions)
+        if featured:
+            content += f'<script>{shelf_script}</script>'
+        page(url(number),sector or '融资时间线','融资事件',content,meta='行业赛道' if sector else '',cover=True)
 
-    page_size = 24
-    total = max(1,(len(ordered)+page_size-1)//page_size)
-    for i in range(total):
-        archive_page(ordered[i*page_size:(i+1)*page_size],i+1,total)
+    def paginate(items,sector=None):
+        total = max(1,(len(items)+page_size-1)//page_size)
+        for i in range(total):
+            archive_page(items[i*page_size:(i+1)*page_size],i+1,total,sector)
+    paginate(ordered)
+    for sector,items in sectors.items():
+        paginate(items,sector)
     for e in ordered:
         fields = [('融资公司',link(filename('company',e['company']),e['company'])),
                   ('投资方','、'.join(link(filename('institution',n),n) for n in e['investors']) or '见原文')]
