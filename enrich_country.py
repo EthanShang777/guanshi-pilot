@@ -27,7 +27,7 @@ def run():
     for name,country,source in json.loads(Path('country-evidence.json').read_text()):
         evidence[normalize(name)].add((country,source))
     if os.getenv('GLEIF')=='yes':
-        meta=json.load(urlopen('https://goldencopy.gleif.org/api/v2/golden-copies/publishes/lei2/latest',timeout=60))['data']['file']['csv']
+        meta=json.load(urlopen('https://goldencopy.gleif.org/api/v2/golden-copies/publishes/lei2/latest',timeout=60))['data']['full_file']['csv']
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/'leis.zip'
             urlretrieve(meta['url'],path)
@@ -43,12 +43,17 @@ def run():
                     if not re.search(r'公司|合伙企业|\b(inc|incorporated|limited|ltd|corporation|gmbh|llc|plc|ag|oy|ab|sas|sa|bv)\b',key):continue
                     code=r['Entity.LegalJurisdiction'].split('-')[0]
                     if code in locales:evidence[key].add((locales[code],'https://search.gleif.org/#/record/'+r['LEI']))
+    locations=json.loads(Path('country-locations.json').read_text())
     patches=[]
     for r in records:
         refs=evidence.get(normalize(r['company_name']),set())
         if len({country for country,_ in refs})==1:
             country,source=sorted(refs)[0]
             patches.append([r['event_id'],r['company_name'],country,source])
+        elif not refs:
+            location=locations.get(r['company_id'] or r['event_id'])
+            if location:
+                patches.append([r['event_id'],r['company_name'],location[0],'企业档案地点：'+location[1]])
     if 'country_source' not in {r['name'] for r in query(db,'PRAGMA table_info(financing_events)')}:
         query(db,"ALTER TABLE financing_events ADD COLUMN country_source TEXT NOT NULL DEFAULT ''")
     for i in range(0,len(patches),100):
