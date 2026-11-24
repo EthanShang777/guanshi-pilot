@@ -1,8 +1,7 @@
 (() => {
-  const toggle = document.querySelector('#local-toggle');
   const bar = document.querySelector('#local-find');
   const input = bar.querySelector('input');
-  const [prev,next,close] = bar.querySelectorAll('button');
+  const [prev,next,reset] = bar.querySelectorAll('button');
   const count = bar.querySelector('output');
   const root = document.querySelector('main');
   let hits = [], current = -1, opened = [];
@@ -34,7 +33,7 @@
     const nodes=[];
     if(q) while(walker.nextNode()) {
       const node=walker.currentNode;
-      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+      if(!node.parentElement.closest('#local-find,script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
     }
     for(const node of nodes){
       const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
@@ -47,20 +46,16 @@
       }
       frag.append(text.slice(start));node.replaceWith(frag);
     }
+    reset.hidden=!input.value;
+    prev.hidden=next.hidden=hits.length<2;
     prev.disabled=next.disabled=hits.length<2;
     count.textContent=q?'本页无匹配':'';
     go(0);
   }
-  function show(open) {
-    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
-    if(open) input.focus();
-    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
-  }
-  toggle.onclick=()=>show(bar.hidden);
-  close.onclick=()=>show(false);
+  reset.onclick=()=>{input.value='';find();input.focus();};
   prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
   input.oninput=e=>{if(!e.isComposing)find()};
   input.addEventListener('compositionend',find);
   input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
-  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+  document.addEventListener('keydown',e=>{if(bar.contains(document.activeElement) && e.key==='Escape') reset.click()});
 })();

@@ -83,7 +83,7 @@ dt { color: var(--muted); } dd { margin: 0; }
 body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
 .top { padding:20px 0; }
 .brand { gap:9px; font:bold 28px/1 var(--serif); letter-spacing:-.05em; }
-.wordmark { font:bold 12px/1 Arial,sans-serif; letter-spacing:.03em; }
+
 .hero h1 { font-weight:650; letter-spacing:-.035em; }
 .cover { border:0; padding:26px 0 14px; }
 .cover h1 { font:600 24px/1.3 var(--serif); }
@@ -102,14 +102,14 @@ body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
 .folio { font-family:Arial,sans-serif; font-weight:600; }
 .dispatch h3 { font-weight:600; }
 @media(max-width:640px) {
- .top {padding:13px 0;} .brand { font-size:24px; } .wordmark {font-size:9px;} .cover {padding:20px 0 12px;}
+ .top {padding:13px 0;} .brand { font-size:24px; }  .cover {padding:20px 0 12px;}
  .switch:checked + label + .plate {grid-template-columns:1fr;} .plate {padding:21px 20px 12px;}
  .subject h2 {font-size:46px;margin:10px 0 5px;} .subject p {font-size:14px;}
  .weave svg {height:130px;} .atlas > label {font-size:12px;padding:12px 4px;}
  .hero:not(.cover) {padding:34px 0;} .weave {grid-template-columns:1.65fr 1fr;}
 }
 :root {color-scheme:dark;--paper:#0b0e0d;--ink:#eff3ee;--green:#90e9ae;--accent:#8ed8a5;--muted:#a7b5ac;--line:#334039;}
-.top {border-color:#354139}.brand {font-weight:550}.wordmark {color:#aeb9b2}
+.top {border-color:#354139}.brand {font-weight:550}
 nav a[aria-current] {color:#b4f0c4}
 .cover h1 {font-weight:450}.hero:not(.cover) {margin-top:22px;padding:clamp(32px,5vw,66px);border:1px solid #46745a;border-radius:20px;background:radial-gradient(ellipse at 85% 130%,#448a5b,transparent 65%),linear-gradient(120deg,#123022,#204f36);}.hero p {color:#c4dccc}
 .atlas {border-radius:18px;overflow:hidden;border:1px solid #344439;background:radial-gradient(ellipse at 79% 66%,#263c2e,transparent 47%),linear-gradient(120deg,#101512,#101311 80%);}
@@ -180,8 +180,8 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
-.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
-.find-link span {font:24px/1 Arial,sans-serif}
+
+
 .reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
 .reading-pick small,#found small {color:var(--muted);font-size:13px}
 .reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
@@ -189,23 +189,22 @@ nav a[aria-current] {color:#b4f0c4}
 .lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
-@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
-button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
-#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
-#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.reading-pick{margin:12px 0 16px}}
+
+#local-find {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;margin:0 0 18px;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:transparent;border:0;min-height:40px}
 #local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
 #local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
 mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
-<body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
-<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
+<body><header class="top"><a class="brand" href="index.html">观势</a>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
 <main><header class="hero "><p>世界模型　2026-10-12 — 2026-10-18</p><h1>World Model投资周报｜2026年10月12日至18日</h1></header>
-<p class="reading-lead">可交互世界生成工具出现更新，规划效果需要用闭环任务衡量。</p><article class="deal"><h3>Matrix-Game4.0发布</h3><p></p><a href="https://github.com/SkyworkAI/Matrix-Game/blob/main/README.md">查看这条证据 ↗</a></article><details class="research-node"><summary>产品与研究进展 · 5 项</summary><article class="deal"><h3>Matrix-Game4.0发布</h3><p></p><ul class="source-list"><li><a href="https://github.com/SkyworkAI/Matrix-Game/blob/main/README.md">官方总仓库</a></li></ul></article><article class="deal"><h3>Thinker-WM论文公开</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.18447">论文及提交记录</a></li><li><a href="https://arxiv.org/html/2610.18447v1">论文正文</a></li></ul></article><article class="deal"><h3>世界模型融合方式对照研究</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.19825">原始论文</a></li></ul></article><article class="deal"><h3>云蝶与云迹合作</h3><p></p><ul class="source-list"><li><a href="https://www.cloudbutterfly.com.cn/news">云蝶官方新闻页</a></li><li><a href="https://www.cloudbutterfly.com.cn/">官方首页及合作公告索引</a></li></ul></article><article class="deal"><h3>物原历史三轮披露包，待核、不计当周新增</h3><p></p><ul class="source-list"><li><a href="https://www.36kr.com/p/4028359886557568">量子位原始稿件在36氪的记录</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>Matrix-Game4.0可控交互工具、Thinker-WM论文及VLA融合对照构成本周技术主线；融资区分云蝶官方系列公告、磐虎与格物媒体原报、物原待核历史多轮包。重点验证实机闭环、PoC付费复制和交互推理单位经济。</p><ul class="source-list"><li><a href="https://github.com/SkyworkAI/Matrix-Game/blob/main/README.md">官方总仓库</a></li><li><a href="https://github.com/SkyworkAI/Matrix-Game/blob/main/Matrix-Game-4/README.md">4.0技术与运行说明</a></li><li><a href="https://arxiv.org/abs/2610.18447">论文及提交记录</a></li><li><a href="https://arxiv.org/html/2610.18447v1">论文正文</a></li><li><a href="https://huggingface.co/UBTECH-Robotics/Thinker-WM">官方模型卡</a></li><li><a href="https://arxiv.org/abs/2610.19825">原始论文</a></li><li><a href="https://www.cloudbutterfly.com.cn/news">云蝶官方新闻页</a></li><li><a href="https://www.cloudbutterfly.com.cn/">官方首页及合作公告索引</a></li><li><a href="https://api3.cls.cn/share/article/2507017?app=stib&amp;os=ios&amp;sv=218">财联社原报道</a></li><li><a href="https://zhidx.com/p/601715.html">智东西原报道</a></li><li><a href="https://eu.36kr.com/zh/p/4025325566054529">原始创始人采访</a></li><li><a href="https://www.36kr.com/p/4028359886557568">量子位原始稿件在36氪的记录</a></li><li><a href="https://newsroom.amd.com/news/amd-acquire-world-labs/">AMD官方公告</a></li><li><a href="https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000182/amd-20260926.htm?trk=article-ssr-frontend-pulse_little-text-block">SEC文件</a></li><li><a href="https://arxiv.org/abs/2609.28931">原始提交记录</a></li><li><a href="https://helloworld-4d.github.io/">项目页</a></li></ul></details><section class="arc"><div class="arc-track" tabindex="0" aria-label="研究方向，左右滑动"><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>科学智能</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>递归自我改进</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>AI 应用</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>AI 基础设施</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>具身智能</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>世界模型</strong><b>6 期研究</b></button></div></div><div class="arc-bottom"><div><article class="arc-record" hidden><h2><a href="landscape-ai4s.html">科学智能 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-rsi.html">递归自我改进 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-ai-applications.html">AI 应用 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-ai-infra.html">AI 基础设施 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-embodied-intelligence.html">具身智能 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-world-model.html">世界模型 →</a></h2></article></div><div class="arc-controls"><button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button></div></div></section><script defer src="shelf.js"></script></main><script>(() => {
-  const toggle = document.querySelector('#local-toggle');
+<div id="local-find" role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button hidden disabled aria-label="上一处">↑</button><button hidden disabled aria-label="下一处">↓</button><button hidden aria-label="清除关键词">×</button></div>
+<p class="reading-lead">可交互世界生成工具出现更新，规划效果需要用闭环任务衡量。</p><article class="deal"><h3>Matrix-Game4.0发布</h3><p></p><a href="https://github.com/SkyworkAI/Matrix-Game/blob/main/README.md">查看这条证据 ↗</a></article><details class="research-node"><summary>产品与研究进展 · 5 项</summary><article class="deal"><h3>Matrix-Game4.0发布</h3><p></p><ul class="source-list"><li><a href="https://github.com/SkyworkAI/Matrix-Game/blob/main/README.md">官方总仓库</a></li></ul></article><article class="deal"><h3>Thinker-WM论文公开</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.18447">论文及提交记录</a></li><li><a href="https://arxiv.org/html/2610.18447v1">论文正文</a></li></ul></article><article class="deal"><h3>世界模型融合方式对照研究</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.19825">原始论文</a></li></ul></article><article class="deal"><h3>云蝶与云迹合作</h3><p></p><ul class="source-list"><li><a href="https://www.cloudbutterfly.com.cn/news">云蝶官方新闻页</a></li><li><a href="https://www.cloudbutterfly.com.cn/">官方首页及合作公告索引</a></li></ul></article><article class="deal"><h3>物原历史三轮披露包，待核、不计当周新增</h3><p></p><ul class="source-list"><li><a href="https://www.36kr.com/p/4028359886557568">量子位原始稿件在36氪的记录</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>Matrix-Game4.0可控交互工具、Thinker-WM论文及VLA融合对照构成本周技术主线；融资区分云蝶官方系列公告、磐虎与格物媒体原报、物原待核历史多轮包。重点验证实机闭环、PoC付费复制和交互推理单位经济。</p><ul class="source-list"><li><a href="https://github.com/SkyworkAI/Matrix-Game/blob/main/README.md">官方总仓库</a></li><li><a href="https://github.com/SkyworkAI/Matrix-Game/blob/main/Matrix-Game-4/README.md">4.0技术与运行说明</a></li><li><a href="https://arxiv.org/abs/2610.18447">论文及提交记录</a></li><li><a href="https://arxiv.org/html/2610.18447v1">论文正文</a></li><li><a href="https://huggingface.co/UBTECH-Robotics/Thinker-WM">官方模型卡</a></li><li><a href="https://arxiv.org/abs/2610.19825">原始论文</a></li><li><a href="https://www.cloudbutterfly.com.cn/news">云蝶官方新闻页</a></li><li><a href="https://www.cloudbutterfly.com.cn/">官方首页及合作公告索引</a></li><li><a href="https://api3.cls.cn/share/article/2507017?app=stib&amp;os=ios&amp;sv=218">财联社原报道</a></li><li><a href="https://zhidx.com/p/601715.html">智东西原报道</a></li><li><a href="https://eu.36kr.com/zh/p/4025325566054529">原始创始人采访</a></li><li><a href="https://www.36kr.com/p/4028359886557568">量子位原始稿件在36氪的记录</a></li><li><a href="https://newsroom.amd.com/news/amd-acquire-world-labs/">AMD官方公告</a></li><li><a href="https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000182/amd-20260926.htm?trk=article-ssr-frontend-pulse_little-text-block">SEC文件</a></li><li><a href="https://arxiv.org/abs/2609.28931">原始提交记录</a></li><li><a href="https://helloworld-4d.github.io/">项目页</a></li></ul></details><section class="arc"><div class="arc-track" tabindex="0" aria-label="研究方向，左右滑动"><div class="arc-slot"><button class="arc-card"><strong>科学智能</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>递归自我改进</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>AI 应用</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>AI 基础设施</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>具身智能</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>世界模型</strong><b>6 期研究</b></button></div></div><div class="arc-bottom"><div><article class="arc-record" hidden><h2><a href="landscape-ai4s.html">科学智能 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-rsi.html">递归自我改进 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-ai-applications.html">AI 应用 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-ai-infra.html">AI 基础设施 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-embodied-intelligence.html">具身智能 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-world-model.html">世界模型 →</a></h2></article></div><div class="arc-controls"><button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button></div></div></section><script defer src="shelf.js"></script></main><script>(() => {
   const bar = document.querySelector('#local-find');
   const input = bar.querySelector('input');
-  const [prev,next,close] = bar.querySelectorAll('button');
+  const [prev,next,reset] = bar.querySelectorAll('button');
   const count = bar.querySelector('output');
   const root = document.querySelector('main');
   let hits = [], current = -1, opened = [];
@@ -237,7 +236,7 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
     const nodes=[];
     if(q) while(walker.nextNode()) {
       const node=walker.currentNode;
-      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+      if(!node.parentElement.closest('#local-find,script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
     }
     for(const node of nodes){
       const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
@@ -250,21 +249,17 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
       }
       frag.append(text.slice(start));node.replaceWith(frag);
     }
+    reset.hidden=!input.value;
+    prev.hidden=next.hidden=hits.length<2;
     prev.disabled=next.disabled=hits.length<2;
     count.textContent=q?'本页无匹配':'';
     go(0);
   }
-  function show(open) {
-    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
-    if(open) input.focus();
-    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
-  }
-  toggle.onclick=()=>show(bar.hidden);
-  close.onclick=()=>show(false);
+  reset.onclick=()=>{input.value='';find();input.focus();};
   prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
   input.oninput=e=>{if(!e.isComposing)find()};
   input.addEventListener('compositionend',find);
   input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
-  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+  document.addEventListener('keydown',e=>{if(bar.contains(document.activeElement) && e.key==='Escape') reset.click()});
 })();
 </script></body></html>

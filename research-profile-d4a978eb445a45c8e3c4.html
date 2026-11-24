@@ -83,7 +83,7 @@ dt { color: var(--muted); } dd { margin: 0; }
 body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
 .top { padding:20px 0; }
 .brand { gap:9px; font:bold 28px/1 var(--serif); letter-spacing:-.05em; }
-.wordmark { font:bold 12px/1 Arial,sans-serif; letter-spacing:.03em; }
+
 .hero h1 { font-weight:650; letter-spacing:-.035em; }
 .cover { border:0; padding:26px 0 14px; }
 .cover h1 { font:600 24px/1.3 var(--serif); }
@@ -102,14 +102,14 @@ body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
 .folio { font-family:Arial,sans-serif; font-weight:600; }
 .dispatch h3 { font-weight:600; }
 @media(max-width:640px) {
- .top {padding:13px 0;} .brand { font-size:24px; } .wordmark {font-size:9px;} .cover {padding:20px 0 12px;}
+ .top {padding:13px 0;} .brand { font-size:24px; }  .cover {padding:20px 0 12px;}
  .switch:checked + label + .plate {grid-template-columns:1fr;} .plate {padding:21px 20px 12px;}
  .subject h2 {font-size:46px;margin:10px 0 5px;} .subject p {font-size:14px;}
  .weave svg {height:130px;} .atlas > label {font-size:12px;padding:12px 4px;}
  .hero:not(.cover) {padding:34px 0;} .weave {grid-template-columns:1.65fr 1fr;}
 }
 :root {color-scheme:dark;--paper:#0b0e0d;--ink:#eff3ee;--green:#90e9ae;--accent:#8ed8a5;--muted:#a7b5ac;--line:#334039;}
-.top {border-color:#354139}.brand {font-weight:550}.wordmark {color:#aeb9b2}
+.top {border-color:#354139}.brand {font-weight:550}
 nav a[aria-current] {color:#b4f0c4}
 .cover h1 {font-weight:450}.hero:not(.cover) {margin-top:22px;padding:clamp(32px,5vw,66px);border:1px solid #46745a;border-radius:20px;background:radial-gradient(ellipse at 85% 130%,#448a5b,transparent 65%),linear-gradient(120deg,#123022,#204f36);}.hero p {color:#c4dccc}
 .atlas {border-radius:18px;overflow:hidden;border:1px solid #344439;background:radial-gradient(ellipse at 79% 66%,#263c2e,transparent 47%),linear-gradient(120deg,#101512,#101311 80%);}
@@ -180,8 +180,8 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
-.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
-.find-link span {font:24px/1 Arial,sans-serif}
+
+
 .reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
 .reading-pick small,#found small {color:var(--muted);font-size:13px}
 .reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
@@ -189,23 +189,22 @@ nav a[aria-current] {color:#b4f0c4}
 .lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
-@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
-button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
-#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
-#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.reading-pick{margin:12px 0 16px}}
+
+#local-find {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;margin:0 0 18px;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:transparent;border:0;min-height:40px}
 #local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
 #local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
 mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
-<body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
-<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
+<body><header class="top"><a class="brand" href="index.html">观势</a>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>阶跃星辰 / StepFun</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>Step 5的推理与工具能力能否降低实际业务交付总成本？</p></section><article class="deal"><h3>档案判断</h3><p>阶跃星辰的研究重点是模型效率能否转成可持续的Agent交付经济性。基于Step 3.5 Flash这一历史技术样本，比较每次合格任务总成本，而非只看单token价格、激活参数或跑分；本档案不是当前全产品目录。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>技术报告v2于2026年2月23日修订，作者描述稀疏MoE、混合注意力及多token预测，以降低多轮Agent交互开销。报告中的性能和训练收益属于团队结果，不能直接当作商业场景独立验收；强化学习训练改进也不等于部署后无限递归自我改进。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方README注明分布偏移及长对话下的稳定性限制，并提示达到相近质量可能需要更长生成轨迹。其本地部署章节列出大内存要求；少量激活参数不意味着只需存放激活权重，也不等于普通设备低成本部署。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>应固定任务、硬件、并发、上下文及质量门槛，核成功任务所需总token、重试、工具失败和人工修正；分别计算托管API、自托管运维和工程服务成本。开源下载、开发者集成与限免使用不能自动认定付费客户或收入。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>优先跟进三个信号：复杂真实任务的独立复现；优惠期后付费留存与客户扩量；跨版本迁移是否降低而非增加维护工时。对每个信号保留失败样本与口径，避免把新版本榜单提升推导成旧客户毛利改善。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>9月29日官方Step 5 Preview指南描述文本、图像和视频输入及文本输出，并说明可调推理计算预算。它与本档案保留的Step 3.5 Flash历史材料属于不同型号；教程日期不是首次发布日，Preview名称也不能自动转成正式交付承诺。</p><p class="hint">未调用API、无独立测试、客户合同或成本记录。</p><ul class="source-list"><li><a href="https://platform.stepfun.ai/cookbook/step-5-reasoning">Step 5 Preview官方推理预算指南</a></li><li><a href="https://platform.stepfun.ai/cookbook/step-5-tool-calling">Step 5 Preview官方工具调用闭环指南</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方工具指南明确区分模型选择函数与应用校验参数、执行函数、回传结果。具备工具调用协议不等于自动完成业务闭环；生产落地还需要失败恢复、权限隔离、结果校验和实际服务集成，不能只展示一次调用成功。</p><p class="hint">未调用API、无独立测试、客户合同或成本记录。</p><ul class="source-list"><li><a href="https://platform.stepfun.ai/cookbook/step-5-reasoning">Step 5 Preview官方推理预算指南</a></li><li><a href="https://platform.stepfun.ai/cookbook/step-5-tool-calling">Step 5 Preview官方工具调用闭环指南</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断应对齐同一任务的输入、输出要求与质量门槛，再比较推理预算档位的质量、等待时间和总用量。更高推理档位未必带来更高客户净收益；需将工具重试、应用工程、人工验收与客户实际付费一并核算。</p><p class="hint">未调用API、无独立测试、客户合同或成本记录。</p><ul class="source-list"><li><a href="https://platform.stepfun.ai/cookbook/step-5-reasoning">Step 5 Preview官方推理预算指南</a></li><li><a href="https://platform.stepfun.ai/cookbook/step-5-tool-calling">Step 5 Preview官方工具调用闭环指南</a></li></ul></article><section class="arc"><div class="arc-track" tabindex="0" aria-label="行业赛道，左右滑动"><div class="arc-slot"><button class="arc-card"><small>行业赛道</small><strong>待归类</strong><b>5 家</b></button></div><div class="arc-slot"><button class="arc-card"><small>行业赛道</small><strong>医疗健康</strong><b>3 家</b></button></div><div class="arc-slot"><button class="arc-card"><small>行业赛道</small><strong>芯片与算力</strong><b>1 家</b></button></div><div class="arc-slot"><button class="arc-card"><small>行业赛道</small><strong>工业制造</strong><b>1 家</b></button></div></div><div class="arc-bottom"><div><article class="arc-record" hidden><h2><a href="companies.html#group-86fdf9c0ed1fadfe31e9">待归类 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-6b4626582e7d6df9e9aa">医疗健康 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-e5f094859eb4324adf6d">芯片与算力 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-9d14df73aebbe70d2604">工业制造 →</a></h2></article></div><div class="arc-controls"><button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button></div></div></section><script defer src="shelf.js"></script></main><script>(() => {
-  const toggle = document.querySelector('#local-toggle');
+<div id="local-find" role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button hidden disabled aria-label="上一处">↑</button><button hidden disabled aria-label="下一处">↓</button><button hidden aria-label="清除关键词">×</button></div>
+<section class="profile-records"><h2>研究问题</h2><p>Step 5的推理与工具能力能否降低实际业务交付总成本？</p></section><article class="deal"><h3>档案判断</h3><p>阶跃星辰的研究重点是模型效率能否转成可持续的Agent交付经济性。基于Step 3.5 Flash这一历史技术样本，比较每次合格任务总成本，而非只看单token价格、激活参数或跑分；本档案不是当前全产品目录。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>技术报告v2于2026年2月23日修订，作者描述稀疏MoE、混合注意力及多token预测，以降低多轮Agent交互开销。报告中的性能和训练收益属于团队结果，不能直接当作商业场景独立验收；强化学习训练改进也不等于部署后无限递归自我改进。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方README注明分布偏移及长对话下的稳定性限制，并提示达到相近质量可能需要更长生成轨迹。其本地部署章节列出大内存要求；少量激活参数不意味着只需存放激活权重，也不等于普通设备低成本部署。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>应固定任务、硬件、并发、上下文及质量门槛，核成功任务所需总token、重试、工具失败和人工修正；分别计算托管API、自托管运维和工程服务成本。开源下载、开发者集成与限免使用不能自动认定付费客户或收入。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>优先跟进三个信号：复杂真实任务的独立复现；优惠期后付费留存与客户扩量；跨版本迁移是否降低而非增加维护工时。对每个信号保留失败样本与口径，避免把新版本榜单提升推导成旧客户毛利改善。</p><p class="hint">未运行模型，未核客户合同、付费留存及独立性能。</p><ul class="source-list"><li><a href="https://arxiv.org/abs/2602.10604">Step 3.5 Flash技术报告v2</a></li><li><a href="https://github.com/stepfun-ai/Step-3.5-Flash/blob/main/README.zh-CN.md">Step 3.5 Flash官方中文README</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>9月29日官方Step 5 Preview指南描述文本、图像和视频输入及文本输出，并说明可调推理计算预算。它与本档案保留的Step 3.5 Flash历史材料属于不同型号；教程日期不是首次发布日，Preview名称也不能自动转成正式交付承诺。</p><p class="hint">未调用API、无独立测试、客户合同或成本记录。</p><ul class="source-list"><li><a href="https://platform.stepfun.ai/cookbook/step-5-reasoning">Step 5 Preview官方推理预算指南</a></li><li><a href="https://platform.stepfun.ai/cookbook/step-5-tool-calling">Step 5 Preview官方工具调用闭环指南</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官方工具指南明确区分模型选择函数与应用校验参数、执行函数、回传结果。具备工具调用协议不等于自动完成业务闭环；生产落地还需要失败恢复、权限隔离、结果校验和实际服务集成，不能只展示一次调用成功。</p><p class="hint">未调用API、无独立测试、客户合同或成本记录。</p><ul class="source-list"><li><a href="https://platform.stepfun.ai/cookbook/step-5-reasoning">Step 5 Preview官方推理预算指南</a></li><li><a href="https://platform.stepfun.ai/cookbook/step-5-tool-calling">Step 5 Preview官方工具调用闭环指南</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>投资判断应对齐同一任务的输入、输出要求与质量门槛，再比较推理预算档位的质量、等待时间和总用量。更高推理档位未必带来更高客户净收益；需将工具重试、应用工程、人工验收与客户实际付费一并核算。</p><p class="hint">未调用API、无独立测试、客户合同或成本记录。</p><ul class="source-list"><li><a href="https://platform.stepfun.ai/cookbook/step-5-reasoning">Step 5 Preview官方推理预算指南</a></li><li><a href="https://platform.stepfun.ai/cookbook/step-5-tool-calling">Step 5 Preview官方工具调用闭环指南</a></li></ul></article><section class="arc"><div class="arc-track" tabindex="0" aria-label="行业赛道，左右滑动"><div class="arc-slot"><button class="arc-card"><strong>待归类</strong><b>5 家</b></button></div><div class="arc-slot"><button class="arc-card"><strong>医疗健康</strong><b>3 家</b></button></div><div class="arc-slot"><button class="arc-card"><strong>芯片与算力</strong><b>1 家</b></button></div><div class="arc-slot"><button class="arc-card"><strong>工业制造</strong><b>1 家</b></button></div></div><div class="arc-bottom"><div><article class="arc-record" hidden><h2><a href="companies.html#group-86fdf9c0ed1fadfe31e9">待归类 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-6b4626582e7d6df9e9aa">医疗健康 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-e5f094859eb4324adf6d">芯片与算力 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-9d14df73aebbe70d2604">工业制造 →</a></h2></article></div><div class="arc-controls"><button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button></div></div></section><script defer src="shelf.js"></script></main><script>(() => {
   const bar = document.querySelector('#local-find');
   const input = bar.querySelector('input');
-  const [prev,next,close] = bar.querySelectorAll('button');
+  const [prev,next,reset] = bar.querySelectorAll('button');
   const count = bar.querySelector('output');
   const root = document.querySelector('main');
   let hits = [], current = -1, opened = [];
@@ -237,7 +236,7 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
     const nodes=[];
     if(q) while(walker.nextNode()) {
       const node=walker.currentNode;
-      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+      if(!node.parentElement.closest('#local-find,script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
     }
     for(const node of nodes){
       const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
@@ -250,21 +249,17 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
       }
       frag.append(text.slice(start));node.replaceWith(frag);
     }
+    reset.hidden=!input.value;
+    prev.hidden=next.hidden=hits.length<2;
     prev.disabled=next.disabled=hits.length<2;
     count.textContent=q?'本页无匹配':'';
     go(0);
   }
-  function show(open) {
-    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
-    if(open) input.focus();
-    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
-  }
-  toggle.onclick=()=>show(bar.hidden);
-  close.onclick=()=>show(false);
+  reset.onclick=()=>{input.value='';find();input.focus();};
   prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
   input.oninput=e=>{if(!e.isComposing)find()};
   input.addEventListener('compositionend',find);
   input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
-  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+  document.addEventListener('keydown',e=>{if(bar.contains(document.activeElement) && e.key==='Escape') reset.click()});
 })();
 </script></body></html>

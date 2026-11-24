@@ -83,7 +83,7 @@ dt { color: var(--muted); } dd { margin: 0; }
 body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
 .top { padding:20px 0; }
 .brand { gap:9px; font:bold 28px/1 var(--serif); letter-spacing:-.05em; }
-.wordmark { font:bold 12px/1 Arial,sans-serif; letter-spacing:.03em; }
+
 .hero h1 { font-weight:650; letter-spacing:-.035em; }
 .cover { border:0; padding:26px 0 14px; }
 .cover h1 { font:600 24px/1.3 var(--serif); }
@@ -102,14 +102,14 @@ body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
 .folio { font-family:Arial,sans-serif; font-weight:600; }
 .dispatch h3 { font-weight:600; }
 @media(max-width:640px) {
- .top {padding:13px 0;} .brand { font-size:24px; } .wordmark {font-size:9px;} .cover {padding:20px 0 12px;}
+ .top {padding:13px 0;} .brand { font-size:24px; }  .cover {padding:20px 0 12px;}
  .switch:checked + label + .plate {grid-template-columns:1fr;} .plate {padding:21px 20px 12px;}
  .subject h2 {font-size:46px;margin:10px 0 5px;} .subject p {font-size:14px;}
  .weave svg {height:130px;} .atlas > label {font-size:12px;padding:12px 4px;}
  .hero:not(.cover) {padding:34px 0;} .weave {grid-template-columns:1.65fr 1fr;}
 }
 :root {color-scheme:dark;--paper:#0b0e0d;--ink:#eff3ee;--green:#90e9ae;--accent:#8ed8a5;--muted:#a7b5ac;--line:#334039;}
-.top {border-color:#354139}.brand {font-weight:550}.wordmark {color:#aeb9b2}
+.top {border-color:#354139}.brand {font-weight:550}
 nav a[aria-current] {color:#b4f0c4}
 .cover h1 {font-weight:450}.hero:not(.cover) {margin-top:22px;padding:clamp(32px,5vw,66px);border:1px solid #46745a;border-radius:20px;background:radial-gradient(ellipse at 85% 130%,#448a5b,transparent 65%),linear-gradient(120deg,#123022,#204f36);}.hero p {color:#c4dccc}
 .atlas {border-radius:18px;overflow:hidden;border:1px solid #344439;background:radial-gradient(ellipse at 79% 66%,#263c2e,transparent 47%),linear-gradient(120deg,#101512,#101311 80%);}
@@ -180,8 +180,8 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
-.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
-.find-link span {font:24px/1 Arial,sans-serif}
+
+
 .reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
 .reading-pick small,#found small {color:var(--muted);font-size:13px}
 .reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
@@ -189,23 +189,22 @@ nav a[aria-current] {color:#b4f0c4}
 .lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
-@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
-button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
-#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
-#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.reading-pick{margin:12px 0 16px}}
+
+#local-find {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;margin:0 0 18px;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:transparent;border:0;min-height:40px}
 #local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
 #local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
 mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
-<body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
-<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
+<body><header class="top"><a class="brand" href="index.html">观势</a>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html" aria-current="location">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
 <main><header class="hero "><p>世界模型　2026-10-26 — 2026-11-01</p><h1>World Model投资周报：从可交互画面走向可验证结果</h1></header>
-<p class="reading-lead">多轮交互生成有了新演示，动作约束和结果验证仍需分别检查。</p><article class="deal"><h3>腾讯Hy-Nomas多轮交互世界生成</h3><p></p><a href="https://arxiv.org/abs/2610.36729">查看这条证据 ↗</a></article><details class="research-node"><summary>交互与生成 · 1 项</summary><article class="deal"><h3>腾讯Hy-Nomas多轮交互世界生成</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.36729">Hy-Nomas作者论文</a></li></ul></article></details><details class="research-node"><summary>产品与研究进展 · 5 项</summary><article class="deal"><h3>Rollback反事实世界模型策略改进</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.36068">Rollback作者论文</a></li></ul></article><article class="deal"><h3>AWM环境建模与Lean证明</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.40503">AWM作者论文</a></li></ul></article><article class="deal"><h3>昆仑季报披露Matrix-Game4.0</h3><p></p><ul class="source-list"><li><a href="https://static.cninfo.com.cn/finalpage/2026-10-30/1225644210.PDF">昆仑万维2026第三季度报告</a></li></ul></article><article class="deal"><h3>西湖世界模型研究中心成立</h3><p></p><ul class="source-list"><li><a href="https://tidenews.com.cn/news.html?from_channel=5d8b4d25cf8dfd0001a4143c&amp;id=3601735&amp;top_id=3601739">潮新闻西湖研究中心现场采访</a></li></ul></article><article class="deal"><h3>Genie4研究预览</h3><p></p><ul class="source-list"><li><a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/">Google Genie4原始公告</a></li></ul></article></details><details class="research-node"><summary>融资与交易 · 1 项</summary><article class="deal"><h3>DreamHQ建筑空间智能融资及项目声明</h3><p></p><ul class="source-list"><li><a href="https://www.dreamhq.com/press/announcement">Dream公司融资公告</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>中国Hy-Nomas、Rollback、AWM与昆仑披露显示交互、反事实和约束验证的不同路线；海外Genie4仍为研究预览，DreamHQ以建筑空间场景宣布1700万美元种子融资。区分公司声明与真机研究，不把视频生成、项目价值或旧融资混计。</p><ul class="source-list"><li><a href="https://www.dreamhq.com/press/announcement">Dream公司融资公告</a></li><li><a href="https://www.36kr.com/p/4046758749311874">考拉悠然科技署名、36氪授权转载</a></li><li><a href="https://www.36kr.com/p/4042183936594817">36氪原力无限投资披露</a></li><li><a href="https://arxiv.org/abs/2610.36729">Hy-Nomas作者论文</a></li><li><a href="https://arxiv.org/abs/2610.36068">Rollback作者论文</a></li><li><a href="https://arxiv.org/abs/2610.40503">AWM作者论文</a></li><li><a href="https://static.cninfo.com.cn/finalpage/2026-10-30/1225644210.PDF">昆仑万维2026第三季度报告</a></li><li><a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/">Google Genie4原始公告</a></li><li><a href="https://tidenews.com.cn/news.html?from_channel=5d8b4d25cf8dfd0001a4143c&amp;id=3601735&amp;top_id=3601739">潮新闻西湖研究中心现场采访</a></li><li><a href="https://d-robotics-ai-lab.github.io/large-model-team/blog/uranus/">Uranus官方历史介绍</a></li></ul></details><section class="arc"><div class="arc-track" tabindex="0" aria-label="研究方向，左右滑动"><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>科学智能</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>递归自我改进</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>AI 应用</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>AI 基础设施</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>具身智能</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><small>研究方向</small><strong>世界模型</strong><b>6 期研究</b></button></div></div><div class="arc-bottom"><div><article class="arc-record" hidden><h2><a href="landscape-ai4s.html">科学智能 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-rsi.html">递归自我改进 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-ai-applications.html">AI 应用 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-ai-infra.html">AI 基础设施 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-embodied-intelligence.html">具身智能 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-world-model.html">世界模型 →</a></h2></article></div><div class="arc-controls"><button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button></div></div></section><script defer src="shelf.js"></script></main><script>(() => {
-  const toggle = document.querySelector('#local-toggle');
+<div id="local-find" role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button hidden disabled aria-label="上一处">↑</button><button hidden disabled aria-label="下一处">↓</button><button hidden aria-label="清除关键词">×</button></div>
+<p class="reading-lead">多轮交互生成有了新演示，动作约束和结果验证仍需分别检查。</p><article class="deal"><h3>腾讯Hy-Nomas多轮交互世界生成</h3><p></p><a href="https://arxiv.org/abs/2610.36729">查看这条证据 ↗</a></article><details class="research-node"><summary>交互与生成 · 1 项</summary><article class="deal"><h3>腾讯Hy-Nomas多轮交互世界生成</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.36729">Hy-Nomas作者论文</a></li></ul></article></details><details class="research-node"><summary>产品与研究进展 · 5 项</summary><article class="deal"><h3>Rollback反事实世界模型策略改进</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.36068">Rollback作者论文</a></li></ul></article><article class="deal"><h3>AWM环境建模与Lean证明</h3><p></p><ul class="source-list"><li><a href="https://arxiv.org/abs/2610.40503">AWM作者论文</a></li></ul></article><article class="deal"><h3>昆仑季报披露Matrix-Game4.0</h3><p></p><ul class="source-list"><li><a href="https://static.cninfo.com.cn/finalpage/2026-10-30/1225644210.PDF">昆仑万维2026第三季度报告</a></li></ul></article><article class="deal"><h3>西湖世界模型研究中心成立</h3><p></p><ul class="source-list"><li><a href="https://tidenews.com.cn/news.html?from_channel=5d8b4d25cf8dfd0001a4143c&amp;id=3601735&amp;top_id=3601739">潮新闻西湖研究中心现场采访</a></li></ul></article><article class="deal"><h3>Genie4研究预览</h3><p></p><ul class="source-list"><li><a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/">Google Genie4原始公告</a></li></ul></article></details><details class="research-node"><summary>融资与交易 · 1 项</summary><article class="deal"><h3>DreamHQ建筑空间智能融资及项目声明</h3><p></p><ul class="source-list"><li><a href="https://www.dreamhq.com/press/announcement">Dream公司融资公告</a></li></ul></article></details><details class="research-node"><summary>完整摘要与本期来源</summary><p>中国Hy-Nomas、Rollback、AWM与昆仑披露显示交互、反事实和约束验证的不同路线；海外Genie4仍为研究预览，DreamHQ以建筑空间场景宣布1700万美元种子融资。区分公司声明与真机研究，不把视频生成、项目价值或旧融资混计。</p><ul class="source-list"><li><a href="https://www.dreamhq.com/press/announcement">Dream公司融资公告</a></li><li><a href="https://www.36kr.com/p/4046758749311874">考拉悠然科技署名、36氪授权转载</a></li><li><a href="https://www.36kr.com/p/4042183936594817">36氪原力无限投资披露</a></li><li><a href="https://arxiv.org/abs/2610.36729">Hy-Nomas作者论文</a></li><li><a href="https://arxiv.org/abs/2610.36068">Rollback作者论文</a></li><li><a href="https://arxiv.org/abs/2610.40503">AWM作者论文</a></li><li><a href="https://static.cninfo.com.cn/finalpage/2026-10-30/1225644210.PDF">昆仑万维2026第三季度报告</a></li><li><a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/">Google Genie4原始公告</a></li><li><a href="https://tidenews.com.cn/news.html?from_channel=5d8b4d25cf8dfd0001a4143c&amp;id=3601735&amp;top_id=3601739">潮新闻西湖研究中心现场采访</a></li><li><a href="https://d-robotics-ai-lab.github.io/large-model-team/blog/uranus/">Uranus官方历史介绍</a></li></ul></details><section class="arc"><div class="arc-track" tabindex="0" aria-label="研究方向，左右滑动"><div class="arc-slot"><button class="arc-card"><strong>科学智能</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>递归自我改进</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>AI 应用</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>AI 基础设施</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>具身智能</strong><b>6 期研究</b></button></div><div class="arc-slot"><button class="arc-card"><strong>世界模型</strong><b>6 期研究</b></button></div></div><div class="arc-bottom"><div><article class="arc-record" hidden><h2><a href="landscape-ai4s.html">科学智能 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-rsi.html">递归自我改进 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-ai-applications.html">AI 应用 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-ai-infra.html">AI 基础设施 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-embodied-intelligence.html">具身智能 →</a></h2></article><article class="arc-record" hidden><h2><a href="landscape-world-model.html">世界模型 →</a></h2></article></div><div class="arc-controls"><button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button></div></div></section><script defer src="shelf.js"></script></main><script>(() => {
   const bar = document.querySelector('#local-find');
   const input = bar.querySelector('input');
-  const [prev,next,close] = bar.querySelectorAll('button');
+  const [prev,next,reset] = bar.querySelectorAll('button');
   const count = bar.querySelector('output');
   const root = document.querySelector('main');
   let hits = [], current = -1, opened = [];
@@ -237,7 +236,7 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
     const nodes=[];
     if(q) while(walker.nextNode()) {
       const node=walker.currentNode;
-      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+      if(!node.parentElement.closest('#local-find,script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
     }
     for(const node of nodes){
       const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
@@ -250,21 +249,17 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
       }
       frag.append(text.slice(start));node.replaceWith(frag);
     }
+    reset.hidden=!input.value;
+    prev.hidden=next.hidden=hits.length<2;
     prev.disabled=next.disabled=hits.length<2;
     count.textContent=q?'本页无匹配':'';
     go(0);
   }
-  function show(open) {
-    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
-    if(open) input.focus();
-    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
-  }
-  toggle.onclick=()=>show(bar.hidden);
-  close.onclick=()=>show(false);
+  reset.onclick=()=>{input.value='';find();input.focus();};
   prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
   input.oninput=e=>{if(!e.isComposing)find()};
   input.addEventListener('compositionend',find);
   input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
-  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+  document.addEventListener('keydown',e=>{if(bar.contains(document.activeElement) && e.key==='Escape') reset.click()});
 })();
 </script></body></html>

@@ -140,8 +140,8 @@ def render(events):
     def shelf(label, choices):
         cards, records = [], []
         for title, detail, href in choices:
-            cards.append('<div class="arc-slot"><button class="arc-card"><small>'+html.escape(label)+
-                         '</small><strong>'+html.escape(title)+'</strong><b>'+html.escape(detail)+'</b></button></div>')
+            cards.append('<div class="arc-slot"><button class="arc-card">'+
+                         '<strong>'+html.escape(title)+'</strong><b>'+html.escape(detail)+'</b></button></div>')
             records.append('<article class="arc-record" hidden><h2>'+link(href,title+' →')+'</h2></article>')
         if not cards:
             return ''
@@ -167,10 +167,10 @@ def render(events):
         Path(path).write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} · 观势</title><style>{css}</style></head>
-<body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目">{nav}</nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
-<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
+<body><header class="top"><a class="brand" href="index.html">观势</a>
+<nav aria-label="栏目">{nav}</nav></header>
 <main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1></header>
+<div id="local-find" role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button hidden disabled aria-label="上一处">↑</button><button hidden disabled aria-label="下一处">↓</button><button hidden aria-label="清除关键词">×</button></div>
 {content}</main><script>{local_script}</script></body></html>''')
 
     ordered = sorted(events,key=lambda e:(e['day'],e['id']),reverse=True)
@@ -250,7 +250,7 @@ def render(events):
         for sector,items in sorted(sectors.items(),key=lambda pair:(pair[0]=="待归类",-len(pair[1]),pair[0])):
             name = html.escape(sector)
             cards.append(f'<div class="arc-slot"><button class="arc-card" aria-label="选择{name}赛道">'
-                         f'<small>行业赛道</small><strong>{name}</strong><b>{len(items)} 笔融资</b></button></div>')
+                         f'<strong>{name}</strong><b>{len(items)} 笔融资</b></button></div>')
             records.append('<article class="arc-record" hidden><h2>'+link(filename('sector',sector),name+' →')+'</h2>'
                            '<p>最近披露 · '+html.escape(items[0]['title'])+'</p></article>')
         return ('<section class="arc"><div class="arc-track" tabindex="0" aria-label="行业赛道，左右滑动">'+

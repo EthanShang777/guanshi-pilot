@@ -83,7 +83,7 @@ dt { color: var(--muted); } dd { margin: 0; }
 body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
 .top { padding:20px 0; }
 .brand { gap:9px; font:bold 28px/1 var(--serif); letter-spacing:-.05em; }
-.wordmark { font:bold 12px/1 Arial,sans-serif; letter-spacing:.03em; }
+
 .hero h1 { font-weight:650; letter-spacing:-.035em; }
 .cover { border:0; padding:26px 0 14px; }
 .cover h1 { font:600 24px/1.3 var(--serif); }
@@ -102,14 +102,14 @@ body { max-width:1520px; padding-inline:clamp(16px,4vw,64px); }
 .folio { font-family:Arial,sans-serif; font-weight:600; }
 .dispatch h3 { font-weight:600; }
 @media(max-width:640px) {
- .top {padding:13px 0;} .brand { font-size:24px; } .wordmark {font-size:9px;} .cover {padding:20px 0 12px;}
+ .top {padding:13px 0;} .brand { font-size:24px; }  .cover {padding:20px 0 12px;}
  .switch:checked + label + .plate {grid-template-columns:1fr;} .plate {padding:21px 20px 12px;}
  .subject h2 {font-size:46px;margin:10px 0 5px;} .subject p {font-size:14px;}
  .weave svg {height:130px;} .atlas > label {font-size:12px;padding:12px 4px;}
  .hero:not(.cover) {padding:34px 0;} .weave {grid-template-columns:1.65fr 1fr;}
 }
 :root {color-scheme:dark;--paper:#0b0e0d;--ink:#eff3ee;--green:#90e9ae;--accent:#8ed8a5;--muted:#a7b5ac;--line:#334039;}
-.top {border-color:#354139}.brand {font-weight:550}.wordmark {color:#aeb9b2}
+.top {border-color:#354139}.brand {font-weight:550}
 nav a[aria-current] {color:#b4f0c4}
 .cover h1 {font-weight:450}.hero:not(.cover) {margin-top:22px;padding:clamp(32px,5vw,66px);border:1px solid #46745a;border-radius:20px;background:radial-gradient(ellipse at 85% 130%,#448a5b,transparent 65%),linear-gradient(120deg,#123022,#204f36);}.hero p {color:#c4dccc}
 .atlas {border-radius:18px;overflow:hidden;border:1px solid #344439;background:radial-gradient(ellipse at 79% 66%,#263c2e,transparent 47%),linear-gradient(120deg,#101512,#101311 80%);}
@@ -180,8 +180,8 @@ nav a[aria-current] {color:#b4f0c4}
 .reading-lead {max-width:36em;margin:22px 0 8px;font-size:clamp(19px,2vw,26px);line-height:1.6}
 .review-result {max-width:48em;margin:10px 0;font-size:17px}
 .research-node summary small {display:block;color:var(--muted);font-size:14px;margin:4px 0 0 1em}
-.find-link {white-space:nowrap;display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:4px 10px;border-radius:8px;color:var(--ink);}
-.find-link span {font:24px/1 Arial,sans-serif}
+
+
 .reading-pick {border-inline-start:2px solid #8dc69b;padding:2px 16px;margin:16px 0 22px;max-width:60em;}
 .reading-pick small,#found small {color:var(--muted);font-size:13px}
 .reading-pick h2 {margin:4px 0;font-size:clamp(18px,2vw,25px);font-weight:500;line-height:1.45}
@@ -189,23 +189,22 @@ nav a[aria-current] {color:#b4f0c4}
 .lookup-form input {width:100%;max-width:48em;font:inherit;border:1px solid var(--line);border-radius:12px;padding:14px;background:#18231d;color:var(--ink)}
 #found a {display:grid;padding:13px 0;border-bottom:1px solid var(--line)}
 #found strong {font-weight:500}#show-more {margin:18px 0;padding:9px 16px}
-@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.find-link{grid-column:2;grid-row:1}.reading-pick{margin:12px 0 16px}}
-button.find-link {font:inherit;background:transparent;border:0;color:var(--ink);cursor:pointer;}
-#local-find:not([hidden]) {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
-#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:#101812;border:1px solid var(--line);border-radius:6px}
+@media(max-width:700px){.top{display:grid;grid-template-columns:1fr auto;align-items:center;gap:0}.top nav{grid-row:2;grid-column:1/-1;width:100%;margin:0}.reading-pick{margin:12px 0 16px}}
+
+#local-find {display:flex;align-items:center;gap:5px;position:sticky;top:0;z-index:25;margin:0 0 18px;background:#151f19;padding:8px;border:1px solid var(--line);border-radius:10px}
+#local-find input {min-width:0;flex:1;padding:8px;font:inherit;color:var(--ink);background:transparent;border:0;min-height:40px}
 #local-find button {background:transparent;color:var(--ink);min-width:36px;height:44px;border:0;font-size:19px}
 #local-find button:disabled {opacity:.35}#local-find output {font-size:12px;color:var(--muted)}
 mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hit.here {background:#99e7ae;outline:1px solid #0c3d21}
 </style></head>
-<body><header class="top"><a class="brand" href="index.html">观势<span class="wordmark" lang="en">GUANSHI</span></a>
-<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav><button class="find-link" id="local-toggle" aria-expanded="false" aria-controls="local-find">页内搜索</button></header>
-<div id="local-find" hidden role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button disabled aria-label="上一处">↑</button><button disabled aria-label="下一处">↓</button><button aria-label="关闭页内搜索">×</button></div>
+<body><header class="top"><a class="brand" href="index.html">观势</a>
+<nav aria-label="栏目"><a href="index.html">融资事件</a><a href="companies.html" aria-current="location">公司档案</a><a href="institutions.html">机构档案</a><a href="reports.html">研究周报</a><a href="landscape.html">赛道画布</a><a href="changes.html">变化追踪</a></nav></header>
 <main><header class="hero "><p>研究档案　2026-11-12</p><h1>灵初智能 / PsiBot</h1></header>
-<section class="profile-records"><h2>研究问题</h2><p>仓库试运行能否证明数据引擎带来可复制的部署经济性？</p></section><article class="deal"><h3>档案判断</h3><p>灵初的投资验证应把人类数据采集、跨本体转换和物流任务部署拆开。试运行提供检验模型泛化的真实场景，但核心问题是未见SKU成功率、人工接管与端到端吞吐是否支持付费扩容，而非演示任务数量。</p><p class="hint">投资分析；不把仓库试运行当作规模商用验收。</p><ul class="source-list"><li><a href="https://www.psibot.ai/">灵初智能官网：机器人、遥操作与试运行动态</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网展示Psi SynRobot及SynGlove Air遥操作手套，首页11月3日动态称在李宁华东智慧物流中心启动试运行。官网同时保留旧版模型“即将推出”与更新版本发布文案，不能据此直接拼接完整产品时间线。</p><p class="hint">公司披露；试运行不等于客户正式采购、收入确认或性能独立验证。</p><ul class="source-list"><li><a href="https://www.psibot.ai/">灵初智能官网：机器人、遥操作与试运行动态</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网研究页将强配对定义为场景与时序对应且动作可回放，区别于仅同任务语义的弱配对；团队描述用真实机器人轨迹反向生成对应人类数据，再训练转换器，并以回放及后训练表现验证。该转换器不等于部署策略。团队亦明确客户SKU和节拍仍需现场后训练，不能把人类视频规模直接换算为零样本商用能力。</p><p class="hint">研究声明未复现；未验证客户验收、付费或规模部署。</p><ul class="source-list"><li><a href="https://cypypccpy.github.io/scaling-pair-data.github.io/">Scaling Pair Data for Embodied Intelligence</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>尽调应比较同一任务、同等真实机器人数据预算下，纯真机、弱配对和强配对三组的增益；按未见物体、场景及相机划分测试集，防止同轨迹生成变体跨训练测试泄漏。将采集、生成、清洗、回放筛除和现场后训练的总成本除以最终合格任务数，才能判断低成本人类数据是否真正降低部署成本。另需对仓库连续班次分别统计失败、人工接管、复位时间与节拍，不能用挑选成功的视频替代现场可靠性。</p><p class="hint">研究声明未复现；未验证客户验收、付费或规模部署。</p><ul class="source-list"><li><a href="https://cypypccpy.github.io/scaling-pair-data.github.io/">Scaling Pair Data for Embodied Intelligence</a></li></ul></article><section class="arc"><div class="arc-track" tabindex="0" aria-label="行业赛道，左右滑动"><div class="arc-slot"><button class="arc-card"><small>行业赛道</small><strong>待归类</strong><b>5 家</b></button></div><div class="arc-slot"><button class="arc-card"><small>行业赛道</small><strong>医疗健康</strong><b>3 家</b></button></div><div class="arc-slot"><button class="arc-card"><small>行业赛道</small><strong>芯片与算力</strong><b>1 家</b></button></div><div class="arc-slot"><button class="arc-card"><small>行业赛道</small><strong>工业制造</strong><b>1 家</b></button></div></div><div class="arc-bottom"><div><article class="arc-record" hidden><h2><a href="companies.html#group-86fdf9c0ed1fadfe31e9">待归类 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-6b4626582e7d6df9e9aa">医疗健康 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-e5f094859eb4324adf6d">芯片与算力 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-9d14df73aebbe70d2604">工业制造 →</a></h2></article></div><div class="arc-controls"><button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button></div></div></section><script defer src="shelf.js"></script></main><script>(() => {
-  const toggle = document.querySelector('#local-toggle');
+<div id="local-find" role="search" aria-label="在此页查找"><input type="search" aria-label="本页关键词" placeholder="在此页查找"><output aria-live="polite"></output><button hidden disabled aria-label="上一处">↑</button><button hidden disabled aria-label="下一处">↓</button><button hidden aria-label="清除关键词">×</button></div>
+<section class="profile-records"><h2>研究问题</h2><p>仓库试运行能否证明数据引擎带来可复制的部署经济性？</p></section><article class="deal"><h3>档案判断</h3><p>灵初的投资验证应把人类数据采集、跨本体转换和物流任务部署拆开。试运行提供检验模型泛化的真实场景，但核心问题是未见SKU成功率、人工接管与端到端吞吐是否支持付费扩容，而非演示任务数量。</p><p class="hint">投资分析；不把仓库试运行当作规模商用验收。</p><ul class="source-list"><li><a href="https://www.psibot.ai/">灵初智能官网：机器人、遥操作与试运行动态</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网展示Psi SynRobot及SynGlove Air遥操作手套，首页11月3日动态称在李宁华东智慧物流中心启动试运行。官网同时保留旧版模型“即将推出”与更新版本发布文案，不能据此直接拼接完整产品时间线。</p><p class="hint">公司披露；试运行不等于客户正式采购、收入确认或性能独立验证。</p><ul class="source-list"><li><a href="https://www.psibot.ai/">灵初智能官网：机器人、遥操作与试运行动态</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>官网研究页将强配对定义为场景与时序对应且动作可回放，区别于仅同任务语义的弱配对；团队描述用真实机器人轨迹反向生成对应人类数据，再训练转换器，并以回放及后训练表现验证。该转换器不等于部署策略。团队亦明确客户SKU和节拍仍需现场后训练，不能把人类视频规模直接换算为零样本商用能力。</p><p class="hint">研究声明未复现；未验证客户验收、付费或规模部署。</p><ul class="source-list"><li><a href="https://cypypccpy.github.io/scaling-pair-data.github.io/">Scaling Pair Data for Embodied Intelligence</a></li></ul></article><article class="deal"><h3>档案判断</h3><p>尽调应比较同一任务、同等真实机器人数据预算下，纯真机、弱配对和强配对三组的增益；按未见物体、场景及相机划分测试集，防止同轨迹生成变体跨训练测试泄漏。将采集、生成、清洗、回放筛除和现场后训练的总成本除以最终合格任务数，才能判断低成本人类数据是否真正降低部署成本。另需对仓库连续班次分别统计失败、人工接管、复位时间与节拍，不能用挑选成功的视频替代现场可靠性。</p><p class="hint">研究声明未复现；未验证客户验收、付费或规模部署。</p><ul class="source-list"><li><a href="https://cypypccpy.github.io/scaling-pair-data.github.io/">Scaling Pair Data for Embodied Intelligence</a></li></ul></article><section class="arc"><div class="arc-track" tabindex="0" aria-label="行业赛道，左右滑动"><div class="arc-slot"><button class="arc-card"><strong>待归类</strong><b>5 家</b></button></div><div class="arc-slot"><button class="arc-card"><strong>医疗健康</strong><b>3 家</b></button></div><div class="arc-slot"><button class="arc-card"><strong>芯片与算力</strong><b>1 家</b></button></div><div class="arc-slot"><button class="arc-card"><strong>工业制造</strong><b>1 家</b></button></div></div><div class="arc-bottom"><div><article class="arc-record" hidden><h2><a href="companies.html#group-86fdf9c0ed1fadfe31e9">待归类 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-6b4626582e7d6df9e9aa">医疗健康 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-e5f094859eb4324adf6d">芯片与算力 →</a></h2></article><article class="arc-record" hidden><h2><a href="companies.html#group-9d14df73aebbe70d2604">工业制造 →</a></h2></article></div><div class="arc-controls"><button aria-label="上一分类">‹</button><output></output><button aria-label="下一分类">›</button></div></div></section><script defer src="shelf.js"></script></main><script>(() => {
   const bar = document.querySelector('#local-find');
   const input = bar.querySelector('input');
-  const [prev,next,close] = bar.querySelectorAll('button');
+  const [prev,next,reset] = bar.querySelectorAll('button');
   const count = bar.querySelector('output');
   const root = document.querySelector('main');
   let hits = [], current = -1, opened = [];
@@ -237,7 +236,7 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
     const nodes=[];
     if(q) while(walker.nextNode()) {
       const node=walker.currentNode;
-      if(!node.parentElement.closest('script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
+      if(!node.parentElement.closest('#local-find,script,style,textarea,input,select,button,[hidden],[aria-hidden="true"]') && node.data.toLowerCase().includes(q)) nodes.push(node);
     }
     for(const node of nodes){
       const text=node.data, lower=text.toLowerCase(), frag=document.createDocumentFragment();
@@ -250,21 +249,17 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
       }
       frag.append(text.slice(start));node.replaceWith(frag);
     }
+    reset.hidden=!input.value;
+    prev.hidden=next.hidden=hits.length<2;
     prev.disabled=next.disabled=hits.length<2;
     count.textContent=q?'本页无匹配':'';
     go(0);
   }
-  function show(open) {
-    bar.hidden=!open;toggle.setAttribute('aria-expanded',String(open));
-    if(open) input.focus();
-    else {clear();input.value='';count.textContent='';toggle.focus({preventScroll:true});}
-  }
-  toggle.onclick=()=>show(bar.hidden);
-  close.onclick=()=>show(false);
+  reset.onclick=()=>{input.value='';find();input.focus();};
   prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);
   input.oninput=e=>{if(!e.isComposing)find()};
   input.addEventListener('compositionend',find);
   input.onkeydown=e=>{if(!e.isComposing && e.key==='Enter'){e.preventDefault();go(current+(e.shiftKey?-1:1))}};
-  document.addEventListener('keydown',e=>{if(!bar.hidden && e.key==='Escape') show(false)});
+  document.addEventListener('keydown',e=>{if(bar.contains(document.activeElement) && e.key==='Escape') reset.click()});
 })();
 </script></body></html>
