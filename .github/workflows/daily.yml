@@ -1,0 +1,40 @@
+name: Daily financing update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 11 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: daily-financing
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python update.py --replay-check
+      - name: Save ledger and pages
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add ledger.json '*.html'
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh financing timeline from ChinaVenture'
+            git push
+          fi
+      - run: mkdir public && cp *.html site.css public/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4
