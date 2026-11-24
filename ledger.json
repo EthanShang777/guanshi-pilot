@@ -99,6 +99,67 @@
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261124-90291.html"
       ]
+    },
+    {
+      "id": "90292",
+      "day": "2026-11-24",
+      "company": "傲意科技",
+      "title": "傲意科技完成D轮融资",
+      "sector": "待归类",
+      "round": "D轮",
+      "first_close": false,
+      "investors": [
+        "长江资本"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261124-90292.html"
+      ]
+    },
+    {
+      "id": "90293",
+      "day": "2026-11-24",
+      "company": "亿优威光",
+      "title": "亿优威光完成约 5000 万元 Pre-A 轮融资",
+      "sector": "待归类",
+      "round": "PRE-A轮",
+      "first_close": false,
+      "investors": [
+        "祥峰投资",
+        "民银国际"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261124-90293.html"
+      ]
+    },
+    {
+      "id": "90294",
+      "day": "2026-11-24",
+      "company": "芯钬量子",
+      "title": "芯钬量子完成 A++ 轮融资",
+      "sector": "待归类",
+      "round": "A++轮",
+      "first_close": false,
+      "investors": [
+        "公司天使轮",
+        "京东方显智链",
+        "交银资本"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261124-90294.html"
+      ]
+    },
+    {
+      "id": "90295",
+      "day": "2026-11-24",
+      "company": "丝路天图",
+      "title": "丝路天图完成A+轮融资",
+      "sector": "待归类",
+      "round": "A+轮",
+      "first_close": false,
+      "investors": [],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261124-90295.html"
+      ]
     }
   ],
   "through": "2026-11-24"
