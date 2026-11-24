@@ -37,4 +37,13 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
-      - uses: actions/deploy-pages@v4
+      - name: Deploy published pages
+        id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Allow time for artifact indexing
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+      - name: Retry Pages deployment
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
