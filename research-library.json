@@ -20,7 +20,8 @@
      "title": "Hone官网具名客户评价",
      "url": "https://hone.com/"
     }
-   ]
+   ],
+   "reading_result": "客户端的恢复与同步已有修复。客户是否减少人工接管、是否续约，仍缺连续记录。"
   },
   {
    "title": "腾讯官方模型列表已变化，迁移执行与独立付费仍分开验证",
@@ -46,7 +47,8 @@
      "title": "How Rex automates order-to-cash for finance teams",
      "url": "https://www.braintrust.dev/customers/rex"
     }
-   ]
+   ],
+   "reading_result": "腾讯更新了模型列表。客户迁移后的质量、工时和付费情况仍未得到验证。"
   },
   {
    "title": "系统是真正学会了可迁移能力，还是仅更会通过反复使用的内部评分？",
@@ -64,7 +66,8 @@
      "title": "Terminal-RSI｜第5节局限与结论",
      "url": "https://arxiv.org/html/2610.22192v1"
     }
-   ]
+   ],
+   "reading_result": "新评测能检查技能是否退化。相同预算下，多轮更新能否持续改善独立任务，仍缺证据。"
   },
   {
    "title": "任务相关表征能否在相同预算下改善闭环规划，而不只改善预测指标？",
@@ -82,7 +85,8 @@
      "title": "Thinker-WM｜第8.2.2节及第9节",
      "url": "https://arxiv.org/html/2610.18447v1"
     }
-   ]
+   ],
+   "reading_result": "新实验已报告规划表现和计算开销。独立复现和总体交付成本，仍是判断效果的缺口。"
   }
  ],
  "profiles": [

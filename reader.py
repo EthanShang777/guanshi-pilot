@@ -2,11 +2,36 @@
 from collections import defaultdict
 from html import escape as esc
 import json
+import re
 from pathlib import Path
 from urllib.parse import urlencode
 
 TOPICS = {'ai4s':'科学智能','rsi':'递归自我改进','ai-applications':'AI 应用',
           'ai-infra':'AI 基础设施','embodied-intelligence':'具身智能','world-model':'世界模型'}
+
+SUBJECTS = {
+    'ai-infra': [('芯片与计算架构','GPU|芯片|机架|硅片|存算|光互连'),('推理与部署','推理|部署|计算服务|迁移'),('评测与运维','评测|运维|工具|故障')],
+    'world-model': [('动作与规划','动作|规划|控制'),('仿真与验证','仿真|测试|评测|验证'),('交互与生成','交互|生成|视频')],
+    'ai-applications': [('办公与企业交付','办公|工作|企业|采购'),('付费与分发','付费|支付|收费|留存|分发')],
+    'embodied-intelligence': [('部署与交付','客户|部署|试运行|量产'),('感知与控制','触觉|控制|关节|动作'),('机器人本体','本体|整机|人形')],
+    'ai4s': [('实验与数据','实验|数据|评测'),('临床与监管','临床|监管|药物')],
+    'rsi': [('评估与泛化','评估|验证|基准|泛化'),('学习与迭代','学习|更新|改进|迭代')],
+}
+LABELS = {'brain':'具身决策','body':'机器人本体','cerebellum':'运动控制','control':'运动控制','dexterous-hand':'灵巧手',
+          'strategic_cooperation':'产业合作','engineering_disclosure':'工程进展','benchmark_milestone':'评测进展',
+          'research_infrastructure':'研究设施','commercial_case_study':'商业案例','clinical_financial_update':'临床与融资',
+          'financing_and_product_announcement':'融资与产品','institutional_resource_commitment':'机构资源投入',
+          'pipeline_regulatory_submission':'管线与监管申报','government_research_award':'科研资助','registry_disclosure':'登记披露'}
+
+def subject(topic,event):
+    raw=event['sub']
+    if raw in LABELS: return LABELS[raw]
+    if raw and not raw.isascii(): return raw
+    title=event['title']
+    if re.search('融资|认购|配售|种子轮|A轮|B轮|并购',title) or raw=='financing_announcement':return '融资与交易'
+    for name,pattern in SUBJECTS[topic]:
+        if re.search(pattern,title):return name
+    return '产品与研究进展'
 
 def build_library(page,link,filename,reports,companies,index_rows):
     library=json.loads(Path('research-library.json').read_text())
@@ -26,9 +51,16 @@ def build_library(page,link,filename,reports,companies,index_rows):
         by_topic[r['topic']].append(rid)
         by_week[r['week']].append(rid)
         related=[link(filename('research-company',n),n) for n,items in companies.items() if any(rid in item['reports'] for item in items)]
-        body='<p class="intro">'+esc(r['summary'])+'</p>'+subsection('关联融资公司',directory(related) if related else '')
-        events=''.join(card(esc(e['title']),'<p>'+esc(e['summary'])+'</p>'+sources(e['sources'])) for e in r['events'])
-        body+=subsection('当周事件与证据',events)+subsection('本期来源',sources(r['sources']))
+        lead=next((e for e in r['events'] if e['title']==r.get('lead_evidence')),None)
+        body='<p class="reading-lead">'+esc(r.get('reading_lead') or r['summary'])+'</p>'
+        if lead:
+            body+=card(esc(lead['title']),'<p>'+esc(lead['summary'])+'</p>'+link(lead['sources'][0]['url'],'查看这条证据 ↗'))
+        body+=subsection('关联融资公司',directory(related) if related else '')
+        grouped=defaultdict(list)
+        for e in r['events']:grouped[subject(r['topic'],e)].append(e)
+        for label,events in grouped.items():
+            body+=f'<details class="research-node"><summary>{esc(label)} · {len(events)} 项</summary>'+''.join(card(esc(e['title']),'<p>'+esc(e['summary'])+'</p>'+sources(e['sources'])) for e in events)+'</details>'
+        body+='<details class="research-node"><summary>完整摘要与本期来源</summary><p>'+esc(r['summary'])+'</p>'+sources(r['sources'])+'</details>'
         page('report-'+rid+'.html',r['title'],'研究周报',body,meta=TOPICS[r['topic']]+'　'+r['start']+' — '+r['end'])
     topic_links=directory([link('landscape-'+k+'.html',v) for k,v in TOPICS.items()])
     weeks=''.join(subsection(esc(w),directory([reportlink(rid) for rid in ids])) for w,ids in by_week.items())
@@ -41,7 +73,7 @@ def build_library(page,link,filename,reports,companies,index_rows):
         nodes=defaultdict(dict)
         for rid in ids:
             for e in reports[rid]['events']:
-                nodes[e['sub'] or '研究事件'].setdefault(e['title'],(e,rid))
+                nodes[subject(topic,e)].setdefault(e['title'],(e,rid))
         sections=''
         for sub,items in nodes.items():
             details=''
@@ -49,8 +81,8 @@ def build_library(page,link,filename,reports,companies,index_rows):
                 company=e['company']
                 label=link(filename('research-profile',company),company) if company in by_name else esc(company)
                 details+=card(esc(e['title']),'<p>'+label+'</p>'+reportlink(rid))
-            sections+=f'<details class="research-node"><summary>{esc(sub)} · {len(items)} 项</summary>{details}</details>'
-        page('landscape-'+topic+'.html',TOPICS[topic],'赛道画布',subsection('历期研究',directory([reportlink(rid) for rid in ids]))+subsection('细分方向与证据',sections))
+            sections+=f'<details class="research-node"><summary>{esc(sub)} · {len(items)} 项<small>{esc(next(iter(items)))}</small></summary>{details}</details>'
+        page('landscape-'+topic+'.html',TOPICS[topic],'赛道画布',subsection('细分方向与证据',sections)+subsection('历期研究',directory([reportlink(rid) for rid in ids])))
     for profile in profiles:
         n=profile['name']
         facts=''.join(card('档案判断','<p>'+esc(c['text'])+'</p>'+
@@ -67,6 +99,8 @@ def build_library(page,link,filename,reports,companies,index_rows):
     page('compare.html','公司对照','公司档案',compare,meta='档案判断、待验证问题与依据')
     changes=''
     for r in sorted(library['reviews'],key=lambda r:r['day'],reverse=True):
-        fields=''.join('<dt>'+label+'</dt><dd>'+esc(r[k])+'</dd>' for k,label in [('question','跟踪问题'),('original','此前判断'),('reason','复核结论'),('next','下次验证')] if r[k])
-        changes+=card(esc(r['title']),'<small>'+esc(r['day'])+'</small><dl>'+fields+'</dl>'+sources(r['sources']))
+        fields=''.join('<dt>'+label+'</dt><dd>'+esc(r[k])+'</dd>' for k,label in [('question','跟踪问题'),('original','此前判断'),('reason','完整复核说明'),('next','下次验证')] if r[k] and (k!='question' or r[k]!=r['title']))
+        ref=r['sources'][0]
+        changes+=card(esc(r['title']),'<small>'+esc(r['day'])+' 复核</small><p class="review-result">'+esc(r.get('reading_result') or r['reason'])+'</p>'+
+                      link(ref['url'],ref['title']+' ↗')+'<details class="research-node"><summary>此前判断与验证条件</summary><dl>'+fields+'</dl>'+sources(r['sources'])+'</details>')
     page('changes.html','变化追踪','变化追踪',changes,meta='有复核记录的历史判断')

@@ -90,12 +90,18 @@
     {
       "id": "90291",
       "day": "2026-11-24",
-      "company": "章鱼动力再",
+      "company": "章鱼动力",
       "title": "章鱼动力再获数亿元投资",
       "sector": "待归类",
       "round": "",
       "first_close": false,
-      "investors": [],
+      "investors": [
+        "芯动能投资",
+        "美的资本",
+        "线性资本",
+        "小米集团",
+        "Panga Capital"
+      ],
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261124-90291.html"
       ]
@@ -109,7 +115,9 @@
       "round": "D轮",
       "first_close": false,
       "investors": [
-        "长江资本"
+        "中兵顺景",
+        "长江资本",
+        "光谷科创投"
       ],
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261124-90292.html"
@@ -140,9 +148,7 @@
       "round": "A++轮",
       "first_close": false,
       "investors": [
-        "公司天使轮",
-        "京东方显智链",
-        "交银资本"
+        "源杰科技"
       ],
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261124-90294.html"
@@ -156,7 +162,9 @@
       "sector": "待归类",
       "round": "A+轮",
       "first_close": false,
-      "investors": [],
+      "investors": [
+        "西安财金"
+      ],
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261124-90295.html"
       ]

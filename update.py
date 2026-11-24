@@ -12,7 +12,7 @@ BASE = "https://www.chinaventure.com.cn"
 STATE = Path("ledger.json")
 SEED = "三有利康"
 ROW = re.compile(r'<h1>\s*<a[^>]+href="(/flash/(\d{8})-\d+\.html)"[^>]*>(.*?)</a>\s*</h1>\s*<p>(.*?)<span', re.S)
-COMPANY = re.compile(r'^(.{1,36}?)(?:宣布完成|宣布获得|已完成|完成|获得|获)')
+COMPANY = re.compile(r'^(.{1,36}?)(?:宣布完成|宣布获得|已完成|再次获得|再获|完成|获得|获)')
 ROUND = re.compile(r'(?:Pre[-－ ]?)?[A-H][＋+\d-]*\s*轮|种子轮|天使轮|战略融资', re.I)
 
 def fetch(url, *args):
@@ -47,13 +47,18 @@ def scan(state):
     return [row for row in rows if row[1] >= cutoff]
 
 def investors(body):
+    # Historical rounds and advisers are outside this disclosure's investor list.
+    body = re.split(r'(?:此前|早前|过往|历史上|上一轮融资)', body, maxsplit=1)[0]
+    body = re.sub(r'等(?:知名)?(?:投资机构|产业资本|机构)?(?=与产业资本|等|联合投资|投资|[，。])', '', body)
     names = []
-    pattern = r'(?:由|，)([^，。；]{1,100}?)(?:联合领投|联合投资|共同投资|领投|跟投|投资)(?=[，。；\s]|$)'
-    for group in re.findall(pattern,body):
-        group = group.removeprefix('由')
+    groups = re.findall(r'(?:投资方为|新增投资方包括)([^，。；]+)',body)
+    pattern = r'(?:由|，)([^，。；]{1,100}?)(?:独家直投|独家投资|联合领投|联合投资|共同投资|领投|跟投|投资)(?=[，。；\s]|$)'
+    groups.extend(re.findall(pattern,body))
+    for group in groups:
+        group = re.sub(r'^(?:(?:本轮|本次)(?:融资|交割)?)?由','',group).split('等')[0].split('与产业资本')[0]
         group = re.sub(r'（简称[“"].*?[”"]）','',group)
         for name in re.split(r'、|以及|和(?=[^）]*(?:（|$))',group):
-            if name not in {'产业资本','产业投资方','机构投资者','老股东'} and re.fullmatch(r'[\w·（）/－-]{2,30}',name) and not re.search(r'多家|本轮|本次|公司宣布|包括|等|担任',name):
+            if name not in {'产业资本','产业投资方','机构投资者','老股东'} and re.fullmatch(r'[\w·（）/－-]{2,30}',name) and not re.search(r'多家|本轮|本次|公司宣布|包括|等|担任|天使轮|分别由',name):
                 names.append(name)
     return list(dict.fromkeys(names))
 

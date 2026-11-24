@@ -225,7 +225,9 @@
     "title": "The Information：Utopai原报道日期",
     "url": "https://www.theinformation.com/newsletters/ai-agenda/utopai-becomes-unicorn-video-ai-takes/"
    }
-  ]
+  ],
+  "reading_lead": "千问办公把付费入口搬进直播间，促销后的留存和续费仍待观察。",
+  "lead_evidence": "千问办公以0.01元基础月卡进入直播分发"
  },
  "2026-11-09-ai-infra": {
   "title": "AI Infra：从算力采购到有效推理产出",
@@ -601,7 +603,9 @@
     "title": "华为云伙伴信息：openPangu服务退市",
     "url": "https://www.huaweicloud.com/partners/support/news/latestnews/20261102.html"
    }
-  ]
+  ],
+  "reading_lead": "稀疏计算获得新一轮融资；验证交付价值，还要看客户实际完成一次推理的成本。",
+  "lead_evidence": "墨芯人工智能融资披露"
  },
  "2026-11-09-ai4s": {
   "title": "AI4S与虚拟细胞：数据实验接口推进，融资条款需分层核验",
@@ -865,7 +869,9 @@
     "title": "Anthropic科学文章目录",
     "url": "https://www.anthropic.com/science"
    }
-  ]
+  ],
+  "reading_lead": "单细胞仪器厂商开始组织数据供给，联盟目标还需用实际产出检验。",
+  "lead_evidence": "华大智造C6发布，首年联盟目标超过1亿细胞"
  },
  "2026-11-09-embodied-intelligence": {
   "title": "具身智能：客户试运行、分层控制与量产口径",
@@ -1297,7 +1303,9 @@
     "title": "Cosmos本周说明博客",
     "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
    }
-  ]
+  ],
+  "reading_lead": "机器人已经进入客户现场试运行，下一步要观察能否持续完成收费任务。",
+  "lead_evidence": "灵初进入李宁物流中心试运行"
  },
  "2026-11-09-rsi": {
   "title": "RSI投资周报：从自进化叙事到可衡量的改进闭环",
@@ -1501,7 +1509,9 @@
     "title": "Qwen4在训练：9月22日现场报道",
     "url": "https://www.ithome.com/1/005/633.htm"
    }
-  ]
+  ],
+  "reading_lead": "评估自我改进需要看系统学到的技能能否用于下一次任务。",
+  "lead_evidence": "阿里Recursa：并行学习者改进技能知识库"
  },
  "2026-11-09-world-model": {
   "title": "世界模型：从生成演示转向动作、空间与验证证据",
@@ -1765,7 +1775,9 @@
     "title": "NVIDIA Cosmos3-Nano-Sim-Bimanual官方模型卡",
     "url": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Bimanual"
    }
-  ]
+  ],
+  "reading_lead": "世界模型开始进入驾驶闭环测试，关键是能否检验一个动作带来的后果。",
+  "lead_evidence": "百度披露Apollo World闭环测试体系"
  },
  "2026-11-02-ai-applications": {
   "title": "AI应用投资周报：可灵交割落地，付费质量与平台分发成为下一关",
@@ -1909,7 +1921,9 @@
     "title": "Apple官方：Creator Studio新AI工具，2026-10-27",
     "url": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/"
    }
-  ]
+  ],
+  "reading_lead": "可灵此前签下的认购在本周完成交割，本周的变化是资金进度。",
+  "lead_evidence": "可灵既有认购完成"
  },
  "2026-11-02-ai-infra": {
   "title": "AI Infra投资周报｜推理运营、专用芯片与生产工具链",
@@ -2069,7 +2083,9 @@
     "title": "A new era for Hex, and data",
     "url": "https://hex.tech/blog/hex-new-era/"
    }
-  ]
+  ],
+  "reading_lead": "本周的融资披露显示，投资覆盖芯片和推理运营两个环节。",
+  "lead_evidence": "趋境科技 B轮融资披露"
  },
  "2026-11-02-ai4s": {
   "title": "AI4S投资周报：虚拟细胞走向实验反馈，融资口径与临床证据仍需穿透",
@@ -2229,7 +2245,9 @@
     "title": "Avego｜Opentrons Series E，2026-10-29",
     "url": "https://avego.com/opentrons-announces-40m-series-e-round/"
    }
-  ]
+  ],
+  "reading_lead": "虚拟细胞公司融资披露增多，理解单笔交易要先分清多轮累计口径。",
+  "lead_evidence": "百奥几何融资与GeoCell路线"
  },
  "2026-11-02-embodied-intelligence": {
   "title": "具身智能投资周报｜从发布参数转向可收费任务",
@@ -2401,7 +2419,9 @@
     "title": "智元官方预告：10月29日创新日",
     "url": "https://www.agibot.com.cn/article/315/detail/251.html"
    }
-  ]
+  ],
+  "reading_lead": "具身智能的观察重点转向机器人能以什么成本完成客户任务。",
+  "lead_evidence": "智元全栈成果：模型、控制、末端与部署工具"
  },
  "2026-11-02-rsi": {
   "title": "RSI投资周报：从会迭代到改进器能否变好",
@@ -2573,7 +2593,9 @@
     "title": "recursive",
     "url": "https://recursive.com/updates"
    }
-  ]
+  ],
+  "reading_lead": "研究开始尝试改进学习技能的方法，需要单独衡量这种改进能否迁移。",
+  "lead_evidence": "Skill∞优化任务技能与元技能"
  },
  "2026-11-02-world-model": {
   "title": "World Model投资周报：从可交互画面走向可验证结果",
@@ -2709,7 +2731,9 @@
     "title": "Uranus官方历史介绍",
     "url": "https://d-robotics-ai-lab.github.io/large-model-team/blog/uranus/"
    }
-  ]
+  ],
+  "reading_lead": "多轮交互生成有了新演示，动作约束和结果验证仍需分别检查。",
+  "lead_evidence": "腾讯Hy-Nomas多轮交互世界生成"
  },
  "2026-10-26-ai-applications": {
   "title": "AI应用投资周报：工作流开始接管入口，商业化仍需穿透验证",
@@ -2889,7 +2913,9 @@
     "title": "Today官网产品说明，当前页无本周融资公告日期",
     "url": "https://today.ai/"
    }
-  ]
+  ],
+  "reading_lead": "办公助手开始直接编辑用户已有文件，能否带来持续付费仍待验证。",
+  "lead_evidence": "豆包工作新增Word与可追溯记忆"
  },
  "2026-10-26-ai-infra": {
   "title": "AI Infra投资周报：推理软件、存储与验证计算重新分配价值",
@@ -3073,7 +3099,9 @@
     "title": "Bloomberg Law：Flapping Airplanes融资与投后估值（2026-10-21）",
     "url": "https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round"
    }
-  ]
+  ],
+  "reading_lead": "开源推理引擎提供了可检查的工程成果，线上服务能力还需要独立验证。",
+  "lead_evidence": "DeepInfer开源：离线引擎与完整服务边界"
  },
  "2026-10-26-ai4s": {
   "title": "AI4S与虚拟细胞周报｜从模型声明走向实验、数据与交付验证",
@@ -3217,7 +3245,9 @@
     "title": "证券之星转述天眼查日期",
     "url": "https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec02002lfey"
    }
-  ]
+  ],
+  "reading_lead": "虚拟细胞公司的技术路线和融资进度都有更新，实验反馈与客户交付仍需分别验证。",
+  "lead_evidence": "元示两轮融资与虚拟细胞产线声明"
  },
  "2026-10-26-embodied-intelligence": {
   "title": "具身智能投资周报｜操作数据、力触觉与部署经济性",
@@ -3421,7 +3451,9 @@
     "title": "36氪10月16日：法奥融资原始时点",
     "url": "https://www.36kr.com/newsflashes/4028376991191427"
    }
-  ]
+  ],
+  "reading_lead": "机器人投资延伸到数据和力控供应链，融资规模要按轮次分别理解。",
+  "lead_evidence": "伊塔动力种子及种子+融资"
  },
  "2026-10-26-rsi": {
   "title": "RSI投资周报｜从自进化叙事到可验证闭环",
@@ -3605,7 +3637,9 @@
     "title": "Bloomberg：Flapping融资与投后估值",
     "url": "https://news.bloomberglaw.com/private-equity/ai-startup-flapping-airplanes-valued-at-6-billion-in-new-round"
    }
-  ]
+  ],
+  "reading_lead": "研究自动化出现新产品，自主改进的增益仍需要独立评估。",
+  "lead_evidence": "Recursive Flint发布"
  },
  "2026-10-26-world-model": {
   "title": "World Model投资周报：从生成得像到动作后果可检验",
@@ -3761,7 +3795,9 @@
     "title": "投资界：星忆智能连续两轮融资",
     "url": "https://news.pedaily.cn/202610/570697.shtml"
    }
-  ]
+  ],
+  "reading_lead": "世界模型开始显式保存状态，让同一个动作的后果更容易检查。",
+  "lead_evidence": "State World Models：显式持久状态约束视频渲染"
  },
  "2026-10-19-ai-applications": {
   "title": "AI应用投资周报｜分发入口走向业务，留存与付费仍须验真",
@@ -4017,7 +4053,9 @@
     "title": "Apple官方公告",
     "url": "https://www.apple.com/ie/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
    }
-  ]
+  ],
+  "reading_lead": "企业应用已经有采购和授权入口，实际部署和续约需要另外取证。",
+  "lead_evidence": "WorkBuddy企业微信融合采购与接入文档"
  },
  "2026-10-19-ai-infra": {
   "title": "AI Infra投资周报｜2026年10月12日至18日",
@@ -4181,7 +4219,9 @@
     "title": "公司创始人公告",
     "url": "https://labelbox.com/blog/labelbox-series-e/"
    }
-  ]
+  ],
+  "reading_lead": "算力基础设施融资活跃，年度累计金额与当次融资需要分开观察。",
+  "lead_evidence": "算苗多轮公告父事件；年度累计不计本次金额"
  },
  "2026-10-19-ai4s": {
   "title": "AI4S与虚拟细胞：实验入口、交付与融资核验",
@@ -4389,7 +4429,9 @@
     "title": "芝加哥大学：AI+Science大会正式日程",
     "url": "https://datascience.uchicago.edu/research/ai-science/partnerships/pritzker-aiscience-joint-initiative-with-caltech/the-uchicago-and-caltech-aiscience-conference-2026/"
    }
-  ]
+  ],
+  "reading_lead": "科学智能公司的融资披露提供了线索，实际交付进度仍要回到具体项目。",
+  "lead_evidence": "高维医药资本披露"
  },
  "2026-10-19-embodied-intelligence": {
   "title": "具身智能投资周报｜从演示走向可验收交付",
@@ -4657,7 +4699,9 @@
     "title": "仓库",
     "url": "https://github.com/Roboparty/RP1"
    }
-  ]
+  ],
+  "reading_lead": "具身研究尝试用世界模型辅助机器人决策，客户验收仍是另一道门槛。",
+  "lead_evidence": "优必选Thinker-WM论文"
  },
  "2026-10-19-rsi": {
   "title": "RSI投资周报：验证闭环、资本披露与真实完成",
@@ -4861,7 +4905,9 @@
     "title": "The Self-Improvement Problem论文",
     "url": "https://arxiv.org/abs/2610.21646"
    }
-  ]
+  ],
+  "reading_lead": "物理系统的自我改进路线吸引融资，真实完成率和总成本仍待验证。",
+  "lead_evidence": "NEXFORM Physical RSI路线与融资声明"
  },
  "2026-10-19-world-model": {
   "title": "World Model投资周报｜2026年10月12日至18日",
@@ -5005,7 +5051,9 @@
     "title": "项目页",
     "url": "https://helloworld-4d.github.io/"
    }
-  ]
+  ],
+  "reading_lead": "可交互世界生成工具出现更新，规划效果需要用闭环任务衡量。",
+  "lead_evidence": "Matrix-Game4.0发布"
  },
  "2026-10-12-ai-applications": {
   "title": "AI应用投资周报 2026年10月5日至11日",
@@ -5257,7 +5305,9 @@
     "title": "10月12日资讯整理 含10月9日TypeSafe旧事件",
     "url": "https://aiproducthub.cn/newsflash/2026-10-12/"
    }
-  ]
+  ],
+  "reading_lead": "生活服务助手走进真实缴费流程，支付入口之后还要看完成率和复用。",
+  "lead_evidence": "豆包生活缴费灰度出现真实交易链路"
  },
  "2026-10-12-ai-infra": {
   "title": "AI Infra 投资周报｜从算力供给到有效交付",
@@ -5561,7 +5611,9 @@
     "title": "达摩财经：壁仞配售报道",
     "url": "https://cj.sina.com.cn/articles/view/6471404684/181b9cc8c01902stbk"
    }
-  ]
+  ],
+  "reading_lead": "国产 GPU 企业披露量产备货计划，附条件配售仍需跟踪交割。",
+  "lead_evidence": "壁仞条件配售及量产备货计划"
  },
  "2026-10-12-ai4s": {
   "title": "AI for Science 与虚拟细胞投资周报 2026年10月12日",
@@ -5921,7 +5973,9 @@
     "title": "ScienceClaw论文全文与机构",
     "url": "https://arxiv.org/html/2610.08691v1"
    }
-  ]
+  ],
+  "reading_lead": "药物研发平台获得种子轮融资，模型泛化和实验反馈仍是研究重点。",
+  "lead_evidence": "利太智药 LigIT 种子轮 近5000万元"
  },
  "2026-10-12-embodied-intelligence": {
   "title": "具身智能投资周报｜2026年10月5日至11日",
@@ -6321,7 +6375,9 @@
     "title": "新京报：机器人融资及商业化报道中的卫澜深海线索",
     "url": "https://finance.eastmoney.com/a/202610103891996722.html"
    }
-  ]
+  ],
+  "reading_lead": "视频预测开始用于机器人动作建模，仿真结果与真机表现需要分开读。",
+  "lead_evidence": "VPP2：视频预测向动作模型迁移"
  },
  "2026-10-12-rsi": {
   "title": "RSI 投资研究周报｜2026-10-12",
@@ -6681,7 +6737,9 @@
     "title": "OpenRSI Index 官方项目页",
     "url": "https://index.openrsi.foundation/"
    }
-  ]
+  ],
+  "reading_lead": "研究团队开始记录模型更新过程，多轮持续改进仍须通过独立验证。",
+  "lead_evidence": "ReSI安全研究与模型更新闭环"
  },
  "2026-10-12-world-model": {
   "title": "世界模型投资周报｜2026-10-12",
@@ -7001,7 +7059,9 @@
     "title": "主办方赛题页",
     "url": "https://www.aicompetition-pz.com/topic_detail/53"
    }
-  ]
+  ],
+  "reading_lead": "动作忠实度成为世界模型的评估重点，画面连贯只是其中一项观察。",
+  "lead_evidence": "DreamTrue以校准和反事实后训练改善动作忠实度"
  },
  "2026-10-05-ai-applications": {
   "title": "AI应用 VC周报｜2026-10-05",
@@ -7157,7 +7217,9 @@
     "title": "认证厂商展位 9/29 融资标题",
     "url": "https://www.instrument.com.cn/netshow/SH103966/"
    }
-  ]
+  ],
+  "reading_lead": "个人助手开始争夺任务入口，商业价值要看进入工作流后的持续使用。",
+  "lead_evidence": "Manus 2.0与Cue发布"
  },
  "2026-10-05-ai-infra": {
   "title": "AI Infra VC周报｜2026-10-05",
@@ -7377,7 +7439,9 @@
     "title": "董事会决议公告",
     "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12624308&stockid=301382"
    }
-  ]
+  ],
+  "reading_lead": "模型退役安排让迁移成本变得具体，用户还要核对上线时间和故障责任。",
+  "lead_evidence": "DeepSeek-V4-Flash 0731退役安排"
  },
  "2026-10-05-ai4s": {
   "title": "AI for Science × 虚拟细胞投资周报",
@@ -7501,7 +7565,9 @@
     "title": "PR Newswire",
     "url": "https://www.prnewswire.com/news-releases/abbvie-partners-with-valkai-to-apply-advanced-ai-across-targeted-areas-of-clinical-development-302890641.html?utm_source=chatgpt.com"
    }
-  ]
+  ],
+  "reading_lead": "监管试点为新型生物模型打开验证入口。本期为历史导入，未经本次独立复核。",
+  "lead_evidence": "CDE 正式发布 NAMs“先锋计划”"
  },
  "2026-10-05-embodied-intelligence": {
   "title": "具身智能周报｜从展示能力转向可核算的工作流",
@@ -7781,7 +7847,9 @@
     "title": "投资方公告",
     "url": "https://www.investegate.co.uk/index.php/announcement/rns/seed-innovations-limited--seed/investee-company-update-feather-robotics-inc-/9792430"
    }
-  ]
+  ],
+  "reading_lead": "机器人开始演示更长的任务，连续多班次运行的可靠性仍待验证。",
+  "lead_evidence": "Dyna-2.1/Taku：从单任务到一小时流程"
  },
  "2026-10-05-rsi": {
   "title": "RSI 投资研究周报",
@@ -7917,7 +7985,9 @@
     "title": "Founder Park转载",
     "url": "https://www.geekpark.net/news/371141"
    }
-  ]
+  ],
+  "reading_lead": "科研流程的记录和独立评估在改善，持续自主改进仍缺跨代证据。",
+  "lead_evidence": "RSI-Master将后训练实验纳入可追踪研究流程"
  },
  "2026-10-05-world-model": {
   "title": "世界模型投资研究周报",
@@ -8121,6 +8191,8 @@
     "title": "戴盟官方LinkedIn",
     "url": "https://cn.linkedin.com/company/daimonrobotics"
    }
-  ]
+  ],
+  "reading_lead": "研究开始直接预测策略所需的表征，以检验世界模型对决策的实际帮助。",
+  "lead_evidence": "Token-World直接预测策略输入表征"
  }
 }
