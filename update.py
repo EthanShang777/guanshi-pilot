@@ -102,31 +102,61 @@ def link(url, label):
     return f'<a href="{html.escape(url,quote=True)}">{html.escape(label)}</a>'
 
 def render(events):
+    from itertools import groupby
+
     css = Path('site.css').read_text()
-    def page(path,title,section,content):
-        nav=''.join(link(url,label) for url,label in [('index.html','融资事件'),('companies.html','公司档案'),('institutions.html','机构档案')])
-        nav=nav.replace('<a ','<a class="topic-button" ')
-        Path(path).write_text(f'<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(title)} · 观势</title><style>{css}\n.report-card{{margin:16px 0}}.card-bottom{{gap:12px}}</style><body><aside class="sidebar"><a class="brand" href="index.html"><span class="brandmark">观</span>观势</a><nav>{nav}</nav></aside><main><header class="topbar"><div><span class="eyebrow">{section}</span><h1>{html.escape(title)}</h1></div></header>{content}</main></body></html>')
-    def card(e):
-        return '<article class="report-card"><small>投中网披露 · '+e['day']+'</small><h3>'+link(event_url(e),e['title'])+'</h3></article>'
-    ordered=sorted(events,key=lambda e:(e['day'],e['id']),reverse=True)
-    page('index.html','融资时间线','融资事件',''.join(map(card,ordered)))
+    nav_items = [('index.html','融资事件'), ('companies.html','公司档案'), ('institutions.html','机构档案')]
+
+    def page(path, title, section, content, *, meta='', cover=False):
+        nav = ''.join(
+            f'<a href="{url}"' + (' aria-current="location"' if label == section else '') + f'>{label}</a>'
+            for url,label in nav_items
+        )
+        engraving = ''.join(f'<i style="--n:{n}"></i>' for n in range(14))
+        art = f'<div class="engraving" aria-hidden="true">{engraving}</div>' if cover else ''
+        caption = f'<p>{html.escape(meta)}</p>' if meta else ''
+        Path(path).write_text(f'''<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{html.escape(title)} · 观势</title><style>{css}</style></head>
+<body><header class="top"><a class="brand" href="index.html"><span class="mark" aria-hidden="true">观</span>观势</a>
+<nav aria-label="栏目">{nav}</nav></header>
+<main><header class="hero {'cover' if cover else ''}">{caption}<h1>{html.escape(title)}</h1>{art}</header>
+{content}</main></body></html>''')
+
+    def timeline(items):
+        sections = []
+        for day, entries in groupby(items, key=lambda e:e['day']):
+            stamp = date.fromisoformat(day)
+            rows = ''.join('<article class="entry"><h3>'+link(event_url(e),e['title'])+'</h3></article>' for e in entries)
+            sections.append(f'<section class="day"><h2><time datetime="{day}"><small>{stamp.year}</small>{stamp:%m.%d}</time></h2><div>{rows}</div></section>')
+        return ''.join(sections)
+
+    ordered = sorted(events,key=lambda e:(e['day'],e['id']),reverse=True)
+    page('index.html','融资时间线','融资事件',timeline(ordered),cover=True)
     for e in ordered:
-        company=link(filename('company',e['company']),e['company'])
-        parties='、'.join(link(filename('institution',n),n) for n in e['investors'])
-        note = '本次披露金额为 B 轮首次交割金额。' if e.get('first_close') else ''
-        if e['id']=='seed': note='独家财务顾问为微纳资本。资金用于推进核心管线临床试验和研究者发起的临床研究。'
-        sources=' · '.join(link(u,'投中网原文' if i==0 else '相关披露') for i,u in enumerate(e['sources']))
-        page(event_url(e),e['title'],'融资详情',f'<article class="report-card"><small>披露于 {e["day"]}</small><p>融资公司　{company}</p><p>已识别投资方　{parties or "见原文"}</p><p>{note}</p><div class="card-bottom">{sources}</div></article>')
+        fields = [('融资公司',link(filename('company',e['company']),e['company'])),
+                  ('投资方','、'.join(link(filename('institution',n),n) for n in e['investors']) or '见原文')]
+        if e.get('first_close'):
+            fields.append(('金额口径','本次披露金额为本轮首次交割金额。'))
+        if e['id']=='seed':
+            fields.append(('融资用途','资金用于推进核心管线临床试验和研究者发起的临床研究。'))
+            fields.append(('财务顾问','微纳资本（独家）'))
+        fields.append(('资料来源',' · '.join(link(u,'投中网原文' if i==0 else '相关披露') for i,u in enumerate(e['sources']))))
+        facts = ''.join(f'<div><dt>{label}</dt><dd>{value}</dd></div>' for label,value in fields)
+        page(event_url(e),e['title'],'融资事件','<dl class="details">'+facts+'</dl>',meta=e['day']+'  投中网披露')
+
     for kind,label,index in [('company','公司档案','companies.html'),('institution','机构档案','institutions.html')]:
-        groups={}
+        groups = {}
         for e in ordered:
             for name in ([e['company']] if kind=='company' else e['investors']):
                 groups.setdefault(name,[]).append(e)
-        page(index,label,'观势',''.join('<article class="report-card">'+link(filename(kind,n),n)+'</article>' for n in groups))
+        directory = ''.join(link(filename(kind,n),n) for n in groups)
+        page(index,label,label,'<div class="directory">'+directory+'</div>',cover=True)
         for name,items in groups.items():
-            desc={'三有利康':'北京三有利康细胞科技有限公司成立于 2021 年，研发精准亚型间充质干细胞药物。','烟台生命岛':'投中网披露的三有利康 Pre-A 轮投资方。'}.get(name,'')
-            page(filename(kind,name),name,label,'<p>'+desc+'</p>'+''.join(map(card,items)))
+            desc = {'三有利康':'北京三有利康细胞科技有限公司成立于 2021 年，研发精准亚型间充质干细胞药物。',
+                    '烟台生命岛':'投中网披露的三有利康 Pre-A 轮投资方。'}.get(name,'')
+            intro = '<p class="intro">'+desc+'</p>' if desc else ''
+            page(filename(kind,name),name,label,intro+timeline(items),meta=label)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
