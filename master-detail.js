@@ -23,6 +23,8 @@
       if(!row.parties.length)parties.append(el('p','未列明'));root.append(parties);
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
       for(const url of row.sources){const p=el('p','');p.append(link(url,'来源 · '+new URL(url).hostname));root.append(p);}
+    }else if(kind==='company'){
+      root.append(el('p',[row.location,row.sector].filter(Boolean).join(' · ')),el('h2','融资历程 · '+row.events.length+' 笔'),companyHistory.timeline(row));
     }else{
       root.append(el('h2',(kind==='company'?'融资历程':'投资记录')+' · '+row.events.length+' 笔'));
       for(const [url,company,day,stage,amount] of row.events){

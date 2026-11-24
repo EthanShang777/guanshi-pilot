@@ -26,8 +26,8 @@ def token(value):
 
 def page(path,title,section,content,*,meta='',cover=False):
     nav=''.join('<a href="'+u+'"'+(' aria-current="location"' if label==section else '')+'>'+label+'</a>' for u,label in NAV)
-    search=BAR if path!='landscape.html' else ''
-    if path!='landscape.html' and 'class="arc-track"' not in content:
+    search=BAR if path not in ('landscape.html','companies.html') else ''
+    if path not in ('landscape.html','companies.html','company.html') and 'class="arc-track"' not in content:
         component=DECKS.get(section,'')
         # A shared fragment for secondary pages keeps the publication compact.
         if component:content+='<div data-shelf="'+component+'"></div>'
@@ -35,7 +35,7 @@ def page(path,title,section,content,*,meta='',cover=False):
     (OUT/path).write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
         '<title>'+esc(title)+' · 观势</title><style>'+CSS+'</style><header class="top"><a class="brand" href="index.html">观势</a>'
         '<nav aria-label="栏目">'+nav+'</nav></header><main><header class="hero"><h1>'+esc(title)+'</h1>'+
-        ('<p>'+esc(meta)+'</p>' if meta else '')+'</header>'+search+content+'</main>'+
+        ('<p>'+esc(meta)+'</p>' if meta else '')+'</header>'+search+('<script src="company-history.js"></script>' if path in ('companies.html','company.html') else '')+content+'</main>'+
         ('<script src="within-page.js"></script>' if search else '')+('<script src="load-shelf.js"></script>' if 'data-shelf=' in content else '<script src="shelf.js"></script>')+'</html>')
 
 def redirect(path,url):
@@ -88,7 +88,7 @@ def list_pages(base,title,section,items,make_row,first=''):
 def build(rows):
     OUT.mkdir(exist_ok=True)
     data=OUT/'records';data.mkdir(exist_ok=True)
-    for asset in ('within-page.js','shelf.js','atlas.css','atlas.js','master-detail.js','master-search.js','load-shelf.js'):
+    for asset in ('within-page.js','shelf.js','atlas.css','atlas.js','master-detail.js','master-search.js','load-shelf.js','company-browser.js','company-history.js'):
         shutil.copyfile(asset,OUT/asset)
     locations=json.loads(Path('country-locations.json').read_text())
     live=json.loads(Path('ledger.json').read_text())['events']
@@ -159,9 +159,16 @@ def build(rows):
             items=entity_row['events']
             for sector in dict.fromkeys(d['sector'] for d in items):by_sector[sector].append(entity_row)
             parts[k[:2]][k]={'name':entity_row['name'],'events':[[d['href'],d['company'],d['day'],d['stage'],d['amount']] for d in items]}
+            if kind=='company':
+                parts[k[:2]][k].update(location=items[0]['location'],sector=items[0]['sub'] or items[0]['sector'],
+                    events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources']] for d in items])
             old=filename(kind,entity_row['name'])
             if Path(old).exists() and (kind=='institution' or len(names[entity_row['name']])==1):legacy[old]=entity_row['href']
         for prefix,part in parts.items():dump(data/(kind+'-'+prefix+'.json'),part)
+        if kind=='company':
+            from company_directory import build_directory
+            build_directory(entities,by_sector,data,OUT,page,dump,link,redirect,sector_url)
+            continue
         def entry(e):return '<div class="directory-row">'+link(e['href'],e['name'])+f'<small>{len(e["events"])} 笔融资</small></div>'
         directory=sorted(entities.values(),key=lambda e:(-len(e['events']),e['name']))
         list_pages(index,section,section,directory,entry,(link('research-companies.html','公司研究库与同行对照 →') if kind=='company' else '')+link('search.html','检索全部融资 →')+deck(section,Counter({s:len(v) for s,v in by_sector.items()})))
