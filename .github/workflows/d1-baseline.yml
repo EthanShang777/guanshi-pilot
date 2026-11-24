@@ -1,0 +1,35 @@
+name: Financing master baseline
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        required: true
+        type: choice
+        options: [prepare, import, verify]
+      recipient:
+        type: string
+      filename:
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: daily-financing
+  cancel-in-progress: false
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 d1.py
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          MODE: ${{ inputs.mode }}
+          RECIPIENT: ${{ inputs.recipient }}
+          FILENAME: ${{ inputs.filename }}
+      - uses: actions/upload-artifact@v4
+        if: inputs.mode == 'prepare'
+        with:
+          name: transfer
+          path: transfer.bin
+          retention-days: 1
