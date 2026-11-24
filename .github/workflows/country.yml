@@ -1,0 +1,18 @@
+name: Verify registration jurisdictions
+on: workflow_dispatch
+permissions:
+  contents: read
+concurrency:
+  group: daily-financing
+  cancel-in-progress: false
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: python enrich_country.py
+        env:
+          ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          GLEIF: 'yes'
