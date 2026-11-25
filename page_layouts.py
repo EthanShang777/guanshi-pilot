@@ -29,7 +29,7 @@ def publish(out, deals):
                     '</small></div><b>'+escape(' · '.join(filter(None,[d['stage'],d['amount']])))+'</b><span>'+escape('、'.join(d['investors']))+'</span></li>')
         html=re.sub(r'<li><div><a href="(deal\.html\?id=[\da-f]+)">.*?</li>',item,html,flags=re.S)
         header=re.search(r'<p class="search-entry">.*?</p>',html)
-        if header:
+        if header and header.start()>html.index('</header>',html.index('<main>')):
             html=html.replace(header[0],'').replace('</h1>','</h1>'+header[0],1)
         write(path,html)
     for path in out.glob('institutions*.html'):
@@ -39,7 +39,7 @@ def publish(out, deals):
             if key not in lookup:return m[0]
             name,n,company,sector,url,day=lookup[key]
             return ('<div class="inst-line">'+link('institution.html?id='+key,name)+'<span>'+escape(sector or '')+'</span>'+
-                    link(company+' · '+(day or '日期未列明'),url)+f'<small>{n} 笔</small></div>')
+                    link(url,company+' · '+(day or '日期未列明'))+f'<small>{n} 笔</small></div>')
         html,n=re.subn(r'<div class="directory-row"><a href="institution\.html\?id=([a-f0-9]+)">.*?</div>',institution,html)
         if n:
             tools='<form class="inst-search"><input type="search" required aria-label="机构名称" placeholder="搜索全部机构"><button>搜索</button></form><div id="inst-hits" aria-live="polite"></div><script defer src="directory-search.js"></script>'
@@ -57,8 +57,9 @@ def publish(out, deals):
         return ('<section class="edition"><header><small>'+date+' · 本期主读</small><h2>'+link(lead[0],lead[1])+'</h2>'+
                 ('<p>'+paragraph[1]+'</p>' if paragraph else '')+'</header><div><h3>同一期研究</h3>'+
                 ''.join('<p>'+link(url,title)+'</p>' for url,title in entries if url!=lead[0])+'</div></section>')
-    html=re.sub(r'<section class="profile-records"><h2>(.*?)</h2>(.*?)</section>',edition,html,count=1,flags=re.S)
-    write(path,html.replace('<div class="profile-directory">','<div class="topic-strip">',1))
+    if 'class="edition"' not in html:
+        html=re.sub(r'<section class="profile-records"><h2>(.*?)</h2>(.*?)</section>',edition,html,count=1,flags=re.S)
+        write(path,html.replace('<div class="profile-directory">','<div class="topic-strip">',1))
     path=out/'changes.html';html=path.read_text()
     pattern=r'<article class="deal"><h3>(.*?)</h3><small>(.*?)</small><p class="review-result">(.*?)</p>(.*?)<details class="research-node"><summary>(.*?)</summary>(.*?)</details></article>'
     seen=defaultdict(list)
@@ -77,5 +78,6 @@ def publish(out, deals):
     write(path,html)
     for name in ('index','search','institutions','reports','changes'):
         path=out/(name+'.html');html=path.read_text()
+        if 'class="page-find"' in html: continue
         html=re.sub(r'(<div id="local-find".*?</div>)',r'<details class="page-find"><summary>页内查找</summary>\1</details>',html,count=1,flags=re.S)
         write(path,html)
