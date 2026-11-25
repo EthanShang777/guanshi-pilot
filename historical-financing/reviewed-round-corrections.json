@@ -2286,5 +2286,37 @@
       "amount": "数百万元人民币",
       "investors_json": "[{\"name\":\"杭州藕舫紫泉创业投资合伙企业（有限合伙）\",\"role\":\"独家投资\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:bfaf4a336d2aa35b70f3dfafc55c169bd11793b8420e9696cc8f088da98ae2d4",
+    "company_id": "co:full_legal_name:b75500d2f696144170d29018a9366010",
+    "day": "2022-05-23",
+    "source": "https://www.qcc.com/firm/436c039fdd6e50e7fc3af7d5fdfbfb92.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"浙大友创\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"杭州图讯友创安众创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:1475a42e57ef34366092fe35c4343cc656e856be14195413f167da765431e353",
+    "company_id": "co:full_legal_name:116a60cee78ca5df6dad3bbb286efb1b",
+    "day": "2022-01-05",
+    "source": "https://www.vbdata.cn/53641",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"元生创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"浙大创新院\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"邦明资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"星空资本\",\"role\":null,\"amount\":null},{\"name\":\"杭州加承\",\"role\":null,\"amount\":null},{\"name\":\"浙大友创\",\"role\":null,\"amount\":null},{\"name\":\"祥榕投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"苏州工业园区新建元三期创业投资企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"海宁启真毓金创业投资合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"扬州龙川产业转型升级投资中心（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"星空资本\",\"role\":null,\"amount\":null},{\"name\":\"杭州加承\",\"role\":null,\"amount\":null},{\"name\":\"上海芮昱创业投资中心（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
