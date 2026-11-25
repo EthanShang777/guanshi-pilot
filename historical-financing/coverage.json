@@ -858,6 +858,63 @@
         }
       ],
       "notes": "汇耀美能报告注明嘉兴主体，采用1.4亿元全轮金额。阿凡提保留A系列和年月精度。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第139–157项中的待核条目、第161、561、565、566项",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://en.prnasia.com/releases/global/konst-raises-30m-series-b-funding-led-by-adata-technology-to-scale-up-ai-data-center-buildout-in-asia-and-advance-its-token-factory-strategy-551131.shtml",
+        "https://www.businesswire.com/news/home/20261022672609/en/",
+        "https://www.prnewswire.com/news-releases/stimcardio-closes-oversubscribed-30-million-series-a-financing-to-advance-wearable-therapeutic-for-atrial-fibrillation-302922985.html",
+        "https://www.redalpine.com/post/welcome-to-our-october-newsletter-3",
+        "https://www.prnewswire.com/news-releases/vera-health-quietly-became-one-of-the-worlds-most-used-clinical-tools-now-it-has-raised-32-million-to-give-every-clinician-in-the-world-the-best-medical-knowledge-in-seconds-302920905.html",
+        "https://www.useflai.com/blog/flai-series-a-base10",
+        "https://truelayer.com/newsroom/announcements/italys-cdp-venture-capital-invests-in-truelayer/",
+        "https://shorefire.com/releases/entry/hive-secures-27-million-investment-from-frontier-growth-to-scale-marketing-platform-built-for-live-events",
+        "https://phononic-vibes.com/news/phononic-vibes-raises-25-million-led-by-jolt-capital/",
+        "https://www.prnewswire.com/news-releases/slingshot-insurance-emerges-from-stealth-with-27-million-seed-investment-to-build-ai-native-infrastructure-for-embedded-insurance-302914508.html",
+        "https://www.globenewswire.com/news-release/2026/10/06/3375572/0/en/melius-raises-25-million-for-the-first-agents-lab-for-creative-work.html",
+        "https://www.globenewswire.com/news-release/2026/10/06/3375572/0/en/melius-raises-25-million-for-the-first-agents-lab-for-creative-work.html",
+        "https://www.prnewswire.com/news-releases/wally-raises-25-million-to-scale-nations-fastest-growing-oral-care-membership-with-unlimited-cleanings--diagnostics-302901486.html",
+        "https://www.oscp.com/news/oscp-closes-series-financing-led-new-science-ventures",
+        "https://bioora.com/our-stories/bioora-signs-definitive-licence-for-wztl-002-and-announces-nz30-million-first-close-of-series-a2",
+        "https://finance.sina.com.cn/stock/t/2026-09-23/doc-inisusym1351491.shtml",
+        "https://www.calcalistech.com/ctechnews/article/hyphxqkqmg"
+      ],
+      "candidate_count": 15,
+      "existing_count": 4,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-14.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 668,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "DATA Network",
+          "reason": "拟投资，交割和出资形式待核。"
+        }
+      ],
+      "notes": "Awayday为股东流动性交易。Melius拆两轮，BioOra仅首关认购承诺。达卯及HyperGuest首发9月。柏垠A+单轮金额校正。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "从达晨创程和毅达出资记录反查博测达挂牌法律意见书及验资",
+      "sources": [
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605081822071057&pageIndex=22",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202602121819897635&pageIndex=21",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202602121819897635&pageIndex=20"
+      ],
+      "candidate_count": 1,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-14.csv",
+      "notes": "验资确认博测达1.54亿元实收。同期老股与资本公积转增分开。"
     }
   ]
 }

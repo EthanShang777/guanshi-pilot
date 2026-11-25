@@ -7,5 +7,14 @@
     "source": "https://pidg.org/agritech-platform-east-africa-foods-raises-usd-40-million-to-scale-africas-physical-and-digital-food-supply-chain-infrastructure/",
     "expected": "USD 17,000,000",
     "amount": "2,600万美元"
+  },
+  {
+    "event_id": "financing_event:ef90130302ef530cd7ef3f6894b9e547f50c0cec00fdb7f16ea8a1235a97a1dd",
+    "company_id": "co:full_legal_name:42e89c5c8665e990ba1d3f4d816d358d",
+    "day": "2026-10-22",
+    "round": "A+轮",
+    "source": "https://www.broadbright.com/more/media-info.html?id=4136",
+    "expected": "2亿人民币",
+    "amount": "未单独披露"
   }
 ]
