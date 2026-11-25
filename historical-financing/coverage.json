@@ -2361,6 +2361,31 @@
         "catalog_unreviewed_after_stage": 72
       },
       "notes": "确认了分别披露的十月及旧融资，调整5条融资金额及1条轮次和具名资方。阿凡提早期两轮留待公司或资方独立披露。"
+    },
+    {
+      "institution": "公开十月交易目录及出资方披露复核",
+      "checked_on": "2026-11-25",
+      "scope": "核完目录另32条，以公司、财务顾问、投资机构和上市公司公告核对历史关联。",
+      "sources": [
+        "https://www.donews.com/news/detail/4/6744911.html",
+        "https://static.cninfo.com.cn/finalpage/2026-10-26/1225619663.PDF",
+        "https://finance.sina.cn/tech/2026-10-13/detail-inivawnc8012527.d.html?vt=4",
+        "https://www.cnstock.com/commonDetail/805219",
+        "https://www.neolix.ai/zh/news/d-round-funding/",
+        "https://www.thecapital.com.cn/news/detail/125271",
+        "https://news.pedaily.cn/202610/570306.shtml",
+        "https://press.velotricbike.com/224776-fast-growing-e-bike-company-velotric-raises-7-4m-usd-series-a/"
+      ],
+      "candidate_count": 2,
+      "existing_count": 28,
+      "pending_count": 2,
+      "batch": "2026-11-25-koocool-october-03.csv",
+      "screening": {
+        "catalog_total": 117,
+        "reviewed_total_after_stage": 77,
+        "catalog_unreviewed_after_stage": 40
+      },
+      "notes": "核实两笔新的十月事件，纠正四笔金额及一笔轮次。两条待获取明确交割或发行证据。"
     }
   ]
 }

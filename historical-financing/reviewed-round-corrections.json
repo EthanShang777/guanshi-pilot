@@ -142,5 +142,21 @@
       "amount": "数千万人民币",
       "investors_json": "[{\"name\":\"上海知识产权基金\",\"role\":null,\"amount\":null},{\"name\":\"芯能创投\",\"role\":null,\"amount\":null},{\"name\":\"江苏金桥基金\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:97516e156826d7fb262a971f267e4ccf6363952c8ae3d9b1f4f5b4affd38b560",
+    "company_id": "co:full_legal_name:1da181db43687bb83c472b94a81ea885",
+    "day": "2026-10-17",
+    "source": "https://www.thecapital.com.cn/news/detail/125271",
+    "expected": {
+      "round": "C轮",
+      "amount": "超亿元人民币",
+      "investors_json": "[{\"name\":\"仓廪投资\",\"role\":null,\"amount\":null},{\"name\":\"诸暨产业投资集团有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C1轮",
+      "amount": "超亿元人民币",
+      "investors_json": "[{\"name\":\"仓廪投资\",\"role\":null,\"amount\":null},{\"name\":\"诸暨产业投资集团有限公司\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

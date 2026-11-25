@@ -97,5 +97,41 @@
     "source": "https://news.pedaily.cn/202610/571101.shtml",
     "expected": "数千万元",
     "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:cb1139dd028d24d683f9ecbcd3ead81581e54f75def9a2f64121fcef5563be5b",
+    "company_id": "co:full_legal_name:604c74709334cfa24b3e57b5660d5f14",
+    "day": "2026-10-20",
+    "round": "E轮",
+    "source": "https://www.cnstock.com/commonDetail/805219",
+    "expected": "",
+    "amount": "近4亿美元"
+  },
+  {
+    "event_id": "financing_event:1756c2c82a47069d181d578fd10978a7c458d4430be7066553a387057d78b8fb",
+    "company_id": "co:full_legal_name:604c74709334cfa24b3e57b5660d5f14",
+    "day": "2025-10-23",
+    "round": "D轮",
+    "source": "https://www.neolix.ai/zh/news/d-round-funding/",
+    "expected": "",
+    "amount": "超6亿美元"
+  },
+  {
+    "event_id": "financing_event:bbc38ea92545c852b19d2c6a2c10bf9bfbd98b3f9f21ba4ae0e96a52bb1d7a15",
+    "company_id": "co:full_legal_name:f88fb3abb98f52242b75725992a12726",
+    "day": "2026-10-10",
+    "round": "C+轮",
+    "source": "https://finance.eastmoney.com/a/202610163898115542.html",
+    "expected": "未披露",
+    "amount": "数亿元人民币"
+  },
+  {
+    "event_id": "financing_event:ad7aae00867a7978e9bc6d85371dc6b55c6cf6ec2df0480ceb025bb32781fa85",
+    "company_id": "co:full_legal_name:c020502c4a91e0daa0c30c0b0833deed",
+    "day": "2026-10-15",
+    "round": "天使+轮",
+    "source": "https://news.pedaily.cn/202610/570306.shtml",
+    "expected": "数千万人民币",
+    "amount": "未披露"
   }
 ]
