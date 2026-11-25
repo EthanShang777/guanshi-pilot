@@ -1694,5 +1694,85 @@
       "amount": "超2亿人民币",
       "investors_json": "[{\"name\":\"兴证投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"德阳经开创元基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"成都金牛交子基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"长沙城发基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广西桂芯\",\"role\":\"跟投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:84bc0aa871c8f7639418082902596bb0e7015fb22e842a916285da526d20b4ea",
+    "company_id": "co:full_legal_name:73424822d4b99926491175a89114498c",
+    "day": "2026-10-16",
+    "source": "https://finance.eastmoney.com/a/202610163898752948.html",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"元航资本\",\"role\":null,\"amount\":null},{\"name\":\"华山资本WestsummitCapital\",\"role\":null,\"amount\":null},{\"name\":\"南山战新投\",\"role\":null,\"amount\":null},{\"name\":\"水木创投\",\"role\":null,\"amount\":null},{\"name\":\"浦东创投集团\",\"role\":null,\"amount\":null},{\"name\":\"猎道投资\",\"role\":null,\"amount\":null},{\"name\":\"钧源资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"猎道投资\",\"role\":null,\"amount\":null},{\"name\":\"华山资本\",\"role\":null,\"amount\":null},{\"name\":\"元航资本\",\"role\":null,\"amount\":null},{\"name\":\"浦东创投集团\",\"role\":null,\"amount\":null},{\"name\":\"钧源资本\",\"role\":null,\"amount\":null},{\"name\":\"南山战新投\",\"role\":null,\"amount\":null},{\"name\":\"水木创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:e0971a7f9556fc0fe6fbb6d5baf6d3a68b2fc5a6f1d464440c547e85e3452ae0",
+    "company_id": "co:full_legal_name:c9dbeb105c5c64515eeed6175461942a",
+    "day": "2026-10-18",
+    "source": "https://www.thepaper.cn/newsDetail_forward_34299571",
+    "expected": {
+      "round": "D轮",
+      "amount": "近10亿人民币",
+      "investors_json": "[{\"name\":\"美团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国联民生资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"清流资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"苏产投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国联民生证券\",\"role\":null,\"amount\":null},{\"name\":\"永鑫方舟\",\"role\":null,\"amount\":null},{\"name\":\"美团战略投资部\",\"role\":null,\"amount\":null},{\"name\":\"美团龙珠\",\"role\":null,\"amount\":null},{\"name\":\"苏创投\",\"role\":null,\"amount\":null},{\"name\":\"苏高新创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "未单独披露",
+      "investors_json": "[{\"name\":\"美团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国联民生资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"清流资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"苏产投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国联民生证券\",\"role\":null,\"amount\":null},{\"name\":\"永鑫方舟\",\"role\":null,\"amount\":null},{\"name\":\"美团战略投资部\",\"role\":null,\"amount\":null},{\"name\":\"美团龙珠\",\"role\":null,\"amount\":null},{\"name\":\"苏创投\",\"role\":null,\"amount\":null},{\"name\":\"苏高新创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:497edd3ab67cb9fdf1179ad755048508ce793e5dffb59d2063882afbd75d5459",
+    "company_id": "co:full_legal_name:31ce8f7e6b23c4e4f23c071bf551d84d",
+    "day": "2026-10-22",
+    "source": "https://finance.eastmoney.com/a/202610223904458540.html",
+    "expected": {
+      "round": "B轮",
+      "amount": "17亿人民币",
+      "investors_json": "[{\"name\":\"朗玛峰创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "未单独披露",
+      "investors_json": "[{\"name\":\"朗玛峰创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:78159ff2fe670086860751da3c97c8af35a98f1e10ea8e028c6f4604c4fb36c5",
+    "company_id": "co:full_legal_name:c9dbeb105c5c64515eeed6175461942a",
+    "day": "2026-10-16",
+    "source": "https://www.thepaper.cn/newsDetail_forward_34299571",
+    "expected": {
+      "round": "D轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"美团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "未单独披露",
+      "investors_json": "[{\"name\":\"美团\",\"role\":\"领投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:88d52632c8187c38426b48e3988e41ff2390d17a94498e6fac1a967941ee4c83",
+    "company_id": "co:full_legal_name:c9dbeb105c5c64515eeed6175461942a",
+    "day": "2026-10-16",
+    "source": "https://www.thepaper.cn/newsDetail_forward_34299571",
+    "expected": {
+      "round": "C+轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"美团龙珠\",\"role\":\"领投\",\"amount\":null},{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C+轮",
+      "amount": "未单独披露",
+      "investors_json": "[{\"name\":\"美团龙珠\",\"role\":\"领投\",\"amount\":null}]"
+    }
   }
 ]
