@@ -2772,6 +2772,29 @@
       "pending_count": 2,
       "batch": "2026-11-25-october-public-46.csv",
       "notes": "确认7家公司15笔交易。股权和债务的15亿元合计保留原披露口径。北电集成两条仍需核。若公司直接公告未给轮次，保留股权融资。"
+    },
+    {
+      "institution": "中关村资本",
+      "checked_on": "2026-11-25",
+      "scope": "复核3条创投库候选，并沿2025年集团披露及北京市新材料产业投资基金回查5家被投企业",
+      "sources": [
+        "https://www.qcc.com/investor/337e04fb7ea143b9e8718c9a3c03a9de.html",
+        "https://gu.sina.cn/bd/hq/notice.php?annid=25370562",
+        "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-02-18/688172_20250218_F6QN.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223101394.PDF",
+        "https://finance.sina.com.cn/stock/med/2025-07-24/doc-infhqhut2787056.shtml",
+        "https://www.cytoniche.com/news/796.html",
+        "https://www.taihecap.com/transaction_show-9-1012-3.html",
+        "https://finance.eastmoney.com/a/202512093586383621.html",
+        "https://enpower-energy.com.cn/index.php?c=show&id=43",
+        "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202510/t20251022_4235889.html",
+        "https://bopixel.com/news-detail/1351.html"
+      ],
+      "candidate_count": 11,
+      "existing_count": 5,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-47.csv",
+      "notes": "认缴增资、分期到账、转让登记、累计口径分别核对，不将出资承诺或累计值当作另外一轮。"
     }
   ]
 }

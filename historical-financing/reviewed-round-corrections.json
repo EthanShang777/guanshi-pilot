@@ -526,5 +526,37 @@
       "amount": "过亿人民币",
       "investors_json": "[{\"name\":\"华控基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"BV百度风投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中发展前沿基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中发展启航基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"凯风创投\",\"role\":null,\"amount\":null},{\"name\":\"熔拓资本\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:b6e6b0376d1313766ea1a6ca15cb0c5e987de65991220a15357cb989502610d6",
+    "company_id": "co:full_legal_name:b4b2049a8457cbdc2413bb9298f9a77c",
+    "day": "2025-11-28",
+    "source": "https://enpower-energy.com.cn/index.php?c=show&id=43",
+    "expected": {
+      "round": "B+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"北京市新材料产业投资基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"北京市绿色能源和低碳产业投资基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"北京绿色能源和低碳产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"绿动资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"北京市绿色能源和低碳产业投资基金（有限合伙）\",\"role\":\"战略投资\",\"amount\":null},{\"name\":\"北京市新材料产业投资基金（有限合伙）\",\"role\":\"战略投资\",\"amount\":null},{\"name\":\"绿动资本\",\"role\":\"追加投资\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:eafcb459ccfe39cf2378e69f454a3f8d0d095a1ef58b975dd2575befe71cca39",
+    "company_id": "co:full_legal_name:c265d3ce1a8cb24dc6967fc9b6ac1b5c",
+    "day": "2025-12-09",
+    "source": "https://finance.eastmoney.com/a/202512093586383621.html",
+    "expected": {
+      "round": "B+轮",
+      "amount": "超10亿人民币",
+      "investors_json": "[{\"name\":\"东瑞投资\",\"role\":null,\"amount\":null},{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"交银投资\",\"role\":null,\"amount\":null},{\"name\":\"北京市新材料产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"厚毅资本\",\"role\":null,\"amount\":null},{\"name\":\"可可资本\",\"role\":null,\"amount\":null},{\"name\":\"未来资产\",\"role\":null,\"amount\":null},{\"name\":\"杭州富阳产投\",\"role\":null,\"amount\":null},{\"name\":\"武创投\",\"role\":null,\"amount\":null},{\"name\":\"燕创资本\",\"role\":null,\"amount\":null},{\"name\":\"石溪资本\",\"role\":null,\"amount\":null},{\"name\":\"达晨财智\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "累计超10亿元人民币",
+      "investors_json": "[{\"name\":\"东瑞投资\",\"role\":null,\"amount\":null},{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"交银投资\",\"role\":null,\"amount\":null},{\"name\":\"北京市新材料产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"厚毅资本\",\"role\":null,\"amount\":null},{\"name\":\"可可资本\",\"role\":null,\"amount\":null},{\"name\":\"未来资产\",\"role\":null,\"amount\":null},{\"name\":\"杭州富阳产投\",\"role\":null,\"amount\":null},{\"name\":\"武创投\",\"role\":null,\"amount\":null},{\"name\":\"燕创资本\",\"role\":null,\"amount\":null},{\"name\":\"石溪资本\",\"role\":null,\"amount\":null},{\"name\":\"达晨财智\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
