@@ -1046,6 +1046,86 @@
       "pending_count": 0,
       "batch": "2026-11-25-october-public-16.csv",
       "notes": "中微公司报告书原文确认达晨创程所持公司及直接投资载体，投资界具名交易条目日期为2025-01-30，股权融资金额空。挂牌前同名企业资料不单独用于归并主体。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第209–238项，逐项复核30个候选",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://labs.sigma.software/buntar-aerospace-raises-16m-to-scale-defense-autonomy/",
+        "https://www.estvca.ee/news/iron-wolf-capital-joins-buntar-aerospace-s-usd16-million-funding-round",
+        "https://www.wsgr.com/en/insights/wilson-sonsini-advises-preference-model-on-dollar16-million-seed-funding-as-it-emerges-from-stealth.html",
+        "https://www.prnewswire.com/news-releases/plato-raises-16-million-to-build-the-training-grounds-for-ais-next-leap-into-real-work-302921832.html",
+        "https://www.prnewswire.com/news-releases/mogul-secures-oversubscribed-15-5m-series-a-led-by-draper-associates-to-scale-its-ai-driven-real-estate-investing-platform-302906633.html",
+        "https://consanobio.com/news/",
+        "https://www.ampersand.ai/blog/series-a-integration-infrastructure-for-enterprise-agents",
+        "https://www.prnewswire.com/news-releases/sante-raises-15m-series-a-to-expand-the-first-ai-operating-system-for-wine--spirits-retail-302900251.html",
+        "https://www.bioconsortia.com/news/bioconsortia-raises-15-million-to-accelerate-commercial-launch-of-breakthrough-microbial-technologies",
+        "https://muralpay.com/blog/28-million-raised",
+        "https://www.firstwork.com/post/firstwork-raises-15m-series-a-to-scale-applied-ai-for-frontline-workforce-operations",
+        "https://www.idl.pro/news/www.idl.pro-news-idl-raises-15-million-in-series-a-funding",
+        "https://www.archera.ai/blog/archera-series-c",
+        "https://workinsiders.com/funding/archera/",
+        "https://addisons.com/announcement/addisons-advises-mp-space-on-landmark-23-million-seed-funding-round/",
+        "https://cfotech.com.au/story/mp-space-raises-aud-23-million-seed-funding-round",
+        "https://corp.kaminashi.jp/news/pr_20261021_1",
+        "https://pandektes.com/de/blog/pandektes-13-5m-series-a",
+        "https://denmark.dlapiper.com/en/news/dla-piper-has-advised-pandektes-aps-its-series-funding-round",
+        "https://www.wired.com/story/bridge-neurotech-startup-rival-sam-altman-merge-labs/",
+        "https://fortune.com/2026/10/07/exclusive-portal-ventures-vest-13-million-proprietary-trading-firm-traders-profits/",
+        "https://www.calcalistech.com/ctechnews/article/ryfhzkrofx",
+        "https://finance.yahoo.com/technology/ai/articles/scribeup-raises-13-million-series-130000215.html",
+        "https://www.marketfinancenews.org/article/scribeup-13-million-series-a-agentic-bill-management",
+        "https://reclinker.com/news/",
+        "https://www.sesamers.com/funding/atlas-bio-raises-12-5m-simulate-drug-trials/",
+        "https://www.vcaonline.com/news/2026100504/introducing-safeworld-an-ai-lab-building-systems-to-improve-robot-safety-for-the-next-billion-machines/",
+        "https://mekawire.com/news/safeworld-12-2m-seed-shine-a16z-speedrun-robot-safety-20261005",
+        "https://india.entrepreneur.com/business-news/so-facet-raises-inr-10-cr-seed-round-led-by-sauce",
+        "https://economictimes.indiatimes.com/tech/funding/lab-grown-diamond-startup-so/facet-raises-rs-10-crore-led-by-sauce/articleshow/135049028.cms",
+        "https://www.wamda.com/en/2026/10/saudi-autotech-autobia-raises-12-million-series-a-led-artal-capital",
+        "https://www.lw.com/en/news/2026/10/latham-advises-autobia-on-series-a",
+        "https://fortune.com/2026/10/14/fragment-raises-12-million-to-help-keep-ai-agents-from-going-rogue-with-company-money/",
+        "https://prtimes.jp/main/html/rd/p/000000050.000033437.html",
+        "https://finance.sina.com.cn/tech/roll/2026-10-09/doc-iniuquqp7026602.shtml",
+        "https://www.chinaventure.com.cn/news/108-20261008-393527.html",
+        "https://finance.eastmoney.com/a/202607143805568129.html"
+      ],
+      "candidate_count": 27,
+      "existing_count": 2,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-17.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 593,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Tasklet",
+          "reason": "律师确认Maxitech参与，尚未与候选金额和对应批次对回。"
+        }
+      ],
+      "notes": "26 笔归入10月，Heartbeats首发归九月。Atlas拆同日披露的两轮，剔除ScribeUp未证明提取的债务额度，Modern Classrooms Project为非营利募资。迈联医疗和束研聚创对回旧档，三个事件增补来源。束研聚创的7月旧档金额待核。"
+    },
+    {
+      "institution": "顺为资本",
+      "checked_on": "2026-11-25",
+      "scope": "从公开8月投资回顾反查河络新图、迅路创新、阅星曈，并补阅星曈较早A轮。",
+      "sources": [
+        "https://shunwei.com/news/2804",
+        "https://news.10jqka.com.cn/20260807/c678753729.shtml",
+        "https://shangdaovc.icoc.me/h-nd-14449.html?m49pageno=4",
+        "https://finance.sina.com.cn/stock/t/2026-08-11/doc-inimxmer4309710.shtml",
+        "https://www.donews.com/news/detail/8/6527230.html"
+      ],
+      "candidate_count": 4,
+      "existing_count": 0,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-17.csv",
+      "notes": "阅星曈A轮（追加）为独立交割，先前A轮只获合计额，单轮空。迅路创新本批用公开报道日期，实际年初交割，早期独立轮次尚待逐笔对回。"
     }
   ]
 }
+
