@@ -2795,6 +2795,36 @@
       "pending_count": 3,
       "batch": "2026-11-25-october-public-47.csv",
       "notes": "认缴增资、分期到账、转让登记、累计口径分别核对，不将出资承诺或累计值当作另外一轮。"
+    },
+    {
+      "institution": "十月公开融资线索与企查查股东反查",
+      "checked_on": "2026-11-25",
+      "scope": "以新增后的总表对照投资界月内86条未确认报道。复核多轮一起披露、总额口径与工商异名等16条难点；同日名称匹配只是筛选。",
+      "sources": [
+        "https://news.pedaily.cn/202610/569895.shtml",
+        "https://www.xianghecap.com/en/news/frontier-technology-news/387.html",
+        "https://finance.sina.com.cn/jjxw/2026-02-13/doc-inhmsqpn0102016.shtml",
+        "https://www.chinaventure.com.cn/news/114-20261022-393722.html",
+        "https://news.pedaily.cn/202610/570693.shtml",
+        "https://finance.eastmoney.com/a/202610223904458540.html",
+        "https://harbinyisheng.com/News-Consultation.html",
+        "https://www.eeo.com.cn/2026/1023/1073587.shtml",
+        "https://www.36kr.com/newsflashes/4026558877241475",
+        "https://news.pedaily.cn/202610/570697.shtml",
+        "https://www.chinaventure.com.cn/flash/20261027-90207.html",
+        "https://www.thcapital.com.cn/article/370.html",
+        "https://api3.cls.cn/share/article/2512899?app=stib&os=android&sv=202",
+        "https://www.qcc.com/firm/9a01e441bb95ea825f029bf43711d5d9.html",
+        "https://www.qcc.com/firm/68d460d4ee6e164d0de4911fb463e9e0.html",
+        "https://www.qcc.com/firm/42d4ffa1f74c9109ddd09148da0e94cc.html",
+        "https://www.qcc.com/firm/0aa7aa8755ea3ecd3376a69d6983152a.html",
+        "https://www.qcc.com/firm/16d7d9d382b8319cc38e9a72bdb7651e.html"
+      ],
+      "candidate_count": 2,
+      "existing_count": 19,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-48.csv",
+      "notes": "跨月重新发现两笔早期真实交易。十月报告的累计金额未重复计入单轮。另有算苗Pre-A2日期与辉羲旧名重复需继续核。"
     }
   ]
 }
