@@ -926,5 +926,37 @@
       "amount": "超亿人民币",
       "investors_json": "[{\"name\":\"北京远见前沿创发创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京屹唐创欣创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京元航硬科技创业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"创丰资本\",\"role\":null,\"amount\":null},{\"name\":\"合创资本\",\"role\":null,\"amount\":null},{\"name\":\"国投泰康\",\"role\":null,\"amount\":null},{\"name\":\"海峡基金\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:b865c9b49187643365a039de770ad3727b921085fb8a8f07af6cc8b94249376a",
+    "company_id": "co:full_legal_name:0640f2172a803144828744c14bf6a63f",
+    "day": "2023-12-18",
+    "source": "https://www.mogulinker.com/newsMg/298.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村中诺基金\",\"role\":null,\"amount\":null},{\"name\":\"中关村科技租赁\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京中诺远见创新投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中关村科技租赁股份有限公司\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:973d5c6e5d82416916b9027e9e606f1b7d669b41ce9ec0d19e9b5f8d322d11c7",
+    "company_id": "co:full_legal_name:248d7bef20c88459a9f026e99e04edaf",
+    "day": "2023-12-12",
+    "source": "https://www.qcc.com/firm/3e7d459bc7412df5e58b175d643ad6da.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村中诺基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京中诺远见创新投资基金中心（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
