@@ -2453,6 +2453,53 @@
       "pending_count": 1,
       "batch": "2026-11-25-october-public-38.csv",
       "notes": "四三九九历史投资列表显示57项计数。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第691—728项",
+      "sources": [
+        "https://www.bbtnews.com.cn/2026/1014/607894.shtml",
+        "https://aisa.one/es/blog/aisa-seed-extension-tether-hiven",
+        "https://saber.money/blogs/saber-money-tether-titan-fund-investment",
+        "https://www.clinicalink.com/clinical-ink-announces-strategic-investment-from-ardan-equity-and-gi-partners/",
+        "https://njna.nanjing.gov.cn/sjb/tzxq/sjbtzdt/202607/t20260717_5878607.html",
+        "https://truckparkingclub.com/news/truck-parking-club-secures-growth-investment-from-argentum-capital-partners",
+        "https://www.wamda.com/2026/10/databuddy-analytics-raises-500000-y-combinator",
+        "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/"
+      ],
+      "candidate_count": 23,
+      "existing_count": 23,
+      "pending_count": 4,
+      "batch": "2026-11-25-october-public-39.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 110
+      },
+      "notes": "逐项筛核38个候选。中湾两轮、国宇金额、炫佳B1、Reflex计划投资保留独立待核。"
+    },
+    {
+      "institution": "不二资本、Tether、Titan Fund（CMCC Global）",
+      "checked_on": "2026-11-25",
+      "scope": "企查查对回金粒门两笔入股。沿企查查不二资本档案和鲸准搜索回查隅田川咖啡与肥汁米蘭，并用领投方或首发原文核实交易；另查ToyCity与Tether、Titan Fund的公开投资。",
+      "sources": [
+        "https://www.qcc.com/firm/ffe885787e49c9fab84420055b054e88.html",
+        "https://www.qcc.com/investor/358b01e7a11ecc33265b8a621942ad92.html",
+        "https://www.bbtnews.com.cn/2026/1014/607894.shtml",
+        "https://m.linkshop.com/article/news/552339",
+        "https://www.36kr.com/p/1150367161435529",
+        "https://www.incecap.com.cn/news/detail/143",
+        "https://www.qimingvc.com/en/node/4996",
+        "https://news.sina.cn/2023-03-27/detail-imynhvca1838094.d.html",
+        "https://www.cyzone.cn/article/660213.html",
+        "https://tether.io/news/tether-invests-in-aisa-to-expand-its-push-into-ai-powered-payments-and-programmable-money/",
+        "https://saber.money/blogs/saber-money-tether-titan-fund-investment",
+        "https://tether.io/news/tether-leads-oobits-25m-series-a-funding-round-to-propel-crypto-adoption/"
+      ],
+      "candidate_count": 9,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-39.csv",
+      "notes": "金粒门企查查显示三项融资，鲸准免费摘要展示一项。不二资本档案列19个项目和27笔事件，逐笔引用另行核实的公开披露。"
     }
   ]
 }

@@ -178,5 +178,14 @@
     "source": "https://m.jiemian.com/article/15193129.html",
     "expected": "数亿人民币",
     "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:703ce3414cabe14f68f682c932cb7e1f7bcb47dfdd066322010040b27d7e6e7c",
+    "company_id": "co:full_legal_name:dec370ef14ebe9bdd272255f2e081846",
+    "day": "2026-10-20",
+    "round": "种子轮",
+    "source": "https://finance.eastmoney.com/a/202610203901298038.html",
+    "expected": "超亿人民币",
+    "amount": "未披露"
   }
 ]
