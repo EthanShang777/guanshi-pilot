@@ -14,9 +14,9 @@
   function card([key,name,area,sector,day,stage,amount,parties,count,url]){
     const a=el('article');a.className='company-entry';
     const header=el('header'),h=el('h2');h.append(link('company.html?id='+key,name));header.append(h,el('small',[area,sector].filter(Boolean).join(' · ')));
-    const main=el('div'),deal=link(url,[day,stage,amount].filter(Boolean).join(' · ')||'融资信息未列明');deal.className='company-deal';main.append(deal);
+    const main=el('div'),deal=link(url,[day,stage,amount].filter(Boolean).join(' · ')||'交易信息未列明');deal.className='company-deal';main.append(deal);
     if(parties.length){const p=el('p','投资方　');parties.forEach(([n,u],i)=>{if(i)p.append('、');p.append(link(u,n));});main.append(p);}
-    const details=el('details');details.dataset.company=key;details.append(el('summary','融资历程 · '+count+' 笔'));a.append(header,main,details);return a;
+    const details=el('details');details.dataset.company=key;details.append(el('summary','交易记录 · '+count+' 笔'));a.append(header,main,details);return a;
   }
   list.addEventListener('toggle',async e=>{
     const d=e.target;if(!d.open||!d.dataset.company||d.dataset.busy)return;
@@ -36,7 +36,7 @@
       const start=(page-1)*30,selection=ids?ids.slice(start,start+30):Array.from({length:Math.min(30,total-start)},(_,i)=>start+i);
       const rows=await Promise.all(selection.map(async i=>(await load('company-summary-'+Math.floor(i/30)))[i%30]));
       if(seq!==version)return;
-      list.replaceChildren(...rows.map(card));status.textContent=total?total.toLocaleString()+' 份档案 · 最近融资优先':'没有匹配的公司';
+      list.replaceChildren(...rows.map(card));status.textContent=total?total.toLocaleString()+' 份档案 · 最近交易优先':'没有匹配的公司';
       prev.disabled=page<=1;next.disabled=page>=pages;
       const url=new URLSearchParams();if(q)url.set('q',input.value.trim());if(s)url.set('sector',s);if(page>1)url.set('page',page);
       history.replaceState(null,'','companies.html'+(url.size?'?'+url:''));

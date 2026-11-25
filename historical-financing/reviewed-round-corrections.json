@@ -2333,7 +2333,8 @@
       "round": "A轮",
       "amount": "2160万元人民币",
       "investors_json": "[{\"name\":\"深圳市创东方富博股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"海南创东方富顺私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
-    }
+    },
+    "final_day": "2022-01-01"
   },
   {
     "event_id": "financing_event:78c3366620690903bcaa7df9b13b01352cab85b2453f5240b1ec5cc3b061dc9e",
@@ -2349,6 +2350,24 @@
       "round": "增资",
       "amount": "8000万元人民币",
       "investors_json": "[{\"name\":\"丽水丽湖企业管理有限公司\",\"role\":null,\"amount\":\"8000万元人民币\"}]"
+    },
+    "final_day": "2020-11-01"
+  },
+  {
+    "event_id": "financing_event:4715ed20687346badf1b9fee8e5474418d2567be58fbe09b3e0d75b1c3970d52",
+    "company_id": "co:full_legal_name:ecf9bc80b7a3a64318c27bfb3f314bda",
+    "day": "2022-12-31",
+    "final_day": "2022-07-11",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202409101639813749_1.pdf?1725983423000.pdf=",
+    "expected": {
+      "round": "D++轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"军合投资\",\"role\":null,\"amount\":null},{\"name\":\"宏诚投资\",\"role\":null,\"amount\":null},{\"name\":\"广发信德\",\"role\":null,\"amount\":null},{\"name\":\"浙大友创\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "9500万元人民币（六笔合计）",
+      "investors_json": "[{\"name\":\"山东省新旧动能转换海耀海洋生物医药产业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":\"3000万元人民币\"},{\"name\":\"朱筠\",\"role\":\"受让方\",\"amount\":\"800万元人民币\"},{\"name\":\"广发信德（苏州）健康产业创业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":\"3700万元人民币\"},{\"name\":\"汕头市西利实业有限公司\",\"role\":\"受让方\",\"amount\":\"1000万元人民币\"},{\"name\":\"嘉兴友创启真创业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":\"500万元人民币\"},{\"name\":\"杭州启真毓星股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":\"500万元人民币\"}]"
     }
   }
 ]

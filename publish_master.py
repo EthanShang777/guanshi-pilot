@@ -85,6 +85,39 @@ def list_pages(base,title,section,items,make_row,first=''):
         body=(first if i==0 else '')+nav+(financing_table(rows) if section=='融资事件' else rows)+nav
         page(url(i),title,section,body)
 
+def search_page():
+    shell=Path('search.html').read_text()
+    form=shell.split('<form id="archive-form">',1)[1].split('</form>',1)[0]
+    import re
+    form=re.sub(r'(<select name="(sector|year)"><option value="">[^<]+</option>).*?</select>',r'\1</select>',form)
+    form += ('<label>细分方向<select name="sub"><option value="">全部方向</option></select></label>'
+             '<label>轮次匹配<select name="mode"><option value="">关键词</option><option value="exact">精确轮次</option>'
+             '<option value="family">含相邻轮次</option></select></label>'
+             '<label>查看<select name="view"><option value="">融资事件</option><option value="companies">公司名单</option>'
+             '<option value="institutions">机构名单</option></select></label>')
+    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
+
+def research_pages(deals):
+    entry = Path('research-entry.html').read_text()
+    for asset in ('workspace.css', 'workspace.js'):
+        shutil.copyfile(asset, OUT/asset)
+    home = OUT/'index.html'
+    html = home.read_text()
+    import re
+    if '<main class="home-research">' in html:
+        html = html.replace('<main class="home-research"><link rel="stylesheet" href="workspace.css">'+entry, '<main>', 1)
+        html = html.replace('<h2>融资时间线</h2><p class="search-entry">','<p class="search-entry">',1)
+        html = re.sub(r'<details><summary>按赛道浏览</summary>(<section class="arc">.*?</section>)</details>',r'\1',html,count=1,flags=re.S)
+        home.write_text(re.sub(r'<small class="row-actions">.*?</small>', '', html))
+    shell = (OUT/'search.html').read_text().replace('融资交叉检索 · 观势','研究工作区 · 观势').replace('<main>','<main class="workspace"><link rel="stylesheet" href="workspace.css">')
+    shell = shell.replace('<h1>融资交叉检索</h1>', '<h1>研究工作区</h1>').replace(BAR, '').replace('<script src="within-page.js"></script>', '')
+    shell = shell.replace('<form id="archive-form">',entry+'<p id="work-context"></p><form id="archive-form">')
+    shell = shell.replace('<script defer src="master-search.js">','<section id="shortlist"></section><script src="workspace.js"></script><script defer src="master-search.js?v=workspace1">')
+    shell = shell.replace('<main class="workspace">', '<main class="workspace"><script>if(!location.search)location.replace("company-research.html")</script>')
+    (OUT/'workspace.html').write_text(shell)
+    from company_research import publish
+    publish(OUT,deals)
+
 def build(rows):
     OUT.mkdir(exist_ok=True)
     data=OUT/'records';data.mkdir(exist_ok=True)
@@ -97,6 +130,7 @@ def build(rows):
     history=json.loads(Path('history-public.json').read_text())
     old_history=defaultdict(list)
     for h in history:old_history[h['source']].append(h)
+    profiles = {p["name"]: p for p in json.loads(Path("research-library.json").read_text())["profiles"]}
     companies={}; institutions={}; deals=[]; legacy={}; refs=defaultdict(list)
     groups=defaultdict(list); buckets=defaultdict(dict); names=defaultdict(set)
     def entity(groups,kind,key,name):
@@ -146,7 +180,9 @@ def build(rows):
             for alias in map(str.strip, aliases):
                 if alias and alias != d['company'] and alias not in d['aliases']:
                     d['aliases'].append(alias)
-        groups[d['sector']].append(d);deals.append(d)
+        if d['stage'] != '股权转让':
+            groups[d['sector']].append(d)
+            deals.append(d)
         buckets['deal-'+key[:2]][key]=d
     for key,records in buckets.items():dump(data/(key+'.json'),records)
     def event_row(d):
@@ -173,10 +209,11 @@ def build(rows):
         for k,entity_row in entities.items():
             items=entity_row['events']
             for sector in dict.fromkeys(d['sector'] for d in items):by_sector[sector].append(entity_row)
-            parts[k[:2]][k]={'name':entity_row['name'],'events':[[d['href'],d['company'],d['day'],d['stage'],d['amount']] for d in items]}
+            parts[k[:2]][k]={'name':entity_row['name'],'events':[[d['href'],d['company'],d['day'],d['stage'],d['amount'],d['sector'],d['sub'],d['companyHref']] for d in items]}
             if kind=='company':
-                parts[k[:2]][k].update(location=items[0]['location'],sector=items[0]['sub'] or items[0]['sector'],
-                    events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources']] for d in items])
+                profile = profiles.get(entity_row['name']) if len(names[entity_row['name']]) == 1 else None
+                parts[k[:2]][k].update(profile=profile, primary=items[0]['sector'], sub=items[0]['sub'], location=items[0]['location'],sector=items[0]['sub'] or items[0]['sector'],
+                    events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources'],d['sector'],d['sub']] for d in items])
             old=filename(kind,entity_row['name'])
             if Path(old).exists() and (kind=='institution' or len(names[entity_row['name']])==1):legacy[old]=entity_row['href']
         for prefix,part in parts.items():dump(data/(kind+'-'+prefix+'.json'),part)
@@ -184,7 +221,7 @@ def build(rows):
             from company_directory import build_directory
             build_directory(entities,by_sector,data,OUT,page,dump,link,redirect,sector_url)
             continue
-        def entry(e):return '<div class="directory-row">'+link(e['href'],e['name'])+f'<small>{len(e["events"])} 笔融资</small></div>'
+        def entry(e):return '<div class="directory-row">'+link(e['href'],e['name'])+f'<small>{len(e["events"])} 笔投资记录</small></div>'
         directory=sorted(entities.values(),key=lambda e:(-len(e['events']),e['name']))
         list_pages(index,section,section,directory,entry,(link('research-companies.html','公司研究库与同行对照 →') if kind=='company' else '')+link('search.html','检索全部融资 →')+deck(section,Counter({s:len(v) for s,v in by_sector.items()})))
         for s,items in by_sector.items():list_pages(sector_url(section,s),s,section,items,entry)
@@ -204,21 +241,19 @@ def build(rows):
     atlas.OUTPUT=OUT/'atlas'
     build_library(page,link,filename,research,refs,deals,[])
     by_year=defaultdict(list)
-    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub','location')])
+    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub','location')]+[d['companyHref']])
     for year,items in by_year.items():dump(data/('search-'+year+'.json'),items)
-    manifest={'events':len(deals),'companies':len(companies),'institutions':len(institutions),'years':list(by_year),'sectors':list(groups)}
+    manifest={'events':len(deals),'companies':len(companies),'institutions':len(institutions),'years':list(by_year),'sectors':list(groups),'subs':{s:sorted({d['sub'] for d in items if d['sub']}) for s,items in groups.items()}}
     dump(data/'manifest.json',manifest)
-    shell=Path('search.html').read_text()
-    form=shell.split('<form id="archive-form">',1)[1].split('</form>',1)[0]
-    import re
-    form=re.sub(r'(<select name="(sector|year)"><option value="">[^<]+</option>).*?</select>',r'\1</select>',form)
-    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
+    search_page()
+    research_pages(deals)
     for p in Path('.').glob('research-company-*.html'):
         if not (OUT/p.name).exists():
             title=re.search(r'<h1>(.*?)</h1>',p.read_text()).group(1)
             redirect(p.name,'search.html?'+urlencode({'company':title}))
     redirect('find.html','search.html')
-    assert sum(len(v) for v in groups.values())==len(rows)==len({d['key'] for d in deals})
+    assert sum(len(v) for v in groups.values())==len({d['key'] for d in deals})
+    assert sum(len(bucket) for bucket in buckets.values())==len(rows)
     print(manifest['events'], 'published events;',len(companies),'company groups;',len(institutions),'institution names')
 
 if __name__=='__main__':build(cloud_rows())

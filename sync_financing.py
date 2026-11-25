@@ -244,13 +244,48 @@ def sync_round_corrections(db, corrections):
                     WHERE {identity_guard} AND {state_guard} RETURNING event_id''',
                  [*corrected, source, source, *identity, *expected]):
             applied += 1
-        elif query(db, f'SELECT event_id FROM financing_events WHERE {identity_guard} AND {state_guard} AND {source_guard}',
-                   [*identity, *corrected, source]):
+        elif query(db, f'''SELECT event_id FROM financing_events WHERE event_id=? AND company_id=?
+                    AND date_key IN (?,?) AND {state_guard} AND {source_guard}''',
+                   [*identity, correction.get('final_day', correction['day']), *corrected, source]):
             already_applied += 1
         else:
             held += 1
             print('Reviewed round correction held:', correction['event_id'])
     print(f'D1 round corrections applied={applied} already_applied={already_applied} held={held}')
+    return applied, already_applied, held
+
+
+def sync_date_corrections(db, corrections):
+    applied = already_applied = held = 0
+    fields = ('date', 'date_key', 'date_kind')
+    identity_guard = 'event_id=? AND company_id=? AND round=?'
+    date_guard = 'date=? AND date_key=? AND date_kind=?'
+    source_guard = 'EXISTS (SELECT 1 FROM json_each(sources_json) WHERE value=?)'
+    for correction in corrections:
+        identity = [correction['event_id'], correction['company_id'], correction['round']]
+        source = correction['source']
+        expected = [correction['expected'][field] for field in fields]
+        corrected = [correction['corrected'][field] for field in fields]
+        day, key, kind = corrected
+        normalized = date.fromisoformat(day + '-01' if len(day) == 7 else day).isoformat()
+        url = urlsplit(source)
+        if (day not in {normalized, normalized[:7]} or key != normalized or
+                not kind.strip() or expected == corrected or
+                url.scheme not in {'https', 'http'} or not url.hostname):
+            raise ValueError('Expected a dated correction with matching precision and a public source')
+        if query(db, f'''UPDATE financing_events SET date=?, date_key=?, date_kind=?,
+                        sources_json=CASE WHEN {source_guard} THEN sources_json
+                                          ELSE json_insert(sources_json,'$[#]',?) END
+                    WHERE {identity_guard} AND {date_guard} RETURNING event_id''',
+                 [*corrected, source, source, *identity, *expected]):
+            applied += 1
+        elif query(db, f'SELECT event_id FROM financing_events WHERE {identity_guard} AND {date_guard} AND {source_guard}',
+                   [*identity, *corrected, source]):
+            already_applied += 1
+        else:
+            held += 1
+            print('Reviewed date correction held:', correction['event_id'])
+    print(f'D1 date corrections applied={applied} already_applied={already_applied} held={held}')
     return applied, already_applied, held
 
 
@@ -329,6 +364,9 @@ def main():
             corrections = args.historical_dir / 'reviewed-round-corrections.json'
             if corrections.is_file():
                 sync_round_corrections(db, json.loads(corrections.read_text()))
+            corrections = args.historical_dir / 'reviewed-date-corrections.json'
+            if corrections.is_file():
+                sync_date_corrections(db, json.loads(corrections.read_text()))
         return
     current=json.loads(Path('ledger.json').read_text())['events']
     old={e['id']:e for e in json.loads(args.previous_ledger.read_text())['events']} if args.previous_ledger else {}
