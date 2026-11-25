@@ -798,5 +798,85 @@
       "amount": "9693.8776万元人民币",
       "investors_json": "[{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"佛山达泰创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京智慧云城投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳珂玺共赢产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"天津颢玺企业管理咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:2293c669e545c1d8a4145d9dad43f1713c921b95be40d2cd62f6f55a0e632cb5",
+    "company_id": "co:full_legal_name:78af400b53963af251a7ba7a2c78dae2",
+    "day": "2022-12-29",
+    "source": "https://www.36kr.com/p/2064914940722311",
+    "expected": {
+      "round": "天使轮",
+      "amount": "千万级人民币",
+      "investors_json": "[{\"name\":\"中关村发展前沿基金\",\"role\":null,\"amount\":null},{\"name\":\"中科先行创投\",\"role\":null,\"amount\":null},{\"name\":\"泰雅语松\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "千万级人民币",
+      "investors_json": "[{\"name\":\"北京中科八家创业投资基金合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"北京前沿科创私募基金管理中心（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"北京泰雅语松私募基金管理有限公司\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:1703804f22768bc7e704bea21aefc1282526234311766a2baefbe4e5a05e3927",
+    "company_id": "co:full_legal_name:774d649799c7c10f68480aebac943d83",
+    "day": "2022-12-28",
+    "source": "https://zgcgroup.com.cn/zgcadmin/public/static/file/d6ed783a82f7ff27f9b23abe8430220713.pdf",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中关村创投\",\"role\":null,\"amount\":null},{\"name\":\"亦尚汇成\",\"role\":null,\"amount\":null},{\"name\":\"北京生命科学园创投\",\"role\":null,\"amount\":null},{\"name\":\"昌发展\",\"role\":null,\"amount\":null},{\"name\":\"道远资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露（已知两家合计2000万元人民币）",
+      "investors_json": "[{\"name\":\"北京中发展金种子创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京中发高精尖臻选创业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中关村创投\",\"role\":null,\"amount\":null},{\"name\":\"亦尚汇成\",\"role\":null,\"amount\":null},{\"name\":\"北京生命科学园创投\",\"role\":null,\"amount\":null},{\"name\":\"昌发展\",\"role\":null,\"amount\":null},{\"name\":\"道远资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:97ca2094f05062cbecd1fa855249d09a1d9f3b14cab65a9458f21ca5ed17e8da",
+    "company_id": "co:full_legal_name:23a0c3a8f92a870a6145418bf8beea4f",
+    "day": "2022-12-16",
+    "source": "https://www.qfvc.cn/newsDetail.page?id=326",
+    "expected": {
+      "round": "A+轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"中关村发展前沿基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"宁波保税区前沿精英企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:937e1884b6fb070cf5ece4b542c95612e174675163e85bea4e02f7b1629b8d82",
+    "company_id": "co:full_legal_name:ccb18a78af00b484f1fe77e752eb09e8",
+    "day": "2021-12-02",
+    "source": "https://www.sohu.com/a/533334934_120494411",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村发展前沿基金\",\"role\":null,\"amount\":null},{\"name\":\"水木清华校友种子基金\",\"role\":null,\"amount\":null},{\"name\":\"泰有基金\",\"role\":null,\"amount\":null},{\"name\":\"英诺天使基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "种子轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天津海河华慧泰有电子信息投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"水木清华校友种子基金\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:e73f8d777cd2a1d5cdb7d8e95086eb3c10dc3f991b5f19e64cc5ae52b38e6b79",
+    "company_id": "co:full_legal_name:ef04235dc0e0e4f8f734fb621f640594",
+    "day": "2022-08-16",
+    "source": "https://m.lankeji.com/zhuanlan/2022/0818/54207.html",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村发展前沿基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"奇绩创坛\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"首业资本\",\"role\":\"跟投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"北京奇绩创坛一期创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京首业君辉投资中心（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
