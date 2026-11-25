@@ -2222,5 +2222,37 @@
       "amount": "数亿元人民币",
       "investors_json": "[{\"name\":\"京东\",\"role\":\"领投\",\"amount\":null},{\"name\":\"三七互娱\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"东方嘉富\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"小米战投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"杭州数据集团\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"毅达资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"浙大友创\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"电科基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"财通资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三七互娱创投基金\",\"role\":null,\"amount\":null},{\"name\":\"上海电科\",\"role\":null,\"amount\":null},{\"name\":\"京东科技\",\"role\":null,\"amount\":null},{\"name\":\"小米集团\",\"role\":null,\"amount\":null},{\"name\":\"杭州科创集团\",\"role\":null,\"amount\":null},{\"name\":\"杭州金投\",\"role\":null,\"amount\":null},{\"name\":\"正轩投资\",\"role\":null,\"amount\":null},{\"name\":\"溥泉资本\",\"role\":null,\"amount\":null},{\"name\":\"锦聚投资\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:0b32dbd1cb624c7e195ea8315573b6ec80ecd724a7030b93f840246f6296b389",
+    "company_id": "co:full_legal_name:874fc8f4da6640bd63c083953012ddf1",
+    "day": "2025-12-19",
+    "source": "https://www.qcc.com/firm/df1d51245c0fcc73961ce57e4b4ebb14.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"华睿投资\",\"role\":null,\"amount\":null},{\"name\":\"杭州科创集团\",\"role\":null,\"amount\":null},{\"name\":\"浙大友创\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"杭州友创思睿创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"杭州华睿睿银创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"杭州高投颠覆性技术成果转化一期创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:51470f7ca3e34ade62398c7ec0dd21cb8654ceb97b43025ddca9dcd84152f88c",
+    "company_id": "co:full_legal_name:ce1bbc6b41ec0952f71cdf4b220527a2",
+    "day": "2025-05-20",
+    "source": "https://www.qcc.com/firm/18fea3ec8d4e3eea3d4a2297f6c38d18.html",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"浙大友创\",\"role\":null,\"amount\":null},{\"name\":\"浙大大晶创投\",\"role\":null,\"amount\":null},{\"name\":\"真石资本\",\"role\":null,\"amount\":null},{\"name\":\"道生资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"杭州友创思睿创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"浙江大晶创业投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"湖州真石巨星玖号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"杭州道生初阳科创股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
