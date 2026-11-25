@@ -979,6 +979,73 @@
       "pending_count": 0,
       "batch": "2026-11-25-october-public-15.csv",
       "notes": "同一公司关联2022年A轮2,000万元、2023年A轮追加500万元、2024年B轮8,000万元和既有2025年记录。几轮分别有验资或已验资认购协议，老股另计。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第182–208项中的25个待核候选",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://www.gunder.com/en/news-insights/client-news/reuse-raises-dollar21-million-series-a",
+        "https://www.alive-ventures.com/post/alive-invests-in-reuse-to-expand-access-to-technology-in-latin-america",
+        "https://www.opsinsecurity.com/blog/opsin-raises-21m",
+        "https://www.prnewswire.com/news-releases/tamr-secures-21-million-in-growth-equity-investment-led-by-volition-capital-to-accelerate-ai-native-master-data-management-302907564.html",
+        "https://www.prnewswire.com/news-releases/auxoai-raises-20-7m-series-a-to-build-the-forward-deployed-ai-company-302913552.html",
+        "https://www.onebyzero.ai/press-releases/onebyzero-raises-20-million-series-a-jungle-ventures",
+        "https://www.onebyzero.ai/press-releases",
+        "https://www.prnewswire.com/news-releases/vocca-raises-20m-after-growing-from-2-000-to-15-000-medical-practitioners-in-a-year-302902414.html",
+        "https://www.prnewswire.com/news-releases/ablepay-health-raises-20-million-series-a-to-accelerate-growth-and-expand-healthcare-affordability-solutions-302901811.html",
+        "https://www.businesswire.com/news/home/20261014984281/en/",
+        "https://www.sec.gov/Archives/edgar/data/1886786/000188678626000002/0001886786-26-000002-index.htm",
+        "https://origin.tech/blog/origin-emerges-from-stealth-with-20-million",
+        "https://firefly.co/insights/firefly-series-a",
+        "https://www.businesswire.com/news/home/20261021359350/en/",
+        "https://markets.financialcontent.com/stocks/article/bizwire-2026-10-21-longeye-raises-20m-series-a-as-more-than-50-justice-agencies-adopt-its-ai-investigative-platform",
+        "https://www.superme.ai/blog/series-a",
+        "https://www.axios.com/pro/fintech-deals/2026/10/06/navra-mike-cagney-19-million-sofi-defi",
+        "https://www.prnewswire.com/news-releases/atombeam-secures-18-3-million-in-funding-bringing-total-capital-raised-to-over-55-million-302912260.html",
+        "https://www.iqcapital.work/news/undecimal-bio-launches",
+        "https://www.cambridgenetwork.co.uk/news/undecimal-bio-launches-18-million-oversubscribed-seed-financing-address-liver-trap-sirna",
+        "https://www.prnewswire.com/news-releases/sunlight-ai-launches-with-17-4m-to-help-physicians-thrive-independently-302913153.html",
+        "https://www.basisset.com/team/dr-lan-xuezhao",
+        "https://www.siena.cx/blog/siena-raises-17m-series-a",
+        "https://www.prnewswire.com/news-releases/avarra-raises-17-million-on-a-contrarian-bet-ai-that-rapidly-upskills-gtm-teams-rather-than-simply-automating-routine-work-302899838.html",
+        "https://www.switchedsource.com/2026/10/13/switched-source-secures-over-17-million-to-help-utilities-add-grid-capacity-faster/",
+        "https://www.calcalistech.com/ctechnews/article/rju100ow2ml",
+        "https://www.dreamhq.com/press/announcement",
+        "https://www.asterionventures.com/fr/media/edonia-15-millions-series-a/",
+        "https://www.eitfood.eu/news/eit-food-supported-startup-edonia-raises-15-million-to-scale-its-microalgae-based-whole-food-protein",
+        "https://www.epyr.co/news-studies/news-series-a",
+        "https://ascerta.com/resources/press/ascerta-raises-18m-series-a",
+        "https://www.novele.com/newsroom/closes-oversubscribed-17m-series-a",
+        "https://www.globenewswire.com/news-release/2025/05/21/3085744/0/en/pay-i-lands-4-9m-to-answer-the-question-every-enterprise-is-asking-does-this-genai-investment-have-actual-roi.html",
+        "https://www.processalimentaire.com/ingredients/edonia-annonce-une-levee-de-2-millions-d-euros-aupres-d-asterion-ventures"
+      ],
+      "candidate_count": 27,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-16.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 622,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "notes": "23笔归入10月，两笔首发归入9月，另回填Ascerta与Edonia早期两笔。Dream与Dream Labs为不同公司，使用业务作区分。Zippy按发行人及投资方首发登记C轮。Edonia A轮金额未单列。"
+    },
+    {
+      "institution": "达晨财智",
+      "checked_on": "2026-11-25",
+      "scope": "从达晨创程在中微公司披露的主要对外投资名单反查得润宝。",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-05-13/1225302350.PDF#page=177",
+        "https://vc.pedaily.cn/invest/f2739-b2765-c773-s311"
+      ],
+      "candidate_count": 1,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-16.csv",
+      "notes": "中微公司报告书原文确认达晨创程所持公司及直接投资载体，投资界具名交易条目日期为2025-01-30，股权融资金额空。挂牌前同名企业资料不单独用于归并主体。"
     }
   ]
 }
