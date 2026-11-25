@@ -85,6 +85,18 @@ def list_pages(base,title,section,items,make_row,first=''):
         body=(first if i==0 else '')+nav+(financing_table(rows) if section=='融资事件' else rows)+nav
         page(url(i),title,section,body)
 
+def search_page():
+    shell=Path('search.html').read_text()
+    form=shell.split('<form id="archive-form">',1)[1].split('</form>',1)[0]
+    import re
+    form=re.sub(r'(<select name="(sector|year)"><option value="">[^<]+</option>).*?</select>',r'\1</select>',form)
+    form += ('<label>细分方向<select name="sub"><option value="">全部方向</option></select></label>'
+             '<label>轮次匹配<select name="mode"><option value="">关键词</option><option value="exact">精确轮次</option>'
+             '<option value="family">含相邻轮次</option></select></label>'
+             '<label>查看<select name="view"><option value="">融资事件</option><option value="companies">公司名单</option>'
+             '<option value="institutions">机构名单</option></select></label>')
+    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
+
 def build(rows):
     OUT.mkdir(exist_ok=True)
     data=OUT/'records';data.mkdir(exist_ok=True)
@@ -210,16 +222,7 @@ def build(rows):
     for year,items in by_year.items():dump(data/('search-'+year+'.json'),items)
     manifest={'events':len(deals),'companies':len(companies),'institutions':len(institutions),'years':list(by_year),'sectors':list(groups),'subs':{s:sorted({d['sub'] for d in items if d['sub']}) for s,items in groups.items()}}
     dump(data/'manifest.json',manifest)
-    shell=Path('search.html').read_text()
-    form=shell.split('<form id="archive-form">',1)[1].split('</form>',1)[0]
-    import re
-    form=re.sub(r'(<select name="(sector|year)"><option value="">[^<]+</option>).*?</select>',r'\1</select>',form)
-    form += ('<label>细分方向<select name="sub"><option value="">全部方向</option></select></label>'
-             '<label>轮次匹配<select name="mode"><option value="">关键词</option><option value="exact">精确轮次</option>'
-             '<option value="family">含相邻轮次</option></select></label>'
-             '<label>查看<select name="view"><option value="">融资事件</option><option value="companies">公司名单</option>'
-             '<option value="institutions">机构名单</option></select></label>')
-    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
+    search_page()
     for p in Path('.').glob('research-company-*.html'):
         if not (OUT/p.name).exists():
             title=re.search(r'<h1>(.*?)</h1>',p.read_text()).group(1)
