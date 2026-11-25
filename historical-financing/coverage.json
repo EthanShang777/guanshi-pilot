@@ -2274,6 +2274,33 @@
         }
       ],
       "notes": "老股东变化只作为查找线索。三凯两轮对回已有，蓝深2021年C轮按同期披露。"
+    },
+    {
+      "institution": "鲸准免费股权投资首页",
+      "checked_on": "2026-11-25",
+      "scope": "已登录免费账号股权投资首屏20条。独立核实9笔首屏交易，并沿VectorY同主体回补2023年A轮。",
+      "sources": [
+        "https://forbion.com/news-insights/news/forbion-co-leads-129-million-series-a-financing-of-vectory-one-of-the-largest-private-biotech-financings-in-europe-in-2023/",
+        "https://www.angeliniventures.com/media/2eibeesi/financial-announcement-final.pdf",
+        "https://www.nautadutilh.com/en/insights/nautadutilh-assists-vectory-therapeutics-on-eur-745-million-equity-and-eib-convertible-loan-financing/",
+        "https://www.eib.org/de/press/all/2026-413-dutch-biotech-fighting-als-and-other-neuro-degenerative-diseases-gets-european-backing",
+        "https://aidenai.com/updates/series-a-investment/",
+        "https://www.prnewswire.com/news-releases/aidenai-raises-32m-series-a-from-a91-partners-to-build-and-deploy-ai-at-enterprise-scale-302949458.html",
+        "https://maple.ai/blog/maple-ai-seed-round",
+        "https://www.chinaventure.com.cn/news/113-20261125-394190.html",
+        "https://www.cnfin.com/gs-lb/detail/20261125/4500118_1.html",
+        "https://eu.36kr.com/zh/p/4084508820875909",
+        "https://news.10jqka.com.cn/20261125/c682205887.shtml",
+        "https://www.pedaily.cn/vcpeevent/",
+        "https://www.36kr.com/newsflashes/4083484097898886",
+        "https://www.thecapital.com.cn/news/detail/125847",
+        "https://news.pedaily.cn/202611/572348.shtml"
+      ],
+      "candidate_count": 10,
+      "existing_count": 2,
+      "pending_count": 9,
+      "batch": "2026-11-25-jingdata-free-sample.csv",
+      "notes": "Vero Security与Xlue同笔已经上线。VectorY由公司、借款方公告和交易律师拆分，7450万欧元合计包含3000万欧元欧洲投资银行可转贷款，A轮追加股权为4450万欧元。天云创鸿按11月24日近亿元的披露。原子芯光保留新华财经约谈确认的具名投资方。余9条留在线索中，包括等待交割的ams OSRAM和仅有进展签约公告的中国电子云。免费当页无法覆盖任何一个完整历史月。"
     }
   ]
 }
