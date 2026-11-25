@@ -43,5 +43,14 @@
     "source": "https://www.eeo.com.cn/2026/1011/1060755.shtml",
     "expected": "",
     "amount": "数亿元人民币"
+  },
+  {
+    "event_id": "financing_event:d9e52a86921219b616e4cc14d8e8417a0e23ef9b30158a88113c3e4d9d234202",
+    "company_id": "co:full_legal_name:dbe29581f39427f893a63ea4bb7cdfad",
+    "day": "2026-10-13",
+    "round": "天使轮",
+    "source": "https://www.deepagens.com/news/shendu-yunhai-huo-huagong-keji-qianwanji-t-l-t-j-b-q-a-y-r",
+    "expected": "",
+    "amount": "千万级人民币"
   }
 ]

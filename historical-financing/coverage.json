@@ -2218,6 +2218,62 @@
         }
       ],
       "notes": "蓝深历史四轮挂回同一公司档案，避免对金额和单轮资方擅自推定。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第622—646项",
+      "sources": [
+        "https://capitolis.com/capitolis-announces-220-million-in-financing-including-120-million-series-e-at-1-9-billion-valuation-from-bank-of-america-barclays-bnp-paribas-citi-j-p-morgan-nomura-state-street-ubs-tra/",
+        "https://celluranics.com/en/news",
+        "https://hs.flexcompute.com/news/flexcompute-raises-strategic-investment-from-samsung-ventures-and-applied-ventures-to-build-the-physics-world-model",
+        "https://www.deepagens.com/news/shendu-yunhai-huo-huagong-keji-qianwanji-t-l-t-j-b-q-a-y-r",
+        "https://firmior.cn/",
+        "https://www.blog.stenon.io/2026/10/12/stenon-welcomes-yara-growth-ventures-as-investor-in-its-series-b/",
+        "https://idfinance.com/news/id-finance-secures-eur-545-million-from-international-investors/",
+        "https://www.prnewswire.com/news-releases/healthpointcapital-makes-significant-investment-in-ospitek-a-leading-provider-of-surgical-operations-and-patient-flow-intelligence-software-302907132.html",
+        "https://www.prnewswire.com/news-releases/vector-science-and-therapeutics-corp-announces-collaboration-and-safe-investment-in-whoopi-wellness-inc-302906467.html",
+        "https://fundingsouq.com/sa/en/blog/fundingsouq-foodics-strategic-investment-embedded-financing/"
+      ],
+      "candidate_count": 13,
+      "existing_count": 13,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-32.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 192,
+        "monthly_identity_conflicts_remaining": 29,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [],
+      "notes": "赛瑞克官方A1轮、深度云海千万级，各自原行定点修订。Capitolis拆分股债，非与智能两轮金额不拆估，Stenon首关与追加分列。"
+    },
+    {
+      "institution": "达晨创程、深创投",
+      "checked_on": "2026-11-25",
+      "scope": "沿达晨创程公开投资线索核对三凯机电A/B。沿深创投同企业历史记录交叉核对蓝深C。回读上市公司对岩超聚能的出资。",
+      "sources": [
+        "https://a.zhonghua-pe.com/2024/1108/258076.html",
+        "https://www.thecapital.com.cn/news/detail/125215",
+        "https://vc.pedaily.cn/invest/253365.html",
+        "https://vc.pedaily.cn/invest/253299.html",
+        "https://finance.sina.com.cn/jjxw/2023-02-03/doc-imyemiqt3784361.shtml",
+        "https://static.cninfo.com.cn/finalpage/2026-01-31/1224958047.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524861.PDF"
+      ],
+      "candidate_count": 1,
+      "existing_count": 3,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-32.csv",
+      "pending": [
+        {
+          "reason": "达晨创程线索指向三凯A轮。十月B轮的公开公告列出的基金与旧档品牌有差异，继续核直接载体对应。"
+        },
+        {
+          "reason": "蓝深2017天使轮只有年份；公开库把2022 C+资方与2023年初Pre-IPO资方混列，须原始披露后再分笔。劢微11月发行人原发仍缺。"
+        }
+      ],
+      "notes": "老股东变化只作为查找线索。三凯两轮对回已有，蓝深2021年C轮按同期披露。"
     }
   ]
 }

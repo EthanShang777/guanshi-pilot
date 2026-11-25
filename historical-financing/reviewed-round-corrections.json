@@ -110,5 +110,21 @@
       "amount": "2,600万元",
       "investors_json": "[{\"name\":\"嘉兴索道\",\"role\":null,\"amount\":null},{\"name\":\"吴中索道\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:7d1ce74321453f37191cad0f04fbaed5e445c7329efada5392ac925a03623850",
+    "company_id": "co:full_legal_name:fa1db3c4287e5738b86f90451ea99beb",
+    "day": "2026-10-12",
+    "source": "https://celluranics.com/en/news",
+    "expected": {
+      "round": "A轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"普华资本\",\"role\":null,\"amount\":null},{\"name\":\"橡果资本\",\"role\":null,\"amount\":null},{\"name\":\"绿动资本\",\"role\":null,\"amount\":null},{\"name\":\"金山资本集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A1轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"普华资本\",\"role\":null,\"amount\":null},{\"name\":\"橡果资本\",\"role\":null,\"amount\":null},{\"name\":\"绿动资本\",\"role\":null,\"amount\":null},{\"name\":\"金山资本集团\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
