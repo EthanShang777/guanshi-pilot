@@ -994,5 +994,13 @@
   "桂林福达股份有限公司": {
     "brand": "福达股份",
     "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12378315&stockid=603166"
+  },
+  "杭州矩芯创业投资合伙企业（有限合伙）": {
+    "brand": "华夏恒天",
+    "source": "https://api3.cls.cn/share/article/2517084?app=stib&os=android&sv=222"
+  },
+  "成都兴锦未来新兴产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "成都兴锦",
+    "source": "https://www.thepaper.cn/newsDetail_forward_34318269"
   }
 }

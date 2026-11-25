@@ -819,7 +819,7 @@
     "event_id": "financing_event:1703804f22768bc7e704bea21aefc1282526234311766a2baefbe4e5a05e3927",
     "company_id": "co:full_legal_name:774d649799c7c10f68480aebac943d83",
     "day": "2022-12-28",
-    "source": "https://zgcgroup.com.cn/zgcadmin/public/static/file/d6ed783a82f7ff27f9b23abe8430220713.pdf",
+    "source": "https://www.genansco.com/",
     "expected": {
       "round": "天使轮",
       "amount": "未披露",
@@ -827,7 +827,7 @@
     },
     "corrected": {
       "round": "天使轮",
-      "amount": "未披露（已知两家合计2000万元人民币）",
+      "amount": "1亿元人民币",
       "investors_json": "[{\"name\":\"北京中发展金种子创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京中发高精尖臻选创业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中关村创投\",\"role\":null,\"amount\":null},{\"name\":\"亦尚汇成\",\"role\":null,\"amount\":null},{\"name\":\"北京生命科学园创投\",\"role\":null,\"amount\":null},{\"name\":\"昌发展\",\"role\":null,\"amount\":null},{\"name\":\"道远资本\",\"role\":null,\"amount\":null}]"
     }
   },
@@ -1821,6 +1821,38 @@
       "round": "Pre-A+轮",
       "amount": "数千万人民币",
       "investors_json": "[{\"name\":\"太仓市娄东产业发展基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"太仓美湾产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:b2302e8fb47845b7eb913f18268870e9a7d8dcbd6d2efa9dc9271bc10d454144",
+    "company_id": "co:full_legal_name:d0bdcf1bc7a5cf0fc2000dbe0521b964",
+    "day": "2026-09-18",
+    "source": "https://api3.cls.cn/share/article/2517084?app=stib&os=android&sv=222",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"凯洋私募基金\",\"role\":null,\"amount\":null},{\"name\":\"华夏恒天\",\"role\":null,\"amount\":null},{\"name\":\"浙商健投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"元禾璞华\",\"role\":\"领投\",\"amount\":null},{\"name\":\"凯洋私募基金\",\"role\":null,\"amount\":null},{\"name\":\"杭州矩芯创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"浙商健投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:66083c36b6b154aafd661e35a83ce0390f737d875745fdf2f6c5b87ab7a89fae",
+    "company_id": "co:full_legal_name:f0fe78ab4dd83532e06bbce5973da757",
+    "day": "2026-10-20",
+    "source": "https://www.thepaper.cn/newsDetail_forward_34318269",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"成都兴锦\",\"role\":null,\"amount\":null},{\"name\":\"成都科创投集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"成都未来产业天使投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"成都兴锦未来新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
   }
 ]
