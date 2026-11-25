@@ -671,6 +671,64 @@
         }
       ],
       "notes": "A+轮沿用A轮的公司ID。7月24日为公开报道日期。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 月报第 94–105、109、110 项，另核箭启早期两轮",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://microbiotica.com/microbiotica-raises-36-million-48-million-in-series-c-financing-to-advance-pipeline-into-phase-2-clinical-development/",
+        "https://www.crescententerprises.com/news/crescent-enterprises-and-tvs-automobile-solutions-announce-strategic-partnership-to-accelerate-mytvs-growth-across-india-uae-and-mena/",
+        "https://www.businesswire.com/news/home/20261022326587/en/",
+        "https://namespace.so/blog/series-b",
+        "https://jumpcap.com/insights/why-we-invested-in-pluto-security/",
+        "https://hadrian.io/blog/hadrian-40m-raised-to-tackle-the-ai-hacking-cyber-security-crisis",
+        "https://www.prnewswire.com/news-releases/sirona-medical-raises-40m-series-d-as-platform-usage-triples-302909423.html",
+        "https://infisical.com/blog/series-b",
+        "https://www.photonpay.com/hk/news/article/photonpay-raises-40m-series-c-funding-financial-os",
+        "https://www.prnewswire.com/news-releases/miter-the-ai-platform-for-construction-raises-40-million-for-the-built-world-302893778.html"
+      ],
+      "candidate_count": 9,
+      "existing_count": 3,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-11.csv",
+      "pending": [
+        {
+          "company": "Zenzap",
+          "reason": "4,400万美元为公司披露累计筹资，单轮待核。"
+        }
+      ],
+      "screening": {
+        "monthly_entries_unreviewed": 726,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "notes": "Miter首发9月，补历史。Sand.ai十月签约与11月披露为同一轮。East Africa Foods校正为2,600万美元B轮股权。箭启早期两笔已在库并补来源。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "深圳达晨创程投资线索下复查劢微机器人历次融资",
+      "sources": [
+        "https://www.mw-robot.com/about-us",
+        "https://www.puhuacapital.com/index.php/news/info/220",
+        "https://vc.pedaily.cn/invest/460001.html"
+      ],
+      "candidate_count": 5,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-11.csv",
+      "pending": [
+        {
+          "reason": "C轮公开名录的日期不一致，待发行人或直接资方等原始披露。"
+        },
+        {
+          "reason": "星能玄光5亿元是A系列两轮合计，单轮金额及资方待拆。"
+        }
+      ],
+      "notes": "补早期五轮。2025年B2按公司及领投方命名。"
     }
   ]
 }

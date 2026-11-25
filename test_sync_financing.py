@@ -1,6 +1,8 @@
 import json
 import sqlite3
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
 with patch.dict('os.environ', {'ACCOUNT': 'offline-test'}):
@@ -100,6 +102,37 @@ class SyncFinancingTest(unittest.TestCase):
         missing_source = correction | {'source': 'https://example.com/other', 'expected': ['示例基金']}
         self.assertEqual(financing.sync_investor_corrections(self.db, [missing_source]), (0, 0, 1))
         self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'), [row])
+
+
+    def apply_amount_correction(self, correction):
+        with TemporaryDirectory() as directory:
+            path = Path(directory)
+            (path / 'reviewed-amount-corrections.json').write_text(json.dumps([correction]))
+            with patch.object(financing, 'database', return_value=self.db), \
+                 patch('sys.argv', ['sync_financing.py', '--historical-dir', directory]):
+                financing.main()
+
+    def test_reviewed_amount_correction_preserves_other_fields_and_replays(self):
+        original = event('1', '新星科技', 'B轮') | {'amount': '1,700万美元'}
+        unrelated = event('2', '新星科技', 'B+轮', day='2025-10-01') | {'amount': '1,700万美元'}
+        self.assertEqual(financing.sync_rows(self.db, [original, unrelated]), (2, 0, 0))
+        correction = dict(event_id=original['event_id'], company_id='', day='2025-08-01',
+                          round='B轮', source=SOURCE, expected='1,700万美元', amount='2,600万美元')
+        for _ in range(2):
+            self.apply_amount_correction(correction)
+            self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events ORDER BY event_id'),
+                             [original | {'amount': '2,600万美元'}, unrelated])
+
+    def test_reviewed_amount_correction_holds_wrong_snapshot_or_source(self):
+        original = event('1', '新星科技', 'B轮', company_id='company-1') | {'amount': '2,000万美元'}
+        self.assertEqual(financing.sync_rows(self.db, [original]), (1, 0, 0))
+        correction = dict(event_id=original['event_id'], company_id='company-1', day='2025-08-01',
+                          round='B轮', source=SOURCE, expected='1,700万美元', amount='2,600万美元')
+        self.apply_amount_correction(correction)
+        correction['expected'] = original['amount']
+        self.apply_amount_correction(correction | {'source': 'https://example.com/missing'})
+        self.apply_amount_correction(correction | {'day': '2025-08-02'})
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'), [original])
 
 
 if __name__ == '__main__':
