@@ -1,0 +1,44 @@
+{
+  "reviews": [
+    {
+      "institution": "毅达资本",
+      "checked_on": "2026-11-25",
+      "scope": "投中榜投资案例和投中网旧报道，13 组抽样，年份 2019 至 2026",
+      "sources": [
+        "https://www.chinaventure.com.cn/rank/189/2913.html",
+        "https://www.chinaventure.com.cn/news/108-20230410-374600.html",
+        "https://m.chinaventure.com.cn/news/114-20260331-390746.html"
+      ],
+      "candidate_count": 6,
+      "existing_count": 6,
+      "pending_count": 1,
+      "batch": "2026-11-25-addor.csv",
+      "pending": [
+        {
+          "company": "象生科技",
+          "reason": "两轮同称天使+轮，金额与资方按合计披露，需逐轮核证",
+          "source": "https://www.chinaventure.com.cn/news/111-20250925-388187.html"
+        }
+      ]
+    },
+    {
+      "institution": "启明创投",
+      "checked_on": "2026-11-25",
+      "scope": "2025 年 8 月机构月报融资栏目，7 组",
+      "sources": [
+        "https://www.qimingvc.com/cn/news/202508-QM-cn"
+      ],
+      "candidate_count": 5,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-qiming.csv",
+      "pending": [
+        {
+          "company": "梅卡曼德",
+          "reason": "已有 Pre-IPO 实缴记录，另有媒体近 5 亿元口径，须按招股书核对新增股权、老股和交割日期",
+          "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082400018_c.pdf"
+        }
+      ]
+    }
+  ]
+}
