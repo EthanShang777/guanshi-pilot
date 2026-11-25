@@ -103,29 +103,20 @@ def research_pages(deals):
         shutil.copyfile(asset, OUT/asset)
     home = OUT/'index.html'
     html = home.read_text()
-    if 'class="research-entry"' not in html:
-        html = html.replace('<main>', '<main class="home-research"><link rel="stylesheet" href="workspace.css">'+entry, 1)
-        import re
-        html = re.sub(r'(<section class="arc">.*?</section>)',r'<details><summary>按赛道浏览</summary>\1</details>',html,count=1,flags=re.S)
-        html = html.replace('<p class="search-entry">','<h2>融资时间线</h2><p class="search-entry">',1)
-        latest = {d['href']: d for d in deals}
-        def row_actions(match):
-            row = match.group()
-            deal_link = re.search(r'href="(deal\.html\?id=[a-f0-9]+)"',row)
-            d = latest.get(deal_link.group(1)) if deal_link else None
-            if not d or not d['sub']:
-                return row
-            params = {'sector':d['sector'], 'sub':d['sub']}
-            peers = link('workspace.html?'+urlencode(dict(params, view='companies')), '比较同行')
-            buyers = link('workspace.html?'+urlencode(dict(params, view='institutions')), '查相关机构')
-            return row.replace('</th>', '<small class="row-actions">'+peers+' · '+buyers+'</small></th>',1)
-        html = re.sub(r'<tr><th scope="row">.*?</tr>', row_actions, html)
-        home.write_text(html)
+    import re
+    if '<main class="home-research">' in html:
+        html = html.replace('<main class="home-research"><link rel="stylesheet" href="workspace.css">'+entry, '<main>', 1)
+        html = html.replace('<h2>融资时间线</h2><p class="search-entry">','<p class="search-entry">',1)
+        html = re.sub(r'<details><summary>按赛道浏览</summary>(<section class="arc">.*?</section>)</details>',r'\1',html,count=1,flags=re.S)
+        home.write_text(re.sub(r'<small class="row-actions">.*?</small>', '', html))
     shell = (OUT/'search.html').read_text().replace('融资交叉检索 · 观势','研究工作区 · 观势').replace('<main>','<main class="workspace"><link rel="stylesheet" href="workspace.css">')
     shell = shell.replace('<h1>融资交叉检索</h1>', '<h1>研究工作区</h1>').replace(BAR, '').replace('<script src="within-page.js"></script>', '')
     shell = shell.replace('<form id="archive-form">',entry+'<p id="work-context"></p><form id="archive-form">')
     shell = shell.replace('<script defer src="master-search.js">','<section id="shortlist"></section><script src="workspace.js"></script><script defer src="master-search.js?v=workspace1">')
+    shell = shell.replace('<main class="workspace">', '<main class="workspace"><script>if(!location.search)location.replace("company-research.html")</script>')
     (OUT/'workspace.html').write_text(shell)
+    from company_research import publish
+    publish(OUT,deals)
 
 def build(rows):
     OUT.mkdir(exist_ok=True)

@@ -1,0 +1,32 @@
+from collections import defaultdict
+from hashlib import sha256
+from pathlib import Path
+import json
+import shutil
+
+
+def publish(out, deals):
+    data = out/'records'
+    groups = defaultdict(dict)
+    for d in sorted(deals, key=lambda r: r['day'] or '', reverse=True):
+        if d['sub']:
+            groups[(d['sector'],d['sub'])].setdefault(d['companyHref'], [
+                d['companyHref'], d['company'], d['day'], d['stage'], d['amount'], d['href']])
+    topics = {}
+    for (sector,sub), peers in groups.items():
+        key = sha256((sector+'\n'+sub).encode()).hexdigest()[:20]
+        topics.setdefault(sector,{})[sub] = key
+        (data/f'peers-{key}.json').write_text(json.dumps(list(peers.values())[:6],ensure_ascii=False))
+    (data/'research-topics.json').write_text(json.dumps(topics,ensure_ascii=False))
+    for asset in ('company-research.css','company-research.js'):
+        shutil.copyfile(asset,out/asset)
+    shell = (out/'search.html').read_text()
+    head, rest = shell.split('<main>',1)
+    head = head.replace('融资交叉检索 · 观势','公司研究台 · 观势').replace(' aria-current="location"', '')
+    (out/'company-research.html').write_text(head+Path('company-research-body.html').read_text()+'</html>')
+    for path in out.glob('*.html'):
+        html = path.read_text()
+        marker = '<nav aria-label="栏目">'
+        if marker in html and 'href="company-research.html"' not in html:
+            current = ' aria-current="page"' if path.name=='company-research.html' else ''
+            path.write_text(html.replace(marker,marker+f'<a href="company-research.html"{current}>公司研究台</a>',1))

@@ -30,6 +30,7 @@
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
       for(const url of row.sources){const p=el('p','');p.append(link(url,'来源 · '+new URL(url).hostname));root.append(p);}
     }else if(kind==='company'){
+      root.append(link('company-research.html?id='+id,'打开公司研究台 →'),el('span','　'));
       if(row.primary){
         const adjacent=new URLSearchParams({view:'institutions',sector:row.primary,client:id});
         if(row.sub)adjacent.set('adjacent',row.sub);
