@@ -878,5 +878,53 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"北京奇绩创坛一期创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京首业君辉投资中心（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:2ca829ea2cf993089e489a0e6ba59b793e4d89a27b9e43f0f1aef91628d8bd7c",
+    "company_id": "co:full_legal_name:ab466fd37b874e1bf4731283f4de0d2c",
+    "day": "2021-12-31",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7762996&stockid=688084",
+    "expected": {
+      "round": "定向增发",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村创投\",\"role\":null,\"amount\":null},{\"name\":\"前海中船智慧海洋基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "9800万元人民币",
+      "investors_json": "[{\"name\":\"前海中船（深圳）智慧海洋私募股权基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京中发助力壹号投资基金（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:467925375a94d03a19511a9967da1d7986813677b89ffb745660319f6b0305a0",
+    "company_id": "co:cn_uscc:3dc8b40a9e93aa9e67c1d6807d90fc7b",
+    "day": "2024-06-03",
+    "source": "https://m.cls.cn/detail/1801345",
+    "expected": {
+      "round": "B轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"上海浦东引领区国泰君安科创一号私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海浦东引领区投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海浦东引领区海通私募投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中信建投资本\",\"role\":null,\"amount\":null},{\"name\":\"交银投资\",\"role\":null,\"amount\":null},{\"name\":\"交银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"京国瑞投资\",\"role\":null,\"amount\":null},{\"name\":\"人保科创私募股权投资基金（武汉）中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"人保资本\",\"role\":null,\"amount\":null},{\"name\":\"北京中发锐芯投资管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京京国管股权投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"厦门润信瑞泰投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"国泰君安创投\",\"role\":null,\"amount\":null},{\"name\":\"天津弘锐企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"工融金投四号（天津）股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"工银资本\",\"role\":null,\"amount\":null},{\"name\":\"弘毅投资\",\"role\":null,\"amount\":null},{\"name\":\"沪岳智能科技产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"浦东资本\",\"role\":null,\"amount\":null},{\"name\":\"海尔资本\",\"role\":null,\"amount\":null},{\"name\":\"海通开元\",\"role\":null,\"amount\":null},{\"name\":\"碧桂园创投\",\"role\":null,\"amount\":null},{\"name\":\"福建三明市沪明智能股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"西安西高投辰锐企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"西高投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "约40亿元人民币",
+      "investors_json": "[{\"name\":\"上海浦东引领区国泰君安科创一号私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海浦东引领区投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海浦东引领区海通私募投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中信建投资本\",\"role\":null,\"amount\":null},{\"name\":\"交银投资\",\"role\":null,\"amount\":null},{\"name\":\"交银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"京国瑞投资\",\"role\":null,\"amount\":null},{\"name\":\"人保科创私募股权投资基金（武汉）中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"人保资本\",\"role\":null,\"amount\":null},{\"name\":\"北京中发锐芯投资管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京京国管股权投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"厦门润信瑞泰投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"国泰君安创投\",\"role\":null,\"amount\":null},{\"name\":\"天津弘锐企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"工融金投四号（天津）股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"工银资本\",\"role\":null,\"amount\":null},{\"name\":\"弘毅投资\",\"role\":null,\"amount\":null},{\"name\":\"沪岳智能科技产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"浦东资本\",\"role\":null,\"amount\":null},{\"name\":\"海尔资本\",\"role\":null,\"amount\":null},{\"name\":\"海通开元\",\"role\":null,\"amount\":null},{\"name\":\"碧桂园创投\",\"role\":null,\"amount\":null},{\"name\":\"福建三明市沪明智能股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"西安西高投辰锐企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"西高投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8c37bd9ca550f1003e294d52df48324f7e117669653c6270fba1801c31729bb0",
+    "company_id": "co:full_legal_name:e454c456119bd7f6d053da4fc344450f",
+    "day": "2023-12-01",
+    "source": "https://vc.pedaily.cn/invest/295419.html",
+    "expected": {
+      "round": "B+轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"中关村创投\",\"role\":null,\"amount\":null},{\"name\":\"中关村发展前沿基金\",\"role\":null,\"amount\":null},{\"name\":\"亦庄国投\",\"role\":null,\"amount\":null},{\"name\":\"元航资本\",\"role\":null,\"amount\":null},{\"name\":\"创丰资本\",\"role\":null,\"amount\":null},{\"name\":\"合创资本\",\"role\":null,\"amount\":null},{\"name\":\"国投泰康\",\"role\":null,\"amount\":null},{\"name\":\"海峡基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"北京远见前沿创发创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京屹唐创欣创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京元航硬科技创业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"创丰资本\",\"role\":null,\"amount\":null},{\"name\":\"合创资本\",\"role\":null,\"amount\":null},{\"name\":\"国投泰康\",\"role\":null,\"amount\":null},{\"name\":\"海峡基金\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
