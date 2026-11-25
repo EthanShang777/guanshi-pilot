@@ -135,7 +135,7 @@
     {
       "institution": "2026 年 10 月公开融资查漏",
       "checked_on": "2026-11-25",
-      "scope": "投资界五期公开周榜的 10 月报道及 RecodeX 10 月月报第 178、184、194 项；鲸准免费列表未获得 10 月覆盖",
+      "scope": "投资界五期公开周榜的 10 月报道及 RecodeX 10 月月报第 178、186、194 项；鲸准免费列表未获得 10 月覆盖",
       "sources": [
         "https://www.pedaily.cn/weeklyinvest/20260927/",
         "https://www.pedaily.cn/weeklyinvest/20261004/",
@@ -155,7 +155,9 @@
         "preliminary_name_no_hit": 40,
         "unreviewed_report_leads": 93,
         "monthly_report_entries_sampled": 3,
-        "monthly_entries_outside_period": 1
+        "monthly_entries_outside_period": 1,
+        "monthly_index_links": 802,
+        "monthly_entries_pending_verification": 799
       },
       "pending": [
         {
