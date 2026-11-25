@@ -2071,6 +2071,79 @@
       "pending_count": 2,
       "batch": "2026-11-25-october-public-29.csv",
       "notes": "深创投组合动态确认3N及惠和，英特B轮已收录并补原文。蓝深本笔为中金资本。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第561—595项",
+      "sources": [
+        "https://a16z.com/announcement/investing-in-conway-the-creator-of-underdog/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000191863.html",
+        "https://www.prnewswire.com/news-releases/moyom-biotech-secures-financing-from-cathay-capital-to-accelerate-global-growth-in-regenerative-aesthetics-302891333.html",
+        "https://www.reactor.inc/blog/reactor-launch",
+        "https://www.reactor.inc/blog/nvidia-sapphire-ventures-join-reactor-series-a",
+        "https://www.dtcc.com/press-releases/2026/dtcc-and-icapital-collaborate-to-advance-private-market-infrastructure",
+        "https://www.okx.com/en-us/learn/strategic-investment-oct-2026",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_dadf071b4b154a858f9d9a46f540ff63.html"
+      ],
+      "candidate_count": 24,
+      "existing_count": 4,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-30.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 243,
+        "monthly_identity_conflicts_remaining": 26,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "RobCo",
+          "reason": "10月披露含员工老股出售；新股占比和公司实际收款待证。1月1亿美元C轮由公司分开确认。",
+          "source": "https://www.rob.co/resources/news/press/robco-becomes-a-unicorn"
+        },
+        {
+          "company": "TRADEFUNDED",
+          "reason": "发布的是公开募资启动，未取得交割、募集总额或公司收款的证据。",
+          "source": "https://www.prnewswire.com/news-releases/tradefunded-opens-its-company-to-community-investors-on-republic-302899377.html"
+        },
+        {
+          "company": "卫澜深海",
+          "reason": "10月8日法定主体天使+++已在库，月报标题为天使++++。需要明确两笔日期及资方拆分后再判。",
+          "source": "https://www.aigbk.com/article/weilan_deep_sea_angel_plus_plus_plus_financing/"
+        }
+      ],
+      "notes": "Reactor五月首轮与十月新资方追加分开，追加金额未披露。Factory九月发行方披露和十月Menlo出资分开。Aventra股债总额没有作为股权金额。"
+    },
+    {
+      "institution": "达晨创程",
+      "checked_on": "2026-11-25",
+      "scope": "企查查免费界面确认基金的对外投资及持股变化线索，沿中科天工、江苏优众微纳、听象科技回查发行人、投资方和公开披露。",
+      "sources": [
+        "https://www.qcc.com/firm/81208596b39dc2a2bba1ca86f17fc4f9.html",
+        "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062389.PDF",
+        "https://www.chinaventure.com.cn/flash/20230811-86082.html",
+        "https://stock.stockstar.com/RB2026092100027551.shtml",
+        "https://bydrug.pharmcube.com/news/detail/9a62fcf2e3ece2e93eba10a8c9313b6c",
+        "https://www.shangdaovc.cn/h-nd-14591.html",
+        "https://vc.pedaily.cn/invest/460001.html"
+      ],
+      "candidate_count": 0,
+      "existing_count": 4,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-30.csv",
+      "pending": [
+        {
+          "reason": "中科天工于10月出现持股比例变化，9月B轮已有，两者间的关系需独立融资披露。"
+        },
+        {
+          "reason": "优众微纳、听象科技同期融资已有；持股变动只作为追查线索。听象A+与同期新闻A2属于同一笔，另查原轮次用语。"
+        },
+        {
+          "reason": "劢微机器人11月16日的外部披露对融资轮次有C轮和B+之别，11月18日基金档案的变更只能提供线索，继续核实公司原稿与实际增资。"
+        }
+      ],
+      "notes": "持股比例变动是融资查漏线索，入库依据为独立可追溯的交易披露。"
     }
   ]
 }
