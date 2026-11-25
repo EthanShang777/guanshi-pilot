@@ -2411,6 +2411,48 @@
         "catalog_unreviewed_after_stage": 0
       },
       "notes": "累计找到10笔十月缺项和6笔更早融资。新月之暗面G轮保留未披露金额。康冠金额按出资方字段入档。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第647—690项",
+      "sources": [
+        "https://rivero.tech/blog/elevator-ventures-strategic-investor-rivero-cee",
+        "https://www.skeletontech.com/news/skeleton-technologies-secures-strategic-investment-led-by-siemens-to-expand-us-manufacturing",
+        "https://www.prnewswire.com/news-releases/ats-energy-secures-new-investment-to-accelerate-commercial-deployment-and-meet-growing-demand-for-waste-heat-power-technology-302908938.html",
+        "https://www.sec.gov/Archives/edgar/data/2126585/000212658526000003/xslFormDX01/primary_doc.xml",
+        "https://nithio.com/nithio-expands-its-e-mobility-portfolio-with-investment-in-max/",
+        "https://betakit.com/bia-health-raises-2-15-million-for-ai-to-reduce-unnecessary-medical-interventions/",
+        "https://news.pedaily.cn/202610/570228.shtml",
+        "https://m.jiemian.com/article/15193129.html"
+      ],
+      "candidate_count": 22,
+      "existing_count": 12,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-38.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 148
+      },
+      "notes": "完成44个候选。其中5笔净新增十月、17笔历史。筛掉产品稿，金额按单轮与股债区分。"
+    },
+    {
+      "institution": "广州四三九九信息科技有限公司、SBI Holdings",
+      "checked_on": "2026-11-25",
+      "scope": "对回深空之序股东和四三九九档案。按SBI公开的支付投资反查发行人报告，关联两家公司。",
+      "sources": [
+        "https://www.qcc.com/firm/4d1b4d76a63b7a19020210346a7074f3.html",
+        "https://www.qcc.com/firm/6749a2db9500298945ec789b21b607c6.html",
+        "https://www.sohu.com/a/1069631215_122709106",
+        "https://www.36kr.com/p/4027938341867904",
+        "https://finance.eastmoney.com/a/202607023791668451.html",
+        "https://www.prnewswire.com/apac/news-releases/dtcpay-welcomes-sbi-group-as-strategic-investor-extending-series-a-to-us25m-302881922.html",
+        "https://insights.digift.io/digift-closes-strategic-round-to-scale-institutional-grade-rwa-infrastructure/"
+      ],
+      "candidate_count": 3,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-38.csv",
+      "notes": "四三九九历史投资列表显示57项计数。"
     }
   ]
 }

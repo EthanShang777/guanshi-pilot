@@ -151,5 +151,32 @@
     "source": "https://m.chinaventure.com.cn/news/114-20261008-393522.html",
     "expected": "数千万人民币",
     "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:d1dca0603a8f67bfd52726e9a17ee1efcbc534c40528ac606e2185ee66e8c788",
+    "company_id": "co:full_legal_name:1cde8a4ac040369c67ab0536c3a6df3a",
+    "day": "2026-10-14",
+    "round": "Pre-A+轮",
+    "source": "https://finance.eastmoney.com/a/202610153897182347.html",
+    "expected": "",
+    "amount": "亿元级人民币"
+  },
+  {
+    "event_id": "financing_event:077f822a37ab0382e2413abdbcabd9671046089fe25f2e7bfb64748a3b0ad08a",
+    "company_id": "co:full_legal_name:8a549808e2e3867cbfb25cf17891dc03",
+    "day": "2026-10-14",
+    "round": "Pre-A轮",
+    "source": "https://news.pedaily.cn/202610/570228.shtml",
+    "expected": "数亿元人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:aa9898728f137adc2759004aab611ee982dea469187e7ae07bd2dc80ab8075df",
+    "company_id": "",
+    "day": "2026-10-15",
+    "round": "种子+轮",
+    "source": "https://m.jiemian.com/article/15193129.html",
+    "expected": "数亿人民币",
+    "amount": "未披露"
   }
 ]
