@@ -302,5 +302,21 @@
       "amount": "1,900万美元",
       "investors_json": "[{\"name\":\"Ribbit Capital\",\"role\":\"领投\",\"amount\":null},{\"name\":\"Baseline Ventures\",\"role\":null,\"amount\":null},{\"name\":\"DCM Ventures\",\"role\":null,\"amount\":null},{\"name\":\"Jump Crypto\",\"role\":null,\"amount\":null},{\"name\":\"Figure Technology Solutions\",\"role\":\"参与\",\"amount\":\"30万美元\"}]"
     }
+  },
+  {
+    "event_id": "public:historical-disclosure:c330706cb5943d1ddc6fcff",
+    "company_id": "co:historical-disclosure:22e59b1656f104a5bc3e2fa",
+    "day": "2026-10-05",
+    "source": "https://www.business-standard.com/companies/news/travclan-raises-5-million-from-flipkart-august-one-and-trifecta-capital-126102201086_1.html",
+    "expected": {
+      "round": "战略融资",
+      "amount": "500万美元",
+      "investors_json": "[{\"name\":\"Flipkart\",\"role\":null,\"amount\":null},{\"name\":\"August One\",\"role\":null,\"amount\":null},{\"name\":\"Trifecta Capital\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "混合融资",
+      "amount": "500万美元",
+      "investors_json": "[{\"name\":\"Flipkart\",\"role\":null,\"amount\":null},{\"name\":\"August One\",\"role\":null,\"amount\":null},{\"name\":\"Trifecta Capital\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

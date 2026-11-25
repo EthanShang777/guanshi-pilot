@@ -2500,6 +2500,50 @@
       "pending_count": 1,
       "batch": "2026-11-25-october-public-39.csv",
       "notes": "金粒门企查查显示三项融资，鲸准免费摘要展示一项。不二资本档案列19个项目和27笔事件，逐笔引用另行核实的公开披露。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第729—752项",
+      "sources": [
+        "https://tether.io/news/tether-invests-in-efy-finance-to-accelerate-institutional-stablecoin-usage-in-latam/",
+        "https://www.allegion.com/corp/en/ventures/news-insights/2026/ambient-ai-investment.html",
+        "https://via.ritzau.dk/pressemeddelelse/15232818/lumilab-raises-funding-led-by-giant-ventures-to-bring-applied-intelligence-to-energy-infrastructure",
+        "https://www.cnfin.com/gs-lb/detail/20261021/4484511_1.html",
+        "https://www.fiveelms.com/dashfuel-announces-growth-investment-from-five-elms-capital/",
+        "https://www.business-standard.com/companies/start-ups/pharmeasy-veterans-raise-63-cr-for-home-and-kitchen-startup-chapter-home-126102201092_1.html",
+        "https://www.prnewswire.com/news-releases/zwitterco-announces-strategic-investment-from-ecolab-to-drive-water-circularity-302916968.html",
+        "https://naise.eu/koerber-invests-in-naise/"
+      ],
+      "candidate_count": 19,
+      "existing_count": 13,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-40.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 86
+      },
+      "notes": "逐项核对24个候选，有具名历史投资的在同一公司页关联。"
+    },
+    {
+      "institution": "不二资本、Allegion Ventures",
+      "checked_on": "2026-11-25",
+      "scope": "从机构档案提取祥禾饽饽铺和Flash Group线索。查对祥禾免费公司档案的首次持股记录、投资机构公告、Flash交易律师和历年融资报告。Allegion两次投资用同一机构官网核对。",
+      "sources": [
+        "https://www.qcc.com/investor/358b01e7a11ecc33265b8a621942ad92.html",
+        "https://www.qcc.com/firm/a1c73fc8985f0f965b27c01494363437.html",
+        "https://www.cmccap.com/en/news/detail/135",
+        "https://finance.sina.cn/2023-12-06/detail-imzwziae6260634.d.html",
+        "https://www.cooley.com/news/coverage/2021/2021-08-03-flash-group-credited-as-thailands-first-unicorn-with-series-d-and-e-funding",
+        "https://www.tcp.com/en/updates/tcp-updates/tcp-updates/211/flash-big-deal-gains-investment-from-buer-capital-and-scb-10x-with-ewdp-or-durbell-and-krungsri-finnovate-invest-more-in-series-e-with-total-valued-over-us150m",
+        "https://startupsg.gov.sg/public/2024-04/Singapore%20Venture%20Funding%20Report%202023.pdf",
+        "https://www.allegion.com/corp/en/ventures/news-insights/2026/ambient-ai-investment.html",
+        "https://www.allegion.com/corp/en/ventures/news-insights/2023/ambient-ai-funding.html"
+      ],
+      "candidate_count": 7,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-40.csv",
+      "notes": "祥禾金额取领投方首轮披露，Flash E轮总额取律师，F轮按报告；不混淆跨轮金额。"
     }
   ]
 }
