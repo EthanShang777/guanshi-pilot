@@ -2305,6 +2305,37 @@
       "pending_count": 7,
       "batch": "2026-11-25-jingdata-free-sample.csv",
       "notes": "Vero Security与Xlue同笔已经上线。VectorY的7450万欧元含3000万欧元欧洲投资银行可转贷款，A轮追加股权为4450万欧元。OpenVault公告为200万美元种子、投后2000万。Kardi Ai在11月11日披露530万欧元A轮，由资方和律师确认。天云创鸿按11月24日近亿元的披露。余7条保留线索，包括等待交割的ams OSRAM、意向备忘录的生研生命、签约进展的中国电子云，以及吉泰主体冲突、长坂老股与增资需区分。免费首屏无法覆盖完整历史月。"
+    },
+    {
+      "institution": "十月公开交易目录对照",
+      "checked_on": "2026-11-25",
+      "scope": "读取可公开翻页的2026年10月完整117行，经名称与轮次初筛，并深入复核本批16条。",
+      "candidate_count": 5,
+      "existing_count": 12,
+      "pending_count": 1,
+      "batch": "2026-11-25-koocool-october.csv",
+      "sources": [
+        "https://www.usv.com/writing/tolan",
+        "https://www.36kr.com/newsflashes/4042354643571842",
+        "https://finance.eastmoney.com/a/202610153897181816.html",
+        "https://www.cs.com.cn/ssgs/01/2026/10/10/detail_2026101010043849.html",
+        "https://news.pedaily.cn/20261029/141863.shtml",
+        "https://www.36kr.com/p/4043477378880388",
+        "https://api3.cls.cn/share/article/2515654?app=stib&os=android&sv=232",
+        "https://news.pedaily.cn/202610/570486.shtml",
+        "https://m.chinaventure.com.cn/news/113-20261019-393675.html",
+        "https://eu.36kr.com/zh/p/4019684113371008",
+        "https://eu.36kr.com/zh/newsflashes/4026415302135684",
+        "https://finance.eastmoney.com/a/202610123892797560.html"
+      ],
+      "screening": {
+        "source_rows": 117,
+        "source_pages": 4,
+        "nearby_round_name_hits": 49,
+        "manually_dispositioned": 16,
+        "not_manually_dispositioned": 101
+      },
+      "notes": "三笔十月净新增，顺带核实Tolan两笔既往。公司和基金关系以达晨相关监管材料为线索。元材新界跟君联的融资已有事件，此次补独立原文。太一量生和细胞壁两个目录金额不能作为本轮金额。"
     }
   ]
 }
