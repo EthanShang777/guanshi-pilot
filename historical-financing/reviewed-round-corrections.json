@@ -1262,5 +1262,37 @@
       "amount": "未单独披露",
       "investors_json": "[{\"name\":\"上海生物医药产业股权投资\",\"role\":null,\"amount\":null},{\"name\":\"国寿股权\",\"role\":null,\"amount\":null},{\"name\":\"国开科创\",\"role\":null,\"amount\":null},{\"name\":\"国方创新\",\"role\":null,\"amount\":null},{\"name\":\"头部生物医药产业方\",\"role\":null,\"amount\":null},{\"name\":\"瑞力投资\",\"role\":null,\"amount\":null},{\"name\":\"达晨财智\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:6b01c561d0660647b4390e483f449859a86a85c8ceb99ae4da36c13af2568ab8",
+    "company_id": "co:full_legal_name:9c9df335f954eae4650c16274d0a470d",
+    "day": "2026-10-08",
+    "source": "https://shangdaovc.icoc.me/h-nd-14703.html",
+    "expected": {
+      "round": "天使+++轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"元禾原点\",\"role\":null,\"amount\":null},{\"name\":\"深创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使++++轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"深创投\",\"role\":null,\"amount\":null},{\"name\":\"元禾原点\",\"role\":null,\"amount\":null},{\"name\":\"国策资本\",\"role\":null,\"amount\":null},{\"name\":\"英诺天使基金\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:efdd7180897b3be013718ec9dd202b3f018fdb57c063e340d7c0c73717728b3b",
+    "company_id": "co:full_legal_name:036840b6b03ab822288bd3c528a26207",
+    "day": "2026-10-08",
+    "source": "https://www.qcc.com/firm/126ded301a83be569537d20a28846507.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"SEEFund无限基金\",\"role\":null,\"amount\":null},{\"name\":\"常见投资\",\"role\":null,\"amount\":null},{\"name\":\"星连资本\",\"role\":null,\"amount\":null},{\"name\":\"水木清华校友种子基金\",\"role\":null,\"amount\":null},{\"name\":\"禧筠资本\",\"role\":null,\"amount\":null},{\"name\":\"英诺天使基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京英诺未来科技创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"木华水清（上海）创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"常见未来（北京）科技创业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"无限启航海河（天津）创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"天津星连健荣海河创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"杭州禧筠股权投资基金管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
