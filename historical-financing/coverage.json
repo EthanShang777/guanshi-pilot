@@ -1125,7 +1125,103 @@
       "pending_count": 1,
       "batch": "2026-11-25-october-public-17.csv",
       "notes": "阅星曈A轮（追加）为独立交割，先前A轮只获合计额，单轮空。迅路创新本批用公开报道日期，实际年初交割，早期独立轮次尚待逐笔对回。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第239–272项的34个待核候选",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://www.fenwick.com/insights/experience/fenwick-represents-imio-12m-seed-funding",
+        "https://www.goodweek.com/en/blog/goodweek-leve-12-millions-de-dollars",
+        "https://www.adara.vc/stories/why-we-invested-in-goodweek",
+        "https://entrackr.com/news/the-pant-project-raises-rs-109-cr-in-series-b-led-by-mirae-asset-12688468",
+        "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-the-pant-project-109-crore-series-b-fundraise",
+        "https://www.businesswire.com/news/home/20261020814345/en/",
+        "https://www.hankyung.com/article/202610017635O",
+        "https://www.fnnews.com/news/202610010838171449",
+        "https://sonilo.com/blog/industry/sonilo-raises-11-million-b-capital-variety",
+        "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
+        "https://www.readily.ai/newsroom/readily-raises-11-million-series-a",
+        "https://www.prnewswire.com/news-releases/veckta-raises-11-million-to-build-the-buyers-side-of-the-onsite-solar-and-storage-market-302913846.html",
+        "https://www.kontempo.io/en/blog/kontempo-levanta-10-5-millones-de-dolares",
+        "https://portageinvest.com/news/kontempo-raises-10-5-million-in-series-a-funding-to-build-the-ai-powered-operating-system-for-industrial-credit",
+        "https://entrackr.com/news/elevation-capital-leads-105-mn-series-a-round-in-spill-games-12674083",
+        "https://finance.yahoo.com/healthcare/articles/blue-arbor-technologies-raises-10-130500054.html?.tsrc=rss",
+        "https://www.crg.eu/en/news/crg-spin-allox-raises-us105-million-find-new-drug-targets-inside-proteins",
+        "https://www.wsgr.com/en/insights/wilson-sonsini-advises-foundational-on-pound82-million-pre-seed-financing.html",
+        "https://finalfrontier.vc/newsroom/1102026",
+        "https://news.smm.cn/live/detail/IUJNR57SXGEYDOS3RWCXCNLA54V24EBJRXOBGXI",
+        "https://renewablesnow.com/news/us-start-up-mana-battery-raises-usd-10m-in-seed-funding-1303109/",
+        "https://parakeethealth.com/blog/parakeet-health-raises-10-million-series-a-following-10x-growth-and-rapid-enterprise-adoption",
+        "https://www.fenwick.com/insights/experience/fenwick-represents-upsmith-10m-series-funding",
+        "https://quanfluence.com/quanfluence-raises-usd-10-million-led-by-chiratae-ventures-to-build-a-full-stack-photonic-quantum-computer/",
+        "https://cdn-website.partechpartners.com/news/netsec-raises-more-than-10m-to-grow-its-ai-native-solution-for-cybersecurity-and-it",
+        "https://www.chariotclaims.com/resources/resources-chariot-series-a-what-it-means-for-consumers",
+        "https://www.lawnext.com/2026/10/chariot-claims-raises-10m-series-a-to-fuel-mass-consumer-arbitrations.html",
+        "https://www.prnewswire.com/news-releases/fission-raises-10m-series-a-led-by-pantera-capital-to-bring-liquidity-to-digital-private-markets-302908670.html",
+        "https://www.startup.eu/investments/skyfly-technologies-10-m-seed-10-2026",
+        "https://techcrunch.com/2026/10/26/matiks-raises-10m-to-expand-its-math-and-puzzle-gaming-platform/",
+        "https://www.prnewswire.com/news-releases/omnichat-raises-us10m-series-a-led-by-openspace-capital-to-scale-ai-agent-platform-and-drive-global-expansion-302919732.html",
+        "https://neuronindustries.com/press/neuron-industries-seed-round",
+        "https://www.prnewswire.com/news-releases/kanu-emerges-from-stealth-to-build-agi-for-the-enterprise-302893866.html",
+        "https://www.uvcpartners.com/blog/eu10-million-for-kuro-germanys-largest-general-contractors-bet-on-this-berlin-based-ai-company-",
+        "https://www.moneymakers.com/articles/news/kuro-10-million-euro-seed-round-construction-ai-2026",
+        "https://www.wsgr.com/en/insights/wilson-sonsini-advises-zenithon-ai-on-dollar10-million-seed-financing.html",
+        "https://economictimes.indiatimes.com/tech/funding/gaming-startup-spill-games-raises-3-1-million-from-centre-court-capital-and-peercapital/articleshow/130434162.cms",
+        "https://www.minervahumanoids.com/press/minerva-humanoids-raises-10m-pre-seed-led-by-general-catalyst",
+        "https://www.axios.com/pro/fintech-deals/2026/10/28/sava-10m-seed-ai-trust-administration",
+        "https://gradientvc.substack.com/p/human-in-the-loop-october-2026"
+      ],
+      "candidate_count": 29,
+      "existing_count": 4,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-18.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 559,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Rebel Audio",
+          "reason": "1,000万美元为融资目标，待核实际认购及交割。"
+        },
+        {
+          "company": "Bind AI",
+          "reason": "发行人说累计1,000万美元，未给单笔金额或一个明确轮次。"
+        }
+      ],
+      "notes": "25笔归入10月，三笔首发归入9月，另补Spill Games早期种子轮。TrashLab、Photon Bridge、Minerva和Sava信托已覆盖。"
+    },
+    {
+      "institution": "顺为资本",
+      "checked_on": "2026-11-25",
+      "scope": "沿顺为8月回顾补查华秋C、C+和D，以及艾欧智能；追加迅路同日报道和主体线索。",
+      "sources": [
+        "https://shunwei.com/news/2804",
+        "https://www.jjckb.cn/2021-03/01/c_139775313.htm",
+        "https://stcn.com/article/detail/415522.html",
+        "https://finance.sina.com.cn/tech/roll/2026-08-05/doc-inimfshr4726491.shtml",
+        "https://io-ai.tech/zh/news/",
+        "https://finance.eastmoney.com/a/202608113838025842.html"
+      ],
+      "candidate_count": 4,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-18.csv",
+      "notes": "华秋3笔同属官网所示同一发行人，艾欧为8月11日发行人首发。迅路同日报道具名A+，和资方轮次口径仍待对回。",
+      "pending": [
+        {
+          "company": "华秋",
+          "reason": "11月C+追投是否为独立交割待核。"
+        },
+        {
+          "company": "迅路创新",
+          "reason": "同笔交易，媒体A+与资方的未编号轮次口径待核。"
+        }
+      ]
     }
   ]
 }
-
