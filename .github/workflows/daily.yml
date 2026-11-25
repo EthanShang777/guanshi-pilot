@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - 'historical-financing/*.csv'
+      - 'publish_master.py'
+      - 'master-*.js'
+      - 'company-history.js'
   workflow_dispatch:
     inputs:
       reconcile_all:

@@ -97,6 +97,7 @@ def build(rows):
     history=json.loads(Path('history-public.json').read_text())
     old_history=defaultdict(list)
     for h in history:old_history[h['source']].append(h)
+    profiles = {p["name"]: p for p in json.loads(Path("research-library.json").read_text())["profiles"]}
     companies={}; institutions={}; deals=[]; legacy={}; refs=defaultdict(list)
     groups=defaultdict(list); buckets=defaultdict(dict); names=defaultdict(set)
     def entity(groups,kind,key,name):
@@ -173,10 +174,11 @@ def build(rows):
         for k,entity_row in entities.items():
             items=entity_row['events']
             for sector in dict.fromkeys(d['sector'] for d in items):by_sector[sector].append(entity_row)
-            parts[k[:2]][k]={'name':entity_row['name'],'events':[[d['href'],d['company'],d['day'],d['stage'],d['amount']] for d in items]}
+            parts[k[:2]][k]={'name':entity_row['name'],'events':[[d['href'],d['company'],d['day'],d['stage'],d['amount'],d['sector'],d['sub'],d['companyHref']] for d in items]}
             if kind=='company':
-                parts[k[:2]][k].update(location=items[0]['location'],sector=items[0]['sub'] or items[0]['sector'],
-                    events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources']] for d in items])
+                profile = profiles.get(entity_row['name']) if len(names[entity_row['name']]) == 1 else None
+                parts[k[:2]][k].update(profile=profile, primary=items[0]['sector'], sub=items[0]['sub'], location=items[0]['location'],sector=items[0]['sub'] or items[0]['sector'],
+                    events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources'],d['sector'],d['sub']] for d in items])
             old=filename(kind,entity_row['name'])
             if Path(old).exists() and (kind=='institution' or len(names[entity_row['name']])==1):legacy[old]=entity_row['href']
         for prefix,part in parts.items():dump(data/(kind+'-'+prefix+'.json'),part)
@@ -204,14 +206,19 @@ def build(rows):
     atlas.OUTPUT=OUT/'atlas'
     build_library(page,link,filename,research,refs,deals,[])
     by_year=defaultdict(list)
-    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub','location')])
+    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub','location')]+[d['companyHref']])
     for year,items in by_year.items():dump(data/('search-'+year+'.json'),items)
-    manifest={'events':len(deals),'companies':len(companies),'institutions':len(institutions),'years':list(by_year),'sectors':list(groups)}
+    manifest={'events':len(deals),'companies':len(companies),'institutions':len(institutions),'years':list(by_year),'sectors':list(groups),'subs':{s:sorted({d['sub'] for d in items if d['sub']}) for s,items in groups.items()}}
     dump(data/'manifest.json',manifest)
     shell=Path('search.html').read_text()
     form=shell.split('<form id="archive-form">',1)[1].split('</form>',1)[0]
     import re
     form=re.sub(r'(<select name="(sector|year)"><option value="">[^<]+</option>).*?</select>',r'\1</select>',form)
+    form += ('<label>细分方向<select name="sub"><option value="">全部方向</option></select></label>'
+             '<label>轮次匹配<select name="mode"><option value="">关键词</option><option value="exact">精确轮次</option>'
+             '<option value="family">含相邻轮次</option></select></label>'
+             '<label>查看<select name="view"><option value="">融资事件</option><option value="companies">公司名单</option>'
+             '<option value="institutions">机构名单</option></select></label>')
     page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
     for p in Path('.').glob('research-company-*.html'):
         if not (OUT/p.name).exists():
