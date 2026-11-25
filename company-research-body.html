@@ -1,11 +1,10 @@
-<link rel="stylesheet" href="company-research.css"><main class="desk">
-<h1>公司研究台</h1>
-<form id="company-finder" role="search"><label for="company-query">研究哪家公司？</label><div><input type="search" id="company-query" autocomplete="off" placeholder="公司全称或简称" required><button>查找公司</button></div></form>
+<link rel="stylesheet" href="company-research.css?v=2"><main class="desk">
+<div class="desk-tools"><h1>公司研究台</h1>
+<form id="company-finder" role="search"><input type="search" id="company-query" aria-label="公司全称或简称" autocomplete="off" placeholder="输入公司全称或简称" required><button>查找公司</button></form></div>
 <p id="desk-status" role="status"></p><div id="choices"></div>
-<section id="company-board" hidden><header><h2 id="subject"></h2><p id="classification"></p></header><div class="panels">
-<article><h3>产品与商业进展</h3><div id="product"></div></article>
-<article><h3>融资历程</h3><div id="capital"></div></article>
-<article><h3>投资机构</h3><div id="backers"></div></article>
-<article><h3>可比公司</h3><div id="peers"></div></article>
-<article class="questions"><h3>待核实的问题</h3><div id="questions"></div></article>
-</div></section></main><script defer src="company-research.js"></script>
+<section id="company-board" hidden><header><p id="classification"></p><h2 id="subject"></h2></header>
+<div class="brief"><div id="product"></div><aside><h3>最近收录的融资</h3><div id="latest"></div></aside></div>
+<section id="probe"><h3>约谈先问</h3><div id="questions"></div></section>
+<details><summary>融资历程与投资机构</summary><div class="history"><div id="capital"></div><div id="backers"></div></div></details>
+<details><summary>可比公司</summary><div id="peers"></div></details>
+</section></main><script defer src="company-research.js?v=2"></script>

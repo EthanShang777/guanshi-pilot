@@ -91,6 +91,25 @@
  ],
  "profiles": [
   {
+ "name": "北京硅心科技有限公司（aiXcoder）",
+ "asof": "2026-11-25",
+ "claims": [
+  {
+   "text": "aiXcoder 为企业研发团队提供代码生成与测试工具，支持在客户内网部署。",
+   "sources": [
+    {
+     "title": "公司官网 · 产品与部署",
+     "url": "https://www.aixcoder.com/zh/services"
+    }
+   ],
+   "limits": [
+    "公开产品说明未给出付费转化率。"
+   ]
+  }
+ ],
+ "question": "在企业内网完成试点的客户中，有多少转为付费部署，并在次年续约？"
+},
+  {
  "name": "纬钛机器人",
  "asof": "2026-11-12",
  "claims": [

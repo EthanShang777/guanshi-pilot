@@ -20,12 +20,19 @@
       if(!/^[0-9a-f]{24}$/.test(id))throw Error();
       const row=(await load('company-'+id.slice(0,2)))[id];if(!row)throw Error();
       if(seq!==version)return;
-      input.value=row.name;byId('subject').textContent=row.name;document.title=row.name+' · 公司研究台 · 观势';
+      input.value='';input.placeholder='查找其他公司';byId('subject').textContent=row.name;document.title=row.name+' · 公司研究台 · 观势';
       byId('classification').textContent=[row.location,row.primary,row.sub].filter(Boolean).join(' / ');
       const [product,capital,backers,peers,questions]=['product','capital','backers','peers','questions'].map(byId);
       for(const panel of [product,capital,backers,peers,questions])panel.replaceChildren();
       const claim=row.profile?.claims.find(c=>c.sources?.length);
-      line(product,claim?.text||'档案尚缺产品、客户及商业进展的研究证据。');
+      line(product,claim?.text||('主营方向'+(row.sub||row.primary?'为'+(row.sub||row.primary):'待核实')+'。产品和客户进展尚待补证。'));
+      const latest=byId('latest');latest.replaceChildren();
+      const event=row.events[0];
+      if(event){
+        latest.append(node('strong',[event[2],event[3]].filter(Boolean).join(' · ')||'金额与轮次待披露'));
+        line(latest,link(event[1]||'查看融资记录',event[0]));
+        if(event[4].length)line(latest,event[4].slice(0,3).map(p=>p[0]).join('、')+(event[4].length>3?' 等':''));
+      }else line(latest,'尚无收录记录。');
       if(claim)for(const s of claim.sources)line(product,link(s.title,s.url));
       for(const [url,date,stage,amount] of row.events.slice(0,4))line(capital,link([date,stage,amount].filter(Boolean).join(' · ')||'融资记录',url));
       line(capital,link('完整公司档案 · '+row.events.length+' 笔','company.html?id='+id));
