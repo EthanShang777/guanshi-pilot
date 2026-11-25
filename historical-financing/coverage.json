@@ -131,6 +131,71 @@
         }
       ],
       "notes": "鲸准摘要称 2026 年 7 月为 A+ 轮，按公开报道及参投方发布采用 A1 轮。同名企业按深圳运营主体归属。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "投资界五期公开周榜的 10 月报道及 RecodeX 10 月月报第 178、184、194 项；鲸准免费列表未获得 10 月覆盖",
+      "sources": [
+        "https://www.pedaily.cn/weeklyinvest/20260927/",
+        "https://www.pedaily.cn/weeklyinvest/20261004/",
+        "https://www.pedaily.cn/weeklyinvest/20261011/",
+        "https://www.pedaily.cn/weeklyinvest/20261018/",
+        "https://www.pedaily.cn/weeklyinvest/20261025/",
+        "https://recodex.ai/startup/monthly-report/877711.html"
+      ],
+      "candidate_count": 4,
+      "existing_count": 29,
+      "pending_count": 9,
+      "batch": "2026-11-25-october-public-01.csv",
+      "screening": {
+        "public_report_links": 139,
+        "publication_days": 19,
+        "financing_report_leads": 134,
+        "preliminary_name_no_hit": 40,
+        "unreviewed_report_leads": 93,
+        "monthly_report_entries_sampled": 3,
+        "monthly_entries_outside_period": 1
+      },
+      "pending": [
+        {
+          "reason": "白犀牛已有同期 C+。原报道称 C2 且 1 亿美元为 C 系列累计，需核对轮次映射、单轮金额。",
+          "source": "https://news.pedaily.cn/202610/569910.shtml"
+        },
+        {
+          "reason": "小派科技已有同交易线索，但战略融资与 Pre-D 标签存在差异。",
+          "source": "https://news.pedaily.cn/202610/570582.shtml"
+        },
+        {
+          "reason": "汇翮智能已有同期事件，公开报道与底库对累计金额及轮次的描述冲突。",
+          "source": "https://news.pedaily.cn/202610/570603.shtml"
+        },
+        {
+          "reason": "元示已有天使及天使+ 档案，但投资界合计金额与现有分轮口径有出入。",
+          "source": "https://news.pedaily.cn/202610/570644.shtml"
+        },
+        {
+          "reason": "柏垠公开披露为 A 系列合计，现有 A+ 档案需核对独立金额。",
+          "source": "https://news.pedaily.cn/202610/570645.shtml"
+        },
+        {
+          "reason": "辉羲已有 10 月两行 B 轮，报道称另有 Pre-B+，需核对同名主体、涉及轮次和 17 亿归属。",
+          "source": "https://news.pedaily.cn/202610/570693.shtml"
+        },
+        {
+          "reason": "星忆智能已有两轮，披露金额为累计，需核对已有分轮金额。",
+          "source": "https://news.pedaily.cn/202610/570697.shtml"
+        },
+        {
+          "reason": "量晶公开报道合并三轮，已有天使及 Pre-A，尚需厘清各轮日期、单轮金额和资方。",
+          "source": "https://news.pedaily.cn/202610/570813.shtml"
+        },
+        {
+          "reason": "伏尔坎已有 10 月 A+ 档案，待核该稿数千万元与底稿股东及日期的一致性。",
+          "source": "https://news.pedaily.cn/202610/571000.shtml"
+        }
+      ],
+      "notes": "鲸准免费会话实测仅见 11 月 24–25 日交易摘要。公开周榜的计数以报道链接为单位，已有计数按交易去重。星络互联、伊塔动力已公开确认第二轮，现有记录中的金额需待原件核清合计口径，本批新增轮次不填分轮金额及资方。Procuros 和 Rendezvous 分别按投资方及公司原文确认。月报 Restate 采用公司原发的 9 月 30 日，转 9 月查漏。"
     }
   ]
 }
