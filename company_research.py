@@ -14,7 +14,7 @@ def publish(out, deals):
     for d in sorted(deals, key=lambda r: r['day'] or '', reverse=True):
         if d['sub']:
             groups[(d['sector'],d['sub'])].setdefault(d['companyHref'], [
-                d['companyHref'], d['company'], d['day'], d['stage'], d['amount'], d['href']])
+                d['companyHref'], d['company'], d['day'], d['stage'], d['amount'], d['href'], d['parties']])
     topics = {}
     for (sector,sub), peers in groups.items():
         key = sha256((sector+'\n'+sub).encode()).hexdigest()[:20]

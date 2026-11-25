@@ -35,6 +35,15 @@
         if(event[4].length)line(latest,event[4].slice(0,3).map(p=>p[0]).join('、')+(event[4].length>3?' 等':''));
       }else line(latest,'尚无收录记录。');
       if(claim)for(const s of claim.sources)line(product,link(s.title,s.url));
+      const claims=row.profile?.claims.filter(c=>c.sources?.length)||[];
+      if(claims.length>1 || claim?.limits?.length){
+        const evidence=node('details','');evidence.append(node('summary','更多研究与证据边界'));
+        for(const c of claims){
+          if(c!==claim){line(evidence,c.text);for(const src of c.sources)line(evidence,link(src.title,src.url));}
+          for(const limit of c.limits||[])line(evidence,limit);
+        }
+        product.append(evidence);
+      }
       for(const [url,date,stage,amount] of row.events.slice(0,4))line(capital,link([date,stage,amount].filter(Boolean).join(' · ')||'融资记录',url));
       line(capital,link('完整公司档案 · '+row.events.length+' 笔','company.html?id='+id));
       const names=new Map(row.events.flatMap(e=>e[4]));
@@ -43,7 +52,8 @@
       if(row.primary){
         const args=new URLSearchParams({view:'institutions',sector:row.primary,client:id});
         if(row.sub)args.set('adjacent',row.sub);
-        line(backers,link('查找其他潜在投资方 →','workspace.html?'+args));
+        byId('buyers').replaceChildren();
+        line(byId('buyers'),link('查看相邻方向投资案例 →','workspace.html?'+args));
       }
       line(questions,row.profile?.question||'哪些客户已付费或完成验收？能否取得合同、复购或交付证据？');
       if(!row.profile?.question)questions.prepend(node('small','通用访谈问题'));
@@ -52,12 +62,30 @@
         const topics=await load('research-topics'),key=topics[row.primary]?.[row.sub];
         const matches=key?(await load('peers-'+key)).filter(r=>r[0]!=='company.html?id='+id):[];
         if(seq!==version)return;
-        for(const [href,name,date,stage] of matches.slice(0,3)){
-          line(peers,link(name,research(new URL(href,location.href).searchParams.get('id'))),'　',[date,stage].filter(Boolean).join(' · '));
+        const buyers=byId('buyers'),used=new Set(names.keys()),cases=[];
+        for(const [href,name,date,stage,amount,dealHref,parties] of matches){
+          if(peers.children.length<3){
+            const block=node('div','');block.className='research-case';
+            block.append(link(name,research(new URL(href,location.href).searchParams.get('id'))),
+              node('small',[row.sub,date,stage].filter(Boolean).join(' · ')),link('披露金额　'+(amount||'未记录'),dealHref));
+            peers.append(block);
+          }
+          for(const [inst,url] of parties||[]){
+            if(used.has(inst)||cases.length>=3)continue;
+            used.add(inst);
+            const block=node('div','');block.className='research-case';
+            block.append(link(inst,url+'&'+new URLSearchParams({sector:row.primary,sub:row.sub})),
+              node('small','同方向投资案例'),link([name,date,stage].filter(Boolean).join(' · '),dealHref));
+            cases.push(block);
+            break;
+          }
         }
+        if(cases.length){
+          buyers.prepend(...cases);line(buyers,node('small','接洽前核实竞品关系及当前投资意向。'));
+        }else buyers.prepend(node('p','当前同行样本尚未提供可与本公司已披露资方区分的机构案例。'));
         if(!matches.length)line(peers,'暂无可按同一细分方向列出的其他公司。');
         if(row.sub)line(peers,link('查看同方向公司 →','workspace.html?'+new URLSearchParams({view:'companies',sector:row.primary,sub:row.sub})));
-      }catch{if(seq===version)line(peers,'同行资料暂时无法加载。');}
+      }catch{if(seq===version){line(peers,'同行资料暂时无法加载。');line(byId('buyers'),'同方向机构案例暂时无法加载。');}}
     }catch{if(seq===version)status.textContent='公司档案暂时无法读取，请重新搜索。';}
   }
   byId('company-finder').onsubmit=async e=>{
