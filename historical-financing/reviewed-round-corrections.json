@@ -2254,5 +2254,37 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"杭州友创思睿创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"浙江大晶创业投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"湖州真石巨星玖号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"杭州道生初阳科创股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:b6a4034764060fce6de0ba6d527c08a2bcbd21a3fc35d322a4af36c3ba6bfa03",
+    "company_id": "co:full_legal_name:27bc3a90d3275e6efacbf2de051e8738",
+    "day": "2023-10-23",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0916/2025091601383_c.pdf",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"浙大友创\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "5500万元人民币",
+      "investors_json": "[{\"name\":\"台州汇融嘉能友创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "public:historical-disclosure:9417d2b26833eb5d80a5b9b",
+    "company_id": "co:cn_uscc:2a51db9e4785ce32ecbfe3bd87e673ae",
+    "day": "2023-05-30",
+    "source": "https://www.qcc.com/firm/3f364f19c28d036d32cff60cba5d2db9.html",
+    "expected": {
+      "round": "种子轮",
+      "amount": "数百万元人民币",
+      "investors_json": "[{\"name\":\"藕舫天使\",\"role\":\"独家投资\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "种子轮",
+      "amount": "数百万元人民币",
+      "investors_json": "[{\"name\":\"杭州藕舫紫泉创业投资合伙企业（有限合伙）\",\"role\":\"独家投资\",\"amount\":null}]"
+    }
   }
 ]
