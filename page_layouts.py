@@ -25,9 +25,26 @@ def publish(out, deals):
         if 'class="financing-feed"' not in html: continue
         def item(m):
             d=events[m[1]]
-            return ('<li class="feed-line"><div>'+link(d['href'],d['company'])+'<small>'+escape(d['sub'] or d['sector'] or '')+
-                    '</small></div><b>'+escape(' · '.join(filter(None,[d['stage'],d['amount']])))+'</b><span>'+escape('、'.join(d['investors']))+'</span></li>')
-        html=re.sub(r'<li><div><a href="(deal\.html\?id=[\da-f]+)">.*?</li>',item,html,flags=re.S)
+            def party(pair):
+                name,url=pair
+                from urllib.parse import urlencode
+                params=urlencode({k:v for k,v in [('sector',d['sector']),('sub',d['sub'])] if v})
+                return link(url+('&'+params if params else ''),name)
+            parties=list(map(party,d['parties']))
+            investors='、'.join(parties[:2]) or '—'
+            if len(parties)>2:
+                investors+='<details><summary>另 '+str(len(parties)-2)+' 家</summary>'+'、'.join(parties[2:])+'</details>'
+            sector=d['sub'] or d['sector']
+            subtitle='<small>'+escape(sector)+'</small>' if sector and sector!='待归类' else ''
+            def field(label,value):
+                return '<span class="trade-field"><small>'+label+'</small>'+value+'</span>'
+            return ('<li class="feed-line trade-row"><div>'+link(d['href'],d['company'])+subtitle+'</div>'+
+                    field('轮次 / 类型',escape(d['stage'] or '—'))+field('披露金额',escape(d['amount'] or '—'))+
+                    '<div class="trade-parties"><small>投资方</small>'+investors+'</div></li>')
+        html=re.sub(r'<li(?: class="feed-line(?: trade-row)?")?><div><a href="(deal\.html\?id=[\da-f]+)">.*?</li>',item,html,flags=re.S)
+        headings='<div class="trade-head" aria-hidden="true"><span>日期</span><div><span>公司 / 业务方向</span><span>轮次 / 类型</span><span>披露金额</span><span>投资方</span></div></div>'
+        if 'class="trade-head"' not in html:
+            html=html.replace('<div class="financing-feed">','<div class="financing-feed">'+headings)
         header=re.search(r'<p class="search-entry">.*?</p>',html)
         if header and header.start()>html.index('</header>',html.index('<main>')):
             html=html.replace(header[0],'').replace('</h1>','</h1>'+header[0],1)

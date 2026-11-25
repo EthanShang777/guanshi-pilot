@@ -20,15 +20,16 @@
     if(kind==='deal'){
       const summary=el('section','');summary.className='deal-summary';
       for(const [label,value] of [['披露金额',row.amount],['融资轮次',row.stage],['估值',row.valuation]]){
-        if(!value && label==='估值')continue;
+        
         const cell=el('div','');cell.append(el('small',label),el('strong',value||'未列明'));summary.append(cell);
       }
       root.append(summary,el('p',[row.dateKind,row.day||'日期未列明',row.location,row.sector,row.sub].filter(Boolean).join(' · ')),link(row.companyHref,'公司档案 →'));
+      for(const url of row.sources){const p=el('p','');p.append(link(url,'来源 · '+new URL(url).hostname));root.append(p);}
       const parties=el('section','');parties.className='counterparties';parties.append(el('h2','参与机构'));
       for(const [n,url] of row.parties)parties.append(link(context(url,row.sector,row.sub),n+' →'));
       if(!row.parties.length)parties.append(el('p','未列明'));root.append(parties);
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
-      for(const url of row.sources){const p=el('p','');p.append(link(url,'来源 · '+new URL(url).hostname));root.append(p);}
+
     }else if(kind==='company'){
       root.append(link('company-research.html?id='+id,'打开公司研究台 →'),el('span','　'));
       if(row.primary){
@@ -68,7 +69,7 @@
       }
       root.append(el('h2','全部投资记录 · '+row.events.length+' 笔'));
       for(const [url,company,day,stage,amount] of row.events){
-        const a=link(url,[day||'日期未列明',company,stage,amount].filter(Boolean).join(' · '));a.className='directory-row';root.append(a);
+        const a=link(url,[day||'日期未列明',company,stage,amount].filter(Boolean).join(' · '));a.className='directory-row';a.replaceChildren(el('span',company),el('small',day||'日期未列明'),el('span',stage||'轮次未记录'),el('span','披露金额　'+(amount||'未记录')));root.append(a);
       }
     }
   }catch{root.append(el('p','档案加载失败，请刷新重试。'),link('search.html','返回融资检索'));}

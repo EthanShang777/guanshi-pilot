@@ -29,7 +29,8 @@
       const latest=byId('latest');latest.replaceChildren();
       const event=row.events[0];
       if(event){
-        latest.append(node('strong',[event[2],event[3]].filter(Boolean).join(' · ')||'金额与轮次待披露'));
+        line(latest,'轮次 / 类型　'+(event[2]||'未记录'));
+        latest.append(node('strong','披露金额　'+(event[3]||'未记录')));
         line(latest,link(event[1]||'查看融资记录',event[0]));
         if(event[4].length)line(latest,event[4].slice(0,3).map(p=>p[0]).join('、')+(event[4].length>3?' 等':''));
       }else line(latest,'尚无收录记录。');

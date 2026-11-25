@@ -40,6 +40,6 @@ def publish(out, deals):
             html = re.sub(r'<section class="arc">.*?</section>', '',html,flags=re.S)
             html = re.sub(r'<div data-shelf="[^"]*"></div>|<script src="(?:load-)?shelf.js"></script>', '',html)
             html = re.sub(r'<link rel="stylesheet" href="palette\.css[^"]*">','',html)
-            stylesheet = '<link rel="stylesheet" href="palette.css?v=layout3">'
+            stylesheet = '<link rel="stylesheet" href="palette.css?v=trade4">'
             # Page-specific styles may appear inside main; load the common palette after them.
             path.write_text(html.replace('</html>',stylesheet+'</html>',1))
