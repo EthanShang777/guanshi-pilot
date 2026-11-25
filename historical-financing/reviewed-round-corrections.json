@@ -1326,5 +1326,37 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"成都未来产业天使投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"成都彭程汇达创投基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"锌蓉易科技有限公司\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:5bd3153bd26b4239b729dd3771968ad306926f43920ee6c7ca4315162cb263fb",
+    "company_id": "co:full_legal_name:63fa9dfef13de3669b6de989802086b1",
+    "day": "2026-09-22",
+    "source": "https://www.tfuco.com/news/1225",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"武汉临空港追创智灵股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"枣庄追创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"成都追创智蓉创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8c7e512e778154aab1b9c132576559175cf8db06a96e0a86b22d29a4bb1a449a",
+    "company_id": "co:full_legal_name:63fa9dfef13de3669b6de989802086b1",
+    "day": "2025-07-15",
+    "source": "https://vc.pedaily.cn/company/818427.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"厦门国升追创机器人产业创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
