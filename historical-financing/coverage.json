@@ -1787,6 +1787,62 @@
         }
       ],
       "notes": "联亚药业IPO以验资公告的发行总额入录。2021年末重组中君联晟源3.1亿元老股受让未计入公司融资。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第436—460项，及F2已核对的两次历史融资",
+      "sources": [
+        "https://www.techstars.com/blog/startup-spotlight/notey-closes-3m-seed-round-and-opens-its-european-operation-in-malta",
+        "https://celaidtx.com/en/news/1020/",
+        "https://celaidtx.com/en/news/1204/",
+        "https://find-and-update.company-information.service.gov.uk/company/12141000/filing-history/MzU0NzY1MzAxM2FkaXF6a2N4/document",
+        "https://find-and-update.company-information.service.gov.uk/company/12141000/filing-history/MzUxNDc3MzU0N2FkaXF6a2N4/document",
+        "https://www.prnewswire.com/news-releases/making-inroads-reinventing-a-safer-mining-wheel-earns-global-air-cylinder-wheels-key-industry-recognition-as-company-builds-commercial-momentum-302893582.html",
+        "https://www.pr.com/press-release/981717",
+        "https://golubcapital.com/news-insights/f2-announces-strategic-partnership-and-5-million-investment-from-golub-capital/",
+        "https://f2.ai/blog/launch-announcement",
+        "https://f2.ai/blog/compounding-intelligence-for-the-next-era-of-private-markets"
+      ],
+      "candidate_count": 29,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-25.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 371,
+        "monthly_identity_conflicts_remaining": 18,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Ares Intelligence",
+          "reason": "聚合源注明没有原始出处，待确认同期首发原文。",
+          "source": "https://www.veilstrat.com/funding-news/80bb706a-3688-4925-bffa-48670b7083ac"
+        },
+        {
+          "company": "Chatsi",
+          "reason": "公司公告明确250万美元是分期出资承诺，未披露已出资额或最终交割。",
+          "source": "https://www.pr.com/press-release/981717"
+        }
+      ],
+      "notes": "Notey扣除100万美元拨款；Celaid首次B轮扣除约5亿日元拨款。CoComply日期为股份配发日，两批认购款按股数乘以每股已付价分别记录。GACW为募资目标。"
+    },
+    {
+      "institution": "君联资本",
+      "checked_on": "2026-11-25",
+      "scope": "从君联公开材料核对智冉医疗A轮和A+轮，补齐现有事件金额",
+      "sources": [
+        "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2559&nodeid=1124&page=ContentPage",
+        "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2630&nodeid=1124&page=ContentPage",
+        "https://www.36kr.com/p/3677251288654473"
+      ],
+      "candidate_count": 0,
+      "existing_count": 2,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-25.csv",
+      "pending": [],
+      "notes": "智冉医疗A为超3亿元，A+为3亿元。沿用既有事件和日期，补A+的资方来源。"
     }
   ]
 }

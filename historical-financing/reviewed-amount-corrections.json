@@ -16,5 +16,23 @@
     "source": "https://www.broadbright.com/more/media-info.html?id=4136",
     "expected": "2亿人民币",
     "amount": "未单独披露"
+  },
+  {
+    "event_id": "financing_event:a09b25f7c073190a49c33880753e7b7914baeb870457a4bdcfcfb6e8eaafe5e2",
+    "company_id": "co:full_legal_name:d3893eb0030e621ed5b25effa3868f36",
+    "day": "2026-02-11",
+    "round": "A+轮",
+    "source": "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2630&nodeid=1124&page=ContentPage",
+    "expected": "",
+    "amount": "3亿元人民币"
+  },
+  {
+    "event_id": "financing_event:c53ebc9b3750640f24d4acec4c10fb47d0caf183e5cebf06b063ee1247a0cdad",
+    "company_id": "co:full_legal_name:d3893eb0030e621ed5b25effa3868f36",
+    "day": "2025-08-12",
+    "round": "A轮",
+    "source": "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2559&nodeid=1124&page=ContentPage",
+    "expected": "",
+    "amount": "超3亿元人民币"
   }
 ]
