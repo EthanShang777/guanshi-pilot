@@ -123,8 +123,6 @@ def sync_rows(db, rows, *, reviewed=False, distinct_events=frozenset()):
                 continue
         held += 1
         print('Possible existing transaction, preserved for reconciliation:', event_id)
-    total = query(db, 'SELECT COUNT(*) AS total FROM financing_events')[0]['total']
-    print(f'D1 master rows={total}')
     print(f'D1 additions={additions} source_updates={linked} possible_duplicates={held}')
     return additions, linked, held
 
