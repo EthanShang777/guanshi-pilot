@@ -52,5 +52,50 @@
     "source": "https://www.deepagens.com/news/shendu-yunhai-huo-huagong-keji-qianwanji-t-l-t-j-b-q-a-y-r",
     "expected": "",
     "amount": "千万级人民币"
+  },
+  {
+    "event_id": "financing_event:826f7b529514ac5a2903352996538767738d9d6d06684a03cdbab5ac52bfe9ad",
+    "company_id": "co:full_legal_name:01ff8323bb05cd3a3f0fb342db5ad3f5",
+    "day": "2026-10-28",
+    "round": "B轮",
+    "source": "https://www.neuroxess.com/news/naohukejiwancheng7yiyuanblunrongziguotoujulishenchuangtouyuqinzhizibenlingtou/",
+    "expected": "",
+    "amount": "7亿元人民币"
+  },
+  {
+    "event_id": "financing_event:3c951768e0229b68f0aaea8c552714a36802de7949eb4b961ce32bc439efd3e8",
+    "company_id": "co:full_legal_name:0355fdd77dae437b3cdaacca021f4681",
+    "day": "2026-10-26",
+    "round": "B轮",
+    "source": "https://www.cnstock.com/commonDetail/810560",
+    "expected": "",
+    "amount": "超13亿元人民币"
+  },
+  {
+    "event_id": "financing_event:96c316da8189ac54eee4780dd46ff9f87185792050a95e8a9ef2c11c29616351",
+    "company_id": "",
+    "day": "2026-11-05",
+    "round": "A轮",
+    "source": "https://www.greenvoltis.com/articles/green-voltis-raises-13-5-million-series-a",
+    "expected": "数千万美元",
+    "amount": "1350万欧元"
+  },
+  {
+    "event_id": "financing_event:43d245c40faa16dcd6eb2a240ec658fd200ee4a4f8ab1cd68a0368bbda84d299",
+    "company_id": "co:full_legal_name:1f5f9d70f1d8c3b05b6d61058841943c",
+    "day": "2026-10-26",
+    "round": "Pre-A轮",
+    "source": "https://news.pedaily.cn/202610/570865.shtml",
+    "expected": "数亿人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:54d03f9ff4ea999fe1425c6f5c74c4ffc5e8abf67a174b3c8f1fdeb3812912d2",
+    "company_id": "co:full_legal_name:592b10eb81eb1a747f889684fc504e33",
+    "day": "2026-10-30",
+    "round": "天使轮",
+    "source": "https://news.pedaily.cn/202610/571101.shtml",
+    "expected": "数千万元",
+    "amount": "未披露"
   }
 ]

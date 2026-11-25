@@ -126,5 +126,21 @@
       "amount": "数亿人民币",
       "investors_json": "[{\"name\":\"普华资本\",\"role\":null,\"amount\":null},{\"name\":\"橡果资本\",\"role\":null,\"amount\":null},{\"name\":\"绿动资本\",\"role\":null,\"amount\":null},{\"name\":\"金山资本集团\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:cfc71d72e5ca52696f8fb3bf6c7ee1b68ffe7c3ad93767fb77f0c21d0e12dd49",
+    "company_id": "co:full_legal_name:10da93cd5481e9e24f1a168ce364d573",
+    "day": "2026-10-29",
+    "source": "https://news.pedaily.cn/202610/571036.shtml",
+    "expected": {
+      "round": "A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"上海知识产权基金\",\"role\":null,\"amount\":null},{\"name\":\"芯能创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"上海知识产权基金\",\"role\":null,\"amount\":null},{\"name\":\"芯能创投\",\"role\":null,\"amount\":null},{\"name\":\"江苏金桥基金\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

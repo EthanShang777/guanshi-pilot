@@ -2336,6 +2336,31 @@
         "not_manually_dispositioned": 101
       },
       "notes": "三笔十月净新增，顺带核实Tolan两笔既往。公司和基金关系以达晨相关监管材料为线索。元材新界跟君联的融资已有事件，此次补独立原文。太一量生和细胞壁两个目录金额不能作为本轮金额。"
+    },
+    {
+      "institution": "公开十月交易目录及公司股东复核",
+      "checked_on": "2026-11-25",
+      "scope": "按原披露逐笔复核另外29条，并从同一企业反查早期融资。沿阿凡提股东查到长兴辰科兴瑞。",
+      "sources": [
+        "https://www.generalcompute.com/blog/general-compute-100m-series-a",
+        "https://www.sec.gov/Archives/edgar/data/2131876/000213187626000002/0002131876-26-000002-index.htm",
+        "https://www.allbrightlaw.com/SH/CN/10454/1c093da2d4f5ea67.aspx",
+        "https://news.pedaily.cn/202610/570433.shtml",
+        "https://www.cnstock.com/commonDetail/810560",
+        "https://news.pedaily.cn/202610/571036.shtml",
+        "https://www.greenvoltis.com/articles/green-voltis-raises-13-5-million-series-a",
+        "https://news.pedaily.cn/202610/571101.shtml"
+      ],
+      "candidate_count": 8,
+      "existing_count": 22,
+      "pending_count": 2,
+      "batch": "2026-11-25-koocool-october-02.csv",
+      "screening": {
+        "catalog_total": 117,
+        "reviewed_total_after_stage": 45,
+        "catalog_unreviewed_after_stage": 72
+      },
+      "notes": "确认了分别披露的十月及旧融资，调整5条融资金额及1条轮次和具名资方。阿凡提早期两轮留待公司或资方独立披露。"
     }
   ]
 }
