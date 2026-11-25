@@ -198,5 +198,71 @@ class SyncFinancingTest(unittest.TestCase):
                           {'sources_json': financing.packed(json.loads(original['sources_json']) + [source])}])
 
 
+    def test_reviewed_dates_apply_after_round_review_and_replay(self):
+        original = event('1', '新星科技', 'D++轮', company_id='company-1') | {'amount': '未披露'}
+        self.assertEqual(financing.sync_rows(self.db, [original]), (1, 0, 0))
+        round_fields = ('round', 'amount', 'investors_json')
+        old_date = {field: original[field] for field in ('date', 'date_key', 'date_kind')}
+        new_date = dict(date='2025-07', date_key='2025-07-01', date_kind='转让月份')
+        evidence = 'https://example.com/disclosure'
+        identity = dict(event_id=original['event_id'], company_id=original['company_id'], source=evidence)
+        round_review = dict(identity, day=original['date_key'], final_day=new_date['date_key'],
+                            expected={field: original[field] for field in round_fields},
+                            corrected=dict(round='股权转让', amount='2000万元', investors_json=original['investors_json']))
+        date_review = dict(identity, round='股权转让', expected=old_date, corrected=new_date)
+        with TemporaryDirectory() as directory:
+            path = Path(directory)
+            (path / 'reviewed-round-corrections.json').write_text(json.dumps([round_review]))
+            (path / 'reviewed-date-corrections.json').write_text(json.dumps([date_review]))
+            with patch.object(financing, 'database', return_value=self.db), \
+                 patch('sys.argv', ['sync_financing.py', '--historical-dir', directory]):
+                financing.main()
+                financing.main()
+        expected = original | round_review['corrected'] | new_date | {
+            'sources_json': financing.packed([SOURCE, evidence])}
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'), [expected])
+        self.assertEqual(financing.sync_round_corrections(self.db, [round_review]), (0, 1, 0))
+        self.assertEqual(financing.sync_date_corrections(self.db, [date_review]), (0, 1, 0))
+
+    def test_reviewed_date_holds_unexpected_state_and_rejects_inconsistent_precision(self):
+        original = event('1', '新星科技', 'A轮', company_id='company-1')
+        self.assertEqual(financing.sync_rows(self.db, [original]), (1, 0, 0))
+        expected = {field: original[field] for field in ('date', 'date_key', 'date_kind')}
+        corrected = dict(date='2025-07', date_key='2025-07-01', date_kind='融资月份')
+        review = dict(event_id=original['event_id'], company_id=original['company_id'],
+                      source=SOURCE, round='A轮', expected=expected, corrected=corrected)
+        wrong_date = review | {'expected': expected | {'date': '2025-08'}}
+        self.assertEqual(financing.sync_date_corrections(self.db, [wrong_date]), (0, 0, 1))
+        self.assertEqual(financing.sync_date_corrections(self.db, [review | {'round': 'A+轮'}]), (0, 0, 1))
+        with self.assertRaises(ValueError):
+            financing.sync_date_corrections(self.db, [review | {'corrected': corrected | {'date_key': '2025-07-20'}}])
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'), [original])
+
+
+    def test_reviewed_company_identity_keeps_the_event_and_leaves_other_company_records(self):
+        original = event('1', '原始快讯误挂公司', 'C++轮', company_id='wrong-company') | {'amount':'26.5亿元'}
+        unrelated = event('2', '原始快讯误挂公司', 'A轮', company_id='wrong-company')
+        self.assertEqual(financing.sync_rows(self.db, [original, unrelated], reviewed=True), (2, 0, 0))
+        corrected = dict(company_id='verified-company',company_name='核实后的实际融资方',raw_company_key='已核品牌; 核实后的实际融资方',
+                         date='2025-07-31',date_key='2025-07-31',date_kind='公开披露日',
+                         investors_json=financing.packed([dict(name='实际出资主体',role=None,amount='26.5亿元')]))
+        expected = {field:original[field] for field in corrected}
+        review = dict(event_id=original['event_id'],round=original['round'],
+                      source='https://example.com/issuer',expected=expected,corrected=corrected)
+        with TemporaryDirectory() as directory:
+            path=Path(directory)
+            (path/'reviewed-company-corrections.json').write_text(json.dumps([review]))
+            with patch.object(financing,'database',return_value=self.db), \
+                 patch('sys.argv',['sync_financing.py','--historical-dir',directory]):
+                financing.main()
+                financing.main()
+        actual=original|corrected|{'sources_json':financing.packed([SOURCE,review['source']])}
+        self.assertEqual(self.query(self.db,'SELECT * FROM financing_events ORDER BY event_id'),[actual,unrelated])
+        self.assertEqual(financing.sync_company_corrections(self.db,[review]),(0,1,0))
+        stale=review|{'corrected':corrected|{'company_name':'其他未核公司'}}
+        self.assertEqual(financing.sync_company_corrections(self.db,[stale]),(0,0,1))
+        self.assertEqual(self.query(self.db,'SELECT * FROM financing_events ORDER BY event_id'),[actual,unrelated])
+
+
 if __name__ == '__main__':
     unittest.main()

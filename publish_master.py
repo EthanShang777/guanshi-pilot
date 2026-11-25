@@ -180,7 +180,9 @@ def build(rows):
             for alias in map(str.strip, aliases):
                 if alias and alias != d['company'] and alias not in d['aliases']:
                     d['aliases'].append(alias)
-        groups[d['sector']].append(d);deals.append(d)
+        if d['stage'] != '股权转让':
+            groups[d['sector']].append(d)
+            deals.append(d)
         buckets['deal-'+key[:2]][key]=d
     for key,records in buckets.items():dump(data/(key+'.json'),records)
     def event_row(d):
@@ -219,7 +221,7 @@ def build(rows):
             from company_directory import build_directory
             build_directory(entities,by_sector,data,OUT,page,dump,link,redirect,sector_url)
             continue
-        def entry(e):return '<div class="directory-row">'+link(e['href'],e['name'])+f'<small>{len(e["events"])} 笔融资</small></div>'
+        def entry(e):return '<div class="directory-row">'+link(e['href'],e['name'])+f'<small>{len(e["events"])} 笔投资记录</small></div>'
         directory=sorted(entities.values(),key=lambda e:(-len(e['events']),e['name']))
         list_pages(index,section,section,directory,entry,(link('research-companies.html','公司研究库与同行对照 →') if kind=='company' else '')+link('search.html','检索全部融资 →')+deck(section,Counter({s:len(v) for s,v in by_sector.items()})))
         for s,items in by_sector.items():list_pages(sector_url(section,s),s,section,items,entry)
@@ -250,7 +252,8 @@ def build(rows):
             title=re.search(r'<h1>(.*?)</h1>',p.read_text()).group(1)
             redirect(p.name,'search.html?'+urlencode({'company':title}))
     redirect('find.html','search.html')
-    assert sum(len(v) for v in groups.values())==len(rows)==len({d['key'] for d in deals})
+    assert sum(len(v) for v in groups.values())==len({d['key'] for d in deals})
+    assert sum(len(bucket) for bucket in buckets.values())==len(rows)
     print(manifest['events'], 'published events;',len(companies),'company groups;',len(institutions),'institution names')
 
 if __name__=='__main__':build(cloud_rows())

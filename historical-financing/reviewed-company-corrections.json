@@ -1,0 +1,25 @@
+[
+  {
+    "event_id": "financing_event:6f56d590b1b4039a8ed64922b9f0906397d9a3f542b95399a52e3fb12ce42228",
+    "round": "C++轮",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12585331",
+    "expected": {
+      "company_id": "co:full_legal_name:2d86eab1b9107aa1a257d88286144449",
+      "company_name": "浙江欣旺达动力电池有限公司",
+      "raw_company_key": "浙江欣旺达动力电池有限公司",
+      "date": "2026-09-09",
+      "date_key": "2026-09-09",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"理想汽车\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:cn_uscc:b5852199b936f810df51bb82ad2c40c8",
+      "company_name": "欣旺达动力科技股份有限公司",
+      "raw_company_key": "欣旺达动力; 欣旺达电动汽车电池有限公司; Sunwoda EVB",
+      "date": "2026-09-04",
+      "date_key": "2026-09-04",
+      "date_kind": "公开披露日",
+      "investors_json": "[{\"name\":\"北京理想汽车有限公司\",\"role\":null,\"amount\":\"26.5亿元人民币\"}]"
+    }
+  }
+]

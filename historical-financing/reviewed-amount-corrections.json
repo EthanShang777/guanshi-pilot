@@ -34,5 +34,203 @@
     "source": "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2559&nodeid=1124&page=ContentPage",
     "expected": "",
     "amount": "超3亿元人民币"
+  },
+  {
+    "event_id": "financing_event:f779c6c0c3437986e5ff0159f5cbb39c90dda1fa0202bcd8823f919ad9bf26a9",
+    "company_id": "co:full_legal_name:7eec77b7a53ccdbb54fbefb16a990031",
+    "day": "2026-10-11",
+    "round": "B轮",
+    "source": "https://www.eeo.com.cn/2026/1011/1060755.shtml",
+    "expected": "",
+    "amount": "数亿元人民币"
+  },
+  {
+    "event_id": "financing_event:d9e52a86921219b616e4cc14d8e8417a0e23ef9b30158a88113c3e4d9d234202",
+    "company_id": "co:full_legal_name:dbe29581f39427f893a63ea4bb7cdfad",
+    "day": "2026-10-13",
+    "round": "天使轮",
+    "source": "https://www.deepagens.com/news/shendu-yunhai-huo-huagong-keji-qianwanji-t-l-t-j-b-q-a-y-r",
+    "expected": "",
+    "amount": "千万级人民币"
+  },
+  {
+    "event_id": "financing_event:826f7b529514ac5a2903352996538767738d9d6d06684a03cdbab5ac52bfe9ad",
+    "company_id": "co:full_legal_name:01ff8323bb05cd3a3f0fb342db5ad3f5",
+    "day": "2026-10-28",
+    "round": "B轮",
+    "source": "https://www.neuroxess.com/news/naohukejiwancheng7yiyuanblunrongziguotoujulishenchuangtouyuqinzhizibenlingtou/",
+    "expected": "",
+    "amount": "7亿元人民币"
+  },
+  {
+    "event_id": "financing_event:3c951768e0229b68f0aaea8c552714a36802de7949eb4b961ce32bc439efd3e8",
+    "company_id": "co:full_legal_name:0355fdd77dae437b3cdaacca021f4681",
+    "day": "2026-10-26",
+    "round": "B轮",
+    "source": "https://www.cnstock.com/commonDetail/810560",
+    "expected": "",
+    "amount": "超13亿元人民币"
+  },
+  {
+    "event_id": "financing_event:96c316da8189ac54eee4780dd46ff9f87185792050a95e8a9ef2c11c29616351",
+    "company_id": "",
+    "day": "2026-11-05",
+    "round": "A轮",
+    "source": "https://www.greenvoltis.com/articles/green-voltis-raises-13-5-million-series-a",
+    "expected": "数千万美元",
+    "amount": "1350万欧元"
+  },
+  {
+    "event_id": "financing_event:43d245c40faa16dcd6eb2a240ec658fd200ee4a4f8ab1cd68a0368bbda84d299",
+    "company_id": "co:full_legal_name:1f5f9d70f1d8c3b05b6d61058841943c",
+    "day": "2026-10-26",
+    "round": "Pre-A轮",
+    "source": "https://news.pedaily.cn/202610/570865.shtml",
+    "expected": "数亿人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:54d03f9ff4ea999fe1425c6f5c74c4ffc5e8abf67a174b3c8f1fdeb3812912d2",
+    "company_id": "co:full_legal_name:592b10eb81eb1a747f889684fc504e33",
+    "day": "2026-10-30",
+    "round": "天使轮",
+    "source": "https://news.pedaily.cn/202610/571101.shtml",
+    "expected": "数千万元",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:cb1139dd028d24d683f9ecbcd3ead81581e54f75def9a2f64121fcef5563be5b",
+    "company_id": "co:full_legal_name:604c74709334cfa24b3e57b5660d5f14",
+    "day": "2026-10-20",
+    "round": "E轮",
+    "source": "https://www.cnstock.com/commonDetail/805219",
+    "expected": "",
+    "amount": "近4亿美元"
+  },
+  {
+    "event_id": "financing_event:1756c2c82a47069d181d578fd10978a7c458d4430be7066553a387057d78b8fb",
+    "company_id": "co:full_legal_name:604c74709334cfa24b3e57b5660d5f14",
+    "day": "2025-10-23",
+    "round": "D轮",
+    "source": "https://www.neolix.ai/zh/news/d-round-funding/",
+    "expected": "",
+    "amount": "超6亿美元"
+  },
+  {
+    "event_id": "financing_event:bbc38ea92545c852b19d2c6a2c10bf9bfbd98b3f9f21ba4ae0e96a52bb1d7a15",
+    "company_id": "co:full_legal_name:f88fb3abb98f52242b75725992a12726",
+    "day": "2026-10-10",
+    "round": "C+轮",
+    "source": "https://finance.eastmoney.com/a/202610163898115542.html",
+    "expected": "未披露",
+    "amount": "数亿元人民币"
+  },
+  {
+    "event_id": "financing_event:ad7aae00867a7978e9bc6d85371dc6b55c6cf6ec2df0480ceb025bb32781fa85",
+    "company_id": "co:full_legal_name:c020502c4a91e0daa0c30c0b0833deed",
+    "day": "2026-10-15",
+    "round": "天使+轮",
+    "source": "https://news.pedaily.cn/202610/570306.shtml",
+    "expected": "数千万人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:43c13b1bad41ffc421b2f3e90c43e47afde719c74eed15d11355d9eca09d7c65",
+    "company_id": "co:cn_uscc:83778fe4512c65bc9ab3f36e098864cf",
+    "day": "",
+    "round": "第二轮外部融资",
+    "source": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+    "expected": "",
+    "amount": "约1000亿元人民币"
+  },
+  {
+    "event_id": "financing_event:a95d9f695370b93198aebae80612612ccde461d3190c23d2eb9a529e902e0169",
+    "company_id": "co:full_legal_name:df749a33509085316056eb28679268bd",
+    "day": "2026-10-08",
+    "round": "天使轮",
+    "source": "https://m.chinaventure.com.cn/news/114-20261008-393522.html",
+    "expected": "数千万人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:d1dca0603a8f67bfd52726e9a17ee1efcbc534c40528ac606e2185ee66e8c788",
+    "company_id": "co:full_legal_name:1cde8a4ac040369c67ab0536c3a6df3a",
+    "day": "2026-10-14",
+    "round": "Pre-A+轮",
+    "source": "https://finance.eastmoney.com/a/202610153897182347.html",
+    "expected": "",
+    "amount": "亿元级人民币"
+  },
+  {
+    "event_id": "financing_event:077f822a37ab0382e2413abdbcabd9671046089fe25f2e7bfb64748a3b0ad08a",
+    "company_id": "co:full_legal_name:8a549808e2e3867cbfb25cf17891dc03",
+    "day": "2026-10-14",
+    "round": "Pre-A轮",
+    "source": "https://news.pedaily.cn/202610/570228.shtml",
+    "expected": "数亿元人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:aa9898728f137adc2759004aab611ee982dea469187e7ae07bd2dc80ab8075df",
+    "company_id": "",
+    "day": "2026-10-15",
+    "round": "种子+轮",
+    "source": "https://m.jiemian.com/article/15193129.html",
+    "expected": "数亿人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:703ce3414cabe14f68f682c932cb7e1f7bcb47dfdd066322010040b27d7e6e7c",
+    "company_id": "co:full_legal_name:dec370ef14ebe9bdd272255f2e081846",
+    "day": "2026-10-20",
+    "round": "种子轮",
+    "source": "https://finance.eastmoney.com/a/202610203901298038.html",
+    "expected": "超亿人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:e8606ede065fa9c1a0eecb0742a1e8ada5e79a6e6ddcf477874518d27a4f6111",
+    "company_id": "co:full_legal_name:f29128c609babcf5085785a3f9f52996",
+    "day": "2026-10-25",
+    "round": "种子+轮",
+    "source": "https://36kr.com/p/4040083368629381",
+    "expected": "数千万人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:b9357fae7fd652db1334f2c79e9b6acf13424a8ffd08f2f4b00dd37c7a2edb9f",
+    "company_id": "co:full_legal_name:5260213ed457173ab9f240df2bb85912",
+    "day": "2026-08-14",
+    "round": "A+轮",
+    "source": "https://i.gasgoo.com/news/70469259.html",
+    "expected": "近10亿元",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:a6be6c8cf1c951555bd4238ab40632357ed8e6d375bb45e1cd96db146d54f2ad",
+    "company_id": "co:full_legal_name:5260213ed457173ab9f240df2bb85912",
+    "day": "2026-10-26",
+    "round": "A++轮",
+    "source": "https://api3.cls.cn/share/article/2515695?app=stib&os=android&sv=247",
+    "expected": "",
+    "amount": "近亿元人民币"
+  },
+  {
+    "event_id": "financing_event:214b7bc07b8468d665c0d3f32533bfebd5738644afe4d910eb8f6252cf14ac78",
+    "company_id": "co:full_legal_name:4615bb7f9f69796be27acc629232cdb0",
+    "day": "2026-10-28",
+    "round": "C+轮",
+    "source": "https://m.chinaventure.com.cn/news/114-20261029-393811.html",
+    "expected": "",
+    "amount": "近亿元人民币"
+  },
+  {
+    "event_id": "financing_event:777e642fda14e5ab1a51a72bf6e280fc813db8c11a7238bb6ebc919ec8661baa",
+    "company_id": "co:full_legal_name:8fe2b5157c54990cd94a8a6e533e5eb5",
+    "day": "2026-10-28",
+    "round": "天使+轮",
+    "source": "https://news.pedaily.cn/202610/570974.shtml",
+    "expected": "数亿人民币",
+    "amount": "未披露"
   }
 ]

@@ -42,5 +42,1493 @@
   "君联成业": {
     "brand": "君联资本",
     "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100010_c.pdf#page=98"
+  },
+  "常州市新能源产业投资基金": {
+    "brand": "常州投资集团",
+    "source": "https://tzjt.changzhou.gov.cn/html/cztc/2026/AKELPMOK_0924/2360.html"
+  },
+  "常投合嘉基金": {
+    "brand": "常州投资集团",
+    "source": "https://tzjt.changzhou.gov.cn/html/cztc/2026/AKELPMOK_0924/2360.html"
+  },
+  "军荣基金": {
+    "brand": "常州投资集团",
+    "source": "https://tzjt.changzhou.gov.cn/html/cztc/2026/AKELPMOK_0924/2360.html"
+  },
+  "华泰战新基金": {
+    "brand": "常州投资集团",
+    "source": "https://tzjt.changzhou.gov.cn/html/cztc/2026/AKELPMOK_0924/2360.html"
+  },
+  "江苏国企混改基金": {
+    "brand": "江苏高投",
+    "source": "https://jsgzw.jiangsu.gov.cn/art/2026/11/4/art_61976_11854755.html"
+  },
+  "江苏省增资扩产战新产业基金（有限合伙）": {
+    "brand": "江苏高投",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-09-12/b2da9d79-1ad7-4a26-8ea6-05a0f830f505.PDF"
+  },
+  "北京中发金种子二期创业投资基金中心（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://www.sohu.com/a/1015585868_121106842"
+  },
+  "北京中发展金种子创业投资中心（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://www.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-03-19/240764_20240319_29WT.pdf"
+  },
+  "北京建源中发科技创新股权投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-01-20/244585_20260120_EX1Q.pdf"
+  },
+  "北京中发高精尖臻选创业投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-12-16/4b236541-e58c-47f1-80c5-2dcb60863552.PDF"
+  },
+  "北京中发锐芯投资管理中心（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-12-16/4b236541-e58c-47f1-80c5-2dcb60863552.PDF"
+  },
+  "北京集成电路产业投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-12-16/4b236541-e58c-47f1-80c5-2dcb60863552.PDF"
+  },
+  "北京中诺远见创新投资基金中心（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-01-20/244585_20260120_EX1Q.pdf"
+  },
+  "北京市门头沟区京西产业引导基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-27/244043_20251027_WMWH.pdf"
+  },
+  "北京生命科学园创新投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-27/244043_20251027_WMWH.pdf"
+  },
+  "北京中发助力贰号股权投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-02-18/688172_20250218_F6QN.pdf"
+  },
+  "上海云玚企业管理咨询有限公司": {
+    "brand": "蚂蚁集团",
+    "source": "https://www.qcc.com/firm/9a01e441bb95ea825f029bf43711d5d9.html"
+  },
+  "无锡静水湖一期创业投资合伙企业（有限合伙）": {
+    "brand": "静水湖创投",
+    "source": "https://www.qcc.com/firm/16d7d9d382b8319cc38e9a72bdb7651e.html"
+  },
+  "VNTR IX HK Holdings Limited": {
+    "brand": "高瓴创投",
+    "source": "https://www.qcc.com/firm/16d7d9d382b8319cc38e9a72bdb7651e.html"
+  },
+  "北京中关村发展前沿企业投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://www.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-03-19/240764_20240319_29WT.pdf"
+  },
+  "仙居时代伯乐新能源产业投资基金": {
+    "brand": "时代伯乐",
+    "source": "https://paper.xinmin.cn/html/shequ/2025-07-24/04/10418.html"
+  },
+  "天津水木海棠海河创业投资中心（有限合伙）": {
+    "brand": "水木创投",
+    "source": "https://www.towardpi.com/sys-nd/898.html"
+  },
+  "北京京国管股权投资基金（有限合伙）": {
+    "brand": "北京国管",
+    "source": "https://www.towardpi.com/sys-nd/898.html"
+  },
+  "社保基金中关村自主创新专项基金": {
+    "brand": "君联资本",
+    "source": "https://www.towardpi.com/sys-nd/1209.html"
+  },
+  "北京智源发展创业投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://www.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-03-19/240764_20240319_29WT.pdf"
+  },
+  "珠海达泰清琴创业投资中心（有限合伙）": {
+    "brand": "达泰资本",
+    "source": "https://www.qcc.com/firm/b18f33bdcca3141cc55d3cb8200639d5.html"
+  },
+  "徐州经济技术开发区金善新兴产业投资合伙企业（有限合伙）": {
+    "brand": "善达投资",
+    "source": "https://www.qcc.com/firm/b18f33bdcca3141cc55d3cb8200639d5.html"
+  },
+  "熙诚致远数字动力精选（北京）投资中心（有限合伙）": {
+    "brand": "熙诚致远",
+    "source": "https://www.zhonglun.com/news/trade/53254.html"
+  },
+  "北京二期中科创星硬科技创业投资合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://www.qcc.com/firm/1941175800bdd6874132a155ee62dd0d.html"
+  },
+  "杨凌忠科创星管理咨询合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://www.qcc.com/firm/1941175800bdd6874132a155ee62dd0d.html"
+  },
+  "杭州银杏橙股权投资合伙企业（有限合伙）": {
+    "brand": "银杏谷资本",
+    "source": "https://zdb.pedaily.cn/inv/show28175/"
+  },
+  "安吉高远长流股权投资合伙企业（有限合伙）": {
+    "brand": "高远资本",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202303/001340_20230328_LO49.pdf"
+  },
+  "北京国创未来星动私募股权投资基金（有限合伙）": {
+    "brand": "国创未来基金",
+    "source": "https://www.qcc.com/firm/b5b91f4a9edf42f58c870bdcf48ae964.html"
+  },
+  "珠海云时源泽一期股权投资合伙企业（有限合伙）": {
+    "brand": "云时资本",
+    "source": "https://www.qcc.com/firm/b5b91f4a9edf42f58c870bdcf48ae964.html"
+  },
+  "苏州盛涛医疗投资合伙企业（有限合伙）": {
+    "brand": "山蓝资本",
+    "source": "https://www.qcc.com/firm/dd3c5147a0f8fddabcb6c333a3b4e616.html"
+  },
+  "北京协同科创创业投资管理中心（有限合伙）": {
+    "brand": "中关村协同创新基金",
+    "source": "https://www.bbtnews.com.cn/2021/0419/393388.shtml"
+  },
+  "杭州九容股权投资合伙企业（有限合伙）": {
+    "brand": "九仁资本",
+    "source": "https://www.qcc.com/firm/dd3c5147a0f8fddabcb6c333a3b4e616.html"
+  },
+  "北京神州绿盟信息技术有限公司": {
+    "brand": "绿盟科技",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-04-28/1216654002.PDF"
+  },
+  "苏州金沙江朝华四期创业投资合伙企业（有限合伙）": {
+    "brand": "金沙江创投",
+    "source": "https://www.qcc.com/firm/c488fe68098649e0a9c9ff33be0b4913.html"
+  },
+  "中电电子信息产业投资基金（天津）合伙企业（有限合伙）": {
+    "brand": "中电基金",
+    "source": "https://www.36kr.com/p/1914514779180807"
+  },
+  "江苏高投毅达中小贰号创业投资合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://www.qcc.com/firm/ccbc865815acbac7c1790f34841b195e.html"
+  },
+  "无锡高投毅达鼎祺人才创业投资合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://www.qcc.com/firm/ccbc865815acbac7c1790f34841b195e.html"
+  },
+  "石家庄军瓷股权投资基金合伙企业（有限合伙）": {
+    "brand": "云航资本",
+    "source": "https://www.drelpis.com/gsxw"
+  },
+  "泉州宜达创业投资合伙企业（有限合伙）": {
+    "brand": "云航资本",
+    "source": "https://www.drelpis.com/gsxw"
+  },
+  "陕西开源雏鹰股权投资基金合伙企业（有限合伙）": {
+    "brand": "开源思创",
+    "source": "https://www.qcc.com/firm/3f672e8b284aab0f6f6f4c42d4dbde47.html"
+  },
+  "温州开源科技产业投资合伙企业（有限合伙）": {
+    "brand": "开源思创",
+    "source": "https://www.qcc.com/firm/3f672e8b284aab0f6f6f4c42d4dbde47.html"
+  },
+  "长沙启赋中小企业发展投资基金合伙企业（有限合伙）": {
+    "brand": "啟赋资本",
+    "source": "https://www.qcc.com/firm/70c860c727a6cf28890b9c03fe420c61.html"
+  },
+  "湖州南浔浔元股权投资合伙企业（有限合伙）": {
+    "brand": "浔商创投",
+    "source": "https://www.qcc.com/firm/70c860c727a6cf28890b9c03fe420c61.html"
+  },
+  "深圳市远致星火私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "远致创投",
+    "source": "https://www.qcc.com/firm/70c860c727a6cf28890b9c03fe420c61.html"
+  },
+  "深圳市金沙江华皓天使创业投资合伙企业（有限合伙）": {
+    "brand": "金沙江联合资本",
+    "source": "https://www.qcc.com/firm/f1224061a33d92f18d849c691a938840.html"
+  },
+  "深圳阿尔法明泰天使创业投资合伙企业（有限合伙）": {
+    "brand": "阿尔法公社",
+    "source": "https://www.qcc.com/firm/f1224061a33d92f18d849c691a938840.html"
+  },
+  "西安市沣东新城中科创星企业管理咨询合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://www.qcc.com/firm/f831d904d679ac4e011209e0c63dc160.html"
+  },
+  "杭州华睿睿银创业投资合伙企业（有限合伙）": {
+    "brand": "华睿投资",
+    "source": "https://www.qcc.com/firm/41edf369e5c2b4a09b1f22da69ec0264.html"
+  },
+  "华清汇骐（上海）创业投资中心（有限合伙）": {
+    "brand": "启迪之星",
+    "source": "https://www.qcc.com/firm/41edf369e5c2b4a09b1f22da69ec0264.html"
+  },
+  "上海缤纷闪耀投资中心（有限合伙）": {
+    "brand": "璀璨资本",
+    "source": "https://www.qcc.com/firm/41edf369e5c2b4a09b1f22da69ec0264.html"
+  },
+  "重庆中芯熙诚两山创业投资基金合伙企业（有限合伙）": {
+    "brand": "中芯熙诚",
+    "source": "https://www.qcc.com/firm/41edf369e5c2b4a09b1f22da69ec0264.html"
+  },
+  "聚源启航创业投资基金（深圳）合伙企业（有限合伙）": {
+    "brand": "中芯聚源",
+    "source": "https://www.qcc.com/firm/41edf369e5c2b4a09b1f22da69ec0264.html"
+  },
+  "北京中关村生命科学园产业发展基金（有限合伙）": {
+    "brand": "中关村协同创新基金",
+    "source": "https://www.qcc.com/firm/1c5021b8880ad05d1210870782efbb30.html"
+  },
+  "深圳市招商局创新投资基金中心（有限合伙）": {
+    "brand": "招商局创投",
+    "source": "https://www.qcc.com/firm/1c5021b8880ad05d1210870782efbb30.html"
+  },
+  "上海峰瑞睿佳投资中心（有限合伙）": {
+    "brand": "峰瑞资本",
+    "source": "https://www.qcc.com/firm/9d6315824f55a44f9df0472a1119ab85.html"
+  },
+  "淄博翎贲元桢股权投资合伙企业（有限合伙）": {
+    "brand": "翎贲资本",
+    "source": "https://www.qcc.com/firm/9d6315824f55a44f9df0472a1119ab85.html"
+  },
+  "嘉兴浙港春霖股权投资合伙企业（有限合伙）": {
+    "brand": "中信建投资本",
+    "source": "https://www.qcc.com/firm/525b4794d5344cc54fcbd32ca1c314cb.html"
+  },
+  "深圳市龙华协同创新科技掐尖私募创业投资基金合伙企业（有限合伙）": {
+    "brand": "中关村协同创新基金",
+    "source": "https://www.qcc.com/firm/525b4794d5344cc54fcbd32ca1c314cb.html"
+  },
+  "北京中关村科学城科技成长投资合伙企业（有限合伙）": {
+    "brand": "中关村科学城",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108908/a136258/sehk26092900946_c.pdf"
+  },
+  "珠海启辰星私募基金管理企业（普通合伙）": {
+    "brand": "启辰星投资",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108908/a136258/sehk26092900946_c.pdf"
+  },
+  "南京赛富股权投资基金（有限合伙）": {
+    "brand": "赛富投资基金",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108908/a136258/sehk26092900946_c.pdf"
+  },
+  "北京赛富皓海工业互联网投资中心（有限合伙）": {
+    "brand": "赛富投资基金",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108908/a136258/sehk26092900946_c.pdf"
+  },
+  "北京中科八家创业投资基金合伙企业（有限合伙）": {
+    "brand": "中科先行创投",
+    "source": "https://www.qcc.com/firm/ca77fd3a002091ef339d4e6d4d830bdf.html"
+  },
+  "北京泰雅语松私募基金管理有限公司": {
+    "brand": "泰雅资本",
+    "source": "https://www.qcc.com/firm/ca77fd3a002091ef339d4e6d4d830bdf.html"
+  },
+  "天津海河华慧泰有电子信息投资合伙企业（有限合伙）": {
+    "brand": "泰有基金",
+    "source": "https://www.qcc.com/firm/d032543baca7abe9ebdc8b2a00495d8d.html"
+  },
+  "深圳南海成长湾科私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "同创伟业",
+    "source": "https://www.qcc.com/firm/da0e901cb3295c4da993598bf70ff6a6.html"
+  },
+  "成都同创数金创业投资合伙企业（有限合伙）": {
+    "brand": "同创伟业",
+    "source": "https://www.qcc.com/firm/da0e901cb3295c4da993598bf70ff6a6.html"
+  },
+  "北京奇绩创坛一期创业投资中心（有限合伙）": {
+    "brand": "奇绩创坛",
+    "source": "https://www.qcc.com/firm/9b2428c501bc2f962311a8688fd86b66.html"
+  },
+  "北京首业君辉投资中心（有限合伙）": {
+    "brand": "首业资本",
+    "source": "https://www.qcc.com/firm/9b2428c501bc2f962311a8688fd86b66.html"
+  },
+  "鲁信济钢（济南）创业投资合伙企业（有限合伙）": {
+    "brand": "鲁信创投",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12566046&stockid=600783"
+  },
+  "北京中发助力壹号投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202102091460446387_1.pdf"
+  },
+  "北京元航硬科技创业投资基金（有限合伙）": {
+    "brand": "元航资本",
+    "source": "https://www.qcc.com/firm/881a26f3849a8e2edd5a3eb4bf481684.html"
+  },
+  "北京远见前沿创发创业投资中心（有限合伙）": {
+    "brand": "中关村创投",
+    "source": "https://www.qcc.com/firm/881a26f3849a8e2edd5a3eb4bf481684.html"
+  },
+  "北京屹唐创欣创业投资中心（有限合伙）": {
+    "brand": "亦庄产投",
+    "source": "https://www.qcc.com/firm/881a26f3849a8e2edd5a3eb4bf481684.html"
+  },
+  "襄阳高新长江新智生产力创业投资基金合伙企业（有限合伙）": {
+    "brand": "湖北高投集团",
+    "source": "https://www.qcc.com/firm/b5bb1db929514aed6681b0d485ae4fb1.html"
+  },
+  "中美绿色汇通（天津）创业投资基金合伙企业（有限合伙）": {
+    "brand": "中美绿色基金",
+    "source": "https://www.qcc.com/firm/391abb89c9956eb62e2d3e3accd6bb98.html"
+  },
+  "宜宾赛科一期新能源创业投资合伙企业（有限合伙）": {
+    "brand": "赛科投资",
+    "source": "https://www.qcc.com/firm/391abb89c9956eb62e2d3e3accd6bb98.html"
+  },
+  "北京文兴格致创业投资基金（有限合伙）": {
+    "brand": "中关村协同创新基金",
+    "source": "https://www.qcc.com/firm/dc54ee4e73e8bb53d9168d2d134fae21.html"
+  },
+  "无锡彬复海创人才创业投资合伙企业（有限合伙）": {
+    "brand": "彬复资本",
+    "source": "https://www.qcc.com/firm/dc54ee4e73e8bb53d9168d2d134fae21.html"
+  },
+  "清流投资三期有限公司": {
+    "brand": "清流资本",
+    "source": "https://www.qcc.com/firm/dc54ee4e73e8bb53d9168d2d134fae21.html"
+  },
+  "三七乐心（广州）产业投资合伙企业（有限合伙）": {
+    "brand": "三七互娱",
+    "source": "https://www.qcc.com/firm/dc54ee4e73e8bb53d9168d2d134fae21.html"
+  },
+  "上海德联博健创业投资合伙企业（有限合伙）": {
+    "brand": "德联资本",
+    "source": "https://www.pharnexcloud.com/zixun/shiye/lcyj_378513"
+  },
+  "三博脑科医院管理集团股份有限公司": {
+    "brand": "三博脑科",
+    "source": "https://www.pharnexcloud.com/zixun/shiye/lcyj_378513"
+  },
+  "西安创星未来创业投资合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://www.qcc.com/firm/e9a7f3f0b1b12160ef32e37234fa2b51.html"
+  },
+  "北京怀柔硬科技产业发展基金合伙企业（有限合伙）": {
+    "brand": "怀柔硬科技基金",
+    "source": "https://www.bjhr.gov.cn/zwgk/zfxxgkjg/qzfbmdh/qjjhxxhj/jxzdgz/202608/t20260814_4822923.html"
+  },
+  "滁州启金翌鑫创业投资合伙企业（有限合伙）": {
+    "brand": "翌昕投资",
+    "source": "https://www.qcc.com/firm/a407b407b997f49c637194e9257d7707.html"
+  },
+  "南京邦盛高华传感产业投资合伙企业（有限合伙）": {
+    "brand": "邦盛资本",
+    "source": "https://www.qcc.com/firm/a407b407b997f49c637194e9257d7707.html"
+  },
+  "宁波相辉光创创业投资合伙企业（有限合伙）": {
+    "brand": "复旦科创",
+    "source": "https://www.qcc.com/firm/a407b407b997f49c637194e9257d7707.html"
+  },
+  "北京中关村远见认股权创业投资中心（有限合伙）": {
+    "brand": "中关村创投",
+    "source": "https://www.qcc.com/firm/fbd59e8a93f087b0f03e5519bdb68863.html"
+  },
+  "江苏中关村中诺协同投资基金合伙企业（有限合伙）": {
+    "brand": "中关村协同创新基金",
+    "source": "https://www.qcc.com/firm/614dc6ebdfec3c1ced6fd64be1440df9.html"
+  },
+  "深圳市普合萤火创业投资企业（有限合伙）": {
+    "brand": "合创资本",
+    "source": "https://www.qcc.com/firm/349fbf0d54b812c772e280a79b04acb3.html"
+  },
+  "国新央企运营（广州）投资基金（有限合伙）": {
+    "brand": "国新央企运营基金",
+    "source": "https://m.jiemian.com/article/6739197.html"
+  },
+  "道远心怡（嘉兴）股权投资合伙企业（有限合伙）": {
+    "brand": "道远资本",
+    "source": "https://www.qcc.com/firm/80dbf87dceace1760c011a2d41642a9d.html"
+  },
+  "道远硕丰（北京）股权投资合伙企业（有限合伙）": {
+    "brand": "道远资本",
+    "source": "https://www.qcc.com/firm/80dbf87dceace1760c011a2d41642a9d.html"
+  },
+  "北京观新前沿创业投资基金中心（有限合伙）": {
+    "brand": "观新生元创投",
+    "source": "https://www.qcc.com/firm/80dbf87dceace1760c011a2d41642a9d.html"
+  },
+  "北京开元弘道创业投资中心（有限合伙）": {
+    "brand": "中关村开元资本",
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202211181580366302&pageIndex=6"
+  },
+  "佳沃大河食品科技基金": {
+    "brand": "中关村大河资本",
+    "source": "https://www.zrivercapital.com/index.php?a=show&c=index&catid=16&id=36&m=content"
+  },
+  "北京丰台新动能投资管理中心（有限合伙）": {
+    "brand": "中关村大河资本",
+    "source": "https://www.bjft.gov.cn/fengtaibao/resfile/2020-10-16/07/ftb-20201016-007.pdf"
+  },
+  "北京中关村并购母基金投资中心（有限合伙）": {
+    "brand": "中关村大河资本",
+    "source": "https://disc.static.szse.cn/disc/disk02/finalpage/2019-07-09/d28649f8-5f09-468c-a950-4c07e829b8c0.PDF"
+  },
+  "北京大河融科创业投资有限公司": {
+    "brand": "中关村大河资本",
+    "source": "https://www.zrivercapital.com/index.php?a=show&c=index&catid=15&id=3&m=content"
+  },
+  "北京英诺鼎鑫创业投资中心（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.innospace.cn/news/detail/088ceffc06f2881c3dbc10312632db44/2"
+  },
+  "Hong Kong Inno CIES Limited Partnership Fund": {
+    "brand": "英诺天使基金",
+    "source": "https://www.innospace.cn/news/detail/daffb1cab2b3269b8f42904363fbf94f/2"
+  },
+  "北京英诺未来科技创业投资基金合伙企业（有限合伙）": {
+    "brand": "英诺科创基金",
+    "source": "https://www.innospace.cn/news/detail/e99f96369457df9b926e01d09886c4b2/2"
+  },
+  "深圳英诺科技创新投资合伙企业（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.idea.edu.cn/news/11246.html"
+  },
+  "武汉英诺天使投资基金合伙企业（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.innospace.cn/news/detail/13bbbad13beb6cb48293c5c1fbea14f7/2"
+  },
+  "厦门英诺嘉业股权投资基金合伙企业（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.qcc.com/firm/cbef921f646646acaa1ebf69b8c1a3ed.html"
+  },
+  "上海国仪福光智造私募投资基金合伙企业（有限合伙）": {
+    "brand": "国仪资本",
+    "source": "https://www.36kr.com/p/2377775834934020"
+  },
+  "嘉兴恩毅股权投资合伙企业（有限合伙）": {
+    "brand": "敦鸿资产",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-07-11/1224130635.PDF"
+  },
+  "重庆新微成渝创业投资基金合伙企业（有限合伙）": {
+    "brand": "新微资本",
+    "source": "https://www.cunjc.org.cn/newsinfo/3148025.html"
+  },
+  "中山飞凡数联影响力创业投资基金合伙企业（有限合伙）": {
+    "brand": "飞凡创投",
+    "source": "https://elink-vc.com/gongsixinwen/469.html"
+  },
+  "天津天创永钛海河智鑫创业投资基金合伙企业（有限合伙）": {
+    "brand": "天创资本",
+    "source": "https://www.qcc.com/firm/7db95439db0111d9db3e6eb818f97971.html"
+  },
+  "天津天创海河永钛智能科技产业基金合伙企业（有限合伙）": {
+    "brand": "天创资本",
+    "source": "https://www.qcc.com/firm/7db95439db0111d9db3e6eb818f97971.html"
+  },
+  "天和泓创（深圳）私募创业投资基金合伙企业（有限合伙）": {
+    "brand": "天创资本",
+    "source": "https://www.qcc.com/firm/7db95439db0111d9db3e6eb818f97971.html"
+  },
+  "苏州英诺科技创业投资合伙企业（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.shangdaovc.cn/h-nd-14361.html?m49pageno=4"
+  },
+  "深圳英诺天使投资合伙企业（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.qcc.com/firm/70525dd85a9c83b115ca0bf7be355db4.html"
+  },
+  "长存产业投资基金（武汉）合伙企业（有限合伙）": {
+    "brand": "长存资本",
+    "source": "https://www.qcc.com/firm/489b265c21404b19a16c174fa89b6c93.html"
+  },
+  "苏州市东吴领军科创投资合伙企业（有限合伙）": {
+    "brand": "吴中金控",
+    "source": "https://www.qcc.com/firm/add0956f335dae0dd9fd36eb9bf1323f.html"
+  },
+  "英诺成都科技创业投资中心（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://m.yicai.com/news/101879901.html"
+  },
+  "北京英诺创易佳科技创业投资中心（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.qcc.com/firm/0af89fefb73db8bf0b420872f532607a.html"
+  },
+  "海南英诺创业投资基金合伙企业（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.36kr.com/p/751742994239367"
+  },
+  "国投（广东）科技成果转化创业投资基金合伙企业（有限合伙）": {
+    "brand": "国投创业",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219960749.pdf"
+  },
+  "国寿（深圳）科技创新私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "国寿资本",
+    "source": "https://www.chinalifeinvest.com/invest/report/2309/10048-1.htm"
+  },
+  "无锡药明康德一期投资企业（有限合伙）": {
+    "brand": "药明康德",
+    "source": "https://www1.hkexnews.hk/app/sehk/2025/107477/documents/sehk25062502038_c.pdf"
+  },
+  "杭州伍零伍零二期股权投资合伙企业（有限合伙）": {
+    "brand": "高新金投集团",
+    "source": "https://hzbcds.zju.edu.cn/2026/0205/c85669a3132834/page.htm"
+  },
+  "苏州元起鸿成创业投资合伙企业（有限合伙）": {
+    "brand": "元起资本",
+    "source": "https://news.pedaily.cn/202603/562007.shtml"
+  },
+  "成都英诺中试科技创业投资中心（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://m.pedaily.cn/vc/company/865753.html"
+  },
+  "成都高科科技成果转化创业投资合伙企业（有限合伙）": {
+    "brand": "成都高新创投",
+    "source": "https://m.pedaily.cn/vc/company/865753.html"
+  },
+  "水木华清（北京）创业投资合伙企业（有限合伙）": {
+    "brand": "水木清华校友种子基金",
+    "source": "https://www.qcc.com/firm/03b2b2e2c4db3ac810907beb26b3f1c2.html"
+  },
+  "深圳君联君智创业投资基金合伙企业（有限合伙）": {
+    "brand": "君联资本",
+    "source": "https://www.qcc.com/firm/03b2b2e2c4db3ac810907beb26b3f1c2.html"
+  },
+  "深圳市同创网络与通信和智能终端产业私募创业投资基金合伙企业（有限合伙）": {
+    "brand": "同创伟业",
+    "source": "https://www.qcc.com/firm/03b2b2e2c4db3ac810907beb26b3f1c2.html"
+  },
+  "国新创投基金（杭州）合伙企业（有限合伙）": {
+    "brand": "国新基金",
+    "source": "https://companies.caixin.com/m/2026-06-18/102455449.html"
+  },
+  "北京安鹏科创汽车产业投资基金合伙企业（有限合伙）": {
+    "brand": "北汽产投",
+    "source": "https://companies.caixin.com/m/2026-06-18/102455449.html"
+  },
+  "青岛芯能方源创业投资基金合伙企业（有限合伙）": {
+    "brand": "芯能创投",
+    "source": "https://companies.caixin.com/m/2026-06-18/102455449.html"
+  },
+  "北京九合深宏创业投资基金合伙企业（有限合伙）": {
+    "brand": "九合创投",
+    "source": "https://www.cls.cn/detail/1299897"
+  },
+  "陕西财投英诺秦创天使基金（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.qcc.com/firm/512884f0c1a9ea9d84c86667e6e80602.html"
+  },
+  "常州中关村协同创业投资中心（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://www.ncsti.gov.cn/kjdt/kjrd/qtrd_kjrd/202604/t20260401_242634.html"
+  },
+  "上海利保嘉上投资中心（有限合伙）": {
+    "brand": "达泰资本",
+    "source": "https://www.qcc.com/firm/eccb986ba3584439d80ad3c366c84f0c.html"
+  },
+  "芜湖闻名泉丰创业投资合伙企业（有限合伙）": {
+    "brand": "闻名投资",
+    "source": "https://www.aidlux.com/en/about"
+  },
+  "芜湖闻名泉升创业投资合伙企业（有限合伙）": {
+    "brand": "闻名投资",
+    "source": "https://www.aidlux.com/en/about"
+  },
+  "深圳市高新投广和通物联网产业私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "深高新投",
+    "source": "https://www.aidlux.com/en/about"
+  },
+  "高通（中国）控股有限公司": {
+    "brand": "高通创投",
+    "source": "https://www.aidlux.com/en/about"
+  },
+  "安徽鲁信皖能绿色动能股权投资基金合伙企业（有限合伙）": {
+    "brand": "鲁信创投",
+    "source": "https://vc.pedaily.cn/company/195234.html"
+  },
+  "成都未来产业天使投资基金合伙企业（有限合伙）": {
+    "brand": "成都科创投集团",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-07-29/245061_20260729_661P.pdf"
+  },
+  "四川区域协同发展投资引导基金合伙企业（有限合伙）": {
+    "brand": "四川兴川",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-10-28/246339_20261028_NOE7.pdf"
+  },
+  "成都乐道万创投资合伙企业（有限合伙）": {
+    "brand": "乐道和创",
+    "source": "https://vc.pedaily.cn/company/196664.html"
+  },
+  "青岛苍海虎跃投资合伙企业（有限合伙）": {
+    "brand": "苍海资本",
+    "source": "https://startup.aliyun.com/city/cd/info/2650"
+  },
+  "桐乡盖迪股权投资合伙企业（有限合伙）": {
+    "brand": "美蓝湖基金",
+    "source": "https://vc.pedaily.cn/company/196664.html"
+  },
+  "西安高投启源硬科技产业投资基金合伙企业（有限合伙）": {
+    "brand": "西安高投",
+    "source": "https://www.qcc.com/firm/50e5fef4eb19e70e1615789af5919d79.html"
+  },
+  "泉州鹭晟汇星创业投资合伙企业（有限合伙）": {
+    "brand": "鹭晟投资",
+    "source": "https://www.thecover.cn/news/6XbtG6gegqWH90qSdq8Jkw%3D%3D"
+  },
+  "温润成长壹号（珠海）股权投资基金合伙企业（有限合伙）": {
+    "brand": "温氏资本",
+    "source": "https://finance.sina.com.cn/stock/s/2021-12-29/doc-ikyakumx7187079.shtml"
+  },
+  "宁波市道合智启创业投资合伙企业（有限合伙）": {
+    "brand": "道合投资",
+    "source": "https://www.caivd-org.cn/article.asp?id=12413"
+  },
+  "宁波市智寻创业投资合伙企业（有限合伙）": {
+    "brand": "道合投资",
+    "source": "https://www.qcc.com/firm/823bbe431b0b76adea22a5803daadee5.html"
+  },
+  "苏州元渡企业咨询合伙企业（有限合伙）": {
+    "brand": "元生创投",
+    "source": "https://www.qcc.com/firm/823bbe431b0b76adea22a5803daadee5.html"
+  },
+  "北京辰清本草股权投资中心（有限合伙）": {
+    "brand": "本草资本",
+    "source": "https://www.qcc.com/firm/823bbe431b0b76adea22a5803daadee5.html"
+  },
+  "成都元生科创天使创业投资合伙企业（有限合伙）": {
+    "brand": "元生创投",
+    "source": "https://www.qcc.com/firm/823bbe431b0b76adea22a5803daadee5.html"
+  },
+  "潍坊航动空天投资合伙企业（有限合伙）": {
+    "brand": "高精尖投资",
+    "source": "https://www.thecover.cn/news/6XbtG6gegqWH90qSdq8Jkw%3D%3D"
+  },
+  "厦门国升追创机器人产业创业投资基金合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://media.qimingpian.cn/2026/10/20/28f0a1acb106582e43d2eec8ae7d665d.html"
+  },
+  "枣庄追创股权投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/firm/d15ca3f8326a06349f6a715774b659a3.html"
+  },
+  "湖南省金芙蓉金浦兴质创业投资合伙企业（有限合伙）": {
+    "brand": "金浦投资",
+    "source": "https://media.qimingpian.cn/2026/10/20/28f0a1acb106582e43d2eec8ae7d665d.html"
+  },
+  "杭州久科青溪芯光创业投资合伙企业（有限合伙）": {
+    "brand": "久科资本",
+    "source": "https://media.qimingpian.cn/2026/10/20/28f0a1acb106582e43d2eec8ae7d665d.html"
+  },
+  "杭州久科通联智能创业投资合伙企业（有限合伙）": {
+    "brand": "久科资本",
+    "source": "https://media.qimingpian.cn/2026/10/20/28f0a1acb106582e43d2eec8ae7d665d.html"
+  },
+  "江苏汇创睿昇创业投资合伙企业（有限合伙）": {
+    "brand": "汇川产投",
+    "source": "https://media.qimingpian.cn/2026/10/20/28f0a1acb106582e43d2eec8ae7d665d.html"
+  },
+  "柳州天空工场人工智能创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "嘉兴追创智秀创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "宜宾高新前沿科技产业创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "浙江追创智湖创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "绍兴市追觅生态股权投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "苏州天空工场创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "武汉临空港追创智灵股权投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "成都追创智蓉创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "天空工场创投基金": {
+    "brand": "追创创投",
+    "source": "https://www.huxiu.com/article/4867401.html?type=text"
+  },
+  "苏州追梦翼创创业投资合伙企业（有限合伙）": {
+    "brand": "翼朴资本",
+    "source": "https://www.qcc.com/firm/0a2cb752309c43b5dd32a509a6d284f6.html"
+  },
+  "瀚星创业投资有限公司": {
+    "brand": "小米集团",
+    "source": "https://www.sohu.com/a/548873724_114778"
+  },
+  "深圳君科丹木创业投资合伙企业（有限合伙）": {
+    "brand": "君联资本",
+    "source": "https://www.qcc.com/firm/fc99cc0269759f2637f895c1aba0645a.html"
+  },
+  "深圳市领沃基石创业投资基金合伙企业（有限合伙）": {
+    "brand": "基石资本",
+    "source": "https://www.qcc.com/firm/fc99cc0269759f2637f895c1aba0645a.html"
+  },
+  "初辉元景创业投资（日照）合伙企业（有限合伙）": {
+    "brand": "初辉资本",
+    "source": "https://www.36kr.com/newsflashes/3649946334519680"
+  },
+  "四川智达追创创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "丽水追创智睿创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "安吉联创永智创业投资合伙企业（有限合伙）": {
+    "brand": "安鋆投资",
+    "source": "https://www.qcc.com/firm/1a3a023b578f0cf80f048cebe1ef0b26.html"
+  },
+  "嘉兴睿利传承创业投资合伙企业（有限合伙）": {
+    "brand": "博睿智联",
+    "source": "https://www.qcc.com/firm/1a3a023b578f0cf80f048cebe1ef0b26.html"
+  },
+  "青岛君礼星泽创业投资合伙企业（有限合伙）": {
+    "brand": "君礼资本",
+    "source": "https://www.qcc.com/firm/7eabf8a662ae718d58c2144fbf6080c6.html"
+  },
+  "上海芯联启辰私募投资基金合伙企业（有限合伙）": {
+    "brand": "芯联资本",
+    "source": "https://www.qcc.com/firm/7eabf8a662ae718d58c2144fbf6080c6.html"
+  },
+  "北京奇绩创坛二期创业投资中心（有限合伙）": {
+    "brand": "奇绩创坛",
+    "source": "https://www.qcc.com/firm/1a3a023b578f0cf80f048cebe1ef0b26.html"
+  },
+  "北京创新工场智创股权投资合伙企业（有限合伙）": {
+    "brand": "创新工场",
+    "source": "https://www.qcc.com/firm/a122d2b0d8b8b5a0ad8c8e14e83aaf4b.html"
+  },
+  "嘉兴坚创股权投资合伙企业（有限合伙）": {
+    "brand": "硬核坚果资本",
+    "source": "https://www.qcc.com/firm/a122d2b0d8b8b5a0ad8c8e14e83aaf4b.html"
+  },
+  "中小企业发展基金普华（杭州）创业投资合伙企业（有限合伙）": {
+    "brand": "普华资本",
+    "source": "https://www.qcc.com/firm/a122d2b0d8b8b5a0ad8c8e14e83aaf4b.html"
+  },
+  "著杰基源（淄博）股权投资合伙企业（有限合伙）": {
+    "brand": "银侨基金",
+    "source": "https://www.qcc.com/firm/a122d2b0d8b8b5a0ad8c8e14e83aaf4b.html"
+  },
+  "上海中科创星先导创业投资合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://www.qcc.com/firm/a122d2b0d8b8b5a0ad8c8e14e83aaf4b.html"
+  },
+  "上海玥启智创智能科技合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "潜江天空工场创业投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "苏州追创智维股权投资合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "上海玥恒智创智能科技合伙企业（有限合伙）": {
+    "brand": "追创创投",
+    "source": "https://www.qcc.com/investor/12da23feb64fafb9eb47a769e077ed38.html"
+  },
+  "深圳市新势能天使创业投资企业（有限合伙）": {
+    "brand": "梅花创投",
+    "source": "https://www.qcc.com/firm/86cabf9ecd1e42480ebd7a80faa92c66.html"
+  },
+  "深圳市新势能二期天使创业投资企业（有限合伙）": {
+    "brand": "梅花创投",
+    "source": "https://www.qcc.com/firm/86cabf9ecd1e42480ebd7a80faa92c66.html"
+  },
+  "南京润科智能家电投资合伙企业（有限合伙）": {
+    "brand": "紫金科创",
+    "source": "https://www.qcc.com/firm/73e1e3768ee51cb95b5f423351d0a1f7.html"
+  },
+  "安徽成唐数智创意股权投资基金合伙企业（有限合伙）": {
+    "brand": "商汤国香资本",
+    "source": "https://www.qcc.com/firm/86cabf9ecd1e42480ebd7a80faa92c66.html"
+  },
+  "芜湖基石先启未来创业投资基金合伙企业（有限合伙）": {
+    "brand": "基石资本",
+    "source": "https://www.qcc.com/firm/86cabf9ecd1e42480ebd7a80faa92c66.html"
+  },
+  "嘉兴市秀湖创业创新股权投资基金有限公司": {
+    "brand": "秀湖基金",
+    "source": "https://www.qcc.com/firm/69f180f26f1e179c7419bb7aa4d61f9c.html"
+  },
+  "苏州工业园区新建元二期创业投资企业（有限合伙）": {
+    "brand": "元生创投",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202212/001403_20221230_OTH4.pdf"
+  },
+  "北京银杏博清创业投资合伙企业（有限合伙）": {
+    "brand": "博行资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202501161641947075_1.pdf"
+  },
+  "苏州博行韶华葛覃创业投资合伙企业（有限合伙）": {
+    "brand": "博行资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202501161641947075_1.pdf"
+  },
+  "Yuanbio Venture Capital L.P.": {
+    "brand": "元生创投",
+    "source": "https://m.pedaily.cn/data/inv/26233"
+  },
+  "深圳市元生天使创业投资合伙企业（有限合伙）": {
+    "brand": "元生创投",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506231696263035_1.pdf"
+  },
+  "共青城富汇医健创业投资合伙企业（有限合伙）": {
+    "brand": "富汇创投",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506231696263035_1.pdf"
+  },
+  "中山翠亨创业投资合伙企业（有限合伙）": {
+    "brand": "富汇创投",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506231696263035_1.pdf"
+  },
+  "成都怀格国生创业投资合伙企业（有限合伙）": {
+    "brand": "怀格资本",
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202506131690298166&pageIndex=1"
+  },
+  "苏州工业园区新建元生物创业投资企业（有限合伙）": {
+    "brand": "元生创投",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0519/2025051900013.pdf"
+  },
+  "苏州工业园区新建元三期创业投资企业（有限合伙）": {
+    "brand": "元生创投",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0519/2025051900013.pdf"
+  },
+  "苏州工业园区元生园丰天使投资企业（有限合伙）": {
+    "brand": "元生创投",
+    "source": "https://zdb.pedaily.cn/inv/show27459/"
+  },
+  "深圳华盖前海科控天使创业投资合伙企业（有限合伙）": {
+    "brand": "华盖资本",
+    "source": "https://zdb.pedaily.cn/inv/show27459/"
+  },
+  "苏州华盖一臻股权投资合伙企业（有限合伙）": {
+    "brand": "华盖资本",
+    "source": "https://zdb.pedaily.cn/inv/show27459/"
+  },
+  "Highlight Medical Limited": {
+    "brand": "弘晖资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2021/0622/2021062200010_c.pdf"
+  },
+  "苏州泰弘景晖投资中心（有限合伙）": {
+    "brand": "弘晖资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2021/0622/2021062200010_c.pdf"
+  },
+  "Homehealth Investment Limited": {
+    "brand": "弘晖资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2021/0622/2021062200010_c.pdf"
+  },
+  "杭州奋华投资合伙企业（有限合伙）": {
+    "brand": "浙商创投",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2021/0622/2021062200010_c.pdf"
+  },
+  "北京市新材料产业投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-01-20/244585_20260120_EX1Q.pdf"
+  },
+  "亦庄国投旗下专精特新基金": {
+    "brand": "亦庄国投",
+    "source": "https://www.vbdata.cn/53991"
+  },
+  "北京亦庄医药中小企业创业投资中心（有限合伙）": {
+    "brand": "赛盈资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1116/12413102/2026111600033_c.pdf"
+  },
+  "中小企业发展基金（深圳南山有限合伙）": {
+    "brand": "东方富海",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/351000665889.html"
+  },
+  "珠海华金领尚股权投资基金合伙企业（有限合伙）": {
+    "brand": "华金资本",
+    "source": "https://www.saiyingcapital.com/h-nd-130.html"
+  },
+  "珠海华金丰盈八号股权投资基金合伙企业（有限合伙）": {
+    "brand": "华金资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651077.PDF"
+  },
+  "北京亦庄二期生物医药产业投资基金（有限合伙）": {
+    "brand": "赛盈资本",
+    "source": "https://www.saiyingcapital.com/h-nd-124.html"
+  },
+  "珠海康居一期创业投资合伙企业（有限合伙）": {
+    "brand": "康居创投",
+    "source": "https://www.saiyingcapital.com/h-nd-130.html"
+  },
+  "中小企业发展基金（成都）交子创业投资合伙企业（有限合伙）": {
+    "brand": "东方富海",
+    "source": "https://www.chinaventure.com.cn/news/83-20250430-386133.html"
+  },
+  "北京国科鼎智股权投资中心（有限合伙）": {
+    "brand": "国科嘉和",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0617/12205767/2026061700155_c.pdf"
+  },
+  "成都未来产业天使投资基金": {
+    "brand": "成都科创投集团",
+    "source": "https://m.sohu.com/a/1071957172_421107"
+  },
+  "百川企业管理有限公司": {
+    "brand": "百川能源",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-12-31/1224908385.PDF"
+  },
+  "海南百川氢能科技发展有限公司": {
+    "brand": "百川能源",
+    "source": "https://epaper.cs.com.cn/zgzqb/images/2025-11/01/B013/zqB01301.pdf"
+  },
+  "宁波传感谷创业投资基金合伙企业（有限合伙）": {
+    "brand": "时代伯乐",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11027745"
+  },
+  "天图美丽领航（湖州）股权投资合伙企业（有限合伙）": {
+    "brand": "天图投资",
+    "source": "https://business.china.com.cn/2026-07/20/content_43463959.shtml"
+  },
+  "太仓美湾产业投资合伙企业（有限合伙）": {
+    "brand": "泓润资本",
+    "source": "https://www.taicang.gov.cn/taicang/qzdt/202511/7b12d379247645ceadff685f57de1847.shtml"
+  },
+  "常州新泉智能机器人有限公司": {
+    "brand": "新泉股份",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225017741.PDF"
+  },
+  "桂林福达股份有限公司": {
+    "brand": "福达股份",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12378315&stockid=603166"
+  },
+  "杭州矩芯创业投资合伙企业（有限合伙）": {
+    "brand": "华夏恒天",
+    "source": "https://api3.cls.cn/share/article/2517084?app=stib&os=android&sv=222"
+  },
+  "成都兴锦未来新兴产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "成都兴锦",
+    "source": "https://www.thepaper.cn/newsDetail_forward_34318269"
+  },
+  "广东莞商清大创业投资合伙企业（有限合伙）": {
+    "brand": "莞商清大",
+    "source": "https://www.qcc.com/firm/f77878e8ebc71b5cf275b38cdd7afc7b.html"
+  },
+  "厦门雅恒创业投资基金合伙企业（有限合伙）": {
+    "brand": "红杉中国",
+    "source": "https://www.qcc.com/firm/f77878e8ebc71b5cf275b38cdd7afc7b.html"
+  },
+  "南京襄久创业投资合伙企业（有限合伙）": {
+    "brand": "襄禾资本",
+    "source": "https://www.qcc.com/firm/f77878e8ebc71b5cf275b38cdd7afc7b.html"
+  },
+  "珠海赛纳永盈一期创业投资基金合伙企业（有限合伙）": {
+    "brand": "赛纳资本",
+    "source": "https://www.qcc.com/firm/f77878e8ebc71b5cf275b38cdd7afc7b.html"
+  },
+  "湖南达晨财智中小企业创业投资基金合伙企业（有限合伙）": {
+    "brand": "达晨财智",
+    "source": "https://www.qcc.com/firm/f77878e8ebc71b5cf275b38cdd7afc7b.html"
+  },
+  "北京市先进制造和智能装备产业投资基金（有限合伙）": {
+    "brand": "北京国管",
+    "source": "https://www.qcc.com/firm/e85596bc4d91939fd9def0aa2364f474.html"
+  },
+  "苏州东山产业投资有限公司": {
+    "brand": "东山产投",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-11-07/242c386b-cfc9-4977-b619-2f4988c7cf72.PDF"
+  },
+  "苏州东山精密制造股份有限公司": {
+    "brand": "东山精密",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225662600.PDF"
+  },
+  "厦门金东石壹号创业投资合伙企业（有限合伙）": {
+    "brand": "万久科技（金东石）",
+    "source": "https://www.qcc.com/firm/af534de07456ffe3756e3c260a7f6c37.html"
+  },
+  "厦门君东久创业投资合伙企业（有限合伙）": {
+    "brand": "万久科技（金东石）",
+    "source": "https://vc.pedaily.cn/company/659693.html"
+  },
+  "厦门金智远创业投资合伙企业（有限合伙）": {
+    "brand": "万久科技（金东石）",
+    "source": "https://www.qcc.com/firm/af534de07456ffe3756e3c260a7f6c37.html"
+  },
+  "成都新微智光创业投资基金合伙企业（有限合伙）": {
+    "brand": "新微资本",
+    "source": "https://www.qcc.com/firm/af534de07456ffe3756e3c260a7f6c37.html"
+  },
+  "福建省专精领航创业投资母基金合伙企业（有限合伙）": {
+    "brand": "福建金投",
+    "source": "https://www.eet-china.com/mp/a541208.html"
+  },
+  "平潭蓝兴证麒麟专精创业投资合伙企业（有限合伙）": {
+    "brand": "兴证资本",
+    "source": "https://www.qcc.com/firm/af534de07456ffe3756e3c260a7f6c37.html"
+  },
+  "福建专精三号创业投资合伙企业（有限合伙）": {
+    "brand": "兴证资本",
+    "source": "https://www.qcc.com/firm/af534de07456ffe3756e3c260a7f6c37.html"
+  },
+  "深圳哈勃科技投资合伙企业（有限合伙）": {
+    "brand": "哈勃投资",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-22/1225574817.PDF"
+  },
+  "厦门市深高投金圆人才股权投资基金合伙企业（有限合伙）": {
+    "brand": "深高新投",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-22/1225574817.PDF"
+  },
+  "厦门市深高投圆兴投资合伙企业（有限合伙）": {
+    "brand": "深高新投",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-22/1225574817.PDF"
+  },
+  "南京俱成秋实贰号创业投资合伙企业（有限合伙）": {
+    "brand": "俱成资本",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12711646&stockid=301661"
+  },
+  "江苏高投毅达众创创业投资合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12711646&stockid=301661"
+  },
+  "苏州顺融进取二期创业投资合伙企业（有限合伙）": {
+    "brand": "顺融资本",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "深圳市前海鹏晨源拓投资企业（有限合伙）": {
+    "brand": "鹏晨投资",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "江苏中小企业发展基金（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "聚源中小企业发展创业投资基金（绍兴）合伙企业（有限合伙）": {
+    "brand": "中芯聚源",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "南京金浦新潮吉祥创业投资合伙企业（有限合伙）": {
+    "brand": "金浦投资",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "张家港国弘纪元投资合伙企业（有限合伙）": {
+    "brand": "长江国弘",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "苏州启明融乾股权投资合伙企业（有限合伙）": {
+    "brand": "启明创投",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "昆山市启明融凯股权投资合伙企业（有限合伙）": {
+    "brand": "启明创投",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "深创投中小企业发展基金（新疆）有限合伙企业": {
+    "brand": "深创投",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "常熟声谷高新投资基金合伙企业（有限合伙）": {
+    "brand": "东吴创投",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "苏州吴越京成创业投资合伙企业（有限合伙）": {
+    "brand": "常熟国发创投",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "南京新工并购股权投资基金合伙企业（有限合伙）": {
+    "brand": "南京新工产投",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "苏州上银国发创业投资合伙企业（有限合伙）": {
+    "brand": "苏创投",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "苏州华览一心创业投资合伙企业（有限合伙）": {
+    "brand": "汇毅资本",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "中电科（南京）产业投资基金合伙企业（有限合伙）": {
+    "brand": "中电基金",
+    "source": "https://www.qcc.com/firm/66848fcfe3f7e9050ad1466e6e980375.html"
+  },
+  "苏州元禾璞华智芯股权投资合伙企业（有限合伙）": {
+    "brand": "元禾璞华",
+    "source": "https://www.qcc.com/firm/66848fcfe3f7e9050ad1466e6e980375.html"
+  },
+  "北京光电融合产业投资基金（有限合伙）": {
+    "brand": "电控产投",
+    "source": "https://www.qcc.com/firm/66848fcfe3f7e9050ad1466e6e980375.html"
+  },
+  "齐鲁前海（青岛）创业投资基金合伙企业（有限合伙）": {
+    "brand": "前海母基金",
+    "source": "https://www.qcc.com/firm/66848fcfe3f7e9050ad1466e6e980375.html"
+  },
+  "北京集成电路装备产业投资并购二期基金（有限合伙）": {
+    "brand": "诺华资本",
+    "source": "https://www.qcc.com/firm/66848fcfe3f7e9050ad1466e6e980375.html"
+  },
+  "江苏盛宇华天创业投资合伙企业（有限合伙）": {
+    "brand": "盛宇投资",
+    "source": "https://www.qcc.com/firm/788b3675e7bb8256152706c255333d45.html"
+  },
+  "上海半导体装备材料二期私募投资基金合伙企业（有限合伙）": {
+    "brand": "浦东科投",
+    "source": "https://www.qcc.com/firm/bd538969b528531400ceff369e1255d3.html"
+  },
+  "上海临港国泰海通启航创业投资合伙企业（有限合伙）": {
+    "brand": "国泰君安创投",
+    "source": "https://www.qcc.com/firm/bd538969b528531400ceff369e1255d3.html"
+  },
+  "嘉兴望众明礼创业投资合伙企业（有限合伙）": {
+    "brand": "望众投资",
+    "source": "https://www.qcc.com/firm/bd538969b528531400ceff369e1255d3.html"
+  },
+  "苏州高新科创天使一期创业投资合伙企业（有限合伙）": {
+    "brand": "苏高新科创天使基金",
+    "source": "https://www.qcc.com/firm/bd538969b528531400ceff369e1255d3.html"
+  },
+  "苏州川流长桉新材料创业投资合伙企业（有限合伙）": {
+    "brand": "川流投资",
+    "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
+  },
+  "苏州顺融泽实创业投资合伙企业（有限合伙）": {
+    "brand": "顺融资本",
+    "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
+  },
+  "苏州亿创创业投资合伙企业（有限合伙）": {
+    "brand": "亿文创新资本",
+    "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
+  },
+  "南京科思化学股份有限公司": {
+    "brand": "科思股份",
+    "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
+  },
+  "苏州苏创智荟人才创业投资合伙企业（有限合伙）": {
+    "brand": "苏创投",
+    "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
+  },
+  "苏州顺融进取四期创业投资合伙企业（有限合伙）": {
+    "brand": "顺融资本",
+    "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
+  },
+  "昆山玉见未来投资合伙企业（有限合伙）": {
+    "brand": "昆山工研院基金",
+    "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
+  },
+  "南京巨石二号创业投资合伙企业（有限合伙）": {
+    "brand": "巨石创投",
+    "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
+  },
+  "工业母机产业投资基金（有限合伙）": {
+    "brand": "元禾控股",
+    "source": "https://www.qcc.com/firm/798d6adf654b87e75a0d2e3f53dc161e.html"
+  },
+  "苏州苏创数字新兴产业基金合伙企业（有限合伙）": {
+    "brand": "苏创投",
+    "source": "https://www.qcc.com/firm/798d6adf654b87e75a0d2e3f53dc161e.html"
+  },
+  "苏州创元壹号创业投资合伙企业（有限合伙）": {
+    "brand": "创元集团",
+    "source": "https://www.qcc.com/firm/798d6adf654b87e75a0d2e3f53dc161e.html"
+  },
+  "苏州东吴高铁私募基金合伙企业（有限合伙）": {
+    "brand": "东吴创投",
+    "source": "https://www.qcc.com/firm/798d6adf654b87e75a0d2e3f53dc161e.html"
+  },
+  "苏州雨逸贝澜创业投资合伙企业（有限合伙）": {
+    "brand": "雨逸投资",
+    "source": "https://www.qcc.com/firm/798d6adf654b87e75a0d2e3f53dc161e.html"
+  },
+  "芜湖高新国控产业投资有限公司": {
+    "brand": "芜湖高新控股",
+    "source": "https://www.qcc.com/firm/b5b1d7dcd791f34933584aa522c00612.html"
+  },
+  "苏州信禾国清创业投资合伙企业（有限合伙）": {
+    "brand": "信成基金",
+    "source": "https://www.chinamoney.com.cn/dqs/cm-s-notice-query/fileDownLoad.do?contentId=3239259&mode=save&priority=0"
+  },
+  "苏州驰星睿启投资管理合伙企业（有限合伙）": {
+    "brand": "驰星创投",
+    "source": "https://www.qcc.com/firm/b2803faf024fcfc16e5c1e15fa28424d.html"
+  },
+  "杭州友创思睿创业投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/c00a47b9d161629193a8c46fb528fe8d.html"
+  },
+  "浙江银杏未来成果转化创业投资合伙企业（有限合伙）": {
+    "brand": "银杏谷资本",
+    "source": "https://www.qcc.com/firm/c00a47b9d161629193a8c46fb528fe8d.html"
+  },
+  "杭州藕舫青溪创业投资合伙企业（有限合伙）": {
+    "brand": "藕舫天使",
+    "source": "https://www.qcc.com/firm/f802b8abc78024efecb98189f7b357c0.html"
+  },
+  "嘉兴恒义创业投资合伙企业（有限合伙）": {
+    "brand": "比丘资本",
+    "source": "https://www.qcc.com/firm/f802b8abc78024efecb98189f7b357c0.html"
+  },
+  "海宁海愿启真科创投资合伙企业（有限合伙）": {
+    "brand": "海愿资本",
+    "source": "https://www.qcc.com/firm/9f8169035326022b5943a8ef4a53d057.html"
+  },
+  "杭实智投（杭州）产业投资基金合伙企业（有限合伙）": {
+    "brand": "杭实集团",
+    "source": "https://www.qcc.com/firm/9f8169035326022b5943a8ef4a53d057.html"
+  },
+  "德清才创一期股权投资合伙企业（有限合伙）": {
+    "brand": "莫干山基金",
+    "source": "https://www.qcc.com/firm/cd59c9c6c1a029aac6e8e8648dc95bd7.html"
+  },
+  "杭州友创毓瑞临卓天使股权投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/232e6e2ade26145e193a8ab1664269e0.html"
+  },
+  "华纬科技股份有限公司": {
+    "brand": "华纬科技",
+    "source": "https://www.qcc.com/firm/034ee13dec9fbb48257c71c7afde70ed.html"
+  },
+  "杭州科发临卓天使创业投资合伙企业（有限合伙）": {
+    "brand": "科发资本",
+    "source": "https://www.qcc.com/firm/034ee13dec9fbb48257c71c7afde70ed.html"
+  },
+  "富海精选二号创业投资（杭州）合伙企业（有限合伙）": {
+    "brand": "东方富海",
+    "source": "https://www.qcc.com/firm/034ee13dec9fbb48257c71c7afde70ed.html"
+  },
+  "扬州邦明龙投科技创业投资中心（有限合伙）": {
+    "brand": "邦明资本",
+    "source": "https://www.qcc.com/firm/8fc5c91c5f618bb4b97608f83e02f67f.html"
+  },
+  "浙江衡吉投资管理有限公司": {
+    "brand": "五洲医疗",
+    "source": "https://www.qcc.com/firm/8fc5c91c5f618bb4b97608f83e02f67f.html"
+  },
+  "衢州高质量发展股权投资合伙企业（有限合伙）": {
+    "brand": "衢州产投",
+    "source": "https://www.qcc.com/firm/070f1eb7a6cbd474f3147b9733d44e33.html"
+  },
+  "中金曜盛（绍兴上虞）股权投资合伙企业（有限合伙）": {
+    "brand": "中金资本",
+    "source": "https://www.qcc.com/firm/070f1eb7a6cbd474f3147b9733d44e33.html"
+  },
+  "杭州浚智股权投资合伙企业（有限合伙）": {
+    "brand": "九智资本",
+    "source": "https://www.qcc.com/firm/070f1eb7a6cbd474f3147b9733d44e33.html"
+  },
+  "杭州藕舫紫泉创业投资合伙企业（有限合伙）": {
+    "brand": "藕舫天使",
+    "source": "https://www.qcc.com/firm/3f364f19c28d036d32cff60cba5d2db9.html"
+  },
+  "杭州道生初阳科创股权投资基金合伙企业（有限合伙）": {
+    "brand": "道生资本",
+    "source": "https://www.qcc.com/firm/18fea3ec8d4e3eea3d4a2297f6c38d18.html"
+  },
+  "浙江大晶创业投资有限公司": {
+    "brand": "浙大大晶创投",
+    "source": "https://www.qcc.com/firm/18fea3ec8d4e3eea3d4a2297f6c38d18.html"
+  },
+  "湖州真石巨星玖号创业投资合伙企业（有限合伙）": {
+    "brand": "真石资本",
+    "source": "https://www.qcc.com/firm/18fea3ec8d4e3eea3d4a2297f6c38d18.html"
+  },
+  "杭州高投颠覆性技术成果转化一期创业投资合伙企业（有限合伙）": {
+    "brand": "杭州科创集团",
+    "source": "https://www.qcc.com/firm/df1d51245c0fcc73961ce57e4b4ebb14.html"
+  },
+  "台州汇融嘉能友创股权投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/9c491def50c1058f1d92b924e821edb6.html"
+  },
+  "杭州杭实友创九智创业投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "杭州新愿景毓秀九智股权投资合伙企业（有限合伙）": {
+    "brand": "海愿资本",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "平湖华睿嘉银创业投资合伙企业（有限合伙）": {
+    "brand": "华睿投资",
+    "source": "https://www.qcc.com/firm/173680e7f7f37bbddc2ebe03fa86589a.html"
+  },
+  "苏州宜行天下创业投资合伙企业（有限合伙）": {
+    "brand": "众行资本",
+    "source": "https://www.qcc.com/firm/1d355fa814ba8a1bfa0e3871674cf00a.html"
+  },
+  "湖北同创绿色创业投资基金合伙企业（有限合伙）": {
+    "brand": "同创伟业",
+    "source": "https://www.qcc.com/firm/519c95fa0b52b7b6d8dfb0235fdd0554.html"
+  },
+  "K2 Partners V Limited": {
+    "brand": "险峰",
+    "source": "https://www.qcc.com/firm/519c95fa0b52b7b6d8dfb0235fdd0554.html"
+  },
+  "安吉港盈一期股权投资合伙企业（有限合伙）": {
+    "brand": "中益仁投资",
+    "source": "https://www.qcc.com/firm/519c95fa0b52b7b6d8dfb0235fdd0554.html"
+  },
+  "安吉两山双创股权投资合伙企业（有限合伙）": {
+    "brand": "浙江安吉两山基金",
+    "source": "https://www.qcc.com/firm/519c95fa0b52b7b6d8dfb0235fdd0554.html"
+  },
+  "合肥同创中小企业发展基金合伙企业（有限合伙）": {
+    "brand": "同创伟业",
+    "source": "https://www.qcc.com/firm/0a05b2e421375f8481df5012c4ba7682.html"
+  },
+  "深圳市同创天使二期私募创业投资基金合伙企业（有限合伙）": {
+    "brand": "同创伟业",
+    "source": "https://www.qcc.com/firm/0a05b2e421375f8481df5012c4ba7682.html"
+  },
+  "杭州陆鼎创业投资基金合伙企业（有限合伙）": {
+    "brand": "兴华鼎立",
+    "source": "https://www.qcc.com/firm/2a657b40831d027c90639ded529733f1.html"
+  },
+  "湖州真石巨星伍号创业投资合伙企业（有限合伙）": {
+    "brand": "真石资本",
+    "source": "https://www.qcc.com/firm/2a657b40831d027c90639ded529733f1.html"
+  },
+  "青岛新鼎啃哥泽叁创业投资合伙企业（有限合伙）": {
+    "brand": "新鼎资本",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "青岛新鼎啃哥泽陆创业投资合伙企业（有限合伙）": {
+    "brand": "新鼎资本",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "中信城西科创大走廊（杭州）股权投资基金合伙企业（有限合伙）": {
+    "brand": "中信金石",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "杭州嘉富泽启股权投资合伙企业（有限合伙）": {
+    "brand": "东方嘉富",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "上海科技创业投资有限公司": {
+    "brand": "上海科创集团",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "苏州国新科创二期股权投资基金合伙企业（有限合伙）": {
+    "brand": "国新基金",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "杭州产业投资有限公司": {
+    "brand": "杭州资本",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "杭州元禾既明庚子股权投资合伙企业（有限合伙）": {
+    "brand": "元禾原点",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "扬州新愿景远航股权投资合伙企业（有限合伙）": {
+    "brand": "海愿资本",
+    "source": "https://www.qcc.com/firm/3b171c80595cf7f2c589c955300c1ca8.html"
+  },
+  "深圳中喜医疗创业投资合伙企业（有限合伙）": {
+    "brand": "中喜基金",
+    "source": "https://www.qcc.com/firm/f4dd66592d65b1cec8acd56281bddc5e.html"
+  },
+  "杭州微同股权投资合伙企业（有限合伙）": {
+    "brand": "国新基金",
+    "source": "https://www.qcc.com/firm/101f8c0e2361130812b731212dfd5757.html"
+  },
+  "杭州启真毓安股权投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/101f8c0e2361130812b731212dfd5757.html"
+  },
+  "嘉兴友创启真创业投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/8b5a5d35d8819dc20f0528b8ee26cbe0.html"
+  },
+  "海宁启真毓金创业投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/fd118e36279ab8ac25e7e529d854245e.html"
+  },
+  "杭州启真友智创业投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/a386486d2247b663b090f9c7641757d4.html"
+  },
+  "杭州图讯友创安众创业投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/436c039fdd6e50e7fc3af7d5fdfbfb92.html"
+  },
+  "深圳市瀚辰创业投资基金合伙企业（有限合伙）": {
+    "brand": "红杉中国",
+    "source": "https://www.qcc.com/firm/19b76f660984619ffa68a5808b2a1822.html"
+  },
+  "平阳友创友科创业投资合伙企业（有限合伙）": {
+    "brand": "浙大友创",
+    "source": "https://www.qcc.com/firm/19b76f660984619ffa68a5808b2a1822.html"
+  },
+  "杭州钘智股权投资合伙企业（有限合伙）": {
+    "brand": "九智资本",
+    "source": "https://www.qcc.com/firm/19b76f660984619ffa68a5808b2a1822.html"
+  },
+  "浙江余杭转型升级产业投资有限公司": {
+    "brand": "余杭国投集团",
+    "source": "https://www.qcc.com/firm/19b76f660984619ffa68a5808b2a1822.html"
+  },
+  "扬州龙川产业转型升级投资中心（有限合伙）": {
+    "brand": "邦明资本",
+    "source": "https://www.qcc.com/firm/df25e3fe1178f13e98bd41cdc24ab2be.html"
+  },
+  "上海芮昱创业投资中心（有限合伙）": {
+    "brand": "祥榕投资",
+    "source": "https://www.qcc.com/firm/df25e3fe1178f13e98bd41cdc24ab2be.html"
+  },
+  "普华中小二期（杭州）创业投资合伙企业（有限合伙）": {
+    "brand": "普华资本",
+    "source": "https://www.qcc.com/firm/59005f4123abcea1d4e1a5936ac038c6.html"
+  },
+  "杭州上城创领聚源创业投资合伙企业（有限合伙）": {
+    "brand": "上城资本",
+    "source": "https://www.qcc.com/firm/59005f4123abcea1d4e1a5936ac038c6.html"
+  },
+  "浙江之科成果转化创业投资合伙企业（有限合伙）": {
+    "brand": "科发资本",
+    "source": "https://www.qcc.com/firm/59005f4123abcea1d4e1a5936ac038c6.html"
+  },
+  "杭州绩优悦泉创业投资合伙企业（有限合伙）": {
+    "brand": "绩优投资",
+    "source": "https://www.bse.cn/disclosure/2025/2025-12-19/1766143571_845687.pdf"
+  },
+  "杭州绩优汀兰股权投资合伙企业（有限合伙）": {
+    "brand": "绩优投资",
+    "source": "https://www.bse.cn/disclosure/2025/2025-12-19/1766143571_845687.pdf"
+  },
+  "台州耀合创业投资合伙企业（有限合伙）": {
+    "brand": "宏诚投资",
+    "source": "https://www.bse.cn/disclosure/2025/2025-12-19/1766143571_845687.pdf"
+  },
+  "杭州海邦博源创业投资合伙企业（有限合伙）": {
+    "brand": "海邦投资",
+    "source": "https://www.bse.cn/disclosure/2025/2025-12-19/1766143571_845687.pdf"
+  },
+  "深圳市创东方富博股权投资基金合伙企业（有限合伙）": {
+    "brand": "创东方投资",
+    "source": "https://www.qcc.com/firm/8304f500ef54b30e2b6d3ad85d4b0ffe.html"
+  },
+  "海南创东方富顺私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "创东方投资",
+    "source": "https://www.qcc.com/firm/8304f500ef54b30e2b6d3ad85d4b0ffe.html"
+  },
+  "丽水丽湖企业管理有限公司": {
+    "brand": "丽水南城新区投资",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11911846&stockid=603303"
+  },
+  "山东省新旧动能转换海耀海洋生物医药产业投资合伙企业（有限合伙）": {
+    "brand": "宏诚投资",
+    "source": "https://www.bse.cn/disclosure/2025/2025-12-19/1766143571_845687.pdf"
+  },
+  "广发信德（苏州）健康产业创业投资合伙企业（有限合伙）": {
+    "brand": "广发信德",
+    "source": "https://www.bse.cn/disclosure/2025/2025-12-19/1766143571_845687.pdf"
+  },
+  "杭州启真毓星股权投资合伙企业（有限合伙）": {
+    "brand": "军合投资",
+    "source": "https://www.bse.cn/disclosure/2025/2025-12-19/1766143571_845687.pdf"
+  },
+  "Johnson & Johnson Innovation – JJDC, Inc.": {
+    "brand": "强生创投",
+    "source": "https://www.triastek.com/detail/44.html"
+  },
+  "北京理想汽车有限公司": {
+    "brand": "理想汽车",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-05/1225549478.PDF"
+  },
+  "江苏车和家汽车有限公司": {
+    "brand": "理想汽车",
+    "source": "https://www.jiemian.com/article/7142426.html"
   }
 }

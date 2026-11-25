@@ -4,10 +4,13 @@ on:
     branches: [main]
     paths:
       - 'historical-financing/*.csv'
+      - 'historical-financing/*.json'
       - '.github/workflows/daily.yml'
       - 'publish_master.py'
       - 'master-*.js'
       - 'company-history.js'
+      - 'company_directory.py'
+      - 'company-browser.js'
   workflow_dispatch:
     inputs:
       published_run:
@@ -29,10 +32,13 @@ permissions:
 concurrency:
   group: daily-financing
   cancel-in-progress: false
+env:
+  # The Cloudflare API permits 1,200 requests per five minutes per token.
+  D1_MIN_REQUEST_INTERVAL_SECONDS: '0.32'
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     environment:
       name: github-pages
     steps:

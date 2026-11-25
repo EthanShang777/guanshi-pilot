@@ -19,19 +19,24 @@
     document.querySelector('h1').textContent=name;document.title=name+' · 观势';
     if(kind==='deal'){
       const summary=el('section','');summary.className='deal-summary';
-      for(const [label,value] of [['披露金额',row.amount],['融资轮次',row.stage],['估值',row.valuation]]){
+      const summaryItems=row.stage==='股权转让'
+        ? [['转让对价',row.amount],['交易类型',row.stage]]
+        : [['披露金额',row.amount],['融资轮次',row.stage],['估值',row.valuation]];
+      for(const [label,value] of summaryItems){
         
         const cell=el('div','');cell.append(el('small',label),el('strong',value||'未列明'));summary.append(cell);
       }
       root.append(summary,el('p',[row.dateKind,row.day||'日期未列明',row.location,row.sector,row.sub].filter(Boolean).join(' · ')),link(row.companyHref,'公司档案 →'));
       for(const url of row.sources){const p=el('p','');p.append(link(url,'来源 · '+new URL(url).hostname));root.append(p);}
-      const parties=el('section','');parties.className='counterparties';parties.append(el('h2','参与机构'));
+      const parties=el('section','');parties.className='counterparties';parties.append(el('h2',row.stage==='股权转让'?'受让方':'参与机构'));
       for(const [n,url] of row.parties)parties.append(link(context(url,row.sector,row.sub),n+' →'));
       if(!row.parties.length)parties.append(el('p','未列明'));root.append(parties);
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
 
     }else if(kind==='company'){
-      root.append(link('company-research.html?id='+id,'打开公司研究台 →'),el('span','　'));
+      if(row.events.some(event=>event[2]!=='股权转让')){
+        root.append(link('company-research.html?id='+id,'打开公司研究台 →'),el('span','　'));
+      }
       if(row.primary){
         const adjacent=new URLSearchParams({view:'institutions',sector:row.primary,client:id});
         if(row.sub)adjacent.set('adjacent',row.sub);
@@ -48,7 +53,7 @@
           if(row.profile.question)root.append(el('p',row.profile.question));
         }
       }
-      root.append(el('p',[row.location,row.sector].filter(Boolean).join(' · ')),el('h2','融资历程 · '+row.events.length+' 笔'),companyHistory.timeline(row,context));
+      root.append(el('p',[row.location,row.sector].filter(Boolean).join(' · ')),el('h2','交易记录 · '+row.events.length+' 笔'),companyHistory.timeline(row,context));
     }else{
       const params=new URLSearchParams(location.search),sub=params.get('sub'),sector=params.get('sector');
       const related=row.events.filter(r=>sub?r[6]===sub && (!sector||r[5]===sector):sector && r[5]===sector);

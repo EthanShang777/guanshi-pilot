@@ -2011,6 +2011,820 @@
       "pending_count": 0,
       "batch": "2026-11-25-october-public-28.csv",
       "notes": "晟昕增资实缴5000万元，另4000万为股东受让。科凯三次现金增资分别6000万、2.6亿、3000万元；5月老股、7月股改、11月转增不计。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第536—560项",
+      "sources": [
+        "https://eng.unimelb.edu.au/ingenium/sustainable-resources/university-spinout-r2crete-raises-%24750%2C000-to-advance-waste-concrete-recycling",
+        "https://prtimes.jp/main/html/rd/p/000000005.000163286.html",
+        "https://cj.sina.com.cn/articles/view/5617041192/14ecd3f2802001qhle",
+        "https://finance.sina.com.cn/jjxw/2024-01-22/doc-inaekwze4324067.shtml",
+        "https://www.jiemian.com/article/15332594.html",
+        "https://prtimes.jp/main/html/rd/p/000000020.000155874.html",
+        "https://onboardvc.com/news/1113/",
+        "https://www.shangdaovc.cn/h-nd-14699.html",
+        "https://zymofix.com/press-release-zymofix-to-build-flagship-microbial-manufacturing-plant-as-it-takes-solid-state-fermentation-to-industrial-scale/",
+        "https://radarstartups.com.br/materia/imersa-capta-r-250-mil-com-investidor-anjo-e-busca-mais-r/",
+        "https://www.sec.gov/Archives/edgar/data/2144292/000214429226000001/primary_doc.xml"
+      ],
+      "candidate_count": 21,
+      "existing_count": 3,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-29.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 274,
+        "monthly_identity_conflicts_remaining": 23,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Aqar Exit",
+          "reason": "创始人确认股权协议并披露两阶段计划，暂未核实现金交割或首批是否为增资。",
+          "source": "https://sharktank.ahmed-ibrahim.com/en/aqar-exit/"
+        },
+        {
+          "company": "Salehli",
+          "reason": "10月媒体说10万美元，随后美国主体申报表仅列首笔出售5000美元；仍需核对主体、总额及是否分批。",
+          "source": "https://entarabi.com/en/2026/10/syria-based-salehli-raises-100000/"
+        }
+      ],
+      "notes": "跨源去重，西鸽2022、2023、2026年三笔归同一集团档案，第三笔有A+/A++异议。迅杰光远两条旧B轮仅补法定主体行来源。Imersa按现金首期15万雷亚尔。"
+    },
+    {
+      "institution": "深创投",
+      "checked_on": "2026-11-25",
+      "scope": "从深创投公开已投企业动态反查英特仿真、3N科技、蓝深科技和惠和生物，并给镭神泰克A+补公司所在园区原披露",
+      "sources": [
+        "https://www.szvc.com.cn/article/2844",
+        "https://dalian.runsky.com/2023-11/12/content_6231850.html",
+        "https://www.szvc.com.cn/article/2843",
+        "https://www.nbd.com.cn/articles/2023-07-31/2938586.html",
+        "https://www.szvc.com.cn/article/2842",
+        "https://www.szvc.com.cn/article/2841",
+        "https://www.sipac.gov.cn/kjzszx/jqhd/202510/255acae5750b4de7b4d84f3a1963c056.shtml"
+      ],
+      "candidate_count": 3,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-29.csv",
+      "notes": "深创投组合动态确认3N及惠和，英特B轮已收录并补原文。蓝深本笔为中金资本。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第561—595项",
+      "sources": [
+        "https://a16z.com/announcement/investing-in-conway-the-creator-of-underdog/",
+        "https://prtimes.jp/main/html/rd/p/000000001.000191863.html",
+        "https://www.prnewswire.com/news-releases/moyom-biotech-secures-financing-from-cathay-capital-to-accelerate-global-growth-in-regenerative-aesthetics-302891333.html",
+        "https://www.reactor.inc/blog/reactor-launch",
+        "https://www.reactor.inc/blog/nvidia-sapphire-ventures-join-reactor-series-a",
+        "https://www.dtcc.com/press-releases/2026/dtcc-and-icapital-collaborate-to-advance-private-market-infrastructure",
+        "https://www.okx.com/en-us/learn/strategic-investment-oct-2026",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_dadf071b4b154a858f9d9a46f540ff63.html"
+      ],
+      "candidate_count": 24,
+      "existing_count": 4,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-30.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 243,
+        "monthly_identity_conflicts_remaining": 26,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "RobCo",
+          "reason": "10月披露含员工老股出售；新股占比和公司实际收款待证。1月1亿美元C轮由公司分开确认。",
+          "source": "https://www.rob.co/resources/news/press/robco-becomes-a-unicorn"
+        },
+        {
+          "company": "TRADEFUNDED",
+          "reason": "发布的是公开募资启动，未取得交割、募集总额或公司收款的证据。",
+          "source": "https://www.prnewswire.com/news-releases/tradefunded-opens-its-company-to-community-investors-on-republic-302899377.html"
+        },
+        {
+          "company": "卫澜深海",
+          "reason": "10月8日法定主体天使+++已在库，月报标题为天使++++。需要明确两笔日期及资方拆分后再判。",
+          "source": "https://www.aigbk.com/article/weilan_deep_sea_angel_plus_plus_plus_financing/"
+        }
+      ],
+      "notes": "Reactor五月首轮与十月新资方追加分开，追加金额未披露。Factory九月发行方披露和十月Menlo出资分开。Aventra股债总额没有作为股权金额。"
+    },
+    {
+      "institution": "达晨创程",
+      "checked_on": "2026-11-25",
+      "scope": "企查查免费界面确认基金的对外投资及持股变化线索，沿中科天工、江苏优众微纳、听象科技回查发行人、投资方和公开披露。",
+      "sources": [
+        "https://www.qcc.com/firm/81208596b39dc2a2bba1ca86f17fc4f9.html",
+        "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062389.PDF",
+        "https://www.chinaventure.com.cn/flash/20230811-86082.html",
+        "https://stock.stockstar.com/RB2026092100027551.shtml",
+        "https://bydrug.pharmcube.com/news/detail/9a62fcf2e3ece2e93eba10a8c9313b6c",
+        "https://www.shangdaovc.cn/h-nd-14591.html",
+        "https://vc.pedaily.cn/invest/460001.html"
+      ],
+      "candidate_count": 0,
+      "existing_count": 4,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-30.csv",
+      "pending": [
+        {
+          "reason": "中科天工于10月出现持股比例变化，9月B轮已有，两者间的关系需独立融资披露。"
+        },
+        {
+          "reason": "优众微纳、听象科技同期融资已有；持股变动只作为追查线索。听象A+与同期新闻A2属于同一笔，另查原轮次用语。"
+        },
+        {
+          "reason": "劢微机器人11月16日的外部披露对融资轮次有C轮和B+之别，11月18日基金档案的变更只能提供线索，继续核实公司原稿与实际增资。"
+        }
+      ],
+      "notes": "持股比例变动是融资查漏线索，入库依据为独立可追溯的交易披露。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第596—621项",
+      "sources": [
+        "https://indent.co.jp/news/me00u5",
+        "https://sandbox.circuitcheck.com/",
+        "https://www.elvyenergy.com/en-se/press/elvy-leonardo-dicaprio-investerare",
+        "https://www.onetrading.com/blog/one-trading-announces-strategic-investment-from-nasdaq-ventures",
+        "https://bluefivecapital.com/en/newsroom/bluefive-capital-enters-indonesia-through-a-strategic-investment-in-majoris-asset-management",
+        "https://www.gov.kz/org/maidd/press/news/details/1309072?lang=en",
+        "https://www.eeo.com.cn/2026/1011/1060755.shtml",
+        "https://www.topband.com/cn/news/news_id248/",
+        "https://www.shangdaovc.cn/h-nd-14722.html"
+      ],
+      "candidate_count": 6,
+      "existing_count": 18,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-31.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 217,
+        "monthly_identity_conflicts_remaining": 29,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "星火传明",
+          "reason": "十月文章称A轮，但工商主体成立时点与所述团队起源不同，库内已有2025年A轮及2026年1月B轮、9月B+。尚无证据证明十月另有一轮。",
+          "source": "https://rceo.cn/inews/article.php?id=6686"
+        },
+        {
+          "company": "PT Majoris Asset Management",
+          "reason": "共同披露明确须取得印尼金融服务管理局批准，需查监管批准及交割。",
+          "source": "https://bluefivecapital.com/en/newsroom/bluefive-capital-enters-indonesia-through-a-strategic-investment-in-majoris-asset-management"
+        },
+        {
+          "company": "Network School",
+          "reason": "官方证实10月9日宣布投资安排和20亿美元估值，领投现场口径为正在领投，另有报道仍在募，继续核交割。",
+          "source": "https://www.gov.kz/org/maidd/press/news/details/1309072?lang=en"
+        }
+      ],
+      "notes": "法定主体对回简称；庞伯特B轮在原事件补数亿元人民币。indent已完成，11亿日元为股债合计。Elvy十月追加与五月原轮区分。"
+    },
+    {
+      "institution": "深创投",
+      "checked_on": "2026-11-25",
+      "scope": "沿深创投公开组合反查西安蓝深新材料旧轮次，并由上市公司披露补证墨现科技历史机构出资。",
+      "sources": [
+        "https://www.lanshn.com/enterprise_dynamics/95.html",
+        "https://pe.pedaily.cn/202001/450387.shtml",
+        "https://www.lanshn.com/enterprise_dynamics/105.html",
+        "https://m.pedaily.cn/vc/invest/r3135-c327-y2020",
+        "https://www.cls.cn/detail/1256397",
+        "https://pitchhub.36kr.com/project/2111938967440771",
+        "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472871.PDF"
+      ],
+      "candidate_count": 4,
+      "existing_count": 1,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-31.csv",
+      "pending": [
+        {
+          "reason": "蓝深A轮报道有5000万元及5500万元两种表述，官网未列金额，本次留空。"
+        },
+        {
+          "reason": "蓝深2017年天使轮仅公司确认年份；2021年C轮和2022年C+的到账、资方及公告口径还需正本。"
+        },
+        {
+          "reason": "已回查达晨创程持股所提示的劢微机器人，外部同期C轮与B+字样冲突，继续找发行人原文。"
+        }
+      ],
+      "notes": "蓝深历史四轮挂回同一公司档案，避免对金额和单轮资方擅自推定。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第622—646项",
+      "sources": [
+        "https://capitolis.com/capitolis-announces-220-million-in-financing-including-120-million-series-e-at-1-9-billion-valuation-from-bank-of-america-barclays-bnp-paribas-citi-j-p-morgan-nomura-state-street-ubs-tra/",
+        "https://celluranics.com/en/news",
+        "https://hs.flexcompute.com/news/flexcompute-raises-strategic-investment-from-samsung-ventures-and-applied-ventures-to-build-the-physics-world-model",
+        "https://www.deepagens.com/news/shendu-yunhai-huo-huagong-keji-qianwanji-t-l-t-j-b-q-a-y-r",
+        "https://firmior.cn/",
+        "https://www.blog.stenon.io/2026/10/12/stenon-welcomes-yara-growth-ventures-as-investor-in-its-series-b/",
+        "https://idfinance.com/news/id-finance-secures-eur-545-million-from-international-investors/",
+        "https://www.prnewswire.com/news-releases/healthpointcapital-makes-significant-investment-in-ospitek-a-leading-provider-of-surgical-operations-and-patient-flow-intelligence-software-302907132.html",
+        "https://www.prnewswire.com/news-releases/vector-science-and-therapeutics-corp-announces-collaboration-and-safe-investment-in-whoopi-wellness-inc-302906467.html",
+        "https://fundingsouq.com/sa/en/blog/fundingsouq-foodics-strategic-investment-embedded-financing/"
+      ],
+      "candidate_count": 13,
+      "existing_count": 13,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-32.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 192,
+        "monthly_identity_conflicts_remaining": 29,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [],
+      "notes": "赛瑞克官方A1轮、深度云海千万级，各自原行定点修订。Capitolis拆分股债，非与智能两轮金额不拆估，Stenon首关与追加分列。"
+    },
+    {
+      "institution": "达晨创程、深创投",
+      "checked_on": "2026-11-25",
+      "scope": "沿达晨创程公开投资线索核对三凯机电A/B。沿深创投同企业历史记录交叉核对蓝深C。回读上市公司对岩超聚能的出资。",
+      "sources": [
+        "https://a.zhonghua-pe.com/2024/1108/258076.html",
+        "https://www.thecapital.com.cn/news/detail/125215",
+        "https://vc.pedaily.cn/invest/253365.html",
+        "https://vc.pedaily.cn/invest/253299.html",
+        "https://finance.sina.com.cn/jjxw/2023-02-03/doc-imyemiqt3784361.shtml",
+        "https://static.cninfo.com.cn/finalpage/2026-01-31/1224958047.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524861.PDF"
+      ],
+      "candidate_count": 1,
+      "existing_count": 3,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-32.csv",
+      "pending": [
+        {
+          "reason": "达晨创程线索指向三凯A轮。十月B轮的公开公告列出的基金与旧档品牌有差异，继续核直接载体对应。"
+        },
+        {
+          "reason": "蓝深2017天使轮只有年份；公开库把2022 C+资方与2023年初Pre-IPO资方混列，须原始披露后再分笔。劢微11月发行人原发仍缺。"
+        }
+      ],
+      "notes": "老股东变化只作为查找线索。三凯两轮对回已有，蓝深2021年C轮按同期披露。"
+    },
+    {
+      "institution": "鲸准免费股权投资首页",
+      "checked_on": "2026-11-25",
+      "scope": "已登录免费账号股权投资首屏20条。独立核实11笔首屏交易，并沿VectorY同主体回补2023年A轮。",
+      "sources": [
+        "https://forbion.com/news-insights/news/forbion-co-leads-129-million-series-a-financing-of-vectory-one-of-the-largest-private-biotech-financings-in-europe-in-2023/",
+        "https://www.angeliniventures.com/media/2eibeesi/financial-announcement-final.pdf",
+        "https://www.nautadutilh.com/en/insights/nautadutilh-assists-vectory-therapeutics-on-eur-745-million-equity-and-eib-convertible-loan-financing/",
+        "https://www.eib.org/de/press/all/2026-413-dutch-biotech-fighting-als-and-other-neuro-degenerative-diseases-gets-european-backing",
+        "https://aidenai.com/updates/series-a-investment/",
+        "https://www.prnewswire.com/news-releases/aidenai-raises-32m-series-a-from-a91-partners-to-build-and-deploy-ai-at-enterprise-scale-302949458.html",
+        "https://maple.ai/blog/maple-ai-seed-round",
+        "https://www.chinaventure.com.cn/news/113-20261125-394190.html",
+        "https://www.cnfin.com/gs-lb/detail/20261125/4500118_1.html",
+        "https://eu.36kr.com/zh/p/4084508820875909",
+        "https://news.10jqka.com.cn/20261125/c682205887.shtml",
+        "https://www.pedaily.cn/vcpeevent/",
+        "https://www.36kr.com/newsflashes/4083484097898886",
+        "https://www.thecapital.com.cn/news/detail/125847",
+        "https://news.pedaily.cn/202611/572348.shtml",
+        "https://tech.eu/2026/11/11/czech-medtech-kardi-ai-raises-eur53m-to-advance-predictive-heart-monitoring/",
+        "https://www.slsp.sk/sk/aktuality/2026/11/12/rekordna-investicia-do-kardi-ai-v-hodnote-viac-ako-53-miliona-eur-zapojil-sa-aj-seed-starter-slovenskej-sporitelne",
+        "https://www.havelpartners.cz/havel-partners-pravnim-poradcem-investoru-pri-investici-53-milionu-eur-do-ceskeho-medtech-startupu-kardi-ai/",
+        "https://www.globenewswire.com/news-release/2026/11/25/3410028/0/en/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation.html"
+      ],
+      "candidate_count": 12,
+      "existing_count": 2,
+      "pending_count": 7,
+      "batch": "2026-11-25-jingdata-free-sample.csv",
+      "notes": "Vero Security与Xlue同笔已经上线。VectorY的7450万欧元含3000万欧元欧洲投资银行可转贷款，A轮追加股权为4450万欧元。OpenVault公告为200万美元种子、投后2000万。Kardi Ai在11月11日披露530万欧元A轮，由资方和律师确认。天云创鸿按11月24日近亿元的披露。余7条保留线索，包括等待交割的ams OSRAM、意向备忘录的生研生命、签约进展的中国电子云，以及吉泰主体冲突、长坂老股与增资需区分。免费首屏无法覆盖完整历史月。"
+    },
+    {
+      "institution": "十月公开交易目录对照",
+      "checked_on": "2026-11-25",
+      "scope": "读取可公开翻页的2026年10月完整117行，经名称与轮次初筛，并深入复核本批16条。",
+      "candidate_count": 5,
+      "existing_count": 12,
+      "pending_count": 1,
+      "batch": "2026-11-25-koocool-october.csv",
+      "sources": [
+        "https://www.usv.com/writing/tolan",
+        "https://www.36kr.com/newsflashes/4042354643571842",
+        "https://finance.eastmoney.com/a/202610153897181816.html",
+        "https://www.cs.com.cn/ssgs/01/2026/10/10/detail_2026101010043849.html",
+        "https://news.pedaily.cn/20261029/141863.shtml",
+        "https://www.36kr.com/p/4043477378880388",
+        "https://api3.cls.cn/share/article/2515654?app=stib&os=android&sv=232",
+        "https://news.pedaily.cn/202610/570486.shtml",
+        "https://m.chinaventure.com.cn/news/113-20261019-393675.html",
+        "https://eu.36kr.com/zh/p/4019684113371008",
+        "https://eu.36kr.com/zh/newsflashes/4026415302135684",
+        "https://finance.eastmoney.com/a/202610123892797560.html"
+      ],
+      "screening": {
+        "source_rows": 117,
+        "source_pages": 4,
+        "nearby_round_name_hits": 49,
+        "manually_dispositioned": 16,
+        "not_manually_dispositioned": 101
+      },
+      "notes": "三笔十月净新增，顺带核实Tolan两笔既往。公司和基金关系以达晨相关监管材料为线索。元材新界跟君联的融资已有事件，此次补独立原文。太一量生和细胞壁两个目录金额不能作为本轮金额。"
+    },
+    {
+      "institution": "公开十月交易目录及公司股东复核",
+      "checked_on": "2026-11-25",
+      "scope": "按原披露逐笔复核另外29条，并从同一企业反查早期融资。沿阿凡提股东查到长兴辰科兴瑞。",
+      "sources": [
+        "https://www.generalcompute.com/blog/general-compute-100m-series-a",
+        "https://www.sec.gov/Archives/edgar/data/2131876/000213187626000002/0002131876-26-000002-index.htm",
+        "https://www.allbrightlaw.com/SH/CN/10454/1c093da2d4f5ea67.aspx",
+        "https://news.pedaily.cn/202610/570433.shtml",
+        "https://www.cnstock.com/commonDetail/810560",
+        "https://news.pedaily.cn/202610/571036.shtml",
+        "https://www.greenvoltis.com/articles/green-voltis-raises-13-5-million-series-a",
+        "https://news.pedaily.cn/202610/571101.shtml"
+      ],
+      "candidate_count": 8,
+      "existing_count": 22,
+      "pending_count": 2,
+      "batch": "2026-11-25-koocool-october-02.csv",
+      "screening": {
+        "catalog_total": 117,
+        "reviewed_total_after_stage": 45,
+        "catalog_unreviewed_after_stage": 72
+      },
+      "notes": "确认了分别披露的十月及旧融资，调整5条融资金额及1条轮次和具名资方。阿凡提早期两轮留待公司或资方独立披露。"
+    },
+    {
+      "institution": "公开十月交易目录及出资方披露复核",
+      "checked_on": "2026-11-25",
+      "scope": "核完目录另32条，以公司、财务顾问、投资机构和上市公司公告核对历史关联。",
+      "sources": [
+        "https://www.donews.com/news/detail/4/6744911.html",
+        "https://static.cninfo.com.cn/finalpage/2026-10-26/1225619663.PDF",
+        "https://finance.sina.cn/tech/2026-10-13/detail-inivawnc8012527.d.html?vt=4",
+        "https://www.cnstock.com/commonDetail/805219",
+        "https://www.neolix.ai/zh/news/d-round-funding/",
+        "https://www.thecapital.com.cn/news/detail/125271",
+        "https://news.pedaily.cn/202610/570306.shtml",
+        "https://press.velotricbike.com/224776-fast-growing-e-bike-company-velotric-raises-7-4m-usd-series-a/"
+      ],
+      "candidate_count": 2,
+      "existing_count": 28,
+      "pending_count": 2,
+      "batch": "2026-11-25-koocool-october-03.csv",
+      "screening": {
+        "catalog_total": 117,
+        "reviewed_total_after_stage": 77,
+        "catalog_unreviewed_after_stage": 40
+      },
+      "notes": "核实两笔新的十月事件，纠正四笔金额及一笔轮次。两条待获取明确交割或发行证据。"
+    },
+    {
+      "institution": "公开十月交易目录完审及康冠科技投资线索",
+      "checked_on": "2026-11-25",
+      "scope": "补完余下40个详情及原文。对回康冠科技的上市公司公告、阶跃星辰和嘉立创两笔既有融资。",
+      "sources": [
+        "https://finance.eastmoney.com/a/202610063888748225.html",
+        "https://api3.cls.cn/share/article/2445951?app=&os=android&sv=818",
+        "https://static.cninfo.com.cn/finalpage/2026-06-17/1225376195.PDF",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-03/7193d20c-6421-4576-98fa-3110f1001ebf.PDF",
+        "https://pharmato.cn/blog/blog-6f282088",
+        "https://www.sec.gov/Archives/edgar/data/2064124/000162828026074112/figr-20260930.htm",
+        "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+        "https://news.pedaily.cn/202610/569910.shtml"
+      ],
+      "candidate_count": 1,
+      "existing_count": 38,
+      "pending_count": 2,
+      "batch": "2026-11-25-koocool-october-04.csv",
+      "screening": {
+        "catalog_total": 117,
+        "reviewed_total_after_stage": 117,
+        "catalog_unreviewed_after_stage": 0
+      },
+      "notes": "累计找到10笔十月缺项和6笔更早融资。新月之暗面G轮保留未披露金额。康冠金额按出资方字段入档。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第647—690项",
+      "sources": [
+        "https://rivero.tech/blog/elevator-ventures-strategic-investor-rivero-cee",
+        "https://www.skeletontech.com/news/skeleton-technologies-secures-strategic-investment-led-by-siemens-to-expand-us-manufacturing",
+        "https://www.prnewswire.com/news-releases/ats-energy-secures-new-investment-to-accelerate-commercial-deployment-and-meet-growing-demand-for-waste-heat-power-technology-302908938.html",
+        "https://www.sec.gov/Archives/edgar/data/2126585/000212658526000003/xslFormDX01/primary_doc.xml",
+        "https://nithio.com/nithio-expands-its-e-mobility-portfolio-with-investment-in-max/",
+        "https://betakit.com/bia-health-raises-2-15-million-for-ai-to-reduce-unnecessary-medical-interventions/",
+        "https://news.pedaily.cn/202610/570228.shtml",
+        "https://m.jiemian.com/article/15193129.html"
+      ],
+      "candidate_count": 22,
+      "existing_count": 12,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-38.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 148
+      },
+      "notes": "完成44个候选。其中5笔净新增十月、17笔历史。筛掉产品稿，金额按单轮与股债区分。"
+    },
+    {
+      "institution": "广州四三九九信息科技有限公司、SBI Holdings",
+      "checked_on": "2026-11-25",
+      "scope": "对回深空之序股东和四三九九档案。按SBI公开的支付投资反查发行人报告，关联两家公司。",
+      "sources": [
+        "https://www.qcc.com/firm/4d1b4d76a63b7a19020210346a7074f3.html",
+        "https://www.qcc.com/firm/6749a2db9500298945ec789b21b607c6.html",
+        "https://www.sohu.com/a/1069631215_122709106",
+        "https://www.36kr.com/p/4027938341867904",
+        "https://finance.eastmoney.com/a/202607023791668451.html",
+        "https://www.prnewswire.com/apac/news-releases/dtcpay-welcomes-sbi-group-as-strategic-investor-extending-series-a-to-us25m-302881922.html",
+        "https://insights.digift.io/digift-closes-strategic-round-to-scale-institutional-grade-rwa-infrastructure/"
+      ],
+      "candidate_count": 3,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-38.csv",
+      "notes": "四三九九历史投资列表显示57项计数。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第691—728项",
+      "sources": [
+        "https://www.bbtnews.com.cn/2026/1014/607894.shtml",
+        "https://aisa.one/es/blog/aisa-seed-extension-tether-hiven",
+        "https://saber.money/blogs/saber-money-tether-titan-fund-investment",
+        "https://www.clinicalink.com/clinical-ink-announces-strategic-investment-from-ardan-equity-and-gi-partners/",
+        "https://njna.nanjing.gov.cn/sjb/tzxq/sjbtzdt/202607/t20260717_5878607.html",
+        "https://truckparkingclub.com/news/truck-parking-club-secures-growth-investment-from-argentum-capital-partners",
+        "https://www.wamda.com/2026/10/databuddy-analytics-raises-500000-y-combinator",
+        "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/"
+      ],
+      "candidate_count": 23,
+      "existing_count": 23,
+      "pending_count": 4,
+      "batch": "2026-11-25-october-public-39.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 110
+      },
+      "notes": "逐项筛核38个候选。中湾两轮、国宇金额、炫佳B1、Reflex计划投资保留独立待核。"
+    },
+    {
+      "institution": "不二资本、Tether、Titan Fund（CMCC Global）",
+      "checked_on": "2026-11-25",
+      "scope": "企查查对回金粒门两笔入股。沿企查查不二资本档案和鲸准搜索回查隅田川咖啡与肥汁米蘭，并用领投方或首发原文核实交易；另查ToyCity与Tether、Titan Fund的公开投资。",
+      "sources": [
+        "https://www.qcc.com/firm/ffe885787e49c9fab84420055b054e88.html",
+        "https://www.qcc.com/investor/358b01e7a11ecc33265b8a621942ad92.html",
+        "https://www.bbtnews.com.cn/2026/1014/607894.shtml",
+        "https://m.linkshop.com/article/news/552339",
+        "https://www.36kr.com/p/1150367161435529",
+        "https://www.incecap.com.cn/news/detail/143",
+        "https://www.qimingvc.com/en/node/4996",
+        "https://news.sina.cn/2023-03-27/detail-imynhvca1838094.d.html",
+        "https://www.cyzone.cn/article/660213.html",
+        "https://tether.io/news/tether-invests-in-aisa-to-expand-its-push-into-ai-powered-payments-and-programmable-money/",
+        "https://saber.money/blogs/saber-money-tether-titan-fund-investment",
+        "https://tether.io/news/tether-leads-oobits-25m-series-a-funding-round-to-propel-crypto-adoption/"
+      ],
+      "candidate_count": 9,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-39.csv",
+      "notes": "金粒门企查查显示三项融资，鲸准免费摘要展示一项。不二资本档案列19个项目和27笔事件，逐笔引用另行核实的公开披露。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第729—752项",
+      "sources": [
+        "https://tether.io/news/tether-invests-in-efy-finance-to-accelerate-institutional-stablecoin-usage-in-latam/",
+        "https://www.allegion.com/corp/en/ventures/news-insights/2026/ambient-ai-investment.html",
+        "https://via.ritzau.dk/pressemeddelelse/15232818/lumilab-raises-funding-led-by-giant-ventures-to-bring-applied-intelligence-to-energy-infrastructure",
+        "https://www.cnfin.com/gs-lb/detail/20261021/4484511_1.html",
+        "https://www.fiveelms.com/dashfuel-announces-growth-investment-from-five-elms-capital/",
+        "https://www.business-standard.com/companies/start-ups/pharmeasy-veterans-raise-63-cr-for-home-and-kitchen-startup-chapter-home-126102201092_1.html",
+        "https://www.prnewswire.com/news-releases/zwitterco-announces-strategic-investment-from-ecolab-to-drive-water-circularity-302916968.html",
+        "https://naise.eu/koerber-invests-in-naise/"
+      ],
+      "candidate_count": 19,
+      "existing_count": 13,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-40.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 86
+      },
+      "notes": "逐项核对24个候选，有具名历史投资的在同一公司页关联。"
+    },
+    {
+      "institution": "不二资本、Allegion Ventures",
+      "checked_on": "2026-11-25",
+      "scope": "从机构档案提取祥禾饽饽铺和Flash Group线索。查对祥禾免费公司档案的首次持股记录、投资机构公告、Flash交易律师和历年融资报告。Allegion两次投资用同一机构官网核对。",
+      "sources": [
+        "https://www.qcc.com/investor/358b01e7a11ecc33265b8a621942ad92.html",
+        "https://www.qcc.com/firm/a1c73fc8985f0f965b27c01494363437.html",
+        "https://www.cmccap.com/en/news/detail/135",
+        "https://finance.sina.cn/2023-12-06/detail-imzwziae6260634.d.html",
+        "https://www.cooley.com/news/coverage/2021/2021-08-03-flash-group-credited-as-thailands-first-unicorn-with-series-d-and-e-funding",
+        "https://www.tcp.com/en/updates/tcp-updates/tcp-updates/211/flash-big-deal-gains-investment-from-buer-capital-and-scb-10x-with-ewdp-or-durbell-and-krungsri-finnovate-invest-more-in-series-e-with-total-valued-over-us150m",
+        "https://startupsg.gov.sg/public/2024-04/Singapore%20Venture%20Funding%20Report%202023.pdf",
+        "https://www.allegion.com/corp/en/ventures/news-insights/2026/ambient-ai-investment.html",
+        "https://www.allegion.com/corp/en/ventures/news-insights/2023/ambient-ai-funding.html"
+      ],
+      "candidate_count": 7,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-40.csv",
+      "notes": "祥禾金额取领投方首轮披露，Flash E轮总额取律师，F轮按报告；不混淆跨轮金额。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第753—776项",
+      "sources": [
+        "https://paineschwartz.com/news/paine-schwartz-partners-makes-strategic-investment-in-first-day-a-high-growth-family-focused-wellness-brand/",
+        "https://prtimes.jp/main/html/rd/p/000000016.000114105.html",
+        "https://quointelligence.eu/2026/10/christian-lindner-invests-in-quointelligence/",
+        "https://digitalxforce.com/press-release/digitalxforce-secures-institutional-investment-after-514-growth/",
+        "https://www.calcalist.co.il/calcalistech/article/h1uarovhfl",
+        "https://www.thecapital.com.cn/news/detail/125355"
+      ],
+      "candidate_count": 22,
+      "existing_count": 9,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-41.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 62
+      },
+      "notes": "逐项核24个候选，区分首报、交割日及时间粒度，超球面重复归并待办。"
+    },
+    {
+      "institution": "不二资本、Colorado ONE Fund、Elevator Ventures",
+      "checked_on": "2026-11-25",
+      "scope": "从不二资本投资页到夸父炸串融资档案，查回晚于鲸准摘要的创始人现场披露。按Colorado ONE和Elevator Ventures的交易公告回查其他融资。",
+      "sources": [
+        "https://www.qcc.com/investor/358b01e7a11ecc33265b8a621942ad92.html",
+        "https://www.qcc.com/firm/bb7c8482ec777fdd7a645d1a6483df43.html",
+        "https://www.nbd.com.cn/articles/2024-02-26/3256794.html",
+        "https://www.prnewswire.com/news-releases/colorado-one-fund-invests-in-code19-to-scale-high-dynamic-autonomy-for-defense-302916467.html",
+        "https://www.prnewswire.com/news-releases/colorado-one-fund-announces-seed-investment-in-highground---empowering-access-to-us-government-markets-302477361.html",
+        "https://quointelligence.eu/2026/04/quointelligence-closes-eur-7-3-million-series-a-to-scale-unified-risk-intelligence-across-europe/",
+        "https://www.pplaw.com/en/transactions/poellath-advises-quointelligence-eur-5-million-seed-financing-round"
+      ],
+      "candidate_count": 4,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-41.csv",
+      "notes": "夸父同轮补证。新机构原披露回查HighGround与QuoIntelligence。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第777—802项",
+      "sources": [
+        "https://virentcap.com/virent-capital-announces-first-platform-investment-in-kanahoma/",
+        "https://m.chinaventure.com.cn/news/114-20261029-393811.html",
+        "https://news.pedaily.cn/202610/570974.shtml",
+        "https://beta.zhitongcaijing.com/content/detail/1514187.html",
+        "https://www.streetinsider.com/Business%2BWire/GT%2BMetabolic%2BSolutions%2BAnnounces%2BSeries%2BC%2BGrowth%2BInvestment%2BLed%2Bby%2BJ.P.%2BMorgan%2BLife%2BSciences%2BPrivate%2BCapital/27246268.html",
+        "https://medicaldialogues.in/news/industry/health-investments/clinics-on-cloud-raises-rs-120-crore-in-series-a-funding-at-rs-600-crore-valuation-182157",
+        "https://ventures.adb.org/from-catapult-to-capital-nextfin-asia-reaches-first-investment-milestone-with-indonesias-finfra/",
+        "https://www.greenvoltis.com/articles/green-voltis-raises-13-5-million-series-a"
+      ],
+      "candidate_count": 23,
+      "existing_count": 10,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-42.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 36
+      },
+      "notes": "回读目录末26项，区分竞赛资助、累计金额及已完结的历史条目，继续回核前段36项。"
+    },
+    {
+      "institution": "金沙江联合资本、厦门高新投、Cento Ventures、Accion Ventures",
+      "checked_on": "2026-11-25",
+      "scope": "微至航空工商档确认北京公司为深圳公司子公司；把原始报道的三个轮次关联到一个公司档案。厦门高新投公告确认投资的是星科恒智母公司。ADB及Accion官网回查Finfra两笔早期融资。",
+      "sources": [
+        "https://www.qcc.com/firm/9bd14621bac1b5db001f19c49b12b2dd.html",
+        "https://www.qcc.com/firm/3987a6b28665a6a3886ccb1c030a7856.html",
+        "https://www.chinaventure.com.cn/news/114-20240130-379544.html",
+        "https://www.chinaventure.com.cn/news/110-20250425-386051.html",
+        "https://www.qcc.com/firm/e8212942699fabdd194ac5ea7f0f3df1.html",
+        "https://www.xmgxt.com/news/view/13315.html",
+        "https://ventures.adb.org/from-catapult-to-capital-nextfin-asia-reaches-first-investment-milestone-with-indonesias-finfra/",
+        "https://www.accion.org/news/impactalpha-finfra-nabs-2-5-million-to-propel-embedded-finance-in-indonesia/",
+        "https://www.accion.org/news/accion-announces-close-of-61-6m-second-accion-venture-lab-fund-investing-in-early-stage-inclusive-fintech/"
+      ],
+      "candidate_count": 6,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-42.csv",
+      "notes": "工商确认主体，交易仍按首发和资方披露。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX目录最后36个待复核候选",
+      "sources": [
+        "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
+        "https://www.eni.com/en-IT/media/press-release/2026/10/eni-completes-plenitude-shareholding-and-governance-reorganization.html",
+        "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html",
+        "https://www.wsgr.com/en/insights/wilson-sonsini-advises-oratomic-on-dollar475-million-series-b-financing.html",
+        "https://www.pigment.com/newsroom/pigment-raises-250m-series-e",
+        "https://www.businesswire.com/news/home/20261020574393/en/",
+        "https://www.homeward.com/press/homeward-raises-120m-series-d-equity-to-expand-cash-offer-and-bridge-financing-for-agents"
+      ],
+      "candidate_count": 24,
+      "existing_count": 10,
+      "pending_count": 8,
+      "batch": "2026-11-25-october-public-43.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 0
+      },
+      "notes": "802条目录均已完成首轮处理。区分已交割交易、条件认购、授信、累计总额和已在库的重复触达。"
+    },
+    {
+      "institution": "厦门联和资本、武岳峰科创、瀚星创业投资、C4 Ventures、Accel",
+      "checked_on": "2026-11-25",
+      "scope": "鲸准交易记录与企查查公开企业档案双向对照；加查监管文件、独立发行人和资方原披露。",
+      "sources": [
+        "https://vc.pedaily.cn/invest/459614.html",
+        "https://finance.eastmoney.com/a/202610213902915791.html",
+        "https://www.qcc.com/firm/a893bb966d96fe952bbd278a5fa04f82.html",
+        "https://www.qcc.com/firm/90e9536227b3ea2be075109e53e73a96.html",
+        "https://www.qcc.com/firm/8c440ec1801aa905d8a918700202b3f2.html",
+        "https://www.qcc.com/firm/97e561ef7d6a7e07743f8f1e4790460e.html",
+        "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643820.PDF",
+        "https://liauto.gcs-web.com/news-releases/news-release-details/li-auto-inc-announces-equity-financing-its-chip-business",
+        "https://www.sec.gov/Archives/edgar/data/1791706/000110465926131768/tm2630657d1_ex99-1.htm",
+        "https://c4v.com/news/c4-ventures-iii-makes-it-first-investment-in-bedrock-robotics/",
+        "https://www.accel.com/news/our-investment-in-arda",
+        "https://www.usv.com/writing/tasklet"
+      ],
+      "candidate_count": 3,
+      "existing_count": 1,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-43.csv",
+      "notes": "企业工商股东与投资机构可作发现入口，融资日期、轮次和金额以交易披露认定。"
+    },
+    {
+      "institution": "江苏高投、常州投资集团、武岳峰科创",
+      "checked_on": "2026-11-25",
+      "scope": "2026年五月至十一月两家国资机构公开投资披露和基金大事记。企查查基金可见动态反查云程半导体，再对鲸准与同期报道。核对同名公司和跨月转载。",
+      "sources": [
+        "https://jsgzw.jiangsu.gov.cn/col/col11795/index.html",
+        "https://www.jseifof.com/memorabilia",
+        "https://tzjt.changzhou.gov.cn/html/cztc/2026/AKELPMOK_0924/2360.html",
+        "https://jsgzw.jiangsu.gov.cn/art/2026/10/28/art_61542_11849798.html",
+        "https://jsgzw.jiangsu.gov.cn/art/2026/10/30/art_11795_11852297.html",
+        "https://www.qcc.com/firm/8828ae3be06f428716425ea8cc42c1d7.html",
+        "https://jsgzw.jiangsu.gov.cn/art/2026/11/4/art_61976_11854755.html",
+        "https://jsgzw.jiangsu.gov.cn/art/2026/11/9/art_11795_11856110.html",
+        "https://app.xinhuanet.com/news/article.html?articleId=20260723fd8a7303f293483bb06771703d9c004c",
+        "https://www.qcc.com/firm/90e9536227b3ea2be075109e53e73a96.html",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202507/688200_20250702_M3BW.pdf",
+        "https://www.qcc.com/firm/8886ed0e0a94e31bae80fc13dbcd0255.html",
+        "https://stock.stockstar.com/RB2026070900036776.shtml",
+        "https://wap.sasac.gov.cn/n2588025/n2588129/c36072287/content.html",
+        "https://finance.sina.com.cn/stock/estate/integration/2026-10-21/doc-inivynsq8153407.shtml"
+      ],
+      "candidate_count": 11,
+      "existing_count": 6,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-44.csv",
+      "notes": "按最早公开披露或明确的投资落地日入档。公开基金管理归属补到机构反查。追加的机构线索不计入十月目录覆盖率。"
+    },
+    {
+      "institution": "中关村资本",
+      "checked_on": "2026-11-25",
+      "scope": "企查查创投库机构专页第1至16页；2010-03-01至2026-11-25；对照总表及待发布队列。",
+      "sources": [
+        "https://www.qcc.com/investor/337e04fb7ea143b9e8718c9a3c03a9de.html",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_751f8ccf9c054c459f34f0ac7fdde4ab.html",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_dadf071b4b154a858f9d9a46f540ff63.html",
+        "https://www.sohu.com/a/1015585868_121106842",
+        "https://www.leap-pku.com/news.html",
+        "https://www.jiemian.com/article/15306087.html",
+        "https://www.bjhr.gov.cn/zwgk/zfxxgkjg/qzfbmdh/qjjhxxhj/jxzdgz/202608/t20260814_4822923.html",
+        "https://finance.sina.com.cn/jjxw/2026-07-28/doc-inikirnh9372263.shtml",
+        "https://t.cj.sina.com.cn/articles/view/6804861660/19599f2dc0010165ug"
+      ],
+      "candidate_count": 5,
+      "existing_count": 24,
+      "pending_count": 126,
+      "batch": "2026-11-25-october-public-44.csv",
+      "notes": "155笔均完成首轮名称、日期、轮次比对。复核名单仍含异名和重复；未命中不是已确认漏项。交易以独立公告、监管和披露原文确认。"
+    },
+    {
+      "institution": "中关村资本",
+      "checked_on": "2026-11-25",
+      "scope": "企查查创投库首轮比对后，复核23条近日期候选以及七条无匹配的较新记录并回查历史融资。",
+      "sources": [
+        "https://www.qcc.com/investor/337e04fb7ea143b9e8718c9a3c03a9de.html",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-01-20/244585_20260120_EX1Q.pdf",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2024-12-16/4b236541-e58c-47f1-80c5-2dcb60863552.PDF",
+        "https://dataclouds.cninfo.com.cn/shgonggao/2024/2024-11-30/fc9296d1ae4b11efb1cdfa163e26e5de.pdf",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_d7bd06ea187a44498b2ac9dc3f612454.html",
+        "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202606/t20260612_249629.html",
+        "https://www.zgclmlhh.org.cn/upload/forver/file/2022-01-24/4006083319111352320_.pdf",
+        "https://www.qcc.com/firm/d30805a35e77cd1cedbd8e393372f74f.html",
+        "https://sie.pku.edu.cn/xwgg/xwdt/74cf931e6f1c43278b070528e5ba7633.htm",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_fc0b51a8d4374e9ba48921aa0539c0ca.html",
+        "https://static.cninfo.com.cn/finalpage/2026-08-22/1225488845.PDF",
+        "https://www.nbd.com.cn/articles/2024-06-24/3439731.html",
+        "https://www.vbdata.cn/newsDetail/84e8efc2c79611e9bb3300163e0cb09b",
+        "https://pe.pedaily.cn/202103/468375.shtml"
+      ],
+      "candidate_count": 6,
+      "existing_count": 16,
+      "pending_count": 12,
+      "batch": "2026-11-25-october-public-45.csv",
+      "notes": "融资日期保留来源口径，回核同一笔实际出资主体。对于有正式披露的原档轮次错列只修现有事件。"
+    },
+    {
+      "institution": "中关村资本",
+      "checked_on": "2026-11-25",
+      "scope": "逐笔核对企查查创投库中9条未匹配候选；从公司工商档案转向发行人披露、上市公司年报、资方材料及鲸准公开可见结果。",
+      "sources": [
+        "https://www.qcc.com/investor/337e04fb7ea143b9e8718c9a3c03a9de.html",
+        "https://www.zgcgroup.com.cn/cms_files/filemanager/780592907/attach/20258/AFA4734925C7393B08B7D5499F68DA6E.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-01-20/244585_20260120_EX1Q.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-27/244043_20251027_WMWH.pdf",
+        "https://www.sineugene.com/cn/about/history.html",
+        "https://bydrug.pharmcube.com/news/detail/c053995af36b8f6f4502320b318c341d",
+        "https://finance.eastmoney.com/a/202607283823369265.html",
+        "https://microcyto.cn/About/show?id=26",
+        "https://www.microcyto.cn/en/index.php/About/show?id=33",
+        "https://eu.36kr.com/zh/p/3744666471088389",
+        "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202605/t20260513_246575.html",
+        "https://gu.sina.cn/bd/hq/notice.php?annid=25370562"
+      ],
+      "candidate_count": 15,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-46.csv",
+      "notes": "确认7家公司15笔交易。股权和债务的15亿元合计保留原披露口径。北电集成两条仍需核。若公司直接公告未给轮次，保留股权融资。"
+    },
+    {
+      "institution": "中关村资本",
+      "checked_on": "2026-11-25",
+      "scope": "复核3条创投库候选，并沿2025年集团披露及北京市新材料产业投资基金回查5家被投企业",
+      "sources": [
+        "https://www.qcc.com/investor/337e04fb7ea143b9e8718c9a3c03a9de.html",
+        "https://gu.sina.cn/bd/hq/notice.php?annid=25370562",
+        "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-02-18/688172_20250218_F6QN.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223101394.PDF",
+        "https://finance.sina.com.cn/stock/med/2025-07-24/doc-infhqhut2787056.shtml",
+        "https://www.cytoniche.com/news/796.html",
+        "https://www.taihecap.com/transaction_show-9-1012-3.html",
+        "https://finance.eastmoney.com/a/202512093586383621.html",
+        "https://enpower-energy.com.cn/index.php?c=show&id=43",
+        "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202510/t20251022_4235889.html",
+        "https://bopixel.com/news-detail/1351.html"
+      ],
+      "candidate_count": 11,
+      "existing_count": 5,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-47.csv",
+      "notes": "认缴增资、分期到账、转让登记、累计口径分别核对，不将出资承诺或累计值当作另外一轮。"
+    },
+    {
+      "institution": "十月公开融资线索与企查查股东反查",
+      "checked_on": "2026-11-25",
+      "scope": "以新增后的总表对照投资界月内86条未确认报道。复核多轮一起披露、总额口径与工商异名等16条难点；同日名称匹配只是筛选。",
+      "sources": [
+        "https://news.pedaily.cn/202610/569895.shtml",
+        "https://www.xianghecap.com/en/news/frontier-technology-news/387.html",
+        "https://finance.sina.com.cn/jjxw/2026-02-13/doc-inhmsqpn0102016.shtml",
+        "https://www.chinaventure.com.cn/news/114-20261022-393722.html",
+        "https://news.pedaily.cn/202610/570693.shtml",
+        "https://finance.eastmoney.com/a/202610223904458540.html",
+        "https://harbinyisheng.com/News-Consultation.html",
+        "https://www.eeo.com.cn/2026/1023/1073587.shtml",
+        "https://www.36kr.com/newsflashes/4026558877241475",
+        "https://news.pedaily.cn/202610/570697.shtml",
+        "https://www.chinaventure.com.cn/flash/20261027-90207.html",
+        "https://www.thcapital.com.cn/article/370.html",
+        "https://api3.cls.cn/share/article/2512899?app=stib&os=android&sv=202",
+        "https://www.qcc.com/firm/9a01e441bb95ea825f029bf43711d5d9.html",
+        "https://www.qcc.com/firm/68d460d4ee6e164d0de4911fb463e9e0.html",
+        "https://www.qcc.com/firm/42d4ffa1f74c9109ddd09148da0e94cc.html",
+        "https://www.qcc.com/firm/0aa7aa8755ea3ecd3376a69d6983152a.html",
+        "https://www.qcc.com/firm/16d7d9d382b8319cc38e9a72bdb7651e.html"
+      ],
+      "candidate_count": 2,
+      "existing_count": 19,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-48.csv",
+      "notes": "跨月重新发现两笔早期真实交易。十月报告的累计金额未重复计入单轮。另有算苗Pre-A2日期与辉羲旧名重复需继续核。"
     }
   ]
 }
