@@ -2628,6 +2628,52 @@
       "pending_count": 1,
       "batch": "2026-11-25-october-public-42.csv",
       "notes": "工商确认主体，交易仍按首发和资方披露。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX目录最后36个待复核候选",
+      "sources": [
+        "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
+        "https://www.eni.com/en-IT/media/press-release/2026/10/eni-completes-plenitude-shareholding-and-governance-reorganization.html",
+        "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html",
+        "https://www.wsgr.com/en/insights/wilson-sonsini-advises-oratomic-on-dollar475-million-series-b-financing.html",
+        "https://www.pigment.com/newsroom/pigment-raises-250m-series-e",
+        "https://www.businesswire.com/news/home/20261020574393/en/",
+        "https://www.homeward.com/press/homeward-raises-120m-series-d-equity-to-expand-cash-offer-and-bridge-financing-for-agents"
+      ],
+      "candidate_count": 24,
+      "existing_count": 10,
+      "pending_count": 8,
+      "batch": "2026-11-25-october-public-43.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 0
+      },
+      "notes": "802条目录均已完成首轮处理。区分已交割交易、条件认购、授信、累计总额和已在库的重复触达。"
+    },
+    {
+      "institution": "厦门联和资本、武岳峰科创、瀚星创业投资、C4 Ventures、Accel",
+      "checked_on": "2026-11-25",
+      "scope": "鲸准交易记录与企查查公开企业档案双向对照；加查监管文件、独立发行人和资方原披露。",
+      "sources": [
+        "https://vc.pedaily.cn/invest/459614.html",
+        "https://finance.eastmoney.com/a/202610213902915791.html",
+        "https://www.qcc.com/firm/a893bb966d96fe952bbd278a5fa04f82.html",
+        "https://www.qcc.com/firm/90e9536227b3ea2be075109e53e73a96.html",
+        "https://www.qcc.com/firm/8c440ec1801aa905d8a918700202b3f2.html",
+        "https://www.qcc.com/firm/97e561ef7d6a7e07743f8f1e4790460e.html",
+        "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643820.PDF",
+        "https://liauto.gcs-web.com/news-releases/news-release-details/li-auto-inc-announces-equity-financing-its-chip-business",
+        "https://www.sec.gov/Archives/edgar/data/1791706/000110465926131768/tm2630657d1_ex99-1.htm",
+        "https://c4v.com/news/c4-ventures-iii-makes-it-first-investment-in-bedrock-robotics/",
+        "https://www.accel.com/news/our-investment-in-arda",
+        "https://www.usv.com/writing/tasklet"
+      ],
+      "candidate_count": 3,
+      "existing_count": 1,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-43.csv",
+      "notes": "企业工商股东与投资机构可作发现入口，融资日期、轮次和金额以交易披露认定。"
     }
   ]
 }
