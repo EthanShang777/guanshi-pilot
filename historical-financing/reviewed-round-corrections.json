@@ -2206,5 +2206,21 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"北京星麟创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京奇绩创坛二期创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"苏州信禾国清创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"苏州驰星睿启投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:557703bbc99a6a8d724cecead870cfa611548d5f96abc27df4a0e75e0c44ca2c",
+    "company_id": "co:full_legal_name:1a979810bba7df552d9673eedf9aae5d",
+    "day": "2026-03-20",
+    "source": "https://www.chinaventure.com.cn/news/114-20260320-390574.html",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"京东\",\"role\":\"领投\",\"amount\":null},{\"name\":\"三七互娱\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"东方嘉富\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"小米战投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"杭州数据集团\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"毅达资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"浙大友创\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"电科基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"财通资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三七互娱创投基金\",\"role\":null,\"amount\":null},{\"name\":\"上海电科\",\"role\":null,\"amount\":null},{\"name\":\"京东科技\",\"role\":null,\"amount\":null},{\"name\":\"小米集团\",\"role\":null,\"amount\":null},{\"name\":\"杭州科创集团\",\"role\":null,\"amount\":null},{\"name\":\"杭州金投\",\"role\":null,\"amount\":null},{\"name\":\"正轩投资\",\"role\":null,\"amount\":null},{\"name\":\"溥泉资本\",\"role\":null,\"amount\":null},{\"name\":\"锦聚投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数亿元人民币",
+      "investors_json": "[{\"name\":\"京东\",\"role\":\"领投\",\"amount\":null},{\"name\":\"三七互娱\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"东方嘉富\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"小米战投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"杭州数据集团\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"毅达资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"浙大友创\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"电科基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"财通资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三七互娱创投基金\",\"role\":null,\"amount\":null},{\"name\":\"上海电科\",\"role\":null,\"amount\":null},{\"name\":\"京东科技\",\"role\":null,\"amount\":null},{\"name\":\"小米集团\",\"role\":null,\"amount\":null},{\"name\":\"杭州科创集团\",\"role\":null,\"amount\":null},{\"name\":\"杭州金投\",\"role\":null,\"amount\":null},{\"name\":\"正轩投资\",\"role\":null,\"amount\":null},{\"name\":\"溥泉资本\",\"role\":null,\"amount\":null},{\"name\":\"锦聚投资\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
