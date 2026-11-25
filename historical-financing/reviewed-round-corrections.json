@@ -1854,5 +1854,21 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"成都未来产业天使投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"成都兴锦未来新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:ada40df636047faedb23836cc2e6292658fec19f7c0a7cb0c3ee6a6fd2b5df0c",
+    "company_id": "co:full_legal_name:2fa3c3ab609ad52b76b8a46cd87236dd",
+    "day": "2026-09-28",
+    "source": "https://finance.eastmoney.com/a/202610293914981311.html",
+    "expected": {
+      "round": "C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京市先进制造和智能装备产业投资基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "数亿元人民币",
+      "investors_json": "[{\"name\":\"北京市先进制造和智能装备产业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"东莞松山湖产投\",\"role\":null,\"amount\":null},{\"name\":\"东莞科创\",\"role\":null,\"amount\":null},{\"name\":\"立湾创投\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
