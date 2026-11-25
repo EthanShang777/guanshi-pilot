@@ -1294,5 +1294,21 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"北京英诺未来科技创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"木华水清（上海）创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"常见未来（北京）科技创业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"无限启航海河（天津）创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"天津星连健荣海河创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"杭州禧筠股权投资基金管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "daily-20261120-megarobo",
+    "company_id": "",
+    "day": "2026-11-19",
+    "source": "https://www.prnewswire.com/news-releases/megarobo-raises-nearly-us200-million-in-new-funding-to-build-intelligence-infrastructure-for-the-physical-world-302944671.html",
+    "expected": {
+      "round": "新一轮(具体轮次未披露)",
+      "amount": "",
+      "investors_json": "[{\"name\":\"Asia Investment Capital\",\"role\":null,\"amount\":null},{\"name\":\"CMB International\",\"role\":null,\"amount\":null},{\"name\":\"Granite Asia\",\"role\":null,\"amount\":null},{\"name\":\"Oman Investment Authority\",\"role\":null,\"amount\":null},{\"name\":\"Sinovation Ventures\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "新一轮(具体轮次未披露)",
+      "amount": "近2亿美元",
+      "investors_json": "[{\"name\":\"阿曼投资局\",\"role\":null,\"amount\":null},{\"name\":\"亚投资本\",\"role\":null,\"amount\":null},{\"name\":\"Granite Asia\",\"role\":null,\"amount\":null},{\"name\":\"创新工场\",\"role\":null,\"amount\":null},{\"name\":\"招银国际\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"苏创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三江招商集团\",\"role\":\"跟投\",\"amount\":null}]"
+    }
   }
 ]
