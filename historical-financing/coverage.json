@@ -1669,6 +1669,124 @@
       "batch": "2026-11-25-october-public-23.csv",
       "pending": [],
       "notes": "华健未来上市前六轮外部投资合计61930万元人民币，排除创始人平台和老股转让。华健未来和天星医疗IPO金额为初始发行总额，超额配售另计。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第411—435项",
+      "sources": [
+        "https://www.einpresswire.com/article/949094469/treso-raises-3-75-million-to-build-an-intelligent-financial-operating-system-for-healthcare-providers",
+        "https://www.primevp.in/content/podcast/how-voice-ai-is-transforming-banking-insurance",
+        "https://prtimes.jp/main/html/rd/p/000000042.000172396.html",
+        "https://prtimes.jp/main/html/rd/p/000000045.000172396.html",
+        "https://prtimes.jp/main/html/rd/p/000000071.000065553.html",
+        "https://bayesentrepreneurshipfund.squarespace.com/news/2026/10/13/bayes-entrepreneurship-fund-completes-investment-in-alchera-as-part-of-27m-round-to-grow-transport-data-ai-platform",
+        "https://www.bodhiumlabs.com/blog/bodhium-labs-raises-3-5m-pre-seed",
+        "https://brodies.com/deal-announcements/brodies-advises-esk-on-26-million-equity-funding-round/",
+        "https://www.extendrobotics.com/post/extend-robotics-raises-2-6-million-to-let-manufacturers-hire-robots-by-the-outcome-not-buy-them-by"
+      ],
+      "candidate_count": 28,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-24.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 396,
+        "monthly_identity_conflicts_remaining": 16,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [],
+      "notes": "Ocean的约5亿日元是两批累计，AZOO的4.9亿日元亦为累计，相关单笔金额留空。Alchera只记200万英镑投资。Esk的260万英镑在5月已有披露。"
+    },
+    {
+      "institution": "君联资本",
+      "checked_on": "2026-11-25",
+      "scope": "从君联公开被投名单核查联亚药业上市及往轮，并对报臻愈生物历史",
+      "sources": [
+        "https://www.legendcapital.com.cn/d/news/104.html?page=1",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-09/0409387c-6979-4249-abb9-d056bcac6ab5.PDF",
+        "https://www.szse.cn/certificate/secondb/GEMdynamice/t20261015_623313.html",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-19/32444c5a-8768-4e70-bb0b-56474cbbd691.PDF",
+        "https://www.sohu.com/a/394043431_221477",
+        "https://www.vbdata.cn/49661",
+        "https://www.vbdata.cn/newsDetail/0aeb3ddc6cd411ee8fcf00163e0cb09b",
+        "https://assets.kpmg.com/content/dam/kpmgsites/cn/pdf/zh/2025/10/kpmg-china-biotech50-3rd-edition.pdf",
+        "https://vc.pedaily.cn/company/690827.html"
+      ],
+      "candidate_count": 5,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-24.csv",
+      "pending": [
+        {
+          "company": "成都臻愈生物医药科技有限公司",
+          "reason": "臻愈生物的2025年11月盛景嘉成投资线索还需核实是否为单独完成的一轮。"
+        },
+        {
+          "company": "南通联亚药业股份有限公司",
+          "reason": "联亚开曼早期优先股快照未确认各轮金额和日期。"
+        }
+      ],
+      "notes": "联亚药业IPO以验资公告的发行总额入录。2021年末重组中君联晟源3.1亿元老股受让未计入公司融资。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第411—435项",
+      "sources": [
+        "https://www.einpresswire.com/article/949094469/treso-raises-3-75-million-to-build-an-intelligent-financial-operating-system-for-healthcare-providers",
+        "https://www.primevp.in/content/podcast/how-voice-ai-is-transforming-banking-insurance",
+        "https://prtimes.jp/main/html/rd/p/000000042.000172396.html",
+        "https://prtimes.jp/main/html/rd/p/000000045.000172396.html",
+        "https://prtimes.jp/main/html/rd/p/000000071.000065553.html",
+        "https://bayesentrepreneurshipfund.squarespace.com/news/2026/10/13/bayes-entrepreneurship-fund-completes-investment-in-alchera-as-part-of-27m-round-to-grow-transport-data-ai-platform",
+        "https://www.bodhiumlabs.com/blog/bodhium-labs-raises-3-5m-pre-seed",
+        "https://brodies.com/deal-announcements/brodies-advises-esk-on-26-million-equity-funding-round/",
+        "https://www.extendrobotics.com/post/extend-robotics-raises-2-6-million-to-let-manufacturers-hire-robots-by-the-outcome-not-buy-them-by"
+      ],
+      "candidate_count": 28,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-24.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 396,
+        "monthly_identity_conflicts_remaining": 16,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [],
+      "notes": "Ocean的约5亿日元是两批累计，AZOO的4.9亿日元亦为累计，相关单笔金额留空。Alchera只记200万英镑投资。Esk的260万英镑在5月已有披露。"
+    },
+    {
+      "institution": "君联资本",
+      "checked_on": "2026-11-25",
+      "scope": "从君联公开被投名单核查联亚药业上市及往轮，并核对臻愈生物历史",
+      "sources": [
+        "https://www.legendcapital.com.cn/d/news/104.html?page=1",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-09/0409387c-6979-4249-abb9-d056bcac6ab5.PDF",
+        "https://www.szse.cn/certificate/secondb/GEMdynamice/t20261015_623313.html",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-19/32444c5a-8768-4e70-bb0b-56474cbbd691.PDF",
+        "https://www.sohu.com/a/394043431_221477",
+        "https://www.sohu.com/a/447393672_133140",
+        "https://www.vbdata.cn/newsDetail/0aeb3ddc6cd411ee8fcf00163e0cb09b",
+        "https://assets.kpmg.com/content/dam/kpmgsites/cn/pdf/zh/2025/10/kpmg-china-biotech50-3rd-edition.pdf",
+        "https://vc.pedaily.cn/company/690827.html"
+      ],
+      "candidate_count": 5,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-24.csv",
+      "pending": [
+        {
+          "company": "成都臻愈生物医药科技有限公司",
+          "reason": "臻愈生物的2025年11月盛景嘉成投资线索还需核实是否为单独完成的一轮。"
+        },
+        {
+          "company": "南通联亚药业股份有限公司",
+          "reason": "联亚开曼早期优先股快照未确认各轮金额和日期。"
+        }
+      ],
+      "notes": "联亚药业IPO以验资公告的发行总额入录。2021年末重组中君联晟源3.1亿元老股受让未计入公司融资。"
     }
   ]
 }
