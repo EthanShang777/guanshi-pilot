@@ -37,3 +37,9 @@ html,body {background:var(--cream);color:var(--ink)}
 .research-entry button,#company-finder button {background:var(--orange);color:var(--ink);border-color:var(--orange);font-weight:600}
 #probe,.reading-pick {border-inline-start-color:var(--orange)}
 mark.local-hit {background:#f4d1ba;color:var(--ink)}
+.financing-feed{margin:18px 0 28px;border-top:2px solid var(--ink)}
+.feed-day{display:grid;grid-template-columns:minmax(110px,16%) 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.feed-day h2{margin:0;padding:8px 0;color:var(--ink);font-size:17px;font-variant-numeric:tabular-nums}
+.feed-day ul{margin:0;padding:0;list-style:none;min-width:0}.feed-day li{padding:9px 0;overflow-wrap:anywhere}.feed-day li+li{border-top:1px solid var(--line)}
+.feed-day li div{display:flex;justify-content:space-between;gap:12px;align-items:baseline}.feed-day li a{font-size:18px;font-weight:600}.feed-day b{font-size:15px;text-align:right}.feed-day small{display:block;color:var(--muted);margin-top:3px}
+@media(max-width:660px){.feed-day{display:block;padding:8px 0}.feed-day h2{font-size:15px}.feed-day li div{display:block}.feed-day b{display:block;text-align:left}}

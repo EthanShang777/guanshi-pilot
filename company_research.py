@@ -7,6 +7,9 @@ import shutil
 
 def publish(out, deals):
     data = out/'records'
+    from financing_feed import publish as publish_feed
+    deals = list(deals)
+    publish_feed(out, deals)
     groups = defaultdict(dict)
     for d in sorted(deals, key=lambda r: r['day'] or '', reverse=True):
         if d['sub']:
@@ -32,7 +35,9 @@ def publish(out, deals):
             html = html.replace(marker,marker+f'<a href="company-research.html"{current}>公司研究台</a>',1)
         if marker in html:
             import re
+            html = re.sub(r'<section class="arc">.*?</section>', '',html,flags=re.S)
+            html = re.sub(r'<div data-shelf="[^"]*"></div>|<script src="(?:load-)?shelf.js"></script>', '',html)
             html = re.sub(r'<link rel="stylesheet" href="palette\.css[^"]*">','',html)
-            stylesheet = '<link rel="stylesheet" href="palette.css?v=cream1">'
+            stylesheet = '<link rel="stylesheet" href="palette.css?v=feed2">'
             # Page-specific styles may appear inside main; load the common palette after them.
             path.write_text(html.replace('</html>',stylesheet+'</html>',1))
