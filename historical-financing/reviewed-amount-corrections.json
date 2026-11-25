@@ -34,5 +34,14 @@
     "source": "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2559&nodeid=1124&page=ContentPage",
     "expected": "",
     "amount": "超3亿元人民币"
+  },
+  {
+    "event_id": "financing_event:f779c6c0c3437986e5ff0159f5cbb39c90dda1fa0202bcd8823f919ad9bf26a9",
+    "company_id": "co:full_legal_name:7eec77b7a53ccdbb54fbefb16a990031",
+    "day": "2026-10-11",
+    "round": "B轮",
+    "source": "https://www.eeo.com.cn/2026/1011/1060755.shtml",
+    "expected": "",
+    "amount": "数亿元人民币"
   }
 ]

@@ -2144,6 +2144,80 @@
         }
       ],
       "notes": "持股比例变动是融资查漏线索，入库依据为独立可追溯的交易披露。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第596—621项",
+      "sources": [
+        "https://indent.co.jp/news/me00u5",
+        "https://sandbox.circuitcheck.com/",
+        "https://www.elvyenergy.com/en-se/press/elvy-leonardo-dicaprio-investerare",
+        "https://www.onetrading.com/blog/one-trading-announces-strategic-investment-from-nasdaq-ventures",
+        "https://bluefivecapital.com/en/newsroom/bluefive-capital-enters-indonesia-through-a-strategic-investment-in-majoris-asset-management",
+        "https://www.gov.kz/org/maidd/press/news/details/1309072?lang=en",
+        "https://www.eeo.com.cn/2026/1011/1060755.shtml",
+        "https://www.topband.com/cn/news/news_id248/",
+        "https://www.shangdaovc.cn/h-nd-14722.html"
+      ],
+      "candidate_count": 6,
+      "existing_count": 18,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-31.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 217,
+        "monthly_identity_conflicts_remaining": 29,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "星火传明",
+          "reason": "十月文章称A轮，但工商主体成立时点与所述团队起源不同，库内已有2025年A轮及2026年1月B轮、9月B+。尚无证据证明十月另有一轮。",
+          "source": "https://rceo.cn/inews/article.php?id=6686"
+        },
+        {
+          "company": "PT Majoris Asset Management",
+          "reason": "共同披露明确须取得印尼金融服务管理局批准，需查监管批准及交割。",
+          "source": "https://bluefivecapital.com/en/newsroom/bluefive-capital-enters-indonesia-through-a-strategic-investment-in-majoris-asset-management"
+        },
+        {
+          "company": "Network School",
+          "reason": "官方证实10月9日宣布投资安排和20亿美元估值，领投现场口径为正在领投，另有报道仍在募，继续核交割。",
+          "source": "https://www.gov.kz/org/maidd/press/news/details/1309072?lang=en"
+        }
+      ],
+      "notes": "法定主体对回简称；庞伯特B轮在原事件补数亿元人民币。indent已完成，11亿日元为股债合计。Elvy十月追加与五月原轮区分。"
+    },
+    {
+      "institution": "深创投",
+      "checked_on": "2026-11-25",
+      "scope": "沿深创投公开组合反查西安蓝深新材料旧轮次，并由上市公司披露补证墨现科技历史机构出资。",
+      "sources": [
+        "https://www.lanshn.com/enterprise_dynamics/95.html",
+        "https://pe.pedaily.cn/202001/450387.shtml",
+        "https://www.lanshn.com/enterprise_dynamics/105.html",
+        "https://m.pedaily.cn/vc/invest/r3135-c327-y2020",
+        "https://www.cls.cn/detail/1256397",
+        "https://pitchhub.36kr.com/project/2111938967440771",
+        "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472871.PDF"
+      ],
+      "candidate_count": 4,
+      "existing_count": 1,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-31.csv",
+      "pending": [
+        {
+          "reason": "蓝深A轮报道有5000万元及5500万元两种表述，官网未列金额，本次留空。"
+        },
+        {
+          "reason": "蓝深2017年天使轮仅公司确认年份；2021年C轮和2022年C+的到账、资方及公告口径还需正本。"
+        },
+        {
+          "reason": "已回查达晨创程持股所提示的劢微机器人，外部同期C轮与B+字样冲突，继续找发行人原文。"
+        }
+      ],
+      "notes": "蓝深历史四轮挂回同一公司档案，避免对金额和单轮资方擅自推定。"
     }
   ]
 }
