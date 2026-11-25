@@ -198,6 +198,69 @@
         }
       ],
       "notes": "鲸准免费会话实测仅见 11 月 24–25 日交易摘要。公开周榜的计数以报道链接为单位，已有计数按交易去重。星络互联、伊塔动力已公开确认第二轮，现有记录中的金额需待原件核清合计口径，本批新增轮次不填分轮金额及资方。Procuros 和 Rendezvous 分别按投资方及公司原文确认。月报 Restate 采用公司原发的 9 月 30 日，转 9 月查漏。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 10 月月报 7、20、31、181 四项，另复核投资界 10 月 8—12 日周榜 15 篇",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://www.pedaily.cn/weeklyinvest/20261004/",
+        "https://www.pedaily.cn/weeklyinvest/20261011/"
+      ],
+      "candidate_count": 4,
+      "existing_count": 11,
+      "pending_count": 4,
+      "batch": "2026-11-25-october-public-02.csv",
+      "pending": [
+        {
+          "reason": "已收录天使及天使+线索，待查重并核实金额是否为两轮合计。",
+          "source": "https://news.pedaily.cn/202610/569895.shtml"
+        },
+        {
+          "reason": "本溯智能同日已有天使轮，原文为种子轮，核实是否为同轮。",
+          "source": "https://news.pedaily.cn/202610/569906.shtml"
+        },
+        {
+          "reason": "发行人10月10日称A+轮，底库9月29日称B轮，金额同为超亿元，核实是否同轮。",
+          "source": "https://news.pedaily.cn/202610/570033.shtml"
+        },
+        {
+          "reason": "底库为A轮，原披露为A1轮，同公司、金额和日期，需核对是否同轮。",
+          "source": "https://news.pedaily.cn/202610/570110.shtml"
+        }
+      ],
+      "screening": {
+        "remaining_unreviewed_weekly_reports": 78,
+        "remaining_unreviewed_monthly_entries": 795
+      },
+      "notes": "四笔均由发行人或共同投资人核实。VoltaGrid只计已交割的新增股本，Qilimanjaro仅确认首关，OMass为同轮双币披露。"
+    },
+    {
+      "institution": "顺为资本",
+      "checked_on": "2026-11-25",
+      "scope": "2026 年 7 月回顾的两仪万象、浪爪智能及萝博派对",
+      "sources": [
+        "https://shunwei.com/news/2769",
+        "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2650&nodeid=1124&page=ContentPage",
+        "https://www.chinaventure.com.cn/news/114-20260720-392352.html",
+        "https://www.donews.com/news/detail/8/6623592.html"
+      ],
+      "candidate_count": 4,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-02.csv",
+      "pending": [
+        {
+          "reason": "两仪万象天使轮，已知君联参与，待取得日期",
+          "source": "https://shunwei.com/news/2769"
+        },
+        {
+          "reason": "浪爪智能Pre-A1轮，已知顺为参与，待取得日期",
+          "source": "https://shunwei.com/news/2769"
+        }
+      ],
+      "notes": "两仪万象A与A+日期可分，浪爪智能Pre-A2与Pre-A3分别确认资方，公开披露日相同并且不分摊多轮累计金额。"
     }
   ]
 }
