@@ -623,6 +623,54 @@
         }
       ],
       "notes": "先核出资人及公开日期。VAST和中科天工只补现有交易来源。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 月报第 82–93 项",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://news.cision.com/yazen/r/the-digital-healthcare-provider-yazen-secures--50-million-in-a-partnership-led-by-the-european-growt,c4405941",
+        "https://www.rabot.energy/magazin/rabot-energy-erhlt-50-mio-aus-millionen-haushalten-wird-ein-virtuelles-kraftwerk/",
+        "https://www.kevel.com/blog/kevel-secures-52-million-to-scale-ai-driven-infrastructure-for-the-future-of-commerce-media",
+        "https://www.gallatin.ai/news/series-a-announcement",
+        "https://www.globenewswire.com/news-release/2026/10/09/3378310/0/en/sabi-raises-50-million-seed-round-led-by-khosla-ventures-to-put-a-brain-ai-interface-inside-a-baseball-cap.html",
+        "https://www.globenewswire.com/news-release/2026/10/13/3379991/0/en/reach-security-raises-more-than-50m-series-b-to-stop-ai-powered-attacks-by-autonomously-closing-the-gaps-they-target.html",
+        "https://www.scarlet.company/blog/scarlet-s-50m-series-b-building-a-global-ai-certification-body",
+        "https://www.moneycontrol.com/news/business/startup/even-healthcare-raises-50-mn-in-funding-led-by-khosla-ventures-14055446.html",
+        "https://www.businesswire.com/news/home/20261014886358/en/",
+        "https://www.prnewswire.com/news-releases/prolific-machines-announces-new-investment-led-by-nant-capital-and-atoms--bits-as-well-as-a-strategic-nantworks-collaboration-and-board-appointments-302908569.html",
+        "https://www.qyue.cn/resources/articles/fazs/"
+      ],
+      "candidate_count": 11,
+      "existing_count": 1,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-10.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 740,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "notes": "Flow Engineering B轮首发在9月，库内已有。Rabot按资方和律师的美元口径，Kevel采用新增资本合计，Prolific按首次交割登记。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "深圳达晨创程公开组合的屿西半导体A轮，向后跟进A+轮",
+      "sources": [
+        "https://finance.sina.com.cn/tech/roll/2026-07-24/doc-iniiwvkm1689164.shtml"
+      ],
+      "candidate_count": 1,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-10.csv",
+      "pending": [
+        {
+          "reason": "鸿远电子年报的单方实缴仍待确认对应轮次。"
+        }
+      ],
+      "notes": "A+轮沿用A轮的公司ID。7月24日为公开报道日期。"
     }
   ]
 }
