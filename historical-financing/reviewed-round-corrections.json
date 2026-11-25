@@ -1646,5 +1646,53 @@
       "amount": "9500万元",
       "investors_json": "[{\"name\":\"青岛乾合雅法投资中心（有限合伙）\",\"role\":null,\"amount\":\"2000万元\"},{\"name\":\"青岛乾予金宝投资中心（有限合伙）\",\"role\":null,\"amount\":\"1500万元\"},{\"name\":\"中小企业发展基金（成都）交子创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"3000万元\"},{\"name\":\"富海精选二号创业投资（杭州）合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2000万元\"},{\"name\":\"深圳市富海优选二号高科技创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1000万元\"}]"
     }
+  },
+  {
+    "event_id": "financing_event:e1b8f734cdf0ac44548a9980b89f204e603aaaab846d1db9f867ee1d1456ded7",
+    "company_id": "co:full_legal_name:3b6c09269854a05a410a3c0955b28840",
+    "day": "2026-01-15",
+    "source": "https://sichuan.scol.com.cn/xwtg/202601/83190107.html",
+    "expected": {
+      "round": "C轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"四川振兴科创基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"东坡国投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"东证资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"四川中试\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"市北高新\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广州产投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"眉山中试\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"静安资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"鼎祥资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"南山战新投\",\"role\":null,\"amount\":null},{\"name\":\"成都科创投集团\",\"role\":null,\"amount\":null},{\"name\":\"普丰资本\",\"role\":null,\"amount\":null},{\"name\":\"高信资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C1轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"成都科创投集团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"南山战新投\",\"role\":null,\"amount\":null},{\"name\":\"普丰资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:86ab90a423ee8d7612cd04c7c213958e1176d3fc335c396911875f4d69a5041f",
+    "company_id": "co:full_legal_name:3b6c09269854a05a410a3c0955b28840",
+    "day": "2026-09-09",
+    "source": "https://scfzfund.sdholding.com/news/company/864685984723013.html",
+    "expected": {
+      "round": "C+轮",
+      "amount": "近10亿人民币",
+      "investors_json": "[{\"name\":\"四川振兴科创基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"东坡国投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"东证资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"四川中试\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"市北高新\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广州产投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"眉山中试\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"静安资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"鼎祥资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广州产投集团\",\"role\":null,\"amount\":null},{\"name\":\"聚信发展\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C3轮",
+      "amount": "未单独披露",
+      "investors_json": "[{\"name\":\"四川振兴科创基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"东坡国投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"东证资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"四川中试\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"市北高新\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广州产投集团\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"眉山中试\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"静安资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"鼎祥资本\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:094cbc25c9a3de87223b09ac1d00952be2a2b2f7ded18be6cad26dee9d8d95a9",
+    "company_id": "co:full_legal_name:dd6fb92b4a2f7dbac1e109b9a295852d",
+    "day": "2026-09-29",
+    "source": "https://caifuhao.eastmoney.com/news/20260929162634356804340",
+    "expected": {
+      "round": "D++轮",
+      "amount": "超2亿人民币",
+      "investors_json": "[{\"name\":\"兴证投资\",\"role\":null,\"amount\":null},{\"name\":\"德阳经开创元\",\"role\":null,\"amount\":null},{\"name\":\"成都金牛交子基金\",\"role\":null,\"amount\":null},{\"name\":\"桂芯半导体\",\"role\":null,\"amount\":null},{\"name\":\"长沙城发集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "D2轮",
+      "amount": "超2亿人民币",
+      "investors_json": "[{\"name\":\"兴证投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"德阳经开创元基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"成都金牛交子基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"长沙城发基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广西桂芯\",\"role\":\"跟投\",\"amount\":null}]"
+    }
   }
 ]
