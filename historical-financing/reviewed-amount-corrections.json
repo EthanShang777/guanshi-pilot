@@ -187,5 +187,32 @@
     "source": "https://finance.eastmoney.com/a/202610203901298038.html",
     "expected": "超亿人民币",
     "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:e8606ede065fa9c1a0eecb0742a1e8ada5e79a6e6ddcf477874518d27a4f6111",
+    "company_id": "co:full_legal_name:f29128c609babcf5085785a3f9f52996",
+    "day": "2026-10-25",
+    "round": "种子+轮",
+    "source": "https://36kr.com/p/4040083368629381",
+    "expected": "数千万人民币",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:b9357fae7fd652db1334f2c79e9b6acf13424a8ffd08f2f4b00dd37c7a2edb9f",
+    "company_id": "co:full_legal_name:5260213ed457173ab9f240df2bb85912",
+    "day": "2026-08-14",
+    "round": "A+轮",
+    "source": "https://i.gasgoo.com/news/70469259.html",
+    "expected": "近10亿元",
+    "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:a6be6c8cf1c951555bd4238ab40632357ed8e6d375bb45e1cd96db146d54f2ad",
+    "company_id": "co:full_legal_name:5260213ed457173ab9f240df2bb85912",
+    "day": "2026-10-26",
+    "round": "A++轮",
+    "source": "https://api3.cls.cn/share/article/2515695?app=stib&os=android&sv=247",
+    "expected": "",
+    "amount": "近亿元人民币"
   }
 ]

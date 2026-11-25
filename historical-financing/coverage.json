@@ -2544,6 +2544,46 @@
       "pending_count": 2,
       "batch": "2026-11-25-october-public-40.csv",
       "notes": "祥禾金额取领投方首轮披露，Flash E轮总额取律师，F轮按报告；不混淆跨轮金额。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第753—776项",
+      "sources": [
+        "https://paineschwartz.com/news/paine-schwartz-partners-makes-strategic-investment-in-first-day-a-high-growth-family-focused-wellness-brand/",
+        "https://prtimes.jp/main/html/rd/p/000000016.000114105.html",
+        "https://quointelligence.eu/2026/10/christian-lindner-invests-in-quointelligence/",
+        "https://digitalxforce.com/press-release/digitalxforce-secures-institutional-investment-after-514-growth/",
+        "https://www.calcalist.co.il/calcalistech/article/h1uarovhfl",
+        "https://www.thecapital.com.cn/news/detail/125355"
+      ],
+      "candidate_count": 22,
+      "existing_count": 9,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-41.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 62
+      },
+      "notes": "逐项核24个候选，区分首报、交割日及时间粒度，超球面重复归并待办。"
+    },
+    {
+      "institution": "不二资本、Colorado ONE Fund、Elevator Ventures",
+      "checked_on": "2026-11-25",
+      "scope": "从不二资本投资页到夸父炸串融资档案，查回晚于鲸准摘要的创始人现场披露。按Colorado ONE和Elevator Ventures的交易公告回查其他融资。",
+      "sources": [
+        "https://www.qcc.com/investor/358b01e7a11ecc33265b8a621942ad92.html",
+        "https://www.qcc.com/firm/bb7c8482ec777fdd7a645d1a6483df43.html",
+        "https://www.nbd.com.cn/articles/2024-02-26/3256794.html",
+        "https://www.prnewswire.com/news-releases/colorado-one-fund-invests-in-code19-to-scale-high-dynamic-autonomy-for-defense-302916467.html",
+        "https://www.prnewswire.com/news-releases/colorado-one-fund-announces-seed-investment-in-highground---empowering-access-to-us-government-markets-302477361.html",
+        "https://quointelligence.eu/2026/04/quointelligence-closes-eur-7-3-million-series-a-to-scale-unified-risk-intelligence-across-europe/",
+        "https://www.pplaw.com/en/transactions/poellath-advises-quointelligence-eur-5-million-seed-financing-round"
+      ],
+      "candidate_count": 4,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-41.csv",
+      "notes": "夸父同轮补证。新机构原披露回查HighGround与QuoIntelligence。"
     }
   ]
 }
