@@ -766,5 +766,37 @@
       "amount": "9700万元人民币",
       "investors_json": "[{\"name\":\"珠海德辰新三板股权投资基金企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京市人工智能产业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京信息产业发展投资基金（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:1943b70e5ccf314412e537b875ac05aa12d0445588a79524a3fa6bc8e84b7828",
+    "company_id": "co:full_legal_name:03df8eaecf2ce1d682e76f7f4d94b414",
+    "day": "2019-06-27",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108908/a136258/sehk26092900946_c.pdf",
+    "expected": {
+      "round": "官方披露",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"士达克投资\",\"role\":null,\"amount\":null},{\"name\":\"广发乾和\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "5300万元人民币（含1500万元债转股）",
+      "investors_json": "[{\"name\":\"宁波梅山保税港区红点驰辰股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"共青城苏襄创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广发乾和投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"珠海擎石投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"无锡海盈佳投资企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:e1d54718d90a650f84a39262b06dc9a3d901af76783c159d76028daa299b9d07",
+    "company_id": "co:full_legal_name:03df8eaecf2ce1d682e76f7f4d94b414",
+    "day": "2020-04-21",
+    "source": "https://intelligence.xny365.com/article-16757.html",
+    "expected": {
+      "round": "B+轮",
+      "amount": "1.2亿人民币",
+      "investors_json": "[{\"name\":\"中关村发展前沿基金\",\"role\":null,\"amount\":null},{\"name\":\"士达克投资\",\"role\":null,\"amount\":null},{\"name\":\"广发乾和\",\"role\":null,\"amount\":null},{\"name\":\"红点中国\",\"role\":null,\"amount\":null},{\"name\":\"襄禾资本\",\"role\":null,\"amount\":null},{\"name\":\"达泰资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B++轮",
+      "amount": "9693.8776万元人民币",
+      "investors_json": "[{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"佛山达泰创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京智慧云城投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳珂玺共赢产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"天津颢玺企业管理咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
