@@ -78,5 +78,37 @@
       "amount": "108,411,300元人民币",
       "investors_json": "[{\"name\":\"深圳君联深运私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"益硕投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"共青城顺景久赢股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"赵建光\",\"role\":null,\"amount\":null},{\"name\":\"北京建元鑫铂股权投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京建元超虹投资管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京建元泓赓投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:4292f6cc2dd53a825c3c87146bc8b97a6b8869369af3691c5a25ef8c40d2229b",
+    "company_id": "co:full_legal_name:61d7f57a0ec861adef17c4de087040ea",
+    "day": "2018-12-18",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100010_c.pdf#page=93",
+    "expected": {
+      "round": "B-1轮",
+      "amount": "5,000万元",
+      "investors_json": "[{\"name\":\"元禾润新\",\"role\":\"领投\",\"amount\":null},{\"name\":\"雪球资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"ConvivialiteVentures\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"招商资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"君联成业\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"成都优地\",\"role\":null,\"amount\":null},{\"name\":\"江苏联峰\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B-1轮",
+      "amount": "5,000万元",
+      "investors_json": "[{\"name\":\"江苏联峰\",\"role\":null,\"amount\":null},{\"name\":\"君联成业\",\"role\":null,\"amount\":null},{\"name\":\"成都优地\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:a5c564a921cce2da9fd1cb9af9c626a1f554da84d9fdf635a128b7aec2a939d2",
+    "company_id": "co:full_legal_name:61d7f57a0ec861adef17c4de087040ea",
+    "day": "2021-01-29",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100010_c.pdf#page=93",
+    "expected": {
+      "round": "B-2轮",
+      "amount": "2,600万元",
+      "investors_json": "[{\"name\":\"雪球资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"ConvivialiteVentures\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"君联资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"招商资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"上海索道投资管理有限公司\",\"role\":null,\"amount\":null},{\"name\":\"吴中索道\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴索道\",\"role\":null,\"amount\":null},{\"name\":\"索道投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B-2轮",
+      "amount": "2,600万元",
+      "investors_json": "[{\"name\":\"嘉兴索道\",\"role\":null,\"amount\":null},{\"name\":\"吴中索道\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

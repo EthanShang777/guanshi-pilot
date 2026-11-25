@@ -1902,6 +1902,65 @@
         }
       ],
       "notes": "本末B投资额仅含1.4亿新股，B+由联想之星出资4000万，B++确认为108,411,300元与深圳君联深运等；老股不计。IPO验证确认50,000,000股、21.60港元/股。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第486—510项",
+      "sources": [
+        "https://cortas.dk/press/cortas-raises-funding",
+        "https://meeteden.ai/blog/eden-labs-raises-1-5m",
+        "https://www.ghanem.sa/en/blog/ghanem-1-5-million-pre-seed-extension-en",
+        "https://prod.ghanem.sa/ar/blog/round-announcement",
+        "https://vitalls.ai/blog/vitalls-announces-us-1-5m-commitment-from-est-growmore-pte-ltd-during-abu-dhabi",
+        "https://www.wamda.com/index.php/2026/09/qatar-aligator-raises-1-2-million-seed-round",
+        "https://www.eu.vc/p/tiledesk-raises-1-1m-for-open-source-ai-automation",
+        "https://flaerobotics.ai/"
+      ],
+      "candidate_count": 25,
+      "existing_count": 0,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-27.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 321,
+        "monthly_identity_conflicts_remaining": 20,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Vitalls",
+          "reason": "公司公告仅证实150万美元承诺及另100万美元选择权，缺少该笔已到账或交割的披露。",
+          "source": "https://vitalls.ai/blog/vitalls-announces-us-1-5m-commitment-from-est-growmore-pte-ltd-during-abu-dhabi"
+        }
+      ],
+      "notes": "Aligator、Tiledesk按9月首披。Ghanem早期种子前轮为2025年11月13日首披，另计2026年追加。FLÆ月精度。"
+    },
+    {
+      "institution": "君联资本",
+      "checked_on": "2026-11-25",
+      "scope": "优地机器人招股章程的直接注资与股权转让",
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100010_c.pdf#page=93",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100010_c.pdf#page=94",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100010_c.pdf#page=98",
+        "https://www.legendcapital.com.cn/d/news/101.html"
+      ],
+      "candidate_count": 0,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-27.csv",
+      "pending": [
+        {
+          "company": "优地机器人（无锡）股份有限公司",
+          "reason": "B-3轮的出资人表与同一招股章程的投资人汇总存在不一致，原记录暂保留。"
+        },
+        {
+          "company": "优地机器人（无锡）股份有限公司",
+          "reason": "优地科技别名组合和优地机器人法定名称各已有公司ID，合并前需核实所有历史记录。"
+        }
+      ],
+      "notes": "B-1、B-2原ID和金额保持，按直接认购表更新具名资方。2019年和2020年股权转让无新增融资。"
     }
   ]
 }
