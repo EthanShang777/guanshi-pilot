@@ -1774,5 +1774,53 @@
       "amount": "未单独披露",
       "investors_json": "[{\"name\":\"美团龙珠\",\"role\":\"领投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:491d899a153b4e4a80b17aa13f176df668bde396f935e6cbfee3667a352af5ad",
+    "company_id": "co:full_legal_name:db3ad07271c20996b5a3c9cb656e308e",
+    "day": "2024-12-05",
+    "source": "https://kelichina.com/news/keli_news/2384.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"宁波市江北区国资\",\"role\":null,\"amount\":null},{\"name\":\"时代伯乐\",\"role\":null,\"amount\":null},{\"name\":\"柯力传感\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"宁波传感谷创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"官方确认首笔1500万元人民币\"}]"
+    }
+  },
+  {
+    "event_id": "financing_event:29b4aa76db2712517da739755917f83a704c073a87efeff4438767e9b0a1863a",
+    "company_id": "co:full_legal_name:db3ad07271c20996b5a3c9cb656e308e",
+    "day": "2026-07-15",
+    "source": "https://business.china.com.cn/2026-07/20/content_43463959.shtml",
+    "expected": {
+      "round": "A++轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"天图投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A++轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"天图美丽领航（湖州）股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:ea2bd2fd169670ef2b1d649d64e8c3c01c462d49b86221a50f37017cf2d963eb",
+    "company_id": "co:full_legal_name:2cf18494c4b2b285bb78d878a0a84638",
+    "day": "2026-10-23",
+    "source": "https://finance.eastmoney.com/a/202610253907153452.html",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"元禾控股\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A+轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"太仓市娄东产业发展基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"太仓美湾产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
