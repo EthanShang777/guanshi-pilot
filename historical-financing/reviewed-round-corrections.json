@@ -670,5 +670,37 @@
       "amount": "两轮合计约17亿元人民币",
       "investors_json": "[{\"name\":\"三七互娱创投基金\",\"role\":null,\"amount\":null},{\"name\":\"上河动量\",\"role\":null,\"amount\":null},{\"name\":\"元生资本\",\"role\":null,\"amount\":null},{\"name\":\"凯辉基金\",\"role\":null,\"amount\":null},{\"name\":\"北京市人工智能产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"北京机器人产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"华泰投资\",\"role\":null,\"amount\":null},{\"name\":\"卓源亚洲\",\"role\":null,\"amount\":null},{\"name\":\"博华产投\",\"role\":null,\"amount\":null},{\"name\":\"商汤国香资本\",\"role\":null,\"amount\":null},{\"name\":\"国家人工智能产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"国汽投资\",\"role\":null,\"amount\":null},{\"name\":\"建投投资\",\"role\":null,\"amount\":null},{\"name\":\"慧目圆轮\",\"role\":null,\"amount\":null},{\"name\":\"星连资本\",\"role\":null,\"amount\":null},{\"name\":\"朗玛峰创投\",\"role\":null,\"amount\":null},{\"name\":\"正心谷资本\",\"role\":null,\"amount\":null},{\"name\":\"盛奕基金\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null},{\"name\":\"隐山资本\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:aa26651c5dfa8c00a81ba8ee901c969659a0c91b2b88271dc7e573f0ca7f07da",
+    "company_id": "co:full_legal_name:3442b92154a301eb6bffd5530a2d5ffe",
+    "day": "2021-07-22",
+    "source": "https://www1.hkexnews.hk/app/sehk/2025/107985/documents/sehk25122100191_c.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "约7.5亿人民币",
+      "investors_json": "[{\"name\":\"建银国际\",\"role\":\"领投\",\"amount\":null},{\"name\":\"GGV纪源资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"达晨财智\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"金茂资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村中诺基金\",\"role\":null,\"amount\":null},{\"name\":\"中关村协同创新基金\",\"role\":null,\"amount\":null},{\"name\":\"中关村资本\",\"role\":null,\"amount\":null},{\"name\":\"创合汇资本\",\"role\":null,\"amount\":null},{\"name\":\"华泰紫金投资\",\"role\":null,\"amount\":null},{\"name\":\"华金投资\",\"role\":null,\"amount\":null},{\"name\":\"华金资本\",\"role\":null,\"amount\":null},{\"name\":\"园丰资本\",\"role\":null,\"amount\":null},{\"name\":\"建信\",\"role\":null,\"amount\":null},{\"name\":\"建信投资\",\"role\":null,\"amount\":null},{\"name\":\"建兴医疗基金\",\"role\":null,\"amount\":null},{\"name\":\"百度风投\",\"role\":null,\"amount\":null},{\"name\":\"盛宇投资\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"蔚亭资本\",\"role\":null,\"amount\":null},{\"name\":\"阿里健康\",\"role\":null,\"amount\":null},{\"name\":\"隽赐投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "增资5.002亿元人民币（整轮披露约7.5亿元）",
+      "investors_json": "[{\"name\":\"建银国际\",\"role\":\"领投\",\"amount\":null},{\"name\":\"GGV纪源资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"达晨财智\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"金茂资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村中诺基金\",\"role\":null,\"amount\":null},{\"name\":\"中关村协同创新基金\",\"role\":null,\"amount\":null},{\"name\":\"北京中发展金种子创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"创合汇资本\",\"role\":null,\"amount\":null},{\"name\":\"华泰紫金投资\",\"role\":null,\"amount\":null},{\"name\":\"华金投资\",\"role\":null,\"amount\":null},{\"name\":\"华金资本\",\"role\":null,\"amount\":null},{\"name\":\"园丰资本\",\"role\":null,\"amount\":null},{\"name\":\"建信\",\"role\":null,\"amount\":null},{\"name\":\"建信投资\",\"role\":null,\"amount\":null},{\"name\":\"建兴医疗基金\",\"role\":null,\"amount\":null},{\"name\":\"百度风投\",\"role\":null,\"amount\":null},{\"name\":\"盛宇投资\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"蔚亭资本\",\"role\":null,\"amount\":null},{\"name\":\"阿里健康\",\"role\":null,\"amount\":null},{\"name\":\"隽赐投资\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:d66414b3f82a0b1f4a5fa5ab30da990094781881300b3658f51ed3e24306bb83",
+    "company_id": "co:full_legal_name:3442b92154a301eb6bffd5530a2d5ffe",
+    "day": "2025-12-01",
+    "source": "https://www1.hkexnews.hk/app/sehk/2025/107985/documents/sehk25122100191_c.pdf",
+    "expected": {
+      "round": "D轮",
+      "amount": "3亿人民币",
+      "investors_json": "[{\"name\":\"博源弘盛投资\",\"role\":null,\"amount\":null},{\"name\":\"昌发展\",\"role\":null,\"amount\":null},{\"name\":\"盛世投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "增资1.5亿元人民币（整轮披露3亿元）",
+      "investors_json": "[{\"name\":\"绍兴市越城区引智科技产业股权投资基金合伙企业（有限合伙）\",\"role\":\"认购方\",\"amount\":null},{\"name\":\"北京昌平产业发展投资基金（有限合伙）\",\"role\":\"受让方\",\"amount\":null}]"
+    }
   }
 ]
