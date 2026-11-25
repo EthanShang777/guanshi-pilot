@@ -1310,5 +1310,21 @@
       "amount": "近2亿美元",
       "investors_json": "[{\"name\":\"阿曼投资局\",\"role\":null,\"amount\":null},{\"name\":\"亚投资本\",\"role\":null,\"amount\":null},{\"name\":\"Granite Asia\",\"role\":null,\"amount\":null},{\"name\":\"创新工场\",\"role\":null,\"amount\":null},{\"name\":\"招银国际\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"苏创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三江招商集团\",\"role\":\"跟投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:efed27fa080fb0f17da04f05b8ecf1b3cac4d8fa2fa9b63a30e8b480d4eef6a5",
+    "company_id": "co:full_legal_name:05fa7100ebf1e665d400a1baccb481c2",
+    "day": "2026-10-08",
+    "source": "https://www.thecover.cn/news/6XbtG6gegqWH90qSdq8Jkw%3D%3D",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"成都科创投集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"成都未来产业天使投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"成都彭程汇达创投基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"锌蓉易科技有限公司\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
