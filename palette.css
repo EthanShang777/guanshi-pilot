@@ -1,0 +1,39 @@
+/* Guanshi's shared paper, type and interaction colors. */
+:root {
+  color-scheme: light;
+  --cream: #F3EEE3;
+  --ink: #111111;
+  --orange: #D9541E;
+  --paper: var(--cream);
+  --green: var(--ink);
+  --accent: var(--orange);
+  --muted: #59534b;
+  --line: #c9bfb0;
+  --field: #faf6ed;
+  --desk-bg: var(--cream);
+  --desk-type: var(--ink);
+  --desk-soft: var(--muted);
+  --desk-link: var(--ink);
+  --desk-rule: var(--line);
+  --desk-field: var(--field);
+}
+html,body {background:var(--cream);color:var(--ink)}
+::selection,mark.local-hit.here {background:var(--orange);color:var(--ink)}
+.top,.reading-pick,.arc-bottom,.arc-controls button {border-color:var(--line)}
+.top nav a[aria-current],.desk a,.source-list a,.search-entry a {color:var(--ink);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:.28em}
+.top nav a[aria-current] {text-decoration-thickness:2px}
+:focus-visible {outline:2px solid var(--orange);outline-offset:3px}
+.hero p,.arc-record p,.subject small,.ends,.arc-controls output,.row-actions,#atlas-status,#atlas-world button small {color:var(--muted)}
+.arc,.atlas,#atlas,.details,.directory,.holdings,.comparison section,.arc-bottom,#local-find,.research-entry {background:var(--field);color:var(--ink);border-color:var(--line)}
+.arc-card,.sheet {background:linear-gradient(145deg,#f9f4ea,#d4c9b7);color:var(--ink);border-color:var(--line);box-shadow:0 3px 9px #11111118}
+.arc-card::before,.sheet.chosen,.switch:checked + label,#atlas-world button.focus,.pick[aria-pressed=true] {background:var(--orange);color:var(--ink);border-color:var(--ink)}
+.atlas >label,.arc-controls button,#atlas button,#atlas input,#atlas select,.company-tools :is(input,select),.company-pager button,#archive-form :is(input,select,button),#prev,#next,.lookup-form input,.comparison select,.pick {background:var(--field);color:var(--ink);border-color:var(--line)}
+#atlas-view {background:radial-gradient(var(--line) 1px,transparent 1px) 0 0/21px 21px;border-color:var(--line)}
+#atlas-world i {background:var(--line)}#atlas-world button.focus small,.atlas a:hover {color:var(--ink)}
+.finance-grid thead th,.finance-grid thead tr>:first-child {background:#e5ddcf;color:var(--ink)}
+.finance-grid tbody tr>:first-child {background:var(--cream)}
+.research-entry form,.research-entry input {background:var(--field);color:var(--ink)}
+.research-entry a {color:var(--ink);text-decoration:underline}
+.research-entry button,#company-finder button {background:var(--orange);color:var(--ink);border-color:var(--orange);font-weight:600}
+#probe,.reading-pick {border-inline-start-color:var(--orange)}
+mark.local-hit {background:#f4d1ba;color:var(--ink)}

@@ -18,7 +18,7 @@ def publish(out, deals):
         topics.setdefault(sector,{})[sub] = key
         (data/f'peers-{key}.json').write_text(json.dumps(list(peers.values())[:6],ensure_ascii=False))
     (data/'research-topics.json').write_text(json.dumps(topics,ensure_ascii=False))
-    for asset in ('company-research.css','company-research.js'):
+    for asset in ('company-research.css','company-research.js','palette.css'):
         shutil.copyfile(asset,out/asset)
     shell = (out/'search.html').read_text()
     head, rest = shell.split('<main>',1)
@@ -29,4 +29,10 @@ def publish(out, deals):
         marker = '<nav aria-label="栏目">'
         if marker in html and 'href="company-research.html"' not in html:
             current = ' aria-current="page"' if path.name=='company-research.html' else ''
-            path.write_text(html.replace(marker,marker+f'<a href="company-research.html"{current}>公司研究台</a>',1))
+            html = html.replace(marker,marker+f'<a href="company-research.html"{current}>公司研究台</a>',1)
+        if marker in html:
+            import re
+            html = re.sub(r'<link rel="stylesheet" href="palette\.css[^"]*">','',html)
+            stylesheet = '<link rel="stylesheet" href="palette.css?v=cream1">'
+            # Page-specific styles may appear inside main; load the common palette after them.
+            path.write_text(html.replace('</html>',stylesheet+'</html>',1))
