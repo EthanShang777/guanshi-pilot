@@ -1982,5 +1982,229 @@
       "amount": "8,800万美元",
       "investors_json": "[{\"name\":\"Abstract Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"Lachy Groom\",\"role\":\"领投\",\"amount\":null},{\"name\":\"John Doerr\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"VXI Capital\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"Triatomic\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"Susa Ventures\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"Dwarkesh Patel\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"Naveen Rao\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"Sholto Douglas\",\"role\":\"跟投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:13cf8af584beec5fa75ff6d9ba63a28c03b202931614b30599638da2e6940d83",
+    "company_id": "co:full_legal_name:9f947b76bc1d1ce0fa544ebe9f32e3ee",
+    "day": "2026-10-13",
+    "source": "https://news.pedaily.cn/202610/570167.shtml",
+    "expected": {
+      "round": "B+轮",
+      "amount": "10亿人民币",
+      "investors_json": "[{\"name\":\"先沐资本\",\"role\":null,\"amount\":null},{\"name\":\"光大金控\",\"role\":null,\"amount\":null},{\"name\":\"善恒资本\",\"role\":null,\"amount\":null},{\"name\":\"投控东海\",\"role\":null,\"amount\":null},{\"name\":\"洪泰基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "10亿人民币",
+      "investors_json": "[{\"name\":\"投控东海\",\"role\":\"领投\",\"amount\":null},{\"name\":\"洪泰基金\",\"role\":null,\"amount\":null},{\"name\":\"宁海兴泰合基金\",\"role\":null,\"amount\":null},{\"name\":\"善恒资本\",\"role\":null,\"amount\":null},{\"name\":\"先沐资本\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:dd6f4dc6c83f8c58643f69c81171dcd3ee9f2a8b735c6797a6d056f387346656",
+    "company_id": "co:full_legal_name:ffad1efa59899116158f0d023e55543a",
+    "day": "2026-10-15",
+    "source": "https://news.pedaily.cn/202610/570338.shtml",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "亿元级",
+      "investors_json": "[{\"name\":\"中创资本\",\"role\":null,\"amount\":null},{\"name\":\"信维通信\",\"role\":null,\"amount\":null},{\"name\":\"勤道资本\",\"role\":null,\"amount\":null},{\"name\":\"金木资本\",\"role\":null,\"amount\":null},{\"name\":\"黄海资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "亿元级",
+      "investors_json": "[{\"name\":\"信维通信\",\"role\":\"领投\",\"amount\":null},{\"name\":\"金木资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"勤道资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"黄海资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中创资本\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:d1dca0603a8f67bfd52726e9a17ee1efcbc534c40528ac606e2185ee66e8c788",
+    "company_id": "co:full_legal_name:1cde8a4ac040369c67ab0536c3a6df3a",
+    "day": "2026-10-14",
+    "source": "https://news.pedaily.cn/202610/570425.shtml",
+    "expected": {
+      "round": "Pre-A+轮",
+      "amount": "亿元级人民币",
+      "investors_json": "[{\"name\":\"博众精工\",\"role\":null,\"amount\":null},{\"name\":\"复星锐正\",\"role\":null,\"amount\":null},{\"name\":\"复星锐正资本\",\"role\":null,\"amount\":null},{\"name\":\"正熙资本\",\"role\":null,\"amount\":null},{\"name\":\"清石资产管理集团\",\"role\":null,\"amount\":null},{\"name\":\"清石资管\",\"role\":null,\"amount\":null},{\"name\":\"苏创投\",\"role\":null,\"amount\":null},{\"name\":\"西高投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A+轮",
+      "amount": "亿元级人民币",
+      "investors_json": "[{\"name\":\"复星锐正资本\",\"role\":null,\"amount\":null},{\"name\":\"清石资管\",\"role\":null,\"amount\":null},{\"name\":\"正熙资本\",\"role\":null,\"amount\":null},{\"name\":\"西高投\",\"role\":null,\"amount\":null},{\"name\":\"博众精工\",\"role\":null,\"amount\":null},{\"name\":\"苏创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:c09a21045685113be7cfd9fce7c7a26a2a2c872d5acd69845392089a7bb067f3",
+    "company_id": "co:full_legal_name:3d67b38232010f27d7ebd7a731d2f722",
+    "day": "2026-10-23",
+    "source": "https://news.pedaily.cn/202610/570760.shtml",
+    "expected": {
+      "round": "A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"天汇资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A1轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"天汇资本\",\"role\":\"领投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:4273d9125b02f1ee57b937c40fb28e4f1b0db0ecf2fc91fb1d3beb3bf21e535b",
+    "company_id": "co:full_legal_name:af7293418a29bb215c5e34625ca1069e",
+    "day": "2026-10-23",
+    "source": "https://news.pedaily.cn/202610/570764.shtml",
+    "expected": {
+      "round": "种子轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"万方资本\",\"role\":null,\"amount\":null},{\"name\":\"厚天资本\",\"role\":null,\"amount\":null},{\"name\":\"国科创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "种子轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"国科创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"厚天资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"万方资本\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8e3c183fc7ce2ed2ffd3eea9fee8cb8f969dd93d040868b511f3ecc0c2757be2",
+    "company_id": "co:full_legal_name:cca51156f641876761456956493ffe61",
+    "day": "2026-10-26",
+    "source": "https://news.pedaily.cn/202610/570816.shtml",
+    "expected": {
+      "round": "天使轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中科创星\",\"role\":null,\"amount\":null},{\"name\":\"华山资本WestsummitCapital\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"商汤国香资本\",\"role\":null,\"amount\":null},{\"name\":\"庚辛资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"中科创星\",\"role\":null,\"amount\":null},{\"name\":\"商汤国香资本\",\"role\":null,\"amount\":null},{\"name\":\"华山资本WestSummit Capital\",\"role\":null,\"amount\":null},{\"name\":\"庚辛资本中国\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:efd5b617cf4a12d0b876df86f8de712726f51b4bf81ebfddc65ac01d5f2b2c84",
+    "company_id": "co:full_legal_name:ab87e766443b0253baf4e32ec1f6844d",
+    "day": "2026-10-26",
+    "source": "https://news.pedaily.cn/202610/570862.shtml",
+    "expected": {
+      "round": "战略融资",
+      "amount": "1亿元人民币",
+      "investors_json": "[{\"name\":\"芜湖高新投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "1亿元人民币",
+      "investors_json": "[{\"name\":\"芜湖高新国控产业投资有限公司\",\"role\":null,\"amount\":\"1亿元人民币\"}]"
+    }
+  },
+  {
+    "event_id": "financing_event:4270f0070c22d816d30dce0744711c98cf5c31d925e5e4dff688f498797d0c20",
+    "company_id": "co:full_legal_name:6df3cbfab02bea201212d975178dc19f",
+    "day": "2026-10-26",
+    "source": "https://news.sohu.com/a/1093861153_122014422",
+    "expected": {
+      "round": "天使轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"国元股投\",\"role\":null,\"amount\":null},{\"name\":\"山证投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"合肥市天使基金（二期）\",\"role\":null,\"amount\":null},{\"name\":\"合肥产投科创种子基金\",\"role\":null,\"amount\":null},{\"name\":\"国元股投\",\"role\":null,\"amount\":null},{\"name\":\"创谷资本\",\"role\":null,\"amount\":null},{\"name\":\"合肥高投\",\"role\":null,\"amount\":null},{\"name\":\"山证投资\",\"role\":null,\"amount\":null},{\"name\":\"鼎兴量子\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:6d335c1792959111671f60eb2c6d4fdc6c6b33167c24eadb892276ac8bf7420e",
+    "company_id": "co:full_legal_name:75417a0bc2cdd321c65cac0fa9fac153",
+    "day": "2026-10-28",
+    "source": "https://news.pedaily.cn/202610/570934.shtml",
+    "expected": {
+      "round": "C轮",
+      "amount": "亿级人民币",
+      "investors_json": "[{\"name\":\"华泰紫金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国科新能\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国科新能创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"建发新兴投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"毅达资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"苏高新创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华泰紫金投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "亿级人民币",
+      "investors_json": "[{\"name\":\"国科新能创投\",\"role\":null,\"amount\":null},{\"name\":\"华泰紫金投资\",\"role\":null,\"amount\":null},{\"name\":\"建发新兴投资\",\"role\":null,\"amount\":null},{\"name\":\"毅达资本\",\"role\":null,\"amount\":null},{\"name\":\"苏高新创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:bdac2aeeafc28c22cb1707a137ddbda0a3866d5afe5db54761fb5070d5331e69",
+    "company_id": "co:full_legal_name:8dfea93bfeb0f004d9fcf3821d782340",
+    "day": "2026-10-28",
+    "source": "https://news.pedaily.cn/202610/570955.shtml",
+    "expected": {
+      "round": "A+轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"澄凯基金\",\"role\":null,\"amount\":null},{\"name\":\"粤科金融集团\",\"role\":null,\"amount\":null},{\"name\":\"鸿富资产\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"澄凯基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"粤科金融集团\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"鸿富资产\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:e78207a018d9ef736585c72f53a83fe95fc8bd38f25e359adc0b39e61984db9b",
+    "company_id": "co:full_legal_name:9b0418106d9853848dcde2603f15693e",
+    "day": "2026-10-29",
+    "source": "https://news.pedaily.cn/202610/571063.shtml",
+    "expected": {
+      "round": "A轮",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"勤智资本\",\"role\":null,\"amount\":null},{\"name\":\"富汇创投\",\"role\":null,\"amount\":null},{\"name\":\"现有老股东\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"勤智资本\",\"role\":null,\"amount\":null},{\"name\":\"富汇创投\",\"role\":null,\"amount\":null},{\"name\":\"现有老股东\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:296e12b635e66ba5fcad95bb50ed13ac91e42971634c9c72ea0f4af9ea512c8a",
+    "company_id": "co:full_legal_name:6d8e3d6caddcc18a490ee3956ac911ea",
+    "day": "2026-10-29",
+    "source": "https://news.pedaily.cn/202610/571068.shtml",
+    "expected": {
+      "round": "Pre-C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"明文炜业\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B++轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"明文炜业\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:afaa095b1e803c7732f4687e92d533f2dfeef3a78ddbd0790b3b1bf08337d574",
+    "company_id": "co:full_legal_name:54008580128692c0289b46b9af803832",
+    "day": "2026-10-30",
+    "source": "https://news.pedaily.cn/202610/571105.shtml",
+    "expected": {
+      "round": "A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"兴湘科创\",\"role\":null,\"amount\":null},{\"name\":\"天泓投资\",\"role\":null,\"amount\":null},{\"name\":\"明势创投\",\"role\":null,\"amount\":null},{\"name\":\"红榕资本\",\"role\":null,\"amount\":null},{\"name\":\"英诺天使基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"红榕资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"明势创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"天泓投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"兴湘科创\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"英诺天使基金\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:9116a9dc58182033313e5b7af325ffa6d282eadb44770142804706c13c968005",
+    "company_id": "co:full_legal_name:3d67b38232010f27d7ebd7a731d2f722",
+    "day": "2024-01-25",
+    "source": "https://m.pedaily.cn/vc/company/698434.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"信成基金\",\"role\":null,\"amount\":null},{\"name\":\"奇绩创坛\",\"role\":null,\"amount\":null},{\"name\":\"联想之星\",\"role\":null,\"amount\":null},{\"name\":\"驰星创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京星麟创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京奇绩创坛二期创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"苏州信禾国清创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"苏州驰星睿启投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
