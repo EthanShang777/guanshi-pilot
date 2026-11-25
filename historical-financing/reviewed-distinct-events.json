@@ -18,5 +18,16 @@
       "event_id": "public:historical-disclosure:e11253571d39a55e229b062",
       "company_id": "co:historical-disclosure:ac14f3af001d3742106a953"
     }
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:c3a07f03b6b03acbe5406e7cdc467629605d1a4833eddfaaf24e90480dc7c8de",
+      "company_id": "co:issuer_brand:5a47f257b780c5689d0564107fac16b2"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:be23a2ef7a488c5863cced3",
+      "company_id": "co:historical-disclosure:181fdd46fc4a7246b9f4f1e"
+    },
+    "source": "https://origin.tech/blog/origin-emerges-from-stealth-with-20-million"
   }
 ]
