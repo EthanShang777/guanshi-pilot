@@ -1560,6 +1560,66 @@
           "reason": "公司披露天使轮于2025年3月完成，4月9日公开；现档4月1日应再对原始日期类型。"
         }
       ]
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第361—385项及公开证据补查第345项",
+      "sources": [
+        "https://www.pavefinance.com/newsletter/series-a",
+        "https://www.crowdfundinsider.com/2026/10/316897-ai-powered-portfolio-management-firm-pave-finance-extends-series-a-raises-5-million-more/",
+        "https://www.sec.gov/Archives/edgar/data/1818844/000110465926123635/dwtx-20260930x10q.htm",
+        "https://www.svv.ai/news/investmentsymbe",
+        "https://www.thebell.co.kr/front/newsview.asp?code=0303&key=202609211518340640105068",
+        "https://www.charter.space/news/seed-round-2026",
+        "https://www.tangentrobotics.ai/pre-seed-funding-round-led-by-fly-ventures-and-toyota-ventures/"
+      ],
+      "candidate_count": 25,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-22.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 446,
+        "monthly_identity_conflicts_remaining": 15,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Danu Robotics",
+          "reason": "创始人采访明确处于募资过程中，500万美元为该轮目标，待交割。",
+          "source": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/"
+        },
+        {
+          "company": "Pharmuna",
+          "reason": "同一通稿标题称募得500万美元，正文仍写争取完成该轮，须核实际交割。",
+          "source": "https://www.wboc.com/online_features/press_releases/pharmuna-raised-5m-through-fastercapital-with-hesham-zreik-as-lead-investor-to-expand-ai-pharmacy/article_9c16fded-bd03-5bba-803a-27a66e6f3ca1.html"
+        }
+      ],
+      "notes": "按Dogwood实付交割及Pave实际追加记录。MotifDrive及Charter Space有九月原始披露。Symbe四月实际出资于十月公开。"
+    },
+    {
+      "institution": "君联资本",
+      "checked_on": "2026-11-25",
+      "scope": "从公开被投动态追天星医疗招股书和臻愈生物融资原披露，复核北卓、锋寻",
+      "sources": [
+        "https://bydrug.pharmcube.com/news/detail/8cd4934daca1bf4b022d4ec3adc2d1f5",
+        "https://bydrug.pharmcube.com/news/detail/e3fc6bb3f064c9c030b2c0f2f855315f",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/002013_20241231_WG5H.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/002013_20241231_WG5H.pdf#page=68",
+        "https://finance.sina.com.cn/tech/roll/2026-05-28/doc-inhzmihs7892952.shtml"
+      ],
+      "candidate_count": 5,
+      "existing_count": 2,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-22.csv",
+      "pending": [
+        {
+          "company": "北京天星医疗股份有限公司",
+          "reason": "天星的上市配售及验资与首募历史为另一个事件口径，后续分别核。"
+        }
+      ],
+      "notes": "天星A轮两次交割分别确认5000万元。2021年12月和2023年1月只记新增股本所得，2023年1月4500万元不包括同次老股转让2.55亿元。"
     }
   ]
 }
