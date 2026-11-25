@@ -5,6 +5,11 @@
   try{
     const work=typeof researchWorkspace!=='undefined'?researchWorkspace:null;
     const meta=await load('manifest'),args=work?.args||new URLSearchParams(location.search),cache=new Map();
+    if(!work){
+      const extra=document.createElement('details'),label=document.createElement('summary');label.textContent='更多条件';extra.append(label);
+      for(const key of ['sub','stage','mode'])extra.append(form.elements[key].closest('label'));
+      form.append(extra);extra.open=['sub','stage','mode'].some(k=>args.get(k));
+    }
     const excluded=work?await work.prepare(meta):new Set();
     const route=work?'workspace.html':'search.html';
     for(const [key,items] of [['year',meta.years],['sector',meta.sectors]])for(const s of items)form.elements[key].add(new Option(s,s));
@@ -58,7 +63,7 @@
         const q=new URLSearchParams();for(const k of keys)if(form.elements[k].value)q.set(k,form.elements[k].value);
         if(work)for(const key of ['question','client','adjacent'])if(args.has(key))q.set(key,args.get(key));
         if(page>1)q.set('page',page);history.replaceState(null,'',route+(q.size?'?'+q:''));
-        count.textContent=n.toLocaleString()+(view?' 家':' 笔')+' · 第 '+page+' / '+pages+' 页';list.replaceChildren();
+        count.textContent=n.toLocaleString()+(view?' 家':' 笔')+' · 第 '+page+' / '+pages+' 页'+(filtering?'　'+keys.filter(k=>!['view','mode'].includes(k)).map(k=>form.elements[k].value).filter(Boolean).join(' · '):'');list.replaceChildren();
         headings.replaceChildren(...[...original.cells].map(c=>c.cloneNode(true)));
         if(view){
           headings.replaceChildren();

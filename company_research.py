@@ -27,6 +27,8 @@ def publish(out, deals):
     head, rest = shell.split('<main>',1)
     head = head.replace('融资交叉检索 · 观势','公司研究台 · 观势').replace(' aria-current="location"', '')
     (out/'company-research.html').write_text(head+Path('company-research-body.html').read_text()+'</html>')
+    from page_layouts import publish as publish_layouts
+    publish_layouts(out,deals)
     for path in out.glob('*.html'):
         html = path.read_text()
         marker = '<nav aria-label="栏目">'
@@ -38,6 +40,6 @@ def publish(out, deals):
             html = re.sub(r'<section class="arc">.*?</section>', '',html,flags=re.S)
             html = re.sub(r'<div data-shelf="[^"]*"></div>|<script src="(?:load-)?shelf.js"></script>', '',html)
             html = re.sub(r'<link rel="stylesheet" href="palette\.css[^"]*">','',html)
-            stylesheet = '<link rel="stylesheet" href="palette.css?v=feed2">'
+            stylesheet = '<link rel="stylesheet" href="palette.css?v=layout3">'
             # Page-specific styles may appear inside main; load the common palette after them.
             path.write_text(html.replace('</html>',stylesheet+'</html>',1))

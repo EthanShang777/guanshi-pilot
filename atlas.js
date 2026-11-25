@@ -72,6 +72,12 @@
         document.createTextNode(' '+(state.page+1)+' / '+pages+' '),
         button('下一组',()=>{visit(state.file,state.id,{...state,page:(state.page+1)%pages},false);}));
     }
+    let panel=document.querySelector('#node-brief');
+    if(!panel){panel=document.createElement('aside');panel.id='node-brief';view.after(panel);}
+    const title=document.createElement('strong');title.textContent=n.name;
+    const info=document.createElement('p');info.textContent=[n.role,n.summary].filter(Boolean).join(' · ');
+    panel.replaceChildren(title,info);
+    if(n.url){const a=document.createElement('a');a.href=n.url;a.textContent='查看档案 →';panel.append(a);}
     transform();
   }
   function zoom(factor,x,y) {

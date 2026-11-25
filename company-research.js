@@ -77,5 +77,6 @@
     }catch{if(seq===version)status.textContent='搜索索引暂时无法读取，请重试。';}
   };
   const id=new URLSearchParams(location.search).get('id');
-  if(id)show(id);
+  if(!id){const label=node('small','示例公司');byId('subject').before(label);}
+  show(id||'f47ef648ab8c198592a47f10');
 })();
