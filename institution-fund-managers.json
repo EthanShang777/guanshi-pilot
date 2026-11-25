@@ -118,5 +118,25 @@
   "VNTR IX HK Holdings Limited": {
     "brand": "高瓴创投",
     "source": "https://www.qcc.com/firm/16d7d9d382b8319cc38e9a72bdb7651e.html"
+  },
+  "北京中关村发展前沿企业投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://www.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-03-19/240764_20240319_29WT.pdf"
+  },
+  "仙居时代伯乐新能源产业投资基金": {
+    "brand": "时代伯乐",
+    "source": "https://paper.xinmin.cn/html/shequ/2025-07-24/04/10418.html"
+  },
+  "天津水木海棠海河创业投资中心（有限合伙）": {
+    "brand": "水木创投",
+    "source": "https://www.towardpi.com/sys-nd/898.html"
+  },
+  "北京京国管股权投资基金（有限合伙）": {
+    "brand": "北京国管",
+    "source": "https://www.towardpi.com/sys-nd/898.html"
+  },
+  "社保基金中关村自主创新专项基金": {
+    "brand": "君联资本",
+    "source": "https://www.towardpi.com/sys-nd/1209.html"
   }
 }
