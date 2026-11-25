@@ -433,6 +433,27 @@
         }
       ],
       "notes": "同日披露的慕帆 B/C 按独立资方拆两笔，单笔金额留空。核对深海智人 2025 年同期公开报道。两笔已有交易只追加公开来源。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "太空日报公开页 81 条中首批核查，Serval 和 Wabi 的发行人发布",
+      "sources": [
+        "https://fund.spacedaily.com.cn/",
+        "https://www.serval.com/blog/we-raised-150m-to-make-everyone-a-builder",
+        "https://www.prnewswire.com/news-releases/wabi-raises-55-million-at-a-1-25-billion-valuation-following-strong-early-demand-302923254.html"
+      ],
+      "candidate_count": 2,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-06.csv",
+      "pending": [],
+      "screening": {
+        "monthly_entries_unreviewed": 765,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8
+      },
+      "notes": "Wabi 官网通稿未给轮次，记录股权融资。修复历史批次的已验证别名发布到两个搜索索引。"
     }
   ]
 }

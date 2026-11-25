@@ -140,6 +140,12 @@ def build(rows):
                 for rid in h.get('reports',[]):
                     if rid not in d['reports']:d['reports'].append(rid)
                 if h.get('reports'):refs[h['company']].append(h)
+        if row['event_id'].startswith('public:historical-disclosure:'):
+            # Reviewed imports store verified company names as semicolon-separated aliases.
+            aliases = (row.get('raw_company_key') or '').replace('；', ';').split(';')
+            for alias in map(str.strip, aliases):
+                if alias and alias != d['company'] and alias not in d['aliases']:
+                    d['aliases'].append(alias)
         groups[d['sector']].append(d);deals.append(d)
         buckets['deal-'+key[:2]][key]=d
     for key,records in buckets.items():dump(data/(key+'.json'),records)
