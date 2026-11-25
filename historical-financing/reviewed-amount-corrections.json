@@ -133,5 +133,23 @@
     "source": "https://news.pedaily.cn/202610/570306.shtml",
     "expected": "数千万人民币",
     "amount": "未披露"
+  },
+  {
+    "event_id": "financing_event:43c13b1bad41ffc421b2f3e90c43e47afde719c74eed15d11355d9eca09d7c65",
+    "company_id": "co:cn_uscc:83778fe4512c65bc9ab3f36e098864cf",
+    "day": "",
+    "round": "第二轮外部融资",
+    "source": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+    "expected": "",
+    "amount": "约1000亿元人民币"
+  },
+  {
+    "event_id": "financing_event:a95d9f695370b93198aebae80612612ccde461d3190c23d2eb9a529e902e0169",
+    "company_id": "co:full_legal_name:df749a33509085316056eb28679268bd",
+    "day": "2026-10-08",
+    "round": "天使轮",
+    "source": "https://m.chinaventure.com.cn/news/114-20261008-393522.html",
+    "expected": "数千万人民币",
+    "amount": "未披露"
   }
 ]

@@ -2386,6 +2386,31 @@
         "catalog_unreviewed_after_stage": 40
       },
       "notes": "核实两笔新的十月事件，纠正四笔金额及一笔轮次。两条待获取明确交割或发行证据。"
+    },
+    {
+      "institution": "公开十月交易目录完审及康冠科技投资线索",
+      "checked_on": "2026-11-25",
+      "scope": "补完余下40个详情及原文。对回康冠科技的上市公司公告、阶跃星辰和嘉立创两笔既有融资。",
+      "sources": [
+        "https://finance.eastmoney.com/a/202610063888748225.html",
+        "https://api3.cls.cn/share/article/2445951?app=&os=android&sv=818",
+        "https://static.cninfo.com.cn/finalpage/2026-06-17/1225376195.PDF",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-03/7193d20c-6421-4576-98fa-3110f1001ebf.PDF",
+        "https://pharmato.cn/blog/blog-6f282088",
+        "https://www.sec.gov/Archives/edgar/data/2064124/000162828026074112/figr-20260930.htm",
+        "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+        "https://news.pedaily.cn/202610/569910.shtml"
+      ],
+      "candidate_count": 1,
+      "existing_count": 38,
+      "pending_count": 2,
+      "batch": "2026-11-25-koocool-october-04.csv",
+      "screening": {
+        "catalog_total": 117,
+        "reviewed_total_after_stage": 117,
+        "catalog_unreviewed_after_stage": 0
+      },
+      "notes": "累计找到10笔十月缺项和6笔更早融资。新月之暗面G轮保留未披露金额。康冠金额按出资方字段入档。"
     }
   ]
 }
