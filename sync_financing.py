@@ -163,6 +163,38 @@ def read_history(path):
             raise ValueError(f"Historical record {row['event_id']}: {error}") from error
     return rows
 
+
+def sync_investor_corrections(db, corrections):
+    applied = already_applied = held = 0
+    for correction in corrections:
+        expected = correction['expected']
+        remove = set(correction['remove'])
+        if not remove or len(expected) != len(set(expected)) or not remove.issubset(expected):
+            raise ValueError('Expected a unique set of investors and a nonempty subset to remove')
+        remaining = [name for name in expected if name not in remove]
+        identity = [correction['event_id'], correction['company_id'], correction['round'], correction['source']]
+        guard = '''event_id=? AND company_id=? AND round=?
+                   AND EXISTS (SELECT 1 FROM json_each(sources_json) WHERE value=?)'''
+        rows = query(db, 'SELECT investors_json FROM financing_events WHERE ' + guard, identity)
+        if rows:
+            current = rows[0]['investors_json']
+            investors = json.loads(current)
+            names = [investor['name'] for investor in investors]
+            if names == remaining:
+                already_applied += 1
+                continue
+            if names == expected:
+                updated = packed([investor for investor in investors if investor['name'] not in remove])
+                if query(db, 'UPDATE financing_events SET investors_json=? WHERE ' + guard +
+                         ' AND investors_json=? RETURNING event_id', [updated, *identity, current]):
+                    applied += 1
+                    continue
+        held += 1
+        print('Reviewed investor correction held:', correction['event_id'])
+    print(f'D1 investor corrections applied={applied} already_applied={already_applied} held={held}')
+    return applied, already_applied, held
+
+
 def sync_history_queue(db, directory):
     batches = sorted(directory.glob('*.csv'))
     if not batches:
@@ -217,7 +249,11 @@ def main():
             rows = read_history(args.historical_csv)
             sync_rows(database(), rows, reviewed=True)
         else:
-            sync_history_queue(database(), args.historical_dir)
+            db = database()
+            sync_history_queue(db, args.historical_dir)
+            corrections = args.historical_dir / 'reviewed-investor-corrections.json'
+            if corrections.is_file():
+                sync_investor_corrections(db, json.loads(corrections.read_text()))
         return
     current=json.loads(Path('ledger.json').read_text())['events']
     old={e['id']:e for e in json.loads(args.previous_ledger.read_text())['events']} if args.previous_ledger else {}

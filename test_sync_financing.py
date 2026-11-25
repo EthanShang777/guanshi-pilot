@@ -77,5 +77,30 @@ class SyncFinancingTest(unittest.TestCase):
         self.assertEqual(financing.sync_rows(self.db, rows, reviewed=True), (0, 0, 0))
 
 
+    def test_reviewed_investor_correction_is_exact_and_repeatable(self):
+        first = event('1', '新星科技', 'A轮', company_id='company-1')
+        kept = {'name': '示例基金', 'role': '领投', 'amount': '1,000万元'}
+        first['investors_json'] = financing.packed([kept, {'name': '其他轮基金'}])
+        second = event('2', '新星科技', 'A+轮', company_id='company-1')
+        second['investors_json'] = financing.packed([{'name': '其他轮基金'}])
+        self.assertEqual(financing.sync_rows(self.db, [first, second], reviewed=True), (2, 0, 0))
+        correction = dict(event_id=first['event_id'], company_id='company-1', round='A轮',
+                          source=SOURCE, expected=['示例基金', '其他轮基金'], remove=['其他轮基金'])
+        self.assertEqual(financing.sync_investor_corrections(self.db, [correction]), (1, 0, 0))
+        self.assertEqual(financing.sync_investor_corrections(self.db, [correction]), (0, 1, 0))
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events ORDER BY event_id'),
+                         [first | {'investors_json': financing.packed([kept])}, second])
+
+    def test_reviewed_investor_correction_holds_drift_and_missing_source(self):
+        row = event('1', '新星科技', 'A轮', company_id='company-1')
+        self.assertEqual(financing.sync_rows(self.db, [row]), (1, 0, 0))
+        correction = dict(event_id=row['event_id'], company_id='company-1', round='A轮', source=SOURCE,
+                          expected=['示例基金', '待移除基金'], remove=['示例基金'])
+        self.assertEqual(financing.sync_investor_corrections(self.db, [correction]), (0, 0, 1))
+        missing_source = correction | {'source': 'https://example.com/other', 'expected': ['示例基金']}
+        self.assertEqual(financing.sync_investor_corrections(self.db, [missing_source]), (0, 0, 1))
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'), [row])
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,21 @@
+[
+  {
+    "event_id": "financing_event:989a91425d19996672fe94efa05fd32ade8fb72148c5f46cda275c3e3e343294",
+    "company_id": "co:full_legal_name:a77fa99019cbdd65f2d91df722268877",
+    "round": "A轮",
+    "source": "https://www.36kr.com/p/4043793488335749",
+    "expected": [
+      "上海知识产权基金",
+      "上海科投",
+      "中科育成创投",
+      "华泰紫金投资",
+      "合肥创新投资",
+      "敦鸿资产",
+      "经纬创投"
+    ],
+    "remove": [
+      "合肥创新投资",
+      "经纬创投"
+    ]
+  }
+]

@@ -515,6 +515,54 @@
         }
       ],
       "notes": "交易资料只给出历史资方时不写入某轮出资方。百迈科和迅杰均对回既有事件并补证。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "太空日报条目 30、46、47、52、54、60、72、79 与月报第 76 项",
+      "sources": [
+        "https://fund.spacedaily.com.cn/",
+        "https://www.daytona.io/dotfiles/daytona-raises-60m-series-b-to-build-the-agent-cloud",
+        "https://finance.eastmoney.com/a/202610233906219295.html",
+        "https://api3.cls.cn/share/article/2514304?app=&os=web&sv=846",
+        "https://www.xonaspace.com/news/series-d"
+      ],
+      "candidate_count": 3,
+      "existing_count": 4,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-08.csv",
+      "pending": [
+        {
+          "company": "箭启科技",
+          "reason": "种子轮及Pre天使轮在同一篇披露，待补逐轮日期"
+        }
+      ],
+      "screening": {
+        "monthly_entries_unreviewed": 764,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "notes": "Daytona A、Xona C 顺查补录。科烨电物理按同文资方名单，将两个错归到A轮的资方移开。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "达晨创程公开组合里的佳安智能，继续核对A2后续增资",
+      "sources": [
+        "https://kaanh.cn/About/news2",
+        "https://www.dehenglaw.com/cn/newscontent/0006/036048/2.aspx?MID=0876"
+      ],
+      "candidate_count": 1,
+      "existing_count": 0,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-08.csv",
+      "pending": [
+        {
+          "reason": "公司公告确认2025年的第二笔增资，但未披露交割日和轮次。网站用2026-02-04首次公司公告的日期。"
+        }
+      ],
+      "notes": "佳安增资日期采用发行人公告，不拆年度合计金额。"
     }
   ]
 }
