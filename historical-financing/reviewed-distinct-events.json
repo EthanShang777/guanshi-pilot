@@ -1,0 +1,22 @@
+[
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2858ffbced57fa41fef3bb2",
+      "company_id": "co:historical-disclosure:63c8d803cccb22221e370bb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a7b1acb83c03bace30294a3",
+      "company_id": "co:historical-disclosure:1f8a801f7054776dca60e8c"
+    }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6d09c7bb01f33d7d2bf36ab",
+      "company_id": "co:historical-disclosure:1abd1bf77d5c1aa9dbc02c6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e11253571d39a55e229b062",
+      "company_id": "co:historical-disclosure:ac14f3af001d3742106a953"
+    }
+  }
+]

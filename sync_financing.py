@@ -49,7 +49,10 @@ def investor_names(row):
     return {normalize(i.get('name') if isinstance(i, dict) else i)
             for i in json.loads(row['investors_json'] or '[]') if isinstance(i, (str, dict))} - {''}
 
-def match_status(incoming, existing, reviewed_ids):
+def event_identity(row):
+    return row['event_id'], row['company_id']
+
+def match_status(incoming, existing, reviewed_ids, distinct_events=frozenset()):
     relation = company_relation(incoming, existing)
     if relation == 'different':
         return 'different'
@@ -58,6 +61,9 @@ def match_status(incoming, existing, reviewed_ids):
     shared_source = bool(set(json.loads(incoming['sources_json'])) &
                          set(json.loads(existing['sources_json'] or '[]')))
     shared_investor = bool(investor_names(incoming) & investor_names(existing))
+    if distinct_events and relation == 'conflict' and not shared_source and not shared_investor:
+        if (event_identity(incoming), event_identity(existing)) in distinct_events:
+            return 'different'
     if stage != old_stage and SPECIFIC_ROUND.fullmatch(stage) and SPECIFIC_ROUND.fullmatch(old_stage):
         # A reviewed batch can explicitly establish that a report contains multiple rounds.
         if relation == 'same' and shared_source and existing['event_id'] in reviewed_ids:
@@ -85,7 +91,7 @@ def append_sources(db, event_id, urls):
             ) RETURNING event_id''', [urls, event_id, urls])
     return len(updated)
 
-def sync_rows(db, rows, *, reviewed=False):
+def sync_rows(db, rows, *, reviewed=False, distinct_events=frozenset()):
     reviewed_ids = {row['event_id'] for row in rows} if reviewed else set()
     columns = ','.join(FIELDS)
     insert = ('INSERT INTO financing_events (' + columns + ') VALUES (' +
@@ -100,7 +106,7 @@ def sync_rows(db, rows, *, reviewed=False):
                     WHERE date_key BETWEEN date(?,'-14 days') AND date(?,'+14 days')''',
                                [row['date_key'], row['date_key']])
             possible = [(status, candidate) for candidate in candidates
-                        if (status := match_status(row, candidate, reviewed_ids)) != 'different']
+                        if (status := match_status(row, candidate, reviewed_ids, distinct_events)) != 'different']
             if not possible:
                 if query(db, insert, [row[field] for field in FIELDS]):
                     additions += 1
@@ -221,6 +227,13 @@ def sync_amount_corrections(db, corrections):
     return applied, already_applied, held
 
 
+def load_distinct_events(directory):
+    path = directory / 'reviewed-distinct-events.json'
+    if not path.is_file():
+        return frozenset()
+    return frozenset((event_identity(review['incoming']), event_identity(review['existing']))
+                     for review in json.loads(path.read_text(encoding='utf-8')))
+
 def sync_history_queue(db, directory):
     batches = sorted(directory.glob('*.csv'))
     if not batches:
@@ -229,13 +242,15 @@ def sync_history_queue(db, directory):
                  digest TEXT PRIMARY KEY, filename TEXT NOT NULL, rows_added INTEGER NOT NULL,
                  sources_linked INTEGER NOT NULL, rows_held INTEGER NOT NULL,
                  processed_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)''')
+    distinct_events = load_distinct_events(directory)
     completed = {row['digest'] for row in query(db, 'SELECT digest FROM historical_financing_batches')}
     for path in batches:
         digest = sha256(path.read_bytes()).hexdigest()
         if digest in completed:
             continue
         print('Historical financing batch:', path.name, flush=True)
-        additions, linked, held = sync_rows(db, read_history(path), reviewed=True)
+        additions, linked, held = sync_rows(db, read_history(path), reviewed=True,
+                                              distinct_events=distinct_events)
         query(db, '''INSERT INTO historical_financing_batches
                      (digest, filename, rows_added, sources_linked, rows_held) VALUES (?,?,?,?,?)''',
               [digest, path.name, additions, linked, held])
@@ -273,7 +288,8 @@ def main():
             parser.error('Pass either a previous ledger or historical financing batches')
         if args.historical_csv:
             rows = read_history(args.historical_csv)
-            sync_rows(database(), rows, reviewed=True)
+            sync_rows(database(), rows, reviewed=True,
+                      distinct_events=load_distinct_events(args.historical_csv.parent))
         else:
             db = database()
             sync_history_queue(db, args.historical_dir)

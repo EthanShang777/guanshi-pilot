@@ -1,3 +1,4 @@
+import csv
 import json
 import sqlite3
 import unittest
@@ -83,6 +84,34 @@ class SyncFinancingTest(unittest.TestCase):
         second = event('2', '新星科技', 'A轮', company_id='company-2')
         self.assertEqual(financing.sync_rows(self.db, [first]), (1, 0, 0))
         self.assertEqual(financing.sync_rows(self.db, [second], reviewed=True), (0, 0, 1))
+
+    def test_reviewed_distinct_company_pair_is_imported_and_other_matches_still_hold(self):
+        existing = event('1', 'Kanu', 'A轮', company_id='company-1')
+        distinct = event('2', 'Kanurra', 'A轮', company_id='company-2',
+                         urls=('https://example.com/kanurra',))
+        distinct['investors_json'] = financing.packed([{'name': '另一家基金'}])
+        unresolved = event('3', 'Kanurra Laboratory', 'A轮', company_id='company-3',
+                           urls=('https://example.com/laboratory',))
+        self.assertEqual(financing.sync_rows(self.db, [existing]), (1, 0, 0))
+        with TemporaryDirectory() as directory:
+            path = Path(directory)
+            review = {
+                'incoming': {key: distinct[key] for key in ('event_id', 'company_id')},
+                'existing': {key: existing[key] for key in ('event_id', 'company_id')},
+            }
+            (path / 'reviewed-distinct-events.json').write_text(json.dumps([review]))
+            with (path / 'batch.csv').open('w', newline='') as handle:
+                writer = csv.DictWriter(handle, financing.FIELDS)
+                writer.writeheader()
+                writer.writerows([distinct, unresolved])
+            for _ in range(2):
+                with patch.object(financing, 'database', return_value=self.db), \
+                     patch('sys.argv', ['sync_financing.py', '--historical-dir', directory]):
+                    financing.main()
+            rows = self.query(self.db, 'SELECT * FROM financing_events ORDER BY event_id')
+            self.assertEqual(rows, [existing, distinct])
+            outcome = self.query(self.db, 'SELECT rows_added, rows_held FROM historical_financing_batches')
+            self.assertEqual(outcome, [dict(rows_added=1, rows_held=1)])
 
     def test_replaying_a_partially_written_batch_only_inserts_missing_rows(self):
         rows = [event('1', '新星科技', '种子轮', company_id='company-1'),

@@ -1410,6 +1410,156 @@
         }
       ],
       "notes": "星际荣耀D+首批7亿元于2025年9月公开，D++轮为2026年2月独立交割；C与C+各自领取已确认领投，合计不归入单轮。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第338—360项及早期历史回查，另重试已核实的Kanurra与Nation A",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/sensydia-secures-oversubscribed-funding-to-deliver-groundbreaking-cardiac-performance-system-to-the-office-hospital-and-clinic-302903405.html",
+        "https://www.eqs-news.com/news/corporate-news/cellbox-solutions-schliesst-series-a-finanzierungsrunde-mit-einem-gesamtvolumen-von-5-millionen-euro-ab/969ff322-9107-41ab-acd0-f0ac58f58fe7",
+        "https://www.eqs-news.com/de/news/corporate/cellbox-solutions-closes-first-tranche-of-series-a-financing-and-appoints-new-cbo-cfo-to-accelerate-international-growth/6787f3e3-64af-4a7d-ad9e-19cd03b6f734_en",
+        "https://olsaro.com/2024/04/16/olsaro-raises-e2-5m-seed-round-to-expand-ai-enabled-climate-smart-crop-breeding-platform/",
+        "https://dapta.ai/blog-posts/dapta-raises-6m-seed-round/",
+        "https://forbes.co/emprendedores/dapta-concreta-us1-2-millones-para-su-plataforma-de-integracion-de-apis-e-ia"
+      ],
+      "candidate_count": 28,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-21.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 471,
+        "monthly_identity_conflicts_remaining": 14,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Symbe",
+          "reason": "二手记录称10月14日种子轮。英国公开股本申报中只找到此前6月、4月的配股，仍需对回单笔和首发。",
+          "source": "https://www.marketscreener.com/news/symbe-limited-announced-that-it-has-received-5-7-million-in-funding-from-a-group-of-investors-ce785cdad98dfe23"
+        },
+        {
+          "company": "F2 AI Inc.",
+          "reason": "投资方9月28日公告用将投资措辞，待补交割证据及实际到账。",
+          "source": "https://golubcapital.com/news-insights/f2-announces-strategic-partnership-and-5-million-investment-from-golub-capital/"
+        }
+      ],
+      "notes": "Cellbox两次交割分别记录当批金额，500万欧元为合计；Nation A与Kanurra的已证实独立主体走定点复核。"
+    },
+    {
+      "institution": "Mercia Ventures",
+      "checked_on": "2026-11-25",
+      "scope": "从PlannerPal领投方的公开投资公告交叉核对三家被投企业",
+      "sources": [
+        "https://www.mercia.co.uk/plannerpal-raises-4-3m-to-build-client-intelligence-layer-for-financial-advisors/",
+        "https://www.mercia.co.uk/ai-powered-platform-raises-2m-to-transform-car-delivery-market/",
+        "https://www.mercia.co.uk/kvector-raises-3-8m-for-next-generation-antenna-technology/",
+        "https://www.mercia.co.uk/warwick-acoustics-increases-production-ahead-of-plan/"
+      ],
+      "candidate_count": 1,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-21.csv",
+      "pending": [
+        {
+          "company": "Warwick Acoustics",
+          "reason": "Warwick Acoustics 的十一月公告是经营进展，未发现同日新增融资。"
+        }
+      ]
+    },
+    {
+      "institution": "达晨财智",
+      "checked_on": "2026-11-25",
+      "scope": "由已投逻辑比特回查同一主体早期融资及公司原公告",
+      "sources": [
+        "https://logicalqubit.com/news/91.html"
+      ],
+      "candidate_count": 0,
+      "existing_count": 2,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-21.csv",
+      "pending": [
+        {
+          "company": "杭州逻辑比特科技有限公司",
+          "reason": "公司披露天使轮于2025年3月完成，4月9日公开；现档4月1日应再对原始日期类型。"
+        }
+      ]
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第338—360项及早期历史回查，另重试已核实的Kanurra与Nation A",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/sensydia-secures-oversubscribed-funding-to-deliver-groundbreaking-cardiac-performance-system-to-the-office-hospital-and-clinic-302903405.html",
+        "https://www.eqs-news.com/news/corporate-news/cellbox-solutions-schliesst-series-a-finanzierungsrunde-mit-einem-gesamtvolumen-von-5-millionen-euro-ab/969ff322-9107-41ab-acd0-f0ac58f58fe7",
+        "https://www.eqs-news.com/de/news/corporate/cellbox-solutions-closes-first-tranche-of-series-a-financing-and-appoints-new-cbo-cfo-to-accelerate-international-growth/6787f3e3-64af-4a7d-ad9e-19cd03b6f734_en",
+        "https://olsaro.com/2024/04/16/olsaro-raises-e2-5m-seed-round-to-expand-ai-enabled-climate-smart-crop-breeding-platform/",
+        "https://dapta.ai/blog-posts/dapta-raises-6m-seed-round/",
+        "https://forbes.co/emprendedores/dapta-concreta-us1-2-millones-para-su-plataforma-de-integracion-de-apis-e-ia"
+      ],
+      "candidate_count": 28,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-21.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 471,
+        "monthly_identity_conflicts_remaining": 14,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Symbe",
+          "reason": "二手记录称10月14日种子轮。英国公开股本申报中只找到此前6月、4月的配股，仍需对回单笔和首发。",
+          "source": "https://www.marketscreener.com/news/symbe-limited-announced-that-it-has-received-5-7-million-in-funding-from-a-group-of-investors-ce785cdad98dfe23"
+        },
+        {
+          "company": "F2 AI Inc.",
+          "reason": "投资方9月28日公告用将投资措辞，待补交割证据及实际到账。",
+          "source": "https://golubcapital.com/news-insights/f2-announces-strategic-partnership-and-5-million-investment-from-golub-capital/"
+        }
+      ],
+      "notes": "Cellbox两次交割分别记录当批金额，500万欧元为合计；Nation A与Kanurra的已证实独立主体走定点复核。"
+    },
+    {
+      "institution": "Mercia Ventures",
+      "checked_on": "2026-11-25",
+      "scope": "从PlannerPal领投方的公开投资公告交叉核对三家被投企业",
+      "sources": [
+        "https://www.mercia.co.uk/plannerpal-raises-4-3m-to-build-client-intelligence-layer-for-financial-advisors/",
+        "https://www.mercia.co.uk/ai-powered-platform-raises-2m-to-transform-car-delivery-market/",
+        "https://www.mercia.co.uk/kvector-raises-3-8m-for-next-generation-antenna-technology/",
+        "https://www.mercia.co.uk/warwick-acoustics-increases-production-ahead-of-plan/"
+      ],
+      "candidate_count": 1,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-21.csv",
+      "pending": [
+        {
+          "company": "Warwick Acoustics",
+          "reason": "Warwick Acoustics 的十一月公告是经营进展，未发现同日新增融资。"
+        }
+      ]
+    },
+    {
+      "institution": "达晨财智",
+      "checked_on": "2026-11-25",
+      "scope": "由已投逻辑比特回查同一主体早期融资及公司原公告",
+      "sources": [
+        "https://logicalqubit.com/news/91.html"
+      ],
+      "candidate_count": 0,
+      "existing_count": 2,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-21.csv",
+      "pending": [
+        {
+          "company": "杭州逻辑比特科技有限公司",
+          "reason": "公司披露天使轮于2025年3月完成，4月9日公开；现档4月1日应再对原始日期类型。"
+        }
+      ]
     }
   ]
 }
