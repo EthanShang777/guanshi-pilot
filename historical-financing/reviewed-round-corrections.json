@@ -211,7 +211,7 @@
     "event_id": "financing_event:52b7ab3768d5e019a607b6cf848ebc17fc410d612a62039d92383094300f5117",
     "company_id": "co:full_legal_name:b1230881bf51bcd1dcc79925921af117",
     "day": "2025-10-14",
-    "source": "https://finance.sina.com.cn/cj/2025-10-14/doc-inftvmir2216693.shtml",
+    "source": "https://news.newseed.cn/p/1376424",
     "expected": {
       "round": "天使轮",
       "amount": "数千万人民币",
@@ -220,14 +220,14 @@
     "corrected": {
       "round": "种子轮",
       "amount": "数千万人民币",
-      "investors_json": "[{\"name\":\"英诺天使基金\",\"role\":null,\"amount\":null}]"
+      "investors_json": "[{\"name\":\"英诺科创基金\",\"role\":\"领投\",\"amount\":null}]"
     }
   },
   {
     "event_id": "financing_event:a62711b0a0ef2b01d91284e59173fe2e267d6631cfc9c66091b1e3755e640fa0",
     "company_id": "co:full_legal_name:b1230881bf51bcd1dcc79925921af117",
     "day": "2026-03-26",
-    "source": "https://m.chinaventure.com.cn/news/113-20260327-390674.html",
+    "source": "https://www.innospace.cn/news/detail/0cb1df0e0b511eccdc1ba2c804c18722/2",
     "expected": {
       "round": "天使+轮",
       "amount": "数千万元人民币",
@@ -236,7 +236,7 @@
     "corrected": {
       "round": "天使轮",
       "amount": "数千万元人民币",
-      "investors_json": "[{\"name\":\"博彦科技\",\"role\":null,\"amount\":null},{\"name\":\"国联股份\",\"role\":null,\"amount\":null},{\"name\":\"盛景嘉成\",\"role\":null,\"amount\":null},{\"name\":\"英诺天使基金\",\"role\":null,\"amount\":null}]"
+      "investors_json": "[{\"name\":\"盛景嘉成创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国联股份\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"博彦科技\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"英诺科创基金\",\"role\":\"跟投\",\"amount\":null}]"
     }
   },
   {
