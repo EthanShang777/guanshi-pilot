@@ -2722,6 +2722,32 @@
       "pending_count": 126,
       "batch": "2026-11-25-october-public-44.csv",
       "notes": "155笔均完成首轮名称、日期、轮次比对。复核名单仍含异名和重复；未命中不是已确认漏项。交易以独立公告、监管和披露原文确认。"
+    },
+    {
+      "institution": "中关村资本",
+      "checked_on": "2026-11-25",
+      "scope": "企查查创投库首轮比对后，复核23条近日期候选以及七条无匹配的较新记录并回查历史融资。",
+      "sources": [
+        "https://www.qcc.com/investor/337e04fb7ea143b9e8718c9a3c03a9de.html",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-01-20/244585_20260120_EX1Q.pdf",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2024-12-16/4b236541-e58c-47f1-80c5-2dcb60863552.PDF",
+        "https://dataclouds.cninfo.com.cn/shgonggao/2024/2024-11-30/fc9296d1ae4b11efb1cdfa163e26e5de.pdf",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_d7bd06ea187a44498b2ac9dc3f612454.html",
+        "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202606/t20260612_249629.html",
+        "https://www.zgclmlhh.org.cn/upload/forver/file/2022-01-24/4006083319111352320_.pdf",
+        "https://www.qcc.com/firm/d30805a35e77cd1cedbd8e393372f74f.html",
+        "https://sie.pku.edu.cn/xwgg/xwdt/74cf931e6f1c43278b070528e5ba7633.htm",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_fc0b51a8d4374e9ba48921aa0539c0ca.html",
+        "https://static.cninfo.com.cn/finalpage/2026-08-22/1225488845.PDF",
+        "https://www.nbd.com.cn/articles/2024-06-24/3439731.html",
+        "https://www.vbdata.cn/newsDetail/84e8efc2c79611e9bb3300163e0cb09b",
+        "https://pe.pedaily.cn/202103/468375.shtml"
+      ],
+      "candidate_count": 6,
+      "existing_count": 16,
+      "pending_count": 12,
+      "batch": "2026-11-25-october-public-45.csv",
+      "notes": "融资日期保留来源口径，回核同一笔实际出资主体。对于有正式披露的原档轮次错列只修现有事件。"
     }
   ]
 }
