@@ -22,6 +22,14 @@
       if(seq!==version)return;
       input.value='';input.placeholder='查找其他公司';byId('subject').textContent=row.name;document.title=row.name+' · 公司研究台 · 观势';
       byId('classification').textContent=[row.location,row.primary,row.sub].filter(Boolean).join(' / ');
+      const study=byId('api-study');
+      if(study?.dataset.company===id){
+        study.hidden=false;
+        byId('company-board').classList.add('api-mode');
+        byId('company-board').hidden=false;status.textContent='';
+        const archive=link('查看公司融资档案 →','company.html?id='+id);study.append(archive);
+        return;
+      }
       const [product,capital,backers,peers,questions]=['product','capital','backers','peers','questions'].map(byId);
       for(const panel of [product,capital,backers,peers,questions])panel.replaceChildren();
       const claim=row.profile?.claims.find(c=>c.sources?.length);

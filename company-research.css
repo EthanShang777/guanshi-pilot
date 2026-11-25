@@ -8,3 +8,11 @@ html,body{background:var(--desk-bg);color:var(--desk-type)}.top a{color:var(--de
 @media(max-width:650px){.brief,.history{grid-template-columns:1fr;gap:12px}.brief aside{border-left:0;padding:0}.desk-tools{flex-wrap:wrap}#company-query{width:155px}.desk h2{margin-bottom:12px}.desk #company-board{margin-top:17px}}
 .memo-grid,.research-paths{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:clamp(20px,4vw,52px)}.capital-note{border-left:1px solid var(--line);padding-left:22px}.desk .memo-grid h3,.desk .research-paths h3{color:var(--ink);font-size:16px}.desk #probe{margin-bottom:10px}.research-paths{border-top:2px solid var(--ink);margin-top:25px;padding-top:16px;grid-template-columns:1fr 1fr}.research-paths h3{margin-bottom:12px}.research-case{padding:9px 0;border-bottom:1px solid var(--line)}.research-case a:first-child{font-weight:600}.research-case small{display:block;margin:3px 0}.desk .research-paths p{font-size:15px}.desk #product details{font-size:15px;margin-top:12px}.desk #latest strong{font-variant-numeric:tabular-nums}
 @media(max-width:700px){.memo-grid,.research-paths{grid-template-columns:1fr;gap:16px}.capital-note{border-left:0;border-top:1px solid var(--line);padding:12px 0 0}}
+
+.api-mode .memo-grid,.api-mode .research-paths{display:none}
+.api-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:10px 0 20px}
+.api-cards article{background:var(--field);border:1px solid var(--line);border-radius:9px;padding:clamp(15px,2vw,24px);overflow-wrap:anywhere}
+.desk .api-cards h3{font-size:20px;color:var(--ink);margin-bottom:10px}
+.desk .api-cards small,.desk .research-gap,.desk .research-review{font-size:14px;color:var(--muted)}
+.desk .research-review{border-left:2px solid var(--orange);padding-left:9px}
+@media(max-width:700px){.api-cards{grid-template-columns:1fr}}

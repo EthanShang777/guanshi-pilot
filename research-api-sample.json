@@ -1,0 +1,74 @@
+{
+  "company": "f47ef648ab8c198592a47f10",
+  "modules": [
+    {
+      "title": "市场规模",
+      "finding": "aiXcoder专注于企业级AI研发场景，提供深度定制服务，帮助各领域企业提升软件开发效率和产品质量。",
+      "gap": "缺乏具体的市场规模数据。",
+      "sources": [
+        "https://www.aixcoder.com/zh/about"
+      ],
+      "review": "本条仅描述目标客户，市场金额尚缺测算。"
+    },
+    {
+      "title": "市场痛点",
+      "finding": "aiXcoder提供企业内网部署，按代码规模、团队数量、并发和定制需求配置方案。",
+      "gap": "缺乏具体的客户案例和实施效果数据。",
+      "sources": [
+        "https://www.aixcoder.com/zh/about"
+      ]
+    },
+    {
+      "title": "核心团队",
+      "finding": "aiXcoder团队自2013年起探索深度学习技术在代码生成和理解方面的应用，累计发表论文100多篇。",
+      "gap": "缺乏具体的管理团队成员信息。",
+      "sources": [
+        "https://www.aixcoder.com/zh/about"
+      ]
+    },
+    {
+      "title": "核心技术/产品",
+      "finding": "aiXcoder推出国内首个企业级上下文工程平台，结合AI和软件工程理念，提供深度定制服务。",
+      "gap": "缺乏具体的技术细节和产品功能描述。",
+      "sources": [
+        "https://finance.sina.cn/stock/jdts/2025-09-04/detail-infpimri1790929.d.html"
+      ],
+      "review": "“国内首个”为报道口径，尚缺独立比较。"
+    },
+    {
+      "title": "友商对比",
+      "finding": "aiXcoder与其他AI编程工具相比，提供企业级私有化部署和深度定制服务。",
+      "gap": "缺乏具体的竞争对手分析和比较数据。",
+      "sources": [
+        "https://www.aixcoder.com/zh/about"
+      ]
+    },
+    {
+      "title": "历史融资情况",
+      "finding": "aiXcoder于2025年1月完成A++轮融资，投资方为中关村协同创新基金。",
+      "gap": "缺乏具体的融资金额和其他投资方信息。",
+      "sources": [
+        "https://finance.sina.com.cn/tech/roll/2025-04-25/doc-ineukhfx2051205.shtml"
+      ],
+      "review": "后续轮次及交割日期待原发材料核实。"
+    },
+    {
+      "title": "机构类似布局",
+      "finding": "aiXcoder的技术和产品布局与其他AI编程工具类似，提供代码生成和理解服务。",
+      "gap": "缺乏具体的竞争对手分析和比较数据。",
+      "sources": [
+        "https://www.aixcoder.com/zh/about"
+      ],
+      "review": "本条比较的是产品，尚缺具名机构及其投资案例。"
+    },
+    {
+      "title": "潜在投资机构",
+      "finding": "aiXcoder已获得多家投资机构的支持，包括清流资本、高瓴创投、伽利略资本、彬复资本、三七互娱等。",
+      "gap": "缺乏具体的投资金额和投资条款信息。",
+      "sources": [
+        "https://finance.sina.com.cn/tech/roll/2025-04-25/doc-ineukhfx2051205.shtml"
+      ],
+      "review": "下列名称属于历史资方，新增接洽对象待筛选。"
+    }
+  ]
+}

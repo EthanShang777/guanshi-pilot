@@ -26,7 +26,20 @@ def publish(out, deals):
     shell = (out/'search.html').read_text()
     head, rest = shell.split('<main>',1)
     head = head.replace('融资交叉检索 · 观势','公司研究台 · 观势').replace(' aria-current="location"', '')
-    (out/'company-research.html').write_text(head+Path('company-research-body.html').read_text()+'</html>')
+    from html import escape
+    from urllib.parse import urlsplit
+    sample=json.loads(Path('research-api-sample.json').read_text())
+    cards=[]
+    for module in sample['modules']:
+        sources=' · '.join('<a href="'+escape(url,quote=True)+'">'+escape(urlsplit(url).hostname or '来源')+'</a>'
+                          for url in module['sources'] if url.startswith('https://'))
+        note=module.get('review')
+        cards.append('<article><h3>'+escape(module['title'])+'</h3><p>'+escape(module['finding'])+'</p>'+
+                     ('<p class="research-review">核对说明　'+escape(note)+'</p>' if note else '')+
+                     '<p class="research-gap">待核实　'+escape(module['gap'])+'</p><small>来源　'+sources+'</small></article>')
+    grid='<section id="api-study" data-company="'+escape(sample['company'])+'" hidden><small>API 研究样本 · 2026-11-25</small><div class="api-cards">'+''.join(cards)+'</div></section>'
+    body=Path('company-research-body.html').read_text().replace('<div class="memo-grid">',grid+'<div class="memo-grid">')
+    (out/'company-research.html').write_text(head+body+'</html>')
     from page_layouts import publish as publish_layouts
     publish_layouts(out,deals)
     for path in out.glob('*.html'):
