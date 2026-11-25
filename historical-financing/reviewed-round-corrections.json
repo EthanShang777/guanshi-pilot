@@ -1358,5 +1358,85 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"厦门国升追创机器人产业创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:687db5e33daf2f8b702e123cfae79b1fc668eb5dfb4cb6f998633cb1863d7624",
+    "company_id": "co:full_legal_name:a478d4e2e06ee8fcaefd5943f3815bbd",
+    "day": "2025-12-17",
+    "source": "https://www.qcc.com/firm/58a201ab317938086ce8384f17e7224c.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "超5000万人民币",
+      "investors_json": "[{\"name\":\"中富产融\",\"role\":null,\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"溪山天使汇\",\"role\":null,\"amount\":null},{\"name\":\"金舵投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "超5000万人民币",
+      "investors_json": "[{\"name\":\"中富产融\",\"role\":null,\"amount\":null},{\"name\":\"溪山天使汇\",\"role\":null,\"amount\":null},{\"name\":\"金舵投资\",\"role\":null,\"amount\":null},{\"name\":\"厦门国升追创机器人产业创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:910027121ae929e9ce144ae64921c0dc2be1fbfce2cbaabf603cd8eb41f8b2a4",
+    "company_id": "co:full_legal_name:03a1c51c76ddee9823cc5553a385e510",
+    "day": "2025-10-16",
+    "source": "https://www.qcc.com/firm/b8445bc21cde5372ed74fd837ce8dc3a.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"东方嘉富\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国科投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"朝希资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"蔚来资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"顺为资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中科天算\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"兴湘资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国科创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"晓池资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"毓恬冠佳\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"汇芯投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"蓝思科技\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"追创创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"兴湘集团\",\"role\":null,\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"湖南财鑫集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"东方嘉富\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国科投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"朝希资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"蔚来资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"顺为资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中科天算\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"兴湘资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国科创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"晓池资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"毓恬冠佳\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"汇芯投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"蓝思科技\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"兴湘集团\",\"role\":null,\"amount\":null},{\"name\":\"湖南财鑫集团\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴追创智秀创业投资合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"苏州追创智维股权投资合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:adb44edb12da052e6925f31baa6a12ce3f6babe9f4a08d84a9fe4bff71609e39",
+    "company_id": "co:full_legal_name:15e47a3f4c999622cbaee3e8d3ccb758",
+    "day": "2025-03-14",
+    "source": "https://api3.cls.cn/share/article/1972517",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"德同资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"追创创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"正景基金\",\"role\":null,\"amount\":null},{\"name\":\"正景智远基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"德同资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"正景基金\",\"role\":null,\"amount\":null},{\"name\":\"正景智远基金\",\"role\":null,\"amount\":null},{\"name\":\"厦门国升追创机器人产业创业投资基金合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8a967657f3d1508624dbc02efe02d7029140b45efe06baa90118e6f3f360f8a2",
+    "company_id": "co:full_legal_name:5bc29af1ded8853059f0a583ccc3502e",
+    "day": "2026-04-17",
+    "source": "https://www.36kr.com/p/3770363954954755",
+    "expected": {
+      "round": "Pre-A+轮",
+      "amount": "超4亿人民币",
+      "investors_json": "[{\"name\":\"佰维存储\",\"role\":null,\"amount\":null},{\"name\":\"创维集团\",\"role\":null,\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"新尚投资\",\"role\":null,\"amount\":null},{\"name\":\"易佰科技\",\"role\":null,\"amount\":null},{\"name\":\"春华资本\",\"role\":null,\"amount\":null},{\"name\":\"海尔赛富\",\"role\":null,\"amount\":null},{\"name\":\"赛富投资基金\",\"role\":null,\"amount\":null},{\"name\":\"金沙江联合资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A+轮",
+      "amount": "未单独披露",
+      "investors_json": "[{\"name\":\"佰维存储\",\"role\":null,\"amount\":null},{\"name\":\"创维集团\",\"role\":null,\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"新尚投资\",\"role\":null,\"amount\":null},{\"name\":\"易佰科技\",\"role\":null,\"amount\":null},{\"name\":\"春华资本\",\"role\":null,\"amount\":null},{\"name\":\"海尔赛富\",\"role\":null,\"amount\":null},{\"name\":\"赛富投资基金\",\"role\":null,\"amount\":null},{\"name\":\"金沙江联合资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:c38d3df0e5c6fb028f144a6508f8ed15ce6d9db10709ebec78cc348e19b5abb2",
+    "company_id": "co:full_legal_name:7596f8843da8474021766c7d970ae69f",
+    "day": "2026-03-09",
+    "source": "https://m.bjnews.com.cn/detail/1773110313129629.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"专业创投机构\",\"role\":null,\"amount\":null},{\"name\":\"地方国资\",\"role\":null,\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"拓普集团\",\"role\":null,\"amount\":null},{\"name\":\"杰创智能\",\"role\":null,\"amount\":null},{\"name\":\"梁创投\",\"role\":null,\"amount\":null},{\"name\":\"爱仕达\",\"role\":null,\"amount\":null},{\"name\":\"苏大天宫\",\"role\":null,\"amount\":null},{\"name\":\"苏大天宫创投\",\"role\":null,\"amount\":null},{\"name\":\"金雨茂物\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "5亿元",
+      "investors_json": "[{\"name\":\"专业创投机构\",\"role\":null,\"amount\":null},{\"name\":\"地方国资\",\"role\":null,\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"拓普集团\",\"role\":null,\"amount\":null},{\"name\":\"杰创智能\",\"role\":null,\"amount\":null},{\"name\":\"梁创投\",\"role\":null,\"amount\":null},{\"name\":\"爱仕达\",\"role\":null,\"amount\":null},{\"name\":\"苏大天宫\",\"role\":null,\"amount\":null},{\"name\":\"苏大天宫创投\",\"role\":null,\"amount\":null},{\"name\":\"金雨茂物\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
