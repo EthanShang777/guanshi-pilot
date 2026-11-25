@@ -98,6 +98,39 @@
           "record": "https://ethanshang777.github.io/guanshi-pilot/deal.html?id=6f33d6c16f57b61f4d2bbea7"
         }
       ]
+    },
+    {
+      "institution": "免费账号定向查漏",
+      "checked_on": "2026-11-25",
+      "scope": "对照鲸准、企查查免费样本入口和观势线上 2019–2026 年索引，复核 Looki、LiblibAI、硅心科技的公开披露。入表行以独立公开来源为证据。",
+      "sources": [
+        "https://www.36kr.com/newsflashes/3626281418245128",
+        "https://k.sina.com.cn/article_5953189932_162d6782c06704n9vq.html",
+        "https://capital.lenovo.com/news/detail/id/1148/s/1.html",
+        "https://www.cls.cn/detail/1452625"
+      ],
+      "candidate_count": 4,
+      "existing_count": 0,
+      "pending_count": 3,
+      "batch": "2026-11-25-company-lookup.csv",
+      "pending": [
+        {
+          "company": "硅心科技",
+          "reason": "2025 年 1 月与 4 月均见同资方的 B 轮报道，尚需确认交易是否同笔与工商交割时间",
+          "source": "https://news.pedaily.cn/202501/545066.shtml"
+        },
+        {
+          "company": "LiblibAI",
+          "reason": "2025 年 2 月融资顾问披露含两轮，分轮金额及各轮投资方待核",
+          "source": "https://www.gunder.com/zh/news-insights/%E6%9C%80%E6%96%B0%E4%B8%9A%E7%BB%A9/or-liblibaiyuan"
+        },
+        {
+          "company": "Looki（光智时空）",
+          "reason": "2025 年 Pre-A 轮来源对金额口径有分歧，尚需补充独立核验",
+          "source": "https://stock.stockstar.com/RB2025082700043265.shtml"
+        }
+      ],
+      "notes": "鲸准摘要称 2026 年 7 月为 A+ 轮，按公开报道及参投方发布采用 A1 轮。同名企业按深圳运营主体归属。"
     }
   ]
 }
