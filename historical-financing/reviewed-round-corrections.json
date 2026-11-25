@@ -1598,5 +1598,53 @@
       "amount": "3000万元",
       "investors_json": "[{\"name\":\"杭州奋华投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "public:historical-disclosure:a6b39142ff2490f120616c5",
+    "company_id": "co:cn_uscc:379d947e60fb7b27a8fdc8fc2c86a9c7",
+    "day": "2021-02-25",
+    "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/f358fe0da71f6c5cb7b330a818f31da8.pdf",
+    "expected": {
+      "round": "天使轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"中小企业发展基金\",\"role\":null,\"amount\":null},{\"name\":\"元生创投\",\"role\":null,\"amount\":null},{\"name\":\"赛盈资本\",\"role\":null,\"amount\":null},{\"name\":\"谢诺辰途基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "8000万元",
+      "investors_json": "[{\"name\":\"北京亦庄医药中小企业创业投资中心（有限合伙）\",\"role\":null,\"amount\":\"2000万元\"},{\"name\":\"中小企业发展基金（深圳南山有限合伙）\",\"role\":null,\"amount\":\"2000万元\"},{\"name\":\"广州辰途十一号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1000万元\"},{\"name\":\"苏州工业园区新建元三期创业投资企业（有限合伙）\",\"role\":null,\"amount\":\"3000万元\"}]"
+    }
+  },
+  {
+    "event_id": "public:historical-disclosure:2b32bcba0d09a620964d2b5",
+    "company_id": "co:cn_uscc:379d947e60fb7b27a8fdc8fc2c86a9c7",
+    "day": "2022-02-08",
+    "source": "https://www.saiyingcapital.com/h-nd-130.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "2亿元",
+      "investors_json": "[{\"name\":\"华金投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"亦庄国投旗下专精特新基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中小企业发展基金\",\"role\":null,\"amount\":null},{\"name\":\"赛盈资本\",\"role\":null,\"amount\":null},{\"name\":\"深创投\",\"role\":null,\"amount\":null},{\"name\":\"康居创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "1.9亿元",
+      "investors_json": "[{\"name\":\"珠海华金领尚股权投资基金合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":\"4500万元\"},{\"name\":\"北京芯创科技一期创业投资中心（有限合伙）\",\"role\":\"领投\",\"amount\":\"4000万元\"},{\"name\":\"珠海华金丰盈八号股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"500万元\"},{\"name\":\"北京亦庄二期生物医药产业投资基金（有限合伙）\",\"role\":null,\"amount\":\"3000万元\"},{\"name\":\"中小企业发展基金（深圳南山有限合伙）\",\"role\":null,\"amount\":\"3000万元\"},{\"name\":\"红土君晟（广东）创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1000万元\"},{\"name\":\"广州红土天科创业投资有限公司\",\"role\":null,\"amount\":\"500万元\"},{\"name\":\"深圳市创新投资集团有限公司\",\"role\":null,\"amount\":\"500万元\"},{\"name\":\"珠海康居一期创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2000万元\"}]"
+    }
+  },
+  {
+    "event_id": "public:historical-disclosure:d4d0922367fe7a048954690",
+    "company_id": "co:cn_uscc:379d947e60fb7b27a8fdc8fc2c86a9c7",
+    "day": "2023-06-16",
+    "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/f358fe0da71f6c5cb7b330a818f31da8.pdf",
+    "expected": {
+      "round": "Pre-B轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"乾道基金\",\"role\":null,\"amount\":null},{\"name\":\"东方富海\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-B轮",
+      "amount": "9500万元",
+      "investors_json": "[{\"name\":\"青岛乾合雅法投资中心（有限合伙）\",\"role\":null,\"amount\":\"2000万元\"},{\"name\":\"青岛乾予金宝投资中心（有限合伙）\",\"role\":null,\"amount\":\"1500万元\"},{\"name\":\"中小企业发展基金（成都）交子创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"3000万元\"},{\"name\":\"富海精选二号创业投资（杭州）合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2000万元\"},{\"name\":\"深圳市富海优选二号高科技创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1000万元\"}]"
+    }
   }
 ]

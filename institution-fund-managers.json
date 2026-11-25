@@ -930,5 +930,37 @@
   "亦庄国投旗下专精特新基金": {
     "brand": "亦庄国投",
     "source": "https://www.vbdata.cn/53991"
+  },
+  "北京亦庄医药中小企业创业投资中心（有限合伙）": {
+    "brand": "赛盈资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1116/12413102/2026111600033_c.pdf"
+  },
+  "中小企业发展基金（深圳南山有限合伙）": {
+    "brand": "东方富海",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/351000665889.html"
+  },
+  "珠海华金领尚股权投资基金合伙企业（有限合伙）": {
+    "brand": "华金资本",
+    "source": "https://www.saiyingcapital.com/h-nd-130.html"
+  },
+  "珠海华金丰盈八号股权投资基金合伙企业（有限合伙）": {
+    "brand": "华金资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651077.PDF"
+  },
+  "北京亦庄二期生物医药产业投资基金（有限合伙）": {
+    "brand": "赛盈资本",
+    "source": "https://www.saiyingcapital.com/h-nd-124.html"
+  },
+  "珠海康居一期创业投资合伙企业（有限合伙）": {
+    "brand": "康居创投",
+    "source": "https://www.saiyingcapital.com/h-nd-130.html"
+  },
+  "中小企业发展基金（成都）交子创业投资合伙企业（有限合伙）": {
+    "brand": "东方富海",
+    "source": "https://www.chinaventure.com.cn/news/83-20250430-386133.html"
+  },
+  "北京国科鼎智股权投资中心（有限合伙）": {
+    "brand": "国科嘉和",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0617/12205767/2026061700155_c.pdf"
   }
 }
