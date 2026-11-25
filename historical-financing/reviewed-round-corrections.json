@@ -1534,5 +1534,37 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"绍兴市追觅生态股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"安徽成唐数智创意股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"芜湖基石先启未来创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:21d9b952c1304c8130c31a08efb6a3beb19e1eca797487c103ebbd9a34313fb9",
+    "company_id": "co:full_legal_name:5642ea020a06d02711003e37623d46dc",
+    "day": "2026-10-31",
+    "source": "https://www.panlincap.com/cn/news/3485",
+    "expected": {
+      "round": "A轮",
+      "amount": "近亿元人民币",
+      "investors_json": "[{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"元生创投\",\"role\":null,\"amount\":null},{\"name\":\"创新工场\",\"role\":null,\"amount\":null},{\"name\":\"正心谷资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "近亿元人民币",
+      "investors_json": "[{\"name\":\"正心谷资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"创新工场美元基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"元生创投\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:4071f3ec7e1f64d9de4f9ecb72a1b01ecaf13902ce298c1991b2b6a6074dbae1",
+    "company_id": "co:full_legal_name:bf587114a379252274b81856d5b91279",
+    "day": "2026-08-20",
+    "source": "https://www.yicai.com/news/103326133.html",
+    "expected": {
+      "round": "A+轮",
+      "amount": "近4亿元人民币",
+      "investors_json": "[{\"name\":\"IDG资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"阳光融汇资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"华泰紫金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国投招商\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中启资本\",\"role\":null,\"amount\":null},{\"name\":\"元生创投\",\"role\":null,\"amount\":null},{\"name\":\"华泰紫金投资\",\"role\":null,\"amount\":null},{\"name\":\"苏州颢平\",\"role\":null,\"amount\":null},{\"name\":\"蓝驰创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "未单独披露",
+      "investors_json": "[{\"name\":\"IDG资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"阳光融汇资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"华泰紫金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国投招商\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中启资本\",\"role\":null,\"amount\":null},{\"name\":\"元生创投\",\"role\":null,\"amount\":null},{\"name\":\"华泰紫金投资\",\"role\":null,\"amount\":null},{\"name\":\"苏州颢平\",\"role\":null,\"amount\":null},{\"name\":\"蓝驰创投\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
