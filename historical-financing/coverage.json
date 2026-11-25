@@ -59,6 +59,45 @@
           "source": "https://www.centurium.com/press/%E9%A9%BF%E5%85%AC%E9%87%8C%E6%99%BA%E8%83%BD%E5%AE%8C%E6%88%90c%E8%BD%AE%E7%B3%BB%E5%88%97%E8%9E%8D%E8%B5%84-%E6%80%BB%E9%87%91%E9%A2%9D%E8%B6%856%E4%BA%BF%E4%BA%BA%E6%B0%91%E5%B8%81/"
         }
       ]
+    },
+    {
+      "institution": "深创投",
+      "checked_on": "2026-11-25",
+      "scope": "官网 2024 年 9 月板石智能和 11 月通瑞生物两篇已投企业公告抽查，分别核对公司和共同出资方披露",
+      "sources": [
+        "https://www.szvc.com.cn/article/3033",
+        "https://www.boardstone.com/about.html",
+        "https://www.szvc.com.cn/article/3036",
+        "https://www.3sbio.com/news/details.aspx?id=300"
+      ],
+      "candidate_count": 2,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-szvc.csv",
+      "pending": [],
+      "notes": "板石智能采用深创投官网 9 月 26 日披露日，具体出资基金未公开；通瑞生物采用共同投资方 11 月 16 日披露日，完整基金名据监管披露核验。"
+    },
+    {
+      "institution": "君联资本",
+      "checked_on": "2026-11-25",
+      "scope": "联想控股官网 2024 年 6 月鼎科医疗 E 轮公告单笔抽查",
+      "sources": [
+        "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2444&nodeid=1124&page=ContentPage",
+        "https://www.dkmedtech.com/%E2%80%8B2024-6-21/"
+      ],
+      "candidate_count": 0,
+      "existing_count": 1,
+      "pending_count": 0,
+      "batch": null,
+      "pending": [],
+      "existing": [
+        {
+          "company": "苏州鼎科医疗技术股份有限公司",
+          "date": "2024-06-21",
+          "round": "E轮",
+          "record": "https://ethanshang777.github.io/guanshi-pilot/deal.html?id=6f33d6c16f57b61f4d2bbea7"
+        }
+      ]
     }
   ]
 }
