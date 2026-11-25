@@ -39,6 +39,26 @@
           "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082400018_c.pdf"
         }
       ]
+    },
+    {
+      "institution": "鲸准公开资料",
+      "checked_on": "2026-11-25",
+      "scope": "鲸准 2020 年度股权投资白皮书第 27 页 12 条交易线索及第一财经 2022 年引用鲸准数据报道中的 4 笔一级市场交易",
+      "sources": [
+        "https://23813463.s21i.faiusr.com/61/ABUIABA9GAAgxMX2gwYo-OX1DA.pdf#page=27",
+        "https://www.yicai.com/news/101434170.html"
+      ],
+      "candidate_count": 10,
+      "existing_count": 5,
+      "pending_count": 1,
+      "batch": "2026-11-25-jingdata-public.csv",
+      "pending": [
+        {
+          "company": "驿公里智能",
+          "reason": "大钲确认 C1、C2、C3 分笔金额，尚需逐笔核对实际获投主体和日期，避免重复记录合计金额",
+          "source": "https://www.centurium.com/press/%E9%A9%BF%E5%85%AC%E9%87%8C%E6%99%BA%E8%83%BD%E5%AE%8C%E6%88%90c%E8%BD%AE%E7%B3%BB%E5%88%97%E8%9E%8D%E8%B5%84-%E6%80%BB%E9%87%91%E9%A2%9D%E8%B6%856%E4%BA%BF%E4%BA%BA%E6%B0%91%E5%B8%81/"
+        }
+      ]
     }
   ]
 }
