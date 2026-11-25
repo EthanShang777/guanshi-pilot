@@ -2278,7 +2278,7 @@
     {
       "institution": "鲸准免费股权投资首页",
       "checked_on": "2026-11-25",
-      "scope": "已登录免费账号股权投资首屏20条。独立核实9笔首屏交易，并沿VectorY同主体回补2023年A轮。",
+      "scope": "已登录免费账号股权投资首屏20条。独立核实11笔首屏交易，并沿VectorY同主体回补2023年A轮。",
       "sources": [
         "https://forbion.com/news-insights/news/forbion-co-leads-129-million-series-a-financing-of-vectory-one-of-the-largest-private-biotech-financings-in-europe-in-2023/",
         "https://www.angeliniventures.com/media/2eibeesi/financial-announcement-final.pdf",
@@ -2294,13 +2294,17 @@
         "https://www.pedaily.cn/vcpeevent/",
         "https://www.36kr.com/newsflashes/4083484097898886",
         "https://www.thecapital.com.cn/news/detail/125847",
-        "https://news.pedaily.cn/202611/572348.shtml"
+        "https://news.pedaily.cn/202611/572348.shtml",
+        "https://tech.eu/2026/11/11/czech-medtech-kardi-ai-raises-eur53m-to-advance-predictive-heart-monitoring/",
+        "https://www.slsp.sk/sk/aktuality/2026/11/12/rekordna-investicia-do-kardi-ai-v-hodnote-viac-ako-53-miliona-eur-zapojil-sa-aj-seed-starter-slovenskej-sporitelne",
+        "https://www.havelpartners.cz/havel-partners-pravnim-poradcem-investoru-pri-investici-53-milionu-eur-do-ceskeho-medtech-startupu-kardi-ai/",
+        "https://www.globenewswire.com/news-release/2026/11/25/3410028/0/en/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation.html"
       ],
-      "candidate_count": 10,
+      "candidate_count": 12,
       "existing_count": 2,
-      "pending_count": 9,
+      "pending_count": 7,
       "batch": "2026-11-25-jingdata-free-sample.csv",
-      "notes": "Vero Security与Xlue同笔已经上线。VectorY由公司、借款方公告和交易律师拆分，7450万欧元合计包含3000万欧元欧洲投资银行可转贷款，A轮追加股权为4450万欧元。天云创鸿按11月24日近亿元的披露。原子芯光保留新华财经约谈确认的具名投资方。余9条留在线索中，包括等待交割的ams OSRAM和仅有进展签约公告的中国电子云。免费当页无法覆盖任何一个完整历史月。"
+      "notes": "Vero Security与Xlue同笔已经上线。VectorY的7450万欧元含3000万欧元欧洲投资银行可转贷款，A轮追加股权为4450万欧元。OpenVault公告为200万美元种子、投后2000万。Kardi Ai在11月11日披露530万欧元A轮，由资方和律师确认。天云创鸿按11月24日近亿元的披露。余7条保留线索，包括等待交割的ams OSRAM、意向备忘录的生研生命、签约进展的中国电子云，以及吉泰主体冲突、长坂老股与增资需区分。免费首屏无法覆盖完整历史月。"
     }
   ]
 }
