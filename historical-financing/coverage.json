@@ -261,6 +261,53 @@
         }
       ],
       "notes": "两仪万象A与A+日期可分，浪爪智能Pre-A2与Pre-A3分别确认资方，公开披露日相同并且不分摊多轮累计金额。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "月报 36、37、38、39、45、48、49、54 及周榜原先冲突的五个报道",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://news.pedaily.cn/202610/570813.shtml",
+        "https://www.chinaventure.com.cn/news/114-20261027-393778.html"
+      ],
+      "candidate_count": 4,
+      "existing_count": 9,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-03.csv",
+      "pending": [],
+      "screening": {
+        "monthly_entries_unreviewed": 787,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8
+      },
+      "notes": "新补 Eka、Reliable、VEIR 及量晶早先天使+。量晶日期是历史轮次在10月的公开披露日。白犀牛、小派、本溯及赛瑞克事件身份已对回，四条追加来源，轮次或金额口径仍待处理。月报法奥已有两轮，合计金额误入一行；CScale归9月。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "晶存科技股东与深圳达晨创程对外投资定向查证",
+      "sources": [
+        "https://www1.hkexnews.hk/app/sehk/2026/108385/documents/sehk26033103767_c.pdf",
+        "https://www.csrc.gov.cn/csrc/c105984/c7666475/content.shtml",
+        "https://www.weiguangenergy.com/66.html"
+      ],
+      "candidate_count": 4,
+      "existing_count": 3,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-03.csv",
+      "pending": [
+        {
+          "reason": "劢微机器人C轮需要原始公告"
+        },
+        {
+          "reason": "深海智人待把投资基金对到独立轮次"
+        },
+        {
+          "reason": "星能玄光A系列第二轮待核日期和独立资方"
+        }
+      ],
+      "notes": "用企查查免费页定向发现公司和基金，公开交易原件确定数值。晶存招股书按三轮增资收款方与老股区别，三只基金关联达晨财智。为光按公司官网的B轮和达晨创投机构品牌记录。"
     }
   ]
 }
