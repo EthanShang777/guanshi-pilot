@@ -1620,6 +1620,55 @@
         }
       ],
       "notes": "天星A轮两次交割分别确认5000万元。2021年12月和2023年1月只记新增股本所得，2023年1月4500万元不包括同次老股转让2.55亿元。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第386—410项",
+      "sources": [
+        "https://industrious.vc/resource/announcing-our-investment-in-chiplytics/",
+        "https://www.textyess.com/news/textyess-raises-4-million",
+        "https://www.accessnewswire.com/newsroom/en/automotive/neofleet-capital-raises-4m-to-scale-professional-taxi-fleets-and-build-infrastructure-fo-1233459",
+        "https://www.cori-clinical.com/news/cori-clinical-raises-4m-seed-round",
+        "https://www.prnewswire.com/news-releases/108-biocapital-leads-sedmed-inc-financing-with-4-million-investment-302893368.html"
+      ],
+      "candidate_count": 25,
+      "existing_count": 0,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-23.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 421,
+        "monthly_identity_conflicts_remaining": 16,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Predict Pro",
+          "reason": "聚合数据称战略轮400万美元，未找到发行人或投资方对该金额和日期的确认。",
+          "source": "https://dealroom.co/news/168407-predictpro-lands-4m-to-build-ai-agents-for-prediction-markets/"
+        }
+      ],
+      "notes": "Chiplytics单列股权金额。SedMed仅披露领投出资。NeoFleet为股债合计。Spotable等五笔按九月最早披露归档。"
+    },
+    {
+      "institution": "君联资本",
+      "checked_on": "2026-11-25",
+      "scope": "按公开被投资料核实华健未来招股书，并补查华健未来及天星医疗港股发行",
+      "sources": [
+        "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2687&nodeid=1124&page=ContentPage",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0612/2026061200084_c.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0612/2026061200084_c.pdf#page=148",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062201628_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0504/2026050403729_c.pdf",
+        "https://bydrug.pharmcube.com/news/detail/8cd4934daca1bf4b022d4ec3adc2d1f5"
+      ],
+      "candidate_count": 8,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-23.csv",
+      "pending": [],
+      "notes": "华健未来上市前六轮外部投资合计61930万元人民币，排除创始人平台和老股转让。华健未来和天星医疗IPO金额为初始发行总额，超额配售另计。"
     }
   ]
 }
