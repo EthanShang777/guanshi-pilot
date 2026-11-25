@@ -2011,6 +2011,66 @@
       "pending_count": 0,
       "batch": "2026-11-25-october-public-28.csv",
       "notes": "晟昕增资实缴5000万元，另4000万为股东受让。科凯三次现金增资分别6000万、2.6亿、3000万元；5月老股、7月股改、11月转增不计。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第536—560项",
+      "sources": [
+        "https://eng.unimelb.edu.au/ingenium/sustainable-resources/university-spinout-r2crete-raises-%24750%2C000-to-advance-waste-concrete-recycling",
+        "https://prtimes.jp/main/html/rd/p/000000005.000163286.html",
+        "https://cj.sina.com.cn/articles/view/5617041192/14ecd3f2802001qhle",
+        "https://finance.sina.com.cn/jjxw/2024-01-22/doc-inaekwze4324067.shtml",
+        "https://www.jiemian.com/article/15332594.html",
+        "https://prtimes.jp/main/html/rd/p/000000020.000155874.html",
+        "https://onboardvc.com/news/1113/",
+        "https://www.shangdaovc.cn/h-nd-14699.html",
+        "https://zymofix.com/press-release-zymofix-to-build-flagship-microbial-manufacturing-plant-as-it-takes-solid-state-fermentation-to-industrial-scale/",
+        "https://radarstartups.com.br/materia/imersa-capta-r-250-mil-com-investidor-anjo-e-busca-mais-r/",
+        "https://www.sec.gov/Archives/edgar/data/2144292/000214429226000001/primary_doc.xml"
+      ],
+      "candidate_count": 21,
+      "existing_count": 3,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-29.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 274,
+        "monthly_identity_conflicts_remaining": 23,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Aqar Exit",
+          "reason": "创始人确认股权协议并披露两阶段计划，暂未核实现金交割或首批是否为增资。",
+          "source": "https://sharktank.ahmed-ibrahim.com/en/aqar-exit/"
+        },
+        {
+          "company": "Salehli",
+          "reason": "10月媒体说10万美元，随后美国主体申报表仅列首笔出售5000美元；仍需核对主体、总额及是否分批。",
+          "source": "https://entarabi.com/en/2026/10/syria-based-salehli-raises-100000/"
+        }
+      ],
+      "notes": "跨源去重，西鸽2022、2023、2026年三笔归同一集团档案，第三笔有A+/A++异议。迅杰光远两条旧B轮仅补法定主体行来源。Imersa按现金首期15万雷亚尔。"
+    },
+    {
+      "institution": "深创投",
+      "checked_on": "2026-11-25",
+      "scope": "从深创投公开已投企业动态反查英特仿真、3N科技、蓝深科技和惠和生物，并给镭神泰克A+补公司所在园区原披露",
+      "sources": [
+        "https://www.szvc.com.cn/article/2844",
+        "https://dalian.runsky.com/2023-11/12/content_6231850.html",
+        "https://www.szvc.com.cn/article/2843",
+        "https://www.nbd.com.cn/articles/2023-07-31/2938586.html",
+        "https://www.szvc.com.cn/article/2842",
+        "https://www.szvc.com.cn/article/2841",
+        "https://www.sipac.gov.cn/kjzszx/jqhd/202510/255acae5750b4de7b4d84f3a1963c056.shtml"
+      ],
+      "candidate_count": 3,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-29.csv",
+      "notes": "深创投组合动态确认3N及惠和，英特B轮已收录并补原文。蓝深本笔为中金资本。"
     }
   ]
 }
