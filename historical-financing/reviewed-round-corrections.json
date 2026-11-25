@@ -1566,5 +1566,21 @@
       "amount": "未单独披露",
       "investors_json": "[{\"name\":\"IDG资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"阳光融汇资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"华泰紫金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国投招商\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中启资本\",\"role\":null,\"amount\":null},{\"name\":\"元生创投\",\"role\":null,\"amount\":null},{\"name\":\"华泰紫金投资\",\"role\":null,\"amount\":null},{\"name\":\"苏州颢平\",\"role\":null,\"amount\":null},{\"name\":\"蓝驰创投\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:2cd7943ec75222248745b986a66f0408ba10e9b7b2972b859e1a1fdcca85b208",
+    "company_id": "co:full_legal_name:3689cbd4d48c29ffc29f98add0d5d125",
+    "day": "2026-10-09",
+    "source": "https://finance.eastmoney.com/a/202610093891309878.html",
+    "expected": {
+      "round": "C轮",
+      "amount": "近4亿人民币",
+      "investors_json": "[{\"name\":\"XVC\",\"role\":null,\"amount\":null},{\"name\":\"夏尔巴投资\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "4亿元",
+      "investors_json": "[{\"name\":\"XVC\",\"role\":null,\"amount\":null},{\"name\":\"夏尔巴投资\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"腾讯投资\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
