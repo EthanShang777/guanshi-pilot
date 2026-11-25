@@ -74,7 +74,8 @@
               const id=Array.from(new Uint8Array(digest).slice(0,12),v=>v.toString(16).padStart(2,'0')).join('');
               href='institution.html?'+new URLSearchParams({id,sector:form.elements.sector.value,sub:form.elements.sub.value});
             }
-            tr.insertCell().append(anchor(g.name,href));
+            const nameCell=tr.insertCell();nameCell.append(anchor(g.name,href));
+            if(work && view==='companies')work.evidence(nameCell,href);
             tr.insertCell().textContent=g.rows.length+' 笔'+(view==='institutions'?' · '+g.companies.size+' 家公司':'');
             tr.insertCell().append(anchor([r[1],r[3],r[5]].filter(Boolean).join(' · '),'deal.html?id='+r[0]));
             if(work)tr.insertCell().append(work.pick({name:g.name,href,reason:[r[9],r[1],r[5],r[3]].filter(Boolean).join(' · ')}));

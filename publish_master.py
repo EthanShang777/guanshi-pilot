@@ -122,7 +122,7 @@ def research_pages(deals):
         html = re.sub(r'<tr><th scope="row">.*?</tr>', row_actions, html)
         home.write_text(html)
     shell = (OUT/'search.html').read_text().replace('融资交叉检索 · 观势','研究工作区 · 观势').replace('<main>','<main class="workspace"><link rel="stylesheet" href="workspace.css">')
-    shell = shell.replace('<h1>融资交叉检索</h1>', '<h1>研究工作区</h1>').replace(BAR, '')
+    shell = shell.replace('<h1>融资交叉检索</h1>', '<h1>研究工作区</h1>').replace(BAR, '').replace('<script src="within-page.js"></script>', '')
     shell = shell.replace('<form id="archive-form">',entry+'<p id="work-context"></p><form id="archive-form">')
     shell = shell.replace('<script defer src="master-search.js">','<section id="shortlist"></section><script src="workspace.js"></script><script defer src="master-search.js?v=workspace1">')
     (OUT/'workspace.html').write_text(shell)

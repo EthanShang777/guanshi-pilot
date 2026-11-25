@@ -53,5 +53,28 @@ const researchWorkspace=(()=>{
     context.textContent=notes.join(' ');renderSaved();
     return new Set(client?.events.flatMap(e=>e[4].map(i=>i[0]))||[]);
   }
-  return {args,prepare,pick};
+  function evidence(cell,href){
+    const details=document.createElement('details'),summary=document.createElement('summary');
+    summary.textContent='看公司与证据';details.append(summary);cell.append(details);
+    let loading=false;
+    details.ontoggle=async()=>{
+      if(!details.open||loading)return;
+      loading=true;
+      const id=new URL(href,location.href).searchParams.get('id');
+      const body=document.createElement('div');details.append(body);body.textContent='读取档案…';
+      try{
+        const response=await fetch('records/company-'+id.slice(0,2)+'.json');
+        if(!response.ok)throw Error();
+        const row=(await response.json())[id],claim=row.profile?.claims.find(c=>c.sources.length);
+        body.textContent=claim?.text||row.sector||'产品资料待补充';
+        if(row.profile?.question){const p=document.createElement('p');p.textContent=row.profile.question;body.append(p);}
+        const source=claim?.sources[0]?.url||row.events[0]?.[5]?.[0];
+        if(source){
+          const a=document.createElement('a');a.href=source;a.target='_blank';a.rel='noopener';
+          a.textContent=claim?'查看研究来源 ↗':'查看融资披露 ↗';body.append(document.createElement('br'),a);
+        }
+      }catch{body.textContent='档案读取失败，可点击公司名查看。';}
+    };
+  }
+  return {args,prepare,pick,evidence};
 })();
