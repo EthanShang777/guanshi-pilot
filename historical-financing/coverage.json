@@ -1222,6 +1222,107 @@
           "reason": "同笔交易，媒体A+与资方的未编号轮次口径待核。"
         }
       ]
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第273–303项的31个待核候选",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://www.wsgr.com/en/insights/firm-advises-forgepoint-on-dollar98-million-seed-financing.html",
+        "https://www.axios.com/2026/10/06/torch-systems-grid-monitoring-wildfires",
+        "https://finance.yahoo.com/technology/ai/articles/torch-systems-raises-11-5-130000826.html",
+        "https://www.axios.com/pro/health-tech-deals/2026/10/22/biostack-seed-train-medical-ai-models",
+        "https://x.com/sanatmishra7/status/2113308134198628867",
+        "https://archeon-medical.com/archeon-medical-secures-9m-series-a/",
+        "https://kalaari.com/insights-from-the-fronlines/bytexl-raises-9m-in-series-b",
+        "https://unisieve.com/resources/unisieve-raises-9m-to-scale-high-precision-membrane-solution-for-industrial-separations",
+        "https://biotia.io/press/biotia-raises-new-oversubscribed-9m-financing-and-expands-board",
+        "https://www.hyperplane.vc/insights/biotia-raises-9m-to-scale-infectious-disease-diagnostics",
+        "https://uncorkcapital.com/blog/investing-in-evos",
+        "https://www.axios.com/pro/supply-chain-deals/2026/10/14/evos-9m-ai-logistics-pe-backed-firms",
+        "https://www.cleavr.fr/fr/blog/cleavr-leve-8-m-pour-devenir-le-leader-europeen-de-lencaissement-des-factures-par-ia",
+        "https://latourinternational.com/news/la-tour-international-accompagne-varsity-dans-le-cadre-de-la-levee-de-fonds-de-cleavr/",
+        "https://www.ventechvc.com/stories/ygo-raises-eu8-million-to-build-the-ai-infrastructure-for-the-travel-industry",
+        "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update/",
+        "https://xrlabs.ai/news/xrlabs-seed-funding-playground-global",
+        "https://www.ypog.law/en/press/deal-update-42cap-keen-venture-partners-dutch-founders-fund-amberra-nrw.bank-haufe-group-ventures-ventech-und-jupus2",
+        "https://linkener.com/blog/cerramos-una-inversion-de-7-5-millones-de-euros-para-acelerar-linkener/",
+        "https://spaceinafrica.com/2026/10/01/satlyt-raises-usd-8-million-seed-to-turn-satellites-into-virtual-ai-data-centers/",
+        "https://www.prnewswire.com/news-releases/outer-spaces-launches-with-a-new-category-beyond-the-walls-of-the-home--merging-outdoor-living-with-home-energy-302899656.html",
+        "https://www.businesswire.com/news/home/20261005193443/en/",
+        "https://www.prnewswire.com/news-releases/vinci-pharmaceuticals-inc-closes-more-than-8-million-series-a-financing-to-advance-epiplant-drug-delivery-platform-302902416.html",
+        "https://onyx.bio/news/introducing-onyx",
+        "https://hydregenoxford.com/news/hydregen-raises-8m-6m-series-a-to-bring-biocatalysis-to-industrial-chemical-manufacturing",
+        "https://www.rapidinnovation.co.uk/insights/rapid-innovation-group-advises-hydregen-on-its-6m-series-a-raise",
+        "https://www.prnewswire.com/news-releases/otter-health-launches-with-8-million-to-build-a-new-era-of-utilization-and-quality-management-beyond-prior-authorization-302909360.html",
+        "https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693",
+        "https://finance.yahoo.com/technology/ai/articles/othello-raises-8-million-real-144300024.html",
+        "https://www.citybiz.co/article/918654/othello-raises-8-million-to-expand-real-time-ai-sales-coaching-platform/",
+        "https://klarent.ai/blogs/",
+        "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/",
+        "https://www.pillsburylaw.com/en/news-and-insights/pillsbury-advises-liveoak-ventures-activate-venture-partners-funding-round-thrive-therapies.html",
+        "https://markets.ptc.ft.markitdigital.com/data/announce/detail?dockey=600-202610221100BIZWIRE_USPRX____20261022_BW160426-1",
+        "https://1982-ventures-newsletter.beehiiv.com/p/1982-backed-salary-hero-raises-us-7-6-million-series-a-led-by-cento-ventures-expands-into-malaysia",
+        "https://carbonfarm.tech/posts/carbonfarm-raises-7-million-series-a",
+        "https://indurex.ai/resources/press-release/indurex-raises-7-million/",
+        "https://www.astrocytepharma.com/2026/09/astrocyte-secures-9-5-m-series-b/"
+      ],
+      "candidate_count": 30,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-19.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 528,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Promenaut",
+          "reason": "公开的是累计890万美元；单笔金额待确认。"
+        },
+        {
+          "company": "Aatmunn",
+          "reason": "公开最高承诺800万美元；实际已投入金额待确认。"
+        }
+      ],
+      "notes": "十月首发29笔，Astrocyte首发归九月。Uniform Labs两轮同日首披，800万美元合计不拆派。Torch录SAFE股权金额，并留已交割债务证据。Salary Hero采用资方股权原披露。"
+    },
+    {
+      "institution": "顺为资本",
+      "checked_on": "2026-11-25",
+      "scope": "从8月回顾及早期投资方原披露回查星环聚能和星际荣耀",
+      "sources": [
+        "https://shunwei.com/news/2804",
+        "https://www.glo.com.cn/Content/2022/06-17/1612435377.html",
+        "https://www.chinaventure.com.cn/news/114-20240326-380335.html",
+        "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260114/4763fbdbbd3049269d6c40e7decb1a44.html",
+        "https://www.cnstock.com/commonDetail/711330",
+        "https://finance.eastmoney.com/a/202608083835838710.html",
+        "https://k1wave.com/company/xing-huan-ju-neng?tab=company&theme=dark",
+        "https://static.cninfo.com.cn/finalpage/2026-09-24/1225579836.PDF",
+        "https://shunwei.com/news/665",
+        "https://www.36kr.com/p/1722632372225",
+        "https://vc.pedaily.cn/company/29435.html",
+        "https://finance.eastmoney.com/a/202608043831469282.html"
+      ],
+      "candidate_count": 8,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-19.csv",
+      "notes": "星环五轮按现用名归公司档案，含更名前的两轮。星际荣耀2017和2018轮次采用月精度，E轮是首批交割。",
+      "pending": [
+        {
+          "company": "星环聚能",
+          "reason": "2026年9月公告的拟增资待确认实际交割。"
+        },
+        {
+          "company": "星际荣耀",
+          "reason": "中间D系列及E轮后续交割分别追查。"
+        }
+      ]
     }
   ]
 }
