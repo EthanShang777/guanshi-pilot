@@ -2318,5 +2318,37 @@
       "amount": "近亿人民币",
       "investors_json": "[{\"name\":\"苏州工业园区新建元三期创业投资企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"海宁启真毓金创业投资合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"扬州龙川产业转型升级投资中心（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"星空资本\",\"role\":null,\"amount\":null},{\"name\":\"杭州加承\",\"role\":null,\"amount\":null},{\"name\":\"上海芮昱创业投资中心（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:5b6c73a4d5990ea0d9c679ea394385e98b794b8a5a47c48425baadd2c33014af",
+    "company_id": "co:full_legal_name:dd79201704fe01d785ac55fffa54b6c7",
+    "day": "2022-02-23",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-12/1215332202.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"创东方投资\",\"role\":null,\"amount\":null},{\"name\":\"浙大友创\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "2160万元人民币",
+      "investors_json": "[{\"name\":\"深圳市创东方富博股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"海南创东方富顺私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:78c3366620690903bcaa7df9b13b01352cab85b2453f5240b1ec5cc3b061dc9e",
+    "company_id": "co:full_legal_name:dd79201704fe01d785ac55fffa54b6c7",
+    "day": "2020-12-31",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-06-02/1210141616.PDF",
+    "expected": {
+      "round": "天使+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"丽水南城新区投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "8000万元人民币",
+      "investors_json": "[{\"name\":\"丽水丽湖企业管理有限公司\",\"role\":null,\"amount\":\"8000万元人民币\"}]"
+    }
   }
 ]
