@@ -1230,5 +1230,37 @@
       "amount": "1000万美元",
       "investors_json": "[{\"name\":\"华映资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"北京大河融科创业投资有限公司\",\"role\":\"跟投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "M15",
+    "company_id": "co:full_legal_name:d84779246ad324968fba6055f5bec67e",
+    "day": "2026-11-05",
+    "source": "https://zgcgroup.com.cn/xwzx/jtyw/art/2026/art_7e2147f899154ed492a0ab55e88a2f83.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"中关村资本等\",\"role\":null,\"amount\":null},{\"name\":\"华控基金\",\"role\":null,\"amount\":null},{\"name\":\"国新基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"国新基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"华控基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"深创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"亦庄国投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"基石创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华夏芯智慧\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"招银国际资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"鑫融邦资本\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:7c25326b4458bc9f62e086c60361893f2d605dd70ce6bc69a43364b0d957f5c9",
+    "company_id": "co:full_legal_name:df96e213d3076286947d30c85afbfef4",
+    "day": "2026-10-28",
+    "source": "https://finance.sina.com.cn/tech/roll/2026-10-28/doc-iniwttsf9730173.shtml",
+    "expected": {
+      "round": "A+轮",
+      "amount": "1亿美元",
+      "investors_json": "[{\"name\":\"上海生物医药产业股权投资\",\"role\":null,\"amount\":null},{\"name\":\"国寿股权\",\"role\":null,\"amount\":null},{\"name\":\"国开科创\",\"role\":null,\"amount\":null},{\"name\":\"国方创新\",\"role\":null,\"amount\":null},{\"name\":\"头部生物医药产业方\",\"role\":null,\"amount\":null},{\"name\":\"瑞力投资\",\"role\":null,\"amount\":null},{\"name\":\"达晨财智\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "未单独披露",
+      "investors_json": "[{\"name\":\"上海生物医药产业股权投资\",\"role\":null,\"amount\":null},{\"name\":\"国寿股权\",\"role\":null,\"amount\":null},{\"name\":\"国开科创\",\"role\":null,\"amount\":null},{\"name\":\"国方创新\",\"role\":null,\"amount\":null},{\"name\":\"头部生物医药产业方\",\"role\":null,\"amount\":null},{\"name\":\"瑞力投资\",\"role\":null,\"amount\":null},{\"name\":\"达晨财智\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
