@@ -729,6 +729,71 @@
         }
       ],
       "notes": "补早期五轮。2025年B2按公司及领投方命名。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第97、106–108、111–122项",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://www.deginvest.de/Newsroom/News/News-Details_911360-2.html",
+        "https://www.baba.com/updates/baba-raises-40m-series-a/",
+        "https://www.prnewswire.com/news-releases/wilde-raises-40-million-from-s2g-investments-to-accelerate-its-rise-in-protein-snacking-302917127.html",
+        "https://www.globenewswire.com/news-release/2026/10/29/3391083/0/en/bites-raises-40m-series-a-to-turn-frontline-training-into-a-business-performance-engine.html",
+        "https://opentrons.com/archives/news/opentrons-announces-40m-series-e-round-to-standardize-ai-driven-science-on-its-robots",
+        "https://a16z.com/announcement/investing-in-doxxnet/",
+        "https://noah.com/blog/noah_fundraising_seed_close",
+        "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+        "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+        "https://www.nextcommunications.io/seriesa/",
+        "https://www.wiremind.io/blog/wiremind-raises-eu35-million-in-its-first-funding-round",
+        "https://www.meanwhile.fit/press/releases/2026_10_08_funding/",
+        "https://www.businesswire.com/news/home/20261014282691/en/",
+        "https://www.sava.health/post/sava-raises-36m-series-b-and-signs-european-deal-with-ascensia-for-its-next-generation-glucose-micr",
+        "https://zapsurgical.com/news/zap-surgical-secures-36-million-led-by-catalio-capital-management/"
+      ],
+      "candidate_count": 15,
+      "existing_count": 0,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-12.csv",
+      "pending": [
+        {
+          "company": "ABA Life",
+          "reason": "资方公告称仍待监管批准与惯常成交条件。"
+        }
+      ],
+      "screening": {
+        "monthly_entries_unreviewed": 711,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "notes": "Noah仅计10月追加1,600万美元，2025年首次种子轮独立补入。Healthleap两轮各以公开披露日登记。Zenzap两轮回填2022年和2025年8月。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "反查达晨创程组合的汇耀品尚、听象，查朝阳微电子股东的投资来源",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-25/1225194472.PDF",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202312/RAS_202312_70BF6179DC534482B317738085EAB6D2.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_1CF544410DF046358D404DFC5CC69B41.pdf",
+        "https://jixin.tech/mobile/show.php?bclassid=0&cid=1&classid=1&cpage=326&id=3936&style=0",
+        "https://m.voc.com.cn/xhn/news/202503/28224492.html"
+      ],
+      "candidate_count": 3,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-12.csv",
+      "pending": [
+        {
+          "reason": "汇耀品尚A/A+仅公开合计金额，单笔金额先留空；财鑫集团单家3,000万元不写作整轮金额。"
+        },
+        {
+          "reason": "听象2026年9月同笔有A+与A2两种标注。"
+        }
+      ],
+      "notes": "汇耀A和A+金额均留空，朝微补2021年公司新增股本的现金出资，2023年达晨受让股份为老股。"
     }
   ]
 }
