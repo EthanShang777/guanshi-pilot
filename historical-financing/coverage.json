@@ -563,6 +563,66 @@
         }
       ],
       "notes": "佳安增资日期采用发行人公告，不拆年度合计金额。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 月报 67、68、70—75、77—80 项，并顺查福建人形机器人创新中心",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://www.prnewswire.com/news-releases/stand-raises-70-million-series-c-at-1-billion-valuation-to-make-the-worlds-homes-resilient-against-natural-disasters-302910105.html",
+        "https://www.neviswealth.com/blog/nevis-raises-70m-series-b/",
+        "https://www.marketscreener.com/news/nevis-wealth-technology-ltd-announced-that-it-has-received-70-million-in-funding-from-eqt-ventures-ce785cdcd080f42d",
+        "https://www.prnewswire.com/news-releases/blacksmith-raises-sequoia-led-series-c-at-1-billion-valuation-to-scale-code-validation-302915140.html",
+        "https://www.cooley.com/news/coverage/2026/2026-10-21-blacksmith-raises-series-c-at-%241-billion-valuation",
+        "https://www.prnewswire.com/news-releases/mueon-raises-65m-in-series-a-funding-to-scale-its-cubelets-exponential-computing-platform-302909367.html",
+        "https://www.gunder.com/en/news-insights/client-news/ultra-robotics-raises-dollar50-million-series-a",
+        "https://x.com/Ultraroboticsco/status/2108565469682688330",
+        "https://www.mecka.ai/news/series-b",
+        "https://rougetx.com/rougetx-launches-with-58-million-series-a-financing-to-advance-first-in-class-treatment-for-hereditary-hemorrhagic-telangiectasia/",
+        "https://finance.stockstar.com/IG2026050800020501.shtml"
+      ],
+      "candidate_count": 7,
+      "existing_count": 4,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-09.csv",
+      "pending": [
+        {
+          "company": "Revolution Labs",
+          "reason": "公开报道截至 10 月 15 日为计划领投，待核交割。"
+        }
+      ],
+      "screening": {
+        "monthly_entries_unreviewed": 752,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "notes": "福建人形5月Pre-A顺查入原公司。Metaview为9月既有交易，Ultra登记律师确认的单轮金额。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "深圳达晨创程组合反查屿西半导体，并回查VAST和中科天工融资",
+      "sources": [
+        "https://www.chinaventure.com.cn/news/108-20240126-379502.html",
+        "https://www.orinnocapital.com/news/303.html",
+        "https://finance.sina.com.cn/jjxw/2024-09-19/doc-incpspin6948059.shtml",
+        "https://bydrug.pharmcube.com/news/detail/38e881351d49a670a7ec7d061d00cc37"
+      ],
+      "candidate_count": 1,
+      "existing_count": 3,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-09.csv",
+      "pending": [
+        {
+          "reason": "屿西A按首次能查到的同期报道日期登记。策源后发披露为同组出资，鸿远电子年报载明2023年单方实缴，仍需确认其与A轮关联。"
+        },
+        {
+          "reason": "VAST公司原稿一次披露两轮，两个已入库轮次分别对回，数亿元口径不用于改写单笔金额。"
+        }
+      ],
+      "notes": "先核出资人及公开日期。VAST和中科天工只补现有交易来源。"
     }
   ]
 }
