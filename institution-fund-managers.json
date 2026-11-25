@@ -554,5 +554,61 @@
   "无锡药明康德一期投资企业（有限合伙）": {
     "brand": "药明康德",
     "source": "https://www1.hkexnews.hk/app/sehk/2025/107477/documents/sehk25062502038_c.pdf"
+  },
+  "杭州伍零伍零二期股权投资合伙企业（有限合伙）": {
+    "brand": "高新金投集团",
+    "source": "https://hzbcds.zju.edu.cn/2026/0205/c85669a3132834/page.htm"
+  },
+  "苏州元起鸿成创业投资合伙企业（有限合伙）": {
+    "brand": "元起资本",
+    "source": "https://news.pedaily.cn/202603/562007.shtml"
+  },
+  "成都英诺中试科技创业投资中心（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://m.pedaily.cn/vc/company/865753.html"
+  },
+  "成都高科科技成果转化创业投资合伙企业（有限合伙）": {
+    "brand": "成都高新创投",
+    "source": "https://m.pedaily.cn/vc/company/865753.html"
+  },
+  "水木华清（北京）创业投资合伙企业（有限合伙）": {
+    "brand": "水木清华校友种子基金",
+    "source": "https://www.qcc.com/firm/03b2b2e2c4db3ac810907beb26b3f1c2.html"
+  },
+  "深圳君联君智创业投资基金合伙企业（有限合伙）": {
+    "brand": "君联资本",
+    "source": "https://www.qcc.com/firm/03b2b2e2c4db3ac810907beb26b3f1c2.html"
+  },
+  "深圳市同创网络与通信和智能终端产业私募创业投资基金合伙企业（有限合伙）": {
+    "brand": "同创伟业",
+    "source": "https://www.qcc.com/firm/03b2b2e2c4db3ac810907beb26b3f1c2.html"
+  },
+  "国新创投基金（杭州）合伙企业（有限合伙）": {
+    "brand": "国新基金",
+    "source": "https://companies.caixin.com/m/2026-06-18/102455449.html"
+  },
+  "北京安鹏科创汽车产业投资基金合伙企业（有限合伙）": {
+    "brand": "北汽产投",
+    "source": "https://companies.caixin.com/m/2026-06-18/102455449.html"
+  },
+  "青岛芯能方源创业投资基金合伙企业（有限合伙）": {
+    "brand": "芯能创投",
+    "source": "https://companies.caixin.com/m/2026-06-18/102455449.html"
+  },
+  "北京九合深宏创业投资基金合伙企业（有限合伙）": {
+    "brand": "九合创投",
+    "source": "https://www.cls.cn/detail/1299897"
+  },
+  "陕西财投英诺秦创天使基金（有限合伙）": {
+    "brand": "英诺天使基金",
+    "source": "https://www.qcc.com/firm/512884f0c1a9ea9d84c86667e6e80602.html"
+  },
+  "常州中关村协同创业投资中心（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://www.ncsti.gov.cn/kjdt/kjrd/qtrd_kjrd/202604/t20260401_242634.html"
+  },
+  "上海利保嘉上投资中心（有限合伙）": {
+    "brand": "达泰资本",
+    "source": "https://www.qcc.com/firm/eccb986ba3584439d80ad3c366c84f0c.html"
   }
 }
