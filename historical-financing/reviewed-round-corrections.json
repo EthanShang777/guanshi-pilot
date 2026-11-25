@@ -1582,5 +1582,21 @@
       "amount": "4亿元",
       "investors_json": "[{\"name\":\"XVC\",\"role\":null,\"amount\":null},{\"name\":\"夏尔巴投资\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"腾讯投资\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:f5a7ef3499b0a01e9f08908146d9b55f8bb38467e03401f10e2c257d36ca924b",
+    "company_id": "co:full_legal_name:932f0e88910c882e5fd4c1449c33af0b",
+    "day": "2019-12-29",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2021/0622/2021062200010_c.pdf",
+    "expected": {
+      "round": "B+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"浙商创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "3000万元",
+      "investors_json": "[{\"name\":\"杭州奋华投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
