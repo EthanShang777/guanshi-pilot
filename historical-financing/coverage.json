@@ -363,6 +363,76 @@
         }
       ],
       "notes": "深海智人四轮以投资方和财务顾问公开披露为证，早期三轮保留月份。连用 A 轮按同期公开报道记录达晨财智，由后续持股文件发现候选。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "月报第 52、53、55、58–66 项（跳过已处理的 56、57 项）",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://estuarybio.com/news/estuary-series-a",
+        "https://www.prnewswire.com/news-releases/parallel-systems-closes-100m-in-new-funding-to-fully-commercialize-autonomous-freight-rail-system-302900326.html",
+        "https://avpcap.com/blackwall-raises-100-million-at-2-2-billion-valuation/",
+        "https://estonia.ee/ict/news/blackwall-raises-100m-2-2b",
+        "https://trigemxbio.com/trigemx-bio-announces-94m-financing-and-initiation-of-phase-3-trials-for-elismetrep-a-potential-first-in-class-treatment-for-migraine/",
+        "https://www.spiko.io/blog/weve-raised-90m-to-make-cash-earn-for-everyone",
+        "https://nousresearch.com/a-note-on-our-fundraise",
+        "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+        "https://www.streetinsider.com/Business%2BWire/Dream%2BLabs%2BRaises%2B%2490M%2BSeed%2Bto%2BBuild%2Bthe%2BBrain%2Bfor%2BEveryday%2BRobots/27203002.html",
+        "https://www.wing.vc/content/investing-in-dream-labs-building-general-robot-intelligence",
+        "https://www.abbycare.org/blog/abby-care-series-c-raise",
+        "https://www.abbycare.org/blog/building-the-future-of-care-at-home-with-our-new-healthcare-partners",
+        "https://newsroom.hertz.com/press-releases/press-release-details/hertz-backed-oro-mobility-secures-80-million-strategic-equity-investment-to-accelerate-independent-growth/",
+        "https://breye.com/breye-therapeutics-raises-e67-5-million-in-over-subscribed-series-a-financing/",
+        "https://www.spiko.io/blog/spiko-raises-22m-led-by-index-ventures"
+      ],
+      "candidate_count": 9,
+      "existing_count": 2,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-05.csv",
+      "pending": [
+        {
+          "company": "Estuary Biotherapeutics",
+          "reason": "种子轮独立金额已知，待确认日期"
+        },
+        {
+          "company": "TriGemX Bio",
+          "reason": "10 月 19 日 PIPE 后续等交割"
+        },
+        {
+          "company": "Volantis",
+          "reason": "历史种子轮需核对公司归属"
+        }
+      ],
+      "screening": {
+        "monthly_entries_unreviewed": 766,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8
+      },
+      "notes": "10 月新增合计九笔。Breye 的实际披露在 9 月，按 9 月入库。顺查 Spiko 的 2025 年 A 轮。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "深圳达晨创程组合反查慕帆动力、华擎创新，并复查深海智人和两家历史证据",
+      "sources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202502261643532114_1.pdf",
+        "https://www.qimingvc.com/cn/node/7652",
+        "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E5%91%A8%E6%8A%A5-%E5%90%AF%E6%98%8E%E5%88%9B%E6%8A%95%E6%8A%95%E8%B5%84%E4%BC%81%E4%B8%9A%E8%9E%8D%E8%B5%84%E5%8F%8A%E5%8A%A8%E6%80%81%E9%80%9F%E9%80%92-vol-36-2024"
+      ],
+      "candidate_count": 7,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-05.csv",
+      "pending": [
+        {
+          "reason": "华擎创新达晨持股尚未确认是哪一次增资或转让。"
+        },
+        {
+          "reason": "深海智人 2025 年 6 月与同一资方的名录条目暂不另记，待厘清与 10 月报道关系。"
+        }
+      ],
+      "notes": "同日披露的慕帆 B/C 按独立资方拆两笔，单笔金额留空。核对深海智人 2025 年同期公开报道。两笔已有交易只追加公开来源。"
     }
   ]
 }
