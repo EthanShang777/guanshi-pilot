@@ -308,6 +308,61 @@
         }
       ],
       "notes": "用企查查免费页定向发现公司和基金，公开交易原件确定数值。晶存招股书按三轮增资收款方与老股区别，三只基金关联达晨财智。为光按公司官网的B轮和达晨创投机构品牌记录。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "月报第 40–44、51、56、57、69 项",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://www.souffletx.com/news/press-releases/101326/",
+        "https://tractian.com/en/blog/tractian-raises-series-d-to-scale-physical-ai",
+        "https://nouscom.com/2026/10/19/nouscom-raises-e120-million-135-million-in-oversubscribed-series-d-financing-and-will-present-long-term-cancer-interception-clinical-data-in-lynch-syndrome-carriers-at-esmo/",
+        "https://www.mmimicro.com/blog/2026/10/08/mmi-series-d-raises-125m/",
+        "https://peakenergy.com/news/latest/peak-raises-108-million-new-capital",
+        "https://www.morningstar.com/news/business-wire/20261028508802/foundry-robotics-raises-100-million-series-a-to-build-americas-first-autonomous-factory-for-assembly",
+        "https://www.goodwinlaw.com/en/news-and-events/news/2026/10/announcements-technology-goodwin-advises-foundry-robotics-100-million-series-a-financing"
+      ],
+      "candidate_count": 6,
+      "existing_count": 3,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-04.csv",
+      "pending": [
+        {
+          "company": "扩散智能",
+          "reason": "领投方合并披露两轮，需逐轮日期和轮次才能拆分",
+          "source": "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2760&nodeid=1124&page=ContentPage"
+        }
+      ],
+      "screening": {
+        "monthly_entries_unreviewed": 778,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8
+      },
+      "notes": "Peak Energy 记录 10 月交割 1.08 亿美元，11 月累计金额不回填此笔。扩散智能原档已收录联想控股公告。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "深圳达晨创程基金组合反查，深海智人历史与连用科技A轮",
+      "sources": [
+        "https://www.szhti.com.cn/gaoxt/gaoxt-news/media/20260914/cdacd982-5559-4a4d-a4a6-d36b09ccec9b.html",
+        "https://www.cygnusequity.com/news/1198.html",
+        "https://static.cninfo.com.cn/finalpage/2026-04-25/1225194472.PDF"
+      ],
+      "candidate_count": 5,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-04.csv",
+      "pending": [
+        {
+          "reason": "深海智人云时单笔的交割日期，根据2025年10月披露与后续回顾核对是否同一笔；2026年7月A++、9月登记线索未单独入库。"
+        },
+        {
+          "reason": "连用 A 轮的实际认购载体，持股名单不足以定位出资批次。"
+        }
+      ],
+      "notes": "深海智人四轮以投资方和财务顾问公开披露为证，早期三轮保留月份。连用 A 轮按同期公开报道记录达晨财智，由后续持股文件发现候选。"
     }
   ]
 }
