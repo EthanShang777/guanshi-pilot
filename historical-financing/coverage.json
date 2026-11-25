@@ -1843,6 +1843,65 @@
       "batch": "2026-11-25-october-public-25.csv",
       "pending": [],
       "notes": "智冉医疗A为超3亿元，A+为3亿元。沿用既有事件和日期，补A+的资方来源。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第461—485项",
+      "sources": [
+        "https://www.rhymeq.com/news",
+        "https://www.tryp.com/en/blog/we-just-raised-19m-to-help-you-travel-more-for-less",
+        "https://www.forbesuruguay.com/negocios/levantaron-us-2-millones-startup-ayuda-bancos-fintechs-convertir-transacciones-habitos-n97055",
+        "https://techfundingnews.com/affinity-labs-raises-2m-creator-software-fuel-ventures-bending-spoons/",
+        "https://businessquarter.co.uk/emerald-says-it-secured-1-4m-for-healthcare-expansion/",
+        "https://www.cvat.ai/resources/blog/cvat-oh-io-partnership",
+        "https://www.europapress.es/economia/finanzas-00340/noticia-tenoro-levanta-ronda-17-millones-iniciara-actividad-comercial-espana-eeuu-20260929090052.html"
+      ],
+      "candidate_count": 24,
+      "existing_count": 0,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-26.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 346,
+        "monthly_identity_conflicts_remaining": 19,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "CVAT",
+          "reason": "公司确认已建立合作，但通稿称将获200万美元出资，未独立确认该笔交割或已收款。",
+          "source": "https://www.cvat.ai/resources/blog/cvat-oh-io-partnership"
+        }
+      ],
+      "notes": "Tryp.com、UIN、Tenoro按9月首披。Affinity Labs、Emerald分别计股权部分。"
+    },
+    {
+      "institution": "君联资本",
+      "checked_on": "2026-11-25",
+      "scope": "本末科技招股书分轮核实，同一B系列的付款、直接出资和老股转让分开",
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100066_c.pdf#page=108",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100066_c.pdf#page=110",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100066_c.pdf#page=116",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092802011.pdf",
+        "https://www.legendcapital.com.cn/d/news/102.html?page=1"
+      ],
+      "candidate_count": 3,
+      "existing_count": 6,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-26.csv",
+      "pending": [
+        {
+          "company": "本末动力（北京）科技股份有限公司",
+          "reason": "种子、天使、A轮与原档时间及主体需进一步对应。A轮目前保留两条早期来源原档，待核对同笔后合并。"
+        },
+        {
+          "company": "本末动力（北京）科技股份有限公司",
+          "reason": "C轮原档日早于招股书签约日，待核对认购方与原档。"
+        }
+      ],
+      "notes": "本末B投资额仅含1.4亿新股，B+由联想之星出资4000万，B++确认为108,411,300元与深圳君联深运等；老股不计。IPO验证确认50,000,000股、21.60港元/股。"
     }
   ]
 }

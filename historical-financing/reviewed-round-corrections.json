@@ -1,0 +1,82 @@
+[
+  {
+    "event_id": "financing_event:967e20546e9f8c9375447a6953f2c4efef5e3319f9930f3e7fc13e130882a020",
+    "company_id": "co:full_legal_name:36a8b394bae4b23565d3447b264a70ad",
+    "day": "2021-05-19",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100066_c.pdf#page=108",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"五源资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"大米创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"奇绩创坛\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"清水湾基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "16,620,502元人民币",
+      "investors_json": "[{\"name\":\"五源资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"大米创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"奇绩创坛\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"清水湾基金\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:cb2b9ab35a3ca4cda856b314a4e215ba15bcb8c09203fb9ada4b020e3a045bd6",
+    "company_id": "co:full_legal_name:36a8b394bae4b23565d3447b264a70ad",
+    "day": "2024-03-14",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100066_c.pdf#page=108",
+    "expected": {
+      "round": "Pre-B轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"亦庄创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"顺禧基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"联想创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"亦庄国际科技创新私募基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-B轮",
+      "amount": "7000万元人民币",
+      "investors_json": "[{\"name\":\"亦庄创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"顺禧基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"联想创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"亦庄国际科技创新私募基金\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:cca5ae4b189605a1e6915a4ebbd79f83be3d98ee0456f25109610a0236122045",
+    "company_id": "co:full_legal_name:2a9b7c1629cc72534425cbfeabb34249",
+    "day": "2023-09-04",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100066_c.pdf#page=108",
+    "expected": {
+      "round": "A+轮",
+      "amount": "千万级人民币",
+      "investors_json": "[{\"name\":\"建元天华投资\",\"role\":null,\"amount\":null},{\"name\":\"立湾创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "1400万元人民币",
+      "investors_json": "[{\"name\":\"建元天华投资\",\"role\":null,\"amount\":null},{\"name\":\"立湾创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:0254b936e9f34b86024e620d45220b136cbe101683852b3fb6b3f9d0bcd806dc",
+    "company_id": "co:full_legal_name:2a9b7c1629cc72534425cbfeabb34249",
+    "day": "2025-06-06",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100066_c.pdf#page=108",
+    "expected": {
+      "round": "B轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"京国瑞投资\",\"role\":null,\"amount\":null},{\"name\":\"北京市先进制造和智能装备产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"北京市新材料产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"联想之星\",\"role\":null,\"amount\":null},{\"name\":\"顺禧基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "1.4亿元人民币",
+      "investors_json": "[{\"name\":\"北京市先进制造和智能装备产业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京市新材料产业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京顺禧三期创业投资基金（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:795a209a01591bfddd2f0771718d6a2b955974611cb6494418542058048846d6",
+    "company_id": "co:full_legal_name:2a9b7c1629cc72534425cbfeabb34249",
+    "day": "2025-09-11",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100066_c.pdf#page=108",
+    "expected": {
+      "round": "B+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"君联资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B++轮",
+      "amount": "108,411,300元人民币",
+      "investors_json": "[{\"name\":\"深圳君联深运私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"益硕投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"共青城顺景久赢股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"赵建光\",\"role\":null,\"amount\":null},{\"name\":\"北京建元鑫铂股权投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京建元超虹投资管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京建元泓赓投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  }
+]

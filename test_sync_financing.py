@@ -177,5 +177,26 @@ class SyncFinancingTest(unittest.TestCase):
         self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'), [original])
 
 
+    def test_reviewed_round_correction_validates_current_investors_and_replays(self):
+        original = event('1', '新星科技', 'B+轮', company_id='company-1') | {'amount': '未披露'}
+        self.assertEqual(financing.sync_rows(self.db, [original]), (1, 0, 0))
+        fields = ('round', 'amount', 'investors_json')
+        source = 'https://example.com/prospectus'
+        correction = dict(event_id=original['event_id'], company_id='company-1',
+                          day=original['date_key'], source=source,
+                          expected={field: original[field] for field in fields},
+                          corrected={'round': 'B++轮', 'amount': '1亿元人民币',
+                                     'investors_json': financing.packed([dict(name='某创投', role=None, amount=None)])})
+        stale = correction | {'expected': correction['expected'] | {'investors_json': '[]'}}
+        self.assertNotEqual(stale['expected'], correction['expected'])
+        self.assertEqual(financing.sync_round_corrections(self.db, [stale]), (0, 0, 1))
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'), [original])
+        self.assertEqual(financing.sync_round_corrections(self.db, [correction]), (1, 0, 0))
+        self.assertEqual(financing.sync_round_corrections(self.db, [correction]), (0, 1, 0))
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'),
+                         [original | correction['corrected'] |
+                          {'sources_json': financing.packed(json.loads(original['sources_json']) + [source])}])
+
+
 if __name__ == '__main__':
     unittest.main()

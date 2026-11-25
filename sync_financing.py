@@ -227,6 +227,35 @@ def sync_amount_corrections(db, corrections):
     return applied, already_applied, held
 
 
+def sync_round_corrections(db, corrections):
+    applied = already_applied = held = 0
+    identity_guard = 'event_id=? AND company_id=? AND date_key=?'
+    state_guard = 'round=? AND amount=? AND investors_json=?'
+    source_guard = 'EXISTS (SELECT 1 FROM json_each(sources_json) WHERE value=?)'
+    for correction in corrections:
+        identity = [correction['event_id'], correction['company_id'], correction['day']]
+        source = correction['source']
+        expected = [correction['expected'][field] for field in ('round', 'amount', 'investors_json')]
+        corrected = [correction['corrected'][field] for field in ('round', 'amount', 'investors_json')]
+        if expected == corrected or not all(value.strip() for value in corrected):
+            raise ValueError('Expected distinct, nonempty corrected financing fields')
+        if query(db, f'''UPDATE financing_events
+                    SET round=?, amount=?, investors_json=?,
+                        sources_json=CASE WHEN {source_guard} THEN sources_json
+                                          ELSE json_insert(sources_json,'$[#]',?) END
+                    WHERE {identity_guard} AND {state_guard} RETURNING event_id''',
+                 [*corrected, source, source, *identity, *expected]):
+            applied += 1
+        elif query(db, f'SELECT event_id FROM financing_events WHERE {identity_guard} AND {state_guard} AND {source_guard}',
+                   [*identity, *corrected, source]):
+            already_applied += 1
+        else:
+            held += 1
+            print('Reviewed round correction held:', correction['event_id'])
+    print(f'D1 round corrections applied={applied} already_applied={already_applied} held={held}')
+    return applied, already_applied, held
+
+
 def load_distinct_events(directory):
     path = directory / 'reviewed-distinct-events.json'
     if not path.is_file():
@@ -299,6 +328,9 @@ def main():
             corrections = args.historical_dir / 'reviewed-amount-corrections.json'
             if corrections.is_file():
                 sync_amount_corrections(db, json.loads(corrections.read_text()))
+            corrections = args.historical_dir / 'reviewed-round-corrections.json'
+            if corrections.is_file():
+                sync_round_corrections(db, json.loads(corrections.read_text()))
         return
     current=json.loads(Path('ledger.json').read_text())['events']
     old={e['id']:e for e in json.loads(args.previous_ledger.read_text())['events']} if args.previous_ledger else {}
