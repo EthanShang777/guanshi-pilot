@@ -2748,6 +2748,30 @@
       "pending_count": 12,
       "batch": "2026-11-25-october-public-45.csv",
       "notes": "融资日期保留来源口径，回核同一笔实际出资主体。对于有正式披露的原档轮次错列只修现有事件。"
+    },
+    {
+      "institution": "中关村资本",
+      "checked_on": "2026-11-25",
+      "scope": "逐笔核对企查查创投库中9条未匹配候选；从公司工商档案转向发行人披露、上市公司年报、资方材料及鲸准公开可见结果。",
+      "sources": [
+        "https://www.qcc.com/investor/337e04fb7ea143b9e8718c9a3c03a9de.html",
+        "https://www.zgcgroup.com.cn/cms_files/filemanager/780592907/attach/20258/AFA4734925C7393B08B7D5499F68DA6E.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-01-20/244585_20260120_EX1Q.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-27/244043_20251027_WMWH.pdf",
+        "https://www.sineugene.com/cn/about/history.html",
+        "https://bydrug.pharmcube.com/news/detail/c053995af36b8f6f4502320b318c341d",
+        "https://finance.eastmoney.com/a/202607283823369265.html",
+        "https://microcyto.cn/About/show?id=26",
+        "https://www.microcyto.cn/en/index.php/About/show?id=33",
+        "https://eu.36kr.com/zh/p/3744666471088389",
+        "https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202605/t20260513_246575.html",
+        "https://gu.sina.cn/bd/hq/notice.php?annid=25370562"
+      ],
+      "candidate_count": 15,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-46.csv",
+      "notes": "确认7家公司15笔交易。股权和债务的15亿元合计保留原披露口径。北电集成两条仍需核。若公司直接公告未给轮次，保留股权融资。"
     }
   ]
 }
