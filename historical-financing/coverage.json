@@ -1323,6 +1323,93 @@
           "reason": "中间D系列及E轮后续交割分别追查。"
         }
       ]
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 十月月报第 304—337 项及旧轮原披露",
+      "sources": [
+        "https://www.hestus.co/media",
+        "https://www.prnewswire.com/news-releases/tin-men-capital-leads-us7-4m-series-a-for-vision-ai-startup-ailytics-to-expand-across-apac-us-and-gulf-302918676.html",
+        "https://www.arkeabio.com/arkeabio-names-frank-wooten-ceo-closes-a1-funding/",
+        "https://www.streetinsider.com/Business%2BWire/Outro%2BAnnounces%2B%247M%2Bin%2BFunding%2Bto%2BExpand%2BAccess%2Bto%2BSafe%2BDeprescribing%2C%2BStarting%2BWith%2BAntidepressants/27164561.html",
+        "https://mint-mcp-blog.vercel.app/blog/mintive-launch"
+      ],
+      "candidate_count": 30,
+      "existing_count": 1,
+      "pending_count": 6,
+      "batch": "2026-11-25-october-public-20.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 494,
+        "monthly_identity_conflicts_remaining": 14,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "Matrix",
+          "reason": "有符合金额的 BNB 项目线索，发行主体和首发日期未取得独立证据。",
+          "source": "https://dealroom.co/news/167276-bnb-chain-s-matrix-raises-7-5m-series-b-for-execution-layer-rollup/"
+        },
+        {
+          "company": "Rosie",
+          "reason": "公司披露两轮共700万美元，轮次、分笔金额和投资方归属尚未分别披露。",
+          "source": "https://www.prnewswire.com/news-releases/rosie-raises-7-million-to-bring-flexible-childcare-and-household-support-beyond-seattle-302913603.html"
+        },
+        {
+          "company": "Willed Technologies",
+          "reason": "500万澳元是附条件的认购协议，投资完成及全轮金额待确认。",
+          "source": "https://www.eqt.com.au/mediacentre/2026/10/19/equity-trustees-forms-referral-partnership-and-invests-in-willed"
+        },
+        {
+          "company": "Kanurra",
+          "reason": "独立融资已由公司9月29日公告核实。现有查重因近似名称将其与Kanu AI关联，须复核后入库。",
+          "source": "https://business.times-online.com/observerreporter/article/bizwire-2026-9-29-healthtech-startup-kanurra-raises-65m-to-slash-drug-costs"
+        },
+        {
+          "company": "Nation A",
+          "reason": "公司披露85亿韩元A轮。现有查重将短名称与International Dance League误关联，须复核后入库。",
+          "source": "https://www.mt.co.kr/en/future/2026/10/21/2026102117244064622"
+        },
+        {
+          "company": "合肥曦合超导科技股份有限公司",
+          "reason": "已见同日C轮旧档。4500万元可能仅为单一资方的投资额，整轮口径待核，暂不拆新事件。",
+          "source": "https://data.eastmoney.com/notices/detail/00133/AN202610091830265873.html"
+        }
+      ],
+      "notes": "Outro 两轮同日公开，合计金额及资方未分笔公开。ArkeaBio 的700万美元属于2025年A1，1500万美元属于2026年9月A2。Mintive两次种子融资归入同一档案。"
+    },
+    {
+      "institution": "顺为资本",
+      "checked_on": "2026-11-25",
+      "scope": "从被投企业星际荣耀的公开披露核对 B、C、C+、D、D+、D++",
+      "sources": [
+        "https://m.nbd.com.cn/articles/2020-08-25/1489206.html",
+        "https://www.cnfin.com/bjh/detail/20240905/4100067_1.html",
+        "https://vc.pedaily.cn/invest/344145.html",
+        "https://jixin.tech/mobile/show.php?bclassid=0&cid=1&classid=1&cpage=214&id=5466&style=0",
+        "https://www.stcn.com/article/detail/3347094.html",
+        "https://www.jiemian.com/article/13370991.html",
+        "https://www.chnfund.com/article/ARf180ad56-82bd-9b0f-5431-3a1f63fac6ae",
+        "https://meritsandtree.com/Content/2026/02-13/1740552235.html",
+        "https://scfzfund.sdholding.com/news/company/773468458221637.html",
+        "https://m.bjnews.com.cn/detail/1770900628129936.html"
+      ],
+      "candidate_count": 6,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-20.csv",
+      "pending": [
+        {
+          "company": "星际荣耀航天科技集团股份有限公司",
+          "reason": "C、C+合计7亿元，单轮金额和剩余跟投分配待核。"
+        },
+        {
+          "company": "星际荣耀航天科技集团股份有限公司",
+          "reason": "D+轮为首次交割，后续与E轮追加仍待公开交割证据。"
+        }
+      ],
+      "notes": "星际荣耀D+首批7亿元于2025年9月公开，D++轮为2026年2月独立交割；C与C+各自领取已确认领投，合计不归入单轮。"
     }
   ]
 }
