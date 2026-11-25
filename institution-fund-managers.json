@@ -138,5 +138,45 @@
   "社保基金中关村自主创新专项基金": {
     "brand": "君联资本",
     "source": "https://www.towardpi.com/sys-nd/1209.html"
+  },
+  "北京智源发展创业投资基金（有限合伙）": {
+    "brand": "中关村资本",
+    "source": "https://www.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-03-19/240764_20240319_29WT.pdf"
+  },
+  "珠海达泰清琴创业投资中心（有限合伙）": {
+    "brand": "达泰资本",
+    "source": "https://www.qcc.com/firm/b18f33bdcca3141cc55d3cb8200639d5.html"
+  },
+  "徐州经济技术开发区金善新兴产业投资合伙企业（有限合伙）": {
+    "brand": "善达投资",
+    "source": "https://www.qcc.com/firm/b18f33bdcca3141cc55d3cb8200639d5.html"
+  },
+  "熙诚致远数字动力精选（北京）投资中心（有限合伙）": {
+    "brand": "熙诚致远",
+    "source": "https://www.zhonglun.com/news/trade/53254.html"
+  },
+  "北京二期中科创星硬科技创业投资合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://www.qcc.com/firm/1941175800bdd6874132a155ee62dd0d.html"
+  },
+  "杨凌忠科创星管理咨询合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://www.qcc.com/firm/1941175800bdd6874132a155ee62dd0d.html"
+  },
+  "杭州银杏橙股权投资合伙企业（有限合伙）": {
+    "brand": "银杏谷资本",
+    "source": "https://zdb.pedaily.cn/inv/show28175/"
+  },
+  "安吉高远长流股权投资合伙企业（有限合伙）": {
+    "brand": "高远资本",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202303/001340_20230328_LO49.pdf"
+  },
+  "北京国创未来星动私募股权投资基金（有限合伙）": {
+    "brand": "国创未来基金",
+    "source": "https://www.qcc.com/firm/b5b91f4a9edf42f58c870bdcf48ae964.html"
+  },
+  "珠海云时源泽一期股权投资合伙企业（有限合伙）": {
+    "brand": "云时资本",
+    "source": "https://www.qcc.com/firm/b5b91f4a9edf42f58c870bdcf48ae964.html"
   }
 }
