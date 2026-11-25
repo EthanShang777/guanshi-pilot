@@ -3,7 +3,7 @@ import json
 import shutil
 from collections import defaultdict
 from pathlib import Path
-from publish_master import DECKS, OUT, dump, search_page
+from publish_master import DECKS, OUT, dump, search_page, research_pages
 
 data = OUT / 'records'
 read = lambda path: json.loads(path.read_text())
@@ -49,3 +49,4 @@ for asset in ('master-search.js', 'master-detail.js', 'company-history.js'):
     shutil.copyfile(asset, OUT / asset)
 DECKS['融资事件'] = 'records/shelf-financing.html'
 search_page()
+research_pages(deals.values())

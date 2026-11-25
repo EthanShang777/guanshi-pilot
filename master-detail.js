@@ -30,8 +30,13 @@
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
       for(const url of row.sources){const p=el('p','');p.append(link(url,'来源 · '+new URL(url).hostname));root.append(p);}
     }else if(kind==='company'){
+      if(row.primary){
+        const adjacent=new URLSearchParams({view:'institutions',sector:row.primary,client:id});
+        if(row.sub)adjacent.set('adjacent',row.sub);
+        root.append(link('workspace.html?'+adjacent,'找相邻方向投资方 →'),el('span','　'));
+      }
       if(row.sub){
-        root.append(link(context('search.html?view=companies',row.primary,row.sub),'对照同行 · '+row.sub+' →'));
+        root.append(link(context('workspace.html?view=companies',row.primary,row.sub),'对照同行 · '+row.sub+' →'));
       }
       if(row.profile){
         const claim=row.profile.claims.find(c=>c.sources.length);
