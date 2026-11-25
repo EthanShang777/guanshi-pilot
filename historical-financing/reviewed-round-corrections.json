@@ -958,5 +958,101 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"北京中诺远见创新投资基金中心（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:9adcab8f72fc0f7022038e8dfa67880e0613c5784bd13a9e56209b133a1f6ae9",
+    "company_id": "co:full_legal_name:48c245b7d7ba59f0517bf9bee9f9e802",
+    "day": "2026-10-20",
+    "source": "https://www.qcc.com/firm/418137ac9740244cad34be0247d130a2.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村资本\",\"role\":null,\"amount\":null},{\"name\":\"燕缘创投\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"纵慧芯光\",\"role\":null,\"amount\":null},{\"name\":\"英诺天使基金\",\"role\":null,\"amount\":null},{\"name\":\"蚂蚁集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京中发金种子二期创业投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"燕缘创投\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"纵慧芯光\",\"role\":null,\"amount\":null},{\"name\":\"英诺天使基金\",\"role\":null,\"amount\":null},{\"name\":\"蚂蚁集团\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:94e205e866dc718a42f1003d8e6ef66ae85e3ba1dd2331dcc70a18af0455f243",
+    "company_id": "co:full_legal_name:50050690f530b7e70dc7d7ca98899840",
+    "day": "2026-09-30",
+    "source": "https://www.guandian.cn/article/20260930/609014.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"中关村资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"北京中发金种子二期创业投资基金中心（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:ee43766a445248dd4a71f59b6794c9cb4d67162d07fa30d8986ee45413c2ed7a",
+    "company_id": "co:full_legal_name:4bfa495d577dfc7aeaadeda0899165bf",
+    "day": "2026-09-28",
+    "source": "https://www.pharnexcloud.com/zixun/shiye/lcyj_378513",
+    "expected": {
+      "round": "天使+轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"三博脑科\",\"role\":null,\"amount\":null},{\"name\":\"中关村资本\",\"role\":null,\"amount\":null},{\"name\":\"德联资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使+轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"三博脑科医院管理集团股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"北京中发金种子二期创业投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海德联博健创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:14a3017088359bff88f24bc24f9b9b663160d6552d2fe5fa3622672926ebe39d",
+    "company_id": "co:full_legal_name:2d5e4b966526a8d7cf93ee8235184ee5",
+    "day": "2026-09-02",
+    "source": "https://finance.eastmoney.com/a/202609023862991686.html",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中关村资本\",\"role\":null,\"amount\":null},{\"name\":\"九合创投\",\"role\":null,\"amount\":null},{\"name\":\"彬复资本\",\"role\":null,\"amount\":null},{\"name\":\"顺禧基金\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖百孚\",\"role\":null,\"amount\":null},{\"name\":\"龙芯创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"北京中发金种子二期创业投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"九合创投\",\"role\":null,\"amount\":null},{\"name\":\"彬复资本\",\"role\":null,\"amount\":null},{\"name\":\"北京顺禧天使投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖百孚\",\"role\":null,\"amount\":null},{\"name\":\"龙芯创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "public:historical-disclosure:e8d9727ed1c7ee78493c040",
+    "company_id": "co:historical-disclosure:f4e6a7918a02bab4b2c051f",
+    "day": "2026-08-07",
+    "source": "https://www.qcc.com/firm/e9a7f3f0b1b12160ef32e37234fa2b51.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"中科创星\",\"role\":null,\"amount\":null},{\"name\":\"中关村资本\",\"role\":null,\"amount\":null},{\"name\":\"怀柔硬科技基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"西安创星未来创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京中发金种子二期创业投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京怀柔硬科技产业发展基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "public:historical-disclosure:416f5ea90ca2d310b591872",
+    "company_id": "co:historical-disclosure:0e2ac8fc83bbff42496e34e",
+    "day": "2023-09-01",
+    "source": "https://www.qcc.com/firm/dc54ee4e73e8bb53d9168d2d134fae21.html",
+    "expected": {
+      "round": "A+轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"彬复资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"清流资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三七互娱\",\"role\":\"跟投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"无锡彬复海创人才创业投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"清流投资三期有限公司\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三七乐心（广州）产业投资合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null}]"
+    }
   }
 ]
