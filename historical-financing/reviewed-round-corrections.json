@@ -334,5 +334,53 @@
       "amount": "数千万元人民币",
       "investors_json": "[{\"name\":\"小米产投\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:0033251a7b30f9cdc775dd2bf1f8cfbba35fbe9391b798bf18a7eaa86ca87f47",
+    "company_id": "co:full_legal_name:e553a43337982be9125acce4dfa50377",
+    "day": "2026-07-22",
+    "source": "https://wap.sasac.gov.cn/n2588025/n2588129/c36072287/content.html",
+    "expected": {
+      "round": "C轮",
+      "amount": "约6亿元人民币",
+      "investors_json": "[{\"name\":\"倚锋资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"元禾控股\",\"role\":\"领投\",\"amount\":null},{\"name\":\"江苏高投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"阳光融汇资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中信建投资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中银资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国信弘盛\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国聚创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广东中医药大健康基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广州产投资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广药资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"江苏农垦生物技术基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"泰珑投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"湖南财信产业基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"农垦毅达基金\",\"role\":null,\"amount\":null},{\"name\":\"南京市创投集团\",\"role\":null,\"amount\":null},{\"name\":\"广州产投集团\",\"role\":null,\"amount\":null},{\"name\":\"开恒私募股权\",\"role\":null,\"amount\":null},{\"name\":\"江苏高科产业投\",\"role\":null,\"amount\":null},{\"name\":\"泰鲲基金\",\"role\":null,\"amount\":null},{\"name\":\"盛景嘉成\",\"role\":null,\"amount\":null},{\"name\":\"财信产业基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "约6亿元人民币",
+      "investors_json": "[{\"name\":\"倚锋资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"元禾控股\",\"role\":\"领投\",\"amount\":null},{\"name\":\"江苏省增资扩产战新产业基金（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"阳光融汇资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中信建投资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中银资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国信弘盛\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国聚创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广东中医药大健康基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广州产投资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"广药资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"江苏农垦生物技术基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"泰珑投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"湖南财信产业基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"农垦毅达基金\",\"role\":null,\"amount\":null},{\"name\":\"南京市创投集团\",\"role\":null,\"amount\":null},{\"name\":\"广州产投集团\",\"role\":null,\"amount\":null},{\"name\":\"开恒私募股权\",\"role\":null,\"amount\":null},{\"name\":\"江苏高科产业投\",\"role\":null,\"amount\":null},{\"name\":\"泰鲲基金\",\"role\":null,\"amount\":null},{\"name\":\"盛景嘉成\",\"role\":null,\"amount\":null},{\"name\":\"财信产业基金\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:6ff53df103f6de83c33523e0fabf1e22a7bb180228123b409150f4bcc1c67856",
+    "company_id": "co:full_legal_name:f32c4311a79af213c13078594d6ab4f9",
+    "day": "2026-10-22",
+    "source": "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_751f8ccf9c054c459f34f0ac7fdde4ab.html",
+    "expected": {
+      "round": "种子+轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"一创投资\",\"role\":null,\"amount\":null},{\"name\":\"中关村资本\",\"role\":null,\"amount\":null},{\"name\":\"凌云光\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "种子+轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"一创投资\",\"role\":null,\"amount\":null},{\"name\":\"北京中发金种子二期创业投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"凌云光\",\"role\":\"领投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:0a92e98dec71a29cfdee922148341b481c75b12b865d879ab2debf830fce1807",
+    "company_id": "co:full_legal_name:7c41e937dae25885e7aa6017f3296ee8",
+    "day": "2026-10-08",
+    "source": "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_dadf071b4b154a858f9d9a46f540ff63.html",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"中关村资本\",\"role\":null,\"amount\":null},{\"name\":\"元明资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"北京中发金种子二期创业投资基金中心（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"元明资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"广州赛芮博医疗科技有限公司\",\"role\":\"跟投\",\"amount\":null}]"
+    }
   }
 ]

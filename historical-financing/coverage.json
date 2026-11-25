@@ -2674,6 +2674,54 @@
       "pending_count": 3,
       "batch": "2026-11-25-october-public-43.csv",
       "notes": "企业工商股东与投资机构可作发现入口，融资日期、轮次和金额以交易披露认定。"
+    },
+    {
+      "institution": "江苏高投、常州投资集团、武岳峰科创",
+      "checked_on": "2026-11-25",
+      "scope": "2026年五月至十一月两家国资机构公开投资披露和基金大事记。企查查基金可见动态反查云程半导体，再对鲸准与同期报道。核对同名公司和跨月转载。",
+      "sources": [
+        "https://jsgzw.jiangsu.gov.cn/col/col11795/index.html",
+        "https://www.jseifof.com/memorabilia",
+        "https://tzjt.changzhou.gov.cn/html/cztc/2026/AKELPMOK_0924/2360.html",
+        "https://jsgzw.jiangsu.gov.cn/art/2026/10/28/art_61542_11849798.html",
+        "https://jsgzw.jiangsu.gov.cn/art/2026/10/30/art_11795_11852297.html",
+        "https://www.qcc.com/firm/8828ae3be06f428716425ea8cc42c1d7.html",
+        "https://jsgzw.jiangsu.gov.cn/art/2026/11/4/art_61976_11854755.html",
+        "https://jsgzw.jiangsu.gov.cn/art/2026/11/9/art_11795_11856110.html",
+        "https://app.xinhuanet.com/news/article.html?articleId=20260723fd8a7303f293483bb06771703d9c004c",
+        "https://www.qcc.com/firm/90e9536227b3ea2be075109e53e73a96.html",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202507/688200_20250702_M3BW.pdf",
+        "https://www.qcc.com/firm/8886ed0e0a94e31bae80fc13dbcd0255.html",
+        "https://stock.stockstar.com/RB2026070900036776.shtml",
+        "https://wap.sasac.gov.cn/n2588025/n2588129/c36072287/content.html",
+        "https://finance.sina.com.cn/stock/estate/integration/2026-10-21/doc-inivynsq8153407.shtml"
+      ],
+      "candidate_count": 11,
+      "existing_count": 6,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-44.csv",
+      "notes": "按最早公开披露或明确的投资落地日入档。公开基金管理归属补到机构反查。追加的机构线索不计入十月目录覆盖率。"
+    },
+    {
+      "institution": "中关村资本",
+      "checked_on": "2026-11-25",
+      "scope": "企查查创投库机构专页第1至16页；2010-03-01至2026-11-25；对照总表及待发布队列。",
+      "sources": [
+        "https://www.qcc.com/investor/337e04fb7ea143b9e8718c9a3c03a9de.html",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_751f8ccf9c054c459f34f0ac7fdde4ab.html",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_dadf071b4b154a858f9d9a46f540ff63.html",
+        "https://www.sohu.com/a/1015585868_121106842",
+        "https://www.leap-pku.com/news.html",
+        "https://www.jiemian.com/article/15306087.html",
+        "https://www.bjhr.gov.cn/zwgk/zfxxgkjg/qzfbmdh/qjjhxxhj/jxzdgz/202608/t20260814_4822923.html",
+        "https://finance.sina.com.cn/jjxw/2026-07-28/doc-inikirnh9372263.shtml",
+        "https://t.cj.sina.com.cn/articles/view/6804861660/19599f2dc0010165ug"
+      ],
+      "candidate_count": 5,
+      "existing_count": 24,
+      "pending_count": 126,
+      "batch": "2026-11-25-october-public-44.csv",
+      "notes": "155笔均完成首轮名称、日期、轮次比对。复核名单仍含异名和重复；未命中不是已确认漏项。交易以独立公告、监管和披露原文确认。"
     }
   ]
 }
