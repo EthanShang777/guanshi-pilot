@@ -12,7 +12,7 @@ from d1 import FIELDS, database, query
 
 GENERIC_ROUNDS = {'', '未知', '未披露', '未公布', '未公开', '融资', '新一轮',
                   '新一轮融资', '股权融资', '首轮融资'}
-SPECIFIC_ROUND = re.compile(r'(?:PRE-?)?(?:[A-H]\d*(?:\+{1,4}|-\d+)?|IPO)|(?:天使|种子)\+{0,4}|战略')
+SPECIFIC_ROUND = re.compile(r'(?:PRE-?)?(?:[A-H]\d*(?:\+{1,4}|-\d+)?|IPO)|(?:天使|种子)\+{0,4}|种子前|战略')
 
 def packed(value):
     return json.dumps(value,ensure_ascii=False,separators=(',',':'))
@@ -39,6 +39,8 @@ def company_relation(incoming, existing):
 
 def round_key(value):
     key = normalize(value).upper().removeprefix('SERIES').replace('PRE-', 'PRE').removesuffix('轮')
+    if key in {'PRESEED', '前种子', '种子轮前'}:
+        return '种子前'
     if key == '战略融资':
         return '战略'
     return '' if key in GENERIC_ROUNDS else key

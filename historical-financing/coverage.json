@@ -794,6 +794,70 @@
         }
       ],
       "notes": "汇耀A和A+金额均留空，朝微补2021年公司新增股本的现金出资，2023年达晨受让股份为老股。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第123–138、141、557、559、560、562项",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://shieldcap.com/announcement/investing-in-watchtower-labs",
+        "https://www.prnewswire.com/news-releases/coast-raises-35-million-to-build-the-financial-platform-for-the-physical-economy-302916432.html",
+        "https://www.businesswire.com/news/home/20261013856517/en/",
+        "https://www.businesswire.com/news/home/20261013856517/en/",
+        "https://mach9.ai/news/34-million-series-a",
+        "https://vates.tech/blog/vates-raises-eur30-million-from-iris-and-bpifrance-and-stays-open-source/",
+        "https://www.creditmutuel.fr/fr/alliancefederale/presse/communiques-de-presse/credit-mutuel-alliance-federale-participe-avec-noria.html",
+        "https://www.prnewswire.com/news-releases/duvo-raises-32-million-series-a-to-become-the-one-platform-enterprises-run-their-operations-on-302908575.html",
+        "https://www.meow.com/blog/meow-series-b-announcement",
+        "https://www.streetinsider.com/Business%2BWire/Vitalize%2BRaises%2B%2431M%2BSeries%2BA%2Bto%2BBring%2B%E2%80%9CAir%2BTraffic%2BControl%E2%80%9D%2Bto%2BHealthcare/27154421.html",
+        "https://www.halluminate.ai/blog/series-a",
+        "https://www.arboretum.bio/news/arboretum-launch",
+        "https://www.fortastra.com/newsroom/fortastra-series-a",
+        "https://fortune.com/2026/10/08/sequoia-backed-catalyst-raises-30-million-build-ai-trading-agents-everyday-investors/",
+        "https://www.allarahealth.com/blog/allara-raises-30m-to-transform-the-womens-healthcare-experience-with-ai",
+        "https://www.globenewswire.com/news-release/2026/09/29/3370894/0/en/tiny-health-raises-33m-series-b-to-establish-microbiome-intelligence-as-the-standard-of-care.html",
+        "https://zymofix.com/press-release-zymofix-to-build-flagship-microbial-manufacturing-plant-as-it-takes-solid-state-fermentation-to-industrial-scale/",
+        "https://prtimes.jp/main/html/rd/p/000000020.000155874.html",
+        "https://finance.yahoo.com/media-advertising/articles/square-nine-leads-financing-beatport-210000018.html"
+      ],
+      "candidate_count": 15,
+      "existing_count": 3,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-13.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 690,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "notes": "Scuba同日披露两轮，单轮金额空。Tiny Health、Zymofix、AIONA、Beatport首发在9月。迅杰9月B轮存在两条旧记录，给全称档补发行人原文。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "深圳达晨创程公开组合反查汇耀品尚B轮、阿凡提和迅杰光远",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-25/1225194472.PDF",
+        "https://www.thepaper.cn/newsDetail_forward_33265830",
+        "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518849.PDF",
+        "https://pitchhub.36kr.com/project/1817533814130566",
+        "https://assets.kpmg.com/content/dam/kpmgsites/cn/pdf/zh/2023/09/china-leading-autotech-50.pdf.coredownload.inline.pdf",
+        "https://www.instrument.com.cn/netshow/SH103966/news_987010.htm"
+      ],
+      "candidate_count": 2,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-25-october-public-13.csv",
+      "pending": [
+        {
+          "reason": "阿凡提两个来源分别使用A与A+，保留A系列；未核披露日。"
+        },
+        {
+          "reason": "迅杰光远同日同轮两条旧记录，受控归一待做。"
+        }
+      ],
+      "notes": "汇耀美能报告注明嘉兴主体，采用1.4亿元全轮金额。阿凡提保留A系列和年月精度。"
     }
   ]
 }

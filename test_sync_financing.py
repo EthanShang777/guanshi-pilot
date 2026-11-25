@@ -48,6 +48,19 @@ class SyncFinancingTest(unittest.TestCase):
         self.assertEqual(self.query(self.db, 'SELECT round FROM financing_events ORDER BY event_id'),
                          [{'round': 'Pre-A轮'}, {'round': 'Pre-A+轮'}])
 
+    def test_reviewed_pre_seed_and_seed_are_distinct_even_with_same_source(self):
+        rows = [event('1', '公司甲', '种子前轮', company_id='company-1'),
+                event('2', '公司甲', '种子轮', company_id='company-1')]
+        self.assertEqual(financing.sync_rows(self.db, rows, reviewed=True), (2, 0, 0))
+        self.assertEqual(financing.sync_rows(self.db, rows, reviewed=True), (0, 0, 0))
+
+    def test_pre_seed_aliases_link_to_the_same_transaction(self):
+        original = event('1', '公司甲', 'Pre-Seed轮', company_id='company-1')
+        translated = event('2', '公司甲', '种子前轮', company_id='company-1',
+                           urls=('https://example.com/another',))
+        self.assertEqual(financing.sync_rows(self.db, [original]), (1, 0, 0))
+        self.assertEqual(financing.sync_rows(self.db, [translated]), (0, 1, 0))
+
     def test_related_report_appends_to_existing_event(self):
         first = event('1', '北京新星科技有限公司', 'Ａ＋＋轮', company_id='company-1')
         next_url = 'https://example.com/disclosure'
