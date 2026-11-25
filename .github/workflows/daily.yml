@@ -1,5 +1,9 @@
 name: Daily financing update
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'historical-financing/*.csv'
   workflow_dispatch:
     inputs:
       reconcile_all:
@@ -29,9 +33,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: cp ledger.json "$RUNNER_TEMP/previous-ledger.json"
-      - run: python update.py --replay-check --ingest-only
+      - name: Fetch ChinaVenture disclosures
+        if: github.event_name != 'push'
+        run: |
+          cp ledger.json "$RUNNER_TEMP/previous-ledger.json"
+          python update.py --replay-check --ingest-only
       - name: Sync changed disclosures to financing master
+        if: github.event_name != 'push'
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
@@ -43,6 +51,7 @@ jobs:
             python sync_financing.py "$RUNNER_TEMP/previous-ledger.json"
           fi
       - name: Save ledger and pages
+        if: github.event_name != 'push'
         run: |
           git config user.name github-actions[bot]
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -51,6 +60,11 @@ jobs:
             git commit -m 'Refresh financing timeline from ChinaVenture'
             git push
           fi
+      - name: Sync reviewed historical financing batches
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: python sync_financing.py --historical-dir historical-financing
       - name: Publish full D1 financing snapshot
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

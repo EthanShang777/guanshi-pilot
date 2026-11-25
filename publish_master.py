@@ -91,6 +91,7 @@ def build(rows):
     for asset in ('within-page.js','shelf.js','atlas.css','atlas.js','master-detail.js','master-search.js','load-shelf.js','company-browser.js','company-history.js'):
         shutil.copyfile(asset,OUT/asset)
     locations=json.loads(Path('country-locations.json').read_text())
+    fund_managers=json.loads(Path('institution-fund-managers.json').read_text())
     live=json.loads(Path('ledger.json').read_text())['events']
     old_by_source={u:e for e in live for u in e['sources']}
     history=json.loads(Path('history-public.json').read_text())
@@ -116,11 +117,19 @@ def build(rows):
                sector=row['primary_sector'] or '待归类',sub=row['secondary_sector'],stage=row['round'],amount=row['amount'],
                country=country,location=display,valuation=row['valuation'],dateKind=row['date_kind'],sources=urls,investors=[],parties=[],aliases=[],reports=[])
         c['events'].append(d);names[d['company']].add(c['href'])
+        deal_institutions = {}
         for item in json.loads(row['investors_json'] or '[]'):
             n=item.get('name') if isinstance(item,dict) else item
             if not n or n in d['investors']:continue
             inst=entity(institutions,'institution',n,n)
-            inst['events'].append(d);d['investors'].append(n);d['parties'].append([n,inst['href']])
+            deal_institutions[inst['key']] = inst
+            d['investors'].append(n);d['parties'].append([n,inst['href']])
+            if n in fund_managers:
+                manager = fund_managers[n]['brand']
+                brand = entity(institutions, 'institution', manager, manager)
+                deal_institutions[brand['key']] = brand
+        for institution in deal_institutions.values():
+            institution['events'].append(d)
         for u in urls:
             if u in old_by_source:
                 e=old_by_source[u];legacy[event_url(e)]=d['href'];legacy[filename('company',e['company'])]=c['href']
