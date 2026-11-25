@@ -915,6 +915,70 @@
       "pending_count": 0,
       "batch": "2026-11-25-october-public-14.csv",
       "notes": "验资确认博测达1.54亿元实收。同期老股与资本公积转增分开。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第158–180项中的21个待核候选",
+      "sources": [
+        "https://recodex.ai/startup/monthly-report/877711.html",
+        "https://furientis.com/updates/seed",
+        "https://www.prnewswire.com/news-releases/rein-security-raises-25-million-to-secure-the-ai-agents-enterprises-build-and-stop-the-ones-that-attack-them-302901591.html",
+        "https://www.axios.com/pro/all-deals/2026/10/14/exclusive-birria-bomb-spice-maker-raises-25m",
+        "https://www.qualitate.io/news/qualitate-announces-25m-series-a",
+        "https://www.prnewswire.com/news-releases/dan-os-seasoning-secures-strategic-investment-of-25m-from-the-newcastle-network-to-bring-bold-flavor-to-more-kitchens-302914987.html",
+        "https://www.globenewswire.com/news-release/2026/10/28/3390091/0/en/circuit-mind-announces-25m-in-funding-to-accelerate-the-rise-of-electronic-design-intelligence.html",
+        "https://www.hyperlayer.com/resources/news/hyperlayer-raises-new-funding",
+        "https://www.prnewswire.com/news-releases/kapta-space-raises-24m-series-a-secures-multiple-classified-mti-contracts-302903032.html",
+        "https://www.prnewswire.com/news-releases/pro-shop-raises-24-million-series-b-to-accelerate-next-phase-of-growth-across-media-entertainment-and-commerce-302898027.html",
+        "https://actapharmaceuticals.com/acta-closes-seed-funding-to-advance-alzheimers-program/",
+        "https://presse.bpifrance.fr/voltr-securise-22-meur-de-financement-dont-16-meur-leves-aupres-de-bpifrance-et-decathlon-pulse-pour-industrialiser-la-seconde-vie-des-batteries-lithium-en-europe/?lang=fra",
+        "https://www.brellium.com/funding-demo",
+        "https://z47.webflow.io/news/confido-health-raises-12-5m-agentic-healthcare",
+        "https://rss.globenewswire.com/news-release/2026/10/27/3388922/0/en/emvolon-raises-22-million-funding-round-to-launch-its-modular-waste-to-fuel-chemical-plants.html",
+        "https://www.globenewswire.com/news-release/2026/10/29/3391321/0/en/ozlo-raises-22-million-series-b-led-by-modi-ventures-to-expand-its-sleep-technology-ecosystem.html",
+        "https://capitalos.com/news/capitalos-raises-21m-series-a-funding",
+        "https://prtimes.jp/main/html/rd/p/000000082.000089262.html",
+        "https://www.arctictherapeutics.com/arctic-therapeutics-closes-oversubscribed-us21-5-million-financing/",
+        "https://www.outersignal.com/blog/series-a",
+        "https://www.prnewswire.com/news-releases/introducing-rein-security-bringing-production-context-to-application-security-302672025.html",
+        "https://www.qualitate.io/news/announcing-qualitate",
+        "https://www.sec.gov/Archives/edgar/data/2048271/000149315226045380/form424b3.htm"
+      ],
+      "candidate_count": 22,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-15.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 647,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "WeShop Holdings",
+          "reason": "仅确认可提取额度；实际提款及时间待核。"
+        }
+      ],
+      "notes": "19笔归入10月，3笔归入其他月份。Circuit Mind两轮同日披露。VoltR扣除单列补助。Emvolon的A轮金额留空。"
+    },
+    {
+      "institution": "达晨系及博测达其他历史股东",
+      "checked_on": "2026-11-25",
+      "scope": "沿已验证的达晨持股线索核对博测达挂牌法律意见书与验资",
+      "sources": [
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605081822071057&pageIndex=19",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605081822071057&pageIndex=20",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202602121819897638&pageIndex=3",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202604091821096505&pageIndex=24",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605081822071062&pageIndex=2"
+      ],
+      "candidate_count": 3,
+      "existing_count": 1,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-15.csv",
+      "notes": "同一公司关联2022年A轮2,000万元、2023年A轮追加500万元、2024年B轮8,000万元和既有2025年记录。几轮分别有验资或已验资认购协议，老股另计。"
     }
   ]
 }
