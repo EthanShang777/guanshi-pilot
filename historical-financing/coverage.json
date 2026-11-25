@@ -454,6 +454,67 @@
         "weekly_identity_conflicts_remaining": 8
       },
       "notes": "Wabi 官网通稿未给轮次，记录股权融资。修复历史批次的已验证别名发布到两个搜索索引。"
+    },
+    {
+      "institution": "2026 年 10 月公开融资查漏",
+      "checked_on": "2026-11-25",
+      "scope": "太空日报公开页第二批。逐项对回原文，并排除泛论报道和同笔转载。",
+      "sources": [
+        "https://fund.spacedaily.com.cn/",
+        "https://www.argotecgroup.com/press-release/62",
+        "https://furiosa.ai/blog/furiosaai-620-million-series-d",
+        "https://www.sec.gov/Archives/edgar/data/2149195/000095010326016191/xslFormDX01/primary_doc.xml",
+        "https://www.36kr.com/p/4043793488335749",
+        "https://furiosa.ai/blog/announcing-furiosaais-125m-series-c-bridge-funding-to-scale-sustainable-ai-compute"
+      ],
+      "candidate_count": 3,
+      "existing_count": 10,
+      "pending_count": 5,
+      "batch": "2026-11-25-october-public-07.csv",
+      "pending": [
+        {
+          "company": "扰动之心",
+          "reason": "金额含义和各轮独立资方待核"
+        },
+        {
+          "company": "智澄、星鸿、海龙、Bleu",
+          "reason": "主体、披露日期或投资方仍有差异"
+        }
+      ],
+      "screening": {
+        "monthly_entries_unreviewed": 765,
+        "weekly_reports_unreviewed": 78,
+        "weekly_identity_conflicts_remaining": 8,
+        "spacedaily_entries_unreviewed": 59
+      },
+      "notes": "科烨 A 与 A+ 两轮分别有披露，A+ 金额未知。Furiosa C轮为2025年另笔追加。"
+    },
+    {
+      "institution": "达晨系",
+      "checked_on": "2026-11-25",
+      "scope": "从深圳达晨创程公开投资名单反查易显、毫末、南科佳安、迅杰光远，并跟进百迈科监管文件",
+      "sources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202502261643532114_1.pdf",
+        "https://alumni.xmu.edu.cn/info/1521/44011.htm",
+        "https://kaanh.cn/About/show?id=4",
+        "https://kaanh.cn/About/show?id=19"
+      ],
+      "candidate_count": 4,
+      "existing_count": 2,
+      "pending_count": 3,
+      "batch": "2026-11-25-october-public-07.csv",
+      "pending": [
+        {
+          "reason": "毫末智造 8 月 19 日 A+ 与校友总会 A 轮均披露同组资方，先按首次公开披露登记 A。"
+        },
+        {
+          "reason": "佳安 A 轮未单列资方，历史投资名单不能写成 A 轮名单。"
+        },
+        {
+          "reason": "百迈科 A+ 表内未披露金额，招股说明书确认实缴 7,985.17 万元，现有日期和支付日期需核对口径。"
+        }
+      ],
+      "notes": "交易资料只给出历史资方时不写入某轮出资方。百迈科和迅杰均对回既有事件并补证。"
     }
   ]
 }
