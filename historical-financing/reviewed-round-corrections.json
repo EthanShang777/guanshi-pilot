@@ -2369,5 +2369,53 @@
       "amount": "9500万元人民币（六笔合计）",
       "investors_json": "[{\"name\":\"山东省新旧动能转换海耀海洋生物医药产业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":\"3000万元人民币\"},{\"name\":\"朱筠\",\"role\":\"受让方\",\"amount\":\"800万元人民币\"},{\"name\":\"广发信德（苏州）健康产业创业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":\"3700万元人民币\"},{\"name\":\"汕头市西利实业有限公司\",\"role\":\"受让方\",\"amount\":\"1000万元人民币\"},{\"name\":\"嘉兴友创启真创业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":\"500万元人民币\"},{\"name\":\"杭州启真毓星股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":\"500万元人民币\"}]"
     }
+  },
+  {
+    "event_id": "financing_event:b989831614929a809c8ac184ce512931116cefe88e9ba6be5a7cbb5425f54ebd",
+    "company_id": "co:full_legal_name:6535648b340d6536dfda89ac260c72ba",
+    "day": "2026-09-09",
+    "source": "https://www.nanocorechip.com/index/news/detail/index?id=47",
+    "expected": {
+      "round": "C轮",
+      "amount": "10亿人民币",
+      "investors_json": "[{\"name\":\"建投投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"凯泰资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国投泰康\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"晓池资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"杭州资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"烟台财金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"盛堃投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"领阳基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"优势资本\",\"role\":null,\"amount\":null},{\"name\":\"元昊投资\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"华勤技术\",\"role\":null,\"amount\":null},{\"name\":\"厚雪资本\",\"role\":null,\"amount\":null},{\"name\":\"天麒恒松基金\",\"role\":null,\"amount\":null},{\"name\":\"德联资本\",\"role\":null,\"amount\":null},{\"name\":\"恒旭资本\",\"role\":null,\"amount\":null},{\"name\":\"知名大模型公司\",\"role\":null,\"amount\":null},{\"name\":\"美格智能\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null},{\"name\":\"阳光人寿\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C1轮",
+      "amount": "10亿元人民币",
+      "investors_json": "[{\"name\":\"优势资本\",\"role\":null,\"amount\":null},{\"name\":\"元昊投资\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null},{\"name\":\"阳光人寿\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"德联资本\",\"role\":null,\"amount\":null},{\"name\":\"宽桥恒松\",\"role\":null,\"amount\":null},{\"name\":\"厚雪资本\",\"role\":null,\"amount\":null},{\"name\":\"美格智能\",\"role\":null,\"amount\":null},{\"name\":\"恒旭资本\",\"role\":null,\"amount\":null},{\"name\":\"华勤技术\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:b571a694fe41816b744f2e9f179a5e09f65773943202906adc3ad5c3d60c0715",
+    "company_id": "co:full_legal_name:6535648b340d6536dfda89ac260c72ba",
+    "day": "2026-10-28",
+    "source": "https://www.nanocorechip.com/index/news/detail?id=58",
+    "expected": {
+      "round": "C+轮",
+      "amount": "超10亿人民币",
+      "investors_json": "[{\"name\":\"建投投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"凯泰资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国投泰康\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"晓池资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"杭州资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"烟台财金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"盛堃投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"领阳基金\",\"role\":\"跟投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C2轮",
+      "amount": "超10亿元人民币",
+      "investors_json": "[{\"name\":\"建投投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"凯泰资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国投泰康\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"晓池资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"杭州资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"烟台财金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"盛堃投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"领阳基金\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:f3946ab6dd3f1b4718b05281f0d4fbcfd3242190c7879c130198f5379bbe344e",
+    "company_id": "co:full_legal_name:a80b769019de4ea90aae8802267cf37f",
+    "day": "2026-10-10",
+    "source": "https://www.nophotonics.com/content-7-177-1.html",
+    "expected": {
+      "round": "C+轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"上汽投控\",\"role\":\"领投\",\"amount\":null},{\"name\":\"尚颀资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"鼎晖百孚\",\"role\":\"领投\",\"amount\":null},{\"name\":\"鼎晖香港基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上汽集团\",\"role\":null,\"amount\":null},{\"name\":\"容亿投资\",\"role\":null,\"amount\":null},{\"name\":\"苏创投\",\"role\":null,\"amount\":null},{\"name\":\"长飞基金\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖投资\",\"role\":null,\"amount\":null},{\"name\":\"龙芯创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C+轮",
+      "amount": "超10亿元人民币",
+      "investors_json": "[{\"name\":\"上汽投控\",\"role\":\"领投\",\"amount\":null},{\"name\":\"尚颀资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"鼎晖百孚\",\"role\":\"领投\",\"amount\":null},{\"name\":\"鼎晖香港基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上汽集团\",\"role\":null,\"amount\":null},{\"name\":\"容亿投资\",\"role\":null,\"amount\":null},{\"name\":\"苏创投\",\"role\":null,\"amount\":null},{\"name\":\"长飞基金\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖投资\",\"role\":null,\"amount\":null},{\"name\":\"龙芯创投\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

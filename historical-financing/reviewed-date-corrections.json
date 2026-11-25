@@ -46,5 +46,37 @@
       "date_kind": "融资月份"
     },
     "source": "https://pdf.dfcfw.com/pdf/H22_AN202011271433753271_1.pdf?1606498633000.pdf="
+  },
+  {
+    "event_id": "financing_event:187aa19aa0ebe11f0bbdefb96bc0020229266f465b1cf2c8525237fde468296b",
+    "company_id": "co:cn_uscc:83778fe4512c65bc9ab3f36e098864cf",
+    "round": "首轮外部融资",
+    "source": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+    "expected": {
+      "date": "",
+      "date_key": "",
+      "date_kind": ""
+    },
+    "corrected": {
+      "date": "2026-07",
+      "date_key": "2026-07-01",
+      "date_kind": "登记月份"
+    }
+  },
+  {
+    "event_id": "financing_event:43c13b1bad41ffc421b2f3e90c43e47afde719c74eed15d11355d9eca09d7c65",
+    "company_id": "co:cn_uscc:83778fe4512c65bc9ab3f36e098864cf",
+    "round": "第二轮外部融资",
+    "source": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+    "expected": {
+      "date": "",
+      "date_key": "",
+      "date_kind": ""
+    },
+    "corrected": {
+      "date": "2026-11-17",
+      "date_key": "2026-11-17",
+      "date_kind": "工商变更日"
+    }
   }
 ]
