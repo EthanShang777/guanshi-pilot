@@ -1961,6 +1961,56 @@
         }
       ],
       "notes": "B-1、B-2原ID和金额保持，按直接认购表更新具名资方。2019年和2020年股权转让无新增融资。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第511—535项",
+      "sources": [
+        "https://devcuration.com/articles/moneystack-raises-1m-for-financial-recovery",
+        "https://www.rkmf.org/wp-content/uploads/2024/11/RK-Mellon-Foundation-Social-Impact-Investment-Portfolio-Summary.pdf",
+        "https://www.globenewswire.com/news-release/2026/10/08/3377337/0/en/mercurius-media-capital-makes-1-million-strategic-investment-in-jaca-to-accelerate-consumer-awareness-of-allulose.html",
+        "https://www.geekwire.com/2026/a-two-person-seattle-startup-lands-1m-to-reinvent-energy-hungry-chips-suitable-for-space/",
+        "https://www.cloud9.money/blog/cloud9-secures-investment-from-alliance-to-build-the-borderless-bank-for-african-entrepreneurs",
+        "https://www.4impact.vc/articles/4impact-leads-pre-seed-round-fltrd-ultra-processed-food",
+        "https://noewe.eu/lt/noewe-accounting-pritrauke-puse-milijono-euru-ir-keicia-nusistovejusi-apskaitos-paslaugu-modeli/"
+      ],
+      "candidate_count": 24,
+      "existing_count": 0,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-28.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 296,
+        "monthly_identity_conflicts_remaining": 21,
+        "weekly_reports_unreviewed": 78,
+        "spacedaily_entries_unreviewed": 49
+      },
+      "pending": [
+        {
+          "company": "TriMagnetix",
+          "reason": "100万美元合计包括Actuate Ventures已承诺的部分，没有全额到款或已到款金额的披露。",
+          "source": "https://www.geekwire.com/2026/a-two-person-seattle-startup-lands-1m-to-reinvent-energy-hungry-chips-suitable-for-space/"
+        }
+      ],
+      "notes": "Jaca媒体资源对价不计现金融资。TriMagnetix金额含承诺待核。MoneyStack十月条目为9月披露，另补2024年基金会出资。"
+    },
+    {
+      "institution": "达晨财智",
+      "checked_on": "2026-11-25",
+      "scope": "由达晨创程持股线索反查晟昕科技、科凯电子历次公司增资",
+      "sources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202608111827856683_1.pdf#page=64",
+        "https://pdf.dfcfw.com/pdf/H2_AN202608111827856683_1.pdf#page=62",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202403/RAS_202403_171810E076F822C0A343A0B3241572F5FCB8E8.pdf#page=36",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202403/RAS_202403_171810E076F822C0A343A0B3241572F5FCB8E8.pdf#page=38",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202403/RAS_202403_171810E076F822C0A343A0B3241572F5FCB8E8.pdf#page=40",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202312/RAS_202312_060410DF82F44222AB111E2AC8241933.pdf#page=105"
+      ],
+      "candidate_count": 4,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-28.csv",
+      "notes": "晟昕增资实缴5000万元，另4000万为股东受让。科凯三次现金增资分别6000万、2.6亿、3000万元；5月老股、7月股改、11月转增不计。"
     }
   ]
 }
