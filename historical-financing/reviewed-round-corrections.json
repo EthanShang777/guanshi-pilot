@@ -1054,5 +1054,149 @@
       "amount": "数千万元人民币",
       "investors_json": "[{\"name\":\"无锡彬复海创人才创业投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"清流投资三期有限公司\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三七乐心（广州）产业投资合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "public:historical-disclosure:2b037fd3649c9032a70fca4",
+    "company_id": "co:historical-disclosure:8422c47cddacc96516d2636",
+    "day": "2026-01-05",
+    "source": "https://www.qcc.com/firm/914005a4aad6081e61475124ebcc3f8b.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "超2000万美元",
+      "investors_json": "[{\"name\":\"蚂蚁集团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"美团龙珠\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华登国际\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"BAI资本\",\"role\":\"追加投资\",\"amount\":null},{\"name\":\"阿尔法公社\",\"role\":\"追加投资\",\"amount\":null},{\"name\":\"同歌创投\",\"role\":\"追加投资\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "超2000万美元",
+      "investors_json": "[{\"name\":\"蚂蚁集团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"美团龙珠\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华登国际\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北京中发展金种子创业投资中心（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"BAI资本\",\"role\":\"追加投资\",\"amount\":null},{\"name\":\"阿尔法公社\",\"role\":\"追加投资\",\"amount\":null},{\"name\":\"同歌创投\",\"role\":\"追加投资\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:e57d924dec2860d08115fb545731c08da973f3b1a02419ac89691a72bf186dbf",
+    "company_id": "co:full_legal_name:deee6ac5537575dfe8d007e480ce6d83",
+    "day": "2023-11-03",
+    "source": "https://www.qcc.com/firm/a4110ed60ceb853f412ae5ade5f661ed.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村创投\",\"role\":null,\"amount\":null},{\"name\":\"中关村资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中关村创投\",\"role\":null,\"amount\":null},{\"name\":\"北京中发展金种子创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京中发高精尖臻选创业投资基金（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:572d3d6ebf3d272593b25b70a0dc6e33ebb90f0de8fe9bb9017816a540a72740",
+    "company_id": "co:full_legal_name:7abfcc2ee99f97160fd422301a2fb41c",
+    "day": "2022-06-08",
+    "source": "https://www.cas-ruiyi.com/pages/page-news.html",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"宁波有定\",\"role\":null,\"amount\":null},{\"name\":\"常见投资\",\"role\":null,\"amount\":null},{\"name\":\"智源创投\",\"role\":null,\"amount\":null},{\"name\":\"蓝驰创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"蓝驰创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"宁波有定\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"常见投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北京智源发展创业投资基金（有限合伙）\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:77b18d167e5f72f86023ff548098b85eb8207dc07aa22b370d9b99ebd914d6ed",
+    "company_id": "co:full_legal_name:e6fdbfc42a78406256a417ed5fba3984",
+    "day": "2022-08-02",
+    "source": "https://www.chinaventure.com.cn/news/80-20220803-370379.html",
+    "expected": {
+      "round": "B+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"恒旭资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"瑞丞基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中关村前沿基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北汽产投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"德联资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"龙鼎投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中信建投资本\",\"role\":null,\"amount\":null},{\"name\":\"中关村中诺基金\",\"role\":null,\"amount\":null},{\"name\":\"中关村协同创新基金\",\"role\":null,\"amount\":null},{\"name\":\"中关村发展前沿基金\",\"role\":null,\"amount\":null},{\"name\":\"亿宸资本\",\"role\":null,\"amount\":null},{\"name\":\"华控基金\",\"role\":null,\"amount\":null},{\"name\":\"国和投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"恒旭资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"芜湖市瑞丞战新产业壹号基金合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北汽产投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"德联资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"龙鼎投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中信建投资本\",\"role\":null,\"amount\":null},{\"name\":\"江苏中关村中诺协同投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"亿宸资本\",\"role\":null,\"amount\":null},{\"name\":\"青岛华控成长股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"国和投资\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:0a2375dde977ee9f9418f4786c5edbb6a4f1288e5f70132b3f8b1ab3c1c4eabc",
+    "company_id": "co:full_legal_name:e6fdbfc42a78406256a417ed5fba3984",
+    "day": "2021-10-25",
+    "source": "https://www.qcc.com/firm/614dc6ebdfec3c1ced6fd64be1440df9.html",
+    "expected": {
+      "round": "B轮",
+      "amount": "2亿人民币",
+      "investors_json": "[{\"name\":\"国新央企运营基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上汽恒旭资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村前沿基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村种子基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"德联资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"龙鼎投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村发展前沿基金\",\"role\":null,\"amount\":null},{\"name\":\"中关村资本\",\"role\":null,\"amount\":null},{\"name\":\"国新央企\",\"role\":null,\"amount\":null},{\"name\":\"恒旭资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "2亿人民币",
+      "investors_json": "[{\"name\":\"国新央企运营（广州）投资基金（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"恒旭资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北京中发展金种子创业投资中心（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"德联资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"龙鼎投资\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:3a37072810e28b1bc28531bb835921b35f49b72692d99b1af0467114977e0d24",
+    "company_id": "co:full_legal_name:da7f55f50066aea48034603a304233a9",
+    "day": "2022-01-25",
+    "source": "https://cn.technode.com/post/2022-01-25/wellgrow-b-plus/",
+    "expected": {
+      "round": "B+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中国创新基金\",\"role\":null,\"amount\":null},{\"name\":\"同创伟业\",\"role\":null,\"amount\":null},{\"name\":\"招商健康\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"招商健康\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中国创新基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"同创伟业\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:c716a7cf56d9d3d2a8e70bcb666a98067af6a557af6f070d99a02bde600f36a7",
+    "company_id": "co:full_legal_name:da7f55f50066aea48034603a304233a9",
+    "day": "2021-07-16",
+    "source": "https://www.36kr.com/p/1313346185478656",
+    "expected": {
+      "round": "B轮",
+      "amount": "亿元人民币",
+      "investors_json": "[{\"name\":\"中国创新基金\",\"role\":null,\"amount\":null},{\"name\":\"元生创投\",\"role\":null,\"amount\":null},{\"name\":\"北京生命科学园创投\",\"role\":null,\"amount\":null},{\"name\":\"合创资本\",\"role\":null,\"amount\":null},{\"name\":\"同创伟业\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "亿元人民币",
+      "investors_json": "[{\"name\":\"中国创新基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"元生创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北京生命科学园创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"深圳市普合萤火创业投资企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"同创伟业\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:1587612544dd58e1b7c7d06e2f4d01bca31d668d510c5a6bb010583f67aec5bb",
+    "company_id": "co:full_legal_name:4a4d8767fd01262c83393734bc555021",
+    "day": "2021-06-09",
+    "source": "https://m.pedaily.cn/news/472646",
+    "expected": {
+      "round": "天使轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"中军金融投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"一旗力合\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村前沿基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村发展前沿基金\",\"role\":null,\"amount\":null},{\"name\":\"中军金投\",\"role\":null,\"amount\":null},{\"name\":\"中卫颐和\",\"role\":null,\"amount\":null},{\"name\":\"亦庄国投\",\"role\":null,\"amount\":null},{\"name\":\"共青城智控\",\"role\":null,\"amount\":null},{\"name\":\"共青城汽控\",\"role\":null,\"amount\":null},{\"name\":\"力合资本\",\"role\":null,\"amount\":null},{\"name\":\"国汽投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"中军金融投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"一旗力合\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中军金投\",\"role\":null,\"amount\":null},{\"name\":\"中卫颐和\",\"role\":null,\"amount\":null},{\"name\":\"亦庄国投\",\"role\":null,\"amount\":null},{\"name\":\"共青城智控\",\"role\":null,\"amount\":null},{\"name\":\"共青城汽控\",\"role\":null,\"amount\":null},{\"name\":\"力合资本\",\"role\":null,\"amount\":null},{\"name\":\"国汽投资\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:7479e31aae5c35185b17eadaff32410ba6b64be062e1b988738a05e348db9f11",
+    "company_id": "co:full_legal_name:9a36710d7ecc80c028e3322654aa18dd",
+    "day": "2019-11-15",
+    "source": "https://elsewhere.news/zh/freesfund/4000a",
+    "expected": {
+      "round": "A轮",
+      "amount": "4000万人民币",
+      "investors_json": "[{\"name\":\"中关村发展启航产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"中关村发展集团\",\"role\":null,\"amount\":null},{\"name\":\"前海母基金\",\"role\":null,\"amount\":null},{\"name\":\"峰瑞资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "4000万人民币",
+      "investors_json": "[{\"name\":\"北京中关村发展启航创新投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京中关村发展前沿企业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"前海母基金\",\"role\":null,\"amount\":null},{\"name\":\"峰瑞资本\",\"role\":\"跟投\",\"amount\":null}]"
+    }
   }
 ]
