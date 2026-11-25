@@ -41,6 +41,9 @@ def publish(out, deals):
             return ('<div class="inst-line">'+link('institution.html?id='+key,name)+'<span>'+escape(sector or '')+'</span>'+
                     link(url,company+' · '+(day or '日期未列明'))+f'<small>{n} 笔</small></div>')
         html,n=re.subn(r'<div class="directory-row"><a href="institution\.html\?id=([a-f0-9]+)">.*?</div>',institution,html)
+        html, existing = re.subn(r'<div class="inst-line"><a href="institution\.html\?id=([a-f0-9]+)">.*?</div>',institution,html)
+        if existing and not n:
+            write(path,html)
         if n:
             tools='<form class="inst-search"><input type="search" required aria-label="机构名称" placeholder="搜索全部机构"><button>搜索</button></form><div id="inst-hits" aria-live="polite"></div><script defer src="directory-search.js"></script>'
             html=html.replace('</header><div id="local-find"', '</header>'+tools+'<div id="local-find"',1)
