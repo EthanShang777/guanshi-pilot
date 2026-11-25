@@ -318,5 +318,21 @@
       "amount": "500万美元",
       "investors_json": "[{\"name\":\"Flipkart\",\"role\":null,\"amount\":null},{\"name\":\"August One\",\"role\":null,\"amount\":null},{\"name\":\"Trifecta Capital\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:3190eff94c0d229fb4736a3586f39f6b2e0edf5bc6a5fa8341b8adbfce95166f",
+    "company_id": "co:full_legal_name:478a099ef1dddf07724a9b03e080cfb0",
+    "day": "2026-10-29",
+    "source": "https://api3.cls.cn/share/article/2519770?app=stib&os=web&sv=849",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"小米产投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"小米产投\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

@@ -2584,6 +2584,50 @@
       "pending_count": 2,
       "batch": "2026-11-25-october-public-41.csv",
       "notes": "夸父同轮补证。新机构原披露回查HighGround与QuoIntelligence。"
+    },
+    {
+      "institution": "十月公开融资月报",
+      "checked_on": "2026-11-25",
+      "scope": "RecodeX 第777—802项",
+      "sources": [
+        "https://virentcap.com/virent-capital-announces-first-platform-investment-in-kanahoma/",
+        "https://m.chinaventure.com.cn/news/114-20261029-393811.html",
+        "https://news.pedaily.cn/202610/570974.shtml",
+        "https://beta.zhitongcaijing.com/content/detail/1514187.html",
+        "https://www.streetinsider.com/Business%2BWire/GT%2BMetabolic%2BSolutions%2BAnnounces%2BSeries%2BC%2BGrowth%2BInvestment%2BLed%2Bby%2BJ.P.%2BMorgan%2BLife%2BSciences%2BPrivate%2BCapital/27246268.html",
+        "https://medicaldialogues.in/news/industry/health-investments/clinics-on-cloud-raises-rs-120-crore-in-series-a-funding-at-rs-600-crore-valuation-182157",
+        "https://ventures.adb.org/from-catapult-to-capital-nextfin-asia-reaches-first-investment-milestone-with-indonesias-finfra/",
+        "https://www.greenvoltis.com/articles/green-voltis-raises-13-5-million-series-a"
+      ],
+      "candidate_count": 23,
+      "existing_count": 10,
+      "pending_count": 0,
+      "batch": "2026-11-25-october-public-42.csv",
+      "screening": {
+        "monthly_entries_unreviewed": 36
+      },
+      "notes": "回读目录末26项，区分竞赛资助、累计金额及已完结的历史条目，继续回核前段36项。"
+    },
+    {
+      "institution": "金沙江联合资本、厦门高新投、Cento Ventures、Accion Ventures",
+      "checked_on": "2026-11-25",
+      "scope": "微至航空工商档确认北京公司为深圳公司子公司；把原始报道的三个轮次关联到一个公司档案。厦门高新投公告确认投资的是星科恒智母公司。ADB及Accion官网回查Finfra两笔早期融资。",
+      "sources": [
+        "https://www.qcc.com/firm/9bd14621bac1b5db001f19c49b12b2dd.html",
+        "https://www.qcc.com/firm/3987a6b28665a6a3886ccb1c030a7856.html",
+        "https://www.chinaventure.com.cn/news/114-20240130-379544.html",
+        "https://www.chinaventure.com.cn/news/110-20250425-386051.html",
+        "https://www.qcc.com/firm/e8212942699fabdd194ac5ea7f0f3df1.html",
+        "https://www.xmgxt.com/news/view/13315.html",
+        "https://ventures.adb.org/from-catapult-to-capital-nextfin-asia-reaches-first-investment-milestone-with-indonesias-finfra/",
+        "https://www.accion.org/news/impactalpha-finfra-nabs-2-5-million-to-propel-embedded-finance-in-indonesia/",
+        "https://www.accion.org/news/accion-announces-close-of-61-6m-second-accion-venture-lab-fund-investing-in-early-stage-inclusive-fintech/"
+      ],
+      "candidate_count": 6,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-25-october-public-42.csv",
+      "notes": "工商确认主体，交易仍按首发和资方披露。"
     }
   ]
 }

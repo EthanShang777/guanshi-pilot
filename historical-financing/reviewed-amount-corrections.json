@@ -214,5 +214,23 @@
     "source": "https://api3.cls.cn/share/article/2515695?app=stib&os=android&sv=247",
     "expected": "",
     "amount": "近亿元人民币"
+  },
+  {
+    "event_id": "financing_event:214b7bc07b8468d665c0d3f32533bfebd5738644afe4d910eb8f6252cf14ac78",
+    "company_id": "co:full_legal_name:4615bb7f9f69796be27acc629232cdb0",
+    "day": "2026-10-28",
+    "round": "C+轮",
+    "source": "https://m.chinaventure.com.cn/news/114-20261029-393811.html",
+    "expected": "",
+    "amount": "近亿元人民币"
+  },
+  {
+    "event_id": "financing_event:777e642fda14e5ab1a51a72bf6e280fc813db8c11a7238bb6ebc919ec8661baa",
+    "company_id": "co:full_legal_name:8fe2b5157c54990cd94a8a6e533e5eb5",
+    "day": "2026-10-28",
+    "round": "天使+轮",
+    "source": "https://news.pedaily.cn/202610/570974.shtml",
+    "expected": "数亿人民币",
+    "amount": "未披露"
   }
 ]
