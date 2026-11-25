@@ -1438,5 +1438,101 @@
       "amount": "5亿元",
       "investors_json": "[{\"name\":\"专业创投机构\",\"role\":null,\"amount\":null},{\"name\":\"地方国资\",\"role\":null,\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"拓普集团\",\"role\":null,\"amount\":null},{\"name\":\"杰创智能\",\"role\":null,\"amount\":null},{\"name\":\"梁创投\",\"role\":null,\"amount\":null},{\"name\":\"爱仕达\",\"role\":null,\"amount\":null},{\"name\":\"苏大天宫\",\"role\":null,\"amount\":null},{\"name\":\"苏大天宫创投\",\"role\":null,\"amount\":null},{\"name\":\"金雨茂物\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:f2ce086c73e71184d8187a20186ef85501121eb86d1668f779b089d1fcda63bc",
+    "company_id": "co:full_legal_name:09f8a007fe601426098dde5d493a4afc",
+    "day": "2025-12-04",
+    "source": "https://www.qcc.com/firm/fb6bd76324e0175b2ef9085e7201c89e.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"丽水追创智睿创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8cdb5ec4f4f31397cfd165203699e071f2d6a5fe395cf27e0e423649adf1e2eb",
+    "company_id": "co:full_legal_name:09f8a007fe601426098dde5d493a4afc",
+    "day": "2026-07-17",
+    "source": "https://www.qcc.com/firm/fb6bd76324e0175b2ef9085e7201c89e.html",
+    "expected": {
+      "round": "天使+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"枣庄追创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8fbc47f5dbf57c29ac53b68733a7d366056f1578cc0525b62f19e2b213937303",
+    "company_id": "co:full_legal_name:0c4ff23bdc5caeb1c1278ae0201774d4",
+    "day": "2025-12-17",
+    "source": "https://www.qcc.com/firm/69f180f26f1e179c7419bb7aa4d61f9c.html",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null},{\"name\":\"秀湖基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"嘉兴追创智秀创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴市秀湖创业创新股权投资基金有限公司\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:090024fc3d51ef4cca9360a8bc4a0a6bfd42475638b1d509b2064ac14769f7de",
+    "company_id": "co:full_legal_name:35d6aaf1d70de35bdd456e5d1570f98f",
+    "day": "2025-12-11",
+    "source": "https://www.qcc.com/firm/c489df3cff960a0dd829b413904835fe.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"嘉兴追创智秀创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:b3b91101df7a050906f7628d1505e6325b4ebad8d6689d52553b522864bc2748",
+    "company_id": "co:full_legal_name:9351c612ed44f774c50d6deec06a3ef6",
+    "day": "2025-05-22",
+    "source": "https://www.qcc.com/firm/86cabf9ecd1e42480ebd7a80faa92c66.html",
+    "expected": {
+      "round": "种子轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"梅花创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "种子轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"深圳市新势能天使创业投资企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市新势能二期天使创业投资企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:dbb326c78effecb0cbdd17524b5899ea44618a54ae8771b33d7332a4d300ef29",
+    "company_id": "co:full_legal_name:9351c612ed44f774c50d6deec06a3ef6",
+    "day": "2025-12-22",
+    "source": "https://www.qcc.com/firm/86cabf9ecd1e42480ebd7a80faa92c66.html",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"商汤国香资本\",\"role\":null,\"amount\":null},{\"name\":\"基石资本\",\"role\":null,\"amount\":null},{\"name\":\"天空工场创投基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"绍兴市追觅生态股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"安徽成唐数智创意股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"芜湖基石先启未来创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
