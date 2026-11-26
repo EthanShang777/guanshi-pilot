@@ -197,5 +197,28 @@
       "https://newsroom.kurlycorp.com/behind-kurly-10th-imc/",
       "https://newsroom.kurlycorp.com/kurly-naver-kurlynmart/"
     ]
+  },
+  "888a0cd2a18b7f4584d8d8aa": {
+    "name": "MUSINSA",
+    "registeredName": "주식회사 무신사",
+    "aliases": [
+      "MUSINSA Co., Ltd.",
+      "무신사"
+    ],
+    "sources": [
+      "https://trust.musinsa.com/about",
+      "https://about.musinsa.com/newsroom/musinsa-ceo"
+    ]
+  },
+  "79b174eb7be8e9a67496700e": {
+    "name": "Beam Therapeutics",
+    "registeredName": "Beam Therapeutics Inc.",
+    "aliases": [
+      "NASDAQ:BEAM"
+    ],
+    "sources": [
+      "https://www.sec.gov/edgar/browse/?CIK=0001745999&owner=exclude",
+      "https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-announces-closing-initial-public-offering"
+    ]
   }
 }
