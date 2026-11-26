@@ -1461,5 +1461,384 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "51d0ced93725f292a88367ed",
+    "fundName": "浙江富浙富创股权投资合伙企业（有限合伙）",
+    "managerName": "浙江富浙私募基金管理有限公司",
+    "managerId": "b92ec39a81a768c2706ea64e",
+    "sizeCny": 3045000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2024-02-20/1219142980.PDF",
+      "date": "2024-02-20",
+      "dateKind": "上市公司公告日",
+      "issuer": "阳光电源",
+      "pages": "第4至5页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-06-27/1217138480.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf"
+      ],
+      "lpScope": "公告披露8家LP和1家GP；后续法律意见核管理人。",
+      "generalPartners": [
+        {
+          "name": "浙江富浙股权投资基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "浙江富浙资本管理有限公司",
+        "disclosedContributionCny": 1200000000,
+        "disclosedPercent": "39.41",
+        "existingInstitution": "65ebdf1a53ebc6c413c8210b"
+      },
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 525000000,
+        "disclosedPercent": "17.24",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "丽水市高质量绿色发展产业基金有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "16.42",
+        "existingInstitution": "b708ac66a65b748f6c1cfe34"
+      },
+      {
+        "name": "丽水市绿色产业发展基金有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "9.85",
+        "existingInstitution": "1bfb141b25be1da79a905479"
+      },
+      {
+        "name": "松阳县国有资本投资运营集团有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "9.85",
+        "existingInstitution": "bfa45899143c843835edeb82"
+      },
+      {
+        "name": "丽水市富处股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.28",
+        "existingInstitution": "8dc3cb88534b379edb34d5d1"
+      },
+      {
+        "name": "浙江浙盐控股有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.28",
+        "existingInstitution": "991ba817e1c5a3168cf66999"
+      },
+      {
+        "name": "杭州富浙善能企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "0.33",
+        "existingInstitution": "49315f5ba8c7b0895a86c8c8"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "fe5f1db6af0a39a786f93891",
+    "fundName": "苏州济峰三号股权投资合伙企业（有限合伙）",
+    "managerName": "萍乡济峰私募基金管理合伙企业（有限合伙）",
+    "managerId": "df360604284cd8c35404d26b",
+    "sizeCny": 912550000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202412181641345707_1.pdf",
+      "date": "2024-12-18",
+      "dateKind": "股转说明书披露日",
+      "issuer": "爱思益普",
+      "pages": "第24至25页",
+      "lpSources": [
+        "https://www.bse.cn/disclosure/2026/2026-06-24/7c2a870f94774674914bac8ff8de13c0.pdf",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6916703&stockid=300677"
+      ],
+      "lpScope": "历史披露26家LP和1家GP，2026年招股书交叉复核主体。",
+      "generalPartners": [
+        {
+          "name": "萍乡晋坤兆余投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 12651000
+        }
+      ],
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202412181641345707_1.pdf",
+        "date": "2024-12-18",
+        "dateKind": "实缴情形披露日",
+        "partners": [
+          {
+            "name": "山东英科医疗制品有限公司",
+            "paidCny": 101000000
+          },
+          {
+            "name": "上海张江科技创业投资有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+            "paidCny": 100000000
+          },
+          {
+            "name": "亳州市康安投资基金有限公司",
+            "paidCny": 75000000
+          },
+          {
+            "name": "宁波泓宁亨泰慈牛永和企业管理合伙企业",
+            "paidCny": 50000000
+          },
+          {
+            "name": "潍坊元一乃服股权投资管理合伙企业（有限合伙）",
+            "paidCny": 40000000
+          },
+          {
+            "name": "无锡建联恒稳创业投资合伙企业（有限合伙）",
+            "paidCny": 40000000
+          },
+          {
+            "name": "厦门建发新兴产业融合发展创业投资壹期合伙企业（有限合伙）",
+            "paidCny": 40000000
+          },
+          {
+            "name": "长三角协同优势产业股权投资合伙企业（有限合伙）",
+            "paidCny": 36499000
+          },
+          {
+            "name": "泰安明晟创业投资合伙企业（有限合伙）",
+            "paidCny": 33600000
+          },
+          {
+            "name": "三亚思其智擎投资中心（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "义乌惠商紫荆二期投资合伙企业（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "上海海辛实业有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "平阳荣陵股权投资合伙企业（有限合伙）",
+            "paidCny": 28800000
+          },
+          {
+            "name": "苏州国发苏创知识产权投资企业（有限合伙）",
+            "paidCny": 20000000
+          },
+          {
+            "name": "珠海歌斐云贝股权投资基金（有限合伙）",
+            "paidCny": 20000000
+          },
+          {
+            "name": "三亚启迪远思投资中心（有限合伙）",
+            "paidCny": 19530000
+          },
+          {
+            "name": "三亚致远丰易投资中心（有限合伙）",
+            "paidCny": 18630000
+          },
+          {
+            "name": "三亚启迪旭日投资中心（有限合伙）",
+            "paidCny": 15790000
+          },
+          {
+            "name": "上海德秉投资合伙企业（有限合伙）",
+            "paidCny": 15000000
+          },
+          {
+            "name": "三亚致远易达投资中心（有限合伙）",
+            "paidCny": 11370000
+          },
+          {
+            "name": "三亚启迪昌盛投资中心（有限合伙）",
+            "paidCny": 10470000
+          },
+          {
+            "name": "苏州国发新创产业参号投资企业（有限合伙）",
+            "paidCny": 10000000
+          },
+          {
+            "name": "芜湖歌斐泽均投资中心（有限合伙）",
+            "paidCny": 10000000
+          },
+          {
+            "name": "三亚启迪百利投资中心（有限合伙）",
+            "paidCny": 9210000
+          },
+          {
+            "name": "宁波梅山保税港区沣汇投资合伙企业（有限合伙）",
+            "paidCny": 5000000
+          },
+          {
+            "name": "萍乡晋坤兆余投资管理合伙企业（有限合伙）",
+            "paidCny": 12651000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "山东英科医疗制品有限公司",
+        "disclosedContributionCny": 101000000,
+        "disclosedPercent": "11.07",
+        "existingInstitution": "1446c99a8ffc18f36a56a448"
+      },
+      {
+        "name": "上海张江科技创业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "10.96",
+        "existingInstitution": "553086d16e6e76057585ada6"
+      },
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "10.96",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "亳州市康安投资基金有限公司",
+        "disclosedContributionCny": 75000000,
+        "disclosedPercent": "8.22",
+        "existingInstitution": "1f45fa90160e11f3cf6bbee1"
+      },
+      {
+        "name": "宁波泓宁亨泰慈牛永和企业管理合伙企业",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "5.48",
+        "existingInstitution": "c7b9fdcce8bbb278200612ab"
+      },
+      {
+        "name": "潍坊元一乃服股权投资管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "4.38",
+        "existingInstitution": "74fe68fbd45c97afc05ea2f6"
+      },
+      {
+        "name": "无锡建联恒稳创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "4.38",
+        "existingInstitution": "2fcbfdebf9146844c0226205"
+      },
+      {
+        "name": "厦门建发新兴产业融合发展创业投资壹期合伙企业（有限合伙）",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "4.38",
+        "existingInstitution": "562930737170af47921c0f5a"
+      },
+      {
+        "name": "长三角协同优势产业股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 36499000,
+        "disclosedPercent": "4.00",
+        "existingInstitution": "d4bc72a7f458a4024726b2a2"
+      },
+      {
+        "name": "泰安明晟创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 33600000,
+        "disclosedPercent": "3.68",
+        "existingInstitution": "8ab24da2470b636c70bc34f6"
+      },
+      {
+        "name": "三亚思其智擎投资中心（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "3.29",
+        "existingInstitution": "4d4044d9dce41daa59306193"
+      },
+      {
+        "name": "义乌惠商紫荆二期投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "3.29",
+        "existingInstitution": "b8bf2329f8f41f3d3ed21420"
+      },
+      {
+        "name": "上海海辛实业有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "3.29",
+        "existingInstitution": "a39a2d6669c3db4d770e6867"
+      },
+      {
+        "name": "平阳荣陵股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 28800000,
+        "disclosedPercent": "3.16",
+        "existingInstitution": "8ce6b30c9cf602a4b0864084"
+      },
+      {
+        "name": "苏州国发苏创知识产权投资企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "2.19",
+        "existingInstitution": "fbf460602f065c47f88d5446"
+      },
+      {
+        "name": "珠海歌斐云贝股权投资基金（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "2.19",
+        "existingInstitution": "5a7ec753be0d92ea666fd397"
+      },
+      {
+        "name": "三亚启迪远思投资中心（有限合伙）",
+        "disclosedContributionCny": 19530000,
+        "disclosedPercent": "2.14",
+        "existingInstitution": "bba42e2b7ceb8e5f539be469"
+      },
+      {
+        "name": "三亚致远丰易投资中心（有限合伙）",
+        "disclosedContributionCny": 18630000,
+        "disclosedPercent": "2.04",
+        "existingInstitution": "2dd1d23f80fbd38948ffe14a"
+      },
+      {
+        "name": "三亚启迪旭日投资中心（有限合伙）",
+        "disclosedContributionCny": 15790000,
+        "disclosedPercent": "1.73",
+        "existingInstitution": "336c6029ecfb589e5f29b9f9"
+      },
+      {
+        "name": "上海德秉投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "1.64",
+        "existingInstitution": "63d9679448c9e093a0f68a49"
+      },
+      {
+        "name": "三亚致远易达投资中心（有限合伙）",
+        "disclosedContributionCny": 11370000,
+        "disclosedPercent": "1.25",
+        "existingInstitution": "c717be7aaed26130d483598b"
+      },
+      {
+        "name": "三亚启迪昌盛投资中心（有限合伙）",
+        "disclosedContributionCny": 10470000,
+        "disclosedPercent": "1.15",
+        "existingInstitution": "c7a6df0a93f0985a51cc9723"
+      },
+      {
+        "name": "苏州国发新创产业参号投资企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "1.10",
+        "existingInstitution": "534ecda947f83b27e882497e"
+      },
+      {
+        "name": "芜湖歌斐泽均投资中心（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "1.10",
+        "existingInstitution": "a9b6888b942846b064d56817"
+      },
+      {
+        "name": "三亚启迪百利投资中心（有限合伙）",
+        "disclosedContributionCny": 9210000,
+        "disclosedPercent": "1.01",
+        "existingInstitution": "07a6a9132d09aac2dbe6ce5f"
+      },
+      {
+        "name": "宁波梅山保税港区沣汇投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "0.55",
+        "existingInstitution": "83b109dc1e07702e0197b4ce"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

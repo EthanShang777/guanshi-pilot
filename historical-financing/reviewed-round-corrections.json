@@ -4552,5 +4552,21 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"上海力合算芯人工智能产业创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京百敖软件有限公司\",\"role\":null,\"amount\":null},{\"name\":\"深圳力合泓鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "public:historical-disclosure:65c41cc50d57b5a0da0b5ba",
+    "company_id": "co:cn_uscc:b5852199b936f810df51bb82ad2c40c8",
+    "day": "2023-06-21",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF",
+    "expected": {
+      "round": "B轮",
+      "amount": "16.5亿元人民币",
+      "investors_json": "[{\"name\":\"无锡国寿成达股权投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"建信领航战略性新兴产业发展基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"重庆制造业转型升级私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"恩泽海河（天津）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"宁波华淳投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"宁波华淳保信股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "16.5亿元人民币",
+      "investors_json": "[{\"name\":\"无锡国寿成达股权投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":70000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":60000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"建信领航战略性新兴产业发展基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"重庆制造业转型升级私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"恩泽海河（天津）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"宁波华淳投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"宁波华淳保信股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}}]"
+    }
   }
 ]
