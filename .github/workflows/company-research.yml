@@ -11,6 +11,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Ensure approved workers.dev subdomain
+        env:
+          CF_TOKEN: ${{ secrets.GUANSHI_WORKERS_TOKEN }}
+          CF_ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          python3 - <<'PYTHON'
+          import json, os, urllib.request, urllib.error
+          url = "https://api.cloudflare.com/client/v4/accounts/" + os.environ["CF_ACCOUNT"] + "/workers/subdomain"
+          headers = {"Authorization": "Bearer " + os.environ["CF_TOKEN"], "Content-Type": "application/json"}
+          def call(method, body=None):
+              request = urllib.request.Request(url, data=body, headers=headers, method=method)
+              try:
+                  response = urllib.request.urlopen(request)
+              except urllib.error.HTTPError as error:
+                  response = error
+              return json.load(response)
+          current = call("GET")
+          name = (current.get("result") or {}).get("subdomain")
+          if name and name != "guanshi-pilot":
+              raise SystemExit("Existing subdomain differs")
+          if not name:
+              if not current.get("success") and not any(e.get("code") in (10007, 10090) for e in current.get("errors", [])):
+                  raise SystemExit(current.get("errors"))
+              result = call("PUT", b'{"subdomain":"guanshi-pilot"}')
+              if not result.get("success"):
+                  raise SystemExit(result.get("errors"))
+          PYTHON
       - name: Deploy research Worker
         working-directory: research-worker
         env:
