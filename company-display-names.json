@@ -4416,5 +4416,85 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2024-09-27/1221313870.PDF"
     ]
+  },
+  "603a39ed870d7b73bf6171b7": {
+    "name": "梦创双杨",
+    "registeredName": "上海梦创双杨数据科技股份有限公司",
+    "aliases": [
+      "梦创双杨数据"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202303/001715_20230303_F3V3.pdf"
+    ]
+  },
+  "4c1fd9cf3690e02a6c0f3239": {
+    "name": "电科蓝天",
+    "registeredName": "中电科蓝天科技股份有限公司",
+    "aliases": [
+      "中电科能源有限公司",
+      "中电科蓝天"
+    ],
+    "sources": [
+      "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1c078c9dab51185398d42eda6482148e.pdf"
+    ]
+  },
+  "db2ac25edabcb660b1a0dd79": {
+    "name": "国华卫星数据",
+    "registeredName": "国华卫星数据科技有限公司",
+    "aliases": [
+      "甘肃上航电力运维有限公司",
+      "上航电力",
+      "国华卫星数据科技"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4500507&stockid=600151"
+    ]
+  },
+  "ea6a486701e883ae494e5a54": {
+    "name": "中核西仪",
+    "registeredName": "西安中核核仪器股份有限公司",
+    "aliases": [
+      "西安中核核仪器有限公司",
+      "西仪有限"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202209/001337_20220929_DWZX.pdf"
+    ]
+  },
+  "0f7b5e7bfa770773e4fa3fc9": {
+    "name": "上海复材",
+    "registeredName": "上海复合材料科技有限公司",
+    "aliases": [
+      "上海复合材料"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN201904111318338610_1.pdf"
+    ]
+  },
+  "f832a8a8c2ce97aa352dd423": {
+    "name": "神舟新能源",
+    "registeredName": "上海神舟新能源发展有限公司",
+    "aliases": [],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN201904111318338610_1.pdf"
+    ]
+  },
+  "0c9d8074edcaf5ca4d0b54fd": {
+    "name": "上海太阳能科技",
+    "registeredName": "上海太阳能科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN201904111318338610_1.pdf"
+    ]
+  },
+  "058f104aab35f6c10d61982a": {
+    "name": "克莱特",
+    "registeredName": "威海克莱特菲尔风机股份有限公司",
+    "aliases": [
+      "克莱特风机"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8093476&stockid=920689"
+    ]
   }
 }

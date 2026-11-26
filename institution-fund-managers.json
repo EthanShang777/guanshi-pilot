@@ -2740,5 +2740,17 @@
   "中金启辰（苏州）新兴产业股权投资基金合伙企业（有限合伙）": {
     "brand": "中金资本运营有限公司",
     "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9587067&stockid=688648"
+  },
+  "江苏航天创新专利投资中心（有限合伙）": {
+    "brand": "航天高新（镇江）创业投资管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202303/001715_20230303_F3V3.pdf"
+  },
+  "融核产业发展基金（海盐）合伙企业（有限合伙）": {
+    "brand": "中核产业基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222322681.pdf"
+  },
+  "中核（浙江）新兴产业股权投资基金（有限合伙）": {
+    "brand": "中核产业基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222322681.pdf"
   }
 }

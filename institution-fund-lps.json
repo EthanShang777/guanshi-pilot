@@ -13165,5 +13165,181 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "d48a9dcda31e920c61ba5f90",
+    "fundName": "江苏航天创新专利投资中心（有限合伙）",
+    "managerName": "航天高新（镇江）创业投资管理有限公司",
+    "managerId": "ccff4550f299079a63212226",
+    "sizeCny": 1385000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202303/001715_20230303_F3V3.pdf",
+      "date": "2023-03-03",
+      "dateKind": "公开文件披露日",
+      "issuer": "梦创双杨招股说明书",
+      "pages": "第1-1-50页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-02-05/1224967419.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-01-29/1224954937.PDF"
+      ],
+      "lpScope": "六名LP和一名GP，认缴与实缴均为13.85亿元，按2023年文件所列。",
+      "generalPartners": [
+        {
+          "name": "航天高新（镇江）创业投资管理有限公司",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "managerLegalName": "航天高新（镇江）创业投资管理有限公司",
+      "fundRegistration": "SM0199",
+      "managerRegistration": "P1001173",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202303/001715_20230303_F3V3.pdf",
+        "date": "2023-03-03",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 1385000000
+      },
+      "lifecycleDisclosure": {
+        "asOf": "2026-02-05",
+        "state": "清算期",
+        "termEnd": "2025-04-25",
+        "source": "https://static.cninfo.com.cn/finalpage/2026-02-05/1224967419.PDF"
+      }
+    },
+    "partners": [
+      {
+        "name": "国创投资引导基金（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 72.2,
+        "existingInstitution": "26bc58676058d01c5216db5d"
+      },
+      {
+        "name": "航天投资控股有限公司",
+        "disclosedContributionCny": 110000000,
+        "disclosedPercent": 7.94,
+        "existingInstitution": "29f269aae7ca3b0c875911d3"
+      },
+      {
+        "name": "北京汽车集团产业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 7.22,
+        "existingInstitution": "203d0b5a24c98ac507bce2f9"
+      },
+      {
+        "name": "镇江国有投资控股集团有限公司",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 5.78,
+        "existingInstitution": "6b9f4e61d90cab6b9b945a6f"
+      },
+      {
+        "name": "北京鞍钢投资有限公司",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 5.05,
+        "existingInstitution": "e9613b7867bba6ea9eb1142a"
+      },
+      {
+        "name": "镇江市润州区新农村发展实业有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 1.44,
+        "existingInstitution": "edcd506caf59cc8b2e73f2a6"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "8d4e2be69ab3e8bb80dd5eae",
+    "fundName": "融核产业发展基金（海盐）合伙企业（有限合伙）",
+    "managerName": "中核产业基金管理有限公司",
+    "managerId": "28172391cfe65fbcdc406322",
+    "sizeCny": 420000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222322681.pdf",
+      "date": "2025-01-14",
+      "dateKind": "公开文件披露日",
+      "issuer": "中核科技关联交易预案",
+      "pages": "第51—52页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202209/001337_20220929_DWZX.pdf",
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2022/2022-1/2022-01-13/7787131.PDF"
+      ],
+      "lpScope": "三名LP和一名GP，认缴4.2亿元。2022年早期文件载管理人为核建产业基金管理有限公司。",
+      "generalPartners": [
+        {
+          "name": "中核产业基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "中核产业基金管理有限公司",
+      "fundRegistration": "SW1885",
+      "creditCode": "91330424MA29G4LD7M"
+    },
+    "partners": [
+      {
+        "name": "国华军民融合产业发展基金（有限合伙）",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 59.52,
+        "existingInstitution": "1541e08033d1343e990d178a"
+      },
+      {
+        "name": "新余农银智盈投资管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 35.71,
+        "existingInstitution": "7eb78eb44e37247ab42e00ed"
+      },
+      {
+        "name": "海盐中国核电城投资开发有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2.38,
+        "existingInstitution": "4d69eada36e1034535cc1574"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "4e7b2edc8a0af3f60ba74889",
+    "fundName": "中核（浙江）新兴产业股权投资基金（有限合伙）",
+    "managerName": "中核产业基金管理有限公司",
+    "managerId": "28172391cfe65fbcdc406322",
+    "sizeCny": 2001000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222322681.pdf",
+      "date": "2025-01-14",
+      "dateKind": "公开文件披露日",
+      "issuer": "中核科技关联交易预案",
+      "pages": "第53页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202209/001337_20220929_DWZX.pdf"
+      ],
+      "lpScope": "两名LP和一名GP，认缴20.01亿元。",
+      "generalPartners": [
+        {
+          "name": "中核产业基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "中核产业基金管理有限公司",
+      "creditCode": "91331102MA2E21EQ91"
+    },
+    "partners": [
+      {
+        "name": "丽水市金融投资控股有限责任公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 49.975,
+        "existingInstitution": "43067caf91ee8c5b11ec42d4"
+      },
+      {
+        "name": "中国核工业集团资本控股有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 49.975,
+        "existingInstitution": "dd04503f76264343369d03f0"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
