@@ -41,5 +41,29 @@
     },
     "source": "https://www.cmccap.com/en/news/detail/430",
     "compared_source": "https://static.cninfo.com.cn/finalpage/2026-06-30/1225396258.PDF"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1a1e1222fdf7e1b9373a60",
+      "company_id": "co:full_legal_name:900cc4f832b44d4047cfffd34f20cfd3"
+    },
+    "existing": {
+      "event_id": "financing_event:5c5b3353ebc61a7edd2bad366623eaf387754c0bc1976510efb87a28b92fb42f",
+      "company_id": "co:full_legal_name:900cc4f832b44d4047cfffd34f20cfd3"
+    },
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf#page=103",
+    "compared_source": "https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf#page=100"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:112a08e60ac55f561f35eb",
+      "company_id": "co:full_legal_name:4b4cc04b3dd18f026c13009bbeddefc9"
+    },
+    "existing": {
+      "event_id": "cv:flash:90300",
+      "company_id": ""
+    },
+    "source": "https://www.chinaventure.com.cn/news/114-20261126-394199.html",
+    "compared_source": "https://www.chinaventure.com.cn/flash/20261126-90300.html"
   }
 ]

@@ -3497,5 +3497,199 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"临港前沿投资\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"南京峰岭\",\"role\":null,\"amount\":null},{\"name\":\"国投招商\",\"role\":null,\"amount\":null},{\"name\":\"国科兴和\",\"role\":null,\"amount\":null},{\"name\":\"永鑫方舟\",\"role\":null,\"amount\":null},{\"name\":\"纽尔利资本\",\"role\":null,\"amount\":null},{\"name\":\"中新苏州工业园区创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002188_20260515_SNA9.pdf\"}}]"
     }
+  },
+  {
+    "event_id": "financing_event:39e131e9795f672d44da09f015237b3bd4dee8a0b2f82e0a6a9a901f0a60352b",
+    "company_id": "co:full_legal_name:900cc4f832b44d4047cfffd34f20cfd3",
+    "day": "2021-12-21",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"远东宏信\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-21",
+      "date_key": "2021-12-21",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "158,625,000元",
+      "investors_json": "[{\"name\":\"唐众\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4500000000,\"basis\":\"实际出资\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf\"}},{\"name\":\"上海景屹企业管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2362500000,\"basis\":\"实际出资\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf\"}},{\"name\":\"鲁港新动能有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":9000000000,\"basis\":\"实际出资\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf\"}}]",
+      "date": "2021-12",
+      "date_key": "2021-12-01",
+      "date_kind": "招股书披露完成月份"
+    },
+    "additional_sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/cc667953402f57336e751318ab47263a.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:b6b2f68ce62b3f8e41826828fd6fe7ef4012a99191112b8f19b261542976b7e2",
+    "company_id": "co:full_legal_name:900cc4f832b44d4047cfffd34f20cfd3",
+    "day": "2022-05-26",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中金浦成\",\"role\":null,\"amount\":null},{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"前海母基金\",\"role\":null,\"amount\":null},{\"name\":\"华宸资本\",\"role\":null,\"amount\":null},{\"name\":\"国投招商\",\"role\":null,\"amount\":null},{\"name\":\"山东港口\",\"role\":null,\"amount\":null},{\"name\":\"山东高速\",\"role\":null,\"amount\":null},{\"name\":\"建银国际\",\"role\":null,\"amount\":null},{\"name\":\"航天投资\",\"role\":null,\"amount\":null},{\"name\":\"远东宏信\",\"role\":null,\"amount\":null},{\"name\":\"锦岳资本\",\"role\":null,\"amount\":null},{\"name\":\"陆海联动基金\",\"role\":null,\"amount\":null}]",
+      "date": "2022-05-26",
+      "date_key": "2022-05-26",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "210,000,000元",
+      "investors_json": "[{\"name\":\"前海股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":11586207150,\"basis\":\"转让对价\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf\"}},{\"name\":\"齐鲁前海（青岛）创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4887930600,\"basis\":\"转让对价\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf\"}},{\"name\":\"中原前海股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2715517350,\"basis\":\"转让对价\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf\"}},{\"name\":\"前海方舟资产管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1810344900,\"basis\":\"转让对价\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf\"}}]",
+      "date": "2022-05-25",
+      "date_key": "2022-05-25",
+      "date_kind": "招股书披露作价结算日"
+    }
+  },
+  {
+    "event_id": "financing_event:5c5b3353ebc61a7edd2bad366623eaf387754c0bc1976510efb87a28b92fb42f",
+    "company_id": "co:full_legal_name:900cc4f832b44d4047cfffd34f20cfd3",
+    "day": "2024-12-20",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"吉富创投\",\"role\":null,\"amount\":null},{\"name\":\"浙江产投\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-20",
+      "date_key": "2024-12-20",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "149,949,900元",
+      "investors_json": "[{\"name\":\"浙江富浙富创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":14994990000,\"basis\":\"转让对价\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf\"}}]",
+      "date": "2024-12-20",
+      "date_key": "2024-12-20",
+      "date_kind": "招股书披露作价结算日"
+    }
+  },
+  {
+    "event_id": "registry:417",
+    "company_id": "co:cn_uscc:467b467ec24e33b8ec084a21439c5973",
+    "day": "2022-12-30",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "2.8681亿元",
+      "investors_json": "[{\"name\":\"先进制造产业投资基金二期（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"海南云锋基金中心（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-30",
+      "date_key": "2022-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "30亿元",
+      "investors_json": "[{\"name\":\"阿里巴巴（中国）网络技术有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":167171240300,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}},{\"name\":\"嘉兴瑞佳股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":104147716700,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}},{\"name\":\"先进制造产业投资基金二期（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":19120695100,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}},{\"name\":\"海南云锋基金中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":9560347900,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}}]",
+      "date": "2021-07-14",
+      "date_key": "2021-07-14",
+      "date_kind": "首次公开披露日，最后付款2022-12-30"
+    },
+    "additional_sources": [
+      "https://www.alios.cn/about"
+    ]
+  },
+  {
+    "event_id": "registry:416",
+    "company_id": "co:cn_uscc:467b467ec24e33b8ec084a21439c5973",
+    "day": "2023-05-04",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "4.5亿元",
+      "investors_json": "[{\"name\":\"上海国和斑际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥国寿碳峰碳中一期股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"国寿（深圳）科技创新私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "4.5亿元",
+      "investors_json": "[{\"name\":\"上海国和斑际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":30000000000,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}},{\"name\":\"国寿（深圳）科技创新私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}},{\"name\":\"合肥国寿碳峰碳中一期股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}}]"
+    }
+  },
+  {
+    "event_id": "registry:415",
+    "company_id": "co:cn_uscc:467b467ec24e33b8ec084a21439c5973",
+    "day": "2023-09-13",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "2.5亿元",
+      "investors_json": "[{\"name\":\"上海国和斑际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京市一汽创新基金投资管理中心（有限合伙）\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "2.5亿元",
+      "investors_json": "[{\"name\":\"南京市一汽创新基金投资管理中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":15000000000,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}},{\"name\":\"上海国和斑际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"实际出资\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf\"}}]"
+    }
+  },
+  {
+    "event_id": "registry:414",
+    "company_id": "co:cn_uscc:467b467ec24e33b8ec084a21439c5973",
+    "day": "2023-09-27",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海国和斑际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京市一汽创新基金投资管理中心（有限合伙）\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海国和斑际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京市一汽创新基金投资管理中心（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8d816a0630fb4565afb04187f927fc52e9d2e278b6f16c3891116fd318a379b0",
+    "company_id": "co:full_legal_name:a43a6f3817f2a498745edf542c562e14",
+    "day": "2026-10-15",
+    "source": "https://www.cls.cn/detail/2495640",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "近6亿人民币",
+      "investors_json": "[{\"name\":\"东方嘉富\",\"role\":null,\"amount\":null},{\"name\":\"中信建投资本\",\"role\":null,\"amount\":null},{\"name\":\"中比基金\",\"role\":null,\"amount\":null},{\"name\":\"中芯聚源\",\"role\":null,\"amount\":null},{\"name\":\"前海母基金\",\"role\":null,\"amount\":null},{\"name\":\"华安嘉业\",\"role\":null,\"amount\":null},{\"name\":\"招银国际资本\",\"role\":null,\"amount\":null},{\"name\":\"沃赋创投\",\"role\":null,\"amount\":null},{\"name\":\"皖能电力\",\"role\":null,\"amount\":null},{\"name\":\"西高投\",\"role\":null,\"amount\":null},{\"name\":\"银杏谷资本\",\"role\":null,\"amount\":null},{\"name\":\"锦聚投资\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-15",
+      "date_key": "2026-10-15",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "近6亿元",
+      "investors_json": "[{\"name\":\"东方嘉富\",\"role\":null,\"amount\":null},{\"name\":\"中信建投资本\",\"role\":null,\"amount\":null},{\"name\":\"中比基金\",\"role\":null,\"amount\":null},{\"name\":\"中芯聚源\",\"role\":null,\"amount\":null},{\"name\":\"前海母基金\",\"role\":null,\"amount\":null},{\"name\":\"华安嘉业\",\"role\":null,\"amount\":null},{\"name\":\"招银国际资本\",\"role\":null,\"amount\":null},{\"name\":\"沃赋创投\",\"role\":null,\"amount\":null},{\"name\":\"西高投\",\"role\":null,\"amount\":null},{\"name\":\"银杏谷资本\",\"role\":null,\"amount\":null},{\"name\":\"锦聚投资\",\"role\":null,\"amount\":null},{\"name\":\"安徽省皖能资本投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"合肥高投\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":12000000000,\"basis\":\"实际出资\",\"source\":\"https://ah.people.com.cn/n2/2026/1009/c374164-41717222.html\"}}]",
+      "date": "2026-09-29",
+      "date_key": "2026-09-29",
+      "date_kind": "最早已核实的公开报道日"
+    },
+    "additional_sources": [
+      "https://ah.people.com.cn/n2/2026/1009/c374164-41717222.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:e985bd3aefaa76002d906413fcd8ba3bad0e229b1cd665df932888f598fbddbe",
+    "company_id": "co:full_legal_name:b33ff74acf47a0088bd26e828cf0222d",
+    "day": "2026-02-11",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225626387.PDF",
+    "expected": {
+      "round": "C轮",
+      "amount": "2亿人民币",
+      "investors_json": "[{\"name\":\"亿合投资\",\"role\":null,\"amount\":null},{\"name\":\"新恒汇\",\"role\":null,\"amount\":null}]",
+      "date": "2026-02-11",
+      "date_key": "2026-02-11",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B++轮",
+      "amount": "5.7亿元",
+      "investors_json": "[{\"name\":\"新恒汇电子股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-10-27/1225626387.PDF\"}},{\"name\":\"淄博市齐创产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-10-27/1225626387.PDF\"}},{\"name\":\"淄博财金高创股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"山东省鲁新工业高质量发展基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"济南科金居实创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥冯源仁芯股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-27",
+      "date_key": "2026-10-27",
+      "date_kind": "完成公告日，新恒汇10月26日付清"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-02-12/1224978038.PDF",
+      "https://vc.pedaily.cn/invest/f2747-b2842-y2026-c1191-s315",
+      "https://static.cninfo.com.cn/finalpage/2023-10-25/1218136822.PDF"
+    ]
   }
 ]

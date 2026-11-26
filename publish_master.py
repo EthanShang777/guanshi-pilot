@@ -154,8 +154,8 @@ def build(rows, fund_facts=()):
             raise ValueError(f'Reviewed deal redirect before merge correction: {key}')
         urls=[u for u in json.loads(row['sources_json'] or '[]') if isinstance(u,str) and urlsplit(u).scheme in ('http','https')]
         c=entity(companies,'company',row['company_id'] or row['event_id'],row['company_name'])
-        country=row.get('country') or ''
         area,city=locations.get(row['company_id'] or row['event_id'],('',''))
+        country=row.get('country') or area
         display=country
         if country=='中国' and area=='中国' and city:
             display=city
