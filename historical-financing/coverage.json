@@ -8263,6 +8263,116 @@
         "博涛2025年6月老股": "9ced7568d41c20d7dacf5194"
       },
       "batch": "2026-11-27-chaoxing-network-162.csv"
+    },
+    {
+      "institution": "上海智越投资管理有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "上海智越旗下基金、湘潭电化及湖南裕能；博涛共同投资的宝武绿碳、中集醇科、盛龙和赛力斯",
+      "sources": [
+        "https://top.qcc.com/tc/f222bbeba47e.html",
+        "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+        "https://finance.sina.com.cn/stock/t/2016-01-19/doc-ifxnrahr8493225.shtml",
+        "https://epaper.stcn.com/paper/zqsb/page/1/2015-04/28/B059/20150428B059_pdf.pdf",
+        "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-015226/0001558370-23-015226.pdf",
+        "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-008540/tmb-20230331x10q.htm",
+        "https://www.vbdata.cn/companyDetail/3d7240d41c6ecf3da028503b46827bd0",
+        "https://static.cninfo.com.cn/finalpage/2024-06-28/1220506942.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202406281637021559_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-05-21/1223629464.PDF",
+        "https://dataclouds.cninfo.com.cn/sjother2/documents/2025/20251114/eed5dd290f61432aabe5205a7d7faa84.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+        "https://www.bse.cn/disclosure/2026/2026-06-26/d0c126495888497689a588f121b91a48.pdf"
+      ],
+      "notes": {
+        "followup_sources": [
+          "https://top.qcc.com/tc/f222bbeba47e.html",
+          "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+          "https://finance.sina.com.cn/stock/t/2016-01-19/doc-ifxnrahr8493225.shtml",
+          "https://epaper.stcn.com/paper/zqsb/page/1/2015-04/28/B059/20150428B059_pdf.pdf",
+          "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-015226/0001558370-23-015226.pdf",
+          "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-008540/tmb-20230331x10q.htm",
+          "https://www.vbdata.cn/companyDetail/3d7240d41c6ecf3da028503b46827bd0",
+          "https://static.cninfo.com.cn/finalpage/2024-06-28/1220506942.PDF",
+          "https://pdf.dfcfw.com/pdf/H2_AN202406281637021559_1.pdf",
+          "https://static.cninfo.com.cn/finalpage/2025-05-21/1223629464.PDF",
+          "https://dataclouds.cninfo.com.cn/sjother2/documents/2025/20251114/eed5dd290f61432aabe5205a7d7faa84.pdf",
+          "https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF",
+          "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+          "https://www.bse.cn/disclosure/2026/2026-06-26/d0c126495888497689a588f121b91a48.pdf"
+        ],
+        "caveats": [
+          "艾米能斯2021年约600万美元增资以及2022年约1780万美元股权出售由SEC申报确认；2020年47.6%初次交易是约980万美元净现金口径，资金与交易结构待核。工商股东变化未被直接等同于B轮。",
+          "湘潭电化6.2333556亿元定增已验资。历史法律和上市概要对部分逐家获配披露有差异，先保留七家名称和募集总额。",
+          "湖南裕能设立时7000万元为货币认缴，另有非现金作价。2017年8月津晟增资、老股与当年12月另一轮增资三者分开。",
+          "赛力斯原先3月增资上限、12月首批及6月到账合计分别曾列三条，以发行人同轮结论为准。两条旧链接转正式整轮详情。",
+          "宝武绿碳认缴101.457亿元，2023年末实缴71.0319亿元另记历史快照；当前可投余额仍需独立披露。"
+        ],
+        "jiaxingTianyong": {
+          "name": "嘉兴天雍股权投资合伙企业（有限合伙）",
+          "legalId": "91330402MA28BJEK2A",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+          "pages": "第21至22页",
+          "amountCny": 51500000,
+          "executivePartner": "上海雍涵投资管理有限公司",
+          "disclosedPartnerContributionsWan": [
+            [
+              "肖万明",
+              1200
+            ],
+            [
+              "上海芫润企业管理中心（有限合伙）",
+              1080
+            ],
+            [
+              "孙奕阳",
+              970
+            ],
+            [
+              "许惊鸿",
+              500
+            ],
+            [
+              "童剑峰",
+              500
+            ],
+            [
+              "宁波芯可智股权投资合伙企业（有限合伙）",
+              500
+            ],
+            [
+              "章冰",
+              300
+            ],
+            [
+              "上海雍涵投资管理有限公司",
+              100
+            ]
+          ],
+          "scope": "挂牌法律意见核认缴及工商合伙人；尚缺私募备案与外部组合完整清单。已披露2025年3月退出博涛。"
+        }
+      },
+      "events": {
+        "湖南裕能设立时外部认缴": "1f38ae96ebcb9b0b322ab711",
+        "湖南裕能津晟增资": "f5322b99d7bd62cdd7782cbe",
+        "湖南裕能津晟老股": "3e187ec51f09b97a33ac7a11",
+        "湖南裕能2017现金增资": "3ebf2d1d867c46500cc5d310",
+        "湖南裕能首发": "d255b4ff0554091e0cdf4a5d",
+        "湖南裕能2026定增": "2c0216a7ea175dfec69e7edb",
+        "湘潭电化2016定增": "d355661d33170227dc50ae9d",
+        "艾米能斯2021增资": "9943ab7ebc54076b7d142a7d",
+        "艾米能斯2022老股": "23621e55ef901352fade7484",
+        "中集醇科中信增资": "adadaa73d88e72312625f5cf",
+        "中集醇科宝武增资": "76e0f255747c5b99fc37cf84",
+        "盛龙股份战略增资": "14261a75a4545e49cb01ecaa",
+        "盛龙股份首发": "e8178a389bd2432ab2b1128c",
+        "赛力斯整轮战略增资": "f73e5943749dd3acafa46277"
+      },
+      "retired_deal_redirects": {
+        "7dc3fc0b361d89b30a39b416": "f73e5943749dd3acafa46277",
+        "29b8b47b3827f69d3c31cc10": "f73e5943749dd3acafa46277"
+      },
+      "batch": "2026-11-27-zhiyue-network-163.csv"
     }
   ]
 }

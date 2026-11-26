@@ -5022,5 +5022,412 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "f3ee92831f6dc28d59c36905",
+    "fundName": "宝武绿碳私募投资基金（上海）合伙企业（有限合伙）",
+    "managerName": "华宝（上海）股权投资基金管理有限公司",
+    "managerId": "603e0df3f5c0bdcedfa57a29",
+    "sizeCny": 10145700000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-28/1220506942.PDF",
+      "date": "2023-12-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "中集醇科公开转让说明书",
+      "pages": "第21页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF"
+      ],
+      "lpScope": "截至2023年12月31日认缴和实缴，10名LP，四名GP按之后的合伙文件交叉确认。",
+      "generalPartners": [
+        {
+          "name": "华宝（上海）股权投资基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "建信金投私募基金管理（北京）有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "绿色发展基金私募股权投资管理（上海）有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "江西国控私募基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-28/1220506942.PDF",
+        "date": "2023-12-31",
+        "dateKind": "发行人报告期末",
+        "totalCny": 7103190000,
+        "partners": [
+          {
+            "name": "中国宝武钢铁集团有限公司",
+            "paidCny": 2099300000
+          },
+          {
+            "name": "建信金融资产投资有限公司",
+            "paidCny": 1419698000
+          },
+          {
+            "name": "江西省现代产业引导基金（有限合伙）",
+            "paidCny": 1049300000
+          },
+          {
+            "name": "国寿投资保险资产管理有限公司",
+            "paidCny": 700000000
+          },
+          {
+            "name": "国家绿色发展基金股份有限公司",
+            "paidCny": 699300000
+          },
+          {
+            "name": "上海宝恒经济发展有限公司",
+            "paidCny": 350000000
+          },
+          {
+            "name": "安徽国控增动能投资基金合伙企业（有限合伙）",
+            "paidCny": 350000000
+          },
+          {
+            "name": "中国太平洋保险（集团）股份有限公司",
+            "paidCny": 210000000
+          },
+          {
+            "name": "中国太平洋财产保险股份有限公司",
+            "paidCny": 210000000
+          },
+          {
+            "name": "上海桦宝诺合企业管理合伙企业（有限合伙）",
+            "paidCny": 11592000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "华宝（上海）股权投资基金管理有限公司",
+            "paidCny": 1000000
+          },
+          {
+            "name": "建信金投私募基金管理（北京）有限公司",
+            "paidCny": 1000000
+          },
+          {
+            "name": "绿色发展基金私募股权投资管理（上海）有限公司",
+            "paidCny": 1000000
+          },
+          {
+            "name": "江西国控私募基金管理有限公司",
+            "paidCny": 1000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "中国宝武钢铁集团有限公司",
+        "disclosedContributionCny": 2999000000,
+        "disclosedPercent": 29.5593,
+        "existingInstitution": "4f86e1dc1faa514445eb9a43"
+      },
+      {
+        "name": "建信金融资产投资有限公司",
+        "disclosedContributionCny": 2028140000,
+        "disclosedPercent": 19.9901,
+        "existingInstitution": "67da9f3688352dd74895e3b9"
+      },
+      {
+        "name": "江西省现代产业引导基金（有限合伙）",
+        "disclosedContributionCny": 1499000000,
+        "disclosedPercent": 14.7747,
+        "existingInstitution": "f606b640b6530f14ccc938fe"
+      },
+      {
+        "name": "国寿投资保险资产管理有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 9.8564,
+        "existingInstitution": "30a3833aaa6993f8f5aaa24d"
+      },
+      {
+        "name": "国家绿色发展基金股份有限公司",
+        "disclosedContributionCny": 999000000,
+        "disclosedPercent": 9.8465,
+        "existingInstitution": "5c6828d86165381e23b12599"
+      },
+      {
+        "name": "上海宝恒经济发展有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 4.9282,
+        "existingInstitution": "406fcfa6b8096422cd92c159"
+      },
+      {
+        "name": "安徽国控增动能投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 4.9282,
+        "existingInstitution": "1ee7361aca721d3f3db5494b"
+      },
+      {
+        "name": "中国太平洋保险（集团）股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.9569,
+        "existingInstitution": "7943846e827af7aa7e4ce02d"
+      },
+      {
+        "name": "中国太平洋财产保险股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.9569,
+        "existingInstitution": "95a36371da6d78606590478f"
+      },
+      {
+        "name": "上海桦宝诺合企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 16560000,
+        "disclosedPercent": 0.1632,
+        "existingInstitution": "2e62353441bf1ab45a1ba1e8"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f3ee92831f6dc28d59c36905",
+    "fundName": "宝武绿碳私募投资基金（上海）合伙企业（有限合伙）",
+    "managerName": "华宝（上海）股权投资基金管理有限公司",
+    "managerId": "603e0df3f5c0bdcedfa57a29",
+    "sizeCny": 10145700000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2025/20251114/eed5dd290f61432aabe5205a7d7faa84.pdf",
+      "date": "2025-11-14",
+      "dateKind": "公开文件披露日",
+      "issuer": "盛龙股份补充法律意见书（二）",
+      "pages": "第12至13页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-06-28/1220506942.PDF",
+        "https://www.bse.cn/disclosure/2026/2026-06-26/d0c126495888497689a588f121b91a48.pdf",
+        "https://www.chinalifeinvest.com/invest/report/2311/10031-1.htm"
+      ],
+      "lpScope": "合伙协议核10名LP、四名GP，2025年6月公告核GP类型及两名执行事务合伙人；国寿以股权计划持有。",
+      "generalPartners": [
+        {
+          "name": "华宝（上海）股权投资基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "建信金投私募基金管理（北京）有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "绿色发展基金私募股权投资管理（上海）有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "江西国控私募基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "filingCode": "SVE151",
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2024-06-28/1220506942.PDF",
+        "date": "2023-12-31",
+        "dateKind": "发行人报告期末",
+        "totalCny": 7103190000,
+        "partners": [
+          {
+            "name": "中国宝武钢铁集团有限公司",
+            "paidCny": 2099300000
+          },
+          {
+            "name": "建信金融资产投资有限公司",
+            "paidCny": 1419698000
+          },
+          {
+            "name": "江西省现代产业引导基金（有限合伙）",
+            "paidCny": 1049300000
+          },
+          {
+            "name": "国寿投资保险资产管理有限公司",
+            "paidCny": 700000000
+          },
+          {
+            "name": "国家绿色发展基金股份有限公司",
+            "paidCny": 699300000
+          },
+          {
+            "name": "上海宝恒经济发展有限公司",
+            "paidCny": 350000000
+          },
+          {
+            "name": "安徽国控增动能投资基金合伙企业（有限合伙）",
+            "paidCny": 350000000
+          },
+          {
+            "name": "中国太平洋保险（集团）股份有限公司",
+            "paidCny": 210000000
+          },
+          {
+            "name": "中国太平洋财产保险股份有限公司",
+            "paidCny": 210000000
+          },
+          {
+            "name": "上海桦宝诺合企业管理合伙企业（有限合伙）",
+            "paidCny": 11592000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "华宝（上海）股权投资基金管理有限公司",
+            "paidCny": 1000000
+          },
+          {
+            "name": "建信金投私募基金管理（北京）有限公司",
+            "paidCny": 1000000
+          },
+          {
+            "name": "绿色发展基金私募股权投资管理（上海）有限公司",
+            "paidCny": 1000000
+          },
+          {
+            "name": "江西国控私募基金管理有限公司",
+            "paidCny": 1000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "中国宝武钢铁集团有限公司",
+        "disclosedContributionCny": 2999000000,
+        "disclosedPercent": 29.5593,
+        "existingInstitution": "4f86e1dc1faa514445eb9a43"
+      },
+      {
+        "name": "建信金融资产投资有限公司",
+        "disclosedContributionCny": 2028140000,
+        "disclosedPercent": 19.9901,
+        "existingInstitution": "67da9f3688352dd74895e3b9"
+      },
+      {
+        "name": "江西省现代产业引导基金（有限合伙）",
+        "disclosedContributionCny": 1499000000,
+        "disclosedPercent": 14.7747,
+        "existingInstitution": "f606b640b6530f14ccc938fe"
+      },
+      {
+        "name": "国寿投资保险资产管理有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 9.8564,
+        "existingInstitution": "30a3833aaa6993f8f5aaa24d"
+      },
+      {
+        "name": "国家绿色发展基金股份有限公司",
+        "disclosedContributionCny": 999000000,
+        "disclosedPercent": 9.8465,
+        "existingInstitution": "5c6828d86165381e23b12599"
+      },
+      {
+        "name": "上海宝恒经济发展有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 4.9282,
+        "existingInstitution": "406fcfa6b8096422cd92c159"
+      },
+      {
+        "name": "安徽国控增动能投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 4.9282,
+        "existingInstitution": "1ee7361aca721d3f3db5494b"
+      },
+      {
+        "name": "中国太平洋保险（集团）股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.9569,
+        "existingInstitution": "7943846e827af7aa7e4ce02d"
+      },
+      {
+        "name": "中国太平洋财产保险股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.9569,
+        "existingInstitution": "95a36371da6d78606590478f"
+      },
+      {
+        "name": "上海桦宝诺合企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 16560000,
+        "disclosedPercent": 0.1632,
+        "existingInstitution": "2e62353441bf1ab45a1ba1e8"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1bfa4f5eadfbc43dd82c8d81",
+    "fundName": "上海智越投资中心（有限合伙）",
+    "managerName": "上海智越投资管理有限公司",
+    "managerId": "d47f3c451d3317e1f75ec648",
+    "sizeCny": 170000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://epaper.stcn.com/paper/zqsb/page/1/2015-04/28/B059/20150428B059_pdf.pdf",
+      "date": "2015-04-28",
+      "dateKind": "公开文件披露日",
+      "issuer": "湘潭电化非公开发行预案",
+      "pages": "第B059版",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2016-01-19/1201923292.PDF",
+        "https://finance.sina.com.cn/stock/t/2016-01-19/doc-ifxnrahr8493225.shtml"
+      ],
+      "lpScope": "基金认缴及一名LP、一名GP为2015年4月披露快照，以后实缴、LP变动和剩余资金待核。",
+      "generalPartners": [
+        {
+          "name": "上海智越投资管理有限公司",
+          "disclosedContributionCny": 3000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "吕勇辉",
+        "disclosedContributionCny": 167000000,
+        "disclosedPercent": 98.24,
+        "existingInstitution": "1e4976afb7a9c11fdcc5bd36"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "2f88aec251da7fffb5797c03",
+    "fundName": "北京光曜致新汇京股权投资基金合伙企业（有限合伙）",
+    "managerName": "东方前海资产管理（杭州）有限公司",
+    "managerId": "623961238afe7a66cdd40de6",
+    "sizeCny": 501000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF",
+      "date": "2025-06-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "赛力斯汽车增资完成公告",
+      "pages": "第9至10页",
+      "lpSources": [],
+      "lpScope": "唯一LP及执行事务合伙人，按公告注册出资总额与两项比例勾稽，实际累计实缴待核。",
+      "generalPartners": [
+        {
+          "name": "东方前海资产管理（杭州）有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "中国东方资产管理股份有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 99.8004,
+        "existingInstitution": "89730701907075119423e62b"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

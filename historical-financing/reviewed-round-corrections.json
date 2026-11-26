@@ -5492,5 +5492,128 @@
     "additional_sources": [
       "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:39cc78cae67b7a483458bfc4b45e4f2b2643aabe70864caf5a7b7e6406922c75",
+    "company_id": "co:full_legal_name:963b08c6b5e93c237da1a58651b15531",
+    "day": "2022-12-27",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202406281637021559_1.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"华宝投资\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-27",
+      "date_key": "2022-12-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "20000万元",
+      "investors_json": "[{\"name\":\"宝武绿碳私募投资基金（上海）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202406281637021559_1.pdf\"}}]",
+      "date": "2022-12-30",
+      "date_key": "2022-12-30",
+      "date_kind": "发行人披露工商登记日，12月28日全额付清"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-06-28/1220506942.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:08a87e849cc0548435620a5bdd8ad0b437329bdc90163b301964048ee19540a2",
+    "company_id": "co:full_legal_name:a577c850981ffbe67f5d7e68aab004fc",
+    "day": "2023-12-19",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-05-21/1223629464.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "6.8亿人民币",
+      "investors_json": "[{\"name\":\"前海母基金\",\"role\":null,\"amount\":null},{\"name\":\"华宝投资\",\"role\":null,\"amount\":null},{\"name\":\"建信投资\",\"role\":null,\"amount\":null},{\"name\":\"洛阳工控集团\",\"role\":null,\"amount\":null},{\"name\":\"龙高股份\",\"role\":null,\"amount\":null}]",
+      "date": "2023-12-19",
+      "date_key": "2023-12-19",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "68000万元",
+      "investors_json": "[{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-05-21/1223629464.PDF\"}},{\"name\":\"中原前海股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-05-21/1223629464.PDF\"}},{\"name\":\"宝武绿碳私募投资基金（上海）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":18000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-05-21/1223629464.PDF\"}},{\"name\":\"洛阳国有资本投资运营有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-05-21/1223629464.PDF\"}},{\"name\":\"龙岩高岭土股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-05-21/1223629464.PDF\"}}]",
+      "date": "2023-12-18",
+      "date_key": "2023-12-18",
+      "date_kind": "发行人披露协议签署日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:295a3759fa0b71ab628bbd444cb07c96b39707c280a067ae5183423a0009e5f7",
+    "company_id": "co:full_legal_name:e5414110211c506bfd72915dfce72fc2",
+    "day": "2025-06-25",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "61.2亿人民币",
+      "investors_json": "[{\"name\":\"东方富兴\",\"role\":null,\"amount\":null},{\"name\":\"中移和创\",\"role\":null,\"amount\":null},{\"name\":\"交银投资\",\"role\":null,\"amount\":null},{\"name\":\"农银投资\",\"role\":null,\"amount\":null},{\"name\":\"华宝投资\",\"role\":null,\"amount\":null},{\"name\":\"国开制造业转型升级基金\",\"role\":null,\"amount\":null},{\"name\":\"工银投资\",\"role\":null,\"amount\":null},{\"name\":\"建投投资\",\"role\":null,\"amount\":null},{\"name\":\"招银前海金融\",\"role\":null,\"amount\":null}]",
+      "date": "2025-06-25",
+      "date_key": "2025-06-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "612000万元",
+      "investors_json": "[{\"name\":\"国开制造业转型升级基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":112000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"工银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"交银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"农银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"深圳市鑫麦穗投资管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"建投投资有限责任公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"北京中移数字新经济产业基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":60000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"上海中移数字转型产业私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"宝武绿碳私募投资基金（上海）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}},{\"name\":\"北京光曜致新汇京股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF\"}}]",
+      "date": "2025-06-23",
+      "date_key": "2025-06-23",
+      "date_kind": "发行人披露工商登记日，本轮2024年12月首批11.2亿元，2025年6月完成余下50亿元"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-04-01/1222976161.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:07064b4170225b8e0f993c48e875697bd6290bf654606d0e34ef194acb547d2c",
+    "company_id": "co:full_legal_name:e5414110211c506bfd72915dfce72fc2",
+    "day": "2025-03-31",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "50亿人民币",
+      "investors_json": "[{\"name\":\"交银投资\",\"role\":null,\"amount\":null},{\"name\":\"农银投资\",\"role\":null,\"amount\":null},{\"name\":\"工银资本\",\"role\":null,\"amount\":null}]",
+      "date": "2025-03-31",
+      "date_key": "2025-03-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "50亿人民币",
+      "investors_json": "[]",
+      "date": "2025-03-31",
+      "date_key": "2025-03-31",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-04-01/1222976161.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:dd44652465d78be1f5f59fd4dcc031b3856392a9bc986b237195ec0762ef6cb6",
+    "company_id": "co:full_legal_name:e5414110211c506bfd72915dfce72fc2",
+    "day": "2024-12-30",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-25/1223973747.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"国开制造业转型升级基金\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-30",
+      "date_key": "2024-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "未披露",
+      "investors_json": "[]",
+      "date": "2024-12-30",
+      "date_key": "2024-12-30",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-04-01/1222976161.PDF"
+    ]
   }
 ]

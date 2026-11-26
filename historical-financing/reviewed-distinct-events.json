@@ -493,5 +493,53 @@
     },
     "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
     "reason": "三月及六月为不同股东转让协议，受让方和支付口径不同"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ab2d852b457748e4eab251",
+      "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:bb1e27b01326719042522f",
+      "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+    "reason": "同一工商登记日分别核到新增现金与老股受让金额"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:bb1e27b01326719042522f",
+      "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ab2d852b457748e4eab251",
+      "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+    "reason": "同一工商登记日分别核到新增现金与老股受让金额"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:60bb6ea9f071890f9dc98d",
+      "company_id": "co:full_legal_name:cc20ce2f6e8034493c08ac8d8debc2b4"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b6b34e166cbc058799517d",
+      "company_id": "co:full_legal_name:cc20ce2f6e8034493c08ac8d8debc2b4"
+    },
+    "source": "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-008540/tmb-20230331x10q.htm",
+    "reason": "两份SEC年报独立核到现金增资和持有股权出售"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:b6b34e166cbc058799517d",
+      "company_id": "co:full_legal_name:cc20ce2f6e8034493c08ac8d8debc2b4"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:60bb6ea9f071890f9dc98d",
+      "company_id": "co:full_legal_name:cc20ce2f6e8034493c08ac8d8debc2b4"
+    },
+    "source": "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-008540/tmb-20230331x10q.htm",
+    "reason": "两份SEC年报独立核到现金增资和持有股权出售"
   }
 ]

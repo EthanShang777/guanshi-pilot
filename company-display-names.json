@@ -3417,10 +3417,14 @@
     "registeredName": "湖南裕能新能源电池材料股份有限公司",
     "aliases": [
       "湖南裕能新能源电池材料有限公司",
-      "裕能有限"
+      "裕能有限",
+      "裕能新能源",
+      "湖南裕能301358"
     ],
     "sources": [
-      "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF"
+      "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+      "https://static.cninfo.com.cn/finalpage/2023-02-08/1215790162.PDF",
+      "https://static.cninfo.com.cn/finalpage/2026-04-03/1225078709.PDF"
     ]
   },
   "aace52899ebccf468bfddefb": {
@@ -3477,6 +3481,50 @@
     ],
     "sources": [
       "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf"
+    ]
+  },
+  "0b65c4f043bd4081adb6323d": {
+    "name": "湘潭电化",
+    "registeredName": "湘潭电化科技股份有限公司",
+    "aliases": [
+      "湘潭电化002125"
+    ],
+    "sources": [
+      "https://finance.sina.com.cn/stock/t/2016-01-19/doc-ifxnrahr8493225.shtml"
+    ]
+  },
+  "9e30cbe7ad4e3f83d2b1fc52": {
+    "name": "艾米能斯生物",
+    "registeredName": "艾米能斯（苏州）生物科技有限公司",
+    "aliases": [
+      "常州艾米能斯生物科技有限公司",
+      "Changzhou Eminence Biotechnology",
+      "Eminence Biotechnology"
+    ],
+    "sources": [
+      "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-015226/0001558370-23-015226.pdf"
+    ]
+  },
+  "78ee3be2f524c303920de537": {
+    "name": "中集醇科",
+    "registeredName": "中集安瑞醇科技股份有限公司",
+    "aliases": [
+      "中集安瑞醇科技有限公司",
+      "中集醇科872914"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-06-28/1220506942.PDF"
+    ]
+  },
+  "11bf001d29e572a40f18093f": {
+    "name": "盛龙股份",
+    "registeredName": "洛阳盛龙矿业集团股份有限公司",
+    "aliases": [
+      "洛阳盛龙矿业集团有限公司",
+      "盛龙股份001257"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2026-03-30/490d0401-1f44-49ef-a4f3-c838aca5a1fb.PDF"
     ]
   }
 }
