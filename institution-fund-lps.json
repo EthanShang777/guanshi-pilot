@@ -4533,5 +4533,313 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "6bd6adcd4ae38eb4afc4bbfd",
+    "fundName": "深圳市招银朗曜成长股权投资基金合伙企业（有限合伙）",
+    "managerName": "招银国际资本管理（深圳）有限公司",
+    "managerId": "90b319042397d208169e0480",
+    "sizeCny": 6000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2022-11-25/1215197308.PDF",
+      "date": "2022-06-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "尚太科技招股说明书",
+      "pages": "第118至119页",
+      "lpSources": [],
+      "lpScope": "基于2022年6月末基金档案，四名LP和一名GP。公开金额为逐家认缴。",
+      "generalPartners": [
+        {
+          "name": "招银国际资本管理（深圳）有限公司",
+          "disclosedContributionCny": 60000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "深圳市招银肆号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 2515000000,
+        "disclosedPercent": 41.92,
+        "existingInstitution": "e6926238c0a9ddf8d5722243"
+      },
+      {
+        "name": "全国社会保障基金理事会",
+        "disclosedContributionCny": 2400000000,
+        "disclosedPercent": 40,
+        "existingInstitution": "7178e2de0590973f883073a1"
+      },
+      {
+        "name": "招银金融控股（深圳）有限公司",
+        "disclosedContributionCny": 980000000,
+        "disclosedPercent": 16.33,
+        "existingInstitution": "5221379553641e38fd9e3ba3"
+      },
+      {
+        "name": "深圳市招银共赢股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 45000000,
+        "disclosedPercent": 0.75,
+        "existingInstitution": "047a2bdda7d1686670cbdd66"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1e51b4a38ee47dfc2fb6b3b1",
+    "fundName": "招银成长叁号投资（深圳）合伙企业（有限合伙）",
+    "managerName": "招银国际资本管理（深圳）有限公司",
+    "managerId": "90b319042397d208169e0480",
+    "sizeCny": 2000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2022-11-25/1215197308.PDF",
+      "date": "2022-06-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "尚太科技招股说明书",
+      "pages": "第119页",
+      "lpSources": [],
+      "lpScope": "基于2022年6月末基金档案，1名LP和1名GP，含逐家认缴。",
+      "generalPartners": [
+        {
+          "name": "招银国际资本管理（深圳）有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "招银金融控股（深圳）有限公司",
+        "disclosedContributionCny": 1999000000,
+        "disclosedPercent": 99.95,
+        "existingInstitution": "5221379553641e38fd9e3ba3"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cfbc5ada8e774fdee20a6eca",
+    "fundName": "长江晨道（湖北）新能源产业投资合伙企业（有限合伙）",
+    "managerName": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+    "managerId": "8e8c58bb9af7d536289b49e4",
+    "sizeCny": 951000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-07-16/1224177681.PDF",
+      "date": "2017-06-19",
+      "dateKind": "公开文件披露日",
+      "issuer": "紫江企业重大资产出售报告书草案",
+      "pages": "第63页",
+      "lpSources": [],
+      "lpScope": "初次设立工商登记，五名LP及GP，逐家认缴。",
+      "generalPartners": [
+        {
+          "name": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "新疆东鹏合立股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 31.55,
+        "existingInstitution": "bc364b5bddf2a0c97dd07d5e"
+      },
+      {
+        "name": "深圳市招银展翼投资管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 21.03,
+        "existingInstitution": "4065e1100cfcb89fe2d6870a"
+      },
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 21.03,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "宁波梅山保税港区问鼎投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 15.77,
+        "existingInstitution": "853378226a7126561373eae9"
+      },
+      {
+        "name": "深圳市招银肆号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 10.52,
+        "existingInstitution": "e6926238c0a9ddf8d5722243"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cfbc5ada8e774fdee20a6eca",
+    "fundName": "长江晨道（湖北）新能源产业投资合伙企业（有限合伙）",
+    "managerName": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+    "managerId": "8e8c58bb9af7d536289b49e4",
+    "sizeCny": 2651000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-07-16/1224177681.PDF",
+      "date": "2017-10-24",
+      "dateKind": "公开文件披露日",
+      "issuer": "紫江企业重大资产出售报告书草案",
+      "pages": "第63至64页",
+      "lpSources": [],
+      "lpScope": "首次合伙变更后工商登记，八名LP与GP，问鼎增至5亿元。",
+      "generalPartners": [
+        {
+          "name": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "招银国际金融控股（深圳）有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 18.86,
+        "existingInstitution": "c404872eba3a1316ea484c5f"
+      },
+      {
+        "name": "北京华鼎新动力股权投资基金（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 18.86,
+        "existingInstitution": "be201612451b618836fa6f4b"
+      },
+      {
+        "name": "宁波梅山保税港区问鼎投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 18.86,
+        "existingInstitution": "853378226a7126561373eae9"
+      },
+      {
+        "name": "湖北省长江合志股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 18.86,
+        "existingInstitution": "d9d813c24b151cb94c1ce1a3"
+      },
+      {
+        "name": "深圳市招银成长拾捌号股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 7.54,
+        "existingInstitution": "a73038e433311bcac0e56bf1"
+      },
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 7.54,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "新疆TCL股权投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 5.66,
+        "existingInstitution": "7ebad96a7677dfbfaa3011fc"
+      },
+      {
+        "name": "深圳市招银肆号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.77,
+        "existingInstitution": "e6926238c0a9ddf8d5722243"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cfbc5ada8e774fdee20a6eca",
+    "fundName": "长江晨道（湖北）新能源产业投资合伙企业（有限合伙）",
+    "managerName": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+    "managerId": "8e8c58bb9af7d536289b49e4",
+    "sizeCny": 3151000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-06-13/7aab8d55-105d-4e88-9e48-6672ee874d7e.PDF",
+      "date": "2026-06-11",
+      "dateKind": "权益变动报告签署日",
+      "issuer": "长江晨道尚太科技简式权益变动报告书",
+      "pages": "第4页",
+      "lpSources": [
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2024/2024-10/2024-10-22/10534927.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-07-16/1224177681.PDF",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2022-08-30/fc237f00-6a39-466e-aa9e-aa91fdb04a0f.PDF"
+      ],
+      "lpScope": "2026年权益变动报告核对十名LP和一名GP的比例，逐家出资额由2024和2025公开资料核对。",
+      "generalPartners": [
+        {
+          "name": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "filingCode": "SX9811"
+    },
+    "partners": [
+      {
+        "name": "北京华鼎新动力股权投资基金（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 15.868,
+        "existingInstitution": "be201612451b618836fa6f4b"
+      },
+      {
+        "name": "宁波梅山保税港区问鼎投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 15.868,
+        "existingInstitution": "853378226a7126561373eae9"
+      },
+      {
+        "name": "湖北省长江合志股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 15.868,
+        "existingInstitution": "d9d813c24b151cb94c1ce1a3"
+      },
+      {
+        "name": "深圳东熹佳尚创业投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 4.7604,
+        "existingInstitution": "9ddfd9f30ef0183fc6460237"
+      },
+      {
+        "name": "深圳市招银成长拾捌号股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 6.3472,
+        "existingInstitution": "a73038e433311bcac0e56bf1"
+      },
+      {
+        "name": "深圳市招银肆号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.1736,
+        "existingInstitution": "e6926238c0a9ddf8d5722243"
+      },
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 6.3472,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "招银国际金融控股（深圳）有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 15.868,
+        "existingInstitution": "c404872eba3a1316ea484c5f"
+      },
+      {
+        "name": "溧阳市产业投资引导基金有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 12.6944,
+        "existingInstitution": "31213e8da84a9334cd8adfe8"
+      },
+      {
+        "name": "江苏苏控创业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.1736,
+        "existingInstitution": "bafe012c560010e2dcce6683"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

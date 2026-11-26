@@ -3368,5 +3368,69 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2026-01-06/1224919425.PDF"
     ]
+  },
+  "faa68fbf4fdb7ee7c613e5dd": {
+    "name": "理奇智能",
+    "registeredName": "无锡理奇智能装备股份有限公司",
+    "aliases": [
+      "无锡理奇",
+      "理奇股份",
+      "无锡理奇智能装备有限公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-10/1225088158.PDF"
+    ]
+  },
+  "a750ea24a0d001858ef70531": {
+    "name": "金禄电子",
+    "registeredName": "金禄电子科技股份有限公司",
+    "aliases": [
+      "金禄（清远）精密科研投资有限公司"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_0001766494C7023FC3176F328564EC3F.pdf"
+    ]
+  },
+  "2fb47882afd4030545001dc7": {
+    "name": "奥普特",
+    "registeredName": "广东奥普特科技股份有限公司",
+    "aliases": [
+      "OPT奥普特"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-12-28/1209001449.PDF"
+    ]
+  },
+  "f60fbdfbe466d8f15cef10d0": {
+    "name": "尚太科技",
+    "registeredName": "石家庄尚太科技股份有限公司",
+    "aliases": [
+      "石家庄尚太科技有限公司",
+      "尚太有限"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-11-25/1215197308.PDF"
+    ]
+  },
+  "bbb44bcc398465f481293585": {
+    "name": "湖南裕能",
+    "registeredName": "湖南裕能新能源电池材料股份有限公司",
+    "aliases": [
+      "湖南裕能新能源电池材料有限公司",
+      "裕能有限"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF"
+    ]
+  },
+  "aace52899ebccf468bfddefb": {
+    "name": "腾远钴业",
+    "registeredName": "赣州腾远钴业新材料股份有限公司",
+    "aliases": [
+      "赣州腾远"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_000179853604D93FB5E8156A50F3383F.pdf"
+    ]
   }
 }

@@ -5295,5 +5295,78 @@
       "https://money.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=3983839&stockid=300098",
       "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=5212080&stockid=300098"
     ]
+  },
+  {
+    "event_id": "financing_event:e1a1322c406cae86e9eefc3aec123b05a26d4697e5a1610863ed361ea153518c",
+    "company_id": "co:full_legal_name:5286f4eaab4c9d002fcc6e65f03f549f",
+    "day": "2020-12-31",
+    "source": "https://static.cninfo.com.cn/finalpage/2020-12-28/1209001449.PDF",
+    "expected": {
+      "round": "IPO上市",
+      "amount": "16.18亿人民币",
+      "investors_json": "[]",
+      "date": "2020-12-31",
+      "date_key": "2020-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "IPO上市",
+      "amount": "161846.38万元",
+      "investors_json": "[{\"name\":\"国信资本有限责任公司\",\"role\":\"战略配售\",\"amount\":null,\"contribution\":{\"amountFen\":5999995372,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2020-12-28/1209001449.PDF\"}},{\"name\":\"国信证券鼎信10号科创板战略配售集合资产管理计划\",\"role\":\"战略配售\",\"amount\":null,\"contribution\":{\"amountFen\":16184638000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2020-12-28/1209001449.PDF\"}}]",
+      "date": "2020-12-31",
+      "date_key": "2020-12-31",
+      "date_kind": "科创板上市日，金额为全部公开发行新股募集资金总额"
+    },
+    "additional_sources": [
+      "https://money.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=6817580&stockid=688686"
+    ]
+  },
+  {
+    "event_id": "financing_event:b02a0dd780cfc65ad3fcd73898a541b75325abaadebaae713a5ec278611cbe7a",
+    "company_id": "co:full_legal_name:c9c76b296f6e3e52608ff09abd27f1ac",
+    "day": "2022-12-28",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-27/1215457259.PDF",
+    "expected": {
+      "round": "IPO上市",
+      "amount": "22亿人民币",
+      "investors_json": "[]",
+      "date": "2022-12-28",
+      "date_key": "2022-12-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "IPO上市",
+      "amount": "220029.2556万元",
+      "investors_json": "[]",
+      "date": "2022-12-28",
+      "date_key": "2022-12-28",
+      "date_kind": "深交所上市日，金额为新股募集资金总额"
+    },
+    "additional_sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202504/RAS_202504_271705C102A8C6F60844AF8F4E2A8A3A94F257.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:f048a380de47125aeb7b33f936a6c6193798c34df47425de5a509ea93429b8a6",
+    "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3",
+    "day": "2020-12-26",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "8.98亿人民币",
+      "investors_json": "[{\"name\":\"宁德时代\",\"role\":null,\"amount\":null},{\"name\":\"尚颀资本\",\"role\":null,\"amount\":null},{\"name\":\"比亚迪\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-26",
+      "date_key": "2020-12-26",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "64800万元",
+      "investors_json": "[{\"name\":\"宁德时代新能源科技股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"比亚迪股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"湖南裕富企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖南裕升企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖南裕瑞企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖南裕创企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖南裕广企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖南裕璞企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"通招（日照）股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴尚颀祺能股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湘潭振湘国有资产经营投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"长江晨道（湖北）新能源产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市创启开盈商务咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"刘志奇\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-23",
+      "date_key": "2020-12-23",
+      "date_kind": "工商变更登记日，按验资记现金实收，另有2.5亿元股权换股"
+    },
+    "additional_sources": []
   }
 ]

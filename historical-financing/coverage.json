@@ -8082,6 +8082,86 @@
         "高新兴2018定增": "810ea11085cbdad6d3b8c6da"
       },
       "batch": "2026-11-27-zhaoyin-network-160.csv"
+    },
+    {
+      "institution": "长江晨道（湖北）新能源产业投资合伙企业（有限合伙）",
+      "checked_on": "2026-11-27",
+      "scope": "从长江晨道反查理奇、金禄、奥普特、尚太、湖南裕能和腾远股本及关联基金",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-10/1225088158.PDF",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202601/RAS_202601_23150001F46E5E97FC4DD6870608E75E0B07C8.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-04-29/1225243236.PDF",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_0001766494C7023FC3176F328564EC3F.pdf",
+        "https://static.cninfo.com.cn/finalpage/2022-08-25/1214389118.PDF",
+        "https://static.cninfo.com.cn/finalpage/2020-12-28/1209001449.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=6817580&stockid=688686",
+        "https://static.cninfo.com.cn/finalpage/2022-11-25/1215197308.PDF",
+        "https://static.cninfo.com.cn/finalpage/2022-12-27/1215457259.PDF",
+        "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+        "https://static.cninfo.com.cn/finalpage/2019-01-24/1205796260.PDF",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202201/RAS_202201_00017E678B07103FEDE948D7530B5C3F.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_000179853604D93FB5E8156A50F3383F.pdf",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7644144&stockid=301219",
+        "https://static.cninfo.com.cn/finalpage/2025-07-16/1224177681.PDF",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2026-06-13/7aab8d55-105d-4e88-9e48-6672ee874d7e.PDF"
+      ],
+      "notes": {
+        "followup_sources": [
+          "https://static.cninfo.com.cn/finalpage/2026-04-10/1225088158.PDF",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202601/RAS_202601_23150001F46E5E97FC4DD6870608E75E0B07C8.pdf",
+          "https://static.cninfo.com.cn/finalpage/2026-04-29/1225243236.PDF",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_0001766494C7023FC3176F328564EC3F.pdf",
+          "https://static.cninfo.com.cn/finalpage/2022-08-25/1214389118.PDF",
+          "https://static.cninfo.com.cn/finalpage/2020-12-28/1209001449.PDF",
+          "https://money.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=6817580&stockid=688686",
+          "https://static.cninfo.com.cn/finalpage/2022-11-25/1215197308.PDF",
+          "https://static.cninfo.com.cn/finalpage/2022-12-27/1215457259.PDF",
+          "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+          "https://static.cninfo.com.cn/finalpage/2019-01-24/1205796260.PDF",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202201/RAS_202201_00017E678B07103FEDE948D7530B5C3F.pdf",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_000179853604D93FB5E8156A50F3383F.pdf",
+          "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7644144&stockid=301219",
+          "https://static.cninfo.com.cn/finalpage/2025-07-16/1224177681.PDF",
+          "https://disc.static.szse.cn/disc/disk03/finalpage/2026-06-13/7aab8d55-105d-4e88-9e48-6672ee874d7e.PDF"
+        ],
+        "caveats": [
+          "理奇2018年为股权转让，首份文件披露8%比例，具体价款仍待协议。2019注册增量2000万元，实际现金总额待证，避免把注册资本当融资。2023无锡云林1754.45万元，2026 IPO 90053.34万元。",
+          "金禄2019年4月同日新股实收8999.9999万元、深圳科金老股1500万元；2020年2月七方总实收10012.476万元。奥普特2019年12月1.2亿元增资与776万元老股单列。",
+          "尚太实收、认购与老股分别记录。2017年首笔外部增资1.5亿元，2018年实际五个认购主体，使用补充协议披露招银的三只载体。",
+          "湖南裕能2017年2亿元现金，另3,000万元技术作价。2019年实收1.8亿元且2020年资本公积增股不重复。2020年12月验资64800万元现金及25000万元股权作价，同一条融资记录保留口径，非现金不参与现金融资金额。",
+          "腾远2020年六家实收3.5亿元，逐家单独汇款金额暂缺。长江晨道三期认缴及LP快照已核；当前独立实缴与剩余额度仍待披露。"
+        ]
+      },
+      "events": {
+        "理奇晨道老股": "adea460afdc212c2e3635afd",
+        "理奇2019年增资": "1448fbe706f1e41f123c4bc1",
+        "理奇2020年老股": "5df81018f320b7ba361b4bbf",
+        "理奇2022年法人转让": "8bcbddbb54e0bdcdbe486dfa",
+        "理奇云林增资": "06b26abf4c07b11069a7147f",
+        "理奇公开发行": "37b8886a97d46c7e55e22ad3",
+        "金禄2019年增资": "590f893183c6aa2b43c2e9d1",
+        "金禄2019年老股": "2b955cce75de52518266f54f",
+        "金禄2020年增资": "701c5c483073fb8cd7077386",
+        "金禄公开发行": "fd61e7f0bdaa8a9f0bfdb44e",
+        "奥普特2019增资": "30ea7e18136f5312839b3545",
+        "奥普特2019老股": "e387566ac74469b0950c9fb0",
+        "奥普特公开发行": "e68d16e9937133d9d252c2d3",
+        "尚太2017年晨道与超兴增资": "328061fdc594036eecdee78d",
+        "尚太2018年追加资本": "8232055436f80f617911bc28",
+        "尚太2019年三家增资": "4af2477ac6d4c429eef6c8ed",
+        "尚太2020年四月增资": "72854c64cb5a5f529dc7d08a",
+        "尚太2020年九月机构增资": "e068373950642dfb0fec122b",
+        "尚太2019年二月转让": "dad297e79b09dc113bf9665c",
+        "尚太2019年三方老股": "8a52a0da3d52eeff78a50bbf",
+        "尚太2020年平台退出": "a0d2cf05bfea6b7dbfd0b3b1",
+        "尚太2020年长江合志受让": "831de6d9f0384c3718211b5f",
+        "尚太公开发行": "46241c61bf565035f5a1b7f2",
+        "湖南裕能2017现金增资": "3ebf2d1d867c46500cc5d310",
+        "湖南裕能2019增资": "c25121e61b6d19a2f01cb4de",
+        "湖南裕能2020现金增资": "23bd2f0781f945c4b851e862",
+        "腾远钴业2020年增资": "95dced21c11101000b526dae"
+      },
+      "batch": "2026-11-27-chendao-network-161.csv"
     }
   ]
 }

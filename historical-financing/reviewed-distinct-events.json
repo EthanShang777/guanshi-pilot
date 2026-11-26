@@ -373,5 +373,29 @@
     },
     "source": "https://epaper.stcn.com/pic/202603/10/aadeb7043467b72d758b644705fc1157.pdf",
     "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8b5779fd15cacba4e5e864",
+      "company_id": "co:cn_uscc:90ef59152b4f02373c942aebd879b756"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e4e505ceb6505738904ca8",
+      "company_id": "co:cn_uscc:90ef59152b4f02373c942aebd879b756"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_0001766494C7023FC3176F328564EC3F.pdf",
+    "reason": "验资增资与同时期老股协议分别核实"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e4e505ceb6505738904ca8",
+      "company_id": "co:cn_uscc:90ef59152b4f02373c942aebd879b756"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8b5779fd15cacba4e5e864",
+      "company_id": "co:cn_uscc:90ef59152b4f02373c942aebd879b756"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_0001766494C7023FC3176F328564EC3F.pdf",
+    "reason": "验资增资与同时期老股协议分别核实"
   }
 ]
