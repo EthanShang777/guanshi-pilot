@@ -4149,6 +4149,297 @@
           "reason": "官网提及拓普集团在10月合作前已参与战略投资，尚缺具体交易日期、金额与该轮其他机构，保留线索。"
         }
       ]
+    },
+    {
+      "institution": "投资界十月公开融资",
+      "checked_on": "2026-11-26",
+      "scope": "对公开周榜剩余11篇逐项匹配主体、日期、出资者和交易口径",
+      "sources": [
+        "https://m.pedaily.cn/news/570190",
+        "https://www.sohu.com/a/1087901463_120094924",
+        "https://m.pedaily.cn/news/570257",
+        "https://m.shuidi.cn/company-54f0618a2a8c4003592e1b4006f57f01.html",
+        "https://m.pedaily.cn/news/570266",
+        "https://finance.eastmoney.com/a/202610153897181450.html",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/241385_20260625_NX4V.pdf",
+        "https://m.pedaily.cn/news/570427",
+        "https://lengtrol.com/news/",
+        "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-27/688308_20260827_ICV8.pdf",
+        "https://m.pedaily.cn/news/570572",
+        "https://m.pedaily.cn/vc/invest/v108630",
+        "https://www.chinaventure.com.cn/flash/20261021-90187.html",
+        "https://m.pedaily.cn/news/570771",
+        "https://wap.stockstar.com/detail/RB2026102200036588",
+        "https://m.pedaily.cn/news/570855",
+        "https://zeit-group.com/news/index.php?id=18",
+        "https://www.zeit-group.com/news/info.php?id=41",
+        "https://m.pedaily.cn/news/570922",
+        "https://www.36kr.com/p/4054916912600195",
+        "https://m.pedaily.cn/news/570477",
+        "https://www.36kr.com/newsflashes/4028376991191427",
+        "https://m.pedaily.cn/news/570621",
+        "https://www.cyzone.cn/article/849577.html",
+        "https://m.pedaily.cn/news/570800"
+      ],
+      "candidate_count": 0,
+      "existing_count": 8,
+      "pending_count": 3,
+      "checked_records": {
+        "https://news.pedaily.cn/202610/570190.shtml": {
+          "stem": "中科禾成",
+          "date": "2026-10-13",
+          "outcome": "已有",
+          "reason": "数千万元A轮及两家出资方对应安徽中科禾成现有交易。",
+          "sources": [
+            "https://m.pedaily.cn/news/570190",
+            "https://www.sohu.com/a/1087901463_120094924"
+          ],
+          "records": [
+            {
+              "eventId": "25acff6b7dc55224beb64e8a",
+              "company": "安徽中科禾成绿色能源有限公司",
+              "day": "2026-10-10",
+              "stage": "A轮",
+              "amount": "数千万人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570257.shtml": {
+          "stem": "攸能创科技",
+          "date": "2026-10-14",
+          "outcome": "已有",
+          "reason": "正文同一Pre-A轮、数千万元及三方出资。公开基金名称与管理人关系另核。",
+          "sources": [
+            "https://m.pedaily.cn/news/570257",
+            "https://m.shuidi.cn/company-54f0618a2a8c4003592e1b4006f57f01.html"
+          ],
+          "records": [
+            {
+              "eventId": "ecab1d5652b27749451429cd",
+              "company": "青岛攸能创科技有限公司",
+              "day": "2026-10-12",
+              "stage": "Pre-A轮",
+              "amount": "数千万人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570266.shtml": {
+          "stem": "束研聚创",
+          "date": "2026-10-14",
+          "outcome": "已有",
+          "reason": "主体、天使+轮、金额及上海资方匹配；成都技转为科创投子公司，补实际披露名称。",
+          "sources": [
+            "https://m.pedaily.cn/news/570266",
+            "https://finance.eastmoney.com/a/202610153897181450.html",
+            "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/241385_20260625_NX4V.pdf"
+          ],
+          "records": [
+            {
+              "eventId": "7ff8a535099c6064e1835e37",
+              "company": "束研聚创（上海）科技有限公司",
+              "day": "2026-10-14",
+              "stage": "天使+轮",
+              "amount": "千万级人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570427.shtml": {
+          "stem": "冷泉能控",
+          "date": "2026-10-19",
+          "outcome": "已有",
+          "reason": "与企业公告同一笔天使轮，原披露日期与后续报道分开。",
+          "sources": [
+            "https://m.pedaily.cn/news/570427",
+            "https://lengtrol.com/news/",
+            "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-27/688308_20260827_ICV8.pdf"
+          ],
+          "records": [
+            {
+              "eventId": "0bcb347edc6e535d2713a9af",
+              "company": "冷泉能控科技（深圳）有限公司",
+              "day": "2026-10-16",
+              "stage": "天使轮",
+              "amount": "数千万人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570572.shtml": {
+          "stem": "智束科技",
+          "date": "2026-10-21",
+          "outcome": "已有",
+          "reason": "同一法人、市场化融资金额超2亿元及主要出资方，库内该轮为C轮。",
+          "sources": [
+            "https://m.pedaily.cn/news/570572",
+            "https://m.pedaily.cn/vc/invest/v108630",
+            "https://www.chinaventure.com.cn/flash/20261021-90187.html"
+          ],
+          "records": [
+            {
+              "eventId": "d9c812d3e9dbacf7b7bf6542",
+              "company": "浙江智束科技有限公司",
+              "day": "2026-10-21",
+              "stage": "C轮",
+              "amount": "超2亿元人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570771.shtml": {
+          "stem": "灵钜创新",
+          "date": "2026-10-23",
+          "outcome": "已有",
+          "reason": "同一企业及两家投资方，金额级别与原天使轮准确匹配。",
+          "sources": [
+            "https://m.pedaily.cn/news/570771",
+            "https://wap.stockstar.com/detail/RB2026102200036588"
+          ],
+          "records": [
+            {
+              "eventId": "573eb02d6cb29b14b916ec8f",
+              "company": "深圳灵钜创新科技有限公司",
+              "day": "2026-10-22",
+              "stage": "天使轮",
+              "amount": "数千万人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570855.shtml": {
+          "stem": "中科卓尔",
+          "date": "2026-10-26",
+          "outcome": "已有",
+          "reason": "公司官网同日确认B+交割及数亿元，已收录同笔。",
+          "sources": [
+            "https://m.pedaily.cn/news/570855",
+            "https://zeit-group.com/news/index.php?id=18",
+            "https://www.zeit-group.com/news/info.php?id=41"
+          ],
+          "records": [
+            {
+              "eventId": "814c3bdef18a1717a51e3313",
+              "company": "成都中科卓尔智能科技集团有限公司",
+              "day": "2026-10-26",
+              "stage": "B+轮",
+              "amount": "数亿人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570922.shtml": {
+          "stem": "乾原量子",
+          "date": "2026-10-27",
+          "outcome": "已有",
+          "reason": "相同企业、超亿元天使轮及已知投资阵容。后续确认披露12家，完整实际载体未齐。",
+          "sources": [
+            "https://m.pedaily.cn/news/570922",
+            "https://www.36kr.com/p/4054916912600195"
+          ],
+          "records": [
+            {
+              "eventId": "af483dd8da7503fcd9d5e917",
+              "company": "合肥乾原量子科技有限公司",
+              "day": "2026-10-26",
+              "stage": "天使轮",
+              "amount": "超亿人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570477.shtml": {
+          "stem": "法奥机器人",
+          "date": "2026-10-19",
+          "outcome": "冲突待核",
+          "reason": "系列披露包括C+与D两轮，近10亿元为合计。库内两条D轮待同轮归并并保留早期修订记录。",
+          "sources": [
+            "https://m.pedaily.cn/news/570477",
+            "https://www.36kr.com/newsflashes/4028376991191427"
+          ],
+          "records": [
+            {
+              "eventId": "55f9b116a99f4c6379c22352",
+              "company": "法奥（苏州）机器人技术股份有限公司",
+              "day": "2026-10-18",
+              "stage": "D轮",
+              "amount": "未单独披露"
+            },
+            {
+              "eventId": "e9ab039d5cfe17570ba8a79c",
+              "company": "法奥（苏州）机器人技术股份有限公司",
+              "day": "2026-10-16",
+              "stage": "D轮",
+              "amount": "未单独披露"
+            },
+            {
+              "eventId": "ad0c273fa6dcdd89a3cae98e",
+              "company": "法奥（苏州）机器人技术股份有限公司",
+              "day": "2026-10-16",
+              "stage": "C+轮",
+              "amount": "未单独披露"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570621.shtml": {
+          "stem": "华瑞指数云",
+          "date": "2026-10-21",
+          "outcome": "冲突待核",
+          "reason": "同日超亿元融资报道未给正式轮次。库内B轮与其他资料所述A+待核，匿名资方不生成机构。",
+          "sources": [
+            "https://m.pedaily.cn/news/570621",
+            "https://www.cyzone.cn/article/849577.html"
+          ],
+          "records": [
+            {
+              "eventId": "e5e70e7a5bc6f58cafb93923",
+              "company": "华瑞指数云科技（深圳）有限公司",
+              "day": "2026-10-20",
+              "stage": "B轮",
+              "amount": "超亿人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570800.shtml": {
+          "stem": "瑞德制药",
+          "date": "2026-10-26",
+          "outcome": "冲突待核",
+          "reason": "主体和主要机构重合；5500万元与近亿元首轮披露仍需确认是分期还是整轮。",
+          "sources": [
+            "https://m.pedaily.cn/news/570800"
+          ],
+          "records": [
+            {
+              "eventId": "06c0b77917c5443e25ff0da9",
+              "company": "深圳市瑞德制药有限公司",
+              "day": "2026-10-20",
+              "stage": "天使轮",
+              "amount": "5500万人民币"
+            }
+          ]
+        }
+      },
+      "batch": "2026-11-26-reconcile-october-and-ape-134.csv"
+    },
+    {
+      "institution": "柯力传感、启高资本及猿声科技股东",
+      "checked_on": "2026-11-26",
+      "scope": "投资方公开原件和公开股东报道回查两组早期发行段与晚期现有交易",
+      "sources": [
+        "https://www.ins-vc.com/newsinfo/8560823.html",
+        "https://www.kelichina.com/news/keli_news/2649.html",
+        "https://m.newseed.cn/news/1375752",
+        "https://m.21jingji.com/article/20261109/herald/be64dfbf0833e384a030aac9ae492ebe.html"
+      ],
+      "candidate_count": 2,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-26-reconcile-october-and-ape-134.csv",
+      "pending": [
+        {
+          "company": "猿声先达科技（深圳）有限公司",
+          "source": "https://www.ins-vc.com/newsinfo/8560823.html",
+          "reason": "早期天使系列确认两轮，逐轮完成日、金额和实际出资方待查。"
+        },
+        {
+          "company": "猿声先达科技（深圳）有限公司",
+          "source": "https://m.21jingji.com/article/20261109/herald/be64dfbf0833e384a030aac9ae492ebe.html",
+          "reason": "后续股东变更中的七家投资品牌已入库，实际法律载体与2026年早期批次待对齐。"
+        }
+      ]
     }
   ]
 }
