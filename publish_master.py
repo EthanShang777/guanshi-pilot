@@ -189,7 +189,7 @@ def build(rows):
                 if name and name != display_name
             ))
             d['company'] = display_name
-        if d['stage'] != '股权转让':
+        if d['stage'] not in {'股权转让', '介绍上市'}:
             groups[d['sector']].append(d)
             deals.append(d)
         buckets['deal-'+key[:2]][key]=d

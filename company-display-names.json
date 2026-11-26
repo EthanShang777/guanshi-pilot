@@ -220,5 +220,33 @@
       "https://www.sec.gov/edgar/browse/?CIK=0001745999&owner=exclude",
       "https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-announces-closing-initial-public-offering"
     ]
+  },
+  "e67a2b1b3c7c64ee9e3acb8f": {
+    "name": "BOSS直聘",
+    "registeredName": "KANZHUN LIMITED",
+    "aliases": [
+      "BOSS Zhipin",
+      "北京华品博睿网络技术有限公司",
+      "看准网",
+      "NASDAQ:BZ"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1842827/000119312521172409/d151203df1a.htm",
+      "https://ir.zhipin.com/news-releases/news-release-details/kanzhun-limited-announces-second-quarter-2021-unaudited"
+    ]
+  },
+  "d13db193117f29441aeadd68": {
+    "name": "Klook 客路",
+    "registeredName": "Klook Technology Limited",
+    "aliases": [
+      "Klook",
+      "客路",
+      "客路旅行",
+      "客遊"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/2071502/000121390025108023/ea0248324-08.htm",
+      "https://www.hongshan.com/companies/klook/"
+    ]
   }
 }
