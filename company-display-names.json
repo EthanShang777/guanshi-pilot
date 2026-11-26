@@ -752,5 +752,639 @@
     "sources": [
       "https://www.sec.gov/Archives/edgar/data/2160920/000216092026000002/document_8.pdf"
     ]
+  },
+  "bd492fe1f89718235ab7610a": {
+    "name": "Albert Invent",
+    "registeredName": "Albert Invent Corp.",
+    "aliases": [],
+    "sources": [
+      "https://ttabvue.uspto.gov/ttabvue/ttabvue-98851757-EXA-2.pdf",
+      "https://webflow.albertinvent.com/press-release-post/albert-raises-55m-series-b-to-scale-the-first-chemistry-native-ai",
+      "https://www.albertinvent.com/press-release-post/albert-raises-55m-series-b-to-scale-the-first-chemistry-native-ai",
+      "https://www.fenwick.com/insights/experience/fenwick-represents-albert-invent-in-20m-growth-investment"
+    ]
+  },
+  "436aaf74e96bacc615a84e72": {
+    "name": "Ansa Biotechnologies",
+    "registeredName": "Ansa Biotechnologies, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://ansabio.com/news-events/news/ansa-biotechnologies-closes-54-4m-series-b-to-boost-us-dna-manufacturing/",
+      "https://ansabio.com/news-events/pr/ansa-biotechnologies-closes-oversubscribed-68-million-series-a-financing-to-power-the-next-era-of-dna-enabled-industries/",
+      "https://ansabio.com/news-events/pr/ansa-biotechnologies-raises-9-2-million-in-combined-seed-and-pre-seed-financing/",
+      "https://ansabio.com/news-events/pr/series-c-press-release/",
+      "https://www.justraised.io/rounds/2849",
+      "https://www.sec.gov/Archives/edgar/data/1816722/000123191925000593/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1816722/000123191926001596/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1816722/000181672220000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1816722/000181672222000002/primary_doc.xml"
+    ]
+  },
+  "44a60305e78b796758473ff8": {
+    "name": "Anthropic",
+    "registeredName": "Anthropic, PBC",
+    "aliases": [],
+    "sources": [
+      "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+      "https://www.anthropic.com/news/series-h",
+      "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm",
+      "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074937/anthropicpbc-fwppricing.htm",
+      "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+    ]
+  },
+  "63f4663b00c1e4d298f326c9": {
+    "name": "Cursor",
+    "registeredName": "Anysphere, Inc.",
+    "aliases": [
+      "Anysphere"
+    ],
+    "sources": [
+      "https://cursor.com/blog/series-a",
+      "https://cursor.com/blog/series-b",
+      "https://cursor.com/blog/series-d",
+      "https://cursor.com/en-US/blog/series-c",
+      "https://cursor.com/terms-of-service",
+      "https://cursor.com/terms/consulting-agreement",
+      "https://entwistle-law.com/wp-content/uploads/2023/06/FTX-Bankr.-ECF-1541-05.30.23-Fifth-Interim-Financial-Update-From-04.01.23-to-04.30.23-00131258xAE895.pdf",
+      "https://techcrunch.com/2023/10/11/anysphere-raises-8m-from-openai-to-build-an-ai-powered-ide/",
+      "https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm"
+    ]
+  },
+  "9112528e49eb98371e8bc6a1": {
+    "name": "Avere",
+    "registeredName": "Avere Systems, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.globenewswire.com/news-release/2017/03/21/1229693/0/en/avere-systems-closes-14-million-series-e-to-expand-cloud-offerings.html",
+      "https://www.lightreading.com/data-centers/avere-raises-20m-for-hybrid-cloud-storage-r-d",
+      "https://www.prnewswire.com/news-releases/investors-back-avere-with-additional-20-million-161927795.html",
+      "https://www.sec.gov/Archives/edgar/data/1451666/000145166617000003/xslFormDX07/primary_doc.xml"
+    ]
+  },
+  "7968b2822917970c1938f689": {
+    "name": "Cockroach Labs",
+    "registeredName": "Cockroach Labs, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.cockroachlabs.com/blog/end-of-year/",
+      "https://www.cockroachlabs.com/blog/explosive-growth-2021/",
+      "https://www.cockroachlabs.com/blog/series-c/",
+      "https://www.cockroachlabs.com/cloud-terms-and-conditions/",
+      "https://www.cockroachlabs.com/news/press-release-series-f-funding/",
+      "https://www.cockroachlabs.com/website-terms-of-use/",
+      "https://www.prnewswire.com/news-releases/cockroach-labs-caps-two-years-of-exceptional-growth-by-raising-86-6m-of-new-investment-301052418.html"
+    ]
+  },
+  "db331f7c1c5d6525babeccab": {
+    "name": "Cognition AI",
+    "registeredName": "Cognition AI, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://8vc.com/resources/comparative-cognition",
+      "https://cognition.com/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents",
+      "https://cognition.com/blog/introducing-devin",
+      "https://cognition.com/blog/series-d",
+      "https://cognition.com/blog/series-e",
+      "https://cognition.com/legal/platform-terms-of-service",
+      "https://cognition.com/legal/privacy-policy"
+    ]
+  },
+  "18056545687545407b58b861": {
+    "name": "Databento",
+    "registeredName": "Databento, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://databento.com/about",
+      "https://databento.com/blog/announcements/",
+      "https://databento.com/blog/databento-10m-additional-funding-2024",
+      "https://databento.com/blog/series-b",
+      "https://databento.com/blog/series-c/",
+      "https://databento.com/legal/terms-of-use"
+    ]
+  },
+  "7366f82a3b8ce8f7ab668338": {
+    "name": "Dialpad",
+    "registeredName": "Dialpad, Inc.",
+    "aliases": [
+      "FireSpotter, Inc.",
+      "Firespotter Labs",
+      "Switch Communications",
+      "Switch.co"
+    ],
+    "sources": [
+      "https://www.dialpad.com/jp/press/dialpad-softbank-investment/",
+      "https://www.dialpad.com/press/bill-maris-section-32-new-investor/",
+      "https://www.dialpad.com/press/dialpad-series-d-funding/",
+      "https://www.dialpad.com/press/series-e-funding/",
+      "https://www.globenewswire.com/news-release/2015/05/19/737256/10135120/en/Switch-Communications-Raises-35-Million-to-Fuel-Growth.html",
+      "https://www.prnewswire.com/news-releases/firespotter-labs-raises-15m-series-b-led-by-andreessen-horowitz-163018906.html",
+      "https://www.sec.gov/Archives/edgar/data/1827373/000182737320000001/xslFormDX01/primary_doc.xml",
+      "https://www.sec.gov/files/amendedcomplaint16-cv-24678chang-rajii.pdf"
+    ]
+  },
+  "0f5ee13daede780515189e13": {
+    "name": "Splice",
+    "registeredName": "Distributed Creation Inc.",
+    "aliases": [],
+    "sources": [
+      "https://splice.com/blog/hello-world-this-is-splice/",
+      "https://splice.com/blog/hit-record-from-your-bedroom/",
+      "https://splice.com/blog/music-sounds-better-with-you/",
+      "https://splice.com/privacy-policy",
+      "https://splice.com/terms",
+      "https://wiki2.org/en/Splice_(platform",
+      "https://www.pappers.fr/entreprise/distributed-creation-inc-984865303/documents/DISTRIBUTED%20CREATION%20INC%20-%20Copie%20des%20statuts%2012-02-2024.pdf"
+    ]
+  },
+  "0c75ea65f2815fe33e5694a1": {
+    "name": "DNAnexus",
+    "registeredName": "DNAnexus, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1469369/000146936914000002/xslFormDX07/primary_doc.xml"
+    ]
+  },
+  "b97ea1ce5fcde20fd42d2184": {
+    "name": "Earthly",
+    "registeredName": "Earthly Technologies Inc.",
+    "aliases": [
+      "Earthly Technologies"
+    ],
+    "sources": [
+      "https://earthly.dev/blog/earthly-raises-5.7m",
+      "https://earthly.dev/blog/new-fundings-at-earthly/",
+      "https://earthly.dev/tos/",
+      "https://www.justraised.io/rounds/2851",
+      "https://www.work-bench.com/post/announcing-our-investment-in-earthly"
+    ]
+  },
+  "68747c557ab5470f6bfd5890": {
+    "name": "fal.ai",
+    "registeredName": "Features & Labels, Inc.",
+    "aliases": [
+      "fal"
+    ],
+    "sources": [
+      "https://fal.ai/blog/series-e-f",
+      "https://fal.ai/legal/terms-of-service"
+    ]
+  },
+  "abdcfc6a9b2944bf90c1c93b": {
+    "name": "Figure AI",
+    "registeredName": "Figure AI Inc.",
+    "aliases": [
+      "Figure"
+    ],
+    "sources": [
+      "https://www.figure.ai/news/series-c",
+      "https://www.parkway.vc/news-posts/figure-announces-70m-series-a-to-support-commercialization-of-figure-01-humanoid-robot",
+      "https://www.sec.gov/Archives/edgar/data/2014185/000149315224009735/xslFormDX01/primary_doc.xml"
+    ]
+  },
+  "72c014403c919ba110d132b0": {
+    "name": "PaintJet",
+    "registeredName": "Foreman Technologies Inc.",
+    "aliases": [],
+    "sources": [
+      "https://patents.google.com/patent/US20240335855A1/en",
+      "https://www.webwire.com/ViewPressRel.asp?aId=295918",
+      "https://www.webwire.com/ViewPressRel.asp?aId=315710"
+    ]
+  },
+  "e44c2c844b566787565a3869": {
+    "name": "Glovo",
+    "registeredName": "Glovoapp23, S.L.",
+    "aliases": [],
+    "sources": [
+      "https://about.glovoapp.com/press/glovo-raises-450m-in-series-f-funding-round-led-by/",
+      "https://about.glovoapp.com/press/glovo-raises-a-further-150m-and-achieves-unicorn/",
+      "https://boe.es/diario_borme/txt.php?id=BORME-C-2021-5197&lang=es",
+      "https://www.deliveryhero.com/newsroom/tech-champions-join-forces/"
+    ]
+  },
+  "3a9cbc0124caf78f1a6c55ea": {
+    "name": "Harbinger Motors",
+    "registeredName": "Harbinger Motors Inc.",
+    "aliases": [
+      "Electron Transport Inc."
+    ],
+    "sources": [
+      "https://harbingermotors.com/newsroom/",
+      "https://harbingermotors.com/newsroom/electric-vehicle-company-harbinger-raises-100-million-in-series-b-funding-co-led-by-capricorns-technology-impact-fund-and-leitmotif/",
+      "https://harbingermotors.com/newsroom/harbinger-raises-160-million-series-c-co-led-by-fedex/",
+      "https://harbingermotors.com/newsroom/harbinger-raises-240-million-series-d-funding-round/",
+      "https://harbingermotors.com/wp-content/uploads/2025/09/Harbinger-General-TCs-for-Beta-and-Production-v.F-1-2023.pdf",
+      "https://www.justraised.io/rounds/1983"
+    ]
+  },
+  "32fb2efa9c401d6cac48c23c": {
+    "name": "Hortonworks",
+    "registeredName": "Hortonworks, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1610532/000119312515109660/d893506d10k.htm"
+    ]
+  },
+  "0dd20c0ac828dc170d2d3894": {
+    "name": "HotelTonight",
+    "registeredName": "Hotel Tonight, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1520184/000152018411000002/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1520184/000152018411000003/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1520184/000152018412000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1520184/000152018413000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1520184/000152018417000001/primary_doc.xml"
+    ]
+  },
+  "684171969020f2232494b938": {
+    "name": "Iambic Therapeutics",
+    "registeredName": "Iambic Therapeutics, Inc.",
+    "aliases": [
+      "Entos",
+      "Entos, Inc."
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1997038/000119312526422865/iambic_inception_424b4.htm",
+      "https://www.sec.gov/Archives/edgar/data/1997038/000119312526468537/iam-20260930.htm"
+    ]
+  },
+  "4ec918c0075edf0a3d0b3610": {
+    "name": "IsoLabs",
+    "registeredName": "Isomorphic Labs Limited",
+    "aliases": [],
+    "sources": [
+      "https://find-and-update.company-information.service.gov.uk/company/13223825",
+      "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round",
+      "https://www.isomorphiclabs.com/terms-and-conditions"
+    ]
+  },
+  "1ae1c0019528d2a65f82a079": {
+    "name": "Klarna",
+    "registeredName": "Klarna Holding AB (publ)",
+    "aliases": [
+      "Klarna Holding",
+      "Klarna Holding AB"
+    ],
+    "sources": [
+      "https://investors.klarna.com/News--Events/news/news-details/2022/Klarna-closes-major-financing-round-during-worst-stock-downturn-in-50-years-holding/default.aspx",
+      "https://mb.cision.com/Main/68/3364750/1430331.pdf",
+      "https://news.cision.com/klarna-bank-ab--publ-/r/klarna-announces--460m-equity-raise-to-further-support-massive-us-growth,c2874599",
+      "https://owp.klarna.com/legacy/assets/2020/04/Klarna_Holding_AB_Annual_Report_2019_EN.pdf",
+      "https://owp.klarna.com/legacy/assets/2021/02/25063018/Presentation-Klarna-Business-Update-Jan-Dec-2020.pdf",
+      "https://owp.klarna.com/legacy/assets/sites/15/2021/08/24184511/Klarna-Holding-AB-Interim-Report-2021-EN.pdf",
+      "https://owp.klarna.com/legacy/assets/sites/5/2023/02/27204217/2022-Klarna-Holding-AB_Annual-Report_EN.pdf",
+      "https://regnskaber.cvrapi.dk/15771804/amNsb3VkczovLzAzLzllL2NmL2Q2LzNhLzIwZTYtNDY2Mi05NDA2LWI4YmQ1YzRhZmFkNQ.pdf",
+      "https://s205.q4cdn.com/644747736/files/doc_financials/2021/q4/Klarna-Holding-AB-Annual-Report-2021-EN.pdf",
+      "https://www.klarna.com/international/press/klarna-announces-650m-funding-round-to-further-accelerate-global-growth/"
+    ]
+  },
+  "3d2cb8c86befc0d9efa67b08": {
+    "name": "Labelbox",
+    "registeredName": "Labelbox, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://labelbox.com/",
+      "https://labelbox.com/blog/announcing-our-series-d/",
+      "https://labelbox.com/blog/how-an-in-q-tel-strategic-investment-is-helping-the-national-security-community-accelerate-the-adoption-of-ai/",
+      "https://labelbox.com/blog/labelbox-series-e/",
+      "https://www.globenewswire.com/news-release/2020/02/04/1979356/0/en/artificial-intelligence-startup-labelbox-closes-25-million-in-series-b-funding.html",
+      "https://www.globenewswire.com/news-release/2021/02/12/2175106/0/en/artificial-intelligence-startup-labelbox-closes-40-million-in-series-c-funding.html",
+      "https://www.marketscreener.com/news/latest/Labelbox-Raises-10-Million-in-Series-A-Funding-to-Accelerate-Industrial-AI-28378733/",
+      "https://www.prnewswire.com/news-releases/labelbox-raises-3-9m-in-seed-funding-led-by-kleiner-perkins-to-advance-its-platform-for-adapting-and-training-artificial-intelligence-in-the-enterprise-300688895.html"
+    ]
+  },
+  "38051db056edf96e142cee27": {
+    "name": "Lambda Labs",
+    "registeredName": "Lambda, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://lambda.ai/blog/lambda-raises-480m-to-expand-ai-cloud-platform",
+      "https://lambda.ai/blog/lambda-raises-over-1.5b-from-twg-global-usit-to-build-superintelligence-cloud-infrastructure",
+      "https://lambda.ai/blog/lambdalabs.com-is-now-lambda.ai",
+      "https://lambda.ai/lambda-brand-use-policy",
+      "https://lambda.com/blog/lambda-raises-24-5-to-build-a-gpu-cloud-and-deep-learning-infrastructure",
+      "https://lambda.com/blog/lambda-raises-320m-to-build-a-gpu-cloud-for-ai",
+      "https://lambda.com/blog/lambda-raises-44m-to-build-worlds-best-cloud-for-training-ai"
+    ]
+  },
+  "4da78c385e40059188718058": {
+    "name": "MapR",
+    "registeredName": "MapR Technologies, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://techcrunch.com/2014/07/01/mapr-gains-110-million-in-funding-led-by-google-capital/",
+      "https://www.infoq.cn/article/BNY7CCWJ-msCOHCAX53k",
+      "https://www.sec.gov/Archives/edgar/data/1468803/000146880316000002/xslFormDX07/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1468803/000146880317000002/xslFormDX01/primary_doc.xml"
+    ]
+  },
+  "327bf9671f3b8ffe46d8baf5": {
+    "name": "Metaview",
+    "registeredName": "Metaview Global Ltd",
+    "aliases": [],
+    "sources": [
+      "https://find-and-update.company-information.service.gov.uk/company/11313397",
+      "https://find-and-update.company-information.service.gov.uk/company/11313397/officers",
+      "https://ico.org.uk/ESDWebPages/RegistrationCertificate/ZA559911",
+      "https://seedcamp.com/views/metaviews-new-product-helps-you-and-us-hire-top-talent/",
+      "https://www.metaview.ai/resources/blog/fresh-capital-announcement",
+      "https://www.metaview.ai/resources/blog/metaview-raised-an-additional-60m-to-lead-the-shift-to-agentic-recruiting",
+      "https://www.metaview.ai/resources/blog/series-b",
+      "https://www.metaview.ai/resources/blog/weve-raised-a-6m-seed-to-power-people-decisions-with-truth",
+      "https://www.metaview.ai/website-terms-of-use"
+    ]
+  },
+  "3a84814bf4224937e2db639d": {
+    "name": "NGINX",
+    "registeredName": "Nginx, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://handwiki.org/wiki/index.php?diff=next&oldid=4563538",
+      "https://www.idaireland.com/latest-news/press-release/nginx-raises-$43-million-in-series-c-funding-to-accelerate-application-modernisation-and-digital-tra",
+      "https://www.prnewswire.com/news-releases/nginx-closes-20-million-to-deliver-the-modern-web-experience-300006478.html",
+      "https://www.sec.gov/Archives/edgar/data/1048695/000104869519000026/exhibit991.htm"
+    ]
+  },
+  "f6369835872a1f80bffabf57": {
+    "name": "Nomad",
+    "registeredName": "Nomad Global",
+    "aliases": [],
+    "sources": [
+      "https://www.beyondthelaw.news/fintech-nomad-of-brazil-concludes-series-a-round-from-investment-funds-monashees-and-spark-capital/",
+      "https://www.foley.com/news/2022/05/foley-represents-brazilian-fintech-nomad-32m/",
+      "https://www.foley.com/news/2023/08/foley-represents-nomad-61m-series-b-financing/",
+      "https://www.justraised.io/rounds/2799",
+      "https://www.nomadglobal.com/en/about-us"
+    ]
+  },
+  "7743a1c07168ed377bc51ba0": {
+    "name": "Optain",
+    "registeredName": "Optain Health, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.justraised.io/rounds/2924",
+      "https://www.optainhealth.com/about/",
+      "https://www.prnewswire.com/news-releases/optain-health-closes-26-million-series-a-to-bring-oculomics-to-primary-care-and-beyond-302551962.html",
+      "https://www.sec.gov/Archives/edgar/data/1977208/000197720825000001/xslFormDX01/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1977208/000197720826000002/0001977208-26-000002-index.htm"
+    ]
+  },
+  "8dcfc3277d7885579d1f6101": {
+    "name": "Planet Savers",
+    "registeredName": "Planet Savers株式会社",
+    "aliases": [],
+    "sources": [
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=6011001155784",
+      "https://prtimes.jp/main/html/rd/p/000000018.000130404.html",
+      "https://www.jafco.co.jp/english/portfolio/planetsavers/"
+    ]
+  },
+  "dab28a4190cac747b18a93b7": {
+    "name": "Qumulo",
+    "registeredName": "Qumulo, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://qumulo.com/press-releases/qumulo-announces-dollar125m-financing-at-more-than-dollar12-billion-valuation",
+      "https://qumulo.com/press-releases/qumulo-closes-dollar245-million-in-series-a-funding",
+      "https://qumulo.com/press-releases/qumulo-raises-dollar325-million-in-series-c-funding-round-to-build-on-momentum-br",
+      "https://qumulo.com/resources/qumulo-selected-by-alwayson-as-a-2015-oncloud-company-to-watch",
+      "https://tracxn.com/d/companies/qumulo/__qKeXjqbyE2HTkLBB6ayd22ro0BB_BRjQWB3BxU4dQqg/funding-and-investors",
+      "https://www.hpcwire.com/aiwire/2018/06/06/qumulo-raises-93-million-in-series-d-funding",
+      "https://www.sec.gov/Archives/edgar/data/1546162/000116840420000007/xslFormDX01/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1546162/000154616212000001/xslFormDX01/primary_doc.xml"
+    ]
+  },
+  "b70b7118af1094b965db3169": {
+    "name": "Reco",
+    "registeredName": "Recolabs Inc.",
+    "aliases": [
+      "RecoLabs"
+    ],
+    "sources": [
+      "https://boldstart.vc/companies/reco/",
+      "https://www.globenewswire.com/fr/news-release/2026/09/29/3370973/0/en/reco-raises-55-million-in-additional-funding-with-participation-from-at-t-ventures.html",
+      "https://www.reco.ai/blog/reco-secures-25m-to-close-the-saas-security-gap-with-ai-native-dynamic-saas-security",
+      "https://www.reco.ai/blog/saas-and-ai-security-is-here-reco-raises-series-b-to-dominate-the-future-of-ai-usage-in-saas",
+      "https://www.reco.ai/terms-of-service"
+    ]
+  },
+  "2ee739cb8aff0cad9ad8d293": {
+    "name": "Seer",
+    "registeredName": "Seer, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://investor.seer.bio/news-releases/news-release-details/seer-announces-55-million-series-d-equity-financing",
+      "https://www.sec.gov/Archives/edgar/data/1726445/000162828021007972/seerinc-fy2020proxy.htm"
+    ]
+  },
+  "ab75da067457057130fc11c9": {
+    "name": "Shield AI",
+    "registeredName": "Shield AI, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1675769/000167576919000001/xslFormDX08/primary_doc.xml"
+    ]
+  },
+  "1ca33ba42dd9c34fac7f5954": {
+    "name": "SiMa.ai",
+    "registeredName": "SiMa Technologies, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://docs.sima.ai/_eula/EULA.pdf",
+      "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
+      "https://sima.ai/press-release/sima-ai-secures-funds-and-readies-new-generative-edge-ai-platform/",
+      "https://sima.ai/press-release/sima-ai-strategic-investment-from-micron-to-scale-physical-ai/",
+      "https://sima.ai/press-release/sima-ai-welcomes-new-investor-msd-partners-bringing-total-investment-to-187-million-sima-ai-extends-oversubscribed-series-b1-funding-to-67-million/",
+      "https://sima.ai/privacy-policy/",
+      "https://www.businesswire.com/news/home/20200512005313/en",
+      "https://www.businesswire.com/news/home/20210511005377/en/SiMa.ai-Raises-$80-Million-in-Series-B-Financing-Led-by-Fidelity",
+      "https://www.prnewswire.com/news-releases/simaai-raises-85m-to-scale-physical-ai-bringing-total-funding-to-355m-302519152.html"
+    ]
+  },
+  "0d36c8986deb9ed8185fc979": {
+    "name": "Suki AI",
+    "registeredName": "Suki AI, Inc.",
+    "aliases": [
+      "Suki"
+    ],
+    "sources": [
+      "https://trust.suki.ai/",
+      "https://www.beckershospitalreview.com/hospital-management-administration/suki-announces-20-million-series-b-funding-round-for-its-voice-enabled-digital-clinical-assistant/",
+      "https://www.businesswire.com/news/home/20211207005277/en/Suki-Announces-$55-Million-Series-C-Funding-Round",
+      "https://www.prnewswire.com/news-releases/suki--an-ai-powered-voice-enabled-digital-assistant-for-doctors--launches-to-reduce-documentation-burden-on-physicians-300639586.html",
+      "https://www.suki.ai/blog/2024-in-review-a-year-of-innovation-and-growth/",
+      "https://www.suki.ai/press-releases/suki-announces-investment-from-zoom-ventures/",
+      "https://www.suki.ai/press-releases/suki-secures-90-million-to-build-and-scale-ai-agents-for-health-systems-and-health-tech-companies/",
+      "https://www.suki.ai/terms-of-service/"
+    ]
+  },
+  "eacd586ec67f54bbee364412": {
+    "name": "Tastemade",
+    "registeredName": "TasteMade, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://s3.amazonaws.com/com.tastemade.public/TMSeriesEPressRelease.pdf",
+      "https://tracxn.com/d/companies/tastemade/__pPcuPofEkQ0Y0NJINXjn_VVD8F8gDCH7lLcG2hivs9c/funding-and-investors",
+      "https://www.sec.gov/Archives/edgar/data/1554435/000155443512000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1554435/000155443515000001/primary_doc.xml",
+      "https://www.sec.gov/Archives/edgar/data/1554435/000155443515000001/xslFormDX01/primary_doc.xml",
+      "https://www.thewrap.com/tastemade-raises-10m-become-youtubes-top-food-network-110906/"
+    ]
+  },
+  "0cdd1baa6b302bd881e1dadc": {
+    "name": "Tecton",
+    "registeredName": "Tecton, Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.globenewswire.com/news-release/2020/12/07/2140792/0/en/tecton-releases-cloud-native-enterprise-feature-store-for-machine-learning-raises-35-million-series-b-co-led-by-andreessen-horowitz-and-sequoia.html",
+      "https://www.globenewswire.com/news-release/2022/7/12/2478423/0/en/Tecton-Reports-Record-Demand-for-Its-Machine-Learning-Feature-Platform-as-It-Raises-100-Million-in-Funding-Led-by-Kleiner-Perkins-With-Participation-from-Strategic-Investors-Databr.html",
+      "https://www.tecton.ai/wp-content/uploads/2020/08/Tecton_AUP.pdf",
+      "https://www.tecton.ai/wp-content/uploads/2022/12/Tecton-Security-and-Compliance-221208.pdf"
+    ]
+  },
+  "308f202a9d45945befe6ea46": {
+    "name": "无界进化",
+    "registeredName": "北京无界进化科技有限公司",
+    "aliases": [
+      "INFevo"
+    ],
+    "sources": [
+      "https://vc.pedaily.cn/company/906724.html",
+      "https://www.36kr.com/p/4072068937176708",
+      "https://www.ithome.com/1/027/609.htm",
+      "https://www.prnewswire.com/apac/zh/news-releases/-infevo-302787769.html",
+      "https://www.zidonghua.com.cn/news/newproduct/215543.html"
+    ]
+  },
+  "1e86e938c90c9da4189a627d": {
+    "name": "生数科技",
+    "registeredName": "北京生数科技股份有限公司",
+    "aliases": [
+      "ShengShu Technology",
+      "北京生数科技有限公司"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-04-25/507ce7bc-e9cf-47a0-9619-e50dafe2601c.PDF",
+      "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202602/t20260206_4495369.html",
+      "https://pdf.dfcfw.com/pdf/H2_AN202603301820869493_1.pdf",
+      "https://www.genspi.com/zh/news/series-a-plus-funding/",
+      "https://www.qimingvc.com/cn/node/6734",
+      "https://www.realai.ai/news/company-news/476.html"
+    ]
+  },
+  "8e1f77e563072f0e26b07230": {
+    "name": "千寻智能",
+    "registeredName": "千寻智能（北京）科技股份有限公司",
+    "aliases": [
+      "Spirit AI",
+      "千寻智能（北京）科技有限公司",
+      "千寻智能（杭州）科技有限公司"
+    ],
+    "sources": [
+      "https://36kr.com/newsflashes/2902463041510281",
+      "https://companies.caixin.com/2025-03-31/102304320.html",
+      "https://finance.sina.com.cn/jjxw/2026-07-03/doc-inifnxph0516975.shtml",
+      "https://m.shuidi.cn/company-35b7732f7b0bca7c8c455f37a866b001.html",
+      "https://shunwei.com/news/2647",
+      "https://shunwei.com/news/2701",
+      "https://www.36kr.com/p/2888780756392579",
+      "https://www.spirit-ai.com/news/11",
+      "https://www.spirit-ai.com/news/26",
+      "https://www.spirit-ai.com/news/34",
+      "https://www.spirit-ai.com/news/6",
+      "https://zjic.zj.gov.cn/ywdh/cyfz/202603/t20260302_23968410.shtml"
+    ]
+  },
+  "d2d61d982935e7c0ff19f757": {
+    "name": "宇树科技",
+    "registeredName": "宇树科技股份有限公司",
+    "aliases": [
+      "杭州宇树科技有限公司",
+      "杭州宇树科技股份有限公司"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/002178_20260320_86M3.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002178_20260525_7RVL.pdf"
+    ]
+  },
+  "220aba6fe02640540bbd85e8": {
+    "name": "星海图",
+    "registeredName": "星海图（北京）人工智能科技股份有限公司",
+    "aliases": [
+      "Galaxea",
+      "星海图（北京）人工智能科技有限公司",
+      "星海图（苏州）人工智能科技有限公司",
+      "苏州煋海图科技有限公司"
+    ],
+    "sources": [
+      "https://capital.lenovo.com/news/detail/id/1095/s/1.html",
+      "https://finance.sina.com.cn/jjxw/2024-11-04/doc-incuwfym2395263.shtml",
+      "https://finance.sina.com.cn/tech/roll/2025-07-09/doc-infevtfv2909972.shtml",
+      "https://galaxea-ai.com/images/news/news.json",
+      "https://galaxea-ai.com/zh/company.html",
+      "https://m.bjnews.com.cn/detail/1769140660129748.html",
+      "https://m.xcc.cn/enterBody/9fc6581653fb11ee8c9300163e350731",
+      "https://static.cninfo.com.cn/finalpage/2026-01-29/1224954928.PDF",
+      "https://www.36kr.com/p/3174672552659337",
+      "https://www.cathaycapital.com/cn/%E5%87%AF%E8%BE%89%E5%9F%BA%E9%87%91%E9%A2%86%E6%8A%95%EF%BC%8C%E3%80%8C%E6%98%9F%E6%B5%B7%E5%9B%BE%E3%80%8D%E6%8E%A5%E8%BF%9E%E5%AE%8C%E6%88%90%E8%B6%853%E4%BA%BF%E5%85%83a2-a3%E8%BD%AE%E8%9E%8D/",
+      "https://www.galaxea-ai.com/zh/company.html",
+      "https://www.gintoncapital.com/news/id/226",
+      "https://www.prnewswire.com/apac/zh/news-releases/1a4a5-302507735.html",
+      "https://www.puhuacapital.com/index.php/news/info/289",
+      "https://www.stcn.com/article/detail/1534634.html",
+      "https://wxvcg.com/news.asp?None=18&nlt=225"
+    ]
+  },
+  "58f76ec280c587668e0447a5": {
+    "name": "NovAccel",
+    "registeredName": "株式会社NovAccel",
+    "aliases": [],
+    "sources": [
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=5010001246066",
+      "https://prtimes.jp/main/html/rd/p/000000020.000154244.html"
+    ]
+  },
+  "0d09135982e1255ea4aadecb": {
+    "name": "PulmoGate",
+    "registeredName": "株式会社PulmoGate",
+    "aliases": [],
+    "sources": [
+      "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=9180001169602",
+      "https://prtimes.jp/main/html/rd/p/000000003.000191902.html",
+      "https://www.justraised.io/rounds/2947"
+    ]
+  },
+  "97fb72699a91cbf4150d32bc": {
+    "name": "KNOWIN",
+    "registeredName": "深圳诺因智能有限公司",
+    "aliases": [],
+    "sources": [
+      "https://knowinai.com/",
+      "https://m.pedaily.cn/vc/company/819613.html",
+      "https://news.pedaily.cn/202603/561445.shtml",
+      "https://www.donews.com/news/detail/1/6454998.html"
+    ]
+  },
+  "70606cc755aca5d44d451ddb": {
+    "name": "知有无界",
+    "registeredName": "知有无界（深圳）智能科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://auto.gasgoo.com/news/202602/4I70445672C601.shtml",
+      "https://career.cuhk.edu.cn/job/view/id/469967",
+      "https://www.shuididp.cn/yp-8323bf817bcaee85c271427ba422b901.html"
+    ]
+  },
+  "3cb6d6ae540b6f203956c777": {
+    "name": "清研精准",
+    "registeredName": "苏州清研精准汽车科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.tsari.tsinghua.edu.cn/newsStatus/news/2020-10-06/100.html",
+      "https://www.tsari.tsinghua.edu.cn/newsStatus/news/2020-10-07/114.html",
+      "https://www.tsari.tsinghua.edu.cn/newsStatus/news/2021-07-01/408.html"
+    ]
   }
 }
