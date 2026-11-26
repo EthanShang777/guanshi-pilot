@@ -937,5 +937,209 @@
     },
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf",
     "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:953d50533602fd5a1129c4",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:699d4e8dbab5a1a14b7eb9",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f30ab3319703f9e2921bd9",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:85079ad8affb498b8fe9c3",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:046199793ab80add799a31",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:029bfadcbe8457e2b31abd",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4ff7111e07c873762168df",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:029bfadcbe8457e2b31abd",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4ff7111e07c873762168df",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:046199793ab80add799a31",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8957740b5cf4a65fe45c3e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2d4a3fa46c7a0b2b4519a8",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f0aa6bad07b63487722a8b",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2d4a3fa46c7a0b2b4519a8",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f0aa6bad07b63487722a8b",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8957740b5cf4a65fe45c3e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fa60523d4b2c41bbe1db49",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2d4a3fa46c7a0b2b4519a8",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fa60523d4b2c41bbe1db49",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8957740b5cf4a65fe45c3e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fa60523d4b2c41bbe1db49",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f0aa6bad07b63487722a8b",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9eabffb976bc5d679ed2d0",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2d4a3fa46c7a0b2b4519a8",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9eabffb976bc5d679ed2d0",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8957740b5cf4a65fe45c3e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9eabffb976bc5d679ed2d0",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f0aa6bad07b63487722a8b",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9eabffb976bc5d679ed2d0",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:fa60523d4b2c41bbe1db49",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:e1ce58cf596a495631e5f90da1a6bc1f32622da929cca624005fffbe5999daf2",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:72175016eb5ff9b40c542e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "同月验资增资和12月30日老股分属不同交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:72175016eb5ff9b40c542e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "financing_event:e1ce58cf596a495631e5f90da1a6bc1f32622da929cca624005fffbe5999daf2",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "同月验资增资和12月30日老股分属不同交易"
   }
 ]

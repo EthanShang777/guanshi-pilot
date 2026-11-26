@@ -7409,15 +7409,17 @@
     "capitalBasis": "认缴规模",
     "otherLpCount": 0,
     "source": {
-      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
-      "date": "2026-06-29",
-      "dateKind": "公开文件披露日",
-      "issuer": "易控智驾港股招股章程及鹰峰电子招股说明书",
-      "pages": "易控第103–104页；鹰峰第70–71页",
+      "url": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf",
+      "date": "2026-06-30",
+      "dateKind": "发行人披露日",
+      "issuer": "鹰峰电子北交所招股说明书",
+      "pages": "第1-1-33至34页",
       "lpSources": [
-        "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF"
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+        "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf"
       ],
-      "lpScope": "鹰峰披露认缴2.1亿元和逐家出资额。易控正式招股书列出现时三位LP及两位GP，保留两期第三位LP的具名记录及比例。",
+      "lpScope": "认缴2.1亿元，现时第三位有限合伙人宁波炬兴认缴800万元，2023年同份额由平潭聚兴披露。两次披露中的两家法律主体关系待登记原件。",
       "generalPartners": [
         {
           "name": "上杭县兴杭创业投资有限公司",
@@ -7440,26 +7442,257 @@
           "amountCny": 8000000,
           "percent": 3.81
         }
-      ]
+      ],
+      "filingCode": "SVE963",
+      "filingDate": "2022-03-04",
+      "incorporatedOn": "2022-01-10"
     },
     "partners": [
       {
         "name": "刘冬梅",
         "disclosedContributionCny": 100000000,
-        "disclosedPercent": 47.619,
+        "disclosedPercent": 47.62,
         "existingInstitution": "945d0e1ccc1b277caffe66f0"
       },
       {
         "name": "闽西兴杭国有资产投资经营有限公司",
         "disclosedContributionCny": 70000000,
-        "disclosedPercent": 33.3333,
+        "disclosedPercent": 33.33,
         "existingInstitution": "1b6c8b13e6fa0f57ccbc5d4a"
       },
       {
         "name": "宁波炬兴创业投资合伙企业（有限合伙）",
-        "existingInstitution": "6fd7fb538b12cd52ae0025b8",
-        "disclosedPercent": 3.8095,
-        "disclosedContributionCny": null
+        "disclosedContributionCny": 8000000,
+        "disclosedPercent": 3.81,
+        "existingInstitution": "6fd7fb538b12cd52ae0025b8"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "8a04901f7e485378b91f3060",
+    "fundName": "龙岩睿投股权投资合伙企业（有限合伙）",
+    "managerName": "龙岩岩鑫创业投资基金管理有限公司",
+    "managerId": "00a746326faf1a47ce5e17c6",
+    "sizeCny": 300000000,
+    "capitalBasis": "设立时披露规模",
+    "otherLpCount": 3,
+    "source": {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+      "date": "2026-06-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "易控智驾港股招股章程及龙岩投资集团公布资料",
+      "pages": "易控第110–111页",
+      "lpSources": [
+        "https://news.pedaily.cn/202502/546195.shtml",
+        "https://www.longyan.gov.cn/hd/zxft/wqhg/gzw_230921/"
+      ],
+      "lpScope": "设立时公布总规模3亿元。截至招股章程披露有4位LP，龙岩投资发展集团为49%，其余3位未具名。岩鑫为唯一GP，占1%。",
+      "generalPartners": [
+        {
+          "name": "龙岩岩鑫创业投资基金管理有限公司",
+          "disclosedPercent": 1.0
+        }
+      ],
+      "incorporatedOn": "2025-02-10"
+    },
+    "partners": [
+      {
+        "name": "龙岩投资发展集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 49.0,
+        "existingInstitution": "9843f077c4f8a70cd88da4e7"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "3e1392f6e1f19d599335ce25",
+    "fundName": "宁波彗通创业投资合伙企业（有限合伙）",
+    "managerName": "辰韬资本",
+    "managerId": "98dd1addc2daa76e93ca8338",
+    "sizeCny": 465000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf",
+      "date": "2026-06-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "鹰峰电子北交所招股书",
+      "pages": "第1-1-33页",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF"
+      ],
+      "lpScope": "认缴4.65亿元，11位具名LP与1位GP。曾用名为平潭汇通。早期合伙结构和认缴时点见全国股转挂牌法律意见书。",
+      "generalPartners": [
+        {
+          "name": "上海辰韬资产管理有限公司",
+          "disclosedContributionCny": 3000000
+        }
+      ],
+      "creditCode": "91350128MA8RYFNN77",
+      "formerName": "平潭汇通创业投资合伙企业（有限合伙）",
+      "managerLegalName": "上海辰韬资产管理有限公司",
+      "historicalPartnership": [
+        {
+          "asOf": "2025-06-30",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+          "lp": "海南元宇宙科技有限公司",
+          "amountCny": 250000000,
+          "percent": 53.7634
+        },
+        {
+          "asOf": "2025-06-30",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+          "lp": "宁波博彗创业投资合伙企业（有限合伙）",
+          "amountCny": 2000000,
+          "percent": 0.4301
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "海南元宇宙科技有限公司",
+        "disclosedContributionCny": 190000000,
+        "disclosedPercent": 40.86,
+        "existingInstitution": "bd2dbecce3438ce63da3131e"
+      },
+      {
+        "name": "刘冬梅",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 15.05,
+        "existingInstitution": "945d0e1ccc1b277caffe66f0"
+      },
+      {
+        "name": "宁波博彗创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 42000000,
+        "disclosedPercent": 9.03,
+        "existingInstitution": "81484bd3ad2e7d52c5e7ad1c"
+      },
+      {
+        "name": "胡冬霞",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 6.45,
+        "existingInstitution": "ea376f626526338344499f01"
+      },
+      {
+        "name": "赵小平",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 6.45,
+        "existingInstitution": "5f7ff4b29c3b14f78f22b900"
+      },
+      {
+        "name": "陆蕾",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 4.3,
+        "existingInstitution": "ba974d4be9f411d1c06fa3c6"
+      },
+      {
+        "name": "林新正",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 4.3,
+        "existingInstitution": "6e3c53bb593f4c2e6f7436f4"
+      },
+      {
+        "name": "袁秀英",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 4.3,
+        "existingInstitution": "54c2497de44a6988a091534c"
+      },
+      {
+        "name": "陈冬梅",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 4.3,
+        "existingInstitution": "6db299817da60309aae610d4"
+      },
+      {
+        "name": "黄碧芬",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2.15,
+        "existingInstitution": "d1b1621f7289b4b05fc67e22"
+      },
+      {
+        "name": "钟春龙",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2.15,
+        "existingInstitution": "35f08d5edfae4dc4a670311f"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cdd6749d30e523655ae2569b",
+    "fundName": "平潭雄浦创业投资合伙企业（有限合伙）",
+    "managerName": "辰韬资本",
+    "managerId": "98dd1addc2daa76e93ca8338",
+    "sizeCny": 22500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf",
+      "date": "2026-06-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "鹰峰电子北交所招股说明书",
+      "pages": "第1-1-34页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf"
+      ],
+      "lpScope": "出资额2250万元，唯一LP中国信达、唯一GP辰韬资管，逐家认缴合计同总额。",
+      "generalPartners": [
+        {
+          "name": "上海辰韬资产管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "creditCode": "91350128MA8RYKYW4E",
+      "managerLegalName": "上海辰韬资产管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "中国信达资产管理股份有限公司",
+        "disclosedContributionCny": 21500000,
+        "disclosedPercent": 95.56,
+        "existingInstitution": "48702fc52cfb81dc799c4233"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f0dcc5822b604b3409595ab7",
+    "fundName": "上海檀英投资合伙企业（有限合伙）",
+    "managerName": "正心谷资本",
+    "managerId": "87a845ee2c2d30d44557b02a",
+    "sizeCny": 5000010000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf",
+      "date": "2026-06-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "鹰峰电子北交所招股说明书",
+      "pages": "第1-1-35页",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF"
+      ],
+      "lpScope": "认缴50.0001亿元，唯一LP上海乐进、唯一GP正心谷投资。交易日期以发行人历史验资、流水和律师原件为准。",
+      "generalPartners": [
+        {
+          "name": "上海正心谷投资管理有限公司",
+          "disclosedContributionCny": 10000
+        }
+      ],
+      "creditCode": "91310118MA1JL1W313",
+      "managerLegalName": "上海正心谷投资管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "上海乐进投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 5000000000,
+        "disclosedPercent": 100.0,
+        "existingInstitution": "e3da0a806e59d9268826148e"
       }
     ],
     "publishedStatistics": []

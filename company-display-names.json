@@ -3784,5 +3784,28 @@
     "sources": [
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf"
     ]
+  },
+  "8c33dcab935aff793c62d6cb": {
+    "name": "鹰峰电子",
+    "registeredName": "上海鹰峰电子科技股份有限公司",
+    "aliases": [
+      "上海鹰峰",
+      "上海鹰峰电子科技有限公司",
+      "874717"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf"
+    ]
+  },
+  "d906ea0c23a81487279a2761": {
+    "name": "泰铂科技",
+    "registeredName": "泰铂（上海）环保科技股份有限公司",
+    "aliases": [
+      "泰铂环保",
+      "872418"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202604071821044813_1.pdf"
+    ]
   }
 }

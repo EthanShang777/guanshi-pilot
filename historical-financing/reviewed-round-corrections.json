@@ -6085,5 +6085,83 @@
       "date_kind": "发行人披露最后一笔付款日"
     },
     "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:58bed92c03c2d527e7fc8d6d5d40b1b6d8541b8a5e9c10a6163ec5213195de8b",
+    "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb",
+    "day": "2022-01-10",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "expected": {
+      "round": "定向增发",
+      "amount": "1亿人民币",
+      "investors_json": "[{\"name\":\"兴韬投资\",\"role\":null,\"amount\":null},{\"name\":\"辰韬资本\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null}]",
+      "date": "2022-01-10",
+      "date_key": "2022-01-10",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "1亿元",
+      "investors_json": "[{\"name\":\"宁波彗通创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4000000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"宁波兴芮创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"南京金浦新潮吉祥创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}}]",
+      "date": "2022-01-12",
+      "date_key": "2022-01-12",
+      "date_kind": "发行人披露新增股份登记日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF",
+      "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:e1ce58cf596a495631e5f90da1a6bc1f32622da929cca624005fffbe5999daf2",
+    "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb",
+    "day": "2022-07-04",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "expected": {
+      "round": "定向增发",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"正心谷资本\",\"role\":null,\"amount\":null}]",
+      "date": "2022-07-04",
+      "date_key": "2022-07-04",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "180000088.40元",
+      "investors_json": "[{\"name\":\"科兴旭鼎管理咨询（上海）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4000001668,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"上海檀英投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3600001768,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"珠海市鼎擎企业管理咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000584,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"珠海市横琴旭勒投资管理企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":400002568,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"上海松鹰创和信息咨询中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000001084,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"平潭雄浦创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1999999500,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"苏州清睿华赢创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000001084,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"合肥轩元创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000001084,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}},{\"name\":\"北京小米智造股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1999999500,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf\"}}]",
+      "date": "2022-12-21",
+      "date_key": "2022-12-21",
+      "date_kind": "验资报告所载资金到位日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF",
+      "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:f5708cbc6b550b828735bf71e3d8e04091421862c9150687b30f77a3c4ed548f",
+    "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb",
+    "day": "2023-06-27",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"君尚投资\",\"role\":null,\"amount\":null},{\"name\":\"小米产投\",\"role\":null,\"amount\":null},{\"name\":\"常春藤资本\",\"role\":null,\"amount\":null},{\"name\":\"新潮创投\",\"role\":null,\"amount\":null},{\"name\":\"沃赋创投\",\"role\":null,\"amount\":null},{\"name\":\"清研资本\",\"role\":null,\"amount\":null},{\"name\":\"轩元资本\",\"role\":null,\"amount\":null}]",
+      "date": "2023-06-27",
+      "date_key": "2023-06-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "",
+      "investors_json": "[]",
+      "date": "2023-06-27",
+      "date_key": "2023-06-27",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF",
+      "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf"
+    ]
   }
 ]
