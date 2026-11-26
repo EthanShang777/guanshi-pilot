@@ -143,5 +143,33 @@
       "https://www.sec.gov/Archives/edgar/data/2103076/000119312526430437/d56487df1a.htm",
       "https://investor.opera.com/news-releases/news-release-details/opay-raises-50-million-investors-including-idg-capital-sequoia/"
     ]
+  },
+  "51ffe8258ffb12c07721d599": {
+    "name": "艾康特",
+    "registeredName": "维视艾康特（广东）医疗科技股份有限公司",
+    "aliases": [
+      "维视艾康特",
+      "VisionXlab",
+      "艾康特医疗科技有限公司"
+    ],
+    "sources": [
+      "https://www.hongshan.com/companies/visionx/",
+      "https://www.citics.com/newsite/tzgg/ipoqyfdgg/202301/P020230103522794808190.pdf",
+      "https://www.icomfit.net/about"
+    ]
+  },
+  "09201064c999e34a7b4949c7": {
+    "name": "Toss",
+    "registeredName": "주식회사 비바리퍼블리카",
+    "aliases": [
+      "Viva Republica Co Ltd.",
+      "Viva Republica",
+      "비바리퍼블리카",
+      "토스"
+    ],
+    "sources": [
+      "https://static.toss.im/docs/announcement/2021%20%E1%84%87%E1%85%B5%E1%84%87%E1%85%A1%E1%84%85%E1%85%B5%E1%84%91%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8F%E1%85%A1%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20%28%E1%84%87%E1%85%A7%E1%86%AF%E1%84%83%E1%85%A9%29.pdf",
+      "https://www.prnewswire.com/news-releases/toss-raises-40-million-from-gic-and-sequoia-china-300667591.html"
+    ]
   }
 }
