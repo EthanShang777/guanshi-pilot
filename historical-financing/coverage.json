@@ -5053,6 +5053,620 @@
           "detail": "张江创投债券募集说明书列该基金及4000万元。查证报表日、认缴及实缴后再补到基金结构化数据。"
         }
       ]
+    },
+    {
+      "institution": "2026年10月1日至4日公开融资补查",
+      "checked_on": "2026-11-26",
+      "scope": "独立公开索引逐笔对照，鲸准首周缺期继续保留。9月原发与10月转述分开",
+      "sources": [
+        "https://www.startupsraised.com/news/page/13",
+        "https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-sep-28-oct-3-12618694",
+        "https://forbes.co.il/mickey-haslavsky-enso-ai-startup-raises-15-million-dollars-moretech-ventures/",
+        "https://yourstory.com/2026/10/seeds-fincap-rs-100-cr-series-b-round-michael-susan-dell-foundation",
+        "https://www.zaperon.com/blog/zaperon-raises-750k-in-seed-funding-to-advance-its-unified-cybersecurity-platform-for-the-agentic-ai-era",
+        "https://www.hifi.com/blog/hifi-raises-usd37m-series-a-to-build-the-infrastructure-for-tokenized-money",
+        "https://www.charter.space/news/seed-round-2026",
+        "https://www.business-standard.com/content/press-releases-ani/bangalore-watch-company-raises-1-4m-usd-seed-round-plans-to-expand-globally-126093000631_1.html"
+      ],
+      "candidate_count": 11,
+      "existing_count": 4,
+      "pending_count": 2,
+      "new_october_count": 3,
+      "batch": "2026-11-26-october-first-week-139.csv",
+      "scoped_transactions": [
+        {
+          "name": "Homeward",
+          "day": "2026-10-01",
+          "status": "十月已有",
+          "event": "1c1a5e5abfee30c1ca6c7161",
+          "source": "https://www.startupsraised.com/news/page/13"
+        },
+        {
+          "name": "Volantis",
+          "day": "2026-10-01",
+          "status": "十月已有",
+          "event": "25b5727187399aaf23e6b29e",
+          "source": "https://www.startupsraised.com/news/page/13"
+        },
+        {
+          "name": "enso",
+          "day": "2026-10-01",
+          "status": "十月核实补录",
+          "event": "69450f08c34b83b36d8f2909",
+          "source": "https://forbes.co.il/mickey-haslavsky-enso-ai-startup-raises-15-million-dollars-moretech-ventures/"
+        },
+        {
+          "name": "Seeds Fincap",
+          "day": "2026-10-01",
+          "status": "十月核实补录",
+          "event": "63d5fe32cafed54f43cf879e",
+          "source": "https://yourstory.com/2026/10/seeds-fincap-rs-100-cr-series-b-round-michael-susan-dell-foundation"
+        },
+        {
+          "name": "Zaperon",
+          "day": "2026-10-01",
+          "status": "十月核实补录",
+          "event": "620a025ed448a28fffff713a",
+          "source": "https://www.zaperon.com/blog/zaperon-raises-750k-in-seed-funding-to-advance-its-unified-cybersecurity-platform-for-the-agentic-ai-era"
+        },
+        {
+          "name": "Aignosis",
+          "day": "2026-09-30",
+          "status": "九月已有",
+          "event": "d5619f0206cd8ab0e02cf9ce",
+          "source": "https://indianstartupnews.com/funding/antler-nikhil-kamath-invest-rs-4-crore-in-jaipur-based-healthtech-startup-aignosis-12619405"
+        },
+        {
+          "name": "Charter Space",
+          "day": "2026-09-30",
+          "status": "九月已有",
+          "event": "7fb5e9c736cf63a0bd52c014",
+          "source": "https://www.charter.space/news/seed-round-2026"
+        },
+        {
+          "name": "Bangalore Watch Company",
+          "day": "2026-09-30",
+          "status": "九月核实补录",
+          "event": "78b0e45b21cf4abf5e97d915",
+          "source": "https://www.business-standard.com/content/press-releases-ani/bangalore-watch-company-raises-1-4m-usd-seed-round-plans-to-expand-globally-126093000631_1.html"
+        },
+        {
+          "name": "HIFI",
+          "day": "2026-09-24",
+          "status": "九月核实补录",
+          "event": "cd603b489222999e8028a1d5",
+          "source": "https://www.hifi.com/blog/hifi-raises-usd37m-series-a-to-build-the-infrastructure-for-tokenized-money"
+        },
+        {
+          "name": "Ordo",
+          "day": null,
+          "status": "出资承诺待交割",
+          "source": "https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-sep-28-oct-3-12618694"
+        },
+        {
+          "name": "WearSynapse",
+          "day": null,
+          "status": "出资承诺待交割",
+          "source": "https://entrackr.com/report/weekly-funding-report-weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-sep-28-oct-3-12618694"
+        }
+      ]
+    },
+    {
+      "institution": "张江创投LP投资穿透",
+      "checked_on": "2026-11-26",
+      "scope": "LP出资穿透核验，60项按报告实缴/累计出资采集；全基金规模、出资比例、最新余额尚需逐基金核对",
+      "sources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-05-14/245205_20260514_4OQ4.pdf"
+      ],
+      "candidate_count": 60,
+      "existing_count": 14,
+      "pending_count": 46,
+      "lp_portfolio": {
+        "sourceSha256": "e1367052b3d9f3dd58d26b635438722a8b8114af1b89bce1d1fed5d0cee7d83e",
+        "asOf": "2025-12-31",
+        "issuer": "上海张江科技创业投资有限公司",
+        "disclosedPaidCny": 3505700500,
+        "itemizedPaidCny": 3505700400,
+        "differenceCny": 100,
+        "rows": [
+          {
+            "row": 1,
+            "investee": "上海浦东创业投资有限公司",
+            "paid_cny": 35500000,
+            "stage": "公司制基金",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 2,
+            "investee": "上海张江创业投资有限公司",
+            "paid_cny": 19800000,
+            "stage": "已退出",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 3,
+            "investee": "上海橡子园创业投资有限公司",
+            "paid_cny": 30000000,
+            "stage": "已退出",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 4,
+            "investee": "张江汉世纪创业投资有限公司",
+            "paid_cny": 300000000,
+            "stage": "公司制基金",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 5,
+            "investee": "北京金科汉世纪创业投资有限公司",
+            "paid_cny": 10000000,
+            "stage": "已退出",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 6,
+            "investee": "上海张江磐石葆霖股权投资合伙企业（有限合伙）",
+            "paid_cny": 40369000,
+            "stage": "已退出",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 7,
+            "investee": "上海黑骥马股权投资合伙企业（有限合伙）",
+            "paid_cny": 45000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 8,
+            "investee": "上海武岳峰集成电路股权投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 9,
+            "investee": "LYFE CAPITAL",
+            "paid_cny": 52634700,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 10,
+            "investee": "嘉兴济峰一号股权投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 11,
+            "investee": "上海张科领弋升帆创业投资中心（有限合伙）",
+            "paid_cny": 35000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 12,
+            "investee": "上海云奇网创创业投资中心（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 13,
+            "investee": "上海骅伟股权投资基金合伙企业（有限合伙）",
+            "paid_cny": 80000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 14,
+            "investee": "华清本草南通股权投资中心（有限合伙）",
+            "paid_cny": 30000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 15,
+            "investee": "北京执一创业投资中心（有限合伙）",
+            "paid_cny": 30000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 16,
+            "investee": "上海峰瑞创业投资中心（有限合伙）",
+            "paid_cny": 30000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 17,
+            "investee": "苏州通和二期创业投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 18,
+            "investee": "上海光易投资管理中心（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 19,
+            "investee": "杭州经天纬地投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 20,
+            "investee": "上海火山石一期股权投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 21,
+            "investee": "宁波挚信新经济二期股权投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 22,
+            "investee": "深圳市合创智能及健康创业投资基金（有限合伙）",
+            "paid_cny": 30000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 23,
+            "investee": "深圳悦和鼎信创业投资企业（有限合伙）",
+            "paid_cny": 70000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 24,
+            "investee": "上海蓝三木月投资中心（有限合伙）",
+            "paid_cny": 40000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 25,
+            "investee": "厦门纪源融汇投资管理合伙企业（有限合伙）",
+            "paid_cny": 70000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 26,
+            "investee": "苏州通和毓承投资合伙企业（有限合伙）",
+            "paid_cny": 70000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 27,
+            "investee": "宁波梅山保税港区骅鑫投资管理合伙企业（有限合伙）",
+            "paid_cny": 18600000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 28,
+            "investee": "杭州圆璟创恒股权投资基金合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 29,
+            "investee": "中金启辰（苏州）新兴产业股权投资基金合伙企业（有限合伙）",
+            "paid_cny": 70000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 30,
+            "investee": "上海诺恺莘康投资管理合伙企业（有限合伙）",
+            "paid_cny": 20000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 31,
+            "investee": "成都博远嘉昱创业投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 32,
+            "investee": "上海文化产业股权投资基金合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 70,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 33,
+            "investee": "南京云周创业投资中心（有限合伙）",
+            "paid_cny": 100000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 34,
+            "investee": "上海杏泽三禾创业投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "延长期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 35,
+            "investee": "德州两仪幂方康健创业投资合伙企业（有限合伙）",
+            "paid_cny": 30000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 36,
+            "investee": "苏州纪源皓元创业投资合伙企业（有限合伙）",
+            "paid_cny": 100000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 37,
+            "investee": "苏州济峰三号股权投资合伙企业（有限合伙）",
+            "paid_cny": 100000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 38,
+            "investee": "上海火山石二期创业投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 39,
+            "investee": "珠海通和毓承三期投资合伙企业（有限合伙）",
+            "paid_cny": 150000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 40,
+            "investee": "上海东浩兰生人力资源产业股权投资基金合伙企业（有限合伙）",
+            "paid_cny": 40000000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 41,
+            "investee": "苏州礼润股权投资中心（有限合伙）",
+            "paid_cny": 100000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 42,
+            "investee": "中孵创业投资有限公司",
+            "paid_cny": 15000000,
+            "stage": "公司制基金",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 43,
+            "investee": "上海武岳峰三期私募投资基金合伙企业（有限合伙）",
+            "paid_cny": 150000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 44,
+            "investee": "苏州博远厚诚二期股权投资合伙企业（有限合伙）",
+            "paid_cny": 80000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 45,
+            "investee": "珠海盛弘景晖股权投资合伙企业（有限合伙）",
+            "paid_cny": 100000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 46,
+            "investee": "上海暴龙创业投资合伙企业（有限合伙）",
+            "paid_cny": 20000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 47,
+            "investee": "杭州元璟中小企业发展股权投资基金合伙企业（有限合伙）",
+            "paid_cny": 80000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 48,
+            "investee": "中金启辰贰期（无锡）新兴产业股权投资基金合伙企业（有限合伙）",
+            "paid_cny": 60000000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 49,
+            "investee": "苏州盛山维晨创业投资合伙企业（有限合伙）",
+            "paid_cny": 30000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 50,
+            "investee": "宁波康君仲元股权投资合伙企业（有限合伙）",
+            "paid_cny": 50000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 51,
+            "investee": "上海泽悦宜洲私募投资基金合伙企业（有限合伙）",
+            "paid_cny": 20000000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 52,
+            "investee": "中小企业发展基金（成都）交子创业投资合伙企业（有限合伙）",
+            "paid_cny": 100000000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 53,
+            "investee": "菏泽聚融生物医药投资基金管理合伙企业（有限合伙）",
+            "paid_cny": 25000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 54,
+            "investee": "绍兴柯桥普合创业投资合伙企业（有限合伙）",
+            "paid_cny": 60000000,
+            "stage": "管理期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 55,
+            "investee": "上海张科垚坤创业投资合伙企业（有限合伙）",
+            "paid_cny": 170000000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 56,
+            "investee": "上海张科禾苗创业投资合伙企业（有限合伙）",
+            "paid_cny": 20000000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 57,
+            "investee": "上海生物医药并购私募基金合伙企业（有限合伙）",
+            "paid_cny": 37596700,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          },
+          {
+            "row": 58,
+            "investee": "上海具身智创创业投资合伙企业（有限合伙）",
+            "paid_cny": 31200000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 59,
+            "investee": "上海浦创苗圃人工智能产业创业投资合伙企业（有限合伙）",
+            "paid_cny": 40000000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": true
+          },
+          {
+            "row": 60,
+            "investee": "上海海望合纵私募基金合伙企业（有限合伙）",
+            "paid_cny": 20000000,
+            "stage": "投资期",
+            "printed_page": 71,
+            "actor_in_financing_by_name": false
+          }
+        ],
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-05-14/245205_20260514_4OQ4.pdf",
+        "matched_by_name": 14,
+        "scope": "LP出资穿透核验，60项按报告实缴/累计出资采集；全基金规模、出资比例、最新余额尚需逐基金核对",
+        "pudong_found": {
+          "fund": "上海浦创苗圃人工智能产业创业投资合伙企业（有限合伙）",
+          "paid_cny": 40000000,
+          "as_of": "2025-12-31",
+          "source_page": 71,
+          "filing_code": "SBEA18",
+          "prospective_same_amount_page": 28,
+          "pending": [
+            "基金总规模",
+            "其他LP原件",
+            "后续实缴"
+          ]
+        }
+      }
     }
   ]
 }

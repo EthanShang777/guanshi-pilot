@@ -2229,5 +2229,57 @@
     "sources": [
       "https://vijo.cn/sys-nd/61.html"
     ]
+  },
+  "61fad06afef503365fd77b85": {
+    "name": "enso",
+    "registeredName": "Enso Technologies Ltd.",
+    "aliases": [
+      "Enso.bot"
+    ],
+    "sources": [
+      "https://forbes.co.il/e/enso-secures-6m-for-smb-focused-ai-platform/"
+    ]
+  },
+  "daac15bcccb69762a142a257": {
+    "name": "Seeds Fincap",
+    "registeredName": "Seeds Fincap Private Limited",
+    "aliases": [
+      "Seeds Fincap Pvt. Ltd."
+    ],
+    "sources": [
+      "https://matrixpartners.webflow.io/news/seeds-fincap-raises-over-8-5m-led-by-matrix-partners-india-aka-z47-and-lok-capital"
+    ]
+  },
+  "496e6b21768b852d97005e49": {
+    "name": "Zaperon",
+    "registeredName": "FinLock Technologies Private Limited",
+    "aliases": [
+      "FinLock"
+    ],
+    "sources": [
+      "https://www.zaperon.com/blog/zaperon-raises-750k-in-seed-funding-to-advance-its-unified-cybersecurity-platform-for-the-agentic-ai-era"
+    ]
+  },
+  "018ce39d47fdea95a8d4a184": {
+    "name": "Bangalore Watch Company",
+    "registeredName": "Island East Watch & Fashions Private Limited",
+    "aliases": [
+      "Bangalore Watch Co.",
+      "Island East Watch & Fashions Pvt Ltd"
+    ],
+    "sources": [
+      "https://www.bangalorewatchco.in/blogs/press-release"
+    ]
+  },
+  "53dd69429cac2f89bb0094be": {
+    "name": "HIFI",
+    "registeredName": "HIFI Bridge, Inc.",
+    "aliases": [
+      "HiFi Bridge",
+      "HIFI.com"
+    ],
+    "sources": [
+      "https://www.hifi.com/blog/hifi-raises-usd37m-series-a-to-build-the-infrastructure-for-tokenized-money"
+    ]
   }
 }
