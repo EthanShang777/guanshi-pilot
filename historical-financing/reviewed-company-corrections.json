@@ -481,5 +481,51 @@
       "date_kind": "上市日期",
       "investors_json": "[{\"name\":\"3W Fund\",\"role\":null,\"amount\":null},{\"name\":\"GF Fund\",\"role\":null,\"amount\":null},{\"name\":\"JinYi Capital Multi-Strategy Fund SPC Ltd. (acting for and on behalf of Structured Credit SP Fund)\",\"role\":null,\"amount\":null},{\"name\":\"JSC International Investment Fund SPC (acting for and on behalf of Qizhi SP)\",\"role\":null,\"amount\":null},{\"name\":\"Luster LightTech International Limited\",\"role\":null,\"amount\":null},{\"name\":\"Optimas Capital Limited\",\"role\":null,\"amount\":null},{\"name\":\"Perseverance Asset Management\",\"role\":null,\"amount\":null},{\"name\":\"RIME\",\"role\":null,\"amount\":null},{\"name\":\"Shanghai Gaoyi and CICC Financial Trading Limited (in connection with Gaoyi OTC Swaps)\",\"role\":null,\"amount\":null},{\"name\":\"Taikang Life\",\"role\":null,\"amount\":null},{\"name\":\"WT Asset Management\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:6ec80feca1559a29896c5367170926ceffa6e39e701a5837fb6be937d0911a02",
+    "round": "股权融资",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526294.PDF",
+    "expected": {
+      "company_id": "co:full_legal_name:219fa14a365678eaeedd9903d3b26b09",
+      "company_name": "上海元码智药生物技术有限公司",
+      "raw_company_key": "上海元码智药生物技术有限公司",
+      "date": "2025-10-21",
+      "date_key": "2025-10-21",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"阳光诺和\",\"role\":null,\"amount\":\"1500万元\"},{\"name\":\"欧阳建平\",\"role\":null,\"amount\":null},{\"name\":\"张庆勋\",\"role\":null,\"amount\":null},{\"name\":\"海南方富恒洋创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"方富创投\",\"role\":null,\"amount\":null},{\"name\":\"杭州艾诺源科技合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:219fa14a365678eaeedd9903d3b26b09",
+      "company_name": "上海元码智药生物技术有限公司",
+      "raw_company_key": "上海元码智药生物技术有限公司",
+      "date": "2025-10-20",
+      "date_key": "2025-10-20",
+      "date_kind": "上市公司增资公告日期",
+      "investors_json": "[{\"name\":\"阳光诺和\",\"role\":null,\"amount\":\"1500万元\"},{\"name\":\"欧阳建平\",\"role\":null,\"amount\":null},{\"name\":\"张庆勋\",\"role\":null,\"amount\":null},{\"name\":\"海南方富恒洋创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"方富创投\",\"role\":null,\"amount\":null},{\"name\":\"杭州艾诺源科技合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:826f7b529514ac5a2903352996538767738d9d6d06684a03cdbab5ac52bfe9ad",
+    "round": "B轮",
+    "source": "https://www.allbrightlaw.com/SH/CN/10454/1c093da2d4f5ea67.aspx",
+    "expected": {
+      "company_id": "co:full_legal_name:01ff8323bb05cd3a3f0fb342db5ad3f5",
+      "company_name": "脑虎科技; 上海脑虎科技有限公司",
+      "raw_company_key": "脑虎科技; 上海脑虎科技有限公司",
+      "date": "2026-10-28",
+      "date_key": "2026-10-28",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"勤智资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国投聚力\",\"role\":\"领投\",\"amount\":null},{\"name\":\"深创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"IDG资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中芯聚源\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"众为资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华福证券\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华赛智汇\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"基石资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"曦晨资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"江西金控\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"钧犀资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"黄浦投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中平资本\",\"role\":null,\"amount\":null},{\"name\":\"共青城行远创投\",\"role\":null,\"amount\":null},{\"name\":\"华福成长投资\",\"role\":null,\"amount\":null},{\"name\":\"汇盈私募基金\",\"role\":null,\"amount\":null},{\"name\":\"物美联合资本\",\"role\":null,\"amount\":null},{\"name\":\"盛大集团\",\"role\":null,\"amount\":null},{\"name\":\"赛领资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:41355279b63a8cfe0eefeae8579ee6f0",
+      "company_name": "上海脑虎科技有限公司",
+      "raw_company_key": "上海脑虎科技有限公司",
+      "date": "2026-10-28",
+      "date_key": "2026-10-28",
+      "date_kind": "公司融资公告日期",
+      "investors_json": "[{\"name\":\"勤智资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国投聚力\",\"role\":\"领投\",\"amount\":null},{\"name\":\"深创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"IDG资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中芯聚源\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"众为资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华福证券\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华赛智汇\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"基石资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"曦晨资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"江西金控\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"钧犀资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"黄浦投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中平资本\",\"role\":null,\"amount\":null},{\"name\":\"共青城行远创投\",\"role\":null,\"amount\":null},{\"name\":\"华福成长投资\",\"role\":null,\"amount\":null},{\"name\":\"汇盈私募基金\",\"role\":null,\"amount\":null},{\"name\":\"物美联合资本\",\"role\":null,\"amount\":null},{\"name\":\"盛大集团\",\"role\":null,\"amount\":null},{\"name\":\"赛领资本\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
