@@ -4568,5 +4568,154 @@
       "amount": "16.5亿元人民币",
       "investors_json": "[{\"name\":\"无锡国寿成达股权投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":70000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":60000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"建信领航战略性新兴产业发展基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"重庆制造业转型升级私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"恩泽海河（天津）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"宁波华淳投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}},{\"name\":\"宁波华淳保信股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF\"}}]"
     }
+  },
+  {
+    "event_id": "financing_event:e95902f9e3eaf447b98854d1718f4ca6eaf6bd326e2626baa2e86644f0839227",
+    "company_id": "co:full_legal_name:c75d3b5b9a2f669e2e4e7ab8e578eae7",
+    "day": "2020-09-08",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111600012_c.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "2.8亿人民币",
+      "investors_json": "[{\"name\":\"健壹资本\",\"role\":null,\"amount\":null},{\"name\":\"同辐基金\",\"role\":null,\"amount\":null},{\"name\":\"国科嘉和\",\"role\":null,\"amount\":null},{\"name\":\"物明投资\",\"role\":null,\"amount\":null},{\"name\":\"荷塘创投\",\"role\":null,\"amount\":null}]",
+      "date": "2020-09-08",
+      "date_key": "2020-09-08",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "2.8亿人民币",
+      "investors_json": "[{\"name\":\"健壹资本\",\"role\":null,\"amount\":null},{\"name\":\"同辐基金\",\"role\":null,\"amount\":null},{\"name\":\"国科嘉和\",\"role\":null,\"amount\":null},{\"name\":\"物明投资\",\"role\":null,\"amount\":null},{\"name\":\"北京荷塘生命科学原始创新基金（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2020-09-08",
+      "date_key": "2020-09-08",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/12413101/2026111600024.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:507c5a9c1142265a1499455fdc099212f841731589f4d995626eda0b9c846814",
+    "company_id": "co:full_legal_name:c75d3b5b9a2f669e2e4e7ab8e578eae7",
+    "day": "2021-02-23",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111600012_c.pdf",
+    "expected": {
+      "round": "D轮",
+      "amount": "3.2亿人民币",
+      "investors_json": "[{\"name\":\"中金启德基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"得怡资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"朗玛峰创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"盼亚投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"隆门创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"盈亚股权投资\",\"role\":null,\"amount\":null},{\"name\":\"荷塘创投\",\"role\":null,\"amount\":null}]",
+      "date": "2021-02-23",
+      "date_key": "2021-02-23",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "3.2亿人民币",
+      "investors_json": "[{\"name\":\"中金启德基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"得怡资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"朗玛峰创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"盼亚投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"隆门创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"盈亚股权投资\",\"role\":null,\"amount\":null},{\"name\":\"北京荷塘生命科学原始创新基金（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2021-02-23",
+      "date_key": "2021-02-23",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/12413101/2026111600024.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:d9cf433518f7b75f5851112a32c249a54634c428b889a6dabc3f84188d4a8a5c",
+    "company_id": "co:full_legal_name:c75d3b5b9a2f669e2e4e7ab8e578eae7",
+    "day": "2023-07-03",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111600012_c.pdf",
+    "expected": {
+      "round": "E轮",
+      "amount": "超11亿人民币",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"中山创投\",\"role\":null,\"amount\":null},{\"name\":\"利德测控\",\"role\":null,\"amount\":null},{\"name\":\"国寿股权\",\"role\":null,\"amount\":null},{\"name\":\"国投创业\",\"role\":null,\"amount\":null},{\"name\":\"国投创益\",\"role\":null,\"amount\":null},{\"name\":\"国调基金\",\"role\":null,\"amount\":null},{\"name\":\"广发乾和\",\"role\":null,\"amount\":null},{\"name\":\"恩然创投\",\"role\":null,\"amount\":null},{\"name\":\"成铭资本\",\"role\":null,\"amount\":null},{\"name\":\"新尚投资\",\"role\":null,\"amount\":null},{\"name\":\"济民可信\",\"role\":null,\"amount\":null},{\"name\":\"疆亘资本\",\"role\":null,\"amount\":null},{\"name\":\"知中投资\",\"role\":null,\"amount\":null},{\"name\":\"磬石臻和\",\"role\":null,\"amount\":null},{\"name\":\"粤科金融集团\",\"role\":null,\"amount\":null},{\"name\":\"荷塘创投\",\"role\":null,\"amount\":null},{\"name\":\"通用创投\",\"role\":null,\"amount\":null},{\"name\":\"锡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-07-03",
+      "date_key": "2023-07-03",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "E轮",
+      "amount": "超11亿人民币",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"中山创投\",\"role\":null,\"amount\":null},{\"name\":\"利德测控\",\"role\":null,\"amount\":null},{\"name\":\"国寿股权\",\"role\":null,\"amount\":null},{\"name\":\"国投创业\",\"role\":null,\"amount\":null},{\"name\":\"国投创益\",\"role\":null,\"amount\":null},{\"name\":\"国调基金\",\"role\":null,\"amount\":null},{\"name\":\"广发乾和\",\"role\":null,\"amount\":null},{\"name\":\"恩然创投\",\"role\":null,\"amount\":null},{\"name\":\"成铭资本\",\"role\":null,\"amount\":null},{\"name\":\"新尚投资\",\"role\":null,\"amount\":null},{\"name\":\"济民可信\",\"role\":null,\"amount\":null},{\"name\":\"疆亘资本\",\"role\":null,\"amount\":null},{\"name\":\"知中投资\",\"role\":null,\"amount\":null},{\"name\":\"磬石臻和\",\"role\":null,\"amount\":null},{\"name\":\"粤科金融集团\",\"role\":null,\"amount\":null},{\"name\":\"北京荷塘生命科学原始创新基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"通用创投\",\"role\":null,\"amount\":null},{\"name\":\"锡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-07-03",
+      "date_key": "2023-07-03",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/12413101/2026111600024.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:734b36232cf2e90e4702e201454f7b31c2c57c8d297cf20dfdd36215e40c4d31",
+    "company_id": "co:full_legal_name:fe7ff511e8b7ceedb875add70982c2fd",
+    "day": "2023-11-16",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf",
+    "expected": {
+      "round": "D轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东方汇昇\",\"role\":null,\"amount\":null},{\"name\":\"中关村协同创新基金\",\"role\":null,\"amount\":null},{\"name\":\"宏诚投资\",\"role\":null,\"amount\":null},{\"name\":\"张江浩珩\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"浦东资本\",\"role\":null,\"amount\":null},{\"name\":\"湖北高投集团\",\"role\":null,\"amount\":null},{\"name\":\"英飞尼迪资本\",\"role\":null,\"amount\":null},{\"name\":\"荷塘创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-11-16",
+      "date_key": "2023-11-16",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "26545万元",
+      "investors_json": "[{\"name\":\"常州市德同合心二期创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":6000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"上海德濮企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":45000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"武汉天禾大健康产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"北京荷塘生命科学原始创新基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"深圳东方汇昇三号创业投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"上海张江燧锋创新股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"常州中关村协同创业投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"北京中关村生命科学园产业发展基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"台州仲达医药创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"上海浦东科技创新投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}},{\"name\":\"台州椒江英飞海正创收创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf\"}}]",
+      "date": "2023-11-16",
+      "date_key": "2023-11-16",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202504281663889503_1.pdf",
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202511201784926629&pageIndex=2"
+    ]
+  },
+  {
+    "event_id": "financing_event:97777dd8f5dcd1d0dee683873ae8e0e33c6d6adedcfc728ad0d7b413a9eb176b",
+    "company_id": "co:full_legal_name:fe7ff511e8b7ceedb875add70982c2fd",
+    "day": "2025-05-30",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-05-23/1223647489.PDF",
+    "expected": {
+      "round": "定向增发",
+      "amount": "6500万人民币",
+      "investors_json": "[{\"name\":\"张江浩珩\",\"role\":null,\"amount\":null},{\"name\":\"浦东资本\",\"role\":null,\"amount\":null},{\"name\":\"荷塘创投\",\"role\":null,\"amount\":null}]",
+      "date": "2025-05-30",
+      "date_key": "2025-05-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "6500万人民币",
+      "investors_json": "[{\"name\":\"北京荷塘生命科学原始创新基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2500000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-05-23/1223647489.PDF\"}},{\"name\":\"上海张江燧锋创新股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-05-23/1223647489.PDF\"}},{\"name\":\"上海浦东科技创新投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-05-23/1223647489.PDF\"}}]",
+      "date": "2025-05-30",
+      "date_key": "2025-05-30",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202511201784926629&pageIndex=2"
+    ]
+  },
+  {
+    "event_id": "public:historical-disclosure:d25d86d6f94b5e5b79539a3",
+    "company_id": "co:historical-disclosure:de524bbb4ad7537237fda8f",
+    "day": "2023-01-16",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "4500万元人民币",
+      "investors_json": "[{\"name\":\"雅惠锦霖\",\"role\":null,\"amount\":null},{\"name\":\"建兴医疗\",\"role\":null,\"amount\":null},{\"name\":\"银河源汇\",\"role\":null,\"amount\":null},{\"name\":\"朗玛六十一号\",\"role\":null,\"amount\":null},{\"name\":\"朗玛六十二号\",\"role\":null,\"amount\":null},{\"name\":\"苏州君联欣康创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"先达创投\",\"role\":null,\"amount\":null},{\"name\":\"思达创投\",\"role\":null,\"amount\":null},{\"name\":\"达到创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-01-16",
+      "date_key": "2023-01-16",
+      "date_kind": "增资登记日"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "4500万元人民币",
+      "investors_json": "[{\"name\":\"北京雅惠锦霖创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1333333300,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}},{\"name\":\"北京建兴医疗健康产业股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}},{\"name\":\"银河源汇投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":833333300,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}},{\"name\":\"朗玛六十一号（深圳）创业投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":250000000,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}},{\"name\":\"朗玛六十二号（深圳）创业投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":250000000,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}},{\"name\":\"苏州君联欣康创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":166666700,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}},{\"name\":\"宁波先达创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}},{\"name\":\"台州思达创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":160000000,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}},{\"name\":\"霍尔果斯达到创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":6666700,\"basis\":\"认购金额\",\"source\":\"https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf\"}}]",
+      "date": "2023-01-16",
+      "date_key": "2023-01-16",
+      "date_kind": "增资登记日"
+    },
+    "additional_sources": []
   }
 ]

@@ -7336,6 +7336,55 @@
         "欣旺达动力B轮协议出资": "2cb1d0b89abdec3a0a82a62f"
       },
       "batch": "2026-11-27-jianxin-investee-network-150.csv"
+    },
+    {
+      "institution": "荷塘基金、雅惠锦霖、重庆制造及其组合历史回溯",
+      "checked_on": "2026-11-27",
+      "scope": "核LP出资及直投载体、补未收录增资与股转",
+      "sources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202412181641345707_1.pdf",
+        "https://www.bse.cn/disclosure/2026/2026-06-24/7c2a870f94774674914bac8ff8de13c0.pdf",
+        "https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002050_20250829_PBNF.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-05-23/1223647489.PDF",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111600012_c.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf",
+        "https://www.tsinghua-vc.com/productinfo/1464882.html",
+        "https://bydrug.pharmcube.com/news/detail/094c3050a5878e5abc486d161f770b01",
+        "https://bydrug.pharmcube.com/news/detail/535e1bb4dfe5b47a33a99de728faa62e"
+      ],
+      "notes": {
+        "caveats": [
+          "臻知医学两轮来源使用雅惠品牌，缺实际载体证据，未判给雅惠锦霖。母公司2024年3月变动报道和2024年10月登记可能是同一轮，核到签署/资金口径前不另增。",
+          "先通C轮2.8亿元外部投资分2020年首期1.5亿元和第二期1.3亿元。三个原轮次保留原事件及合计，补荷塘基金法律载体；先通4月另两个协议是老股对价，标转让。",
+          "科州2023-11-16原ID对应同一笔登记；26545万元是逐家披露认购加总。2025-05-30沿原展示日期和6500万元，按5月23日缴款公告核实各方。",
+          "恒坤六月和十二月两次增资对应独立验资及登记；十二月包括员工持股平台及外部投资。法律工作报告合计403055218元，按披露的分项相加相差1元，分别保留。",
+          "2026爱思益普披露同一1.3亿元LP项名称由泰兴市襟江投资变为江苏茂泰创业投资；需查登记沿革/转让，历史实缴保留原披露。"
+        ],
+        "followup_sources": [
+          "https://www.bse.cn/disclosure/2026/2026-06-24/7c2a870f94774674914bac8ff8de13c0.pdf",
+          "https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf",
+          "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111600012_c.pdf",
+          "https://stockmc.xueqiu.com/202510/688727_20251030_K0YI.pdf",
+          "https://www.meritsandtree.com/filepool/report/2312/%E6%A4%8D%E5%BE%B7%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A62023%E5%B9%B411%E6%9C%88.pdf"
+        ],
+        "funding_events": 4,
+        "secondary_events": 1
+      },
+      "events": {
+        "恒坤新材2022六月增资": "25092355606ec71ebacc3e08",
+        "恒坤新材2022十二月增资": "e4d03e2357b1bb13d4bcd849",
+        "先通医药老股转让": "f69a41c7e3dc6659b4f55b0d",
+        "臻知医学Pre-A": "bd6367bbca00279143195eb4",
+        "臻知医学Pre-A+": "204ab2d35a7e3dbf28255c33",
+        "先通医药C轮核载体": "61d98add376cf2efefa91818",
+        "先通医药D轮核载体": "a5e97adad7e1ee5c8963b3f8",
+        "先通医药E轮核载体": "ff4009139f5a9ed2466d3893",
+        "科州药物D轮补实际载体及金额": "3355251b51bbdb1ab041968b",
+        "科州药物定向发行补实际出资": "a406034c3869ade0a8d3a5bd",
+        "天星医疗2023增资补雅惠法律载体": "80dece4ad3556a3a115b2795"
+      },
+      "batch": "2026-11-27-hetang-yahui-chongqing-151.csv"
     }
   ]
 }

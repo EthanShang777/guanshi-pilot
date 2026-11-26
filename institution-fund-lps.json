@@ -1840,5 +1840,398 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "aa6bbaa9759ccabd9a99259f",
+    "fundName": "北京荷塘生命科学原始创新基金（有限合伙）",
+    "managerName": "荷塘创业投资管理（北京）有限公司",
+    "managerId": "563c019d9a0d59a036b99004",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202412181641345707_1.pdf",
+      "date": "2024-12-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "爱思益普",
+      "pages": "第23页；按科州同期股转互核",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2019-09-30/1206959249.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202501241642523208_1.pdf",
+        "https://www.bse.cn/disclosure/2026/2026-06-24/7c2a870f94774674914bac8ff8de13c0.pdf"
+      ],
+      "lpScope": "8家LP及1家GP；科州说明书交叉确认认缴实缴。2026年同额出资主体泰兴市襟江投资一项列江苏茂泰，另查是否发生转让。",
+      "generalPartners": [
+        {
+          "name": "北京荷塘清健生物科技有限公司",
+          "disclosedContributionCny": 30000000
+        }
+      ],
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202412181641345707_1.pdf",
+        "date": "2024-12-18",
+        "dateKind": "实缴情形披露日",
+        "partners": [
+          {
+            "name": "北京市科技创新基金（有限合伙）",
+            "paidCny": 400000000
+          },
+          {
+            "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+            "paidCny": 150000000
+          },
+          {
+            "name": "泰兴市襟江投资有限公司",
+            "paidCny": 130000000
+          },
+          {
+            "name": "北京赛升药业股份有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "北京市大兴发展引导基金（有限合伙）",
+            "paidCny": 90000000
+          },
+          {
+            "name": "石药集团恩必普药业有限公司",
+            "paidCny": 40000000
+          },
+          {
+            "name": "泰州市盛鑫创业投资管理有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "泰州市产业投资基金（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "北京荷塘清健生物科技有限公司",
+            "paidCny": 30000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "北京市科技创新基金（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": "40.00",
+        "existingInstitution": "20e94892ccb0600c553a1580"
+      },
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "15.00",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "泰兴市襟江投资有限公司",
+        "disclosedContributionCny": 130000000,
+        "disclosedPercent": "13.00",
+        "existingInstitution": "498977ba57e074d9dbc3119e"
+      },
+      {
+        "name": "北京赛升药业股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": "143b0e4eefd0e9162139409d"
+      },
+      {
+        "name": "北京市大兴发展引导基金（有限合伙）",
+        "disclosedContributionCny": 90000000,
+        "disclosedPercent": "9.00",
+        "existingInstitution": "030d899c6c95754ec42787fc"
+      },
+      {
+        "name": "石药集团恩必普药业有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "4.00",
+        "existingInstitution": "c654757389b2180be472cc4e"
+      },
+      {
+        "name": "泰州市盛鑫创业投资管理有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "3.00",
+        "existingInstitution": "af52c1d6f00031c1b2074b32"
+      },
+      {
+        "name": "泰州市产业投资基金（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "3.00",
+        "existingInstitution": "7bec3e8814f0c08f89124938"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "fe5e0e03d06255f28fe581c7",
+    "fundName": "北京雅惠锦霖创业投资合伙企业（有限合伙）",
+    "managerName": "北京雅惠资产管理有限公司",
+    "managerId": "b6fc36d111eef9751617cc71",
+    "sizeCny": 1439500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202412181641345707_1.pdf",
+      "date": "2024-12-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "爱思益普",
+      "pages": "第32至33页",
+      "lpSources": [
+        "https://www.bse.cn/disclosure/2026/2026-06-24/7c2a870f94774674914bac8ff8de13c0.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/12120048/2026042400176_c.pdf"
+      ],
+      "lpScope": "17家LP及1家GP；公开转让说明书同时列出认缴、实缴及主要合伙人。",
+      "generalPartners": [
+        {
+          "name": "宁波梅山保税港区雅惠鑫汇投资管理中心（有限合伙）",
+          "disclosedContributionCny": 14500000
+        }
+      ],
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202412181641345707_1.pdf",
+        "date": "2024-12-18",
+        "dateKind": "实缴情形披露日",
+        "partners": [
+          {
+            "name": "共青城雅惠锦瀛创业投资合伙企业（有限合伙）",
+            "paidCny": 275000000
+          },
+          {
+            "name": "北京市科技创新基金（有限合伙）",
+            "paidCny": 125000000
+          },
+          {
+            "name": "中金启元国家新兴产业创业投资引导基金（有限合伙）",
+            "paidCny": 118750000
+          },
+          {
+            "name": "北京大兴临空经济区发展基金（有限合伙）",
+            "paidCny": 70000000
+          },
+          {
+            "name": "无锡锡东产业投资中心（有限合伙）",
+            "paidCny": 100000000
+          },
+          {
+            "name": "江苏恒瑞医药集团有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "无锡远见卓识接力股权投资合伙企业（有限合伙）",
+            "paidCny": 95000000
+          },
+          {
+            "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+            "paidCny": 56000000
+          },
+          {
+            "name": "北京中关村科学城新动能投资合伙企业（有限合伙）",
+            "paidCny": 35000000
+          },
+          {
+            "name": "上海闵行金融投资发展有限公司",
+            "paidCny": 28000000
+          },
+          {
+            "name": "苏州工业园区国创元康股权投资基金合伙企业（有限合伙）",
+            "paidCny": 40000000
+          },
+          {
+            "name": "淡水泉（北京）投资管理有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "无锡沂景股权投资合伙企业（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "三亚思其智擎投资中心（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "招商证券投资有限公司",
+            "paidCny": 25000000
+          },
+          {
+            "name": "共青城云雀投资合伙企业（有限合伙）",
+            "paidCny": 20000000
+          },
+          {
+            "name": "北京源乐晟资产管理有限公司",
+            "paidCny": 20000000
+          },
+          {
+            "name": "宁波梅山保税港区雅惠鑫汇投资管理中心（有限合伙）",
+            "paidCny": 14500000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "共青城雅惠锦瀛创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 275000000,
+        "disclosedPercent": "19.10",
+        "existingInstitution": "d1b615d0f75ce9dcf2057f8a"
+      },
+      {
+        "name": "北京市科技创新基金（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "13.89",
+        "existingInstitution": "20e94892ccb0600c553a1580"
+      },
+      {
+        "name": "中金启元国家新兴产业创业投资引导基金（有限合伙）",
+        "disclosedContributionCny": 190000000,
+        "disclosedPercent": "13.20",
+        "existingInstitution": "533348867c4e0f72e8f6240f"
+      },
+      {
+        "name": "北京大兴临空经济区发展基金（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "6.95",
+        "existingInstitution": "b457604bb419e2f8ad7ae5c2"
+      },
+      {
+        "name": "无锡锡东产业投资中心（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "6.95",
+        "existingInstitution": "d2a36886f461a9a41b76a100"
+      },
+      {
+        "name": "江苏恒瑞医药集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "6.95",
+        "existingInstitution": "60a695cce73ab214d5405d13"
+      },
+      {
+        "name": "无锡远见卓识接力股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 95000000,
+        "disclosedPercent": "6.60",
+        "existingInstitution": "3d28366460d99e27698fac47"
+      },
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": "5.58",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "北京中关村科学城新动能投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "3.47",
+        "existingInstitution": "ccfb4e3bf7ece604160b5164"
+      },
+      {
+        "name": "上海闵行金融投资发展有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "2.78",
+        "existingInstitution": "ffac8614c02bc40cf4390f46"
+      },
+      {
+        "name": "苏州工业园区国创元康股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "2.78",
+        "existingInstitution": "4dd51086892f2a34edbd2c95"
+      },
+      {
+        "name": "淡水泉（北京）投资管理有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "2.08",
+        "existingInstitution": "c3aefd75ac552ea8c5a1a21d"
+      },
+      {
+        "name": "无锡沂景股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "2.08",
+        "existingInstitution": "8116a1900dd7530a1aad8cd4"
+      },
+      {
+        "name": "三亚思其智擎投资中心（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "2.08",
+        "existingInstitution": "4d4044d9dce41daa59306193"
+      },
+      {
+        "name": "招商证券投资有限公司",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": "1.74",
+        "existingInstitution": "644807373fef57c347186a85"
+      },
+      {
+        "name": "共青城云雀投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "1.39",
+        "existingInstitution": "93e019947df1ded4a2cc393e"
+      },
+      {
+        "name": "北京源乐晟资产管理有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "1.39",
+        "existingInstitution": "3cba8b275fc96b94e7aa3865"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "2e4b0bc0288e3f4ade246442",
+    "fundName": "重庆制造业转型升级私募股权投资基金合伙企业（有限合伙）",
+    "managerName": "建信股权投资管理有限责任公司",
+    "managerId": "3d9f7826679259aeed3d06a0",
+    "sizeCny": 5002690000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-06-21/1217116277.PDF",
+      "date": "2023-06-21",
+      "dateKind": "公开文件披露日",
+      "issuer": "欣旺达",
+      "pages": "第3至4页；恒坤招股第80页复核管理人",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002050_20250829_PBNF.pdf",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12698087"
+      ],
+      "lpScope": "5家LP及1家GP；官方招股书及限售披露核实备案管理人，基金实缴待查。",
+      "generalPartners": [
+        {
+          "name": "重庆建渝领兴企业管理咨询合伙企业（有限合伙）",
+          "disclosedContributionCny": 20000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "重庆战略性新兴产业股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": "29.9839",
+        "existingInstitution": "1b12f5553ca854b2f4429de6"
+      },
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": "29.9839",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "国家制造业转型升级基金股份有限公司",
+        "disclosedContributionCny": 1450000000,
+        "disclosedPercent": "28.9844",
+        "existingInstitution": "60aa98015bf1037ecf3d338b"
+      },
+      {
+        "name": "重庆市铜梁区金龙城市建设发展（集团）有限公司",
+        "disclosedContributionCny": 530000000,
+        "disclosedPercent": "10.5943",
+        "existingInstitution": "6996676426b4ed734ccf5457"
+      },
+      {
+        "name": "共青城建兴投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 2690000,
+        "disclosedPercent": "0.0538",
+        "existingInstitution": "79bc3de4548f13dc7004c691"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
