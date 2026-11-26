@@ -1930,5 +1930,20 @@
   "青岛天奇前沿科技投资基金合伙企业（有限合伙）": {
     "brand": "天奇创投",
     "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0320/12059909/2026032000170_c.pdf"
+  },
+  "ソーシャルXインパクト投資事業有限責任組合": {
+    "brand": "株式会社ソーシャル・エックス",
+    "coManagers": [
+      "株式会社QRインベストメント"
+    ],
+    "source": "https://farmnote.jp/information/20261006/4768/"
+  },
+  "インパクト・キャピタル1号投資事業有限責任組合": {
+    "brand": "インパクト・キャピタル1号有限責任事業組合",
+    "source": "https://farmnote.jp/information/20261006/4768/"
+  },
+  "北洋スタートアップ1号投資事業有限責任組合": {
+    "brand": "株式会社北海道共創パートナーズ",
+    "source": "https://nessu.co.jp/news/1514/"
   }
 }

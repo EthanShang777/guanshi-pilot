@@ -6809,6 +6809,188 @@
         "凌空天行A+实际载体": "30ae8c6da1ec43911b45f41c"
       },
       "batch": "2026-11-26-tianqi-jingdata-october-146.csv"
+    },
+    {
+      "institution": "十月6日融资公告对账与日本共同GP查漏",
+      "checked_on": "2026-11-26",
+      "scope": "以首次明确披露或已知实际实施日归档，留存字段缺口和近轮资金事实",
+      "sources": [
+        "https://farmnote.jp/information/20261006/4768/",
+        "https://prtimes.jp/main/html/rd/p/000000072.000113664.html",
+        "https://www.ccig.co.jp/news/20261006-2/",
+        "https://pubx.ai/pubx-series-a-compliant-acquisition/",
+        "https://lorazzo.com/blogs/news/economic-times-report-lorazzo-raises-15-crore-funding-led-by-sauce",
+        "https://www.angelscapital.es/empresa/niubiq/",
+        "https://ipid.tech/news/ipid-raises-16m-series-a-foundation-capital-citi-hsbc",
+        "https://businesscloud.co.uk/live-blog/nuba-secures-320k-pre-seed-funding-led-by-sfc-capital/",
+        "https://johokoukai.janpia.or.jp/result/xf200001/project-plan/"
+      ],
+      "event_reviews": {
+        "Farmnote": {
+          "status": "跨月核实新增",
+          "event": "6fe3467915f3db8e7a6aa07c",
+          "archived_day": "2026-09-28",
+          "source": "https://farmnote.jp/information/20261006/4768/",
+          "detail": "公司10月6日公告明确9月28日已实施，融资金额未公开。"
+        },
+        "IPID": {
+          "status": "跨月核实新增",
+          "event": "481567a6a2f8723247d1528f",
+          "archived_day": "2026-09-24",
+          "source": "https://ipid.tech/news/ipid-raises-16m-series-a-foundation-capital-citi-hsbc",
+          "detail": "公司9月24日已披露，目录为10月6日；同时回补种子及Pre-A两轮。"
+        },
+        "Eden": {
+          "status": "已在库并补证",
+          "event": "b85886de5172b86562c94d0a",
+          "archived_day": "2026-10-05",
+          "source": "https://meeteden.ai/blog/eden-labs-raises-1-5m",
+          "detail": "公司10月5日称种子前轮，美国主体和金额见发行人原文。目录中YC 2018标签无法支持。"
+        },
+        "PubX": {
+          "status": "十月核实新增",
+          "event": "fd55c5119e18204607a7d827",
+          "archived_day": "2026-10-06",
+          "source": "https://pubx.ai/pubx-series-a-compliant-acquisition/",
+          "detail": "交易及原币融资额已核，同步公司及已具名投资方。"
+        },
+        "Lorazzo": {
+          "status": "十月核实新增",
+          "event": "4aa9d15f29415eb702a78e03",
+          "archived_day": "2026-10-06",
+          "source": "https://lorazzo.com/blogs/news/economic-times-report-lorazzo-raises-15-crore-funding-led-by-sauce",
+          "detail": "交易及原币融资额已核，同步公司及已具名投资方。"
+        },
+        "Niubiq": {
+          "status": "十月核实新增",
+          "event": "75d94978b41829bd2b48a6f9",
+          "archived_day": "2026-10-06",
+          "source": "https://www.angelscapital.es/empresa/niubiq/",
+          "detail": "交易及原币融资额已核，同步公司及已具名投资方。"
+        },
+        "Nuba Technologies": {
+          "status": "十月核实新增",
+          "event": "faf5f57b9f0066396c8d26e1",
+          "archived_day": "2026-10-06",
+          "source": "https://businesscloud.co.uk/live-blog/nuba-secures-320k-pre-seed-funding-led-by-sfc-capital/",
+          "detail": "交易及原币融资额已核，同步公司及已具名投资方。"
+        },
+        "Nessu": {
+          "status": "十月核实新增且金额待核",
+          "event": "81de00c898a0d39e53b3b3a8",
+          "archived_day": "2026-10-06",
+          "source": "https://nessu.co.jp/news/1514/",
+          "detail": "已确认A轮首关及具名出资基金；发行人9000万日元，共同GP1亿日元。",
+          "next_check": {
+            "target": "A轮首关同一口径金额",
+            "evidenceNeeded": "发行人更正公告、最终交割披露或明确拆分",
+            "state": "conflict"
+          }
+        },
+        "FieldAI": {
+          "status": "交易完成状态待核",
+          "source": "https://aventure.vc/news/2026-10-02-robotics-startup-fieldai-set-to-raise-new-funding-round-at-10-billion-valuation",
+          "additional_source": "https://www.fieldai.com/news/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale",
+          "detail": "同期报道仅确认条款书；2025年公司公告两轮合计4.05亿美元属不同轮次。",
+          "next_check": {
+            "target": "2026年10月新融资",
+            "evidenceNeeded": "公司、参与机构或申报材料确认已完成",
+            "state": "completion_unconfirmed"
+          }
+        }
+      },
+      "notes": {
+        "japan_fund_coverage": {
+          "fund": "ソーシャルXインパクト投資事業有限責任組合",
+          "gps": [
+            "株式会社ソーシャル・エックス",
+            "株式会社QRインベストメント"
+          ],
+          "lp_confirmed": [
+            "一般財団法人日本民間公益活動連携機構（JANPIA）",
+            "株式会社北國銀行",
+            "一般社団法人みとよAI社会推進機構"
+          ],
+          "lp_aliases": {
+            "一般社団法人みとよAI社会推進機構": [
+              "一般社団法人みとよ社会推進機構"
+            ]
+          },
+          "fund_size_evidence": [
+            {
+              "amount": 603000000,
+              "currency": "JPY",
+              "basis": "公开业务计划所列基金规模",
+              "source": "https://johokoukai.janpia.or.jp/result/xf200001/project-plan/"
+            },
+            {
+              "amount": 610000000,
+              "currency": "JPY",
+              "basis": "共同GP披露管理规模",
+              "date": "2026-10-06",
+              "source": "https://www.ccig.co.jp/news/20261006-2/"
+            },
+            {
+              "amount": 1000000000,
+              "currency": "JPY",
+              "basis": "成立公告募集目标",
+              "date": "2025-03-27",
+              "source": "https://www.ccig.co.jp/news/20250327-2/"
+            }
+          ],
+          "lp_original_currency": {
+            "name": "JANPIA",
+            "amount": 300000000,
+            "currency": "JPY",
+            "basis": "公开业务计划列示出资额"
+          },
+          "sources": [
+            "https://johokoukai.janpia.or.jp/result/xf200001/project-plan/",
+            "https://www.hfhd.co.jp/qri/news/pdf/20250327b.pdf",
+            "https://farmnote.jp/information/20261006/4768/",
+            "https://www.ccig.co.jp/news/20261006-2/",
+            "https://scalagrp.jp/pdf/ir/library/gyoseki/20261113_tanshin2706-1Q.pdf",
+            "https://www.ccig.co.jp/news/20260904/"
+          ],
+          "gaps": [
+            {
+              "target": "LP出资明细",
+              "evidenceNeeded": "其他LP的同口径认缴或实缴、截至日",
+              "state": "partially_verified"
+            },
+            {
+              "target": "每笔基金出资",
+              "evidenceNeeded": "基金或发行人披露具名认购或付款",
+              "state": "not_disclosed_in_reviewed_sources"
+            },
+            {
+              "target": "可投余额",
+              "evidenceNeeded": "同一基金截至日明确披露的可投余额",
+              "state": "not_disclosed_in_reviewed_sources"
+            }
+          ]
+        },
+        "remaining_sources": [
+          "Nessu A轮首关金额口径与未具名出资方",
+          "Lorazzo本轮股债划分及各方实付",
+          "Nuba媒体融资与登记配股对应",
+          "Farmnote及SocialX各笔实付与可投余额",
+          "Field AI本月交易完成状态"
+        ]
+      },
+      "events": {
+        "Farmnote增资": "6fe3467915f3db8e7a6aa07c",
+        "Nessu A轮首关": "81de00c898a0d39e53b3b3a8",
+        "pubX A轮": "fd55c5119e18204607a7d827",
+        "Lorazzo融资": "4aa9d15f29415eb702a78e03",
+        "niubiq融资": "75d94978b41829bd2b48a6f9",
+        "Nuba种子前": "faf5f57b9f0066396c8d26e1",
+        "IPID A轮": "481567a6a2f8723247d1528f",
+        "IPID Pre-A": "853c707013b214c6f014a6fa",
+        "IPID种子": "8b85b4db0feddf513d3aaf77",
+        "Eden Labs种子前已收录": "b85886de5172b86562c94d0a"
+      },
+      "batch": "2026-11-26-october-disclosure-reconciliation-147.csv"
     }
   ]
 }

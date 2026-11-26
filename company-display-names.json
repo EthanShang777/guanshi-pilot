@@ -2782,5 +2782,82 @@
     "sources": [
       "https://borncity.com/news/calliora-muenchner-kliniksoftware-startup-sammelt-sechs-millionen-us-dollar-ein/"
     ]
+  },
+  "0a5483b54e810a37b4228b4a": {
+    "name": "Farmnote",
+    "registeredName": "株式会社ファームノート",
+    "aliases": [
+      "ファームノート"
+    ],
+    "sources": [
+      "https://farmnote.jp/information/20261006/4768/"
+    ]
+  },
+  "a3383602832c5c877d7828f5": {
+    "name": "Nessu",
+    "registeredName": "ネッスー株式会社",
+    "aliases": [
+      "ネッスー"
+    ],
+    "sources": [
+      "https://nessu.co.jp/news/1514/"
+    ]
+  },
+  "b67b6a4c1a3659583f1f44f1": {
+    "name": "pubX",
+    "registeredName": "PUBX AI LTD",
+    "aliases": [],
+    "sources": [
+      "https://pubx.ai/pubx-series-a-compliant-acquisition/"
+    ]
+  },
+  "911a393dfe9e849a5b4a00fc": {
+    "name": "Lorazzo",
+    "registeredName": "LRZ Innovations Private Limited",
+    "aliases": [],
+    "sources": [
+      "https://lorazzo.com/blogs/news/economic-times-report-lorazzo-raises-15-crore-funding-led-by-sauce"
+    ]
+  },
+  "b144224a58b53b45b8f8d73e": {
+    "name": "niubiq",
+    "registeredName": "NIUBIQ INTELLIGENCE SOCIEDAD LIMITADA",
+    "aliases": [
+      "Niubiq Intelligence S.L."
+    ],
+    "sources": [
+      "https://www.angelscapital.es/empresa/niubiq/"
+    ]
+  },
+  "706ad6ba31b0e92159ad2f56": {
+    "name": "Nuba",
+    "registeredName": "NUBA TECHNOLOGIES LTD",
+    "aliases": [
+      "Nuba Technologies"
+    ],
+    "sources": [
+      "https://businesscloud.co.uk/live-blog/nuba-secures-320k-pre-seed-funding-led-by-sfc-capital/"
+    ]
+  },
+  "fc8f5c1ac78bed4375a2919e": {
+    "name": "IPID",
+    "registeredName": "International Payments Identity (iPiD) Pte. Ltd.",
+    "aliases": [
+      "iPiD",
+      "International Payments Identity"
+    ],
+    "sources": [
+      "https://ipid.tech/news/ipid-raises-16m-series-a-foundation-capital-citi-hsbc"
+    ]
+  },
+  "7f706b0ee092344623440a7a": {
+    "name": "Eden Labs",
+    "registeredName": "Eden AI Labs Inc.",
+    "aliases": [
+      "Eden AI Labs"
+    ],
+    "sources": [
+      "https://www.globenewswire.com/de/news-release/2026/10/05/3374883/0/en/eden-ai-labs-inc-raises-1-5m-to-build-personal-ai-that-works-for-everyone.html"
+    ]
   }
 }
