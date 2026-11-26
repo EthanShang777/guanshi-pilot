@@ -4682,6 +4682,99 @@
         "396b2d5baea2c9a2b79b2c0e"
       ],
       "pending_note": "睿视新界的招股书可对股东方和法律主体，但该笔完成时间及交易类型仍待核。其他六个案例待核主体、日期或参与方。"
+    },
+    {
+      "institution": "鲸准公开成功融资案例第二批",
+      "checked_on": "2026-11-26",
+      "scope": "鲸准公开成功案例按企业品牌、法律主体、现有融资和公开来源核验；非整月清单",
+      "sources": [
+        "https://www.jingdata.com.cn/financing/cases/",
+        "https://www.vbdata.cn/intelDetail/555727",
+        "https://www.36kr.com/p/2012651410777734",
+        "https://www.bp.com.cn/zh_cn/china/home/news/press-releases/news-01-24-2019.html",
+        "https://mb.cision.com/Main/23607/4182836/3546824.pdf",
+        "https://newsroom.porsche.com/zh/2023/company/cn-porsche-china-innovation-open-day-33329.html",
+        "https://startup.aliyun.com/info/104631.html",
+        "https://m.bjnews.com.cn/detail/161908473715685.html",
+        "https://www.36kr.com/p/2060791609544323"
+      ],
+      "candidate_count": 9,
+      "existing_count": 4,
+      "pending_count": 5,
+      "batch": "2026-11-26-jingdata-public-cases-137.csv",
+      "matched_direct_case_count": 8,
+      "event_keys": {
+        "数康云天使": "b88e9d731e0bb9c584a485ce",
+        "白星花AI天使": "b55dd6319daf567abda8107f",
+        "电享科技A": "3a8e87b860e30c76ffbc3209",
+        "电享科技A+": "c2fc196c15699bec57a92c73",
+        "电享科技战略": "084b022d720e7a1438cdb078",
+        "小鹭游天使": "05796aac2b8994c6fec8867f",
+        "一小时科技A": "f5b416892ca8c6c02a180aed",
+        "一小时科技B": "22c5c02bc1807f2e1f1649a5",
+        "一小时科技B+": "a55620ee24d5a83939248e9f",
+        "工学云Pre-A": "96ace8911c651eb53e8933d6",
+        "纵苇天使": "1de728b443ccbe42dcaaaa61",
+        "小黄人Pre-A": "6557c261d1524dcd4eef6aad",
+        "申基生物A+": "101cf332203df4f6607abc5f"
+      },
+      "followups": [
+        {
+          "subject": "电享科技",
+          "field": "A轮追加批次及实际资方",
+          "status": "待补证",
+          "source": "https://labrador.cld.bz/Groupe-Renault-2019-Universal-Registration-Document/45",
+          "missing": "核对联盟基金2019年2月披露与1月A轮的关系及单方出资",
+          "search_terms": [
+            "PowerShare Alliance Ventures 2019 round same tranche"
+          ],
+          "event": "3a8e87b860e30c76ffbc3209"
+        },
+        {
+          "subject": "白星花AI",
+          "field": "单轮精确金额",
+          "status": "口径待核",
+          "source": "https://www.changfeng.org.cn/data/admin/enclosure/2023-02-06/63e0b18a9dccf.pdf",
+          "missing": "公司采访为数百万元；行业汇总的100万元需要发行人原始依据",
+          "search_terms": [
+            "北京白星花科技 汾湖国际创新中心 2022 天使 实际出资"
+          ],
+          "event": "b55dd6319daf567abda8107f"
+        },
+        {
+          "subject": "小鹭游",
+          "field": "2023年Pre-A与此前天使轮关系",
+          "status": "待判重",
+          "source": "https://pdf.dfcfw.com/pdf/H3_AP202301271582433031_1.pdf",
+          "missing": "原件判定同一资方的近千万Pre-A是独立融资或重述",
+          "search_terms": [
+            "安图游 小鹭游 2023 Pre-A 工信资本 2022"
+          ],
+          "event": "05796aac2b8994c6fec8867f"
+        },
+        {
+          "subject": "一小时科技",
+          "field": "早期历史融资",
+          "status": "待补证",
+          "source": "https://pitchhub.36kr.com/project/1713078646696456",
+          "missing": "天使轮披露年月和投资方；天九共享Pre-A为另一轮还是同笔历史归类",
+          "search_terms": [
+            "广州一小时科技 天九共享 2017 股权 融资"
+          ],
+          "event": "f5b416892ca8c6c02a180aed"
+        },
+        {
+          "subject": "数康云",
+          "field": "实际出资载体",
+          "status": "待补证",
+          "source": "https://www.vbdata.cn/intelDetail/555727",
+          "missing": "确认两家机构投资载体与股东变更对应时间",
+          "search_terms": [
+            "深圳市数康云信息技术有限公司 时代伯乐 王道 2022 股东"
+          ],
+          "event": "b88e9d731e0bb9c584a485ce"
+        }
+      ]
     }
   ]
 }
