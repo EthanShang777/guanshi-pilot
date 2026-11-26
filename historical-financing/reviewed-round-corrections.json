@@ -6339,5 +6339,30 @@
     "additional_sources": [
       "https://pdf.dfcfw.com/pdf/H2_AN202512301811429732_1.pdf"
     ]
+  },
+  {
+    "event_id": "public:historical-disclosure:55cd244f733afefbbe34c5",
+    "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c",
+    "day": "2024-12-16",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225504661.PDF",
+    "expected": {
+      "round": "股权融资",
+      "amount": "6000万元",
+      "investors_json": "[{\"name\":\"昆山毅达玉澄创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1525000000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}},{\"name\":\"江苏高投毅达中小贰号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1475000000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}},{\"name\":\"苏州顺融进取三期创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":586250000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}},{\"name\":\"苏州顺融进取四期创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":413750000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}},{\"name\":\"江阴市金融投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}},{\"name\":\"江阴市联扶投资发展有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}}]",
+      "date": "2024-12-16",
+      "date_key": "2024-12-16",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "6000万元",
+      "investors_json": "[{\"name\":\"昆山毅达玉澄创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1525000000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}},{\"name\":\"江苏高投毅达中小贰号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1475000000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}},{\"name\":\"苏州顺融进取三期创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":586290000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-08-25/1225504661.PDF\"}},{\"name\":\"苏州顺融进取四期创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":413710000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-08-25/1225504661.PDF\"}},{\"name\":\"江阴市金融投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}},{\"name\":\"江阴市联扶投资发展有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf\"}}]",
+      "date": "2024-12-16",
+      "date_key": "2024-12-16",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf"
+    ]
   }
 ]

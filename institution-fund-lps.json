@@ -9873,5 +9873,784 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "cc0838044ca2a1183ab5707a",
+    "fundName": "苏州东吴产业并购引导基金合伙企业（有限合伙）",
+    "managerName": "东吴创业投资有限公司",
+    "managerId": "2867f61bcc12dd6e1d758251",
+    "sizeCny": 1300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-06-05/1223764358.PDF",
+      "date": "2025-06-05",
+      "dateKind": "公开文件披露日",
+      "issuer": "致尚科技发行股份及支付现金购买资产预案及创耀科技股东大会资料",
+      "pages": "致尚预案第5页；创耀股东大会会议资料交易各方基本情况",
+      "lpSources": [
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8663329&stockid=688259"
+      ],
+      "lpScope": "上市公司披露4名LP和1名GP。保留LP披露比例。",
+      "generalPartners": [
+        {
+          "name": "东吴创业投资有限公司"
+        }
+      ],
+      "managerLegalName": "东吴创业投资有限公司",
+      "incorporatedOn": "2021-04-29",
+      "creditCode": "91320594MA25WF8H0F"
+    },
+    "partners": [
+      {
+        "name": "苏州国际发展集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 26.1538,
+        "existingInstitution": "fb6435815a30e81f6e3d2de4"
+      },
+      {
+        "name": "苏州城市建设投资发展（集团）有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 23.0769,
+        "existingInstitution": "f003d58c4b0bf6ecd2d861d3"
+      },
+      {
+        "name": "苏州资产管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 15.3846,
+        "existingInstitution": "a0e808912ac310ee23c310e8"
+      },
+      {
+        "name": "苏州工业园区经济发展有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 15.3846,
+        "existingInstitution": "95b6afbbe3b2a028c90614c3"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "684f252020b9ba76dd5db485",
+    "fundName": "苏州博昶创业投资合伙企业（有限合伙）",
+    "managerName": "上海禄昶投资管理合伙企业（有限合伙）",
+    "managerId": "91d98b54ec4f069d4abcefb3",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第92至93页",
+      "lpSources": [],
+      "lpScope": "8名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "上海禄昶投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "上海禄昶投资管理合伙企业（有限合伙）",
+      "filingCode": "SACN54",
+      "filingDate": "2024-01-25",
+      "incorporatedOn": "2023-01-13",
+      "creditCode": "91320509MAC6JQD60H"
+    },
+    "partners": [
+      {
+        "name": "博众精工科技股份有限公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "31bd54fa66a48394e7140a5d"
+      },
+      {
+        "name": "吕绍林",
+        "disclosedContributionCny": 45000000,
+        "disclosedPercent": 22.5,
+        "existingInstitution": "1c4f6686c6ff3559aa1d087a"
+      },
+      {
+        "name": "苏州东方创联投资管理有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "223f0ad759095199c4238880"
+      },
+      {
+        "name": "苏州东吴产业并购引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "cc0838044ca2a1183ab5707a"
+      },
+      {
+        "name": "陈强",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "0ab4e98fe0d9ad0eacbf43f7"
+      },
+      {
+        "name": "韩杰",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 1.5,
+        "existingInstitution": "d9501c9cac690d9ea7e15c16"
+      },
+      {
+        "name": "董浩",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 1.5,
+        "existingInstitution": "ac80cbd78a9e0391c9ca453d"
+      },
+      {
+        "name": "邱宇豪",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 1.5,
+        "existingInstitution": "ed7f7105f15caf0f6b3e2ff3"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "721de12565f1626d4f315f40",
+    "fundName": "信之风（武汉）股权投资基金合伙企业（有限合伙）",
+    "managerName": "信之风（武汉）私募基金管理合伙企业（有限合伙）",
+    "managerId": "3fe211fbe0cdaa85d1c0ce1a",
+    "sizeCny": 3000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第83至84页",
+      "lpSources": [],
+      "lpScope": "1名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "辕憬（武汉）投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "信之风（武汉）私募基金管理合伙企业（有限合伙）",
+      "filingCode": "SQG663",
+      "filingDate": "2021-07-30",
+      "incorporatedOn": "2021-06-24",
+      "creditCode": "91420100MA4F0L9W4B"
+    },
+    "partners": [
+      {
+        "name": "东风资产管理有限公司",
+        "disclosedContributionCny": 2999000000,
+        "disclosedPercent": 99.97,
+        "existingInstitution": "0e305513319cffd1f8b2de63"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "22fc04e1e6e23850c6a8d4e3",
+    "fundName": "苏州东吴科创投资合伙企业（有限合伙）",
+    "managerName": "东吴创投",
+    "managerId": "ed5f680acf8fb559b7362a08",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第88至89页",
+      "lpSources": [],
+      "lpScope": "6名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "东吴创业投资有限公司",
+          "disclosedContributionCny": 40000000
+        }
+      ],
+      "managerLegalName": "东吴创业投资有限公司",
+      "filingCode": "SACF16",
+      "filingDate": "2023-10-31",
+      "incorporatedOn": "2023-05-25",
+      "creditCode": "91320506MACJK1MJ3R"
+    },
+    "partners": [
+      {
+        "name": "东吴创新资本管理有限责任公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "a9315949dae8c9bff7ce8959"
+      },
+      {
+        "name": "苏州吴中经开产业基金有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "82c9df00555a3b881e4634cc"
+      },
+      {
+        "name": "查阿六",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "8a3c2f60668ae400ab569f08"
+      },
+      {
+        "name": "江苏迈信林航空科技股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "19f3ee2305b5104bd8d78044"
+      },
+      {
+        "name": "江苏省太湖水利规划设计研究院有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "e326d68bad8d8d9978ddf02b"
+      },
+      {
+        "name": "苏州市建筑科学研究院集团股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "f1b58a6972be70eb1e10f55b"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "95c0561edd070124e282b01d",
+    "fundName": "苏州东吴高铁私募基金合伙企业（有限合伙）",
+    "managerName": "东吴创投",
+    "managerId": "ed5f680acf8fb559b7362a08",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第93页",
+      "lpSources": [],
+      "lpScope": "2名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "东吴创业投资有限公司",
+          "disclosedContributionCny": 40000000
+        }
+      ],
+      "managerLegalName": "东吴创业投资有限公司",
+      "filingCode": "SZF453",
+      "filingDate": "2023-02-22",
+      "incorporatedOn": "2022-12-02",
+      "creditCode": "91320507MAC5EQNW9Q"
+    },
+    "partners": [
+      {
+        "name": "苏州太联创业投资中心（有限合伙）",
+        "disclosedContributionCny": 120000000,
+        "disclosedPercent": 60,
+        "existingInstitution": "188b12e9118435b9b234f7c6"
+      },
+      {
+        "name": "东吴创新资本管理有限责任公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "a9315949dae8c9bff7ce8959"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "028d85b9749c9f1667be53dd",
+    "fundName": "无锡新高地高精尖产业投资基金合伙企业（有限合伙）",
+    "managerName": "无锡新高地私募基金管理有限公司",
+    "managerId": "7ff903179d14db4a9be7163a",
+    "sizeCny": 202030000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第91至92页",
+      "lpSources": [],
+      "lpScope": "6名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "无锡新高地私募基金管理有限公司",
+          "disclosedContributionCny": 7530000
+        }
+      ],
+      "managerLegalName": "无锡新高地私募基金管理有限公司",
+      "filingCode": "STR608",
+      "filingDate": "2022-05-16",
+      "incorporatedOn": "2022-04-21",
+      "creditCode": "91320205MA7MU2BU4D"
+    },
+    "partners": [
+      {
+        "name": "浙江万里扬股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 24.75,
+        "existingInstitution": "1aabc74c137f170036467a40"
+      },
+      {
+        "name": "无锡威孚高科技集团股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 24.75,
+        "existingInstitution": "3c51cde843b5127fb0064ffa"
+      },
+      {
+        "name": "莱特（海南）投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 37500000,
+        "disclosedPercent": 18.56,
+        "existingInstitution": "525c0dd3173075cf6698c33b"
+      },
+      {
+        "name": "无锡云林产业发展投资基金（有限合伙）",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": 12.37,
+        "existingInstitution": "991d0a0940fc5f368f18b9db"
+      },
+      {
+        "name": "东圣先行科技产业有限公司",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": 12.37,
+        "existingInstitution": "8b27ba03b5c8b61c53951980"
+      },
+      {
+        "name": "共青城新高地一号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 7000000,
+        "disclosedPercent": 3.46,
+        "existingInstitution": "5c986c7687c7ac81bd828ea4"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1696fe1000ad7e94101c5c5d",
+    "fundName": "安徽嘉岸启信创业投资合伙企业（有限合伙）",
+    "managerName": "宁波嘉岸创业投资合伙企业（有限合伙）",
+    "managerId": "d48a000e510b9d8f4565a97c",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第97至98页",
+      "lpSources": [],
+      "lpScope": "3名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "宁波嘉岸创业投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "宁波嘉岸创业投资合伙企业（有限合伙）",
+      "filingCode": "SAPL34",
+      "filingDate": "2024-10-14",
+      "incorporatedOn": "2024-08-27",
+      "creditCode": "91340100MADWGB3R75"
+    },
+    "partners": [
+      {
+        "name": "惠州市东燊嘉岸股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 687000000,
+        "disclosedPercent": 68.7,
+        "existingInstitution": "d4de56a47de8b4bd0e9a9af8"
+      },
+      {
+        "name": "安徽省新一代信息技术产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "f2a43d11104b0dfd4f69ff2a"
+      },
+      {
+        "name": "黄娅楠",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 0.3,
+        "existingInstitution": "fecfd206f5e6df4a6e947ca7"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "dd5d70adb0106a058de94fb2",
+    "fundName": "四川普什产业发展基金合伙企业（有限合伙）",
+    "managerName": "宜宾五粮液基金管理有限公司",
+    "managerId": "d3f6c97385170f9716e8375f",
+    "sizeCny": 10010000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第84至85页",
+      "lpSources": [],
+      "lpScope": "1名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "宜宾五粮液基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "宜宾五粮液基金管理有限公司",
+      "filingCode": "SAHH70",
+      "filingDate": "2024-03-11",
+      "incorporatedOn": "2024-02-06",
+      "creditCode": "91511521MADA72U8XA"
+    },
+    "partners": [
+      {
+        "name": "四川省宜宾五粮液集团有限公司",
+        "disclosedContributionCny": 10000000000,
+        "disclosedPercent": 99.9,
+        "existingInstitution": "74d3789835a59fdf9ecbd0ac"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "47e86a2d6cab40e79ba5dcdb",
+    "fundName": "安徽国江未来汽车产业投资基金合伙企业（有限合伙）",
+    "managerName": "安徽国控资本私募基金管理有限公司",
+    "managerId": "c23f21d7b739b73bf859d6dd",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第85至86页",
+      "lpSources": [],
+      "lpScope": "3名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "安徽国控资本私募基金管理有限公司",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "managerLegalName": "安徽国控资本私募基金管理有限公司",
+      "filingCode": "STF391",
+      "filingDate": "2021-12-02",
+      "incorporatedOn": "2021-10-20",
+      "creditCode": "91340111MA8NAKPB0D"
+    },
+    "partners": [
+      {
+        "name": "安徽江淮汽车集团股份有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 50,
+        "existingInstitution": "1e116728602d41c5a33f7eef"
+      },
+      {
+        "name": "安徽国控增动能投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 195000000,
+        "disclosedPercent": 39,
+        "existingInstitution": "1ee7361aca721d3f3db5494b"
+      },
+      {
+        "name": "安徽国控资产管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "f91d8819f63b55f0c53ffb3e"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "952abb4fc1438712de470fce",
+    "fundName": "温州知壹丰盛股权投资合伙企业（有限合伙）",
+    "managerName": "珠海知一华新私募基金管理有限公司",
+    "managerId": "f15e1ec7aaaf3ec041ef4cf2",
+    "sizeCny": 28123000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+      "date": "2026-07-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "绿控传动招股意向书",
+      "pages": "第95至96页",
+      "lpSources": [],
+      "lpScope": "7名LP和1名GP，披露逐家认缴额。",
+      "generalPartners": [
+        {
+          "name": "珠海知一华新私募基金管理有限公司",
+          "disclosedContributionCny": 10000
+        }
+      ],
+      "managerLegalName": "珠海知一华新私募基金管理有限公司",
+      "filingCode": "SBBD87",
+      "filingDate": "2025-07-21",
+      "incorporatedOn": "2025-04-21",
+      "creditCode": "91330304MAEHW8GL8X"
+    },
+    "partners": [
+      {
+        "name": "蒋辰昕",
+        "disclosedContributionCny": 8040000,
+        "disclosedPercent": 28.59,
+        "existingInstitution": "865af3eac71848b7e122e99a"
+      },
+      {
+        "name": "天津泽晟奕投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 7638000,
+        "disclosedPercent": 27.16,
+        "existingInstitution": "3b562bd9575b557d10e91e30"
+      },
+      {
+        "name": "郭均",
+        "disclosedContributionCny": 5250000,
+        "disclosedPercent": 18.67,
+        "existingInstitution": "a9158587fe24847ccc171267"
+      },
+      {
+        "name": "安徽信邦创业投资有限公司",
+        "disclosedContributionCny": 3015000,
+        "disclosedPercent": 10.72,
+        "existingInstitution": "45726109130c6bbf9064f1c1"
+      },
+      {
+        "name": "陈琦",
+        "disclosedContributionCny": 2100000,
+        "disclosedPercent": 7.47,
+        "existingInstitution": "bd13042644913f9e78832619"
+      },
+      {
+        "name": "杨雅宁",
+        "disclosedContributionCny": 1035000,
+        "disclosedPercent": 3.68,
+        "existingInstitution": "c58b9a1727f2275b5e44ffd2"
+      },
+      {
+        "name": "孙荣涛",
+        "disclosedContributionCny": 1035000,
+        "disclosedPercent": 3.68,
+        "existingInstitution": "1a9b0f89aadcda0fedd32901"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "782e9b210e9a7b1a6e5b5f97",
+    "fundName": "安徽省新材料产业主题投资基金合伙企业（有限合伙）",
+    "managerName": "合肥产投资本创业投资管理有限公司",
+    "managerId": "46451d28b03bf70038d1ef56",
+    "sizeCny": 5500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1022/2025102201014_c.pdf",
+      "date": "2025-10-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "天齐锂业对外投资公告",
+      "pages": "第3至4页",
+      "lpSources": [],
+      "lpScope": "2名LP和1名GP，合计认缴55亿元。",
+      "generalPartners": [
+        {
+          "name": "合肥产投资本创业投资管理有限公司",
+          "disclosedContributionCny": 50000000
+        }
+      ],
+      "managerLegalName": "合肥产投资本创业投资管理有限公司",
+      "incorporatedOn": "2023-03-27",
+      "creditCode": "91340100MA8Q8B4986"
+    },
+    "partners": [
+      {
+        "name": "安徽省财金投资有限公司",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": 54.5455,
+        "existingInstitution": "e7a28990bf5c99c42de9bd80"
+      },
+      {
+        "name": "安徽省产投新材料产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 2450000000,
+        "disclosedPercent": 44.5455,
+        "existingInstitution": "0d1b8130f2ddd62c26afb4e0"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f31ff84c7e4497275c962798",
+    "fundName": "安徽超摩启源创业投资基金合伙企业（有限合伙）",
+    "managerName": "上海超越摩尔私募基金管理有限公司",
+    "managerId": "d8b34802cdcc9ee951d5d267",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223144800.PDF",
+      "date": "2025-04-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "捷佳伟创共同投资进展公告及2025年报",
+      "pages": "公告第3至4页、年报第27至28页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-27/1225192952.PDF",
+        "https://epaper.cs.com.cn/zgzqb/html/2024-04/09/nw.D110000zgzqb_20240409_2-B027.htm"
+      ],
+      "lpScope": "公告披露扩募后10名LP及1名GP；年报证实捷佳伟创扩募后认缴4000万元占4%，2025年出资1020万元。",
+      "generalPartners": [
+        {
+          "name": "合肥超摩匠芯企业管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "上海超越摩尔私募基金管理有限公司",
+      "incorporatedOn": "2024-02-01",
+      "filingCode": "SAHN51",
+      "filingDate": "2024-04-03",
+      "historicalPartnershipSummary": {
+        "date": "2025-04-18",
+        "source": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223144800.PDF",
+        "sizeCny": 300000000,
+        "lpCount": 7
+      },
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2026-04-27/1225192952.PDF",
+        "date": "2026-04-27",
+        "dateKind": "年报披露日",
+        "partners": [
+          {
+            "name": "深圳市捷佳伟创新能源装备股份有限公司",
+            "paidCny": 10200000
+          }
+        ]
+      },
+      "creditCode": "91340100MADB987P0C"
+    },
+    "partners": [
+      {
+        "name": "安徽省新材料产业主题投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "782e9b210e9a7b1a6e5b5f97"
+      },
+      {
+        "name": "上海东方证券创新投资有限公司",
+        "disclosedContributionCny": 190000000,
+        "disclosedPercent": 19,
+        "existingInstitution": "05a4352b8de779d4e9430f7e"
+      },
+      {
+        "name": "合肥新站产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 190000000,
+        "disclosedPercent": 19,
+        "existingInstitution": "9bf33964a4241d688b26f242"
+      },
+      {
+        "name": "安徽金禾实业股份有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3,
+        "existingInstitution": "97cb86cb20ea0073c044bedb"
+      },
+      {
+        "name": "烟台德邦科技股份有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3,
+        "existingInstitution": "d38a448aa5be02297a4f403d"
+      },
+      {
+        "name": "深圳市捷佳伟创新能源装备股份有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "1cc58f9da08848a2a01a4d50"
+      },
+      {
+        "name": "铜冠投资（上海）有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 1,
+        "existingInstitution": "cde9f1ce0e6b0ef424a5fc1d"
+      },
+      {
+        "name": "浙江粤科兴温创新创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 8,
+        "existingInstitution": "33df85388eb073b8f27988e4"
+      },
+      {
+        "name": "辽宁粤科科创发展合伙企业（有限合伙）",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 7,
+        "existingInstitution": "aa75c2f94a6479eacff7f3b6"
+      },
+      {
+        "name": "桐乡市金信超摩企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "943e62825cd6930326b27ac7"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "3744ba5b52f9715f1d14a475",
+    "fundName": "安徽省聚晟材料股权投资基金合伙企业（有限合伙）",
+    "managerName": "合肥市新站国鑫资本私募基金管理有限公司",
+    "managerId": "0d58afa1d8e79f354f034e5b",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://epaper.cs.com.cn/zgzqb/html/2026-09/30/nw.D110000zgzqb_20260930_6-B020.htm",
+      "date": "2026-09-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "维信诺共同投资及基金备案完成公告",
+      "pages": "合伙协议第5至6页，基金备案公告",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-10-14/1224709133.PDF"
+      ],
+      "lpScope": "10亿元已完成工商登记及基金备案。4名LP与2名GP认缴以2025年签署协议披露为据。",
+      "generalPartners": [
+        {
+          "name": "合肥市新站国鑫资本私募基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        },
+        {
+          "name": "合肥晟智产业投资有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "合肥市新站国鑫资本私募基金管理有限公司",
+      "filingCode": "SB1845",
+      "filingDate": "2026-09-28"
+    },
+    "partners": [
+      {
+        "name": "安徽省新材料产业主题投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 40,
+        "existingInstitution": "782e9b210e9a7b1a6e5b5f97"
+      },
+      {
+        "name": "合肥新站建设发展有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "8ac5d916f2a271597654346e"
+      },
+      {
+        "name": "维信诺科技股份有限公司",
+        "disclosedContributionCny": 190000000,
+        "disclosedPercent": 19,
+        "existingInstitution": "cb86fc4bc8dcc777c9dea1b9"
+      },
+      {
+        "name": "合肥新站产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 90000000,
+        "disclosedPercent": 9,
+        "existingInstitution": "9bf33964a4241d688b26f242"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

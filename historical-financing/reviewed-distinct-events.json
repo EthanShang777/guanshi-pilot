@@ -1285,5 +1285,77 @@
     },
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
     "reason": "9月14日广发认购新增资本，9月27日顺融另向原股东受让股份"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f7618971dc7e6b82dcd58b",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:926ad445680dcef44ddfa2",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202212/001408_20221230_3ZE9.pdf",
+    "reason": "同次工商登记，公司发行新增股份与原股东对外转让为不同交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:926ad445680dcef44ddfa2",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f7618971dc7e6b82dcd58b",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202212/001408_20221230_3ZE9.pdf",
+    "reason": "同次工商登记，公司发行新增股份与原股东对外转让为不同交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:45205f52b9d860d2c56e0a",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b4fd933272c1e0882e026e",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+    "reason": "七位原股东出售40万股，发行人另发行100万股并收款。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:b4fd933272c1e0882e026e",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:45205f52b9d860d2c56e0a",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+    "reason": "七位原股东出售40万股，发行人另发行100万股并收款。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:7ae8ced5f599cdae7a865c",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:52207819f3c0e299649a52",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+    "reason": "认购新增股份的货币出资与原股东同期转让为不同交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:52207819f3c0e299649a52",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7ae8ced5f599cdae7a865c",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+    "reason": "认购新增股份的货币出资与原股东同期转让为不同交易。"
   }
 ]
