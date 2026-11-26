@@ -1,0 +1,2 @@
+﻿date,company_name,primary_sector,secondary_sector,round,investors_json,amount,valuation,date_kind,sources_json,event_id,company_id,raw_company_key,date_key,sector,sector_source
+2023-06-23,LaLa Autobot Company Limited,汽车交通,汽车科技与智能物流,优先股融资,[],7700万美元,,款项收齐日,"[""https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf"",""https://www1.hkexnews.hk/app/sehk/2025/107809/a126753/sehk25102701677.pdf""]",public:historical-disclosure:bdf4d7375859e343528aa0,co:full_legal_name:99bbd4b421a3628330f5691917e5402e,LaLa Autobot,2023-06-23,汽车交通,按已披露主营业务归类

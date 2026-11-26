@@ -5,6 +5,7 @@ from html import escape as esc
 from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 import json
+import re
 import shutil
 
 from reader import build_library
@@ -88,7 +89,6 @@ def list_pages(base,title,section,items,make_row,first=''):
 def search_page():
     shell=Path('search.html').read_text()
     form=shell.split('<form id="archive-form">',1)[1].split('</form>',1)[0]
-    import re
     form=re.sub(r'(<select name="(sector|year)"><option value="">[^<]+</option>).*?</select>',r'\1</select>',form)
     form += ('<label>细分方向<select name="sub"><option value="">全部方向</option></select></label>'
              '<label>轮次匹配<select name="mode"><option value="">关键词</option><option value="exact">精确轮次</option>'
@@ -103,7 +103,6 @@ def research_pages(deals):
         shutil.copyfile(asset, OUT/asset)
     home = OUT/'index.html'
     html = home.read_text()
-    import re
     if '<main class="home-research">' in html:
         html = html.replace('<main class="home-research"><link rel="stylesheet" href="workspace.css">'+entry, '<main>', 1)
         html = html.replace('<h2>融资时间线</h2><p class="search-entry">','<p class="search-entry">',1)
@@ -127,6 +126,13 @@ def build(rows):
     fund_managers=json.loads(Path('institution-fund-managers.json').read_text())
     reviewed_names_path = Path('company-display-names.json')
     reviewed_names = json.loads(reviewed_names_path.read_text()) if reviewed_names_path.is_file() else {}
+    redirect_path = Path('historical-financing/reviewed-redirects.json')
+    redirects = json.loads(redirect_path.read_text()) if redirect_path.is_file() else {}
+    deal_redirects = redirects.get('deal', {})
+    company_redirects = redirects.get('company', {})
+    for mapping in (deal_redirects, company_redirects):
+        if mapping.keys() & set(mapping.values()) or any(not re.fullmatch('[0-9a-f]{24}', key) for key in (*mapping, *mapping.values())):
+            raise ValueError('Reviewed redirects must be one hop between valid record IDs')
     live=json.loads(Path('ledger.json').read_text())['events']
     old_by_source={u:e for e in live for u in e['sources']}
     history=json.loads(Path('history-public.json').read_text())
@@ -140,6 +146,11 @@ def build(rows):
         return groups.setdefault(k,dict(key=k,name=name,href=kind+'.html?id='+k,events=[]))
     for row in sorted(rows,key=lambda r:(r['date_key'],r['event_id']),reverse=True):
         key=token('event'+row['event_id'])
+        if row['round'] == '已合并披露':
+            buckets['deal-'+key[:2]][key] = {'redirect': deal_redirects[key]}
+            continue
+        if key in deal_redirects:
+            raise ValueError(f'Reviewed deal redirect before merge correction: {key}')
         urls=[u for u in json.loads(row['sources_json'] or '[]') if isinstance(u,str) and urlsplit(u).scheme in ('http','https')]
         c=entity(companies,'company',row['company_id'] or row['event_id'],row['company_name'])
         country=row.get('country') or ''
@@ -193,6 +204,9 @@ def build(rows):
             groups[d['sector']].append(d)
             deals.append(d)
         buckets['deal-'+key[:2]][key]=d
+    for old, current in deal_redirects.items():
+        if old not in buckets.get('deal-'+old[:2], {}) or current not in buckets.get('deal-'+current[:2], {}):
+            raise ValueError(f'Reviewed deal redirect references a missing record: {old}')
     for key,records in buckets.items():dump(data/(key+'.json'),records)
     def event_row(d):
         cells=[d['location'],d['day'],d['stage'],d['amount'],'、'.join(d['investors']),d['valuation'],' / '.join(filter(None,[d['sector'],d['sub']]))]
@@ -203,7 +217,6 @@ def build(rows):
                               ('机构档案',Counter({k:len({i for d in v for i in d['investors']}) for k,v in groups.items()}),'institution')]:
         DECKS[section]='records/shelf-'+slug+'.html'
         (OUT/DECKS[section]).write_text(deck(section,stat))
-    import re
     for section,slug in [('研究周报','reports'),('变化追踪','changes')]:
         original=Path(slug+'.html').read_text()
         found=re.search(r'<section class="arc">.*?</section>',original,re.S)
@@ -231,6 +244,12 @@ def build(rows):
                     name=label['name'], registeredName=label['registeredName'],
                     aliases=label['aliases'], nameSources=label['sources'],
                 )
+        if kind == 'company':
+            for old, current in company_redirects.items():
+                if old in entities or current not in entities:
+                    raise ValueError(f'Reviewed company redirect conflicts with active companies: {old}')
+                # Keep old IDs readable for views that resolve the company shard directly.
+                parts[old[:2]][old] = {**parts[current[:2]][current], 'redirect': current}
         for prefix,part in parts.items():dump(data/(kind+'-'+prefix+'.json'),part)
         if kind=='company':
             from company_directory import build_directory
@@ -242,7 +261,7 @@ def build(rows):
         for s,items in by_sector.items():list_pages(sector_url(section,s),s,section,items,entry)
     for kind,title,section in [('company','公司档案','公司档案'),('institution','机构档案','机构档案'),('deal','融资详情','融资事件')]:
         default=legacy.pop(kind+'.html','')
-        page(kind+'.html',title,section,'<section id="record" data-kind="'+kind+'" data-default="'+esc(default)+'"></section><script defer src="master-detail.js"></script>')
+        page(kind+'.html',title,section,'<section id="record" data-kind="'+kind+'" data-default="'+esc(default)+'"></section><script defer src="master-detail.js?v=record-redirect"></script>')
     for path,url in legacy.items():redirect(path,url)
     for h in history:
         old='historical-'+h['key']+'.html'

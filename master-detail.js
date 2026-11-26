@@ -15,6 +15,13 @@
     const res=await fetch('records/'+kind+'-'+id.slice(0,2)+'.json');
     if(!res.ok)throw Error();
     const row=(await res.json())[id];if(!row)throw Error();
+    if(row.redirect){
+      if(!/^[a-f0-9]{24}$/.test(row.redirect)||row.redirect===id)throw Error();
+      const destination=new URL(location.href);
+      destination.searchParams.set('id',row.redirect);
+      location.replace(destination.href);
+      return;
+    }
     const name=row.company||row.name;
     document.querySelector('h1').textContent=name;document.title=name+' · 观势';
     if(kind==='deal'){

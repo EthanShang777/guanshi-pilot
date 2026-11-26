@@ -113,5 +113,373 @@
       "date_kind": "介绍上市日期",
       "investors_json": "[]"
     }
+  },
+  {
+    "event_id": "registry:791",
+    "round": "A轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2015-09-04",
+      "date_key": "2015-09-04",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"01VC Fund I, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"D1 Master Holdco I LLC\",\"role\":null,\"amount\":null},{\"name\":\"HCM VC Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"NG, Shin Ein\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Sirius Venture Capital Pte. Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"The Aria Group Limited (BVI)\",\"role\":null,\"amount\":null},{\"name\":\"TimeWorth Investments Limited\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2015-09-04",
+      "date_key": "2015-09-04",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"01VC Fund I, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"D1 Master Holdco I LLC\",\"role\":null,\"amount\":null},{\"name\":\"HCM VC Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"NG, Shin Ein\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Sirius Venture Capital Pte. Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"The Aria Group Limited (BVI)\",\"role\":null,\"amount\":null},{\"name\":\"TimeWorth Investments Limited\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:790",
+    "round": "A+轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2015-09-10",
+      "date_key": "2015-09-10",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-L, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2015-09-10",
+      "date_key": "2015-09-10",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-L, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:789",
+    "round": "Pre-B轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2016-07-11",
+      "date_key": "2016-07-11",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"Axiom Asia Opportunity Fund, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Moonlight Miracle Holdings, LP.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"The Aria Group Limited (BVI)\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2016-07-11",
+      "date_key": "2016-07-11",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"Axiom Asia Opportunity Fund, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Moonlight Miracle Holdings, LP.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"The Aria Group Limited (BVI)\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:788",
+    "round": "B轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2017-01-03",
+      "date_key": "2017-01-03",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"2807546 ONTARIO LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Astrend Opportunity IV Alpha Limited\",\"role\":null,\"amount\":null},{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GRANITE ASIA IX VCC\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-L, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Martlet International Limited\",\"role\":null,\"amount\":null},{\"name\":\"MCF2 Holdings\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2017-01-03",
+      "date_key": "2017-01-03",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"2807546 ONTARIO LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Astrend Opportunity IV Alpha Limited\",\"role\":null,\"amount\":null},{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GRANITE ASIA IX VCC\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-L, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Martlet International Limited\",\"role\":null,\"amount\":null},{\"name\":\"MCF2 Holdings\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:787",
+    "round": "C轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2017-09-28",
+      "date_key": "2017-09-28",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"Martlet International Limited\",\"role\":null,\"amount\":null},{\"name\":\"MCF2 Holdings\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2017-09-28",
+      "date_key": "2017-09-28",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"Martlet International Limited\",\"role\":null,\"amount\":null},{\"name\":\"MCF2 Holdings\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:786",
+    "round": "D轮首批",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2018-11-06",
+      "date_key": "2018-11-06",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"01VC Huolala, LLC\",\"role\":null,\"amount\":null},{\"name\":\"Eastern Bell International III Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund I Alpha, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2018-11-06",
+      "date_key": "2018-11-06",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"01VC Huolala, LLC\",\"role\":null,\"amount\":null},{\"name\":\"Eastern Bell International III Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund I Alpha, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:785",
+    "round": "D2轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2018-11-30",
+      "date_key": "2018-11-30",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth V 2018-C Holdco A, Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"勝鋒有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2018-11-30",
+      "date_key": "2018-11-30",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth V 2018-C Holdco A, Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"勝鋒有限公司\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:784",
+    "round": "E轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2020-02-26",
+      "date_key": "2020-02-26",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"Pink Crystal Music Fund, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"SC GGFII Holdco, Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund I, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2020-02-26",
+      "date_key": "2020-02-26",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"Pink Crystal Music Fund, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"SC GGFII Holdco, Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund I, L.P.\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:783",
+    "round": "E2轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2020-10-14",
+      "date_key": "2020-10-14",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"Astrend Opportunity III Alpha Limited\",\"role\":null,\"amount\":null},{\"name\":\"AUT-XII Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"SC GGF III Holdco, Ltd.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2020-10-14",
+      "date_key": "2020-10-14",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"Astrend Opportunity III Alpha Limited\",\"role\":null,\"amount\":null},{\"name\":\"AUT-XII Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"SC GGF III Holdco, Ltd.\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:782",
+    "round": "F轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2021-04-14",
+      "date_key": "2021-04-14",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"2807546 ONTARIO LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Ab Initio Capital, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"AMF-3 Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"BNR Lotus Investment LP\",\"role\":null,\"amount\":null},{\"name\":\"Brilliant Flame Group Limited\",\"role\":null,\"amount\":null},{\"name\":\"CoreView Master Fund Limited\",\"role\":null,\"amount\":null},{\"name\":\"Crescent Ocean Limited\",\"role\":null,\"amount\":null},{\"name\":\"D1 Master Holdco I LLC\",\"role\":null,\"amount\":null},{\"name\":\"Eastern Bell International XXVI Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCEP Master Fund\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-G, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Internet Fund VI PTE. LTD\",\"role\":null,\"amount\":null},{\"name\":\"LLMV Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"MLLM LP\",\"role\":null,\"amount\":null},{\"name\":\"NOVEL SKYLINE LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"PA FRL LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Pride Aim Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"SC GGFII Holdco, Ltd\",\"role\":null,\"amount\":null},{\"name\":\"VIP IV NOMINEES LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Wisteria Synergy Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund Delta, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"勵華有限公司\",\"role\":null,\"amount\":null},{\"name\":\"富衛人壽（香港）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"富衛人壽保險（百慕達）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"快星有限公司\",\"role\":null,\"amount\":null},{\"name\":\"金光有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2021-04-14",
+      "date_key": "2021-04-14",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"2807546 ONTARIO LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Ab Initio Capital, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"AMF-3 Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"BNR Lotus Investment LP\",\"role\":null,\"amount\":null},{\"name\":\"Brilliant Flame Group Limited\",\"role\":null,\"amount\":null},{\"name\":\"CoreView Master Fund Limited\",\"role\":null,\"amount\":null},{\"name\":\"Crescent Ocean Limited\",\"role\":null,\"amount\":null},{\"name\":\"D1 Master Holdco I LLC\",\"role\":null,\"amount\":null},{\"name\":\"Eastern Bell International XXVI Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCEP Master Fund\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-G, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Internet Fund VI PTE. LTD\",\"role\":null,\"amount\":null},{\"name\":\"LLMV Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"MLLM LP\",\"role\":null,\"amount\":null},{\"name\":\"NOVEL SKYLINE LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"PA FRL LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Pride Aim Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"SC GGFII Holdco, Ltd\",\"role\":null,\"amount\":null},{\"name\":\"VIP IV NOMINEES LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Wisteria Synergy Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund Delta, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"勵華有限公司\",\"role\":null,\"amount\":null},{\"name\":\"富衛人壽（香港）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"富衛人壽保險（百慕達）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"快星有限公司\",\"role\":null,\"amount\":null},{\"name\":\"金光有限公司\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "registry:781",
+    "round": "G轮",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+      "company_name": "深圳依时货拉拉科技有限公司",
+      "raw_company_key": "深圳依时货拉拉科技有限公司",
+      "date": "2022-02-28",
+      "date_key": "2022-02-28",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"Primus Ginzburg Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"Two Hearts Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"VIP IV NOMINEES LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Vitruvian DS Opportunities (G) LP\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468",
+      "company_name": "Lalatech Holdings Limited",
+      "raw_company_key": "货拉拉; Lalamove; 拉拉科技控股有限公司; 深圳依时货拉拉科技有限公司; EasyVan; 拉拉科技",
+      "date": "2022-02-28",
+      "date_key": "2022-02-28",
+      "date_kind": "结算日",
+      "investors_json": "[{\"name\":\"Primus Ginzburg Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"Two Hearts Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"VIP IV NOMINEES LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Vitruvian DS Opportunities (G) LP\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:4c4d1d9d18c60bf28d1229fbe629f003f21aa07360363c617ca11a2d50b0b588",
+    "round": "D+轮",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000018_c.pdf",
+    "expected": {
+      "company_id": "",
+      "company_name": "智谱",
+      "raw_company_key": "智谱",
+      "date": "2024-12-17",
+      "date_key": "2024-12-17",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"君联资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"云晖资本\",\"role\":null,\"amount\":null},{\"name\":\"信科资本\",\"role\":null,\"amount\":null},{\"name\":\"北京市人工智能产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"招商局创投\",\"role\":null,\"amount\":null},{\"name\":\"联融志道\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:cn_uscc:3858d239000b8ad2d4e912c8af130e0d",
+      "company_name": "北京智谱华章科技股份有限公司",
+      "raw_company_key": "智谱; 智谱AI; 智谱华章; Zhipu AI; Z.AI; Z.AI Co., Ltd.; Knowledge Atlas Technology Joint Stock Company Limited",
+      "date": "2024-12-17",
+      "date_key": "2024-12-17",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"君联资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"云晖资本\",\"role\":null,\"amount\":null},{\"name\":\"信科资本\",\"role\":null,\"amount\":null},{\"name\":\"北京市人工智能产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"招商局创投\",\"role\":null,\"amount\":null},{\"name\":\"联融志道\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8712c984b1995cd896a29b8cbe87f62ad102adc70e6d01aae25794a314173342",
+    "round": "战略融资",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000018_c.pdf",
+    "expected": {
+      "company_id": "",
+      "company_name": "智谱",
+      "raw_company_key": "智谱",
+      "date": "2025-03-13",
+      "date_key": "2025-03-13",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"华发集团\",\"role\":\"独家投资\",\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:cn_uscc:3858d239000b8ad2d4e912c8af130e0d",
+      "company_name": "北京智谱华章科技股份有限公司",
+      "raw_company_key": "智谱; 智谱AI; 智谱华章; Zhipu AI; Z.AI; Z.AI Co., Ltd.; Knowledge Atlas Technology Joint Stock Company Limited",
+      "date": "2025-03-13",
+      "date_key": "2025-03-13",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"华发集团\",\"role\":\"独家投资\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:bcc3263c367606abf14fead99e097284f41d34db363173ec127b0edc8a62b5ff",
+    "round": "战略融资",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000018_c.pdf",
+    "expected": {
+      "company_id": "",
+      "company_name": "智谱",
+      "raw_company_key": "智谱",
+      "date": "2025-03-03",
+      "date_key": "2025-03-03",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"上城资本\",\"role\":null,\"amount\":null},{\"name\":\"杭州城投产业基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:cn_uscc:3858d239000b8ad2d4e912c8af130e0d",
+      "company_name": "北京智谱华章科技股份有限公司",
+      "raw_company_key": "智谱; 智谱AI; 智谱华章; Zhipu AI; Z.AI; Z.AI Co., Ltd.; Knowledge Atlas Technology Joint Stock Company Limited",
+      "date": "2025-03-03",
+      "date_key": "2025-03-03",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"上城资本\",\"role\":null,\"amount\":null},{\"name\":\"杭州城投产业基金\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:32de0e4ff97766fee300a3a2f6ded7ad5cd0f00fa3f2bf6e7f560aa7f03ec6a5",
+    "round": "上市后配售",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0918/2026091800399.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:3858d239000b8ad2d4e912c8af130e0d",
+      "company_name": "北京智谱华章科技股份有限公司",
+      "raw_company_key": "智谱",
+      "date": "2026-09-18",
+      "date_key": "2026-09-18",
+      "date_kind": "公告",
+      "investors_json": "[]"
+    },
+    "corrected": {
+      "company_id": "co:cn_uscc:3858d239000b8ad2d4e912c8af130e0d",
+      "company_name": "北京智谱华章科技股份有限公司",
+      "raw_company_key": "智谱; 智谱AI; 智谱华章; Zhipu AI; Z.AI; Z.AI Co., Ltd.; Knowledge Atlas Technology Joint Stock Company Limited",
+      "date": "2026-09-16",
+      "date_key": "2026-09-16",
+      "date_kind": "现金交割",
+      "investors_json": "[]"
+    }
+  },
+  {
+    "event_id": "registry:474",
+    "round": "IPO",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0107/2026010701799_c.pdf",
+    "expected": {
+      "company_id": "co:cn_uscc:3858d239000b8ad2d4e912c8af130e0d",
+      "company_name": "北京智谱华章科技股份有限公司",
+      "raw_company_key": "北京智谱华章科技股份有限公司",
+      "date": "2025-12-30",
+      "date_key": "2025-12-30",
+      "date_kind": "公告",
+      "investors_json": "[{\"name\":\"3W Fund\",\"role\":null,\"amount\":null},{\"name\":\"GF Fund\",\"role\":null,\"amount\":null},{\"name\":\"JinYi Capital Multi-Strategy Fund SPC Ltd. (acting for and on behalf of Structured Credit SP Fund)\",\"role\":null,\"amount\":null},{\"name\":\"JSC International Investment Fund SPC (acting for and on behalf of Qizhi SP)\",\"role\":null,\"amount\":null},{\"name\":\"Luster LightTech International Limited\",\"role\":null,\"amount\":null},{\"name\":\"Optimas Capital Limited\",\"role\":null,\"amount\":null},{\"name\":\"Perseverance Asset Management\",\"role\":null,\"amount\":null},{\"name\":\"RIME\",\"role\":null,\"amount\":null},{\"name\":\"Shanghai Gaoyi and CICC Financial Trading Limited (in connection with Gaoyi OTC Swaps)\",\"role\":null,\"amount\":null},{\"name\":\"Taikang Life\",\"role\":null,\"amount\":null},{\"name\":\"WT Asset Management\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:cn_uscc:3858d239000b8ad2d4e912c8af130e0d",
+      "company_name": "北京智谱华章科技股份有限公司",
+      "raw_company_key": "智谱; 智谱AI; 智谱华章; Zhipu AI; Z.AI; Z.AI Co., Ltd.; Knowledge Atlas Technology Joint Stock Company Limited",
+      "date": "2026-01-08",
+      "date_key": "2026-01-08",
+      "date_kind": "上市日期",
+      "investors_json": "[{\"name\":\"3W Fund\",\"role\":null,\"amount\":null},{\"name\":\"GF Fund\",\"role\":null,\"amount\":null},{\"name\":\"JinYi Capital Multi-Strategy Fund SPC Ltd. (acting for and on behalf of Structured Credit SP Fund)\",\"role\":null,\"amount\":null},{\"name\":\"JSC International Investment Fund SPC (acting for and on behalf of Qizhi SP)\",\"role\":null,\"amount\":null},{\"name\":\"Luster LightTech International Limited\",\"role\":null,\"amount\":null},{\"name\":\"Optimas Capital Limited\",\"role\":null,\"amount\":null},{\"name\":\"Perseverance Asset Management\",\"role\":null,\"amount\":null},{\"name\":\"RIME\",\"role\":null,\"amount\":null},{\"name\":\"Shanghai Gaoyi and CICC Financial Trading Limited (in connection with Gaoyi OTC Swaps)\",\"role\":null,\"amount\":null},{\"name\":\"Taikang Life\",\"role\":null,\"amount\":null},{\"name\":\"WT Asset Management\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

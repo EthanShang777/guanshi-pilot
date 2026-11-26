@@ -2581,5 +2581,339 @@
       "amount": "无募资",
       "investors_json": "[]"
     }
+  },
+  {
+    "event_id": "registry:791",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2015-09-04",
+    "final_day": "2015-09-04",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "598.2922万美元",
+      "investors_json": "[{\"name\":\"01VC Fund I, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"D1 Master Holdco I LLC\",\"role\":null,\"amount\":null},{\"name\":\"HCM VC Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"NG, Shin Ein\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Sirius Venture Capital Pte. Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"The Aria Group Limited (BVI)\",\"role\":null,\"amount\":null},{\"name\":\"TimeWorth Investments Limited\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "615万美元",
+      "investors_json": "[{\"name\":\"01VC Fund I, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"D1 Master Holdco I LLC\",\"role\":null,\"amount\":null},{\"name\":\"HCM VC Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"NG, Shin Ein\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Sirius Venture Capital Pte. Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"The Aria Group Limited (BVI)\",\"role\":null,\"amount\":null},{\"name\":\"TimeWorth Investments Limited\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:790",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2015-09-10",
+    "final_day": "2015-09-10",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf",
+    "expected": {
+      "round": "A+轮",
+      "amount": "694.6083万美元",
+      "investors_json": "[{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-L, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "708.9万美元",
+      "investors_json": "[{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-L, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:789",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2016-07-11",
+    "final_day": "2016-07-11",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf",
+    "expected": {
+      "round": "Pre-B轮",
+      "amount": "653.7万美元",
+      "investors_json": "[{\"name\":\"Axiom Asia Opportunity Fund, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Moonlight Miracle Holdings, LP.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"The Aria Group Limited (BVI)\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-B轮",
+      "amount": "777.5万美元",
+      "investors_json": "[{\"name\":\"Axiom Asia Opportunity Fund, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Moonlight Miracle Holdings, LP.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"The Aria Group Limited (BVI)\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:788",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2017-01-03",
+    "final_day": "2017-01-03",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "2403.3511万美元",
+      "investors_json": "[{\"name\":\"2807546 ONTARIO LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Astrend Opportunity IV Alpha Limited\",\"role\":null,\"amount\":null},{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GRANITE ASIA IX VCC\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-L, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Martlet International Limited\",\"role\":null,\"amount\":null},{\"name\":\"MCF2 Holdings\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "2618.2万美元",
+      "investors_json": "[{\"name\":\"2807546 ONTARIO LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Astrend Opportunity IV Alpha Limited\",\"role\":null,\"amount\":null},{\"name\":\"Cheung Wan Ping Ivy\",\"role\":null,\"amount\":null},{\"name\":\"Crystal Stream Fund II, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"GRANITE ASIA IX VCC\",\"role\":null,\"amount\":null},{\"name\":\"GSEP II Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCM Angel Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-L, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Martlet International Limited\",\"role\":null,\"amount\":null},{\"name\":\"MCF2 Holdings\",\"role\":null,\"amount\":null},{\"name\":\"ML1 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"ML2 Holding Co.\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:787",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2017-09-28",
+    "final_day": "2017-09-28",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "5984.4227万美元",
+      "investors_json": "[{\"name\":\"Martlet International Limited\",\"role\":null,\"amount\":null},{\"name\":\"MCF2 Holdings\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "6100万美元",
+      "investors_json": "[{\"name\":\"Martlet International Limited\",\"role\":null,\"amount\":null},{\"name\":\"MCF2 Holdings\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:786",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2018-11-06",
+    "final_day": "2018-11-06",
+    "source": "https://www.lalamove.com/thailand/bangkok/th/funding-series-d",
+    "expected": {
+      "round": "D轮",
+      "amount": "1.1763亿美元",
+      "investors_json": "[{\"name\":\"01VC Huolala, LLC\",\"role\":null,\"amount\":null},{\"name\":\"Eastern Bell International III Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund I Alpha, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "D轮首批",
+      "amount": "1.2亿美元",
+      "investors_json": "[{\"name\":\"01VC Huolala, LLC\",\"role\":null,\"amount\":null},{\"name\":\"Eastern Bell International III Limited\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"Ocean Prosperity Limited\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund I Alpha, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He LLTH Fund, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:785",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2018-11-30",
+    "final_day": "2018-11-30",
+    "source": "https://www.lalamove.com/thailand/bangkok/th/funding-series-d",
+    "expected": {
+      "round": "D+轮",
+      "amount": "1.1749亿美元",
+      "investors_json": "[{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth V 2018-C Holdco A, Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"勝鋒有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "D2轮",
+      "amount": "1.205亿美元",
+      "investors_json": "[{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth V 2018-C Holdco A, Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"Mindworks Ventures Fund 3 SPC – Fund SP\",\"role\":null,\"amount\":null},{\"name\":\"勝鋒有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:784",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2020-02-26",
+    "final_day": "2020-02-26",
+    "source": "https://techcrunch.com/2020/12/22/on-demand-logistics-company-lalamove-gets-515-million-series-e/",
+    "expected": {
+      "round": "E轮",
+      "amount": "2.0112亿美元",
+      "investors_json": "[{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"Pink Crystal Music Fund, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"SC GGFII Holdco, Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund I, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "E轮",
+      "amount": "2.05亿美元",
+      "investors_json": "[{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"Pink Crystal Music Fund, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"SC GGFII Holdco, Ltd.\",\"role\":null,\"amount\":null},{\"name\":\"Shunwei HLL Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund I, L.P.\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:783",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2020-10-14",
+    "final_day": "2020-10-14",
+    "source": "https://techcrunch.com/2020/12/22/on-demand-logistics-company-lalamove-gets-515-million-series-e/",
+    "expected": {
+      "round": "E+轮",
+      "amount": "3.0181亿美元",
+      "investors_json": "[{\"name\":\"Astrend Opportunity III Alpha Limited\",\"role\":null,\"amount\":null},{\"name\":\"AUT-XII Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"SC GGF III Holdco, Ltd.\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "E2轮",
+      "amount": "3.1亿美元",
+      "investors_json": "[{\"name\":\"Astrend Opportunity III Alpha Limited\",\"role\":null,\"amount\":null},{\"name\":\"AUT-XII Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"SC GGF III Holdco, Ltd.\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:782",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2021-04-14",
+    "final_day": "2021-04-14",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf",
+    "expected": {
+      "round": "F轮",
+      "amount": "15.5522亿美元",
+      "investors_json": "[{\"name\":\"2807546 ONTARIO LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Ab Initio Capital, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"AMF-3 Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"BNR Lotus Investment LP\",\"role\":null,\"amount\":null},{\"name\":\"Brilliant Flame Group Limited\",\"role\":null,\"amount\":null},{\"name\":\"CoreView Master Fund Limited\",\"role\":null,\"amount\":null},{\"name\":\"Crescent Ocean Limited\",\"role\":null,\"amount\":null},{\"name\":\"D1 Master Holdco I LLC\",\"role\":null,\"amount\":null},{\"name\":\"Eastern Bell International XXVI Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCEP Master Fund\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-G, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Internet Fund VI PTE. LTD\",\"role\":null,\"amount\":null},{\"name\":\"LLMV Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"MLLM LP\",\"role\":null,\"amount\":null},{\"name\":\"NOVEL SKYLINE LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"PA FRL LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Pride Aim Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"SC GGFII Holdco, Ltd\",\"role\":null,\"amount\":null},{\"name\":\"VIP IV NOMINEES LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Wisteria Synergy Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund Delta, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"勵華有限公司\",\"role\":null,\"amount\":null},{\"name\":\"富衛人壽（香港）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"富衛人壽保險（百慕達）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"快星有限公司\",\"role\":null,\"amount\":null},{\"name\":\"金光有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "F轮",
+      "amount": "15.68亿美元",
+      "investors_json": "[{\"name\":\"2807546 ONTARIO LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Ab Initio Capital, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"AMF-3 Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"BNR Lotus Investment LP\",\"role\":null,\"amount\":null},{\"name\":\"Brilliant Flame Group Limited\",\"role\":null,\"amount\":null},{\"name\":\"CoreView Master Fund Limited\",\"role\":null,\"amount\":null},{\"name\":\"Crescent Ocean Limited\",\"role\":null,\"amount\":null},{\"name\":\"D1 Master Holdco I LLC\",\"role\":null,\"amount\":null},{\"name\":\"Eastern Bell International XXVI Limited\",\"role\":null,\"amount\":null},{\"name\":\"HCEP Master Fund\",\"role\":null,\"amount\":null},{\"name\":\"HH HLL Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"HSG Growth VI 2020-G, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"Internet Fund VI PTE. LTD\",\"role\":null,\"amount\":null},{\"name\":\"LLMV Holdings Limited\",\"role\":null,\"amount\":null},{\"name\":\"MLLM LP\",\"role\":null,\"amount\":null},{\"name\":\"NOVEL SKYLINE LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"PA FRL LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Pride Aim Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"SC GGFII Holdco, Ltd\",\"role\":null,\"amount\":null},{\"name\":\"VIP IV NOMINEES LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Wisteria Synergy Limited\",\"role\":null,\"amount\":null},{\"name\":\"Xiang He Fund Delta, L.P.\",\"role\":null,\"amount\":null},{\"name\":\"勵華有限公司\",\"role\":null,\"amount\":null},{\"name\":\"富衛人壽（香港）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"富衛人壽保險（百慕達）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"快星有限公司\",\"role\":null,\"amount\":null},{\"name\":\"金光有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "registry:781",
+    "company_id": "co:cn_uscc:0baec5965e92dc0f152d0f19171e86e8",
+    "day": "2022-02-28",
+    "final_day": "2022-02-28",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf",
+    "expected": {
+      "round": "G轮",
+      "amount": "2.2999亿美元",
+      "investors_json": "[{\"name\":\"Primus Ginzburg Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"Two Hearts Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"VIP IV NOMINEES LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Vitruvian DS Opportunities (G) LP\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "G轮",
+      "amount": "2.3亿美元",
+      "investors_json": "[{\"name\":\"Primus Ginzburg Limited\",\"role\":null,\"amount\":null},{\"name\":\"Rhododendron Investment Limited\",\"role\":null,\"amount\":null},{\"name\":\"Two Hearts Investments Limited\",\"role\":null,\"amount\":null},{\"name\":\"VIP IV NOMINEES LIMITED\",\"role\":null,\"amount\":null},{\"name\":\"Vitruvian DS Opportunities (G) LP\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:d7261ec1625be60fc72ac186b9244468"
+  },
+  {
+    "event_id": "financing_event:6c3de23e308c315ec974936a0147146c1d5bf8f4d18fb2024587ded563cdda4c",
+    "company_id": "",
+    "day": "2015-01-05",
+    "final_day": "2015-01-05",
+    "source": "https://techcrunch.com/2015/01/05/lalamove-10-million/",
+    "expected": {
+      "round": "A轮",
+      "amount": "1000万美元",
+      "investors_json": "[{\"name\":\"概念资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "1000万美元",
+      "investors_json": "[{\"name\":\"概念资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:7adfe2437cbf6a39394f6a35c58d75f6c9f4130cb87642149bd1143cfc5007a9",
+    "company_id": "",
+    "day": "2015-09-09",
+    "final_day": "2015-09-09",
+    "source": "https://en.prnasia.com/releases/global/Lalamove_Announces_Expansion_in_12_New_Cities_and_US_10M_in_New_Funding-130372.shtml",
+    "expected": {
+      "round": "A+轮",
+      "amount": "1000万美元",
+      "investors_json": "[{\"name\":\"概念资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "1000万美元",
+      "investors_json": "[{\"name\":\"概念资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:f4e6f00c54d63c43212be19255e91d3deb80bdeec411c7446f18c5d8a1a3a896",
+    "company_id": "",
+    "day": "2016-05-30",
+    "final_day": "2016-05-30",
+    "source": "https://www.lalamove.com/en-sg/blog/lalamove-secures-3rd-round-of-funding-in-last-18-months",
+    "expected": {
+      "round": "A++轮",
+      "amount": "1000万美元",
+      "investors_json": "[{\"name\":\"概念资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "1000万美元",
+      "investors_json": "[{\"name\":\"概念资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:3df8d3122bdf8a9a75c2217d3a33054cf589af515b1d90b67ab310c8d2c62246",
+    "company_id": "",
+    "day": "2017-01-10",
+    "final_day": "2017-01-10",
+    "source": "https://techcrunch.com/2017/01/10/lalamove-series-b/",
+    "expected": {
+      "round": "B轮",
+      "amount": "3000万美元",
+      "investors_json": "[{\"name\":\"襄禾资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "3000万美元",
+      "investors_json": "[{\"name\":\"襄禾资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:1ab5a31eb0365b04fc1f26bc8cf20a138625811ea1b3a800fc338d3e44e204b3",
+    "company_id": "",
+    "day": "2017-10-11",
+    "final_day": "2017-10-11",
+    "source": "https://www.businesstimes.com.sg/companies-markets/consumer-healthcare/logistics-startup-lalamove-raises-us100m-growth",
+    "expected": {
+      "round": "C轮",
+      "amount": "1亿美元",
+      "investors_json": "[{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "1亿美元",
+      "investors_json": "[{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:ff2f99854cd2aec85cb17781c3a7771dd4f70cba255456822aea099bf6310872",
+    "company_id": "",
+    "day": "2019-02-20",
+    "final_day": "2019-02-20",
+    "source": "https://www.lalamove.com/thailand/bangkok/th/funding-series-d",
+    "expected": {
+      "round": "D轮",
+      "amount": "3亿美元",
+      "investors_json": "[{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "3亿美元",
+      "investors_json": "[{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:7438f45bddf85a1b209356148a19dbef45b7e104825de834c87eda5a7a2ef42b",
+    "company_id": "",
+    "day": "2020-12-23",
+    "final_day": "2020-12-23",
+    "source": "https://techcrunch.com/2020/12/22/on-demand-logistics-company-lalamove-gets-515-million-series-e/",
+    "expected": {
+      "round": "E轮",
+      "amount": "5.15亿美元",
+      "investors_json": "[{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "5.15亿美元",
+      "investors_json": "[{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:32de0e4ff97766fee300a3a2f6ded7ad5cd0f00fa3f2bf6e7f560aa7f03ec6a5",
+    "company_id": "co:cn_uscc:3858d239000b8ad2d4e912c8af130e0d",
+    "day": "2026-09-18",
+    "final_day": "2026-09-16",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0918/2026091800399.pdf",
+    "expected": {
+      "round": "",
+      "amount": "",
+      "investors_json": "[]"
+    },
+    "corrected": {
+      "round": "上市后配售",
+      "amount": "约156.8301亿港元",
+      "investors_json": "[]"
+    }
   }
 ]

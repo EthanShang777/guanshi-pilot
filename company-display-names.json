@@ -248,5 +248,45 @@
       "https://www.sec.gov/Archives/edgar/data/2071502/000121390025108023/ea0248324-08.htm",
       "https://www.hongshan.com/companies/klook/"
     ]
+  },
+  "d5f79f005d1a5894b03649df": {
+    "name": "货拉拉",
+    "registeredName": "Lalatech Holdings Limited",
+    "aliases": [
+      "Lalamove",
+      "拉拉科技控股有限公司",
+      "深圳依时货拉拉科技有限公司",
+      "EasyVan",
+      "拉拉科技"
+    ],
+    "sources": [
+      "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+      "https://www.hongshan.com/companies/lalamove/"
+    ]
+  },
+  "cbe823d50cbe7ef90eb6919d": {
+    "name": "智谱",
+    "registeredName": "北京智谱华章科技股份有限公司",
+    "aliases": [
+      "智谱AI",
+      "智谱华章",
+      "Zhipu AI",
+      "Z.AI",
+      "Z.AI Co., Ltd.",
+      "Knowledge Atlas Technology Joint Stock Company Limited"
+    ],
+    "sources": [
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000018_c.pdf",
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0622/2026062202116_c.pdf"
+    ]
+  },
+  "dea0088bf7714a39b3f72c7d": {
+    "name": "LaLa Autobot",
+    "registeredName": "LaLa Autobot Company Limited",
+    "aliases": [],
+    "sources": [
+      "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
+      "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf"
+    ]
   }
 }

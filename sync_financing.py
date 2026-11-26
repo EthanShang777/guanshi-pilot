@@ -244,9 +244,10 @@ def sync_round_corrections(db, corrections):
                     WHERE {identity_guard} AND {state_guard} RETURNING event_id''',
                  [*corrected, source, source, *identity, *expected]):
             applied += 1
-        elif query(db, f'''SELECT event_id FROM financing_events WHERE event_id=? AND company_id=?
+        elif query(db, f'''SELECT event_id FROM financing_events WHERE event_id=? AND company_id IN (?,?)
                     AND date_key IN (?,?) AND {state_guard} AND {source_guard}''',
-                   [*identity, correction.get('final_day', correction['day']), *corrected, source]):
+                   [identity[0], identity[1], correction.get('final_company_id', identity[1]),
+                    identity[2], correction.get('final_day', identity[2]), *corrected, source]):
             already_applied += 1
         else:
             held += 1
