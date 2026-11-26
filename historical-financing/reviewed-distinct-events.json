@@ -1501,5 +1501,77 @@
     },
     "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
     "reason": "文件中的新增注册资本和向原股东支付的转让款分别列出，属于两笔交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c5fe0766864bb68ee11719",
+      "company_id": "co:cn_uscc:665ef32f26e2a4e46a872f644c7a20a7"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f5a3d6589ee3b6299a28ae",
+      "company_id": "co:cn_uscc:665ef32f26e2a4e46a872f644c7a20a7"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202509261750954675&pageIndex=16",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f5a3d6589ee3b6299a28ae",
+      "company_id": "co:cn_uscc:665ef32f26e2a4e46a872f644c7a20a7"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c5fe0766864bb68ee11719",
+      "company_id": "co:cn_uscc:665ef32f26e2a4e46a872f644c7a20a7"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202509261750954675&pageIndex=16",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:69e55ced096af2fcb7a5cc",
+      "company_id": "co:cn_uscc:b2712fffde0a155d2a55cb74833f6b16"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ccf23a9f9e6a6f9d60cda1",
+      "company_id": "co:cn_uscc:b2712fffde0a155d2a55cb74833f6b16"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608171828053283_1.pdf",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ccf23a9f9e6a6f9d60cda1",
+      "company_id": "co:cn_uscc:b2712fffde0a155d2a55cb74833f6b16"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:69e55ced096af2fcb7a5cc",
+      "company_id": "co:cn_uscc:b2712fffde0a155d2a55cb74833f6b16"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608171828053283_1.pdf",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:e6b3471cad040566efca79754af0bd96432b43ea88770d01969b88e1e5e14b19",
+      "company_id": "co:full_legal_name:e52aa4909495b7785fc122b80ba99b42"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ef4a917a231309a49ab3c5",
+      "company_id": "co:full_legal_name:e52aa4909495b7785fc122b80ba99b42"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202512/RAS_202512_301500601332411A444004AAFCA56F1ECA98FB.pdf",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ef4a917a231309a49ab3c5",
+      "company_id": "co:full_legal_name:e52aa4909495b7785fc122b80ba99b42"
+    },
+    "existing": {
+      "event_id": "financing_event:e6b3471cad040566efca79754af0bd96432b43ea88770d01969b88e1e5e14b19",
+      "company_id": "co:full_legal_name:e52aa4909495b7785fc122b80ba99b42"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202512/RAS_202512_301500601332411A444004AAFCA56F1ECA98FB.pdf",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
   }
 ]

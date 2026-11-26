@@ -4257,5 +4257,48 @@
     "sources": [
       "https://m.pedaily.cn/vc/invest/f2747-r3134-v108630-c315"
     ]
+  },
+  "68845c3ebc6c8d274218a35c": {
+    "name": "奉加科技",
+    "registeredName": "奉加科技（上海）股份有限公司",
+    "aliases": [
+      "奉加微电子（上海）有限公司",
+      "奉加微",
+      "奉加微电子"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202509261750954692_1.pdf?1758901009000.pdf="
+    ]
+  },
+  "f7cf1ab56b06deb51ccaa7a7": {
+    "name": "天圣华",
+    "registeredName": "北京天圣华信息技术股份有限公司",
+    "aliases": [
+      "北京天圣华信息技术有限责任公司",
+      "北京天圣华"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202608171828053283_1.pdf"
+    ]
+  },
+  "23b78ae9cb4ea7aa3af1a0ce": {
+    "name": "亚星新材料",
+    "registeredName": "潍坊亚星新材料有限公司",
+    "aliases": [
+      "潍坊亚星新材料"
+    ],
+    "sources": [
+      "https://paper.cnstock.com/html/2025-05/29/content_2074365.htm"
+    ]
+  },
+  "5474524f7ddcfe2355ad28bf": {
+    "name": "尚阳通",
+    "registeredName": "深圳尚阳通科技股份有限公司",
+    "aliases": [
+      "深圳尚阳通科技有限公司"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202512/RAS_202512_301500601332411A444004AAFCA56F1ECA98FB.pdf"
+    ]
   }
 }
