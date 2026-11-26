@@ -4350,5 +4350,53 @@
       "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640681.PDF",
       "https://www.ihaier.com/newsUpdates/detail/2330"
     ]
+  },
+  {
+    "event_id": "public:historical-disclosure:53fec277c30d24fa8b35fc3",
+    "company_id": "co:historical-disclosure:b5ad121307b9c486471d1d2",
+    "day": "2026-10-05",
+    "expected": {
+      "round": "种子前轮",
+      "amount": "1500万印度卢比",
+      "investors_json": "[]"
+    },
+    "corrected": {
+      "round": "种子前轮",
+      "amount": "1500万印度卢比",
+      "investors_json": "[{\"name\":\"ajvc\",\"role\":\"领投\",\"amount\":null}]"
+    },
+    "source": "https://startupfox.in/article/scooter-raises-1-5-crore-to-test-salespeople-on-selling-not-on-selling-themselves"
+  },
+  {
+    "event_id": "public:historical-disclosure:04c2aa444912a673a72bd8a",
+    "company_id": "co:historical-disclosure:c1721c7898b0d2df0cce478",
+    "day": "2026-10-05",
+    "expected": {
+      "round": "A轮",
+      "amount": "1,000万英镑",
+      "investors_json": "[{\"name\":\"Clean Growth Fund\",\"role\":\"领投\",\"amount\":null},{\"name\":\"AP Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"Development Bank of Wales\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "1,000万英镑",
+      "investors_json": "[{\"name\":\"Clean Growth Fund\",\"role\":\"领投\",\"amount\":null},{\"name\":\"AP Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"Development Bank of Wales\",\"role\":null,\"amount\":null},{\"name\":\"Zero Carbon Capital\",\"role\":null,\"amount\":null},{\"name\":\"Kibo Invest\",\"role\":null,\"amount\":null},{\"name\":\"Cambridge Enterprise\",\"role\":null,\"amount\":null}]"
+    },
+    "source": "https://www.cleangrowthfund.com/news/cgf-invests-in-wales-based-low-carbon-cement-innovator-to-cut-emissions-in-half/"
+  },
+  {
+    "event_id": "public:historical-disclosure:d8137f7819c7639e3a25d38",
+    "company_id": "co:historical-disclosure:cb6ee9f3a853648ad8a062b",
+    "day": "2026-10-05",
+    "expected": {
+      "round": "A轮",
+      "amount": "1,350万欧元",
+      "investors_json": "[{\"name\":\"Alstin Capital\",\"role\":\"领投\",\"amount\":null},{\"name\":\"PROfounders\",\"role\":null,\"amount\":null},{\"name\":\"Scale Capital\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "1,350万欧元",
+      "investors_json": "[{\"name\":\"ALSTIN III Fonds GmbH & Co.KG\",\"role\":\"领投\",\"amount\":null},{\"name\":\"PROfounders\",\"role\":null,\"amount\":null},{\"name\":\"Scale Capital\",\"role\":null,\"amount\":null}]"
+    },
+    "source": "https://www.mazanti.dk/en/news/series-a-investment-in-danish-legaltech-company-pandektes-to-accelerate-ai-driven-legal-research/"
   }
 ]

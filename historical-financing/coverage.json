@@ -6358,6 +6358,278 @@
           ]
         }
       ]
+    },
+    {
+      "institution": "十月5日公开交易及鲸准睿视新界",
+      "checked_on": "2026-11-26",
+      "scope": "MaxBC十月5日26条全部核对公开证据，另交叉复查鲸准睿视案例、青矩出资人及若干公司早期轮次",
+      "sources": [
+        "https://ukbaa.org.uk/blog/2026/10/08/gloriah-closes-oversubscribed-600000-seed-round-led-by-gabriel-investment-syndicate/",
+        "https://www.helicon.tech/announcement",
+        "https://cincodias.elpais.com/companias/2026-10-05/la-start-up-kompanion-cierra-una-ronda-con-jme-ventures-acurio-y-sabadell-para-su-ia-de-gestion-financiera-y-laboral.html",
+        "https://www.bimfilm.cn/index/introduce.html",
+        "https://static.cninfo.com.cn/finalpage/2022-08-11/1214277075.PDF",
+        "https://www.mazanti.dk/en/news/series-a-investment-in-danish-legaltech-company-pandektes-to-accelerate-ai-driven-legal-research/",
+        "https://www.cleangrowthfund.com/news/cgf-invests-in-wales-based-low-carbon-cement-innovator-to-cut-emissions-in-half/"
+      ],
+      "candidate_count": 26,
+      "new_count": 16,
+      "new_october_count": 6,
+      "batch": "2026-11-26-second-week-opening-144.csv",
+      "event_reviews": {
+        "Clockwork.io": {
+          "status": "已有交易，补充来源",
+          "event": "6316249900b9cecf3c44e28c",
+          "archived_day": "2026-10-05",
+          "source": "https://runtimewire.com/article/clockwork-31m-ai-gpu-failover"
+        },
+        "Fleuret AI": {
+          "status": "已有交易，补充来源",
+          "event": "62036e85552a9cf7cd45819b",
+          "archived_day": "2026-10-05",
+          "source": "https://fleuret.ai/news/fleuret-raises-4m"
+        },
+        "Ghost": {
+          "status": "已有交易，补充来源",
+          "event": "812fea361f75b016ed18afb2",
+          "archived_day": "2026-10-05",
+          "source": "https://maxbc.com/zh/startups/ghost"
+        },
+        "Namespace Labs": {
+          "status": "已有交易，补充来源",
+          "event": "ba8346556797ff93d3229673",
+          "archived_day": "2026-10-05",
+          "source": "https://namespace.so/blog/series-b"
+        },
+        "OneByZero": {
+          "status": "已有交易，补充来源",
+          "event": "130cd18dbf062aacf7d0a51c",
+          "archived_day": "2026-10-05",
+          "source": "https://www.onebyzero.ai/perspectives"
+        },
+        "Reuse": {
+          "status": "已有交易，补充来源",
+          "event": "14681c28f10bd46b884b3e8a",
+          "archived_day": "2026-10-05",
+          "source": "https://www.gunder.com/en/news-insights/client-news/reuse-raises-dollar21-million-series-a"
+        },
+        "Safeworld": {
+          "status": "已有交易，补充来源",
+          "event": "f4d767203e7729fd2c2e8c9a",
+          "archived_day": "2026-10-05",
+          "source": "https://maxbc.com/zh/startups/safeworld"
+        },
+        "SereNeuro Therapeutics": {
+          "status": "已有交易，补充来源",
+          "event": "fd2ea82126fd7ee1a3e0a870",
+          "archived_day": "2026-10-05",
+          "source": "https://www.prnewswire.com/news-releases/sereneuro-therapeutics-closes-oversubscribed-pre-seed-financing-to-advance-non-opioid-pain-pipeline-302897768.html"
+        },
+        "TextYess": {
+          "status": "已有交易，补充来源",
+          "event": "fb9cf1a316d5f986b899e407",
+          "archived_day": "2026-10-05",
+          "source": "https://www.textyess.com/news/textyess-raises-4-million"
+        },
+        "UpSmith": {
+          "status": "已有交易，补充来源",
+          "event": "f8c103d9c1db97b6da490ee8",
+          "archived_day": "2026-10-05",
+          "source": "https://www.upsmith.com/series-a"
+        },
+        "GLORIAH": {
+          "status": "十月核实新增",
+          "event": "c0d8dbdbfed468093270a5aa",
+          "archived_day": "2026-10-08",
+          "source": "https://ukbaa.org.uk/blog/2026/10/08/gloriah-closes-oversubscribed-600000-seed-round-led-by-gabriel-investment-syndicate/"
+        },
+        "Helicon": {
+          "status": "十月核实新增",
+          "event": "3d5b1d58cef1b3a6a26305fe",
+          "archived_day": "2026-10-05",
+          "source": "https://www.helicon.tech/announcement"
+        },
+        "JADE": {
+          "status": "核实为其他月份",
+          "event": "a64ca1b169e9edfd53e04a6b",
+          "archived_day": "2026-11-12",
+          "source": "https://www.prolificnorth.co.uk/news/manchester-edtech-start-up-secures-450k-investment-following-accelerator-participation/"
+        },
+        "Kompanion": {
+          "status": "十月核实新增",
+          "event": "6a3fee2a8122a65a41a7e215",
+          "archived_day": "2026-10-05",
+          "source": "https://cincodias.elpais.com/companias/2026-10-05/la-start-up-kompanion-cierra-una-ronda-con-jme-ventures-acurio-y-sabadell-para-su-ia-de-gestion-financiera-y-laboral.html"
+        },
+        "Living Optics": {
+          "status": "核实为其他月份",
+          "event": "10d28f68921cb6a84a423f43",
+          "archived_day": "2026-09",
+          "source": "https://www.livingoptics.com/news-release-september-2026/"
+        },
+        "Plesh": {
+          "status": "十月核实新增",
+          "event": "fe2e11adfc58629276902a75",
+          "archived_day": "2026-10-05",
+          "source": "https://cincodias.elpais.com/companias/2026-10-05/ibai-llanos-y-gerard-pique-entran-en-la-start-up-plesh-tras-liderar-una-ronda-de-financiacion-de-375-millones.html"
+        },
+        "RASA World": {
+          "status": "核实为其他月份",
+          "event": "3a2c9a53ddc1441db1e38fd2",
+          "archived_day": "2025-11-03",
+          "source": "https://www.sec.gov/Archives/edgar/data/2069649/000206964926000001/xslFormDX01/primary_doc.xml"
+        },
+        "SORAM Afrique": {
+          "status": "核实为其他月份",
+          "event": "b9e9214b2c7e7bdde1c8a4e9",
+          "archived_day": "2026-09-30",
+          "source": "https://innovation-village.com/saviu-ventures-backs-soram-afrique-in-1-36m-climate-tech-deal/"
+        },
+        "SensorX Solutions": {
+          "status": "十月核实新增",
+          "event": "527c85b7eaca10f1b31b3a61",
+          "archived_day": "2026-10-05",
+          "source": "https://www.sensorxsolutions.com/chf-1-5-million-growth-financing"
+        },
+        "SwirlX": {
+          "status": "核实为其他月份",
+          "event": "4e40f2d4a337374aca39af43",
+          "archived_day": "2026-04-14",
+          "source": "https://www.thebell.co.kr/front/newsview.asp?code=0303&key=202604141055332240106336",
+          "detail": "十月A轮为募集目标；只登记4月已完成Pre-A"
+        },
+        "Vasco": {
+          "status": "十月核实新增",
+          "event": "3968c3093ad387502c48efc2",
+          "archived_day": "2026-10-05",
+          "source": "https://www.echos-judiciaires.com/actualites/a-bordeaux-vasco-leve-17-million-deuros-pour-accelerer-les-renovations/"
+        },
+        "Verda": {
+          "status": "核实为其他月份",
+          "event": "cbf34a6dcca0dda6e532dfde",
+          "archived_day": "2026-09-22",
+          "source": "https://verda.com/blog/verda-raises-189m"
+        },
+        "Scooter": {
+          "status": "已有交易，修订资方",
+          "event": "a4ae2b4ae969cb8127d7c341",
+          "archived_day": "2026-10-05",
+          "source": "https://vcdekho.com/funding/scooter"
+        },
+        "Reclinker": {
+          "status": "已有交易，修订资方",
+          "event": "d06b8baca66e427461b4302b",
+          "archived_day": "2026-10-05",
+          "source": "https://reclinker.com/news/"
+        },
+        "Pandektes": {
+          "status": "已有交易，修订资方",
+          "event": "8e5a1042dcd9dd0623e26911",
+          "archived_day": "2026-10-05",
+          "source": "https://pandektes.com/de/blog/pandektes-13-5m-series-a"
+        },
+        "SignSplit": {
+          "status": "投资承诺，现金支付和实际交割待核",
+          "source": "https://www.prnewswire.com/news-releases/signsplit-secures-400-million-strategic-seed-round-at-1-billion-valuation-302897779.html",
+          "detail": "4亿美元为现金与多年战略资源合计承诺，现金股权规模、出资主体和首笔完成情况未披露"
+        }
+      },
+      "portfolios": [
+        {
+          "name": "Saviu II",
+          "manager": "Saviu Ventures",
+          "sources": [
+            "https://www.leral.net/SORAM-Afrique-Saviu-Ventures-investit-136-million-de-dollars-dans-le-reconditionnement-de-materiel-d-impression-a-Dakar_a408173.html",
+            "https://www.proparco.fr/en/actualites/proparco-supports-second-closing-saviu-ii-fund-alongside-triple-jump-and-axian-group",
+            "https://www.proparco.fr/en/projects/supporting-activities-saviu-ventures-start-ups-west-and-central-africa"
+          ],
+          "as_of": "2025-02-07",
+          "prior_close": {
+            "currency": "EUR",
+            "value": 25000000,
+            "stage": "第二次关闭"
+          },
+          "announced_fisea_financing": {
+            "currency": "EUR",
+            "value": 6000000
+          },
+          "named_support": [
+            "Proparco/FISEA",
+            "Dutch Good Growth Fund via Triple Jump",
+            "Axian Group"
+          ],
+          "events": [
+            "b9e9214b2c7e7bdde1c8a4e9"
+          ],
+          "pending": [
+            "最新终关原件",
+            "LP法定载体及各方实缴情形",
+            "投资原币和可投余额"
+          ]
+        },
+        {
+          "name": "ALSTIN III Fonds GmbH & Co.KG",
+          "manager": "Alstin Capital",
+          "sources": [
+            "https://www.mazanti.dk/en/news/series-a-investment-in-danish-legaltech-company-pandektes-to-accelerate-ai-driven-legal-research/",
+            "https://pandektes.com/blog/pandektes-13-5m-series-a",
+            "https://lei.bloomberg.com/leis/view/391200E4YGGVPUX2CP51"
+          ],
+          "events": [
+            "8e5a1042dcd9dd0623e26911"
+          ],
+          "pending": [
+            "基金最新规模原件",
+            "逐笔实投",
+            "LP名单及剩余额度"
+          ]
+        },
+        {
+          "name": "Oxford Technology & Innovations EIS Fund",
+          "manager": "Oxford Investment Consultants LLP",
+          "sources": [
+            "https://otif.vc/2022/10/07/living-optics-20m-series-a/",
+            "https://www.livingoptics.com/living-optics-closes-20-milion-in-series-a/"
+          ],
+          "events": [
+            "af8f9a0a5575c9d6c4494214"
+          ],
+          "pending": [
+            "2026年追加轮实际载体",
+            "逐笔实投",
+            "LP名单及余额"
+          ]
+        },
+        {
+          "name": "Clean Growth Fund / AP Ventures",
+          "sources": [
+            "https://www.cleangrowthfund.com/news/cgf-invests-in-wales-based-low-carbon-cement-innovator-to-cut-emissions-in-half/",
+            "https://developmentbank.wales/news-and-events/cardiff-based-reclinker-raises-ps10-million-scale-low-carbon-cement-production-7",
+            "https://find-and-update.company-information.service.gov.uk/company/14263992/filing-history"
+          ],
+          "events": [
+            "d06b8baca66e427461b4302b"
+          ],
+          "pending": [
+            "逐笔实际基金映射与认购金额"
+          ]
+        }
+      ],
+      "whale_case": {
+        "company": "睿视新界",
+        "source": "https://www.jingdata.com.cn/financing/cases/",
+        "event": "127cbf1d60917031b3c8d22d",
+        "day": "2022-01-29",
+        "known_investor": "北京青矩工程管理技术创新投资有限公司",
+        "confirmed_investment_yuan": 7000000,
+        "source_report": "https://static.cninfo.com.cn/finalpage/2022-08-11/1214277075.PDF",
+        "jp_status": "鲸准具名贾晓平，招股书列持股9%，该持股快照与同笔融资到款的关系待核",
+        "next_portfolio": [
+          "译筑信息科技(上海)有限公司",
+          "北京鸣远时代科技有限公司",
+          "未来盒子（北京）建筑科技有限公司"
+        ]
+      }
     }
   ]
 }

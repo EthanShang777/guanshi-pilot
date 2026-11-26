@@ -2561,5 +2561,111 @@
     "sources": [
       "https://presto.com/presto-raises-10-million-to-accelerate-voice-ai-leadership/"
     ]
+  },
+  "a510c5e565befd355ddaead9": {
+    "name": "GLORIAH",
+    "registeredName": "GLORIAH LTD",
+    "aliases": [],
+    "sources": [
+      "https://ukbaa.org.uk/blog/2026/10/08/gloriah-closes-oversubscribed-600000-seed-round-led-by-gabriel-investment-syndicate/"
+    ]
+  },
+  "30e1a58ccf34fdb72ddfb32e": {
+    "name": "Helicon",
+    "registeredName": "Helicon Industries Inc.",
+    "aliases": [],
+    "sources": [
+      "https://www.helicon.tech/announcement"
+    ]
+  },
+  "991fc63987867183f213e204": {
+    "name": "JADE",
+    "registeredName": "THE JADE APP LIMITED",
+    "aliases": [
+      "The JADE App"
+    ],
+    "sources": [
+      "https://www.prolificnorth.co.uk/news/manchester-edtech-start-up-secures-450k-investment-following-accelerator-participation/"
+    ]
+  },
+  "87aae0d4dfc0e2b45c872f66": {
+    "name": "Kompanion",
+    "registeredName": "Grupo Kompanion Asesores, S.L.",
+    "aliases": [],
+    "sources": [
+      "https://cincodias.elpais.com/companias/2026-10-05/la-start-up-kompanion-cierra-una-ronda-con-jme-ventures-acurio-y-sabadell-para-su-ia-de-gestion-financiera-y-laboral.html"
+    ]
+  },
+  "c4ca536e9c6816de34bc7bef": {
+    "name": "Living Optics",
+    "registeredName": "Living Optics Limited",
+    "aliases": [],
+    "sources": [
+      "https://www.livingoptics.com/news-release-september-2026/"
+    ]
+  },
+  "e2b30d99876ac4d559779df6": {
+    "name": "Plesh",
+    "registeredName": "BLISS POINT, S.L.",
+    "aliases": [],
+    "sources": [
+      "https://cincodias.elpais.com/companias/2026-10-05/ibai-llanos-y-gerard-pique-entran-en-la-start-up-plesh-tras-liderar-una-ronda-de-financiacion-de-375-millones.html"
+    ]
+  },
+  "ce9238d06cc1231770f6fbbb": {
+    "name": "RASA World",
+    "registeredName": "Rasa World Group, Inc.",
+    "aliases": [
+      "Rasa Enterprises, Inc."
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/2069649/000206964926000001/xslFormDX01/primary_doc.xml"
+    ]
+  },
+  "1a0fb0a5121386e361201c26": {
+    "name": "SensorX Solutions",
+    "registeredName": "SensorX Solutions AG",
+    "aliases": [],
+    "sources": [
+      "https://www.sensorxsolutions.com/chf-1-5-million-growth-financing"
+    ]
+  },
+  "1fb86e26ba82a77e2cb5c275": {
+    "name": "SwirlX",
+    "registeredName": "스월엑스(주)",
+    "aliases": [],
+    "sources": [
+      "https://www.thebell.co.kr/front/newsview.asp?code=0303&key=202604141055332240106336"
+    ]
+  },
+  "46b0d970738fa932503ec4a7": {
+    "name": "Vasco",
+    "registeredName": "VASCO SAS",
+    "aliases": [],
+    "sources": [
+      "https://www.echos-judiciaires.com/actualites/a-bordeaux-vasco-leve-17-million-deuros-pour-accelerer-les-renovations/"
+    ]
+  },
+  "691b1307247ae55d97596943": {
+    "name": "Verda",
+    "registeredName": "Verda Cloud Oy",
+    "aliases": [
+      "DataCrunch",
+      "DataCrunch Oy"
+    ],
+    "sources": [
+      "https://verda.com/blog/verda-raises-189m"
+    ]
+  },
+  "90895b0f849ab1184c6a695c": {
+    "name": "睿视新界",
+    "registeredName": "北京睿视新界科技有限公司",
+    "aliases": [
+      "BIMFILM",
+      "BIM秀秀网"
+    ],
+    "sources": [
+      "https://www.bimfilm.cn/index/introduce.html"
+    ]
   }
 }
