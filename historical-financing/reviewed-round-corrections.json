@@ -3953,5 +3953,77 @@
       "investors_json": "[{\"name\":\"商汤国香资本\",\"role\":\"独家投资\",\"amount\":null}]"
     },
     "source": "https://www.chinaventure.com.cn/news/114-20261117-394080.html"
+  },
+  {
+    "event_id": "financing_event:5644727345f83cbe3f93146f244185a2532f03d3b3986573664e3231097a57e5",
+    "company_id": "co:full_legal_name:2ab3c3c814ccce67e24b16817742e608",
+    "day": "2026-10-12",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"攸能创核心管理团队\",\"role\":null,\"amount\":null},{\"name\":\"睿高资本\",\"role\":null,\"amount\":null},{\"name\":\"里程碑创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"攸能创核心管理团队\",\"role\":null,\"amount\":null},{\"name\":\"睿高资本\",\"role\":null,\"amount\":null},{\"name\":\"青岛里程碑才硕科技创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    },
+    "source": "https://m.pedaily.cn/news/570257"
+  },
+  {
+    "event_id": "financing_event:d5bae2ada4825b440ce20eda04a93b6e5232a5df7d5be9971a36fad6a08f0db6",
+    "company_id": "co:full_legal_name:40a73e75892590fff0a15263a3334af8",
+    "day": "2026-10-14",
+    "expected": {
+      "round": "天使+轮",
+      "amount": "千万级人民币",
+      "investors_json": "[{\"name\":\"上海未来产业基金\",\"role\":null,\"amount\":null},{\"name\":\"成都科创投集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使+轮",
+      "amount": "千万级人民币",
+      "investors_json": "[{\"name\":\"上海未来产业基金\",\"role\":null,\"amount\":null},{\"name\":\"成都技转创业投资有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "source": "https://finance.eastmoney.com/a/202610153897181450.html"
+  },
+  {
+    "event_id": "financing_event:130813a3137459bb822d0a9c1121f1bda5540b6c300b59aaf3e1bac2082e55bd",
+    "company_id": "co:full_legal_name:868870f33e7349b454bc379eb8c9e597",
+    "day": "2026-10-16",
+    "expected": {
+      "round": "天使轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"震安科技\",\"role\":\"领投\",\"amount\":null},{\"name\":\"共青城金盛溪四期\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"万朗磁塑\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"震安科技\",\"role\":\"领投\",\"amount\":null},{\"name\":\"万朗磁塑\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"共青城金盛溪四期股权投资合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null}]"
+    },
+    "source": "https://lengtrol.com/news/"
+  },
+  {
+    "event_id": "financing_event:6c1cefa69e125860b18fc44f0b9a5e5c19ff7574a1482310cf10bbd9c62690eb",
+    "company_id": "co:full_legal_name:ab3369b7029f5bfe17912e5b6e099c03",
+    "expected": {
+      "round": "B轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"一家具备深厚产业资源\",\"role\":null,\"amount\":null},{\"name\":\"大型科技投资经验及明星项目背景的基金\",\"role\":null,\"amount\":null},{\"name\":\"某国有产投基金\",\"role\":null,\"amount\":null},{\"name\":\"琮碧秋实\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-20",
+      "date_key": "2026-10-20",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"琮碧秋实\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-20",
+      "date_key": "2026-10-20",
+      "date_kind": "公开披露日，另有未具名机构参与，原档轮次待进一步核实"
+    },
+    "source": "https://www.cyzone.cn/article/849577.html",
+    "additional_sources": [
+      "https://m.pedaily.cn/news/570621"
+    ]
   }
 ]
