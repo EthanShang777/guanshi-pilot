@@ -2104,5 +2104,41 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002620.PDF"
     ]
+  },
+  "0cbe82e1c8e41cc1dab3f7a4": {
+    "name": "中科动态",
+    "registeredName": "中科动态（南京）科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518537.PDF"
+    ]
+  },
+  "4f92e20955bd39d1439a64fb": {
+    "name": "新港电子",
+    "registeredName": "山东新港电子科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518537.PDF"
+    ]
+  },
+  "80d3f99a22fd770364bde044": {
+    "name": "云幕智造",
+    "registeredName": "江苏云幕智造科技有限公司",
+    "aliases": [
+      "YMBot"
+    ],
+    "sources": [
+      "https://www.xwboo.com/news/detail-256755.html"
+    ]
+  },
+  "5e63e5d6319a4cf856392f03": {
+    "name": "兆鑫驰",
+    "registeredName": "苏州兆鑫驰智能科技有限公司",
+    "aliases": [
+      "兆鑫驰智能"
+    ],
+    "sources": [
+      "https://pitchhub.36kr.com/project/1957851047415045"
+    ]
   }
 }

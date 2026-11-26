@@ -933,5 +933,69 @@
       ],
       "sha256": "20165a16ec8720cfc369ab0f0145b98b169ccbf89721a5ff5499de4b2305451e"
     }
+  },
+  {
+    "fundId": "ab1d5a519c1ef587166e05f3",
+    "fundName": "宁波传感谷创业投资基金合伙企业（有限合伙）",
+    "managerId": "5633525c1c1c3d141f245b3b",
+    "managerName": "深圳市时代伯乐创业投资管理有限公司",
+    "sizeCny": 70000000,
+    "capitalBasis": "已核实认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622585.PDF",
+      "issuer": "柯力传感增资公告及半年度报告",
+      "date": "2026-06-30",
+      "dateKind": "已实缴规模的截至日期",
+      "pages": "增资前出资表及出资安排",
+      "lpScope": "增资前3位机构LP已核，合计认缴6900万元。GP认缴100万元。全基金原认缴7000万元，同期均实缴。",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-09-07/1221159221.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518537.PDF"
+      ],
+      "generalPartners": [
+        {
+          "name": "深圳市时代伯乐创业投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "laterCommitment": {
+        "proposedSizeCny": 100000000,
+        "additionalCny": 30000000,
+        "disclosedOn": "2026-10-27",
+        "paymentDue": "2026-12-31",
+        "paidVerified": false
+      }
+    },
+    "partners": [
+      {
+        "name": "宁波柯力传感科技股份有限公司",
+        "disclosedContributionCny": 55000000,
+        "disclosedPercent": "78.57",
+        "existingInstitution": "4229f74b388c52f11eb53879"
+      },
+      {
+        "name": "宁波市江北区资产经营有限公司",
+        "disclosedContributionCny": 9000000,
+        "disclosedPercent": "12.86",
+        "existingInstitution": "0e62037f62d3c9f591ac43c1"
+      },
+      {
+        "name": "深圳市勤永兴科技有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "7.14",
+        "existingInstitution": "cd972dd3d9c0ede5e86106ce"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2026-06-30",
+        "fundedCny": 70000000,
+        "investedCny": 67029400,
+        "investments": 6,
+        "source": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518537.PDF",
+        "corroboration": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622585.PDF"
+      }
+    ]
   }
 ]
