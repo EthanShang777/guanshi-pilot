@@ -6539,5 +6539,54 @@
     "additional_sources": [
       "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12371087&stockid=002409"
     ]
+  },
+  {
+    "event_id": "financing_event:297db429cbe389b640ac701904c3a70b683151f62f5f9aa572d6bcfaf92296cd",
+    "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665",
+    "day": "2025-06-30",
+    "source": "https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf",
+    "expected": {
+      "round": "E轮",
+      "amount": "近2亿人民币",
+      "investors_json": "[{\"name\":\"鼎晖投资\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中兴通讯产业基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中新创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"工业母机产业基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中兴众投\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null}]",
+      "date": "2025-06-30",
+      "date_key": "2025-06-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "E轮",
+      "amount": "6984.5528万元",
+      "investors_json": "[{\"name\":\"鼎晖中安并购（安徽）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1984552800,\"basis\":\"认购金额\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf\"}},{\"name\":\"工业母机产业投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf\"}}]",
+      "date": "2025-06-11",
+      "date_key": "2025-06-11",
+      "date_kind": "公开文件披露签约日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:747e63b546e5f5c93d2ac8d158e584568676b345231b1f48a414a64923419fd2",
+    "company_id": "co:full_legal_name:22ed5922867995f887dbb5634d980aa0",
+    "day": "2025-12-30",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-09-30/1224693367.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"农银投资\",\"role\":null,\"amount\":null},{\"name\":\"工银资本\",\"role\":null,\"amount\":null},{\"name\":\"建信投资\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-30",
+      "date_key": "2025-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "40亿元",
+      "investors_json": "[{\"name\":\"工融金投二号（北京）新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-09-30/1224693367.PDF\"}},{\"name\":\"中国银河资产管理有限责任公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":49900000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-09-30/1224693367.PDF\"}},{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":85000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-09-30/1224693367.PDF\"}},{\"name\":\"交银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":82500000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-09-30/1224693367.PDF\"}},{\"name\":\"农银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":82600000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-09-30/1224693367.PDF\"}}]",
+      "date": "2025-12-30",
+      "date_key": "2025-12-30",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-01-05/58a22401-31e0-454e-a6c5-0d03106d3c0b.PDF",
+      "https://pdf.dfcfw.com/pdf/H2_AN202604171821307148_1.pdf"
+    ]
   }
 ]

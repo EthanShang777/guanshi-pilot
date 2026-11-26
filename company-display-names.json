@@ -4050,5 +4050,60 @@
     "sources": [
       "https://www.stcn.com/article/detail/3555419.html"
     ]
+  },
+  "f7321cb620725c0d41b7e3dc": {
+    "name": "赛诺威盛",
+    "registeredName": "赛诺威盛科技（北京）股份有限公司",
+    "aliases": [
+      "赛诺威盛医疗"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202606181823664789_1.pdf"
+    ]
+  },
+  "84eb300838e34cc18cb3ec43": {
+    "name": "铁近科技",
+    "registeredName": "苏州铁近机电科技股份有限公司",
+    "aliases": [
+      "铁近机电",
+      "苏州铁近"
+    ],
+    "sources": [
+      "https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf"
+    ]
+  },
+  "6798d1ae7b9e6844e640b169": {
+    "name": "国显光电",
+    "registeredName": "昆山国显光电有限公司",
+    "aliases": [
+      "昆山国显光电",
+      "昆山国显"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-09-27/1224683884.PDF"
+    ]
+  },
+  "af6f78a2a52bf0784dcfca41": {
+    "name": "华飞电子",
+    "registeredName": "浙江华飞电子基材有限公司",
+    "aliases": [
+      "华飞电子基材",
+      "浙江华飞",
+      "浙江华飞电子封装基材有限公司"
+    ],
+    "sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12653603&stockid=002409"
+    ]
+  },
+  "2f4fba4d6a4f4ec6aa46f4aa": {
+    "name": "山东省路桥集团",
+    "registeredName": "山东省路桥集团有限公司",
+    "aliases": [
+      "山东路桥集团",
+      "路桥集团"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-01-05/58a22401-31e0-454e-a6c5-0d03106d3c0b.PDF"
+    ]
   }
 }
