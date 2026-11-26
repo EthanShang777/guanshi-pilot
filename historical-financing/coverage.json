@@ -3690,6 +3690,107 @@
           "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12080439&stockid=600979"
         }
       ]
+    },
+    {
+      "institution": "十月资方字段复核",
+      "checked_on": "2026-11-26",
+      "scope": "逐条复核十月六条含角色占位文字的融资。五组同笔归并，上市公司拟增资另保留进展记录。",
+      "candidate_count": 0,
+      "existing_count": 5,
+      "pending_count": 1,
+      "sources": [
+        "https://news.pedaily.cn/202610/570338.shtml",
+        "https://www.cloudbutterfly.com.cn/newsshow/post-255.html",
+        "https://finance.eastmoney.com/a/202610143895185721.html",
+        "https://www.topband.com/cn/news/news_id248/",
+        "https://www.moss.cn/news/moss-ai-1b-pre-a-funding-all-modal-realtime-interaction-base",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638689&stockid=002176"
+      ],
+      "checked_records": {
+        "若愚科技": {
+          "eventId": "61004b6a66fdd2e0f6fa9e15",
+          "day": "2026-10-15",
+          "stage": "Pre-A轮",
+          "source": "https://news.pedaily.cn/202610/570338.shtml",
+          "duplicate": "94d3f49ac24717b692b710fa",
+          "companyId": "4618316df8709dcc8a0c3168"
+        },
+        "云蝶科技": {
+          "eventId": "89eac2d4464ceb42de296ae2",
+          "day": "2026-10-14",
+          "stage": "B+轮系列",
+          "source": "https://www.cloudbutterfly.com.cn/newsshow/post-255.html",
+          "duplicate": "825f0a910359aa3bc7d91194",
+          "companyId": "82efb7c83d4a2a2a77e893dd"
+        },
+        "星尘智能": {
+          "eventId": "34f632157c5723f4a0e70d77",
+          "day": "2026-10-13",
+          "stage": "B+轮",
+          "source": "https://finance.eastmoney.com/a/202610143895185721.html",
+          "duplicate": "e77fea15d04acb5ab705d3d5",
+          "companyId": "883b621e7c90c61582978a51"
+        },
+        "欧拉万象": {
+          "eventId": "cc2017703c91364f0ca1710d",
+          "day": "2026-10-12",
+          "stage": "天使+轮",
+          "source": "https://www.topband.com/cn/news/news_id248/",
+          "duplicate": "0b19e9213637e63a8d4f1233",
+          "companyId": "7a550f74b2a6a089ea70afc1"
+        },
+        "模思智能": {
+          "eventId": "c0ccdd2c6965f3bb59d22003",
+          "day": "2026-10-12",
+          "stage": "Pre-A轮",
+          "source": "https://www.moss.cn/news/moss-ai-1b-pre-a-funding-all-modal-realtime-interaction-base",
+          "duplicate": "58a1ece09f208384e31766a0",
+          "companyId": "cb048f1348d8e8c8a433fe62"
+        }
+      },
+      "report_checks": {
+        "https://news.pedaily.cn/202610/570167.shtml": {
+          "eventId": "34f632157c5723f4a0e70d77",
+          "day": "2026-10-13",
+          "stage": "B+轮",
+          "source": "https://finance.eastmoney.com/a/202610143895185721.html",
+          "duplicate": "e77fea15d04acb5ab705d3d5",
+          "companyId": "883b621e7c90c61582978a51",
+          "action": "已有",
+          "note": "原始报道同公司、同日、同金额及同投资阵容，已归并。"
+        },
+        "https://news.pedaily.cn/202610/570212.shtml": {
+          "eventId": "89eac2d4464ceb42de296ae2",
+          "day": "2026-10-14",
+          "stage": "B+轮系列",
+          "source": "https://www.cloudbutterfly.com.cn/newsshow/post-255.html",
+          "duplicate": "825f0a910359aa3bc7d91194",
+          "companyId": "82efb7c83d4a2a2a77e893dd",
+          "action": "已有",
+          "note": "原始披露与两档同日同轮，已归并并按公司原文规范为B+轮系列。"
+        }
+      },
+      "pending": [
+        {
+          "company": "维他动力（北京）科技有限公司",
+          "reason": "原始公告确认拟投资1亿元，第三方提及完成，待取原始交割或付款证明",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638689&stockid=002176"
+        }
+      ]
+    },
+    {
+      "institution": "已完成发行核对",
+      "checked_on": "2026-11-26",
+      "scope": "核对十月公告已完成发行及发行人季报确认的更早独立配售，排除同协议老股和其他时期的原档。",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/10/28/3390812/0/en/spackman-equities-announces-completion-of-1-million-private-placement-of-shares.html",
+        "https://ca.investing.com/news/stock-market-news/spackman-equities-raises-c1-million-via-private-placement-93CH-4911101",
+        "https://www.sec.gov/Archives/edgar/data/2091349/000119312526447205/trax_424b3_supplement_no.htm"
+      ],
+      "candidate_count": 2,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-26-october-reconciliation-132.csv"
     }
   ]
 }

@@ -78,5 +78,45 @@
       "date_key": "2026-11-17",
       "date_kind": "工商变更日"
     }
+  },
+  {
+    "event_id": "financing_event:dd6f4dc6c83f8c58643f69c81171dcd3ee9f2a8b735c6797a6d056f387346656",
+    "company_id": "co:full_legal_name:ffad1efa59899116158f0d023e55543a",
+    "round": "Pre-A轮",
+    "expected": {
+      "date": "2026-10-15",
+      "date_key": "2026-10-15",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "date": "2026-10-15",
+      "date_key": "2026-10-15",
+      "date_kind": "融资披露日"
+    },
+    "source": "https://news.pedaily.cn/202610/570338.shtml",
+    "additional_sources": [
+      "https://t.cj.sina.com.cn/articles/view/1750070171/684ff39b02001i5uk",
+      "https://www.ruoyutech.com/xinwendongtai/592.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:13cf8af584beec5fa75ff6d9ba63a28c03b202931614b30599638da2e6940d83",
+    "company_id": "co:full_legal_name:9f947b76bc1d1ce0fa544ebe9f32e3ee",
+    "round": "B+轮",
+    "expected": {
+      "date": "2026-10-13",
+      "date_key": "2026-10-13",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "date": "2026-10-13",
+      "date_key": "2026-10-13",
+      "date_kind": "融资披露日"
+    },
+    "source": "https://finance.eastmoney.com/a/202610143895185721.html",
+    "additional_sources": [
+      "https://m.nbd.com.cn/articles/2026-10-13/4602541.html",
+      "https://www.eeo.com.cn/2026/1014/1064207.shtml"
+    ]
   }
 ]

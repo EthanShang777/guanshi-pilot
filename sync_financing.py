@@ -105,7 +105,8 @@ def sync_rows(db, rows, *, reviewed=False, distinct_events=frozenset()):
         if not existing:
             candidates = query(db, '''SELECT event_id, company_id, company_name, raw_company_key,
                     date_key, round, investors_json, sources_json FROM financing_events
-                    WHERE date_key BETWEEN date(?,'-14 days') AND date(?,'+14 days')''',
+                    WHERE date_key BETWEEN date(?,'-14 days') AND date(?,'+14 days')
+                    AND round NOT IN ('拟增资', '已合并披露')''',
                                [row['date_key'], row['date_key']])
             possible = [(status, candidate) for candidate in candidates
                         if (status := match_status(row, candidate, reviewed_ids, distinct_events)) != 'different']
