@@ -10,6 +10,7 @@ on:
       - 'master-*.js'
       - 'company-history.js'
       - 'company_directory.py'
+      - 'company-display-names.json'
       - 'company-browser.js'
   workflow_dispatch:
     inputs:

@@ -125,6 +125,8 @@ def build(rows):
         shutil.copyfile(asset,OUT/asset)
     locations=json.loads(Path('country-locations.json').read_text())
     fund_managers=json.loads(Path('institution-fund-managers.json').read_text())
+    reviewed_names_path = Path('company-display-names.json')
+    reviewed_names = json.loads(reviewed_names_path.read_text()) if reviewed_names_path.is_file() else {}
     live=json.loads(Path('ledger.json').read_text())['events']
     old_by_source={u:e for e in live for u in e['sources']}
     history=json.loads(Path('history-public.json').read_text())
@@ -180,6 +182,13 @@ def build(rows):
             for alias in map(str.strip, aliases):
                 if alias and alias != d['company'] and alias not in d['aliases']:
                     d['aliases'].append(alias)
+        if label := reviewed_names.get(c['key']):
+            display_name = label['name']
+            d['aliases'] = list(dict.fromkeys(
+                name for name in (d['company'], label['registeredName'], *label['aliases'], *d['aliases'])
+                if name and name != display_name
+            ))
+            d['company'] = display_name
         if d['stage'] != '股权转让':
             groups[d['sector']].append(d)
             deals.append(d)
@@ -216,6 +225,12 @@ def build(rows):
                     events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources'],d['sector'],d['sub']] for d in items])
             old=filename(kind,entity_row['name'])
             if Path(old).exists() and (kind=='institution' or len(names[entity_row['name']])==1):legacy[old]=entity_row['href']
+            if kind == 'company' and (label := reviewed_names.get(k)):
+                entity_row['name'] = label['name']
+                parts[k[:2]][k].update(
+                    name=label['name'], registeredName=label['registeredName'],
+                    aliases=label['aliases'], nameSources=label['sources'],
+                )
         for prefix,part in parts.items():dump(data/(kind+'-'+prefix+'.json'),part)
         if kind=='company':
             from company_directory import build_directory
