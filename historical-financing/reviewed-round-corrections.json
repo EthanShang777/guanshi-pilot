@@ -6840,5 +6840,76 @@
     "additional_sources": [
       "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608251828402896"
     ]
+  },
+  {
+    "event_id": "financing_event:2900ff293a35158e5507a692d22608ae29b07981710e9b97b22350f5f1e9190c",
+    "company_id": "co:full_legal_name:e79bb27e6bb7236103018cff6c3db086",
+    "day": "2011-11-21",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-09-23/1214665792.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中兴创投\",\"role\":null,\"amount\":null},{\"name\":\"中国进出口银行\",\"role\":null,\"amount\":null},{\"name\":\"中节能集团\",\"role\":null,\"amount\":null}]",
+      "date": "2011-11-21",
+      "date_key": "2011-11-21",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权出资",
+      "amount": "5.9亿元（股权出资）",
+      "investors_json": "[{\"name\":\"中国进出口银行\",\"role\":null,\"amount\":null}]",
+      "date": "2011-11-21",
+      "date_key": "2011-11-21",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:503b53c69573c248b39663a90e732e82b0891eebd55510e50222c8aab2b9d85d",
+    "company_id": "co:full_legal_name:e79bb27e6bb7236103018cff6c3db086",
+    "day": "2019-05-08",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-09-23/1214665792.PDF",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中国卫通\",\"role\":null,\"amount\":null},{\"name\":\"中国航天\",\"role\":null,\"amount\":null},{\"name\":\"乐凯集团\",\"role\":null,\"amount\":null},{\"name\":\"国华基金\",\"role\":null,\"amount\":null},{\"name\":\"航天投资\",\"role\":null,\"amount\":null}]",
+      "date": "2019-05-08",
+      "date_key": "2019-05-08",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "94.245亿元",
+      "investors_json": "[{\"name\":\"国华军民融合产业发展基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"四维高景卫星遥感有限公司\",\"role\":null,\"amount\":null},{\"name\":\"中国乐凯集团有限公司\",\"role\":null,\"amount\":null},{\"name\":\"中国卫通集团股份有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2019-05-08",
+      "date_key": "2019-05-08",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:38f0daceb8ba0c6c37a7ea4aa49d9747eb7d04b3e9c11394137fbef9436c5568",
+    "company_id": "co:full_legal_name:162d8aed4b7dda00ce3dbe4c6681a8a5",
+    "day": "2020-12-28",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9587067&stockid=688648",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"国华卫星应用产业基金\",\"role\":null,\"amount\":null},{\"name\":\"普洛斯\",\"role\":null,\"amount\":null},{\"name\":\"航天投资\",\"role\":null,\"amount\":null},{\"name\":\"越秀产业基金\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-28",
+      "date_key": "2020-12-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "59548.868953万元",
+      "investors_json": "[{\"name\":\"国华卫星应用产业基金（南京）合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"航天投资控股有限公司\",\"role\":null,\"amount\":null},{\"name\":\"广州同得投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"普洛斯投资（上海）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"中信证券投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"中金启辰（苏州）新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海润驿企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海泓驿企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-28",
+      "date_key": "2020-12-28",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001279_20221116_YF3P.pdf"
+    ]
   }
 ]

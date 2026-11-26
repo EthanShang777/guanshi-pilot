@@ -4368,5 +4368,53 @@
     "sources": [
       "https://www.pencilnews.cn/p/38548.html"
     ]
+  },
+  "614326518342a0d030fd956c": {
+    "name": "航天工程",
+    "registeredName": "航天长征化学工程股份有限公司",
+    "aliases": [
+      "航天长征化学工程有限责任公司",
+      "航天煤化工",
+      "603698"
+    ],
+    "sources": [
+      "https://epaper.cs.com.cn/zgzqb/html/2021-01/05/nw.D110000zgzqb_20210105_8-B023.htm"
+    ]
+  },
+  "0c54de376cd2a86356c892f6": {
+    "name": "航天氢能",
+    "registeredName": "航天氢能有限公司",
+    "aliases": [
+      "航天氢能（北京）"
+    ],
+    "sources": [
+      "https://dataclouds.cninfo.com.cn/shgonggao/2025/2025-09-27/d65bca8e9ac611f0a707fa163e957f7a.pdf"
+    ]
+  },
+  "33d8844a4f5307c74881f775": {
+    "name": "聚新能气体",
+    "registeredName": "新疆聚新能气体有限公司",
+    "aliases": [],
+    "sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12041664&stockid=603698"
+    ]
+  },
+  "f61588ee6e125a902285f13c": {
+    "name": "星航互联",
+    "registeredName": "星航互联（北京）科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-04-27/1209808326.PDF"
+    ]
+  },
+  "1cccb4490027852d6b5bf112": {
+    "name": "宸芯科技",
+    "registeredName": "宸芯科技股份有限公司",
+    "aliases": [
+      "宸芯科技有限公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-09-27/1221313870.PDF"
+    ]
   }
 }

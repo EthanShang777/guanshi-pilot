@@ -12485,7 +12485,9 @@
       "dateKind": "公开文件披露日",
       "issuer": "航天长征化学工程股份有限公司简式权益变动报告书",
       "pages": "第5页",
-      "lpSources": [],
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2021-03-29/1209468335.PDF"
+      ],
       "lpScope": "报告所列的7名LP和1名GP。比例为披露值，未用四舍五入后的比例反推金额。",
       "generalPartners": [
         {
@@ -12494,7 +12496,21 @@
         }
       ],
       "managerLegalName": "国创基金管理有限公司",
-      "creditCode": "91110000MA00GG3U24"
+      "creditCode": "91110000MA00GG3U24",
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2021-03-29/1209468335.PDF",
+        "date": "2021-03-29",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 25650000000
+      },
+      "fundRegistration": "SJT180",
+      "managerRegistration": "P1070706",
+      "historicalCommittedCapital": {
+        "asOf": "2021-03-29",
+        "amountCny": 113900000000,
+        "source": "https://static.cninfo.com.cn/finalpage/2021-03-29/1209468335.PDF"
+      }
     },
     "partners": [
       {
@@ -12558,7 +12574,8 @@
       "pages": "第5—6页",
       "lpSources": [
         "https://static.cninfo.com.cn/finalpage/2025-09-27/1224686151.PDF",
-        "https://static.cninfo.com.cn/finalpage/2026-01-27/1224950281.PDF"
+        "https://static.cninfo.com.cn/finalpage/2026-01-27/1224950281.PDF",
+        "https://static.cninfo.com.cn/finalpage/2021-03-29/1209468335.PDF"
       ],
       "lpScope": "报告所列4名LP及1名GP。两份文件的东风、一汽两名直接合伙人全称不同，各自保留披露日期；本视图用12月报告主体和比例。",
       "generalPartners": [
@@ -12599,7 +12616,16 @@
           ]
         }
       ],
-      "amountScope": "两份披露中同一主体的认缴金额沿用较早明确金额；一汽、东风12月直接主体仅保存报告披露比例。"
+      "amountScope": "两份披露中同一主体的认缴金额沿用较早明确金额；一汽、东风12月直接主体仅保存报告披露比例。",
+      "verifiedExits": [
+        {
+          "company": "航天氢能有限公司",
+          "asOf": "2025-12",
+          "saleCny": 273069200,
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12041664&stockid=603698",
+          "note": "年报分项按万元两位披露，成交总额见公司股权转让记录。"
+        }
+      ]
     },
     "partners": [
       {
@@ -12625,6 +12651,517 @@
         "disclosedContributionCny": null,
         "disclosedPercent": 0.96,
         "existingInstitution": "0e305513319cffd1f8b2de63"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1541e08033d1343e990d178a",
+    "fundName": "国华军民融合产业发展基金（有限合伙）",
+    "managerName": "国华军民融合产业发展基金管理有限公司",
+    "managerId": "601aae37d5ffff6d0f8ebc8d",
+    "sizeCny": 24624172187,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/600962_20260226_FGME.pdf",
+      "date": "2026-02-26",
+      "dateKind": "公开文件披露日",
+      "issuer": "国投中鲁重组法律意见书",
+      "pages": "第2-2-1-29—30页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2021-03-29/1209468335.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-07-23/1225437354.PDF",
+        "https://qccdata.qichacha.com/ReportData/PDF/4278965d85ac7868ba7db0fa4e347645.pdf"
+      ],
+      "lpScope": "1名GP和13名LP；认缴合计原件保留至分，页面总额按元取整。",
+      "generalPartners": [
+        {
+          "name": "国华军民融合产业发展基金管理有限公司",
+          "disclosedContributionCny": 150000000,
+          "disclosedPercent": 0.6092
+        }
+      ],
+      "managerLegalName": "国华军民融合产业发展基金管理有限公司",
+      "fundRegistration": "SR7453",
+      "managerRegistration": "P1061032",
+      "rawRegisteredCny": "24624172186.83",
+      "creditCode": "91440101MA59EE5R1N",
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2021-03-29/1209468335.PDF",
+        "date": "2021-03-29",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 24624000000
+      },
+      "priorFundCapital": [
+        {
+          "date": "2016-08-18",
+          "basis": "设立认缴",
+          "amountCny": 30200000000,
+          "source": "https://static.cninfo.com.cn/finalpage/2026-07-23/1225437354.PDF"
+        },
+        {
+          "date": "2019-11",
+          "basis": "入伙后认缴",
+          "amountCny": 35200000000,
+          "source": "https://static.cninfo.com.cn/finalpage/2026-07-23/1225437354.PDF",
+          "newPartner": "国创投资引导基金（有限合伙）",
+          "contributionCny": 5000000000
+        },
+        {
+          "date": "2024-05",
+          "basis": "合伙变更登记",
+          "amountCny": 24624172187,
+          "source": "https://static.cninfo.com.cn/finalpage/2026-07-23/1225437354.PDF"
+        }
+      ],
+      "verifiedExits": [
+        {
+          "company": "航天氢能有限公司",
+          "asOf": "2025-12",
+          "saleCny": 186183500,
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12041664&stockid=603698",
+          "note": "年报分项按万元保留两位小数；两方合计以年报精确对价为准。"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "航天投资控股有限公司",
+        "disclosedContributionCny": 5000000000,
+        "disclosedPercent": 20.3053,
+        "existingInstitution": "29f269aae7ca3b0c875911d3"
+      },
+      {
+        "name": "国创投资引导基金（有限合伙）",
+        "disclosedContributionCny": 5000000000,
+        "disclosedPercent": 20.3053,
+        "existingInstitution": "26bc58676058d01c5216db5d"
+      },
+      {
+        "name": "嘉兴融财投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 2814569537,
+        "disclosedPercent": 11.4301,
+        "existingInstitution": "b57c5fced4750c380fc6b617"
+      },
+      {
+        "name": "中信信托有限责任公司",
+        "disclosedContributionCny": 2814569537,
+        "disclosedPercent": 11.4301,
+        "existingInstitution": "d83b959927d473e02e0c7a4f"
+      },
+      {
+        "name": "广东珠西航天产业发展基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 2814569537,
+        "disclosedPercent": 11.4301,
+        "existingInstitution": "cf31b12d70a0909474f701d9"
+      },
+      {
+        "name": "中国船舶集团投资有限公司",
+        "disclosedContributionCny": 562913907,
+        "disclosedPercent": 2.286,
+        "existingInstitution": "e89c7a7ce9cfa4595241401d"
+      },
+      {
+        "name": "中信证券投资有限公司",
+        "disclosedContributionCny": 562913907,
+        "disclosedPercent": 2.286,
+        "existingInstitution": "bb4f7f71c3b836f8a8951f86"
+      },
+      {
+        "name": "南方工业资产管理有限责任公司",
+        "disclosedContributionCny": 331456954,
+        "disclosedPercent": 1.3461,
+        "existingInstitution": "eb2ac34e099e38e8c299a05b"
+      },
+      {
+        "name": "中船投资发展有限公司",
+        "disclosedContributionCny": 281456954,
+        "disclosedPercent": 1.143,
+        "existingInstitution": "e59c389079bb39c7e76c1db4"
+      },
+      {
+        "name": "国机资本控股有限公司",
+        "disclosedContributionCny": 281456954,
+        "disclosedPercent": 1.143,
+        "existingInstitution": "a4f4fdce63705a661f5c40d9"
+      },
+      {
+        "name": "中国核工业建设股份有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 1.0153,
+        "existingInstitution": "1a9bb1131a364fcce6a82dbb"
+      },
+      {
+        "name": "中兵投资管理有限责任公司",
+        "disclosedContributionCny": 49668873,
+        "disclosedPercent": 0.2017,
+        "existingInstitution": "d514eaa0ca78f555d3ab735a"
+      },
+      {
+        "name": "中国人保资产管理有限公司",
+        "disclosedContributionCny": 3710596027,
+        "disclosedPercent": 15.0689,
+        "existingInstitution": "8797723511efc6a016830903"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "72db9341635b2ac7f846a402",
+    "fundName": "北京航天产业投资基金（有限合伙）",
+    "managerName": "航天产业投资基金管理（北京）有限公司",
+    "managerId": "6d7e18bd67dcb4c40d5939ff",
+    "sizeCny": 4053080000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2018-09-21/1205459143.PDF",
+      "date": "2018-09-21",
+      "dateKind": "公开文件披露日",
+      "issuer": "亚夏汽车重组修订报告",
+      "pages": "第128—129页",
+      "lpSources": [
+        "https://money.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1601654&stockid=603698",
+        "https://static.cninfo.com.cn/finalpage/2023-04-12/1216389204.pdf",
+        "https://epaper.cs.com.cn/zgzqb/html/2021-01/05/nw.D110000zgzqb_20210105_8-B023.htm"
+      ],
+      "lpScope": "2017年10月变更后的1名GP、7名LP。2022年亦庄债券材料仍披露规模40.53亿元。",
+      "generalPartners": [
+        {
+          "name": "航天产业投资基金管理（北京）有限公司",
+          "disclosedContributionCny": 40400000
+        }
+      ],
+      "managerLegalName": "航天产业投资基金管理（北京）有限公司",
+      "managerRegistration": "P1001466",
+      "paidContributionSource": {
+        "url": "https://money.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1601654&stockid=603698",
+        "date": "2015-01-19",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 4053080000
+      },
+      "verifiedExits": [
+        {
+          "company": "航天长征化学工程股份有限公司",
+          "asOf": "2020-12-05",
+          "saleCny": 528258817,
+          "source": "https://epaper.cs.com.cn/zgzqb/html/2021-01/05/nw.D110000zgzqb_20210105_8-B023.htm",
+          "amountSource": "https://static.cninfo.com.cn/finalpage/2020-09-01/1208356010.PDF",
+          "saleExactCny": "528258816.88"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "航天投资控股有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 24.67,
+        "existingInstitution": "29f269aae7ca3b0c875911d3"
+      },
+      {
+        "name": "北京亦庄国际投资发展有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 24.67,
+        "existingInstitution": "32f957c545fb5b2d255d97b9"
+      },
+      {
+        "name": "中国中信有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 12.34,
+        "existingInstitution": "7c3a4375450fd85e2c40e7c9"
+      },
+      {
+        "name": "北京市海淀区国有资产投资经营有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 12.34,
+        "existingInstitution": "80f0e515b8333ec66fa4edb7"
+      },
+      {
+        "name": "三峡资本控股有限责任公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 12.34,
+        "existingInstitution": "ac6814cd6ad0ca79ebfa3c04"
+      },
+      {
+        "name": "泰康人寿保险有限责任公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 12.34,
+        "existingInstitution": "a37dbfafd99ea2d2391ec317"
+      },
+      {
+        "name": "新疆扬帆正兴股权投资有限公司",
+        "disclosedContributionCny": 12680000,
+        "disclosedPercent": 0.31,
+        "existingInstitution": "61e449e7fc6b20692498c0b5"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "44130eec0f841008429781be",
+    "fundName": "国华卫星应用产业基金（南京）合伙企业（有限合伙）",
+    "managerName": "国华卫星应用产业基金管理（南京）有限公司",
+    "managerId": "43322eb904d2fdb5b5715a2a",
+    "sizeCny": 2825000000,
+    "capitalBasis": "登记注册资本",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-06-28/1224017504.PDF",
+      "date": "2025-06-28",
+      "dateKind": "公开文件披露日",
+      "issuer": "中邮科技简式权益变动报告书",
+      "pages": "第5页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-06-28/1224017502.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-05-29/1223715654.PDF",
+        "https://static.cninfo.com.cn/finalpage/2021-03-29/1209468335.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9587067&stockid=688648"
+      ],
+      "lpScope": "2025年六月注册表及同日披露比例；历史认缴规模保留各自日期。",
+      "generalPartners": [
+        {
+          "name": "国华卫星应用产业基金管理（南京）有限公司",
+          "disclosedPercent": 0.654
+        }
+      ],
+      "managerLegalName": "国华卫星应用产业基金管理（南京）有限公司",
+      "fundRegistration": "SJJ974",
+      "managerRegistration": "P1070343",
+      "creditCode": "91320115MA1YBDYB1F",
+      "priorFundCapital": [
+        {
+          "date": "2021-03-29",
+          "basis": "当时注册资本",
+          "amountCny": 4025000000,
+          "source": "https://static.cninfo.com.cn/finalpage/2021-03-29/1209468335.PDF",
+          "partnerAmountsCny": {
+            "国华军民融合产业发展基金（有限合伙）": 1800000000,
+            "国创投资引导基金（有限合伙）": 1400000000
+          }
+        },
+        {
+          "date": "2025-05-29",
+          "basis": "认缴",
+          "amountCny": 3825000000,
+          "source": "https://static.cninfo.com.cn/finalpage/2025-05-29/1223715654.PDF"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "国华军民融合产业发展基金（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 47.059,
+        "existingInstitution": "1541e08033d1343e990d178a"
+      },
+      {
+        "name": "国创投资引导基金（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 36.601,
+        "existingInstitution": "26bc58676058d01c5216db5d"
+      },
+      {
+        "name": "上海国有资产经营有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 7.843,
+        "existingInstitution": "0ff33a6500af2b9d9d33681e"
+      },
+      {
+        "name": "南京紫金山科技城经济发展有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 6.667,
+        "existingInstitution": "ab96cc57a241fa4604ec323d"
+      },
+      {
+        "name": "南京江宁产业发展基金有限责任公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 1.176,
+        "existingInstitution": "823d8a6f40cf463b9e674a3b"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "b497d673380bba685acb5de1",
+    "fundName": "国新国同（浙江）投资基金合伙企业（有限合伙）",
+    "managerName": "国新国控（杭州）投资管理有限公司",
+    "managerId": "bc254537afa6da88ad70722b",
+    "sizeCny": 69780000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2019-02-13/1205827041.PDF",
+      "date": "2019-02-13",
+      "dateKind": "公开文件披露日",
+      "issuer": "中钢国际参投基金公告",
+      "pages": "第2—3页",
+      "lpSources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-07-24/241343_20240724_WB3H.pdf",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9445625&stockid=688549"
+      ],
+      "lpScope": "2019年同一时点15名LP与GP；中国国新债券书的后期认缴和实际投放另列。",
+      "generalPartners": [
+        {
+          "name": "国新国控（杭州）投资管理有限公司",
+          "disclosedContributionCny": 80000000
+        }
+      ],
+      "managerLegalName": "国新国控（杭州）投资管理有限公司",
+      "disclosedScale": {
+        "asOf": "2023-12-31",
+        "targetCny": 150000000000,
+        "committedCny": 70080000000,
+        "investedCny": 27985000000,
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-07-24/241343_20240724_WB3H.pdf"
+      }
+    },
+    "partners": [
+      {
+        "name": "国新国控投资有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 1.43,
+        "existingInstitution": "72fc31469cce0d6cc8f9ca2f"
+      },
+      {
+        "name": "中国五矿股份有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 1.43,
+        "existingInstitution": "fe793f78184fe9449157eee3"
+      },
+      {
+        "name": "三峡资本控股有限责任公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 1.43,
+        "existingInstitution": "ac6814cd6ad0ca79ebfa3c04"
+      },
+      {
+        "name": "华润深国投投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 0.72,
+        "existingInstitution": "71d2d3e7b7218c6fbe35725f"
+      },
+      {
+        "name": "招商局资本控股有限责任公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 0.72,
+        "existingInstitution": "376b87524d40928cbfca9982"
+      },
+      {
+        "name": "中国交通建设集团有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 0.72,
+        "existingInstitution": "33e40ac841dc15e429531dda"
+      },
+      {
+        "name": "中国广核集团有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 0.43,
+        "existingInstitution": "4733b82b5e30d17dd2176c2e"
+      },
+      {
+        "name": "中国航空工业集团公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 0.29,
+        "existingInstitution": "017c8694529fcb098d1e2637"
+      },
+      {
+        "name": "航天投资控股有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 0.29,
+        "existingInstitution": "29f269aae7ca3b0c875911d3"
+      },
+      {
+        "name": "浙江富浙投资有限公司",
+        "disclosedContributionCny": 10000000000,
+        "disclosedPercent": 14.33,
+        "existingInstitution": "baed1d07e566f7de141e9651"
+      },
+      {
+        "name": "深圳红树林创业投资有限公司",
+        "disclosedContributionCny": 30000000000,
+        "disclosedPercent": 42.99,
+        "existingInstitution": "89907111ca10cbbda387be55"
+      },
+      {
+        "name": "中信证券股份有限公司",
+        "disclosedContributionCny": 10000000000,
+        "disclosedPercent": 14.33,
+        "existingInstitution": "a6c58eaf70c28f1bb0f4bea7"
+      },
+      {
+        "name": "申万宏源证券有限公司",
+        "disclosedContributionCny": 10000000000,
+        "disclosedPercent": 14.33,
+        "existingInstitution": "5daeec1261a7640d14de30fe"
+      },
+      {
+        "name": "中银创新发展（天津）投资中心（有限合伙）",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": 4.3,
+        "existingInstitution": "c0f76b5ea98707e313502413"
+      },
+      {
+        "name": "招银国际资本管理（深圳）有限公司",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": 2.15,
+        "existingInstitution": "90b319042397d208169e0480"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2023-12-31",
+        "committedCny": 70080000000,
+        "investedCny": 27985000000,
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-07-24/241343_20240724_WB3H.pdf"
+      }
+    ]
+  },
+  {
+    "fundId": "b20afae9b2ee822f58093caf",
+    "fundName": "浙江制造基金合伙企业（有限合伙）",
+    "managerName": "浙江制造投资管理有限公司",
+    "managerId": "afc387c24cee2736bd53d714",
+    "sizeCny": 4050000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2019-02-13/1205827041.PDF",
+      "date": "2019-02-13",
+      "dateKind": "公开文件披露日",
+      "issuer": "中钢国际参投基金公告",
+      "pages": "第3页",
+      "lpSources": [
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9445625&stockid=688549",
+        "https://static.cninfo.com.cn/finalpage/2024-09-27/1221313870.PDF"
+      ],
+      "lpScope": "2019年修正案的合伙表。本轮同时查到2023发行核查报告显示目标100亿元，待继续核更新的认缴和合伙表。",
+      "generalPartners": [
+        {
+          "name": "浙江制造投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "浙江制造投资管理有限公司",
+      "targetSizeSource": {
+        "targetCny": 10000000000,
+        "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9445625&stockid=688549"
+      }
+    },
+    "partners": [
+      {
+        "name": "国新国同（浙江）投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 2999000000,
+        "disclosedPercent": 74.05,
+        "existingInstitution": "b497d673380bba685acb5de1"
+      },
+      {
+        "name": "中钢设备有限公司",
+        "disclosedContributionCny": 1050000000,
+        "disclosedPercent": 25.93,
+        "existingInstitution": "2e2ed8d7b498189ee4ce8aa6"
       }
     ],
     "publishedStatistics": []
