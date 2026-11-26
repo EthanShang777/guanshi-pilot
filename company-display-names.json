@@ -1638,5 +1638,100 @@
       "https://app.dahecube.com/nweb/pc/spiderdetail.html?spidid=875087%3Frecid%3D1",
       "https://newsroom.vcg.com/"
     ]
+  },
+  "ca28d013a1c23c03b1184233": {
+    "name": "Scimplify",
+    "registeredName": "Cocreate Global Technologies Private Limited",
+    "aliases": [
+      "Scimplifi",
+      "Cocreate Global Technologies Pvt Ltd"
+    ],
+    "sources": [
+      "https://www.scimplify.com/privacy",
+      "https://cdn.scimplify.com/products/certificates/66767bc345a1e48ffd84231d/MSDS.pdf"
+    ]
+  },
+  "92cbc456d553f193d21e3ff2": {
+    "name": "doubleAI",
+    "registeredName": "AA-I Technologies Ltd.",
+    "aliases": [
+      "AA-I Technologies",
+      "AAI Technologies"
+    ],
+    "sources": [
+      "https://www.doubleai.com/privacy",
+      "https://lsvp.com/company/doubleai/"
+    ]
+  },
+  "b3b910961aba438d4e771ec0": {
+    "name": "Lumio",
+    "registeredName": "Circuit House Technologies Private Limited",
+    "aliases": [
+      "Circuit House Technologies",
+      "Circuit House",
+      "lumio.co.in"
+    ],
+    "sources": [
+      "https://lumio.co.in/privacy/",
+      "https://www.stellarisvp.com/portfolio/lumio"
+    ]
+  },
+  "7219b846c63e78f1ae719c25": {
+    "name": "Ace Blend",
+    "registeredName": "Aces Intact Private Limited",
+    "aliases": [
+      "Aces Intact",
+      "AceBlend"
+    ],
+    "sources": [
+      "https://aceblend.com/cdn/shop/files/Daily_Protein_Pesticide_Report_84b7bce7-3bc9-4fd4-9da0-3138d7900bb2.pdf?v=11305055210324101739",
+      "https://retail.economictimes.indiatimes.com/news/health-and-beauty/ace-blend-raises-9-91-million-in-series-a2-round-led-by-3one4-capital/135297365"
+    ]
+  },
+  "cab69f027019ef91a16b35d1": {
+    "name": "RapidCanvas",
+    "registeredName": "RapidCanvas, Inc.",
+    "aliases": [
+      "RapidCanvas Inc.",
+      "rapidcanvas.ai"
+    ],
+    "sources": [
+      "https://www.rapidcanvas.ai/privacy-policy",
+      "https://www.rapidcanvas.ai/newsroom/rapidcanvas-raises-29m-series-b-to-bring-fortune-100-grade-ai-to-every-enterprise"
+    ]
+  },
+  "7302e6abbdd069c99242eb86": {
+    "name": "Exponent Energy",
+    "registeredName": "Exponent Energy Private Limited",
+    "aliases": [
+      "Exponent Energy, Pvt."
+    ],
+    "sources": [
+      "https://www.exponent.energy/careers",
+      "https://www.3one4capital.com/blogs/exponent-energy-raises-21-1-million-to-build-the-energy-backbone-for-indias-commercial-electric-transition"
+    ]
+  },
+  "c17fcfbdbe6f6fe4a083828f": {
+    "name": "Trmeric",
+    "registeredName": "Trmeric Inc.",
+    "aliases": [
+      "trmeric.com"
+    ],
+    "sources": [
+      "https://trmeric.com/legal/privacy-policy/",
+      "https://www.prnewswire.com/news-releases/trmeric-raises-6-5-million-led-by-hitachi-ventures-as-agentic-platform-powers-1-billion-in-enterprise-transformation-302900795.html"
+    ]
+  },
+  "2f4a6c1464a889086d747796": {
+    "name": "Town（town.com）",
+    "registeredName": "Town.com, Inc.",
+    "aliases": [
+      "Town",
+      "town.com"
+    ],
+    "sources": [
+      "https://www.town.com/terms-of-service",
+      "https://www.town.com/press/series-b"
+    ]
   }
 }

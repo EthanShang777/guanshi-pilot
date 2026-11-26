@@ -573,5 +573,28 @@
       "date_kind": "领投资方公告日期",
       "investors_json": "[{\"name\":\"国寿双碳基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"清流资本\",\"role\":null,\"amount\":null},{\"name\":\"源码资本\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:c2bcb8a5c1238913e1acefc1dd33d91c636297e10484614004b71ea3ba6b13c2",
+    "round": "B轮",
+    "source": "https://www.eightroads.com/ja/news/our-first-ev-investment-in-india",
+    "expected": {
+      "company_id": "",
+      "company_name": "Exponent Energy, Pvt.; Exponent Energy",
+      "raw_company_key": "exponent energy, pvt.; exponent energy",
+      "date": "2023-12-14",
+      "date_key": "2023-12-14",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"Eight Roads Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"LightspeedCapital\",\"role\":null,\"amount\":null},{\"name\":\"TDK\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:disclosed_subject:88924945497e9cd81be835977fc71436",
+      "company_name": "Exponent Energy Private Limited",
+      "raw_company_key": "Exponent Energy; Exponent Energy Private Limited; Exponent Energy, Pvt.",
+      "date": "2023-12-14",
+      "date_key": "2023-12-14",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"Eight Roads Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"LightspeedCapital\",\"role\":null,\"amount\":null},{\"name\":\"TDK\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
