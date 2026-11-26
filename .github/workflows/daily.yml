@@ -12,6 +12,8 @@ on:
       - 'company_directory.py'
       - 'company-display-names.json'
       - 'company-browser.js'
+      - 'company-research-body.html'
+      - 'company-research.js'
   workflow_dispatch:
     inputs:
       published_run:
