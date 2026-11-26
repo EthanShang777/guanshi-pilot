@@ -145,6 +145,38 @@
       next();
     }
     root.append(filters,layout,cases);render();
+      if(shard[id]?.fundDisclosures?.length){
+        const funds=el('section','');
+        funds.className='profile-records';
+        funds.append(el('h2',shard[id]?.fundDisclosures.some(fund=>fund.fundId===id)?'有限合伙人（LP）':'旗下基金的有限合伙人（LP）'));
+        for(const fund of shard[id]?.fundDisclosures){
+          const details=el('details','');
+          const count=fund.partners.length+fund.otherLpCount;
+          const heading=fund.fundId===id?'查看公开披露':fund.fundName;
+          details.append(el('summary',heading+' · '+count+' 位 LP'));
+          if(fund.fundId===id && fund.managerId!==id){
+            details.append(link('管理人 · '+fund.managerName+' →',profileUrl(fund.managerId)));
+          }
+          const list=el('ul','');
+          for(const partner of fund.partners){
+            const item=el('li','');
+            item.append(partner.existingInstitution
+              ? link(partner.name,profileUrl(partner.existingInstitution))
+              : el('span',partner.name));
+            const amount=(partner.disclosedContributionCny/10000).toLocaleString('zh-CN',{maximumFractionDigits:4});
+            item.append(el('small',' · '+fund.capitalBasis+' '+amount+' 万元 · '+partner.disclosedPercent+'%'));
+            list.append(item);
+          }
+          details.append(list);
+          if(fund.otherLpCount)details.append(el('p','另有 '+fund.otherLpCount+' 位个人 LP，见原始披露。'));
+          const citation=el('p','');
+          citation.append(link(fund.source.issuer+' ↗',fund.source.url),el('small',' · '+fund.source.dateKind+' '+fund.source.date));
+          details.append(citation);
+          funds.append(details);
+        }
+        root.append(funds);
+      }
+
   }
   try{
     if(root.dataset.mode==='directory')directory(await load('institution-directory'));
