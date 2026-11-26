@@ -2433,5 +2433,85 @@
       "amount": "未披露",
       "investors_json": "[{\"name\":\"方广资本\",\"amount\":null,\"role\":\"受让方\"},{\"name\":\"天津鹏萱股权投资基金合伙企业（有限合伙）\",\"amount\":null,\"role\":\"受让方\"}]"
     }
+  },
+  {
+    "event_id": "financing_event:2dd30080e43b32f4dcb5f1cd763a15898b73276049beb921e56d9183a1b470bc",
+    "company_id": "co:full_legal_name:bb98dfd5cdd510a731379f6bbacc47de",
+    "day": "2015-07-21",
+    "source": "https://toss.im/tossfeed/article/korean-fintech-startup-toss",
+    "expected": {
+      "round": "A轮",
+      "amount": "450万美元",
+      "investors_json": "[{\"name\":\"KTB投资集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "450万美元",
+      "investors_json": "[{\"name\":\"KTB投资集团\",\"role\":null,\"amount\":null},{\"name\":\"Altos Ventures\",\"role\":null,\"amount\":null},{\"name\":\"韩国中小企业银行\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:60045761ff659b6d38d1f142eb533de2e4ae489dbaaca811fa83f0614546b60e",
+    "company_id": "co:full_legal_name:bb98dfd5cdd510a731379f6bbacc47de",
+    "day": "2016-04-13",
+    "source": "https://rdata.kbsec.com/pdf_data/20220216120210973K.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "2370万美元",
+      "investors_json": "[{\"name\":\"高通创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "2370万美元",
+      "investors_json": "[{\"name\":\"高通创投\",\"role\":null,\"amount\":null},{\"name\":\"Goodwater Capital\",\"role\":null,\"amount\":null},{\"name\":\"Altos Ventures\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:2e82d2a0cc9fe09ced83d63964fc5621906bc1e693827f809ff817e0839b2eec",
+    "company_id": "co:full_legal_name:bb98dfd5cdd510a731379f6bbacc47de",
+    "day": "2018-06-19",
+    "source": "https://www.prnewswire.com/news-releases/toss-raises-40-million-from-gic-and-sequoia-china-300667591.html",
+    "expected": {
+      "round": "D轮",
+      "amount": "4000万美元",
+      "investors_json": "[{\"name\":\"GIC新加坡政府投资公司\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "4000万美元",
+      "investors_json": "[{\"name\":\"GIC新加坡政府投资公司\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:09e876021aa1150678b54c10bb572d7b70599bf9e20cebde35bd5d978d91ec71",
+    "company_id": "co:full_legal_name:bb98dfd5cdd510a731379f6bbacc47de",
+    "day": "2019-08-09",
+    "source": "https://rdata.kbsec.com/pdf_data/20220216120210973K.pdf",
+    "expected": {
+      "round": "E轮",
+      "amount": "6400万美元",
+      "investors_json": "[{\"name\":\"AspexManagement\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "E轮",
+      "amount": "6400万美元",
+      "investors_json": "[{\"name\":\"AspexManagement\",\"role\":null,\"amount\":null},{\"name\":\"Goodwater Capital\",\"role\":null,\"amount\":null},{\"name\":\"GIC新加坡政府投资公司\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:2ae69c5e457a2195320a330764ef8f3caaea1639e938d1aa3ee3514305f961ff",
+    "company_id": "co:full_legal_name:bb98dfd5cdd510a731379f6bbacc47de",
+    "day": "2020-08-28",
+    "source": "https://partechpartners.com/news/partech-newsletter-500m-and-1-acquisition-catching-more-than-rays-this-summer",
+    "expected": {
+      "round": "F轮",
+      "amount": "1.73亿美元",
+      "investors_json": "[{\"name\":\"AspexManagement\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "F轮",
+      "amount": "1.73亿美元",
+      "investors_json": "[{\"name\":\"AspexManagement\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":\"领投\",\"amount\":null},{\"name\":\"Kleiner Perkins Digital Growth Fund\",\"role\":null,\"amount\":null},{\"name\":\"Altos Ventures\",\"role\":null,\"amount\":null},{\"name\":\"Goodwater Capital\",\"role\":null,\"amount\":null},{\"name\":\"Greyhound Capital\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
