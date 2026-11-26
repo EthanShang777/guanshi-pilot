@@ -121,5 +121,27 @@
       "https://shanghai.chinatax.gov.cn/pdtax/tzgg/xzxktz/202108/t459816.html",
       "https://m.pedaily.cn/data/inv/27242"
     ]
+  },
+  "9e78144065397e66adc6004a": {
+    "name": "Eight Sleep",
+    "registeredName": "Eight Sleep Inc.",
+    "aliases": [
+      "Morphy Inc."
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1686351/000168635121000001/xslFormDX08/primary_doc.xml",
+      "https://www.eightsleep.com/blog/we-just-raised-100m-to-build-the-ai-that-finally-fixes-sleep/"
+    ]
+  },
+  "1915f863910239e83cda0670": {
+    "name": "OPay",
+    "registeredName": "OPay Limited",
+    "aliases": [
+      "OPay Ltd"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/2103076/000119312526430437/d56487df1a.htm",
+      "https://investor.opera.com/news-releases/news-release-details/opay-raises-50-million-investors-including-idg-capital-sequoia/"
+    ]
   }
 }
