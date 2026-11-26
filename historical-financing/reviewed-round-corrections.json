@@ -6911,5 +6911,31 @@
     "additional_sources": [
       "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001279_20221116_YF3P.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:5127c4608077bf15484d2b9ddb1af352f71a14c15f886e63858a1e504ab37987",
+    "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1",
+    "day": "2023-12-25",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582432_1.pdf?1782834351000.pdf=",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天惠投资基金\",\"role\":null,\"amount\":null},{\"name\":\"天津市滨海产业基金\",\"role\":null,\"amount\":null},{\"name\":\"成都沪蓉创投\",\"role\":null,\"amount\":null},{\"name\":\"方正和生投资\",\"role\":null,\"amount\":null},{\"name\":\"晨晖资本\",\"role\":null,\"amount\":null}]",
+      "date": "2023-12-25",
+      "date_key": "2023-12-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"晨晖滨海（天津）信息创业投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"北京元培科技创新投资中心（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"成都新申毅股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"天津滨海知识产权股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null}]",
+      "date": "2023-12-25",
+      "date_key": "2023-12-25",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606301826582433&pageIndex=1",
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608131827948172&pageIndex=1"
+    ]
   }
 ]

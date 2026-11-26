@@ -13341,5 +13341,231 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "1d50274d50563f7d013cb33d",
+    "fundName": "上海诚毅锦冠创业投资合伙企业（有限合伙）",
+    "managerName": "上海锦冠投资管理有限公司",
+    "managerId": "b8bc139f81c1eb7081090e66",
+    "sizeCny": 302000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2022/2022-7/2022-07-27/8384847.PDF",
+      "date": "2022-07-27",
+      "dateKind": "公开文件披露日",
+      "issuer": "开勒股份对外投资公告",
+      "pages": "第二节第三项",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2022-02-07/1212320338.PDF",
+        "https://www.vcgfsh.org.cn/index/invest/index/id/1.html"
+      ],
+      "lpScope": "六名LP一名GP，认缴3.02亿元；2022年2月早期合伙表同期认缴2.47亿元。",
+      "generalPartners": [
+        {
+          "name": "上海锦冠投资管理有限公司",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "managerLegalName": "上海锦冠投资管理有限公司",
+      "fundRegistration": "SLX338",
+      "creditCode": "91310118MA1JNPU94B",
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2022-02-07",
+          "source": "https://static.cninfo.com.cn/finalpage/2022-02-07/1212320338.PDF",
+          "registeredCny": 247000000,
+          "partners": [
+            {
+              "name": "上海申能诚毅股权投资有限公司",
+              "disclosedPercent": 60.7287
+            },
+            {
+              "name": "上海创业投资有限公司",
+              "disclosedPercent": 21.0526
+            },
+            {
+              "name": "上海青浦投资有限公司",
+              "disclosedPercent": 16.1943
+            },
+            {
+              "name": "上海锦冠投资管理有限公司",
+              "disclosedPercent": 2.0243
+            }
+          ]
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "上海申能诚毅股权投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 49.67,
+        "existingInstitution": "9112343ff2347ebe1e5bbdac"
+      },
+      {
+        "name": "上海创业投资有限公司",
+        "disclosedContributionCny": 63000000,
+        "disclosedPercent": 20.86,
+        "existingInstitution": "1413a5d2766976762e2eec99"
+      },
+      {
+        "name": "上海青浦投资有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 9.93,
+        "existingInstitution": "28edae1da48aa2eb31d5775d"
+      },
+      {
+        "name": "靳保芳",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 9.93,
+        "existingInstitution": "67c7269eb929c090332e2f1e"
+      },
+      {
+        "name": "上海市信息投资股份有限公司",
+        "disclosedContributionCny": 14000000,
+        "disclosedPercent": 4.64,
+        "existingInstitution": "d359940b3976d4fc6d59705f"
+      },
+      {
+        "name": "安徽元琛环保科技股份有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.31,
+        "existingInstitution": "25854ab3aabc6c655e6818cb"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "08179a579471f32494eb19c1",
+    "fundName": "嘉兴锦冠贰号股权投资合伙企业（有限合伙）",
+    "managerName": "上海锦冠投资管理有限公司",
+    "managerId": "b8bc139f81c1eb7081090e66",
+    "sizeCny": 45100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2022/2022-7/2022-07-27/8384847.PDF",
+      "date": "2022-07-27",
+      "dateKind": "公开文件披露日",
+      "issuer": "开勒股份对外投资公告",
+      "pages": "第三节",
+      "lpSources": [
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2024-04-22/22dd2bf4-6149-46b6-956c-07d7ec7b498d.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9068997&stockid=301070"
+      ],
+      "lpScope": "六名LP一名GP，认缴4,510万元。开勒股份2023年年报核皓勒在2022年实缴500万元。",
+      "generalPartners": [
+        {
+          "name": "上海锦冠投资管理有限公司",
+          "disclosedContributionCny": 100000
+        }
+      ],
+      "managerLegalName": "上海锦冠投资管理有限公司",
+      "filingDate": "2022-08-18",
+      "paidContributionSource": {
+        "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-04-22/22dd2bf4-6149-46b6-956c-07d7ec7b498d.PDF",
+        "date": "2024-04-22",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "皓勒（上海）科技发展有限公司",
+            "paidCny": 5000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "皓勒（上海）科技发展有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 11.0865,
+        "existingInstitution": "bd1700dad0d82581a7becff7"
+      },
+      {
+        "name": "南通万物创新创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 33.2594,
+        "existingInstitution": "fcffc25b5c93a5b02c4e77b0"
+      },
+      {
+        "name": "上海诚毅锦冠创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 22.1729,
+        "existingInstitution": "1d50274d50563f7d013cb33d"
+      },
+      {
+        "name": "陈俞坤",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 11.0865,
+        "existingInstitution": "c1b6361ba5cbe4667b4e5543"
+      },
+      {
+        "name": "吴成艾",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 11.0865,
+        "existingInstitution": "31dc4269fdd5ff77af12f186"
+      },
+      {
+        "name": "王之祥",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 11.0865,
+        "existingInstitution": "4112e52cf200ed8bdf86271b"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "fcffc25b5c93a5b02c4e77b0",
+    "fundName": "南通万物创新创业投资合伙企业（有限合伙）",
+    "managerName": "上海清新投资管理有限公司",
+    "managerId": "5b34b12f8d65dbf7de04b824",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2022/2022-7/2022-07-27/8384847.PDF",
+      "date": "2022-07-27",
+      "dateKind": "公开文件披露日",
+      "issuer": "开勒股份对外投资公告",
+      "pages": "第二节第二项",
+      "lpSources": [],
+      "lpScope": "四名LP一名GP，认缴2亿元。",
+      "generalPartners": [
+        {
+          "name": "上海清新投资管理有限公司",
+          "disclosedContributionCny": 2000000
+        }
+      ],
+      "managerLegalName": "上海清新投资管理有限公司",
+      "fundRegistration": "STG773"
+    },
+    "partners": [
+      {
+        "name": "南通天使引导投资基金（有限合伙）",
+        "disclosedContributionCny": 68000000,
+        "disclosedPercent": 34,
+        "existingInstitution": "8e8913fdc3d4f4df62d0f9aa"
+      },
+      {
+        "name": "南通元创科技投资有限公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "1596eaf2151ce4a5969900a6"
+      },
+      {
+        "name": "上海万物新生环保科技集团有限公司",
+        "disclosedContributionCny": 58000000,
+        "disclosedPercent": 29,
+        "existingInstitution": "9d0160ad55079e0e83fb553e"
+      },
+      {
+        "name": "南通科创投资集团有限公司",
+        "disclosedContributionCny": 12000000,
+        "disclosedPercent": 6,
+        "existingInstitution": "600504740e5b637d5580c3b4"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
