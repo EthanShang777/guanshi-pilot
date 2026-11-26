@@ -5748,6 +5748,274 @@
           "next_source": "核对后续募集书、基金公告和上市出资方财报；管理规模及已知实缴单列"
         }
       ]
+    },
+    {
+      "institution": "MaxBC十月公开目录及鲸准周报点位",
+      "checked_on": "2026-11-26",
+      "scope": "按目录公开字段机械筛查，再以公司和资方公告确认首批；余额为候选，不推算平台漏项率",
+      "sources": [
+        "https://maxbc.com/zh/funding/2026-10?page=5",
+        "https://samplix.com/about-us",
+        "https://prtimes.jp/main/html/rd/p/000000127.000031716.html",
+        "https://newsroom.wealthsimple.com/wealthsimple-raises-425-million-at-138-billion-valuation-to-accelerate-growth",
+        "https://www.globalway.co.jp/news/notice/16658/"
+      ],
+      "candidate_count": 1423,
+      "existing_count": 3,
+      "new_count": 10,
+      "new_october_count": 8,
+      "batch": "2026-11-26-october-catalog-141.csv",
+      "events": {
+        "AAM种子": "ad99a55dd626a828abbbf8f1",
+        "Samplix新增资金": "9b9001ae1d9a8e22ba9cfa1a",
+        "Geshipi早期增资": "503744865e4d1018c4c2db00",
+        "Geshipi第三方增资": "f635da893cccb0d2a23217c6",
+        "GeshipiB收官": "8d1d97655691d74d3da00dc4",
+        "Easol A追加": "7ffc817387ffc95da170e613",
+        "Paradev种子": "754c8dfe99c9ad3525dff108",
+        "Stryv B": "f5521e21afbddc2f09bcf0fe",
+        "Wealthsimple增资": "605d58c346deaee565ddd8b4",
+        "QwikBuild种子前": "81a7d9156a700dc37f2bc25c",
+        "DeepSeek第二轮交叉核验": "ba06e84d63f0ee97e6334e92",
+        "Today既有报道核验": "e3e9d45270a152c6d11b9cef",
+        "瑞德制药同轮核验": "06c0b77917c5443e25ff0da9"
+      },
+      "field_followup": [
+        {
+          "subject": "DeepSeek",
+          "event": "ba06e84d63f0ee97e6334e92",
+          "status": "已有交易，跨月跟进",
+          "sources": [
+            "https://www.ihaier.com/newsUpdates/detail/2375",
+            "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301443_c.pdf",
+            "https://finance.eastmoney.com/a/202611193935417520.html"
+          ],
+          "finding": "十月底报道对应11月工商登记的第二轮。港交所披露确认知乎集团持有天津硅码思星深的少数合伙权益，由基金经投资主体间接入股。",
+          "next": "定位天津硅码思星深直接投资主体、知乎实际付款额及份额；不把LP写成直接投资方"
+        },
+        {
+          "subject": "Today AI",
+          "event": "e3e9d45270a152c6d11b9cef",
+          "status": "对回同一品牌融资披露，字段继续核",
+          "sources": [
+            "https://todayai.cn/privacy?language=zh",
+            "https://new.qq.com/rain/a/20261021A045SA00",
+            "https://vc.pedaily.cn/invest/427555.html"
+          ],
+          "finding": "国内官方协议的运营主体为汇翮；五源披露超过2亿美元为累计；1.5亿美元A轮为第三方口径。",
+          "next": "另核3月早期融资法律主体及金额；300万、1000万美元和持股报道有差异"
+        },
+        {
+          "subject": "瑞德制药",
+          "event": "06c0b77917c5443e25ff0da9",
+          "status": "已有首轮，公告金额有不同口径",
+          "sources": [
+            "https://www.drred.com/news",
+            "https://www.chinaventure.com.cn/news/64-20261016-393647.html"
+          ],
+          "finding": "公司新闻目录与投中网均为5500万元，后一报道近亿元所列的三家资方与已知首轮重合。",
+          "next": "跟踪是否有补充交割金额或分期，避免再立一笔首轮"
+        },
+        {
+          "subject": "QwikBuild / Snowmountain AI",
+          "event": "81a7d9156a700dc37f2bc25c",
+          "status": "不同名称对应同笔",
+          "sources": [
+            "https://www.globalway.co.jp/news/notice/16658/",
+            "https://qwikbuild.com/terms-and-conditions",
+            "https://maxbc.com/zh/funding/2026-10?page=5"
+          ],
+          "finding": "领投方明确产品与融资主体的关系，约230万与231万美元条目合并。"
+        }
+      ],
+      "metadata": {
+        "pages": [
+          {
+            "page": 1,
+            "sha256": "1eb46d3bd2387ae1357caf1cce0bb735944330e840b3ff9afbc14fba965f6298",
+            "bytes": 114558,
+            "listed": 50
+          },
+          {
+            "page": 2,
+            "sha256": "7f62b856d8c34bdbca4a2b7d76353db0c5171c49a5dfaef36509b203174c2c38",
+            "bytes": 106716,
+            "listed": 50
+          },
+          {
+            "page": 3,
+            "sha256": "1d51ffaa6122b5e9385185ee54a5f5859e57ed408531f878da62f9fa7c0cea82",
+            "bytes": 112244,
+            "listed": 50
+          },
+          {
+            "page": 4,
+            "sha256": "8293d7af918a287e272b919694072ca6eb6f58debc43bf8dbb81ffd2dbe7d7b3",
+            "bytes": 111154,
+            "listed": 50
+          },
+          {
+            "page": 5,
+            "sha256": "ad3a635e880ba933f1037a0607d15bcb24c62321015c4f7dd6b9d7cd7211839e",
+            "bytes": 105835,
+            "listed": 50
+          },
+          {
+            "page": 6,
+            "sha256": "6986d07302e64edb8d294d9f1a416d33196a3abfc30e8b7096febaea53d30aa4",
+            "bytes": 112987,
+            "listed": 50
+          },
+          {
+            "page": 7,
+            "sha256": "c475d93696ba44d660b8d9f942408239471c2c1475ff5af8afa8fcb51122adf9",
+            "bytes": 109300,
+            "listed": 50
+          },
+          {
+            "page": 8,
+            "sha256": "e2edff2a41f6be4295bcc5805d24037bfe329d4ae1942a2e19e8dd75159e42f8",
+            "bytes": 109721,
+            "listed": 50
+          },
+          {
+            "page": 9,
+            "sha256": "c4086eb76bfdfd10956b5bc902dca1d9cd79a660d18993d7199663dabff5e2d9",
+            "bytes": 113119,
+            "listed": 50
+          },
+          {
+            "page": 10,
+            "sha256": "6ed1089acd2a5e4372ac64c1855129dbeefb609ebddc89277e350e88a79fe894",
+            "bytes": 107477,
+            "listed": 50
+          },
+          {
+            "page": 11,
+            "sha256": "3eaa8b7926368c3fde99347d55f1ef0f468fc9179f43debfd21e693a3a399442",
+            "bytes": 113006,
+            "listed": 50
+          },
+          {
+            "page": 12,
+            "sha256": "ed83575eb35a1c28ec3d60de5728df90f8153a99c34dcaf181d325e58c3e8a2d",
+            "bytes": 112251,
+            "listed": 50
+          },
+          {
+            "page": 13,
+            "sha256": "20e837a0187d720a343edcb26ebd7fa354aafc05a03f93f7918e726119b35020",
+            "bytes": 109138,
+            "listed": 50
+          },
+          {
+            "page": 14,
+            "sha256": "634a507b006aafb8369bd18aabfb1c8eb03179a49e8d0faee76e9f92ce17aac6",
+            "bytes": 108802,
+            "listed": 50
+          },
+          {
+            "page": 15,
+            "sha256": "8d9bd9369b1a6496c3271083d817263338672ec5149f3d29f4110a68ac8c4fb2",
+            "bytes": 111307,
+            "listed": 50
+          },
+          {
+            "page": 16,
+            "sha256": "7c01c4c375e9f44015cfe60a8d91f524c62ab4d39f4be52b824fe53fcfd17173",
+            "bytes": 112344,
+            "listed": 50
+          },
+          {
+            "page": 17,
+            "sha256": "baf6fa4e096a2fb30b2ea1b737b388e2397999a866c048701151d682f134811e",
+            "bytes": 109981,
+            "listed": 50
+          },
+          {
+            "page": 18,
+            "sha256": "5d7133a7ade693ac45495fb4cf4bf3f94524eae12737491885cb6974c68b8b26",
+            "bytes": 114219,
+            "listed": 50
+          },
+          {
+            "page": 19,
+            "sha256": "b9ba6304724ab2db2c99f855fd1d1865d4df21a444571375577f8a5f24fe86df",
+            "bytes": 109483,
+            "listed": 50
+          },
+          {
+            "page": 20,
+            "sha256": "db3c301ea07db938aa50c57fb2fc50763eda08b5a592b0750ddcaeaa0eccdc8c",
+            "bytes": 110934,
+            "listed": 50
+          },
+          {
+            "page": 21,
+            "sha256": "9aef9b26abcb74a62966f4471638ce398d597b266f1c48878fb5df7caa80ab43",
+            "bytes": 108904,
+            "listed": 50
+          },
+          {
+            "page": 22,
+            "sha256": "4301d7bf368e2fd3acd4fff01589c9e155fadde2d43ea982db6793a010f0067e",
+            "bytes": 106521,
+            "listed": 50
+          },
+          {
+            "page": 23,
+            "sha256": "ab1e1499df9d9e255fb5b2690be1381a5e4d9c4ec2d05318435565ad257e136f",
+            "bytes": 105919,
+            "listed": 50
+          },
+          {
+            "page": 24,
+            "sha256": "ae2b74f5d4504209b7be88539b22601246b0fe2112a1c19f174ca11610736097",
+            "bytes": 107513,
+            "listed": 50
+          },
+          {
+            "page": 25,
+            "sha256": "871505313c6293d9e90b304366d3c9839eb1b154e38cb399f3159e6527eca4b9",
+            "bytes": 107287,
+            "listed": 50
+          },
+          {
+            "page": 26,
+            "sha256": "274bd16892807d8a27869d150ccf0fd0a5a12a8aac129c6571daa68fefe254d1",
+            "bytes": 109089,
+            "listed": 50
+          },
+          {
+            "page": 27,
+            "sha256": "cfdd6730e4729f7ec8f9e01dbfd1f1c2221d051111b720e01fd157eed2d483c9",
+            "bytes": 107074,
+            "listed": 50
+          },
+          {
+            "page": 28,
+            "sha256": "0b4235a291f09dc5cb7e51fcd65693db01931d35d10e1e9b94a4adff0734e97f",
+            "bytes": 105867,
+            "listed": 50
+          },
+          {
+            "page": 29,
+            "sha256": "71db94ad9d581919c5fd3fd0c02a7684531779cb359cb62e0c3d14c270c42cca",
+            "bytes": 68611,
+            "listed": 23
+          }
+        ],
+        "listed": 1423,
+        "distinct_urls": 1423,
+        "date_month_only": 1,
+        "observed_first_day": "2026-10-01",
+        "observed_last_day": "2026-10-31",
+        "screen_counts": {
+          "no_exact_name_candidate": 952,
+          "other_month_name_candidate": 23,
+          "same_month_name_candidate": 448
+        }
+      }
     }
   ]
 }

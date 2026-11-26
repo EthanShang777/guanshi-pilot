@@ -2299,5 +2299,63 @@
     "sources": [
       "https://www.richenfunds.com/news/xing-fu-zi-ben-wan-cheng-dui-cae-hou-qi-zhi-xiu-mu-can-ke-ji-shou-lun-du-jia-tou-zi"
     ]
+  },
+  "0420fa84420f87836ed82c1c": {
+    "name": "Samplix",
+    "registeredName": "Samplix ApS",
+    "aliases": [],
+    "sources": [
+      "https://samplix.com/about-us"
+    ]
+  },
+  "bb031e714913b094b8f30ff7": {
+    "name": "Geshipi",
+    "registeredName": "ゲシピ株式会社",
+    "aliases": [
+      "ゲシピ",
+      "Gecipe"
+    ],
+    "sources": [
+      "https://prtimes.jp/main/html/rd/p/000000054.000031716.html"
+    ]
+  },
+  "b283feacc8676e244a2640f5": {
+    "name": "Paradev",
+    "registeredName": "Superset Inc.",
+    "aliases": [
+      "Superset"
+    ],
+    "sources": [
+      "https://paradev.com/blog/superset-is-now-paradev"
+    ]
+  },
+  "9620047c024f9c9d429f9aef": {
+    "name": "Stryv",
+    "registeredName": "Evolut Holdings Pte. Ltd.",
+    "aliases": [
+      "Evo Commerce"
+    ],
+    "sources": [
+      "https://stryv.com/blogs/newsroom/stryv-raises-usd-11-5-million-in-series-b-funding-led-by-acv-capital-joined-by-openspace-capital-and-octave-capital"
+    ]
+  },
+  "787b88d4e69bef0bc0d275ca": {
+    "name": "Wealthsimple",
+    "registeredName": "Wealthsimple Financial Corp.",
+    "aliases": [],
+    "sources": [
+      "https://newsroom.wealthsimple.com/wealthsimple-raises-425-million-at-138-billion-valuation-to-accelerate-growth"
+    ]
+  },
+  "a42a5b2775196f80fbb630da": {
+    "name": "QwikBuild",
+    "registeredName": "Snow Mountain AI Private Limited",
+    "aliases": [
+      "Snowmountain AI",
+      "Qwikbuild"
+    ],
+    "sources": [
+      "https://entrepreneur.economictimes.indiatimes.com/news/funding/qwikbuild-raises-2-3-mn-pre-seed-funding-led-by-globalway/135256236"
+    ]
   }
 }
