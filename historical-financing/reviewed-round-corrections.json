@@ -3417,5 +3417,21 @@
       "amount": "1亿美元",
       "investors_json": "[{\"name\":\"Craft Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"TCV\",\"role\":null,\"amount\":null},{\"name\":\"Alta Park Capital\",\"role\":null,\"amount\":null},{\"name\":\"Greylock Partners\",\"role\":null,\"amount\":null},{\"name\":\"Cyberstarts\",\"role\":null,\"amount\":null},{\"name\":\"Leaders Fund\",\"role\":null,\"amount\":null},{\"name\":\"Cerca Partners\",\"role\":null,\"amount\":null},{\"name\":\"Sheva VC\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "public:historical-disclosure:c8ef227c255c2401929630b",
+    "company_id": "co:historical-disclosure:1713f1e468ab452703d7cbb",
+    "day": "2026-10-07",
+    "source": "https://www.prnewswire.com/news-releases/trmeric-raises-6-5-million-led-by-hitachi-ventures-as-agentic-platform-powers-1-billion-in-enterprise-transformation-302900795.html",
+    "expected": {
+      "round": "种子轮",
+      "amount": "650万美元",
+      "investors_json": "[{\"name\":\"Hitachi Ventures\",\"role\":\"领投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "种子轮",
+      "amount": "650万美元",
+      "investors_json": "[{\"name\":\"Hitachi Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"Schema Ventures\",\"role\":null,\"amount\":null},{\"name\":\"CerraCap Impact Venture Capital\",\"role\":null,\"amount\":null},{\"name\":\"FalconX Ventures\",\"role\":null,\"amount\":null},{\"name\":\"Executive Venture Fund\",\"role\":null,\"amount\":null},{\"name\":\"Gokul Rajaram\",\"role\":null,\"amount\":null},{\"name\":\"Yatish Mishra\",\"role\":null,\"amount\":null},{\"name\":\"Shailesh Lakhani\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
