@@ -4841,5 +4841,186 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "4095ef1e330462578765cbd1",
+    "fundName": "宜宾晨道新能源产业股权投资合伙企业（有限合伙）",
+    "managerName": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+    "managerId": "8e8c58bb9af7d536289b49e4",
+    "sizeCny": 3401000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225452228.PDF",
+      "date": "2026-08-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "日科化学重组报告书",
+      "pages": "第87至89页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-06-10/1223825919.pdf",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9367963&stockid=603119",
+        "https://www.xxcytz.com/profile.html"
+      ],
+      "lpScope": "四名LP及一名GP，设立和本次披露金额相同。宜宾市新兴产业投资集团2026年3月更现名，沿用同一合伙人。逐家为认缴。",
+      "generalPartners": [
+        {
+          "name": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "宜宾市产业投资集团有限公司",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": 44.1,
+        "existingInstitution": "dc98b3a1ce864cdb91eb8788"
+      },
+      {
+        "name": "宁波梅山保税港区问鼎投资有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 29.4,
+        "existingInstitution": "853378226a7126561373eae9"
+      },
+      {
+        "name": "青岛佳裕宏德壹号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 14.7,
+        "existingInstitution": "0e9bf372e917f732975cad12"
+      },
+      {
+        "name": "信银（宁德）产业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 11.76,
+        "existingInstitution": "98886fdb5356cc2230ea4dc7"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "98f142180c4633686ac9163b",
+    "fundName": "湖州舒瀚股权投资合伙企业（有限合伙）",
+    "managerName": "上海智越投资管理有限公司",
+    "managerId": "d47f3c451d3317e1f75ec648",
+    "sizeCny": 90100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+      "date": "2025-12-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "博涛智能挂牌法律意见书",
+      "pages": "第35至36、46页",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf"
+      ],
+      "lpScope": "挂牌法律意见书列17名合伙人及出资，上海智越为执行事务合伙人。招转说明书和挂牌律师确认私募基金STP529及管理人。",
+      "generalPartners": [
+        {
+          "name": "上海智越投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "张奎",
+        "disclosedContributionCny": 11500000,
+        "disclosedPercent": 12.76,
+        "existingInstitution": "5229c3bcb5f8cf289f6adc31"
+      },
+      {
+        "name": "虞国琴",
+        "disclosedContributionCny": 11000000,
+        "disclosedPercent": 12.21,
+        "existingInstitution": "80c82b0a70c1e7ff82a5c1d9"
+      },
+      {
+        "name": "徐振宇",
+        "disclosedContributionCny": 11000000,
+        "disclosedPercent": 12.21,
+        "existingInstitution": "9c0acc9d201e8078b0833d83"
+      },
+      {
+        "name": "郑雨杰",
+        "disclosedContributionCny": 11000000,
+        "disclosedPercent": 12.21,
+        "existingInstitution": "5800545dd4de6d55bce94fdd"
+      },
+      {
+        "name": "陆美琴",
+        "disclosedContributionCny": 11000000,
+        "disclosedPercent": 12.21,
+        "existingInstitution": "300a81e9143004a51393b19b"
+      },
+      {
+        "name": "姚伟光",
+        "disclosedContributionCny": 11000000,
+        "disclosedPercent": 12.21,
+        "existingInstitution": "f7903a4d9f07e277be3082e7"
+      },
+      {
+        "name": "韩燕萍",
+        "disclosedContributionCny": 8600000,
+        "disclosedPercent": 9.54,
+        "existingInstitution": "3d4cc7cc006684ce8807f38d"
+      },
+      {
+        "name": "李结义",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 3.33,
+        "existingInstitution": "ad406afe37d7fa3893486b07"
+      },
+      {
+        "name": "杨健",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 3.33,
+        "existingInstitution": "791a49827936ee1c9dcb67f7"
+      },
+      {
+        "name": "沈兰",
+        "disclosedContributionCny": 1500000,
+        "disclosedPercent": 1.66,
+        "existingInstitution": "b98a143784c4dee8bf66c9c4"
+      },
+      {
+        "name": "杨英",
+        "disclosedContributionCny": 1500000,
+        "disclosedPercent": 1.66,
+        "existingInstitution": "e31d846a5929b7b0995f049f"
+      },
+      {
+        "name": "石军",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 1.11,
+        "existingInstitution": "2ce12aba8fcff22a046434b5"
+      },
+      {
+        "name": "董飞跃",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 1.11,
+        "existingInstitution": "b2160780e11ee10a02267866"
+      },
+      {
+        "name": "席庆利",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 1.11,
+        "existingInstitution": "2bdab87fb13754cbd1bd5996"
+      },
+      {
+        "name": "姜雨含",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 1.11,
+        "existingInstitution": "5682abdd75384317cc699b68"
+      },
+      {
+        "name": "童瑾瑜",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 1.11,
+        "existingInstitution": "83126fb248c5555985883763"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

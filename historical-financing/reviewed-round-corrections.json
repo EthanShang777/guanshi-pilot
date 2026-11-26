@@ -5368,5 +5368,129 @@
       "date_kind": "工商变更登记日，按验资记现金实收，另有2.5亿元股权换股"
     },
     "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:24d51704c6dc5a0d58f87e99968d6e46aa977c590e0ecbc28f889dfb9ff6e5ce",
+    "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1",
+    "day": "2021-12-27",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9229263&stockid=688623",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"利元亨投资\",\"role\":null,\"amount\":null},{\"name\":\"德弘联信\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-27",
+      "date_key": "2021-12-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "4621.0064万元",
+      "investors_json": "[{\"name\":\"无锡蜂云能创企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2600000000,\"basis\":\"实际出资\",\"source\":\"https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9229263&stockid=688623\"}},{\"name\":\"金华金开德弘联信毕方贰号投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1011006400,\"basis\":\"实际出资\",\"source\":\"https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9229263&stockid=688623\"}},{\"name\":\"惠州市利元亨投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1010000000,\"basis\":\"实际出资\",\"source\":\"https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9229263&stockid=688623\"}}]",
+      "date": "2021-12-27",
+      "date_key": "2021-12-27",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:04dd860e69bf2218f58dacde0db50364f34f1371a1bceef28aeba07ff906c9bc",
+    "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419",
+    "day": "2020-12-30",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东合创投\",\"role\":null,\"amount\":null},{\"name\":\"乾汇资本\",\"role\":null,\"amount\":null},{\"name\":\"国悦君安资本\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-30",
+      "date_key": "2020-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "11363.34万元",
+      "investors_json": "[{\"name\":\"苏州东合鼎元创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf\"}},{\"name\":\"苏州乾汇信立创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2400000000,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf\"}},{\"name\":\"苏州乾汇信业创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2100000000,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf\"}},{\"name\":\"苏州贤融聚辉企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2426540000,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf\"}},{\"name\":\"常熟福瑞登商务咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1436800000,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf\"}}]",
+      "date": "2020-12-30",
+      "date_key": "2020-12-30",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+    "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419",
+    "day": "2021-08-27",
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"中肃资本\",\"role\":null,\"amount\":null},{\"name\":\"久奕投资\",\"role\":null,\"amount\":null},{\"name\":\"仁发投资\",\"role\":null,\"amount\":null},{\"name\":\"华友控股\",\"role\":null,\"amount\":null},{\"name\":\"安元基金\",\"role\":null,\"amount\":null},{\"name\":\"晨道资本\",\"role\":null,\"amount\":null},{\"name\":\"智越投资\",\"role\":null,\"amount\":null},{\"name\":\"玉侨资本\",\"role\":null,\"amount\":null},{\"name\":\"超兴创投\",\"role\":null,\"amount\":null}]",
+      "date": "2021-08-27",
+      "date_key": "2021-08-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "14474.375万元",
+      "investors_json": "[{\"name\":\"平阳中肃创赢股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3100000000,\"basis\":\"实际出资\",\"source\":\"https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3\"}},{\"name\":\"安徽安元创新风险投资基金有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2499375000,\"basis\":\"实际出资\",\"source\":\"https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3\"}},{\"name\":\"嘉兴天雍股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2325000000,\"basis\":\"实际出资\",\"source\":\"https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3\"}},{\"name\":\"长兴国悦君安新兴产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"实际出资\",\"source\":\"https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3\"}},{\"name\":\"中信证券投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"实际出资\",\"source\":\"https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3\"}},{\"name\":\"苏辛（常熟）科技产业发展有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1550000000,\"basis\":\"实际出资\",\"source\":\"https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3\"}},{\"name\":\"昆山玉侨勇如创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"实际出资\",\"source\":\"https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3\"}}]",
+      "date": "2021-08-27",
+      "date_key": "2021-08-27",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:cca278b69a69341dd265d9836f90e88f6590893c43148d4cca7a475326cbe834",
+    "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419",
+    "day": "2024-01-21",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"华宝投资\",\"role\":null,\"amount\":null}]",
+      "date": "2024-01-21",
+      "date_key": "2024-01-21",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "10000万元",
+      "investors_json": "[{\"name\":\"宝武绿碳私募投资基金（上海）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf\"}}]",
+      "date": "2023-12-26",
+      "date_key": "2023-12-26",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:6409c3471b10cb31ac38f562d4250e6b3479f35ccf9cb1e988b9311c7eaab956",
+    "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419",
+    "day": "2025-06-25",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "expected": {
+      "round": "B+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"常熟国发创投\",\"role\":null,\"amount\":null},{\"name\":\"成都科创投集团\",\"role\":null,\"amount\":null},{\"name\":\"金雨茂物\",\"role\":null,\"amount\":null}]",
+      "date": "2025-06-25",
+      "date_key": "2025-06-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "4499.998056万元",
+      "investors_json": "[{\"name\":\"中新苏州工业园区创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2999998704,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf\"}},{\"name\":\"常熟吴越天使创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1499999352,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf\"}}]",
+      "date": "2025-06-10",
+      "date_key": "2025-06-10",
+      "date_kind": "发行人披露协议签署日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf"
+    ]
   }
 ]

@@ -3432,5 +3432,51 @@
     "sources": [
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_000179853604D93FB5E8156A50F3383F.pdf"
     ]
+  },
+  "f5a2a5a905ec6da5ebde1edd": {
+    "name": "壹连科技",
+    "registeredName": "深圳壹连科技股份有限公司",
+    "aliases": [
+      "深圳侨云科技股份有限公司",
+      "壹连科技301631"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2024-11-13/3fc31370-78c0-4317-9697-30c16ed9f190.PDF"
+    ]
+  },
+  "721f81dc8ed418fc50c0ae4e": {
+    "name": "双元科技",
+    "registeredName": "浙江双元科技股份有限公司",
+    "aliases": [
+      "浙江双元科技开发有限公司",
+      "双元科技688623"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9229263&stockid=688623",
+      "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf",
+      "https://www.mszq.com/cms/article/7162"
+    ]
+  },
+  "44bec79df805c212d1c4153e": {
+    "name": "浙江荣泰",
+    "registeredName": "浙江荣泰电工器材股份有限公司",
+    "aliases": [
+      "荣泰电工",
+      "浙江荣泰603119"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9367963&stockid=603119"
+    ]
+  },
+  "cddec4e45642e9f99e06a808": {
+    "name": "博涛智能",
+    "registeredName": "江苏博涛智能热工股份有限公司",
+    "aliases": [
+      "苏州博涛机电设备有限公司",
+      "博涛智能热工"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf"
+    ]
   }
 }

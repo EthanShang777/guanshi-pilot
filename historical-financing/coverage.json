@@ -8162,6 +8162,107 @@
         "腾远钴业2020年增资": "95dced21c11101000b526dae"
       },
       "batch": "2026-11-27-chendao-network-161.csv"
+    },
+    {
+      "institution": "宁波梅山保税港区超兴创业投资合伙企业（有限合伙）",
+      "checked_on": "2026-11-27",
+      "scope": "从既有四家被投的联合出资线索追溯宁波超兴、宜宾晨道和湖州舒瀚，反查企业历史及合伙关系",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-08-01/1225452228.PDF",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2024-11-13/3fc31370-78c0-4317-9697-30c16ed9f190.PDF",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9229263&stockid=688623",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9367963&stockid=603119",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3",
+        "https://static.cninfo.com.cn/finalpage/2025-06-10/1223825919.pdf",
+        "https://www.xxcytz.com/profile.html"
+      ],
+      "notes": {
+        "followup_sources": [
+          "https://static.cninfo.com.cn/finalpage/2026-08-01/1225452228.PDF",
+          "https://disc.static.szse.cn/disc/disk03/finalpage/2024-11-13/3fc31370-78c0-4317-9697-30c16ed9f190.PDF",
+          "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf",
+          "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9229263&stockid=688623",
+          "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9367963&stockid=603119",
+          "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+          "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf",
+          "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202609041829020493&pageIndex=3",
+          "https://static.cninfo.com.cn/finalpage/2025-06-10/1223825919.pdf",
+          "https://www.xxcytz.com/profile.html"
+        ],
+        "relatedInvestmentPartnership": {
+          "name": "宁波梅山保税港区超兴创业投资合伙企业（有限合伙）",
+          "unifiedCredit": "91330206MA2AENU770",
+          "kind": "自有资金创投合伙企业",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225452228.PDF",
+          "pages": "第120至123页",
+          "crosscheck": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-11-13/3fc31370-78c0-4317-9697-30c16ed9f190.PDF",
+          "history": [
+            {
+              "date": "2017-10",
+              "capitalCny": 100000000,
+              "gp": {
+                "name": "黄锟",
+                "contributionCny": 1000000
+              },
+              "lp": {
+                "name": "吴岑",
+                "contributionCny": 99000000
+              }
+            },
+            {
+              "date": "2020-09",
+              "capitalCny": 200000000,
+              "gp": {
+                "name": "黄锟",
+                "contributionCny": 2000000
+              },
+              "lp": {
+                "name": "吴岑",
+                "contributionCny": 198000000
+              }
+            },
+            {
+              "date": "2022-07",
+              "capitalCny": 300000000,
+              "gp": {
+                "name": "黄锟",
+                "contributionCny": 3000000
+              },
+              "lp": {
+                "name": "吴岑",
+                "contributionCny": 297000000
+              }
+            }
+          ]
+        },
+        "caveats": [
+          "壹连8800万元仅包括长江晨道和宁波超兴外部出资，另有同批职工持股平台897.60万元。未用四舍五入股份反推单笔支付。",
+          "双元9月和12月实际现金分开，12月同日701.5万元为老股。荣泰1.3亿元含宜宾晨道及超兴，投后估值16.25亿元。",
+          "博涛8月新资与同日老股分开，12月四家外部现金2.38亿元另立。2020年12月及2025年6月两条原融资记录按法披修正为老股，补2025年3月另一批受让。2025年9月补偿性零对价股份不计入投资额。",
+          "宜宾晨道认缴34.01亿元、湖州舒瀚9010万元，累计实缴和可投余额仍需单独证据。宁波超兴按自有资金创投主体留合伙人历史，不纳入已备案基金。"
+        ]
+      },
+      "events": {
+        "壹连2021年外部增资": "d5353054f9104d1460b35a40",
+        "壹连公开发行": "e43c71cb73cf7b10160d2a3b",
+        "双元9月增资": "061eab81bc2f7719a74cb51a",
+        "双元12月老股": "3177fd1ee5724c99ba50d405",
+        "双元公开发行": "49199ed378405f4cf16924f4",
+        "双元12月新资": "7588270fcdd9fe65322f97ed",
+        "荣泰2021年外部增资": "d51df58e45be66e713c0afeb",
+        "荣泰公开发行": "7ffa37fa31ce62bd7d4e8c1b",
+        "博涛2020年老股": "367aa18e9123971102c2a23e",
+        "博涛8月新资": "4bb9f11f22326336729f7172",
+        "博涛8月老股": "b3da6054b0bed619e39fd169",
+        "博涛12月新资": "eab2fcbfd67f368c6550238d",
+        "博涛宝武新资": "23196b3d943c176e58cb7e3c",
+        "博涛2025年3月老股": "bbc1b94b5d05302d2c7dac56",
+        "博涛2025年6月老股": "9ced7568d41c20d7dacf5194"
+      },
+      "batch": "2026-11-27-chaoxing-network-162.csv"
     }
   ]
 }

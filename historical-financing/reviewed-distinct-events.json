@@ -397,5 +397,101 @@
     },
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_0001766494C7023FC3176F328564EC3F.pdf",
     "reason": "验资增资与同时期老股协议分别核实"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:54ffedd03d2d5640d87693",
+      "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1"
+    },
+    "existing": {
+      "event_id": "financing_event:24d51704c6dc5a0d58f87e99968d6e46aa977c590e0ecbc28f889dfb9ff6e5ce",
+      "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1"
+    },
+    "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf",
+    "reason": "招股意向书分别确认工商增资和宁波和歆受让老股"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:24d51704c6dc5a0d58f87e99968d6e46aa977c590e0ecbc28f889dfb9ff6e5ce",
+      "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:54ffedd03d2d5640d87693",
+      "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1"
+    },
+    "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf",
+    "reason": "招股意向书分别确认工商增资和宁波和歆受让老股"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c5c93db53d425efb19cb94",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "工商登记同日，老股协议和七家增资为两个现金流"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c5c93db53d425efb19cb94",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "工商登记同日，老股协议和七家增资为两个现金流"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:01e005ee1d221c6b8e5087",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "八月原有限责任公司与十二月股份公司不同增资，付款方和注册资本增量不同"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:01e005ee1d221c6b8e5087",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "八月原有限责任公司与十二月股份公司不同增资，付款方和注册资本增量不同"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:840a1714f3f1e9c3d53e55",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "financing_event:6409c3471b10cb31ac38f562d4250e6b3479f35ccf9cb1e988b9311c7eaab956",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "三月及六月为不同股东转让协议，受让方和支付口径不同"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:6409c3471b10cb31ac38f562d4250e6b3479f35ccf9cb1e988b9311c7eaab956",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:840a1714f3f1e9c3d53e55",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "三月及六月为不同股东转让协议，受让方和支付口径不同"
   }
 ]
