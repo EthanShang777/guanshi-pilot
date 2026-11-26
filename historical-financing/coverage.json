@@ -6016,6 +6016,92 @@
           "same_month_name_candidate": 448
         }
       }
+    },
+    {
+      "institution": "MaxBC十月首周及ANA未来创投基金",
+      "checked_on": "2026-11-26",
+      "scope": "公开目录首周日期与发行人及投资方原件；基金关联来自管理人公开文件，金额均保持原币",
+      "sources": [
+        "https://www.daptic.com/resource/daptic-raises-22m-from-canvas-ventures-ia-ventures-8vc-and-others-to-bring-compliance-into-product-development/",
+        "https://prtimes.jp/main/html/rd/p/000000003.000170173.html",
+        "https://www.xplore.vc/post/startup---joe-ai-leve-2-millions-euros-construire-plateforme-ia-reference-immobilier-europe",
+        "https://globalbrains.com/posts/global-brain-partners-with-ana-holdings-on-its-corporate-venture-capital-fund",
+        "https://globalbrains.com/posts/invested-in-bluewx",
+        "https://globalbrains.com/posts/invested-in-xperisus",
+        "https://globalbrains.com/en/posts/follow-on-investment-in-jij"
+      ],
+      "candidate_count": 24,
+      "existing_count": 7,
+      "new_count": 19,
+      "new_october_count": 7,
+      "pending_count": 3,
+      "batch": "2026-11-26-early-october-142.csv",
+      "events": {
+        "Daptic A": "6018decb676ce9025f9d3ea2",
+        "FRANK新一轮": "797667abc648dec39677add4",
+        "GX MINERALS A++": "a81bf9def028fe8cac3b6068",
+        "GX MINERALS A": "9eac7dd16dacf0e6fe6ebe68",
+        "Joe AI融资": "1a2901d676efe8ed58dfceba",
+        "Unveilr种子前": "7d2d1f74afe9701c62014abc",
+        "Supabase F": "17ed4ce59239ba28085721fc",
+        "Supabase F追加": "fecc7026b0b87d8f83bb33c9",
+        "Arceus融资": "bd6350e9915c794fb875f0da",
+        "Ravel种子": "937ca45d891bf2dd433ecef3",
+        "Vytalyou Pre-A": "7169acf2732bcf9f40fb2708",
+        "BlueWX A追加": "7ad5cbb81a79b8dd2c4afef3",
+        "BlueWX A": "d65334b23e35e961fde7a539",
+        "mutex A": "7f3a876b963fab19c1abaee4",
+        "AlloDirect种子前": "b300f7a7212a17478bf86d40",
+        "Charikaty种子前": "f90dfb809f5e2a24c0abb7fa",
+        "Amelle首轮": "b41f12d4e72528ea66e7eb71",
+        "Xperisus融资": "71837b9b86955c9b5e75d237",
+        "Jij追加": "b4f472de7f5da058d608c75e",
+        "Jaritalk已有": "d17f664fcca8f4e1309130c7",
+        "Kuro已有": "debc5c280987b659d1f7e77f",
+        "Flow已有": "2764f172c9964f409cf02918",
+        "Kanu已有": "35b6f4e4841c0191d9f73933",
+        "Metaview已有": "354224a63b8789902b52fc48",
+        "Miter已有": "e7243755f2813aff74467d99",
+        "OuterSignal已有": "67c4c2a2aa3e02f1cdae8bed"
+      },
+      "fields_on_hold": {
+        "Good Tape": {
+          "status": "增资与管理层收购结构待拆分",
+          "source": "https://bootstrapping.dk/good-tape-koeber-zetland-founders-ud-og-faar-zendesk-profil-ombord/"
+        },
+        "MNT-Halan": {
+          "status": "公开交易为债权证券化，股权事件另核",
+          "source": "https://www.arabfinance.com/en/news/newdetails/mnt-halan-completes-three-securitizations-worth-over-egp-4-billion"
+        },
+        "Jazz": {
+          "status": "10月汇总为3月两轮旧闻，法律主体与各轮日期待核",
+          "source": "https://jazz.security/blog/news/jazz-comes-out-of-stealth-with-61m-to-remaster-data-loss-prevention/"
+        }
+      },
+      "portfolio": {
+        "name": "AH-GB未来創造投資事業有限責任組合",
+        "brand": "ANA Future Frontier Fund",
+        "manager": "Global Brain",
+        "gp": "グローバル・ブレイン株式会社",
+        "lp": "ANAホールディングス株式会社",
+        "size": {
+          "currency": "JPY",
+          "value": 8000000000,
+          "basis": "管理总规模"
+        },
+        "source": "https://globalbrains.com/posts/global-brain-partners-with-ana-holdings-on-its-corporate-venture-capital-fund",
+        "asOf": "2024-04-09",
+        "investments": [
+          "d65334b23e35e961fde7a539",
+          "71837b9b86955c9b5e75d237",
+          "b4f472de7f5da058d608c75e"
+        ],
+        "pending": [
+          "逐笔基金出资",
+          "当前实缴",
+          "可投余额"
+        ]
+      }
     }
   ]
 }

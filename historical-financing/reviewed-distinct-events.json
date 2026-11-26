@@ -65,5 +65,17 @@
     },
     "source": "https://www.chinaventure.com.cn/news/114-20261126-394199.html",
     "compared_source": "https://www.chinaventure.com.cn/flash/20261126-90300.html"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e2cec232051ca8b374cd75",
+      "company_id": "co:full_legal_name:fe5810fdb89972653f6ea9bc99640444"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e8ebaf6ae4356b104a98adf",
+      "company_id": "co:historical-disclosure:14ce7672aaca7a682b2d385"
+    },
+    "source": "https://www.xplore.vc/post/startup---joe-ai-leve-2-millions-euros-construire-plateforme-ia-reference-immobilier-europe",
+    "separate_identity_source": "https://tether.io/news/tether-invests-in-aisa-to-expand-its-push-into-ai-powered-payments-and-programmable-money/"
   }
 ]
