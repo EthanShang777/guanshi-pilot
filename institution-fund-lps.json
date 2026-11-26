@@ -8463,5 +8463,565 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "2125eac142a0ecc739542646",
+    "fundName": "无锡高投毅达鼎祺人才创业投资合伙企业（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/603416_20241226_LPJF.pdf",
+      "date": "2024-12-26",
+      "dateKind": "公开文件披露日",
+      "issuer": "信捷电气募集说明书",
+      "pages": "7-1-123至124",
+      "lpSources": [
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202407/046038_20240730_JKT8.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202607141826955017_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2024-11-23/1221818332.PDF"
+      ],
+      "lpScope": "公开16名LP和一名GP，认缴规模与逐家份额相符；弘捷尚未缴纳份额的承接方待较晚文件。",
+      "generalPartners": [
+        {
+          "name": "无锡毅达汇德股权投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "creditCode": "91320211MA7N7D3DXU",
+      "filingCode": "SVS401",
+      "filingDate": "2022-07-29",
+      "incorporatedOn": "2022-05-10",
+      "managerLegalName": "南京毅达股权投资管理企业（有限合伙）"
+    },
+    "partners": [
+      {
+        "name": "无锡弘捷投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "ee40ce94255837136a3e8056"
+      },
+      {
+        "name": "江苏高科技投资集团有限公司",
+        "disclosedContributionCny": 145000000,
+        "disclosedPercent": 29,
+        "existingInstitution": "f2ce5ea5a6d1317f7d7dd69f"
+      },
+      {
+        "name": "无锡丰润投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "f61c511b1a327526e4f9e57e"
+      },
+      {
+        "name": "无锡鼎祺创芯投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "8e26fae121a9b472f4b98a71"
+      },
+      {
+        "name": "无锡鼎祺金马投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "e307d1c8bf1afffe6e43c576"
+      },
+      {
+        "name": "无锡鼎祺山水投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "8ade735cb5620386af951bd0"
+      },
+      {
+        "name": "苏州市汇涓为川企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "18763da176d01767bde3d03e"
+      },
+      {
+        "name": "南京毅达汇员鼎祺创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "f34ced82c2158fc992e87d33"
+      },
+      {
+        "name": "袁晓峰",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 3,
+        "existingInstitution": "7d0a7e9ddeab93ddec983b1a"
+      },
+      {
+        "name": "泰州市盛毅企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 3,
+        "existingInstitution": "8a14a58f4fcab0ad67e28542"
+      },
+      {
+        "name": "葛林风",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "efb69df272bb06a27f6bf792"
+      },
+      {
+        "name": "杨丽鸿",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "56cc9a4b365b5d55b1d68f14"
+      },
+      {
+        "name": "张小红",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "06eee72fa7d72ca43048394b"
+      },
+      {
+        "name": "杨荣锦",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "775078980d8772035576fd67"
+      },
+      {
+        "name": "无锡贝斯特投资有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "3172f6b59275f7fa596523ef"
+      },
+      {
+        "name": "上海朝茶夕酒投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "83928cfb77be908e337889aa"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "047f5e72208da55281427016",
+    "fundName": "江苏高投毅达中小贰号创业投资合伙企业（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 4000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf",
+      "date": "2026-03-26",
+      "dateKind": "公开文件披露日",
+      "issuer": "赛英电子北交所招股说明书",
+      "pages": "1-1-34",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-26/1223318901.PDF"
+      ],
+      "lpScope": "2026年1月31日10名LP、1名GP，认缴40亿元；国家中小企业发展基金认缴10.5亿元。",
+      "generalPartners": [
+        {
+          "name": "南京毅达汇中创业投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 40000000
+        }
+      ],
+      "creditCode": "91320114MA273RNX30",
+      "incorporatedOn": "2021-09-18",
+      "managerLegalName": "南京毅达汇中创业投资管理合伙企业（有限合伙）",
+      "partnershipAsOf": "2026-01-31"
+    },
+    "partners": [
+      {
+        "name": "国家中小企业发展基金有限公司",
+        "disclosedContributionCny": 1050000000,
+        "disclosedPercent": 26.25,
+        "existingInstitution": "e2d997f4c6821b0ff35a44c6"
+      },
+      {
+        "name": "江苏高科技投资集团有限公司",
+        "disclosedContributionCny": 1015000000,
+        "disclosedPercent": 25.375,
+        "existingInstitution": "f2ce5ea5a6d1317f7d7dd69f"
+      },
+      {
+        "name": "南京市雨花台区创新投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 15,
+        "existingInstitution": "c43b945a677422a3217aac35"
+      },
+      {
+        "name": "南京毅达中小壹号创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 484000000,
+        "disclosedPercent": 12.1,
+        "existingInstitution": "6c26d54de42e1c2f9c717d08"
+      },
+      {
+        "name": "南京毅达贰号中小创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 351000000,
+        "disclosedPercent": 8.775,
+        "existingInstitution": "7f3c06240b42586e9f364e02"
+      },
+      {
+        "name": "江苏省政府投资基金（有限合伙）",
+        "disclosedContributionCny": 175000000,
+        "disclosedPercent": 4.375,
+        "existingInstitution": "5a73d13ddb9a7bf70b3cbfb4"
+      },
+      {
+        "name": "江苏凤凰出版传媒集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "defd12e4a9aa959e2d4c2245"
+      },
+      {
+        "name": "南京毅达汇员中小企业创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "fc3309040c3246277e94f1e3"
+      },
+      {
+        "name": "西藏爱达汇承私募基金管理有限公司",
+        "disclosedContributionCny": 55000000,
+        "disclosedPercent": 1.375,
+        "existingInstitution": "8457ed296692c13452e43a09"
+      },
+      {
+        "name": "江苏省广播电视集团有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 1.25,
+        "existingInstitution": "7ac769672e61ebf15bf000d0"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "84174aa1349cf3331728f0a5",
+    "fundName": "昆山毅达玉澄创业投资合伙企业（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf",
+      "date": "2026-03-26",
+      "dateKind": "公开文件披露日",
+      "issuer": "赛英电子北交所招股说明书",
+      "pages": "1-1-33",
+      "lpSources": [],
+      "lpScope": "2026年1月31日4名LP、1名GP，认缴5亿元。",
+      "generalPartners": [
+        {
+          "name": "昆山毅达玉澄股权投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "creditCode": "91320583MACYHKFN0L",
+      "incorporatedOn": "2023-09-20",
+      "managerLegalName": "昆山毅达玉澄股权投资管理合伙企业（有限合伙）",
+      "partnershipAsOf": "2026-01-31"
+    },
+    "partners": [
+      {
+        "name": "南京毅达汇澄创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 195000000,
+        "disclosedPercent": 39,
+        "existingInstitution": "bdd632d657ed0280993e3fc4"
+      },
+      {
+        "name": "昆山市创铱科技产业发展合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 40,
+        "existingInstitution": "e611994e69e85705d5bf4ce8"
+      },
+      {
+        "name": "昆山高新创业投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "eb03ccfd6f1432e7f329dfbb"
+      },
+      {
+        "name": "昆山开发区光控数字产业母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "799ed1202b8b6a518aaca473"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f547521d9280fe25313e43cb",
+    "fundName": "宣城安华创新股权投资合伙企业（有限合伙）",
+    "managerName": "华安嘉业投资管理有限公司",
+    "managerId": "38a947b21e41b0407dccd11f",
+    "sizeCny": 697000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225591575.PDF",
+      "date": "2026-10-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "晶合集成2026-040号公告",
+      "pages": "第13页",
+      "lpSources": [],
+      "lpScope": "安徽省中小企业发展基金是该基金LP，认缴26%；公告列4家LP和1家GP。",
+      "generalPartners": [
+        {
+          "name": "华安嘉业投资管理有限公司",
+          "disclosedContributionCny": 27880000
+        }
+      ],
+      "creditCode": "91341822MA8PTXBR36",
+      "incorporatedOn": "2022-12-14",
+      "managerLegalName": "华安嘉业投资管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "安徽省中小企业发展基金有限公司",
+        "disclosedContributionCny": 181220000,
+        "disclosedPercent": 26,
+        "existingInstitution": "04538c69b4e13f1ce13d5fbf"
+      },
+      {
+        "name": "广德桐汭股权投资有限公司",
+        "disclosedContributionCny": 174250000,
+        "disclosedPercent": 25,
+        "existingInstitution": "864941eb7812792168206be3"
+      },
+      {
+        "name": "宣城市产业链投资引导基金有限公司",
+        "disclosedContributionCny": 174250000,
+        "disclosedPercent": 25,
+        "existingInstitution": "c9edcca95cffb8572c4b4ec4"
+      },
+      {
+        "name": "安徽省混合所有制改革基金有限公司",
+        "disclosedContributionCny": 139400000,
+        "disclosedPercent": 20,
+        "existingInstitution": "d0f61451e4c3d520b299edbb"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "5816940297ee8f2ddc6b07b7",
+    "fundName": "国中（深圳）三期中小企业发展私募股权投资基金合伙企业（有限合伙）",
+    "managerName": "国中资本",
+    "managerId": "52ea7e7f06bbf72ee914f287",
+    "sizeCny": 4000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-22/1223626992.PDF",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "天智航2025年5月增资公告",
+      "pages": "第3至4页",
+      "lpSources": [],
+      "lpScope": "披露7名LP、1名GP，认缴40亿元。",
+      "generalPartners": [
+        {
+          "name": "深圳国中常荣资产管理有限公司",
+          "disclosedContributionCny": 40000000
+        }
+      ],
+      "creditCode": "91440300MADQ22844U",
+      "incorporatedOn": "2024-09-06",
+      "managerLegalName": "深圳国中常荣资产管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "深圳市宝安区产业投资引导基金有限公司",
+        "disclosedContributionCny": 1200000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "6cb8c5a0c669c35d1f954559"
+      },
+      {
+        "name": "国家中小企业发展基金有限公司",
+        "disclosedContributionCny": 1200000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "e2d997f4c6821b0ff35a44c6"
+      },
+      {
+        "name": "安徽省中小企业发展二期基金有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 12.5,
+        "existingInstitution": "5551f643b7bebae71d6743a8"
+      },
+      {
+        "name": "成都蓉创精新股权投资基金有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "1807d79a5159ee5c52974436"
+      },
+      {
+        "name": "鄂尔多斯市创新投资集团有限公司",
+        "disclosedContributionCny": 260000000,
+        "disclosedPercent": 6.5,
+        "existingInstitution": "051614caac3b77afc729013f"
+      },
+      {
+        "name": "南京浦口智思集成电路产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "c61a6cf29aa04c8c853a5517"
+      },
+      {
+        "name": "陕西秦创原科技创新投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "5604c7f4d3dd05d321f59370"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1c93523e86792b6d1da51696",
+    "fundName": "安徽国元种子三期股权投资基金合伙企业（有限合伙）",
+    "managerName": "安徽国元基金",
+    "managerId": "e9671e52d0a0dc85ac42d843",
+    "sizeCny": 160000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-22/1223626992.PDF",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "天智航2025年5月增资公告",
+      "pages": "第5页",
+      "lpSources": [],
+      "lpScope": "披露4名LP、1名GP，认缴1.6亿元。",
+      "generalPartners": [
+        {
+          "name": "安徽国元基金管理有限公司",
+          "disclosedContributionCny": 30000000
+        }
+      ],
+      "creditCode": "91340100MAE8KWKM34",
+      "incorporatedOn": "2024-12-24",
+      "managerLegalName": "安徽国元基金管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "安徽国元种子投资基金有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 31.25,
+        "existingInstitution": "eb051e15682be0700e84b96f"
+      },
+      {
+        "name": "安徽省股权服务有限责任公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 18.75,
+        "existingInstitution": "9acc737a5755ddcde9215346"
+      },
+      {
+        "name": "安徽国元投资有限责任公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 18.75,
+        "existingInstitution": "ded47c130be8a1d258ad5eb8"
+      },
+      {
+        "name": "安徽国元资本有限责任公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 12.5,
+        "existingInstitution": "c5e27c070716e78e9246a994"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "ce1e9ea50fe9526f99b0f1eb",
+    "fundName": "合肥产投大健康种子基金合伙企业（有限合伙）",
+    "managerName": "合肥产投国正创业投资有限公司",
+    "managerId": "d39d69681eec846367e9fa07",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-22/1223626992.PDF",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "天智航2025年5月增资公告",
+      "pages": "第6至7页",
+      "lpSources": [],
+      "lpScope": "披露5名LP、1名GP，认缴1亿元。",
+      "generalPartners": [
+        {
+          "name": "合肥产投国正创业投资有限公司",
+          "disclosedContributionCny": 100000
+        }
+      ],
+      "creditCode": "91340111MADG4MEL8U",
+      "incorporatedOn": "2024-03-30",
+      "managerLegalName": "合肥产投国正创业投资有限公司"
+    },
+    "partners": [
+      {
+        "name": "科大硅谷引导基金（安徽）合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "7bb721dd87cd492b0898d5be"
+      },
+      {
+        "name": "合肥市种子基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "2c57b396157b294de550e9ac"
+      },
+      {
+        "name": "合肥海恒科创产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": 25,
+        "existingInstitution": "18337632d15d9f4b1e38b0dc"
+      },
+      {
+        "name": "合肥产投国正股权投资有限公司",
+        "disclosedContributionCny": 9900000,
+        "disclosedPercent": 9.9,
+        "existingInstitution": "aff79b5b00b1ec2c5205dfe4"
+      },
+      {
+        "name": "合肥综合性科学中心大健康研究院有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "f1795d9f0d3efacfb0d1acdd"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "e25e3d6ea5bb57b72ba0fe73",
+    "fundName": "厦门汇杰私募股权投资基金合伙企业（有限合伙）",
+    "managerName": "厦门火炬集团创业投资有限公司",
+    "managerId": "b009e7dbf959920a5f96d90b",
+    "sizeCny": 250000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-07-05/1224085490.PDF",
+      "date": "2025-07-05",
+      "dateKind": "公开文件披露日",
+      "issuer": "杰华特2025-037号公告",
+      "pages": "第2至4页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-08-27/1225513670.PDF"
+      ],
+      "lpScope": "部分名单。杰华特作为LP认缴1.25亿元。公告列两名执行事务合伙人和共同管理方；其余合伙人待原件。",
+      "generalPartners": [
+        {
+          "name": "厦门火炬集团创业投资有限公司"
+        },
+        {
+          "name": "厦门汇佳聚才企业管理合伙企业（有限合伙）"
+        }
+      ],
+      "creditCode": "91350200MAED3MGW45",
+      "incorporatedOn": "2025-03-19",
+      "managerLegalName": "厦门火炬集团创业投资有限公司"
+    },
+    "partners": [
+      {
+        "name": "杰华特微电子股份有限公司",
+        "disclosedContributionCny": 125000000,
+        "disclosedPercent": 50,
+        "existingInstitution": "b5cfc466cc1736a1f452a04c"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

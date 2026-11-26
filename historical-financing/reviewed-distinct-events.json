@@ -1165,5 +1165,29 @@
     },
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf",
     "reason": "同一工商变更日的1.8亿元新增资本和1.5亿元已持股东股权受让，发行人分表披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:55cd244f733afefbbe34c5",
+      "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6ecda7206a345ec2cb6975",
+      "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf",
+    "reason": "同日登记的6000万元现金增资及5070万元股份转让，依发行人原件独立列示"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6ecda7206a345ec2cb6975",
+      "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:55cd244f733afefbbe34c5",
+      "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf",
+    "reason": "同日登记的6000万元现金增资及5070万元股份转让，依发行人原件独立列示"
   }
 ]
