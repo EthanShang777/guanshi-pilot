@@ -4698,5 +4698,105 @@
     "sources": [
       "https://money.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=7415101&stockid=002297"
     ]
+  },
+  "1f6a0ac4e0f191165dd679f1": {
+    "name": "顺义科技",
+    "registeredName": "沈阳顺义科技股份有限公司",
+    "aliases": [
+      "沈阳顺义科技有限公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF"
+    ]
+  },
+  "fe3d949d138dd0478edb64fa": {
+    "name": "雅迅智联",
+    "registeredName": "厦门雅迅智联科技股份有限公司",
+    "aliases": [
+      "厦门雅迅网络股份有限公司",
+      "厦门卫士通网络有限公司",
+      "雅迅网络"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512231806510745_1.pdf"
+    ]
+  },
+  "89b2d687a09202a0ed9d039e": {
+    "name": "国科军工",
+    "registeredName": "江西国科军工集团股份有限公司",
+    "aliases": [
+      "江西国科军工集团有限公司",
+      "江西国科军工产业有限公司",
+      "688543"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001204_20230425_182T.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001204_20221123_MFY7.pdf",
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9300666&stockid=688543"
+    ]
+  },
+  "b5228b54c4f2a69ae589f780": {
+    "name": "特沃咨询",
+    "registeredName": "特沃（上海）企业管理咨询有限公司",
+    "aliases": [
+      "上海特沃"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-04-19/1212964481.PDF"
+    ]
+  },
+  "6d8e1e43c241492b706eef88": {
+    "name": "建设工业",
+    "registeredName": "建设工业集团（云南）股份有限公司",
+    "aliases": [
+      "云南西仪工业股份有限公司",
+      "西仪股份",
+      "002265"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-05-18/1216842305.PDF"
+    ]
+  },
+  "5ac513755831cde4d9f2bf8c": {
+    "name": "重庆建设工业",
+    "registeredName": "重庆建设工业（集团）有限责任公司",
+    "aliases": [
+      "重庆建设工业有限责任公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-05-18/1216842305.PDF"
+    ]
+  },
+  "e07c82a4d6ce2e8070242076": {
+    "name": "日上集团",
+    "registeredName": "厦门日上集团股份有限公司",
+    "aliases": [
+      "002593"
+    ],
+    "sources": [
+      "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2021/2021-9/2021-09-07/7527795.PDF"
+    ]
+  },
+  "5b3f74d82d8a35194826f9dd": {
+    "name": "南特科技",
+    "registeredName": "珠海市南特金属科技股份有限公司",
+    "aliases": [
+      "珠海市南特铸造股份有限公司",
+      "920124",
+      "838401"
+    ],
+    "sources": [
+      "https://www.bse.cn/disclosure/2025/2025-11-05/1762329134_281505.pdf"
+    ]
+  },
+  "8d7c04ad53b657411721a70b": {
+    "name": "上海瀚讯",
+    "registeredName": "上海瀚讯信息技术股份有限公司",
+    "aliases": [
+      "300762"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=80554897&gather=1&id=7230013"
+    ]
   }
 }

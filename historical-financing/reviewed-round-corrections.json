@@ -7142,5 +7142,181 @@
     "additional_sources": [
       "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:98ab95c6d262159decc9674b652da9eedb306c1979e2f11459288f0b6859eb7f",
+    "company_id": "co:full_legal_name:488ddbb3b03fe7a1abc2184105fe86b1",
+    "day": "2017-11-04",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"方元资产\",\"role\":null,\"amount\":null},{\"name\":\"辽宁省产业投资引导基金\",\"role\":null,\"amount\":null}]",
+      "date": "2017-11-04",
+      "date_key": "2017-11-04",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "500万元",
+      "investors_json": "[{\"name\":\"辽宁省产业（创业）投资引导基金管理中心\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF\"}}]",
+      "date": "2017-11",
+      "date_key": "2017-11-01",
+      "date_kind": "发行人披露增资完成月份"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170977.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:5d7c729a2c17aedec88d13fc07759a1d928222cbde94fdfbcf717ff208da2ec2",
+    "company_id": "co:full_legal_name:488ddbb3b03fe7a1abc2184105fe86b1",
+    "day": "2021-04-08",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中兵顺景\",\"role\":null,\"amount\":null},{\"name\":\"嘉瑞融金投资\",\"role\":null,\"amount\":null},{\"name\":\"辽宁德润资本\",\"role\":null,\"amount\":null}]",
+      "date": "2021-04-08",
+      "date_key": "2021-04-08",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "15000万元",
+      "investors_json": "[{\"name\":\"中兵国调（厦门）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":11000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF\"}},{\"name\":\"辽宁润合股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF\"}},{\"name\":\"鹰潭嘉瑞融丰股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF\"}},{\"name\":\"杭州雅琪格投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF\"}}]",
+      "date": "2021-04-08",
+      "date_key": "2021-04-08",
+      "date_kind": "增资决议日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170977.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:5d6c21b9a68d6c5b1662dbac1d0e46ef117030d14e44bf8d8375e79c51ea81f5",
+    "company_id": "co:full_legal_name:488ddbb3b03fe7a1abc2184105fe86b1",
+    "day": "2021-06-30",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"海通新能源\",\"role\":null,\"amount\":null}]",
+      "date": "2021-06-30",
+      "date_key": "2021-06-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"鹰潭嘉瑞融丰股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"辽宁海通新动能股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"辽宁中德产业股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null}]",
+      "date": "2021-06-30",
+      "date_key": "2021-06-30",
+      "date_kind": "发行人披露股份转让协议日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170977.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:175b38887add67bf7ce022128bf58acddb626cce8c0165452674b5284052ea19",
+    "company_id": "co:full_legal_name:488ddbb3b03fe7a1abc2184105fe86b1",
+    "day": "2023-12-13",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"和生中德\",\"role\":null,\"amount\":null}]",
+      "date": "2023-12-13",
+      "date_key": "2023-12-13",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"辽宁盛京英才发展创业投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null}]",
+      "date": "2023-12",
+      "date_key": "2023-12-01",
+      "date_kind": "发行人披露股份转让完成月份"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170977.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:72c77fbe6ac12327dc081bb55f4ab34e5b3cced78a9f4794529aa78d1efb1071",
+    "company_id": "co:full_legal_name:091492251f677e828aa17ea469bfa566",
+    "day": "2015-12-30",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001204_20230425_182T.pdf",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"泰豪科技\",\"role\":null,\"amount\":null}]",
+      "date": "2015-12-30",
+      "date_key": "2015-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"南昌嘉晖投资管理中心（有限合伙）\",\"role\":\"受让方\",\"amount\":null}]",
+      "date": "2015-12",
+      "date_key": "2015-12-01",
+      "date_kind": "发行人披露股份转让完成月份"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001204_20221123_MFY7.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:ea9975cc840ac3123714ce488a1e85c20e08d700229962f9e3636732fdb7d667",
+    "company_id": "co:full_legal_name:091492251f677e828aa17ea469bfa566",
+    "day": "2019-12-25",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001204_20221123_MFY7.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"井冈山投资基金\",\"role\":null,\"amount\":null},{\"name\":\"盛世景\",\"role\":null,\"amount\":null}]",
+      "date": "2019-12-25",
+      "date_key": "2019-12-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "13000万元",
+      "investors_json": "[{\"name\":\"广东温氏投资有限公司\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":7140000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001204_20221123_MFY7.pdf\"}},{\"name\":\"珠海横琴温氏肆号股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":2600000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001204_20221123_MFY7.pdf\"}},{\"name\":\"横琴齐创共享股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":260000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001204_20221123_MFY7.pdf\"}},{\"name\":\"广州盛世聚鑫股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001204_20221123_MFY7.pdf\"}},{\"name\":\"王文庆\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001204_20221123_MFY7.pdf\"}}]",
+      "date": "2020-04-21",
+      "date_key": "2020-04-21",
+      "date_kind": "发行人披露工商备案日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001204_20230425_182T.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:86f22f043d2b10aaf122ded1fff63ea8660de41123308abf667ecf54c3b49f7d",
+    "company_id": "co:full_legal_name:9599d5195330b4a47d4627356ca106c6",
+    "day": "2022-12-30",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-05-18/1216842305.PDF",
+    "expected": {
+      "round": "定向增发",
+      "amount": "42.65亿人民币",
+      "investors_json": "[{\"name\":\"兵器装备集团\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-30",
+      "date_key": "2022-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "42.65亿人民币",
+      "investors_json": "[]",
+      "date": "2022-12-30",
+      "date_key": "2022-12-30",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9068221&stockid=002265",
+      "https://static.cninfo.com.cn/finalpage/2022-12-08/1215294405.PDF"
+    ]
   }
 ]

@@ -13872,5 +13872,584 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "18bd15081e7160fa71cdbf8a",
+    "fundName": "中兵国调（厦门）股权投资基金合伙企业（有限合伙）",
+    "managerName": "中兵顺景股权投资管理有限公司",
+    "managerId": "a525bed84db72f3e1fb20f4e",
+    "sizeCny": 8000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+      "date": "2026-06-12",
+      "dateKind": "公开文件披露日",
+      "issuer": "北方长龙重大资产购买报告书",
+      "pages": "第74—81页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366243.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202509231749146234_1.pdf",
+        "https://dataclouds.cninfo.com.cn/sjother2/bse_onmarket/bse/2026/20260525/9189ca9a50baae2d87273115dabdee35.pdf"
+      ],
+      "lpScope": "14名LP和1名GP，参与者均为本次报告所列，2024年9月先后变更两次。汇总实缴待核。",
+      "generalPartners": [
+        {
+          "name": "中兵顺景股权投资管理有限公司",
+          "disclosedContributionCny": 50000000
+        }
+      ],
+      "managerLegalName": "中兵顺景股权投资管理有限公司",
+      "fundRegistration": "SGQ645",
+      "filingDate": "2019-07-09",
+      "managerRegistration": "P1069495",
+      "currentRegisteredName": "兵景智造领航（厦门）股权投资基金合伙企业（有限合伙）",
+      "aliases": [
+        "中兵国调（深圳）股权投资基金合伙企业（有限合伙）",
+        "中兵国调",
+        "兵景智造领航"
+      ],
+      "registeredNameEffective": "2026-04-30",
+      "creditCode": "91440300MA5FJC145J",
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2019-03",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+          "registeredCny": 3955000000,
+          "partners": [
+            {
+              "name": "中兵顺景股权投资管理有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 1.26
+            },
+            {
+              "name": "中国国有企业结构调整基金股份有限公司",
+              "disclosedContributionCny": 2900000000,
+              "disclosedPercent": 73.33
+            },
+            {
+              "name": "中兵金盈（宁波）股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": 25.28
+            },
+            {
+              "name": "宁波泰竑鑫邺股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 5000000,
+              "disclosedPercent": 0.13
+            }
+          ]
+        },
+        {
+          "asOf": "2021-03",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+          "registeredCny": 8000000000,
+          "partners": [
+            {
+              "name": "中兵顺景股权投资管理有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 0.63
+            },
+            {
+              "name": "中国国有企业结构调整基金股份有限公司",
+              "disclosedContributionCny": 2900000000,
+              "disclosedPercent": 36.25
+            },
+            {
+              "name": "中兵金盈（宁波）股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 1445000000,
+              "disclosedPercent": 18.06
+            },
+            {
+              "name": "厦门金圆投资集团有限公司",
+              "disclosedContributionCny": 1400000000,
+              "disclosedPercent": 17.5
+            },
+            {
+              "name": "国家军民融合产业投资基金有限责任公司",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": 12.5
+            },
+            {
+              "name": "厦门金财产业发展有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.5
+            },
+            {
+              "name": "厦门火炬产业股权投资管理有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.5
+            },
+            {
+              "name": "厦门火炬高新区招商服务中心有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.5
+            },
+            {
+              "name": "厦门火炬集团有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.5
+            },
+            {
+              "name": "厦门高新技术创业中心有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1.25
+            },
+            {
+              "name": "新余袁河智造投资中心（有限合伙）",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1.25
+            },
+            {
+              "name": "青岛军民融合发展集团有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1.25
+            },
+            {
+              "name": "厦门市创业投资有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 0.63
+            },
+            {
+              "name": "金圆资本管理（厦门）有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 0.63
+            },
+            {
+              "name": "宁波泰竑鑫邺股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 5000000,
+              "disclosedPercent": 0.06
+            }
+          ]
+        },
+        {
+          "asOf": "2024-09-20",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+          "registeredCny": 8000000000,
+          "partners": [
+            {
+              "name": "中兵顺景股权投资管理有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 0.63
+            },
+            {
+              "name": "中国国有企业结构调整基金股份有限公司",
+              "disclosedContributionCny": 2900000000,
+              "disclosedPercent": 36.25
+            },
+            {
+              "name": "中兵金盈（宁波）股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 1445000000,
+              "disclosedPercent": 18.06
+            },
+            {
+              "name": "厦门市产业投资有限公司",
+              "disclosedContributionCny": 1400000000,
+              "disclosedPercent": 17.5
+            },
+            {
+              "name": "国家军民融合产业投资基金有限责任公司",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": 12.5
+            },
+            {
+              "name": "厦门金财产业发展有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.5
+            },
+            {
+              "name": "厦门火炬产业股权投资管理有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.5
+            },
+            {
+              "name": "厦门火炬高新区招商服务中心有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.5
+            },
+            {
+              "name": "厦门火炬集团有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.5
+            },
+            {
+              "name": "厦门高新技术创业中心有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1.25
+            },
+            {
+              "name": "新余袁河智造投资中心（有限合伙）",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1.25
+            },
+            {
+              "name": "青岛军民融合发展集团有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1.25
+            },
+            {
+              "name": "厦门市创业投资有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 0.63
+            },
+            {
+              "name": "金圆资本管理（厦门）有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 0.63
+            },
+            {
+              "name": "厦门兵鼎泰宏投资咨询合伙企业（有限合伙）",
+              "disclosedContributionCny": 5000000,
+              "disclosedPercent": 0.06
+            }
+          ],
+          "dateKind": "合伙人决议日"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "中国国有企业结构调整基金股份有限公司",
+        "disclosedContributionCny": 2900000000,
+        "disclosedPercent": 36.25,
+        "existingInstitution": "83b305927e55606cb2f827a0"
+      },
+      {
+        "name": "中兵金盈（宁波）股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 1445000000,
+        "disclosedPercent": 18.06,
+        "existingInstitution": "2405e6f6b5ddd14c57d6e071"
+      },
+      {
+        "name": "厦门市产业引导股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1400000000,
+        "disclosedPercent": 17.5,
+        "existingInstitution": "74b98ee8232947c4f50d342b"
+      },
+      {
+        "name": "国家军民融合产业投资基金有限责任公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 12.5,
+        "existingInstitution": "2094c5f80d2c4e102fabd870"
+      },
+      {
+        "name": "厦门金财产业发展有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "5b56aec470393ad7eb92641c"
+      },
+      {
+        "name": "厦门火炬产业股权投资管理有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "01ee1c10588588db6176729f"
+      },
+      {
+        "name": "厦门火炬高新区招商服务中心有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "b0edc797acee980ea15d3835"
+      },
+      {
+        "name": "厦门火炬集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "13e7f5fdf0e3952a9ef3c9b0"
+      },
+      {
+        "name": "厦门高新技术创业中心有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 1.25,
+        "existingInstitution": "ad85812ad035e69142b3c3df"
+      },
+      {
+        "name": "新余袁河智造投资中心（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 1.25,
+        "existingInstitution": "c8a0c18fa0a0524195f022f7"
+      },
+      {
+        "name": "青岛军民融合发展集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 1.25,
+        "existingInstitution": "2ab77d834be5eb72b21d6e71"
+      },
+      {
+        "name": "厦门市创业投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 0.63,
+        "existingInstitution": "8ece310ed0f1dd0db28aea7c"
+      },
+      {
+        "name": "金圆资本管理（厦门）有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 0.63,
+        "existingInstitution": "31e591936ac78c1f6dedfa0b"
+      },
+      {
+        "name": "厦门兵鼎泰宏投资咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 0.06,
+        "existingInstitution": "5592463927f703b0f36c6ab1"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a5e0af6749cd72b4f95499a2",
+    "fundName": "上海军民融合产业股权投资基金合伙企业（有限合伙）",
+    "managerName": "上海君盛协创私募基金管理有限公司",
+    "managerId": "fa04a4c863e0a2326b79cacb",
+    "sizeCny": 4040000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225272440.PDF",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "慧博云通重组独立财务顾问报告",
+      "pages": "第3-1-167至173页",
+      "lpSources": [
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202403291629072420&pageIndex=9",
+        "https://epaper.cs.com.cn/zgzqb/html/2020-08/04/nw.D110000zgzqb_20200804_4-B018.htm"
+      ],
+      "lpScope": "13名LP、一名GP。2024-03公开披露其时全体实缴40.4亿元；现合伙表按11月变更后版本。新进漕河泾单独支付的份额价款待核。",
+      "generalPartners": [
+        {
+          "name": "上海君盛协创私募基金管理有限公司",
+          "disclosedContributionCny": 40000000
+        }
+      ],
+      "managerLegalName": "上海君盛协创私募基金管理有限公司",
+      "fundRegistration": "SEB047",
+      "managerFormerNames": [
+        "上海军民融合产业投资管理有限公司",
+        "上海军民融合产业私募基金管理有限公司"
+      ],
+      "creditCode": "91310000MA1FL5EP4E",
+      "paidContributionSource": {
+        "url": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202403291629072420&pageIndex=9",
+        "date": "2024-03-29",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "上海国盛（集团）有限公司",
+            "paidCny": 1100000000
+          },
+          {
+            "name": "国家军民融合产业投资基金有限责任公司",
+            "paidCny": 600000000
+          },
+          {
+            "name": "军民融合发展产业投资基金（有限合伙）",
+            "paidCny": 500000000
+          },
+          {
+            "name": "上海国际集团有限公司",
+            "paidCny": 500000000
+          },
+          {
+            "name": "国华军民融合产业发展基金（有限合伙）",
+            "paidCny": 250000000
+          },
+          {
+            "name": "航天投资控股有限公司",
+            "paidCny": 250000000
+          },
+          {
+            "name": "上海紫竹高新区（集团）有限公司",
+            "paidCny": 200000000
+          },
+          {
+            "name": "上海云锋新呈投资中心（有限合伙）",
+            "paidCny": 100000000
+          },
+          {
+            "name": "上海市信息投资股份有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "上海仪电（集团）有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "上海纺织投资管理有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "上海闵行金融投资发展有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "上海临港经济发展集团资产管理有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "上海军民融合产业私募基金管理有限公司",
+            "paidCny": 40000000
+          }
+        ],
+        "totalPaidCny": 4040000000
+      },
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2024-03-29",
+          "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202403291629072420&pageIndex=9",
+          "registeredCny": 4040000000,
+          "partners": [
+            {
+              "name": "上海军民融合产业私募基金管理有限公司",
+              "disclosedContributionCny": 40000000,
+              "disclosedPercent": 0.99
+            },
+            {
+              "name": "上海国盛（集团）有限公司",
+              "disclosedContributionCny": 1100000000,
+              "disclosedPercent": 27.23
+            },
+            {
+              "name": "国家军民融合产业投资基金有限责任公司",
+              "disclosedContributionCny": 600000000,
+              "disclosedPercent": 14.85
+            },
+            {
+              "name": "军民融合发展产业投资基金（有限合伙）",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 12.38
+            },
+            {
+              "name": "上海国际集团有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 12.38
+            },
+            {
+              "name": "国华军民融合产业发展基金（有限合伙）",
+              "disclosedContributionCny": 250000000,
+              "disclosedPercent": 6.19
+            },
+            {
+              "name": "航天投资控股有限公司",
+              "disclosedContributionCny": 250000000,
+              "disclosedPercent": 6.19
+            },
+            {
+              "name": "上海紫竹高新区（集团）有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 4.95
+            },
+            {
+              "name": "上海云锋新呈投资中心（有限合伙）",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 2.48
+            },
+            {
+              "name": "上海市信息投资股份有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 2.48
+            },
+            {
+              "name": "上海仪电（集团）有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 2.48
+            },
+            {
+              "name": "上海纺织投资管理有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 2.48
+            },
+            {
+              "name": "上海闵行金融投资发展有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 2.48
+            },
+            {
+              "name": "上海临港经济发展集团资产管理有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 2.48
+            }
+          ]
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "上海国盛（集团）有限公司",
+        "disclosedContributionCny": 1100000000,
+        "disclosedPercent": 27.23,
+        "existingInstitution": "6bfa7c943b6d6c10a0ff9194"
+      },
+      {
+        "name": "国家军民融合产业投资基金有限责任公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 14.85,
+        "existingInstitution": "2094c5f80d2c4e102fabd870"
+      },
+      {
+        "name": "军民融合发展产业投资基金（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 12.38,
+        "existingInstitution": "2501e043407ef55f524807e0"
+      },
+      {
+        "name": "上海国际集团有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 12.38,
+        "existingInstitution": "9b39ef6be85720e41d970298"
+      },
+      {
+        "name": "国华军民融合产业发展基金（有限合伙）",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 6.19,
+        "existingInstitution": "1541e08033d1343e990d178a"
+      },
+      {
+        "name": "航天投资控股有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 6.19,
+        "existingInstitution": "29f269aae7ca3b0c875911d3"
+      },
+      {
+        "name": "上海紫竹高新区（集团）有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 4.95,
+        "existingInstitution": "306a4ad05e0d6bf89a679dd3"
+      },
+      {
+        "name": "上海云锋新呈投资中心（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.48,
+        "existingInstitution": "1f7bac54d3b20b6f224187ed"
+      },
+      {
+        "name": "上海市信息投资股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.48,
+        "existingInstitution": "d359940b3976d4fc6d59705f"
+      },
+      {
+        "name": "上海仪电（集团）有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.48,
+        "existingInstitution": "151ac1eca585a46fb4e51ea1"
+      },
+      {
+        "name": "上海纺织投资管理有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.48,
+        "existingInstitution": "919af8faa84b0b4e32f4dc44"
+      },
+      {
+        "name": "上海闵行金融投资发展有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.48,
+        "existingInstitution": "ffac8614c02bc40cf4390f46"
+      },
+      {
+        "name": "上海市漕河泾新兴技术开发区发展总公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.48,
+        "existingInstitution": "7f73db6b7dbadb0c634979ab"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
