@@ -101,3 +101,5 @@ def publish(out, deals):
         if 'class="page-find"' in html: continue
         html=re.sub(r'(<div id="local-find".*?</div>)',r'<details class="page-find"><summary>页内查找</summary>\1</details>',html,count=1,flags=re.S)
         write(path,html)
+    from institution_views import publish as publish_institutions
+    publish_institutions(out)
