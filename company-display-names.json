@@ -4911,5 +4911,39 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF"
     ]
+  },
+  "2d85ada721c778ad100976f6": {
+    "name": "贝特利",
+    "registeredName": "苏州市贝特利高分子材料股份有限公司",
+    "aliases": [
+      "苏州市贝特利高分子材料有限公司",
+      "301697"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf"
+    ]
+  },
+  "e904d80f1848cab62691c5af": {
+    "name": "均普智能",
+    "registeredName": "宁波均普智能制造股份有限公司",
+    "aliases": [
+      "宁波均普工业自动化有限公司",
+      "均普自动化",
+      "688306"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000714_20220118_C90N.pdf"
+    ]
+  },
+  "7d40b9862c0a2398ffb6fcf4": {
+    "name": "微源半导体",
+    "registeredName": "深圳市微源半导体股份有限公司",
+    "aliases": [
+      "深圳市创新微源半导体有限公司",
+      "微源股份"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf"
+    ]
   }
 }

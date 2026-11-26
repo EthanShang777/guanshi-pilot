@@ -1833,7 +1833,10 @@
   },
   "江苏疌泉元禾璞华股权投资合伙企业（有限合伙）": {
     "brand": "元禾璞华",
-    "source": "https://static.cninfo.com.cn/finalpage/2025-12-25/1224897120.PDF"
+    "source": "https://static.cninfo.com.cn/finalpage/2025-12-25/1224897120.PDF",
+    "coManagers": [
+      "元禾璞华（苏州）投资管理有限公司"
+    ]
   },
   "聚源信诚（嘉兴）股权投资合伙企业（有限合伙）": {
     "brand": "中芯聚源",
@@ -2840,5 +2843,37 @@
   "芜湖旷沄人工智能产业投资基金（有限合伙）": {
     "brand": "珠海佑柏私募基金管理有限公司",
     "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF"
+  },
+  "长三角协同优势产业股权投资合伙企业（有限合伙）": {
+    "brand": "上海国方私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202011/000714_20201106_CRIG.pdf"
+  },
+  "合肥石溪产恒二期集成电路创业投资基金合伙企业（有限合伙）": {
+    "brand": "北京石溪清流私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655349.PDF"
+  },
+  "上海联新科技股权投资中心（有限合伙）": {
+    "brand": "上海联新资本管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655349.PDF"
+  },
+  "苏州聚源铸芯创业投资合伙企业（有限合伙）": {
+    "brand": "中芯聚源私募基金管理（上海）有限公司",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf"
+  },
+  "苏州聚源振芯股权投资合伙企业（有限合伙）": {
+    "brand": "中芯聚源私募基金管理（上海）有限公司",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf"
+  },
+  "海富长江成长股权投资（湖北）合伙企业（有限合伙）": {
+    "brand": "海富产业投资基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000714_20220118_C90N.pdf"
+  },
+  "贵州国发航空发动机产业发展股权投资合伙企业（有限合伙）": {
+    "brand": "航发基金管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722917_1.pdf?1756754575000.pdf="
+  },
+  "中电科（珠海）产业投资基金合伙企业（有限合伙）": {
+    "brand": "中电产融私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf"
   }
 }

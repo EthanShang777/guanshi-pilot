@@ -2005,5 +2005,53 @@
     },
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000874_20220125_0GRN.pdf",
     "reason": "单一机构以3000万元从原股东受让股份，同期7000万元增资款进公司，两份协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:14f19df573c0b2171016c5",
+      "company_id": "co:cn_uscc:0274a456017e3d469f73f1f6518ecf19"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:995a3465b8fdc80c227110",
+      "company_id": "co:cn_uscc:0274a456017e3d469f73f1f6518ecf19"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf",
+    "reason": "8,400万元认购新增股本与5,605.50万元产权受让各按不同工商日期，深创投及创新一号同时参加。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:995a3465b8fdc80c227110",
+      "company_id": "co:cn_uscc:0274a456017e3d469f73f1f6518ecf19"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:14f19df573c0b2171016c5",
+      "company_id": "co:cn_uscc:0274a456017e3d469f73f1f6518ecf19"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf",
+    "reason": "8,400万元认购新增股本与5,605.50万元产权受让各按不同工商日期，深创投及创新一号同时参加。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:19eb8b65441f9ad97b1ad1",
+      "company_id": "co:full_legal_name:ae6a28c8809d639351794019b371351e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c78e6893e93ddad7557ee2",
+      "company_id": "co:full_legal_name:ae6a28c8809d639351794019b371351e"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf",
+    "reason": "2024-12-12全达兴及2024-12-26紫金港各以独立协议转让不同老股。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c78e6893e93ddad7557ee2",
+      "company_id": "co:full_legal_name:ae6a28c8809d639351794019b371351e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:19eb8b65441f9ad97b1ad1",
+      "company_id": "co:full_legal_name:ae6a28c8809d639351794019b371351e"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf",
+    "reason": "2024-12-12全达兴及2024-12-26紫金港各以独立协议转让不同老股。"
   }
 ]
