@@ -4775,6 +4775,284 @@
           "event": "b88e9d731e0bb9c584a485ce"
         }
       ]
+    },
+    {
+      "institution": "鲸准与海创汇公开十月周报",
+      "checked_on": "2026-11-26",
+      "scope": "五期覆盖窗口中找到四期公开文章，窗口10月5日至11月1日；只核公开具名项目，周榜汇总未列逐笔",
+      "sources": [
+        "https://www.ihaier.com/newsUpdates/detail/2330",
+        "https://www.ihaier.com/newsUpdates/detail/2340",
+        "https://www.ihaier.com/newsUpdates/detail/2344",
+        "https://www.ihaier.com/newsUpdates/detail/2375",
+        "https://www.ihaier.com/newsUpdates/detail/2383"
+      ],
+      "reports": [
+        {
+          "id": 2382,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2382",
+          "title": "海创汇·鲸准融资周报|热点赛道推荐（10.26-11.1）",
+          "published_at": "2026-11-02 17:07:00"
+        },
+        {
+          "id": 2375,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2375",
+          "title": "海创汇·鲸准融资周报|国内交易事件（10.26-11.1）",
+          "published_at": "2026-11-02 17:06:37"
+        },
+        {
+          "id": 2383,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2383",
+          "title": "海创汇·鲸准融资周报|海外交易事件（10.26-11.1）",
+          "published_at": "2026-11-02 17:04:08"
+        },
+        {
+          "id": 2346,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2346",
+          "title": "海创汇·鲸准融资周报|海外交易事件（10.19-10.25）",
+          "published_at": "2026-10-27 09:58:35"
+        },
+        {
+          "id": 2345,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2345",
+          "title": "海创汇·鲸准融资周报|热点赛道推荐（10.19-10.25）",
+          "published_at": "2026-10-27 09:54:30"
+        },
+        {
+          "id": 2344,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2344",
+          "title": "海创汇·鲸准融资周报|热点交易事件（10.19-10.25）",
+          "published_at": "2026-10-27 09:47:15"
+        },
+        {
+          "id": 2342,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2342",
+          "title": "海创汇·鲸准融资周报|海外交易事件（10.12-10.18）",
+          "published_at": "2026-10-20 14:06:08"
+        },
+        {
+          "id": 2341,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2341",
+          "title": "海创汇·鲸准融资周报|热点赛道推荐（10.12-10.18）",
+          "published_at": "2026-10-20 14:04:24"
+        },
+        {
+          "id": 2340,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2340",
+          "title": "海创汇·鲸准融资周报|热点交易事件（10.12-10.18）",
+          "published_at": "2026-10-20 13:45:08"
+        },
+        {
+          "id": 2332,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2332",
+          "title": "海创汇·鲸准融资周报|海外交易事件（10.5-10.11）",
+          "published_at": "2026-10-13 11:16:04"
+        },
+        {
+          "id": 2331,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2331",
+          "title": "海创汇·鲸准融资周报|热点赛道推荐（10.5-10.11）",
+          "published_at": "2026-10-13 11:10:54"
+        },
+        {
+          "id": 2330,
+          "source": "https://www.ihaier.com/newsUpdates/detail/2330",
+          "title": "海创汇·鲸准融资周报|热点交易事件（10.5-10.11）",
+          "published_at": "2026-10-13 11:06:17"
+        }
+      ],
+      "candidate_count": 18,
+      "existing_count": 13,
+      "pending_count": 2,
+      "excluded_count": 3,
+      "new_october_count": 0,
+      "batch": "2026-11-26-haichuang-jingdata-weeklies-138.csv",
+      "scoped_transactions": [
+        {
+          "company": "迈联医疗",
+          "status": "已有",
+          "event": "fa5a68dc0be0c3f200ce1727",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2330",
+          "detail": "同一亿元B轮。周报为10月7日，库内早期日期为10月5日。"
+        },
+        {
+          "company": "微玖光电",
+          "status": "已有",
+          "event": "9235d4310f01d2419cc66dca",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2330",
+          "detail": "名称包含地名；公司10月8日原发确认Pre-A及具名资方。此批已核来源及两家共同领投。"
+        },
+        {
+          "company": "齐飞航空",
+          "status": "已有",
+          "event": "fa68185636ffc9e507fd7eab",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2330",
+          "detail": "同一笔近亿元战略融资，原档10月8日，周报采集日期10月9日。"
+        },
+        {
+          "company": "普雷赛斯",
+          "status": "已有",
+          "event": "0bfbf492ec18ce34e87479e1",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2330",
+          "detail": "同一笔10月10日A轮。"
+        },
+        {
+          "company": "蔚蓝支点",
+          "status": "已有",
+          "event": "9247a76ba597a1d16b8a7e8c",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2340",
+          "detail": "同一笔10月12日Pre-A2。"
+        },
+        {
+          "company": "星火辰光",
+          "status": "已有",
+          "event": "e96cc5a72c45206413fb74dd",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2340",
+          "detail": "同一组首轮融资，10月13日与14日披露日期差一日。"
+        },
+        {
+          "company": "帝尔博格",
+          "status": "已有",
+          "event": "fbf2157db3f80c720a094b1e",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2340",
+          "detail": "同一笔10月14日Pre-A+。"
+        },
+        {
+          "company": "若愚科技",
+          "status": "已有",
+          "event": "61004b6a66fdd2e0f6fa9e15",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2340",
+          "detail": "同一笔10月15日Pre-A，选已归并后的规范ID。"
+        },
+        {
+          "company": "朱葛机器人",
+          "status": "已有",
+          "event": "8ebe0d92fe7a0abdf6e5067c",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2340",
+          "detail": "同一笔10月16日Pre-A，发行人公告确认三家法律实体。"
+        },
+        {
+          "company": "芯爱科技",
+          "status": "已有",
+          "event": "f96af85de5f4e496cec16be8",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2344",
+          "detail": "同一笔10月19日融资，周报B轮，保留发行人消息A2及近15亿元。"
+        },
+        {
+          "company": "新石器",
+          "status": "已有",
+          "event": "01ffb8806218a85efb76277b",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2344",
+          "detail": "同一笔10月20日E轮，保留近4亿美元。"
+        },
+        {
+          "company": "辉羲智能",
+          "status": "已有",
+          "event": "a6b07d7dfaad73f8eed0820e",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2344",
+          "detail": "同一份10月22日披露，来源主文为Pre-B+与B合计约17亿；周报把合计归B。扫到两条不同法律主体，待厘清后关联。"
+        },
+        {
+          "company": "可灵AI",
+          "status": "已有",
+          "event": "30eb1fc4671389f94842f4ad",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2375",
+          "detail": "同一笔增资，获港交所公告确证。"
+        },
+        {
+          "company": "此间无限 Today AI",
+          "status": "身份与单轮口径待核",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2344",
+          "supporting_sources": [
+            "https://news.pedaily.cn/202610/570603.shtml",
+            "https://www.innohere.com/ir/164776/finance.html",
+            "https://www.toutiao.com/w/1858905392864284/"
+          ],
+          "detail": "同创始人对应两个法律主体；公开报道的超2亿美元为累计，原库汇翮1.5亿美元A轮的独立证据仍需回查。"
+        },
+        {
+          "company": "DeepSeek",
+          "status": "日期及金额口径待核",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2375",
+          "supporting_sources": [
+            "https://finance.sina.com.cn/wm/2026-11-23/doc-iniztwiy0491283.shtml"
+          ],
+          "detail": "10月底报道融资规模约1055亿元；库有11月第二轮。两者需按认购载体及到账日区分，避免重复录入。"
+        },
+        {
+          "company": "OpenAI",
+          "status": "排除已完成融资",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2344",
+          "supporting_sources": [
+            "https://www.moneycontrol.com/artificial-intelligence/openai-shifts-value-to-1-25-trillion-as-funding-talks-finalize-article-14058072.html"
+          ],
+          "detail": "10月23日为洽谈和目标金额口径，保留线索待完成证据。"
+        },
+        {
+          "company": "Instacart",
+          "status": "排除已完成融资",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2383",
+          "supporting_sources": [
+            "https://investors.instacart.com/News/news-releases/news-details/2026/DoorDash-to-Acquire-Instacart-to-Help-Local-Stores-Win/default.aspx",
+            "https://www.sec.gov/Archives/edgar/data/1579091/000114036126041119/ef20084547_425.htm"
+          ],
+          "detail": "已签约收购，约170亿美元为股权价值，公告明确交割条件。"
+        },
+        {
+          "company": "ADT",
+          "status": "排除已完成融资",
+          "source": "https://www.ihaier.com/newsUpdates/detail/2383",
+          "supporting_sources": [
+            "https://investor.adt.com/News--Events/news/news-details/2026/ADT-to-be-Acquired-by-Thrive-Holdings-in-15-3-Billion-Transaction/",
+            "https://www.sec.gov/Archives/edgar/data/1703056/000119312526438004/d313515ddefa14a.htm"
+          ],
+          "detail": "拟收购的股权价值约76亿美元，企业价值为153亿美元。"
+        }
+      ]
+    },
+    {
+      "institution": "浦东创投与浦创苗圃人工智能基金",
+      "checked_on": "2026-11-26",
+      "scope": "从鲸准周报所列朱葛机器人回查法律出资载体并反查该基金参与企业",
+      "sources": [
+        "https://news.pedaily.cn/202610/570359.shtml",
+        "https://m.jiemian.com/article/15205925.html",
+        "https://www.chinaventure.com.cn/news/113-20260625-391996.html",
+        "https://m.sohu.com/a/1043125111_114984",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-05-14/245205_20260514_4OQ4.pdf"
+      ],
+      "candidate_count": 1,
+      "existing_count": 2,
+      "pending_count": 3,
+      "batch": "2026-11-26-haichuang-jingdata-weeklies-138.csv",
+      "confirmed_event_ids": [
+        "0d2839ed71ac4ebebe1f6692",
+        "8ebe0d92fe7a0abdf6e5067c",
+        "73f6add2e801edf6ea60b1aa"
+      ],
+      "followups": [
+        {
+          "company": "布兰矩阵",
+          "field": "投资日期与交易对价",
+          "status": "已见股东，融资待证",
+          "source": "https://www.shuididp.cn/yp-f373f01d1ffcd98d7be2448c91552201.html",
+          "detail": "股东页列持股4.68%及5万元注册资本认缴。查询实际入股日期、交易类型与认购协议。"
+        },
+        {
+          "company": "律动芯生",
+          "field": "2026年9月融资",
+          "status": "待交叉核验",
+          "source": "https://uniquebase.cn/companies/ub-c10154",
+          "detail": "聚合库转引同业，列出本基金与其余机构。继续核收入主体、变更时间与发行方原件。"
+        },
+        {
+          "company": "上海浦创苗圃人工智能产业创业投资合伙企业（有限合伙）",
+          "field": "LP账务口径及实缴",
+          "status": "已有披露；状态待核",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-05-14/245205_20260514_4OQ4.pdf",
+          "detail": "张江创投债券募集说明书列该基金及4000万元。查证报表日、认缴及实缴后再补到基金结构化数据。"
+        }
+      ]
     }
   ]
 }

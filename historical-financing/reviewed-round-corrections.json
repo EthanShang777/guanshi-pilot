@@ -4275,5 +4275,80 @@
       "https://jiachuanh5.cvsource.com.cn/report-web/IigocnFzIXElIyQgaCMpJw?channel=tzw",
       "https://pitchhub.36kr.com/project/2214778999747465/"
     ]
+  },
+  {
+    "event_id": "financing_event:9c099e7174c5ca88fca3693908633261e3dc676b8f150a5fe4bd993a48bbc96a",
+    "company_id": "co:full_legal_name:901a8f0bbe8bcce884417ef06f547554",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"浦东资本\",\"role\":null,\"amount\":null},{\"name\":\"迅维数字\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-16",
+      "date_key": "2026-10-16",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海浦创苗圃人工智能产业创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"浙江八维通空间智能技术有限公司\",\"role\":null,\"amount\":null},{\"name\":\"石家庄驱创科技有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-16",
+      "date_key": "2026-10-16",
+      "date_kind": "公司首次可核公开披露日，已按公司公告核对三家法律出资方"
+    },
+    "source": "https://news.pedaily.cn/202610/570359.shtml",
+    "additional_sources": [
+      "https://m.jiemian.com/article/15205925.html",
+      "https://www.ihaier.com/newsUpdates/detail/2340",
+      "https://www.iyiou.com/news/202610281144554"
+    ]
+  },
+  {
+    "event_id": "financing_event:0e7e349aae1fb7f031fb86783f63369a7b888c964c294887b56408b31a573904",
+    "company_id": "co:full_legal_name:a4e76c87b888892735d73026123fdec1",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"投控东海\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-10",
+      "date_key": "2026-10-10",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"投控东海\",\"role\":\"领投\",\"amount\":null}]",
+      "date": "2026-10-10",
+      "date_key": "2026-10-10",
+      "date_kind": "原档投资日期，10月公司披露金额区间，11月4日资方采访确认A+轮已交割"
+    },
+    "source": "https://www.xhby.net/content/s6aeae0dfe4b0278b5aca209a.html",
+    "additional_sources": [
+      "https://www.zhangtongshe.com/article/detail?id=104053"
+    ]
+  },
+  {
+    "event_id": "financing_event:10fe5c99dacfeeb47b6ab538ed23b1ffc32b5ec243370137771f31d0ce1a718f",
+    "company_id": "co:full_legal_name:8f6d40791aa5baefb8d971642a0183f6",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"光洋股份\",\"role\":null,\"amount\":null},{\"name\":\"光谷科创投\",\"role\":null,\"amount\":null},{\"name\":\"北京市新材料产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"南海产业投资\",\"role\":null,\"amount\":null},{\"name\":\"源创多盈投资\",\"role\":null,\"amount\":null},{\"name\":\"长江创新投资\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-08",
+      "date_key": "2026-10-08",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"北京市新材料产业投资基金\",\"role\":\"共同领投\",\"amount\":null},{\"name\":\"长江创新投资\",\"role\":\"共同领投\",\"amount\":null},{\"name\":\"光洋股份\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"光谷科创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"佛山南芯基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"源创多盈投资\",\"role\":\"跟投\",\"amount\":null}]",
+      "date": "2026-10-08",
+      "date_key": "2026-10-08",
+      "date_kind": "发行人首次可核公开披露日；光洋股份季报载明全资子公司认购方案，实际付款日尚待证"
+    },
+    "source": "https://vijo.cn/sys-nd/61.html",
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640681.PDF",
+      "https://www.ihaier.com/newsUpdates/detail/2330"
+    ]
   }
 ]
