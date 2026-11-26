@@ -8,6 +8,7 @@ import json
 import re
 import shutil
 
+from fund_master import contribution, coverage_facts, prepare_cloud, register_coverage, replace_derived, snapshot
 from reader import build_library
 from update import filename, event_url, link
 
@@ -42,9 +43,8 @@ def page(path,title,section,content,*,meta='',cover=False):
 def redirect(path,url):
     (OUT/path).write_text('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url='+esc(url,quote=True)+'">'+link(url,'打开档案 →'))
 
-def cloud_rows():
-    from d1 import database,query
-    db=database()
+def cloud_rows(db):
+    from d1 import query
     total=query(db,'SELECT count(*) AS n FROM financing_events')[0]['n']
     last=''
     rows=[]
@@ -117,7 +117,8 @@ def research_pages(deals):
     from company_research import publish
     publish(OUT,deals)
 
-def build(rows):
+def build(rows, fund_facts=()):
+    funds, reviewed_allocations = snapshot(fund_facts)
     OUT.mkdir(exist_ok=True)
     data=OUT/'records';data.mkdir(exist_ok=True)
     for asset in ('within-page.js','shelf.js','atlas.css','atlas.js','master-detail.js','master-search.js','load-shelf.js','company-browser.js','company-history.js'):
@@ -171,6 +172,12 @@ def build(rows):
             inst=entity(institutions,'institution',n,n)
             deal_institutions[inst['key']] = inst
             d['investors'].append(n);d['parties'].append([n,inst['href']])
+            detail = item.get('contribution') if isinstance(item, dict) else None
+            if value := contribution(detail, urls):
+                d.setdefault('partyAllocations', []).append({'institutionId': inst['key'], **value})
+            elif reviewed := reviewed_allocations.get(key, {}).get(inst['key']):
+                if value := contribution(reviewed, urls):
+                    d.setdefault('partyAllocations', []).append({'institutionId': inst['key'], **value})
             if n in fund_managers:
                 manager = fund_managers[n]['brand']
                 brand = entity(institutions, 'institution', manager, manager)
@@ -226,9 +233,10 @@ def build(rows):
     list_pages('index.html','融资时间线','融资事件',deals,event_row,
         '<p class="search-entry">'+link('search.html',f'检索全部 {len(deals):,} 笔融资 →')+'</p>'+deck('融资事件',counts))
     for sector,items in groups.items():list_pages(filename('sector',sector),sector,'融资事件',items,event_row)
-    lp_path = Path('institution-fund-lps.json')
     lp_disclosures = defaultdict(list)
-    for fund in json.loads(lp_path.read_text()) if lp_path.is_file() else []:
+    lp_fund_relations = defaultdict(list)
+    coverage = register_coverage(funds, institutions)
+    for fund in funds:
         fund_id, manager_id = fund['fundId'], fund['managerId']
         if any(key in institutions and institutions[key]['name'] != label for key, label in (
             (fund_id, fund['fundName']), (manager_id, fund['managerName']),
@@ -240,6 +248,11 @@ def build(rows):
             partner_id = partner.get('existingInstitution')
             if partner_id not in institutions:
                 partner['existingInstitution'] = None
+            else:
+                lp_fund_relations[partner_id].append({
+                    'fundId': fund_id, 'fundName': fund['fundName'], 'disclosedPercent': partner['disclosedPercent'],
+                    'source': fund['source'],
+                })
         for key in {fund_id, manager_id} & institutions.keys():
             lp_disclosures[key].append(fund)
     for kind,entities,index,section in [('company',companies,'companies.html','公司档案'),('institution',institutions,'institutions.html','机构档案')]:
@@ -252,8 +265,14 @@ def build(rows):
                 profile = profiles.get(entity_row['name']) if len(names[entity_row['name']]) == 1 else None
                 parts[k[:2]][k].update(profile=profile, primary=items[0]['sector'], sub=items[0]['sub'], location=items[0]['location'],sector=items[0]['sub'] or items[0]['sector'],
                     events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources'],d['sector'],d['sub']] for d in items])
-            elif k in lp_disclosures:
-                parts[k[:2]][k]['fundDisclosures'] = lp_disclosures[k]
+            else:
+                if k in lp_disclosures:
+                    parts[k[:2]][k]['fundDisclosures'] = lp_disclosures[k]
+                if k in coverage:
+                    parts[k[:2]][k]['fundCoverage'] = {field: value for field,value in coverage[k].items()
+                                                        if field != 'missingEventIds'}
+                if k in lp_fund_relations:
+                    parts[k[:2]][k]['lpFundRelations'] = lp_fund_relations[k]
             old=filename(kind,entity_row['name'])
             if Path(old).exists() and (kind=='institution' or len(names[entity_row['name']])==1):legacy[old]=entity_row['href']
             if kind == 'company' and (label := reviewed_names.get(k)):
@@ -279,7 +298,7 @@ def build(rows):
         for s,items in by_sector.items():list_pages(sector_url(section,s),s,section,items,entry)
     for kind,title,section in [('company','公司档案','公司档案'),('institution','机构档案','机构档案'),('deal','融资详情','融资事件')]:
         default=legacy.pop(kind+'.html','')
-        detail_version = 'fund-lp-1' if kind == 'institution' else 'record-redirect'
+        detail_version = 'fund-ledger-1' if kind in ('institution','deal') else 'record-redirect'
         page(kind+'.html',title,section,'<section id="record" data-kind="'+kind+'" data-default="'+esc(default)+'"></section><script defer src="master-detail.js?v='+detail_version+'"></script>')
     for path,url in legacy.items():redirect(path,url)
     for h in history:
@@ -309,4 +328,14 @@ def build(rows):
     assert sum(len(bucket) for bucket in buckets.values())==len(rows)
     print(manifest['events'], 'published events;',len(companies),'company groups;',len(institutions),'institution names')
 
-if __name__=='__main__':build(cloud_rows())
+    return coverage
+
+if __name__ == '__main__':
+    from d1 import database, query
+    db = database()
+    facts = prepare_cloud(db, query)
+    coverage = build(cloud_rows(db), facts)
+    statuses = coverage_facts(coverage)
+    changed, obsolete = replace_derived(db, query, statuses, facts)
+    print(f'Fund coverage verified for {len(coverage)} funds, {len(statuses)} coverage and deal relationships, '
+          f'{changed} writes, {obsolete} obsolete derived records removed')

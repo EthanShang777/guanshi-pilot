@@ -1733,5 +1733,31 @@
       "https://www.town.com/terms-of-service",
       "https://www.town.com/press/series-b"
     ]
+  },
+  "b6c3fddc680c74183ac84ebe": {
+    "name": "纽氏达特",
+    "registeredName": "纽氏达特行星传动系统技术（淄博）股份有限公司",
+    "aliases": [
+      "淄博纽氏达特行星减速机有限公司",
+      "淄博纽氏达特齿轮传动有限公司",
+      "Newstart"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
+      "https://www.newstart.cn/"
+    ]
+  },
+  "33329d284e3e2f23805be170": {
+    "name": "华太电子",
+    "registeredName": "苏州华太电子技术股份有限公司",
+    "aliases": [
+      "苏州华太电子技术有限公司",
+      "昆山华太电子技术有限公司",
+      "华太有限"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002188_20260515_SNA9.pdf",
+      "https://www.huatai-elec.com/"
+    ]
   }
 }

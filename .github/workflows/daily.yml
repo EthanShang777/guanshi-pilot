@@ -7,6 +7,7 @@ on:
       - 'historical-financing/*.json'
       - '.github/workflows/daily.yml'
       - 'publish_master.py'
+      - 'fund_master.py'
       - 'master-*.js'
       - 'company-history.js'
       - 'company_directory.py'

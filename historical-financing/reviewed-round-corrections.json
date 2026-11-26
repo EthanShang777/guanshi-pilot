@@ -3433,5 +3433,69 @@
       "amount": "650万美元",
       "investors_json": "[{\"name\":\"Hitachi Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"Schema Ventures\",\"role\":null,\"amount\":null},{\"name\":\"CerraCap Impact Venture Capital\",\"role\":null,\"amount\":null},{\"name\":\"FalconX Ventures\",\"role\":null,\"amount\":null},{\"name\":\"Executive Venture Fund\",\"role\":null,\"amount\":null},{\"name\":\"Gokul Rajaram\",\"role\":null,\"amount\":null},{\"name\":\"Yatish Mishra\",\"role\":null,\"amount\":null},{\"name\":\"Shailesh Lakhani\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:ba650cd2fb8130915af9080f9c9ceca388aaa0e768721e5d91c2d7c9f9ad1db3",
+    "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a",
+    "day": "2023-12-21",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东证资本\",\"role\":null,\"amount\":null},{\"name\":\"兰璞创投\",\"role\":null,\"amount\":null},{\"name\":\"国家电投\",\"role\":null,\"amount\":null},{\"name\":\"国投招商\",\"role\":null,\"amount\":null},{\"name\":\"山东省新动能基金\",\"role\":null,\"amount\":null},{\"name\":\"山东高速\",\"role\":null,\"amount\":null},{\"name\":\"成都沪蓉创投\",\"role\":null,\"amount\":null},{\"name\":\"洪泰基金\",\"role\":null,\"amount\":null},{\"name\":\"淄博高新产业投资\",\"role\":null,\"amount\":null},{\"name\":\"诺华资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "6.27亿元",
+      "investors_json": "[{\"name\":\"先进制造产业投资基金二期（有限合伙）\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":25000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"山东动能嘉合创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":7500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"淄博龙门洪泰产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"淄博高新区高创创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"上海融和新能绿碳投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3820000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"马鞍山洪泰新业态投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"东证星远（嘉兴）创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3150000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"苏州瑞稀创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2200000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"成都新申毅股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"烟台山高弘金股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"北京集成电路装备产业投资并购基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"河南省东证豫资产业投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1850000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"嘉兴毅安材智股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"湖州海川股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":180000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}}]"
+    }
+  },
+  {
+    "event_id": "financing_event:f66596aabf2cb20fe10440b1f2072feb3591f9bf7a59d70da70bc10689b87c89",
+    "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a",
+    "day": "2025-11-25",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东证资本\",\"role\":null,\"amount\":null},{\"name\":\"中芯聚源\",\"role\":null,\"amount\":null},{\"name\":\"兰璞创投\",\"role\":null,\"amount\":null},{\"name\":\"溥泉资本\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"联新资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "5.27亿元",
+      "investors_json": "[{\"name\":\"福建时代泽远股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":24563028150,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"厦门雅恒创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"深圳聚源芯创私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"苏州智析创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4700000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"上海联新创新五期私募投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}},{\"name\":\"深圳市绿水长青创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":436971850,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf\"}}]"
+    }
+  },
+  {
+    "event_id": "financing_event:3758fcc5c07b8db6e6c6bcc47d8d4578d4fca37289d1c0cf9a6e4b2cb183ba5d",
+    "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a",
+    "day": "2023-03-21",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"民生股权基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"共青城民生红景三期投资中心（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:500e7ae0e229f879533937a31cf42f16c8f986f2dbfb65a812018579e594bf1f",
+    "company_id": "co:full_legal_name:1afacbfdcd424b96f063f1b5adf2fbcd",
+    "day": "2021-07-19",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002188_20260515_SNA9.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"临港前沿投资\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"南京峰岭\",\"role\":null,\"amount\":null},{\"name\":\"国开制造业转型升级基金\",\"role\":null,\"amount\":null},{\"name\":\"国投招商\",\"role\":null,\"amount\":null},{\"name\":\"国科兴和\",\"role\":null,\"amount\":null},{\"name\":\"永鑫方舟\",\"role\":null,\"amount\":null},{\"name\":\"纽尔利资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"临港前沿投资\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"南京峰岭\",\"role\":null,\"amount\":null},{\"name\":\"国投招商\",\"role\":null,\"amount\":null},{\"name\":\"国科兴和\",\"role\":null,\"amount\":null},{\"name\":\"永鑫方舟\",\"role\":null,\"amount\":null},{\"name\":\"纽尔利资本\",\"role\":null,\"amount\":null},{\"name\":\"中新苏州工业园区创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002188_20260515_SNA9.pdf\"}}]"
+    }
   }
 ]
