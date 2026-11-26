@@ -2909,6 +2909,202 @@
           "status": "原档已收录"
         }
       }
+    },
+    {
+      "institution": "成都科技投融资月度公开盘点",
+      "checked_on": "2026-11-26",
+      "scope": "2026年10月成都月度盘点正文的16个具名企业融资条目，另核华汇实业交易进展",
+      "sources": [
+        "https://cbgc.scol.com.cn/news/8111059",
+        "https://contact.airobocn.cn/news/33075",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12654128&stockid=301397",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-08-22/41d85936-7958-490a-a4bc-902de0ae5fc5.PDF"
+      ],
+      "candidate_count": 1,
+      "existing_count": 16,
+      "pending_count": 5,
+      "batch": "2026-11-26-chengdu-and-disclosed-equity-129.csv",
+      "checked_records": {
+        "成都阿加犀智能科技有限公司": {
+          "eventId": "c8f979614236db63e7eabfe0",
+          "day": "2026-10-09",
+          "stage": "战略融资",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "成都考拉悠然科技有限公司": {
+          "eventId": "a9da76c8abac111f9bc21e1d",
+          "day": "2026-10-29",
+          "stage": "B++轮",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "成都迅翼卫通科技有限公司": {
+          "eventId": "6b1bb190c6e57eb3ee7aafcd",
+          "day": "2026-10-16",
+          "stage": "股权融资",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "四川具身人形机器人科技有限公司": {
+          "eventId": "6fbff0fe2f8a62fdeadf7d59",
+          "day": "2026-10-16",
+          "stage": "Pre-A轮",
+          "state": "核实同轮并归并",
+          "detail": "10月16日和19日同一笔Pre-A，保留具名出资方对应ID"
+        },
+        "成都市前沿类脑人工智能创新中心有限公司": {
+          "eventId": "37e7990787317cd2d8fa6dd3",
+          "day": "2026-10-10",
+          "stage": "天使轮",
+          "state": "有原档，待核个别字段",
+          "detail": "月报称签署综合融资，其中是否包括项目支持，待确证各方金额与到账"
+        },
+        "成都微泰科技有限公司": {
+          "eventId": "60fbe34fc2253d6ea3caf2c9",
+          "day": "2026-10-12",
+          "stage": "股权融资",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "成都中科卓尔智能科技集团有限公司": {
+          "eventId": "814c3bdef18a1717a51e3313",
+          "day": "2026-10-26",
+          "stage": "B+轮",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "四川泊微科技有限公司": {
+          "eventId": "9bf7f33f3816bbcbe87b2450",
+          "day": "2026-10-16",
+          "stage": "A+轮",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "安弦科技（四川）有限公司": {
+          "eventId": "7a44d26938d399aeae0c6458",
+          "day": "2026-10-20",
+          "stage": "天使轮",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "成都九霄云行航空科技有限公司": {
+          "eventId": "57d438533da7203530f9e989",
+          "day": "2026-10-10",
+          "stage": "A轮",
+          "state": "有原档，待核个别字段",
+          "detail": "补查北京归舟引力的入股日期、轮次及交易载体"
+        },
+        "成都空御科技有限公司": {
+          "eventId": "28c0599fd7d3bfeb116feba1",
+          "day": "2026-10-12",
+          "stage": "B轮",
+          "state": "有原档，待核个别字段",
+          "detail": "月报列明智基金，库中为华盈创投，待以投资方确认基金载体及两名字关系"
+        },
+        "成都海龙空天科技有限公司": {
+          "eventId": "8b14e9657bb4e6da0ca9376c",
+          "day": "2026-10-29",
+          "stage": "天使+轮",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "成都海博为药业有限公司": {
+          "eventId": "fcf7cd018dc01a50d758f920",
+          "day": "2026-10-14",
+          "stage": "B+轮",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "四川携光生物技术有限公司": {
+          "eventId": "9f5de80e310a2607956defef",
+          "day": "2026-10-09",
+          "stage": "股权融资",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "成都清智微纳生物科技有限公司": {
+          "eventId": "196ec6c63644935e2ad5f61f",
+          "day": "2026-10-08",
+          "stage": "天使轮",
+          "state": "有原档",
+          "detail": "按已公开主体和当月轮次比对"
+        },
+        "四川五色辉科技有限公司": {
+          "eventId": "f7ec6069bd0986457edf70c8",
+          "day": "2026-10-20",
+          "stage": "股权融资",
+          "state": "有原档，待核个别字段",
+          "detail": "月报称高精尖投资，库中记录潍坊航动空天，待核实际载体与管理人关系"
+        }
+      },
+      "pending": [
+        {
+          "company": "成都九霄云行航空科技有限公司",
+          "reason": "补查北京归舟引力的入股日期、轮次及交易载体",
+          "source": "https://cbgc.scol.com.cn/news/8111059"
+        },
+        {
+          "company": "成都空御科技有限公司",
+          "reason": "月报列明智基金，库中为华盈创投，待以投资方确认基金载体及两名字关系",
+          "source": "https://cbgc.scol.com.cn/news/8111059"
+        },
+        {
+          "company": "四川五色辉科技有限公司",
+          "reason": "月报称高精尖投资，库中记录潍坊航动空天，待核实际载体与管理人关系",
+          "source": "https://cbgc.scol.com.cn/news/8111059"
+        },
+        {
+          "company": "成都市前沿类脑人工智能创新中心有限公司",
+          "reason": "月报称签署综合融资，其中是否包括项目支持，待确证各方金额与到账",
+          "source": "https://cbgc.scol.com.cn/news/8111059"
+        },
+        {
+          "company": "成都明夷电子科技股份有限公司",
+          "reason": "媒体援引港交所完成公告，待定位原件和实际已付对价",
+          "source": "https://cbgc.scol.com.cn/news/8111059"
+        }
+      ]
+    },
+    {
+      "institution": "成都交投纵横、枣庄绿发",
+      "checked_on": "2026-11-26",
+      "scope": "协氢新能源的工商变更线索，以产权交易披露回查历史资金与向外投资",
+      "sources": [
+        "https://www.itdcw.com/news/fuelcell/gongsi/101Q5V362026.html",
+        "https://www.ejy365.com/info/ejy382522",
+        "https://34014377.s21i.faiusr.com/61/ABUIABA9GAAg0dCXzgYo-bKxrgI.pdf"
+      ],
+      "candidate_count": 3,
+      "existing_count": 0,
+      "pending_count": 2,
+      "batch": "2026-11-26-chengdu-and-disclosed-equity-129.csv",
+      "pending": [
+        {
+          "company": "协氢（上海）新能源科技有限公司",
+          "source": "https://www.ejy365.com/info/ejy382522",
+          "reason": "挂牌已成交，挂牌底价、正式成交价和十月新增注册资本分别待对照，暂不增记十月融资"
+        },
+        {
+          "company": "协氢（上海）新能源科技有限公司",
+          "source": "https://34014377.s21i.faiusr.com/61/ABUIABA9GAAg0dCXzgYo-bKxrgI.pdf",
+          "reason": "企业材料指向超威入股，仍待查直接主体和完整交易类型"
+        }
+      ]
+    },
+    {
+      "institution": "SEC",
+      "checked_on": "2026-11-26",
+      "scope": "十月三家确认已发行的定向配售，排除后续权证行权和注册转售",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1641281/000119312526458877/bolt-20260930.htm",
+        "https://www.sec.gov/Archives/edgar/data/1604191/000110465926128566/grdx-20260930x10q.htm",
+        "https://www.sec.gov/Archives/edgar/data/2012593/000119312526446217/R23.htm"
+      ],
+      "candidate_count": 3,
+      "existing_count": 0,
+      "pending_count": 0,
+      "batch": "2026-11-26-chengdu-and-disclosed-equity-129.csv"
     }
   ]
 }
