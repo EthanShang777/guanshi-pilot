@@ -232,5 +232,14 @@
     "source": "https://news.pedaily.cn/202610/570974.shtml",
     "expected": "数亿人民币",
     "amount": "未披露"
+  },
+  {
+    "event_id": "public:historical-disclosure:3f322f51000359123145ad6",
+    "company_id": "co:historical-disclosure:ea8b8b0e50e9b9a29d3e152",
+    "day": "2026-10-01",
+    "round": "A轮",
+    "source": "https://betakit.com/oscp-closes-6-million-usd-series-a-round-to-power-navigation-without-gps/",
+    "expected": "",
+    "amount": "600万美元"
   }
 ]

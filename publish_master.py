@@ -178,10 +178,10 @@ def build(rows, fund_facts=()):
             elif reviewed := reviewed_allocations.get(key, {}).get(inst['key']):
                 if value := contribution(reviewed, urls):
                     d.setdefault('partyAllocations', []).append({'institutionId': inst['key'], **value})
-            if n in fund_managers:
-                manager = fund_managers[n]['brand']
-                brand = entity(institutions, 'institution', manager, manager)
-                deal_institutions[brand['key']] = brand
+            if fund_manager := fund_managers.get(n):
+                for manager in (fund_manager['brand'], *fund_manager.get('coManagers', ())):
+                    brand = entity(institutions, 'institution', manager, manager)
+                    deal_institutions[brand['key']] = brand
         for institution in deal_institutions.values():
             institution['events'].append(d)
         for u in urls:

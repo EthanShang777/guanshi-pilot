@@ -55,7 +55,15 @@ def publish(out):
             events.update((e[0], e) for e in row['events'])
         companies = {e[7]:e for e in sorted(events.values(),key=lambda e:e[2] or '')}
         sectors = Counter(e[5] for e in companies.values() if e[5] and e[5]!='待归类')
-        other = sorted(({r['name'] for _,r in members} | set(BRANDS.get(name, []))) - {name})
+        aliases_for_group = {r['name'] for _,r in members} | set(BRANDS.get(name, []))
+        for member_id, member in members:
+            for fund in member.get('fundDisclosures', []):
+                if fund['fundId'] == member_id:
+                    source = fund['source']
+                    aliases_for_group.update(source.get('aliases', []))
+                    if current_name := source.get('currentRegisteredName'):
+                        aliases_for_group.add(current_name)
+        other = sorted(aliases_for_group - {name})
         initial = re.search('[A-Z0-9]', spelling)
         letter = initial[0] if initial and initial[0].isalpha() else '#'
         index.append([name,key,category(name,brands),letter,other,len(companies),'、'.join(s for s,_ in sectors.most_common(2))])

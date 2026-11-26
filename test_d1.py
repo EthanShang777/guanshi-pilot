@@ -63,3 +63,26 @@ class D1RequestTest(TestCase):
             with self.assertRaisesRegex(RuntimeError, 'D1 HTTP 503'):
                 d1.api('/test/query', {'sql': 'UPDATE financing_events SET amount=?', 'params': ['10']})
             self.assertEqual(send.call_count, 1)
+
+    def test_query_usage_reports_observed_and_missing_counts_without_sql(self):
+        statement = 'SELECT * FROM private_table WHERE id=?'
+        results = [
+            [{'meta': {'rows_read': 17, 'rows_written': 0}, 'results': [{'ok': True}]}],
+            [{'meta': {'rows_read': 3, 'rows_written': 2}, 'results': []}],
+            [{'results': []}],
+        ]
+        with (patch.object(d1, 'api', side_effect=results),
+              patch.object(d1, '_query_usage', {}, create=True),
+              patch.dict('os.environ', {'GITHUB_ACTIONS': 'true'}),
+              patch('builtins.print') as log):
+            self.assertEqual(d1.query('/test', statement, ['private-value']), [{'ok': True}])
+            d1.query('/test', 'UPDATE private_table SET id=1')
+            d1.query('/test', 'SELECT 2')
+            d1.report_query_usage()
+        message = str(log.call_args)
+        self.assertIn('queries=3', message)
+        self.assertIn('rows_read=20', message)
+        self.assertIn('rows_written=2', message)
+        self.assertIn('queries_without_complete_metrics=1', message)
+        self.assertNotIn('private_table', message)
+        self.assertNotIn('private-value', message)

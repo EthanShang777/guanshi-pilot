@@ -123,7 +123,9 @@ def snapshot(rows):
     return ([f | {'partners': [
         {k: p[k] for k in ('name','disclosedContributionCny','disclosedPercent','existingInstitution')}
         for p in sorted(partners[(i,f['source']['date'],f['source']['url'])],
-                        key=lambda p: (-p['disclosedContributionCny'],p['name']))],
+                        key=lambda p: (
+                            p['disclosedContributionCny'] is None,
+                            -(p['disclosedContributionCny'] or 0), p['name']))],
         'publishedStatistics': sorted(stats[i],key=lambda value:value['asOf'],reverse=True)}
          for i,f in funds.items()], allocations)
 

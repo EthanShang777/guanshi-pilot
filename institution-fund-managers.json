@@ -201,7 +201,10 @@
   },
   "中电电子信息产业投资基金（天津）合伙企业（有限合伙）": {
     "brand": "中电基金",
-    "source": "https://www.36kr.com/p/1914514779180807"
+    "source": "https://www.36kr.com/p/1914514779180807",
+    "coManagers": [
+      "中电产融私募基金管理有限公司"
+    ]
   },
   "江苏高投毅达中小贰号创业投资合伙企业（有限合伙）": {
     "brand": "毅达资本",
@@ -1212,8 +1215,8 @@
     "source": "https://www.qcc.com/firm/22c339796f8658173f3a936a7d291d6f.html"
   },
   "工业母机产业投资基金（有限合伙）": {
-    "brand": "元禾控股",
-    "source": "https://www.qcc.com/firm/798d6adf654b87e75a0d2e3f53dc161e.html"
+    "brand": "国器元禾私募基金管理有限公司",
+    "source": "https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf"
   },
   "苏州苏创数字新兴产业基金合伙企业（有限合伙）": {
     "brand": "苏创投",
@@ -1833,7 +1836,10 @@
   },
   "江苏疌泉元禾璞华股权投资合伙企业（有限合伙）": {
     "brand": "元禾璞华",
-    "source": "https://static.cninfo.com.cn/finalpage/2025-12-25/1224897120.PDF"
+    "source": "https://static.cninfo.com.cn/finalpage/2025-12-25/1224897120.PDF",
+    "coManagers": [
+      "元禾璞华（苏州）投资管理有限公司"
+    ]
   },
   "聚源信诚（嘉兴）股权投资合伙企业（有限合伙）": {
     "brand": "中芯聚源",
@@ -1882,5 +1888,1027 @@
   "宁波柯力传感科技股份有限公司": {
     "brand": "柯力传感",
     "source": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518537.PDF"
+  },
+  "上海浦创苗圃人工智能产业创业投资合伙企业（有限合伙）": {
+    "brand": "浦东创投",
+    "source": "https://m.jiemian.com/article/15205925.html"
+  },
+  "上海张科垚坤创业投资合伙企业（有限合伙）": {
+    "brand": "张江科投",
+    "source": "https://www.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-01-04/240463_20240104_BV35.pdf"
+  },
+  "上海启明融康私募基金合伙企业（有限合伙）": {
+    "brand": "启明创投",
+    "source": "https://desk.sh.gov.cn/pdfpt/gzdt/20260731/2219365b41c94d90a1c6293aa2a139e0.html"
+  },
+  "AH-GB未来創造投資事業有限責任組合": {
+    "brand": "Global Brain",
+    "source": "https://globalbrains.com/posts/global-brain-partners-with-ana-holdings-on-its-corporate-venture-capital-fund"
+  },
+  "フィデア企業成長支援ファンド投資事業有限責任組合": {
+    "brand": "フィデアキャピタル",
+    "source": "https://prtimes.jp/main/html/rd/p/000000010.000155984.html"
+  },
+  "松竹ベンチャーズ1号投資事業組合": {
+    "brand": "松竹ベンチャーズ株式会社",
+    "source": "https://prtimes.jp/main/html/rd/p/000000019.000163481.html"
+  },
+  "어 모어 뷰티풀 챌린지 2호": {
+    "brand": "MYSC",
+    "source": "https://www.venturesquare.net/en/1117493/"
+  },
+  "Oxford Technology & Innovations EIS Fund": {
+    "brand": "Oxford Investment Consultants LLP",
+    "source": "https://otif.vc/2022/10/07/living-optics-20m-series-a/"
+  },
+  "Saviu II": {
+    "brand": "Saviu Ventures",
+    "source": "https://www.proparco.fr/en/actualites/proparco-supports-second-closing-saviu-ii-fund-alongside-triple-jump-and-axian-group"
+  },
+  "ALSTIN III Fonds GmbH & Co.KG": {
+    "brand": "Alstin Capital",
+    "source": "https://www.mazanti.dk/en/news/series-a-investment-in-danish-legaltech-company-pandektes-to-accelerate-ai-driven-legal-research/"
+  },
+  "北京青矩工程管理技术创新投资有限公司": {
+    "brand": "青矩创投",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8330705&stockid=836208"
+  },
+  "青岛天奇前沿科技投资基金合伙企业（有限合伙）": {
+    "brand": "天奇创投",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0320/12059909/2026032000170_c.pdf"
+  },
+  "ソーシャルXインパクト投資事業有限責任組合": {
+    "brand": "株式会社ソーシャル・エックス",
+    "coManagers": [
+      "株式会社QRインベストメント"
+    ],
+    "source": "https://farmnote.jp/information/20261006/4768/"
+  },
+  "インパクト・キャピタル1号投資事業有限責任組合": {
+    "brand": "インパクト・キャピタル1号有限責任事業組合",
+    "source": "https://farmnote.jp/information/20261006/4768/"
+  },
+  "北洋スタートアップ1号投資事業有限責任組合": {
+    "brand": "株式会社北海道共創パートナーズ",
+    "source": "https://nessu.co.jp/news/1514/"
+  },
+  "中电科核心技术研发股权投资基金（北京）合伙企业（有限合伙）": {
+    "brand": "中电科网信私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/001350_20241231_FDXN.pdf"
+  },
+  "苏州固锝电子股份有限公司": {
+    "brand": "苏州固锝",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-07-08/1224091723.pdf"
+  },
+  "Big Pi Growth I": {
+    "brand": "Big Pi Ventures",
+    "source": "https://bigpi.vc/blog/big-pi-growth-leads-series-a-extension-investment-into-finmid/"
+  },
+  "mint startup fund 2号投資事業有限責任組合": {
+    "brand": "mint",
+    "source": "https://prtimes.jp/main/html/rd/p/000000002.000189836.html"
+  },
+  "中电科投资控股有限公司": {
+    "brand": "电科投资",
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406241636836613&pageIndex=10"
+  },
+  "奥比中光科技集团股份有限公司": {
+    "brand": "奥比中光",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11460622&stockid=688322"
+  },
+  "上海君联晟灏创业投资合伙企业（有限合伙）": {
+    "brand": "君联资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf"
+  },
+  "北京君联晟源股权投资合伙企业（有限合伙）": {
+    "brand": "君联资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf"
+  },
+  "西安君联海盈股权投资合伙企业（有限合伙）": {
+    "brand": "君联资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf"
+  },
+  "苏州济峰三号股权投资合伙企业（有限合伙）": {
+    "brand": "济峰资本",
+    "source": "https://en.jifengventures.com/pages/85/"
+  },
+  "北京荷塘生命科学原始创新基金（有限合伙）": {
+    "brand": "荷塘创投",
+    "source": "https://en.jifengventures.com/pages/85/"
+  },
+  "江苏高投毅达健康成果创新创业贰号基金合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202412181641345698_1.pdf"
+  },
+  "中金启德（厦门）创新生物医药创业投资合伙企业（有限合伙）": {
+    "brand": "中金资本",
+    "source": "https://en.jifengventures.com/pages/85/"
+  },
+  "北京雅惠锦霖创业投资合伙企业（有限合伙）": {
+    "brand": "雅惠投资",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202412181641345707_1.pdf"
+  },
+  "重庆制造业转型升级私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "建信股权投资管理有限责任公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002050_20250829_PBNF.pdf"
+  },
+  "建信领航战略性新兴产业发展基金（有限合伙）": {
+    "brand": "建信股权投资管理有限责任公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002050_20250829_PBNF.pdf"
+  },
+  "人保科创股权投资基金（上海）中心（有限合伙）": {
+    "brand": "人保资本股权投资有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF"
+  },
+  "中化创新（泉州）产业投资基金合伙企业（有限合伙）": {
+    "brand": "中化创科私募基金管理（天津）有限公司",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-07-29/243275_20260729_GECJ.pdf"
+  },
+  "博润多策略（厦门）股权投资合伙企业（有限合伙）": {
+    "brand": "博润资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-06-24/1220426789.PDF"
+  },
+  "东莞君度生益股权投资合伙企业（有限合伙）": {
+    "brand": "宁波君度私募基金管理有限公司",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8877360&stockid=600183"
+  },
+  "东莞市松山湖天使投资有限公司": {
+    "brand": "东莞市科创资本投资管理有限公司",
+    "source": "https://pub.timedg.com/a/2021-09/14/AP61405bb7e4b05daa9e68402a.html"
+  },
+  "东莞市科创科技成果转化创业投资基金合伙企业（有限合伙）": {
+    "brand": "东莞市科创资本投资管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-30/1225054525.PDF"
+  },
+  "东莞科创万江产业投资合伙企业（有限合伙）": {
+    "brand": "东莞市科创资本投资管理有限公司",
+    "source": "https://www.chinatrust.cn/seo/cnfunds/fund-2201201939112612.html"
+  },
+  "海盐鋆昊臻选股权投资合伙企业（有限合伙）": {
+    "brand": "珠海通沛股权投资管理合伙企业（有限合伙）",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-12-14/1222019464.PDF"
+  },
+  "嘉兴鋆百股权投资合伙企业（有限合伙）": {
+    "brand": "珠海通沛股权投资管理合伙企业（有限合伙）",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-12-14/1222019464.PDF"
+  },
+  "杭州昊迪股权投资合伙企业（有限合伙）": {
+    "brand": "珠海钧瀚私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324581.PDF"
+  },
+  "杭州昊跃股权投资合伙企业（有限合伙）": {
+    "brand": "珠海钧瀚私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-12-14/1222019464.PDF"
+  },
+  "共青城汇嘉股权投资管理合伙企业（有限合伙）": {
+    "brand": "北京东方汇嘉基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202105/000771_20210526_KTQI.pdf"
+  },
+  "珠海华金创盈八号股权投资基金合伙企业（有限合伙）": {
+    "brand": "珠海华金领创基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202105/000771_20210526_KTQI.pdf"
+  },
+  "杭州长潘股权投资合伙企业（有限合伙）": {
+    "brand": "摩根士丹利（中国）股权投资管理有限公司",
+    "source": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2021-10-11/688772_20211011_2_lIDuHDg0.pdf"
+  },
+  "广东广祺辰途叁号股权投资合伙企业（有限合伙）": {
+    "brand": "广州盈蓬投资管理有限公司",
+    "source": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2021-10-11/688772_20211011_2_lIDuHDg0.pdf"
+  },
+  "佛山今晟优选贰号股权投资合伙企业（有限合伙）": {
+    "brand": "深圳今晟股权投资管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202105/000771_20210526_KTQI.pdf"
+  },
+  "上海中电投融和新能源投资管理中心（有限合伙）": {
+    "brand": "国家电投集团产业基金管理有限公司",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0930/11860829/2025093000159_c.pdf"
+  },
+  "上海中电投融和股权投资基金合伙企业（有限合伙）": {
+    "brand": "国家电投集团产业基金管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202409301640103311_1.pdf%3F1727711818000.pdf"
+  },
+  "嘉兴融和电科绿水股权投资合伙企业（有限合伙）": {
+    "brand": "国家电投集团产业基金管理有限公司",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2021-03/20/nw.D110000zgzqb_20210320_3-B006.htm"
+  },
+  "嘉兴融和海川股权投资合伙企业（有限合伙）": {
+    "brand": "国家电投集团产业基金管理有限公司",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202212/RAS_202212_0001849EA8B78F3FD7F9D84A737D063F.pdf"
+  },
+  "融和电投一号（嘉兴）创业投资合伙企业（有限合伙）": {
+    "brand": "国家电投集团产业基金管理有限公司",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6327318&stockid=300040"
+  },
+  "杭州鋆腾股权投资合伙企业（有限合伙）": {
+    "brand": "珠海通沛股权投资管理合伙企业（有限合伙）",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202212/RAS_202212_0001849EA8B78F3FD7F9D84A737D063F.pdf"
+  },
+  "上海正海聚弘创业投资中心（有限合伙）": {
+    "brand": "上海正海资产管理有限公司",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/1ed1de5c9e1a7a8c74118c46804a9fe1.pdf"
+  },
+  "杭州倍达广聚创业投资合伙企业（有限合伙）": {
+    "brand": "杭州贝达投资管理有限公司",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0930/11860829/2025093000159_c.pdf"
+  },
+  "嘉兴融和电科青山股权投资合伙企业（有限合伙）": {
+    "brand": "国家电投集团产业基金管理有限公司",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0730/2021073001117_c.pdf"
+  },
+  "曲靖市产业引导股权投资基金合伙企业（有限合伙）": {
+    "brand": "曲靖信产私募基金管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+  },
+  "曲靖经开区产业引导股权投资基金合伙企业（有限合伙）": {
+    "brand": "云南靖泽私募基金管理有限责任公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+  },
+  "曲靖经开区兴产股权投资基金合伙企业（有限合伙）": {
+    "brand": "曲靖信产私募基金管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+  },
+  "招赢（湖北）智能制造产业基金合伙企业（有限合伙）": {
+    "brand": "湖北长江招银产业基金管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+  },
+  "招赢智造（湖北）产业投资基金合伙企业（有限合伙）": {
+    "brand": "湖北长江招银产业基金管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+  },
+  "招赢（湖北）科创股权投资合伙企业（有限合伙）": {
+    "brand": "湖北长江招银产业基金管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+  },
+  "南京市招银共赢股权投资合伙企业（有限合伙）": {
+    "brand": "江苏招银产业基金管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+  },
+  "温州玖致创业投资合伙企业（有限合伙）": {
+    "brand": "杭州杰新投资合伙企业（有限合伙）",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+  },
+  "海宁华能源融科环股权投资合伙企业（有限合伙）": {
+    "brand": "天津源融投资管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826611687_1.pdf"
+  },
+  "舜远动能（天津）创业投资合伙企业（有限合伙）": {
+    "brand": "舜远（北京）私募基金管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826611687_1.pdf"
+  },
+  "宁波市赋丙创业投资基金合伙企业（有限合伙）": {
+    "brand": "宁波勇诚资产管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826611687_1.pdf"
+  },
+  "岳阳市隐潇产业投资合伙企业（有限合伙）": {
+    "brand": "珠海隐山资本股权投资管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826611687_1.pdf"
+  },
+  "四川省绿色低碳产业发展基金合伙企业（有限合伙）": {
+    "brand": "四川聚信致远私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-03-03/1222693732.PDF"
+  },
+  "成都产投先进制造产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "成都先进创融资本管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2025/2025-6/2025-06-10/11171256.PDF"
+  },
+  "深圳市新型储能产业协同股权基金合伙企业（有限合伙）": {
+    "brand": "深圳市远致储能私募股权基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-09-29/1224691036.PDF"
+  },
+  "东方电气（成都）氢能股权投资基金合伙企业（有限合伙）": {
+    "brand": "东方江峡产业投资私募基金管理（成都）有限公司",
+    "source": "https://stockmc.xueqiu.com/202509/688783_20250925_X34C.pdf"
+  },
+  "东昊氢能股权投资基金（成都）合伙企业（有限合伙）": {
+    "brand": "东方江峡产业投资私募基金管理（成都）有限公司",
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202511271789454596&pageIndex=17"
+  },
+  "东方电气（德阳）绿色智造股权投资基金合伙企业（有限合伙）": {
+    "brand": "东方江峡产业投资私募基金管理（成都）有限公司",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-14/4d447cdf-1001-4fa9-9649-c088356be075.PDF"
+  },
+  "东昊绿色智造股权投资基金（德阳）合伙企业（有限合伙）": {
+    "brand": "东方江峡产业投资私募基金管理（成都）有限公司",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11295873&stockid=600208"
+  },
+  "深圳市国信亿合新兴产业私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "国信弘盛私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-01-17/1222366611.PDF",
+    "coManagers": [
+      "广州亿合股权投资管理有限公司"
+    ]
+  },
+  "润峡招赢（湖北）新能源产业投资基金合伙企业（有限合伙）": {
+    "brand": "湖北长江招银产业基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-05-07/1223478595.PDF"
+  },
+  "湖北长江招银成长股权投资合伙企业（有限合伙）": {
+    "brand": "湖北长江招银产业基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF"
+  },
+  "深圳招银电信新趋势股权投资基金合伙企业（有限合伙）": {
+    "brand": "深圳招银电信股权投资基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF"
+  },
+  "湖北长江招银文创股权投资基金合伙企业（有限合伙）": {
+    "brand": "湖北长江广电文创股权投资基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-28/1224017440.PDF"
+  },
+  "长江晨道（湖北）新能源产业投资合伙企业（有限合伙）": {
+    "brand": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2024/2024-10/2024-10-22/10534927.PDF"
+  },
+  "武汉科创新引擎创业投资基金合伙企业（有限合伙）": {
+    "brand": "武汉洪创投资管理有限公司",
+    "source": "https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf"
+  },
+  "武汉洪创众志投资管理合伙企业（有限合伙）": {
+    "brand": "武汉洪创投资管理有限公司",
+    "source": "https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf"
+  },
+  "深圳市招银朗曜成长股权投资基金合伙企业（有限合伙）": {
+    "brand": "招银国际资本管理（深圳）有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-11-25/1215197308.PDF"
+  },
+  "招银成长叁号投资（深圳）合伙企业（有限合伙）": {
+    "brand": "招银国际资本管理（深圳）有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-11-25/1215197308.PDF"
+  },
+  "宜宾晨道新能源产业股权投资合伙企业（有限合伙）": {
+    "brand": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf"
+  },
+  "湖州舒瀚股权投资合伙企业（有限合伙）": {
+    "brand": "上海智越投资管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297471_1.pdf"
+  },
+  "金华金开德弘联信毕方贰号投资中心（有限合伙）": {
+    "brand": "深圳市前海德弘联信投资管理有限公司",
+    "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf"
+  },
+  "上海智越投资中心（有限合伙）": {
+    "brand": "上海智越投资管理有限公司",
+    "source": "https://finance.sina.com.cn/stock/t/2016-01-19/doc-ifxnrahr8493225.shtml"
+  },
+  "舟山智越韶瀚创业投资中心（有限合伙）": {
+    "brand": "上海智越投资管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF"
+  },
+  "舟山智越荣熙投资合伙企业（有限合伙）": {
+    "brand": "上海智越投资管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF"
+  },
+  "宝武绿碳私募投资基金（上海）合伙企业（有限合伙）": {
+    "brand": "华宝（上海）股权投资基金管理有限公司",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-26/d0c126495888497689a588f121b91a48.pdf"
+  },
+  "共青城模界智慧产业投资基金合伙企业（有限合伙）": {
+    "brand": "前海亚商粤科投资管理（深圳）有限公司",
+    "source": "https://notice.10jqka.com.cn/api/pdf/eae9d6fe247f38b_1727408827/%E5%88%9B%E4%B8%96%E7%BA%AA%EF%BC%9A%E5%85%B3%E4%BA%8E%E5%8F%82%E4%B8%8E%E6%8A%95%E8%B5%84%E8%AE%BE%E7%AB%8B%E7%9A%84%E4%BA%A7%E4%B8%9A%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E5%AE%8C%E6%88%90%E5%B7%A5%E5%95%86%E7%99%BB%E8%AE%B0%E5%8F%8A%E5%9F%BA%E9%87%91%E5%A4%87%E6%A1%88%E7%9A%84%E5%85%AC%E5%91%8A.pdf"
+  },
+  "江西省现代产业引导基金（有限合伙）": {
+    "brand": "江西国控私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-08-20/1220907967.PDF"
+  },
+  "赣州市赣深产业股权基金合伙企业（有限合伙）": {
+    "brand": "国信弘盛私募基金管理有限公司",
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-10-21/43d96a41-0501-4240-82a1-09587d07ef7f.PDF"
+  },
+  "社保基金中关村自主创新投资基金（北京）合伙企业（有限合伙）": {
+    "brand": "君联资本",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf"
+  },
+  "上海国资国企综改试验私募基金合伙企业（有限合伙）": {
+    "brand": "国新国同（杭州）股权投资有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf"
+  },
+  "福建省金投金鹏创业投资基金合伙企业（有限合伙）": {
+    "brand": "福建省金投私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+  },
+  "福建福金信科创业投资合伙企业（有限合伙）": {
+    "brand": "福建省电子信息产业股权投资管理有限公司",
+    "source": "https://notice.10jqka.com.cn/api/pdf/d905fe7d3b0e2df8.pdf"
+  },
+  "北京中科创星硬科技中小企业创业投资合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202401311619794932_1.pdf"
+  },
+  "福建专精一号创业投资合伙企业（有限合伙）": {
+    "brand": "兴证资本",
+    "source": "https://www.fjdaily.com/app/content/2023-08/29/content_2032821.html"
+  },
+  "福建专精二号创业投资合伙企业（有限合伙）": {
+    "brand": "兴证资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf"
+  },
+  "厦门赛富创业投资合伙企业（有限合伙）": {
+    "brand": "厦门赛富创业投资管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512251808015386_1.pdf"
+  },
+  "北京小米智造股权投资基金合伙企业（有限合伙）": {
+    "brand": "小米私募股权基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/688478_20260227_GLW8.pdf"
+  },
+  "福建省金投金顺股权投资基金合伙企业（有限合伙）": {
+    "brand": "福建省金投私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+  },
+  "无锡产发科创基金合伙企业（有限合伙）": {
+    "brand": "江阴新国联创业投资有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+  },
+  "上海新芯产业私募投资基金合伙企业（有限合伙）": {
+    "brand": "上海临港新片区私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+  },
+  "福岩高新（龙岩）私募创业投资合伙企业（有限合伙）": {
+    "brand": "华福资本管理有限公司",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上杭辰韬兴杭创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上杭县兴杭朝智创业投资合伙企业（有限合伙）": {
+    "brand": "上杭县兴杭创业投资有限公司",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上杭兴杭朝风创业投资合伙企业（有限合伙）": {
+    "brand": "上杭县兴杭创业投资有限公司",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上杭兴杭朝光创业投资合伙企业（有限合伙）": {
+    "brand": "上杭县兴杭创业投资有限公司",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上杭兴杭启光创业投资合伙企业（有限合伙）": {
+    "brand": "上杭县兴杭创业投资有限公司",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上杭兴杭启信创业投资合伙企业（有限合伙）": {
+    "brand": "上杭县兴杭创业投资有限公司",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "平潭嘉翼创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "湖州越诚股权投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "嘉兴科隆创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "嘉兴辰易创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "嘉兴辰智创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上海辰韬创享创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上杭易韬创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "苏州中新兴富数智创业投资合伙企业（有限合伙）": {
+    "brand": "兴富资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "上海兴富雏鹰私募投资基金合伙企业（有限合伙）": {
+    "brand": "兴富资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "斯道（天津）股权投资合伙企业（有限合伙）": {
+    "brand": "斯道资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "中小方广（上海）私募基金合伙企业（有限合伙）": {
+    "brand": "方广资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "常州方广四期创业投资合伙企业（有限合伙）": {
+    "brand": "方广资本",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "宁波彗通创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+  },
+  "平潭雄浦创业投资合伙企业（有限合伙）": {
+    "brand": "辰韬资本",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+  },
+  "龙岩睿投股权投资合伙企业（有限合伙）": {
+    "brand": "龙岩岩鑫创业投资基金管理有限公司",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf"
+  },
+  "科兴旭鼎管理咨询（上海）合伙企业（有限合伙）": {
+    "brand": "正心谷资本",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+  },
+  "上海檀英投资合伙企业（有限合伙）": {
+    "brand": "正心谷资本",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+  },
+  "珠海市鼎擎企业管理咨询合伙企业（有限合伙）": {
+    "brand": "正心谷资本",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+  },
+  "珠海市横琴旭勒投资管理企业（有限合伙）": {
+    "brand": "正心谷资本",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+  },
+  "北京极目创业投资有限公司": {
+    "brand": "小米产投",
+    "source": "https://www.bse.cn/disclosure/2026/2026-06-30/e2cea6a1d4a94c81a0a73346c821e1ac.pdf"
+  },
+  "铜陵高投毅达专精特新创业投资基金合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512021792629193_1.pdf"
+  },
+  "芜湖市镜湖高投毅达中小企业创业投资基金（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512021792629193_1.pdf"
+  },
+  "扬州高投毅达鑫海三期创业投资合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512021792629193_1.pdf"
+  },
+  "江苏毅达鑫海创业投资基金（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf"
+  },
+  "成都毅达交子环投兴华汇蓉壹号创业投资基金合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-18/1223911550.PDF"
+  },
+  "安徽明裕创业投资基金合伙企业（有限合伙）": {
+    "brand": "耀彩投资管理（上海）有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512021792629193_1.pdf"
+  },
+  "江苏高投毅达绿色转型产业投资基金（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202609011828873150_1.pdf"
+  },
+  "昆山毅达玉澄创业投资合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf"
+  },
+  "南京凤凰高投毅达数字经济创业投资合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223318901.PDF"
+  },
+  "江苏疌泉高投毅达化工新材料创业投资合伙企业（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223318901.PDF"
+  },
+  "江苏国有企业混合所有制改革基金（有限合伙）": {
+    "brand": "江苏高投创业投资管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223318901.PDF"
+  },
+  "国中（深圳）三期中小企业发展私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "国中资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-05-22/1223626992.PDF"
+  },
+  "安徽国元种子三期股权投资基金合伙企业（有限合伙）": {
+    "brand": "安徽国元基金",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-05-22/1223626992.PDF"
+  },
+  "合肥产投大健康种子基金合伙企业（有限合伙）": {
+    "brand": "合肥产投国正创业投资有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-05-22/1223626992.PDF"
+  },
+  "厦门汇杰私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "厦门火炬集团创业投资有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-07-05/1224085490.PDF"
+  },
+  "泰兴市双创引导基金（有限合伙）": {
+    "brand": "毅达资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf"
+  },
+  "杭州浙创百舸创业投资合伙企业（有限合伙）": {
+    "brand": "浙江省创业投资集团有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf"
+  },
+  "泰兴市启辰新兴产业创业投资基金合伙企业（有限合伙）": {
+    "brand": "无锡国联金投启源私募基金管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf"
+  },
+  "中金传化（宁波）产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "中金资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf"
+  },
+  "上海汇付互联网金融信息服务创业投资中心（有限合伙）": {
+    "brand": "朗程资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf"
+  },
+  "南京金浦新潮新兴产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "金浦投资",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429732_1.pdf"
+  },
+  "南京金浦新潮晨光创业投资合伙企业（有限合伙）": {
+    "brand": "金浦投资",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429732_1.pdf"
+  },
+  "苏州顺融进取三期创业投资合伙企业（有限合伙）": {
+    "brand": "顺融资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-26/1225287565.PDF"
+  },
+  "苏州顺皓创业投资合伙企业（有限合伙）": {
+    "brand": "顺融资本",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202312/001472_20231201_Z6PT.pdf"
+  },
+  "六安晶汇创芯股权投资基金合伙企业（有限合伙）": {
+    "brand": "上海晶合汇信企业管理咨询合伙企业（有限合伙）",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225591575.PDF"
+  },
+  "合肥晶汇聚芯投资基金合伙企业（有限合伙）": {
+    "brand": "上海高信私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225591575.PDF"
+  },
+  "苏州东吴产业并购引导基金合伙企业（有限合伙）": {
+    "brand": "东吴创业投资有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-05/1223764358.PDF"
+  },
+  "苏州博昶创业投资合伙企业（有限合伙）": {
+    "brand": "上海禄昶投资管理合伙企业（有限合伙）",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF"
+  },
+  "信之风（武汉）股权投资基金合伙企业（有限合伙）": {
+    "brand": "信之风（武汉）私募基金管理合伙企业（有限合伙）",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF"
+  },
+  "苏州东吴科创投资合伙企业（有限合伙）": {
+    "brand": "东吴创投",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF"
+  },
+  "无锡新高地高精尖产业投资基金合伙企业（有限合伙）": {
+    "brand": "无锡新高地私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF"
+  },
+  "安徽嘉岸启信创业投资合伙企业（有限合伙）": {
+    "brand": "宁波嘉岸创业投资合伙企业（有限合伙）",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF"
+  },
+  "四川普什产业发展基金合伙企业（有限合伙）": {
+    "brand": "宜宾五粮液基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF"
+  },
+  "安徽国江未来汽车产业投资基金合伙企业（有限合伙）": {
+    "brand": "安徽国控资本私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF"
+  },
+  "温州知壹丰盛股权投资合伙企业（有限合伙）": {
+    "brand": "珠海知一华新私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF"
+  },
+  "安徽省新材料产业主题投资基金合伙企业（有限合伙）": {
+    "brand": "合肥产投资本创业投资管理有限公司",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1022/2025102201014_c.pdf"
+  },
+  "安徽超摩启源创业投资基金合伙企业（有限合伙）": {
+    "brand": "上海超越摩尔私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-04-18/1223144800.PDF"
+  },
+  "安徽省聚晟材料股权投资基金合伙企业（有限合伙）": {
+    "brand": "合肥市新站国鑫资本私募基金管理有限公司",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2026-09/30/nw.D110000zgzqb_20260930_6-B020.htm"
+  },
+  "苏州凯风创芯创业投资合伙企业（有限合伙）": {
+    "brand": "凯风创投",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888515.PDF"
+  },
+  "鼎晖中安并购（安徽）股权投资基金合伙企业（有限合伙）": {
+    "brand": "鼎晖投资",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2025-12-13/f345bb84-c377-487a-a792-4281729fed59.PDF"
+  },
+  "工融金投二号（北京）新兴产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "工银资本管理有限公司",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-04/a85934b7-180b-4cea-a2a5-b72dce238dec.PDF"
+  },
+  "湖州凯风厚泽股权投资合伙企业（有限合伙）": {
+    "brand": "凯风创投",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=7738868&stockid=688259"
+  },
+  "杭州凯风乾德成果转化股权投资合伙企业（有限合伙）": {
+    "brand": "凯风创投",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12000036&stockid=688259"
+  },
+  "北京亦庄京国瑞股权投资基金（有限合伙）": {
+    "brand": "北京京国瑞股权投资基金管理有限公司",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-09-18/246105_20260918_K683.pdf"
+  },
+  "上海凯风开泰创业投资合伙企业（有限合伙）": {
+    "brand": "凯风创投",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2022-02/25/nw.D110000zgzqb_20220225_9-B018.htm"
+  },
+  "工融金投二号（苏州）股权投资基金合伙企业（有限合伙）": {
+    "brand": "工银资本管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-09-30/1224690624.PDF"
+  },
+  "陕西众投湛卢二期股权投资合伙企业（有限合伙）": {
+    "brand": "中兴众创（西安）投资管理有限公司",
+    "source": "https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf"
+  },
+  "昆仑工融绿色（北京）新兴产业投资基金合伙企业（有限合伙）": {
+    "brand": "中油昆仑（北京）私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225051828.PDF"
+  },
+  "北京亦庄建源股权投资基金合伙企业（有限合伙）": {
+    "brand": "北京亦庄国际产业投资管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606181823664789_1.pdf"
+  },
+  "中新苏州工业园区创业投资有限公司": {
+    "brand": "苏州元禾控股股份有限公司",
+    "source": "https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf"
+  },
+  "北京经济技术开发区产业升级股权投资基金二期（有限合伙）": {
+    "brand": "北京亦庄国际产业投资管理有限公司",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0618/12207213/2026061800103_c.pdf"
+  },
+  "上海具身智创创业投资合伙企业（有限合伙）": {
+    "brand": "上海孚腾私募基金管理有限公司",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2025-05/21/nw.D110000zgzqb_20250521_2-B018.htm"
+  },
+  "苏州工业园区二期产业投资基金（有限合伙）": {
+    "brand": "苏州园丰资本管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225585984.PDF"
+  },
+  "国机（苏州）先进装备与产业基础投资基金（有限合伙）": {
+    "brand": "国机（北京）投资基金管理有限责任公司",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-08-11/245617_20260811_5ZJW.pdf"
+  },
+  "华舆高新交控（芜湖）产业链投资基金合伙企业（有限合伙）": {
+    "brand": "中车国创（北京）私募基金管理有限公司",
+    "source": "https://www.crrcgc.cc/Portals/71/Uploads/Files/2023/12-28/638393793652876933.pdf"
+  },
+  "中车（青岛）制造业转型升级私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "中车（北京）转型升级基金管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608171828053283_1.pdf"
+  },
+  "山东动能嘉元创业投资基金合伙企业（有限合伙）": {
+    "brand": "山东省新动能私募基金管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608171828053283_1.pdf"
+  },
+  "广东中山招赢芯智启航股权投资基金合伙企业（有限合伙）": {
+    "brand": "招银国际资本管理（深圳）有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+  },
+  "湖北葛店中瀛扶摇股权投资基金合伙企业（有限合伙）": {
+    "brand": "中银资本私募基金管理（北京）有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+  },
+  "武汉矩阵无限创业投资基金合伙企业（有限合伙）": {
+    "brand": "武汉光谷科创投私募股权基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+  },
+  "华舆国华（青岛）股权投资合伙企业（有限合伙）": {
+    "brand": "华舆正心（天津）股权投资基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+  },
+  "华舆（青岛）科技创新创业股权投资合伙企业（有限合伙）": {
+    "brand": "中车国创（北京）私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-05-10/1213300314.PDF"
+  },
+  "北京华舆国创股权投资基金合伙企业（有限合伙）": {
+    "brand": "中车国创（北京）私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202208/001081_20220817_NZSZ.pdf"
+  },
+  "深圳前海招新锐青投资合伙企业（有限合伙）": {
+    "brand": "集友私募股权投资基金管理（深圳）有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+  },
+  "上海临港国泰君安科技前沿产业私募基金合伙企业（有限合伙）": {
+    "brand": "国泰君安创新投资有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+  },
+  "华舆正心（天津）股权投资基金合伙企业（有限合伙）": {
+    "brand": "华舆正心（天津）股权投资基金管理有限公司",
+    "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf"
+  },
+  "深圳市君丰华益新兴产业投资合伙企业（有限合伙）": {
+    "brand": "深圳市君丰创业投资基金管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202603091820414485_1.pdf?1773074685000.pdf="
+  },
+  "国创投资引导基金（有限合伙）": {
+    "brand": "国创基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888014.PDF"
+  },
+  "北京国创新能源汽车股权投资基金合伙企业（有限合伙）": {
+    "brand": "国创（北京）新能源汽车投资基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888014.PDF"
+  },
+  "农兴旭盈（嘉兴）股权投资合伙企业（有限合伙）": {
+    "brand": "农银国际（珠海横琴）投资基金管理有限公司",
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf"
+  },
+  "嘉兴金生未来一号股权投资合伙企业（有限合伙）": {
+    "brand": "冠亚投资控股有限公司",
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf"
+  },
+  "泛海愿景二期新科技投资（天津）合伙企业（有限合伙）": {
+    "brand": "泛海投资集团有限公司",
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf"
+  },
+  "国华军民融合产业发展基金（有限合伙）": {
+    "brand": "国华军民融合产业发展基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/600962_20260226_FGME.pdf"
+  },
+  "北京航天产业投资基金（有限合伙）": {
+    "brand": "航天产业投资基金管理（北京）有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2018-09-21/1205459143.PDF"
+  },
+  "国华卫星应用产业基金（南京）合伙企业（有限合伙）": {
+    "brand": "国华卫星应用产业基金管理（南京）有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-28/1224017504.PDF"
+  },
+  "国新国同（浙江）投资基金合伙企业（有限合伙）": {
+    "brand": "国新国控（杭州）投资管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2019-02-13/1205827041.PDF"
+  },
+  "浙江制造基金合伙企业（有限合伙）": {
+    "brand": "浙江制造投资管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2019-02-13/1205827041.PDF"
+  },
+  "广州同得投资合伙企业（有限合伙）": {
+    "brand": "广州越秀产业投资基金管理股份有限公司",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9587067&stockid=688648"
+  },
+  "中金启辰（苏州）新兴产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "中金资本运营有限公司",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9587067&stockid=688648"
+  },
+  "江苏航天创新专利投资中心（有限合伙）": {
+    "brand": "航天高新（镇江）创业投资管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202303/001715_20230303_F3V3.pdf"
+  },
+  "融核产业发展基金（海盐）合伙企业（有限合伙）": {
+    "brand": "中核产业基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222322681.pdf"
+  },
+  "中核（浙江）新兴产业股权投资基金（有限合伙）": {
+    "brand": "中核产业基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-01-14/1222322681.pdf"
+  },
+  "上海诚毅锦冠创业投资合伙企业（有限合伙）": {
+    "brand": "上海锦冠投资管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2022/2022-7/2022-07-27/8384847.PDF"
+  },
+  "嘉兴锦冠贰号股权投资合伙企业（有限合伙）": {
+    "brand": "上海锦冠投资管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2022/2022-7/2022-07-27/8384847.PDF"
+  },
+  "南通万物创新创业投资合伙企业（有限合伙）": {
+    "brand": "上海清新投资管理有限公司",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2022/2022-7/2022-07-27/8384847.PDF"
+  },
+  "上海诚毅新能源创业投资有限公司": {
+    "brand": "上海诚毅创业投资管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201606240016207149_1.pdf?1466796468000.pdf="
+  },
+  "珠海德盈嘉华启辰股权投资合伙企业（有限合伙）": {
+    "brand": "宁波盈峰股权投资基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-12-24/1222127446.PDF"
+  },
+  "湖南省天惠军民融合投资基金合伙企业（有限合伙）": {
+    "brand": "湖南天惠私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf"
+  },
+  "杭州鼎晖宏垣股权投资合伙企业（有限合伙）": {
+    "brand": "上海鼎晖百孚投资管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_180C.pdf"
+  },
+  "中兵国调（厦门）股权投资基金合伙企业（有限合伙）": {
+    "brand": "中兵顺景股权投资管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF"
+  },
+  "上海军民融合产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "上海君盛协创私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225272440.PDF"
+  },
+  "中电中金（厦门）智能产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "中电中金（厦门）电子产业私募股权投资管理有限公司",
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605121822210889&pageIndex=11"
+  },
+  "军民融合发展产业投资基金（有限合伙）": {
+    "brand": "国投创合（上海）投资管理有限公司",
+    "source": "https://epaper.stcn.com/att/202306/16/bd9c4d8b-032b-4fb2-ac35-dbedd507580d.pdf"
+  },
+  "创合融发（陕西）航空航天创业投资合伙企业（有限合伙）": {
+    "brand": "国投创合（上海）投资管理有限公司",
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202509011737722910&pageIndex=7"
+  },
+  "联通中金创新产业股权投资基金（深圳）合伙企业（有限合伙）": {
+    "brand": "联通中金私募股权投资管理（深圳）有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202204/001079_20220429_JQCY.pdf"
+  },
+  "湖北长江中信科移动通信技术产业投资基金合伙企业（有限合伙）": {
+    "brand": "武汉光谷烽火投资基金管理有限公司",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10503190&stockid=301626"
+  },
+  "南通沃赋创业投资合伙企业（有限合伙）": {
+    "brand": "上海沃赋私募基金管理有限公司",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF"
+  },
+  "嘉兴沃赋锦芯股权投资合伙企业（有限合伙）": {
+    "brand": "上海沃赋私募基金管理有限公司",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF"
+  },
+  "青岛毅道优势股权投资中心（有限合伙）": {
+    "brand": "北京毅道资本管理有限公司",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF"
+  },
+  "杭州海康智慧产业股权投资基金合伙企业（有限合伙）": {
+    "brand": "中电海康（杭州）股权投资管理有限公司",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF"
+  },
+  "珠海华金领越智能制造产业投资基金（有限合伙）": {
+    "brand": "珠海华金领创基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000874_20220125_0GRN.pdf"
+  },
+  "国新双百壹号（杭州）股权投资合伙企业（有限合伙）": {
+    "brand": "国改双百发展基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF"
+  },
+  "青岛宏坤元贾投资管理中心（有限合伙）": {
+    "brand": "中诚信财务顾问有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF"
+  },
+  "芜湖旷沄人工智能产业投资基金（有限合伙）": {
+    "brand": "珠海佑柏私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF"
+  },
+  "长三角协同优势产业股权投资合伙企业（有限合伙）": {
+    "brand": "上海国方私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202011/000714_20201106_CRIG.pdf"
+  },
+  "合肥石溪产恒二期集成电路创业投资基金合伙企业（有限合伙）": {
+    "brand": "北京石溪清流私募基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655349.PDF"
+  },
+  "上海联新科技股权投资中心（有限合伙）": {
+    "brand": "上海联新资本管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655349.PDF"
+  },
+  "苏州聚源铸芯创业投资合伙企业（有限合伙）": {
+    "brand": "中芯聚源私募基金管理（上海）有限公司",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf"
+  },
+  "苏州聚源振芯股权投资合伙企业（有限合伙）": {
+    "brand": "中芯聚源私募基金管理（上海）有限公司",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf"
+  },
+  "海富长江成长股权投资（湖北）合伙企业（有限合伙）": {
+    "brand": "海富产业投资基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000714_20220118_C90N.pdf"
+  },
+  "贵州国发航空发动机产业发展股权投资合伙企业（有限合伙）": {
+    "brand": "航发基金管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722917_1.pdf?1756754575000.pdf="
+  },
+  "中电科（珠海）产业投资基金合伙企业（有限合伙）": {
+    "brand": "中电产融私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf"
+  },
+  "苏州工业园区元禾重元贰号股权投资基金合伙企业（有限合伙）": {
+    "brand": "苏州工业园区元禾重元股权投资基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+  },
+  "南京市一汽创新基金投资管理中心（有限合伙）": {
+    "brand": "鼎佳汽车私募基金管理（北京）有限公司",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf"
+  },
+  "北京沃衍投资中心（有限合伙）": {
+    "brand": "北京沃衍资本管理中心（有限合伙）",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+  },
+  "无锡悦衍投资中心（有限合伙）": {
+    "brand": "北京沃衍资本管理中心（有限合伙）",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+  },
+  "苏州沃洁股权投资合伙企业（有限合伙）": {
+    "brand": "北京沃衍资本管理中心（有限合伙）",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+  },
+  "合肥中电科国元产业投资基金合伙企业（有限合伙）": {
+    "brand": "中电科国元（北京）产业投资基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2020-12-21/1208941543.PDF"
+  },
+  "武汉华实劲鸿私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "华实浩瑞（武汉）资产管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-01-27/1212295831.PDF"
+  },
+  "中国国有企业结构调整基金二期股份有限公司": {
+    "brand": "诚通基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-15/1225425449.PDF"
   }
 }

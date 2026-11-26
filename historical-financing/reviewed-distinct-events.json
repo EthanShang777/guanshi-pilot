@@ -65,5 +65,2065 @@
     },
     "source": "https://www.chinaventure.com.cn/news/114-20261126-394199.html",
     "compared_source": "https://www.chinaventure.com.cn/flash/20261126-90300.html"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e2cec232051ca8b374cd75",
+      "company_id": "co:full_legal_name:fe5810fdb89972653f6ea9bc99640444"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e8ebaf6ae4356b104a98adf",
+      "company_id": "co:historical-disclosure:14ce7672aaca7a682b2d385"
+    },
+    "source": "https://www.xplore.vc/post/startup---joe-ai-leve-2-millions-euros-construire-plateforme-ia-reference-immobilier-europe",
+    "separate_identity_source": "https://tether.io/news/tether-invests-in-aisa-to-expand-its-push-into-ai-powered-payments-and-programmable-money/"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a9b0e44e3354d591a42f88",
+      "company_id": "co:full_legal_name:b114eb5413cbe6f4114f29a56e612958"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:98a40399696d8e9a3d5dd20",
+      "company_id": "co:historical-disclosure:1fa9eb119b87709637126bc"
+    },
+    "source": "https://www.znext.io/portfolio/ardeevo",
+    "separate_identity_source": "https://uncorkcapital.com/blog/investing-in-evos"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1573576572e5dc7fba36ec",
+      "company_id": "co:full_legal_name:ff31a4017a3afe0735ac740acd29ed78"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:5f9c93651520a122577cb0",
+      "company_id": "co:full_legal_name:ff31a4017a3afe0735ac740acd29ed78"
+    }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:d1e74016c20984171aec98",
+      "company_id": "co:cn_uscc:b2a4b207551f5d98fe53b49914e15a40"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b65a537689522791b1a807",
+      "company_id": "co:cn_uscc:b2a4b207551f5d98fe53b49914e15a40"
+    }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:580856f3ef5e98a09da6dd",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "financing_event:ce5ac3fef0231c82d55d5fbcce4bedc2a9d4434bed8d8b41eeb544479cce4439",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604291821742658_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:ce5ac3fef0231c82d55d5fbcce4bedc2a9d4434bed8d8b41eeb544479cce4439",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:580856f3ef5e98a09da6dd",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604291821742658_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:181957b2f8920257f0ce66",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "financing_event:f7bff3657ebeda1cc93923ecc59a644521ef748f8fb0617773136a201cc360e8",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:f7bff3657ebeda1cc93923ecc59a644521ef748f8fb0617773136a201cc360e8",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:181957b2f8920257f0ce66",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3617923b6f86678cd5bbe5",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a2bafafe4ad22d8c573a87",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a2bafafe4ad22d8c573a87",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3617923b6f86678cd5bbe5",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:937da8a8202f6264c411aa",
+      "company_id": "co:cn_uscc:0ae8e50599f2ce0ca3fa0623dd2460ab"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4a670b498b485a30b68d24",
+      "company_id": "co:cn_uscc:0ae8e50599f2ce0ca3fa0623dd2460ab"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202401/RAS_202401_251740BED19E6F6EDD4F28A83E8856820992AE.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4a670b498b485a30b68d24",
+      "company_id": "co:cn_uscc:0ae8e50599f2ce0ca3fa0623dd2460ab"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:937da8a8202f6264c411aa",
+      "company_id": "co:cn_uscc:0ae8e50599f2ce0ca3fa0623dd2460ab"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202401/RAS_202401_251740BED19E6F6EDD4F28A83E8856820992AE.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:649af9c8ff5082f25650b7",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c66c51bce2af889daede9c",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c66c51bce2af889daede9c",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:649af9c8ff5082f25650b7",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c97947d3b5508386d1c8af",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a6eeb9e1ed090b12b2fc51",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a6eeb9e1ed090b12b2fc51",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c97947d3b5508386d1c8af",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:14e849d51dc38cd6da0d65",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:33bf34983aeb289087df72",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:33bf34983aeb289087df72",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:14e849d51dc38cd6da0d65",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:33bf34983aeb289087df72",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:33bf34983aeb289087df72",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:14e849d51dc38cd6da0d65",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:14e849d51dc38cd6da0d65",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:cc44849b6c05be839ed81a",
+      "company_id": "co:full_legal_name:75c2b6d86190aae568be93ef52cb56d5"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2acab6d56c95582d7e269b",
+      "company_id": "co:full_legal_name:75c2b6d86190aae568be93ef52cb56d5"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2acab6d56c95582d7e269b",
+      "company_id": "co:full_legal_name:75c2b6d86190aae568be93ef52cb56d5"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:cc44849b6c05be839ed81a",
+      "company_id": "co:full_legal_name:75c2b6d86190aae568be93ef52cb56d5"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3f247a60a3d6e08e86a423",
+      "company_id": "co:cn_uscc:7f9840c6efa34ba9b4d69a30a52758e7"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:0b608f92280629c73d104d",
+      "company_id": "co:cn_uscc:7f9840c6efa34ba9b4d69a30a52758e7"
+    },
+    "source": "https://epaper.stcn.com/pic/202603/10/aadeb7043467b72d758b644705fc1157.pdf",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:0b608f92280629c73d104d",
+      "company_id": "co:cn_uscc:7f9840c6efa34ba9b4d69a30a52758e7"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3f247a60a3d6e08e86a423",
+      "company_id": "co:cn_uscc:7f9840c6efa34ba9b4d69a30a52758e7"
+    },
+    "source": "https://epaper.stcn.com/pic/202603/10/aadeb7043467b72d758b644705fc1157.pdf",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8b5779fd15cacba4e5e864",
+      "company_id": "co:cn_uscc:90ef59152b4f02373c942aebd879b756"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e4e505ceb6505738904ca8",
+      "company_id": "co:cn_uscc:90ef59152b4f02373c942aebd879b756"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_0001766494C7023FC3176F328564EC3F.pdf",
+    "reason": "验资增资与同时期老股协议分别核实"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e4e505ceb6505738904ca8",
+      "company_id": "co:cn_uscc:90ef59152b4f02373c942aebd879b756"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8b5779fd15cacba4e5e864",
+      "company_id": "co:cn_uscc:90ef59152b4f02373c942aebd879b756"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_0001766494C7023FC3176F328564EC3F.pdf",
+    "reason": "验资增资与同时期老股协议分别核实"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:54ffedd03d2d5640d87693",
+      "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1"
+    },
+    "existing": {
+      "event_id": "financing_event:24d51704c6dc5a0d58f87e99968d6e46aa977c590e0ecbc28f889dfb9ff6e5ce",
+      "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1"
+    },
+    "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf",
+    "reason": "招股意向书分别确认工商增资和宁波和歆受让老股"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:24d51704c6dc5a0d58f87e99968d6e46aa977c590e0ecbc28f889dfb9ff6e5ce",
+      "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:54ffedd03d2d5640d87693",
+      "company_id": "co:full_legal_name:ebf07fd3d4a5cc2b447a898faef2ead1"
+    },
+    "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-19/688623_20230519_010Y.pdf",
+    "reason": "招股意向书分别确认工商增资和宁波和歆受让老股"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c5c93db53d425efb19cb94",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "工商登记同日，老股协议和七家增资为两个现金流"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c5c93db53d425efb19cb94",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "工商登记同日，老股协议和七家增资为两个现金流"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:01e005ee1d221c6b8e5087",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "八月原有限责任公司与十二月股份公司不同增资，付款方和注册资本增量不同"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:be08d143cf3d4026cfc116c452f960d030677aaf9e1beac51c2308b3f69dd728",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:01e005ee1d221c6b8e5087",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "八月原有限责任公司与十二月股份公司不同增资，付款方和注册资本增量不同"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:840a1714f3f1e9c3d53e55",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "financing_event:6409c3471b10cb31ac38f562d4250e6b3479f35ccf9cb1e988b9311c7eaab956",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "三月及六月为不同股东转让协议，受让方和支付口径不同"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:6409c3471b10cb31ac38f562d4250e6b3479f35ccf9cb1e988b9311c7eaab956",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:840a1714f3f1e9c3d53e55",
+      "company_id": "co:full_legal_name:0b97dc51e92802438ecc146351746419"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+    "reason": "三月及六月为不同股东转让协议，受让方和支付口径不同"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ab2d852b457748e4eab251",
+      "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:bb1e27b01326719042522f",
+      "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+    "reason": "同一工商登记日分别核到新增现金与老股受让金额"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:bb1e27b01326719042522f",
+      "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ab2d852b457748e4eab251",
+      "company_id": "co:full_legal_name:4e525e415715a8c7e828165e86383ee3"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-12/1215329594.PDF",
+    "reason": "同一工商登记日分别核到新增现金与老股受让金额"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:60bb6ea9f071890f9dc98d",
+      "company_id": "co:full_legal_name:cc20ce2f6e8034493c08ac8d8debc2b4"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b6b34e166cbc058799517d",
+      "company_id": "co:full_legal_name:cc20ce2f6e8034493c08ac8d8debc2b4"
+    },
+    "source": "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-008540/tmb-20230331x10q.htm",
+    "reason": "两份SEC年报独立核到现金增资和持有股权出售"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:b6b34e166cbc058799517d",
+      "company_id": "co:full_legal_name:cc20ce2f6e8034493c08ac8d8debc2b4"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:60bb6ea9f071890f9dc98d",
+      "company_id": "co:full_legal_name:cc20ce2f6e8034493c08ac8d8debc2b4"
+    },
+    "source": "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-008540/tmb-20230331x10q.htm",
+    "reason": "两份SEC年报独立核到现金增资和持有股权出售"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:219fdb087a9ea05890a0a6",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第二次、第三次增资适用不同认购人与金额"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:219fdb087a9ea05890a0a6",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第二次、第三次增资适用不同认购人与金额"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1cbef9192862cd72d9837e",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第六次股权转让与第二次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1cbef9192862cd72d9837e",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第六次股权转让与第二次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1cbef9192862cd72d9837e",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:219fdb087a9ea05890a0a6",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第六次股权转让与第三次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:219fdb087a9ea05890a0a6",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1cbef9192862cd72d9837e",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第六次股权转让与第三次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e59c455cc0b335fe6b69b3",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "financing_event:75ec947f845546168071045c19529862fc0900ae50ec606c0d0b6465331e8ca2",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第七次股权转让与第四次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:75ec947f845546168071045c19529862fc0900ae50ec606c0d0b6465331e8ca2",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e59c455cc0b335fe6b69b3",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第七次股权转让与第四次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3ab640c85d6778b5708a55",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2f1f3151c5996e02537425",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一投资方同日新股和老股，两份协议及不同对价"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2f1f3151c5996e02537425",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3ab640c85d6778b5708a55",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一投资方同日新股和老股，两份协议及不同对价"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3ab640c85d6778b5708a55",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "financing_event:df317f20ced5a7bb9c2991a43030992cf44c6d3a346866374753a0a7724fa075",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "第七和第八次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:df317f20ced5a7bb9c2991a43030992cf44c6d3a346866374753a0a7724fa075",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3ab640c85d6778b5708a55",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "第七和第八次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:62c0f9d3a73bb10ac42cef",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "financing_event:43690c8ab50c2b8d6d13c2d4052907558c6c210410df26430f6034961610958f",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一登记，第九次增资与存量股份转让分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:43690c8ab50c2b8d6d13c2d4052907558c6c210410df26430f6034961610958f",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:62c0f9d3a73bb10ac42cef",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一登记，第九次增资与存量股份转让分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:7970654b8cc5334211ffb3",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:22b2d82d02fab2ab9cb221",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一登记，第十次增资与存量股份转让分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:22b2d82d02fab2ab9cb221",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7970654b8cc5334211ffb3",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一登记，第十次增资与存量股份转让分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1d997fec6ae9d6babf3d59",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "financing_event:f66596aabf2cb20fe10440b1f2072feb3591f9bf7a59d70da70bc10689b87c89",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
+    "reason": "第三次股权转让与前月发行人增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:f66596aabf2cb20fe10440b1f2072feb3591f9bf7a59d70da70bc10689b87c89",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1d997fec6ae9d6babf3d59",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
+    "reason": "第三次股权转让与前月发行人增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1d6db4f52db99b0e299619",
+      "company_id": "co:full_legal_name:c0327e574cb6485194e6bd6a0560d83e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:41ff7e610c526c45386057",
+      "company_id": "co:full_legal_name:c0327e574cb6485194e6bd6a0560d83e"
+    },
+    "source": "https://www.bkunyun.com/news/34.html",
+    "reason": "发行人同时披露两次独立融资及各自投资方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:41ff7e610c526c45386057",
+      "company_id": "co:full_legal_name:c0327e574cb6485194e6bd6a0560d83e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1d6db4f52db99b0e299619",
+      "company_id": "co:full_legal_name:c0327e574cb6485194e6bd6a0560d83e"
+    },
+    "source": "https://www.bkunyun.com/news/34.html",
+    "reason": "发行人同时披露两次独立融资及各自投资方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8f03b1e4cb53a842575c1a",
+      "company_id": "co:full_legal_name:16e21213c6d562d5aaacfab16fa4cb53"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c39b5a522f9f20d394e41a",
+      "company_id": "co:full_legal_name:16e21213c6d562d5aaacfab16fa4cb53"
+    },
+    "source": "https://blog.fit2cloud.com/?p=1135",
+    "reason": "发行人同日公告两笔独立融资及各自投资方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c39b5a522f9f20d394e41a",
+      "company_id": "co:full_legal_name:16e21213c6d562d5aaacfab16fa4cb53"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8f03b1e4cb53a842575c1a",
+      "company_id": "co:full_legal_name:16e21213c6d562d5aaacfab16fa4cb53"
+    },
+    "source": "https://blog.fit2cloud.com/?p=1135",
+    "reason": "发行人同日公告两笔独立融资及各自投资方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9c4eb7539a700ec3ef511d",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "existing": {
+      "event_id": "financing_event:65eddfedf8d8366c66bbef88c6b1d57ba52bcf27d9ac854d07d843a374735aee",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "reason": "相同披露月的老股受让和公司发行分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:65eddfedf8d8366c66bbef88c6b1d57ba52bcf27d9ac854d07d843a374735aee",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:9c4eb7539a700ec3ef511d",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "reason": "相同披露月的老股受让和公司发行分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:c3149decd5be7b12bf0189747a1fffb03b60a78e639843134b3899a8a0500e1f",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f5f903005c185f3bb1bcd8",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "reason": "同一轮分别于3月和9月交割"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f5f903005c185f3bb1bcd8",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "existing": {
+      "event_id": "financing_event:c3149decd5be7b12bf0189747a1fffb03b60a78e639843134b3899a8a0500e1f",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "reason": "同一轮分别于3月和9月交割"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c645c14ee07781f30407a3",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8c6da2795b4d11cb587487",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:db20089e774a70ed1cddef",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8c6da2795b4d11cb587487",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:db20089e774a70ed1cddef",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c645c14ee07781f30407a3",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:454dca7d8e6966f0eed09b",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:40901c67cc86c8c6ec0257",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:454dca7d8e6966f0eed09b",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:061b6c0ac25809d5859812",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:90a5bd9103b95322ed54e7",
+      "company_id": "co:full_legal_name:0d99251e7d45f90e9e297dacd8aed8c8"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:9f6eb38b0f0b9161aa1164",
+      "company_id": "co:full_legal_name:0d99251e7d45f90e9e297dacd8aed8c8"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1389e5a8065d90e9613674",
+      "company_id": "co:full_legal_name:0d99251e7d45f90e9e297dacd8aed8c8"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7f6f3e764857269a0cd31e",
+      "company_id": "co:full_legal_name:0d99251e7d45f90e9e297dacd8aed8c8"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:953d50533602fd5a1129c4",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:699d4e8dbab5a1a14b7eb9",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f30ab3319703f9e2921bd9",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:85079ad8affb498b8fe9c3",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:046199793ab80add799a31",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:029bfadcbe8457e2b31abd",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4ff7111e07c873762168df",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:029bfadcbe8457e2b31abd",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4ff7111e07c873762168df",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:046199793ab80add799a31",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8957740b5cf4a65fe45c3e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2d4a3fa46c7a0b2b4519a8",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f0aa6bad07b63487722a8b",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2d4a3fa46c7a0b2b4519a8",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f0aa6bad07b63487722a8b",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8957740b5cf4a65fe45c3e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fa60523d4b2c41bbe1db49",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2d4a3fa46c7a0b2b4519a8",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fa60523d4b2c41bbe1db49",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8957740b5cf4a65fe45c3e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fa60523d4b2c41bbe1db49",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f0aa6bad07b63487722a8b",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9eabffb976bc5d679ed2d0",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2d4a3fa46c7a0b2b4519a8",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9eabffb976bc5d679ed2d0",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8957740b5cf4a65fe45c3e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9eabffb976bc5d679ed2d0",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f0aa6bad07b63487722a8b",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9eabffb976bc5d679ed2d0",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:fa60523d4b2c41bbe1db49",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "原件按不同买卖主体、协议日期与出资方式确认的独立交易"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:e1ce58cf596a495631e5f90da1a6bc1f32622da929cca624005fffbe5999daf2",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:72175016eb5ff9b40c542e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "同月验资增资和12月30日老股分属不同交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:72175016eb5ff9b40c542e",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "existing": {
+      "event_id": "financing_event:e1ce58cf596a495631e5f90da1a6bc1f32622da929cca624005fffbe5999daf2",
+      "company_id": "co:full_legal_name:bba1884a1dbfd165ac23da215ff8d6fb"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
+    "reason": "同月验资增资和12月30日老股分属不同交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a8e272ddc4b1a4cea2d01d",
+      "company_id": "co:cn_uscc:9a2181c109842c0d0dce861eeaef69ee"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4dc7a779d4f1953ccaeb4f",
+      "company_id": "co:cn_uscc:9a2181c109842c0d0dce861eeaef69ee"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf",
+    "reason": "同一工商变更日的1.8亿元新增资本和1.5亿元已持股东股权受让，发行人分表披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4dc7a779d4f1953ccaeb4f",
+      "company_id": "co:cn_uscc:9a2181c109842c0d0dce861eeaef69ee"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a8e272ddc4b1a4cea2d01d",
+      "company_id": "co:cn_uscc:9a2181c109842c0d0dce861eeaef69ee"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf",
+    "reason": "同一工商变更日的1.8亿元新增资本和1.5亿元已持股东股权受让，发行人分表披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:55cd244f733afefbbe34c5",
+      "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6ecda7206a345ec2cb6975",
+      "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf",
+    "reason": "同日登记的6000万元现金增资及5070万元股份转让，依发行人原件独立列示"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6ecda7206a345ec2cb6975",
+      "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:55cd244f733afefbbe34c5",
+      "company_id": "co:cn_uscc:2d4367028cfe792c1fcf01cb26964a1c"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf",
+    "reason": "同日登记的6000万元现金增资及5070万元股份转让，依发行人原件独立列示"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:10f7bc7a417f5128732c43",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:0a885bebe9171a8a48403d",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "reason": "同次工商登记的不同定价及对价流向，分别为增资与老股转让"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:0a885bebe9171a8a48403d",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:10f7bc7a417f5128732c43",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "reason": "同次工商登记的不同定价及对价流向，分别为增资与老股转让"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:eb5d0ad11954eedbc92a69",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4c7459f65de81c08accec9",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "reason": "同次登记的杭州浙创认购1483638股和受让三位老股东共4236657股"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4c7459f65de81c08accec9",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:eb5d0ad11954eedbc92a69",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "reason": "同次登记的杭州浙创认购1483638股和受让三位老股东共4236657股"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:323ce19a95ae89e98d818e",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e8c43a59d56dde068376d8",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
+    "reason": "同一广发主体，同月分别认购新增和受让袁志清持股，募资款流向不同"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e8c43a59d56dde068376d8",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:323ce19a95ae89e98d818e",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
+    "reason": "同一广发主体，同月分别认购新增和受让袁志清持股，募资款流向不同"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:323ce19a95ae89e98d818e",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4037657b782d434675ee6d",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
+    "reason": "9月14日广发认购新增资本，9月27日顺融另向原股东受让股份"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4037657b782d434675ee6d",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:323ce19a95ae89e98d818e",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
+    "reason": "9月14日广发认购新增资本，9月27日顺融另向原股东受让股份"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f7618971dc7e6b82dcd58b",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:926ad445680dcef44ddfa2",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202212/001408_20221230_3ZE9.pdf",
+    "reason": "同次工商登记，公司发行新增股份与原股东对外转让为不同交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:926ad445680dcef44ddfa2",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f7618971dc7e6b82dcd58b",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202212/001408_20221230_3ZE9.pdf",
+    "reason": "同次工商登记，公司发行新增股份与原股东对外转让为不同交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:45205f52b9d860d2c56e0a",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b4fd933272c1e0882e026e",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+    "reason": "七位原股东出售40万股，发行人另发行100万股并收款。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:b4fd933272c1e0882e026e",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:45205f52b9d860d2c56e0a",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+    "reason": "七位原股东出售40万股，发行人另发行100万股并收款。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:7ae8ced5f599cdae7a865c",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:52207819f3c0e299649a52",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+    "reason": "认购新增股份的货币出资与原股东同期转让为不同交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:52207819f3c0e299649a52",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7ae8ced5f599cdae7a865c",
+      "company_id": "co:cn_uscc:b8cd6c0a0220b23882f6965e4695b86e"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
+    "reason": "认购新增股份的货币出资与原股东同期转让为不同交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:7458fd29b48b37942d994e",
+      "company_id": "co:cn_uscc:d813548c60be7a7844a4c19afc1c713b"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ec9a66aa8773bf90c4a4bc",
+      "company_id": "co:cn_uscc:d813548c60be7a7844a4c19afc1c713b"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-18/1223898970.PDF",
+    "reason": "同次文件分别签有增资协议和股份转让协议，钱款流向及参与方身份独立。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ec9a66aa8773bf90c4a4bc",
+      "company_id": "co:cn_uscc:d813548c60be7a7844a4c19afc1c713b"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7458fd29b48b37942d994e",
+      "company_id": "co:cn_uscc:d813548c60be7a7844a4c19afc1c713b"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-18/1223898970.PDF",
+    "reason": "同次文件分别签有增资协议和股份转让协议，钱款流向及参与方身份独立。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ba7fc5d366936e199360e4",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:16a0dd8fd932d92310064c",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606181823664789_1.pdf",
+    "reason": "同一银行付款日，两笔资金收款方分别是公司和华盖温州；挂牌律师书分项确认。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:16a0dd8fd932d92310064c",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ba7fc5d366936e199360e4",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606181823664789_1.pdf",
+    "reason": "同一银行付款日，两笔资金收款方分别是公司和华盖温州；挂牌律师书分项确认。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ba7fc5d366936e199360e4",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6d55ad2e1b92450b43f210",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606181823664789_1.pdf",
+    "reason": "2025-12-22京国瑞增资和2026-01-06产业升级二期第二期增资分别签约及支付，投资主体不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6d55ad2e1b92450b43f210",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ba7fc5d366936e199360e4",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606181823664789_1.pdf",
+    "reason": "2025-12-22京国瑞增资和2026-01-06产业升级二期第二期增资分别签约及支付，投资主体不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:16a0dd8fd932d92310064c",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6d55ad2e1b92450b43f210",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606181823664789_1.pdf",
+    "reason": "2025-12-22京国瑞向原股东购买老股，2026-01-06产业升级二期向公司增资。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6d55ad2e1b92450b43f210",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:16a0dd8fd932d92310064c",
+      "company_id": "co:full_legal_name:9292fdf078d1534b3e4e51724c846273"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606181823664789_1.pdf",
+    "reason": "2025-12-22京国瑞向原股东购买老股，2026-01-06产业升级二期向公司增资。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:0f28ac0405dff2f9897ab6",
+      "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665"
+    },
+    "existing": {
+      "event_id": "financing_event:297db429cbe389b640ac701904c3a70b683151f62f5f9aa572d6bcfaf92296cd",
+      "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665"
+    },
+    "source": "https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf",
+    "reason": "5月27日三方老股、6月11日两方增资分别签署；鼎晖中安为两笔共同参与方。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:297db429cbe389b640ac701904c3a70b683151f62f5f9aa572d6bcfaf92296cd",
+      "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:0f28ac0405dff2f9897ab6",
+      "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665"
+    },
+    "source": "https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf",
+    "reason": "5月27日三方老股、6月11日两方增资分别签署；鼎晖中安为两笔共同参与方。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a93c11eb111dba1b6da11c",
+      "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80"
+    },
+    "existing": {
+      "event_id": "financing_event:16fdd3ca0cdb367d963d51c4b88a6a759d7fb8028fc5f4c76a3d2cb2218453f7",
+      "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
+    "reason": "文件中的新增注册资本和向原股东支付的转让款分别列出，属于两笔交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:16fdd3ca0cdb367d963d51c4b88a6a759d7fb8028fc5f4c76a3d2cb2218453f7",
+      "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a93c11eb111dba1b6da11c",
+      "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
+    "reason": "文件中的新增注册资本和向原股东支付的转让款分别列出，属于两笔交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c5fe0766864bb68ee11719",
+      "company_id": "co:cn_uscc:665ef32f26e2a4e46a872f644c7a20a7"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f5a3d6589ee3b6299a28ae",
+      "company_id": "co:cn_uscc:665ef32f26e2a4e46a872f644c7a20a7"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202509261750954675&pageIndex=16",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f5a3d6589ee3b6299a28ae",
+      "company_id": "co:cn_uscc:665ef32f26e2a4e46a872f644c7a20a7"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c5fe0766864bb68ee11719",
+      "company_id": "co:cn_uscc:665ef32f26e2a4e46a872f644c7a20a7"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202509261750954675&pageIndex=16",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:69e55ced096af2fcb7a5cc",
+      "company_id": "co:cn_uscc:b2712fffde0a155d2a55cb74833f6b16"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ccf23a9f9e6a6f9d60cda1",
+      "company_id": "co:cn_uscc:b2712fffde0a155d2a55cb74833f6b16"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608171828053283_1.pdf",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ccf23a9f9e6a6f9d60cda1",
+      "company_id": "co:cn_uscc:b2712fffde0a155d2a55cb74833f6b16"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:69e55ced096af2fcb7a5cc",
+      "company_id": "co:cn_uscc:b2712fffde0a155d2a55cb74833f6b16"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608171828053283_1.pdf",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:e6b3471cad040566efca79754af0bd96432b43ea88770d01969b88e1e5e14b19",
+      "company_id": "co:full_legal_name:e52aa4909495b7785fc122b80ba99b42"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ef4a917a231309a49ab3c5",
+      "company_id": "co:full_legal_name:e52aa4909495b7785fc122b80ba99b42"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202512/RAS_202512_301500601332411A444004AAFCA56F1ECA98FB.pdf",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ef4a917a231309a49ab3c5",
+      "company_id": "co:full_legal_name:e52aa4909495b7785fc122b80ba99b42"
+    },
+    "existing": {
+      "event_id": "financing_event:e6b3471cad040566efca79754af0bd96432b43ea88770d01969b88e1e5e14b19",
+      "company_id": "co:full_legal_name:e52aa4909495b7785fc122b80ba99b42"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202512/RAS_202512_301500601332411A444004AAFCA56F1ECA98FB.pdf",
+    "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:3dab966f89ee62d03dc33be91b5c29ba792d16c99ec0af89c654443b032271bb",
+      "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2847d16393d361e981f212",
+      "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+    "reason": "招股书明确同月现金增资与原股东出售股份为分别办理的交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2847d16393d361e981f212",
+      "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f"
+    },
+    "existing": {
+      "event_id": "financing_event:3dab966f89ee62d03dc33be91b5c29ba792d16c99ec0af89c654443b032271bb",
+      "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+    "reason": "招股书明确同月现金增资与原股东出售股份为分别办理的交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:06a58c1ea2b6042f60b0d1",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:06a58c1ea2b6042f60b0d1",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e1a57923f19c9d18c9d324",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e1a57923f19c9d18c9d324",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:01f78831799b0e9ee2cf53",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7f6050f7a934219a26aabd",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:7f6050f7a934219a26aabd",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:01f78831799b0e9ee2cf53",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:06a58c1ea2b6042f60b0d1",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:06a58c1ea2b6042f60b0d1",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e1a57923f19c9d18c9d324",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e1a57923f19c9d18c9d324",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:95411e166e34c791a9b291",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:32d5e6c8a4f3df8c4e3a9b",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:32d5e6c8a4f3df8c4e3a9b",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:95411e166e34c791a9b291",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:582df4922113024f0b9082",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "existing": {
+      "event_id": "financing_event:5faedc3f0b47c20b97d714ecb9c1eaab4c017c436aac7c57cc64ba0a57c5f73c",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:5faedc3f0b47c20b97d714ecb9c1eaab4c017c436aac7c57cc64ba0a57c5f73c",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:582df4922113024f0b9082",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:adda9eef09603e00ef12fd",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:9ea494cc46c4f4180567a2",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9ea494cc46c4f4180567a2",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:adda9eef09603e00ef12fd",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:010c86b0cafe263f5fd3d4",
+      "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0"
+    },
+    "existing": {
+      "event_id": "financing_event:b395652e12789de5ae400db094080c691e0f7c2136274fa926b0249c1bc37031",
+      "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:b395652e12789de5ae400db094080c691e0f7c2136274fa926b0249c1bc37031",
+      "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:010c86b0cafe263f5fd3d4",
+      "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1b894775144fbb1761461e",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c89d14b294616642318271",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c89d14b294616642318271",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1b894775144fbb1761461e",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:438e5c0c8470814de853de",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8dffed8afc61b50d5589d4",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8dffed8afc61b50d5589d4",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:438e5c0c8470814de853de",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1d70142d5992f0ddeb2755",
+      "company_id": "co:cn_uscc:4016d23da11b0e9f1dd9c019def48b78"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:576b303bd74be865b1d337",
+      "company_id": "co:cn_uscc:4016d23da11b0e9f1dd9c019def48b78"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2019-10-28/1207024684.PDF",
+    "reason": "同一工商变更含两笔独立交易。货币增资款到账和张义民个人股权转让分别有协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:576b303bd74be865b1d337",
+      "company_id": "co:cn_uscc:4016d23da11b0e9f1dd9c019def48b78"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1d70142d5992f0ddeb2755",
+      "company_id": "co:cn_uscc:4016d23da11b0e9f1dd9c019def48b78"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2019-10-28/1207024684.PDF",
+    "reason": "同一工商变更含两笔独立交易。货币增资款到账和张义民个人股权转让分别有协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:5de26bef93b9cd74614191",
+      "company_id": "co:cn_uscc:b268855f9787ad558614d2b1b90d0698"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2a1f4b6e439c0a626f95c3",
+      "company_id": "co:cn_uscc:b268855f9787ad558614d2b1b90d0698"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf",
+    "reason": "5月22日小米10000万元付给老股东。5月26日14家现金增资190000万元，分别签约。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2a1f4b6e439c0a626f95c3",
+      "company_id": "co:cn_uscc:b268855f9787ad558614d2b1b90d0698"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:5de26bef93b9cd74614191",
+      "company_id": "co:cn_uscc:b268855f9787ad558614d2b1b90d0698"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf",
+    "reason": "5月22日小米10000万元付给老股东。5月26日14家现金增资190000万元，分别签约。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:dc8474c5aa327adbd0b353",
+      "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:16810539a3a9d4d3207b14",
+      "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+    "reason": "同一天登记但为独立协议。海康智慧现金增资2916.95万元、三家受让谢毅老股2700万元。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:16810539a3a9d4d3207b14",
+      "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:dc8474c5aa327adbd0b353",
+      "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+    "reason": "同一天登记但为独立协议。海康智慧现金增资2916.95万元、三家受让谢毅老股2700万元。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:75858a0223a91bc88c298ea85b5e72a8f82c6b4e5e8e43b6e1de2e5f57a2c0e4",
+      "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ec1c90a94ed70e828d0106",
+      "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=",
+    "reason": "同一工商变更涉及独立交易。六方认购新增注册资本25500万元。另一笔为八方从王志军受让老股25000万元。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ec1c90a94ed70e828d0106",
+      "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136"
+    },
+    "existing": {
+      "event_id": "financing_event:75858a0223a91bc88c298ea85b5e72a8f82c6b4e5e8e43b6e1de2e5f57a2c0e4",
+      "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=",
+    "reason": "同一工商变更涉及独立交易。六方认购新增注册资本25500万元。另一笔为八方从王志军受让老股25000万元。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3671d01fb92ad7939324cc",
+      "company_id": "co:cn_uscc:3d9b6f1e88777df6f3303cf7b61ee424"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6c58411f50be3e87924cc0",
+      "company_id": "co:cn_uscc:3d9b6f1e88777df6f3303cf7b61ee424"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000874_20220125_0GRN.pdf",
+    "reason": "单一机构以3000万元从原股东受让股份，同期7000万元增资款进公司，两份协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6c58411f50be3e87924cc0",
+      "company_id": "co:cn_uscc:3d9b6f1e88777df6f3303cf7b61ee424"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3671d01fb92ad7939324cc",
+      "company_id": "co:cn_uscc:3d9b6f1e88777df6f3303cf7b61ee424"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000874_20220125_0GRN.pdf",
+    "reason": "单一机构以3000万元从原股东受让股份，同期7000万元增资款进公司，两份协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:14f19df573c0b2171016c5",
+      "company_id": "co:cn_uscc:0274a456017e3d469f73f1f6518ecf19"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:995a3465b8fdc80c227110",
+      "company_id": "co:cn_uscc:0274a456017e3d469f73f1f6518ecf19"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf",
+    "reason": "8,400万元认购新增股本与5,605.50万元产权受让各按不同工商日期，深创投及创新一号同时参加。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:995a3465b8fdc80c227110",
+      "company_id": "co:cn_uscc:0274a456017e3d469f73f1f6518ecf19"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:14f19df573c0b2171016c5",
+      "company_id": "co:cn_uscc:0274a456017e3d469f73f1f6518ecf19"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf",
+    "reason": "8,400万元认购新增股本与5,605.50万元产权受让各按不同工商日期，深创投及创新一号同时参加。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:19eb8b65441f9ad97b1ad1",
+      "company_id": "co:full_legal_name:ae6a28c8809d639351794019b371351e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c78e6893e93ddad7557ee2",
+      "company_id": "co:full_legal_name:ae6a28c8809d639351794019b371351e"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf",
+    "reason": "2024-12-12全达兴及2024-12-26紫金港各以独立协议转让不同老股。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c78e6893e93ddad7557ee2",
+      "company_id": "co:full_legal_name:ae6a28c8809d639351794019b371351e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:19eb8b65441f9ad97b1ad1",
+      "company_id": "co:full_legal_name:ae6a28c8809d639351794019b371351e"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf",
+    "reason": "2024-12-12全达兴及2024-12-26紫金港各以独立协议转让不同老股。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:bd437489647e6aa6f39578",
+      "company_id": "co:cn_uscc:2588a3c7463bf722f12d1bda00d18639"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f6abf40f96c8272414c5c4",
+      "company_id": "co:cn_uscc:2588a3c7463bf722f12d1bda00d18639"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2024-08-20/1220908322.PDF",
+    "reason": "公开协议区分五方1.6亿元对标的出资及三方8228.5715万元收购烽火基金老股，两方同时参加。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f6abf40f96c8272414c5c4",
+      "company_id": "co:cn_uscc:2588a3c7463bf722f12d1bda00d18639"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:bd437489647e6aa6f39578",
+      "company_id": "co:cn_uscc:2588a3c7463bf722f12d1bda00d18639"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2024-08-20/1220908322.PDF",
+    "reason": "公开协议区分五方1.6亿元对标的出资及三方8228.5715万元收购烽火基金老股，两方同时参加。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:961499f1abde6d43f68a6d",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8d5ebe9c3e5ed1dfd11e28",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+    "reason": "西安基金与瑞安化工向元丰投资交割回购，以及元丰投资向两家员工平台转让是相反方向、独立协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8d5ebe9c3e5ed1dfd11e28",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:961499f1abde6d43f68a6d",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+    "reason": "西安基金与瑞安化工向元丰投资交割回购，以及元丰投资向两家员工平台转让是相反方向、独立协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:cb7526d065afb63c7a851f",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:19cfffeeb9bbd8ab90b8c8",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+    "reason": "股东会决议、受让方和工商登记不同，1月26日十一方和2月5日两方为独立交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:19cfffeeb9bbd8ab90b8c8",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:cb7526d065afb63c7a851f",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+    "reason": "股东会决议、受让方和工商登记不同，1月26日十一方和2月5日两方为独立交易。"
   }
 ]
