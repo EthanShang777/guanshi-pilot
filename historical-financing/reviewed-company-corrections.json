@@ -696,5 +696,28 @@
       "date_kind": "原档日期",
       "investors_json": "[{\"name\":\"上海驭快\",\"role\":null,\"amount\":null},{\"name\":\"上海驭快（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"惠友投资\",\"role\":null,\"amount\":null},{\"name\":\"惠友资本（领投）\",\"role\":null,\"amount\":null},{\"name\":\"鸿石联合\",\"role\":null,\"amount\":null},{\"name\":\"鸿石资本\",\"role\":null,\"amount\":null},{\"name\":\"鸿石资本（跟投）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:f17d6e44e9ff3d67de3a98941c91557df654b516155c603f8c90a82e816be647",
+    "round": "拟增资",
+    "expected": {
+      "company_id": "",
+      "company_name": "维他动力",
+      "raw_company_key": "维他动力",
+      "date": "2026-10-13",
+      "date_key": "2026-10-13",
+      "date_kind": "公告",
+      "investors_json": "[]"
+    },
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638689&stockid=002176",
+    "corrected": {
+      "company_id": "co:cn_uscc:b120c8ffafd08c9ea4115f538f96e599",
+      "company_name": "维他动力（北京）科技有限公司",
+      "raw_company_key": "维他动力（北京）科技有限公司",
+      "date": "2026-10-13",
+      "date_key": "2026-10-13",
+      "date_kind": "江特电机董事会公告拟认购1亿元，尚待核实交割",
+      "investors_json": "[]"
+    }
   }
 ]

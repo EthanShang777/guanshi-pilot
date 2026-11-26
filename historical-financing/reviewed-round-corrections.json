@@ -3765,5 +3765,177 @@
       "investors_json": "[{\"name\":\"四川省科创投集团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"成都交子经开新能源汽车股权投资基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"成都交投纵横股权投资基金合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"绵阳高创股权投资基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"四川兴川\",\"role\":null,\"amount\":null},{\"name\":\"四川院士基金\",\"role\":null,\"amount\":null},{\"name\":\"龙雏基金\",\"role\":null,\"amount\":null}]"
     },
     "source": "https://www.weihenglaw.com/global-network/network-news/54"
+  },
+  {
+    "event_id": "financing_event:d1457a2ff2ab7d5aebe43e2278aa22eff0fd4fd986ba36f8f37e9b71f0d4e5a1",
+    "company_id": "",
+    "day": "2026-10-15",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "亿元级",
+      "investors_json": "[{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "亿元级",
+      "investors_json": "[]"
+    },
+    "source": "https://news.pedaily.cn/202610/570338.shtml"
+  },
+  {
+    "event_id": "financing_event:e2340894cca9713f699879d73c9e2bd7e7ad5d3fca4c6bcec6353317a0faf161",
+    "company_id": "co:full_legal_name:4955893f7eb6301b7e3079f4fda745cb",
+    "expected": {
+      "round": "B+轮",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"StellarSCapital\",\"role\":null,\"amount\":null},{\"name\":\"亚洲联合基建控股\",\"role\":null,\"amount\":null},{\"name\":\"长浙投资\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-14",
+      "date_key": "2026-10-14",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B+轮系列",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"StellarS Capital\",\"role\":null,\"amount\":null},{\"name\":\"亚洲联合基建控股\",\"role\":null,\"amount\":null},{\"name\":\"长浙投资\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-14",
+      "date_key": "2026-10-14",
+      "date_kind": "融资披露日"
+    },
+    "source": "https://www.cloudbutterfly.com.cn/newsshow/post-255.html",
+    "additional_sources": [
+      "https://www.cloudbutterfly.com.cn/news",
+      "https://www.cloudbutterfly.com.cn/about"
+    ]
+  },
+  {
+    "event_id": "financing_event:23f78203cd219465d841efaf1f8eea2e89f7f441ff93bfd5a89a3317ee134332",
+    "company_id": "",
+    "day": "2026-10-14",
+    "expected": {
+      "round": "B+系列",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "数亿元",
+      "investors_json": "[]"
+    },
+    "source": "https://www.cloudbutterfly.com.cn/newsshow/post-255.html"
+  },
+  {
+    "event_id": "financing_event:25c36d3419b0472620fcf26b41b21446c4386c377bbc16ad3c152c0465cb83b5",
+    "company_id": "",
+    "day": "2026-10-13",
+    "expected": {
+      "round": "新一轮;部分媒体标B+",
+      "amount": "10亿元",
+      "investors_json": "[{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "10亿元",
+      "investors_json": "[]"
+    },
+    "source": "https://finance.eastmoney.com/a/202610143895185721.html"
+  },
+  {
+    "event_id": "financing_event:820a5f36b274ee1ecfe42323d809996f5233579ae6d28b5d781257e229873c65",
+    "company_id": "co:full_legal_name:f0a77f08b0db14ab8a31f37be734e583",
+    "expected": {
+      "round": "天使+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"弘毅投资\",\"role\":null,\"amount\":null},{\"name\":\"拓邦股份\",\"role\":null,\"amount\":null},{\"name\":\"芯能创投\",\"role\":null,\"amount\":null},{\"name\":\"诚元祥基金\",\"role\":null,\"amount\":null},{\"name\":\"锡洲国际\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-12",
+      "date_key": "2026-10-12",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "天使+轮",
+      "amount": "数亿元人民币",
+      "investors_json": "[{\"name\":\"弘毅投资\",\"role\":null,\"amount\":null},{\"name\":\"拓邦股份\",\"role\":null,\"amount\":null},{\"name\":\"芯能创投\",\"role\":null,\"amount\":null},{\"name\":\"诚元祥基金\",\"role\":null,\"amount\":null},{\"name\":\"锡洲国际\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-12",
+      "date_key": "2026-10-12",
+      "date_kind": "融资披露日"
+    },
+    "source": "https://www.topband.com/cn/news/news_id248/",
+    "additional_sources": [
+      "https://www.thecapital.com.cn/news/detail/125195",
+      "https://qh.sz.gov.cn/sygnan/qhzx/dtzx/content/post_12847406.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:79aaff2a855d136d9ea1cc6c464a53f1546fbfa6dc2def0027ed54929a1e46a1",
+    "company_id": "",
+    "day": "2026-10-12",
+    "expected": {
+      "round": "天使+轮",
+      "amount": "数亿元人民币",
+      "investors_json": "[{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "数亿元人民币",
+      "investors_json": "[]"
+    },
+    "source": "https://www.topband.com/cn/news/news_id248/"
+  },
+  {
+    "event_id": "financing_event:1e2a3862e1ae0d3938b2bae53390bf5767d5ae0753bd08ad5c7aed013446ba02",
+    "company_id": "co:full_legal_name:deae055677fa3d19fd8c0d21149fa243",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "超10亿人民币",
+      "investors_json": "[{\"name\":\"华控基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上海国投旗下上海科创集团\",\"role\":null,\"amount\":null},{\"name\":\"上海科创基金\",\"role\":null,\"amount\":null},{\"name\":\"临港策源基金\",\"role\":null,\"amount\":null},{\"name\":\"主要投资方包括国开科创\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"徐汇资本\",\"role\":null,\"amount\":null},{\"name\":\"新微资本\",\"role\":null,\"amount\":null},{\"name\":\"星连资本\",\"role\":null,\"amount\":null},{\"name\":\"追光硬科技创投\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-12",
+      "date_key": "2026-10-12",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "超10亿元",
+      "investors_json": "[{\"name\":\"华控基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上海国投旗下上海科创集团\",\"role\":null,\"amount\":null},{\"name\":\"上海科创基金\",\"role\":null,\"amount\":null},{\"name\":\"临港策源基金\",\"role\":null,\"amount\":null},{\"name\":\"主要投资方包括国开科创\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"徐汇资本\",\"role\":null,\"amount\":null},{\"name\":\"新微资本\",\"role\":null,\"amount\":null},{\"name\":\"星连资本\",\"role\":null,\"amount\":null},{\"name\":\"追光硬科技创投\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-12",
+      "date_key": "2026-10-12",
+      "date_kind": "融资披露日"
+    },
+    "source": "https://www.moss.cn/news/moss-ai-1b-pre-a-funding-all-modal-realtime-interaction-base",
+    "additional_sources": [
+      "https://www.mosi.cn/news/moss-ai-1b-pre-a-funding-all-modal-realtime-interaction-base",
+      "https://www.mosi.cn/about"
+    ]
+  },
+  {
+    "event_id": "financing_event:fb267664eb8cf9ed3aec2cb4f39dc0e4a377e141efcde40ccce62d0bf85eccab",
+    "company_id": "",
+    "day": "2026-10-12",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "超10亿元",
+      "investors_json": "[{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "超10亿元",
+      "investors_json": "[]"
+    },
+    "source": "https://www.moss.cn/news/moss-ai-1b-pre-a-funding-all-modal-realtime-interaction-base"
+  },
+  {
+    "event_id": "financing_event:f17d6e44e9ff3d67de3a98941c91557df654b516155c603f8c90a82e816be647",
+    "company_id": "",
+    "final_company_id": "co:cn_uscc:b120c8ffafd08c9ea4115f538f96e599",
+    "day": "2026-10-13",
+    "expected": {
+      "round": "Pre-A+++轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "拟增资",
+      "amount": "未披露整轮金额",
+      "investors_json": "[]"
+    },
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638689&stockid=002176"
   }
 ]

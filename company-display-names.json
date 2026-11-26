@@ -2016,5 +2016,67 @@
     "sources": [
       "https://m.pedaily.cn/vc/invest/v207070-y2025"
     ]
+  },
+  "4618316df8709dcc8a0c3168": {
+    "name": "若愚科技",
+    "registeredName": "深圳若愚科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://news.pedaily.cn/202610/570338.shtml"
+    ]
+  },
+  "82efb7c83d4a2a2a77e893dd": {
+    "name": "云蝶科技",
+    "registeredName": "广州云蝶科技股份有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.cloudbutterfly.com.cn/newsshow/post-255.html"
+    ]
+  },
+  "883b621e7c90c61582978a51": {
+    "name": "星尘智能",
+    "registeredName": "星尘智能（深圳）人工智能科技股份有限公司",
+    "aliases": [],
+    "sources": [
+      "https://finance.eastmoney.com/a/202610143895185721.html"
+    ]
+  },
+  "7a550f74b2a6a089ea70afc1": {
+    "name": "欧拉万象",
+    "registeredName": "深圳欧拉万象科技有限公司",
+    "aliases": [
+      "欧拉万象 Ola Dimensions"
+    ],
+    "sources": [
+      "https://www.topband.com/cn/news/news_id248/"
+    ]
+  },
+  "cb048f1348d8e8c8a433fe62": {
+    "name": "模思智能",
+    "registeredName": "上海模思智能科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.moss.cn/news/moss-ai-1b-pre-a-funding-all-modal-realtime-interaction-base"
+    ]
+  },
+  "ebd0bf1f2ab9182d9059a169": {
+    "name": "维他动力",
+    "registeredName": "维他动力（北京）科技有限公司",
+    "aliases": [
+      "Vbot"
+    ],
+    "sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638689&stockid=002176"
+    ]
+  },
+  "e504056a89c1cd2e70b61778": {
+    "name": "Spackman Equities",
+    "registeredName": "Spackman Equities Group Inc.",
+    "aliases": [
+      "SQG"
+    ],
+    "sources": [
+      "https://www.globenewswire.com/news-release/2026/10/28/3390812/0/en/spackman-equities-announces-completion-of-1-million-private-placement-of-shares.html"
+    ]
   }
 }

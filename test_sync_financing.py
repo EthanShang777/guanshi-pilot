@@ -73,6 +73,17 @@ class SyncFinancingTest(unittest.TestCase):
         self.assertEqual([row['event_id'] for row in rows], [first['event_id']])
         self.assertEqual(json.loads(rows[0]['sources_json']), [SOURCE, next_url])
 
+    def test_non_active_records_do_not_block_confirmed_financing(self):
+        for index, stage in enumerate(('拟增资', '已合并披露')):
+            with self.subTest(stage=stage):
+                company = f'测试公司{index}'
+                company_id = f'company-{index}'
+                archived = event(f'{index}-archived', company, stage, company_id=company_id)
+                finished = event(f'{index}-finished', company, 'A轮', company_id=company_id)
+                self.assertEqual(financing.sync_rows(self.db, [archived]), (1, 0, 0))
+                self.assertEqual(financing.sync_rows(self.db, [finished], reviewed=True), (1, 0, 0))
+                self.assertEqual(financing.sync_rows(self.db, [finished], reviewed=True), (0, 0, 0))
+
     def test_unresolved_round_labels_are_held(self):
         first = event('1', '新星科技', 'B1轮')
         second = event('2', '新星科技', 'B+轮')
