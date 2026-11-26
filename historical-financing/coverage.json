@@ -7184,6 +7184,60 @@
         "小鹭游既有天使轮": "05796aac2b8994c6fec8867f"
       },
       "batch": "2026-11-26-jingdata-weishi-fund-october-148.csv"
+    },
+    {
+      "institution": "中电科研投基金、共同管理基金及被投企业反查",
+      "checked_on": "2026-11-26",
+      "scope": "沿股东与基金逐笔核验融资及已经公开的认缴实缴",
+      "sources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202608071827749499_1.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_252010A34DEE3698534251BE7F404C9E375871.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202406241636836614_1.pdf?1719261044000.pdf=",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11460622&stockid=688322",
+        "https://top.qcc.com/tc/8c232af37c81.html",
+        "https://stcn.com/article/detail/3994935.html",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001398_20230628_WN3G.pdf"
+      ],
+      "notes": {
+        "financing_basis": {
+          "微视": "2019年12月20日战略投资为资方发行回复400万元，2021年6月目录不立新案，2026年3月B轮按两个公开来源",
+          "小鸟": "2020年9月验资确认约4952万元现金，2022年股权受让与注资分证",
+          "芯来": "B增资10001.6165万元，B+增资20801.9763万元，材料分别列老股转让及实际付款；保留原事件ID",
+          "托伦斯": "2024年2月约定认缴3500万元，另行员工资本实缴350万元不是该次外部增资",
+          "沐创": "A1中电科研投基金领投，A2按公司公告不沿用该资方；B+核融资及投资品牌"
+        },
+        "fund_follow_ups": [
+          "无锡基金2026-03之后的投资及各LP余下认缴",
+          "苏州基金其他LP金额、实缴、投资案例和同口径可投余额",
+          "建信领航披露之后母子基金及直投",
+          "技象C轮法律载体和出资明细",
+          "中兵投资法律载体",
+          "微视及托伦斯本基金实际出资"
+        ],
+        "corrected_cetc_role_source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001398_20230628_WN3G.pdf",
+        "exact_cetc_disclosed": [
+          "5ab06e77686e4823d5927897",
+          "557a9e48d87acc4a0704746e"
+        ]
+      },
+      "events": {
+        "小鸟科技2020现金增资": "99256e6ead6b57f92eaf8712",
+        "微视传感奥比投资": "2ce751164a1b31ac6ecae3b3",
+        "微视传感B轮": "b8794b0db84d581150a710d3",
+        "托伦斯2024年2月增资": "4f05a0b17180cf291b479046",
+        "芯来科技2019增资": "1203bcd856fc164e6b77d258",
+        "芯来科技2021年3月增资": "fba3013e002f91fbe66a9a20",
+        "芯来科技A轮核实": "502885374299ab93efc9cdb1",
+        "芯来科技B轮核实": "5ab06e77686e4823d5927897",
+        "芯来科技B+轮核实": "557a9e48d87acc4a0704746e",
+        "沐创A1轮核实": "f2ae241ba127dbb8bcb669d5",
+        "沐创A2轮核实": "de1e7389182e219ce164c7b8",
+        "沐创B+身份与出资载体核实": "ba4f12c5884f7b486c5575db",
+        "技象科技C轮补证": "57c11507205086e97958661f"
+      },
+      "batch": "2026-11-26-institution-network-149.csv"
     }
   ]
 }

@@ -4435,5 +4435,122 @@
       "amount": "逾亿人民币",
       "investors_json": "[{\"name\":\"丝路金桥股权投资\",\"role\":null,\"amount\":null},{\"name\":\"青岛天奇前沿科技投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"方正和生投资\",\"role\":null,\"amount\":null},{\"name\":\"甘泉资本\",\"role\":null,\"amount\":null},{\"name\":\"联新资本\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:80031581169d09332bc052cb459151b9269843a5edc1ce5ed0cab4258e91f367",
+    "company_id": "co:full_legal_name:e588daf90288906cd34a4045261734ef",
+    "day": "2023-08-01",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf",
+    "expected": {
+      "round": "B++轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中芯熙诚\",\"role\":null,\"amount\":null},{\"name\":\"十月资本\",\"role\":null,\"amount\":null},{\"name\":\"龙鼎投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B++轮",
+      "amount": "2937.0277万元",
+      "investors_json": "[{\"name\":\"湖北小米长江产业基金合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":2518639800,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"上海新仲投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":271536500,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"嘉兴科微创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":146851400,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}}]"
+    }
+  },
+  {
+    "event_id": "financing_event:a6f63f32698767a0160a4a6d5cec6c92f98e9eb2d46eed7b652a74add87dc86f",
+    "company_id": "co:full_legal_name:e588daf90288906cd34a4045261734ef",
+    "day": "2021-06-21",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"君联资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中电科核心技术研投基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"烽火产业投资基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"FutureX天际资本\",\"role\":null,\"amount\":null},{\"name\":\"中关村集成电路产业基金\",\"role\":null,\"amount\":null},{\"name\":\"丰禾基金\",\"role\":null,\"amount\":null},{\"name\":\"临芯投资\",\"role\":null,\"amount\":null},{\"name\":\"启榕创投\",\"role\":null,\"amount\":null},{\"name\":\"新微资本\",\"role\":null,\"amount\":null},{\"name\":\"电科投资\",\"role\":null,\"amount\":null},{\"name\":\"蓝驰创投\",\"role\":null,\"amount\":null},{\"name\":\"远宇实业\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "10001.6165万元",
+      "investors_json": "[{\"name\":\"上海新仲投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":999992600,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"苏州元之芯创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":300009200,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"北京中关村芯创集成电路设计产业投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500007700,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"无锡临创志芯股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":300009200,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"上海君联晟灏创业投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":3201049900,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"北京君联晟源股权投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":1600536400,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"中电科核心技术研发股权投资基金（北京）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1300001900,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"武汉光谷烽火产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1300001900,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"南宁市瑞知创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500007700,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}}]"
+    }
+  },
+  {
+    "event_id": "financing_event:775fc0475d2a627686bc6dc39853723616ebfff8e08c67e9fc04478e35dddcc4",
+    "company_id": "co:full_legal_name:e588daf90288906cd34a4045261734ef",
+    "day": "2022-08-18",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf",
+    "expected": {
+      "round": "B+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"君联资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上海科创基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"天堂硅谷\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"建发新兴投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"橙叶投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"祥晖资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"精确资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"首钢基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中关村集成电路产业基金\",\"role\":null,\"amount\":null},{\"name\":\"临芯投资\",\"role\":null,\"amount\":null},{\"name\":\"乾益投资\",\"role\":null,\"amount\":null},{\"name\":\"小米长江产业基金\",\"role\":null,\"amount\":null},{\"name\":\"电科投资\",\"role\":null,\"amount\":null},{\"name\":\"砺丰海盈\",\"role\":null,\"amount\":null},{\"name\":\"蓝驰创投\",\"role\":null,\"amount\":null},{\"name\":\"首程控股\",\"role\":null,\"amount\":null},{\"name\":\"首程资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "20801.9763万元",
+      "investors_json": "[{\"name\":\"上海君联晟灏创业投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":2668015200,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"北京君联晟源股权投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":1333987100,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"西安君联海盈股权投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":3999987900,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"厦门建发新兴产业股权投资贰号合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1999994000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"杭州擎宇股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000011500,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"北京首大兴业股权投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1999994000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"北京中关村芯创集成电路设计产业投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000017500,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"湖北小米长江产业基金合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":499967700,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"上海新仲投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":300013500,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"中电科核心技术研发股权投资基金（北京）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3955508000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}},{\"name\":\"扬州乾益投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":44479900,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf\"}}]"
+    }
+  },
+  {
+    "event_id": "financing_event:f0fd667062173715a7f05ae83a9040a5c5b444ad820e299e0ef66edf1a878506",
+    "company_id": "co:full_legal_name:8366ac37a540679946b47c91008d1b5d",
+    "day": "2022-02-28",
+    "source": "https://www.secrss.com/articles/39989",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中电科研投基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"力合创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"励石创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"基石基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"德开元泰\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"ForebrightCapital\",\"role\":null,\"amount\":null},{\"name\":\"乾益投资\",\"role\":null,\"amount\":null},{\"name\":\"俱成资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"司浦林投资\",\"role\":null,\"amount\":null},{\"name\":\"清控银杏\",\"role\":null,\"amount\":null},{\"name\":\"电科投资\",\"role\":null,\"amount\":null},{\"name\":\"锡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2022-02-28",
+      "date_key": "2022-02-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A1轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中电科核心技术研发股权投资基金（北京）合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"力合创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"励石创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"基石基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"德开元泰\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"ForebrightCapital\",\"role\":null,\"amount\":null},{\"name\":\"乾益投资\",\"role\":null,\"amount\":null},{\"name\":\"俱成资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"司浦林投资\",\"role\":null,\"amount\":null},{\"name\":\"清控银杏\",\"role\":null,\"amount\":null},{\"name\":\"电科投资\",\"role\":null,\"amount\":null},{\"name\":\"锡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2022-02-28",
+      "date_key": "2022-02-28",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://mucse.com/about/about.aspx",
+      "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:b780712d506b0aea73d3abf5918bbc4d86835445ec467c2eae58d6e188e0f2c2",
+    "company_id": "co:full_legal_name:8366ac37a540679946b47c91008d1b5d",
+    "day": "2023-04-03",
+    "source": "https://www.mucse.com/about/detail.aspx?Id=3&mtt=1",
+    "expected": {
+      "round": "A+轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中电科研投基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"励石创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"德开元泰\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"清控银杏\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"俱成资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"力合科创\",\"role\":null,\"amount\":null},{\"name\":\"锡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-04-03",
+      "date_key": "2023-04-03",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A2轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"俱成资本\",\"role\":null,\"amount\":null},{\"name\":\"无锡国联金投启源\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"力合创投\",\"role\":null,\"amount\":null},{\"name\":\"励石创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-04-03",
+      "date_key": "2023-04-03",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://mucse.com/about/about.aspx"
+    ]
+  },
+  {
+    "event_id": "daily-20261113-006",
+    "company_id": "",
+    "day": "2026-11-12",
+    "final_company_id": "co:full_legal_name:8366ac37a540679946b47c91008d1b5d",
+    "final_day": "2026-11-10",
+    "source": "https://finance.eastmoney.com/a/202611103927651624.html",
+    "expected": {
+      "round": "新一轮(具体轮次未披露)",
+      "amount": "",
+      "investors_json": "[{\"name\":\"力合泓鑫等老股东追投\",\"role\":null,\"amount\":null},{\"name\":\"力合算芯基金\",\"role\":null,\"amount\":null},{\"name\":\"百敖软件参与\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海力合算芯人工智能产业创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京百敖软件有限公司\",\"role\":null,\"amount\":null},{\"name\":\"深圳力合泓鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

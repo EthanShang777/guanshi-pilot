@@ -1041,26 +1041,95 @@
     "capitalBasis": "认缴规模",
     "otherLpCount": 0,
     "source": {
-      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_252010277D92D03FC944C78A26178CB2BC13A5.pdf",
-      "issuer": "君合律师就托伦斯IPO的法律意见书",
-      "date": "2025-12",
-      "dateKind": "法律意见书签署月",
-      "pages": "8-3-18 至 8-3-19",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608071827749499_1.pdf",
+      "issuer": "芯来科技公开转让说明书及上市补充法律意见书",
+      "date": "2026-08-07",
+      "dateKind": "公开转让说明书披露日",
+      "pages": "公开转让说明书机构股东出资结构第42至43页",
       "filingCode": "SLZ016",
       "filedOn": "2020-09-25",
-      "lpScope": "披露12项LP和1项GP，同一管理人各一项；合计认缴93.15亿元。",
+      "lpScope": "12项LP及1项GP。上轮托伦斯股东核查表首项身份与多份合伙协议核查、债券及股转披露不一致，按交叉证据修正。",
       "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001398_20230628_WN3G.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202412311641491414_1.pdf",
         "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf",
-        "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/001350_20241231_FDXN.pdf"
+        "https://pdf.dfcfw.com/pdf/H2_AN202608071827749409_1.pdf",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406241636836613&pageIndex=10",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_252010277D92D03FC944C78A26178CB2BC13A5.pdf"
       ],
       "generalPartners": [
         {
           "name": "中电科网信私募基金管理有限公司",
-          "disclosedContributionCny": 2000000000
+          "disclosedContributionCny": 10000000
         }
-      ]
+      ],
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202608071827749499_1.pdf",
+        "date": "2026-08-07",
+        "dateKind": "实缴情形披露日",
+        "partners": [
+          {
+            "name": "中电科投资控股有限公司",
+            "paidCny": 1000000000
+          },
+          {
+            "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+            "paidCny": 744000000
+          },
+          {
+            "name": "国家军民融合产业投资基金有限责任公司",
+            "paidCny": 750000000
+          },
+          {
+            "name": "国家制造业转型升级基金股份有限公司",
+            "paidCny": 600000000
+          },
+          {
+            "name": "中国国新控股有限责任公司",
+            "paidCny": 437500000
+          },
+          {
+            "name": "天津东创卓企业管理咨询合伙企业（有限合伙）",
+            "paidCny": 200000000
+          },
+          {
+            "name": "北京市科技创新基金（有限合伙）",
+            "paidCny": 198000000
+          },
+          {
+            "name": "北京中关村科学城新动能投资合伙企业（有限合伙）",
+            "paidCny": 160000000
+          },
+          {
+            "name": "中信证券投资有限公司",
+            "paidCny": 120000000
+          },
+          {
+            "name": "辽宁海通新动能股权投资基金合伙企业（有限合伙）",
+            "paidCny": 60000000
+          },
+          {
+            "name": "中信建投资有限公司",
+            "paidCny": 60000000
+          },
+          {
+            "name": "泰州润信产业投资基金合伙企业（有限合伙）",
+            "paidCny": 40000000
+          },
+          {
+            "name": "中电科网信私募基金管理有限公司",
+            "paidCny": 7000000
+          }
+        ]
+      }
     },
     "partners": [
+      {
+        "name": "中电科投资控股有限公司",
+        "disclosedContributionCny": 2000000000,
+        "disclosedPercent": "21.4707",
+        "existingInstitution": "fff24ba200d5a55016f78e92"
+      },
       {
         "name": "建信领航战略性新兴产业发展基金（有限合伙）",
         "disclosedContributionCny": 1860000000,
@@ -1126,12 +1195,6 @@
         "disclosedContributionCny": 100000000,
         "disclosedPercent": "1.0735",
         "existingInstitution": "28a23c136baefc6c191bcbea"
-      },
-      {
-        "name": "中电科网信私募基金管理有限公司",
-        "disclosedContributionCny": 10000000,
-        "disclosedPercent": "0.1074",
-        "existingInstitution": "882c56124886116efe804eef"
       }
     ],
     "publishedStatistics": [
@@ -1142,5 +1205,261 @@
         "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf"
       }
     ]
+  },
+  {
+    "fundId": "8d8a32b4d5cf645c766d982d",
+    "fundName": "中电科（无锡）电子基础产业股权基金（有限合伙）",
+    "managerName": "中电科网信私募基金管理有限公司",
+    "managerId": "882c56124886116efe804eef",
+    "sizeCny": 2000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": null,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf",
+      "date": "2026-03-31",
+      "dateKind": "发行人披露数据截至日",
+      "issuer": "中电科投资科创公司债募集说明书",
+      "lpSources": [
+        "https://www.china-iace.com/newsinfo/10986540.html?templateId=1569097",
+        "https://www.wxbh.gov.cn/doc/2026/03/02/4739111.shtml"
+      ],
+      "lpScope": "发起方及四家共同出资机构为公开披露范围；其余各方认缴金额待查。",
+      "generalPartners": [
+        {
+          "name": "中电科网信私募基金管理有限公司"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "中电科投资控股有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": "30",
+        "existingInstitution": "fff24ba200d5a55016f78e92"
+      },
+      {
+        "name": "江苏无锡集成电路产业专项母基金（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "8f0556d98a15dcd0616d92be"
+      },
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "无锡产业发展集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "bdf5323750978d84c09d1616"
+      },
+      {
+        "name": "无锡鼎祺科创投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "0d524155aa3e2723b1002b0a"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2026-03-31",
+        "fundedCny": 800000000,
+        "investedCny": 0,
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf"
+      }
+    ]
+  },
+  {
+    "fundId": "06abdbdd5784f3bf77db89de",
+    "fundName": "中电科（苏州）人工智能产业股权基金（有限合伙）",
+    "managerName": "中电科网信私募基金管理有限公司",
+    "managerId": "882c56124886116efe804eef",
+    "sizeCny": 2000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": null,
+    "source": {
+      "url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202608/799113649f74451f9363f8cd54178da9.shtml",
+      "date": "2026-08-29",
+      "dateKind": "政府公开报道日",
+      "issuer": "苏州市人民政府公开披露",
+      "lpSources": [
+        "https://www.glo.com.cn/Content/2026/09-07/1146524219.html",
+        "https://stcn.com/article/detail/3994935.html"
+      ],
+      "lpScope": "政府披露母基金出资6亿元；律所披露六家设立方，未给其他各方认缴或实缴。",
+      "generalPartners": [
+        {
+          "name": "中电科网信私募基金管理有限公司"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "江苏苏州人工智能产业专项母基金（有限合伙）",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": "30",
+        "existingInstitution": "1be1ff9246a6866ef6e4454b"
+      },
+      {
+        "name": "中电科投资控股有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "fff24ba200d5a55016f78e92"
+      },
+      {
+        "name": "苏州市产业投资咨询中心有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "4cd0c9ab82dcc08af46be418"
+      },
+      {
+        "name": "苏州和淼投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "5df2883ad5e90d8b7ccf7473"
+      },
+      {
+        "name": "苏州市相城金融控股（集团）有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "3c5228420c9ed5bb05851391"
+      },
+      {
+        "name": "央企战略性新兴产业发展基金有限责任公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "4c6053f0c5f6a338f9997537"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "bb931104632a4a4de28d162e",
+    "fundName": "建信领航战略性新兴产业发展基金（有限合伙）",
+    "managerName": "建信股权投资管理有限责任公司",
+    "managerId": "3d9f7826679259aeed3d06a0",
+    "sizeCny": 24345000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf",
+      "date": "2025-12-31",
+      "dateKind": "合伙人认缴截至日",
+      "issuer": "中电科投资科创公司债募集说明书",
+      "pages": "第18至19页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-05-27/1225332077.PDF"
+      ],
+      "lpScope": "17项认缴含1项管理人GP与16项LP，合计243.45亿元。",
+      "generalPartners": [
+        {
+          "name": "建信股权投资管理有限责任公司",
+          "disclosedContributionCny": 30000000
+        }
+      ],
+      "filingCode": "SLA615",
+      "filedOn": "2020-09-22"
+    },
+    "partners": [
+      {
+        "name": "建信人寿保险股份有限公司",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": "12.32",
+        "existingInstitution": "fe3c29aba3cf4a6d68e16d4a"
+      },
+      {
+        "name": "上海建腾企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.11",
+        "existingInstitution": "2ce1f3056d7970ec2a4a1225"
+      },
+      {
+        "name": "中国华能集团有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": "2.46",
+        "existingInstitution": "cca9f546fe7045b2a39c4e7a"
+      },
+      {
+        "name": "中电科投资控股有限公司",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": "12.32",
+        "existingInstitution": "fff24ba200d5a55016f78e92"
+      },
+      {
+        "name": "中国中化股份有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.11",
+        "existingInstitution": "72c87aaef8a7cf6039b7f60a"
+      },
+      {
+        "name": "深圳华大基因科技有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "1.23",
+        "existingInstitution": "7e51b79c1fadd97595fca001"
+      },
+      {
+        "name": "深圳市福田引导基金投资有限公司",
+        "disclosedContributionCny": 811500000,
+        "disclosedPercent": "3.33",
+        "existingInstitution": "666207f5f3100faef7fd3acf"
+      },
+      {
+        "name": "苏州国际发展集团有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "2.05",
+        "existingInstitution": "fb6435815a30e81f6e3d2de4"
+      },
+      {
+        "name": "苏州工业园区经济发展有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "2.05",
+        "existingInstitution": "95b6afbbe3b2a028c90614c3"
+      },
+      {
+        "name": "中国人寿保险股份有限公司",
+        "disclosedContributionCny": 2000000000,
+        "disclosedPercent": "8.22",
+        "existingInstitution": "2c00f0a98064fa934959afa3"
+      },
+      {
+        "name": "人保资本—国家战略性新兴产业母基金股权投资计划",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.11",
+        "existingInstitution": "c8fc92b31c5dd05d45a485d8"
+      },
+      {
+        "name": "中邮人寿保险股份有限公司",
+        "disclosedContributionCny": 2500000000,
+        "disclosedPercent": "10.27",
+        "existingInstitution": "30bbebe8816d1bc93af9b5c3"
+      },
+      {
+        "name": "大家人寿保险股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "1.23",
+        "existingInstitution": "f8bc6e8791aa077a15fba1a1"
+      },
+      {
+        "name": "深圳市引导基金投资有限公司",
+        "disclosedContributionCny": 7303500000,
+        "disclosedPercent": "30.00",
+        "existingInstitution": "3cc2447cbfd075fdad3c7776"
+      },
+      {
+        "name": "厦门金圆投资集团有限公司",
+        "disclosedContributionCny": 380000000,
+        "disclosedPercent": "1.56",
+        "existingInstitution": "25079d08bfb4aa6bd20b40c8"
+      },
+      {
+        "name": "厦门市思明区产业投资有限公司",
+        "disclosedContributionCny": 120000000,
+        "disclosedPercent": "0.49",
+        "existingInstitution": "bb6f28a68b5c14b25c45ed81"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

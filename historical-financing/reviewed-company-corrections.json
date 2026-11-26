@@ -719,5 +719,33 @@
       "date_kind": "江特电机董事会公告拟认购1亿元，尚待核实交割",
       "investors_json": "[]"
     }
+  },
+  {
+    "event_id": "daily-20261113-006",
+    "round": "B+轮",
+    "source": "https://www.sina.cn/news/detail/5363636300416159.html",
+    "additional_sources": [
+      "https://shangdaovc.m.icoc.me/cn/h-nd-14885.html",
+      "https://pitchhub.36kr.com/project/1678531841176577",
+      "https://mucse.com/about/about.aspx"
+    ],
+    "expected": {
+      "company_id": "",
+      "company_name": "沐创",
+      "raw_company_key": "沐创",
+      "date": "2026-11-12",
+      "date_key": "2026-11-12",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"上海力合算芯人工智能产业创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京百敖软件有限公司\",\"role\":null,\"amount\":null},{\"name\":\"深圳力合泓鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:8366ac37a540679946b47c91008d1b5d",
+      "company_name": "无锡沐创集成电路设计有限公司",
+      "raw_company_key": "无锡沐创集成电路设计有限公司",
+      "date": "2026-11-10",
+      "date_key": "2026-11-10",
+      "date_kind": "2026-11-10同期报道日，具体交割日及单笔金额未披露",
+      "investors_json": "[{\"name\":\"上海力合算芯人工智能产业创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京百敖软件有限公司\",\"role\":null,\"amount\":null},{\"name\":\"深圳力合泓鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
