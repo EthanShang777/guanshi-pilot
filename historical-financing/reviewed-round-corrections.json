@@ -7014,5 +7014,133 @@
     "additional_sources": [
       "https://pdf.dfcfw.com/pdf/H2_AN202608131827948172_1.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:c8a8fd5b645b86fa98f1918e9b81f48217715c8791f3026b6cb2a409a5c78aa6",
+    "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0",
+    "day": "2015-12-21",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"广州基金\",\"role\":null,\"amount\":null}]",
+      "date": "2015-12-21",
+      "date_key": "2015-12-21",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "1500万元",
+      "investors_json": "[{\"name\":\"广州科技金融创新投资控股有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":800000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf\"}},{\"name\":\"广州兴军共盛股权投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":700000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf\"}}]",
+      "date": "2015-12",
+      "date_key": "2015-12-01",
+      "date_kind": "发行人披露工商月份"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202402/001898_20240202_GLEV.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_180C.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:4baec864e52b356dc9fdef0754b5f4d515e4f561e48857d31ef7526800d57c19",
+    "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0",
+    "day": "2016-04-20",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202402/001898_20240202_GLEV.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"红钻基金\",\"role\":null,\"amount\":null}]",
+      "date": "2016-04-20",
+      "date_key": "2016-04-20",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "约1200万元",
+      "investors_json": "[{\"name\":\"湖南红钻创业投资私募基金管理股份有限公司\",\"role\":\"受让方\",\"amount\":null}]",
+      "date": "2016-04",
+      "date_key": "2016-04-01",
+      "date_kind": "发行人披露工商月份"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:b395652e12789de5ae400db094080c691e0f7c2136274fa926b0249c1bc37031",
+    "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0",
+    "day": "2020-12-16",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"天惠投资基金\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-16",
+      "date_key": "2020-12-16",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "5200万元",
+      "investors_json": "[{\"name\":\"湖南省天惠军民融合投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5100000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf\"}},{\"name\":\"湖南惠泽潇湘企业管理合伙企业（普通合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf\"}}]",
+      "date": "2020-12-16",
+      "date_key": "2020-12-16",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_M1O6.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:f8413b5838b09630b55858a1b5b279a0e373c1ce3ee1a2c43c84d22e69c7e3f9",
+    "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0",
+    "day": "2021-09-30",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"大靖投资\",\"role\":null,\"amount\":null},{\"name\":\"麓谷发展集团\",\"role\":null,\"amount\":null}]",
+      "date": "2021-09-30",
+      "date_key": "2021-09-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "1193.5万元",
+      "investors_json": "[{\"name\":\"湖南臻泰科创产业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1085000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf\"}},{\"name\":\"陈定海\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":108500000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf\"}}]",
+      "date": "2021-09-30",
+      "date_key": "2021-09-30",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_180C.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:4754c25610cf898cdefd9747b9956f516770ed37ac291803daa1a39da33ad94d",
+    "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0",
+    "day": "2022-01-11",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_180C.pdf",
+    "expected": {
+      "round": "B+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"鼎晖百孚\",\"role\":null,\"amount\":null}]",
+      "date": "2022-01-11",
+      "date_key": "2022-01-11",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "1416万元",
+      "investors_json": "[{\"name\":\"杭州鼎晖宏垣股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1416000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_180C.pdf\"}}]",
+      "date": "2023-03-29",
+      "date_key": "2023-03-29",
+      "date_kind": "发行人披露股份转让协议日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf"
+    ]
   }
 ]

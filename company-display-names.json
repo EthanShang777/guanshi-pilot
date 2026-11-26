@@ -4663,5 +4663,40 @@
     "sources": [
       "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0928/2021092800954_c.pdf"
     ]
+  },
+  "53eb4321fe2a882cce97d816": {
+    "name": "兴天科技",
+    "registeredName": "湖南兴天电子科技股份有限公司",
+    "aliases": [
+      "湖南兴天电子科技有限公司",
+      "兴天电子"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202402/001898_20240202_GLEV.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf"
+    ]
+  },
+  "114700a16face4d2c8a84251": {
+    "name": "展芯半导体",
+    "registeredName": "江苏展芯半导体技术股份有限公司",
+    "aliases": [
+      "展芯股份",
+      "江苏展芯半导体技术有限公司",
+      "301707"
+    ],
+    "sources": [
+      "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-08/c420ef47354261a86fe7532c9e89d40e-7.pdf"
+    ]
+  },
+  "ed25afb7e9072b8544ba3117": {
+    "name": "博云新材",
+    "registeredName": "湖南博云新材料股份有限公司",
+    "aliases": [
+      "002297"
+    ],
+    "sources": [
+      "https://money.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=7415101&stockid=002297"
+    ]
   }
 }

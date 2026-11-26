@@ -1813,5 +1813,77 @@
     },
     "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
     "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:010c86b0cafe263f5fd3d4",
+      "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0"
+    },
+    "existing": {
+      "event_id": "financing_event:b395652e12789de5ae400db094080c691e0f7c2136274fa926b0249c1bc37031",
+      "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:b395652e12789de5ae400db094080c691e0f7c2136274fa926b0249c1bc37031",
+      "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:010c86b0cafe263f5fd3d4",
+      "company_id": "co:full_legal_name:ca112ef269b88749b80c2d6d0a7598f0"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_DIN2.pdf",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1b894775144fbb1761461e",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c89d14b294616642318271",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c89d14b294616642318271",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1b894775144fbb1761461e",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:438e5c0c8470814de853de",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8dffed8afc61b50d5589d4",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8dffed8afc61b50d5589d4",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:438e5c0c8470814de853de",
+      "company_id": "co:cn_uscc:09fee71f11cbfc26d660d0dfd33e211a"
+    },
+    "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
+    "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
   }
 ]

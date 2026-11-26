@@ -13695,5 +13695,182 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "2b904d4431a630157a78d792",
+    "fundName": "湖南省天惠军民融合投资基金合伙企业（有限合伙）",
+    "managerName": "湖南天惠私募基金管理有限公司",
+    "managerId": "bd65473fc08c47b8ab33e9ff",
+    "sizeCny": 2265000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf",
+      "date": "2024-06-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "兴天科技补充法律意见书",
+      "pages": "第3-3-1-9页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_180C.pdf",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202503/2176c9_20250312_F680.pdf",
+        "https://fgw.hunan.gov.cn/fgw/xxgk_70899/gzdtf/gzdt/202611/t20261120_34107651.html",
+        "https://kjt.hunan.gov.cn/kjt/xxgk/yata/202411/t20241121_33507613.html",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF"
+      ],
+      "lpScope": "七名LP和一名GP。认缴22.65亿元，财信金控债券说明书的基金表披露截至2023年底总实缴18.12亿元。逐家实缴待原合伙缴款披露。",
+      "generalPartners": [
+        {
+          "name": "湖南天惠私募基金管理有限公司",
+          "disclosedContributionCny": 22000000
+        }
+      ],
+      "managerLegalName": "湖南天惠私募基金管理有限公司",
+      "fundRegistration": "SJN691",
+      "filingDate": "2020-04-01",
+      "managerRegistration": "P1070257",
+      "managerFormerNames": [
+        "湖南天惠投资基金管理有限公司"
+      ],
+      "formerFundNames": [
+        "湖南省天惠投资基金合伙企业（有限合伙）"
+      ],
+      "creditCode": "91430300MA4R2TYJ0Y",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202503/2176c9_20250312_F680.pdf",
+        "date": "2023-12-31",
+        "dateKind": "公开文件报告期末",
+        "partners": [],
+        "totalPaidCny": 1812000000
+      }
+    },
+    "partners": [
+      {
+        "name": "湖南省新兴产业股权投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 22.08,
+        "existingInstitution": "89252b66a6faad0b4ed73e89"
+      },
+      {
+        "name": "国家科技风险开发事业中心",
+        "disclosedContributionCny": 453000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "91f59935dbb99dee30da50e1"
+      },
+      {
+        "name": "国家军民融合产业投资基金有限责任公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 17.66,
+        "existingInstitution": "2094c5f80d2c4e102fabd870"
+      },
+      {
+        "name": "航天科工资产管理有限公司",
+        "disclosedContributionCny": 350000000,
+        "disclosedPercent": 15.45,
+        "existingInstitution": "47a0c94073ca90f5541d415d"
+      },
+      {
+        "name": "湘潭产宏私募股权基金企业（有限合伙）",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 11.04,
+        "existingInstitution": "628eafb5a3f8502b28cbf770"
+      },
+      {
+        "name": "湖南省产业技术协同创新有限公司",
+        "disclosedContributionCny": 240000000,
+        "disclosedPercent": 10.6,
+        "existingInstitution": "da055031d301fa5588c4b116"
+      },
+      {
+        "name": "湖南航天有限责任公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.2,
+        "existingInstitution": "dfcbaf7d6ec7ae14e40c1715"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2024-04-30",
+        "investments": 21,
+        "investedCny": 960000000,
+        "source": "https://kjt.hunan.gov.cn/kjt/xxgk/yata/202411/t20241121_33507613.html"
+      }
+    ]
+  },
+  {
+    "fundId": "dcf6d2eeb8fa01fc15e431ab",
+    "fundName": "杭州鼎晖宏垣股权投资合伙企业（有限合伙）",
+    "managerName": "上海鼎晖百孚投资管理有限公司",
+    "managerId": "57cb2d43f976a6693edc6fee",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_180C.pdf",
+      "date": "2023-06-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "兴天科技科创板招股说明书申报稿",
+      "pages": "第1-1-45页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/001898_20240629_YOZG.pdf"
+      ],
+      "lpScope": "六名LP和一名GP，认缴5亿元，申报稿同一页披露实收2.597亿元。",
+      "generalPartners": [
+        {
+          "name": "上海鼎晖孚舜投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "上海鼎晖百孚投资管理有限公司",
+      "fundRegistration": "SXV237",
+      "filingDate": "2022-11-29",
+      "managerRegistration": "P1008825",
+      "creditCode": "91330114MA2KLBDD2T",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001898_20230629_180C.pdf",
+        "date": "2023-06-29",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 259700000
+      }
+    },
+    "partners": [
+      {
+        "name": "嘉兴鼎晖祺睿股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 226300000,
+        "disclosedPercent": 45.26,
+        "existingInstitution": "ac5f9ea0c7946edfc361a901"
+      },
+      {
+        "name": "杭州产业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "c06aa3948be5f2f93dcb1d8b"
+      },
+      {
+        "name": "杭州和达产业基金投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "5a908712d7a10e89a117b822"
+      },
+      {
+        "name": "淄博顺东汇达股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 38700000,
+        "disclosedPercent": 7.74,
+        "existingInstitution": "3f76824ca5643ab09a0d6959"
+      },
+      {
+        "name": "巨人网络集团股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "bbdbfbfbe5251f75dea2f5a2"
+      },
+      {
+        "name": "天津鼎晖百宸股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1,
+        "existingInstitution": "3221111c45281ec1ced95352"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
