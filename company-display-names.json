@@ -638,5 +638,119 @@
       "https://www.neuroxess.com/news/naohukejiwancheng7yiyuanblunrongziguotoujulishenchuangtouyuqinzhizibenlingtou/",
       "https://static.sse.com.cn/stock/disclosure/announcement/c/202606/002198_20260611_0RN0.pdf"
     ]
+  },
+  "363557c5ec1d2b1ad3ffabc8": {
+    "name": "叮咚买菜",
+    "registeredName": "Dingdong (Cayman) Limited",
+    "aliases": [
+      "上海壹佰米网络科技有限公司",
+      "叮咚小区",
+      "Dingdong Maicai",
+      "Dingdong Fresh",
+      "NYSE:DDL"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1854545/000119312521201751/d121652df1a.htm",
+      "https://www.sec.gov/Archives/edgar/data/1854545/000119312526174971/ddl-20251231.htm",
+      "https://tyjr.sh.gov.cn/shtyjrswj/jycy/20201112/43fe1a8cd0aa41ad8dcf3f1cec96c82c.html",
+      "https://vc.pedaily.cn/company/20441.html"
+    ]
+  },
+  "a2373913a15a8444f9958a44": {
+    "name": "玄瞳科技",
+    "registeredName": "广州市玄瞳科技有限公司",
+    "aliases": [
+      "玄瞳",
+      "玄瞳销售云"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1128/11931497/2025112800181.pdf",
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401751_c.pdf"
+    ]
+  },
+  "188dcb7586dff4b9093cce2a": {
+    "name": "Honeypot Finance",
+    "registeredName": "Honeypot DAO LLC",
+    "aliases": [
+      "HPOT"
+    ],
+    "sources": [
+      "https://chainwire.org/2025/10/18/integrated-liquidity-hub-honeypot-finance-secures-new-funding-round-with-participation-from-mask-network-and-others/",
+      "https://cavedao-fund.discourse.group/t/2-investment-proposal-honeypot/18"
+    ]
+  },
+  "1d2651f660d48e1f77fd6ede": {
+    "name": "ADC Therapeutics",
+    "registeredName": "ADC Therapeutics SA",
+    "aliases": [
+      "NYSE:ADCT",
+      "ADCT"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1771910/000162828026072178/R23.htm",
+      "https://www.sec.gov/Archives/edgar/data/1771910/000095010326015465/dp254756_8k.htm"
+    ]
+  },
+  "4e5e6834f35f587d954722a0": {
+    "name": "First Tracks Biotherapeutics",
+    "registeredName": "First Tracks Biotherapeutics, Inc.",
+    "aliases": [
+      "First Tracks Bio",
+      "NASDAQ:TRAX",
+      "TRAX"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/2091349/000119312526426666/trax-20261019.htm",
+      "https://ir.firsttracksbio.com/news-releases/news-release-details/first-tracks-biotherapeutics-announces-200-million-private"
+    ]
+  },
+  "538e4b39f17b48762284eaf9": {
+    "name": "Data I/O",
+    "registeredName": "Data I/O Corporation",
+    "aliases": [
+      "Data IO",
+      "NASDAQ:DAIO",
+      "DAIO"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/351998/000119312526468831/d362942ds1.htm",
+      "https://www.sec.gov/Archives/edgar/data/351998/000119312526428897/d176225d8k.htm"
+    ]
+  },
+  "d0eb8ce5edf89fb131045add": {
+    "name": "Indaptus Therapeutics",
+    "registeredName": "Indaptus Therapeutics, Inc.",
+    "aliases": [
+      "Indaptus",
+      "NASDAQ:INDP",
+      "INDP"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1857044/000149315226051550/form10-q.htm",
+      "https://www.sec.gov/Archives/edgar/data/1857044/000149315226047770/form8-k.htm"
+    ]
+  },
+  "bc0546a0ba522defbf311e9f": {
+    "name": "authID",
+    "registeredName": "authID Inc.",
+    "aliases": [
+      "authID.ai",
+      "Ipsidy Inc.",
+      "NASDAQ:AUID",
+      "AUID"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1534154/000121390026123763/ea0313403-pre14a_authid.htm"
+    ]
+  },
+  "8f1cf4474ed236e0189f937a": {
+    "name": "Bequest Asset Management",
+    "registeredName": "Bequest Asset Management, LLC",
+    "aliases": [
+      "Bequest Asset Management LLC"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/2160920/000216092026000002/document_8.pdf"
+    ]
   }
 }
