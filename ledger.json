@@ -168,7 +168,149 @@
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261124-90295.html"
       ]
+    },
+    {
+      "id": "90296",
+      "day": "2026-11-25",
+      "company": "EvolonAI",
+      "title": "EvolonAI完成超千万美元种子轮融资",
+      "sector": "待归类",
+      "round": "种子轮",
+      "first_close": false,
+      "investors": [
+        "商汤科技",
+        "商汤国香",
+        "蓝湖资本"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261125-90296.html"
+      ]
+    },
+    {
+      "id": "90297",
+      "day": "2026-11-25",
+      "company": "中国电子云",
+      "title": "中国电子云完成B轮融资",
+      "sector": "待归类",
+      "round": "B轮",
+      "first_close": false,
+      "investors": [
+        "国家产业投资基金二期",
+        "GPU厂商沐曦股份产业投资方"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261125-90297.html"
+      ]
+    },
+    {
+      "id": "90298",
+      "day": "2026-11-25",
+      "company": "越凡创新",
+      "title": "越凡创新完成数亿元融资",
+      "sector": "待归类",
+      "round": "",
+      "first_close": false,
+      "investors": [
+        "策源资本",
+        "成都科创投",
+        "成都交投资本",
+        "亚美投资"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261125-90298.html"
+      ]
+    },
+    {
+      "id": "90299",
+      "day": "2026-11-25",
+      "company": "启明光子",
+      "title": "启明光子完成超亿元Pre-A轮融资",
+      "sector": "待归类",
+      "round": "PRE-A轮",
+      "first_close": false,
+      "investors": [
+        "国新基金",
+        "华控基金",
+        "同歌创投",
+        "华盖资本",
+        "一村资本",
+        "国中资本",
+        "老股东追加"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261125-90299.html"
+      ]
+    },
+    {
+      "id": "90300",
+      "day": "2026-11-26",
+      "company": "闪科光联连续",
+      "title": "闪科光联连续完成两轮融资",
+      "sector": "待归类",
+      "round": "种子轮",
+      "first_close": false,
+      "investors": [
+        "励石创投",
+        "长石资本",
+        "厚雪资本",
+        "险峰长青（K2）",
+        "磐霖资本",
+        "小苗朗程",
+        "柯熙创投"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261126-90300.html"
+      ]
+    },
+    {
+      "id": "90301",
+      "day": "2026-11-26",
+      "company": "环码生物",
+      "title": "环码生物宣布完成数千万美元A+轮融资",
+      "sector": "待归类",
+      "round": "A+轮",
+      "first_close": false,
+      "investors": [
+        "复健资本"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261126-90301.html"
+      ]
+    },
+    {
+      "id": "90302",
+      "day": "2026-11-26",
+      "company": "华源智因",
+      "title": "华源智因完成超亿元天使轮融资",
+      "sector": "待归类",
+      "round": "天使轮",
+      "first_close": false,
+      "investors": [
+        "华盖资本",
+        "华方资本",
+        "华映资本",
+        "梅花创投（及中珠医疗）",
+        "同新基金",
+        "讯飞创投",
+        "启赋资本"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261126-90302.html"
+      ]
+    },
+    {
+      "id": "90303",
+      "day": "2026-11-26",
+      "company": "HearWell",
+      "title": "HearWell完成两轮数千万元融资",
+      "sector": "待归类",
+      "round": "",
+      "first_close": false,
+      "investors": [],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261126-90303.html"
+      ]
     }
   ],
-  "through": "2026-11-24"
+  "through": "2026-11-26"
 }
