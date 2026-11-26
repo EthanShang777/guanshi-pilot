@@ -3155,6 +3155,541 @@
           "source": "https://www.prnewswire.com/news-releases/collective-x-health-launches-with-a-3-2-million-pre-seed-round-to-close-the-womens-health-data-gap-302907275.html"
         }
       ]
+    },
+    {
+      "institution": "投资界十月公开周榜",
+      "checked_on": "2026-11-26",
+      "scope": "此前标待查的报道按原来源、备案主体和现有融资ID逐项核对，已收录但汇总口径或重复归属未清的保留待查",
+      "sources": [
+        "https://news.pedaily.cn/202610/570081.shtml",
+        "https://news.pedaily.cn/202610/570102.shtml",
+        "https://news.pedaily.cn/202610/570182.shtml",
+        "https://news.pedaily.cn/202610/570184.shtml",
+        "https://news.pedaily.cn/202610/570226.shtml",
+        "https://news.pedaily.cn/202610/570306.shtml",
+        "https://news.pedaily.cn/202610/570425.shtml",
+        "https://news.pedaily.cn/202610/570499.shtml",
+        "https://news.pedaily.cn/202610/570517.shtml",
+        "https://news.pedaily.cn/202610/570654.shtml",
+        "https://news.pedaily.cn/202610/570723.shtml",
+        "https://news.pedaily.cn/202610/570738.shtml",
+        "https://news.pedaily.cn/202610/570819.shtml",
+        "https://news.pedaily.cn/202610/570862.shtml",
+        "https://news.pedaily.cn/202610/570906.shtml",
+        "https://news.pedaily.cn/202610/570934.shtml",
+        "https://news.pedaily.cn/202610/570968.shtml",
+        "https://news.pedaily.cn/202610/570974.shtml",
+        "https://news.pedaily.cn/202610/571022.shtml",
+        "https://news.pedaily.cn/202610/571063.shtml",
+        "https://news.pedaily.cn/202610/571101.shtml",
+        "https://news.pedaily.cn/202610/570021.shtml",
+        "https://news.pedaily.cn/202610/570167.shtml",
+        "https://news.pedaily.cn/202610/570212.shtml",
+        "https://news.pedaily.cn/202610/570273.shtml",
+        "https://news.pedaily.cn/202610/570881.shtml",
+        "https://news.pedaily.cn/202610/571065.shtml"
+      ],
+      "candidate_count": 0,
+      "existing_count": 21,
+      "pending_count": 6,
+      "checked_records": {
+        "https://news.pedaily.cn/202610/570081.shtml": {
+          "stem": "蓝芯算力",
+          "lead_day": "2026-10-12",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "02dc7c38f71c7fd4839271fc",
+              "day": "2026-10-12",
+              "stage": "B轮系列",
+              "company": "蓝芯算力（深圳）科技有限公司",
+              "amount": "近20亿人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570081.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570102.shtml": {
+          "stem": "弦引未来",
+          "lead_day": "2026-10-12",
+          "outcome": "已有",
+          "evidence_note": "公司原文给出三轮合计，现有A轮继续保留金额未披露。",
+          "records": [
+            {
+              "eventId": "68b396fd4d8c06c96ce3517e",
+              "day": "2026-10-12",
+              "stage": "A轮",
+              "company": "安徽弦引未来科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/570102.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570182.shtml": {
+          "stem": "荆华密算",
+          "lead_day": "2026-10-13",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "cc8c377d4f0b6679d382c179",
+              "day": "2026-10-13",
+              "stage": "Pre-A轮",
+              "company": "荆华密算（北京）科技有限公司",
+              "amount": "近亿元",
+              "stored_source": "https://news.pedaily.cn/202610/570182.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570184.shtml": {
+          "stem": "一盛新材",
+          "lead_day": "2026-10-13",
+          "outcome": "已有",
+          "evidence_note": "公司官网确认该笔为A3轮，更新原ID。",
+          "records": [
+            {
+              "eventId": "d4e27ffa8a2aff0e819148d4",
+              "day": "2026-10-13",
+              "stage": "A3轮",
+              "company": "哈尔滨一盛新材料科技有限公司",
+              "amount": "近亿元人民币",
+              "stored_source": "https://harbinyisheng.com/News-Consultation.html"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570226.shtml": {
+          "stem": "星火辰光",
+          "lead_day": "2026-10-14",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "e96cc5a72c45206413fb74dd",
+              "day": "2026-10-14",
+              "stage": "天使轮",
+              "company": "北京星火辰光科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/570226.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570306.shtml": {
+          "stem": "可视科学",
+          "lead_day": "2026-10-15",
+          "outcome": "已有",
+          "evidence_note": "天使、天使+都已有。天使轮在2025年，10月是两轮共同披露，保留日期。",
+          "records": [
+            {
+              "eventId": "f87c7fbd9d69b19fdfee6807",
+              "day": "2025-09-11",
+              "stage": "天使轮",
+              "company": "安徽可视科学技术有限公司",
+              "amount": "未披露",
+              "stored_source": "https://www.36kr.com/newsflashes/4026558877241475"
+            },
+            {
+              "eventId": "f57d49174267c9d11776004f",
+              "day": "2026-10-15",
+              "stage": "天使+轮",
+              "company": "安徽可视科学技术有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/570306.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570425.shtml": {
+          "stem": "帝尔博格",
+          "lead_day": "2026-10-19",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "fbf2157db3f80c720a094b1e",
+              "day": "2026-10-14",
+              "stage": "Pre-A+轮",
+              "company": "帝尔博格; 帝尔博格（苏州）智能机器人有限公司",
+              "amount": "亿元级人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570425.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570499.shtml": {
+          "stem": "境技智能",
+          "lead_day": "2026-10-20",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "7606c592c940edb45e177e15",
+              "day": "2026-10-20",
+              "stage": "种子轮",
+              "company": "上海境技智能科技有限公司",
+              "amount": "数千万元",
+              "stored_source": "https://news.pedaily.cn/202610/570499.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570517.shtml": {
+          "stem": "山海氢",
+          "lead_day": "2026-10-20",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "f63575172bcbef45e0a96163",
+              "day": "2026-10-19",
+              "stage": "天使+轮",
+              "company": "山海氢（上海）新能源科技有限公司",
+              "amount": "数千万人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570517.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570654.shtml": {
+          "stem": "立妙达",
+          "lead_day": "2026-10-22",
+          "outcome": "已有",
+          "evidence_note": "B1、B2均交割，只有合计金额。合为既有事件的联合披露记录；B3仅签约筹备，待后续完成。",
+          "records": [
+            {
+              "eventId": "26d6f4f46e596cd4d0ffa018",
+              "day": "2026-10-21",
+              "stage": "B1及B2轮",
+              "company": "苏州立妙达智能科技有限公司",
+              "amount": "两轮合计近5亿元人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570654.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570723.shtml": {
+          "stem": "微光科技",
+          "lead_day": "2026-10-23",
+          "outcome": "已有",
+          "evidence_note": "媒体品牌微光科技对回深圳市微光电子科技有限公司，A轮同一轮次。",
+          "records": [
+            {
+              "eventId": "099b2b8496ee2596561c1874",
+              "day": "2026-10-22",
+              "stage": "A轮",
+              "company": "深圳市微光电子科技有限公司",
+              "amount": "近亿人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570723.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570738.shtml": {
+          "stem": "鸾起科技",
+          "lead_day": "2026-10-23",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "1ee31cd65b6f0fa69eff4b2f",
+              "day": "2026-10-22",
+              "stage": "B+轮",
+              "company": "鸾起科技（苏州）有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/570738.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570819.shtml": {
+          "stem": "锋寻生物",
+          "lead_day": "2026-10-26",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "f90110fbf336fde416d4c81f",
+              "day": "2026-10-26",
+              "stage": "Pre-A轮",
+              "company": "南通锋寻生物科技有限公司",
+              "amount": "近亿元人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570819.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570862.shtml": {
+          "stem": "瑞迪微电子",
+          "lead_day": "2026-10-26",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "df8ea92c6fb9b965be23409c",
+              "day": "2026-10-26",
+              "stage": "战略融资",
+              "company": "安徽瑞迪微电子有限公司",
+              "amount": "1亿元人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570862.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570906.shtml": {
+          "stem": "百世达",
+          "lead_day": "2026-10-27",
+          "outcome": "已有",
+          "evidence_note": "同一法人和两笔同样的出资方，10月报道不作新增。4月高瓴与9月静水湖保留原日期并标实际出资实体。",
+          "records": [
+            {
+              "eventId": "5ef4999496b8e5e7360bec80",
+              "day": "2026-04-10",
+              "stage": "天使轮",
+              "company": "宁波百世达电子科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://www.qcc.com/firm/16d7d9d382b8319cc38e9a72bdb7651e.html"
+            },
+            {
+              "eventId": "1c62778fdb7af7f7f406b99b",
+              "day": "2026-09-20",
+              "stage": "天使+轮",
+              "company": "宁波百世达电子科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://www.qcc.com/firm/16d7d9d382b8319cc38e9a72bdb7651e.html"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570934.shtml": {
+          "stem": "维发电子",
+          "lead_day": "2026-10-27",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "0f558d8e6344fdaddbef11e5",
+              "day": "2026-10-28",
+              "stage": "C轮",
+              "company": "维发电子科技（常州）有限公司",
+              "amount": "亿级人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570934.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570968.shtml": {
+          "stem": "脑虎科技",
+          "lead_day": "2026-10-28",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "9eccd426955a6588aee8ec11",
+              "day": "2026-10-28",
+              "stage": "B轮",
+              "company": "上海脑虎科技有限公司",
+              "amount": "7亿元人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570968.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570974.shtml": {
+          "stem": "澜昆微电子",
+          "lead_day": "2026-10-28",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "d0a397529abc1e7b8506af73",
+              "day": "2026-10-28",
+              "stage": "天使+轮",
+              "company": "上海澜昆微电子科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/570974.shtml"
+            },
+            {
+              "eventId": "5b6c200520aeabea3e5d8e75",
+              "day": "2026-06-24",
+              "stage": "天使轮",
+              "company": "上海澜昆微电子科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/570974.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/571022.shtml": {
+          "stem": "GreenVoltis",
+          "lead_day": "2026-10-29",
+          "outcome": "已有",
+          "evidence_note": "同一独家出资方和A轮。公司11月5日公告确认1350万欧元并已收录，十月标题币种与金额口径不采用。",
+          "records": [
+            {
+              "eventId": "cb32f68d447af51afafac78c",
+              "day": "2026-11-05",
+              "stage": "A轮",
+              "company": "GreenVoltis",
+              "amount": "1350万欧元",
+              "stored_source": "https://news.pedaily.cn/202610/571022.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/571063.shtml": {
+          "stem": "博骥源",
+          "lead_day": "2026-10-29",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "a5f7592ad70ca70bfa7bc4f4",
+              "day": "2026-10-29",
+              "stage": "A+轮",
+              "company": "博骥源（上海）生物医药有限公司",
+              "amount": "数千万元",
+              "stored_source": "https://news.pedaily.cn/202610/571063.shtml"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/571101.shtml": {
+          "stem": "扰动之心",
+          "lead_day": "2026-10-30",
+          "outcome": "已有",
+          "evidence_note": "核对到已收录交易与同篇报道，保留原事件ID及已核日期口径。",
+          "records": [
+            {
+              "eventId": "cea65221ce329dd05d608913",
+              "day": "2026-10-30",
+              "stage": "天使轮",
+              "company": "上海扰动之心人工智能科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/571101.shtml"
+            },
+            {
+              "eventId": "d9d33ae44a1375bd557feb5b",
+              "day": "2026-10-30",
+              "stage": "天使+轮",
+              "company": "上海扰动之心人工智能科技有限公司",
+              "amount": "",
+              "stored_source": "https://news.pedaily.cn/202610/571101.shtml"
+            }
+          ]
+        }
+      },
+      "pending": [
+        {
+          "stem": "太一量生",
+          "lead_day": "2026-10-10",
+          "outcome": "冲突待核",
+          "evidence_note": "A与Pre-A+有轮次冲突，官网单轮与累计已区分。同源交易已收录，字段或合并范围仍待核。",
+          "records": [
+            {
+              "eventId": "2fa64aeb18931b1c835cd168",
+              "day": "2026-10-10",
+              "stage": "A轮",
+              "company": "太一量生（上海）量子科技有限公司",
+              "amount": "数亿人民币",
+              "stored_source": "https://www.thcapital.com.cn/article/370.html"
+            }
+          ]
+        },
+        {
+          "stem": "星尘智能",
+          "lead_day": "2026-10-13",
+          "outcome": "冲突待核",
+          "evidence_note": "同日两条档案疑为同笔，先保留原数据。同源交易已收录，字段或合并范围仍待核。",
+          "records": [
+            {
+              "eventId": "34f632157c5723f4a0e70d77",
+              "day": "2026-10-13",
+              "stage": "B+轮",
+              "company": "星尘智能（深圳）人工智能科技股份有限公司",
+              "amount": "10亿人民币",
+              "stored_source": "https://news.pedaily.cn/202610/570167.shtml"
+            }
+          ]
+        },
+        {
+          "stem": "云蝶科技",
+          "lead_day": "2026-10-14",
+          "outcome": "冲突待核",
+          "evidence_note": "同日两条档案疑为同笔，先保留原数据。同源交易已收录，字段或合并范围仍待核。",
+          "records": [
+            {
+              "eventId": "89eac2d4464ceb42de296ae2",
+              "day": "2026-10-14",
+              "stage": "B+轮",
+              "company": "广州云蝶科技股份有限公司",
+              "amount": "数亿元",
+              "stored_source": "https://news.pedaily.cn/202610/570212.shtml"
+            }
+          ]
+        },
+        {
+          "stem": "算苗科技",
+          "lead_day": "2026-10-14",
+          "outcome": "冲突待核",
+          "evidence_note": "同一报道含Pre-A2与A轮，另需核9月与加入轮。同源交易已收录，字段或合并范围仍待核。",
+          "records": [
+            {
+              "eventId": "5f02bcca2adc738fcd258cb3",
+              "day": "2026-10-14",
+              "stage": "A轮",
+              "company": "算苗科技（北京）有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/570273.shtml"
+            }
+          ]
+        },
+        {
+          "stem": "九识",
+          "lead_day": "2026-10-27",
+          "outcome": "冲突待核",
+          "evidence_note": "同一披露已入库，待核实际出资载体。同源交易已收录，字段或合并范围仍待核。",
+          "records": [
+            {
+              "eventId": "e3a9c5da8a3f4173aa800ca7",
+              "day": "2026-10-26",
+              "stage": "战略融资",
+              "company": "九识智能; 九识（苏州）智能科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/570881.shtml"
+            }
+          ]
+        },
+        {
+          "stem": "宜诺生物",
+          "lead_day": "2026-10-29",
+          "outcome": "冲突待核",
+          "evidence_note": "同一报道合计超亿元，10月Pre-A单笔仍缺出资额。同源交易已收录，字段或合并范围仍待核。",
+          "records": [
+            {
+              "eventId": "f604be4c2b7f221973f3f85c",
+              "day": "2026-10-29",
+              "stage": "Pre-A轮",
+              "company": "江苏宜诺生物科技有限公司",
+              "amount": "未披露",
+              "stored_source": "https://news.pedaily.cn/202610/571065.shtml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "institution": "成都交投卓越私募基金管理有限公司",
+      "checked_on": "2026-11-26",
+      "scope": "沿成都交投纵横反查星汉航宇和紫微宇通，按广安爱众公告核卓越锐正出资名单",
+      "sources": [
+        "https://www.chinaventure.com.cn/news/83-20250530-386532.html",
+        "https://m.pedaily.cn/vc/invest/v207070-y2025",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-30/243406_20260430_DSRO.pdf",
+        "https://www.weihenglaw.com/global-network/network-news/54",
+        "https://app.dahecube.com/nweb/news/20260902/285493n5076fa741ae.htm?artid=285493",
+        "https://epaper.stcn.com/att/202603/06/ZQ06B047-MM_eBook.pdf",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12080439&stockid=600979"
+      ],
+      "candidate_count": 1,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-26-financing-coverage-131.csv",
+      "pending": [
+        {
+          "company": "北京紫微宇通科技有限公司",
+          "reason": "法律顾问B1资料确认资方与轮次。原档公告日保留，出资完成月和各方金额待源证",
+          "source": "https://www.weihenglaw.com/global-network/network-news/54"
+        },
+        {
+          "company": "成都卓越锐正智能科技股权投资基金合伙企业（有限合伙）",
+          "reason": "设立认缴与备案已核。待查实际投资和当期可投余额",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12080439&stockid=600979"
+        }
+      ]
     }
   ]
 }
