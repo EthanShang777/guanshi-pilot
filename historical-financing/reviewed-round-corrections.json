@@ -3732,5 +3732,22 @@
       "investors_json": "[]"
     },
     "source": "https://contact.airobocn.cn/news/33075"
+  },
+  {
+    "event_id": "financing_event:fb59cfe0cda2fff25219509e12389661fdc230a00aa121761a00eaa15231d398",
+    "company_id": "co:full_legal_name:0ec1bc323a019fe757a54f3f5b19f90d",
+    "final_company_id": "co:full_legal_name:012dfda1201e9d1d35a149c96f8887dc",
+    "day": "2026-09-23",
+    "expected": {
+      "round": "A+轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"上海沿浦精工\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上海沿浦精工科技（集团）股份有限公司（领投）\",\"role\":null,\"amount\":null},{\"name\":\"上海移远通信技术股份有限公司（参与）\",\"role\":null,\"amount\":null},{\"name\":\"沿浦金属\",\"role\":null,\"amount\":null},{\"name\":\"湖南金霞盛世股权投资基金合伙企业（有限合伙）（参与）\",\"role\":null,\"amount\":null},{\"name\":\"湘江盛世股权\",\"role\":null,\"amount\":null},{\"name\":\"移远通信\",\"role\":null,\"amount\":null},{\"name\":\"长沙麓山投资控股集团有限公司（参与）\",\"role\":null,\"amount\":null},{\"name\":\"麓山控股集团\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "超2亿元",
+      "investors_json": "[{\"name\":\"上海沿浦精工科技（集团）股份有限公司\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":9500000000,\"basis\":\"实际出资\",\"source\":\"https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20261022/5ed9eef5a9d04743a9fdd423c872aedc.PDF\"}},{\"name\":\"湖南金霞盛世股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海移远通信技术股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"长沙麓山投资控股集团有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "source": "https://www.chinaventure.com.cn/news/110-20260923-393423.html"
   }
 ]
