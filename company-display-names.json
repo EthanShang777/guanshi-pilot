@@ -3559,5 +3559,110 @@
     "sources": [
       "https://stock.stockstar.com/notice/SN2026110700001308.shtml"
     ]
+  },
+  "2652fd02f2fb99c34ec4cac4": {
+    "name": "中科国生",
+    "registeredName": "中科国生（杭州）科技有限公司",
+    "aliases": [
+      "GS Biotech"
+    ],
+    "sources": [
+      "https://www.36kr.com/p/1487443305857408"
+    ]
+  },
+  "e33619689512fb978308222c": {
+    "name": "北鲲云",
+    "registeredName": "深圳北鲲云计算有限公司",
+    "aliases": [
+      "深圳云端软件有限公司",
+      "BkunCloud"
+    ],
+    "sources": [
+      "https://www.pwdft.com/news/71.html"
+    ]
+  },
+  "7c609fad321df3e547d4ac50": {
+    "name": "未来智安",
+    "registeredName": "北京未来智安科技有限公司",
+    "aliases": [
+      "XDRSEC"
+    ],
+    "sources": [
+      "https://www.legendholdings.com.cn/News/detail.aspx?contentid=1834&nodeid=1124&page=ContentPage"
+    ]
+  },
+  "cec6ef7531d4804febec47b8": {
+    "name": "聆思半导体",
+    "registeredName": "聆思半导体技术（苏州）有限公司",
+    "aliases": [
+      "聆思科技",
+      "Linksee"
+    ],
+    "sources": [
+      "https://en.linksee-semi.com/about/news/19.html"
+    ]
+  },
+  "52fe2b56c2f1007ea781e131": {
+    "name": "Using.AI",
+    "registeredName": "深圳贝尔信息科技有限公司",
+    "aliases": [
+      "贝尔信息",
+      "UsingAI"
+    ],
+    "sources": [
+      "https://www.36kr.com/p/2359432886044550"
+    ]
+  },
+  "157a5aeedbbf143c871c9c50": {
+    "name": "威铂驰",
+    "registeredName": "深圳威铂驰热技术有限公司",
+    "aliases": [
+      "深圳威铂驰"
+    ],
+    "sources": [
+      "https://www.dehenglaw.com/CN/newscontent/0006/032765/2.aspx?AID=&MID=0876"
+    ]
+  },
+  "3d513d7b3775204eaf749954": {
+    "name": "瑞为新材",
+    "registeredName": "南京瑞为新材料科技有限公司",
+    "aliases": [
+      "瑞为新材料"
+    ],
+    "sources": [
+      "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2509&nodeid=1124&page=ContentPage"
+    ]
+  },
+  "5dcd005d6f957d89fc83c9a1": {
+    "name": "杉川谐波",
+    "registeredName": "深圳市杉川谐波传动科技有限公司",
+    "aliases": [
+      "深圳市大族精密传动科技有限公司",
+      "大族精密传动"
+    ],
+    "sources": [
+      "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2495&nodeid=1124&page=ContentPage"
+    ]
+  },
+  "1c9c8436f9f0c2aa52078ec5": {
+    "name": "飞致云",
+    "registeredName": "杭州飞致云信息科技有限公司",
+    "aliases": [
+      "FIT2CLOUD"
+    ],
+    "sources": [
+      "https://blog.fit2cloud.com/?p=670"
+    ]
+  },
+  "f839a2d1ed972ecbfb761b84": {
+    "name": "原力灵机",
+    "registeredName": "原力灵机（重庆）智能科技股份有限公司",
+    "aliases": [
+      "原力灵机（重庆）智能科技有限公司",
+      "Dexmal"
+    ],
+    "sources": [
+      "https://www.qimingvc.com/cn/news/202503-QM-cn"
+    ]
   }
 }

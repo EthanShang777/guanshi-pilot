@@ -757,5 +757,53 @@
     },
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
     "reason": "第三次股权转让与前月发行人增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1d6db4f52db99b0e299619",
+      "company_id": "co:full_legal_name:c0327e574cb6485194e6bd6a0560d83e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:41ff7e610c526c45386057",
+      "company_id": "co:full_legal_name:c0327e574cb6485194e6bd6a0560d83e"
+    },
+    "source": "https://www.bkunyun.com/news/34.html",
+    "reason": "发行人同时披露两次独立融资及各自投资方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:41ff7e610c526c45386057",
+      "company_id": "co:full_legal_name:c0327e574cb6485194e6bd6a0560d83e"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1d6db4f52db99b0e299619",
+      "company_id": "co:full_legal_name:c0327e574cb6485194e6bd6a0560d83e"
+    },
+    "source": "https://www.bkunyun.com/news/34.html",
+    "reason": "发行人同时披露两次独立融资及各自投资方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8f03b1e4cb53a842575c1a",
+      "company_id": "co:full_legal_name:16e21213c6d562d5aaacfab16fa4cb53"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c39b5a522f9f20d394e41a",
+      "company_id": "co:full_legal_name:16e21213c6d562d5aaacfab16fa4cb53"
+    },
+    "source": "https://blog.fit2cloud.com/?p=1135",
+    "reason": "发行人同日公告两笔独立融资及各自投资方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c39b5a522f9f20d394e41a",
+      "company_id": "co:full_legal_name:16e21213c6d562d5aaacfab16fa4cb53"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8f03b1e4cb53a842575c1a",
+      "company_id": "co:full_legal_name:16e21213c6d562d5aaacfab16fa4cb53"
+    },
+    "source": "https://blog.fit2cloud.com/?p=1135",
+    "reason": "发行人同日公告两笔独立融资及各自投资方"
   }
 ]

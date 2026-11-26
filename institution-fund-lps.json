@@ -6195,5 +6195,291 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "31420853df7882b726793f7e",
+    "fundName": "上海国资国企综改试验私募基金合伙企业（有限合伙）",
+    "managerName": "国新国同（杭州）股权投资有限公司",
+    "managerId": "17b0cf6df9f44c1b2d268ee1",
+    "sizeCny": 5000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf",
+      "date": "2025-06-30",
+      "dateKind": "发行人报告期末",
+      "issuer": "盛合晶微招股说明书",
+      "pages": "第82–84、465–466页",
+      "lpSources": [
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b2d6c80e0b2558bc4c2fe78eef7851e5.pdf"
+      ],
+      "lpScope": "报告期末披露认缴及10名LP、1名GP；道禾一期在该时点认缴1亿元。",
+      "generalPartners": [
+        {
+          "name": "综改试验企业管理（上海）有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "filingCode": "STY311"
+    },
+    "partners": [
+      {
+        "name": "北京国新综改投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "96a6f72f40ead0a0ea4b5bcd"
+      },
+      {
+        "name": "上海国投资本管理有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "dd57aec81ae66770251c8a94"
+      },
+      {
+        "name": "中国国有企业混合所有制改革基金有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "3f10f1d7b5da07faa4e47c52"
+      },
+      {
+        "name": "上海黄浦引导资金股权投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "4892df02394a228c83d3b424"
+      },
+      {
+        "name": "江西省现代产业引导基金（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "f606b640b6530f14ccc938fe"
+      },
+      {
+        "name": "重庆产业投资母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 485000000,
+        "disclosedPercent": 9.7,
+        "existingInstitution": "57db9e1e4114e468f27c6cfa"
+      },
+      {
+        "name": "淮安科创产业投资有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "780dd6ca56c309a440540948"
+      },
+      {
+        "name": "上海国际集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "9b39ef6be85720e41d970298"
+      },
+      {
+        "name": "观芮宗改（上海）企业咨询有限责任公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 0.1,
+        "existingInstitution": "4a5fc363a5b701a90e7c9979"
+      },
+      {
+        "name": "上海临港新片区道禾一期产业资产配置股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.0,
+        "existingInstitution": "619ef03915e7530c2cd8c171"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "d22f6f0b232cb7ed95f37d1d",
+    "fundName": "社保基金中关村自主创新投资基金（北京）合伙企业（有限合伙）",
+    "managerName": "君联资本",
+    "managerId": "e48eb89efa7ccf453523a2a7",
+    "sizeCny": 5100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf",
+      "date": "2025-06-30",
+      "dateKind": "发行人报告期末",
+      "issuer": "盛合晶微招股说明书",
+      "pages": "第83–84、466页",
+      "lpSources": [
+        "https://www.legendholdings.com.cn/News/detail.aspx?contentid=2203&nodeid=1124&page=ContentPage",
+        "https://www.ssf.gov.cn/portal/ztzl/ztjy/lshdt/webinfo/2023/07/1691512273457833.htm",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1230/2025123000017.pdf"
+      ],
+      "lpScope": "认缴规模51亿元。社保理事会98.04%，北京君创励新是GP，君联资本是备案管理人。2023年公开启动首期50亿元为历史口径。",
+      "generalPartners": [
+        {
+          "name": "北京君创励新创业投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 100000000
+        }
+      ],
+      "filingCode": "SB8589",
+      "filingDate": "2023-08-04",
+      "managerLegalName": "君联资本管理股份有限公司",
+      "earlierPublicScaleCny": 5000000000
+    },
+    "partners": [
+      {
+        "name": "全国社会保障基金理事会",
+        "disclosedContributionCny": 5000000000,
+        "disclosedPercent": 98.04,
+        "existingInstitution": "7178e2de0590973f883073a1"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "31420853df7882b726793f7e",
+    "fundName": "上海国资国企综改试验私募基金合伙企业（有限合伙）",
+    "managerName": "国新国同（杭州）股权投资有限公司",
+    "managerId": "17b0cf6df9f44c1b2d268ee1",
+    "sizeCny": 5000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b2d6c80e0b2558bc4c2fe78eef7851e5.pdf",
+      "date": "2026-01-26",
+      "dateKind": "公开文件披露日",
+      "issuer": "江西国控科技创新债券续发募集说明书",
+      "pages": "第14–15页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf"
+      ],
+      "lpScope": "文件披露11名LP及1名GP，认缴50亿元，实缴29.045亿元，江西引导基金实缴3.5亿元；道禾部分划分两个载体。",
+      "generalPartners": [
+        {
+          "name": "综改试验企业管理（上海）有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "filingCode": "STY311",
+      "filingDate": "2022-07-28",
+      "paidContributionSource": {
+        "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b2d6c80e0b2558bc4c2fe78eef7851e5.pdf",
+        "date": "2026-01-26",
+        "dateKind": "债券文件披露时点",
+        "totalCny": 2904500000,
+        "partners": [
+          {
+            "name": "北京国新综改投资合伙企业（有限合伙）",
+            "paidCny": 700000000
+          },
+          {
+            "name": "上海国投资本管理有限公司",
+            "paidCny": 700000000
+          },
+          {
+            "name": "中国国有企业混合所有制改革基金有限公司",
+            "paidCny": 400000000
+          },
+          {
+            "name": "上海黄浦引导资金股权投资有限公司",
+            "paidCny": 200000000
+          },
+          {
+            "name": "江西省现代产业引导基金（有限合伙）",
+            "paidCny": 350000000
+          },
+          {
+            "name": "重庆产业投资母基金合伙企业（有限合伙）",
+            "paidCny": 194000000
+          },
+          {
+            "name": "淮安科创产业投资有限公司",
+            "paidCny": 140000000
+          },
+          {
+            "name": "上海国际集团有限公司",
+            "paidCny": 140000000
+          },
+          {
+            "name": "观芮宗改（上海）企业咨询有限责任公司",
+            "paidCny": 3500000
+          },
+          {
+            "name": "上海临港新片区道禾一期产业资产配置股权投资基金合伙企业（有限合伙）",
+            "paidCny": 40000000
+          },
+          {
+            "name": "上海道禾产芯私募投资基金合伙企业（有限合伙）",
+            "paidCny": 30000000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "综改试验企业管理（上海）有限公司",
+            "paidCny": 7000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "北京国新综改投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "96a6f72f40ead0a0ea4b5bcd"
+      },
+      {
+        "name": "上海国投资本管理有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "dd57aec81ae66770251c8a94"
+      },
+      {
+        "name": "中国国有企业混合所有制改革基金有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "3f10f1d7b5da07faa4e47c52"
+      },
+      {
+        "name": "上海黄浦引导资金股权投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "4892df02394a228c83d3b424"
+      },
+      {
+        "name": "江西省现代产业引导基金（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "f606b640b6530f14ccc938fe"
+      },
+      {
+        "name": "重庆产业投资母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 485000000,
+        "disclosedPercent": 9.7,
+        "existingInstitution": "57db9e1e4114e468f27c6cfa"
+      },
+      {
+        "name": "淮安科创产业投资有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "780dd6ca56c309a440540948"
+      },
+      {
+        "name": "上海国际集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "9b39ef6be85720e41d970298"
+      },
+      {
+        "name": "观芮宗改（上海）企业咨询有限责任公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 0.1,
+        "existingInstitution": "4a5fc363a5b701a90e7c9979"
+      },
+      {
+        "name": "上海临港新片区道禾一期产业资产配置股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 57140000,
+        "disclosedPercent": 1.14,
+        "existingInstitution": "619ef03915e7530c2cd8c171"
+      },
+      {
+        "name": "上海道禾产芯私募投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 42860000,
+        "disclosedPercent": 0.86,
+        "existingInstitution": "a3e23d0570ab0282177057bd"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
