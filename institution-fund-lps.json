@@ -2233,5 +2233,273 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "12cf06785cfb47666a716928",
+    "fundName": "人保科创股权投资基金（上海）中心（有限合伙）",
+    "managerName": "人保资本股权投资有限公司",
+    "managerId": "a0ad94fb60e9b11646d29a80",
+    "sizeCny": 3000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://notice.10jqka.com.cn/api/pdf/f057e20ae7868124.pdf",
+      "date": "2023",
+      "dateKind": "法律意见书披露年份",
+      "issuer": "科创板发行人补充法律意见书",
+      "pages": "人保科创基金穿透出资表",
+      "lpSources": [
+        "https://www.picccim.com.cn/2021/news_1222/518.html",
+        "https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202606/b2344c_20260611_Q8F9.pdf"
+      ],
+      "lpScope": "披露4名LP认缴和执行事务合伙人。原法律表GP列600万元和0.30%，与总额不能同时勾稽，GP金额留空；后续招股确认比例0.30%。",
+      "generalPartners": [
+        {
+          "name": "人保资本股权投资有限公司",
+          "disclosedPercent": "0.30"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "中国人民人寿保险股份有限公司",
+        "disclosedContributionCny": 997000000,
+        "disclosedPercent": "33.23",
+        "existingInstitution": "d1f502d2b8c3491c47f660c8"
+      },
+      {
+        "name": "中国人民财产保险股份有限公司",
+        "disclosedContributionCny": 997000000,
+        "disclosedPercent": "33.23",
+        "existingInstitution": "5a8b1e72764bd19a4c1792f9"
+      },
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 900000000,
+        "disclosedPercent": "30.00",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "无锡丰润投资有限公司",
+        "disclosedContributionCny": 97000000,
+        "disclosedPercent": "3.23",
+        "existingInstitution": "f61c511b1a327526e4f9e57e"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "4cb1134fddbec39cde4f7d5a",
+    "fundName": "中化创新（泉州）产业投资基金合伙企业（有限合伙）",
+    "managerName": "中化创科私募基金管理（天津）有限公司",
+    "managerId": "ef2276830a9c47740a3c1b96",
+    "sizeCny": 2750000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://stockmc.xueqiu.com/202510/688727_20251030_K0YI.pdf",
+      "date": "2025-10-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "恒坤新材律师工作报告",
+      "pages": "第453页",
+      "lpSources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-07-29/243275_20260729_GECJ.pdf",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202401/036841_20240118_FBQJ.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002050_20250829_PBNF.pdf"
+      ],
+      "lpScope": "9名LP和1名GP的认缴；2026年3月末债券披露确认基金实缴15.50亿元、已投总额8.47亿元，实缴口径含历史退出项目。",
+      "generalPartners": [
+        {
+          "name": "中化创科私募基金管理（天津）有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 750000000,
+        "disclosedPercent": "27.27",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "国家制造业转型升级基金股份有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "18.18",
+        "existingInstitution": "60aa98015bf1037ecf3d338b"
+      },
+      {
+        "name": "北京聚信德投资管理中心（有限合伙）",
+        "disclosedContributionCny": 493700000,
+        "disclosedPercent": "17.95",
+        "existingInstitution": "b1e5d8d015f702ba243df07c"
+      },
+      {
+        "name": "中化资本创新投资有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": "14.55",
+        "existingInstitution": "14b273017dc4c876f631b33b"
+      },
+      {
+        "name": "泉州市国有资产投资经营有限责任公司",
+        "disclosedContributionCny": 350000000,
+        "disclosedPercent": "12.73",
+        "existingInstitution": "3efea2c03a2b191e27083f65"
+      },
+      {
+        "name": "中化泉州园区发展有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.64",
+        "existingInstitution": "401bda4cbba0c50a84a85b45"
+      },
+      {
+        "name": "福建惠安城乡文旅集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.64",
+        "existingInstitution": "de27b166a34fd2de83097250"
+      },
+      {
+        "name": "泉州市金同新能源投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.82",
+        "existingInstitution": "6452be7163bc3b82803c98f3"
+      },
+      {
+        "name": "中福（泉州）企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 5300000,
+        "disclosedPercent": "0.19",
+        "existingInstitution": "9ebc886ec9e41deb3aafdc20"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2026-03-31",
+        "fundedCny": 1550000000,
+        "investedCny": 847000000,
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-07-29/243275_20260729_GECJ.pdf"
+      }
+    ]
+  },
+  {
+    "fundId": "e32cabaf2a2e59590979310c",
+    "fundName": "博润多策略（厦门）股权投资合伙企业（有限合伙）",
+    "managerName": "厦门博润资本投资管理有限公司",
+    "managerId": "d24ff5139fc134a5de047405",
+    "sizeCny": 1100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://stockmc.xueqiu.com/202510/688727_20251030_K0YI.pdf",
+      "date": "2025-10-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "恒坤新材律师工作报告",
+      "pages": "第467页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-06-24/1220426789.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-10-10/1224701859.PDF",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002050_20250829_PBNF.pdf"
+      ],
+      "lpScope": "15名LP和1名GP认缴及管理人按法律工作报告。实缴分项和当前可投额度公开未见。",
+      "generalPartners": [
+        {
+          "name": "厦门博润资本投资管理有限公司",
+          "disclosedContributionCny": 40000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 220000000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "厦门金圆投资集团有限公司",
+        "disclosedContributionCny": 154000000,
+        "disclosedPercent": "14.00",
+        "existingInstitution": "25079d08bfb4aa6bd20b40c8"
+      },
+      {
+        "name": "西藏东方财富创新资本有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "13.64",
+        "existingInstitution": "9313dcf4325f36d8ef1a4da7"
+      },
+      {
+        "name": "厦门金财产业发展有限公司",
+        "disclosedContributionCny": 99000000,
+        "disclosedPercent": "9.00",
+        "existingInstitution": "5b56aec470393ad7eb92641c"
+      },
+      {
+        "name": "福建省惠泽慈善基金会",
+        "disclosedContributionCny": 92857143,
+        "disclosedPercent": "8.44",
+        "existingInstitution": "506a66be1c9fa8f5c0723446"
+      },
+      {
+        "name": "厦门市湖里区产业投资有限公司",
+        "disclosedContributionCny": 66000000,
+        "disclosedPercent": "6.00",
+        "existingInstitution": "250889617cbf82ed3122b67e"
+      },
+      {
+        "name": "华厦医疗投资（厦门）有限公司",
+        "disclosedContributionCny": 57142857,
+        "disclosedPercent": "5.19",
+        "existingInstitution": "d569b9048caebadc8f3e3a15"
+      },
+      {
+        "name": "南通舜鲸企业管理咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "4.55",
+        "existingInstitution": "391b993f52ec3b4fc08fc6f9"
+      },
+      {
+        "name": "海安安惠产业投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "4.55",
+        "existingInstitution": "0e01728c1241ed69f122f3e7"
+      },
+      {
+        "name": "厦门广领资本投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "2.73",
+        "existingInstitution": "8db60e9dd18d0a7af4ecb61b"
+      },
+      {
+        "name": "共青城诚敬淳和投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "2.73",
+        "existingInstitution": "4aa7e5e888393fd37ebcba0d"
+      },
+      {
+        "name": "三亚九和弘资企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "1.82",
+        "existingInstitution": "2eea9b4d8f1017b4407f95bb"
+      },
+      {
+        "name": "厦门长风云海股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "1.82",
+        "existingInstitution": "0feb3534f848f4c3a6ab169f"
+      },
+      {
+        "name": "厦门市创业投资有限公司",
+        "disclosedContributionCny": 11000000,
+        "disclosedPercent": "1.00",
+        "existingInstitution": "8ece310ed0f1dd0db28aea7c"
+      },
+      {
+        "name": "厦门晴山奇雨股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "0.91",
+        "existingInstitution": "7dc179ff1f806f118129749b"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

@@ -7385,6 +7385,55 @@
         "天星医疗2023增资补雅惠法律载体": "80dece4ad3556a3a115b2795"
       },
       "batch": "2026-11-27-hetang-yahui-chongqing-151.csv"
+    },
+    {
+      "institution": "人保科创、中化创新与博润多基金及被投企业",
+      "checked_on": "2026-11-27",
+      "scope": "基金合伙人和逐笔出资核对，核公告、验资及首披日期",
+      "sources": [
+        "https://top.qcc.com/tc/fc6c1bac9fbb.html",
+        "https://www.picccim.com.cn/2021/news_1222/518.html",
+        "https://pdf.dfcfw.com/pdf/H2_AN202508211731678991_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-10-10/1224701859.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-06-24/1220426789.PDF",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF",
+        "https://staticpdf.iqdii.com/stockdata/notice/newprospectus/sehk25052300131_c.pdf",
+        "https://stockmc.xueqiu.com/202510/688727_20251030_K0YI.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-07-29/243275_20260729_GECJ.pdf"
+      ],
+      "notes": {
+        "caveats": [
+          "未势能源企查查公开首条按常熟注册地；公司公告核信用代码与B轮，人保投资消息核A轮实际日期。A轮其余法律载体及单笔出资待核。",
+          "超聚变正面核到人保历史持股，2025进一步取得股份系调历史对价、不新增资金；最早入股签署、款项及既有2022/2025事件关系待找原始协议。",
+          "华恒生物博润多申购报价本身并未进入最终获配；已收录披露按实际中签方保存。",
+          "基金认缴、实际总额、已投总额及可投余额需各自披露口径。中化实缴总额含退出，不按差额计算当前余额。",
+          "人保GP认缴与比例原表不能勾稽；保留四家LP原合同统计和后续档案里的GP比例。",
+          "恒坤8月对象仅限厦门羽嘉同日转让的两笔；其他卖方交易继续留证。"
+        ],
+        "followup_sources": [
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805EF99DD4368854CBD98CE5D4FA8042C3C.pdf",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805B1C975F98F434B0B932A6BDAEDB06224.pdf",
+          "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202606/b2344c_20260611_Q8F9.pdf",
+          "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-07-29/243275_20260729_GECJ.pdf",
+          "https://static.cninfo.com.cn/finalpage/2024-10-31/1221571213.PDF",
+          "https://stockmc.xueqiu.com/202510/688727_20251030_K0YI.pdf"
+        ],
+        "funding_events": 5,
+        "secondary_events": 1
+      },
+      "events": {
+        "未势能源A轮": "3828c99832bf13b0f8980166",
+        "未势能源B轮": "f9e5afdd4f01deb9033ae1d3",
+        "长盈精密2024定增": "6f13ac93f50b6764055a3450",
+        "沪光股份2025定增": "7f38e345ed5cc24e95e359d9",
+        "迪赛新材2025定增": "69ceb91f8561ac3bcbcb932d",
+        "恒坤新材2022老股转让": "b64698f2ce383490ea7dfc99",
+        "长鑫科技2022认购明细": "2c5a6b164012b7733d720705",
+        "长鑫科技2024认购明细": "9658ed2041a98d36e2b4df8b",
+        "福瑞泰克C1出资明细": "c401262c65a3647a56e3cc6d"
+      },
+      "batch": "2026-11-27-picc-sinochem-borun-152.csv"
     }
   ]
 }

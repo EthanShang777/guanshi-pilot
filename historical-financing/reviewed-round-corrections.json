@@ -4717,5 +4717,78 @@
       "date_kind": "增资登记日"
     },
     "additional_sources": []
+  },
+  {
+    "event_id": "registry:842",
+    "company_id": "co:cn_uscc:6ede63717f2ce57b1184bf2086df2f7a",
+    "day": "2022-02-11",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "186.09亿元",
+      "investors_json": "[{\"name\":\"Gamcier Pte Ltd\",\"role\":null,\"amount\":null},{\"name\":\"Glades View Investment Pte. Ltd\",\"role\":null,\"amount\":null},{\"name\":\"中国东方资产管理股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"中邮人寿保险股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"人保科创股权投资基金（上海）中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"人保资本保险资产管理有限公司\",\"role\":null,\"amount\":null},{\"name\":\"兆易创新科技集团股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"北京峰益企业管理咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥华芯科泰集成电路投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥鑫芯励润科技合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"和谐健康保险股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"宁波君和同诚股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"宁波梅山保税港区星棋道和股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广东鑫芯家园股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"建信领航战略性新兴产业发展基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"海南云锋卓越私募股权投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳投控芯辰私募创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"焦作前海方舟半导体投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"阳光人寿保险股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"阿里巴巴（中国）网络技术有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2022-02-11",
+      "date_key": "2022-02-11",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "186.09亿元",
+      "investors_json": "[{\"name\":\"兆易创新科技集团股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"中国东方资产管理股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"人保科创股权投资基金（上海）中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"建信领航战略性新兴产业发展基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"中邮人寿保险股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"合肥华芯科泰集成电路投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":88500000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"阳光人寿保险股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":50000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"海南云锋卓越私募股权投资基金中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":65000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"焦作前海方舟半导体投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":67000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"宁波梅山保税港区星棋道和股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"人保资本保险资产管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":103635000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"宁波君和同诚股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":104000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"北京峰益企业管理咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":200000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"和谐健康保险股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":200000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"阿里巴巴（中国）网络技术有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":150000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"广东鑫芯家园股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100500000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"合肥鑫芯励润科技合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":141965000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"Gamcier Pte Ltd\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":95650000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"Glades View Investment Pte. Ltd\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":95650000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}},{\"name\":\"深圳投控芯辰私募创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":79000000000,\"basis\":\"认购金额\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf\"}}]",
+      "date": "2022-02-11",
+      "date_key": "2022-02-11",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF"
+    ]
+  },
+  {
+    "event_id": "registry:840",
+    "company_id": "co:cn_uscc:6ede63717f2ce57b1184bf2086df2f7a",
+    "day": "2024-06-11",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF",
+    "expected": {
+      "round": "股权融资",
+      "amount": "108亿元",
+      "investors_json": "[{\"name\":\"中建材（安徽）新材料产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"交银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"兆易创新科技集团股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"农银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"合肥产投壹号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥产投高成长壹号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥长鑫集成电路有限责任公司\",\"role\":null,\"amount\":null},{\"name\":\"安徽和壮高新技术成果基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"工融金投（北京）新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广州科集企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2024-06-11",
+      "date_key": "2024-06-11",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "108亿元",
+      "investors_json": "[{\"name\":\"合肥产投壹号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":290000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"广州科集企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"工融金投（北京）新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":60000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"交银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":60000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":130000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"兆易创新科技集团股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":150000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"合肥长鑫集成电路有限责任公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"农银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":40000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"安徽和壮高新技术成果基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"中建材（安徽）新材料产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}},{\"name\":\"合肥产投高成长壹号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-22/1225435990.PDF\"}}]",
+      "date": "2024-06-11",
+      "date_key": "2024-06-11",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf"
+    ]
+  },
+  {
+    "event_id": "registry:681",
+    "company_id": "co:cn_uscc:74c56d45340e93dedceecb1ebf7c8888",
+    "day": "2023-10-19",
+    "source": "https://staticpdf.iqdii.com/stockdata/notice/newprospectus/sehk25052300131_c.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "2.06亿元",
+      "investors_json": "[{\"name\":\"人保科创股权投资基金（上海）中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴凌赛股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"新余元创宸燊企业管理中心（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2023-10-19",
+      "date_key": "2023-10-19",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "2.06亿元",
+      "investors_json": "[{\"name\":\"人保科创股权投资基金（上海）中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":15000000000,\"basis\":\"实际出资\",\"source\":\"https://staticpdf.iqdii.com/stockdata/notice/newprospectus/sehk25052300131_c.pdf\"}},{\"name\":\"嘉兴凌赛股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3600000000,\"basis\":\"实际出资\",\"source\":\"https://staticpdf.iqdii.com/stockdata/notice/newprospectus/sehk25052300131_c.pdf\"}},{\"name\":\"新余元创宸燊企业管理中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"实际出资\",\"source\":\"https://staticpdf.iqdii.com/stockdata/notice/newprospectus/sehk25052300131_c.pdf\"}}]",
+      "date": "2023-10-19",
+      "date_key": "2023-10-19",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": []
   }
 ]
