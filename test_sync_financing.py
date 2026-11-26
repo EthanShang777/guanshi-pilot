@@ -298,5 +298,20 @@ class SyncFinancingTest(unittest.TestCase):
         self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events ORDER BY event_id'), [july, june])
 
 
+    def test_reviewed_transfer_and_capital_increase_share_a_source(self):
+        company_id = 'co:cn_uscc:issuer'
+        increase = event('increase', '示例新能', '增资', company_id=company_id)
+        transfer = event('transfer', '示例新能', '股权转让', company_id=company_id)
+        reviews = {(financing.event_identity(transfer), financing.event_identity(increase))}
+        self.assertEqual(financing.sync_rows(self.db, [increase], reviewed=True), (1, 0, 0))
+        self.assertEqual(financing.sync_rows(self.db, [transfer], reviewed=True), (0, 0, 1))
+        self.assertEqual(financing.sync_rows(self.db, [transfer], reviewed=True, distinct_events=reviews),
+                         (1, 0, 0))
+        self.assertEqual(financing.sync_rows(self.db, [increase, transfer], reviewed=True,
+                                             distinct_events=reviews), (0, 0, 0))
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events ORDER BY event_id'),
+                         [increase, transfer])
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -3740,5 +3740,368 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "943e4436f06d923a21fa703f",
+    "fundName": "招赢（湖北）科创股权投资合伙企业（有限合伙）",
+    "managerName": "湖北长江招银产业基金管理有限公司",
+    "managerId": "e869e129a433da6a6fcd7395",
+    "sizeCny": 1143000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+      "date": "2026-05-12",
+      "dateKind": "公开文件披露日",
+      "issuer": "鼎材科技公开转让说明书更正稿",
+      "pages": "机构出资结构第25页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-02-17/1222546046.PDF"
+      ],
+      "lpScope": "17名LP与1名GP，逐家认缴与实缴合计均为11.43亿元。",
+      "generalPartners": [
+        {
+          "name": "湖北长江招银产业基金管理有限公司",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+        "date": "2026-05-12",
+        "dateKind": "实缴情形披露日",
+        "partners": [
+          {
+            "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+            "paidCny": 495000000
+          },
+          {
+            "name": "博时资本管理有限公司",
+            "paidCny": 80000000
+          },
+          {
+            "name": "武汉协卓联合贸易有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "福州市国有企业产业发展基金有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "山西交控智能创新股权投资合伙企业（有限合伙）",
+            "paidCny": 50000000
+          },
+          {
+            "name": "厦门国际信托有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "华远陆港资本运营有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "光大永明人寿保险有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "武汉首义科创投股权投资管理有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "福建省海丝一号股权投资有限公司",
+            "paidCny": 40000000
+          },
+          {
+            "name": "武汉卓誉科技有限公司",
+            "paidCny": 35000000
+          },
+          {
+            "name": "东莞市优赛科创信息技术有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "福建圣农控股集团有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "广东优赛科技有限公司",
+            "paidCny": 20000000
+          },
+          {
+            "name": "厦门市天地股权投资有限公司",
+            "paidCny": 20000000
+          },
+          {
+            "name": "海南茂晟睿宸创业投资基金合伙企业（有限合伙）",
+            "paidCny": 20000000
+          },
+          {
+            "name": "珠海市成长共赢创业投资基金（有限合伙）",
+            "paidCny": 18000000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "湖北长江招银产业基金管理有限公司",
+            "paidCny": 5000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 495000000,
+        "disclosedPercent": 43.31,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "博时资本管理有限公司",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 7,
+        "existingInstitution": "742dbdc21d97875ea99b9c99"
+      },
+      {
+        "name": "武汉协卓联合贸易有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.37,
+        "existingInstitution": "878de54aa0607286ec1d9e6c"
+      },
+      {
+        "name": "福州市国有企业产业发展基金有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.37,
+        "existingInstitution": "a90a2b29b533f42a1f5f293c"
+      },
+      {
+        "name": "山西交控智能创新股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.37,
+        "existingInstitution": "8005b12f1e9d5623e14acaca"
+      },
+      {
+        "name": "厦门国际信托有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.37,
+        "existingInstitution": "af6515e1a676c1719c3c7953"
+      },
+      {
+        "name": "华远陆港资本运营有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.37,
+        "existingInstitution": "d87963f98be1e7e0750685cd"
+      },
+      {
+        "name": "光大永明人寿保险有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.37,
+        "existingInstitution": "54b272d8e502e18d9abdbfa0"
+      },
+      {
+        "name": "武汉首义科创投股权投资管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.37,
+        "existingInstitution": "c2f1e25cd4dbe181d49438ff"
+      },
+      {
+        "name": "福建省海丝一号股权投资有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 3.5,
+        "existingInstitution": "f75362c2aaa9d146d8f7c124"
+      },
+      {
+        "name": "武汉卓誉科技有限公司",
+        "disclosedContributionCny": 35000000,
+        "disclosedPercent": 3.06,
+        "existingInstitution": "8ae5f070c74cd6f92e52758f"
+      },
+      {
+        "name": "东莞市优赛科创信息技术有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.62,
+        "existingInstitution": "daf42a498dd50fed2b1d3e5b"
+      },
+      {
+        "name": "福建圣农控股集团有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.62,
+        "existingInstitution": "2787a586e4b4f0c8def58707"
+      },
+      {
+        "name": "广东优赛科技有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 1.75,
+        "existingInstitution": "61332cce6f1bb774b0af760c"
+      },
+      {
+        "name": "厦门市天地股权投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 1.75,
+        "existingInstitution": "c87027158568d61d1903a827"
+      },
+      {
+        "name": "海南茂晟睿宸创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 1.75,
+        "existingInstitution": "e085870241bed9aeafec9f49"
+      },
+      {
+        "name": "珠海市成长共赢创业投资基金（有限合伙）",
+        "disclosedContributionCny": 18000000,
+        "disclosedPercent": 1.57,
+        "existingInstitution": "83d08558fbf89481225a3d29"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "760a174fbaa12e230ed90642",
+    "fundName": "南京市招银共赢股权投资合伙企业（有限合伙）",
+    "managerName": "江苏招银产业基金管理有限公司",
+    "managerId": "81d49a24ec5d09a1d2aa7739",
+    "sizeCny": 761000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-02-17/1222546046.PDF",
+      "date": "2025-02-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "金利华电重组预案",
+      "pages": "第57至58页",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+        "https://qccdata.qichacha.com/ReportData/PDF/82674ce10214b635b67dfd094c9fe1a4.pdf"
+      ],
+      "lpScope": "该披露日12名LP及1名GP，逐项认缴。",
+      "generalPartners": [
+        {
+          "name": "江苏招银产业基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "余国铮",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 19.71,
+        "existingInstitution": "62655a241bebf9032af55a37"
+      },
+      {
+        "name": "沈刚",
+        "disclosedContributionCny": 130000000,
+        "disclosedPercent": 17.08,
+        "existingInstitution": "4263f14a2c931a758905201c"
+      },
+      {
+        "name": "张浩",
+        "disclosedContributionCny": 130000000,
+        "disclosedPercent": 17.08,
+        "existingInstitution": "807ccf906ac6039c356366b9"
+      },
+      {
+        "name": "徐博卷",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 9.2,
+        "existingInstitution": "64bc2c36bc294a3017e958a6"
+      },
+      {
+        "name": "李一钦",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 9.2,
+        "existingInstitution": "936348c97c00728d8887c03c"
+      },
+      {
+        "name": "杜威",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3.94,
+        "existingInstitution": "2dc4d46be8a38f7832cbbce6"
+      },
+      {
+        "name": "刘毅",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3.94,
+        "existingInstitution": "8828a7db2455bb2a71926134"
+      },
+      {
+        "name": "张向宇",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3.94,
+        "existingInstitution": "2cb566ab1e79f561996c2c72"
+      },
+      {
+        "name": "张春亮",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3.94,
+        "existingInstitution": "75ebf1ee76e7e05f52c74e5b"
+      },
+      {
+        "name": "李增喜",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3.94,
+        "existingInstitution": "a2579b85e3dd1af14b19171c"
+      },
+      {
+        "name": "余操",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3.94,
+        "existingInstitution": "ba42586024e6e8ccec6ba012"
+      },
+      {
+        "name": "段小检",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3.94,
+        "existingInstitution": "9399b97cfabdb70239ad117a"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "d1489267f63dce718cd63fce",
+    "fundName": "润峡招赢（湖北）新能源产业投资基金合伙企业（有限合伙）",
+    "managerName": "湖北长江招银产业基金管理有限公司",
+    "managerId": "e869e129a433da6a6fcd7395",
+    "sizeCny": 606470000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-05-07/1223478595.PDF",
+      "date": "2025-05-07",
+      "dateKind": "公开文件披露日",
+      "issuer": "泽润新能招股说明书",
+      "pages": "第49页",
+      "lpSources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202401/RAS_202401_251740BED19E6F6EDD4F28A83E8856820992AE.pdf"
+      ],
+      "lpScope": "3名LP与GP逐家认缴；基金合计实缴54,998.55万元；未见逐家实缴。旧称三峡招银（湖北）清洁能源产业基金。",
+      "generalPartners": [
+        {
+          "name": "湖北长江招银产业基金管理有限公司",
+          "disclosedContributionCny": 3500000
+        }
+      ],
+      "paidAmountCny": 549985500
+    },
+    "partners": [
+      {
+        "name": "中国三峡新能源（集团）股份有限公司",
+        "disclosedContributionCny": 300970000,
+        "disclosedPercent": 49.63,
+        "existingInstitution": "5a9862cab00a8fe240eaad93"
+      },
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 299000000,
+        "disclosedPercent": 49.3,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "深圳市招银共赢股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 0.49,
+        "existingInstitution": "047a2bdda7d1686670cbdd66"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

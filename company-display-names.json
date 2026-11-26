@@ -3297,5 +3297,48 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2025-01-17/1222366611.PDF"
     ]
+  },
+  "fe69b7a7e4c8094d1c349f38": {
+    "name": "鼎材科技",
+    "registeredName": "北京鼎材科技股份有限公司",
+    "aliases": [
+      "北京鼎材",
+      "北京鼎材科技有限公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF",
+      "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf"
+    ]
+  },
+  "b29d1b72e368d61d3fb60157": {
+    "name": "泽润新能",
+    "registeredName": "江苏泽润新能科技股份有限公司",
+    "aliases": [
+      "江苏泽润新材料有限公司"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202401/RAS_202401_251740BED19E6F6EDD4F28A83E8856820992AE.pdf"
+    ]
+  },
+  "639fcdf5c5431a62a1b6d4e6": {
+    "name": "广合科技",
+    "registeredName": "广州广合科技股份有限公司",
+    "aliases": [
+      "广合科技（广州）有限公司"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF"
+    ]
+  },
+  "8d9cfed94ae2e1b182878d0a": {
+    "name": "忆恒创源",
+    "registeredName": "北京忆恒创源科技股份有限公司",
+    "aliases": [
+      "Memblaze",
+      "北京忆恒创源科技有限公司"
+    ],
+    "sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/82674ce10214b635b67dfd094c9fe1a4.pdf"
+    ]
   }
 }

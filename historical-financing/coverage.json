@@ -7952,6 +7952,62 @@
         "德方创域2025年9月": "ccc28bcdd1cc88a501661f7b"
       },
       "batch": "2026-11-27-ronghe-network-158.csv"
+    },
+    {
+      "institution": "招赢（湖北）科创股权投资合伙企业（有限合伙）",
+      "checked_on": "2026-11-27",
+      "scope": "核鼎材、泽润、广合、忆恒投资记录与三只基金LP及管理人",
+      "sources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202604291821742658_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-05-07/1223478595.PDF",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202401/RAS_202401_251740BED19E6F6EDD4F28A83E8856820992AE.pdf",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+        "https://qccdata.qichacha.com/ReportData/PDF/82674ce10214b635b67dfd094c9fe1a4.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/001092_20211228_Q6I8.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-02-17/1222546046.PDF"
+      ],
+      "notes": {
+        "followup_sources": [
+          "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+          "https://pdf.dfcfw.com/pdf/H2_AN202604291821742658_1.pdf",
+          "https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF",
+          "https://static.cninfo.com.cn/finalpage/2025-05-07/1223478595.PDF",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202401/RAS_202401_251740BED19E6F6EDD4F28A83E8856820992AE.pdf",
+          "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+          "https://qccdata.qichacha.com/ReportData/PDF/82674ce10214b635b67dfd094c9fe1a4.pdf",
+          "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/001092_20211228_Q6I8.pdf",
+          "https://static.cninfo.com.cn/finalpage/2025-02-17/1222546046.PDF"
+        ],
+        "caveats": [
+          "区分同日增资与老股对价，发行人挂牌文件、历年股本沿革与法律意见互证。鼎材2023年3月C轮只保留当轮两家出资方，独立入库7月C-2轮及两期老股，2023年10月旧C+记录重新归为老股。",
+          "泽润同月2500万元是两项独立对价。广合以各方认购款汇总，3000万元注册资本单列核对。忆恒E轮按招股书时间与实际出资主体修订，D+轮金额未披露。",
+          "基金认缴、历史实缴、已披露投资额各按时点保留。金利华电海德利森重组其后终止，预案作为历史基金LP证据。",
+          "需要继续核基金全量投资、赎回及实际可投余额；未公开的金额保留缺项。"
+        ]
+      },
+      "events": {
+        "鼎材2021增资": "0c9139eae5a4d0177dc7b640",
+        "鼎材2021老股": "1fdb1ca11c3128fb9c34cffe",
+        "鼎材C轮": "938e35c3ca1a3d0c1278be93",
+        "鼎材C轮老股": "866cddaf8d81d5acac65cf83",
+        "鼎材C2轮": "647d05b41a57be4f11873a33",
+        "鼎材C2轮老股": "2799eb45a409956b6b30832c",
+        "鼎材2023年10月老股": "d48e74b8635ca4d6f87996c8",
+        "鼎材南京招银退出": "8462716f2eaf08862e43d114",
+        "泽润2022年4月增资": "e765608f1363cebf6f1d0434",
+        "泽润2022年4月老股": "33a7e25e8be2aaad0df61c01",
+        "泽润2022年8月老股": "e26f3cd601c6aabdb9e2e5c9",
+        "泽润2022年12月增资": "61512d160ec30ebb30edbc53",
+        "广合2020增资": "47af7f01ff001ac7f1ed5904",
+        "广合2020老股": "af0e01b1acf88306ad091672",
+        "广合2021增资": "f78571775e312a4ef9f1b28a",
+        "广合2021老股": "0d3dddbe7b242b0f1e281edb",
+        "忆恒D+轮": "7071a6992fa5c153f94e2f36",
+        "忆恒E轮": "5c7375b415e3537fa05df049"
+      },
+      "batch": "2026-11-27-zhaoying-network-159.csv"
     }
   ]
 }

@@ -5148,5 +5148,101 @@
     "additional_sources": [
       "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8375515&stockid=920985"
     ]
+  },
+  {
+    "event_id": "financing_event:ce5ac3fef0231c82d55d5fbcce4bedc2a9d4434bed8d8b41eeb544479cce4439",
+    "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41",
+    "day": "2021-04-21",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "数亿元人民币",
+      "investors_json": "[{\"name\":\"招银国际旗下长江招银基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"合肥建投资本旗下合肥新站高新\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"诚信创投旗下基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"高盟新材\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"鼎龙股份\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"合肥建投资本\",\"role\":null,\"amount\":null},{\"name\":\"合肥芯屏投资\",\"role\":null,\"amount\":null},{\"name\":\"招银国际资本\",\"role\":null,\"amount\":null},{\"name\":\"招银鼎洪投资\",\"role\":null,\"amount\":null},{\"name\":\"诚信创投\",\"role\":null,\"amount\":null}]",
+      "date": "2021-04-21",
+      "date_key": "2021-04-21",
+      "date_kind": "工商核准日"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "12500万元",
+      "investors_json": "[{\"name\":\"招赢（湖北）科创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5400000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF\"}},{\"name\":\"南京市招银共赢股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":600000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF\"}},{\"name\":\"广州诚信创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1200000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF\"}},{\"name\":\"广州信诚股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1800000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF\"}},{\"name\":\"北京高盟新材料股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF\"}},{\"name\":\"合肥新站高新创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-03-03/1209323861.PDF\"}}]",
+      "date": "2021-04-21",
+      "date_key": "2021-04-21",
+      "date_kind": "发行人披露工商变更核准日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202604291821742658_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:f7bff3657ebeda1cc93923ecc59a644521ef748f8fb0617773136a201cc360e8",
+    "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41",
+    "day": "2023-03-23",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"TCL创投\",\"role\":null,\"amount\":null},{\"name\":\"中关村科学城\",\"role\":null,\"amount\":null},{\"name\":\"中国国新控股\",\"role\":null,\"amount\":null},{\"name\":\"中电中金\",\"role\":null,\"amount\":null},{\"name\":\"北京市集成电路制造和装备基金\",\"role\":null,\"amount\":null},{\"name\":\"国科开研\",\"role\":null,\"amount\":null},{\"name\":\"易简资本\",\"role\":null,\"amount\":null},{\"name\":\"清控金信资本\",\"role\":null,\"amount\":null},{\"name\":\"煊佑私募基金\",\"role\":null,\"amount\":null},{\"name\":\"鲲鹏一创\",\"role\":null,\"amount\":null},{\"name\":\"鹏创鼎新\",\"role\":null,\"amount\":null}]",
+      "date": "2023-03-23",
+      "date_key": "2023-03-23",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "4500万元",
+      "investors_json": "[{\"name\":\"中电中金（厦门）智能产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf\"}},{\"name\":\"厦门TCL科技产业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf\"}}]",
+      "date": "2023-03-23",
+      "date_key": "2023-03-23",
+      "date_kind": "发行人披露工商变更核准日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:4d04b5b1d434cda7625462171e95ff8957cb47235395c2db53fdecfeb16909d0",
+    "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41",
+    "day": "2023-10-26",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "expected": {
+      "round": "C+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"合肥产投集团\",\"role\":null,\"amount\":null}]",
+      "date": "2023-10-26",
+      "date_key": "2023-10-26",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "2000万元",
+      "investors_json": "[{\"name\":\"合肥市产业投促创业投资基金一期合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf\"}}]",
+      "date": "2023-10-26",
+      "date_key": "2023-10-26",
+      "date_kind": "发行人披露工商变更核准日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:6b3f90df9999abf7552cfd05645fbea53bfddd30da2f5f9fd0809813affc7437",
+    "company_id": "co:full_legal_name:0d61226e8694096667376e0d5bcf6b57",
+    "day": "2021-03-01",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/82674ce10214b635b67dfd094c9fe1a4.pdf",
+    "expected": {
+      "round": "E轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"招银国际旗下长江招银基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"超越摩尔基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"CPE\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"优山资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"信益资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"卓珏资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国新国同\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"CPE源峰\",\"role\":null,\"amount\":null},{\"name\":\"中国国新控股\",\"role\":null,\"amount\":null},{\"name\":\"卓瑜投资\",\"role\":null,\"amount\":null},{\"name\":\"招银国际资本\",\"role\":null,\"amount\":null},{\"name\":\"超越摩尔投资\",\"role\":null,\"amount\":null}]",
+      "date": "2021-03-01",
+      "date_key": "2021-03-01",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "E轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"南京超摩志远股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"浙江制造基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京市招银共赢股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"招赢（湖北）科创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"天津熔川企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"宁波梅山保税港区卓珏股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳中深新创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"宁波梅山保税港区顺帆投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市利通产业投资基金有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2021-02",
+      "date_key": "2021-02-01",
+      "date_kind": "发行人文件披露融资完成月份"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/001092_20211228_Q6I8.pdf"
+    ]
   }
 ]

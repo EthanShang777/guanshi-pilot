@@ -109,5 +109,149 @@
       "event_id": "public:historical-disclosure:b65a537689522791b1a807",
       "company_id": "co:cn_uscc:b2a4b207551f5d98fe53b49914e15a40"
     }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:580856f3ef5e98a09da6dd",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "financing_event:ce5ac3fef0231c82d55d5fbcce4bedc2a9d4434bed8d8b41eeb544479cce4439",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604291821742658_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:ce5ac3fef0231c82d55d5fbcce4bedc2a9d4434bed8d8b41eeb544479cce4439",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:580856f3ef5e98a09da6dd",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604291821742658_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:181957b2f8920257f0ce66",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "financing_event:f7bff3657ebeda1cc93923ecc59a644521ef748f8fb0617773136a201cc360e8",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:f7bff3657ebeda1cc93923ecc59a644521ef748f8fb0617773136a201cc360e8",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:181957b2f8920257f0ce66",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3617923b6f86678cd5bbe5",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a2bafafe4ad22d8c573a87",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a2bafafe4ad22d8c573a87",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3617923b6f86678cd5bbe5",
+      "company_id": "co:full_legal_name:4b8f7f456056d1119e2d57e679ee2c41"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202605121822210889_1.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:937da8a8202f6264c411aa",
+      "company_id": "co:cn_uscc:0ae8e50599f2ce0ca3fa0623dd2460ab"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4a670b498b485a30b68d24",
+      "company_id": "co:cn_uscc:0ae8e50599f2ce0ca3fa0623dd2460ab"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202401/RAS_202401_251740BED19E6F6EDD4F28A83E8856820992AE.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4a670b498b485a30b68d24",
+      "company_id": "co:cn_uscc:0ae8e50599f2ce0ca3fa0623dd2460ab"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:937da8a8202f6264c411aa",
+      "company_id": "co:cn_uscc:0ae8e50599f2ce0ca3fa0623dd2460ab"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202401/RAS_202401_251740BED19E6F6EDD4F28A83E8856820992AE.pdf",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:649af9c8ff5082f25650b7",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c66c51bce2af889daede9c",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c66c51bce2af889daede9c",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:649af9c8ff5082f25650b7",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c97947d3b5508386d1c8af",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a6eeb9e1ed090b12b2fc51",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+    "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a6eeb9e1ed090b12b2fc51",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c97947d3b5508386d1c8af",
+      "company_id": "co:cn_uscc:15d101450b930baac29094fb5aa54733"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
+    "reason": "原始文件分别列示增资款与老股受让价款"
   }
 ]
