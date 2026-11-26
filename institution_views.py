@@ -73,5 +73,6 @@ def publish(out):
         default=re.search('data-default="([^"]*)"',html)
         body='<main id="inst-app" data-mode="'+mode+'" data-default="'+(default[1] if default else '')+'"><p>正在读取机构资料…</p></main>'
         html=re.sub(r'<main\b.*?</main>',lambda _: body,html,count=1,flags=re.S)
+        html=html.replace('<script src="within-page.js"></script>', '')
         html=html.replace('</html>','<link rel="stylesheet" href="institution-views.css"><script defer src="institution-views.js"></script></html>')
         path.write_text(html)
