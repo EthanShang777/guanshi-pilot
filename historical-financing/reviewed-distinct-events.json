@@ -1141,5 +1141,29 @@
     },
     "source": "https://pdf.dfcfw.com/pdf/H2_AN202506301700408241_1.pdf",
     "reason": "同月验资增资和12月30日老股分属不同交易"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a8e272ddc4b1a4cea2d01d",
+      "company_id": "co:cn_uscc:9a2181c109842c0d0dce861eeaef69ee"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4dc7a779d4f1953ccaeb4f",
+      "company_id": "co:cn_uscc:9a2181c109842c0d0dce861eeaef69ee"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf",
+    "reason": "同一工商变更日的1.8亿元新增资本和1.5亿元已持股东股权受让，发行人分表披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4dc7a779d4f1953ccaeb4f",
+      "company_id": "co:cn_uscc:9a2181c109842c0d0dce861eeaef69ee"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a8e272ddc4b1a4cea2d01d",
+      "company_id": "co:cn_uscc:9a2181c109842c0d0dce861eeaef69ee"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf",
+    "reason": "同一工商变更日的1.8亿元新增资本和1.5亿元已持股东股权受让，发行人分表披露"
   }
 ]

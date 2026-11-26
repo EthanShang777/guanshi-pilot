@@ -3807,5 +3807,59 @@
     "sources": [
       "https://pdf.dfcfw.com/pdf/H2_AN202604071821044813_1.pdf"
     ]
+  },
+  "eb88eb13c45838c989a8b2bf": {
+    "name": "唐兴科技",
+    "registeredName": "安徽唐兴装备科技股份有限公司",
+    "aliases": [
+      "唐兴装备",
+      "安徽唐兴机械装备有限公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-11-26/1221853285.PDF"
+    ]
+  },
+  "af2e1513e08dda417648df24": {
+    "name": "埃科光电",
+    "registeredName": "合肥埃科光电科技股份有限公司",
+    "aliases": [
+      "合肥埃科光电科技有限公司",
+      "688610"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf"
+    ]
+  },
+  "cc70498f3515c6b665a1290f": {
+    "name": "莹帆科技",
+    "registeredName": "重庆莹帆科技股份有限公司",
+    "aliases": [
+      "重庆莹帆科技有限公司",
+      "874791"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202601071816731575_1.pdf"
+    ]
+  },
+  "1aae069812febe53ac1bf04f": {
+    "name": "成都航新",
+    "registeredName": "成都航新航空装备科技有限公司",
+    "aliases": [
+      "航新航空装备"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-04-21/1223196853.PDF"
+    ]
+  },
+  "dba72cd92a06f8f31f986468": {
+    "name": "勋辉科技",
+    "registeredName": "宁波勋辉科技股份有限公司",
+    "aliases": [
+      "宁波勋辉电器有限公司",
+      "勋辉电器"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202609011828873150_1.pdf"
+    ]
   }
 }

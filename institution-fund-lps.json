@@ -7696,5 +7696,772 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "c11853468e8e4e4c94a41aa8",
+    "fundName": "铜陵高投毅达专精特新创业投资基金合伙企业（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2024-11-26/1221853285.PDF",
+      "date": "2024-11-26",
+      "dateKind": "公开文件披露日",
+      "issuer": "唐兴科技公开转让说明书",
+      "pages": "1-1-22至23",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512021792629193_1.pdf"
+      ],
+      "lpScope": "披露时点7名LP和1名GP，表中认缴和实缴均为10亿元；较晚合伙变更另查。",
+      "generalPartners": [
+        {
+          "name": "安徽毅达汇承股权投资管理企业（有限合伙）",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "creditCode": "91340700MA8NJFKF7J",
+      "incorporatedOn": "2021-12-23",
+      "managerLegalName": "安徽毅达汇承股权投资管理企业（有限合伙）"
+    },
+    "partners": [
+      {
+        "name": "安徽省中小企业发展基金有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 40,
+        "existingInstitution": "04538c69b4e13f1ce13d5fbf"
+      },
+      {
+        "name": "铜陵中旭建设投资有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 25,
+        "existingInstitution": "6e4d4ae6425a68f6c18030f9"
+      },
+      {
+        "name": "江苏高科技投资集团有限公司",
+        "disclosedContributionCny": 220000000,
+        "disclosedPercent": 22,
+        "existingInstitution": "f2ce5ea5a6d1317f7d7dd69f"
+      },
+      {
+        "name": "合肥北城产业投资引导基金有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "aa06e93cdfc1b1a777b39500"
+      },
+      {
+        "name": "安徽星星服装股份有限公司",
+        "disclosedContributionCny": 35000000,
+        "disclosedPercent": 3.5,
+        "existingInstitution": "c2f6426d82297046425ceda1"
+      },
+      {
+        "name": "铜陵睿投企业管理咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 3,
+        "existingInstitution": "05093cbdeae87d67bcb8d683"
+      },
+      {
+        "name": "南京毅达汇员铜都创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 1.5,
+        "existingInstitution": "9e3433fe06c41c2b704827d5"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "bfac576773d85e1f448a8858",
+    "fundName": "芜湖市镜湖高投毅达中小企业创业投资基金（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf",
+      "date": "2023-04-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "埃科光电科创板招股说明书注册稿",
+      "pages": "1-1-48至49",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202608211828278339_1.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512021792629193_1.pdf"
+      ],
+      "lpScope": "披露时点6名LP和1名GP。安徽祥源作为LP认缴900万元，并披露截至2023年6月30日已全额实缴。",
+      "generalPartners": [
+        {
+          "name": "安徽毅达汇承股权投资管理企业（有限合伙）",
+          "disclosedContributionCny": 3000000
+        }
+      ],
+      "creditCode": "91340202MA8N0TRC16",
+      "incorporatedOn": "2021-07-16",
+      "managerLegalName": "安徽毅达汇承股权投资管理企业（有限合伙）"
+    },
+    "partners": [
+      {
+        "name": "安徽省中小企业发展基金有限公司",
+        "disclosedContributionCny": 111000000,
+        "disclosedPercent": 37,
+        "existingInstitution": "04538c69b4e13f1ce13d5fbf"
+      },
+      {
+        "name": "江苏高科技投资集团有限公司",
+        "disclosedContributionCny": 66000000,
+        "disclosedPercent": 22,
+        "existingInstitution": "f2ce5ea5a6d1317f7d7dd69f"
+      },
+      {
+        "name": "芜湖产业投资基金有限公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "40e7b5f93ee53b37d38ca7cf"
+      },
+      {
+        "name": "芜湖市拓实建设有限公司",
+        "disclosedContributionCny": 48000000,
+        "disclosedPercent": 16,
+        "existingInstitution": "87c5b421d587efec62335e5a"
+      },
+      {
+        "name": "安徽祥源科技股份有限公司",
+        "disclosedContributionCny": 9000000,
+        "disclosedPercent": 3,
+        "existingInstitution": "40ea9dbe314da1dbf9a5a022"
+      },
+      {
+        "name": "南京毅达汇员芜镜创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 1,
+        "existingInstitution": "8660980decd4d0614abe2b45"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "5bbe647d240eec59fd287764",
+    "fundName": "扬州高投毅达鑫海三期创业投资合伙企业（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 330000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609011828873150_1.pdf",
+      "date": "2026-09-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "勋辉科技公开转让说明书",
+      "pages": "1-1-21至22",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-06-18/1223911550.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-21/1223196853.PDF",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202407/046038_20240730_JKT8.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512171802395338_1.pdf"
+      ],
+      "lpScope": "2026年9月披露时点26名LP和1名GP，认缴、实缴各3.3亿元；2025年广联航空曾披露24名LP，名单及数额以各披露时点为准。",
+      "generalPartners": [
+        {
+          "name": "南京毅达股权投资管理企业（有限合伙）",
+          "disclosedContributionCny": 3300000
+        }
+      ],
+      "creditCode": "91321091MACTJFXW13",
+      "incorporatedOn": "2023-08-02",
+      "managerLegalName": "南京毅达股权投资管理企业（有限合伙）",
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202609011828873150_1.pdf",
+        "date": "2026-09-01",
+        "dateKind": "实缴情形披露日",
+        "partners": [
+          {
+            "name": "江苏高科技投资集团有限公司",
+            "paidCny": 82500000
+          },
+          {
+            "name": "扬州经济技术开发区高科创业投资有限公司",
+            "paidCny": 49500000
+          },
+          {
+            "name": "扬州市邗江区国有资本投资集团有限公司",
+            "paidCny": 28700000
+          },
+          {
+            "name": "谈林",
+            "paidCny": 20000000
+          },
+          {
+            "name": "南洋工贸（扬州）有限公司",
+            "paidCny": 15000000
+          },
+          {
+            "name": "扬州壹左元股权投资合伙企业（有限合伙）",
+            "paidCny": 13000000
+          },
+          {
+            "name": "扬州市政府债务监测和债券管理中心（扬州市财政金融服务中心）",
+            "paidCny": 5000000
+          },
+          {
+            "name": "高邮市龙腾农村小额贷款股份有限公司",
+            "paidCny": 10000000
+          },
+          {
+            "name": "扬州市江都区沪武金仝农村小额贷款有限公司",
+            "paidCny": 10000000
+          },
+          {
+            "name": "扬州市江都区和顺农村小额贷款有限公司",
+            "paidCny": 10000000
+          },
+          {
+            "name": "扬州硕实咨询管理合伙企业（有限合伙）",
+            "paidCny": 10000000
+          },
+          {
+            "name": "徐同",
+            "paidCny": 10000000
+          },
+          {
+            "name": "宝应县华汇农村小额贷款有限公司",
+            "paidCny": 10000000
+          },
+          {
+            "name": "仪征市嘉禾农村小额贷款有限公司",
+            "paidCny": 2500000
+          },
+          {
+            "name": "吴健群",
+            "paidCny": 5000000
+          },
+          {
+            "name": "金承翠",
+            "paidCny": 5000000
+          },
+          {
+            "name": "扬州市运河文化科技小额贷款股份有限公司",
+            "paidCny": 5000000
+          },
+          {
+            "name": "陈静",
+            "paidCny": 5000000
+          },
+          {
+            "name": "程力农",
+            "paidCny": 5000000
+          },
+          {
+            "name": "范影",
+            "paidCny": 1500000
+          },
+          {
+            "name": "南京毅达汇员汇鑫创业投资合伙企业（有限合伙）",
+            "paidCny": 3000000
+          },
+          {
+            "name": "张磊",
+            "paidCny": 7000000
+          },
+          {
+            "name": "孙莉",
+            "paidCny": 5000000
+          },
+          {
+            "name": "西藏爱达汇承私募基金管理有限公司",
+            "paidCny": 4000000
+          },
+          {
+            "name": "王健忠",
+            "paidCny": 3000000
+          },
+          {
+            "name": "卞洪益",
+            "paidCny": 2000000
+          },
+          {
+            "name": "南京毅达股权投资管理企业（有限合伙）",
+            "paidCny": 3300000
+          }
+        ],
+        "totalPaidCny": 330000000
+      },
+      "historicalPartnershipSummary": {
+        "source": "https://static.cninfo.com.cn/finalpage/2025-06-18/1223911550.PDF",
+        "date": "2025-06-18",
+        "lpCount": 24
+      }
+    },
+    "partners": [
+      {
+        "name": "江苏高科技投资集团有限公司",
+        "disclosedContributionCny": 82500000,
+        "disclosedPercent": 25.0,
+        "existingInstitution": "f2ce5ea5a6d1317f7d7dd69f"
+      },
+      {
+        "name": "扬州经济技术开发区高科创业投资有限公司",
+        "disclosedContributionCny": 49500000,
+        "disclosedPercent": 15.0,
+        "existingInstitution": "7c4e41f5ecb55591589c25d0"
+      },
+      {
+        "name": "扬州市邗江区国有资本投资集团有限公司",
+        "disclosedContributionCny": 28700000,
+        "disclosedPercent": 8.697,
+        "existingInstitution": "baa400094c3ba968769ab09d"
+      },
+      {
+        "name": "谈林",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 6.0606,
+        "existingInstitution": "94787e9696a3af1e4ae9817c"
+      },
+      {
+        "name": "南洋工贸（扬州）有限公司",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 4.5455,
+        "existingInstitution": "3c73d1aa9a9d244e9fee12ab"
+      },
+      {
+        "name": "扬州壹左元股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 13000000,
+        "disclosedPercent": 3.9394,
+        "existingInstitution": "35f517104013730eb97a9d49"
+      },
+      {
+        "name": "扬州市政府债务监测和债券管理中心（扬州市财政金融服务中心）",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.5152,
+        "existingInstitution": "3431f7d6315824bef4c175c8"
+      },
+      {
+        "name": "高邮市龙腾农村小额贷款股份有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.0303,
+        "existingInstitution": "d3dbeb6ffb31ecaf3fd4eb40"
+      },
+      {
+        "name": "扬州市江都区沪武金仝农村小额贷款有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.0303,
+        "existingInstitution": "c9cdfb32f7599383385f04c5"
+      },
+      {
+        "name": "扬州市江都区和顺农村小额贷款有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.0303,
+        "existingInstitution": "7e592e4b940a0e69dbc05798"
+      },
+      {
+        "name": "扬州硕实咨询管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.0303,
+        "existingInstitution": "119f8a98b6de49ad0fe25e33"
+      },
+      {
+        "name": "徐同",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.0303,
+        "existingInstitution": "6db694c818970c929d1bb697"
+      },
+      {
+        "name": "宝应县华汇农村小额贷款有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.0303,
+        "existingInstitution": "fb2e8d2aabecc66770890d12"
+      },
+      {
+        "name": "仪征市嘉禾农村小额贷款有限公司",
+        "disclosedContributionCny": 2500000,
+        "disclosedPercent": 0.7576,
+        "existingInstitution": "ea605b52ca1d6c5275695f0f"
+      },
+      {
+        "name": "吴健群",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.5152,
+        "existingInstitution": "8dbb2f2c647d9b59c92ee967"
+      },
+      {
+        "name": "金承翠",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.5152,
+        "existingInstitution": "e9310d824930002f2dfeb14a"
+      },
+      {
+        "name": "扬州市运河文化科技小额贷款股份有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.5152,
+        "existingInstitution": "21e3239cf425b5bcdbacb8af"
+      },
+      {
+        "name": "陈静",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.5152,
+        "existingInstitution": "178d50c544e4674926afc1ac"
+      },
+      {
+        "name": "程力农",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.5152,
+        "existingInstitution": "338f4cfac1995b2e98092b95"
+      },
+      {
+        "name": "范影",
+        "disclosedContributionCny": 1500000,
+        "disclosedPercent": 0.4545,
+        "existingInstitution": "8fc84e1cc493a4d513140754"
+      },
+      {
+        "name": "南京毅达汇员汇鑫创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 0.9091,
+        "existingInstitution": "4cd39350f150925f15481c3a"
+      },
+      {
+        "name": "张磊",
+        "disclosedContributionCny": 7000000,
+        "disclosedPercent": 2.1212,
+        "existingInstitution": "04c9f6ef9ddb9a8ae4a366ec"
+      },
+      {
+        "name": "孙莉",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.5152,
+        "existingInstitution": "1991b1cabbfc4ad36f337ebe"
+      },
+      {
+        "name": "西藏爱达汇承私募基金管理有限公司",
+        "disclosedContributionCny": 4000000,
+        "disclosedPercent": 1.2121,
+        "existingInstitution": "8457ed296692c13452e43a09"
+      },
+      {
+        "name": "王健忠",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 0.9091,
+        "existingInstitution": "398025ab10a779ef0242d5c1"
+      },
+      {
+        "name": "卞洪益",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 0.6061,
+        "existingInstitution": "7a5a37f9990e5557ad8a69e5"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "6ffab480654385fecd9cb35b",
+    "fundName": "江苏毅达鑫海创业投资基金（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 330000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001200_20230425_GSM8.pdf",
+      "date": "2023-04-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "埃科光电科创板招股说明书注册稿",
+      "pages": "1-1-49至50",
+      "lpSources": [],
+      "lpScope": "披露时点6名LP和1名GP；与2023年设立的鑫海三期是不同基金。",
+      "generalPartners": [
+        {
+          "name": "南京毅达股权投资管理企业（有限合伙）",
+          "disclosedContributionCny": 3000000
+        }
+      ],
+      "creditCode": "91321011MA1PA2UJ8F",
+      "incorporatedOn": "2017-06-28",
+      "managerLegalName": "南京毅达股权投资管理企业（有限合伙）"
+    },
+    "partners": [
+      {
+        "name": "扬州鑫达创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 167000000,
+        "disclosedPercent": 50.61,
+        "existingInstitution": "35dd62c2563677ab3e4c1f74"
+      },
+      {
+        "name": "江苏高科技投资集团有限公司",
+        "disclosedContributionCny": 90000000,
+        "disclosedPercent": 27.27,
+        "existingInstitution": "f2ce5ea5a6d1317f7d7dd69f"
+      },
+      {
+        "name": "扬州产权综合服务市场有限责任公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 12.12,
+        "existingInstitution": "1da94e44841f15fe6bd6d74d"
+      },
+      {
+        "name": "费喜明",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 6.06,
+        "existingInstitution": "df1231b29fbc1129567fd4ac"
+      },
+      {
+        "name": "徐乃英",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.52,
+        "existingInstitution": "e9b56402372e7e7e7dee92fc"
+      },
+      {
+        "name": "西藏爱达汇承企业管理有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.52,
+        "existingInstitution": "55f160f64d53701085203f7e"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "97d60b805eac15247a78f4e1",
+    "fundName": "成都毅达交子环投兴华汇蓉壹号创业投资基金合伙企业（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-06-18/1223911550.PDF",
+      "date": "2025-06-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "广联航空2025-060号公告",
+      "pages": "第6至7页",
+      "lpSources": [],
+      "lpScope": "披露时点4名LP和1名GP，认缴合计5亿元。",
+      "generalPartners": [
+        {
+          "name": "上海毅达汇宸股权投资基金管理有限公司",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "creditCode": "91510108MAD90F210M",
+      "incorporatedOn": "2023-12-21",
+      "managerLegalName": "上海毅达汇宸股权投资基金管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "成都成华产业振兴股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 125000000,
+        "disclosedPercent": 25,
+        "existingInstitution": "855789ae251f4a6be8a3230d"
+      },
+      {
+        "name": "南京毅达汇蓉壹号创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 170000000,
+        "disclosedPercent": 34,
+        "existingInstitution": "59a83d4c4c92ecf164b4dbc4"
+      },
+      {
+        "name": "成都环投资本管理有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "6a469d0d3fc311d4702e6864"
+      },
+      {
+        "name": "成都交子产业股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "b36e40fd7ac181b4ef49cbee"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "daf3a5a6d3daa99ee07cea87",
+    "fundName": "安徽明裕创业投资基金合伙企业（有限合伙）",
+    "managerName": "耀彩投资管理（上海）有限公司",
+    "managerId": "2d1e7f7b479d2650d29ea392",
+    "sizeCny": 213500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512021792629193_1.pdf",
+      "date": "2025-12-02",
+      "dateKind": "公开文件披露日",
+      "issuer": "泰铂科技股票定向发行说明书修订稿",
+      "pages": "投资者基本情况",
+      "lpSources": [],
+      "lpScope": "核对认缴、GP及基金备案资料，文件未列出LP。",
+      "generalPartners": [
+        {
+          "name": "耀彩投资管理（上海）有限公司"
+        }
+      ],
+      "creditCode": "91341800MAE4WU2T2A",
+      "incorporatedOn": "2024-11-13",
+      "managerLegalName": "耀彩投资管理（上海）有限公司",
+      "filingCode": "SBBY44",
+      "filingDate": "2025-09-11"
+    },
+    "partners": [],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "7a87fb185f0875a763263bf9",
+    "fundName": "江苏高投毅达绿色转型产业投资基金（有限合伙）",
+    "managerName": "毅达资本",
+    "managerId": "1301c82366c60630dc08d57d",
+    "sizeCny": 2500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609011828873150_1.pdf",
+      "date": "2026-09-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "勋辉科技公开转让说明书",
+      "pages": "1-1-19至20",
+      "lpSources": [],
+      "lpScope": "披露时点12名LP和1名GP，认缴25亿元、实缴17.29亿元。",
+      "generalPartners": [
+        {
+          "name": "南京毅达股权投资管理企业（有限合伙）",
+          "disclosedContributionCny": 25000000
+        }
+      ],
+      "creditCode": "91320282MAD0DKFG2G",
+      "incorporatedOn": "2023-09-28",
+      "managerLegalName": "南京毅达股权投资管理企业（有限合伙）",
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202609011828873150_1.pdf",
+        "date": "2026-09-01",
+        "dateKind": "实缴情形披露日",
+        "partners": [
+          {
+            "name": "江苏高科技投资集团有限公司",
+            "paidCny": 437500000
+          },
+          {
+            "name": "国家绿色发展基金股份有限公司",
+            "paidCny": 350000000
+          },
+          {
+            "name": "宜兴陶都科技新城发展有限公司",
+            "paidCny": 210000000
+          },
+          {
+            "name": "南京交通产业基金合伙企业（有限合伙）",
+            "paidCny": 140000000
+          },
+          {
+            "name": "广西投资引导基金有限责任公司",
+            "paidCny": 140000000
+          },
+          {
+            "name": "宜兴新动能产业基金合伙企业（有限合伙）",
+            "paidCny": 119000000
+          },
+          {
+            "name": "湖州财通实力新长合股权投资合伙企业（有限合伙）",
+            "paidCny": 87500000
+          },
+          {
+            "name": "南京毅达汇员汇双创业投资合伙企业（有限合伙）",
+            "paidCny": 80500000
+          },
+          {
+            "name": "产投（威海）股权投资母基金合伙企业（有限合伙）",
+            "paidCny": 70000000
+          },
+          {
+            "name": "湖南湘江创信新兴产业基金合伙企业（有限合伙）",
+            "paidCny": 35000000
+          },
+          {
+            "name": "宿迁汇融毅达产业投资合伙企业（有限合伙）",
+            "paidCny": 35000000
+          },
+          {
+            "name": "浙江明州金属资源有限公司",
+            "paidCny": 7000000
+          },
+          {
+            "name": "南京毅达股权投资管理企业（有限合伙）",
+            "paidCny": 17500000
+          }
+        ],
+        "totalPaidCny": 1729000000
+      }
+    },
+    "partners": [
+      {
+        "name": "江苏高科技投资集团有限公司",
+        "disclosedContributionCny": 625000000,
+        "disclosedPercent": 25,
+        "existingInstitution": "f2ce5ea5a6d1317f7d7dd69f"
+      },
+      {
+        "name": "国家绿色发展基金股份有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "5c6828d86165381e23b12599"
+      },
+      {
+        "name": "宜兴陶都科技新城发展有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 12,
+        "existingInstitution": "f812e36bb5977cdb74eefd52"
+      },
+      {
+        "name": "南京交通产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 8,
+        "existingInstitution": "419c18cbfd94db8e44885b6c"
+      },
+      {
+        "name": "广西投资引导基金有限责任公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 8,
+        "existingInstitution": "7c7e5e2db57e7d7818261a46"
+      },
+      {
+        "name": "宜兴新动能产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 8,
+        "existingInstitution": "20d00926013ec7667d455db6"
+      },
+      {
+        "name": "湖州财通实力新长合股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 125000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "97046ce9890a480c50ed1781"
+      },
+      {
+        "name": "南京毅达汇员汇双创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 115000000,
+        "disclosedPercent": 4.6,
+        "existingInstitution": "b437de0210bd3931bffc004b"
+      },
+      {
+        "name": "产投（威海）股权投资母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "557382e6d8fff474a18c3e3b"
+      },
+      {
+        "name": "湖南湘江创信新兴产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "a113287cb40da300333a9014"
+      },
+      {
+        "name": "宿迁汇融毅达产业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2,
+        "existingInstitution": "aae9239a8824d4f7647982b2"
+      },
+      {
+        "name": "浙江明州金属资源有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 0.4,
+        "existingInstitution": "435a300a6a15027fb5217fa0"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
