@@ -1533,5 +1533,56 @@
     "sources": [
       "https://www.chinaventure.com.cn/news/114-20260929-393484.html"
     ]
+  },
+  "13748b629b7508b28dd45373": {
+    "name": "惠生清能",
+    "registeredName": "惠生清洁能源科技集团股份有限公司",
+    "aliases": [
+      "惠生清洁能源",
+      "惠生（南通）重工有限公司",
+      "惠生重工",
+      "惠生海工",
+      "Wison Energies"
+    ],
+    "sources": [
+      "https://cn.wison-energies.com/gsxw1/242.aspx",
+      "https://www.cs.com.cn/ssgs/gsxw/202508/t20250827_6509223.html",
+      "https://paper.cnstock.com/html/2025-07/04/content_2089352.htm",
+      "https://www.wison.com/news_list_sea"
+    ]
+  },
+  "e28a95dc4772976fe3b9073e": {
+    "name": "朗信电气",
+    "registeredName": "江苏朗信电气股份有限公司",
+    "aliases": [
+      "江苏朗信电气有限公司",
+      "张家港朗信电气有限公司",
+      "Jiangsu Langxin Electric",
+      "920220",
+      "874326"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-05-11/1225300038.PDF",
+      "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-20/a126a0841e78f88d060ee22a7cef5a88.pdf",
+      "https://paper.cnstock.com/html/2023-04/29/content_1760417.htm",
+      "https://pdf.dfcfw.com/pdf/H2_AN202310301605649834_1.pdf"
+    ]
+  },
+  "7adff7d379a204368684b01f": {
+    "name": "鑫精合",
+    "registeredName": "鑫精合激光科技集团股份有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.cmccap.com/news/detail/452",
+      "https://vc.pedaily.cn/company/27156.html"
+    ]
+  },
+  "417f28a98417f3de1450c3da": {
+    "name": "太洋科技",
+    "registeredName": "上海太洋科技股份有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.cmccap.com/news/detail/447"
+    ]
   }
 }
