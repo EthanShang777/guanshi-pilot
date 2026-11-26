@@ -3105,6 +3105,56 @@
       "existing_count": 0,
       "pending_count": 0,
       "batch": "2026-11-26-chengdu-and-disclosed-equity-129.csv"
+    },
+    {
+      "institution": "成都交投卓越私募基金管理有限公司",
+      "checked_on": "2026-11-26",
+      "scope": "成都交投纵横公开披露及共同投资案例，核回真实出资基金",
+      "sources": [
+        "https://www.sccyzxjj.com/jtdt/list_10.html",
+        "https://www.ipesp.cn/sys-nd/240.html",
+        "https://scfzfund.sdholding.com/news/company/10000002291.html"
+      ],
+      "candidate_count": 1,
+      "existing_count": 1,
+      "pending_count": 2,
+      "batch": "2026-11-26-chengdu-and-disclosed-equity-130.csv",
+      "pending": [
+        {
+          "company": "成都华盛新显光电有限公司",
+          "reason": "仅确认投资交割与具名投资方，完整轮次、各方实际出资及估值待核",
+          "source": "https://www.ipesp.cn/sys-nd/240.html"
+        },
+        {
+          "company": "成都星汉航宇科技有限公司",
+          "reason": "先核实际基金载体与现金融资日期",
+          "source": "https://scfzfund.sdholding.com/news/company/10000002291.html"
+        }
+      ]
+    },
+    {
+      "institution": "公开发行和公司披露",
+      "checked_on": "2026-11-26",
+      "scope": "按公司、公告日期和资金口径核验四个公开融资或修订原档",
+      "sources": [
+        "https://www.globalgase.com/4/19866/1983255",
+        "https://www.prnewswire.com/news-releases/collective-x-health-launches-with-a-3-2-million-pre-seed-round-to-close-the-womens-health-data-gap-302907275.html",
+        "https://thecouncil.beehiiv.com/p/our-investment-in-collective-x-health",
+        "https://www.globenewswire.com/news-release/2026/10/02/3373809/0/en/orbit-international-closes-on-new-6-000-000-credit-facility-also-completes-4-075-000-private-placement.html",
+        "https://www.chinaventure.com.cn/news/110-20260923-393423.html",
+        "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20261022/5ed9eef5a9d04743a9fdd423c872aedc.PDF"
+      ],
+      "candidate_count": 3,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-26-chengdu-and-disclosed-equity-130.csv",
+      "pending": [
+        {
+          "company": "Collective X Health",
+          "reason": "融资和具名投资方已核，注册全称和领投基金法律主体待核",
+          "source": "https://www.prnewswire.com/news-releases/collective-x-health-launches-with-a-3-2-million-pre-seed-round-to-close-the-womens-health-data-gap-302907275.html"
+        }
+      ]
     }
   ]
 }
