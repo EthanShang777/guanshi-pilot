@@ -1467,5 +1467,71 @@
       "https://finance.sina.com.cn/wm/2026-05-07/doc-inhwzvzm2858084.shtml",
       "https://news.pedaily.cn/202610/570248.shtml"
     ]
+  },
+  "a867cfd6ec1698e05af96361": {
+    "name": "域磐科技",
+    "registeredName": "域磐科技（天津）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://vc.pedaily.cn/company/695232.html",
+      "https://www.36kr.com/p/2729206350980105",
+      "https://m.sfccn.com/2025/10-29/2MMDE1MjVfMjA3NTA2Mw.html"
+    ]
+  },
+  "2f4a328b6ac561d6527bfa80": {
+    "name": "今日宜休",
+    "registeredName": "北京今日宜休科技有限责任公司",
+    "aliases": [
+      "ISHO",
+      "ISHO今日宜休",
+      "北京今日宜休科技有限公司"
+    ],
+    "sources": [
+      "https://ishohealth.com/legal/user-agreement",
+      "https://www.cmccap.com/news/detail/438",
+      "https://www.shuididp.cn/yp-bd3215942f8507a4ed86b3adc2906e01.html"
+    ]
+  },
+  "6190f79478e2a1f6c659cd1c": {
+    "name": "绚帛电子",
+    "registeredName": "绚帛电子科技（深圳）有限公司",
+    "aliases": [
+      "绚帛电子科技"
+    ],
+    "sources": [
+      "https://vc.pedaily.cn/company/864180.html",
+      "https://www.ifastdata.com/2025/10/21/%E6%B7%B1%E5%9C%B3%E6%B1%BD%E8%BD%A6%E7%94%B5%E5%AD%90%E7%B3%BB%E7%BB%9F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%8F%90%E4%BE%9B%E5%95%86%E7%BB%9A%E5%B8%9B%E7%94%B5%E5%AD%90%E5%AE%8C%E6%88%901700/"
+    ]
+  },
+  "558b492a54caecb52a95fb1d": {
+    "name": "法奥机器人",
+    "registeredName": "法奥（苏州）机器人技术股份有限公司",
+    "aliases": [
+      "法奥意威",
+      "法奥意威（苏州）机器人系统有限公司",
+      "FAIRINO"
+    ],
+    "sources": [
+      "https://finance.eastmoney.com/a/202610193899957931.html",
+      "https://www.chinalifeinvest.com/invest/report/2603/0035-1.htm",
+      "https://www.fairino.com/Companynews/15.html"
+    ]
+  },
+  "0026e58334532702138dc528": {
+    "name": "芯爱科技",
+    "registeredName": "芯爱科技（南京）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://m.jiemian.com/article/15205065.html",
+      "https://m.chinaventure.com.cn/news/114-20261019-393664.html"
+    ]
+  },
+  "1bc1569cbdd103c77f980511": {
+    "name": "宏芯气体",
+    "registeredName": "宏芯气体（上海）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.chinaventure.com.cn/news/114-20260929-393484.html"
+    ]
   }
 }
