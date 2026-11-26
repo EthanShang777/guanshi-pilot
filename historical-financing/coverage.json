@@ -4440,6 +4440,146 @@
           "reason": "后续股东变更中的七家投资品牌已入库，实际法律载体与2026年早期批次待对齐。"
         }
       ]
+    },
+    {
+      "institution": "投资界十月公开融资",
+      "checked_on": "2026-11-26",
+      "scope": "核十月有冲突报道的逐轮金额、正式轮次及实际出资方",
+      "candidate_count": 0,
+      "existing_count": 4,
+      "pending_count": 1,
+      "sources": [
+        "https://finance.eastmoney.com/a/202610213903004771.html",
+        "https://m.chinaventure.com.cn/news/80-20261021-393710.html",
+        "https://www.cnstock.com/commonDetail/805998",
+        "https://www.juxiedrive.com/News/2.html",
+        "https://wap.stockstar.com/detail/RB2026092900034334",
+        "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwxzqi4825526.shtml",
+        "https://www.chinaventure.com.cn/news/114-20261010-393560.html",
+        "https://www.thepaper.cn/newsDetail_forward_34299571",
+        "https://www.chinaventure.com.cn/flash/20261019-90177.html",
+        "https://vc.pedaily.cn/invest/427390.html",
+        "https://m.pedaily.cn/news/570477",
+        "https://www.broadbright.com/more/media-info.html?id=4136",
+        "https://www.thecapital.com.cn/news/detail/125324",
+        "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_751f8ccf9c054c459f34f0ac7fdde4ab.html",
+        "https://www.36kr.com/p/4036683559408769?f=rss",
+        "https://vc.pedaily.cn/invest/442836.html"
+      ],
+      "checked_records": {
+        "https://news.pedaily.cn/202610/570623.shtml": {
+          "stem": "紫明低温",
+          "outcome": "冲突待核",
+          "sources": [
+            "https://finance.eastmoney.com/a/202610213903004771.html",
+            "https://m.chinaventure.com.cn/news/80-20261021-393710.html",
+            "https://www.cnstock.com/commonDetail/805998"
+          ],
+          "date": "2026-10-21",
+          "reason": "中核科创基金法律全称及另外四家公开资方已核。B轮为原档口径，资方称战略投资；东方中瀛、策源、固泽的具体登记主体待核。",
+          "eventIds": [
+            "0ec52a1c6b9b8f7152656b8c"
+          ]
+        },
+        "https://news.pedaily.cn/202610/570033.shtml": {
+          "stem": "巨蟹智能",
+          "outcome": "已有",
+          "sources": [
+            "https://www.juxiedrive.com/News/2.html",
+            "https://wap.stockstar.com/detail/RB2026092900034334",
+            "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwxzqi4825526.shtml",
+            "https://www.chinaventure.com.cn/news/114-20261010-393560.html"
+          ],
+          "date": "2026-10-10",
+          "reason": "九月底工商转述与10月公司披露具有同一主体、超亿元及完全相同的六家出资方；沿用原ID及最早已核报道日，轮次按公司改为A+。",
+          "eventIds": [
+            "0eb7a99523b2b01443f7402b"
+          ]
+        },
+        "https://news.pedaily.cn/202610/570477.shtml": {
+          "stem": "法奥机器人",
+          "outcome": "已有",
+          "sources": [
+            "https://www.thepaper.cn/newsDetail_forward_34299571",
+            "https://www.chinaventure.com.cn/flash/20261019-90177.html",
+            "https://vc.pedaily.cn/invest/427390.html",
+            "https://m.pedaily.cn/news/570477"
+          ],
+          "date": "2026-10-19",
+          "reason": "公开报道确认只有C+与D两个已完成轮次，同轮有相同披露及美团领投。10月18日D轮指回10月16日D轮，保留C+及D各自领投，对共同披露的跟投不跨轮分配；近10亿元为两轮合计。",
+          "eventIds": [
+            "ad0c273fa6dcdd89a3cae98e",
+            "e9ab039d5cfe17570ba8a79c"
+          ]
+        },
+        "https://news.pedaily.cn/202610/570645.shtml": {
+          "stem": "创新AI原生生物材料企业柏垠生物",
+          "outcome": "已有",
+          "sources": [
+            "https://www.broadbright.com/more/media-info.html?id=4136",
+            "https://www.thecapital.com.cn/news/detail/125324"
+          ],
+          "date": "2026-10-22",
+          "reason": "经交易法律顾问核实，超2亿元为A和A+总额，按披露分别记录资方，逐轮确切交割日和金额未单独披露。",
+          "eventIds": [
+            "8cad1959626d99b2ee18c21a",
+            "b4287d9ece3f839eb5589fcc"
+          ]
+        },
+        "https://news.pedaily.cn/202610/570697.shtml": {
+          "stem": "星忆智能",
+          "outcome": "已有",
+          "sources": [
+            "https://www.zgcgroup.com.cn/xwzx/jtyw/art/2026/art_751f8ccf9c054c459f34f0ac7fdde4ab.html",
+            "https://www.36kr.com/p/4036683559408769?f=rss",
+            "https://vc.pedaily.cn/invest/442836.html"
+          ],
+          "date": "2026-10-22",
+          "reason": "3月顺禧种子轮另有千万级早期单轮记录。10月披露数千万元为两轮合计，10月单笔金额不沿用合计数，三个种子+轮资方角色已核。",
+          "eventIds": [
+            "dbf694dcc1ce85441b1e759d",
+            "6b896cd50803c9b85c450187"
+          ]
+        }
+      },
+      "batch": "2026-11-26-lanshi-and-october-135.csv"
+    },
+    {
+      "institution": "中核产业基金、中核科创基金",
+      "checked_on": "2026-11-26",
+      "scope": "按管理人披露、上市公司增资与登记证据反查中核科创基金三个已具名案例",
+      "sources": [
+        "https://finance.eastmoney.com/a/202610213903004771.html",
+        "https://m.chinaventure.com.cn/news/80-20261021-393710.html",
+        "https://www.cnstock.com/commonDetail/805998",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/642ade6464145b0cd144b51ec5387746.pdf",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11940597&stockid=603169",
+        "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002620.PDF",
+        "https://www.jinglingshuju.com/article/26463118171",
+        "https://pdf.dfcfw.com/pdf/H301_AP202502271643564691_1.pdf",
+        "https://finance.sina.cn/tech/2025-02-25/detail-inemssqh9010590.d.html?vt=4&wm=3049_0015"
+      ],
+      "candidate_count": 1,
+      "existing_count": 2,
+      "pending_count": 2,
+      "batch": "2026-11-26-lanshi-and-october-135.csv",
+      "confirmed_investments": [
+        "9835e7487f912061609c06fa",
+        "9c2ddb521c5509881f4b0914",
+        "0ec52a1c6b9b8f7152656b8c"
+      ],
+      "pending": [
+        {
+          "company": "中核科创股权投资基金（四川）合伙企业（有限合伙）",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11940597&stockid=603169",
+          "reason": "基金登记规模10亿元及当前可验证的主要LP线索；完整LP名单、实缴及可投余额待逐一核对。"
+        },
+        {
+          "company": "成都科创投及中信建投资本的永新医疗历史交易",
+          "source": "https://cbgc.scol.com.cn/news/7328228",
+          "reason": "2025年9月2,000万元出资与12月B轮可能属于同一轮，待比较认购日期及投资载体。"
+        }
+      ]
     }
   ]
 }
