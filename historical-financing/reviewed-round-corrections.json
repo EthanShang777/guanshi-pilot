@@ -4790,5 +4790,132 @@
       "date_kind": "原档日期"
     },
     "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:e7a3c645ad2a6339f4c241ede417744468c8a55f87a4f2c30b5e635c618382a8",
+    "company_id": "co:full_legal_name:fb3d0e5dc984288ea05e213008db6db0",
+    "day": "2023-08-14",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"君度投资\",\"role\":null,\"amount\":null},{\"name\":\"源瓴资本\",\"role\":null,\"amount\":null},{\"name\":\"睿兴投资\",\"role\":null,\"amount\":null},{\"name\":\"闻勤基金\",\"role\":null,\"amount\":null}]",
+      "date": "2023-08-14",
+      "date_key": "2023-08-14",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东莞君度生益股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF\"}},{\"name\":\"源瓴资本\",\"role\":null,\"amount\":null},{\"name\":\"睿兴投资\",\"role\":null,\"amount\":null},{\"name\":\"闻勤基金\",\"role\":null,\"amount\":null}]",
+      "date": "2023-08-14",
+      "date_key": "2023-08-14",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-08-19/1217577749.PDF",
+      "https://static.cninfo.com.cn/finalpage/2024-08-28/1221005017.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:4a6ccf8043079a2b7ef7bf379e954a1411772c76a7fd0c614496b1ede51680c7",
+    "company_id": "co:full_legal_name:e812ff3a25f55765cd080c1d55648e46",
+    "day": "2024-12-31",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"LongRiver江远投资\",\"role\":null,\"amount\":null},{\"name\":\"中山创投\",\"role\":null,\"amount\":null},{\"name\":\"信达基金\",\"role\":null,\"amount\":null},{\"name\":\"君度投资\",\"role\":null,\"amount\":null},{\"name\":\"粤科母基金\",\"role\":null,\"amount\":null},{\"name\":\"粤财中垠\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"LongRiver江远投资\",\"role\":null,\"amount\":null},{\"name\":\"中山创投\",\"role\":null,\"amount\":null},{\"name\":\"信达基金\",\"role\":null,\"amount\":null},{\"name\":\"东莞君度生益股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF\"}},{\"name\":\"粤科母基金\",\"role\":null,\"amount\":null},{\"name\":\"粤财中垠\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-03-29/1222952338.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:62afa92815984e88a40a1444747d8b53fe09c6d79b2678ca20900b244e5620e7",
+    "company_id": "co:full_legal_name:00a85b613e2eb8f1f0c7e08b97e70378",
+    "day": "2025-05-09",
+    "source": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf",
+    "expected": {
+      "round": "C+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"力中投资\",\"role\":null,\"amount\":null},{\"name\":\"君度投资\",\"role\":null,\"amount\":null},{\"name\":\"善达投资\",\"role\":null,\"amount\":null},{\"name\":\"星良投资\",\"role\":null,\"amount\":null},{\"name\":\"隐山资本\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖百孚\",\"role\":null,\"amount\":null}]",
+      "date": "2025-05-09",
+      "date_key": "2025-05-09",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海隐山致能企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":9961670000,\"basis\":\"转让对价\",\"source\":\"https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf\"}},{\"name\":\"深圳善达和竣创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1999700000,\"basis\":\"转让对价\",\"source\":\"https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf\"}},{\"name\":\"常州力笃创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1499770000,\"basis\":\"转让对价\",\"source\":\"https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf\"}},{\"name\":\"常州力睿创业投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":499920000,\"basis\":\"转让对价\",\"source\":\"https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf\"}},{\"name\":\"宁波昱航投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":499920000,\"basis\":\"转让对价\",\"source\":\"https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf\"}},{\"name\":\"东莞君度生益股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1032740000,\"basis\":\"转让对价\",\"source\":\"https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf\"}}]",
+      "date": "2025-05-09",
+      "date_key": "2025-05-09",
+      "date_kind": "原记录披露日，招股书确认4月至5月机构受让，所列出资为受让方对价"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-25/1225195409.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:86de6522cd6cfc2c0e61a505198cfa2ba12b7eafdba3bef3b8a5ed1d0c9754c1",
+    "company_id": "co:full_legal_name:d0a8a55e39c2d4a77c029ecbe51ac4df",
+    "day": "2025-11-05",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805EF99DD4368854CBD98CE5D4FA8042C3C.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"国调基金\",\"role\":null,\"amount\":null},{\"name\":\"惠友投资\",\"role\":null,\"amount\":null},{\"name\":\"航空港科创集团\",\"role\":null,\"amount\":null},{\"name\":\"芯联基金\",\"role\":null,\"amount\":null}]",
+      "date": "2025-11-05",
+      "date_key": "2025-11-05",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中国国有企业结构调整基金二期股份有限公司\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"郑州航空港先进计算一期创业投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"郑州航空港先进计算二期创业投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"郑州航空港先进计算三期创业投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"河南泓楷股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"厦门惠友豪祺股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"金石汐智（嘉兴）股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"苏州芯联芯聚创业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"珠海宇祺投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null}]",
+      "date": "2025-11-07",
+      "date_key": "2025-11-07",
+      "date_kind": "同一份9月29日协议，八家11月7日登记，国调二期11月24日登记"
+    },
+    "additional_sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805DCD492794E57497899E226FB6BBD015F.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:9f8f506c604b26edf6556c97092030f54d0cbadad74abc2f62b312bbaf00ccbd",
+    "company_id": "co:full_legal_name:d0a8a55e39c2d4a77c029ecbe51ac4df",
+    "day": "2025-11-26",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805EF99DD4368854CBD98CE5D4FA8042C3C.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "43.1725亿人民币",
+      "investors_json": "[{\"name\":\"中石油昆仑资本\",\"role\":null,\"amount\":null},{\"name\":\"中网投\",\"role\":null,\"amount\":null},{\"name\":\"中芯聚源\",\"role\":null,\"amount\":null},{\"name\":\"中银资产\",\"role\":null,\"amount\":null},{\"name\":\"优势资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾重元\",\"role\":null,\"amount\":null},{\"name\":\"创维集团\",\"role\":null,\"amount\":null},{\"name\":\"国家人工智能产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"国开制造业转型升级基金\",\"role\":null,\"amount\":null},{\"name\":\"工银资本\",\"role\":null,\"amount\":null},{\"name\":\"建信投资\",\"role\":null,\"amount\":null},{\"name\":\"惠友投资\",\"role\":null,\"amount\":null},{\"name\":\"深圳聚合资本\",\"role\":null,\"amount\":null}]",
+      "date": "2025-11-26",
+      "date_key": "2025-11-26",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "4,317,256,489.50元",
+      "investors_json": "[{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"国开制造业转型升级基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"国家人工智能产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"昆仑工融绿色（北京）新兴产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市惠友豪曦科技投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"工融金投二号（北京）新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"苏州工业园区元禾重元优算创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"厦门惠友豪祺股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市聚合五号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中国互联网投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海宏力达信息技术股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"北京建源北工新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"厦门芯势澜算贰号创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海聚源祥聚电子信息合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"安徽创维启航产投股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"昆仑北工（北京）绿色创业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"河南资产建源稳定发展股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市深基宏图创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"苏州聚合鹏飞二期创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2025-11-26",
+      "date_key": "2025-11-26",
+      "date_kind": "增资协议签署日，12月23日登记，现金到账金额按验资复核"
+    },
+    "additional_sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805DCD492794E57497899E226FB6BBD015F.pdf",
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805B1C975F98F434B0B932A6BDAEDB06224.pdf"
+    ]
   }
 ]

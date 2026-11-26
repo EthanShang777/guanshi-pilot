@@ -7434,6 +7434,68 @@
         "福瑞泰克C1出资明细": "c401262c65a3647a56e3cc6d"
       },
       "batch": "2026-11-27-picc-sinochem-borun-152.csv"
+    },
+    {
+      "institution": "君度生益基金及超聚变股权变动",
+      "checked_on": "2026-11-27",
+      "scope": "LP、实际载体和逐笔出资，区分新增资金及老股",
+      "sources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805EF99DD4368854CBD98CE5D4FA8042C3C.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805B1C975F98F434B0B932A6BDAEDB06224.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805DCD492794E57497899E226FB6BBD015F.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-04-25/1225195409.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-08-28/1221005017.PDF",
+        "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223343151.PDF",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202606/b2344c_20260611_Q8F9.pdf",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12496446&stockid=300606",
+        "https://www.sohu.com/a/714595991_100116740",
+        "https://m.pedaily.cn/vc/invest/v591078",
+        "https://static.cninfo.com.cn/finalpage/2026-09-01/1225539069.PDF"
+      ],
+      "notes": {
+        "caveats": [
+          "超聚变11月原B轮实为老股转让，11月26日签署的增资为另一交易，验资共4,317,256,489.50元。历史人保持股交易对价待核。",
+          "钶锐锶招股书核对4月至5月机构老股受让；君度生益两笔各516.37万元，使用原事件ID调整类型。",
+          "环力A轮可见融资轮次及君度品牌；另核到君度生益基金组合持有，但同一基金管理人旗下启越亦持股，具体载体及3000万元与本次轮次的对应待证。",
+          "迪赛新材母公司2025定增逐方到账以发行报告为准；基金持有人报告还列组合累计3500万元，子公司500万元为已登记认缴增资，累计与单笔的差异仍待查，暂不另记母公司融资。",
+          "债券募集说明书披露人保科创持有普莱医药，未能确认与总表E轮的精确对应。可投余额仍待披露。",
+          "沿领航电子股东表追到另一只东莞科创子基金，发行人公告独立核实2026年7月已完成增资变更及投后3.23亿元，出资金额待原协议。"
+        ],
+        "followup_sources": [
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805EF99DD4368854CBD98CE5D4FA8042C3C.pdf",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805B1C975F98F434B0B932A6BDAEDB06224.pdf",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805DCD492794E57497899E226FB6BBD015F.pdf",
+          "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF",
+          "https://static.cninfo.com.cn/finalpage/2026-04-25/1225195409.PDF",
+          "https://static.cninfo.com.cn/finalpage/2024-08-28/1221005017.PDF",
+          "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-04/688827_20261104_EA9J.pdf",
+          "https://static.cninfo.com.cn/finalpage/2025-04-25/1223343151.PDF",
+          "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202606/b2344c_20260611_Q8F9.pdf",
+          "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12496446&stockid=300606",
+          "https://www.sohu.com/a/714595991_100116740",
+          "https://m.pedaily.cn/vc/invest/v591078",
+          "https://static.cninfo.com.cn/finalpage/2026-09-01/1225539069.PDF"
+        ],
+        "funding_events": 7,
+        "secondary_reclassifications": 2
+      },
+      "events": {
+        "佛智芯股权投资": "9a84e5cc960c2cca36d2b1ad",
+        "环力智能A轮": "aded00202e8d2b24e384c5db",
+        "中科原子A轮": "deb6cb6c6415a48a193ddd58",
+        "中科原子2025出资": "e770c46ce253212cfee402af",
+        "领航电子A轮": "e92301af54329bef18e42f12",
+        "领航电子2026增资": "e96d18fb6c8ad03e88d55aa0",
+        "迪赛鸿鼎2024增资": "a790c0e490a910010304d4c7",
+        "星顺新材A+轮": "03fd7bf356e5b6b0d6827aff",
+        "智隆新材料A轮": "a5439ec5e2ffd5ba57ca25bf",
+        "钶锐锶2025股权转让": "71f0a3bba33359137bdcd499",
+        "超聚变2025股权转让": "cb4860f1b430fadc005ad59f",
+        "超聚变2025现金增资": "ad4cca22763482c3878e6c6d"
+      },
+      "batch": "2026-11-27-jundu-xfusion-153.csv"
     }
   ]
 }

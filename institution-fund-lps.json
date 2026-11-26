@@ -2501,5 +2501,102 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "7f4aefaaa0a21f13798024d6",
+    "fundName": "东莞君度生益股权投资合伙企业（有限合伙）",
+    "managerName": "宁波君度私募基金管理有限公司",
+    "managerId": "d0af0899499baa6cc51736ee",
+    "sizeCny": 446000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF",
+      "date": "2026-08-15",
+      "dateKind": "公开文件披露日",
+      "issuer": "广东生益科技股份有限公司",
+      "pages": "第17页",
+      "lpSources": [
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8877360&stockid=600183",
+        "https://static.cninfo.com.cn/finalpage/2023-08-19/1217577749.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-08-28/1221005017.PDF",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-09-29/688300_20250929_ZP1A.pdf"
+      ],
+      "lpScope": "基金已完成扩募登记，原LP金额来自成立公告，扩募后比例按4.46亿元认缴计算。2.08亿元为首期总实缴，披露的1.7533亿元为LP定期报告的组合总额。",
+      "generalPartners": [
+        {
+          "name": "东莞生益君度产业投资企业（有限合伙）",
+          "disclosedContributionCny": 5000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "广东生益科技股份有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "33.6323",
+        "existingInstitution": "d46e1d42a5d20f93c9deeeb2"
+      },
+      {
+        "name": "生益电子股份有限公司",
+        "disclosedContributionCny": 45000000,
+        "disclosedPercent": "10.0897",
+        "existingInstitution": "9e8f060c3d184e4b9bd11ee8"
+      },
+      {
+        "name": "江苏联瑞新材料股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "11.2108",
+        "existingInstitution": "8837370166f92fdb7e8fba59"
+      },
+      {
+        "name": "东莞市邦谦股权投资企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "6.7265",
+        "existingInstitution": "40d71334129e08f8b19cf63b"
+      },
+      {
+        "name": "珠海市正菱创业投资有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "6.7265",
+        "existingInstitution": "a09add76c6705882a0d839b0"
+      },
+      {
+        "name": "广东南方传媒投资有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "2.2422",
+        "existingInstitution": "7177c02ea73548f685abbbf7"
+      },
+      {
+        "name": "东莞市产业投资母基金有限公司",
+        "disclosedContributionCny": 83200000,
+        "disclosedPercent": "18.6547",
+        "existingInstitution": "c2f47b41c42b8a6332940886"
+      },
+      {
+        "name": "宁波君度知诺创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 12800000,
+        "disclosedPercent": "2.8700",
+        "existingInstitution": "b72812e6d8b3a48b58daa290"
+      },
+      {
+        "name": "佛山市顺德区德鑫创业投资有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "6.7265",
+        "existingInstitution": "105fd52245459f2d1810809b"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2026-06-30",
+        "investedCny": 175330000,
+        "source": "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF"
+      },
+      {
+        "asOf": "2023-06-30",
+        "fundedCny": 208000000,
+        "source": "https://static.cninfo.com.cn/finalpage/2023-08-19/1217577749.PDF"
+      }
+    ]
   }
 ]
