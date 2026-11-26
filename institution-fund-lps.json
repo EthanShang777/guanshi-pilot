@@ -2888,5 +2888,148 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "528e01ead22a757a41819e47",
+    "fundName": "上海中电投融和新能源投资管理中心（有限合伙）",
+    "managerName": "国家电投集团产业基金管理有限公司",
+    "managerId": "98707165834ce09cf2854ecd",
+    "sizeCny": 2000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202508261734889661_1.pdf",
+      "date": "2025-08-26",
+      "dateKind": "公开文件披露日",
+      "issuer": "嘉拓智能申请人律师",
+      "pages": "3-3-50至51，合伙企业登记和详细出资表",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2018-01-11/1204319583.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-12-14/1218609489.PDF",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0930/11860829/2025093000159_c.pdf",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606301826611687&pageIndex=12"
+      ],
+      "lpScope": "本次认缴口径为20亿元。2018公告的GP 1%、融和资产75%、光大信托24%为历史结构；2025年法律意见为GP 7%、融和新能源科技93%。艾罗招股意向书披露的历史实收19.279921亿元不代表当前全基金实缴。",
+      "generalPartners": [
+        {
+          "name": "国家电投集团产业基金管理有限公司",
+          "disclosedContributionCny": 140000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "中电投融和新能源科技有限公司",
+        "disclosedContributionCny": 1860000000,
+        "disclosedPercent": "93.00",
+        "existingInstitution": "9afde053291d702350ed9ebb"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a8bba6ffe644678bab18b9b6",
+    "fundName": "上海中电投融和股权投资基金合伙企业（有限合伙）",
+    "managerName": "国家电投集团产业基金管理有限公司",
+    "managerId": "98707165834ce09cf2854ecd",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202409301640103311_1.pdf%3F1727711818000.pdf",
+      "date": "2024-09-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "宏伟供应申请人律师",
+      "pages": "上海中电投登记出资表",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF"
+      ],
+      "lpScope": "基金认缴总额2亿元，GP 14%，融和新能源科技86%。宏伟供应一笔投资的历史内部权益分配已另有披露，与基金工商认缴分别使用。",
+      "generalPartners": [
+        {
+          "name": "国家电投集团产业基金管理有限公司",
+          "disclosedContributionCny": 28000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "中电投融和新能源科技有限公司",
+        "disclosedContributionCny": 172000000,
+        "disclosedPercent": "86.00",
+        "existingInstitution": "9afde053291d702350ed9ebb"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a2ab4b966ad4852e14cbf2f5",
+    "fundName": "嘉兴融和电科绿水股权投资合伙企业（有限合伙）",
+    "managerName": "国家电投集团产业基金管理有限公司",
+    "managerId": "98707165834ce09cf2854ecd",
+    "sizeCny": 50000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606241823807292&pageIndex=17",
+      "date": "2026-06-24",
+      "dateKind": "公开文件披露日",
+      "issuer": "江苏嘉拓新能源智能装备股份有限公司",
+      "pages": "更正后公开转让说明书第17页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2021-01-11/1209081406.PDF",
+        "https://epaper.cs.com.cn/zgzqb/html/2021-03/20/nw.D110000zgzqb_20210320_3-B006.htm",
+        "https://pdf.dfcfw.com/pdf/H2_AN202508261734889661_1.pdf"
+      ],
+      "lpScope": "认缴5000万元。2021年国电投资本控股承接原LP未实缴的4950万元，公开披露国电投资本控股后来实缴3856万元。基金管理人、GP及LP以备案、法律意见和公开转让说明书核实。",
+      "generalPartners": [
+        {
+          "name": "国家电投集团产业基金管理有限公司",
+          "disclosedContributionCny": 500000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "国家电投集团资本控股有限公司",
+        "disclosedContributionCny": 49500000,
+        "disclosedPercent": "99.00",
+        "existingInstitution": "c4784270bfdfe4b520e7ce87"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a88bf2b77bd5f1f5d809e043",
+    "fundName": "嘉兴融和海川股权投资合伙企业（有限合伙）",
+    "managerName": "国家电投集团产业基金管理有限公司",
+    "managerId": "98707165834ce09cf2854ecd",
+    "sizeCny": 50000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202212/RAS_202212_0001849EA8B78F3FD7F9D84A737D063F.pdf",
+      "date": "2022-12",
+      "dateKind": "公开文件披露月",
+      "issuer": "江苏美科太阳能科技股份有限公司",
+      "pages": "附录一，海川基金合伙人和出资结构",
+      "lpSources": [],
+      "lpScope": "2022年招股申报材料披露认缴5000万元，湖州海川为LP 99%。湖州海川直投嘉拓日晟与嘉兴融和海川的历史组合分别核对。",
+      "generalPartners": [
+        {
+          "name": "国家电投集团产业基金管理有限公司",
+          "disclosedContributionCny": 500000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "湖州海川股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 49500000,
+        "disclosedPercent": "99.00",
+        "existingInstitution": "c016a29103930afeac53d4d3"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

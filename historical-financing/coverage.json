@@ -7637,6 +7637,96 @@
         "浙江冠宇A+轮复核": "434def5dea90c044ca540b1e"
       },
       "batch": "2026-11-27-cosmx-network-155.csv"
+    },
+    {
+      "institution": "国家电投产业基金、上海融和及嘉兴绿水和海川基金",
+      "checked_on": "2026-11-27",
+      "scope": "从嘉拓合伙人穿透查基金和LP，再查玖行、艾罗、杰华特、一道新能原始股权沿革",
+      "sources": [
+        "https://stockmc.xueqiu.com/202604/a6a3040d0f614d4f97760b52ef8f5d32.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202509261750994949_1.pdf?1758906455000.pdf=",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606301826611687&pageIndex=12",
+        "https://static.cninfo.com.cn/finalpage/2023-03-28/1216235637.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202508261734889661_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2021-01-11/1209081406.PDF",
+        "https://epaper.cs.com.cn/zgzqb/html/2021-03/20/nw.D110000zgzqb_20210320_3-B006.htm",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606241823807292&pageIndex=17",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0930/11860829/2025093000159_c.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202409301640103311_1.pdf%3F1727711818000.pdf",
+        "https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-12-14/1218609489.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-01-02/1218784936.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-12-29/1218773360.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8707168&stockid=688141",
+        "https://top.qcc.com/tc/abcce5ff4749.html",
+        "https://doc.irasia.com/listco/hk/chinapower/announcement/ca260818.pdf",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6327318&stockid=300040",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202212/RAS_202212_0001849EA8B78F3FD7F9D84A737D063F.pdf"
+      ],
+      "notes": {
+        "caveats": [
+          "国家电投产业基金为四只分别备案和登记的基金之管理人。上海新能源中心20亿元和上海融和股权基金2亿元各有独立LP认缴，两个在不同被投企业中都被简称为中电投融和。嘉兴绿水、嘉兴融和海川各认缴5000万元，后者LP湖州海川同时直投嘉拓日晟。",
+          "玖行能源按增资认购和转让对价分事件，2022年7月增资1亿元与8500万元老股独立；后一笔以2021年12月决议为日期，2022年7月7日工商变更。B3后续零对价股权补偿和青山基金退出待按各自公告续接。",
+          "嘉拓日晟的200万元为两名外部投资人认购，分别154万和46万。艾罗增资84.1523万元经验资；IPO新股募资22.264亿元、披露战略配售4.4528亿元，不把IPO以前的股东认作配售方。",
+          "一道新能14笔认购和杰华特20笔认购均按发行人金额表合计。部分杰华特出资方采用发行公告原用简称，未按相似机构名强行做映射。",
+          "宏伟供应2016年定增保留原ID，复核总额79,999,987.36元，2月验资、3月11日登记，上海融和股权基金实付19,999,996.84元。抵达启源芯动力已知设立记录时补基金与公司公告，宁德时代拟受让待完成公告。",
+          "挚达科技、优优绿能、美科太阳能、海泰新能、曲靖阳光以及多层子基金属于已拾取而尚待与主库完成逐项交易对照的线索。"
+        ],
+        "followup_sources": [
+          "https://stockmc.xueqiu.com/202604/a6a3040d0f614d4f97760b52ef8f5d32.pdf",
+          "https://pdf.dfcfw.com/pdf/H2_AN202509261750994949_1.pdf?1758906455000.pdf=",
+          "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606301826611687&pageIndex=12",
+          "https://static.cninfo.com.cn/finalpage/2023-03-28/1216235637.PDF",
+          "https://pdf.dfcfw.com/pdf/H2_AN202508261734889661_1.pdf",
+          "https://static.cninfo.com.cn/finalpage/2021-01-11/1209081406.PDF",
+          "https://epaper.cs.com.cn/zgzqb/html/2021-03/20/nw.D110000zgzqb_20210320_3-B006.htm",
+          "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606241823807292&pageIndex=17",
+          "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0930/11860829/2025093000159_c.pdf",
+          "https://pdf.dfcfw.com/pdf/H2_AN202409301640103311_1.pdf%3F1727711818000.pdf",
+          "https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF",
+          "https://static.cninfo.com.cn/finalpage/2023-12-14/1218609489.PDF",
+          "https://static.cninfo.com.cn/finalpage/2024-01-02/1218784936.PDF",
+          "https://static.cninfo.com.cn/finalpage/2023-12-29/1218773360.PDF",
+          "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8707168&stockid=688141",
+          "https://top.qcc.com/tc/abcce5ff4749.html",
+          "https://doc.irasia.com/listco/hk/chinapower/announcement/ca260818.pdf",
+          "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6327318&stockid=300040",
+          "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202212/RAS_202212_0001849EA8B78F3FD7F9D84A737D063F.pdf"
+        ],
+        "followup_entities": [
+          "上海挚达科技发展股份有限公司",
+          "深圳市优优绿能股份有限公司",
+          "江苏美科太阳能科技股份有限公司",
+          "唐山海泰新能科技股份有限公司",
+          "曲靖阳光新能源股份有限公司",
+          "融和电投一号（嘉兴）创业投资合伙企业（有限合伙）",
+          "嘉兴融和电科青山股权投资合伙企业（有限合伙）",
+          "湖州海川股权投资合伙企业（有限合伙）",
+          "湖北龙裕慧投股权投资合伙企业（有限合伙）",
+          "北京睿汇鑫泰科技产业基金合伙企业（有限合伙）"
+        ],
+        "funding_events": 12,
+        "secondary_events": 2
+      },
+      "events": {
+        "玖行能源2018增资": "ec30ca2d6ba4c0c8f3a73dbf",
+        "玖行能源2020增资": "e160ac71b0d1e03642369471",
+        "玖行能源2021增资": "60c5a050ed80815efbcf8916",
+        "玖行能源2021股权转让": "f3c2c7d99ce0b9fd745a88ab",
+        "玖行能源2022年7月增资": "3979dd83810fbc106d97650a",
+        "玖行能源2022年7月股权转让": "8f3fe283d401f559fc7b6119",
+        "玖行能源2022年10月增资": "1f0b79f68549cfab3bd59b85",
+        "玖行能源2022年11月增资": "eab399c71c93400bba3367c1",
+        "玖行能源2023年B3轮": "3e2613914c949a96394c29b2",
+        "嘉拓日晟2022年增资": "96f8699a5fa09e470c2c3764",
+        "艾罗能源2020年增资": "313efd923ca8d57fe1670792",
+        "艾罗能源IPO": "e07660c30fc3a3c5db967bc1",
+        "一道新能2023年增资": "9fd8cb308f655781988a3124",
+        "杰华特2020年12月增资": "eff0f6fd97fcedbd453383e7",
+        "宏伟供应2016年定增复核": "c5d54abe25f6afef4e974d64",
+        "启源芯动力设立投资复核": "ee56871100b4d668cbe7c251"
+      },
+      "batch": "2026-11-27-ronghe-network-156.csv"
     }
   ]
 }

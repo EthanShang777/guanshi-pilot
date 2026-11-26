@@ -99,5 +99,15 @@
       "event_id": "public:historical-disclosure:5f9c93651520a122577cb0",
       "company_id": "co:full_legal_name:ff31a4017a3afe0735ac740acd29ed78"
     }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:d1e74016c20984171aec98",
+      "company_id": "co:cn_uscc:b2a4b207551f5d98fe53b49914e15a40"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b65a537689522791b1a807",
+      "company_id": "co:cn_uscc:b2a4b207551f5d98fe53b49914e15a40"
+    }
   }
 ]

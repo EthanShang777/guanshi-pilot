@@ -3184,5 +3184,48 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324581.PDF"
     ]
+  },
+  "2ac83dce655ac9f68f1949a3": {
+    "name": "玖行能源",
+    "registeredName": "上海玖行能源科技股份有限公司",
+    "aliases": [
+      "上海玖行能源科技有限公司",
+      "ENNEAGON"
+    ],
+    "sources": [
+      "https://stockmc.xueqiu.com/202604/a6a3040d0f614d4f97760b52ef8f5d32.pdf"
+    ]
+  },
+  "5e1355e9c0bb77c7a8ea7549": {
+    "name": "嘉拓日晟",
+    "registeredName": "东莞嘉拓日晟智能科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-03-28/1216235637.PDF"
+    ]
+  },
+  "05503d5506eb6230bf44c7cb": {
+    "name": "艾罗能源",
+    "registeredName": "浙江艾罗网络能源技术股份有限公司",
+    "aliases": [
+      "浙江艾罗网络能源技术有限公司",
+      "SolaX Power",
+      "艾罗电源"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-12-14/1218609489.PDF"
+    ]
+  },
+  "8bb6978c476ab9420b1c3b08": {
+    "name": "一道新能",
+    "registeredName": "一道新能源科技股份有限公司",
+    "aliases": [
+      "一道新能源",
+      "一道新能源科技（衢州）有限公司",
+      "DAS Solar"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-12-29/1218773360.PDF"
+    ]
   }
 }

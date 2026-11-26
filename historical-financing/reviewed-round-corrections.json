@@ -5071,5 +5071,57 @@
       "date_kind": "上市公司披露交付进展日，增资款已全额支付"
     },
     "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:31187fd2f2539e5fa05d0fa9e23a6e67f79b3252731cae7c03d9458db371186e",
+    "company_id": "co:full_legal_name:b8aaba12a79a7b3fd70df6f1102d5c90",
+    "day": "2016-03-10",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF",
+    "expected": {
+      "round": "定向增发",
+      "amount": "8000万人民币",
+      "investors_json": "[{\"name\":\"上海电气\",\"role\":null,\"amount\":null},{\"name\":\"中广核红鲱鱼\",\"role\":null,\"amount\":null},{\"name\":\"中核产业投资\",\"role\":null,\"amount\":null},{\"name\":\"中核全联基金\",\"role\":null,\"amount\":null},{\"name\":\"中电投融和\",\"role\":null,\"amount\":null}]",
+      "date": "2016-03-10",
+      "date_key": "2016-03-10",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "79999987.36元",
+      "investors_json": "[{\"name\":\"深圳中广核红鲱鱼新三板股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":999999842,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF\"}},{\"name\":\"中核全联投资基金管理（北京）有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":999999842,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF\"}},{\"name\":\"北京中核产业投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1999999684,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF\"}},{\"name\":\"上海中电投融和股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1999999684,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF\"}},{\"name\":\"上海电气集团股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1999999684,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2024-09-30/1221330791.PDF\"}}]",
+      "date": "2016-03-11",
+      "date_key": "2016-03-11",
+      "date_kind": "中登新增股份登记完成日，会计师验资确认认购金额缴足"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202409301640103311_1.pdf%3F1727711818000.pdf",
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202409301640103311&pageIndex=15"
+    ]
+  },
+  {
+    "event_id": "registry:168",
+    "company_id": "co:cn_uscc:548bae8d98fa53707cca042de6626ddd",
+    "day": "2020-10-27",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8074384&stockid=000958",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海中电投融和新能源投资管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴融和电科绿水股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴融和电科青山股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2020-10-27",
+      "date_key": "2020-10-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海中电投融和新能源投资管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴融和电科绿水股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴融和电科青山股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2020-10-27",
+      "date_key": "2020-10-27",
+      "date_kind": "工商设立日，绿水基金实际持股另有上市公司年报核实"
+    },
+    "additional_sources": [
+      "https://top.qcc.com/tc/abcce5ff4749.html",
+      "https://static.cninfo.com.cn/finalpage/2021-01-11/1209081406.PDF"
+    ]
   }
 ]
