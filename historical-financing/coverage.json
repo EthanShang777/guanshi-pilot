@@ -7496,6 +7496,75 @@
         "超聚变2025现金增资": "ad4cca22763482c3878e6c6d"
       },
       "batch": "2026-11-27-jundu-xfusion-153.csv"
+    },
+    {
+      "institution": "东莞科创资本、成果转化基金及松山湖一期组合",
+      "checked_on": "2026-11-27",
+      "scope": "先由领航电子及被投股东辨法律载体，再依基金、LP、公司核交易和出资",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-03-30/1225054525.PDF",
+        "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260331/6cb60765d7f243a38e37a20ca21515c2.pdf",
+        "https://www.dg.gov.cn/gzw/qyjj/qydt/content/post_4541198.html",
+        "https://ssl.dg.gov.cn/qypd/qyxx/content/post_4168754.html",
+        "https://top.qcc.com/tc/ab350aff4539.html",
+        "https://pub.timedg.com/a/2021-09/14/AP61405bb7e4b05daa9e68402a.html",
+        "https://static.nfnews.com/content/202508/22/c11648307.html?enterColumnId=84",
+        "https://ssl.dg.gov.cn/ztpd/ffdjffjzzt/content/post_3788729.html",
+        "https://static.cninfo.com.cn/finalpage/2026-09-01/1225539069.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12496446&stockid=300606",
+        "https://www.sohu.com/a/973842454_114984",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/688772_20260526_033G.pdf",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2022-04-26/aa3ee3b2-7828-4060-8d48-7ace0d9fc7fa.PDF"
+      ],
+      "notes": {
+        "caveats": [
+          "成果转化基金公开首期1亿元，天使引导基金首期认缴5亿元与目标10亿元分列。两个基金间99%出资按投资方披露明细核对。",
+          "一期法律形式为东莞市松山湖天使投资有限公司，工商注册资本5亿元，对外口径含后续及整体目标；二期独立4亿元合伙基金，不共用投资案例。",
+          "华芯联与火萤合计1000万；缺各项金额，不拆推。铭普持有华芯联200万见早期报表，确属另一项但未拿到其具体入股协议。",
+          "希乐斯七月整轮千万级与珠海冠宇四月旧股实付112万分开，664.64万为协议总额，上市公司及子公司法律载体分别按各自文书，待核具体分项。",
+          "领航电子科转基金保留已披露新增注册资本149,031元和持股0.9434%作线索，出资金额待协议。",
+          "小豚智能早期400万与总表600万的对应关系待核，妙智深圳与东莞公司的分期实缴范围待协议。"
+        ],
+        "followup_sources": [
+          "https://static.cninfo.com.cn/finalpage/2026-03-30/1225054525.PDF",
+          "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260331/6cb60765d7f243a38e37a20ca21515c2.pdf",
+          "https://www.dg.gov.cn/gzw/qyjj/qydt/content/post_4541198.html",
+          "https://ssl.dg.gov.cn/qypd/qyxx/content/post_4168754.html",
+          "https://top.qcc.com/tc/ab350aff4539.html",
+          "https://pub.timedg.com/a/2021-09/14/AP61405bb7e4b05daa9e68402a.html",
+          "https://static.nfnews.com/content/202508/22/c11648307.html?enterColumnId=84",
+          "https://ssl.dg.gov.cn/ztpd/ffdjffjzzt/content/post_3788729.html",
+          "https://static.cninfo.com.cn/finalpage/2026-09-01/1225539069.PDF",
+          "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12496446&stockid=300606",
+          "https://www.sohu.com/a/973842454_114984",
+          "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/688772_20260526_033G.pdf",
+          "https://disc.static.szse.cn/download/disc/disk03/finalpage/2022-04-26/aa3ee3b2-7828-4060-8d48-7ace0d9fc7fa.PDF"
+        ],
+        "funding_events": 14,
+        "secondary_events": 1
+      },
+      "events": {
+        "东莞中科华芯天使轮": "436524d6c21d7cca2351c654",
+        "希乐斯天使+轮": "8b17724974e929594aeb7574",
+        "希乐斯2026老股转让付款": "45ee282c1073d20bd2ab72ad",
+        "海珀科技天使轮": "9dde54fc84588071482c9569",
+        "海珀科技天使+轮": "b0e84b6a35c70f71368d1f62",
+        "海珀科技Pre-A轮": "66d2597de9b238c2eca4e0f4",
+        "元生智能种子轮": "a198b8c542425fee7b18f239",
+        "元生智能天使轮": "1173549a387ebcbee956bcd4",
+        "元生智能Pre-A轮": "e75e9007c704a3b01c252b43",
+        "链芯科技天使轮": "57238553b1f6a5e5ae2aa2f7",
+        "大为工业股权投资": "dd09e984229153f04968872d",
+        "华芯联股权投资": "fb5a8b79b94fd21117584f2a",
+        "火萤科技股权投资": "e0ab6280839809bfa181e6e9",
+        "清芯半导体B+轮": "465a02f5dbf91750dc7424d7",
+        "妙智科技A轮": "2ded4604ea89cb3a2ae46d5a",
+        "中科原子A轮复核": "deb6cb6c6415a48a193ddd58",
+        "中科原子B轮复核": "e770c46ce253212cfee402af",
+        "蓝潜海洋天使轮": "c1ceecced9b2585827578c5f",
+        "湃泊科技Pre-A轮领投明细": "0633118004efdb0704654642"
+      },
+      "batch": "2026-11-27-dongguan-network-154.csv"
     }
   ]
 }

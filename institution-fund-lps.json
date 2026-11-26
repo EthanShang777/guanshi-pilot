@@ -2598,5 +2598,167 @@
         "source": "https://static.cninfo.com.cn/finalpage/2023-08-19/1217577749.PDF"
       }
     ]
+  },
+  {
+    "fundId": "69ced11367073ccdaadfcea4",
+    "fundName": "东莞市科创科技成果转化创业投资基金合伙企业（有限合伙）",
+    "managerName": "东莞市科创资本投资管理有限公司",
+    "managerId": "4f0980456163f87590b28531",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-30/1225054525.PDF",
+      "date": "2026-03-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "东莞证券股份有限公司",
+      "pages": "财务报表附注的关联基金出资表",
+      "lpSources": [
+        "https://static.nfnews.com/content/202508/22/c11648307.html?enterColumnId=84",
+        "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260331/6cb60765d7f243a38e37a20ca21515c2.pdf"
+      ],
+      "lpScope": "出资和执行事务合伙人按债券披露，1亿元为基金首期登记规模，逐家认缴由披露比例对照首期规模核算。",
+      "generalPartners": [
+        {
+          "name": "东莞市科创资本投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "东莞市天使投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 99000000,
+        "disclosedPercent": "99.00",
+        "existingInstitution": "1faac1eca2d6d9ec2a83f3e7"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1faac1eca2d6d9ec2a83f3e7",
+    "fundName": "东莞市天使投资引导基金合伙企业（有限合伙）",
+    "managerName": "东莞市科创资本投资管理有限公司",
+    "managerId": "4f0980456163f87590b28531",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://ssl.dg.gov.cn/qypd/qyxx/content/post_4168754.html",
+      "date": "2024-03-05",
+      "dateKind": "公开文件披露日",
+      "issuer": "东莞松山湖高新区管理委员会",
+      "pages": "东莞市天使母基金",
+      "lpSources": [
+        "https://www.shuididp.cn/yp-6e3479e71312bb13da9d3ea10586fd01.html",
+        "https://static.cninfo.com.cn/finalpage/2026-03-30/1225054525.PDF"
+      ],
+      "lpScope": "政府披露目标10亿元，首期5亿元。首期认缴明细由工商出资表核对。",
+      "generalPartners": [
+        {
+          "name": "东莞市科创资本投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "东莞市东财投资控股有限公司",
+        "disclosedContributionCny": 499000000,
+        "disclosedPercent": "99.80",
+        "existingInstitution": "a8476f58f9b54b6b87e5f34d"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "4b4cd755d11c705f8fe80650",
+    "fundName": "东莞市松山湖天使创业投资基金合伙企业（有限合伙）",
+    "managerName": "东莞市科创资本投资管理有限公司",
+    "managerId": "4f0980456163f87590b28531",
+    "sizeCny": 400000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www.dg.gov.cn/gzw/qyjj/qydt/content/post_4541198.html",
+      "date": "2026-05-21",
+      "dateKind": "公开文件披露日",
+      "issuer": "东莞市国资委",
+      "pages": "松山湖天使基金二期备案公告",
+      "lpSources": [
+        "https://www.shuididp.cn/yp-716a17710fa0e45034cd6d8a8b4f3001.html"
+      ],
+      "lpScope": "4亿元认缴核工商和国资公告。披露两家母基金LP，东莞松山湖科学城创业投资有限公司另认缴100万元，具体合伙人身份待协议。",
+      "generalPartners": [
+        {
+          "name": "东莞市科创资本投资管理有限公司",
+          "disclosedContributionCny": 1000000,
+          "disclosedPercent": "0.25"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "东莞市天使投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 78000000,
+        "disclosedPercent": "19.50",
+        "existingInstitution": "1faac1eca2d6d9ec2a83f3e7"
+      },
+      {
+        "name": "东莞松山湖产业投资母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 320000000,
+        "disclosedPercent": "80.00",
+        "existingInstitution": "a01cd194b29ad9a4b1e3ef74"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "86d8bb1e605e2be08a08e95b",
+    "fundName": "东莞科创生益产业投资合伙企业（有限合伙）",
+    "managerName": "东莞市科创资本投资管理有限公司",
+    "managerId": "4f0980456163f87590b28531",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-29/1222952339.PDF",
+      "date": "2025-03-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "生益电子股份有限公司",
+      "pages": "2024年年报的合伙协议及工商设立",
+      "lpSources": [
+        "https://notice.10jqka.com.cn/api/pdf/4cbf11717295fcda.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-08-15/1225474834.PDF"
+      ],
+      "lpScope": "3家LP与1家GP认缴。生益电子2026H1已实缴自己的800万元，全部基金实缴未见披露。",
+      "generalPartners": [
+        {
+          "name": "东莞市科创资本投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "生益电子股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "50.00",
+        "existingInstitution": "9e8f060c3d184e4b9bd11ee8"
+      },
+      {
+        "name": "东莞市创新创业投资母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "30.00",
+        "existingInstitution": "aa037ccf87a1bf609504c405"
+      },
+      {
+        "name": "东莞市国弘投资有限公司",
+        "disclosedContributionCny": 19000000,
+        "disclosedPercent": "19.00",
+        "existingInstitution": "ab466ba245dfea2105d69e9e"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

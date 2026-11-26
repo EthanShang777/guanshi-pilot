@@ -4917,5 +4917,110 @@
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805DCD492794E57497899E226FB6BBD015F.pdf",
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_221805B1C975F98F434B0B932A6BDAEDB06224.pdf"
     ]
+  },
+  {
+    "event_id": "public:historical-disclosure:bdd01438ac4cd2723bf36e",
+    "company_id": "co:cn_uscc:3af9abc19f22cdb7dd67bf424320d20c",
+    "day": "2023-08-26",
+    "source": "https://pub.timedg.com/a/2023-08/24/AP64e73cbce4b06b25cc10c656.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"松山湖天使基金\",\"role\":null,\"amount\":null},{\"name\":\"国投创合\",\"role\":null,\"amount\":null},{\"name\":\"支点投资\",\"role\":null,\"amount\":null},{\"name\":\"深圳创东方\",\"role\":null,\"amount\":null}]",
+      "date": "2023-08-26",
+      "date_key": "2023-08-26",
+      "date_kind": "融资报道日，交割日未披露"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东莞市松山湖天使投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"国投创合\",\"role\":null,\"amount\":null},{\"name\":\"支点投资\",\"role\":null,\"amount\":null},{\"name\":\"深圳创东方\",\"role\":null,\"amount\":null}]",
+      "date": "2023-08-24",
+      "date_key": "2023-08-24",
+      "date_kind": "完成融资的公开披露日，交割日未披露"
+    },
+    "additional_sources": [
+      "https://www.dg.gov.cn/gzw/qyjj/qydt/content/post_4541198.html",
+      "https://pub.timedg.com/a/2021-09/14/AP61405bb7e4b05daa9e68402a.html",
+      "https://top.qcc.com/tc/ab350aff4539.html"
+    ]
+  },
+  {
+    "event_id": "public:historical-disclosure:f6e04a23bd455078dbcdc9",
+    "company_id": "co:cn_uscc:3af9abc19f22cdb7dd67bf424320d20c",
+    "day": "2025-07-11",
+    "source": "https://vc.pedaily.cn/company/685962.html",
+    "expected": {
+      "round": "股权投资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东莞君度生益股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF\"}}]",
+      "date": "2025-07-11",
+      "date_key": "2025-07-11",
+      "date_kind": "基金投委会决策日，后续定期报告确认已投，交割日未披露"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东莞君度生益股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-08-15/1225475783.PDF\"}},{\"name\":\"东莞投控集团\",\"role\":null,\"amount\":null}]",
+      "date": "2025-09-01",
+      "date_key": "2025-09-01",
+      "date_kind": "公开融资记录披露日，君度基金7月11日决策，交割日未披露"
+    },
+    "additional_sources": [
+      "https://www.dg.gov.cn/gzw/qyjj/qydt/content/post_4541198.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:85a4cda7c4b4b20b766ccb4f539be9b8a0cbdaaf84deb5298ace0736c9d3fb85",
+    "company_id": "co:full_legal_name:eb829296fd1859e017efdf51374e1a0f",
+    "day": "2023-08-11",
+    "source": "https://www.sohu.com/a/714930558_121106875",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"松山湖天使基金\",\"role\":null,\"amount\":null}]",
+      "date": "2023-08-11",
+      "date_key": "2023-08-11",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东莞市松山湖天使投资有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2023-08-11",
+      "date_key": "2023-08-11",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://www.dg.gov.cn/gzw/qyjj/qydt/content/post_4541198.html",
+      "https://pub.timedg.com/a/2021-09/14/AP61405bb7e4b05daa9e68402a.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:c04257968cc75b73e4e8782b5087eaac88c56e05845b14c2ee29e4586df59631",
+    "company_id": "co:full_legal_name:37176eb1f69c5ba5c27f2c1f48f8059c",
+    "day": "2022-07-20",
+    "source": "https://www.sohu.com/a/897871704_161795",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"东莞科创\",\"role\":null,\"amount\":null},{\"name\":\"乾融控股\",\"role\":null,\"amount\":null},{\"name\":\"亨通集团\",\"role\":null,\"amount\":null},{\"name\":\"大米创投\",\"role\":null,\"amount\":null},{\"name\":\"松山湖天使基金\",\"role\":null,\"amount\":null}]",
+      "date": "2022-07-20",
+      "date_key": "2022-07-20",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"乾融控股\",\"role\":null,\"amount\":null},{\"name\":\"亨通集团\",\"role\":null,\"amount\":null},{\"name\":\"大米创投\",\"role\":null,\"amount\":null},{\"name\":\"东莞市松山湖天使投资有限公司\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":600000000,\"basis\":\"实际出资\",\"source\":\"https://www.sohu.com/a/897871704_161795\"}}]",
+      "date": "2022-07-20",
+      "date_key": "2022-07-20",
+      "date_kind": "原收录披露日，政府转引核2022年6月领投、集团核基金实际出资600万元"
+    },
+    "additional_sources": [
+      "https://shkjdw.gov.cn/c/2025-03-25/533125.shtml",
+      "https://www.dg.gov.cn/gzw/qyjj/qydt/content/post_4541198.html",
+      "https://pub.timedg.com/a/2021-09/14/AP61405bb7e4b05daa9e68402a.html"
+    ]
   }
 ]
