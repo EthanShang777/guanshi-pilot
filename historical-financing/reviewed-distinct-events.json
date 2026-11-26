@@ -1189,5 +1189,101 @@
     },
     "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf",
     "reason": "同日登记的6000万元现金增资及5070万元股份转让，依发行人原件独立列示"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:10f7bc7a417f5128732c43",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:0a885bebe9171a8a48403d",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "reason": "同次工商登记的不同定价及对价流向，分别为增资与老股转让"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:0a885bebe9171a8a48403d",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:10f7bc7a417f5128732c43",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "reason": "同次工商登记的不同定价及对价流向，分别为增资与老股转让"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:eb5d0ad11954eedbc92a69",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4c7459f65de81c08accec9",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "reason": "同次登记的杭州浙创认购1483638股和受让三位老股东共4236657股"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4c7459f65de81c08accec9",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:eb5d0ad11954eedbc92a69",
+      "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "reason": "同次登记的杭州浙创认购1483638股和受让三位老股东共4236657股"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:323ce19a95ae89e98d818e",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e8c43a59d56dde068376d8",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
+    "reason": "同一广发主体，同月分别认购新增和受让袁志清持股，募资款流向不同"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e8c43a59d56dde068376d8",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:323ce19a95ae89e98d818e",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
+    "reason": "同一广发主体，同月分别认购新增和受让袁志清持股，募资款流向不同"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:323ce19a95ae89e98d818e",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4037657b782d434675ee6d",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
+    "reason": "9月14日广发认购新增资本，9月27日顺融另向原股东受让股份"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4037657b782d434675ee6d",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:323ce19a95ae89e98d818e",
+      "company_id": "co:cn_uscc:3377650476897cb84526ce08f350fe6d"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf",
+    "reason": "9月14日广发认购新增资本，9月27日顺融另向原股东受让股份"
   }
 ]

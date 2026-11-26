@@ -6214,5 +6214,130 @@
     "additional_sources": [
       "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11395791"
     ]
+  },
+  {
+    "event_id": "financing_event:b3ba84a1e5c230b5d39204a88ed2f66cbffb63c04b3bff3d8e3cd6dd45675096",
+    "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32",
+    "day": "2020-09-22",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"新潮创投\",\"role\":null,\"amount\":null}]",
+      "date": "2020-09-22",
+      "date_key": "2020-09-22",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "3003.3245万元",
+      "investors_json": "[{\"name\":\"江苏新潮创新投资集团有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3003324500,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}}]",
+      "date": "2020-09-22",
+      "date_key": "2020-09-22",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811429732_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:53ae76d8cb9c0a69f5229322888e4889781038353f421f9bd8f9b2378a32a506",
+    "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32",
+    "day": "2021-02-02",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"朗程资本\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null}]",
+      "date": "2021-02-02",
+      "date_key": "2021-02-02",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "4000万元",
+      "investors_json": "[{\"name\":\"南京金浦新潮新兴产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"江苏新潮创新投资集团有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"上海汇付互联网金融信息服务创业投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}}]",
+      "date": "2021-02-02",
+      "date_key": "2021-02-02",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811429732_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:72f70884d5d491ca266de6bf6ded0bb7a36705e4d0798680fab933b01b9baeab",
+    "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32",
+    "day": "2021-12-28",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"木兰鑫泽\",\"role\":null,\"amount\":null},{\"name\":\"钧犀资本\",\"role\":null,\"amount\":null},{\"name\":\"锡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-28",
+      "date_key": "2021-12-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "17000万元",
+      "investors_json": "[{\"name\":\"中金传化（宁波）产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"宁波彗通创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"无锡新洁能股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"嘉兴鸿德鑫股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"泰兴市启辰新兴产业创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"杭州易合企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"湖南钧烨投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}},{\"name\":\"上海胤晖企业管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}}]",
+      "date": "2021-12-28",
+      "date_key": "2021-12-28",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811429732_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:7e640bc9fd49a8bc8c343f226acf834265210b3d8487b50e4eb243e66f06312d",
+    "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32",
+    "day": "2021-12-14",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中金传化基金\",\"role\":null,\"amount\":null},{\"name\":\"新洁能\",\"role\":null,\"amount\":null},{\"name\":\"木兰鑫泽\",\"role\":null,\"amount\":null},{\"name\":\"涌鸿创投\",\"role\":null,\"amount\":null},{\"name\":\"辰韬资本\",\"role\":null,\"amount\":null},{\"name\":\"钧犀资本\",\"role\":null,\"amount\":null},{\"name\":\"锡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-14",
+      "date_key": "2021-12-14",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "",
+      "investors_json": "[]",
+      "date": "2021-12-14",
+      "date_key": "2021-12-14",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811429732_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:9ea1cbbc7902cc9fdafb1492730dddb6e8d4936a1698ae6161d69081d2430a9c",
+    "company_id": "co:full_legal_name:4100f8f7ff45c6a618ea322da0d97c32",
+    "day": "2025-08-12",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"毅达资本\",\"role\":null,\"amount\":null}]",
+      "date": "2025-08-12",
+      "date_key": "2025-08-12",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "2000万元",
+      "investors_json": "[{\"name\":\"泰兴市双创引导基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf\"}}]",
+      "date": "2025-07-28",
+      "date_key": "2025-07-28",
+      "date_kind": "发行人披露协议签署日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811429732_1.pdf"
+    ]
   }
 ]

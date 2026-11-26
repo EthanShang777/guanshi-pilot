@@ -3923,5 +3923,45 @@
     "sources": [
       "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf"
     ]
+  },
+  "e90012e342d4d5eab698d6c0": {
+    "name": "永志半导体",
+    "registeredName": "江苏永志半导体材料股份有限公司",
+    "aliases": [
+      "永志股份",
+      "泰兴市永志电子器件有限公司",
+      "泰兴市永志电子器件厂"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512301811429740_1.pdf"
+    ]
+  },
+  "2d267437ee4dd66637109d0a": {
+    "name": "高泰电子",
+    "registeredName": "苏州高泰电子技术股份有限公司",
+    "aliases": [
+      "苏州工业园区高泰电子有限公司"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202312/001472_20231201_Z6PT.pdf"
+    ]
+  },
+  "2ed64e4e1fd64d8031578fab": {
+    "name": "丹耀光学",
+    "registeredName": "丹阳丹耀光学股份有限公司",
+    "aliases": [],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_A8202D70C20A41AEB51DE63630773A0A.pdf"
+    ]
+  },
+  "52949dee889be57e3f9e7874": {
+    "name": "安徽晶镁",
+    "registeredName": "安徽晶镁光罩有限公司",
+    "aliases": [
+      "晶镁光罩"
+    ],
+    "sources": [
+      "https://paper.cnstock.com/html/2025-07/29/content_2099012.htm"
+    ]
   }
 }
