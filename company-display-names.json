@@ -2706,5 +2706,81 @@
     "sources": [
       "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208"
     ]
+  },
+  "a4a25d7fd8b328bc1d95a88b": {
+    "name": "极视角",
+    "registeredName": "山东极视角科技股份有限公司",
+    "aliases": [
+      "深圳极视角科技有限公司",
+      "山东极视角科技有限公司"
+    ],
+    "sources": [
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0320/12059908/2026032000160.pdf",
+      "https://epaper.qingdaonews.com/html/qdwb/20211207/qdwb1434145.html"
+    ]
+  },
+  "7c62cf6789927ef50147d3d8": {
+    "name": "易咖智车",
+    "registeredName": "上海易咖智车科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://m.ebrun.com/434306.html"
+    ]
+  },
+  "a1ea649d1383d0deeb47942f": {
+    "name": "墨影科技",
+    "registeredName": "深圳墨影科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://finance.sina.com.cn/stock/2021-07-18/doc-ikqciyzk6180150.shtml"
+    ]
+  },
+  "d5d20018eeb27d03324bb355": {
+    "name": "共达地",
+    "registeredName": "共达地创新技术（深圳）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.cni.top/html/2022/finance_0611/79755.html"
+    ]
+  },
+  "61bb03d78501487f7bdbb713": {
+    "name": "蓝鲸未来",
+    "registeredName": "深圳市蓝鲸未来科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://pitchhub.36kr.com/project/1958598071047177"
+    ]
+  },
+  "e67bfd01ddd741d208f715b1": {
+    "name": "Ardeevo",
+    "registeredName": "Ardeevo S.r.l.",
+    "aliases": [],
+    "sources": [
+      "https://www.znext.io/portfolio/ardeevo"
+    ]
+  },
+  "efb13410da69110ba561ccf8": {
+    "name": "Beyond Appliances",
+    "registeredName": "BYONDNXT SMART HOME PRIVATE LIMITED",
+    "aliases": [],
+    "sources": [
+      "https://entrepreneur.economictimes.indiatimes.com/amp/news/funding/beyond-appliances-raises-110-crore-series-b-funding-led-by-fireside-ventures/134701250"
+    ]
+  },
+  "55ff7f3fd51b116653343244": {
+    "name": "BioLinker",
+    "registeredName": "Biolinker Biologia Sintética Ltda.",
+    "aliases": [],
+    "sources": [
+      "https://auspin.usp.br/da-usp-para-zona-franca-de-manaus-biolinker-amplia-producao-de-proteinas-com-novo-laboratorio-automatizado-no-amazonas/"
+    ]
+  },
+  "d4ed27b7777be7317ecfac8c": {
+    "name": "Calliora",
+    "registeredName": "calliora GmbH",
+    "aliases": [],
+    "sources": [
+      "https://borncity.com/news/calliora-muenchner-kliniksoftware-startup-sammelt-sechs-millionen-us-dollar-ein/"
+    ]
   }
 }

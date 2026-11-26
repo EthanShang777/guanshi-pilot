@@ -4419,5 +4419,21 @@
       "date_kind": "上市问询回复确认青矩3月现金增资700万元已付清；1月29日为公司获投节点，6月为后续报道"
     },
     "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208"
+  },
+  {
+    "event_id": "financing_event:d203c87bf2c66f94b61c7c770c887be09acbe0ba75494343acdc25e38e875074",
+    "company_id": "co:full_legal_name:90dc644b8af7042e8c71db7fccce07e8",
+    "day": "2021-09-14",
+    "source": "https://m.pedaily.cn/data/inv/28202",
+    "expected": {
+      "round": "A+轮",
+      "amount": "逾亿人民币",
+      "investors_json": "[{\"name\":\"丝路金桥股权投资\",\"role\":null,\"amount\":null},{\"name\":\"天奇创投\",\"role\":null,\"amount\":null},{\"name\":\"方正和生投资\",\"role\":null,\"amount\":null},{\"name\":\"甘泉资本\",\"role\":null,\"amount\":null},{\"name\":\"联新资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "逾亿人民币",
+      "investors_json": "[{\"name\":\"丝路金桥股权投资\",\"role\":null,\"amount\":null},{\"name\":\"青岛天奇前沿科技投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"方正和生投资\",\"role\":null,\"amount\":null},{\"name\":\"甘泉资本\",\"role\":null,\"amount\":null},{\"name\":\"联新资本\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

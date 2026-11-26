@@ -6712,6 +6712,103 @@
         "未来式智能已有"
       ],
       "batch": "2026-11-26-qingju-portfolio-145.csv"
+    },
+    {
+      "institution": "青岛天奇前沿基金穿透、鲸准蓝鲸未来及十月6日部分线索",
+      "checked_on": "2026-11-26",
+      "scope": "按确证的实际载体和逐笔原币口径更新融资主表",
+      "sources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0320/12059908/2026032000160.pdf",
+        "https://www.ecar.com/about/",
+        "https://news.iqilu.com/shandong/shandonggedi/20251230/5880085.shtml",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9988433&stockid=002008",
+        "https://www.jingdata.com.cn/financing/cases/",
+        "https://auspin.usp.br/da-usp-para-zona-franca-de-manaus-biolinker-amplia-producao-de-proteinas-com-novo-laboratorio-automatizado-no-amazonas/"
+      ],
+      "event_reviews": {
+        "Ardeevo": {
+          "status": "十月核实新增",
+          "event": "1c99d71320179818df07872c",
+          "archived_day": "2026-10-06",
+          "source": "https://www.znext.io/portfolio/ardeevo"
+        },
+        "Beyond Appliances": {
+          "status": "十月核实新增",
+          "event": "d8568d3ec2d1d272c65b60f3",
+          "archived_day": "2026-10-06",
+          "source": "https://entrepreneur.economictimes.indiatimes.com/amp/news/funding/beyond-appliances-raises-110-crore-series-b-funding-led-by-fireside-ventures/134701250"
+        },
+        "BioLinker": {
+          "status": "十月核实新增",
+          "event": "a92e25dad7156f0c8b001a0d",
+          "archived_day": "2026-10-06",
+          "source": "https://auspin.usp.br/da-usp-para-zona-franca-de-manaus-biolinker-amplia-producao-de-proteinas-com-novo-laboratorio-automatizado-no-amazonas/"
+        },
+        "Calliora": {
+          "status": "十月核实新增",
+          "event": "947797b1457369837e5650f4",
+          "archived_day": "2026-10-06",
+          "source": "https://borncity.com/news/calliora-muenchner-kliniksoftware-startup-sammelt-sechs-millionen-us-dollar-ein/"
+        },
+        "Bare Beans": {
+          "status": "公告与交割日期待核",
+          "source": "https://pitchbook.com/profiles/company/1376334-91",
+          "additional_source": "https://partners.dealroom.co/news/note/bare-beans-raises-2-79m-seed-to-sell-fresh-beans-direct-to-shoppers",
+          "detail": "279万美元与Raven为一致线索，目录和媒体为10月，PitchBook为5月，缺精确交割来源。"
+        }
+      },
+      "notes": {
+        "tianqi_fund": "青岛天奇前沿科技投资基金合伙企业（有限合伙）",
+        "public_agreed_subscription_cny": {
+          "极视角2020-12增资": 21000000,
+          "极视角2021-08增资": 4000000
+        },
+        "secondary_transfer_cny": 15228376,
+        "linked_cases": {
+          "极视角C1增资": "96fb08dd1799e9838f49e658",
+          "极视角8月增资": "799984493ef4182b40d18833",
+          "易咖智车Pre-A": "c22761505e40e8e2b87c1ce1",
+          "墨影科技A轮": "06e9fd6d3f313e394cd62b13",
+          "凌空天行A+实际载体": "30ae8c6da1ec43911b45f41c"
+        },
+        "jingdata_public": {
+          "蓝鲸未来": {
+            "id": "69f373b3081f19e90bcf5abd",
+            "source": "https://www.jingdata.com.cn/financing/cases/",
+            "audit": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9988433&stockid=002008"
+          },
+          "凹凸小区": {
+            "source": "https://www.jingdata.com.cn/financing/cases/",
+            "corroboration": "https://www.tmtpost.com/pro/trendmakers_detail/548284",
+            "state": "找到同名社区项目，无具体融资日期及法定主体，待核。"
+          }
+        },
+        "further_questions": [
+          "青岛天奇其余LP及认缴，青岛政府绩效评价报告原始政府站副本，墨影A+及共达地实际基金载体",
+          "极视角C1公开报道与2020年12月登记对应拆分，后续C2中的老股口径",
+          "蓝鲸未来2020年6月页头与2022年7月交易的关系，凹凸小区主体及实到"
+        ]
+      },
+      "events": {
+        "极视角C1增资": "96fb08dd1799e9838f49e658",
+        "极视角8月增资": "799984493ef4182b40d18833",
+        "极视角C2增资": "0e85f9b0a65491140d8aaea2",
+        "易咖智车Pre-A": "c22761505e40e8e2b87c1ce1",
+        "易咖智车A+": "ed8d3d2951a34bb15c5caeee",
+        "易咖智车新希望战略": "c7793c6cafb1708b68dab3be",
+        "易咖智车数字政通战略": "519f5a98d74d2fb93faf3845",
+        "墨影科技A轮": "06e9fd6d3f313e394cd62b13",
+        "墨影科技A+轮": "9b67b79594b79a104b0777bf",
+        "墨影科技B轮": "c91d0b8bdd5916e17f602906",
+        "共达地A轮": "6e125dfb85826c850c89433a",
+        "蓝鲸未来战略融资": "69f373b3081f19e90bcf5abd",
+        "Ardeevo种子前": "1c99d71320179818df07872c",
+        "Beyond Appliances B轮": "d8568d3ec2d1d272c65b60f3",
+        "BioLinker融资": "a92e25dad7156f0c8b001a0d",
+        "Calliora种子前": "947797b1457369837e5650f4",
+        "凌空天行A+实际载体": "30ae8c6da1ec43911b45f41c"
+      },
+      "batch": "2026-11-26-tianqi-jingdata-october-146.csv"
     }
   ]
 }
