@@ -3273,5 +3273,85 @@
       "amount": "近1亿美元",
       "investors_json": "[{\"name\":\"国寿双碳基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"清流资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"源码资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"顺为资本\",\"role\":\"跟投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:5f6498fb6884587b6d21b6f7898f8f48e6f967489d29813655641e32c5f52dbf",
+    "company_id": "co:full_legal_name:497af494d27323c800bc48113811e2f2",
+    "day": "2024-12-23",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202412231641395229_1.pdf?1734967952000.pdf=",
+    "expected": {
+      "round": "定向增发",
+      "amount": "2.2亿人民币",
+      "investors_json": "[{\"name\":\"CMC资本\",\"role\":null,\"amount\":null},{\"name\":\"九格资本\",\"role\":null,\"amount\":null},{\"name\":\"基石资本\",\"role\":null,\"amount\":null},{\"name\":\"安徽江东产投私募\",\"role\":null,\"amount\":null},{\"name\":\"张家港产业资本中心\",\"role\":null,\"amount\":null},{\"name\":\"张家港金茂创投\",\"role\":null,\"amount\":null},{\"name\":\"悦丰金创\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "219,999,827.50元",
+      "investors_json": "[{\"name\":\"华文清能一期投资基金（滁州）合伙企业（有限合伙）\",\"amount\":\"49,999,988.25元\",\"role\":\"定向认购\"},{\"name\":\"张家港暨阳创业投资合伙企业（有限合伙）\",\"amount\":\"39,999,975.50元\",\"role\":\"定向认购\"},{\"name\":\"宁波隆华汇博源创业投资合伙企业（有限合伙）\",\"amount\":\"35,999,985.50元\",\"role\":\"定向认购\"},{\"name\":\"安徽基石智能制造三期基金合伙企业（有限合伙）\",\"amount\":\"29,999,962.75元\",\"role\":\"定向认购\"},{\"name\":\"张家港市沙洲湖创业投资有限公司\",\"amount\":\"29,999,962.75元\",\"role\":\"定向认购\"},{\"name\":\"马鞍山市江东诗航产业基金合伙企业（有限合伙）\",\"amount\":\"27,999,967.75元\",\"role\":\"定向认购\"},{\"name\":\"张家港金创一号股权投资合伙企业（有限合伙）\",\"amount\":\"5,999,985.00元\",\"role\":\"定向认购\"}]"
+    }
+  },
+  {
+    "event_id": "financing_event:1920f10524f557fa21bff194b8a6e5e8876414c155f43665272c4bd6c64de6c2",
+    "company_id": "co:full_legal_name:0d7894b4efb7cabb1eacbf9e6dc46688",
+    "day": "2026-08-04",
+    "source": "https://www.cmccap.com/news/detail/447",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"CMC资本\",\"role\":\"领投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"华文清能一期投资基金（滁州）合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:fe7b2a0b498afe42fe206bbb5e4616e8cc4fcac6378c698621e80b3edc7f5e5e",
+    "company_id": "co:full_legal_name:042aa1e948c88fe43a09d5b62cfc25c1",
+    "day": "2026-09-10",
+    "source": "https://www.cmccap.com/news/detail/452",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"CMC资本\",\"role\":null,\"amount\":null},{\"name\":\"滁州地方政府\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"华文清能一期投资基金（滁州）合伙企业（有限合伙）\",\"role\":\"联合领投\",\"amount\":null},{\"name\":\"滁州地方政府\",\"role\":null,\"amount\":null},{\"name\":\"中集资本\",\"role\":null,\"amount\":null},{\"name\":\"智汇基金\",\"role\":null,\"amount\":null},{\"name\":\"弘玺资本\",\"role\":null,\"amount\":null},{\"name\":\"中和万方\",\"role\":null,\"amount\":null},{\"name\":\"中芯聚源\",\"role\":null,\"amount\":null},{\"name\":\"明湾资本\",\"role\":null,\"amount\":null},{\"name\":\"太平科创\",\"role\":null,\"amount\":null},{\"name\":\"宁波人才集团\",\"role\":null,\"amount\":null},{\"name\":\"赛领资本\",\"role\":null,\"amount\":null},{\"name\":\"南岭创投\",\"role\":\"追加投资\",\"amount\":null},{\"name\":\"未来宇航资本\",\"role\":\"追加投资\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:375ffe60d22ef8b400b4525c9284739812932309a4196a1b0df732af9f798296",
+    "company_id": "co:full_legal_name:042aa1e948c88fe43a09d5b62cfc25c1",
+    "day": "2022-04-12",
+    "source": "https://m.pedaily.cn/vc/invest/v106002-r3142",
+    "expected": {
+      "round": "Pre-IPO",
+      "amount": "近5亿人民币",
+      "investors_json": "[{\"name\":\"CMC资本旗下华文清能一期基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中集资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中和万方\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中芯聚源\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"太平科创\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"宁波人才集团\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"弘玺资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"明湾资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"智汇基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"赛领资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"中铝资本\",\"role\":null,\"amount\":null},{\"name\":\"北京睿理投资\",\"role\":null,\"amount\":null},{\"name\":\"卓戴资本\",\"role\":null,\"amount\":null},{\"name\":\"南岭投资\",\"role\":null,\"amount\":null},{\"name\":\"安华创投基金\",\"role\":null,\"amount\":null},{\"name\":\"安徽创投\",\"role\":null,\"amount\":null},{\"name\":\"新荣拓展\",\"role\":null,\"amount\":null},{\"name\":\"方正和生投资\",\"role\":null,\"amount\":null},{\"name\":\"日出安盛资本\",\"role\":null,\"amount\":null},{\"name\":\"未来宇航资产\",\"role\":null,\"amount\":null},{\"name\":\"皖投集团\",\"role\":null,\"amount\":null},{\"name\":\"盈汇通\",\"role\":null,\"amount\":null},{\"name\":\"红塔创投\",\"role\":null,\"amount\":null},{\"name\":\"金科君创\",\"role\":null,\"amount\":null},{\"name\":\"银株资本\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖百孚\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-IPO",
+      "amount": "近5亿人民币",
+      "investors_json": "[{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"中铝资本\",\"role\":null,\"amount\":null},{\"name\":\"北京睿理投资\",\"role\":null,\"amount\":null},{\"name\":\"卓戴资本\",\"role\":null,\"amount\":null},{\"name\":\"南岭投资\",\"role\":null,\"amount\":null},{\"name\":\"安华创投基金\",\"role\":null,\"amount\":null},{\"name\":\"安徽创投\",\"role\":null,\"amount\":null},{\"name\":\"新荣拓展\",\"role\":null,\"amount\":null},{\"name\":\"方正和生投资\",\"role\":null,\"amount\":null},{\"name\":\"日出安盛资本\",\"role\":null,\"amount\":null},{\"name\":\"未来宇航资产\",\"role\":null,\"amount\":null},{\"name\":\"皖投集团\",\"role\":null,\"amount\":null},{\"name\":\"盈汇通\",\"role\":null,\"amount\":null},{\"name\":\"红塔创投\",\"role\":null,\"amount\":null},{\"name\":\"金科君创\",\"role\":null,\"amount\":null},{\"name\":\"银株资本\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖百孚\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "public:historical-disclosure:5b83ee5b52650eb4110468",
+    "company_id": "co:cn_uscc:9f2976560a43c5e891a5ebc3c248287c",
+    "day": "2026-05-27",
+    "source": "https://www.cmccap.com/en/news/detail/435",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"CMC资本\",\"role\":\"联合领投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"华文清能一期投资基金（滁州）合伙企业（有限合伙）\",\"role\":\"联合领投\",\"amount\":null}]"
+    }
   }
 ]
