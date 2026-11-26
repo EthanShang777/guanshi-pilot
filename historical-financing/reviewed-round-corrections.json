@@ -3937,5 +3937,21 @@
       "investors_json": "[]"
     },
     "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638689&stockid=002176"
+  },
+  {
+    "event_id": "retro-20261118-yingkan",
+    "company_id": "co:full_legal_name:37b845b180633f130830107fb69ff278",
+    "day": "2026-11-17",
+    "expected": {
+      "round": "Pre-B轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[]"
+    },
+    "corrected": {
+      "round": "Pre-B轮",
+      "amount": "数千万元人民币",
+      "investors_json": "[{\"name\":\"商汤国香资本\",\"role\":\"独家投资\",\"amount\":null}]"
+    },
+    "source": "https://www.chinaventure.com.cn/news/114-20261117-394080.html"
   }
 ]

@@ -3791,6 +3791,364 @@
       "existing_count": 0,
       "pending_count": 0,
       "batch": "2026-11-26-october-reconciliation-132.csv"
+    },
+    {
+      "institution": "投资界十月公开融资",
+      "checked_on": "2026-11-26",
+      "scope": "用公开原始报道、企业或资方披露回查仍未核实的周榜项目",
+      "sources": [
+        "https://m.pedaily.cn/news/570185",
+        "https://www.thecapital.com.cn/news/detail/125215",
+        "https://m.pedaily.cn/news/570192",
+        "https://finance.eastmoney.com/a/202610143895185493.html",
+        "https://m.pedaily.cn/news/570286",
+        "https://m.chinastarmarket.cn/detail/2505937",
+        "https://m.pedaily.cn/news/570363",
+        "https://finance.eastmoney.com/a/202610163898115542.html",
+        "https://m.pedaily.cn/news/570461",
+        "https://www.chinastarmarket.cn/detail/2508552",
+        "https://m.pedaily.cn/news/570479",
+        "https://www.36kr.com/p/4032195238482313",
+        "https://m.pedaily.cn/news/570810",
+        "https://www.36kr.com/p/4042389277071233",
+        "https://m.pedaily.cn/news/570868",
+        "https://www.chinaventure.com.cn/news/114-20261027-393785.html",
+        "https://m.pedaily.cn/news/570976",
+        "https://www.thecapital.com.cn/news/detail/125394",
+        "https://m.pedaily.cn/news/571102",
+        "https://api3.cls.cn/share/article/2519770?app=stib&os=web&sv=849",
+        "https://m.pedaily.cn/news/570260",
+        "https://nexform.tech/articles/nexform-seed-funding-2026",
+        "https://m.pedaily.cn/news/570552",
+        "https://vc.pedaily.cn/invest/427051.html",
+        "https://m.pedaily.cn/news/570560",
+        "https://m.pedaily.cn/news/570623",
+        "https://m.pedaily.cn/news/570142",
+        "https://www.jinchengcn.com/about"
+      ],
+      "candidate_count": 0,
+      "existing_count": 12,
+      "pending_count": 3,
+      "checked_records": {
+        "https://news.pedaily.cn/202610/570185.shtml": {
+          "stem": "三凯机电",
+          "date": "2026-10-13",
+          "outcome": "已有",
+          "reason": "与已收录的浙江三凯机电10月13日B轮同笔，金额级别和主要投资方一致。",
+          "sources": [
+            "https://m.pedaily.cn/news/570185",
+            "https://www.thecapital.com.cn/news/detail/125215"
+          ],
+          "records": [
+            {
+              "eventId": "45f838337ed71012cc7d5f74",
+              "company": "浙江三凯机电有限公司",
+              "day": "2026-10-13",
+              "stage": "B轮",
+              "amount": "数亿人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570192.shtml": {
+          "stem": "天序智能",
+          "date": "2026-10-13",
+          "outcome": "已有",
+          "reason": "对应嘉兴法人10月13日数千万元Pre-A+轮，厚雪独家投资。",
+          "sources": [
+            "https://m.pedaily.cn/news/570192",
+            "https://finance.eastmoney.com/a/202610143895185493.html"
+          ],
+          "records": [
+            {
+              "eventId": "b7ec694fe152d4418ab6d6e0",
+              "company": "天序智能科技（嘉兴）有限公司",
+              "day": "2026-10-13",
+              "stage": "Pre-A+轮",
+              "amount": "数千万人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570286.shtml": {
+          "stem": "爱博合创",
+          "date": "2026-10-15",
+          "outcome": "已有",
+          "reason": "同一主体、轮次、日期及主要资方，保留原ID。",
+          "sources": [
+            "https://m.pedaily.cn/news/570286",
+            "https://m.chinastarmarket.cn/detail/2505937"
+          ],
+          "records": [
+            {
+              "eventId": "12e7871034bde5e33a798241",
+              "company": "深圳爱博合创医疗机器人有限公司",
+              "day": "2026-10-15",
+              "stage": "A+轮",
+              "amount": "数千万人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570363.shtml": {
+          "stem": "源归材料",
+          "date": "2026-10-16",
+          "outcome": "已有",
+          "reason": "来源所列三家及金额级别对应库内原C+轮，媒体报道日期留源。",
+          "sources": [
+            "https://m.pedaily.cn/news/570363",
+            "https://finance.eastmoney.com/a/202610163898115542.html"
+          ],
+          "records": [
+            {
+              "eventId": "ae7426ebf0dcfafaaf93f49a",
+              "company": "上海源归材料科技有限公司",
+              "day": "2026-10-10",
+              "stage": "C+轮",
+              "amount": "数亿元人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570461.shtml": {
+          "stem": "海博特",
+          "date": "2026-10-19",
+          "outcome": "已有",
+          "reason": "同一主体B+轮，第三方标题超7000万元覆盖原档7006万元口径。",
+          "sources": [
+            "https://m.pedaily.cn/news/570461",
+            "https://www.chinastarmarket.cn/detail/2508552"
+          ],
+          "records": [
+            {
+              "eventId": "f401b644c6a746d602c74073",
+              "company": "广州海博特医药科技有限公司",
+              "day": "2026-10-19",
+              "stage": "B+轮",
+              "amount": "7,006万元"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570479.shtml": {
+          "stem": "国宇星辰",
+          "date": "2026-10-19",
+          "outcome": "已有",
+          "reason": "同一法人和已披露A轮及具名资方，保留原金额与披露日期。",
+          "sources": [
+            "https://m.pedaily.cn/news/570479",
+            "https://www.36kr.com/p/4032195238482313"
+          ],
+          "records": [
+            {
+              "eventId": "3d4ec7c1da4e42342f4f7cb1",
+              "company": "国宇星辰（上海）航天科技有限公司",
+              "day": "2026-10-19",
+              "stage": "A轮",
+              "amount": "近亿人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570810.shtml": {
+          "stem": "趋境科技",
+          "date": "2026-10-26",
+          "outcome": "已有",
+          "reason": "正文逐项匹配2026年10月B轮及六家共同领投，正文当年累计金额另计。",
+          "sources": [
+            "https://m.pedaily.cn/news/570810",
+            "https://www.36kr.com/p/4042389277071233"
+          ],
+          "records": [
+            {
+              "eventId": "abb41f0536e571887262041f",
+              "company": "北京趋境科技有限责任公司",
+              "day": "2026-10-26",
+              "stage": "B轮",
+              "amount": "超13亿元人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570868.shtml": {
+          "stem": "诺亦腾机器人",
+          "date": "2026-10-26",
+          "outcome": "已有",
+          "reason": "已收录由汇融基金独投的Pre-A+++轮。",
+          "sources": [
+            "https://m.pedaily.cn/news/570868",
+            "https://www.chinaventure.com.cn/news/114-20261027-393785.html"
+          ],
+          "records": [
+            {
+              "eventId": "fc3c3493c307a08c50b859ea",
+              "company": "诺亦腾机器人科技（北京）有限公司",
+              "day": "2026-10-26",
+              "stage": "Pre-A+++轮",
+              "amount": "未披露"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570976.shtml": {
+          "stem": "百奥几何",
+          "date": "2026-10-28",
+          "outcome": "已有",
+          "reason": "核实标题给的是A轮系列累计金额，10月公告的是已收录A+，本轮金额未单独披露。",
+          "sources": [
+            "https://m.pedaily.cn/news/570976",
+            "https://www.thecapital.com.cn/news/detail/125394"
+          ],
+          "records": [
+            {
+              "eventId": "bee31e85b3dc63701d1eaf7d",
+              "company": "北京百奥几何生物科技有限公司",
+              "day": "2026-10-28",
+              "stage": "A+轮",
+              "amount": "未单独披露"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/571102.shtml": {
+          "stem": "湾测",
+          "date": "2026-10-30",
+          "outcome": "已有",
+          "reason": "同一主体、出资方及数千万元战略融资。10月29日披露已有原档。",
+          "sources": [
+            "https://m.pedaily.cn/news/571102",
+            "https://api3.cls.cn/share/article/2519770?app=stib&os=web&sv=849"
+          ],
+          "records": [
+            {
+              "eventId": "c42179598e699f6e448872f5",
+              "company": "深圳市湾测技术有限公司",
+              "day": "2026-10-29",
+              "stage": "战略融资",
+              "amount": "数千万元人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570260.shtml": {
+          "stem": "NEXFORM新元体",
+          "date": "2026-10-14",
+          "outcome": "已有",
+          "reason": "与公司披露同一数千万元种子轮，同一具名投资方。",
+          "sources": [
+            "https://m.pedaily.cn/news/570260",
+            "https://nexform.tech/articles/nexform-seed-funding-2026"
+          ],
+          "records": [
+            {
+              "eventId": "a8530b358918887ab86eab4d",
+              "company": "NEXFORM新元体",
+              "day": "2026-10-15",
+              "stage": "种子轮",
+              "amount": "数千万元"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570552.shtml": {
+          "stem": "庆为航空",
+          "date": "2026-10-20",
+          "outcome": "冲突待核",
+          "reason": "9月数据库和10月的报道同具三家投资方，金额略有差异。待公司和投资方确认是否按同轮归并。",
+          "sources": [
+            "https://m.pedaily.cn/news/570552",
+            "https://vc.pedaily.cn/invest/427051.html"
+          ],
+          "records": [
+            {
+              "eventId": "9fa15db94cd30042e1d62aac",
+              "company": "深圳市庆为航空科技有限公司",
+              "day": "2026-10-20",
+              "stage": "战略融资",
+              "amount": "超5000万元"
+            },
+            {
+              "eventId": "c527d4a10887af8867a1a60e",
+              "company": "深圳市庆为航空科技有限公司",
+              "day": "2026-09-22",
+              "stage": "Pre-A+++轮",
+              "amount": "5000万人民币"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570560.shtml": {
+          "stem": "臣博视",
+          "date": "2026-10-20",
+          "outcome": "冲突待核",
+          "reason": "本次原报道确认完成A轮签约，待取得实际完成或付款证据，保留原记录待审。",
+          "sources": [
+            "https://m.pedaily.cn/news/570560"
+          ],
+          "records": [
+            {
+              "eventId": "0451e40bf344cfdf12a216d8",
+              "company": "湖北臣博视人工智能科技有限公司",
+              "day": "2026-10-14",
+              "stage": "A轮",
+              "amount": "未披露"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570623.shtml": {
+          "stem": "紫明低温",
+          "date": "2026-10-21",
+          "outcome": "冲突待核",
+          "reason": "同日存在B轮原档，原报道基金全称与旧数据有差异，待核出资载体。",
+          "sources": [
+            "https://m.pedaily.cn/news/570623"
+          ],
+          "records": [
+            {
+              "eventId": "0ec52a1c6b9b8f7152656b8c",
+              "company": "浙江紫明低温科技有限公司",
+              "day": "2026-10-21",
+              "stage": "B轮",
+              "amount": "未披露"
+            }
+          ]
+        },
+        "https://news.pedaily.cn/202610/570142.shtml": {
+          "stem": "金珵科技",
+          "date": "2026-10-13",
+          "outcome": "已有",
+          "reason": "金珵品牌、工业大模型与10月13日A轮报道对应已有的上海金珵科技有限公司原档。",
+          "sources": [
+            "https://m.pedaily.cn/news/570142",
+            "https://www.jinchengcn.com/about"
+          ],
+          "records": [
+            {
+              "eventId": "6cd639967e6ece4714fe8764",
+              "company": "上海金珵科技有限公司",
+              "day": "2026-10-13",
+              "stage": "A轮",
+              "amount": "未披露"
+            }
+          ]
+        }
+      },
+      "batch": "2026-11-26-october-source-recheck-133.csv"
+    },
+    {
+      "institution": "元禾原点、厚雪资本",
+      "checked_on": "2026-11-26",
+      "scope": "从公开机构线索回查鹰瞰智翼及猿声科技，沿发行主体对照全库",
+      "sources": [
+        "https://www.js-vc.org.cn/article-34710-249577.html",
+        "https://www.chinaventure.com.cn/news/114-20261117-394080.html",
+        "https://www.ins-vc.com/newsinfo/11114852.html",
+        "https://www.bbtnews.com.cn/2026/0402/589611.shtml",
+        "https://www.sohu.com/a/959166140_115377",
+        "https://www.thecapital.com.cn/news/detail/125601",
+        "https://www.thecapital.com.cn/news/detail/125602",
+        "https://m.pedaily.cn/vc/invest/r3135-y2026-c319",
+        "https://www.ensuringtech.com/about/"
+      ],
+      "candidate_count": 4,
+      "existing_count": 1,
+      "pending_count": 1,
+      "batch": "2026-11-26-october-source-recheck-133.csv",
+      "pending": [
+        {
+          "company": "猿声先达科技（深圳）有限公司",
+          "source": "https://www.ensuringtech.com/about/",
+          "reason": "官网提及拓普集团在10月合作前已参与战略投资，尚缺具体交易日期、金额与该轮其他机构，保留线索。"
+        }
+      ]
     }
   ]
 }
