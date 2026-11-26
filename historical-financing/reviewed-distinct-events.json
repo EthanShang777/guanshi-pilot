@@ -1885,5 +1885,53 @@
     },
     "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-07-31/11aa5ae1-9ef8-4554-9e08-ef9660a34476.PDF",
     "reason": "原件分列不同现金增资和老股协议，或同月不同认购、不同工商登记。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1d70142d5992f0ddeb2755",
+      "company_id": "co:cn_uscc:4016d23da11b0e9f1dd9c019def48b78"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:576b303bd74be865b1d337",
+      "company_id": "co:cn_uscc:4016d23da11b0e9f1dd9c019def48b78"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2019-10-28/1207024684.PDF",
+    "reason": "同一工商变更含两笔独立交易。货币增资款到账和张义民个人股权转让分别有协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:576b303bd74be865b1d337",
+      "company_id": "co:cn_uscc:4016d23da11b0e9f1dd9c019def48b78"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1d70142d5992f0ddeb2755",
+      "company_id": "co:cn_uscc:4016d23da11b0e9f1dd9c019def48b78"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2019-10-28/1207024684.PDF",
+    "reason": "同一工商变更含两笔独立交易。货币增资款到账和张义民个人股权转让分别有协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:5de26bef93b9cd74614191",
+      "company_id": "co:cn_uscc:b268855f9787ad558614d2b1b90d0698"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2a1f4b6e439c0a626f95c3",
+      "company_id": "co:cn_uscc:b268855f9787ad558614d2b1b90d0698"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf",
+    "reason": "5月22日小米10000万元付给老股东。5月26日14家现金增资190000万元，分别签约。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2a1f4b6e439c0a626f95c3",
+      "company_id": "co:cn_uscc:b268855f9787ad558614d2b1b90d0698"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:5de26bef93b9cd74614191",
+      "company_id": "co:cn_uscc:b268855f9787ad558614d2b1b90d0698"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf",
+    "reason": "5月22日小米10000万元付给老股东。5月26日14家现金增资190000万元，分别签约。"
   }
 ]

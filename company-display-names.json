@@ -4798,5 +4798,73 @@
     "sources": [
       "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=80554897&gather=1&id=7230013"
     ]
+  },
+  "4e273cd62a055c8fcb934d74": {
+    "name": "紫江新材",
+    "registeredName": "上海紫江新材料科技股份有限公司",
+    "aliases": [
+      "上海紫藤包装材料有限公司",
+      "上海紫江新材料有限公司",
+      "874461"
+    ],
+    "sources": [
+      "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2023/2023-1/2023-01-06/8774402.PDF"
+    ]
+  },
+  "54c90a00c91c7b68ee3d2fc0": {
+    "name": "信科移动",
+    "registeredName": "中信科移动通信技术股份有限公司",
+    "aliases": [
+      "中信科移动通信技术有限公司",
+      "武汉虹信通信技术有限责任公司",
+      "688387"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf",
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12546118"
+    ]
+  },
+  "a5c3161b52cd43a30be817f2": {
+    "name": "杰普特",
+    "registeredName": "深圳市杰普特光电股份有限公司",
+    "aliases": [
+      "深圳市杰普特电子技术有限公司",
+      "688025"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2019-10-28/1207024684.PDF"
+    ]
+  },
+  "b5fe24b7e35e82c2fa3903c9": {
+    "name": "比亚迪半导体",
+    "registeredName": "比亚迪半导体股份有限公司",
+    "aliases": [
+      "比亚迪半导体有限公司",
+      "深圳比亚迪微电子有限公司"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf"
+    ]
+  },
+  "17176cbaac3a1e42b8ecb9cc": {
+    "name": "中国海防",
+    "registeredName": "中国船舶重工集团海洋防务与信息对抗股份有限公司",
+    "aliases": [
+      "中船重工海防",
+      "600764"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-02-15/1207306963.PDF"
+    ]
+  },
+  "36e33b532521b90605c50b9f": {
+    "name": "嘉戎技术",
+    "registeredName": "厦门嘉戎技术股份有限公司",
+    "aliases": [
+      "301148"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-04-20/1212979128.PDF"
+    ]
   }
 }

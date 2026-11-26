@@ -14210,7 +14210,8 @@
       "pages": "第3-1-167至173页",
       "lpSources": [
         "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202403291629072420&pageIndex=9",
-        "https://epaper.cs.com.cn/zgzqb/html/2020-08/04/nw.D110000zgzqb_20200804_4-B018.htm"
+        "https://epaper.cs.com.cn/zgzqb/html/2020-08/04/nw.D110000zgzqb_20200804_4-B018.htm",
+        "https://static.cninfo.com.cn/finalpage/2025-07-16/1224177681.PDF"
       ],
       "lpScope": "13名LP、一名GP。2024-03公开披露其时全体实缴40.4亿元；现合伙表按11月变更后版本。新进漕河泾单独支付的份额价款待核。",
       "generalPartners": [
@@ -14291,6 +14292,110 @@
         "totalPaidCny": 4040000000
       },
       "historicalLpDisclosures": [
+        {
+          "asOf": "2018-05-18",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-07-16/1224177681.PDF",
+          "registeredCny": 1111000000,
+          "partners": [
+            {
+              "name": "上海军民融合产业投资管理有限公司",
+              "disclosedContributionCny": 11000000,
+              "disclosedPercent": 0.99
+            },
+            {
+              "name": "上海国盛（集团）有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 45.0
+            },
+            {
+              "name": "上海紫竹高新区（集团）有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 18.0
+            },
+            {
+              "name": "上海临港经济发展集团资产管理有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 9.0
+            },
+            {
+              "name": "上海仪电（集团）有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 9.0
+            },
+            {
+              "name": "上海纺织投资管理有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 9.0
+            },
+            {
+              "name": "上海云锋新呈投资中心（有限合伙）",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 9.0
+            }
+          ]
+        },
+        {
+          "asOf": "2019-12-30",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-07-16/1224177681.PDF",
+          "registeredCny": 2929000000,
+          "partners": [
+            {
+              "name": "上海军民融合产业投资管理有限公司",
+              "disclosedContributionCny": 29000000,
+              "disclosedPercent": 0.99
+            },
+            {
+              "name": "上海国盛（集团）有限公司",
+              "disclosedContributionCny": 1100000000,
+              "disclosedPercent": 37.56
+            },
+            {
+              "name": "上海国际集团有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 17.07
+            },
+            {
+              "name": "军民融合发展产业投资基金（有限合伙）",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 17.07
+            },
+            {
+              "name": "上海紫竹高新区（集团）有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 6.83
+            },
+            {
+              "name": "上海临港经济发展集团资产管理有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 3.41
+            },
+            {
+              "name": "上海仪电（集团）有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 3.41
+            },
+            {
+              "name": "上海纺织投资管理有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 3.41
+            },
+            {
+              "name": "上海云锋新呈投资中心（有限合伙）",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 3.41
+            },
+            {
+              "name": "上海市信息投资股份有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 3.41
+            },
+            {
+              "name": "上海市闵行区创新创业投资引导基金管理中心（上海市闵行区金融服务中心）",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 3.41
+            }
+          ]
+        },
         {
           "asOf": "2024-03-29",
           "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202403291629072420&pageIndex=9",
@@ -14448,6 +14553,698 @@
         "disclosedContributionCny": 100000000,
         "disclosedPercent": 2.48,
         "existingInstitution": "7f73db6b7dbadb0c634979ab"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "ab6903adad6cb9ca6d8b2ced",
+    "fundName": "中电中金（厦门）智能产业股权投资基金合伙企业（有限合伙）",
+    "managerName": "中电中金（厦门）电子产业私募股权投资管理有限公司",
+    "managerId": "6e79149806fb44f4e97eb99a",
+    "sizeCny": 2821000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605121822210889&pageIndex=11",
+      "date": "2026-05-12",
+      "dateKind": "公开文件披露日",
+      "issuer": "鼎材科技公开转让说明书（更正后）",
+      "pages": "公告分页第11页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf"
+      ],
+      "lpScope": "15名LP及1名GP，逐项认缴和实缴金额披露一致。早一期31.21亿元是早期认缴快照。",
+      "generalPartners": [
+        {
+          "name": "中电中金（厦门）电子产业私募股权投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "中电中金（厦门）电子产业私募股权投资管理有限公司",
+      "creditCode": "91350200MA31Q54A6G",
+      "fundRegistration": "SGN778",
+      "filingDate": "2019-06-20",
+      "managerRegistration": "GC2600031326",
+      "managerCreditCode": "91350200MA31LRAH45",
+      "paidContributionSource": {
+        "url": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605121822210889&pageIndex=11",
+        "date": "2026-05-12",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "中金启融（厦门）股权投资基金合伙企业（有限合伙）",
+            "paidCny": 600000000
+          },
+          {
+            "name": "厦门金圆投资集团有限公司",
+            "paidCny": 480000000
+          },
+          {
+            "name": "中电光谷（深圳）产业发展有限公司",
+            "paidCny": 450000000
+          },
+          {
+            "name": "湖南省新兴产业股权投资引导基金合伙企业（有限合伙）",
+            "paidCny": 300000000
+          },
+          {
+            "name": "中保投信鸿（深圳）投资合伙企业（有限合伙）",
+            "paidCny": 200000000
+          },
+          {
+            "name": "鞍钢集团资本控股有限公司",
+            "paidCny": 200000000
+          },
+          {
+            "name": "湖南湘潭财信产兴股权投资合伙企业（有限合伙）",
+            "paidCny": 150000000
+          },
+          {
+            "name": "厦门火炬高新区招商服务中心有限公司",
+            "paidCny": 140000000
+          },
+          {
+            "name": "交银国际信托有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "湖南省财信精益投资合伙企业（有限合伙）",
+            "paidCny": 60000000
+          },
+          {
+            "name": "厦门市创业投资有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "厦门金创绿色低碳股权投资基金合伙企业（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "中金资本运营有限公司",
+            "paidCny": 25000000
+          },
+          {
+            "name": "电开启重（厦门）企业管理咨询合伙企业（有限合伙）",
+            "paidCny": 20000000
+          },
+          {
+            "name": "开耀（厦门）股权投资管理有限公司",
+            "paidCny": 15000000
+          },
+          {
+            "name": "中电中金（厦门）电子产业私募股权投资管理有限公司",
+            "paidCny": 1000000
+          }
+        ],
+        "totalPaidCny": 2821000000
+      },
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2022-04-29",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202204/001079_20220429_JQCY.pdf",
+          "registeredCny": 3121000000,
+          "partners": [
+            {
+              "name": "中电中金（厦门）电子产业私募股权投资管理有限公司",
+              "disclosedContributionCny": 1000000,
+              "disclosedPercent": 0.03
+            },
+            {
+              "name": "中金启融（厦门）股权投资基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": 32.04
+            },
+            {
+              "name": "厦门金圆投资集团有限公司",
+              "disclosedContributionCny": 800000000,
+              "disclosedPercent": 25.63
+            },
+            {
+              "name": "中电光谷（深圳）产业发展有限公司",
+              "disclosedContributionCny": 750000000,
+              "disclosedPercent": 24.03
+            },
+            {
+              "name": "湖南省新兴产业股权投资引导基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 300000000,
+              "disclosedPercent": 9.61
+            },
+            {
+              "name": "厦门火炬高新区招商服务中心有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 6.41
+            },
+            {
+              "name": "开耀（厦门）股权投资管理有限公司",
+              "disclosedContributionCny": 25000000,
+              "disclosedPercent": 0.8
+            },
+            {
+              "name": "中金资本运营有限公司",
+              "disclosedContributionCny": 25000000,
+              "disclosedPercent": 0.8
+            },
+            {
+              "name": "电开启重（厦门）智能产业股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 20000000,
+              "disclosedPercent": 0.64
+            }
+          ]
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "中金启融（厦门）股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 21.27,
+        "existingInstitution": "e801f5c3600f1b5a2976632f"
+      },
+      {
+        "name": "厦门金圆投资集团有限公司",
+        "disclosedContributionCny": 480000000,
+        "disclosedPercent": 17.02,
+        "existingInstitution": "25079d08bfb4aa6bd20b40c8"
+      },
+      {
+        "name": "中电光谷（深圳）产业发展有限公司",
+        "disclosedContributionCny": 450000000,
+        "disclosedPercent": 15.95,
+        "existingInstitution": "ca068b8be0b0aa0de138183f"
+      },
+      {
+        "name": "湖南省新兴产业股权投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 10.63,
+        "existingInstitution": "89252b66a6faad0b4ed73e89"
+      },
+      {
+        "name": "中保投信鸿（深圳）投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 7.09,
+        "existingInstitution": "559e0e189ea0771f2398bac0"
+      },
+      {
+        "name": "鞍钢集团资本控股有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 7.09,
+        "existingInstitution": "3e86b5df5b316f6225e71e85"
+      },
+      {
+        "name": "湖南湘潭财信产兴股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 5.32,
+        "existingInstitution": "37b37769a5bd510786261f43"
+      },
+      {
+        "name": "厦门火炬高新区招商服务中心有限公司",
+        "disclosedContributionCny": 140000000,
+        "disclosedPercent": 4.96,
+        "existingInstitution": "b0edc797acee980ea15d3835"
+      },
+      {
+        "name": "交银国际信托有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.54,
+        "existingInstitution": "0c62371425159f3ec9d4035f"
+      },
+      {
+        "name": "湖南省财信精益投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 2.13,
+        "existingInstitution": "7381e25a3dc52cf9d12fd28f"
+      },
+      {
+        "name": "厦门市创业投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 1.77,
+        "existingInstitution": "8ece310ed0f1dd0db28aea7c"
+      },
+      {
+        "name": "厦门金创绿色低碳股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 1.06,
+        "existingInstitution": "3a8a17266a0d55f974bd9c21"
+      },
+      {
+        "name": "中金资本运营有限公司",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": 0.89,
+        "existingInstitution": "0608860da9946084fa63506a"
+      },
+      {
+        "name": "电开启重（厦门）企业管理咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 0.71,
+        "existingInstitution": "a81225acf97d35b5c7663aaf"
+      },
+      {
+        "name": "开耀（厦门）股权投资管理有限公司",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 0.53,
+        "existingInstitution": "fb9eac2b622889bea4f9be94"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "2501e043407ef55f524807e0",
+    "fundName": "军民融合发展产业投资基金（有限合伙）",
+    "managerName": "国投创合（上海）投资管理有限公司",
+    "managerId": "19f511b2ff3b3865fdc805cb",
+    "sizeCny": 9065000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://epaper.stcn.com/att/202306/16/bd9c4d8b-032b-4fb2-ac35-dbedd507580d.pdf",
+      "date": "2023-06-16",
+      "dateKind": "公开文件披露日",
+      "issuer": "东华软件交易公告",
+      "pages": "交易对手认缴表",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202103/000745_20210324_9F0Y.pdf",
+        "https://static.cninfo.com.cn/finalpage/2022-04-11/1212857196.PDF",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202501/61a264_20250117_SSNJ.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2023-09-25/115941_20230925_8ZO7.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/corporate/c/new/2026-01-16/244547_20260116_IMJ2.pdf"
+      ],
+      "lpScope": "10名LP及1名GP，按公告及后续机构名称更新。同一基金早期认缴90.5亿元另留记录，基金总实缴待核。",
+      "generalPartners": [
+        {
+          "name": "国投创合（上海）投资管理有限公司",
+          "disclosedContributionCny": 50000000
+        }
+      ],
+      "managerLegalName": "国投创合（上海）投资管理有限公司",
+      "creditCode": "91310000MA1FL57H4G",
+      "fundRegistration": "SGC148",
+      "filingDate": "2019-04-17",
+      "managerRegistration": "P1069374",
+      "aliases": [
+        "发展产业投资基金（有限合伙）",
+        "融发基金"
+      ],
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2021-03-24",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202103/000745_20210324_9F0Y.pdf",
+          "registeredCny": 9050000000,
+          "partners": [
+            {
+              "name": "国投创合（上海）投资管理有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 0.552
+            },
+            {
+              "name": "国家开发投资集团有限公司",
+              "disclosedContributionCny": 2500000000,
+              "disclosedPercent": 27.624
+            },
+            {
+              "name": "上海国盛（集团）有限公司",
+              "disclosedContributionCny": 2400000000,
+              "disclosedPercent": 26.519
+            },
+            {
+              "name": "湖北省长江经济带产业引导基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 1500000000,
+              "disclosedPercent": 16.575
+            },
+            {
+              "name": "上海市闵行区创新创业投资引导基金管理中心（上海市闵行区金融服务中心）",
+              "disclosedContributionCny": 600000000,
+              "disclosedPercent": 6.63
+            },
+            {
+              "name": "天津港（集团）有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 5.525
+            },
+            {
+              "name": "珠海发展投资基金（有限合伙）",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 5.525
+            },
+            {
+              "name": "吉林省股权基金投资有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 5.525
+            },
+            {
+              "name": "南昌临空产业股权投资管理有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.21
+            },
+            {
+              "name": "厦门国贸资产运营集团有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 2.21
+            },
+            {
+              "name": "潍坊凤翔新旧动能转换股权投资基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1.105
+            }
+          ]
+        }
+      ],
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202501/61a264_20250117_SSNJ.pdf",
+        "date": "2025-01-17",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "上海国盛（集团）有限公司",
+            "paidCny": 960000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "国家开发投资集团有限公司",
+        "disclosedContributionCny": 2500000000,
+        "disclosedPercent": 27.58,
+        "existingInstitution": "f8d0214772925a353519ee37"
+      },
+      {
+        "name": "上海国盛（集团）有限公司",
+        "disclosedContributionCny": 2400000000,
+        "disclosedPercent": 26.48,
+        "existingInstitution": "6bfa7c943b6d6c10a0ff9194"
+      },
+      {
+        "name": "湖北长江产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": 16.55,
+        "existingInstitution": "1595f8f3be2832eaaf1022cb"
+      },
+      {
+        "name": "上海市闵行区创新创业投资引导基金管理中心（上海市闵行区金融服务中心）",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 6.62,
+        "existingInstitution": "fb1d9aa7c50b737c9317cc00"
+      },
+      {
+        "name": "天津港（集团）有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 5.52,
+        "existingInstitution": "fc559e01cad16285e3e47da3"
+      },
+      {
+        "name": "珠海发展投资基金（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 5.52,
+        "existingInstitution": "eeecbf29719f1cee131dd256"
+      },
+      {
+        "name": "吉林省股权基金投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 5.52,
+        "existingInstitution": "b1bca20784bad8880c05b423"
+      },
+      {
+        "name": "厦门国贸资产运营集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 2.21,
+        "existingInstitution": "f51e0fd22431ad1e7ea6451e"
+      },
+      {
+        "name": "陕西省政府投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 3.31,
+        "existingInstitution": "168b9578aa832eee851b767a"
+      },
+      {
+        "name": "珠海合创方道投资企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 0.17,
+        "existingInstitution": "4728d8c0bf69f7d0f39c9841"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1a98cb2c8ffd7543519039d9",
+    "fundName": "创合融发（陕西）航空航天创业投资合伙企业（有限合伙）",
+    "managerName": "国投创合（上海）投资管理有限公司",
+    "managerId": "19f511b2ff3b3865fdc805cb",
+    "sizeCny": 652000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202509011737722910&pageIndex=7",
+      "date": "2025-09-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "承德天大钒业挂牌法律意见书",
+      "pages": "公告分页第7页",
+      "lpSources": [],
+      "lpScope": "4名LP及1名GP，军民融合发展产业基金是直接LP。已披露认缴，逐家实缴待核。",
+      "generalPartners": [
+        {
+          "name": "国投创合（上海）投资管理有限公司",
+          "disclosedContributionCny": 3500000
+        }
+      ],
+      "managerLegalName": "国投创合（上海）投资管理有限公司",
+      "creditCode": "91610112MA7NFUX98N",
+      "fundRegistration": "SVS489",
+      "managerRegistration": "P1069374"
+    },
+    "partners": [
+      {
+        "name": "军民融合发展产业投资基金（有限合伙）",
+        "disclosedContributionCny": 397500000,
+        "disclosedPercent": 60.9663,
+        "existingInstitution": "2501e043407ef55f524807e0"
+      },
+      {
+        "name": "西安市创新投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 23.0061,
+        "existingInstitution": "ac66ce70968f159bfcd4b6f5"
+      },
+      {
+        "name": "陕西省政府投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 15.3374,
+        "existingInstitution": "168b9578aa832eee851b767a"
+      },
+      {
+        "name": "杭州合创方瀛股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 0.1534,
+        "existingInstitution": "75138f224b7398c38854a2f0"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "2b3f2861e541ef767ae070d4",
+    "fundName": "联通中金创新产业股权投资基金（深圳）合伙企业（有限合伙）",
+    "managerName": "联通中金私募股权投资管理（深圳）有限公司",
+    "managerId": "3b4774937a7ad856ca0e07f9",
+    "sizeCny": 2406040000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202204/001079_20220429_JQCY.pdf",
+      "date": "2022-04-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "信科移动招股书上会稿",
+      "pages": "第1-1-84页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf"
+      ],
+      "lpScope": "11名LP及1名GP，同期亦参投比亚迪半导体。实缴与可投资余额待核。",
+      "generalPartners": [
+        {
+          "name": "联通中金私募股权投资管理（深圳）有限公司",
+          "disclosedContributionCny": 12040000
+        }
+      ],
+      "managerLegalName": "联通中金私募股权投资管理（深圳）有限公司",
+      "creditCode": "91440300MA5FDTRYXE",
+      "fundRegistration": "SGT377",
+      "managerRegistration": "GC2600031589"
+    },
+    "partners": [
+      {
+        "name": "深圳市引导基金投资有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 24.94,
+        "existingInstitution": "3cc2447cbfd075fdad3c7776"
+      },
+      {
+        "name": "中金启融（厦门）股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 480000000,
+        "disclosedPercent": 19.95,
+        "existingInstitution": "e801f5c3600f1b5a2976632f"
+      },
+      {
+        "name": "深圳市福田引导基金投资有限公司",
+        "disclosedContributionCny": 360000000,
+        "disclosedPercent": 14.96,
+        "existingInstitution": "666207f5f3100faef7fd3acf"
+      },
+      {
+        "name": "联通资本投资控股有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 12.47,
+        "existingInstitution": "0a5c0ce8360d7838f9910937"
+      },
+      {
+        "name": "联通创新创业投资有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 10.39,
+        "existingInstitution": "03acae3731965a7cbe03fabc"
+      },
+      {
+        "name": "深圳市鲲鹏股权投资有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 8.31,
+        "existingInstitution": "f6d8351a1d2603c9a22e9b25"
+      },
+      {
+        "name": "中金资本运营有限公司",
+        "disclosedContributionCny": 120000000,
+        "disclosedPercent": 4.99,
+        "existingInstitution": "0608860da9946084fa63506a"
+      },
+      {
+        "name": "广州星河湾创业投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.08,
+        "existingInstitution": "7dddbb9bb20d7993aa6e3cda"
+      },
+      {
+        "name": "共青城睿祥金通投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 16000000,
+        "disclosedPercent": 0.66,
+        "existingInstitution": "1dc61b7fd59b736c17fd6366"
+      },
+      {
+        "name": "韶关市丹霞天使母基金企业（有限合伙）",
+        "disclosedContributionCny": 12000000,
+        "disclosedPercent": 0.5,
+        "existingInstitution": "13e04e689b277007874229aa"
+      },
+      {
+        "name": "宁波梅山保税港区乾鑫益创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": 0.25,
+        "existingInstitution": "68c04420df41feaf9766d3e6"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "69a64b7b86037c6581196a32",
+    "fundName": "湖北长江中信科移动通信技术产业投资基金合伙企业（有限合伙）",
+    "managerName": "武汉光谷烽火投资基金管理有限公司",
+    "managerId": "25518c255ca823c64a3e37ad",
+    "sizeCny": 5000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10503190&stockid=301626",
+      "date": "2024-09-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "苏州天脉招股意向书",
+      "pages": "长江中信科股东构成及出资情况",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-12-07/1218533830.PDF",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf",
+        "https://qccdata.qichacha.com/ReportData/PDF/b270587381c48b909acc123175597350.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/corporate/c/new/2026-01-16/244547_20260116_IMJ2.pdf"
+      ],
+      "lpScope": "4名LP及1名GP，招股意向书披露认缴50亿元。2023年原件逐项实缴合计47亿元。",
+      "generalPartners": [
+        {
+          "name": "武汉光谷烽火投资基金管理有限公司",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "managerLegalName": "武汉光谷烽火投资基金管理有限公司",
+      "creditCode": "91420100MA49CM0167",
+      "fundRegistration": "SJM005",
+      "managerRegistration": "P1065947",
+      "aliases": [
+        "湖北长江5G基金",
+        "长江中信科"
+      ],
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2023-12-07/1218533830.PDF",
+        "date": "2023-12-07",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "武汉光谷烽火光电子信息产业投资基金合伙企业（有限合伙）",
+            "paidCny": 2480000000
+          },
+          {
+            "name": "武汉市工业发展投资基金（有限合伙）",
+            "paidCny": 1000000000
+          },
+          {
+            "name": "湖北长江产业投资基金合伙企业（有限合伙）",
+            "paidCny": 700000000
+          },
+          {
+            "name": "武汉国创创新投资有限公司",
+            "paidCny": 500000000
+          },
+          {
+            "name": "武汉光谷烽火投资基金管理有限公司",
+            "paidCny": 20000000
+          }
+        ],
+        "totalPaidCny": 4700000000
+      },
+      "additionalPaidContributionSources": [
+        {
+          "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf",
+          "date": "2022-05-16",
+          "dateKind": "公开文件披露日",
+          "partners": [],
+          "totalPaidCny": 3100000000
+        },
+        {
+          "url": "https://qccdata.qichacha.com/ReportData/PDF/b270587381c48b909acc123175597350.pdf",
+          "date": "2022-09-21",
+          "dateKind": "公开文件披露日",
+          "partners": [],
+          "totalPaidCny": 4215000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "武汉光谷烽火光电子信息产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 2480000000,
+        "disclosedPercent": 49.6,
+        "existingInstitution": "bd2072f8b35751d18e95966f"
+      },
+      {
+        "name": "武汉市工业发展投资基金（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "0b4b8f829b28194ef0c96883"
+      },
+      {
+        "name": "湖北长江产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "1595f8f3be2832eaaf1022cb"
+      },
+      {
+        "name": "武汉国创创新投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 10.0,
+        "existingInstitution": "1a40e10db2c33950738f9895"
       }
     ],
     "publishedStatistics": []

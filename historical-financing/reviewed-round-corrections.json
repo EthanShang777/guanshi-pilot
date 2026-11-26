@@ -7318,5 +7318,57 @@
       "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9068221&stockid=002265",
       "https://static.cninfo.com.cn/finalpage/2022-12-08/1215294405.PDF"
     ]
+  },
+  {
+    "event_id": "financing_event:f4d6809707c7dc2d63cb66cf56743b1378d9928aac25d2e1e9fa5dc364f1e440",
+    "company_id": "co:full_legal_name:541d2c3e73631c0fd43c7fd954bacccb",
+    "day": "2021-12-24",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东方嘉富\",\"role\":null,\"amount\":null},{\"name\":\"中国信科\",\"role\":null,\"amount\":null},{\"name\":\"中电基金\",\"role\":null,\"amount\":null},{\"name\":\"国开制造业转型升级基金\",\"role\":null,\"amount\":null},{\"name\":\"海德资本\",\"role\":null,\"amount\":null},{\"name\":\"越秀产业基金\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-24",
+      "date_key": "2021-12-24",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "367500万元",
+      "investors_json": "[{\"name\":\"中国信息通信科技集团有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"国开制造业转型升级基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":155000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"中国国有企业结构调整基金股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":60000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"共青城海德麦克斯韦股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":30000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"广州国资产业发展股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":15000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"杭州嘉富泽涌投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":15000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"广州越秀金蝉三期股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"中电科（南京）产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"联通光谷江控第五代通信产业基金（武汉）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":7500000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"国开科技创业投资有限责任公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"广州越秀智创升级产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"珠海太和七号股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"联通中金创新产业股权投资基金（深圳）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"中电中金（厦门）智能产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"创新创业新动能股权投资基金（湖北）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"湖北国创高投新兴产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"湖北国创汇成股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}},{\"name\":\"武汉欣欣中信科技孵化器有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001079_20220516_N6GD.pdf\"}}]",
+      "date": "2021-07-01",
+      "date_key": "2021-07-01",
+      "date_kind": "验资所载到账截止日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/001079_20211224_WHAU.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202204/001079_20220429_JQCY.pdf",
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10285926"
+    ]
+  },
+  {
+    "event_id": "financing_event:c5aff52e5f282c26e9d54a5d34cc5d4be7c502dbdbf2b15bbe3510632a71f998",
+    "company_id": "co:full_legal_name:956faa25c8e0e6f3efb3a593788a0403",
+    "day": "2019-12-18",
+    "source": "https://static.cninfo.com.cn/finalpage/2020-02-15/1207306963.PDF",
+    "expected": {
+      "round": "定向增发",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中国船舶集团\",\"role\":null,\"amount\":null}]",
+      "date": "2019-12-18",
+      "date_key": "2019-12-18",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "股份对价5940496326.60元",
+      "investors_json": "[{\"name\":\"中国船舶重工集团有限公司\",\"role\":\"重组交易对方\",\"amount\":null},{\"name\":\"中国船舶重工集团公司第七一五研究所\",\"role\":\"重组交易对方\",\"amount\":null},{\"name\":\"中国船舶重工集团公司第七一六研究所\",\"role\":\"重组交易对方\",\"amount\":null},{\"name\":\"中国船舶重工集团公司第七二六研究所\",\"role\":\"重组交易对方\",\"amount\":null},{\"name\":\"江苏杰瑞科技集团有限责任公司\",\"role\":\"重组交易对方\",\"amount\":null},{\"name\":\"中国船舶重工集团投资有限公司\",\"role\":\"重组交易对方\",\"amount\":null},{\"name\":\"中国国有资本风险投资基金股份有限公司\",\"role\":\"重组交易对方\",\"amount\":null},{\"name\":\"泰兴市永志电子器件有限公司\",\"role\":\"重组交易对方\",\"amount\":null}]",
+      "date": "2019-12-18",
+      "date_key": "2019-12-18",
+      "date_kind": "资产收购发行股份登记日"
+    },
+    "additional_sources": [
+      "https://www.cmie.csic.com.cn/n409/n428/c15979/part/14785.pdf"
+    ]
   }
 ]
