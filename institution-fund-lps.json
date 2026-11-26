@@ -661,5 +661,211 @@
     ],
     "sizeCny": 450030000,
     "otherLpCount": 16
+  },
+  {
+    "fundId": "90149e0417288ffee38a8429",
+    "fundName": "上海长三角申创私募基金合伙企业（有限合伙）",
+    "managerName": "君和资本",
+    "managerId": "84597e3538ba8ea0b99b83bb",
+    "sizeCny": 3440000000,
+    "capitalBasis": "披露认缴",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "江苏立霸实业股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.4535",
+        "existingInstitution": "ebc07dc2e6bae7be4b796761"
+      },
+      {
+        "name": "上海国孚领航投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "8.7209",
+        "existingInstitution": "b25426e70b29e0803741f78e"
+      },
+      {
+        "name": "上海创客天地伊号企业发展中心（有限合伙）",
+        "disclosedContributionCny": 480000000,
+        "disclosedPercent": "13.9535",
+        "existingInstitution": "8cb7496cd19d088f59165ada"
+      },
+      {
+        "name": "安徽省铁路发展基金股份有限公司",
+        "disclosedContributionCny": 480000000,
+        "disclosedPercent": "13.9535",
+        "existingInstitution": "332c6b37e38c6fdf00e08924"
+      },
+      {
+        "name": "台州市科投领创股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 480000000,
+        "disclosedPercent": "13.9535",
+        "existingInstitution": "f077c7fea9c2460114be466a"
+      },
+      {
+        "name": "宁波谱韵企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "8.7209",
+        "existingInstitution": "99ce6827960a95702198c465"
+      },
+      {
+        "name": "江西省国控产业发展基金（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "8.7209",
+        "existingInstitution": "c6eaf14848a0f68dcc9d132e"
+      },
+      {
+        "name": "盐城东投科技创新投资管理有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "5.8140",
+        "existingInstitution": "4a7c963c0b4a8729ff3d3a8b"
+      },
+      {
+        "name": "宁波市甬元投资基金有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "5.8140",
+        "existingInstitution": "3c45db3278f5f0cd0f119bbd"
+      },
+      {
+        "name": "上海睿智尚服信息科技有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "4.3605",
+        "existingInstitution": "40c8fa6c6b0a9a7263814dca"
+      },
+      {
+        "name": "中山市欧普投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "2.9070",
+        "existingInstitution": "68df0953694efca1b52feb81"
+      },
+      {
+        "name": "益盟股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "2.9070",
+        "existingInstitution": "0a06b7ac5bec09c6e87c6b32"
+      },
+      {
+        "name": "上海国泰君安创新股权投资母基金中心（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.4535",
+        "existingInstitution": "c3b278899b17a878195260f2"
+      },
+      {
+        "name": "上海临富沪渝私募基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.4535",
+        "existingInstitution": "3892a08cba3f910d9ebc4b43"
+      },
+      {
+        "name": "建元信托股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.4535",
+        "existingInstitution": "a60068540c9b69c8a6538f9d"
+      },
+      {
+        "name": "福建龙头产业股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.4535",
+        "existingInstitution": "f86a9c39623f987d8bfce6b2"
+      },
+      {
+        "name": "无锡恒尚投资管理有限公司",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "0.4360",
+        "existingInstitution": "f83b4f8c0142306cde063733"
+      },
+      {
+        "name": "万林国际控股有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "0.8721",
+        "existingInstitution": "474ebd2521fcb71e5d2af58b"
+      },
+      {
+        "name": "宁波美弗林企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "0.4360",
+        "existingInstitution": "289e0dc65bf3e50b00d9e61b"
+      }
+    ],
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260109/30055c4e4f8d44d7bacadb01c47f083e.PDF",
+      "issuer": "立霸股份基金进展公告",
+      "date": "2026-01-09",
+      "dateKind": "重述合伙协议签署日",
+      "pages": "2–3",
+      "managerLegalName": "上海君和立成投资管理中心（有限合伙）",
+      "filingCode": "SBGU97",
+      "filedOn": "2025-12-03",
+      "capitalVerificationSource": "https://static.cninfo.com.cn/finalpage/2026-04-18/1225118665.PDF",
+      "generalPartner": "上海申创君泰企业管理合伙企业（有限合伙）",
+      "gpCommittedCny": 40000000,
+      "lpScope": "重述合伙协议列明的19家机构LP，按协议变更后口径",
+      "verifiedLpPayments": [
+        {
+          "name": "江苏立霸实业股份有限公司",
+          "paidCny": 15000000,
+          "source": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260109/30055c4e4f8d44d7bacadb01c47f083e.PDF"
+        }
+      ]
+    }
+  },
+  {
+    "fundId": "60bd83a0a51e7b8ceb4aea6d",
+    "fundName": "上海申创申晖私募基金合伙企业（有限合伙）",
+    "managerName": "君和资本",
+    "managerId": "84597e3538ba8ea0b99b83bb",
+    "sizeCny": 2920000000,
+    "capitalBasis": "披露认缴",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "上海临港园金投资有限公司",
+        "disclosedContributionCny": 480000000,
+        "disclosedPercent": "16.4384",
+        "existingInstitution": "050a304605aa8b87cb0b573a"
+      },
+      {
+        "name": "安徽省铁路发展基金股份有限公司",
+        "disclosedContributionCny": 450000000,
+        "disclosedPercent": "15.4109",
+        "existingInstitution": "332c6b37e38c6fdf00e08924"
+      },
+      {
+        "name": "上海国际港务（集团）股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "10.2740",
+        "existingInstitution": "65ce85d3203e0cdd8891f201"
+      },
+      {
+        "name": "上海外服（集团）有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.7123",
+        "existingInstitution": "7228d8fc73e4fcbf4dcc240c"
+      },
+      {
+        "name": "东浩兰生会展集团股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.7123",
+        "existingInstitution": "dcee59984a17864a9733bfee"
+      }
+    ],
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202311201611687937_1.pdf",
+      "issuer": "兰生股份备案公告 · 已交叉核对5家LP",
+      "date": "2023-11-21",
+      "dateKind": "备案公告日",
+      "pages": "1–2",
+      "managerLegalName": "上海君和立成投资管理中心（有限合伙）",
+      "filingCode": "SADP90",
+      "filedOn": "2023-11-17",
+      "generalPartner": "上海申创申晖企业管理合伙企业（有限合伙）",
+      "lpScope": "已逐项交叉核对5家机构LP，其余登记后明细待核",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-09-27/1217957917.PDF",
+        "https://dataclouds.cninfo.com.cn/shgonggao/2024/2024-08-23/f930b53f606811efb356fa163e26e5de.pdf",
+        "https://sgwl.portshanghai.com.cn/wenku/www/202404/03142110tyoo.pdf",
+        "https://m.shuidi.cn/company-acda732c0bb4632cb3f93eddd6018701.html"
+      ],
+      "latestLpSourceDate": "2026-05-26"
+    }
   }
 ]

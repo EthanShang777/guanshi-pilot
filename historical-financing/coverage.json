@@ -2825,6 +2825,90 @@
       "pending_count": 3,
       "batch": "2026-11-25-october-public-48.csv",
       "notes": "跨月重新发现两笔早期真实交易。十月报告的累计金额未重复计入单轮。另有算苗Pre-A2日期与辉羲旧名重复需继续核。"
+    },
+    {
+      "institution": "君和资本",
+      "checked_on": "2026-11-26",
+      "scope": "可灵已确认出资载体向上回查两只基金，核对认缴、LP和公开定向发行文件",
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1030/2026103002124_c.pdf",
+        "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260109/30055c4e4f8d44d7bacadb01c47f083e.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-04-18/1225118665.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202311201611687937_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2023-09-27/1217957917.PDF",
+        "https://sgwl.portshanghai.com.cn/wenku/www/202404/03142110tyoo.pdf",
+        "https://dataclouds.cninfo.com.cn/shgonggao/2024/2024-08-23/f930b53f606811efb356fa163e26e5de.pdf",
+        "https://static.cninfo.com.cn/finalpage/2024-10-31/1221571213.PDF"
+      ],
+      "candidate_count": 1,
+      "existing_count": 0,
+      "pending_count": 3,
+      "batch": "2026-11-26-shenchuang-fund-followup-128.csv",
+      "pending": [
+        {
+          "company": "共青城君可投资合伙企业（有限合伙）",
+          "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1030/2026103002124_c.pdf",
+          "reason": "可灵实际出资及LP份额已知，基金认缴规模待核"
+        },
+        {
+          "company": "上海申创申晖私募基金合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-09-27/1217957917.PDF",
+          "reason": "设立意向书十家LP，登记及定期披露可逐项确认五家，其余待核登记后明细"
+        },
+        {
+          "company": "上海长三角申创私募基金合伙企业（有限合伙）",
+          "source": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260109/30055c4e4f8d44d7bacadb01c47f083e.PDF",
+          "reason": "已按签署的重述合伙协议核认缴及19家LP，本基金当前可投余额缺披露"
+        }
+      ]
+    },
+    {
+      "institution": "新华日报·江苏创投周报",
+      "checked_on": "2026-11-26",
+      "scope": "2026年10月26日至30日周报正文五个具名项目；周报统计14笔，另外九笔尚未取得逐条明细",
+      "sources": [
+        "https://www.xhby.net/content/s6ae47f25e4b09a8e243517e6.html"
+      ],
+      "candidate_count": 0,
+      "existing_count": 5,
+      "pending_count": 9,
+      "checked_records": {
+        "亿铸": {
+          "eventId": "69d8ac1f0b1eccdad0283d31",
+          "date": "2026-10-23",
+          "name": "苏州亿铸智能科技有限公司",
+          "stage": "战略融资",
+          "status": "原档已收录"
+        },
+        "艾利特": {
+          "eventId": "3c850ff808aa565212086daa",
+          "date": "2026-10-28",
+          "name": "艾利特智能机器人股份有限公司",
+          "stage": "D++轮",
+          "status": "原档已收录"
+        },
+        "宜诺": {
+          "eventId": "f604be4c2b7f221973f3f85c",
+          "date": "2026-10-29",
+          "name": "江苏宜诺生物科技有限公司",
+          "stage": "Pre-A轮",
+          "status": "原档已收录"
+        },
+        "维发": {
+          "eventId": "0f558d8e6344fdaddbef11e5",
+          "date": "2026-10-28",
+          "name": "维发电子科技（常州）有限公司",
+          "stage": "C轮",
+          "status": "原档已收录"
+        },
+        "锋寻": {
+          "eventId": "f90110fbf336fde416d4c81f",
+          "date": "2026-10-26",
+          "name": "南通锋寻生物科技有限公司",
+          "stage": "Pre-A轮",
+          "status": "原档已收录"
+        }
+      }
     }
   ]
 }
