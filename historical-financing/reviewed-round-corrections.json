@@ -4398,5 +4398,26 @@
       "investors_json": "[{\"name\":\"ALSTIN III Fonds GmbH & Co.KG\",\"role\":\"领投\",\"amount\":null},{\"name\":\"PROfounders\",\"role\":null,\"amount\":null},{\"name\":\"Scale Capital\",\"role\":null,\"amount\":null}]"
     },
     "source": "https://www.mazanti.dk/en/news/series-a-investment-in-danish-legaltech-company-pandektes-to-accelerate-ai-driven-legal-research/"
+  },
+  {
+    "event_id": "public:historical-disclosure:53c951943d7dd845f5f978",
+    "company_id": "co:full_legal_name:1338e796d6d5e1975ce7f26fd22770b7",
+    "expected": {
+      "round": "天使轮",
+      "amount": "近千万元",
+      "investors_json": "[{\"name\":\"北京青矩工程管理技术创新投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"source\":\"https://static.cninfo.com.cn/finalpage/2022-08-11/1214277075.PDF\",\"basis\":\"实际出资\",\"amountFen\":700000000}}]",
+      "date": "2022-01-29",
+      "date_key": "2022-01-29",
+      "date_kind": "公司历程记2022年1月29日获得天使投资；青矩审阅报告列初始投资700万元，媒体总额近千万元；另一快照股东入股交易日期待核"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "700万元",
+      "investors_json": "[{\"name\":\"北京青矩工程管理技术创新投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"source\":\"https://static.cninfo.com.cn/finalpage/2022-08-11/1214277075.PDF\",\"basis\":\"实际出资\",\"amountFen\":700000000}}]",
+      "date": "2022-03",
+      "date_key": "2022-03-01",
+      "date_kind": "上市问询回复确认青矩3月现金增资700万元已付清；1月29日为公司获投节点，6月为后续报道"
+    },
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208"
   }
 ]

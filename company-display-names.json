@@ -2667,5 +2667,44 @@
     "sources": [
       "https://www.bimfilm.cn/index/introduce.html"
     ]
+  },
+  "dbea01dffac8835fdbaefefe": {
+    "name": "译筑科技",
+    "registeredName": "译筑信息科技（上海）有限公司",
+    "aliases": [
+      "译筑信息科技(上海)有限公司",
+      "译筑云"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208"
+    ]
+  },
+  "8b094bc7b00d3e9a36fee5c4": {
+    "name": "未来盒子",
+    "registeredName": "未来盒子（北京）建筑科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208"
+    ]
+  },
+  "c5b13d0fc3c6638d6fdc74ca": {
+    "name": "鸣远时代",
+    "registeredName": "北京鸣远时代科技有限公司",
+    "aliases": [
+      "IBFM智慧建筑运维"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208"
+    ]
+  },
+  "f1a1899730bff3f4aa4cd231": {
+    "name": "艾丝路建咨",
+    "registeredName": "北京艾丝路建咨科技有限责任公司",
+    "aliases": [
+      "艾丝路"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208"
+    ]
   }
 }

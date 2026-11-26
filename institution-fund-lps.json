@@ -997,5 +997,39 @@
         "corroboration": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622585.PDF"
       }
     ]
+  },
+  {
+    "fundId": "56b3571be29600466f64d92e",
+    "fundName": "青岛天奇前沿科技投资基金合伙企业（有限合伙）",
+    "managerId": "8857f599e97f72bc8043fc37",
+    "managerName": "天奇（北京）投资管理有限公司",
+    "sizeCny": 1000000000,
+    "capitalBasis": "登记出资额",
+    "otherLpCount": null,
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0330/sehk26012000865.pdf",
+      "date": "2026-03-30",
+      "dateKind": "公开披露日",
+      "issuer": "港交所披露的股东资料及法律意见书",
+      "pages": "股东资料及第五十五页法律意见书",
+      "lpScope": "青岛天之岛约占31%，原件未给单独金额或完整名单。登记出资额来自基金法律核查，实缴额和当前可投额待公开资料。",
+      "lpSources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0320/12059909/2026032000170_c.pdf"
+      ],
+      "generalPartners": [
+        {
+          "name": "青岛天正海奇投资管理有限公司"
+        }
+      ],
+      "registration": "SJG811"
+    },
+    "partners": [
+      {
+        "name": "青岛天之岛投资管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "约31",
+        "existingInstitution": "7df312fab42ddfc49cad9ec2"
+      }
+    ]
   }
 ]

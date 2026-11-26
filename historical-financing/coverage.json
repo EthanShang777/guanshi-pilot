@@ -6630,6 +6630,88 @@
           "未来盒子（北京）建筑科技有限公司"
         ]
       }
+    },
+    {
+      "institution": "青矩创投申报沿革及青岛天奇基金",
+      "checked_on": "2026-11-26",
+      "scope": "青矩问询回复中的被投公司历史现金增资及后续披露，按注册与交易标注日期口径",
+      "sources": [
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8207865&stockid=836208",
+        "https://static.cninfo.com.cn/finalpage/2022-08-11/1214277075.PDF",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0320/12059909/2026032000170_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0330/sehk26012000865.pdf"
+      ],
+      "notes": {
+        "qingju_direct": "已核的青矩申报期间投资及后续两期公开报道",
+        "rejected_as_new_capital": [
+          {
+            "name": "译筑科技",
+            "source": "https://static.cninfo.com.cn/finalpage/2023-08-18/1217574693.PDF",
+            "detail": "2023年7月受让上海雯筑GP份额取得控制，1400元为合伙份额转让对价"
+          },
+          {
+            "name": "未来盒子",
+            "source": "https://www.36kr.com/p/2492376957032578",
+            "detail": "2023年3月青矩及2023年10月天使+与2022年两条法定增资是否同笔未确认"
+          },
+          {
+            "name": "青矩未来式智能科技（北京）有限公司",
+            "source": "https://dataclouds.cninfo.com.cn/sjother2/bse_onmarket/2025/20251113/8bd4ac81c07f11f081eafa163ee65716.pdf",
+            "detail": "青矩业务合资主体与已有战略轮的北京未来式智能科技有限公司为不同公司"
+          },
+          {
+            "name": "睿视新界",
+            "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8646942&stockid=836208",
+            "detail": "贾晓平是2021年5月设立股东，2022年3月其持股由10%被稀释至9%。鲸准未披露其对应现金交割日期"
+          },
+          {
+            "name": "鸣远时代",
+            "source": "https://pitchhub.36kr.com/project/1958518405909760",
+            "detail": "媒体数千万元与用作总表基准的单笔实际500万元关系待核"
+          }
+        ],
+        "related_next": [
+          "山东极视角科技股份有限公司",
+          "上海易咖智车科技有限公司",
+          "深圳墨影科技有限公司",
+          "北京凌空天行科技有限责任公司"
+        ],
+        "other_evidence": {
+          "译筑2020老股转让对价元": 6679200,
+          "艾丝路2019登记增加注册资本元": 6000000,
+          "睿视新界投资者青矩实付元": 7000000,
+          "青岛天奇LP份额": "青岛天之岛约31%，其单体出资未披露",
+          "青岛天奇整体登记出资额元": 1000000000
+        }
+      },
+      "events": {
+        "译筑2016增资": "3421da8ecc95606a708f8aba",
+        "译筑2018增资": "60b4e3cbfaad589045c1a2a7",
+        "译筑2020增资": "08f67f3dddd2257a19459a19",
+        "译筑2022增资": "442ec42747e606134a10f619",
+        "未来盒子青矩增资": "88cee01ef8c972f1c359a243",
+        "未来盒子天奇增资": "ddc9400ff7e895bccb72551b",
+        "未来盒子Pre-A": "4939fcb8a5d7068845d816eb",
+        "鸣远时代青矩增资": "e457ec1d60b9cf2f581d9246",
+        "艾丝路现金增资": "6b4359e2afef471cac125aab",
+        "睿视新界到账修订": "127cbf1d60917031b3c8d22d",
+        "未来式智能已有": "a52410d3b661735ba4fea9d8"
+      },
+      "completed": [
+        "译筑2016增资",
+        "译筑2018增资",
+        "译筑2020增资",
+        "译筑2022增资",
+        "未来盒子青矩增资",
+        "未来盒子天奇增资",
+        "未来盒子Pre-A",
+        "鸣远时代青矩增资",
+        "艾丝路现金增资",
+        "睿视新界到账修订",
+        "未来式智能已有"
+      ],
+      "batch": "2026-11-26-qingju-portfolio-145.csv"
     }
   ]
 }
