@@ -5429,5 +5429,771 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "f606b640b6530f14ccc938fe",
+    "fundName": "江西省现代产业引导基金（有限合伙）",
+    "managerName": "江西国控私募基金管理有限公司",
+    "managerId": "2a4eccf710f65445c04d69ad",
+    "sizeCny": 60000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2024-08-20/1220907967.PDF",
+      "date": "2024-08-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "创世纪参与投资基金公告",
+      "pages": "第2–3页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-06-18/1223900345.PDF",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b2d6c80e0b2558bc4c2fe78eef7851e5.pdf"
+      ],
+      "lpScope": "公告披露100%认缴及两名合伙人；历年实缴和所有子基金进展按独立原件补齐。",
+      "generalPartners": [
+        {
+          "name": "江西国控私募基金管理有限公司",
+          "disclosedContributionCny": 60000000
+        }
+      ],
+      "filingCode": "SVP497"
+    },
+    "partners": [
+      {
+        "name": "江西省国有资本运营控股集团有限公司",
+        "disclosedContributionCny": 59940000000,
+        "disclosedPercent": 99.9,
+        "existingInstitution": "f21293411f334a5c411b3faf"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a1a6bca32638bd689fe31969",
+    "fundName": "福建时代泽远股权投资基金合伙企业（有限合伙）",
+    "managerName": "溥泉资本",
+    "managerId": "2a4ef0cfd68df4049cca53bd",
+    "sizeCny": 10128000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
+      "date": "2026-05-11",
+      "dateKind": "公开文件披露日",
+      "issuer": "纽氏达特招股说明书",
+      "pages": "第67–69页",
+      "lpSources": [
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b2d6c80e0b2558bc4c2fe78eef7851e5.pdf"
+      ],
+      "lpScope": "发行人披露的25名LP及1名GP。江西国控债券文件披露不同历史时点的实缴；湖北同富在债券文件明确代表宜昌市三峡产业引导股权投资基金。",
+      "generalPartners": [
+        {
+          "name": "厦门溥泉私募基金管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 28000000
+        }
+      ],
+      "filingCode": "SAPX68",
+      "paidContributionSource": {
+        "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b2d6c80e0b2558bc4c2fe78eef7851e5.pdf",
+        "date": "2026-01-26",
+        "dateKind": "债券文件披露时点，沿用该时点法律名称",
+        "totalCny": 5883500000,
+        "partners": [
+          {
+            "name": "鄂尔多斯市创新投资集团有限公司",
+            "paidCny": 750000000
+          },
+          {
+            "name": "厦门市产业引导股权投资基金合伙企业（有限合伙）",
+            "paidCny": 600000000
+          },
+          {
+            "name": "国家绿色发展基金股份有限公司",
+            "paidCny": 500000000
+          },
+          {
+            "name": "宁德时代新能源科技股份有限公司",
+            "paidCny": 700000000
+          },
+          {
+            "name": "桐乡市金信股权投资有限公司",
+            "paidCny": 300000000
+          },
+          {
+            "name": "宁德市汇聚新能股权投资合伙企业（有限合伙）",
+            "paidCny": 300000000
+          },
+          {
+            "name": "永康国核星能股权投资合伙企业（有限合伙）",
+            "paidCny": 280000000
+          },
+          {
+            "name": "洛阳市产业发展基金合伙企业（有限合伙）",
+            "paidCny": 250000000
+          },
+          {
+            "name": "湖北同富创业投资管理有限公司",
+            "paidCny": 200000000
+          },
+          {
+            "name": "江西省现代产业引导基金（有限合伙）",
+            "paidCny": 200000000
+          },
+          {
+            "name": "河南中原高速公路股份有限公司",
+            "paidCny": 150000000
+          },
+          {
+            "name": "苏州高新阳光汇利股权投资合伙企业（有限合伙）",
+            "paidCny": 150000000
+          },
+          {
+            "name": "厦门科学城创新股权投资基金合伙企业（有限合伙）",
+            "paidCny": 150000000
+          },
+          {
+            "name": "福建冶控股权投资管理有限公司",
+            "paidCny": 150000000
+          },
+          {
+            "name": "厦门火炬产业股权投资管理有限公司",
+            "paidCny": 150000000
+          },
+          {
+            "name": "合肥市创业投资引导基金有限公司",
+            "paidCny": 200000000
+          },
+          {
+            "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+            "paidCny": 200000000
+          },
+          {
+            "name": "合肥高新控股集团有限公司",
+            "paidCny": 200000000
+          },
+          {
+            "name": "中信建投投资有限公司",
+            "paidCny": 75000000
+          },
+          {
+            "name": "壳牌资本有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "肥西县运河产业基金有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "北京昌平产业发展投资基金（有限合伙）",
+            "paidCny": 49500000
+          },
+          {
+            "name": "河北交投产业发展股权投资基金合伙企业（有限合伙）",
+            "paidCny": 99000000
+          },
+          {
+            "name": "嘉兴嘉国贰号股权投资合伙企业（有限合伙）",
+            "paidCny": 50000000
+          },
+          {
+            "name": "深圳溥泉投资有限公司",
+            "paidCny": 2000000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "厦门溥泉私募基金管理合伙企业（有限合伙）",
+            "paidCny": 28000000
+          }
+        ]
+      },
+      "managerLegalName": "厦门溥泉私募基金管理合伙企业（有限合伙）"
+    },
+    "partners": [
+      {
+        "name": "鄂尔多斯市创新投资集团有限公司",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": 14.81,
+        "existingInstitution": "051614caac3b77afc729013f"
+      },
+      {
+        "name": "厦门市产业引导股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1200000000,
+        "disclosedPercent": 11.85,
+        "existingInstitution": "74b98ee8232947c4f50d342b"
+      },
+      {
+        "name": "国家绿色发展基金股份有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 9.87,
+        "existingInstitution": "5c6828d86165381e23b12599"
+      },
+      {
+        "name": "宁德时代新能源科技股份有限公司",
+        "disclosedContributionCny": 700000000,
+        "disclosedPercent": 6.91,
+        "existingInstitution": "2e31d002a0aad4911b3dc5d8"
+      },
+      {
+        "name": "桐乡市金信股权投资有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 5.92,
+        "existingInstitution": "aa9ab8449d7028a560abd0bd"
+      },
+      {
+        "name": "宁德市汇聚新能股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 5.92,
+        "existingInstitution": "4a1d3cbc3c85f9f900880826"
+      },
+      {
+        "name": "永康国核星能股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 4.94,
+        "existingInstitution": "ed58aafea14e90ff3f21304b"
+      },
+      {
+        "name": "洛阳市产业发展基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 4.94,
+        "existingInstitution": "d4710f162fc9527bb902b1cb"
+      },
+      {
+        "name": "湖北同富创业投资管理有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "27b22a55c9db2483785063bb"
+      },
+      {
+        "name": "江西省现代产业引导基金（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "f606b640b6530f14ccc938fe"
+      },
+      {
+        "name": "河南中原高速公路股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.96,
+        "existingInstitution": "351330261cafeb1abdaffbef"
+      },
+      {
+        "name": "苏州高新阳光汇利股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.96,
+        "existingInstitution": "189e89dc676741d0bc5eaf92"
+      },
+      {
+        "name": "厦门科学城创新股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.96,
+        "existingInstitution": "74e343a9346b33aff00a6241"
+      },
+      {
+        "name": "福建省冶控私募基金管理有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.96,
+        "existingInstitution": "ebc3d4c48402d43bb4c4e6ab"
+      },
+      {
+        "name": "厦门火炬产业股权投资管理有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 2.96,
+        "existingInstitution": "01ee1c10588588db6176729f"
+      },
+      {
+        "name": "合肥市创业投资引导基金有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 1.97,
+        "existingInstitution": "0314db9758a38458ff58694c"
+      },
+      {
+        "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 1.97,
+        "existingInstitution": "a76ccbedb0e95351b3d67232"
+      },
+      {
+        "name": "合肥高新控股集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 1.97,
+        "existingInstitution": "b98554dbc3f95ad20f32e302"
+      },
+      {
+        "name": "中信建投投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 1.48,
+        "existingInstitution": "80feb77c6f410633307c404f"
+      },
+      {
+        "name": "壳牌资本有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 0.99,
+        "existingInstitution": "f279219f00c0b83f30bad00e"
+      },
+      {
+        "name": "肥西县运河产业基金有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 0.99,
+        "existingInstitution": "27e86b5bd838a5308cb9fdca"
+      },
+      {
+        "name": "北京昌平产业发展投资基金（有限合伙）",
+        "disclosedContributionCny": 99000000,
+        "disclosedPercent": 0.98,
+        "existingInstitution": "379092b9c48647dc46997510"
+      },
+      {
+        "name": "河北交投产业发展股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 99000000,
+        "disclosedPercent": 0.98,
+        "existingInstitution": "d3f41602c6197c9b0127b250"
+      },
+      {
+        "name": "嘉兴嘉国贰号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 0.49,
+        "existingInstitution": "1675dcdf740724053016f780"
+      },
+      {
+        "name": "深圳溥泉投资有限公司",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 0.02,
+        "existingInstitution": "56abf33b29cb60379e010fc3"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1e4b283aaef6db730bd256b5",
+    "fundName": "深圳市绿水长青创业投资合伙企业（有限合伙）",
+    "managerName": "溥泉资本",
+    "managerId": "2a4ef0cfd68df4049cca53bd",
+    "sizeCny": 45700000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
+      "date": "2026-05-11",
+      "dateKind": "公开文件披露日",
+      "issuer": "纽氏达特招股说明书",
+      "pages": "第68–69页",
+      "lpSources": [],
+      "lpScope": "认缴9名LP及一名GP，管理人为厦门溥泉，执行事务合伙人为深圳溥泉。",
+      "generalPartners": [
+        {
+          "name": "深圳溥泉投资有限公司",
+          "disclosedContributionCny": 3000000
+        }
+      ],
+      "filingCode": "SAMX52",
+      "managerLegalName": "厦门溥泉私募基金管理合伙企业（有限合伙）"
+    },
+    "partners": [
+      {
+        "name": "胡殿君",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 21.88,
+        "existingInstitution": "a63826b0a9632ac1f4288855"
+      },
+      {
+        "name": "王水淼",
+        "disclosedContributionCny": 9500000,
+        "disclosedPercent": 20.79,
+        "existingInstitution": "41d3042e263170817ffdeec4"
+      },
+      {
+        "name": "刘万鹏",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": 13.13,
+        "existingInstitution": "8c2a1362e758be33ca0f72e8"
+      },
+      {
+        "name": "易浚源",
+        "disclosedContributionCny": 5500000,
+        "disclosedPercent": 12.04,
+        "existingInstitution": "485614f1d49837ac296f65a9"
+      },
+      {
+        "name": "深圳市景沐长青创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 4000000,
+        "disclosedPercent": 8.75,
+        "existingInstitution": "f89fa8ec90a8232c8812cc8e"
+      },
+      {
+        "name": "李沙沙",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 6.56,
+        "existingInstitution": "02a997d7fb33c3d1870d1de8"
+      },
+      {
+        "name": "齐林",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 4.38,
+        "existingInstitution": "05f5edee8c1a4e9c55491ba3"
+      },
+      {
+        "name": "李潇",
+        "disclosedContributionCny": 1700000,
+        "disclosedPercent": 3.72,
+        "existingInstitution": "f84aabd948496bb3ca6320da"
+      },
+      {
+        "name": "李伟瑜",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 2.19,
+        "existingInstitution": "bd4d0c1bc2d8d4a8553ef722"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "06cb332e2a33f48dd67da56a",
+    "fundName": "深圳君联深运私募股权投资基金合伙企业（有限合伙）",
+    "managerName": "君联资本",
+    "managerId": "e48eb89efa7ccf453523a2a7",
+    "sizeCny": 3181226700,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_H3UJ.pdf",
+      "date": "2026-11-07",
+      "dateKind": "公开文件披露日",
+      "issuer": "拓荆科技重组报告及法律意见",
+      "pages": "第89–91页",
+      "lpSources": [
+        "https://stock.stockstar.com/notice/SN2026110700001308.shtml"
+      ],
+      "lpScope": "申报稿共披露26名LP、1名GP，以及22家其他主要被投公司持股快照；法律意见书给出备案管理人。",
+      "generalPartners": [
+        {
+          "name": "深圳君联祺盛管理咨询有限公司",
+          "disclosedContributionCny": 62000000
+        }
+      ],
+      "filingCode": "SVB712",
+      "managerLegalName": "君联资本管理股份有限公司"
+    },
+    "partners": [
+      {
+        "name": "深圳市引导基金投资有限公司",
+        "disclosedContributionCny": 682806700,
+        "disclosedPercent": 21.46,
+        "existingInstitution": "3cc2447cbfd075fdad3c7776"
+      },
+      {
+        "name": "北京联德企慧企业管理有限公司",
+        "disclosedContributionCny": 380000000,
+        "disclosedPercent": 11.94,
+        "existingInstitution": "879b866ba7cbebce146ec0bc"
+      },
+      {
+        "name": "泰康人寿保险有限责任公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 6.28,
+        "existingInstitution": "a37dbfafd99ea2d2391ec317"
+      },
+      {
+        "name": "齐鲁科学城科创投资基金（济南）合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 6.28,
+        "existingInstitution": "a82039d0064a2ea972d1db9c"
+      },
+      {
+        "name": "苏州高新阳光汇利股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 6.28,
+        "existingInstitution": "189e89dc676741d0bc5eaf92"
+      },
+      {
+        "name": "上海君祺股权投资管理有限公司",
+        "disclosedContributionCny": 168200000,
+        "disclosedPercent": 5.28,
+        "existingInstitution": "10923139c303c57b0f6c2e9d"
+      },
+      {
+        "name": "淄博景智股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 104000000,
+        "disclosedPercent": 3.26,
+        "existingInstitution": "d5d4b628e08fa17a7a1e1601"
+      },
+      {
+        "name": "中新苏州工业园区开发集团股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.14,
+        "existingInstitution": "b975bdb914aadfd409f1ecca"
+      },
+      {
+        "name": "河南汇融创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.14,
+        "existingInstitution": "6ee8afd4d2f8c21c12392ce8"
+      },
+      {
+        "name": "江西省现代产业引导基金（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.14,
+        "existingInstitution": "f606b640b6530f14ccc938fe"
+      },
+      {
+        "name": "上海科创中心二期私募投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.14,
+        "existingInstitution": "76db32b2c5975a6632544b3e"
+      },
+      {
+        "name": "北京京国管股权投资发展中心（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.14,
+        "existingInstitution": "b0257c81d13ae65e4e8c9449"
+      },
+      {
+        "name": "中国大地财产保险股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.14,
+        "existingInstitution": "ba9319c7b29c2f8280bdf089"
+      },
+      {
+        "name": "上海建发富链投资管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 2.2,
+        "existingInstitution": "787a5759a87d186d8979aa42"
+      },
+      {
+        "name": "芜湖歌斐祥韵股权投资中心（有限合伙）",
+        "disclosedContributionCny": 65420000,
+        "disclosedPercent": 2.05,
+        "existingInstitution": "bf70933d560395c803b958e4"
+      },
+      {
+        "name": "珠海君联逸捷股权投资企业（有限合伙）",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 1.88,
+        "existingInstitution": "eb6f325b1eaf35e7d2ce58de"
+      },
+      {
+        "name": "福建晟宏投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 1.57,
+        "existingInstitution": "a98ce120af1e9d56823919bc"
+      },
+      {
+        "name": "安徽迎驾投资管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 1.57,
+        "existingInstitution": "cd3cea1d8b3f45529fe87cfc"
+      },
+      {
+        "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 1.57,
+        "existingInstitution": "a76ccbedb0e95351b3d67232"
+      },
+      {
+        "name": "共青城瑞麟投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 1.57,
+        "existingInstitution": "cc36c394bd5b45ff0017f079"
+      },
+      {
+        "name": "江苏海晨物流股份有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 1.25,
+        "existingInstitution": "ea23db8eff8b122eec3874e1"
+      },
+      {
+        "name": "苏州君联佳越创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 0.94,
+        "existingInstitution": "e5c0722747bee07faab7014d"
+      },
+      {
+        "name": "苏州君联欣晖创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 0.94,
+        "existingInstitution": "d44ba2ce90d030afd34207a5"
+      },
+      {
+        "name": "宁波保税区毓德科技发展合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 0.94,
+        "existingInstitution": "7a69cb2124d96420b102623f"
+      },
+      {
+        "name": "南通建发海晟投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 0.94,
+        "existingInstitution": "754e01d061251b9ce361f3d0"
+      },
+      {
+        "name": "淄博昭浓股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 28800000,
+        "disclosedPercent": 0.9,
+        "existingInstitution": "c0b1eeed9343fca11b2f6568"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "adb1614e283e2c6e5d02cd8f",
+    "fundName": "赣州市赣深产业股权基金合伙企业（有限合伙）",
+    "managerName": "国信弘盛私募基金管理有限公司",
+    "managerId": "c8189886dc1b2027f52c53a1",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-10-21/43d96a41-0501-4240-82a1-09587d07ef7f.PDF",
+      "date": "2025-10-21",
+      "dateKind": "公开文件披露日",
+      "issuer": "盐田港关联交易公告及江西国控债券续发募集说明书",
+      "pages": "盐田港公告及债券募集说明书第24–26页",
+      "lpSources": [
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b2d6c80e0b2558bc4c2fe78eef7851e5.pdf"
+      ],
+      "lpScope": "盐田港公告明确国信弘盛为执行事务合伙人及管理人。江西国控债券备案段出现另一管理人，但同一文件的投委会条款称国信弘盛为管理人，角色差异待备案原件；赣州发展投资基金管理公司出资1,000万元，角色尚待合伙协议明确。",
+      "generalPartners": [
+        {
+          "name": "国信弘盛私募基金管理有限公司",
+          "disclosedContributionCny": 300000000
+        }
+      ],
+      "filingCode": "SBAJ41",
+      "otherPartnersPendingRole": [
+        {
+          "name": "赣州发展投资基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "paidContributionSource": {
+        "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b2d6c80e0b2558bc4c2fe78eef7851e5.pdf",
+        "date": "2026-01-26",
+        "dateKind": "债券募集说明书出资表披露日",
+        "totalCny": 300000000,
+        "partners": [
+          {
+            "name": "江西省现代产业引导基金（有限合伙）",
+            "paidCny": 90000000
+          },
+          {
+            "name": "赣州产业投资集团有限责任公司",
+            "paidCny": 57000000
+          },
+          {
+            "name": "赣州发展工业引导母基金（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "赣州经开区工业发展投资（集团）有限责任公司",
+            "paidCny": 15000000
+          },
+          {
+            "name": "赣州市南康区城发集团金融投资有限公司",
+            "paidCny": 15000000
+          },
+          {
+            "name": "赣州发展投资基金管理有限公司",
+            "paidCny": 3000000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "国信弘盛私募基金管理有限公司",
+            "paidCny": 90000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "江西省现代产业引导基金（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "f606b640b6530f14ccc938fe"
+      },
+      {
+        "name": "赣州产业投资集团有限责任公司",
+        "disclosedContributionCny": 190000000,
+        "disclosedPercent": 19,
+        "existingInstitution": "200f49ddbb5b70f6ffe20b91"
+      },
+      {
+        "name": "赣州发展工业引导母基金（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "0e99823ddca41567dc93cc51"
+      },
+      {
+        "name": "赣州经开区工业发展投资（集团）有限责任公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "625d64abd4257ad15193bf2f"
+      },
+      {
+        "name": "赣州市南康区城发集团金融投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "dda96db8df865094bb0c6021"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "df93d345336a28e4a97f862a",
+    "fundName": "共青城模界智慧产业投资基金合伙企业（有限合伙）",
+    "managerName": "前海亚商粤科投资管理（深圳）有限公司",
+    "managerId": "cc1d0f4f1c4f373a0919acc0",
+    "sizeCny": 512500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://notice.10jqka.com.cn/api/pdf/eae9d6fe247f38b_1727408827/%E5%88%9B%E4%B8%96%E7%BA%AA%EF%BC%9A%E5%85%B3%E4%BA%8E%E5%8F%82%E4%B8%8E%E6%8A%95%E8%B5%84%E8%AE%BE%E7%AB%8B%E7%9A%84%E4%BA%A7%E4%B8%9A%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E5%AE%8C%E6%88%90%E5%B7%A5%E5%95%86%E7%99%BB%E8%AE%B0%E5%8F%8A%E5%9F%BA%E9%87%91%E5%A4%87%E6%A1%88%E7%9A%84%E5%85%AC%E5%91%8A.pdf",
+      "date": "2024-09-27",
+      "dateKind": "公开文件披露日",
+      "issuer": "创世纪基金设立、备案及增资完成公告",
+      "pages": "2024年8月20日公告第5页及备案公告",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-08-20/1220907967.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-01-10/1222283616.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-23/1223219871.PDF"
+      ],
+      "lpScope": "2024年8月合伙协议签署时认缴4名LP、2名GP。9月备案确认管理人，创世纪年报确认其认缴与19%比例。2025年1月公告确认标的增资完成，具体实缴、现金投资额及当日可投余额未披露。",
+      "generalPartners": [
+        {
+          "name": "前海亚商粤科投资管理（深圳）有限公司",
+          "disclosedContributionCny": 5125000
+        },
+        {
+          "name": "九江鼎汇泓盈基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "filingCode": "SALZ28"
+    },
+    "partners": [
+      {
+        "name": "江西省现代产业引导基金（有限合伙）",
+        "disclosedContributionCny": 153750000,
+        "disclosedPercent": 30,
+        "existingInstitution": "f606b640b6530f14ccc938fe"
+      },
+      {
+        "name": "九江市工业产业投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 152750000,
+        "disclosedPercent": 29.8049,
+        "existingInstitution": "254fd944d486c0dd202cc8d7"
+      },
+      {
+        "name": "修水县投资集团有限公司",
+        "disclosedContributionCny": 102500000,
+        "disclosedPercent": 20,
+        "existingInstitution": "9fed41343c2c0f29e413b4e3"
+      },
+      {
+        "name": "创世纪投资（深圳）有限公司",
+        "disclosedContributionCny": 97375000,
+        "disclosedPercent": 19,
+        "existingInstitution": "9c46a21177c08de38b71eb14"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

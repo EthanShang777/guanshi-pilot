@@ -541,5 +541,221 @@
     },
     "source": "https://investors.bio-techne.com/all-sec-filings/content/0001558370-23-008540/tmb-20230331x10q.htm",
     "reason": "两份SEC年报独立核到现金增资和持有股权出售"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:219fdb087a9ea05890a0a6",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第二次、第三次增资适用不同认购人与金额"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:219fdb087a9ea05890a0a6",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第二次、第三次增资适用不同认购人与金额"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1cbef9192862cd72d9837e",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第六次股权转让与第二次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1cbef9192862cd72d9837e",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第六次股权转让与第二次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1cbef9192862cd72d9837e",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:219fdb087a9ea05890a0a6",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第六次股权转让与第三次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:219fdb087a9ea05890a0a6",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1cbef9192862cd72d9837e",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第六次股权转让与第三次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e59c455cc0b335fe6b69b3",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "financing_event:75ec947f845546168071045c19529862fc0900ae50ec606c0d0b6465331e8ca2",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第七次股权转让与第四次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:75ec947f845546168071045c19529862fc0900ae50ec606c0d0b6465331e8ca2",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e59c455cc0b335fe6b69b3",
+      "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe"
+    },
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "reason": "第七次股权转让与第四次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3ab640c85d6778b5708a55",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2f1f3151c5996e02537425",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一投资方同日新股和老股，两份协议及不同对价"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2f1f3151c5996e02537425",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3ab640c85d6778b5708a55",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一投资方同日新股和老股，两份协议及不同对价"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3ab640c85d6778b5708a55",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "financing_event:df317f20ced5a7bb9c2991a43030992cf44c6d3a346866374753a0a7724fa075",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "第七和第八次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:df317f20ced5a7bb9c2991a43030992cf44c6d3a346866374753a0a7724fa075",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3ab640c85d6778b5708a55",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "第七和第八次增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:62c0f9d3a73bb10ac42cef",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "financing_event:43690c8ab50c2b8d6d13c2d4052907558c6c210410df26430f6034961610958f",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一登记，第九次增资与存量股份转让分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:43690c8ab50c2b8d6d13c2d4052907558c6c210410df26430f6034961610958f",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:62c0f9d3a73bb10ac42cef",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一登记，第九次增资与存量股份转让分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:7970654b8cc5334211ffb3",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:22b2d82d02fab2ab9cb221",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一登记，第十次增资与存量股份转让分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:22b2d82d02fab2ab9cb221",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7970654b8cc5334211ffb3",
+      "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378"
+    },
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "reason": "同一登记，第十次增资与存量股份转让分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1d997fec6ae9d6babf3d59",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "financing_event:f66596aabf2cb20fe10440b1f2072feb3591f9bf7a59d70da70bc10689b87c89",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
+    "reason": "第三次股权转让与前月发行人增资分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:f66596aabf2cb20fe10440b1f2072feb3591f9bf7a59d70da70bc10689b87c89",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1d997fec6ae9d6babf3d59",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
+    "reason": "第三次股权转让与前月发行人增资分别披露"
   }
 ]

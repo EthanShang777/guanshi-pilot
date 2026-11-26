@@ -5615,5 +5615,226 @@
     "additional_sources": [
       "https://static.cninfo.com.cn/finalpage/2025-04-01/1222976161.PDF"
     ]
+  },
+  {
+    "event_id": "financing_event:164fd1014db15db0e9ae05f4811a5142853a3ac90a48e7ca6e86104f2c3e0753",
+    "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe",
+    "day": "2024-07-31",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "expected": {
+      "round": "Pre-D轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"交控招商\",\"role\":null,\"amount\":null},{\"name\":\"凤璟基金\",\"role\":null,\"amount\":null},{\"name\":\"国鑫创投\",\"role\":null,\"amount\":null},{\"name\":\"安徽交控\",\"role\":null,\"amount\":null},{\"name\":\"尚颀资本\",\"role\":null,\"amount\":null},{\"name\":\"联升资本\",\"role\":null,\"amount\":null},{\"name\":\"茅台基金\",\"role\":null,\"amount\":null},{\"name\":\"茅台金石基金\",\"role\":null,\"amount\":null},{\"name\":\"鸣渠资本\",\"role\":null,\"amount\":null}]",
+      "date": "2024-07-31",
+      "date_key": "2024-07-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-D轮",
+      "amount": "84700万元",
+      "investors_json": "[{\"name\":\"无锡上汽金石创新产业基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"安徽交控金石股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"安徽交控产业发展基金有限公司\",\"role\":null,\"amount\":null},{\"name\":\"上海联升承源二期私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海国鑫创业投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"常州启科创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"安徽交控招商产业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"鸣汐股权投资基金（海南）合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"无锡致开股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"武汉皓禾壹号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"茅台金石（贵州）产业发展基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"茅台科创（北京）投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2024-07-31",
+      "date_key": "2024-07-31",
+      "date_kind": "原档披露日，招股书核实2024年7月首次增资"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:3adac4901c6f566baaac34ce534cd7789ae5015682f81817939b111e52deda49",
+    "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe",
+    "day": "2025-02-22",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "expected": {
+      "round": "D轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"溥泉资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中芯聚源\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"星序私募基金\",\"role\":null,\"amount\":null}]",
+      "date": "2025-02-22",
+      "date_key": "2025-02-22",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "32000万元",
+      "investors_json": "[{\"name\":\"福建时代泽远股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"永康星序光子创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市绿水长青创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2025-02-22",
+      "date_key": "2025-02-22",
+      "date_kind": "原档披露日，招股书区分2025年2月两次增资及老股"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:75ec947f845546168071045c19529862fc0900ae50ec606c0d0b6465331e8ca2",
+    "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe",
+    "day": "2025-12-01",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "expected": {
+      "round": "D+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"TCL创投\",\"role\":null,\"amount\":null},{\"name\":\"中国保险投资基金\",\"role\":null,\"amount\":null},{\"name\":\"合肥产投集团\",\"role\":null,\"amount\":null},{\"name\":\"深创投\",\"role\":null,\"amount\":null},{\"name\":\"皓禾基金\",\"role\":null,\"amount\":null},{\"name\":\"米聚资本\",\"role\":null,\"amount\":null},{\"name\":\"蔷薇辉石\",\"role\":null,\"amount\":null},{\"name\":\"高粱基金\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-01",
+      "date_key": "2025-12-01",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "D+轮",
+      "amount": "115446万元",
+      "investors_json": "[{\"name\":\"中保投信思创（嘉兴）股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中保投信朗新（嘉兴）股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"辉石私募股权投资基金（青岛）合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"高粱朗鑫（青岛）创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"温州皓禾叁号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"佛山皓禾伍号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"佛山皓禾柒号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴米聚智芯创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥市产业投促二期创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深创投中小企业发展基金（苏州）合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市创新资本投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"李福华\",\"role\":null,\"amount\":null},{\"name\":\"康路\",\"role\":null,\"amount\":null},{\"name\":\"姚国宁\",\"role\":null,\"amount\":null},{\"name\":\"张燕生\",\"role\":null,\"amount\":null},{\"name\":\"安徽嘉岸启信创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"宁波正棱柱创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-01",
+      "date_key": "2025-12-01",
+      "date_kind": "原档披露日，招股书核实2025年12月第四次增资"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:8b6709b225d302f3ad4c7dfccfe79fdbd58290797676ea2b8818e721dbd44ccc",
+    "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378",
+    "day": "2022-09-08",
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"国联投资\",\"role\":null,\"amount\":null},{\"name\":\"无锡高新区投控集团\",\"role\":null,\"amount\":null}]",
+      "date": "2022-09-08",
+      "date_key": "2022-09-08",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "4655万元",
+      "investors_json": "[{\"name\":\"无锡国联新创泰伯一期创业投资（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"无锡国联新睿创新创业投资企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":300000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"无锡点石共赢咨询服务合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":55000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"珠海天一筑尚管理咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"无锡市新吴区新投领硕创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":800000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}}]",
+      "date": "2022-09-08",
+      "date_key": "2022-09-08",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_H3UJ.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:75ca3ffa073c2cc9756de628da120fa1119c37555c41cf0519bbfee45329080f",
+    "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378",
+    "day": "2023-12-28",
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海采邑\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"国联投资\",\"role\":null,\"amount\":null},{\"name\":\"浪潮科创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-12-28",
+      "date_key": "2023-12-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "26730万元",
+      "investors_json": "[{\"name\":\"深圳君联深运私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":12300000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"西安君联海盈股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2700000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"扬州泓芯创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"扬州函侑创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"深圳昊晟一号投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1800000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"无锡新创联尚创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2730000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"无锡新创联芯股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"山东浪潮财鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":200000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}}]",
+      "date": "2023-12-28",
+      "date_key": "2023-12-28",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_H3UJ.pdf",
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_KEZM.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:df317f20ced5a7bb9c2991a43030992cf44c6d3a346866374753a0a7724fa075",
+    "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378",
+    "day": "2025-04-02",
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "expected": {
+      "round": "B轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"巨石资本\",\"role\":null,\"amount\":null},{\"name\":\"江苏省战略性新兴产业母基金\",\"role\":null,\"amount\":null}]",
+      "date": "2025-04-02",
+      "date_key": "2025-04-02",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "10000万元",
+      "investors_json": "[{\"name\":\"江苏无锡集成电路产业专项母基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"南京建邺巨石科创成长基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"宿迁产发科技股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}}]",
+      "date": "2025-04-22",
+      "date_key": "2025-04-22",
+      "date_kind": "发行人披露工商登记日，2月华舆增资独立记录"
+    },
+    "additional_sources": [
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_H3UJ.pdf",
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_KEZM.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:43690c8ab50c2b8d6d13c2d4052907558c6c210410df26430f6034961610958f",
+    "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378",
+    "day": "2025-07-11",
+    "source": "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+    "expected": {
+      "round": "C轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"冯源资本\",\"role\":null,\"amount\":null},{\"name\":\"华强创投\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"国信弘盛\",\"role\":null,\"amount\":null},{\"name\":\"国信资本\",\"role\":null,\"amount\":null},{\"name\":\"宿迁产发集团\",\"role\":null,\"amount\":null},{\"name\":\"巨石创投\",\"role\":null,\"amount\":null},{\"name\":\"广州产投集团\",\"role\":null,\"amount\":null},{\"name\":\"无锡战新私募基金\",\"role\":null,\"amount\":null}]",
+      "date": "2025-07-11",
+      "date_key": "2025-07-11",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "8000万元",
+      "investors_json": "[{\"name\":\"广州科创智汇四号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1800000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"厦门闽西南弘盛科创基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3500000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"深圳蓝点二号电子信息产业创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1200000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"深圳蓝点七号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":600000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}},{\"name\":\"深圳君联深运私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":900000000,\"basis\":\"认购金额\",\"source\":\"https://stock.stockstar.com/notice/SN2026110700001308.shtml\"}}]",
+      "date": "2025-07-29",
+      "date_key": "2025-07-29",
+      "date_kind": "发行人披露工商登记日，同日另有老股"
+    },
+    "additional_sources": [
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_H3UJ.pdf",
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_KEZM.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:623c4b2c2bbb564063e2498f72aae6cd2a6761f3104b5550588764d3c817310a",
+    "company_id": "co:full_legal_name:1f2409b7b982701b275d04dc6e558fbe",
+    "day": "2024-08-02",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"交控金石基金\",\"role\":null,\"amount\":null},{\"name\":\"凤璟基金\",\"role\":null,\"amount\":null},{\"name\":\"国鑫创投\",\"role\":null,\"amount\":null},{\"name\":\"安徽交控资本\",\"role\":null,\"amount\":null},{\"name\":\"贵州茅台\",\"role\":null,\"amount\":null},{\"name\":\"鸣渠资本\",\"role\":null,\"amount\":null}]",
+      "date": "2024-08-02",
+      "date_key": "2024-08-02",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "数亿人民币",
+      "investors_json": "[]",
+      "date": "2024-08-02",
+      "date_key": "2024-08-02",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:b5c53a59a0dfc89d5742abf436e7183b300b1cf17d02467517c7d0d10e714e0d",
+    "company_id": "co:full_legal_name:452cf28d704d8b187b1ab1fc5d3ce378",
+    "day": "2025-12-03",
+    "source": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_H3UJ.pdf",
+    "expected": {
+      "round": "Pre-IPO",
+      "amount": "超3亿人民币",
+      "investors_json": "[{\"name\":\"中国中车\",\"role\":null,\"amount\":null},{\"name\":\"华强创投\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"国信弘盛\",\"role\":null,\"amount\":null},{\"name\":\"宿迁产发集团\",\"role\":null,\"amount\":null},{\"name\":\"巨石创投\",\"role\":null,\"amount\":null},{\"name\":\"广州产投集团\",\"role\":null,\"amount\":null},{\"name\":\"江苏省战略性新兴产业母基金\",\"role\":null,\"amount\":null},{\"name\":\"穗开投资\",\"role\":null,\"amount\":null},{\"name\":\"锡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-03",
+      "date_key": "2025-12-03",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "超3亿人民币",
+      "investors_json": "[]",
+      "date": "2025-12-03",
+      "date_key": "2025-12-03",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_KEZM.pdf"
+    ]
   }
 ]

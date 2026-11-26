@@ -1740,7 +1740,8 @@
     "aliases": [
       "淄博纽氏达特行星减速机有限公司",
       "淄博纽氏达特齿轮传动有限公司",
-      "Newstart"
+      "Newstart",
+      "纽氏达特行星传动"
     ],
     "sources": [
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202605/RAS_202605_1118059796C9A190914423BC16359BDA8E11CB.pdf",
@@ -3525,6 +3526,38 @@
     ],
     "sources": [
       "https://disc.static.szse.cn/disc/disk03/finalpage/2026-03-30/490d0401-1f44-49ef-a4f3-c838aca5a1fb.PDF"
+    ]
+  },
+  "db3a7850cafa4f498a21cde5": {
+    "name": "思朗科技",
+    "registeredName": "上海思朗科技股份有限公司",
+    "aliases": [
+      "上海思朗科技有限公司"
+    ],
+    "sources": [
+      "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-7/2026-07-07/12434552.PDF"
+    ]
+  },
+  "e297b33dc961695c8753f1fe": {
+    "name": "中泰科技",
+    "registeredName": "广东中泰工业科技股份有限公司",
+    "aliases": [
+      "中泰模具",
+      "中泰工业科技"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-01-10/1222283616.PDF"
+    ]
+  },
+  "aef289c97fb6e4601dfd26e9": {
+    "name": "尚积半导体",
+    "registeredName": "无锡尚积半导体科技股份有限公司",
+    "aliases": [
+      "无锡尚积",
+      "无锡尚积半导体科技有限公司"
+    ],
+    "sources": [
+      "https://stock.stockstar.com/notice/SN2026110700001308.shtml"
     ]
   }
 }
