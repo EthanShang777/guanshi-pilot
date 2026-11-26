@@ -3749,5 +3749,21 @@
       "investors_json": "[{\"name\":\"上海沿浦精工科技（集团）股份有限公司\",\"role\":\"领投\",\"amount\":null,\"contribution\":{\"amountFen\":9500000000,\"basis\":\"实际出资\",\"source\":\"https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20261022/5ed9eef5a9d04743a9fdd423c872aedc.PDF\"}},{\"name\":\"湖南金霞盛世股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海移远通信技术股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"长沙麓山投资控股集团有限公司\",\"role\":null,\"amount\":null}]"
     },
     "source": "https://www.chinaventure.com.cn/news/110-20260923-393423.html"
+  },
+  {
+    "event_id": "financing_event:50c002c1b6fdd794a5cd2ff6a1a7801a6b2d711d38a3750a4a77131b63604dd8",
+    "company_id": "co:full_legal_name:c25c1e30de8712c45933b6e609cb66ac",
+    "day": "2025-11-27",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"四川省科创投集团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"成都交子经开新能源汽车股权投资基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"成都交投纵横股权投资基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"绵阳高创股权投资基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"四川兴川\",\"role\":null,\"amount\":null},{\"name\":\"四川院士基金\",\"role\":null,\"amount\":null},{\"name\":\"成都交投\",\"role\":null,\"amount\":null},{\"name\":\"龙雏基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B1轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"四川省科创投集团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"成都交子经开新能源汽车股权投资基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"成都交投纵横股权投资基金合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"绵阳高创股权投资基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"四川兴川\",\"role\":null,\"amount\":null},{\"name\":\"四川院士基金\",\"role\":null,\"amount\":null},{\"name\":\"龙雏基金\",\"role\":null,\"amount\":null}]"
+    },
+    "source": "https://www.weihenglaw.com/global-network/network-news/54"
   }
 ]

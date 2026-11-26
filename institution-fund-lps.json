@@ -867,5 +867,71 @@
       ],
       "latestLpSourceDate": "2026-05-26"
     }
+  },
+  {
+    "fundId": "48f5eb3acd8e8d6cdb1f41f8",
+    "fundName": "成都卓越锐正智能科技股权投资基金合伙企业（有限合伙）",
+    "managerName": "成都交投卓越私募基金管理有限公司",
+    "managerId": "d58ba48ce88109a792b339f0",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "成都交投资本管理有限责任公司",
+        "disclosedContributionCny": 99000000,
+        "disclosedPercent": "49.50",
+        "existingInstitution": "b0f71c30455adf7334740976"
+      },
+      {
+        "name": "上海复星高科技（集团）有限公司",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": "0.50",
+        "existingInstitution": "855c5bd2a9b0f52e9e09e6c9"
+      },
+      {
+        "name": "宁波复星锐正创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 38000000,
+        "disclosedPercent": "19.00",
+        "existingInstitution": "97ec2f582599c489e3f903a9"
+      },
+      {
+        "name": "成都文旅宽窄投资有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": "cf487a81c7b7159fcae30d50"
+      },
+      {
+        "name": "四川广安爱众股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": "62f44748ad7d4b3d824bf5cb"
+      }
+    ],
+    "source": {
+      "url": "https://epaper.stcn.com/att/202603/06/ZQ06B047-MM_eBook.pdf",
+      "issuer": "广安爱众设立公告",
+      "date": "2026-03-06",
+      "dateKind": "设立公告日",
+      "pages": "B47",
+      "managerLegalName": "成都交投卓越私募基金管理有限公司",
+      "filingCode": "SBTZ92",
+      "filedOn": "2026-04-08",
+      "lpScope": "设立公告列示5家机构LP，逐项认缴金额已核",
+      "lpSources": [
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12080439&stockid=600979"
+      ],
+      "generalPartners": [
+        {
+          "name": "成都交投卓越私募基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "上海智盈股权投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "sha256": "20165a16ec8720cfc369ab0f0145b98b169ccbf89721a5ff5499de4b2305451e"
+    }
   }
 ]
