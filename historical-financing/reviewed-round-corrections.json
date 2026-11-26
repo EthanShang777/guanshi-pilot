@@ -6364,5 +6364,180 @@
     "additional_sources": [
       "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260326/66d6b6fc1a2147dc94bffd475796803c.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:4e726a78f744d3070c531d19878afb0059a9e88c71a8adcd833b7712248bb02b",
+    "company_id": "co:full_legal_name:494b21355f2bf3833d0a392897fe2954",
+    "day": "2024-12-25",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888515.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"久科投资\",\"role\":null,\"amount\":null},{\"name\":\"凯风创投\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-25",
+      "date_key": "2024-12-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"湖州久科汇智创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"苏州凯风创芯创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-25",
+      "date_key": "2024-12-25",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://vc.pedaily.cn/company/628484.html",
+      "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171289.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:e7d0202593da2b43ef25fee76d664317eeeda7147baf541193301d24974fa6eb",
+    "company_id": "co:full_legal_name:35c829d802ad3ccb9bc460e821ee4872",
+    "day": "2022-01-02",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2022-02/25/nw.D110000zgzqb_20220225_9-B018.htm",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"凯风创投\",\"role\":null,\"amount\":null}]",
+      "date": "2022-01-02",
+      "date_key": "2022-01-02",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海凯风开泰创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2022-01-02",
+      "date_key": "2022-01-02",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:732e3d7a8136828f8e9dd6e8cd249fe2a7ab398a1127aa2e20c0a87322692bce",
+    "company_id": "co:full_legal_name:35c829d802ad3ccb9bc460e821ee4872",
+    "day": "2022-02-24",
+    "source": "https://epaper.cs.com.cn/zgzqb/html/2022-02/25/nw.D110000zgzqb_20220225_9-B018.htm",
+    "expected": {
+      "round": "A轮",
+      "amount": "1000万人民币",
+      "investors_json": "[{\"name\":\"创耀科技\",\"role\":null,\"amount\":null}]",
+      "date": "2022-02-24",
+      "date_key": "2022-02-24",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "1000万元",
+      "investors_json": "[{\"name\":\"创耀（苏州）通信科技股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://epaper.cs.com.cn/zgzqb/html/2022-02/25/nw.D110000zgzqb_20220225_9-B018.htm\"}}]",
+      "date": "2022-02-25",
+      "date_key": "2022-02-25",
+      "date_kind": "发行人披露公告日"
+    },
+    "additional_sources": [
+      "https://dataclouds.cninfo.com.cn/shgonggao/2023/2023-04-11/9241fbded78f11edae6cfa163e26e5de.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:fd720a9d9068fdbaba5e26163596289faa6739077341c6513ef9bbee64f5256e",
+    "company_id": "co:full_legal_name:35c829d802ad3ccb9bc460e821ee4872",
+    "day": "2022-11-09",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-11-10/1215059283.PDF",
+    "expected": {
+      "round": "A+轮",
+      "amount": "850万人民币",
+      "investors_json": "[{\"name\":\"创业接力集团\",\"role\":null,\"amount\":null},{\"name\":\"创耀科技\",\"role\":null,\"amount\":null},{\"name\":\"哇牛资本\",\"role\":null,\"amount\":null},{\"name\":\"英飞尼迪资本\",\"role\":null,\"amount\":null}]",
+      "date": "2022-11-09",
+      "date_key": "2022-11-09",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"创耀（苏州）通信科技股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":850000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-11-10/1215059283.PDF\"}},{\"name\":\"创业接力集团\",\"role\":null,\"amount\":null},{\"name\":\"哇牛资本\",\"role\":null,\"amount\":null},{\"name\":\"英飞尼迪资本\",\"role\":null,\"amount\":null}]",
+      "date": "2022-11-10",
+      "date_key": "2022-11-10",
+      "date_kind": "发行人披露公告日"
+    },
+    "additional_sources": [
+      "https://dataclouds.cninfo.com.cn/shgonggao/2023/2023-04-11/9241fbded78f11edae6cfa163e26e5de.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:6279489fe1d88bfd467a3c6710441f316ab8ed4e651c923b2e246b9bb05a2392",
+    "company_id": "co:full_legal_name:66242c2c90a1801fb289d5971b8ce290",
+    "day": "2025-11-25",
+    "source": "https://www.stcn.com/article/detail/3555419.html",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"五粮液基金\",\"role\":null,\"amount\":null}]",
+      "date": "2025-11-25",
+      "date_key": "2025-11-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"四川普什产业发展基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2025-11-25",
+      "date_key": "2025-11-25",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://m.pedaily.cn/vc/company/873967.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:5ae9cd3c477eb2703e7b8b064922638b1ad316c672e3f3ab5ecb02ff24d4620f",
+    "company_id": "co:full_legal_name:3ea683753917d8f9ef73e37143079e92",
+    "day": "2025-07-22",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12371087&stockid=002409",
+    "expected": {
+      "round": "C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京国管\",\"role\":null,\"amount\":null},{\"name\":\"国开科创\",\"role\":null,\"amount\":null},{\"name\":\"福建金投\",\"role\":null,\"amount\":null},{\"name\":\"超越摩尔投资\",\"role\":null,\"amount\":null}]",
+      "date": "2025-07-22",
+      "date_key": "2025-07-22",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北京国管\",\"role\":null,\"amount\":null},{\"name\":\"国开科技创业投资有限责任公司\",\"role\":null,\"amount\":null},{\"name\":\"福州市金合一号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"安徽超摩启源创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2025-07-22",
+      "date_key": "2025-07-22",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://m.pedaily.cn/vc/invest/v106560-p3",
+      "https://www.lexology.com/library/detail.aspx?g=39f52940-ed2b-4ec6-9f62-2153b9e8a387"
+    ]
+  },
+  {
+    "event_id": "financing_event:3cb9361e462d1d8623de948e27d5ae7e9fc3f6df373e03339ddb0c1c6db137ad",
+    "company_id": "co:full_legal_name:3ea683753917d8f9ef73e37143079e92",
+    "day": "2025-12-29",
+    "source": "https://www.lexology.com/library/detail.aspx?g=39f52940-ed2b-4ec6-9f62-2153b9e8a387",
+    "expected": {
+      "round": "C+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中建材新材料基金\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-29",
+      "date_key": "2025-12-29",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中建材（安徽）新材料产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-29",
+      "date_key": "2025-12-29",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12371087&stockid=002409"
+    ]
   }
 ]

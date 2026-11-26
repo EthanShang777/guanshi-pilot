@@ -10497,9 +10497,13 @@
       "pages": "公告第3至4页、年报第27至28页",
       "lpSources": [
         "https://static.cninfo.com.cn/finalpage/2026-04-27/1225192952.PDF",
-        "https://epaper.cs.com.cn/zgzqb/html/2024-04/09/nw.D110000zgzqb_20240409_2-B027.htm"
+        "https://epaper.cs.com.cn/zgzqb/html/2024-04/09/nw.D110000zgzqb_20240409_2-B027.htm",
+        "https://static.cninfo.com.cn/finalpage/2025-04-24/1223243200.PDF",
+        "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-04-19/688035_20250419_0GHO.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-04-11/1225096035.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-08-11/1225467050.PDF"
       ],
-      "lpScope": "公告披露扩募后10名LP及1名GP；年报证实捷佳伟创扩募后认缴4000万元占4%，2025年出资1020万元。",
+      "lpScope": "公告披露扩募后10名LP及1名GP；年报证实捷佳伟创扩募后认缴4000万元占4%，2025年出资1020万元。 德邦中报披露截至2026年6月末累计出资1800万元，底层投资26个项目，名单未披露。",
       "generalPartners": [
         {
           "name": "合肥超摩匠芯企业管理有限公司",
@@ -10527,7 +10531,31 @@
           }
         ]
       },
-      "creditCode": "91340100MADB987P0C"
+      "creditCode": "91340100MADB987P0C",
+      "additionalPaidContributionSources": [
+        {
+          "url": "https://static.cninfo.com.cn/finalpage/2025-04-24/1223243200.PDF",
+          "date": "2025-04-24",
+          "dateKind": "公开文件披露日",
+          "partners": [
+            {
+              "name": "深圳市捷佳伟创新能源装备股份有限公司",
+              "paidCny": 13800000
+            }
+          ]
+        },
+        {
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225467050.PDF",
+          "date": "2026-08-11",
+          "dateKind": "公开文件披露日",
+          "partners": [
+            {
+              "name": "烟台德邦科技股份有限公司",
+              "paidCny": 18000000
+            }
+          ]
+        }
+      ]
     },
     "partners": [
       {
@@ -10649,6 +10677,430 @@
         "disclosedContributionCny": 90000000,
         "disclosedPercent": 9,
         "existingInstitution": "9bf33964a4241d688b26f242"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c815adf02e58dafe025df367",
+    "fundName": "苏州凯风创芯创业投资合伙企业（有限合伙）",
+    "managerName": "凯风创投",
+    "managerId": "db288bdf530bee0bbfbbd413",
+    "sizeCny": 250000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888515.PDF",
+      "date": "2025-12-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "创耀科技2025-039号公告",
+      "pages": "第2至3页",
+      "lpSources": [
+        "https://paper.cnstock.com/html/2022-11/03/content_1687612.htm",
+        "https://static.cninfo.com.cn/finalpage/2023-10-12/1218012268.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10183442&stockid=300308",
+        "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888521.PDF"
+      ],
+      "lpScope": "披露9名LP、1名GP。注册资本2.5亿元，实缴1.7575亿元。4%江苏聚亭以中际旭创及创耀披露交叉。",
+      "generalPartners": [
+        {
+          "name": "苏州凯风创芯企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 2500000
+        }
+      ],
+      "managerLegalName": "宁波保税区凯风创业投资管理有限公司",
+      "incorporatedOn": "2022-12-09",
+      "filingDate": "2023-01-19",
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888515.PDF",
+        "date": "2025-12-20",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 175750000
+      },
+      "creditCode": "91320594MAC664X83D"
+    },
+    "partners": [
+      {
+        "name": "创耀（苏州）通信科技股份有限公司",
+        "disclosedContributionCny": 74000000,
+        "disclosedPercent": 29.6,
+        "existingInstitution": "206c41a7a53fd1a5f9f364ba"
+      },
+      {
+        "name": "苏州天使投资引导基金（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "aa5f461da889e56e9f6f4bd7"
+      },
+      {
+        "name": "苏州东吴产业并购引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 16,
+        "existingInstitution": "cc0838044ca2a1183ab5707a"
+      },
+      {
+        "name": "苏州工业园区创业投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 8,
+        "existingInstitution": "07a1b5ae30a3696253d6e528"
+      },
+      {
+        "name": "中际旭创股份有限公司",
+        "disclosedContributionCny": 19000000,
+        "disclosedPercent": 7.6,
+        "existingInstitution": "f167be6418e2329fada1c7e6"
+      },
+      {
+        "name": "苏州华兴源创科技股份有限公司",
+        "disclosedContributionCny": 18500000,
+        "disclosedPercent": 7.4,
+        "existingInstitution": "20ff7eadf1efcc2c2f769e4b"
+      },
+      {
+        "name": "苏州工业园区人工智能发展有限公司",
+        "disclosedContributionCny": 14000000,
+        "disclosedPercent": 5.6,
+        "existingInstitution": "4c33dc11082dfb36a870d274"
+      },
+      {
+        "name": "江苏聚亭创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "58d5e11772fffcd013015bf9"
+      },
+      {
+        "name": "朱开照",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 0.8,
+        "existingInstitution": "1f40d6897e5a9e20bbf0e997"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "68cec4f308d825eba1a9bd0e",
+    "fundName": "鼎晖中安并购（安徽）股权投资基金合伙企业（有限合伙）",
+    "managerName": "鼎晖投资",
+    "managerId": "57dcf59cb36bb7c1574a71b3",
+    "sizeCny": 2065750000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2025-12-13/f345bb84-c377-487a-a792-4281729fed59.PDF",
+      "date": "2025-12-13",
+      "dateKind": "公开文件披露日",
+      "issuer": "领益智造2025-217号公告",
+      "pages": "第6至7页",
+      "lpSources": [],
+      "lpScope": "已签合伙协议披露7名LP和1名GP，四川普什认缴2.5275亿元。",
+      "generalPartners": [
+        {
+          "name": "鼎晖股权投资管理（天津）有限公司",
+          "disclosedContributionCny": 30000000
+        }
+      ],
+      "managerLegalName": "鼎晖股权投资管理（天津）有限公司",
+      "incorporatedOn": "2025-01-03",
+      "filingCode": "SASX79",
+      "creditCode": "91340100MAE8KRDL7P"
+    },
+    "partners": [
+      {
+        "name": "安徽省三重一创产业发展二期基金有限公司",
+        "disclosedContributionCny": 588000000,
+        "disclosedPercent": 28.46,
+        "existingInstitution": "e98cbd1db1a1d53ec57edd27"
+      },
+      {
+        "name": "天津鼎晖源聚股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 800000000,
+        "disclosedPercent": 38.73,
+        "existingInstitution": "f1d09c55dc994c7ff8bead1e"
+      },
+      {
+        "name": "海南泰岳实业发展合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 4.84,
+        "existingInstitution": "e0147419dccc5b3e28b3d7bd"
+      },
+      {
+        "name": "江西省财投供应链金融有限公司",
+        "disclosedContributionCny": 95000000,
+        "disclosedPercent": 4.6,
+        "existingInstitution": "1eaf12fa22cfe19b1523fc84"
+      },
+      {
+        "name": "广东领益智造股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 4.84,
+        "existingInstitution": "4f38e0e85105b3bdbdca3425"
+      },
+      {
+        "name": "四川普什产业发展基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 252750000,
+        "disclosedPercent": 12.24,
+        "existingInstitution": "dd5d70adb0106a058de94fb2"
+      },
+      {
+        "name": "贵州黔晟投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 4.84,
+        "existingInstitution": "1e430fc68a50c575d408bfc3"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "3053f4587a5179037f0373f0",
+    "fundName": "工融金投二号（北京）新兴产业股权投资基金合伙企业（有限合伙）",
+    "managerName": "工银资本管理有限公司",
+    "managerId": "70f3208ca0d9546c57b3e26a",
+    "sizeCny": 10000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-04/a85934b7-180b-4cea-a2a5-b72dce238dec.PDF",
+      "date": "2026-08-04",
+      "dateKind": "公开文件披露日",
+      "issuer": "海格通信增资进展公告",
+      "pages": "第1至2页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-01-05/1224912390.PDF"
+      ],
+      "lpScope": "1名LP和1名GP，共认缴100亿元。",
+      "generalPartners": [
+        {
+          "name": "工银资本管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "工银资本管理有限公司",
+      "incorporatedOn": "2024-11-08",
+      "creditCode": "91110102MAE5213T7F"
+    },
+    "partners": [
+      {
+        "name": "工银金融资产投资有限公司",
+        "disclosedContributionCny": 9999000000,
+        "disclosedPercent": 99.99,
+        "existingInstitution": "2de0be01fd523580d2baa484"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "23134ca3cb0bb6ee936a4586",
+    "fundName": "湖州凯风厚泽股权投资合伙企业（有限合伙）",
+    "managerName": "凯风创投",
+    "managerId": "db288bdf530bee0bbfbbd413",
+    "sizeCny": 310000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=7738868&stockid=688259",
+      "date": "2021-12-28",
+      "dateKind": "公开文件披露日",
+      "issuer": "创耀科技招股意向书",
+      "pages": "1-1-76",
+      "lpSources": [
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10963997&stockid=688259"
+      ],
+      "lpScope": "招股意向书历史快照6名LP、1名GP；2024年报凭统一社会信用代码核现名，保留原名和时点。",
+      "generalPartners": [
+        {
+          "name": "宁波保税区凯风创业投资管理有限公司",
+          "disclosedContributionCny": 30000000
+        }
+      ],
+      "managerLegalName": "宁波保税区凯风创业投资管理有限公司",
+      "incorporatedOn": "2018-05-07",
+      "formerName": "宁波保税区凯风厚泽股权投资合伙企业（有限合伙）",
+      "creditCode": "91330201MA2AJJPC2Q"
+    },
+    "partners": [
+      {
+        "name": "姚卫中",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 25.81,
+        "existingInstitution": "4adbdeaf4dff33c13d75016b"
+      },
+      {
+        "name": "蔡迪敏",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 19.35,
+        "existingInstitution": "06c97fe99f138dc837d22bf4"
+      },
+      {
+        "name": "陆高峰",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 19.35,
+        "existingInstitution": "427b4137568945d2b6508b45"
+      },
+      {
+        "name": "陈国娟",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 16.13,
+        "existingInstitution": "723856644e4cc5ccae2730a1"
+      },
+      {
+        "name": "姚连干",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 6.45,
+        "existingInstitution": "19cbb984be7e00c5c87f0d64"
+      },
+      {
+        "name": "陆振波",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.23,
+        "existingInstitution": "da69b8ce6a11f65ff5a9de76"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "195d7aabf83ec4dd6d8de3b7",
+    "fundName": "杭州凯风乾德成果转化股权投资合伙企业（有限合伙）",
+    "managerName": "凯风创投",
+    "managerId": "db288bdf530bee0bbfbbd413",
+    "sizeCny": 1375000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12000036&stockid=688259",
+      "date": "2026-03-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "创耀科技2026年减资公告",
+      "pages": "第三节",
+      "lpSources": [
+        "https://epaper.stcn.com/att/202304/26/48203d1a-e9d0-408c-b302-53adb2027f92.pdf"
+      ],
+      "lpScope": "采用公告已存续的减资前认缴，8名LP和1名GP；拟减至11亿元待核完成。",
+      "generalPartners": [
+        {
+          "name": "湖州凯风乾德企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "managerLegalName": "宁波保税区凯风创业投资管理有限公司",
+      "incorporatedOn": "2022-06-09",
+      "formerName": "宁波凯风乾德股权投资合伙企业（有限合伙）",
+      "creditCode": "91330201MABPTPL69J"
+    },
+    "partners": [
+      {
+        "name": "安吉景乾创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 540000000,
+        "disclosedPercent": 39.27,
+        "existingInstitution": "a9d7d939cfe253c64bbb3fbd"
+      },
+      {
+        "name": "杭州萧山经济技术开发区产业基金有限公司",
+        "disclosedContributionCny": 210000000,
+        "disclosedPercent": 15.27,
+        "existingInstitution": "b456486d0d79f7cc89390faa"
+      },
+      {
+        "name": "杭州圣山昱隆企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 10.91,
+        "existingInstitution": "747a4ada931bb8c5796e67a7"
+      },
+      {
+        "name": "安吉远杉创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 140000000,
+        "disclosedPercent": 10.18,
+        "existingInstitution": "59a2b3c164087a334fc719ee"
+      },
+      {
+        "name": "中意人寿保险有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 7.27,
+        "existingInstitution": "d27f06024af2cbad5513f0a9"
+      },
+      {
+        "name": "杭州高科技创业投资管理有限公司",
+        "disclosedContributionCny": 95000000,
+        "disclosedPercent": 6.91,
+        "existingInstitution": "abaea7bdfa4acfe25fe0c6ba"
+      },
+      {
+        "name": "创耀（苏州）通信科技股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 1.45,
+        "existingInstitution": "206c41a7a53fd1a5f9f364ba"
+      },
+      {
+        "name": "苏州高新阳光汇利股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 7.27,
+        "existingInstitution": "189e89dc676741d0bc5eaf92"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "2dd406990c7495dd5d315fb0",
+    "fundName": "北京亦庄京国瑞股权投资基金（有限合伙）",
+    "managerName": "北京京国瑞股权投资基金管理有限公司",
+    "managerId": "695c7053c12f653efbb59061",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-09-18/246105_20260918_K683.pdf",
+      "date": "2026-09-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "北京国有资本运营管理有限公司科技创新债募集说明书",
+      "pages": "31至32页",
+      "lpSources": [
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606181823664788&pageIndex=12"
+      ],
+      "lpScope": "2名LP、1名GP。认缴10亿元，债券披露合计实缴7.3373亿元。",
+      "generalPartners": [
+        {
+          "name": "北京京国瑞投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "北京京国瑞股权投资基金管理有限公司",
+      "incorporatedOn": "2024-11-04",
+      "filingDate": "2024-12-11",
+      "filingCode": "SAQQ79",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-09-18/246105_20260918_K683.pdf",
+        "date": "2026-09-18",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "北京京国瑞投资管理有限公司",
+            "paidCny": 1000000
+          },
+          {
+            "name": "北京国有资本运营管理有限公司",
+            "paidCny": 366000000
+          },
+          {
+            "name": "北京经济技术开发区政府投资引导基金（有限合伙）",
+            "paidCny": 366730000
+          }
+        ],
+        "totalPaidCny": 733730000
+      },
+      "creditCode": "91110400MAE4HM1560"
+    },
+    "partners": [
+      {
+        "name": "北京国有资本运营管理有限公司",
+        "disclosedContributionCny": 499000000,
+        "disclosedPercent": 49.9,
+        "existingInstitution": "8bc822e583c1a9ea5c06f5e4"
+      },
+      {
+        "name": "北京经济技术开发区政府投资引导基金（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 50,
+        "existingInstitution": "deef89b36604b8f01d2a7cfc"
       }
     ],
     "publishedStatistics": []

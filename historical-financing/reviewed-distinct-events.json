@@ -1357,5 +1357,29 @@
     },
     "source": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448586.PDF",
     "reason": "认购新增股份的货币出资与原股东同期转让为不同交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:7458fd29b48b37942d994e",
+      "company_id": "co:cn_uscc:d813548c60be7a7844a4c19afc1c713b"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ec9a66aa8773bf90c4a4bc",
+      "company_id": "co:cn_uscc:d813548c60be7a7844a4c19afc1c713b"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-18/1223898970.PDF",
+    "reason": "同次文件分别签有增资协议和股份转让协议，钱款流向及参与方身份独立。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ec9a66aa8773bf90c4a4bc",
+      "company_id": "co:cn_uscc:d813548c60be7a7844a4c19afc1c713b"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7458fd29b48b37942d994e",
+      "company_id": "co:cn_uscc:d813548c60be7a7844a4c19afc1c713b"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2025-06-18/1223898970.PDF",
+    "reason": "同次文件分别签有增资协议和股份转让协议，钱款流向及参与方身份独立。"
   }
 ]

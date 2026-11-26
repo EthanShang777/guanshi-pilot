@@ -3974,5 +3974,81 @@
     "sources": [
       "https://static.sse.com.cn/stock/disclosure/announcement/c/202212/001408_20221230_3ZE9.pdf"
     ]
+  },
+  "0950bc4285cd060fa05777e5": {
+    "name": "北京旋极星源",
+    "registeredName": "北京旋极星源技术有限公司",
+    "aliases": [
+      "北京爱洁隆技术有限公司"
+    ],
+    "sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=3145825&stockid=300324"
+    ]
+  },
+  "2956b307c26e142fe1b40a05": {
+    "name": "旋极星源",
+    "registeredName": "成都旋极星源信息技术有限公司",
+    "aliases": [
+      "成都旋极星源"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888515.PDF"
+    ]
+  },
+  "ea82074561c8008716256904": {
+    "name": "科美特",
+    "registeredName": "成都科美特特种气体有限公司",
+    "aliases": [
+      "成都科美特",
+      "科美特特种气体"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-05-12/1225291073.PDF"
+    ]
+  },
+  "1c22a0839a76589c69bc2dd1": {
+    "name": "海格天腾",
+    "registeredName": "广州海格天腾产业发展有限公司",
+    "aliases": [
+      "天腾产业"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-04/a85934b7-180b-4cea-a2a5-b72dce238dec.PDF"
+    ]
+  },
+  "34cdbcb7948b942361cf2d4f": {
+    "name": "理湃光晶",
+    "registeredName": "理湃光晶（苏州）科技有限公司",
+    "aliases": [
+      "上海理湃光晶技术有限公司",
+      "理湃光晶技术"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-03-27/1209466016.PDF"
+    ]
+  },
+  "42100ee3184b33af3c7c3a7e": {
+    "name": "亦盛精密",
+    "registeredName": "北京亦盛精密半导体有限公司",
+    "aliases": [],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12371087&stockid=002409"
+    ]
+  },
+  "163b25dedb26655738a36cf1": {
+    "name": "凌耘微",
+    "registeredName": "上海凌耘微电子有限公司",
+    "aliases": [],
+    "sources": [
+      "https://epaper.cs.com.cn/zgzqb/html/2022-02/25/nw.D110000zgzqb_20220225_9-B018.htm"
+    ]
+  },
+  "8178100b9a0c086895b60b05": {
+    "name": "国创先进半导体",
+    "registeredName": "国创先进半导体材料（无锡）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.stcn.com/article/detail/3555419.html"
+    ]
   }
 }
