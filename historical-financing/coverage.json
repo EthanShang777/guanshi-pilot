@@ -7565,6 +7565,78 @@
         "湃泊科技Pre-A轮领投明细": "0633118004efdb0704654642"
       },
       "batch": "2026-11-27-dongguan-network-154.csv"
+    },
+    {
+      "institution": "珠海冠宇、珠海冠明、通沛及钧瀚关联基金",
+      "checked_on": "2026-11-27",
+      "scope": "从希乐斯共同出资方回查上市公司直投、基金LP与被投企业历史股东，按发行人文书核对",
+      "sources": [
+        "https://qccdata.qichacha.com/ReportData/PDF/e01b23b3fe860c965a02ab4f1f6ba9d6.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202105/000771_20210526_KTQI.pdf",
+        "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2021-10-11/688772_20211011_2_lIDuHDg0.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501342.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324581.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-12-14/1222019464.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-12-12/1224868509.PDF",
+        "https://www.cosmx.com/html/2025/company_0313/144.html",
+        "https://pdf.dfcfw.com/pdf/H2_AN202508261734889660_1.pdf?1756238272000.pdf=",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606241823807292&pageIndex=22",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12012045&stockid=688781",
+        "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-12-27/1224900531.PDF"
+      ],
+      "notes": {
+        "caveats": [
+          "珠海冠宇2019、2020增资收款与2020年同日老股转让依招股书验资及核准记录拆分。",
+          "嘉拓智能6月总额由两次增资合计验资621426228元减去5月4700万元计算；除珠海冠明有元级实付披露，其余投资方明细按认购表的万元精度录入。",
+          "浙江冠宇A轮保留披露9亿元，按后续股本表核五家出资方。拟认购细分金额留待正式协议，A+由公告核2亿元实付和渝富高精尖法律主体。",
+          "新源邦和致信天城只录投资方已支付金额，整轮金额和入股方式待核；视涯科技总额为全部新股募资，关联方明细为战略配售。",
+          "海盐鋆昊、嘉兴鋆百规模保留公告时点，LP份额以半年报披露时点为准。昊迪面向兰溪致德但对应轮次未知，基金规模和当前可投余额待证据。",
+          "北京懋源为海盐鋆昊历史份额受让方，当前LP状态未核。XREAL的普通股转让或优先股新发、格瑞芬历史对价、浙江冠宇2023增资完成额需独立复核。"
+        ],
+        "followup_sources": [
+          "https://qccdata.qichacha.com/ReportData/PDF/e01b23b3fe860c965a02ab4f1f6ba9d6.pdf",
+          "https://static.sse.com.cn/stock/disclosure/announcement/c/202105/000771_20210526_KTQI.pdf",
+          "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2021-10-11/688772_20211011_2_lIDuHDg0.pdf",
+          "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501342.PDF",
+          "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324581.PDF",
+          "https://static.cninfo.com.cn/finalpage/2024-12-14/1222019464.PDF",
+          "https://static.cninfo.com.cn/finalpage/2025-12-12/1224868509.PDF",
+          "https://www.cosmx.com/html/2025/company_0313/144.html",
+          "https://pdf.dfcfw.com/pdf/H2_AN202508261734889660_1.pdf?1756238272000.pdf=",
+          "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606241823807292&pageIndex=22",
+          "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12012045&stockid=688781",
+          "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+          "https://static.cninfo.com.cn/finalpage/2025-12-27/1224900531.PDF"
+        ],
+        "followup_entities": [
+          "重庆渝富高精尖产业私募股权投资基金合伙企业（有限合伙）",
+          "珠海冠明投资有限公司",
+          "杭州昊跃股权投资合伙企业（有限合伙）",
+          "兰溪致德新能源材料股份有限公司",
+          "XREAL Ltd.",
+          "佛山市格瑞芬新能源有限公司",
+          "北京懋源投资有限公司",
+          "上海中电投融和新能源投资管理中心（有限合伙）",
+          "东莞市鸿诺二号股权投资合伙企业（有限合伙）",
+          "浙江华友钴业股份有限公司"
+        ],
+        "funding_events": 7,
+        "secondary_events": 1
+      },
+      "events": {
+        "珠海冠宇2019增资": "eeda8c79fc36ba5f5f80ade9",
+        "珠海冠宇2020增资": "1026de99fedd83fbe61eb778",
+        "珠海冠宇2020股权转让": "79b89d19c9e053b40a610482",
+        "嘉拓智能2023年5月增资": "0e704e8b0a0bb8575cdaef91",
+        "嘉拓智能2023年6月增资": "eea0bd9f40ad8ce2eaf80577",
+        "新源邦股权投资": "ea2c871a0ede2872f72befba",
+        "致信天城股权投资": "d086a45160088976e1fb4c0a",
+        "视涯科技IPO": "fe89713d0329be22cfd362e2",
+        "浙江冠宇A轮复核": "b1b987928b0ec988b79c3c54",
+        "浙江冠宇A+轮复核": "434def5dea90c044ca540b1e"
+      },
+      "batch": "2026-11-27-cosmx-network-155.csv"
     }
   ]
 }

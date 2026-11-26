@@ -2760,5 +2760,133 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "b148c97f4d408dab07db64a5",
+    "fundName": "嘉兴鋆百股权投资合伙企业（有限合伙）",
+    "managerName": "珠海通沛股权投资管理合伙企业（有限合伙）",
+    "managerId": "8a419d0100f1f64829520fc2",
+    "sizeCny": 252001000,
+    "capitalBasis": "公告披露认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501342.PDF",
+      "date": "2026-08-26",
+      "dateKind": "2026年半年报披露日",
+      "issuer": "珠海冠宇电池股份有限公司",
+      "pages": "31与财务报表附注",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-12-14/1222019464.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-12-12/1224868509.PDF"
+      ],
+      "lpScope": "规模为2024年12月公告的认缴规模。2026年6月底珠海冠明认缴5040万元，实缴5030万元。另两家LP金额未披露。",
+      "generalPartners": [
+        {
+          "name": "珠海通沛股权投资管理合伙企业（有限合伙）"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "珠海冠明投资有限公司",
+        "disclosedContributionCny": 50400000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": "5682ab96965605972034fe9f"
+      },
+      {
+        "name": "海盐县国有资本投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "1a695408f23ed21878a3bd85"
+      },
+      {
+        "name": "浙江百步经济开发区投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "4e1ff74de91db6e3a994155f"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "54ba6aba36c1777ec42b68c8",
+    "fundName": "海盐鋆昊臻选股权投资合伙企业（有限合伙）",
+    "managerName": "珠海通沛股权投资管理合伙企业（有限合伙）",
+    "managerId": "8a419d0100f1f64829520fc2",
+    "sizeCny": 2107001000,
+    "capitalBasis": "公告披露认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501342.PDF",
+      "date": "2026-08-26",
+      "dateKind": "2026年半年报披露日",
+      "issuer": "珠海冠宇电池股份有限公司",
+      "pages": "31与财务报表附注",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-12-14/1222019464.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8935185&stockid=688772"
+      ],
+      "lpScope": "规模为2024年12月公告口径，1.75%为2026年6月底报告期比例。珠海冠明原认缴8000万元，向北京懋源转让其中4000万元后认缴4000万元，期末实缴2800万元。北京懋源的4000万元为2022年转让交易范围，其当前持有份额待核。",
+      "generalPartners": [
+        {
+          "name": "珠海通沛股权投资管理合伙企业（有限合伙）"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "珠海冠明投资有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "1.75",
+        "existingInstitution": "5682ab96965605972034fe9f"
+      },
+      {
+        "name": "海盐县国有资本投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "1a695408f23ed21878a3bd85"
+      },
+      {
+        "name": "珠海威迪投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "5069c761d6965fb90b296df4"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "19226bd0d097a0bb540433cd",
+    "fundName": "杭州昊迪股权投资合伙企业（有限合伙）",
+    "managerName": "珠海钧瀚私募基金管理有限公司",
+    "managerId": "369b3826ac906037dc4bc33f",
+    "sizeCny": null,
+    "capitalBasis": "",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501342.PDF",
+      "date": "2026-08-26",
+      "dateKind": "2026年半年报披露日",
+      "issuer": "珠海冠宇电池股份有限公司",
+      "pages": "31与财务报表附注",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324581.PDF"
+      ],
+      "lpScope": "珠海冠明截至2026年6月底认缴和实缴均为2000万元，比例31.90%。基金专项投资兰溪致德，具体轮次和项目出资额待核。",
+      "generalPartners": [
+        {
+          "name": "珠海钧瀚私募基金管理有限公司"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "珠海冠明投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "31.90",
+        "existingInstitution": "5682ab96965605972034fe9f"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

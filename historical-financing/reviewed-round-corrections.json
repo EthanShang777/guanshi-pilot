@@ -5022,5 +5022,54 @@
       "https://www.dg.gov.cn/gzw/qyjj/qydt/content/post_4541198.html",
       "https://pub.timedg.com/a/2021-09/14/AP61405bb7e4b05daa9e68402a.html"
     ]
+  },
+  {
+    "event_id": "financing_event:ce81292769452e336e5b819f34fe3ec797df99f60873d129e71d92d3da795da8",
+    "company_id": "co:full_legal_name:00a06fbb5bb50ce7f065f66f31224e80",
+    "day": "2025-03-16",
+    "source": "https://www.cosmx.com/html/2025/company_0313/144.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "9亿人民币",
+      "investors_json": "[{\"name\":\"鋆昊资本\",\"role\":null,\"amount\":null},{\"name\":\"钧瀚投资\",\"role\":null,\"amount\":null},{\"name\":\"长三角创投\",\"role\":null,\"amount\":null}]",
+      "date": "2025-03-16",
+      "date_key": "2025-03-16",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "9亿人民币",
+      "investors_json": "[{\"name\":\"珠海冠宇电池股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"海盐鋆昊臻选股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴鋆百股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"杭州昊跃股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"浙嘉产装高端装备股权投资（嘉兴）合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2025-03-13",
+      "date_key": "2025-03-13",
+      "date_kind": "公司披露完成9亿元融资的日期，后续股本表核对法律出资主体"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-12-12/1224868509.PDF",
+      "https://static.cninfo.com.cn/finalpage/2024-12-14/1222019464.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:f5d3a60e632709809a54904f75409dac9894fb4c129d7c2ef03976ac79139b97",
+    "company_id": "co:full_legal_name:00a06fbb5bb50ce7f065f66f31224e80",
+    "day": "2025-12-26",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-12-12/1224868509.PDF",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"渝富高质产业母基金\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-26",
+      "date_key": "2025-12-26",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "2亿元",
+      "investors_json": "[{\"name\":\"重庆渝富高精尖产业私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2025-12-12/1224868509.PDF\"}}]",
+      "date": "2025-12-12",
+      "date_key": "2025-12-12",
+      "date_kind": "上市公司披露交付进展日，增资款已全额支付"
+    },
+    "additional_sources": []
   }
 ]

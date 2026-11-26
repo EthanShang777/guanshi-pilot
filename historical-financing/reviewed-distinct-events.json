@@ -89,5 +89,15 @@
     },
     "source": "https://www.znext.io/portfolio/ardeevo",
     "separate_identity_source": "https://uncorkcapital.com/blog/investing-in-evos"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1573576572e5dc7fba36ec",
+      "company_id": "co:full_legal_name:ff31a4017a3afe0735ac740acd29ed78"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:5f9c93651520a122577cb0",
+      "company_id": "co:full_legal_name:ff31a4017a3afe0735ac740acd29ed78"
+    }
   }
 ]

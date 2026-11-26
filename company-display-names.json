@@ -3124,5 +3124,65 @@
     "sources": [
       "https://www.vbdata.cn/companyDetail/7208e4f37a9b4862af1544e8c5164948"
     ]
+  },
+  "3f4638e3fe20c5366b291739": {
+    "name": "珠海冠宇",
+    "registeredName": "珠海冠宇电池股份有限公司",
+    "aliases": [
+      "COSMX",
+      "光宇电池",
+      "珠海光宇电池有限公司",
+      "珠海冠宇电池有限公司"
+    ],
+    "sources": [
+      "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2021-10-11/688772_20211011_2_lIDuHDg0.pdf"
+    ]
+  },
+  "0938120087170eff1dd7d720": {
+    "name": "浙江冠宇",
+    "registeredName": "浙江冠宇电池有限公司",
+    "aliases": [
+      "浙江冠宇电池"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-12-12/1224868509.PDF"
+    ]
+  },
+  "d4994ddfc940be735bbed646": {
+    "name": "视涯科技",
+    "registeredName": "视涯科技股份有限公司",
+    "aliases": [
+      "视涯半导体"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF"
+    ]
+  },
+  "1419c5f93463032b7003a4df": {
+    "name": "嘉拓智能",
+    "registeredName": "江苏嘉拓新能源智能装备股份有限公司",
+    "aliases": [
+      "江苏中关村嘉拓新能源设备有限公司",
+      "溧阳嘉拓智能设备有限公司"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202508261734889660_1.pdf?1756238272000.pdf="
+    ]
+  },
+  "d21634f4cd12f39f70d319b2": {
+    "name": "新源邦",
+    "registeredName": "深圳新源邦科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324581.PDF"
+    ]
+  },
+  "e752c0d89b6047c0e3a934f2": {
+    "name": "致信天城",
+    "registeredName": "昆山致信天城电子材料有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324581.PDF"
+    ]
   }
 }
