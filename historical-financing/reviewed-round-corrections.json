@@ -4224,5 +4224,56 @@
     "additional_sources": [
       "https://www.thecapital.com.cn/news/detail/125324"
     ]
+  },
+  {
+    "event_id": "financing_event:0fbd3e4dc331150272985c2b0175332de09f8cc625da47f22f12b6ad57032418",
+    "company_id": "co:full_legal_name:76315b8b29e8ef89f1760726b50e5be3",
+    "expected": {
+      "round": "战略融资",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"时代伯乐\",\"role\":null,\"amount\":null},{\"name\":\"金沙江联合资本\",\"role\":null,\"amount\":null}]",
+      "date": "2026-06-17",
+      "date_key": "2026-06-17",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"宁波传感谷创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2026-06-17",
+      "date_key": "2026-06-17",
+      "date_kind": "投资方首次可核披露日，基金实际出资仅披露量级"
+    },
+    "source": "https://www.nbzoo.com/news/keli_news/2801.html",
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518537.PDF",
+      "https://info.datadowell.com/jqr/0-1783047851448.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:f2eda758f6305a33029f535576fcbc77b83ee9bd331f99f77d049443e78a7a86",
+    "company_id": "co:full_legal_name:6dba1b2bce312869a846e6f2c860d0be",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"时代伯乐\",\"role\":null,\"amount\":null},{\"name\":\"浦东资本\",\"role\":null,\"amount\":null}]",
+      "date": "2026-06-23",
+      "date_key": "2026-06-23",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"宁波传感谷创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"浦东资本\",\"role\":null,\"amount\":null}]",
+      "date": "2026-06-23",
+      "date_key": "2026-06-23",
+      "date_kind": "融资公开披露日，已核实际时代伯乐管理的出资基金"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518537.PDF",
+    "additional_sources": [
+      "https://m.sohu.com/a/1041129798_115035",
+      "https://jiachuanh5.cvsource.com.cn/report-web/IigocnFzIXElIyQgaCMpJw?channel=tzw",
+      "https://pitchhub.36kr.com/project/2214778999747465/"
+    ]
   }
 ]

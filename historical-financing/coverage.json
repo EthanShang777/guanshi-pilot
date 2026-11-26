@@ -4580,6 +4580,108 @@
           "reason": "2025年9月2,000万元出资与12月B轮可能属于同一轮，待比较认购日期及投资载体。"
         }
       ]
+    },
+    {
+      "institution": "柯力传感及宁波传感谷基金",
+      "checked_on": "2026-11-26",
+      "scope": "上市公司本期四笔直投公告、中报附注、宁波传感谷出资表和在库企业交叉核对",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518537.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12558440&stockid=603662",
+        "https://www.kelichina.com/invest/group/group3/",
+        "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622585.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-09-07/1221159221.PDF",
+        "https://www.xwboo.com/news/detail-256755.html",
+        "https://www.nbzoo.com/news/keli_news/2801.html",
+        "https://jiachuanh5.cvsource.com.cn/report-web/IigocnFzIXElIyQgaCMpJw?channel=tzw",
+        "https://m.sohu.com/a/1041129798_115035",
+        "https://www.eet-china.com/mp/a473822.html",
+        "https://finance.sina.com.cn/jjxw/2026-04-16/doc-inhuskun1665401.shtml",
+        "https://www.kelichina.com/news/keli_news/2811.html",
+        "https://www.xhby.net/content/s6a50c372e4b05b077e34a1b0.html"
+      ],
+      "candidate_count": 4,
+      "existing_count": 3,
+      "pending_count": 4,
+      "batch": "2026-11-26-keli-and-jingdata-cases-136.csv",
+      "confirmed_investments": [
+        "de235eed3ed764b4a19d7c1d",
+        "c11780119ddce6f3bf947edc",
+        "f84059aa3f6614c3286902f6",
+        "445c32d4b190ba2b0846027e",
+        "c38c52c0a52213c026c1a939",
+        "fc4ca1408895276b6d023f5b",
+        "e1ab68cc3aa5fc8c0daeb898"
+      ],
+      "fund": {
+        "fund_id": "ab1d5a519c1ef587166e05f3",
+        "known_commitment_cny": 70000000,
+        "verified_funded_cny": 70000000,
+        "invested_cny": 67029400,
+        "investments_disclosed": 6,
+        "lp_count": 3,
+        "additional_commitment_cny": 30000000,
+        "additional_paid_verified": false,
+        "as_of": "2026-06-30",
+        "source": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622585.PDF"
+      },
+      "pending": [
+        {
+          "company": "恒之未来（重庆）创新科技有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622585.PDF",
+          "reason": "7月投资披露与10月原公告中引用的8月新增注册资本条款待按实际交易区分。注册资本不直接当作投资款。"
+        },
+        {
+          "company": "北京深朴智能科技有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-09-23/1225577942.PDF",
+          "reason": "公开股东表及本期直投存在，继续核何时入股、归属轮次及两条9月Pre-A+。"
+        },
+        {
+          "company": "宁波传感谷创业投资基金合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622585.PDF",
+          "reason": "新增3000万元认缴的登记和实缴尚无验证，当期可投余额待披露。"
+        },
+        {
+          "company": "深圳市德壹医疗科技有限公司",
+          "source": "https://kelichina.com/news/keli_news/2384.html",
+          "reason": "官网确认基金已完成、金额为数千万。半年报原文单项目累计投入1500万元未列项目名，继续找逐笔确证。"
+        }
+      ]
+    },
+    {
+      "institution": "鲸准公开成功融资案例",
+      "checked_on": "2026-11-26",
+      "scope": "公开案例无整月筛选，抽核8个案例名称。兆鑫驰所指Pre-A轮及其随后两轮交叉核实。",
+      "sources": [
+        "https://www.jingdata.com.cn/financing/cases/",
+        "https://pitchhub.36kr.com/project/1957851047415045",
+        "https://vc.pedaily.cn/company/185125.html",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2024-08-01/a73d41ea-3758-49b0-b427-21afdbf683ad.PDF",
+        "https://www.shangdaovc.cn/nr.jsp?_np=0_939_139&complexStaticUrl=true&m31pageno=424",
+        "https://www.36kr.com/p/2411200611263240",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8330705&stockid=836208"
+      ],
+      "sampled_names": [
+        "小得环保",
+        "素洗科技",
+        "奈玑子",
+        "易协云",
+        "熊猫二奢",
+        "Affine",
+        "睿视新界",
+        "兆鑫驰"
+      ],
+      "candidate_count": 3,
+      "existing_count": 0,
+      "pending_count": 7,
+      "batch": "2026-11-26-keli-and-jingdata-cases-136.csv",
+      "matched_lead": "兆鑫驰",
+      "followup_event_ids": [
+        "5f5b585e96b04aa7b467dfc4",
+        "9ad5c75dea691fc52fd51b72",
+        "396b2d5baea2c9a2b79b2c0e"
+      ],
+      "pending_note": "睿视新界的招股书可对股东方和法律主体，但该笔完成时间及交易类型仍待核。其他六个案例待核主体、日期或参与方。"
     }
   ]
 }
