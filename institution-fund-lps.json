@@ -17317,5 +17317,193 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "ab78a6553788e5d3403d1961",
+    "fundName": "合肥中电科国元产业投资基金合伙企业（有限合伙）",
+    "managerName": "中电科国元（北京）产业投资基金管理有限公司",
+    "managerId": "bb06f49a5c0f48428668fa1f",
+    "sizeCny": 1320000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2020-12-21/1208941543.PDF",
+      "date": "2020-12-21",
+      "dateKind": "公开文件披露日",
+      "issuer": "河北中瓷电子科技股份有限公司",
+      "pages": "81–82",
+      "lpSources": [],
+      "lpScope": "该披露时点的全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "中电科国元（北京）产业投资基金管理有限公司",
+          "disclosedContributionCny": 12010000
+        }
+      ],
+      "managerLegalName": "中电科国元（北京）产业投资基金管理有限公司",
+      "creditCode": "91340111MA2MXMGR37",
+      "registrationCode": "ST4392",
+      "managerRegistrationCode": "P1062518",
+      "paidInDisclosures": [
+        {
+          "url": "https://static.cninfo.com.cn/finalpage/2020-12-21/1208941543.PDF",
+          "date": "2020-12-21",
+          "dateKind": "公开文件披露日",
+          "partners": [],
+          "totalPaidCny": 1320000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "国元股权投资有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 22.73,
+        "existingInstitution": "8005120232c1a3e553996aae"
+      },
+      {
+        "name": "国元农业保险股份有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 15.15,
+        "existingInstitution": "d07ef855e20573267e5d258c"
+      },
+      {
+        "name": "华本投资有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 15.15,
+        "existingInstitution": "7499d01d71fd99333a56e2a1"
+      },
+      {
+        "name": "中电科投资控股有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 11.36,
+        "existingInstitution": "fff24ba200d5a55016f78e92"
+      },
+      {
+        "name": "安徽和合投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 7.58,
+        "existingInstitution": "53493b4bcaaf6946b68e8946"
+      },
+      {
+        "name": "三峡资本控股有限责任公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 7.58,
+        "existingInstitution": "ac6814cd6ad0ca79ebfa3c04"
+      },
+      {
+        "name": "上海长江财富资产管理有限公司",
+        "disclosedContributionCny": 58000000,
+        "disclosedPercent": 4.39,
+        "existingInstitution": "64239ab0f9b530c4306c0857"
+      },
+      {
+        "name": "中兵投资管理有限责任公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 3.79,
+        "existingInstitution": "d514eaa0ca78f555d3ab735a"
+      },
+      {
+        "name": "华元金控资本管理（上海）有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 3.79,
+        "existingInstitution": "fefedd3de01c7bc6eef51228"
+      },
+      {
+        "name": "安徽国元投资有限责任公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 3.79,
+        "existingInstitution": "ded47c130be8a1d258ad5eb8"
+      },
+      {
+        "name": "安徽国元信托有限责任公司",
+        "disclosedContributionCny": 49990000,
+        "disclosedPercent": 3.79,
+        "existingInstitution": "b89356d2185bddde36c75823"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "deea56513a58f3145e960442",
+    "fundName": "武汉华实劲鸿私募股权投资基金合伙企业（有限合伙）",
+    "managerName": "华实浩瑞（武汉）资产管理有限公司",
+    "managerId": "09387bf99f5c3b814440612b",
+    "sizeCny": 300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2021-11-10/1211538706.PDF",
+      "date": "2021-11-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "西藏奇正藏药股份有限公司",
+      "pages": "5–6",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2022-01-27/1212295831.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-03-08/1216063364.PDF"
+      ],
+      "lpScope": "该披露时点的全体直接合伙人（设立协议）",
+      "generalPartners": [
+        {
+          "name": "华实浩瑞（武汉）资产管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "华实浩瑞（武汉）资产管理有限公司",
+      "creditCode": "91420105MA4F43LG2K",
+      "registrationCode": "SSW672",
+      "managerRegistrationCode": "P1071013"
+    },
+    "partners": [
+      {
+        "name": "甘肃佛阁藏药有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 33.33,
+        "existingInstitution": "583534751df9adf163db3ed6"
+      },
+      {
+        "name": "深圳市红塔资产管理有限公司",
+        "disclosedContributionCny": 71000000,
+        "disclosedPercent": 23.67,
+        "existingInstitution": "bff988f2381aebcd36076afc"
+      },
+      {
+        "name": "北京凯韦诚投资管理有限责任公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 16.67,
+        "existingInstitution": "d0c1565b5904d451f5416359"
+      },
+      {
+        "name": "北斗银泰投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 6.67,
+        "existingInstitution": "70b1eed4751caaa9907d60fa"
+      },
+      {
+        "name": "湖北瑞鑫实业有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 6.67,
+        "existingInstitution": "93b78dfb365d1855c9fbc7d5"
+      },
+      {
+        "name": "华石鸿洛（珠海）实业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 18000000,
+        "disclosedPercent": 6,
+        "existingInstitution": "98ef1cebb2e0acb24d3ed828"
+      },
+      {
+        "name": "武汉海兴房地产开发有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.33,
+        "existingInstitution": "bfdd5e9e64fb3be259d3e11a"
+      },
+      {
+        "name": "黎雅婷",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.33,
+        "existingInstitution": "d58ede47c5de6c71a2173657"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

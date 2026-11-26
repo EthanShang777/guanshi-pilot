@@ -4978,7 +4978,8 @@
       "大连藏龙光电子"
     ],
     "sources": [
-      "https://static.cninfo.com.cn/finalpage/2024-08-20/1220908322.PDF"
+      "https://static.cninfo.com.cn/finalpage/2024-08-20/1220908322.PDF",
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=3497132&stockid=002281"
     ]
   },
   "1f09683791e11eda4b9373d7": {
@@ -4989,6 +4990,51 @@
     ],
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2026-04-30/1225268669.PDF"
+    ]
+  },
+  "3a01d47d229ec0e701f3f78a": {
+    "name": "中瓷电子",
+    "registeredName": "河北中瓷电子科技股份有限公司",
+    "aliases": [
+      "河北中瓷电子科技有限公司",
+      "中瓷有限",
+      "003031"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-12-21/1208941543.PDF"
+    ]
+  },
+  "2e26a2884690117f040f04e3": {
+    "name": "博威集成电路",
+    "registeredName": "河北博威集成电路有限公司",
+    "aliases": [
+      "河北博威",
+      "博威公司"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2024-05-11/cc406867-0641-404b-9188-35661e8be337.PDF"
+    ]
+  },
+  "113691776a7e884c83fd0f23": {
+    "name": "国联万众",
+    "registeredName": "北京国联万众半导体科技有限公司",
+    "aliases": [
+      "国联万众半导体"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2024-05-11/cc406867-0641-404b-9188-35661e8be337.PDF"
+    ]
+  },
+  "1ef62ea128afc2cc285c6b98": {
+    "name": "光迅科技",
+    "registeredName": "武汉光迅科技股份有限公司",
+    "aliases": [
+      "武汉光迅科技有限责任公司",
+      "光迅有限",
+      "002281"
+    ],
+    "sources": [
+      "https://www.szse.cn/disclosure/notice/t20090819_508315.html"
     ]
   }
 }

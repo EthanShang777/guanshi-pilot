@@ -2898,5 +2898,17 @@
   "苏州沃洁股权投资合伙企业（有限合伙）": {
     "brand": "北京沃衍资本管理中心（有限合伙）",
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+  },
+  "合肥中电科国元产业投资基金合伙企业（有限合伙）": {
+    "brand": "中电科国元（北京）产业投资基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2020-12-21/1208941543.PDF"
+  },
+  "武汉华实劲鸿私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "华实浩瑞（武汉）资产管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-01-27/1212295831.PDF"
+  },
+  "中国国有企业结构调整基金二期股份有限公司": {
+    "brand": "诚通基金管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-15/1225425449.PDF"
   }
 }
