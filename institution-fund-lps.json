@@ -1,0 +1,469 @@
+[
+  {
+    "fundId": "0c50661b471dda63cf8bd450",
+    "fundName": "华文清能一期投资基金（滁州）合伙企业（有限合伙）",
+    "managerId": "8c99b00ea5ebdfc9572b4e95",
+    "managerName": "CMC资本",
+    "capitalBasis": "披露出资额",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821737352_1.pdf",
+      "issuer": "朗信电气招股说明书（注册稿）",
+      "date": "2026-04-29",
+      "dateKind": "签署日期",
+      "pages": "59–60"
+    },
+    "partners": [
+      {
+        "name": "安徽省三重一创产业发展二期基金有限公司",
+        "disclosedContributionCny": 330000000,
+        "disclosedPercent": "33.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "宁波三星智能电气有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "滁州市城投鑫创资产管理有限公司",
+        "disclosedContributionCny": 160000000,
+        "disclosedPercent": "16.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "安徽辉隆农资集团股份有限公司",
+        "disclosedContributionCny": 45000000,
+        "disclosedPercent": "4.50",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海九格金合企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 105000000,
+        "disclosedPercent": "10.50",
+        "existingInstitution": null
+      },
+      {
+        "name": "福州榕投清能创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海徽就企业管理咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      }
+    ],
+    "otherLpCount": 0
+  },
+  {
+    "fundId": "04ac982bdb74e18d36875987",
+    "fundName": "张家港暨阳创业投资合伙企业（有限合伙）",
+    "managerId": "3e2f22c240c8cb2545a42614",
+    "managerName": "张家港产业投资管理有限公司",
+    "capitalBasis": "披露出资额",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821737352_1.pdf",
+      "issuer": "朗信电气招股说明书（注册稿）",
+      "date": "2026-04-29",
+      "dateKind": "签署日期",
+      "pages": "60–61"
+    },
+    "partners": [
+      {
+        "name": "张家港产业资本投资有限公司",
+        "disclosedContributionCny": 224000000,
+        "disclosedPercent": "47.79",
+        "existingInstitution": null
+      },
+      {
+        "name": "张家港联创市村投资发展有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "21.33",
+        "existingInstitution": null
+      },
+      {
+        "name": "张家港弘盛产业资本母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 93750000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "张家港市德积乡村发展有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "10.67",
+        "existingInstitution": null
+      }
+    ],
+    "otherLpCount": 0
+  },
+  {
+    "fundId": "f8dbaab8578bf328075548de",
+    "fundName": "宁波隆华汇博源创业投资合伙企业（有限合伙）",
+    "managerId": "bbe24cef26fe077e01673c0c",
+    "managerName": "九格资本",
+    "capitalBasis": "披露出资额",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821737352_1.pdf",
+      "issuer": "朗信电气招股说明书（注册稿）",
+      "date": "2026-04-29",
+      "dateKind": "签署日期",
+      "pages": "61–62"
+    },
+    "partners": [
+      {
+        "name": "华芳集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "40.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "北京江河源控股有限公司",
+        "disclosedContributionCny": 17100000,
+        "disclosedPercent": "3.42",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海元藩投资有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "2.00",
+        "existingInstitution": null
+      }
+    ],
+    "otherLpCount": 5
+  },
+  {
+    "fundId": "8a5dba18602e4244567cdd0b",
+    "fundName": "安徽基石智能制造三期基金合伙企业（有限合伙）",
+    "managerId": "21a38a5899d2a5d01c50a975",
+    "managerName": "基石资本",
+    "capitalBasis": "披露出资额",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821737352_1.pdf",
+      "issuer": "朗信电气招股说明书（注册稿）",
+      "date": "2026-04-29",
+      "dateKind": "签署日期",
+      "pages": "63"
+    },
+    "partners": [
+      {
+        "name": "安徽省三重一创产业发展基金有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": "40.00",
+        "existingInstitution": "0da0499495358396935b4e58"
+      },
+      {
+        "name": "芜湖产业投资基金有限公司",
+        "disclosedContributionCny": 290000000,
+        "disclosedPercent": "29.00",
+        "existingInstitution": "40e7b5f93ee53b37d38ca7cf"
+      },
+      {
+        "name": "安徽江东产业投资集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "马鞍山市雨山区资产经营有限责任公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      }
+    ],
+    "otherLpCount": 0
+  },
+  {
+    "fundId": "91107f9384ce53108223d171",
+    "fundName": "马鞍山市江东诗航产业基金合伙企业（有限合伙）",
+    "managerId": "1b8f6eadd05909069ef07315",
+    "managerName": "安徽江东产投私募",
+    "capitalBasis": "披露出资额",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821737352_1.pdf",
+      "issuer": "朗信电气招股说明书（注册稿）",
+      "date": "2026-04-29",
+      "dateKind": "签署日期",
+      "pages": "64"
+    },
+    "partners": [
+      {
+        "name": "安徽江东产业投资集团有限公司",
+        "disclosedContributionCny": 1580000000,
+        "disclosedPercent": "79.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "安徽省高新创业投资有限责任公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": null
+      }
+    ],
+    "otherLpCount": 0
+  },
+  {
+    "fundId": "f3ae3d940a1367a442c66fef",
+    "fundName": "张家港金创一号股权投资合伙企业（有限合伙）",
+    "managerId": "ced381585e7648f29b36cd4b",
+    "managerName": "张家港金茂创投",
+    "capitalBasis": "披露出资额",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821737352_1.pdf",
+      "issuer": "朗信电气招股说明书（注册稿）",
+      "date": "2026-04-29",
+      "dateKind": "签署日期",
+      "pages": "65"
+    },
+    "partners": [
+      {
+        "name": "张家港市金科创业投资有限公司",
+        "disclosedContributionCny": 29000000,
+        "disclosedPercent": "96.67",
+        "existingInstitution": null
+      }
+    ],
+    "otherLpCount": 0
+  },
+  {
+    "fundId": "858809915e657694bd8f94c0",
+    "fundName": "先进制造产业投资基金二期（有限合伙）",
+    "managerId": "05dbc80c452dcfcd5b9744ae",
+    "managerName": "国投招商",
+    "capitalBasis": "认缴",
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf",
+      "issuer": "纽氏达特招股说明书（上会稿）",
+      "date": "2026-11-06",
+      "dateKind": "公开披露日期",
+      "pages": "1-1-79–1-1-81"
+    },
+    "partners": [
+      {
+        "name": "中华人民共和国财政部",
+        "disclosedContributionCny": 12455830000,
+        "disclosedPercent": "25.00",
+        "existingInstitution": "4ed5bb14a0acb59d8f10e24c"
+      },
+      {
+        "name": "国家开发投资集团有限公司",
+        "disclosedContributionCny": 5000000000,
+        "disclosedPercent": "10.04",
+        "existingInstitution": null
+      },
+      {
+        "name": "招商局资本控股有限责任公司",
+        "disclosedContributionCny": 4800000000,
+        "disclosedPercent": "9.63",
+        "existingInstitution": null
+      },
+      {
+        "name": "合肥市创业投资引导基金有限公司",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": "6.02",
+        "existingInstitution": null
+      },
+      {
+        "name": "江苏疌泉先进制造产业投资基金（有限合伙）",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": "6.02",
+        "existingInstitution": null
+      },
+      {
+        "name": "南京市产业发展基金有限公司",
+        "disclosedContributionCny": 2500000000,
+        "disclosedPercent": "5.02",
+        "existingInstitution": null
+      },
+      {
+        "name": "浙江省产业基金有限公司",
+        "disclosedContributionCny": 1700000000,
+        "disclosedPercent": "3.41",
+        "existingInstitution": "0ae730250d325ac6a8bf44a5"
+      },
+      {
+        "name": "深圳市引导基金投资有限公司",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": "3.01",
+        "existingInstitution": null
+      },
+      {
+        "name": "南京江北新区高质量发展产业投资基金（有限合伙）",
+        "disclosedContributionCny": 1100000000,
+        "disclosedPercent": "2.21",
+        "existingInstitution": null
+      },
+      {
+        "name": "广东粤财投资控股有限公司",
+        "disclosedContributionCny": 1050000000,
+        "disclosedPercent": "2.11",
+        "existingInstitution": null
+      },
+      {
+        "name": "湖北长江产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "2.01",
+        "existingInstitution": null
+      },
+      {
+        "name": "全国社会保障基金理事会",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "2.01",
+        "existingInstitution": "7178e2de0590973f883073a1"
+      },
+      {
+        "name": "安徽省三重一创产业发展基金有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "2.01",
+        "existingInstitution": "0da0499495358396935b4e58"
+      },
+      {
+        "name": "中国人保资产管理有限公司（代表“人保资产-先进制造产业基金股权投资计划”）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "2.01",
+        "existingInstitution": null
+      },
+      {
+        "name": "重庆两江新区承为私募股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "2.01",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海国际集团有限公司",
+        "disclosedContributionCny": 900000000,
+        "disclosedPercent": "1.81",
+        "existingInstitution": "9b39ef6be85720e41d970298"
+      },
+      {
+        "name": "厦门市产业投资有限公司",
+        "disclosedContributionCny": 800000000,
+        "disclosedPercent": "1.61",
+        "existingInstitution": null
+      },
+      {
+        "name": "宁波富甬合投制造业股权投资有限公司",
+        "disclosedContributionCny": 800000000,
+        "disclosedPercent": "1.61",
+        "existingInstitution": null
+      },
+      {
+        "name": "山东发展投资控股集团有限公司",
+        "disclosedContributionCny": 750000000,
+        "disclosedPercent": "1.51",
+        "existingInstitution": null
+      },
+      {
+        "name": "南京扬子国资投资集团有限责任公司",
+        "disclosedContributionCny": 702500000,
+        "disclosedPercent": "1.41",
+        "existingInstitution": null
+      },
+      {
+        "name": "南京扬子江创新创业投资基金（有限合伙）",
+        "disclosedContributionCny": 697500000,
+        "disclosedPercent": "1.40",
+        "existingInstitution": null
+      },
+      {
+        "name": "广州市新兴产业发展基金管理有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "1.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "重庆祎福股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "1.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "佛山市投资控股集团有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "1.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "工银理财有限责任公司（代表“工银理财•博股通利私银尊享私募甄选权益类封闭式理财产品 21QY1803”）",
+        "disclosedContributionCny": 317500000,
+        "disclosedPercent": "0.64",
+        "existingInstitution": null
+      },
+      {
+        "name": "东莞市投控资本投资有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": "0.50",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海汽车集团股权投资有限公司（代表“上汽工业-先进制造产业私募股权投资基金”）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "0.40",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海上投资产经营有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "0.40",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海电气控股集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "0.40",
+        "existingInstitution": null
+      },
+      {
+        "name": "珠海发展投资基金（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "0.40",
+        "existingInstitution": null
+      },
+      {
+        "name": "长城汽车股份有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "0.40",
+        "existingInstitution": null
+      },
+      {
+        "name": "重庆两山产业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "0.20",
+        "existingInstitution": null
+      },
+      {
+        "name": "工银安盛人寿保险有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "0.20",
+        "existingInstitution": null
+      },
+      {
+        "name": "比亚迪汽车工业有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "0.20",
+        "existingInstitution": null
+      },
+      {
+        "name": "中国国际工程咨询有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "0.20",
+        "existingInstitution": null
+      },
+      {
+        "name": "烟台市财金发展投资集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "0.20",
+        "existingInstitution": null
+      },
+      {
+        "name": "南京坤道驰骋企业管理中心（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "0.10",
+        "existingInstitution": null
+      }
+    ],
+    "otherLpCount": 0
+  }
+]

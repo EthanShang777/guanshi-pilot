@@ -79,6 +79,37 @@
           root.append(section);
         }
       }
+      if(row.fundDisclosures?.length){
+        const funds=el('section','');
+        funds.className='profile-records';
+        funds.append(el('h2',row.fundDisclosures.some(fund=>fund.fundId===id)?'有限合伙人（LP）':'旗下基金的有限合伙人（LP）'));
+        for(const fund of row.fundDisclosures){
+          const details=el('details','');
+          const count=fund.partners.length+fund.otherLpCount;
+          const heading=fund.fundId===id?'查看公开披露':fund.fundName;
+          details.append(el('summary',heading+' · '+count+' 位 LP'));
+          if(fund.fundId===id && fund.managerId!==id){
+            details.append(link('institution.html?id='+fund.managerId,'管理人 · '+fund.managerName+' →'));
+          }
+          const list=el('ul','');
+          for(const partner of fund.partners){
+            const item=el('li','');
+            item.append(partner.existingInstitution
+              ? link('institution.html?id='+partner.existingInstitution,partner.name)
+              : el('span',partner.name));
+            const amount=(partner.disclosedContributionCny/10000).toLocaleString('zh-CN',{maximumFractionDigits:4});
+            item.append(el('small',' · '+fund.capitalBasis+' '+amount+' 万元 · '+partner.disclosedPercent+'%'));
+            list.append(item);
+          }
+          details.append(list);
+          if(fund.otherLpCount)details.append(el('p','另有 '+fund.otherLpCount+' 位个人 LP，见原始披露。'));
+          const citation=el('p','');
+          citation.append(link(fund.source.url,fund.source.issuer+' ↗'),el('small',' · '+fund.source.dateKind+' '+fund.source.date));
+          details.append(citation);
+          funds.append(details);
+        }
+        root.append(funds);
+      }
       root.append(el('h2','全部投资记录 · '+row.events.length+' 笔'));
       for(const [url,company,day,stage,amount] of row.events){
         const a=link(url,[day||'日期未列明',company,stage,amount].filter(Boolean).join(' · '));a.className='directory-row';a.replaceChildren(el('span',company),el('small',day||'日期未列明'),el('span',stage||'轮次未记录'),el('span','披露金额　'+(amount||'未记录')));root.append(a);

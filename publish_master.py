@@ -226,6 +226,22 @@ def build(rows):
     list_pages('index.html','融资时间线','融资事件',deals,event_row,
         '<p class="search-entry">'+link('search.html',f'检索全部 {len(deals):,} 笔融资 →')+'</p>'+deck('融资事件',counts))
     for sector,items in groups.items():list_pages(filename('sector',sector),sector,'融资事件',items,event_row)
+    lp_path = Path('institution-fund-lps.json')
+    lp_disclosures = defaultdict(list)
+    for fund in json.loads(lp_path.read_text()) if lp_path.is_file() else []:
+        fund_id, manager_id = fund['fundId'], fund['managerId']
+        if any(key in institutions and institutions[key]['name'] != label for key, label in (
+            (fund_id, fund['fundName']), (manager_id, fund['managerName']),
+        )):
+            raise ValueError(f'Fund LP disclosure refers to an unknown profile: {fund_id}')
+        if urlsplit(fund['source']['url']).scheme != 'https':
+            raise ValueError(f'Fund LP disclosure requires an HTTPS source: {fund_id}')
+        for partner in fund['partners']:
+            partner_id = partner.get('existingInstitution')
+            if partner_id not in institutions:
+                partner['existingInstitution'] = None
+        for key in {fund_id, manager_id} & institutions.keys():
+            lp_disclosures[key].append(fund)
     for kind,entities,index,section in [('company',companies,'companies.html','公司档案'),('institution',institutions,'institutions.html','机构档案')]:
         by_sector=defaultdict(list);parts=defaultdict(dict)
         for k,entity_row in entities.items():
@@ -236,6 +252,8 @@ def build(rows):
                 profile = profiles.get(entity_row['name']) if len(names[entity_row['name']]) == 1 else None
                 parts[k[:2]][k].update(profile=profile, primary=items[0]['sector'], sub=items[0]['sub'], location=items[0]['location'],sector=items[0]['sub'] or items[0]['sector'],
                     events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources'],d['sector'],d['sub']] for d in items])
+            elif k in lp_disclosures:
+                parts[k[:2]][k]['fundDisclosures'] = lp_disclosures[k]
             old=filename(kind,entity_row['name'])
             if Path(old).exists() and (kind=='institution' or len(names[entity_row['name']])==1):legacy[old]=entity_row['href']
             if kind == 'company' and (label := reviewed_names.get(k)):
@@ -261,7 +279,8 @@ def build(rows):
         for s,items in by_sector.items():list_pages(sector_url(section,s),s,section,items,entry)
     for kind,title,section in [('company','公司档案','公司档案'),('institution','机构档案','机构档案'),('deal','融资详情','融资事件')]:
         default=legacy.pop(kind+'.html','')
-        page(kind+'.html',title,section,'<section id="record" data-kind="'+kind+'" data-default="'+esc(default)+'"></section><script defer src="master-detail.js?v=record-redirect"></script>')
+        detail_version = 'fund-lp-1' if kind == 'institution' else 'record-redirect'
+        page(kind+'.html',title,section,'<section id="record" data-kind="'+kind+'" data-default="'+esc(default)+'"></section><script defer src="master-detail.js?v='+detail_version+'"></script>')
     for path,url in legacy.items():redirect(path,url)
     for h in history:
         old='historical-'+h['key']+'.html'

@@ -11,6 +11,7 @@ on:
       - 'company-history.js'
       - 'company_directory.py'
       - 'company-display-names.json'
+      - 'institution-fund-lps.json'
       - 'company-browser.js'
       - 'company-research-body.html'
       - 'company-research.js'
