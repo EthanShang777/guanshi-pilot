@@ -3261,5 +3261,41 @@
     "sources": [
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202212/RAS_202212_0001849EA8B78F3FD7F9D84A737D063F.pdf"
     ]
+  },
+  "66df06e681174f8aa4a2eed8": {
+    "name": "曲靖阳光",
+    "registeredName": "曲靖阳光新能源股份有限公司",
+    "aliases": [
+      "曲靖阳光能源硅材料有限公司"
+    ],
+    "sources": [
+      "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+    ]
+  },
+  "919e3df33121d02c048ec38f": {
+    "name": "融和元储",
+    "registeredName": "上海融和元储能源有限公司",
+    "aliases": [
+      "上海融和中安能源科技有限公司"
+    ],
+    "sources": [
+      "https://research.cnesa.org/report/info/?id=5501"
+    ]
+  },
+  "8635da6f07e395c7a12559a8": {
+    "name": "湘电绿能智控",
+    "registeredName": "湖南湘电绿能智控有限公司",
+    "aliases": [],
+    "sources": [
+      "https://m.voc.com.cn/xhn/news/202208/16102271.html"
+    ]
+  },
+  "861aae8f9dc80394adfd0dbf": {
+    "name": "德方创域",
+    "registeredName": "深圳市德方创域新能源科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-01-17/1222366611.PDF"
+    ]
   }
 }

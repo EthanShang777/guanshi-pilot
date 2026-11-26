@@ -3295,5 +3295,450 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "2870efe8c1256105e186891d",
+    "fundName": "曲靖市产业引导股权投资基金合伙企业（有限合伙）",
+    "managerName": "曲靖信产私募基金管理有限公司",
+    "managerId": "a31742894bb05da41e819198",
+    "sizeCny": 4001000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-03/1222693732.PDF",
+      "date": "2025-03-03",
+      "dateKind": "公开文件披露日",
+      "issuer": "德方纳米",
+      "pages": "2",
+      "lpSources": [
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+      ],
+      "lpScope": "40.01亿元认缴，地方早期10亿元设立方案为不同披露时点。",
+      "generalPartners": [
+        {
+          "name": "曲靖信产私募基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "曲靖市国有资本运营有限责任公司",
+        "disclosedContributionCny": 4000000000,
+        "disclosedPercent": 99.97501,
+        "existingInstitution": "e7301aae294be656b4e5e593"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "5439b5f741cf975ce1b7fbc1",
+    "fundName": "四川省绿色低碳产业发展基金合伙企业（有限合伙）",
+    "managerName": "四川聚信致远私募基金管理有限公司",
+    "managerId": "485deef3db7a962892efabee",
+    "sizeCny": 4010200000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-03/1222693732.PDF",
+      "date": "2025-03-03",
+      "dateKind": "公开文件披露日",
+      "issuer": "德方纳米",
+      "pages": "2",
+      "lpSources": [],
+      "lpScope": "40.102亿元认缴，四名LP与一名GP。",
+      "generalPartners": [
+        {
+          "name": "四川聚信致远私募基金管理有限公司",
+          "disclosedContributionCny": 40200000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "宜宾发展创投有限公司",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": 37.40462,
+        "existingInstitution": "02adc8e096565a2293cae82c"
+      },
+      {
+        "name": "四川省产业投资引导基金有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 24.93641,
+        "existingInstitution": "9622acc4599f2e2836dc6778"
+      },
+      {
+        "name": "国家绿色发展基金股份有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 24.93641,
+        "existingInstitution": "5c6828d86165381e23b12599"
+      },
+      {
+        "name": "四川产业振兴基金投资集团有限公司",
+        "disclosedContributionCny": 470000000,
+        "disclosedPercent": 11.72011,
+        "existingInstitution": "908a94988a285a16336b7408"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "70e9ea54894470c04bedebac",
+    "fundName": "招赢（湖北）智能制造产业基金合伙企业（有限合伙）",
+    "managerName": "湖北长江招银产业基金管理有限公司",
+    "managerId": "e869e129a433da6a6fcd7395",
+    "sizeCny": 1200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-17/1222366611.PDF",
+      "date": "2025-01-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "德方纳米",
+      "pages": "2–3",
+      "lpSources": [
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/SBGG/2024/2024-2/2024-02-06/9825643.PDF"
+      ],
+      "lpScope": "12亿元认缴，11名LP，管理人兼GP。备案STF448。",
+      "generalPartners": [
+        {
+          "name": "湖北长江招银产业基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 710000000,
+        "disclosedPercent": 59.16667,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "武汉洪创投资管理有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 8.33333,
+        "existingInstitution": "7e3d432ea3510d85c7f7dfa4"
+      },
+      {
+        "name": "重庆产业投资母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 8.33333,
+        "existingInstitution": "57db9e1e4114e468f27c6cfa"
+      },
+      {
+        "name": "武汉洪山新动能产业投资母基金管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 5.83333,
+        "existingInstitution": "16673e9ef9b5894669fe5151"
+      },
+      {
+        "name": "国联人寿保险股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.16667,
+        "existingInstitution": "fc45058c265b056ed298924b"
+      },
+      {
+        "name": "江西省文信二号文化产业发展投资基金（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.16667,
+        "existingInstitution": "04af4a3629c0da550383e03f"
+      },
+      {
+        "name": "泉州交发私募基金管理有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "f673f73215792f9843c4bf79"
+      },
+      {
+        "name": "漳州市战新产业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "8e1e6618f12f3a34e211e294"
+      },
+      {
+        "name": "视涯科技股份有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "779b14ab81d70a5b9a60b74a"
+      },
+      {
+        "name": "彭蓉",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 0.83333,
+        "existingInstitution": "f819be08d588111769e98c05"
+      },
+      {
+        "name": "福建省福能兴业股权投资管理有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 0.83333,
+        "existingInstitution": "65eb7ec63e1ba74405c2b543"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "ea3e5717d582dc3b7cae26c9",
+    "fundName": "成都产投先进制造产业股权投资基金合伙企业（有限合伙）",
+    "managerName": "成都先进创融资本管理有限公司",
+    "managerId": "e5f4b20c7f1ce1bd40135943",
+    "sizeCny": 6010000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2025/2025-6/2025-06-10/11171256.PDF",
+      "date": "2025-06-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "德方纳米",
+      "pages": "2–3",
+      "lpSources": [],
+      "lpScope": "60.10亿元认缴，成都产业投资集团为唯一披露LP。",
+      "generalPartners": [
+        {
+          "name": "成都先进创融资本管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "成都产业投资集团有限公司",
+        "disclosedContributionCny": 6000000000,
+        "disclosedPercent": 99.83361,
+        "existingInstitution": "eec0b70e5fd4f3f832f64247"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "e3916c846c5aeee827fdf7d8",
+    "fundName": "深圳市新型储能产业协同股权基金合伙企业（有限合伙）",
+    "managerName": "深圳市远致储能私募股权基金管理有限公司",
+    "managerId": "01670fb70f7e37122711caae",
+    "sizeCny": 3000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-09-29/1224691036.PDF",
+      "date": "2025-09-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "德方纳米",
+      "pages": "2",
+      "lpSources": [],
+      "lpScope": "30亿元认缴，两名LP，区分出资母基金与业务子基金。",
+      "generalPartners": [
+        {
+          "name": "深圳市远致储能私募股权基金管理有限公司",
+          "disclosedContributionCny": 15000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "深圳市引导基金投资有限公司",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": 50,
+        "existingInstitution": "3cc2447cbfd075fdad3c7776"
+      },
+      {
+        "name": "深圳市新型储能产业股权基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1485000000,
+        "disclosedPercent": 49.5,
+        "existingInstitution": "dd66909bca79d06f4006e53c"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1519c0e461a965aecc435e43",
+    "fundName": "东方电气（成都）氢能股权投资基金合伙企业（有限合伙）",
+    "managerName": "东方江峡产业投资私募基金管理（成都）有限公司",
+    "managerId": "11e492cfc8468b51f2ff6a90",
+    "sizeCny": 607100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/9100b6755e0ddbb62aa5b0ee93841fe4.pdf",
+      "date": "2024-04",
+      "dateKind": "公开文件披露日",
+      "issuer": "国浩律师（上海）事务所",
+      "pages": "8-3-17–18",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2020-05-19/1207828852.PDF",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202511271789454596&pageIndex=17",
+        "https://stockmc.xueqiu.com/202509/688783_20250925_X34C.pdf",
+        "https://m.shuidi.cn/company-0dd97f943d2c94b5812e05dc86334601.html"
+      ],
+      "lpScope": "2024年法律意见书所列认缴6.071亿元及七名LP，保留为历史快照。基金2025年4月更名为东昊氢能，后续律师工作报告披露认缴约5.0396亿元，更新工商显示注册资本约3.9931亿元。待复查各次减资登记时间及最新LP。关联基金备案SJJ122。",
+      "generalPartners": [
+        {
+          "name": "东方江峡产业投资私募基金管理（成都）有限公司",
+          "disclosedContributionCny": 6100000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "东方电气投资管理有限公司",
+        "disclosedContributionCny": 198000000,
+        "disclosedPercent": 32.61,
+        "existingInstitution": "894d0b53622fe6683395a061"
+      },
+      {
+        "name": "三峡资本控股有限责任公司",
+        "disclosedContributionCny": 198000000,
+        "disclosedPercent": 32.61,
+        "existingInstitution": "ac6814cd6ad0ca79ebfa3c04"
+      },
+      {
+        "name": "成都市菁蓉创富投资有限公司",
+        "disclosedContributionCny": 59000000,
+        "disclosedPercent": 9.72,
+        "existingInstitution": "4931678750fea23cfe6cf8e7"
+      },
+      {
+        "name": "成都鹏城金控控股有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 6.59,
+        "existingInstitution": "cadda8a2f48cbfc3e6d0c0a3"
+      },
+      {
+        "name": "成都生产力促进中心",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 8.24,
+        "existingInstitution": "049f534fcccf02c29ac4fbec"
+      },
+      {
+        "name": "成都新经济产业股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 8.24,
+        "existingInstitution": "50a2d3a9107d7bba627b0fd3"
+      },
+      {
+        "name": "南京桐锦创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": 0.99,
+        "existingInstitution": "7770fb1ea661fb3f19fe30d2"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "59ca742215aac378c2130bd8",
+    "fundName": "深圳市国信亿合新兴产业私募股权投资基金合伙企业（有限合伙）",
+    "managerName": "国信弘盛私募基金管理有限公司",
+    "managerId": "c8189886dc1b2027f52c53a1",
+    "sizeCny": 342290000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-17/1222366611.PDF",
+      "date": "2025-01-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "德方纳米",
+      "pages": "2",
+      "lpSources": [],
+      "lpScope": "3.4229亿元认缴，四名LP；国信弘盛和广州亿合均为执行事务合伙人。",
+      "generalPartners": [
+        {
+          "name": "国信弘盛私募基金管理有限公司",
+          "disclosedContributionCny": 67270000
+        },
+        {
+          "name": "广州亿合股权投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "江门市长信科技有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 29.21,
+        "existingInstitution": "b0b86e9dba5a3ed845a50edd"
+      },
+      {
+        "name": "深圳市罗湖引导基金投资有限公司",
+        "disclosedContributionCny": 85570000,
+        "disclosedPercent": 25,
+        "existingInstitution": "75e6131165800a6367cd1f61"
+      },
+      {
+        "name": "前海股权投资基金（有限合伙）",
+        "disclosedContributionCny": 68450000,
+        "disclosedPercent": 20,
+        "existingInstitution": "72337620da84c02dc803590d"
+      },
+      {
+        "name": "深圳市通天地投资集团有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 5.84,
+        "existingInstitution": "f7a1b8a793fe3c60248f6626"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "abea6da34b15e1612dd1eeec",
+    "fundName": "东方电气（德阳）绿色智造股权投资基金合伙企业（有限合伙）",
+    "managerName": "东方江峡产业投资私募基金管理（成都）有限公司",
+    "managerId": "11e492cfc8468b51f2ff6a90",
+    "sizeCny": 1212000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11295873&stockid=600208",
+      "date": "2025-08-13",
+      "dateKind": "公开文件披露日",
+      "issuer": "衢州发展",
+      "pages": "交易对方情况第42项",
+      "lpSources": [
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-14/4d447cdf-1001-4fa9-9649-c088356be075.PDF"
+      ],
+      "lpScope": "121,200万元认缴，沿同一信用代码核后更名为东昊绿色智造。2025年文件列五名LP及两名GP，东方江峡合伙人类型按后次披露。",
+      "generalPartners": [
+        {
+          "name": "德阳智造企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 12000000
+        },
+        {
+          "name": "东方江峡产业投资私募基金管理（成都）有限公司",
+          "disclosedContributionCny": 100000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "东方电气投资管理有限公司",
+        "disclosedContributionCny": 487900000,
+        "disclosedPercent": 40.26,
+        "existingInstitution": "894d0b53622fe6683395a061"
+      },
+      {
+        "name": "德阳市兴产股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 24.75,
+        "existingInstitution": "bd60ab2f010e50d5013dcdc1"
+      },
+      {
+        "name": "成都科技创新投资集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 16.5,
+        "existingInstitution": "415ae2d7123bd400243f46b1"
+      },
+      {
+        "name": "海宁市潮升科技产业投资集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 16.5,
+        "existingInstitution": "98b16ab126739769fa771670"
+      },
+      {
+        "name": "南京桐锦创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 12000000,
+        "disclosedPercent": 0.99,
+        "existingInstitution": "7770fb1ea661fb3f19fe30d2"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
