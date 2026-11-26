@@ -11812,7 +11812,8 @@
         "https://static.cninfo.com.cn/finalpage/2026-11-13/1225668443.PDF",
         "https://static.sse.com.cn/disclosure/bond/announcement/corporate/c/new/2026-06-11/152960_20260611_X7SK.pdf",
         "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0829/2025082903110_c.pdf",
-        "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+        "https://dataclouds.cninfo.com.cn/shgonggao/2025/2025-07-11/e6064e3c5d6f11f0a1c5fa163e957f7a.pdf"
       ],
       "lpScope": "四家LP及一名GP认缴结构见中国中车公告，拓荆科技财务顾问报告复核主体、信用代码和基金规模。",
       "generalPartners": [
@@ -12080,5 +12081,394 @@
         "source": "https://pdf.dfcfw.com/pdf/H2_AN202608171828053283_1.pdf"
       }
     ]
+  },
+  {
+    "fundId": "89173729b557d4ff6e72b491",
+    "fundName": "国开制造业转型升级基金（有限合伙）",
+    "managerName": "国开投资基金管理有限责任公司",
+    "managerId": "fcbc9a526ab0eb329ff2ee52",
+    "sizeCny": 38777400000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+      "date": "2026-11-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "思锐智能招股说明书",
+      "pages": "第53页",
+      "lpSources": [],
+      "lpScope": "单一LP国家制造业转型升级基金认缴387亿元，GP认缴7740万元；基金合计认缴及实缴387.774亿元。",
+      "generalPartners": [
+        {
+          "name": "国开投资基金管理有限责任公司",
+          "disclosedContributionCny": 77400000
+        }
+      ],
+      "managerLegalName": "国开投资基金管理有限责任公司",
+      "filingCode": "SJZ707",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+        "date": "2026-11-10",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 38777400000
+      }
+    },
+    "partners": [
+      {
+        "name": "国家制造业转型升级基金股份有限公司",
+        "disclosedContributionCny": 38700000000,
+        "disclosedPercent": 99.8,
+        "existingInstitution": "60aa98015bf1037ecf3d338b"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2026-11-10",
+        "fundedCny": 38777400000,
+        "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+      }
+    ]
+  },
+  {
+    "fundId": "375095bfb436368a86a6e668",
+    "fundName": "广东中山招赢芯智启航股权投资基金合伙企业（有限合伙）",
+    "managerName": "招银国际资本管理（深圳）有限公司",
+    "managerId": "90b319042397d208169e0480",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+      "date": "2026-11-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "思锐智能招股说明书",
+      "pages": "第278—279页",
+      "lpSources": [],
+      "lpScope": "七家LP和一名GP合计认缴10亿元，最新实缴及可投余额待披露。",
+      "generalPartners": [
+        {
+          "name": "招银国际资本管理（深圳）有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "招银国际资本管理（深圳）有限公司",
+      "filingCode": "SAWY86"
+    },
+    "partners": [
+      {
+        "name": "广东省半导体及集成电路产业股权投资基金二期合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 50,
+        "existingInstitution": "f037fa4e07fe53d15ec45313"
+      },
+      {
+        "name": "招赢成长贰拾伍号私募创业投资基金（深圳）合伙企业（有限合伙）",
+        "disclosedContributionCny": 136000000,
+        "disclosedPercent": 13.6,
+        "existingInstitution": "d0fe103b3f0e8292bf6686b7"
+      },
+      {
+        "name": "广西投资引导基金有限责任公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "7c7e5e2db57e7d7818261a46"
+      },
+      {
+        "name": "招银金融控股（深圳）有限公司",
+        "disclosedContributionCny": 84000000,
+        "disclosedPercent": 8.4,
+        "existingInstitution": "5221379553641e38fd9e3ba3"
+      },
+      {
+        "name": "中山粤科西湾合创母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 7,
+        "existingInstitution": "bfdcacbbd1a4d11d918b6430"
+      },
+      {
+        "name": "贵州黔晟投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "1e430fc68a50c575d408bfc3"
+      },
+      {
+        "name": "桐乡市产融桐富创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "4ae223f32d485d8fd001ecdb"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "16714d06350be50453323c53",
+    "fundName": "湖北葛店中瀛扶摇股权投资基金合伙企业（有限合伙）",
+    "managerName": "中银资本私募基金管理（北京）有限公司",
+    "managerId": "d91c5c3f35e264da581d0777",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+      "date": "2026-11-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "思锐智能招股说明书",
+      "pages": "第279—280页",
+      "lpSources": [],
+      "lpScope": "四家LP和两名GP合计认缴10亿元，中银资本为备案管理人，另一GP为鄂州昌融。",
+      "generalPartners": [
+        {
+          "name": "中银资本私募基金管理（北京）有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "鄂州市昌融私募基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "中银资本私募基金管理（北京）有限公司",
+      "filingCode": "SBEK21"
+    },
+    "partners": [
+      {
+        "name": "中银金融资产投资有限公司",
+        "disclosedContributionCny": 299000000,
+        "disclosedPercent": 29.9,
+        "existingInstitution": "978f76ee2a9c989bd868011a"
+      },
+      {
+        "name": "鄂州市昌达产业投资母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 299000000,
+        "disclosedPercent": 29.9,
+        "existingInstitution": "e91631457e7a83031496763a"
+      },
+      {
+        "name": "湖北省鄂州市葛店新投控股集团有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 25,
+        "existingInstitution": "59d568422986c741e98668aa"
+      },
+      {
+        "name": "长江鑫时代鄂州产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 15,
+        "existingInstitution": "f724e0e3d1bbd941c16502c5"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "28e1fa51e1084d39b60d1d80",
+    "fundName": "武汉矩阵无限创业投资基金合伙企业（有限合伙）",
+    "managerName": "武汉光谷科创投私募股权基金管理有限公司",
+    "managerId": "7a1c678d3ad781d87de80dbd",
+    "sizeCny": 300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+      "date": "2026-11-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "思锐智能招股说明书",
+      "pages": "第280页",
+      "lpSources": [],
+      "lpScope": "合计认缴3亿元，武汉光谷半导体为单一LP。",
+      "generalPartners": [
+        {
+          "name": "武汉光谷科创投私募股权基金管理有限公司",
+          "disclosedContributionCny": 3000000
+        }
+      ],
+      "managerLegalName": "武汉光谷科创投私募股权基金管理有限公司",
+      "filingCode": "SAER49"
+    },
+    "partners": [
+      {
+        "name": "武汉光谷半导体产业投资有限公司",
+        "disclosedContributionCny": 297000000,
+        "disclosedPercent": 99,
+        "existingInstitution": "5b9d87015c295df9346b2d39"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "9aeeab644657c2238f0b8752",
+    "fundName": "华舆国华（青岛）股权投资合伙企业（有限合伙）",
+    "managerName": "华舆正心（天津）股权投资基金管理有限公司",
+    "managerId": "3b81cf2e4da7225219f43c99",
+    "sizeCny": 320000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+      "date": "2026-11-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "思锐智能招股说明书",
+      "pages": "第42—43、58页",
+      "lpSources": [],
+      "lpScope": "两家LP及执行事务合伙人认缴3.2亿元，实缴30975.2125万元。",
+      "generalPartners": [
+        {
+          "name": "华舆正心（天津）股权投资基金管理有限公司",
+          "disclosedContributionCny": 1600000
+        }
+      ],
+      "managerLegalName": "华舆正心（天津）股权投资基金管理有限公司",
+      "aliases": [
+        "中车国华（青岛）股权投资合伙企业（有限合伙）",
+        "华舆国华"
+      ],
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+        "date": "2026-11-10",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 309752125
+      }
+    },
+    "partners": [
+      {
+        "name": "扬州市广陵东证新兴产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 160000000,
+        "disclosedPercent": 50,
+        "existingInstitution": "895a621c3a29547b38972994"
+      },
+      {
+        "name": "中车资本管理有限公司",
+        "disclosedContributionCny": 158400000,
+        "disclosedPercent": 49.5,
+        "existingInstitution": "bd0fb22a11d0df7f262014d6"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2026-11-10",
+        "fundedCny": 309752125,
+        "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+      }
+    ]
+  },
+  {
+    "fundId": "a21b997bf2e9292e6e3f688e",
+    "fundName": "华舆（青岛）科技创新创业股权投资合伙企业（有限合伙）",
+    "managerName": "中车国创（北京）私募基金管理有限公司",
+    "managerId": "ae2bce3933f4f0ac1dab144d",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2022-05-10/1213300314.PDF",
+      "date": "2022-05-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "时代新材公告",
+      "pages": "第2页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+        "https://top.qcc.com/tc/037733973a68.html"
+      ],
+      "lpScope": "2022年披露认缴5亿元和五家LP，现名和管理人以思锐招股书复核，最新合伙变更待核。",
+      "generalPartners": [
+        {
+          "name": "中车国创（北京）私募基金管理有限公司",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "managerLegalName": "中车国创（北京）私募基金管理有限公司",
+      "aliases": [
+        "中车（青岛）科技创新创业股权投资合伙企业（有限合伙）",
+        "华舆科创"
+      ]
+    },
+    "partners": [
+      {
+        "name": "中车资本管理有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 40,
+        "existingInstitution": "bd0fb22a11d0df7f262014d6"
+      },
+      {
+        "name": "北京华舆国创股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 120000000,
+        "disclosedPercent": 24,
+        "existingInstitution": "3ef9a6fc4f7fa2157f8077bd"
+      },
+      {
+        "name": "青岛市创新投资有限公司",
+        "disclosedContributionCny": 75000000,
+        "disclosedPercent": 15,
+        "existingInstitution": "7c3155a8c0094204446bc9b9"
+      },
+      {
+        "name": "青岛动车小镇投资集团有限公司",
+        "disclosedContributionCny": 75000000,
+        "disclosedPercent": 15,
+        "existingInstitution": "baa5b581cbae0444e57f3402"
+      },
+      {
+        "name": "国家高速列车青岛技术创新中心",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "35d3049d1cb374d5afb05bb6"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "3ef9a6fc4f7fa2157f8077bd",
+    "fundName": "北京华舆国创股权投资基金合伙企业（有限合伙）",
+    "managerName": "中车国创（北京）私募基金管理有限公司",
+    "managerId": "ae2bce3933f4f0ac1dab144d",
+    "sizeCny": 4000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202208/001081_20220817_NZSZ.pdf",
+      "date": "2022-08-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "哈尔滨国铁科技招股说明书",
+      "pages": "第63—64页",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606301826585084&pageIndex=3"
+      ],
+      "lpScope": "2022年已核两家LP与GP认缴40亿元。最新思锐招股书确认备案管理人为中车国创；2022年国铁科技披露彼时基金管理人为中车资本（天津）。",
+      "generalPartners": [
+        {
+          "name": "中车国创（北京）私募基金管理有限公司",
+          "disclosedContributionCny": 40000000
+        }
+      ],
+      "managerLegalName": "中车国创（北京）私募基金管理有限公司",
+      "aliases": [
+        "北京中车国创股权投资基金合伙企业（有限合伙）",
+        "华舆国创基金"
+      ],
+      "verifiedExits": [
+        {
+          "company": "中裕铁信交通科技股份有限公司",
+          "date": "2023-07-28",
+          "buyer": "衡水裕菖控股集团有限公司",
+          "saleCny": 59820000,
+          "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202506301700417624&pageIndex=13"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "国创投资引导基金（有限合伙）",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": 75,
+        "existingInstitution": "26bc58676058d01c5216db5d"
+      },
+      {
+        "name": "中车资本管理有限公司",
+        "disclosedContributionCny": 960000000,
+        "disclosedPercent": 24,
+        "existingInstitution": "bd0fb22a11d0df7f262014d6"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

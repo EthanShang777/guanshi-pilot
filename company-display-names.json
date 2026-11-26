@@ -4300,5 +4300,48 @@
     "sources": [
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202512/RAS_202512_301500601332411A444004AAFCA56F1ECA98FB.pdf"
     ]
+  },
+  "940db265f62cc47f5c56e553": {
+    "name": "思锐智能",
+    "registeredName": "青岛思锐智能科技股份有限公司",
+    "aliases": [
+      "青岛四方思锐智能技术有限公司",
+      "青岛思锐智能",
+      "思锐有限"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf"
+    ]
+  },
+  "b7609df8355123f21840493d": {
+    "name": "时代华先",
+    "registeredName": "株洲时代华先材料科技有限公司",
+    "aliases": [
+      "株洲时代华先"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-05-10/1213300314.PDF"
+    ]
+  },
+  "4b8f8cbd59b7883af4ed7d9e": {
+    "name": "中裕铁信",
+    "registeredName": "中裕铁信交通科技股份有限公司",
+    "aliases": [
+      "中裕铁信交通科技"
+    ],
+    "sources": [
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606301826585084&pageIndex=3"
+    ]
+  },
+  "45d9b31669b5bc810c0d7d6c": {
+    "name": "交大盛阳",
+    "registeredName": "北京西南交大盛阳科技股份有限公司",
+    "aliases": [
+      "北京西南交大盛阳科技有限公司",
+      "西南交大盛阳"
+    ],
+    "sources": [
+      "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf"
+    ]
   }
 }

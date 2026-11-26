@@ -1573,5 +1573,29 @@
     },
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202512/RAS_202512_301500601332411A444004AAFCA56F1ECA98FB.pdf",
     "reason": "公告逐笔区分付给公司的现金增资与付给原股东的转让价。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:3dab966f89ee62d03dc33be91b5c29ba792d16c99ec0af89c654443b032271bb",
+      "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2847d16393d361e981f212",
+      "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+    "reason": "招股书明确同月现金增资与原股东出售股份为分别办理的交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2847d16393d361e981f212",
+      "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f"
+    },
+    "existing": {
+      "event_id": "financing_event:3dab966f89ee62d03dc33be91b5c29ba792d16c99ec0af89c654443b032271bb",
+      "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+    "reason": "招股书明确同月现金增资与原股东出售股份为分别办理的交易。"
   }
 ]

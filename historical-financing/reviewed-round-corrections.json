@@ -6739,5 +6739,106 @@
       "date_kind": "发行人披露工商登记日"
     },
     "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:35f1860d47af88787ea7f8ac459eacbe1935bce2dbf63a5d1e465496c50963a9",
+    "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f",
+    "day": "2022-11-26",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"华舆国创基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"石溪资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"同歌创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"君桐资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"海松资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"海澳芯科\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三鑫资产\",\"role\":null,\"amount\":null},{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"千帆资本\",\"role\":null,\"amount\":null},{\"name\":\"度越资本\",\"role\":null,\"amount\":null},{\"name\":\"澳柯玛投资\",\"role\":null,\"amount\":null},{\"name\":\"珩创投资\",\"role\":null,\"amount\":null},{\"name\":\"鑫芯创投\",\"role\":null,\"amount\":null}]",
+      "date": "2022-11-26",
+      "date_key": "2022-11-26",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"北京华舆国创股权投资基金合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"合肥石溪产恒二期集成电路创业投资基金合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"同歌创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"君桐资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"海松资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"海澳芯科\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"三鑫资产\",\"role\":null,\"amount\":null},{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"千帆资本\",\"role\":null,\"amount\":null},{\"name\":\"度越资本\",\"role\":null,\"amount\":null},{\"name\":\"澳柯玛投资\",\"role\":null,\"amount\":null},{\"name\":\"珩创投资\",\"role\":null,\"amount\":null},{\"name\":\"鑫芯创投\",\"role\":null,\"amount\":null},{\"name\":\"融元（天津）创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2022-11-26",
+      "date_key": "2022-11-26",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://api3.cls.cn/share/article/2531010?app=stib&os=web&sv=849"
+    ]
+  },
+  {
+    "event_id": "financing_event:3dab966f89ee62d03dc33be91b5c29ba792d16c99ec0af89c654443b032271bb",
+    "company_id": "co:full_legal_name:8a09764ce076e5b1f886c8b4cb733a9f",
+    "day": "2025-12-23",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中国国有企业结构调整基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国开制造业转型升级基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"中银资产\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"光谷金控\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"招银国际\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国调基金\",\"role\":null,\"amount\":null},{\"name\":\"招银国际资本\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-23",
+      "date_key": "2025-12-23",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "约9.5亿元（认购测算）",
+      "investors_json": "[{\"name\":\"国开制造业转型升级基金（有限合伙）\",\"role\":\"联合领投\",\"amount\":null},{\"name\":\"中国国有企业结构调整基金二期股份有限公司\",\"role\":\"联合领投\",\"amount\":null},{\"name\":\"深圳前海招新锐青投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广东中山招赢芯智启航股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖北葛店中瀛扶摇股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"武汉矩阵无限创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2025-12-23",
+      "date_key": "2025-12-23",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://api3.cls.cn/share/article/2531010?app=stib&os=web&sv=849"
+    ]
+  },
+  {
+    "event_id": "financing_event:d51dd8fd66cda0291e70b779bc159ec34d6f07a8e4f95ea9be2b789be44c0365",
+    "company_id": "co:full_legal_name:8cde48a379878a6caa8ce773c1059e06",
+    "day": "2017-12-28",
+    "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中车资本\",\"role\":null,\"amount\":null},{\"name\":\"君丰资本\",\"role\":null,\"amount\":null}]",
+      "date": "2017-12-28",
+      "date_key": "2017-12-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "18000万元",
+      "investors_json": "[{\"name\":\"华舆正心（天津）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":11271001500,\"basis\":\"转让对价\",\"source\":\"https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf\"}},{\"name\":\"深圳市君丰华益新兴产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":6149997000,\"basis\":\"转让对价\",\"source\":\"https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf\"}},{\"name\":\"君丰合福（平潭）投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":350005500,\"basis\":\"转让对价\",\"source\":\"https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf\"}},{\"name\":\"融元（天津）创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":228996000,\"basis\":\"转让对价\",\"source\":\"https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf\"}}]",
+      "date": "2017-12-28",
+      "date_key": "2017-12-28",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202603091820414485_1.pdf?1773074685000.pdf=",
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608251828402896"
+    ]
+  },
+  {
+    "event_id": "financing_event:913a6376af704cf224e1fa28f68e562d6eed308e1469a1efc628377ce87442e6",
+    "company_id": "co:full_legal_name:8cde48a379878a6caa8ce773c1059e06",
+    "day": "2019-11-12",
+    "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"国铁建信\",\"role\":null,\"amount\":null}]",
+      "date": "2019-11-12",
+      "date_key": "2019-11-12",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "6667.164万元",
+      "investors_json": "[{\"name\":\"中车资本管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3598152000,\"basis\":\"转让对价\",\"source\":\"https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf\"}},{\"name\":\"北京国铁盛阳科技中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1375764000,\"basis\":\"转让对价\",\"source\":\"https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf\"}},{\"name\":\"国铁金盛（天津）股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1693248000,\"basis\":\"转让对价\",\"source\":\"https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf\"}}]",
+      "date": "2019-11-12",
+      "date_key": "2019-11-12",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608251828402896"
+    ]
   }
 ]
