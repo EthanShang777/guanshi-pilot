@@ -1,0 +1,117 @@
+[
+  {
+    "event_id": "financing_event:6f56d590b1b4039a8ed64922b9f0906397d9a3f542b95399a52e3fb12ce42228",
+    "round": "C++轮",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12585331",
+    "expected": {
+      "company_id": "co:full_legal_name:2d86eab1b9107aa1a257d88286144449",
+      "company_name": "浙江欣旺达动力电池有限公司",
+      "raw_company_key": "浙江欣旺达动力电池有限公司",
+      "date": "2026-09-09",
+      "date_key": "2026-09-09",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"理想汽车\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:cn_uscc:b5852199b936f810df51bb82ad2c40c8",
+      "company_name": "欣旺达动力科技股份有限公司",
+      "raw_company_key": "欣旺达动力; 欣旺达电动汽车电池有限公司; Sunwoda EVB",
+      "date": "2026-09-04",
+      "date_key": "2026-09-04",
+      "date_kind": "公开披露日",
+      "investors_json": "[{\"name\":\"北京理想汽车有限公司\",\"role\":null,\"amount\":\"26.5亿元人民币\"}]"
+    }
+  },
+  {
+    "event_id": "financing_event:ebbe66e44521d352eb1fee210e57232b6fc9fd0d8e0a34a979acca50d3dc1568",
+    "round": "B轮",
+    "source": "https://m.jiemian.com/article/953329.html",
+    "expected": {
+      "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+      "company_name": "北京华品博睿网络技术有限公司",
+      "raw_company_key": "北京华品博睿网络技术有限公司",
+      "date": "2014-12-01",
+      "date_key": "2014-12-01",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"和玉资本\",\"role\":null,\"amount\":null},{\"name\":\"策源创投\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+      "company_name": "KANZHUN LIMITED",
+      "raw_company_key": "BOSS直聘; BOSS Zhipin; 北京华品博睿网络技术有限公司; 看准网; NASDAQ:BZ",
+      "date": "2014-12-16",
+      "date_key": "2014-12-16",
+      "date_kind": "发行日",
+      "investors_json": "[{\"name\":\"和玉资本\",\"role\":null,\"amount\":null},{\"name\":\"策源创投\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:a62a0e3b28132053638e1020742b463cb75affef05504c3134c716d8d8d6e40a",
+    "round": "E轮",
+    "source": "https://pdf.dfcfw.com/pdf/H3_AP202106151498041438_1.pdf",
+    "expected": {
+      "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+      "company_name": "北京华品博睿网络技术有限公司",
+      "raw_company_key": "北京华品博睿网络技术有限公司",
+      "date": "2018-12-26",
+      "date_key": "2018-12-26",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"高榕资本\",\"role\":null,\"amount\":null},{\"name\":\"今日资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+      "company_name": "KANZHUN LIMITED",
+      "raw_company_key": "BOSS直聘; BOSS Zhipin; 北京华品博睿网络技术有限公司; 看准网; NASDAQ:BZ",
+      "date": "2018-12-18",
+      "date_key": "2018-12-18",
+      "date_kind": "发行日",
+      "investors_json": "[{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"高榕资本\",\"role\":null,\"amount\":null},{\"name\":\"今日资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:3d46579be19174d1e7f01816d3935813a178106216302d6318351aaea620508f",
+    "round": "F+轮",
+    "source": "https://pdf.dfcfw.com/pdf/H3_AP202106151498041438_1.pdf",
+    "expected": {
+      "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+      "company_name": "北京华品博睿网络技术有限公司",
+      "raw_company_key": "北京华品博睿网络技术有限公司",
+      "date": "2020-12-27",
+      "date_key": "2020-12-27",
+      "date_kind": "原档日期",
+      "investors_json": "[{\"name\":\"CoatueManagement\",\"role\":null,\"amount\":null},{\"name\":\"华兴新经济基金\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"老虎环球基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+      "company_name": "KANZHUN LIMITED",
+      "raw_company_key": "BOSS直聘; BOSS Zhipin; 北京华品博睿网络技术有限公司; 看准网; NASDAQ:BZ",
+      "date": "2020-11-27",
+      "date_key": "2020-11-27",
+      "date_kind": "发行日",
+      "investors_json": "[{\"name\":\"CoatueManagement\",\"role\":null,\"amount\":null},{\"name\":\"华兴新经济基金\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"老虎环球基金\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:fb6df49436eb7745e0cb3a971fc9cf7b53e63df7a4bb4eb45910b9a09475fe8c",
+    "round": "介绍上市",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842827/000119312521172409/d151203df1a.htm",
+    "expected": {
+      "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+      "company_name": "北京华品博睿网络技术有限公司",
+      "raw_company_key": "北京华品博睿网络技术有限公司",
+      "date": "2022-12-22",
+      "date_key": "2022-12-22",
+      "date_kind": "原档日期",
+      "investors_json": "[]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+      "company_name": "KANZHUN LIMITED",
+      "raw_company_key": "BOSS直聘; BOSS Zhipin; 北京华品博睿网络技术有限公司; 看准网; NASDAQ:BZ",
+      "date": "2022-12-22",
+      "date_key": "2022-12-22",
+      "date_kind": "介绍上市日期",
+      "investors_json": "[]"
+    }
+  }
+]
