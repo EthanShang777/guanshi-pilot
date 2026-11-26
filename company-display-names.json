@@ -2140,5 +2140,71 @@
     "sources": [
       "https://pitchhub.36kr.com/project/1957851047415045"
     ]
+  },
+  "b74db75312101cb2f9ab571b": {
+    "name": "数康云",
+    "registeredName": "深圳市数康云信息技术有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.vbdata.cn/intelDetail/555727"
+    ]
+  },
+  "884e6839c4f9be2006ca1e5f": {
+    "name": "白星花AI",
+    "registeredName": "北京白星花科技有限公司",
+    "aliases": [
+      "白星花",
+      "白星花 AI"
+    ],
+    "sources": [
+      "https://www.36kr.com/p/2012651410777734"
+    ]
+  },
+  "292d75824ed501362683281b": {
+    "name": "电享科技",
+    "registeredName": "上海电享信息科技有限公司",
+    "aliases": [
+      "PowerShare",
+      "EnjoyElec",
+      "电享"
+    ],
+    "sources": [
+      "https://www.bp.com.cn/zh_cn/china/home/news/press-releases/news-01-24-2019.html"
+    ]
+  },
+  "8b409383e4bbff24834dda04": {
+    "name": "小鹭游",
+    "registeredName": "江西安图游科技有限公司",
+    "aliases": [
+      "安图游",
+      "小鹭旅行",
+      "小鹭云"
+    ],
+    "sources": [
+      "https://startup.aliyun.com/info/104631.html"
+    ]
+  },
+  "e284e4de1c9ffef7fd978d1a": {
+    "name": "一小时科技",
+    "registeredName": "广州一小时科技有限公司",
+    "aliases": [
+      "一小时快修",
+      "广州一小时通信设备有限公司"
+    ],
+    "sources": [
+      "https://pitchhub.36kr.com/project/1713078646696456"
+    ]
+  },
+  "18764f0ac562fd536a8fedd6": {
+    "name": "工学云",
+    "registeredName": "掌淘网络科技（江苏）有限公司",
+    "aliases": [
+      "蘑菇丁",
+      "掌淘科技",
+      "工学云·蘑菇丁"
+    ],
+    "sources": [
+      "https://www.36kr.com/p/2060791609544323"
+    ]
   }
 }
