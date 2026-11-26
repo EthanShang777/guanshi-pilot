@@ -2513,5 +2513,73 @@
       "amount": "1.73亿美元",
       "investors_json": "[{\"name\":\"AspexManagement\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":\"领投\",\"amount\":null},{\"name\":\"Kleiner Perkins Digital Growth Fund\",\"role\":null,\"amount\":null},{\"name\":\"Altos Ventures\",\"role\":null,\"amount\":null},{\"name\":\"Goodwater Capital\",\"role\":null,\"amount\":null},{\"name\":\"Greyhound Capital\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:ebbe66e44521d352eb1fee210e57232b6fc9fd0d8e0a34a979acca50d3dc1568",
+    "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+    "day": "2014-12-01",
+    "final_day": "2014-12-16",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842827/000119312521172409/d151203df1a.htm",
+    "expected": {
+      "round": "B轮",
+      "amount": "数百万美元",
+      "investors_json": "[{\"name\":\"和玉资本\",\"role\":null,\"amount\":null},{\"name\":\"策源创投\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "400万美元",
+      "investors_json": "[{\"name\":\"和玉资本\",\"role\":null,\"amount\":null},{\"name\":\"策源创投\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:a62a0e3b28132053638e1020742b463cb75affef05504c3134c716d8d8d6e40a",
+    "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+    "day": "2018-12-26",
+    "final_day": "2018-12-18",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842827/000119312521172409/d151203df1a.htm",
+    "expected": {
+      "round": "D+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"纪源资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "E轮",
+      "amount": "1.3亿美元",
+      "investors_json": "[{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"高榕资本\",\"role\":null,\"amount\":null},{\"name\":\"今日资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:3d46579be19174d1e7f01816d3935813a178106216302d6318351aaea620508f",
+    "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+    "day": "2020-12-27",
+    "final_day": "2020-11-27",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842827/000119312521172409/d151203df1a.htm",
+    "expected": {
+      "round": "战略融资",
+      "amount": "2.7亿美元",
+      "investors_json": "[{\"name\":\"CoatueManagement\",\"role\":null,\"amount\":null},{\"name\":\"华兴新经济基金\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"老虎环球基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "F+轮",
+      "amount": "2.7亿美元",
+      "investors_json": "[{\"name\":\"CoatueManagement\",\"role\":null,\"amount\":null},{\"name\":\"华兴新经济基金\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"老虎环球基金\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:fb6df49436eb7745e0cb3a971fc9cf7b53e63df7a4bb4eb45910b9a09475fe8c",
+    "company_id": "co:full_legal_name:199ee1c8c365c2b3f5706711d62f44fa",
+    "day": "2022-12-22",
+    "final_day": "2022-12-22",
+    "source": "https://ir.zhipin.com/news-releases/news-release-details/kanzhun-limited-announces-fourth-quarter-and-full-year-2022/",
+    "expected": {
+      "round": "IPO上市",
+      "amount": "未披露",
+      "investors_json": "[]"
+    },
+    "corrected": {
+      "round": "介绍上市",
+      "amount": "无募资",
+      "investors_json": "[]"
+    }
   }
 ]
