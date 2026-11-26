@@ -7370,5 +7370,156 @@
     "additional_sources": [
       "https://www.cmie.csic.com.cn/n409/n428/c15979/part/14785.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:98690db45ccea4dd9a819ae576f0a4ee20ea117e041f12ae3bdcc9d32f3a73f3",
+    "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860",
+    "day": "2020-12-30",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"沃富金信资本\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-30",
+      "date_key": "2020-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "4400万元",
+      "investors_json": "[{\"name\":\"南通沃赋创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2500000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}},{\"name\":\"东莞长劲石股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}},{\"name\":\"东莞长恒股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":200000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}},{\"name\":\"樊国鹏\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":200000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}}]",
+      "date": "2019-12-31",
+      "date_key": "2019-12-31",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10503203&stockid=301626"
+    ]
+  },
+  {
+    "event_id": "financing_event:c9e7d25c4d8f4dc30e3d68ba4b43274177981702cf33496f588e90d235a0e684",
+    "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860",
+    "day": "2021-12-28",
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"信科资本\",\"role\":null,\"amount\":null},{\"name\":\"国开制造业转型升级基金\",\"role\":null,\"amount\":null},{\"name\":\"毅道资本\",\"role\":null,\"amount\":null},{\"name\":\"沃赋创投\",\"role\":null,\"amount\":null},{\"name\":\"长石资本\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-28",
+      "date_key": "2021-12-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "13634.5776万元",
+      "investors_json": "[{\"name\":\"国开制造业转型升级基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":7000000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}},{\"name\":\"嘉兴沃赋锦芯股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3500000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}},{\"name\":\"青岛毅道优势股权投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1334577600,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}},{\"name\":\"湖北长江中信科移动通信技术产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}},{\"name\":\"段文勇\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}},{\"name\":\"姜洁\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":300000000,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF\"}}]",
+      "date": "2021-12-30",
+      "date_key": "2021-12-30",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10503203&stockid=301626"
+    ]
+  },
+  {
+    "event_id": "financing_event:a1cf5a01f7971dd17063b60ea22b844b3eed277ff449d9a1c013248b36b3af3d",
+    "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136",
+    "day": "2017-09-30",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"财鑫基金\",\"role\":null,\"amount\":null}]",
+      "date": "2017-09-30",
+      "date_key": "2017-09-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "债权融资",
+      "amount": "3000万元",
+      "investors_json": "[{\"name\":\"承德市财鑫产业引导股权投资基金有限责任公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}}]",
+      "date": "2017-09-30",
+      "date_key": "2017-09-30",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202509011737722919&pageIndex=27"
+    ]
+  },
+  {
+    "event_id": "financing_event:30ae76764c1515d249c09d76fb3eb9bec92c09bc09c5aeef73992a9889945167",
+    "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136",
+    "day": "2023-08-29",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"西部材料\",\"role\":null,\"amount\":null},{\"name\":\"西部超导\",\"role\":null,\"amount\":null}]",
+      "date": "2023-08-29",
+      "date_key": "2023-08-29",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "3493.6194万元",
+      "investors_json": "[{\"name\":\"西部超导材料科技股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":771900000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"西部金属材料股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":771900000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"承德德源企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1119607600,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"承德嘉源企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":29022400,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"杨伟杰\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":600000400,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"范文涛\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":201189000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}}]",
+      "date": "2023-08-29",
+      "date_key": "2023-08-29",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202509011737722919_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:75858a0223a91bc88c298ea85b5e72a8f82c6b4e5e8e43b6e1de2e5f57a2c0e4",
+    "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136",
+    "day": "2024-11-27",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中电基金\",\"role\":null,\"amount\":null},{\"name\":\"博华产投\",\"role\":null,\"amount\":null},{\"name\":\"国投创合\",\"role\":null,\"amount\":null},{\"name\":\"国海创新资本\",\"role\":null,\"amount\":null},{\"name\":\"开源思创\",\"role\":null,\"amount\":null},{\"name\":\"沁泉资本\",\"role\":null,\"amount\":null},{\"name\":\"浩蓝行远\",\"role\":null,\"amount\":null},{\"name\":\"航发基金\",\"role\":null,\"amount\":null},{\"name\":\"财金惠风\",\"role\":null,\"amount\":null},{\"name\":\"长安汇通\",\"role\":null,\"amount\":null},{\"name\":\"青实资本\",\"role\":null,\"amount\":null}]",
+      "date": "2024-11-27",
+      "date_key": "2024-11-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "25500万元",
+      "investors_json": "[{\"name\":\"江苏博华股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"陕西省汇创上市后备企业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"贵州国发航空发动机产业发展股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"创合融发（陕西）航空航天创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"西安环大学科技创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}},{\"name\":\"深圳市宝堃国海创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=\"}}]",
+      "date": "2024-11-28",
+      "date_key": "2024-11-28",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202509011737722919_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:79205ca9d9c86d539a57fae675f1a1cc4c8a7cf7e4a1a2bceff5852f0acb0f1a",
+    "company_id": "co:full_legal_name:0b57214158edc1a6a9f0341e9705edb4",
+    "day": "2023-12-29",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-09-12/1221204462.PDF",
+    "expected": {
+      "round": "定向增发",
+      "amount": "6.44亿人民币",
+      "investors_json": "[{\"name\":\"中国信科\",\"role\":null,\"amount\":null},{\"name\":\"中诚信财务顾问\",\"role\":null,\"amount\":null},{\"name\":\"双百基金\",\"role\":null,\"amount\":null}]",
+      "date": "2023-12-29",
+      "date_key": "2023-12-29",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "649999990.52元",
+      "investors_json": "[{\"name\":\"中国信息通信科技集团有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":64999999052,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2024-09-12/1221204462.PDF\"}}]",
+      "date": "2023-12-19",
+      "date_key": "2023-12-19",
+      "date_kind": "验资所载到账截止日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+      "https://static.cninfo.com.cn/finalpage/2026-04-28/1225209052.PDF"
+    ]
   }
 ]

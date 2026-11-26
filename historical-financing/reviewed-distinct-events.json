@@ -1933,5 +1933,77 @@
     },
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf",
     "reason": "5月22日小米10000万元付给老股东。5月26日14家现金增资190000万元，分别签约。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:dc8474c5aa327adbd0b353",
+      "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:16810539a3a9d4d3207b14",
+      "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+    "reason": "同一天登记但为独立协议。海康智慧现金增资2916.95万元、三家受让谢毅老股2700万元。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:16810539a3a9d4d3207b14",
+      "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:dc8474c5aa327adbd0b353",
+      "company_id": "co:full_legal_name:a3f154a4f4ef2d65a84df2c5fe80a860"
+    },
+    "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+    "reason": "同一天登记但为独立协议。海康智慧现金增资2916.95万元、三家受让谢毅老股2700万元。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:75858a0223a91bc88c298ea85b5e72a8f82c6b4e5e8e43b6e1de2e5f57a2c0e4",
+      "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ec1c90a94ed70e828d0106",
+      "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=",
+    "reason": "同一工商变更涉及独立交易。六方认购新增注册资本25500万元。另一笔为八方从王志军受让老股25000万元。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ec1c90a94ed70e828d0106",
+      "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136"
+    },
+    "existing": {
+      "event_id": "financing_event:75858a0223a91bc88c298ea85b5e72a8f82c6b4e5e8e43b6e1de2e5f57a2c0e4",
+      "company_id": "co:full_legal_name:8332dc2334ac9779da6c2af7c05bc136"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202509011737722910_1.pdf?1756754586000.pdf=",
+    "reason": "同一工商变更涉及独立交易。六方认购新增注册资本25500万元。另一笔为八方从王志军受让老股25000万元。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3671d01fb92ad7939324cc",
+      "company_id": "co:cn_uscc:3d9b6f1e88777df6f3303cf7b61ee424"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6c58411f50be3e87924cc0",
+      "company_id": "co:cn_uscc:3d9b6f1e88777df6f3303cf7b61ee424"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000874_20220125_0GRN.pdf",
+    "reason": "单一机构以3000万元从原股东受让股份，同期7000万元增资款进公司，两份协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6c58411f50be3e87924cc0",
+      "company_id": "co:cn_uscc:3d9b6f1e88777df6f3303cf7b61ee424"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3671d01fb92ad7939324cc",
+      "company_id": "co:cn_uscc:3d9b6f1e88777df6f3303cf7b61ee424"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000874_20220125_0GRN.pdf",
+    "reason": "单一机构以3000万元从原股东受让股份，同期7000万元增资款进公司，两份协议。"
   }
 ]

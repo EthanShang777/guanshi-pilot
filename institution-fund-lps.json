@@ -15248,5 +15248,627 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "22e5bf412c480dbd6149a7b8",
+    "fundName": "南通沃赋创业投资合伙企业（有限合伙）",
+    "managerName": "上海沃赋私募基金管理有限公司",
+    "managerId": "3c362a074e1b7843da997524",
+    "sizeCny": 300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+      "date": "2024-10-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "苏州天脉导热科技股份有限公司",
+      "pages": "68–70",
+      "lpSources": [],
+      "lpScope": "发行人在指定时点披露全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "上海沃赋私募基金管理有限公司",
+          "disclosedContributionCny": 3000000
+        }
+      ],
+      "managerLegalName": "上海沃赋私募基金管理有限公司",
+      "creditCode": "91320684MA1XJTTQ98",
+      "registrationCode": "SEV502"
+    },
+    "partners": [
+      {
+        "name": "海南华清芯源科技合伙企业（有限合伙）",
+        "disclosedContributionCny": 65000000,
+        "disclosedPercent": 21.67,
+        "existingInstitution": "2c02be8901935a86fe1236c9"
+      },
+      {
+        "name": "长三角协同优势产业股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "d4bc72a7f458a4024726b2a2"
+      },
+      {
+        "name": "上海东熙投资发展有限公司",
+        "disclosedContributionCny": 31000000,
+        "disclosedPercent": 10.33,
+        "existingInstitution": "70a15a74e968649032af24d1"
+      },
+      {
+        "name": "南通紫荆华通股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "3f92e555b4ab628e2c1f7319"
+      },
+      {
+        "name": "江苏新启投资有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "bb38d7330cbb95e50d34074e"
+      },
+      {
+        "name": "苏州慧佳创未来科技有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "2461aa63e45ecede7747f163"
+      },
+      {
+        "name": "深圳市英晟投资有限公司",
+        "disclosedContributionCny": 24000000,
+        "disclosedPercent": 8,
+        "existingInstitution": "05d596d4a0f8f7157ead9016"
+      },
+      {
+        "name": "苏州世成创业投资企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 5,
+        "existingInstitution": "2f1e1ddf60a1c7e5bb389127"
+      },
+      {
+        "name": "德汉祥（上海）企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 7000000,
+        "disclosedPercent": 2.33,
+        "existingInstitution": "6d172b373bf01ad467bdfba8"
+      },
+      {
+        "name": "胡昊天",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 1.67,
+        "existingInstitution": "79af9574f07dc2127cb65099"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a6d951dfd3bee3192ea916bf",
+    "fundName": "嘉兴沃赋锦芯股权投资合伙企业（有限合伙）",
+    "managerName": "上海沃赋私募基金管理有限公司",
+    "managerId": "3c362a074e1b7843da997524",
+    "sizeCny": 84500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+      "date": "2024-10-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "苏州天脉导热科技股份有限公司",
+      "pages": "60–62",
+      "lpSources": [],
+      "lpScope": "发行人在指定时点披露全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "上海沃赋私募基金管理有限公司",
+          "disclosedContributionCny": 10000
+        }
+      ],
+      "managerLegalName": "上海沃赋私募基金管理有限公司",
+      "creditCode": "91330402MA2LBF6C7E",
+      "registrationCode": "SSV658"
+    },
+    "partners": [
+      {
+        "name": "南京锦玉满堂创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 64490000,
+        "disclosedPercent": 76.32,
+        "existingInstitution": "75bc1893bcfa30388494fed4"
+      },
+      {
+        "name": "王芳",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 23.67,
+        "existingInstitution": "9c2ed1b7a29f9672190ad54a"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c42102f6e5abd5af47c98fe2",
+    "fundName": "青岛毅道优势股权投资中心（有限合伙）",
+    "managerName": "北京毅道资本管理有限公司",
+    "managerId": "f3de996278b67850b88f2c71",
+    "sizeCny": 31500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+      "date": "2024-10-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "苏州天脉导热科技股份有限公司",
+      "pages": "62–64",
+      "lpSources": [],
+      "lpScope": "发行人在指定时点披露全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "北京毅道资本管理有限公司",
+          "disclosedContributionCny": 500000
+        }
+      ],
+      "managerLegalName": "北京毅道资本管理有限公司",
+      "creditCode": "91370285MA3MKD1M3L",
+      "registrationCode": "SCG721"
+    },
+    "partners": [
+      {
+        "name": "于德兵",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 47.62,
+        "existingInstitution": "00c084813f200bcdc4d6d653"
+      },
+      {
+        "name": "曾纪理",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 31.75,
+        "existingInstitution": "7db84bd6774bea866fef5488"
+      },
+      {
+        "name": "郝代玲",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 15.87,
+        "existingInstitution": "4e06699505dc8aea6fd831c8"
+      },
+      {
+        "name": "周建修",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 3.17,
+        "existingInstitution": "4b577ce8232842cdaab18e02"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1d75a069d42e4723b5be1a94",
+    "fundName": "杭州海康智慧产业股权投资基金合伙企业（有限合伙）",
+    "managerName": "中电海康（杭州）股权投资管理有限公司",
+    "managerId": "e06eb5166dc5fb0d052ae771",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-10-18/4994a357-254f-45e5-b5af-c16b9d2ff10e.PDF",
+      "date": "2024-10-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "苏州天脉导热科技股份有限公司",
+      "pages": "66–68",
+      "lpSources": [],
+      "lpScope": "发行人在指定时点披露全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "中电海康（杭州）股权投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "中电海康（杭州）股权投资管理有限公司",
+      "creditCode": "91330108MA2H18WR8B",
+      "registrationCode": "SJP407"
+    },
+    "partners": [
+      {
+        "name": "杭州海康威视数字技术股份有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 60,
+        "existingInstitution": "5433bbe171d11aa4acf141b8"
+      },
+      {
+        "name": "杭州高新创业投资有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "9e63bd295aa18a6f6a08f744"
+      },
+      {
+        "name": "中电科（天津）投资管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "edcaa4e75e9c7438a4efc4cd"
+      },
+      {
+        "name": "中电海康集团有限公司",
+        "disclosedContributionCny": 99000000,
+        "disclosedPercent": 9.9,
+        "existingInstitution": "782755d64b3368e8a355a22c"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a1536eac987f922d6c363e8e",
+    "fundName": "珠海华金领越智能制造产业投资基金（有限合伙）",
+    "managerName": "珠海华金领创基金管理有限公司",
+    "managerId": "3e4e4fc89f9c8d2e73e58b87",
+    "sizeCny": 1152000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202201/000874_20220125_0GRN.pdf",
+      "date": "2022-01-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "珠海高凌信息科技股份有限公司",
+      "pages": "70–71",
+      "lpSources": [
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7875221&stockid=688175"
+      ],
+      "lpScope": "发行人在指定时点披露全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "珠海华金领创基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "珠海华金领创基金管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "军民融合发展产业投资基金（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 26.04,
+        "existingInstitution": "2501e043407ef55f524807e0"
+      },
+      {
+        "name": "珠海发展投资基金（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 26.04,
+        "existingInstitution": "eeecbf29719f1cee131dd256"
+      },
+      {
+        "name": "广东粤财产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 21.7,
+        "existingInstitution": "3ae69d0313db793f545578a2"
+      },
+      {
+        "name": "珠海华金阿尔法三号股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 17.36,
+        "existingInstitution": "b7d6904789a681e46147e49e"
+      },
+      {
+        "name": "珠海创业投资引导基金有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 8.68,
+        "existingInstitution": "3be5fb95ffb888252a8b4275"
+      },
+      {
+        "name": "珠海华金领汇投资管理有限公司",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 0.09,
+        "existingInstitution": "735fc1275eea8304ba46edd9"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "bac26d84f34b35d5fb49be97",
+    "fundName": "国新双百壹号（杭州）股权投资合伙企业（有限合伙）",
+    "managerName": "国改双百发展基金管理有限公司",
+    "managerId": "b9cf854be46cda7ec35cb1c6",
+    "sizeCny": 8500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+      "date": "2023-12-06",
+      "dateKind": "公开文件披露日",
+      "issuer": "武汉长江通信产业集团股份有限公司",
+      "pages": "85–88",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-07-31/1217423605.PDF"
+      ],
+      "lpScope": "发行人在指定时点披露全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "国改双百发展基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "国改双百发展基金管理有限公司",
+      "creditCode": "91330102MA2GY5W751",
+      "registrationCode": "SJE713",
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2019-12-25",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+          "registeredCny": 5000000000,
+          "partners": [
+            {
+              "name": "国改双百发展基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 4979000000,
+              "disclosedPercent": 99.58
+            },
+            {
+              "name": "双百春华（杭州）股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 20000000,
+              "disclosedPercent": 0.4
+            },
+            {
+              "name": "国改双百发展基金管理有限公司",
+              "disclosedContributionCny": 1000000,
+              "disclosedPercent": 0.02
+            }
+          ]
+        },
+        {
+          "asOf": "2021-07-23",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+          "registeredCny": 7500000000,
+          "partners": [
+            {
+              "name": "国改双百发展基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 7479000000,
+              "disclosedPercent": 99.72
+            },
+            {
+              "name": "双百春华（杭州）股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 20000000,
+              "disclosedPercent": 0.27
+            },
+            {
+              "name": "国改双百发展基金管理有限公司",
+              "disclosedContributionCny": 1000000,
+              "disclosedPercent": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "国改双百发展基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 8479000000,
+        "disclosedPercent": 99.75,
+        "existingInstitution": "0278ef4c4c4485e5d94ca496"
+      },
+      {
+        "name": "双百春华（杭州）股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 0.24,
+        "existingInstitution": "583b5f7f246fc0f4e7ec7994"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cf9eed4198a6aacffb2d754d",
+    "fundName": "青岛宏坤元贾投资管理中心（有限合伙）",
+    "managerName": "中诚信财务顾问有限公司",
+    "managerId": "e4055282f4afad93b1a71593",
+    "sizeCny": 50000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+      "date": "2023-12-06",
+      "dateKind": "公开文件披露日",
+      "issuer": "武汉长江通信产业集团股份有限公司",
+      "pages": "64–67",
+      "lpSources": [],
+      "lpScope": "发行人在指定时点披露全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "中诚信财务顾问有限公司",
+          "disclosedContributionCny": 10000
+        }
+      ],
+      "managerLegalName": "中诚信财务顾问有限公司",
+      "creditCode": "91370211MA3U6AXMX3",
+      "registrationCode": "SNG403",
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2020-10-15",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+          "registeredCny": 50000000,
+          "partners": [
+            {
+              "name": "中诚信财务顾问有限公司",
+              "disclosedContributionCny": 10000,
+              "disclosedPercent": 0.02
+            },
+            {
+              "name": "谭陆",
+              "disclosedContributionCny": 49990000,
+              "disclosedPercent": 99.98
+            }
+          ]
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "张永宝",
+        "disclosedContributionCny": 26335000,
+        "disclosedPercent": 52.67,
+        "existingInstitution": "579d2142d8721dff904a0116"
+      },
+      {
+        "name": "谭陆",
+        "disclosedContributionCny": 23655000,
+        "disclosedPercent": 47.31,
+        "existingInstitution": "e0502147af7cae1a47de7ecc"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "9bd04c5bbc2253a8bb38e225",
+    "fundName": "芜湖旷沄人工智能产业投资基金（有限合伙）",
+    "managerName": "珠海佑柏私募基金管理有限公司",
+    "managerId": "266ddcb6d566030f8358def7",
+    "sizeCny": 1003000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+      "date": "2023-12-06",
+      "dateKind": "公开文件披露日",
+      "issuer": "武汉长江通信产业集团股份有限公司",
+      "pages": "93–98",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202311/600345_20231115_2F6W.pdf",
+        "https://di.hkex.com.hk/di/NSForm2.aspx?ed=14%2F10%2F2026&fn=CS20261014E00391&lang=ZH&sa1=cl&sa2=ns&sc=00600&sced=14%2F10%2F2026&scsd=14%2F10%2F2025&sid=533628&src=Main&tk=ds"
+      ],
+      "lpScope": "发行人在指定时点披露全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "芜湖旷沄投资管理中心（有限合伙）",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "珠海佑柏私募基金管理有限公司",
+      "registrationCode": "SEZ081",
+      "creditCode": "91340202MA2T3NKQ6F",
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2018-09-26",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+          "registeredCny": 200000000,
+          "partners": [
+            {
+              "name": "旷视科技有限公司",
+              "disclosedContributionCny": 190000000,
+              "disclosedPercent": 95
+            },
+            {
+              "name": "芜湖旷沄投资管理中心（有限合伙）",
+              "disclosedContributionCny": 10000000,
+              "disclosedPercent": 5
+            }
+          ]
+        },
+        {
+          "asOf": "2019-01-28",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+          "registeredCny": 75000000,
+          "partners": [
+            {
+              "name": "北京旷视科技有限公司",
+              "disclosedContributionCny": 65000000,
+              "disclosedPercent": 86.67
+            },
+            {
+              "name": "芜湖旷沄投资管理中心（有限合伙）",
+              "disclosedContributionCny": 10000000,
+              "disclosedPercent": 13.33
+            }
+          ]
+        },
+        {
+          "asOf": "2019-07-10",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-12-06/1218524407.PDF",
+          "registeredCny": 610000000,
+          "partners": [
+            {
+              "name": "安徽东向发展创新投资有限公司",
+              "disclosedContributionCny": 150000000,
+              "disclosedPercent": 24.59
+            },
+            {
+              "name": "芜湖产业投资基金有限公司",
+              "disclosedContributionCny": 150000000,
+              "disclosedPercent": 24.59
+            },
+            {
+              "name": "中建材联合投资有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 16.39
+            },
+            {
+              "name": "杭州旷云金智科技有限公司",
+              "disclosedContributionCny": 80000000,
+              "disclosedPercent": 13.11
+            },
+            {
+              "name": "青岛旷视科技有限公司",
+              "disclosedContributionCny": 70000000,
+              "disclosedPercent": 11.48
+            },
+            {
+              "name": "成都旷视金智科技有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 8.2
+            },
+            {
+              "name": "芜湖旷沄投资管理中心（有限合伙）",
+              "disclosedContributionCny": 10000000,
+              "disclosedPercent": 1.64
+            }
+          ]
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "长三角协同优势产业股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 24.93,
+        "existingInstitution": "d4bc72a7f458a4024726b2a2"
+      },
+      {
+        "name": "芜湖产业投资基金有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 14.96,
+        "existingInstitution": "40e7b5f93ee53b37d38ca7cf"
+      },
+      {
+        "name": "安徽东向发展创新投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 14.96,
+        "existingInstitution": "7932b8a665de581406806e1d"
+      },
+      {
+        "name": "中建材联合投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 9.97,
+        "existingInstitution": "778471dc73c846fcf76d6390"
+      },
+      {
+        "name": "安徽新华传媒股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 9.97,
+        "existingInstitution": "ac7b0035decda19fa4e626d1"
+      },
+      {
+        "name": "杭州旷云金智科技有限公司",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 7.98,
+        "existingInstitution": "f75825dd77fe9659baa47d3e"
+      },
+      {
+        "name": "青岛旷视科技有限公司",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 6.98,
+        "existingInstitution": "ad37a81d02c35a28d55c2368"
+      },
+      {
+        "name": "成都旷视金智科技有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.99,
+        "existingInstitution": "db97fd3459ff745e88b95b54"
+      },
+      {
+        "name": "郁佑资产管理有限公司",
+        "disclosedContributionCny": 43000000,
+        "disclosedPercent": 4.29,
+        "existingInstitution": "1eaae194aacf8197b08963f2"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
