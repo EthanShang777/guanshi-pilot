@@ -1,5 +1,6 @@
 from collections import Counter, defaultdict
 from pathlib import Path
+from hashlib import sha256
 import json
 import re
 import shutil
@@ -67,6 +68,7 @@ def publish(out):
     (records/'institution-directory.json').write_text(json.dumps({'types':TYPES,'rows':index},ensure_ascii=False,separators=(',',':')))
     for asset in ('institution-views.js','institution-views.css'):
         shutil.copyfile(asset,out/asset)
+    revision = sha256(Path('institution-views.js').read_bytes()).hexdigest()[:12]
     for filename, mode in [('institutions.html','directory'),('institution.html','profile')]:
         path=out/filename
         html=path.read_text()
@@ -74,5 +76,5 @@ def publish(out):
         body='<main id="inst-app" data-mode="'+mode+'" data-default="'+(default[1] if default else '')+'"><p>正在读取机构资料…</p></main>'
         html=re.sub(r'<main\b.*?</main>',lambda _: body,html,count=1,flags=re.S)
         html=html.replace('<script src="within-page.js"></script>', '')
-        html=html.replace('</html>','<link rel="stylesheet" href="institution-views.css"><script defer src="institution-views.js"></script></html>')
+        html=html.replace('</html>','<link rel="stylesheet" href="institution-views.css"><script defer src="institution-views.js?v='+revision+'"></script></html>')
         path.write_text(html)
