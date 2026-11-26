@@ -3353,5 +3353,69 @@
       "amount": "数亿元",
       "investors_json": "[{\"name\":\"华文清能一期投资基金（滁州）合伙企业（有限合伙）\",\"role\":\"联合领投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:759143f1a3ebe82f43bb79e11c71f87838c24fd5f9ceb181e13ba6e1e8d4eefa",
+    "company_id": "",
+    "day": "2026-10-20",
+    "source": "https://m.chinaventure.com.cn/news/80-20261020-393681.html",
+    "expected": {
+      "round": "种子轮",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"上海蓝云实业发展股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"昊文天枢机器人科技（上海）有限公司\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"上海蓝云实业发展股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"昊文天枢机器人科技（上海）有限公司\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8d32cd8f64282eb716de515560fe00a6a113d77bc4fc2d23be17c3df130ab54b",
+    "company_id": "co:full_legal_name:e5269f425d5798a86d747937944ac3db",
+    "day": "2026-10-20",
+    "source": "https://m.chinaventure.com.cn/news/80-20261020-393681.html",
+    "expected": {
+      "round": "种子轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"上海蓝云实业发展股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"昊文天枢机器人科技\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "种子轮",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"昊文天枢机器人科技（上海）有限公司\",\"role\":null,\"amount\":null},{\"name\":\"上海蓝云实业发展股份有限公司\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:a611bd7e102a59d1db108b1b005509b406acb0b5d359b300629da3a23cb4581b",
+    "company_id": "co:full_legal_name:ab0648a3d80e3aa8f12fd780d8e51f82",
+    "day": "2023-09-05",
+    "source": "https://www.upwind.io/feed/80m-in-12-months-to-power-cloud-security-with-runtime",
+    "expected": {
+      "round": "A轮",
+      "amount": "5000万美元",
+      "investors_json": "[{\"name\":\"CercaPartners\",\"role\":null,\"amount\":null},{\"name\":\"CraftVentures\",\"role\":null,\"amount\":null},{\"name\":\"Cyberstarts\",\"role\":null,\"amount\":null},{\"name\":\"GreylockPartners\",\"role\":null,\"amount\":null},{\"name\":\"LeadersFund\",\"role\":null,\"amount\":null},{\"name\":\"PennyJarCapital\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "5000万美元",
+      "investors_json": "[{\"name\":\"CercaPartners\",\"role\":null,\"amount\":null},{\"name\":\"CraftVentures\",\"role\":null,\"amount\":null},{\"name\":\"Cyberstarts\",\"role\":null,\"amount\":null},{\"name\":\"GreylockPartners\",\"role\":null,\"amount\":null},{\"name\":\"LeadersFund\",\"role\":null,\"amount\":null},{\"name\":\"PennyJarCapital\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:4fd087da36d2b71fe0d783e258185c86e26a44f2d9da672093ed7e39bee82ede",
+    "company_id": "co:full_legal_name:ab0648a3d80e3aa8f12fd780d8e51f82",
+    "day": "2024-12-03",
+    "source": "https://www.upwind.io/feed/upwind-secures-100m-to-power-next-generation-cloud-security",
+    "expected": {
+      "round": "B轮",
+      "amount": "1亿美元",
+      "investors_json": "[{\"name\":\"AltaParkCapital\",\"role\":null,\"amount\":null},{\"name\":\"CraftVentures\",\"role\":null,\"amount\":null},{\"name\":\"Cyberstarts\",\"role\":null,\"amount\":null},{\"name\":\"GreylockPartners\",\"role\":null,\"amount\":null},{\"name\":\"LeadersFund\",\"role\":null,\"amount\":null},{\"name\":\"PennyJarCapital\",\"role\":null,\"amount\":null},{\"name\":\"ShevaCapital\",\"role\":null,\"amount\":null},{\"name\":\"TCV\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "1亿美元",
+      "investors_json": "[{\"name\":\"Craft Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"TCV\",\"role\":null,\"amount\":null},{\"name\":\"Alta Park Capital\",\"role\":null,\"amount\":null},{\"name\":\"Greylock Partners\",\"role\":null,\"amount\":null},{\"name\":\"Cyberstarts\",\"role\":null,\"amount\":null},{\"name\":\"Leaders Fund\",\"role\":null,\"amount\":null},{\"name\":\"Cerca Partners\",\"role\":null,\"amount\":null},{\"name\":\"Sheva VC\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

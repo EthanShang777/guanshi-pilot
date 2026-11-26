@@ -263,6 +263,29 @@ class SyncFinancingTest(unittest.TestCase):
         self.assertEqual(financing.sync_company_corrections(self.db,[stale]),(0,0,1))
         self.assertEqual(self.query(self.db,'SELECT * FROM financing_events ORDER BY event_id'),[actual,unrelated])
 
+    def test_reviewed_distinct_rounds_for_one_company_are_idempotent(self):
+        company_id = 'co:cn_uscc:issuer'
+        june = event('june', '示例锂电', '战略融资', company_id=company_id,
+                     day='2026-06-30', urls=('https://example.com/bank',))
+        july = event('july', '示例锂电', '股权融资', company_id=company_id,
+                     day='2026-07-13', urls=('https://example.com/fund',))
+        july['investors_json'] = financing.packed([{'name': '另一出资方'}])
+        reviews = {(financing.event_identity(july), financing.event_identity(june))}
+        self.assertEqual(financing.sync_rows(self.db, [june], reviewed=True), (1, 0, 0))
+        self.assertEqual(financing.sync_rows(self.db, [july], reviewed=True), (0, 0, 1))
+
+        for field in ('sources_json', 'investors_json'):
+            with self.subTest(shared=field):
+                overlapping = july | {field: june[field]}
+                self.assertEqual(
+                    financing.match_status(overlapping, june, {july['event_id']}, reviews),
+                    'uncertain',
+                )
+
+        self.assertEqual(financing.sync_rows(self.db, [july], reviewed=True, distinct_events=reviews), (1, 0, 0))
+        self.assertEqual(financing.sync_rows(self.db, [june, july], reviewed=True, distinct_events=reviews), (0, 0, 0))
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events ORDER BY event_id'), [july, june])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -61,7 +61,8 @@ def match_status(incoming, existing, reviewed_ids, distinct_events=frozenset()):
     shared_source = bool(set(json.loads(incoming['sources_json'])) &
                          set(json.loads(existing['sources_json'] or '[]')))
     shared_investor = bool(investor_names(incoming) & investor_names(existing))
-    if distinct_events and relation == 'conflict' and not shared_source and not shared_investor:
+    # The reviewed pair can have the same issuer and different funding rounds.
+    if distinct_events and relation in ('same', 'conflict') and not shared_source and not shared_investor:
         if (event_identity(incoming), event_identity(existing)) in distinct_events:
             return 'different'
     if stage != old_stage and SPECIFIC_ROUND.fullmatch(stage) and SPECIFIC_ROUND.fullmatch(old_stage):
