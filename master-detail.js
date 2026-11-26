@@ -3,6 +3,7 @@
   const id=new URLSearchParams(location.search).get('id');
   const el=(tag,text)=>{const n=document.createElement(tag);n.textContent=text;return n;};
   const link=(url,text)=>{const a=el('a',text);a.href=url;return a;};
+  const yuan=fen=>(fen/100).toLocaleString('zh-CN',{maximumFractionDigits:2})+' 元';
   function context(url,sector,sub){
     const target=new URL(url,location.href);
     if(sector)target.searchParams.set('sector',sector);
@@ -36,7 +37,12 @@
       root.append(summary,el('p',[row.dateKind,row.day||'日期未列明',row.location,row.sector,row.sub].filter(Boolean).join(' · ')),link(row.companyHref,'公司档案 →'));
       for(const url of row.sources){const p=el('p','');p.append(link(url,'来源 · '+new URL(url).hostname));root.append(p);}
       const parties=el('section','');parties.className='counterparties';parties.append(el('h2',row.stage==='股权转让'?'受让方':'参与机构'));
-      for(const [n,url] of row.parties)parties.append(link(context(url,row.sector,row.sub),n+' →'));
+      const allocations = new Map((row.partyAllocations || []).map(p=>[p.institutionId,p]));
+      for(const [n,url] of row.parties){
+        const target=context(url,row.sector,row.sub);
+        const detail=allocations.get(new URL(target).searchParams.get('id'));
+        parties.append(link(target,[n,detail && (detail.basis+' '+yuan(detail.amountFen))].filter(Boolean).join(' · ')+' →'));
+      }
       if(!row.parties.length)parties.append(el('p','未列明'));root.append(parties);
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
 
@@ -78,37 +84,6 @@
           }
           root.append(section);
         }
-      }
-      if(row.fundDisclosures?.length){
-        const funds=el('section','');
-        funds.className='profile-records';
-        funds.append(el('h2',row.fundDisclosures.some(fund=>fund.fundId===id)?'有限合伙人（LP）':'旗下基金的有限合伙人（LP）'));
-        for(const fund of row.fundDisclosures){
-          const details=el('details','');
-          const count=fund.partners.length+fund.otherLpCount;
-          const heading=fund.fundId===id?'查看公开披露':fund.fundName;
-          details.append(el('summary',heading+' · '+count+' 位 LP'));
-          if(fund.fundId===id && fund.managerId!==id){
-            details.append(link('institution.html?id='+fund.managerId,'管理人 · '+fund.managerName+' →'));
-          }
-          const list=el('ul','');
-          for(const partner of fund.partners){
-            const item=el('li','');
-            item.append(partner.existingInstitution
-              ? link('institution.html?id='+partner.existingInstitution,partner.name)
-              : el('span',partner.name));
-            const amount=(partner.disclosedContributionCny/10000).toLocaleString('zh-CN',{maximumFractionDigits:4});
-            item.append(el('small',' · '+fund.capitalBasis+' '+amount+' 万元 · '+partner.disclosedPercent+'%'));
-            list.append(item);
-          }
-          details.append(list);
-          if(fund.otherLpCount)details.append(el('p','另有 '+fund.otherLpCount+' 位个人 LP，见原始披露。'));
-          const citation=el('p','');
-          citation.append(link(fund.source.url,fund.source.issuer+' ↗'),el('small',' · '+fund.source.dateKind+' '+fund.source.date));
-          details.append(citation);
-          funds.append(details);
-        }
-        root.append(funds);
       }
       root.append(el('h2','全部投资记录 · '+row.events.length+' 笔'));
       for(const [url,company,day,stage,amount] of row.events){

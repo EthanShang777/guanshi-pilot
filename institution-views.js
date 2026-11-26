@@ -97,6 +97,58 @@
       for(const [entity,url] of row.entities||[])if(url)info.append(link(entity+' · 管理关系来源',url),el('br'));
       root.append(info);
     }
+    const detail=shard[id];
+    const yuan=fen=>(fen/100).toLocaleString('zh-CN',{maximumFractionDigits:2})+' 元';
+    const hrefLink=(url,label)=>link(label,url);
+    const fund=detail?.fundDisclosures?.find(item=>item.fundId===id);
+    const coverage=detail?.fundCoverage;
+    if(fund && coverage){
+      const section=el('section','');
+      section.className='profile-records';
+      section.append(el('h2','基金规模与出资'));
+      const basis=el('p',fund.capitalBasis+' '+yuan(fund.sizeCny*100)+' · '+fund.source.date);
+      basis.append(el('span','　'),hrefLink(fund.source.url,'来源 ↗'));
+      section.append(basis,el('p','已收录 '+coverage.totalEvents+' 笔投资，'+coverage.disclosedEvents+' 笔有本基金出资金额'));
+      for(const [label,total] of Object.entries(coverage.totalsFen)){
+        if(total) section.append(el('p','已核实'+label+' '+yuan(total)));
+      }
+      for(const stat of fund.publishedStatistics){
+        const p=el('p','截至 '+stat.asOf+'，已募集 '+yuan(stat.fundedCny*100)+'，已投放 '+yuan(stat.investedCny*100));
+        p.append(el('span','　'),hrefLink(stat.source,'历史披露 ↗'));
+        section.append(p);
+      }
+      const balance = fund.reportedBalance;
+      const available = el('p',balance
+        ? '披露可投额度 '+yuan(balance.amountCny*100)+' · '+balance.asOf
+        : '剩余可投额度 · 待披露');
+      if(balance) available.append(el('span','　'),hrefLink(balance.source,'来源 ↗'));
+      section.append(available);
+      if(coverage.cases.length){
+        const cases=el('details','');
+        cases.append(el('summary','查看已核实出资'));
+        for(const c of coverage.cases){
+          const p=el('p','');
+          p.append(hrefLink(c.href,c.company+' · '+c.day),el('span','　'+c.basis+' '+yuan(c.amountFen)+'　'),hrefLink(c.source,'来源 ↗'));
+          cases.append(p);
+        }
+        section.append(cases);
+      }
+      root.append(section);
+    }
+    if(detail?.lpFundRelations?.length){
+      const section=el('section','');
+      section.className='profile-records';
+      const details=el('details','');
+      details.append(el('summary','作为 LP 出资的基金'));
+      for(const f of detail?.lpFundRelations){
+        const p=el('p','');
+        p.append(hrefLink('institution.html?id='+f.fundId,f.fundName+' →'),
+                 el('span','　'+f.disclosedPercent+'% · '+f.source.date));
+        details.append(p);
+      }
+      section.append(details);
+      root.append(section);
+    }
     const filters=el('div',null,'inst-filters'), layout=el('section'), cases=el('section');
     function select(title,values,initial=''){
       const control=el('select');control.setAttribute('aria-label',title);
@@ -154,6 +206,9 @@
           const count=fund.partners.length+fund.otherLpCount;
           const heading=fund.fundId===id?'查看公开披露':fund.fundName;
           details.append(el('summary',heading+' · '+count+' 位 LP'));
+          if(fund.fundId!==id){
+            details.append(link('基金档案 →',profileUrl(fund.fundId)));
+          }
           if(fund.fundId===id && fund.managerId!==id){
             details.append(link('管理人 · '+fund.managerName+' →',profileUrl(fund.managerId)));
           }

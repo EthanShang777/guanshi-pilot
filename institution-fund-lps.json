@@ -56,7 +56,16 @@
         "existingInstitution": null
       }
     ],
-    "otherLpCount": 0
+    "otherLpCount": 0,
+    "sizeCny": 1000000000,
+    "reviewedInvestments": [
+      {
+        "eventId": "61b3d519272ac96cb8dc5016",
+        "amountFen": 4999998825,
+        "basis": "实际出资",
+        "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-11/4733c8ab1ca5ff1bed6a4a9fd54e4768.pdf"
+      }
+    ]
   },
   {
     "fundId": "04ac982bdb74e18d36875987",
@@ -97,7 +106,16 @@
         "existingInstitution": null
       }
     ],
-    "otherLpCount": 0
+    "otherLpCount": 0,
+    "sizeCny": 468750000,
+    "reviewedInvestments": [
+      {
+        "eventId": "61b3d519272ac96cb8dc5016",
+        "amountFen": 3999997550,
+        "basis": "实际出资",
+        "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-11/4733c8ab1ca5ff1bed6a4a9fd54e4768.pdf"
+      }
+    ]
   },
   {
     "fundId": "f8dbaab8578bf328075548de",
@@ -132,7 +150,16 @@
         "existingInstitution": null
       }
     ],
-    "otherLpCount": 5
+    "otherLpCount": 5,
+    "sizeCny": 500000000,
+    "reviewedInvestments": [
+      {
+        "eventId": "61b3d519272ac96cb8dc5016",
+        "amountFen": 3599998550,
+        "basis": "实际出资",
+        "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-11/4733c8ab1ca5ff1bed6a4a9fd54e4768.pdf"
+      }
+    ]
   },
   {
     "fundId": "8a5dba18602e4244567cdd0b",
@@ -173,7 +200,16 @@
         "existingInstitution": null
       }
     ],
-    "otherLpCount": 0
+    "otherLpCount": 0,
+    "sizeCny": 1000000000,
+    "reviewedInvestments": [
+      {
+        "eventId": "61b3d519272ac96cb8dc5016",
+        "amountFen": 2999996275,
+        "basis": "实际出资",
+        "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-11/4733c8ab1ca5ff1bed6a4a9fd54e4768.pdf"
+      }
+    ]
   },
   {
     "fundId": "91107f9384ce53108223d171",
@@ -202,7 +238,16 @@
         "existingInstitution": null
       }
     ],
-    "otherLpCount": 0
+    "otherLpCount": 0,
+    "sizeCny": 2000000000,
+    "reviewedInvestments": [
+      {
+        "eventId": "61b3d519272ac96cb8dc5016",
+        "amountFen": 2799996775,
+        "basis": "实际出资",
+        "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-11/4733c8ab1ca5ff1bed6a4a9fd54e4768.pdf"
+      }
+    ]
   },
   {
     "fundId": "f3ae3d940a1367a442c66fef",
@@ -225,7 +270,16 @@
         "existingInstitution": null
       }
     ],
-    "otherLpCount": 0
+    "otherLpCount": 0,
+    "sizeCny": 30000000,
+    "reviewedInvestments": [
+      {
+        "eventId": "61b3d519272ac96cb8dc5016",
+        "amountFen": 599998500,
+        "basis": "实际出资",
+        "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-05-11/4733c8ab1ca5ff1bed6a4a9fd54e4768.pdf"
+      }
+    ]
   },
   {
     "fundId": "858809915e657694bd8f94c0",
@@ -464,6 +518,25 @@
         "existingInstitution": null
       }
     ],
-    "otherLpCount": 0
+    "otherLpCount": 0,
+    "sizeCny": 49823330000,
+    "publishedStatistics": [
+      {
+        "asOf": "2021-12-31",
+        "fundedCny": 11189000000,
+        "investedCny": 10454000000,
+        "investments": 49,
+        "source": "https://gu.sina.cn/bd/hq/notice.php?annid=17463452",
+        "corroboration": "https://gu.sina.cn/bd/hq/notice.php?annid=17475351"
+      }
+    ],
+    "reviewedInvestments": [
+      {
+        "eventId": "e21240ff2336da676d3fced1",
+        "amountFen": 10500000000,
+        "basis": "认购金额",
+        "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1123/2022112301137_c.pdf"
+      }
+    ]
   }
 ]
