@@ -482,5 +482,92 @@
       "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1027/2025102701698.pdf",
       "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0402/2026040203300.pdf"
     ]
+  },
+  "ae3278184cd01d8600f0878b": {
+    "name": "瑞尔集团",
+    "registeredName": "Arrail Group Limited",
+    "aliases": [
+      "瑞尔集团有限公司",
+      "瑞爾集團有限公司",
+      "瑞尔齿科",
+      "瑞泰口腔",
+      "HK:06639"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0309/2022030900091.pdf",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0321/10163607/2022032100101_c.pdf"
+    ]
+  },
+  "9a2ff2631bcc41eaf12d7fb8": {
+    "name": "云岭光电",
+    "registeredName": "武汉云岭光电股份有限公司",
+    "aliases": [
+      "武汉云岭光电",
+      "NEEQ:874775"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202512031793171116_1.pdf?1764777720000.pdf=",
+      "https://pdf.dfcfw.com/pdf/H2_AN202512121798957905_1.pdf?1765553626000.pdf="
+    ]
+  },
+  "e0c7d3080ff839215706f879": {
+    "name": "凯睿思",
+    "registeredName": "湖南凯睿思微电子材料科技有限公司",
+    "aliases": [
+      "凯睿思新材料",
+      "湖南凯睿思"
+    ],
+    "sources": [
+      "https://m.chinaventure.com.cn/news/114-20251021-388488.html",
+      "https://www.zzgxxc.cn/content/16130830"
+    ]
+  },
+  "85581187e528ffa3026ea415": {
+    "name": "知维拓医药",
+    "registeredName": "北京知维拓医药科技有限公司",
+    "aliases": [
+      "知维拓",
+      "Riltide Medicines"
+    ],
+    "sources": [
+      "https://bydrug.pharmcube.com/news/detail/b8badfe3cc03bc000a523054a2c6d893"
+    ]
+  },
+  "36a3ba93b20d98dbd4698d39": {
+    "name": "伍玥航科",
+    "registeredName": "苏州伍玥航空科技有限公司",
+    "aliases": [
+      "苏州伍玥航科",
+      "伍玥航空"
+    ],
+    "sources": [
+      "https://www.36kr.com/p/2229441480775048",
+      "https://www.suzhoucg.com.cn/NewsView/809.html"
+    ]
+  },
+  "9845fe36494509363deaf175": {
+    "name": "百趣生物",
+    "registeredName": "上海百趣生物医学科技有限公司",
+    "aliases": [
+      "BIOTREE",
+      "阿趣生物"
+    ],
+    "sources": [
+      "https://www.biotree.cn/group/361.html",
+      "https://www.biotree.cn/group/479.html",
+      "https://www.biotree.cn/group/1302.html"
+    ]
+  },
+  "1067c14be3c4b539ed4b9e3d": {
+    "name": "庞伯特",
+    "registeredName": "上海创屹科技有限公司",
+    "aliases": [
+      "Pongbot",
+      "上海庞伯特体育科技有限公司"
+    ],
+    "sources": [
+      "https://www.futuremind.com.cn/index/goods/product.html",
+      "https://static.cninfo.com.cn/finalpage/2022-03-03/1212501497.PDF"
+    ]
   }
 }

@@ -2915,5 +2915,101 @@
       "amount": "约156.8301亿港元",
       "investors_json": "[]"
     }
+  },
+  {
+    "event_id": "financing_event:1cd344328cbb2295b1450f4ece3e076a2521a87662642224d822f9781b055a6f",
+    "company_id": "co:full_legal_name:aa7b1bab28b6132bafc9dd4e1e7a0a14",
+    "day": "2022-07-15",
+    "source": "https://www.biotree.cn/group/361.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"启明创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"启明创投\",\"role\":\"领投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:5425141b02dbcd09c44bec309a707cb051d812b9007b89665782bd643e3112cc",
+    "company_id": "",
+    "day": "",
+    "source": "https://www.biotree.cn/group/361.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"启明创投\",\"role\":\"领投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"启明创投\",\"role\":\"领投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:3c02b91a4e914876e47ff12a07dfe77c272ea0d62857c06c2ab18b563b42108b",
+    "company_id": "co:full_legal_name:aa7b1bab28b6132bafc9dd4e1e7a0a14",
+    "day": "2023-01-03",
+    "source": "https://www.biotree.cn/group/479.html",
+    "expected": {
+      "round": "A+轮",
+      "amount": "数千万人民币",
+      "investors_json": "[{\"name\":\"启明创投\",\"role\":null,\"amount\":null},{\"name\":\"广州基金\",\"role\":null,\"amount\":null},{\"name\":\"金域医学\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"金域医学\",\"role\":\"领投\",\"amount\":null},{\"name\":\"科金金域\",\"role\":\"领投\",\"amount\":null},{\"name\":\"启明创投\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:e7ecb2ad16100a5060405eff07b99a6ee835efd7c6434d2eb3a07505751c4f38",
+    "company_id": "",
+    "day": "2023-01-03",
+    "source": "https://www.biotree.cn/group/479.html",
+    "expected": {
+      "round": "A+轮战略融资",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"科金金域\",\"role\":\"领投\",\"amount\":null},{\"name\":\"金域医学集团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"启明创投\",\"role\":\"跟投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "数千万元",
+      "investors_json": "[{\"name\":\"科金金域\",\"role\":\"领投\",\"amount\":null},{\"name\":\"金域医学集团\",\"role\":\"领投\",\"amount\":null},{\"name\":\"启明创投\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:e550a17d689b29bd3e5ff23e3c7349a51f21d981ececcf09cc2c435331cebb4c",
+    "company_id": "co:full_legal_name:aa7b1bab28b6132bafc9dd4e1e7a0a14",
+    "day": "2026-10-10",
+    "source": "https://www.biotree.cn/group/1302.html",
+    "expected": {
+      "round": "B轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"中信建投资本\",\"role\":null,\"amount\":null},{\"name\":\"启明创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"中信建投资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"启明创投\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:5e1a7909997e9763026e59d95193fda9293b24450f92d0e5dc26f31c9eaf6ccc",
+    "company_id": "",
+    "day": "2026-10-10",
+    "source": "https://www.biotree.cn/group/1302.html",
+    "expected": {
+      "round": "B轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"中信建投资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"启明创投\",\"role\":\"跟投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"中信建投资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"启明创投\",\"role\":\"跟投\",\"amount\":null}]"
+    }
   }
 ]
