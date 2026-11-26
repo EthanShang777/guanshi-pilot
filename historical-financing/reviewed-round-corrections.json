@@ -6916,7 +6916,7 @@
     "event_id": "financing_event:5127c4608077bf15484d2b9ddb1af352f71a14c15f886e63858a1e504ab37987",
     "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1",
     "day": "2023-12-25",
-    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582432_1.pdf?1782834351000.pdf=",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
     "expected": {
       "round": "A轮",
       "amount": "未披露",
@@ -6927,15 +6927,92 @@
     },
     "corrected": {
       "round": "股权转让",
-      "amount": "未披露",
+      "amount": "约4400万元",
       "investors_json": "[{\"name\":\"晨晖滨海（天津）信息创业投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"北京元培科技创新投资中心（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"成都新申毅股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"天津滨海知识产权股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null}]",
       "date": "2023-12-25",
       "date_key": "2023-12-25",
       "date_kind": "发行人披露工商登记日"
     },
     "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202606301826582432_1.pdf?1782834351000.pdf=",
       "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202606301826582433&pageIndex=1",
-      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608131827948172&pageIndex=1"
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202608131827948172&pageIndex=1",
+      "https://pdf.dfcfw.com/pdf/H2_AN202608131827948172_1.pdf"
+    ]
+  },
+  {
+    "event_id": "registry:165",
+    "company_id": "co:cn_uscc:548bae8d98fa53707cca042de6626ddd",
+    "day": "2022-08-17",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-08-22/1214352855.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "10亿元",
+      "investors_json": "[{\"name\":\"内蒙古鄂尔多斯资源股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"北京绿色科创穗禾北工股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"台州盛友股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴金磐创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴锦冠贰号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"宁波赋甲创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"岳阳市隐潇产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广德长证国投星火投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"楚天长兴（武汉）企业管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"武汉杉江聚源企业管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖州湘智股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"珠海沅灏启源创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"穗禾智融绿科（上海）私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"长江证券创新投资（湖北）有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2022-08-17",
+      "date_key": "2022-08-17",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "10亿元",
+      "investors_json": "[{\"name\":\"内蒙古鄂尔多斯资源股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"北京绿色科创穗禾北工股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"台州盛友股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴金磐创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴锦冠贰号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4500000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-08-22/1214352855.PDF\"}},{\"name\":\"宁波赋甲创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"岳阳市隐潇产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广德长证国投星火投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"楚天长兴（武汉）企业管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"武汉杉江聚源企业管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖州湘智股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"珠海沅灏启源创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"穗禾智融绿科（上海）私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"长江证券创新投资（湖北）有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2022-08-17",
+      "date_key": "2022-08-17",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://www.chinapower.hk/sc/media/news-p220818.php"
+    ]
+  },
+  {
+    "event_id": "public:historical-disclosure:16343968dd69465faf382a",
+    "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1",
+    "day": "2024-01-10",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "expected": {
+      "round": "现金增资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"晨晖滨海（天津）信息创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京元培科技创新投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海诚毅锦冠创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2024-01-10",
+      "date_key": "2024-01-10",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "2300万元",
+      "investors_json": "[{\"name\":\"晨晖滨海（天津）信息创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":800000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf\"}},{\"name\":\"北京元培科技创新投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf\"}},{\"name\":\"上海诚毅锦冠创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf\"}}]",
+      "date": "2024-01-10",
+      "date_key": "2024-01-10",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202608131827948172_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:5faedc3f0b47c20b97d714ecb9c1eaab4c017c436aac7c57cc64ba0a57c5f73c",
+    "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1",
+    "day": "2024-04-08",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"建投创发\",\"role\":null,\"amount\":null},{\"name\":\"锦冠投资\",\"role\":null,\"amount\":null}]",
+      "date": "2024-04-08",
+      "date_key": "2024-04-08",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "500万元",
+      "investors_json": "[{\"name\":\"石家庄乾诺股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf\"}}]",
+      "date": "2024-04-08",
+      "date_key": "2024-04-08",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202608131827948172_1.pdf"
     ]
   }
 ]

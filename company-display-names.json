@@ -3198,7 +3198,8 @@
       "ENNEAGON"
     ],
     "sources": [
-      "https://stockmc.xueqiu.com/202604/a6a3040d0f614d4f97760b52ef8f5d32.pdf"
+      "https://stockmc.xueqiu.com/202604/a6a3040d0f614d4f97760b52ef8f5d32.pdf",
+      "https://pdf.dfcfw.com/pdf/H2_AN202509261750994953_1.pdf"
     ]
   },
   "5e1355e9c0bb77c7a8ea7549": {
@@ -4651,7 +4652,16 @@
       "天津集智航宇科技有限公司"
     ],
     "sources": [
-      "https://pdf.dfcfw.com/pdf/H2_AN202606301826582432_1.pdf?1782834351000.pdf="
+      "https://pdf.dfcfw.com/pdf/H2_AN202606301826582432_1.pdf?1782834351000.pdf=",
+      "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf"
+    ]
+  },
+  "1feb30eab5160b0efdae62d2": {
+    "name": "启源芯动力",
+    "registeredName": "上海启源芯动力科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0928/2021092800954_c.pdf"
     ]
   }
 }

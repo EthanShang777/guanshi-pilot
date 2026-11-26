@@ -1765,5 +1765,53 @@
     },
     "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
     "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:582df4922113024f0b9082",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "existing": {
+      "event_id": "financing_event:5faedc3f0b47c20b97d714ecb9c1eaab4c017c436aac7c57cc64ba0a57c5f73c",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:5faedc3f0b47c20b97d714ecb9c1eaab4c017c436aac7c57cc64ba0a57c5f73c",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:582df4922113024f0b9082",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:adda9eef09603e00ef12fd",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:9ea494cc46c4f4180567a2",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9ea494cc46c4f4180567a2",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:adda9eef09603e00ef12fd",
+      "company_id": "co:full_legal_name:731e644deb572d52ec1a9b389e6fbdc1"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202606301826582434_1.pdf",
+    "reason": "发行人分别披露现金增资或不同卖方、对价和付款日，按独立交易保留。"
   }
 ]

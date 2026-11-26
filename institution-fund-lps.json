@@ -13452,9 +13452,10 @@
       "pages": "第三节",
       "lpSources": [
         "https://disc.static.szse.cn/disc/disk03/finalpage/2024-04-22/22dd2bf4-6149-46b6-956c-07d7ec7b498d.PDF",
-        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9068997&stockid=301070"
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9068997&stockid=301070",
+        "https://static.cninfo.com.cn/finalpage/2022-08-22/1214352855.PDF"
       ],
-      "lpScope": "六名LP一名GP，认缴4,510万元。开勒股份2023年年报核皓勒在2022年实缴500万元。",
+      "lpScope": "六名LP和一名GP，认缴及实缴合计4,510万元。开勒2022-036确认协议各方均完成实缴。",
       "generalPartners": [
         {
           "name": "上海锦冠投资管理有限公司",
@@ -13464,16 +13465,42 @@
       "managerLegalName": "上海锦冠投资管理有限公司",
       "filingDate": "2022-08-18",
       "paidContributionSource": {
-        "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-04-22/22dd2bf4-6149-46b6-956c-07d7ec7b498d.PDF",
-        "date": "2024-04-22",
+        "url": "https://static.cninfo.com.cn/finalpage/2022-08-22/1214352855.PDF",
+        "date": "2022-08-22",
         "dateKind": "公开文件披露日",
         "partners": [
           {
             "name": "皓勒（上海）科技发展有限公司",
             "paidCny": 5000000
+          },
+          {
+            "name": "南通万物创新创业投资合伙企业（有限合伙）",
+            "paidCny": 15000000
+          },
+          {
+            "name": "上海诚毅锦冠创业投资合伙企业（有限合伙）",
+            "paidCny": 10000000
+          },
+          {
+            "name": "陈俞坤",
+            "paidCny": 5000000
+          },
+          {
+            "name": "吴成艾",
+            "paidCny": 5000000
+          },
+          {
+            "name": "王之祥",
+            "paidCny": 5000000
+          },
+          {
+            "name": "上海锦冠投资管理有限公司",
+            "paidCny": 100000
           }
-        ]
-      }
+        ],
+        "totalPaidCny": 45100000
+      },
+      "fundRegistration": "SVL269"
     },
     "partners": [
       {
@@ -13564,6 +13591,107 @@
         "disclosedContributionCny": 12000000,
         "disclosedPercent": 6,
         "existingInstitution": "600504740e5b637d5580c3b4"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "dc558d838587da4460722507",
+    "fundName": "珠海德盈嘉华启辰股权投资合伙企业（有限合伙）",
+    "managerName": "宁波盈峰股权投资基金管理有限公司",
+    "managerId": "c1298fdda4ff0f4e5843105d",
+    "sizeCny": 105460000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2024-12-24/1222127446.PDF",
+      "date": "2024-12-24",
+      "dateKind": "公开文件披露日",
+      "issuer": "英杰电气对外投资进展公告",
+      "pages": "第一节至第二节",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-11-20/1221790907.PDF"
+      ],
+      "lpScope": "一名GP及三名LP。原拟认缴20,010万元，减资后认缴10,546万元，全部完成实缴。",
+      "generalPartners": [
+        {
+          "name": "宁波盈峰股权投资基金管理有限公司",
+          "disclosedContributionCny": 100000
+        }
+      ],
+      "managerLegalName": "宁波盈峰股权投资基金管理有限公司",
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2024-12-24/1222127446.PDF",
+        "date": "2024-12-24",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "德阳投控兴产投资有限责任公司",
+            "paidCny": 25360000
+          },
+          {
+            "name": "四川英杰电气股份有限公司",
+            "paidCny": 60000000
+          },
+          {
+            "name": "四川华体照明科技股份有限公司",
+            "paidCny": 20000000
+          },
+          {
+            "name": "宁波盈峰股权投资基金管理有限公司",
+            "paidCny": 100000
+          }
+        ],
+        "totalPaidCny": 105460000
+      },
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2024-11-20",
+          "source": "https://static.cninfo.com.cn/finalpage/2024-11-20/1221790907.PDF",
+          "registeredCny": 200100000,
+          "partners": [
+            {
+              "name": "宁波盈峰股权投资基金管理有限公司",
+              "disclosedPercent": 0.05,
+              "disclosedContributionCny": 100000
+            },
+            {
+              "name": "德阳投控兴产投资有限责任公司",
+              "disclosedPercent": 59.97,
+              "disclosedContributionCny": 120000000
+            },
+            {
+              "name": "四川英杰电气股份有限公司",
+              "disclosedPercent": 29.985,
+              "disclosedContributionCny": 60000000
+            },
+            {
+              "name": "四川华体照明科技股份有限公司",
+              "disclosedPercent": 9.995,
+              "disclosedContributionCny": 20000000
+            }
+          ]
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "德阳投控兴产投资有限责任公司",
+        "disclosedContributionCny": 25360000,
+        "disclosedPercent": 24.047,
+        "existingInstitution": "7698a25a90ac0d528a065f9e"
+      },
+      {
+        "name": "四川英杰电气股份有限公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 56.8936,
+        "existingInstitution": "6065183b403822ff202d1295"
+      },
+      {
+        "name": "四川华体照明科技股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 18.9645,
+        "existingInstitution": "dae576e1132ad5e25992d954"
       }
     ],
     "publishedStatistics": []
