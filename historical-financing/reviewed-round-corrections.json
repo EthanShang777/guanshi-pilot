@@ -3691,5 +3691,46 @@
       "https://vc.pedaily.cn/invest/f2747-b2842-y2026-c1191-s315",
       "https://static.cninfo.com.cn/finalpage/2023-10-25/1218136822.PDF"
     ]
+  },
+  {
+    "event_id": "financing_event:2f842993b5a1b4dadf849a5fac6cef5176fae4ab3eb127f5af5d1331bf98e103",
+    "company_id": "co:full_legal_name:c32d7875a1a345786f43df1525315e4b",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "超亿人民币",
+      "investors_json": "[{\"name\":\"中江高新区产业基金\",\"role\":null,\"amount\":null},{\"name\":\"凯州新城产业基金\",\"role\":null,\"amount\":null},{\"name\":\"德阳投控\",\"role\":null,\"amount\":null},{\"name\":\"成都科创投集团\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-19",
+      "date_key": "2026-10-19",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "超1亿元",
+      "investors_json": "[{\"name\":\"中江高新区产业基金\",\"role\":null,\"amount\":null},{\"name\":\"凯州新城产业基金\",\"role\":null,\"amount\":null},{\"name\":\"德阳投控\",\"role\":null,\"amount\":null},{\"name\":\"成都未来产业天使投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2026-10-16",
+      "date_key": "2026-10-16",
+      "date_kind": "企业经中国机器人产业发展联盟披露日"
+    },
+    "source": "https://contact.airobocn.cn/news/33075",
+    "additional_sources": [
+      "https://cbgc.scol.com.cn/news/8069843",
+      "https://www.hkcd.com.hk/hkcdweb/content_p/2026/10/16/content_203684.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:9c27cdbcae8d5b91926d397ecb9e3c95948f0a59e7baffda19ffb66e8cfcc382",
+    "company_id": "",
+    "day": "2026-10-16",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "超1亿元",
+      "investors_json": "[{\"name\":\"lead\",\"role\":null,\"amount\":null},{\"name\":\"participants\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "超1亿元",
+      "investors_json": "[]"
+    },
+    "source": "https://contact.airobocn.cn/news/33075"
   }
 ]

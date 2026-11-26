@@ -1882,5 +1882,80 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2024-10-31/1221571213.PDF"
     ]
+  },
+  "d5eb5abea7b7f891f0932d39": {
+    "name": "协氢新能源",
+    "registeredName": "协氢（上海）新能源科技有限公司",
+    "aliases": [
+      "协氢",
+      "HiTS"
+    ],
+    "sources": [
+      "https://www.ejy365.com/info/ejy382522"
+    ]
+  },
+  "ddc04835deaa0d3493978db2": {
+    "name": "飞睿得",
+    "registeredName": "江苏飞睿得科技有限公司",
+    "aliases": [
+      "江苏飞睿得"
+    ],
+    "sources": [
+      "https://www.ejy365.com/info/ejy382522"
+    ]
+  },
+  "5a7102dc166e307f6b05eaa8": {
+    "name": "华汇实业",
+    "registeredName": "成都高新区华汇实业有限公司",
+    "aliases": [
+      "成都华汇实业"
+    ],
+    "sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12654128&stockid=301397"
+    ]
+  },
+  "afd1c282b6f33848ab129596": {
+    "name": "Bolt Biotherapeutics",
+    "registeredName": "Bolt Biotherapeutics, Inc.",
+    "aliases": [
+      "Bolt Bio",
+      "BOLT"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1641281/000119312526458877/bolt-20260930.htm"
+    ]
+  },
+  "98bb37e13b1662a43b88c627": {
+    "name": "GridAI Technologies",
+    "registeredName": "GridAI Technologies Corp.",
+    "aliases": [
+      "GridAI",
+      "Entero Therapeutics, Inc.",
+      "GRDX"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1604191/000110465926128566/grdx-20260930x10q.htm"
+    ]
+  },
+  "bf3e04c504064f6feecf6cca": {
+    "name": "Rapport Therapeutics",
+    "registeredName": "Rapport Therapeutics, Inc.",
+    "aliases": [
+      "RAPP"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/2012593/000119312526446217/R23.htm"
+    ]
+  },
+  "b36f9e988be4e21f63239f4e": {
+    "name": "四川具身科技",
+    "registeredName": "四川具身人形机器人科技有限公司",
+    "aliases": [
+      "EIR",
+      "四川具身人形机器人"
+    ],
+    "sources": [
+      "https://contact.airobocn.cn/news/33075"
+    ]
   }
 }
