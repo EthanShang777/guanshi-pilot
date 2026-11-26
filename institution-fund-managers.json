@@ -1786,5 +1786,37 @@
   "苏州华盛南园敦行创业投资合伙企业（有限合伙）": {
     "brand": "敦行资本",
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002188_20260515_SNA9.pdf#page=76"
+  },
+  "前海股权投资基金（有限合伙）": {
+    "brand": "前海母基金",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-06-03/1225345430.PDF"
+  },
+  "中原前海股权投资基金（有限合伙）": {
+    "brand": "前海母基金",
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0520/2026052000024_c.pdf"
+  },
+  "威海产投方舟创业投资基金合伙企业（有限合伙）": {
+    "brand": "前海母基金",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf#page=106"
+  },
+  "海南云锋基金中心（有限合伙）": {
+    "brand": "云锋基金",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf#page=11"
+  },
+  "合肥冯源仁芯股权投资合伙企业（有限合伙）": {
+    "brand": "冯源资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218136822.PDF"
+  },
+  "嘉兴瑞佳股权投资合伙企业（有限合伙）": {
+    "brand": "尚颀资本",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf#page=17"
+  },
+  "湖北中金瑞为股权投资基金合伙企业（有限合伙）": {
+    "brand": "中金资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-09-07/1217795420.PDF#page=3"
+  },
+  "东融壹号（珠海横琴）股权投资合伙企业（有限合伙）": {
+    "brand": "中金资本",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-09-07/1217795420.PDF#page=3"
   }
 }

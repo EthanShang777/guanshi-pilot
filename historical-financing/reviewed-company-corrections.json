@@ -596,5 +596,36 @@
       "date_kind": "原档日期",
       "investors_json": "[{\"name\":\"Eight Roads Ventures\",\"role\":\"领投\",\"amount\":null},{\"name\":\"LightspeedCapital\",\"role\":null,\"amount\":null},{\"name\":\"TDK\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "cv:flash:90300",
+    "round": "种子轮",
+    "source": "https://www.chinaventure.com.cn/news/114-20261126-394199.html",
+    "expected": {
+      "company_id": "",
+      "company_name": "闪科光联连续",
+      "raw_company_key": "闪科光联连续",
+      "primary_sector": "待归类",
+      "secondary_sector": "",
+      "sector": "待归类",
+      "sector_source": "投中网快讯分类",
+      "date": "2026-11-26",
+      "date_key": "2026-11-26",
+      "date_kind": "投中网报道日期",
+      "investors_json": "[{\"name\":\"励石创投\",\"role\":null,\"amount\":null},{\"name\":\"长石资本\",\"role\":null,\"amount\":null},{\"name\":\"厚雪资本\",\"role\":null,\"amount\":null},{\"name\":\"险峰长青（K2）\",\"role\":null,\"amount\":null},{\"name\":\"磐霖资本\",\"role\":null,\"amount\":null},{\"name\":\"小苗朗程\",\"role\":null,\"amount\":null},{\"name\":\"柯熙创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:4b4cc04b3dd18f026c13009bbeddefc9",
+      "company_name": "上海闪科光联科技有限公司",
+      "raw_company_key": "上海闪科光联科技有限公司;闪科光联;闪科光联连续",
+      "primary_sector": "芯片与算力",
+      "secondary_sector": "光互连芯片",
+      "sector": "光互连芯片",
+      "sector_source": "https://www.chinaventure.com.cn/news/114-20261126-394199.html",
+      "date": "2026-11-26",
+      "date_key": "2026-11-26",
+      "date_kind": "公司同日披露两轮，交割日期未披露",
+      "investors_json": "[{\"name\":\"励石创投\",\"role\":\"独家投资\",\"amount\":null}]"
+    }
   }
 ]

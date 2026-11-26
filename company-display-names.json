@@ -1759,5 +1759,68 @@
       "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002188_20260515_SNA9.pdf",
       "https://www.huatai-elec.com/"
     ]
+  },
+  "da726d6e509724da9fdf9031": {
+    "name": "临工重机",
+    "registeredName": "临工重机股份有限公司",
+    "aliases": [
+      "临工集团济南重机有限公司"
+    ],
+    "sources": [
+      "https://www.hkexnews.hk/app/sehk/2026/108556/documents/sehk26052001552_c.pdf",
+      "https://qccdata.qichacha.com/ReportData/PDF/cc667953402f57336e751318ab47263a.pdf"
+    ]
+  },
+  "8f94772def9c9e076453c7a7": {
+    "name": "马钢交材",
+    "registeredName": "宝武集团马钢轨交材料科技股份有限公司",
+    "aliases": [
+      "宝武集团马钢轨交材料科技有限公司"
+    ],
+    "sources": [
+      "https://www.bsteel.com.cn/newexchange/busInfo/showLicense?dm=065677",
+      "https://static.cninfo.com.cn/finalpage/2024-03-29/1219453399.PDF"
+    ]
+  },
+  "92c7d16ffecf012186e8f562": {
+    "name": "斑马智行",
+    "registeredName": "斑马智能信息技术股份有限公司",
+    "aliases": [
+      "斑马网络",
+      "斑马网络技术有限公司",
+      "斑马网络技术股份有限公司"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/app/sehk/2026/108316/a130966/sehk26031800054_c.pdf",
+      "https://www.alios.cn/about"
+    ]
+  },
+  "7271866d7f43a7ecedddd3bb": {
+    "name": "闪科光联",
+    "registeredName": "上海闪科光联科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.chinaventure.com.cn/news/114-20261126-394199.html"
+    ]
+  },
+  "09160f7ac68b3d23ba028adf": {
+    "name": "中科离子",
+    "registeredName": "合肥中科离子医学技术装备有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.cls.cn/detail/2495640",
+      "https://ah.people.com.cn/n2/2026/1009/c374164-41717222.html"
+    ]
+  },
+  "3048659f688f7941f102c5c6": {
+    "name": "芯材电路",
+    "registeredName": "淄博芯材集成电路有限责任公司",
+    "aliases": [
+      "淄博芯材"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-10-27/1225626387.PDF",
+      "https://vc.pedaily.cn/invest/f2747-b2842-y2026-c1191-s315"
+    ]
   }
 }

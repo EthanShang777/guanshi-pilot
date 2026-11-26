@@ -61,11 +61,12 @@ def match_status(incoming, existing, reviewed_ids, distinct_events=frozenset()):
     shared_source = bool(set(json.loads(incoming['sources_json'])) &
                          set(json.loads(existing['sources_json'] or '[]')))
     shared_investor = bool(investor_names(incoming) & investor_names(existing))
-    # The reviewed pair can have the same issuer and different funding rounds.
-    if distinct_events and relation in ('same', 'conflict') and not shared_source and not shared_investor:
-        if (event_identity(incoming), event_identity(existing)) in distinct_events:
-            return 'different'
-    if stage != old_stage and SPECIFIC_ROUND.fullmatch(stage) and SPECIFIC_ROUND.fullmatch(old_stage):
+    different_rounds = stage != old_stage and SPECIFIC_ROUND.fullmatch(stage) and SPECIFIC_ROUND.fullmatch(old_stage)
+    reviewed_pair = (event_identity(incoming), event_identity(existing)) in distinct_events
+    if reviewed_pair and relation in ('same', 'conflict') and (
+            different_rounds or not (shared_source or shared_investor)):
+        return 'different'
+    if different_rounds:
         # A reviewed batch can explicitly establish that a report contains multiple rounds.
         if relation == 'same' and shared_source and existing['event_id'] in reviewed_ids:
             return 'different'
@@ -227,6 +228,8 @@ def sync_amount_corrections(db, corrections):
 
 
 def sync_round_corrections(db, corrections):
+    dated = [correction for correction in corrections if 'date' in correction['corrected']]
+    corrections = [correction for correction in corrections if 'date' not in correction['corrected']]
     applied = already_applied = held = 0
     identity_guard = 'event_id=? AND company_id=? AND date_key=?'
     state_guard = 'round=? AND amount=? AND investors_json=?'
@@ -254,23 +257,36 @@ def sync_round_corrections(db, corrections):
             held += 1
             print('Reviewed round correction held:', correction['event_id'])
     print(f'D1 round corrections applied={applied} already_applied={already_applied} held={held}')
+    if dated:
+        updated, unchanged, deferred = sync_reviewed_metadata(
+            db, dated, ('round', 'amount', 'investors_json') + REVIEWED_DATE_FIELDS,
+            ('event_id', 'company_id'), 'transaction')
+        applied += updated
+        already_applied += unchanged
+        held += deferred
     return applied, already_applied, held
 
 
 REVIEWED_DATE_FIELDS = ('date', 'date_key', 'date_kind')
 
 
-def sync_reviewed_metadata(db, corrections, fields, identity_fields, label):
+def sync_reviewed_metadata(db, corrections, fields, identity_fields, label, optional_fields=()):
     applied = already_applied = held = 0
     identity_guard = ' AND '.join(f'{field}=?' for field in identity_fields)
-    fields_guard = ' AND '.join(f'{field}=?' for field in fields)
-    assignments = ', '.join(f'{field}=?' for field in fields)
     source_guard = 'EXISTS (SELECT 1 FROM json_each(sources_json) WHERE value=?)'
     for correction in corrections:
+        active_fields = fields + tuple(field for field in optional_fields if field in correction['corrected'])
+        fields_guard = ' AND '.join(f'{field}=?' for field in active_fields)
+        assignments = ', '.join(f'{field}=?' for field in active_fields)
         identity = [correction[field] for field in identity_fields]
         source = correction['source']
-        expected = [correction['expected'][field] for field in fields]
-        corrected = [correction['corrected'][field] for field in fields]
+        additional_sources = correction.get('additional_sources', [])
+        if not isinstance(additional_sources, list) or any(
+                not isinstance(url, str) or urlsplit(url).scheme not in {'https', 'http'}
+                or not urlsplit(url).hostname for url in additional_sources):
+            raise ValueError('Expected public additional sources')
+        expected = [correction['expected'][field] for field in active_fields]
+        corrected = [correction['corrected'][field] for field in active_fields]
         day, key, kind = (correction['corrected'][field] for field in REVIEWED_DATE_FIELDS)
         normalized = date.fromisoformat(day + '-01' if len(day) == 7 else day).isoformat()
         url = urlsplit(source)
@@ -290,6 +306,9 @@ def sync_reviewed_metadata(db, corrections, fields, identity_fields, label):
         else:
             held += 1
             print(f'Reviewed {label} correction held:', correction['event_id'])
+            continue
+        if additional_sources:
+            append_sources(db, correction['event_id'], packed(list(dict.fromkeys(additional_sources))))
     print(f'D1 {label} corrections applied={applied} already_applied={already_applied} held={held}')
     return applied, already_applied, held
 
@@ -310,7 +329,8 @@ def sync_company_corrections(db, corrections):
                     not item['name'].strip() for item in investors)):
             raise ValueError('Expected a verified company identity and list of investors')
     return sync_reviewed_metadata(db, corrections, company_fields + REVIEWED_DATE_FIELDS + ('investors_json',),
-                                  ('event_id', 'round'), 'company')
+                                  ('event_id', 'round'), 'company',
+                                  ('primary_sector', 'secondary_sector', 'sector', 'sector_source'))
 
 
 def load_distinct_events(directory):
