@@ -3011,5 +3011,41 @@
       "amount": "近亿元",
       "investors_json": "[{\"name\":\"中信建投资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"启明创投\",\"role\":\"跟投\",\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:6ec80feca1559a29896c5367170926ceffa6e39e701a5837fb6be937d0911a02",
+    "company_id": "co:full_legal_name:219fa14a365678eaeedd9903d3b26b09",
+    "day": "2025-10-21",
+    "final_company_id": "co:full_legal_name:219fa14a365678eaeedd9903d3b26b09",
+    "final_day": "2025-10-20",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-10-20/1224719931.PDF",
+    "expected": {
+      "round": "天使轮",
+      "amount": "1500万人民币",
+      "investors_json": "[{\"name\":\"阳光诺和\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"阳光诺和\",\"role\":null,\"amount\":\"1500万元\"},{\"name\":\"欧阳建平\",\"role\":null,\"amount\":null},{\"name\":\"张庆勋\",\"role\":null,\"amount\":null},{\"name\":\"海南方富恒洋创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"方富创投\",\"role\":null,\"amount\":null},{\"name\":\"杭州艾诺源科技合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:826f7b529514ac5a2903352996538767738d9d6d06684a03cdbab5ac52bfe9ad",
+    "company_id": "co:full_legal_name:01ff8323bb05cd3a3f0fb342db5ad3f5",
+    "day": "2026-10-28",
+    "final_company_id": "co:full_legal_name:41355279b63a8cfe0eefeae8579ee6f0",
+    "final_day": "2026-10-28",
+    "source": "https://www.neuroxess.com/news/naohukejiwancheng7yiyuanblunrongziguotoujulishenchuangtouyuqinzhizibenlingtou/",
+    "expected": {
+      "round": "B轮",
+      "amount": "7亿元人民币",
+      "investors_json": "[{\"name\":\"勤智资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国投聚力\",\"role\":\"领投\",\"amount\":null},{\"name\":\"深创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"IDG资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中芯聚源\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"众为资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华福证券\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华赛智汇\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"基石资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"曦晨资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"江西金控\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"钧犀资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"黄浦投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"IDG资本（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"上海黄浦投资\",\"role\":null,\"amount\":null},{\"name\":\"中平资本\",\"role\":null,\"amount\":null},{\"name\":\"中平资本（持续支持，出资状态未单列）\",\"role\":null,\"amount\":null},{\"name\":\"中芯聚源（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"众为资本（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"共青城行远创投\",\"role\":null,\"amount\":null},{\"name\":\"勤智资本（联合领投）\",\"role\":null,\"amount\":null},{\"name\":\"华福成长投资\",\"role\":null,\"amount\":null},{\"name\":\"华福证券（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"华赛智汇（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"国投聚力（联合领投）\",\"role\":null,\"amount\":null},{\"name\":\"基石资本（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"曦晨资本（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"汇盈私募基金\",\"role\":null,\"amount\":null},{\"name\":\"江西金控（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"江西金控资本\",\"role\":null,\"amount\":null},{\"name\":\"深创投（联合领投）\",\"role\":null,\"amount\":null},{\"name\":\"物美联合资本\",\"role\":null,\"amount\":null},{\"name\":\"盛大（持续支持，出资状态未单列）\",\"role\":null,\"amount\":null},{\"name\":\"盛大集团\",\"role\":null,\"amount\":null},{\"name\":\"赛领资本\",\"role\":null,\"amount\":null},{\"name\":\"钧犀资本（跟投）\",\"role\":null,\"amount\":null},{\"name\":\"黄浦投资（跟投）\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "7亿元人民币",
+      "investors_json": "[{\"name\":\"勤智资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国投聚力\",\"role\":\"领投\",\"amount\":null},{\"name\":\"深创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"IDG资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中芯聚源\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"众为资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华福证券\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华赛智汇\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"基石资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"曦晨资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"江西金控\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"钧犀资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"黄浦投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中平资本\",\"role\":null,\"amount\":null},{\"name\":\"共青城行远创投\",\"role\":null,\"amount\":null},{\"name\":\"华福成长投资\",\"role\":null,\"amount\":null},{\"name\":\"汇盈私募基金\",\"role\":null,\"amount\":null},{\"name\":\"物美联合资本\",\"role\":null,\"amount\":null},{\"name\":\"盛大集团\",\"role\":null,\"amount\":null},{\"name\":\"赛领资本\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]

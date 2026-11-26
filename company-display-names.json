@@ -569,5 +569,74 @@
       "https://www.futuremind.com.cn/index/goods/product.html",
       "https://static.cninfo.com.cn/finalpage/2022-03-03/1212501497.PDF"
     ]
+  },
+  "132f10006d75039d400c2291": {
+    "name": "禾赛科技",
+    "registeredName": "Hesai Group",
+    "aliases": [
+      "禾賽科技",
+      "上海禾赛光电科技有限公司",
+      "上海禾赛科技股份有限公司",
+      "上海禾赛科技有限公司",
+      "Hesai Technology",
+      "NASDAQ:HSAI",
+      "HK:02525"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0908/2025090800017.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202101/000840_20210107_U9OS.pdf"
+    ]
+  },
+  "e1c3ae6706771b4a599f3ae5": {
+    "name": "元相科技",
+    "registeredName": "元相科技（深圳）有限公司",
+    "aliases": [
+      "深圳元相科技"
+    ],
+    "sources": [
+      "https://eu.36kr.com/zh/p/3516133630303365",
+      "https://vc.pedaily.cn/company/888510.html"
+    ]
+  },
+  "4d675c43dc2b694a45e60cee": {
+    "name": "星灵动力",
+    "registeredName": "嘉兴星灵动力科技有限公司",
+    "aliases": [
+      "嘉兴星灵动力"
+    ],
+    "sources": [
+      "https://k.sina.cn/article_5953189932_162d6782c06704pyr6.html?from=tech",
+      "https://www.innohere.com/ir/162418/finance.html"
+    ]
+  },
+  "b63ffb7a0d9e64cfa860672d": {
+    "name": "蜗小圈",
+    "registeredName": "上海汀茵网络科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://www.donews.com/news/detail/4/6194305.html",
+      "https://vc.pedaily.cn/company/844689.html"
+    ]
+  },
+  "4d006d03cc0163f658e263bc": {
+    "name": "元码智药",
+    "registeredName": "上海元码智药生物技术有限公司",
+    "aliases": [
+      "Byterna"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-10-20/1224719931.PDF"
+    ]
+  },
+  "e1f148a14f0886d34bb9a5fe": {
+    "name": "脑虎科技",
+    "registeredName": "上海脑虎科技有限公司",
+    "aliases": [
+      "NeuroXess"
+    ],
+    "sources": [
+      "https://www.neuroxess.com/news/naohukejiwancheng7yiyuanblunrongziguotoujulishenchuangtouyuqinzhizibenlingtou/",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202606/002198_20260611_0RN0.pdf"
+    ]
   }
 }
