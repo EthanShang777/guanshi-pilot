@@ -853,5 +853,89 @@
     },
     "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
     "reason": "同一轮分别于3月和9月交割"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c645c14ee07781f30407a3",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8c6da2795b4d11cb587487",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:db20089e774a70ed1cddef",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8c6da2795b4d11cb587487",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:db20089e774a70ed1cddef",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c645c14ee07781f30407a3",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:454dca7d8e6966f0eed09b",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:40901c67cc86c8c6ec0257",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:454dca7d8e6966f0eed09b",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:061b6c0ac25809d5859812",
+      "company_id": "co:full_legal_name:f85b4904aabb017b1e169b7b4c5a8ed6"
+    },
+    "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:90a5bd9103b95322ed54e7",
+      "company_id": "co:full_legal_name:0d99251e7d45f90e9e297dacd8aed8c8"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:9f6eb38b0f0b9161aa1164",
+      "company_id": "co:full_legal_name:0d99251e7d45f90e9e297dacd8aed8c8"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1389e5a8065d90e9613674",
+      "company_id": "co:full_legal_name:0d99251e7d45f90e9e297dacd8aed8c8"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7f6f3e764857269a0cd31e",
+      "company_id": "co:full_legal_name:0d99251e7d45f90e9e297dacd8aed8c8"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf",
+    "reason": "招股书逐笔披露不同的增资与转让协议或转让双方"
   }
 ]

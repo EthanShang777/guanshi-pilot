@@ -7036,5 +7036,432 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "40ab5bf27a595fdad3fbfb35",
+    "fundName": "福建省金投金顺股权投资基金合伙企业（有限合伙）",
+    "managerName": "福建省金投私募基金管理有限公司",
+    "managerId": "7053f94a12ef2bbe3616cbca",
+    "sizeCny": 2000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+      "date": "2025-06-30",
+      "dateKind": "发行人报告期末",
+      "issuer": "福建金投募集说明书",
+      "pages": "第62–63页",
+      "lpSources": [
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_5E1S.pdf",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_L52T.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/688478_20260227_GLW8.pdf"
+      ],
+      "lpScope": "认缴20亿元。福建金投99%、金投私募GP 1%。截至2025年6月底对外出资3.02亿元，含基金份额投资。",
+      "generalPartners": [
+        {
+          "name": "福建省金投私募基金管理有限公司",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "creditCode": "91350102MAC5PN3YXK",
+      "filingDate": "2023-01-20",
+      "deployedAcrossInvestmentsCny": 302000000,
+      "portfolioDisclosures": [
+        {
+          "fund": "深圳君联深运私募股权投资基金合伙企业（有限合伙）",
+          "fundId": "06cb332e2a33f48dd67da56a",
+          "source": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_5E1S.pdf",
+          "asOf": "2024-05-31",
+          "scope": "债券主承销商核查的历史已投基金"
+        },
+        {
+          "fund": "杭州达晨创程股权投资基金合伙企业（有限合伙）",
+          "fundId": "c5965875cb383f00e7dbd0d6",
+          "source": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_5E1S.pdf",
+          "asOf": "2024-05-31",
+          "scope": "债券主承销商核查的历史已投基金"
+        },
+        {
+          "fund": "福建专精三号创业投资合伙企业（有限合伙）",
+          "fundId": "d3687df715fa18433f995224",
+          "source": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_5E1S.pdf",
+          "asOf": "2024-05-31",
+          "scope": "债券主承销商核查的历史已投基金"
+        },
+        {
+          "fund": "国投（广东）科技成果转化创业投资基金合伙企业（有限合伙）",
+          "fundId": "f4376b67727fb0709c0485ed",
+          "source": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_5E1S.pdf",
+          "asOf": "2024-05-31",
+          "scope": "债券主承销商核查的历史已投基金"
+        },
+        {
+          "fund": "厦门隐山股权投资合伙企业（有限合伙）",
+          "fundId": "1a62ec9a746aca04a4683ba1",
+          "source": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_5E1S.pdf",
+          "asOf": "2024-05-31",
+          "scope": "债券主承销商核查的历史已投基金"
+        },
+        {
+          "fund": "福岩高新（龙岩）私募创业投资合伙企业（有限合伙）",
+          "fundId": "ba45f8c706de49741eb16433",
+          "source": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_5E1S.pdf",
+          "asOf": "2024-05-31",
+          "scope": "债券主承销商核查的历史已投基金"
+        },
+        {
+          "fund": "杭州达晨创程股权投资基金合伙企业（有限合伙）",
+          "fundId": "c5965875cb383f00e7dbd0d6",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+          "asOf": "2025-06-30",
+          "scope": "发行人披露时点的在投基金"
+        },
+        {
+          "fund": "深圳市红土一号私募股权投资基金合伙企业（有限合伙）",
+          "fundId": "bc8f5f5e1bfd9ad69991476c",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+          "asOf": "2025-06-30",
+          "scope": "发行人披露时点的在投基金"
+        },
+        {
+          "fund": "国投（广东）科技成果转化创业投资基金合伙企业（有限合伙）",
+          "fundId": "f4376b67727fb0709c0485ed",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+          "asOf": "2025-06-30",
+          "scope": "发行人披露时点的在投基金"
+        },
+        {
+          "fund": "厦门隐山股权投资合伙企业（有限合伙）",
+          "fundId": "1a62ec9a746aca04a4683ba1",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+          "asOf": "2025-06-30",
+          "scope": "发行人披露时点的在投基金"
+        },
+        {
+          "fund": "北京小米智造股权投资基金合伙企业（有限合伙）",
+          "fundId": "17e9fa2fcf5600265e766123",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/688478_20260227_GLW8.pdf",
+          "asOf": "2026-01",
+          "scope": "原认缴份额1亿元，2026年1月受让方为福建金投金鹏，转让对价未披露"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "福建省金融投资有限责任公司",
+        "disclosedContributionCny": 1980000000,
+        "disclosedPercent": 99.0,
+        "existingInstitution": "ea164f9bb5fda9d608bd89fd"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "0cdef1f89f87f006a7555ed6",
+    "fundName": "无锡产发科创基金合伙企业（有限合伙）",
+    "managerName": "江阴新国联创业投资有限公司",
+    "managerId": "c73aa155f206f27bf1f6053a",
+    "sizeCny": 2301000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+      "date": "2025-06-30",
+      "dateKind": "发行人报告期末",
+      "issuer": "盛合晶微招股意向书",
+      "pages": "第四节，持有发行人5%以上股份的股东",
+      "lpSources": [],
+      "lpScope": "注册资本23.01亿元，1位LP和1位GP。盛合晶微定向融资认购票面金额另按同一原件验算。",
+      "generalPartners": [
+        {
+          "name": "江阴新国联创业投资有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "incorporatedOn": "2024-11-23"
+    },
+    "partners": [
+      {
+        "name": "无锡产业发展集团有限公司",
+        "disclosedContributionCny": 2300000000,
+        "disclosedPercent": 99.96,
+        "existingInstitution": "bdf5323750978d84c09d1616"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f737a893ff9778a8be3c5f94",
+    "fundName": "上海新芯产业私募投资基金合伙企业（有限合伙）",
+    "managerName": "上海临港新片区私募基金管理有限公司",
+    "managerId": "6f6a91764e45f8f8f4d9db83",
+    "sizeCny": 5010000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+      "date": "2025-06-30",
+      "dateKind": "发行人报告期末",
+      "issuer": "盛合晶微招股意向书",
+      "pages": "第四节，上海新芯",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2021-11-12/1211570362.PDF"
+      ],
+      "lpScope": "报告期末注册资本50.10亿元，临港投控为99.80% LP，临港新片区私募基金管理为0.20% GP。2021年中芯国际文件的初始合伙结构留作历史快照。",
+      "generalPartners": [
+        {
+          "name": "上海临港新片区私募基金管理有限公司",
+          "disclosedPercent": 0.2
+        }
+      ],
+      "incorporatedOn": "2021-10-15",
+      "historicalPartnership": [
+        {
+          "asOf": "2021-11-12",
+          "source": "https://static.cninfo.com.cn/finalpage/2021-11-12/1211570362.PDF",
+          "lp": "上海临港新城投资建设有限公司",
+          "lpPercent": 99.5,
+          "gp": "上海临港新片区私募基金管理有限公司",
+          "gpPercent": 0.5
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "上海临港新片区投资控股（集团）有限公司",
+        "disclosedPercent": 99.8,
+        "disclosedContributionCny": null,
+        "existingInstitution": "48073afc00d8422642667e5a"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f4376b67727fb0709c0485ed",
+    "fundName": "国投（广东）科技成果转化创业投资基金合伙企业（有限合伙）",
+    "managerName": "国投创业",
+    "managerId": "b5fdb31ac9a26c03e3173dcd",
+    "sizeCny": 15000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_2915005F2891162DA44B71847869A6C4CB6C94.pdf",
+      "date": "2026-04-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "粤芯半导体及同期创业板招股书",
+      "pages": "粤芯1-1-66至67页，超纯股份1-1-51至52页",
+      "lpSources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+        "https://sdicvc.com/gtcytz/xwzx/gsdt/webinfo/2023/04/1683439845887757.htm"
+      ],
+      "lpScope": "认缴及实缴各150亿元，1位GP、15位具名LP。金投金顺历史对外出资披露独立保留，后续文件的直接LP名单未列金顺。",
+      "generalPartners": [
+        {
+          "name": "国投（广东）创业投资管理有限公司",
+          "disclosedContributionCny": 75000000
+        }
+      ],
+      "creditCode": "91440101MA9W26UP51",
+      "filingCode": "SQH950",
+      "managerLegalName": "国投（广东）创业投资管理有限公司",
+      "paidContributionCny": 15000000000,
+      "paidContributionSource": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf"
+    },
+    "partners": [
+      {
+        "name": "国家开发投资集团有限公司",
+        "disclosedContributionCny": 3100000000,
+        "disclosedPercent": 20.67,
+        "existingInstitution": "f8d0214772925a353519ee37"
+      },
+      {
+        "name": "科学技术部新质生产力促进中心",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "223c3cd6dc7df86185e4e586"
+      },
+      {
+        "name": "中国人寿保险股份有限公司",
+        "disclosedContributionCny": 1600000000,
+        "disclosedPercent": 10.67,
+        "existingInstitution": "2c00f0a98064fa934959afa3"
+      },
+      {
+        "name": "上海旷兴企业管理中心（有限合伙）",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": 10.0,
+        "existingInstitution": "8820617804069eb3e16948e3"
+      },
+      {
+        "name": "广州凯得投资控股有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 6.67,
+        "existingInstitution": "f5871cb7312832cc43b84ac5"
+      },
+      {
+        "name": "成都市重大产业化项目一期股权投资基金有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 6.67,
+        "existingInstitution": "ba16cfca29b2ea939a44a7f4"
+      },
+      {
+        "name": "广东省粤科金融集团有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 6.67,
+        "existingInstitution": "0f9a6653564fb4f217e90cd2"
+      },
+      {
+        "name": "广州科技成果产业化引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 4.0,
+        "existingInstitution": "87973252b1fda908d5d10157"
+      },
+      {
+        "name": "中投保信裕资产管理（北京）有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 3.33,
+        "existingInstitution": "9af8135766ad4e4309fdda4f"
+      },
+      {
+        "name": "长江创业投资基金有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 3.33,
+        "existingInstitution": "85537a2923fc78657a2a3bec"
+      },
+      {
+        "name": "广东省粤科创业投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 3.33,
+        "existingInstitution": "e199c059f5223cb3a1acc3ea"
+      },
+      {
+        "name": "广州国创股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 230000000,
+        "disclosedPercent": 1.53,
+        "existingInstitution": "ef90abc8ed2b7e9c28e7ee63"
+      },
+      {
+        "name": "佛山市创新创业产业引导基金投资有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 1.33,
+        "existingInstitution": "1fed0bd67e0c73689a455285"
+      },
+      {
+        "name": "广州金融控股集团有限公司",
+        "disclosedContributionCny": 170000000,
+        "disclosedPercent": 1.13,
+        "existingInstitution": "b482e5c7c2a3a19d71a68e0e"
+      },
+      {
+        "name": "舟山瀚业企业管理咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": 0.17,
+        "existingInstitution": "05c6606130424c4e7554fe01"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "ba45f8c706de49741eb16433",
+    "fundName": "福岩高新（龙岩）私募创业投资合伙企业（有限合伙）",
+    "managerName": "华福资本管理有限公司",
+    "managerId": "857a6319b843557a2eba9494",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 3,
+    "source": {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+      "date": "2026-06-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "易控智驾港股招股章程和福建金投债券法律意见书",
+      "pages": "易控第110页，法律意见书第30–31页",
+      "lpSources": [
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_L52T.pdf",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_5E1S.pdf"
+      ],
+      "lpScope": "认缴规模1亿元；华福资本为唯一GP（40%）；招股书确认龙岩市战新（30%）及其余3位未具名LP。",
+      "generalPartners": [
+        {
+          "name": "华福资本管理有限公司",
+          "disclosedPercent": 40.0
+        }
+      ],
+      "filingDate": "2024-04-17",
+      "incorporatedOn": "2023-12-27"
+    },
+    "partners": [
+      {
+        "name": "龙岩市战新股权投资合伙企业（有限合伙）",
+        "existingInstitution": "5d8ac43fa5da121b94d95d59",
+        "disclosedPercent": 30.0,
+        "disclosedContributionCny": null
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "4766cfc5f954cc8f6e1aa995",
+    "fundName": "上杭辰韬兴杭创业投资合伙企业（有限合伙）",
+    "managerName": "辰韬资本",
+    "managerId": "98dd1addc2daa76e93ca8338",
+    "sizeCny": 210000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+      "date": "2026-06-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "易控智驾港股招股章程及鹰峰电子招股说明书",
+      "pages": "易控第103–104页；鹰峰第70–71页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF"
+      ],
+      "lpScope": "鹰峰披露认缴2.1亿元和逐家出资额。易控正式招股书列出现时三位LP及两位GP，保留两期第三位LP的具名记录及比例。",
+      "generalPartners": [
+        {
+          "name": "上杭县兴杭创业投资有限公司",
+          "disclosedContributionCny": 30000000,
+          "disclosedPercent": 14.2857
+        },
+        {
+          "name": "上海辰韬资产管理有限公司",
+          "disclosedContributionCny": 2000000,
+          "disclosedPercent": 0.9524
+        }
+      ],
+      "creditCode": "91350823MA8UH66L8Q",
+      "managerLegalName": "上海辰韬资产管理有限公司",
+      "historicalPartnership": [
+        {
+          "asOf": "2023-09-20",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-09-20/1217904951.PDF",
+          "lp": "平潭聚兴创业投资合伙企业（有限合伙）",
+          "amountCny": 8000000,
+          "percent": 3.81
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "刘冬梅",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 47.619,
+        "existingInstitution": "945d0e1ccc1b277caffe66f0"
+      },
+      {
+        "name": "闽西兴杭国有资产投资经营有限公司",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 33.3333,
+        "existingInstitution": "1b6c8b13e6fa0f57ccbc5d4a"
+      },
+      {
+        "name": "宁波炬兴创业投资合伙企业（有限合伙）",
+        "existingInstitution": "6fd7fb538b12cd52ae0025b8",
+        "disclosedPercent": 3.8095,
+        "disclosedContributionCny": null
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

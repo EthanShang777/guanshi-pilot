@@ -3707,5 +3707,82 @@
       "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
       "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260420_10815741.shtml"
     ]
+  },
+  "54c15d2dbaf9d85c21712946": {
+    "name": "长电汽车电子",
+    "registeredName": "长电科技汽车电子（上海）有限公司",
+    "aliases": [
+      "长电科技汽车电子",
+      "JSAC"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-04-19/1219664953.PDF"
+    ]
+  },
+  "97ae16b63b46e2aac2b42891": {
+    "name": "海临微",
+    "registeredName": "上海海临微集成电路有限公司",
+    "aliases": [
+      "上海海临微"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-11-12/1211570362.PDF"
+    ]
+  },
+  "972b60cd5d2c290fcebc53d4": {
+    "name": "中芯东方",
+    "registeredName": "中芯东方集成电路制造有限公司",
+    "aliases": [
+      "中芯临港",
+      "中芯东方集成电路"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-11-12/1211570362.PDF"
+    ]
+  },
+  "c447fde438251677b0d3416e": {
+    "name": "欧莱新材",
+    "registeredName": "广东欧莱高新材料股份有限公司",
+    "aliases": [
+      "欧莱高新材料",
+      "韶关市欧莱高新材料有限公司"
+    ],
+    "sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10184375"
+    ]
+  },
+  "a25b572e40d495129415591a": {
+    "name": "世炬网络",
+    "registeredName": "广东世炬网络科技股份有限公司",
+    "aliases": [
+      "广州世炬网络科技有限公司",
+      "Skynetworks"
+    ],
+    "sources": [
+      "https://www.sdicvc.com/gtcytz/xwzx/gsdt/webinfo/2021/05/1627223700191201.htm"
+    ]
+  },
+  "fdab2cdc67e79efcd62c77c9": {
+    "name": "易控智驾",
+    "registeredName": "易控智驾科技股份有限公司",
+    "aliases": [
+      "EACON",
+      "EACON Group Co., Ltd"
+    ],
+    "sources": [
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0629/2026062900136_c.pdf",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0707/2026070702043.pdf"
+    ]
+  },
+  "2f223c368cbecc2d8cb4166a": {
+    "name": "超纯股份",
+    "registeredName": "成都超纯应用材料股份有限公司",
+    "aliases": [
+      "成都超纯",
+      "成都超纯应用材料有限责任公司"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_2315002BDCB36E5CE741A1AA8B358A6B820A00.pdf"
+    ]
   }
 }
