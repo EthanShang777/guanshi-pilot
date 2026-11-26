@@ -12470,5 +12470,163 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "26bc58676058d01c5216db5d",
+    "fundName": "国创投资引导基金（有限合伙）",
+    "managerName": "国创基金管理有限公司",
+    "managerId": "75f186a615a58d6ca553ea6f",
+    "sizeCny": 25650000000,
+    "capitalBasis": "登记注册资本",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888014.PDF",
+      "date": "2025-12-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "航天长征化学工程股份有限公司简式权益变动报告书",
+      "pages": "第5页",
+      "lpSources": [],
+      "lpScope": "报告所列的7名LP和1名GP。比例为披露值，未用四舍五入后的比例反推金额。",
+      "generalPartners": [
+        {
+          "name": "国创基金管理有限公司",
+          "disclosedPercent": 0.7
+        }
+      ],
+      "managerLegalName": "国创基金管理有限公司",
+      "creditCode": "91110000MA00GG3U24"
+    },
+    "partners": [
+      {
+        "name": "航天投资控股有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 11.7,
+        "existingInstitution": "29f269aae7ca3b0c875911d3"
+      },
+      {
+        "name": "中信信托有限责任公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 35.09,
+        "existingInstitution": "d83b959927d473e02e0c7a4f"
+      },
+      {
+        "name": "渤海汇金证券资产管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 35.09,
+        "existingInstitution": "d998e7ecfe84123776c6e66b"
+      },
+      {
+        "name": "工银瑞信投资管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 15.2,
+        "existingInstitution": "8974ffd8f0ae7bd57482257f"
+      },
+      {
+        "name": "北京顺义科技创新集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 1.17,
+        "existingInstitution": "b36113da9549ac22e8355e80"
+      },
+      {
+        "name": "国新国同（浙江）投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 0.35,
+        "existingInstitution": "b497d673380bba685acb5de1"
+      },
+      {
+        "name": "中车资本管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 0.7,
+        "existingInstitution": "bd0fb22a11d0df7f262014d6"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "6ce5c3ff9d5ae5873e477e51",
+    "fundName": "北京国创新能源汽车股权投资基金合伙企业（有限合伙）",
+    "managerName": "国创（北京）新能源汽车投资基金管理有限公司",
+    "managerId": "d4871bdd64ed6cabe3ed6bf9",
+    "sizeCny": 5230000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-12-20/1224888014.PDF",
+      "date": "2025-12-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "航天长征化学工程股份有限公司简式权益变动报告书",
+      "pages": "第5—6页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-09-27/1224686151.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-01-27/1224950281.PDF"
+      ],
+      "lpScope": "报告所列4名LP及1名GP。两份文件的东风、一汽两名直接合伙人全称不同，各自保留披露日期；本视图用12月报告主体和比例。",
+      "generalPartners": [
+        {
+          "name": "国创（北京）新能源汽车投资基金管理有限公司",
+          "disclosedPercent": 1.52,
+          "disclosedContributionCny": 80000000
+        }
+      ],
+      "managerLegalName": "国创（北京）新能源汽车投资基金管理有限公司",
+      "creditCode": "91110102MA01PPF835",
+      "historicalLpDisclosures": [
+        {
+          "date": "2025-09-27",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-09-27/1224686151.PDF",
+          "amountBasis": "认缴出资",
+          "partners": [
+            {
+              "name": "国创投资引导基金（有限合伙）",
+              "contributionCny": 5000000000
+            },
+            {
+              "name": "北京华舆国创股权投资基金合伙企业（有限合伙）",
+              "contributionCny": 50000000
+            },
+            {
+              "name": "东风汽车集团有限公司",
+              "contributionCny": 50000000
+            },
+            {
+              "name": "一汽资本控股有限公司",
+              "contributionCny": 50000000
+            },
+            {
+              "name": "国创（北京）新能源汽车投资基金管理有限公司",
+              "contributionCny": 80000000
+            }
+          ]
+        }
+      ],
+      "amountScope": "两份披露中同一主体的认缴金额沿用较早明确金额；一汽、东风12月直接主体仅保存报告披露比例。"
+    },
+    "partners": [
+      {
+        "name": "国创投资引导基金（有限合伙）",
+        "disclosedContributionCny": 5000000000,
+        "disclosedPercent": 95.6,
+        "existingInstitution": "26bc58676058d01c5216db5d"
+      },
+      {
+        "name": "北京华舆国创股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 0.96,
+        "existingInstitution": "3ef9a6fc4f7fa2157f8077bd"
+      },
+      {
+        "name": "一汽股权投资（天津）有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 0.96,
+        "existingInstitution": "dc1af96cb5292383276efce5"
+      },
+      {
+        "name": "东风资产管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 0.96,
+        "existingInstitution": "0e305513319cffd1f8b2de63"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

@@ -1597,5 +1597,173 @@
     },
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202611/002234_20261110_Q4GI.pdf",
     "reason": "招股书明确同月现金增资与原股东出售股份为分别办理的交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:06a58c1ea2b6042f60b0d1",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:06a58c1ea2b6042f60b0d1",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e1a57923f19c9d18c9d324",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e1a57923f19c9d18c9d324",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:99deb50ac962bd2eaecb6f",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:01f78831799b0e9ee2cf53",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:7f6050f7a934219a26aabd",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:7f6050f7a934219a26aabd",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:01f78831799b0e9ee2cf53",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:06a58c1ea2b6042f60b0d1",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:06a58c1ea2b6042f60b0d1",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e1a57923f19c9d18c9d324",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e1a57923f19c9d18c9d324",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6daac885bd5ace6a47a38a",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:95411e166e34c791a9b291",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:32d5e6c8a4f3df8c4e3a9b",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:32d5e6c8a4f3df8c4e3a9b",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:95411e166e34c791a9b291",
+      "company_id": "co:full_legal_name:2c296ccf0bc170f11ca69dd01b06de63"
+    },
+    "source": "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf",
+    "reason": "同一招股材料逐行确认不同协议与出资类型，按协议日期及买方保留独立记录。"
   }
 ]

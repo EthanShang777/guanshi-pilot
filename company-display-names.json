@@ -4343,5 +4343,30 @@
     "sources": [
       "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/1f5b91f85e43f30124ec9fa68ad8db65.pdf"
     ]
+  },
+  "9ccd3baac1798f7d997fa619": {
+    "name": "中企云链",
+    "registeredName": "中企云链股份有限公司",
+    "aliases": [
+      "中企云链（北京）金融信息服务有限公司",
+      "中企云链（北京）金融信息服务股份有限公司",
+      "Cloudchain Group"
+    ],
+    "sources": [
+      "https://statichk.iqdii.com/stockdata/notice/newprospectus/sehk25050602787_c.pdf"
+    ]
+  },
+  "b49893c9851f930e40c9b9e4": {
+    "name": "轩田智能",
+    "registeredName": "上海轩田智能科技股份有限公司",
+    "aliases": [
+      "上海轩田工业设备有限公司",
+      "轩田工业",
+      "轩田科技",
+      "上海轩田"
+    ],
+    "sources": [
+      "https://www.pencilnews.cn/p/38548.html"
+    ]
   }
 }
