@@ -3227,5 +3227,39 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2023-12-29/1218773360.PDF"
     ]
+  },
+  "c81a262e9cbb0e055f63c874": {
+    "name": "挚达科技",
+    "registeredName": "上海挚达科技发展股份有限公司",
+    "aliases": [
+      "上海挚达科技发展有限公司",
+      "挚达智能充电",
+      "ZHIDA TECH"
+    ],
+    "sources": [
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0930/2025093000034_c.pdf"
+    ]
+  },
+  "2c255d77a3d3b8cec00f4521": {
+    "name": "优优绿能",
+    "registeredName": "深圳市优优绿能股份有限公司",
+    "aliases": [
+      "深圳市优优绿能电气有限公司",
+      "UUGreenPower"
+    ],
+    "sources": [
+      "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2025/2025-5/2025-05-30/11152780.PDF"
+    ]
+  },
+  "bb652cbce7eca23f3a09354d": {
+    "name": "美科股份",
+    "registeredName": "江苏美科太阳能科技股份有限公司",
+    "aliases": [
+      "美科太阳能",
+      "江苏美科太阳能科技有限公司"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202212/RAS_202212_0001849EA8B78F3FD7F9D84A737D063F.pdf"
+    ]
   }
 }

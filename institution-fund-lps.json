@@ -3031,5 +3031,269 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "980a63e13cc1d7506b3fc988",
+    "fundName": "融和电投一号（嘉兴）创业投资合伙企业（有限合伙）",
+    "managerName": "国家电投集团产业基金管理有限公司",
+    "managerId": "98707165834ce09cf2854ecd",
+    "sizeCny": 575000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2022-03-01/1212471488.PDF",
+      "date": "2022-03-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "哈尔滨九洲集团股份有限公司",
+      "pages": "上市公司关联交易公告，融和一号部分",
+      "lpSources": [
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6327318&stockid=300040",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8057490&stockid=300040",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8719499&stockid=300040",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10028107&stockid=300040"
+      ],
+      "lpScope": "截至2021年末基金实收5.75亿元。2019披露中电投融和新能源中心认缴37759.10万元、九洲认缴19165.90万元、国电投产业基金认缴575万元；中电投融和在后续份额转让与重整后退出，2022公告的合伙结构为九洲60%、国电投产业基金40%。保留历史口径，待查2022后退出清算和剩余资产。",
+      "generalPartners": [
+        {
+          "name": "国家电投集团产业基金管理有限公司",
+          "disclosedContributionCny": 230000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "哈尔滨九洲集团股份有限公司",
+        "disclosedContributionCny": 345000000,
+        "disclosedPercent": "60.00",
+        "existingInstitution": "1279fcaacd2d8b27b272bd0c"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "360e648e2c8391e050e83d67",
+    "fundName": "杭州鋆腾股权投资合伙企业（有限合伙）",
+    "managerName": "珠海通沛股权投资管理合伙企业（有限合伙）",
+    "managerId": "8a419d0100f1f64829520fc2",
+    "sizeCny": 120001000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202212/RAS_202212_0001849EA8B78F3FD7F9D84A737D063F.pdf",
+      "date": "2022-12",
+      "dateKind": "公开文件披露月",
+      "issuer": "江苏美科太阳能科技股份有限公司",
+      "pages": "招股书附录一，鋆腾投资表",
+      "lpSources": [
+        "https://m.shuidi.cn/company-37f0d6842aa0e0464e0146be8e3b7201.html"
+      ],
+      "lpScope": "上会稿披露基金STK216认缴12000.10万元、5名LP，海盐鋆昊认缴4528.20万元。美科股份另核基金实缴单笔115000008.90元。",
+      "generalPartners": [
+        {
+          "name": "珠海通沛股权投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 2271000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "深圳市嘉源启航创业投资企业（有限合伙）",
+        "disclosedContributionCny": 51800000,
+        "disclosedPercent": "43.17",
+        "existingInstitution": "b2ea3d81d414ac474ae5c35f"
+      },
+      {
+        "name": "海盐鋆昊臻选股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 45282000,
+        "disclosedPercent": "37.73",
+        "existingInstitution": "54ba6aba36c1777ec42b68c8"
+      },
+      {
+        "name": "共青城鑫旭投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 15540000,
+        "disclosedPercent": "12.95",
+        "existingInstitution": "5c2d8ea31554eb909856b297"
+      },
+      {
+        "name": "西安陕核柒号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 3108000,
+        "disclosedPercent": "2.59",
+        "existingInstitution": "b85de9f185885bff94ef2880"
+      },
+      {
+        "name": "海南泽昊股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.67",
+        "existingInstitution": "f7c64bf659974d3580af8a11"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "6af80fb46c3c52c5e4e7c1a7",
+    "fundName": "上海正海聚弘创业投资中心（有限合伙）",
+    "managerName": "上海正海资产管理有限公司",
+    "managerId": "4fae7a1212460f08747ce1a0",
+    "sizeCny": 263650000,
+    "capitalBasis": "工商登记出资额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0930/11860829/2025093000159_c.pdf",
+      "date": "2025-09-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "挚达科技申请人律师",
+      "pages": "法律意见书第59至60页合伙人结构",
+      "lpSources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0930/2025093000034_c.pdf",
+        "https://qccdata.qichacha.com/ReportData/PDF/1ed1de5c9e1a7a8c74118c46804a9fe1.pdf"
+      ],
+      "lpScope": "历史登记认缴2.6365亿元及7名LP份额，公开披露的是比例。工商登记期限至2025年8月，之后是否展期待核。",
+      "generalPartners": [
+        {
+          "name": "上海正海资产管理有限公司",
+          "disclosedPercent": "5.1646"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "无锡正海聚兴创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "38.7433",
+        "existingInstitution": "38dad609f5a30324e04f5fda"
+      },
+      {
+        "name": "上海合贯投资中心（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "24.6988",
+        "existingInstitution": "e17bbc2f5de5f499e23197be"
+      },
+      {
+        "name": "上海创业投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "17.0681",
+        "existingInstitution": "1413a5d2766976762e2eec99"
+      },
+      {
+        "name": "上海苕而兴投资管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "4.8429",
+        "existingInstitution": "270604b17059cba475014d28"
+      },
+      {
+        "name": "上海宝山工业园投资管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "3.7929",
+        "existingInstitution": "4a8776621ff46803d6166c72"
+      },
+      {
+        "name": "马文荣",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "3.7929",
+        "existingInstitution": "3453f79fdfd72bdb7a473cdb"
+      },
+      {
+        "name": "陈捷",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "1.8965",
+        "existingInstitution": "1e4d72343a91a02004c78254"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1288c0c2ddae2cc3a52da666",
+    "fundName": "杭州倍达广聚创业投资合伙企业（有限合伙）",
+    "managerName": "杭州贝达投资管理有限公司",
+    "managerId": "38d84151c197b1a80ae23cb1",
+    "sizeCny": 100000000,
+    "capitalBasis": "工商登记出资额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0930/11860829/2025093000159_c.pdf",
+      "date": "2025-09-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "挚达科技申请人律师",
+      "pages": "法律意见书第59至60页合伙人结构",
+      "lpSources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0930/2025093000034_c.pdf"
+      ],
+      "lpScope": "公开法律意见披露1亿元认缴及11家LP的工商出资比例。单家认缴金额和实缴暂未复核。",
+      "generalPartners": [
+        {
+          "name": "杭州贝达投资管理有限公司",
+          "disclosedPercent": "1.13"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "广源建设集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "43.83",
+        "existingInstitution": "f03da445a1e90efaff090214"
+      },
+      {
+        "name": "郭一范",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "9.84",
+        "existingInstitution": "4a025af3c0015a88dfc13361"
+      },
+      {
+        "name": "赵伟法",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "9.39",
+        "existingInstitution": "1506e26363c584de6f5a7e61"
+      },
+      {
+        "name": "徐卫东",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "7.29",
+        "existingInstitution": "8ae0900affc3fbceb8214394"
+      },
+      {
+        "name": "高剑敏",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "7.15",
+        "existingInstitution": "44b282fc0f658f5b1d7562bb"
+      },
+      {
+        "name": "万建刚",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "6.11",
+        "existingInstitution": "09e090fbb69dbde82b12c898"
+      },
+      {
+        "name": "梅娟",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "4.26",
+        "existingInstitution": "4146d8227c0ca0139e661379"
+      },
+      {
+        "name": "叶善傲",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "3.56",
+        "existingInstitution": "404a0e30a0f39b9763ce6585"
+      },
+      {
+        "name": "傅金根",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "3.17",
+        "existingInstitution": "41d4244d021b8c6b4fb91dde"
+      },
+      {
+        "name": "高尔文",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "2.85",
+        "existingInstitution": "4d7eccc1c727277538e15882"
+      },
+      {
+        "name": "陈松跃",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "1.42",
+        "existingInstitution": "a893dff18ff1b56f57cd80c6"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

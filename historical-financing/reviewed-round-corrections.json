@@ -5123,5 +5123,30 @@
       "https://top.qcc.com/tc/abcce5ff4749.html",
       "https://static.cninfo.com.cn/finalpage/2021-01-11/1209081406.PDF"
     ]
+  },
+  {
+    "event_id": "financing_event:8af9a356c4f5076c5163a86f7ddf17640f5df70f8236cf76d8fe784a2d3fe52c",
+    "company_id": "co:full_legal_name:c99e84377b8ac20324fe84e3f620f633",
+    "day": "2020-12-31",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7197474&stockid=835985",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"国家电投\",\"role\":null,\"amount\":null},{\"name\":\"红桥创投\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-31",
+      "date_key": "2020-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海中电投融和新能源投资管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"红桥创投\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-31",
+      "date_key": "2020-12-31",
+      "date_kind": "2020年末持股证据确认上海融和主体，原融资轮次及出资金额有待原始发行协议"
+    },
+    "additional_sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8375515&stockid=920985"
+    ]
   }
 ]
