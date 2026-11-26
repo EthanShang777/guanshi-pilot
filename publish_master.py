@@ -235,6 +235,13 @@ def build(rows, fund_facts=()):
     for sector,items in groups.items():list_pages(filename('sector',sector),sector,'融资事件',items,event_row)
     lp_disclosures = defaultdict(list)
     lp_fund_relations = defaultdict(list)
+    for fund in funds:
+        entity(institutions, 'institution', fund['fundName'], fund['fundName'])
+        entity(institutions, 'institution', fund['managerName'], fund['managerName'])
+        for partner in fund['partners']:
+            name = partner['name']
+            if partner.get('existingInstitution') == token('institution' + name):
+                entity(institutions, 'institution', name, name)
     coverage = register_coverage(funds, institutions)
     for fund in funds:
         fund_id, manager_id = fund['fundId'], fund['managerId']

@@ -1822,5 +1822,55 @@
       "https://static.cninfo.com.cn/finalpage/2026-10-27/1225626387.PDF",
       "https://vc.pedaily.cn/invest/f2747-b2842-y2026-c1191-s315"
     ]
+  },
+  "aaf7b0a63c9730ec08e85c7b": {
+    "name": "广立微",
+    "registeredName": "杭州广立微电子股份有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-07-18/1214060588.PDF"
+    ]
+  },
+  "d07fb21bdfd18b771551c893": {
+    "name": "新恒汇",
+    "registeredName": "新恒汇电子股份有限公司",
+    "aliases": [
+      "山东新恒汇电子科技有限公司",
+      "淄博新恒汇电子科技有限公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-06-17/1223886853.PDF"
+    ]
+  },
+  "1df7410cca10444af0c1067f": {
+    "name": "微导纳米",
+    "registeredName": "江苏微导纳米科技股份有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202203/001129_20220303_CNQE.pdf"
+    ]
+  },
+  "560c74315a3a20ad20142c9a": {
+    "name": "强一股份",
+    "registeredName": "强一半导体（苏州）股份有限公司",
+    "aliases": [
+      "强一半导体"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-12-25/1224897120.PDF"
+    ]
+  },
+  "89a08fdec4a5df9033615b75": {
+    "name": "可灵AI",
+    "registeredName": "北京可灵科技有限公司",
+    "aliases": [
+      "北京可灵",
+      "Kling AI",
+      "北京星丸科技有限公司"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1030/2026103002124_c.pdf",
+      "https://www.chinastarmarket.cn/detail/2368359"
+    ]
   }
 }

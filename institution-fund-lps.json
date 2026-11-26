@@ -529,6 +529,137 @@
         "source": "https://gu.sina.cn/bd/hq/notice.php?annid=17463452",
         "corroboration": "https://gu.sina.cn/bd/hq/notice.php?annid=17475351"
       }
+    ],
+    "reviewedInvestments": [
+      {
+        "eventId": "e21240ff2336da676d3fced1",
+        "amountFen": 10500000000,
+        "basis": "认购金额",
+        "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1123/2022112301137_c.pdf"
+      }
     ]
+  },
+  {
+    "fundId": "0b579e6c14a39082113891e6",
+    "fundName": "合肥冯源仁芯股权投资合伙企业（有限合伙）",
+    "managerId": "5dc77d0832b9d4086fd15e8c",
+    "managerName": "冯源资本",
+    "capitalBasis": "披露认缴",
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-06-07/1217011779.PDF",
+      "issuer": "北京君正关于公司全资子公司对外投资产业基金的公告",
+      "date": "2023-06-07",
+      "dateKind": "协议披露日",
+      "pages": "4–5",
+      "filingSource": "https://static.cninfo.com.cn/finalpage/2023-10-25/1218136822.PDF",
+      "filingCode": "SABN68",
+      "filedOn": "2023-10-23",
+      "managerLegalName": "冯源（宁波）私募基金管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "深圳君正时代集成电路有限公司",
+        "disclosedContributionCny": 97000000,
+        "disclosedPercent": "24.25",
+        "existingInstitution": "9af63c5fa1a90d0b787928a8"
+      },
+      {
+        "name": "杭州广立微电子股份有限公司",
+        "disclosedContributionCny": 48000000,
+        "disclosedPercent": "12.00",
+        "existingInstitution": "9ca7091f6f50555bce2bb205"
+      },
+      {
+        "name": "东莞市东康实业投资有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "7.50",
+        "existingInstitution": "d19f959156c9872be9202b17"
+      },
+      {
+        "name": "合肥市高质量发展引导基金有限公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": "15.00",
+        "existingInstitution": "e669e3b78523f84489d6758e"
+      },
+      {
+        "name": "合肥新站产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": "15.00",
+        "existingInstitution": "9bf33964a4241d688b26f242"
+      }
+    ],
+    "sizeCny": 400000000,
+    "otherLpCount": 1
+  },
+  {
+    "fundId": "7d976245c282882ec50c01dd",
+    "fundName": "泉州冯源宁芯创业投资合伙企业（有限合伙）",
+    "managerId": "5dc77d0832b9d4086fd15e8c",
+    "managerName": "冯源资本",
+    "capitalBasis": "披露认缴",
+    "source": {
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12609182&stockid=301095",
+      "issuer": "广立微关于公司拟参与设立泉州冯源宁芯的公告",
+      "date": "2026-09-17",
+      "dateKind": "协议披露日",
+      "pages": "基金的基本情况",
+      "filingSource": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12718771&stockid=301095",
+      "registrationSource": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225615194.PDF",
+      "filingCode": "SGF641",
+      "filedOn": "2026-10-30",
+      "managerLegalName": "冯源（宁波）私募基金管理有限公司",
+      "verifiedLpPayments": [
+        {
+          "name": "杭州广立微电子股份有限公司",
+          "paidCny": 10000000,
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12718771&stockid=301095"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "广东赛微微电子股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "30.30",
+        "existingInstitution": "93f21406cc33f67deafecc9d"
+      },
+      {
+        "name": "杭州广立微电子股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "15.15",
+        "existingInstitution": "9ca7091f6f50555bce2bb205"
+      }
+    ],
+    "sizeCny": 330000000,
+    "otherLpCount": 11
+  },
+  {
+    "fundId": "e0ba60e3bae1d9ff7034ff79",
+    "fundName": "晋江冯源绘芯股权投资合伙企业（有限合伙）",
+    "managerId": "5dc77d0832b9d4086fd15e8c",
+    "managerName": "冯源资本",
+    "capitalBasis": "披露出资额",
+    "source": {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0130/12005396/2026013000090_c.pdf",
+      "issuer": "爱芯元智上市法律意见书",
+      "date": "2025-12-19",
+      "dateKind": "合伙人结构截至日期",
+      "pages": "69–70",
+      "filingCode": "SNL252",
+      "filedOn": "2020-12-10",
+      "managerLegalName": "冯源（宁波）私募基金管理有限公司",
+      "formerFundName": "平潭冯源绘芯股权投资合伙企业（有限合伙）",
+      "generalPartner": "北京承沅企业管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "拉萨经济技术开发区亦兴金控投资有限公司",
+        "disclosedContributionCny": 35000000,
+        "disclosedPercent": "7.7773",
+        "existingInstitution": "8f570c5ee09d2962051ef893"
+      }
+    ],
+    "sizeCny": 450030000,
+    "otherLpCount": 16
   }
 ]
