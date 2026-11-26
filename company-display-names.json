@@ -288,5 +288,70 @@
       "https://www.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002930_c.pdf",
       "https://www1.hkexnews.hk/app/sehk/2026/108488/a132496/sehk26043002943_c.pdf"
     ]
+  },
+  "821a5846748f511bd09248d9": {
+    "name": "布鲁可",
+    "registeredName": "Bloks Group Limited",
+    "aliases": [
+      "布鲁可集团有限公司",
+      "布魯可集團有限公司",
+      "上海布鲁可科技集团有限公司",
+      "BLOKS",
+      "HK:00325"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1231/2024123100152.pdf",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0109/2025010900830_c.pdf"
+    ]
+  },
+  "e561ca868c7c4db095519f62": {
+    "name": "52TOYS",
+    "registeredName": "北京乐自天成文化发展股份有限公司",
+    "aliases": [
+      "52TOYS Development Co., Ltd.",
+      "乐自天成",
+      "北京乐自天成文化发展有限公司",
+      "北京樂自天成文化發展股份有限公司"
+    ],
+    "sources": [
+      "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-05-12/8174d6b4-763e-4551-9b95-8f3a160a6e1b.PDF",
+      "https://www1.hkexnews.hk/app/sehk/2025/107389/a123239/sehk25052201497.pdf",
+      "https://www1.hkexnews.hk/app/sehk/2025/107389/a123239/sehk25052201508.pdf",
+      "https://www.52toys.com/",
+      "https://www.qimingvc.com/cn/portfolio"
+    ]
+  },
+  "718d78013fd2d585139c6da5": {
+    "name": "和誉医药",
+    "registeredName": "Abbisko Medicine Co., Ltd.",
+    "aliases": [
+      "Abbisko Cayman Limited",
+      "和誉开曼有限责任公司",
+      "上海和誉生物医药科技有限公司",
+      "Abbisko Therapeutics",
+      "Abbisko",
+      "和譽醫藥",
+      "HK:02256"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0930/2021093000017.pdf",
+      "https://www.abbisko.com/newsDetail/258.html"
+    ]
+  },
+  "43034df7b072888c5512bc5e": {
+    "name": "和铂医药",
+    "registeredName": "HBM Holdings Limited",
+    "aliases": [
+      "和铂医药控股有限公司",
+      "和鉑醫藥控股有限公司",
+      "Harbour BioMed",
+      "和铂医药（上海）有限责任公司",
+      "HK:02142"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1130/2020113000017.pdf",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0408/2025040801237.pdf",
+      "https://www.legendcapital.com.cn/c/zhinengzhizao.html"
+    ]
   }
 }
