@@ -1031,5 +1031,116 @@
         "existingInstitution": "7df312fab42ddfc49cad9ec2"
       }
     ]
+  },
+  {
+    "fundId": "78d1c48b4cd0fec6bf5a8d62",
+    "fundName": "中电科核心技术研发股权投资基金（北京）合伙企业（有限合伙）",
+    "managerId": "882c56124886116efe804eef",
+    "managerName": "中电科网信私募基金管理有限公司",
+    "sizeCny": 9315000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_252010277D92D03FC944C78A26178CB2BC13A5.pdf",
+      "issuer": "君合律师就托伦斯IPO的法律意见书",
+      "date": "2025-12",
+      "dateKind": "法律意见书签署月",
+      "pages": "8-3-18 至 8-3-19",
+      "filingCode": "SLZ016",
+      "filedOn": "2020-09-25",
+      "lpScope": "披露12项LP和1项GP，同一管理人各一项；合计认缴93.15亿元。",
+      "lpSources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/001350_20241231_FDXN.pdf"
+      ],
+      "generalPartners": [
+        {
+          "name": "中电科网信私募基金管理有限公司",
+          "disclosedContributionCny": 2000000000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "建信领航战略性新兴产业发展基金（有限合伙）",
+        "disclosedContributionCny": 1860000000,
+        "disclosedPercent": "19.9678",
+        "existingInstitution": "bb931104632a4a4de28d162e"
+      },
+      {
+        "name": "国家军民融合产业投资基金有限责任公司",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": "16.1031",
+        "existingInstitution": "2094c5f80d2c4e102fabd870"
+      },
+      {
+        "name": "国家制造业转型升级基金股份有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "10.7354",
+        "existingInstitution": "60aa98015bf1037ecf3d338b"
+      },
+      {
+        "name": "中国国新控股有限责任公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "10.7354",
+        "existingInstitution": "e80368e2d19ee45bf0585e32"
+      },
+      {
+        "name": "天津东创卓企业管理咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "5.3677",
+        "existingInstitution": "661fdcd2d38c00ee146c3ed1"
+      },
+      {
+        "name": "北京市科技创新基金（有限合伙）",
+        "disclosedContributionCny": 495000000,
+        "disclosedPercent": "5.3140",
+        "existingInstitution": "20e94892ccb0600c553a1580"
+      },
+      {
+        "name": "北京中关村科学城新动能投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": "4.2941",
+        "existingInstitution": "ccfb4e3bf7ece604160b5164"
+      },
+      {
+        "name": "中信证券投资有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "2.1471",
+        "existingInstitution": "bb4f7f71c3b836f8a8951f86"
+      },
+      {
+        "name": "辽宁海通新动能股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "1.6103",
+        "existingInstitution": "4e05bc9c9319280b3ba8e3c3"
+      },
+      {
+        "name": "中信建投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "1.0735",
+        "existingInstitution": "74e3cf595c924b4e9f939df1"
+      },
+      {
+        "name": "泰州润信产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "1.0735",
+        "existingInstitution": "28a23c136baefc6c191bcbea"
+      },
+      {
+        "name": "中电科网信私募基金管理有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "0.1074",
+        "existingInstitution": "882c56124886116efe804eef"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2026-03-31",
+        "fundedCny": 4376500000,
+        "investedCny": 3935000000,
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf"
+      }
+    ]
   }
 ]

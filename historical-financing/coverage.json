@@ -6991,6 +6991,199 @@
         "Eden Labs种子前已收录": "b85886de5172b86562c94d0a"
       },
       "batch": "2026-11-26-october-disclosure-reconciliation-147.csv"
+    },
+    {
+      "institution": "鲸准公开案例、企查查索引及中电科研投基金反查",
+      "checked_on": "2026-11-26",
+      "scope": "核公开案例公司与历史事件并反查基金的报告、出资和LP；另核十月公开目录",
+      "sources": [
+        "https://www.jingdata.com.cn/financing/cases/",
+        "https://top.qcc.com/tc/8c232af37c81.html",
+        "https://m.pedaily.cn/news/484353",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-16/245215_20260616_3EP8.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_252010277D92D03FC944C78A26178CB2BC13A5.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202409261640061451_1.pdf?1727377764000.pdf=",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2026-07-03/61da5ecb-f34b-4788-a118-010ccfed7308.PDF",
+        "https://www.jingdata.com.cn/data-service/mcp/"
+      ],
+      "event_reviews": {
+        "finmid": {
+          "status": "十月核实新增",
+          "event": "63be4f225844ab4d055ffcd5",
+          "archived_day": "2026-10-05",
+          "source": "https://bigpi.vc/blog/big-pi-growth-leads-series-a-extension-investment-into-finmid/",
+          "detail": "10月5日媒体披露，公司官网10月13日回顾。"
+        },
+        "Subliminal": {
+          "status": "十月核实新增",
+          "event": "e94d13fcae297e631637d58d",
+          "archived_day": "2026-10-06",
+          "source": "https://prtimes.jp/main/html/rd/p/000000002.000189836.html",
+          "detail": "公司公告J-KISS型融资。"
+        },
+        "SafeLoc Systems": {
+          "status": "十月核实新增",
+          "event": "6a479e27a0a0d9a231df748e",
+          "archived_day": "2026-10-06",
+          "source": "https://www.uptek.es/es/contacto/noticias/safeloc-systems-impulsa-su-crecimiento-con-una-ronda-de-inversion-de-1-45-millones-de-euros",
+          "detail": "协会与同期媒体确认145万欧元，估值口径待核。"
+        }
+      },
+      "notes": {
+        "whale_review": {
+          "同感科技": {
+            "status": "核实新增",
+            "event": "9b9605692b53fcafa0c94396",
+            "archived_day": "2019-05-07",
+            "source": "https://www.cywcxch.org/show/news-461.html",
+            "detail": "2019年5月天使400万元，以企业协会材料和同期报道核对。"
+          },
+          "小得环保": {
+            "status": "核实新增",
+            "event": "afe21c355aebfd6db0b9e8b3",
+            "archived_day": "2021-01-14",
+            "source": "https://finance.sina.com.cn/tech/2021-01-14/doc-ikftssan5990063.shtml",
+            "detail": "2021年1月天使500万元，华昂创投主投。"
+          },
+          "明京环境科技": {
+            "status": "核实新增",
+            "event": "63276b9a68f40d5f4fe45a76",
+            "archived_day": "2021-07-14",
+            "source": "https://m.pedaily.cn/vc/vc/663909.html",
+            "detail": "2021年7月14日天使，核实法律主体及智深创投，公开案例列500万元。"
+          },
+          "特亿智能": {
+            "status": "交易已核轮次待核",
+            "event": "6cd75d2e384718478a68801e",
+            "archived_day": "2022-01",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-09-02/1224631192.PDF",
+            "detail": "上市股东出资220万元，九月报道数千万元及不同轮次仍待对齐。"
+          },
+          "微视传感": {
+            "status": "核实新增",
+            "event": "6f47624aa7f890ecfa641427",
+            "archived_day": "2021-12-30",
+            "source": "https://m.pedaily.cn/news/484353",
+            "detail": "将12月基金投资和1月同轮报道归一，同名同投资方对应鲸准2700万元。"
+          },
+          "安图游科技": {
+            "status": "已有补证",
+            "event": "05796aac2b8994c6fec8867f",
+            "archived_day": "2022-01-07",
+            "source": "https://startup.aliyun.com/info/104631.html",
+            "detail": "此前同主体已有首轮；鲸准数百万元与同期千万元分歧留证，未新增。"
+          },
+          "嘉鹊健康": {
+            "status": "主体已核交易待核",
+            "source": "https://pitchhub.36kr.com/project/2182753747851143",
+            "detail": "杭州嘉鹊健康科技有限公司；鲸准列易才集团与1000万元，仍缺同笔完成日期或资金证据。"
+          }
+        },
+        "month_review": {
+          "finmid": {
+            "status": "十月核实新增",
+            "event": "63be4f225844ab4d055ffcd5",
+            "archived_day": "2026-10-05",
+            "source": "https://bigpi.vc/blog/big-pi-growth-leads-series-a-extension-investment-into-finmid/",
+            "detail": "10月5日媒体披露，公司官网10月13日回顾。"
+          },
+          "Subliminal": {
+            "status": "十月核实新增",
+            "event": "e94d13fcae297e631637d58d",
+            "archived_day": "2026-10-06",
+            "source": "https://prtimes.jp/main/html/rd/p/000000002.000189836.html",
+            "detail": "公司公告J-KISS型融资。"
+          },
+          "SafeLoc Systems": {
+            "status": "十月核实新增",
+            "event": "6a479e27a0a0d9a231df748e",
+            "archived_day": "2026-10-06",
+            "source": "https://www.uptek.es/es/contacto/noticias/safeloc-systems-impulsa-su-crecimiento-con-una-ronda-de-inversion-de-1-45-millones-de-euros",
+            "detail": "协会与同期媒体确认145万欧元，估值口径待核。"
+          }
+        },
+        "whale_mcp": {
+          "source": "https://www.jingdata.com.cn/data-service/mcp/",
+          "scope": "需鲸准另发访问凭证；文档未注明免费账户可取得十月数据",
+          "october_list_obtained": false
+        },
+        "follow_ups": [
+          {
+            "company": "微视传感",
+            "field": "奥比中光早期战略投资",
+            "state": "date_and_amount_unconfirmed",
+            "sources": [
+              "https://top.qcc.com/tc/8c232af37c81.html",
+              "https://m.pedaily.cn/news/484353",
+              "https://static.cninfo.com.cn/finalpage/2022-07-04/1213929854.PDF"
+            ]
+          },
+          {
+            "company": "微视传感",
+            "field": "另一笔B轮及中兵投资载体",
+            "state": "unverified",
+            "sources": [
+              "https://vc.pedaily.cn/invest/f2747-b2842-s310-c1161-r3135"
+            ]
+          },
+          {
+            "company": "嘉鹊健康",
+            "field": "易才集团投资日期和法律载体",
+            "state": "unverified",
+            "sources": [
+              "https://www.jingdata.com.cn/financing/cases/",
+              "https://pitchhub.36kr.com/project/2182753747851143"
+            ]
+          },
+          {
+            "company": "特亿智能",
+            "field": "2022年9月报道和1月实缴的对应",
+            "state": "conflict",
+            "sources": [
+              "https://static.cninfo.com.cn/finalpage/2025-09-02/1224631192.PDF",
+              "https://pitchhub.36kr.com/project/1935775861870985",
+              "https://www.jingdata.com.cn/financing/cases/"
+            ]
+          },
+          {
+            "company": "托伦斯",
+            "field": "2023年基金实付分项及2024年其余交易明细",
+            "state": "partial",
+            "sources": [
+              "https://disc.static.szse.cn/disc/disk03/finalpage/2026-07-03/61da5ecb-f34b-4788-a118-010ccfed7308.PDF",
+              "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202603/RAS_202603_12170502EC22EADB224924BFC1E1A03D70B0B1.pdf",
+              "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_252010277D92D03FC944C78A26178CB2BC13A5.pdf"
+            ]
+          }
+        ],
+        "covered_fund": {
+          "id": "78d1c48b4cd0fec6bf5a8d62",
+          "name": "中电科核心技术研发股权投资基金（北京）合伙企业（有限合伙）",
+          "capital_cny": 9315000000,
+          "lp_count": 12,
+          "known_cases": [
+            "6f47624aa7f890ecfa641427",
+            "4cd8aeb4bb0fe0cf4ad70048",
+            "341293b43a85f473a0c832a5"
+          ],
+          "current_balance": null
+        }
+      },
+      "events": {
+        "同感科技天使": "9b9605692b53fcafa0c94396",
+        "小得环保天使": "afe21c355aebfd6db0b9e8b3",
+        "明京环境天使": "63276b9a68f40d5f4fe45a76",
+        "特亿智能股权融资": "6cd75d2e384718478a68801e",
+        "微视传感A轮": "6f47624aa7f890ecfa641427",
+        "北京小鸟科技2022增资": "4cd8aeb4bb0fe0cf4ad70048",
+        "托伦斯2023增资": "341293b43a85f473a0c832a5",
+        "finmid A轮追加": "63be4f225844ab4d055ffcd5",
+        "finmid A轮": "be89f143a24890336e5ed877",
+        "Subliminal种子轮": "e94d13fcae297e631637d58d",
+        "SafeLoc融资": "6a479e27a0a0d9a231df748e",
+        "小鹭游既有天使轮": "05796aac2b8994c6fec8867f"
+      },
+      "batch": "2026-11-26-jingdata-weishi-fund-october-148.csv"
     }
   ]
 }
