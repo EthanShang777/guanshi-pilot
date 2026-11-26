@@ -2417,5 +2417,21 @@
       "amount": "超10亿元人民币",
       "investors_json": "[{\"name\":\"上汽投控\",\"role\":\"领投\",\"amount\":null},{\"name\":\"尚颀资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"鼎晖百孚\",\"role\":\"领投\",\"amount\":null},{\"name\":\"鼎晖香港基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上汽集团\",\"role\":null,\"amount\":null},{\"name\":\"容亿投资\",\"role\":null,\"amount\":null},{\"name\":\"苏创投\",\"role\":null,\"amount\":null},{\"name\":\"长飞基金\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖投资\",\"role\":null,\"amount\":null},{\"name\":\"龙芯创投\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:b64ebaf2b858b18a9f55b19a4579fd9f2c1eb7aa60ed6d7e20069d6cc9911bd3",
+    "company_id": "co:full_legal_name:593fe4f2a6cd43c1ada669ca6490d000",
+    "day": "2013-12-20",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/b14bbc66a29136d4b2354b757f3e3671.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"方广资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"方广资本\",\"amount\":null,\"role\":\"受让方\"},{\"name\":\"天津鹏萱股权投资基金合伙企业（有限合伙）\",\"amount\":null,\"role\":\"受让方\"}]"
+    }
   }
 ]
