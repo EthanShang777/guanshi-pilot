@@ -96,9 +96,49 @@
       }catch{if(seq===version){line(peers,'同行资料暂时无法加载。');line(byId('buyers'),'同方向机构案例暂时无法加载。');}}
     }catch{if(seq===version)status.textContent='公司档案暂时无法读取，请重新搜索。';}
   }
+  async function generateResearch(company,seq){
+    const panel=byId('generated-study');
+    const endpoint='https://guanshi-company-research.guanshi-pilot.workers.dev/research';
+    const read=async response=>{
+      const data=await response.json();
+      if(!response.ok)throw Error(data.error||'研究服务暂时不可用');
+      return data;
+    };
+    status.textContent='6.2 Sol 正在检索公开资料并撰写八栏研究，通常需要几分钟。';
+    const {job}=await read(await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({company})}));
+    for(let attempt=0;attempt<150;attempt++){
+      await new Promise(resolve=>setTimeout(resolve,4000));
+      if(seq!==version)return;
+      const data=await read(await fetch(endpoint+'?job='+encodeURIComponent(job)));
+      if(data.status!=='completed')continue;
+      if(seq!==version)return;
+      const result=data.result;
+      if(result.clarification){status.textContent=result.clarification;return;}
+      const cards=node('div','');cards.className='api-cards';
+      for(const [title,rows] of Object.entries(result.sections)){
+        const article=node('article','');article.append(node('h3',title));
+        for(const row of rows){
+          article.append(node('strong',row.judgment),node('p',row.evidence));
+          const url=(row.source||'').match(/https:\/\/[^\s)\]<>"]+/)?.[0];
+          if(url)article.append(link('研究来源',url));
+        }
+        if(!rows.length)article.append(node('p','本次检索缺少公开证据。'));
+        cards.append(article);
+      }
+      const list=node('ol','');result.questions.forEach(q=>list.append(node('li',q)));
+      panel.replaceChildren(node('h2',company),node('p',result.summary),cards,node('h3','问题清单'),list);
+      panel.hidden=false;status.textContent='研究已生成 · '+data.model;return;
+    }
+    throw Error('等待研究超时');
+  }
   byId('company-finder').onsubmit=async e=>{
     e.preventDefault();const q=normalize(input.value);if(!q)return;
     const seq=++version;status.textContent='正在查找…';byId('choices').replaceChildren();byId('company-board').hidden=true;
+    byId('generated-study').hidden=true;
+    if(e.submitter?.value!=='lookup'){
+      try{await generateResearch(input.value.trim(),seq);}catch(err){if(seq===version)status.textContent=err.message;}
+      return;
+    }
     try{
       const index=await load('company-lookup'),hits=[];
       index.forEach(([name,aliases],i)=>{
