@@ -1386,5 +1386,86 @@
       "https://www.tsari.tsinghua.edu.cn/newsStatus/news/2020-10-07/114.html",
       "https://www.tsari.tsinghua.edu.cn/newsStatus/news/2021-07-01/408.html"
     ]
+  },
+  "e875eaa677d9d3a78e4f7938": {
+    "name": "东昇聚变",
+    "registeredName": "东昇聚变（上海）技术有限公司",
+    "aliases": [
+      "东升聚变",
+      "Sunup Fusion"
+    ],
+    "sources": [
+      "https://imp.fudan.edu.cn/b2/b2/c48935a766642/page.htm",
+      "https://www.qimingvc.com/cn/node/7639",
+      "https://vc.pedaily.cn/company/883375.html",
+      "https://conferences.iaea.org/event/450/contributions/40866/attachments/22827/39813/iaea%20control%20systems%20tm%202026%20presentation%20-%20gahle%20-%20presented.pdf"
+    ]
+  },
+  "73cc0dfa662f42783d4cae15": {
+    "name": "量月科技",
+    "registeredName": "上海量月科技有限公司",
+    "aliases": [
+      "LeapMind Growth",
+      "GrowthGPT"
+    ],
+    "sources": [
+      "https://www.cmccap.com/cases/detail",
+      "https://vc.pedaily.cn/company/903912.html",
+      "https://www.cmccap.com/news/detail/441",
+      "https://growthgpt.app/en"
+    ]
+  },
+  "4c62fb8093c00a938d0b83c0": {
+    "name": "LiberAI",
+    "registeredName": "北京将闲科技有限公司",
+    "aliases": [
+      "将闲科技"
+    ],
+    "sources": [
+      "https://www.cmccap.com/cases/detail",
+      "https://www.cmccap.com/en/news/detail/446",
+      "https://www.cmccap.com/news/detail/457"
+    ]
+  },
+  "1023ad9bec315a38235acaab": {
+    "name": "VAST",
+    "registeredName": "北京三启万物科技股份有限公司",
+    "aliases": [
+      "三启万物",
+      "北京三启万物科技有限公司",
+      "Tripo",
+      "Tripo AI",
+      "Tripo Studio"
+    ],
+    "sources": [
+      "https://www.cmccap.com/cases/detail",
+      "https://www.cmccap.com/news/detail/450",
+      "https://kfqgw.beijing.gov.cn/cxyzkfq/yzal/202603/t20260309_4552531.html"
+    ]
+  },
+  "dc938535ad022d5d4158b862": {
+    "name": "厘清智能",
+    "registeredName": "北京厘清智能科技有限公司",
+    "aliases": [
+      "Litchi Lab"
+    ],
+    "sources": [
+      "https://news.pedaily.cn/202610/569895.shtml",
+      "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/hbdt/hbdt/202607/t20260709_4755436.html",
+      "https://www.litchibot.com/"
+    ]
+  },
+  "1866ef2f62d048091ed6c22b": {
+    "name": "思敏威",
+    "registeredName": "思敏威（上海）集成电路有限公司",
+    "aliases": [
+      "思敏威集成电路",
+      "CiMicro.Ai"
+    ],
+    "sources": [
+      "https://vc.pedaily.cn/company/903350.html",
+      "https://finance.sina.com.cn/wm/2026-05-07/doc-inhwzvzm2858084.shtml",
+      "https://news.pedaily.cn/202610/570248.shtml"
+    ]
   }
 }

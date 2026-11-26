@@ -3047,5 +3047,150 @@
       "amount": "7亿元人民币",
       "investors_json": "[{\"name\":\"勤智资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"国投聚力\",\"role\":\"领投\",\"amount\":null},{\"name\":\"深创投\",\"role\":\"领投\",\"amount\":null},{\"name\":\"IDG资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中芯聚源\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"众为资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华福证券\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"华赛智汇\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"基石资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"曦晨资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"江西金控\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"钧犀资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"黄浦投资\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"中平资本\",\"role\":null,\"amount\":null},{\"name\":\"共青城行远创投\",\"role\":null,\"amount\":null},{\"name\":\"华福成长投资\",\"role\":null,\"amount\":null},{\"name\":\"汇盈私募基金\",\"role\":null,\"amount\":null},{\"name\":\"物美联合资本\",\"role\":null,\"amount\":null},{\"name\":\"盛大集团\",\"role\":null,\"amount\":null},{\"name\":\"赛领资本\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:8be92b7c9f39ea51ec9bdd0592e1c417c20f32a1c3a5fe5f2ba987b5d79bcba3",
+    "company_id": "co:full_legal_name:be993305515d1951549b3b133bd90afc",
+    "day": "2026-07-31",
+    "source": "https://www.cmccap.com/en/news/detail/446",
+    "expected": {
+      "round": "Pre-A+轮",
+      "amount": "",
+      "investors_json": "[{\"name\":\"CMC资本\",\"role\":null,\"amount\":null},{\"name\":\"三六零\",\"role\":null,\"amount\":null},{\"name\":\"创新工场\",\"role\":null,\"amount\":null},{\"name\":\"国开科创\",\"role\":null,\"amount\":null},{\"name\":\"彬复资本\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "Pre-A+轮",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"CMC资本\",\"role\":null,\"amount\":null},{\"name\":\"三六零\",\"role\":null,\"amount\":null},{\"name\":\"创新工场\",\"role\":null,\"amount\":null},{\"name\":\"国开科创\",\"role\":null,\"amount\":null},{\"name\":\"彬复资本\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null}]"
+    },
+    "final_company_id": "co:full_legal_name:82a417a4abe4592e431818d5187c3471"
+  },
+  {
+    "event_id": "financing_event:1b2a28fc816985290e5f2307ace20f831989ce163e19efd503f457d4627942d5",
+    "company_id": "co:full_legal_name:c6a8b08e8fc8755b3805fc169262a979",
+    "day": "2026-09-01",
+    "source": "https://www.cmccap.com/news/detail/450",
+    "expected": {
+      "round": "B轮",
+      "amount": "30亿人民币",
+      "investors_json": "[{\"name\":\"4399游戏\",\"role\":null,\"amount\":null},{\"name\":\"CMC资本\",\"role\":null,\"amount\":null},{\"name\":\"三七互娱创投基金\",\"role\":null,\"amount\":null},{\"name\":\"三正健康\",\"role\":null,\"amount\":null},{\"name\":\"中平资本\",\"role\":null,\"amount\":null},{\"name\":\"中科创达\",\"role\":null,\"amount\":null},{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"华控基金\",\"role\":null,\"amount\":null},{\"name\":\"卓源亚洲\",\"role\":null,\"amount\":null},{\"name\":\"完美世界\",\"role\":null,\"amount\":null},{\"name\":\"广电投资\",\"role\":null,\"amount\":null},{\"name\":\"延趣游戏\",\"role\":null,\"amount\":null},{\"name\":\"慕华科创\",\"role\":null,\"amount\":null},{\"name\":\"春华资本\",\"role\":null,\"amount\":null},{\"name\":\"江西金控\",\"role\":null,\"amount\":null},{\"name\":\"洪泰基金\",\"role\":null,\"amount\":null},{\"name\":\"渶策资本\",\"role\":null,\"amount\":null},{\"name\":\"福创投\",\"role\":null,\"amount\":null},{\"name\":\"福建产投\",\"role\":null,\"amount\":null},{\"name\":\"经纬创投\",\"role\":null,\"amount\":null},{\"name\":\"绿洲资本\",\"role\":null,\"amount\":null},{\"name\":\"芯动能投资\",\"role\":null,\"amount\":null},{\"name\":\"蓝色光标\",\"role\":null,\"amount\":null},{\"name\":\"达晨财智\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮及B+轮",
+      "amount": "约30亿元（两轮合计）",
+      "investors_json": "[{\"name\":\"4399游戏\",\"role\":null,\"amount\":null},{\"name\":\"CMC资本\",\"role\":null,\"amount\":null},{\"name\":\"三七互娱创投基金\",\"role\":null,\"amount\":null},{\"name\":\"三正健康\",\"role\":null,\"amount\":null},{\"name\":\"中平资本\",\"role\":null,\"amount\":null},{\"name\":\"中科创达\",\"role\":null,\"amount\":null},{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"华控基金\",\"role\":null,\"amount\":null},{\"name\":\"卓源亚洲\",\"role\":null,\"amount\":null},{\"name\":\"完美世界\",\"role\":null,\"amount\":null},{\"name\":\"广电投资\",\"role\":null,\"amount\":null},{\"name\":\"延趣游戏\",\"role\":null,\"amount\":null},{\"name\":\"慕华科创\",\"role\":null,\"amount\":null},{\"name\":\"春华资本\",\"role\":null,\"amount\":null},{\"name\":\"江西金控\",\"role\":null,\"amount\":null},{\"name\":\"洪泰基金\",\"role\":null,\"amount\":null},{\"name\":\"渶策资本\",\"role\":null,\"amount\":null},{\"name\":\"福创投\",\"role\":null,\"amount\":null},{\"name\":\"福建产投\",\"role\":null,\"amount\":null},{\"name\":\"经纬创投\",\"role\":null,\"amount\":null},{\"name\":\"绿洲资本\",\"role\":null,\"amount\":null},{\"name\":\"芯动能投资\",\"role\":null,\"amount\":null},{\"name\":\"蓝色光标\",\"role\":null,\"amount\":null},{\"name\":\"达晨财智\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖投资\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:5daacda9abfb0db17a0155d5226cc9588a023e028a0c2b0cb188812f8a0d25ee",
+    "company_id": "",
+    "day": "",
+    "source": "https://eu.36kr.com/zh/newsflashes/3331521749346816",
+    "expected": {
+      "round": "Pre-A+轮",
+      "amount": "数千万美元",
+      "investors_json": "[{\"name\":\"北京市人工智能产业投资基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"靖亚资本\",\"role\":\"跟投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "数千万美元",
+      "investors_json": "[{\"name\":\"北京市人工智能产业投资基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"靖亚资本\",\"role\":\"跟投\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:f9f960e98f0a4e0e0ed4d2979ba617e68a75236957217bba2a1982b9b1f628e2",
+    "company_id": "",
+    "day": "",
+    "source": "https://kfqgw.beijing.gov.cn/cxyzkfq/yzal/202603/t20260309_4552531.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "5000万美元",
+      "investors_json": "[{\"name\":\"恒旭资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"阿里\",\"role\":\"领投\",\"amount\":null},{\"name\":\"BV百度风投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"东方嘉富\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"元禾璞华\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北京市人工智能产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"春华创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "5000万美元",
+      "investors_json": "[{\"name\":\"恒旭资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"阿里\",\"role\":\"领投\",\"amount\":null},{\"name\":\"BV百度风投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"东方嘉富\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"元禾璞华\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"北京市人工智能产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"春华创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:8dad461c0ced11b2cb58e566d6048dce7d02e24c6c9de4d15f76543470c9ea37",
+    "company_id": "",
+    "day": "2026-06-30",
+    "source": "https://m.pedaily.cn/news/565697",
+    "expected": {
+      "round": "种子轮",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"SEE FUND\",\"role\":null,\"amount\":null},{\"name\":\"世纪金源\",\"role\":null,\"amount\":null},{\"name\":\"峰瑞资本\",\"role\":null,\"amount\":null},{\"name\":\"星连资本\",\"role\":null,\"amount\":null},{\"name\":\"智元机器人\",\"role\":null,\"amount\":null},{\"name\":\"水木清华校友种子基金\",\"role\":null,\"amount\":null},{\"name\":\"灵心巧手\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null},{\"name\":\"高瓴创投\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "数亿元",
+      "investors_json": "[{\"name\":\"SEE FUND\",\"role\":null,\"amount\":null},{\"name\":\"世纪金源\",\"role\":null,\"amount\":null},{\"name\":\"峰瑞资本\",\"role\":null,\"amount\":null},{\"name\":\"星连资本\",\"role\":null,\"amount\":null},{\"name\":\"智元机器人\",\"role\":null,\"amount\":null},{\"name\":\"水木清华校友种子基金\",\"role\":null,\"amount\":null},{\"name\":\"灵心巧手\",\"role\":null,\"amount\":null},{\"name\":\"红杉中国\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null},{\"name\":\"高瓴创投\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:ca4a9ae75ca1d57441d7de658317d5844c22020daae7c00fb5d5741767baa8ac",
+    "company_id": "co:full_legal_name:469d1cdab0b32b65448906c7970b8edd",
+    "day": "2026-10-14",
+    "source": "https://news.pedaily.cn/202610/570248.shtml",
+    "expected": {
+      "round": "天使轮",
+      "amount": "亿元",
+      "investors_json": "[{\"name\":\"中兴创投\",\"role\":null,\"amount\":null},{\"name\":\"博华产投\",\"role\":null,\"amount\":null},{\"name\":\"合创资本\",\"role\":null,\"amount\":null},{\"name\":\"建信信托\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"松青基金\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "亿元级",
+      "investors_json": "[{\"name\":\"中兴通讯\",\"role\":null,\"amount\":null},{\"name\":\"博华产投\",\"role\":null,\"amount\":null},{\"name\":\"松青资本\",\"role\":null,\"amount\":null},{\"name\":\"建信信托\",\"role\":null,\"amount\":null},{\"name\":\"合创资本\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:b16fe97026f0b2e2c1fc62adb67b50a58c7f337a75dfbb86490f716e48831536",
+    "company_id": "co:full_legal_name:469d1cdab0b32b65448906c7970b8edd",
+    "day": "2026-05-07",
+    "source": "https://finance.sina.com.cn/wm/2026-05-07/doc-inhwzvzm2858084.shtml",
+    "expected": {
+      "round": "种子轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"东方富海\",\"role\":null,\"amount\":null},{\"name\":\"徐汇科创投\",\"role\":null,\"amount\":null},{\"name\":\"徐汇资本\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"纪源资本\",\"role\":null,\"amount\":null},{\"name\":\"赛伯乐投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "种子轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"东方富海\",\"role\":\"领投\",\"amount\":null},{\"name\":\"纪源资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"徐汇资本\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"赛智伯乐\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:c79a51144bb5c87e1bb74a320ed810345f323ff9ec22164f19da0174e5a5e078",
+    "company_id": "",
+    "day": "2026-10-14",
+    "source": "https://news.pedaily.cn/202610/570248.shtml",
+    "expected": {
+      "round": "天使轮",
+      "amount": "亿元(另一原报:约亿元)",
+      "investors_json": "[{\"name\":\"中兴通讯（战略投资）\",\"role\":null,\"amount\":null},{\"name\":\"博华产投\",\"role\":null,\"amount\":null},{\"name\":\"合创资本\",\"role\":null,\"amount\":null},{\"name\":\"建信信托\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"松青资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "亿元(另一原报:约亿元)",
+      "investors_json": "[{\"name\":\"中兴通讯（战略投资）\",\"role\":null,\"amount\":null},{\"name\":\"博华产投\",\"role\":null,\"amount\":null},{\"name\":\"合创资本\",\"role\":null,\"amount\":null},{\"name\":\"建信信托\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"松青资本\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:c18c741c30c427fd11bca084118161552e477dda5368796d139016de54fa4801",
+    "company_id": "",
+    "day": "2026-05-07",
+    "source": "https://finance.sina.com.cn/wm/2026-05-07/doc-inhwzvzm2858084.shtml",
+    "expected": {
+      "round": "种子系列轮",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"东方富海\",\"role\":\"领投\",\"amount\":null},{\"name\":\"纪源资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"徐汇资本\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"赛智伯乐\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "近亿元",
+      "investors_json": "[{\"name\":\"东方富海\",\"role\":\"领投\",\"amount\":null},{\"name\":\"纪源资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"徐汇资本\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"赛智伯乐\",\"role\":null,\"amount\":null}]"
+    }
   }
 ]
