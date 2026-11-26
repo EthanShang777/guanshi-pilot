@@ -11229,8 +11229,12 @@
       "dateKind": "公开文件披露日",
       "issuer": "铁近科技北交所招股说明书（申报稿）",
       "pages": "1-1-58至60",
-      "lpSources": [],
-      "lpScope": "4名LP和1名GP，共认缴150亿元。",
+      "lpSources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-30/240418_20260430_DY05.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-08-29/240418_20250829_MU6U.pdf",
+        "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260331/556c0aa49d4b4b9aba7a7652cadbb4fa.pdf"
+      ],
+      "lpScope": "4名LP和1名GP，共认缴150亿元。 苏创投债券年报披露2025年末已投60个项目及投资总额77.01亿元，具名部分见证据。",
       "generalPartners": [
         {
           "name": "国器元禾私募基金管理有限公司",
@@ -11268,7 +11272,20 @@
         "existingInstitution": "5a73d13ddb9a7bf70b3cbfb4"
       }
     ],
-    "publishedStatistics": []
+    "publishedStatistics": [
+      {
+        "asOf": "2025-12-31",
+        "investedCny": 7701000000,
+        "investments": 60,
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-30/240418_20260430_DY05.pdf"
+      },
+      {
+        "asOf": "2025-06-30",
+        "investedCny": 4491000000,
+        "investments": 43,
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-08-29/240418_20250829_MU6U.pdf"
+      }
+    ]
   },
   {
     "fundId": "58799d66e88c786f87fcca68",
@@ -11284,8 +11301,11 @@
       "dateKind": "公开文件披露日",
       "issuer": "铁近科技北交所招股说明书（申报稿）",
       "pages": "1-1-57至60",
-      "lpSources": [],
-      "lpScope": "3名LP和1名GP，认缴2亿元。",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-04-26/1219820275.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-08-28/1220999373.PDF"
+      ],
+      "lpScope": "3名LP和1名GP，认缴2亿元。 中兴通讯公告2024-04-25已完成募集；德科立披露截至2024年4月累计实际出资6000万元。",
       "generalPartners": [
         {
           "name": "中兴众创（西安）投资管理有限公司",
@@ -11295,7 +11315,19 @@
       "managerLegalName": "中兴众创（西安）投资管理有限公司",
       "filingCode": "SXY390",
       "incorporatedOn": "2022-12-16",
-      "creditCode": "91610131MAC5P85J93"
+      "creditCode": "91610131MAC5P85J93",
+      "filingDate": "2023-01-13",
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2024-08-28/1220999373.PDF",
+        "date": "2024-08-28",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "无锡市德科立光电子技术股份有限公司",
+            "paidCny": 60000000
+          }
+        ]
+      }
     },
     "partners": [
       {
@@ -11430,6 +11462,133 @@
         "disclosedContributionCny": 449000000,
         "disclosedPercent": 29.9333,
         "existingInstitution": "67da9f3688352dd74895e3b9"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "efe96c77059ac4aa40e0b579",
+    "fundName": "上海具身智创创业投资合伙企业（有限合伙）",
+    "managerName": "上海孚腾私募基金管理有限公司",
+    "managerId": "85bebcb96ef476df7e0cab9d",
+    "sizeCny": 565100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223100963.PDF",
+      "date": "2025-04-16",
+      "dateKind": "公开文件披露日",
+      "issuer": "华培数能合伙协议公告",
+      "pages": "第11至12页",
+      "lpSources": [
+        "https://epaper.cs.com.cn/zgzqb/html/2025-05/21/nw.D110000zgzqb_20250521_2-B018.htm",
+        "https://static.cninfo.com.cn/finalpage/2026-04-24/1225164489.PDF"
+      ],
+      "lpScope": "备案公告已核成立，认缴5.651亿元，13名LP和2名GP；2025年报仅披露华培实缴300万元。",
+      "generalPartners": [
+        {
+          "name": "上海孚腾私募基金管理有限公司",
+          "disclosedContributionCny": 100000
+        },
+        {
+          "name": "上海浦东私募基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "上海孚腾私募基金管理有限公司",
+      "filingCode": "SAYE08",
+      "filingDate": "2025-05-19",
+      "paidContributionSource": {
+        "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225164489.PDF",
+        "date": "2026-04-24",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "上海华培数能科技（集团）股份有限公司",
+            "paidCny": 3000000
+          }
+        ]
+      },
+      "creditCode": "91310115MAEFE5J15G"
+    },
+    "partners": [
+      {
+        "name": "上海国孚领航投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": 44.24,
+        "existingInstitution": "b25426e70b29e0803741f78e"
+      },
+      {
+        "name": "上海浦东引领区投资中心（有限合伙）",
+        "disclosedContributionCny": 130000000,
+        "disclosedPercent": 23.005,
+        "existingInstitution": "6303c152eb8c0e61c7d2494e"
+      },
+      {
+        "name": "上海张江科技创业投资有限公司",
+        "disclosedContributionCny": 52000000,
+        "disclosedPercent": 9.202,
+        "existingInstitution": "553086d16e6e76057585ada6"
+      },
+      {
+        "name": "上海上汽创远创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 5.309,
+        "existingInstitution": "0ce939fb82eada17acd0fc51"
+      },
+      {
+        "name": "上海万昂投资管理有限公司",
+        "disclosedContributionCny": 28000000,
+        "disclosedPercent": 4.955,
+        "existingInstitution": "eb447bb9504a73f7d90fcc35"
+      },
+      {
+        "name": "北海毅伯私募基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 3.539,
+        "existingInstitution": "143dab364f5954653c287734"
+      },
+      {
+        "name": "无锡沂景股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 1.77,
+        "existingInstitution": "8116a1900dd7530a1aad8cd4"
+      },
+      {
+        "name": "上海普陀科技投资有限公司",
+        "disclosedContributionCny": 28000000,
+        "disclosedPercent": 4.955,
+        "existingInstitution": "1ef09c38764c783662bdfe72"
+      },
+      {
+        "name": "福氏工业（北京）有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 0.885,
+        "existingInstitution": "76202cd390a73fb95449a08f"
+      },
+      {
+        "name": "温州方道一期创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 0.354,
+        "existingInstitution": "d7aeba6bc660a42e6a2e2256"
+      },
+      {
+        "name": "温州成乔一期创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 0.531,
+        "existingInstitution": "f93a6030ffc1b7bbece0e677"
+      },
+      {
+        "name": "上海观睿福祥企业咨询管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 0.177,
+        "existingInstitution": "e8117c8d3672f991ea6c2b11"
+      },
+      {
+        "name": "上海华培数能科技（集团）股份有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 0.885,
+        "existingInstitution": "7dcfbe959f5fc049f3359f63"
       }
     ],
     "publishedStatistics": []

@@ -113,7 +113,12 @@
         if(total) section.append(el('p','已核实'+label+' '+yuan(total)));
       }
       for(const stat of fund.publishedStatistics){
-        const p=el('p','截至 '+stat.asOf+'，已募集 '+yuan(stat.fundedCny*100)+'，已投放 '+yuan(stat.investedCny*100));
+        const metrics=[];
+        if(Number.isFinite(stat.fundedCny)) metrics.push('已募集 '+yuan(stat.fundedCny*100));
+        if(Number.isFinite(stat.investedCny)) metrics.push('已投放 '+yuan(stat.investedCny*100));
+        if(Number.isInteger(stat.investments)) metrics.push('已投 '+stat.investments+' 个项目');
+        if(!metrics.length) continue;
+        const p=el('p','截至 '+stat.asOf+'，'+metrics.join('，'));
         p.append(el('span','　'),hrefLink(stat.source,'历史披露 ↗'));
         section.append(p);
       }

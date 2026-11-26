@@ -4105,5 +4105,115 @@
     "sources": [
       "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-01-05/58a22401-31e0-454e-a6c5-0d03106d3c0b.PDF"
     ]
+  },
+  "7cbc1d6e3402a2166f39cd74": {
+    "name": "长鹰硬科",
+    "registeredName": "昆山长鹰硬质材料科技股份有限公司",
+    "aliases": [
+      "长鹰硬质材料",
+      "昆山长鹰"
+    ],
+    "sources": [
+      "https://www.bse.cn/disclosure/2026/2026-05-08/1778255056_847548.pdf"
+    ]
+  },
+  "ddc6927c4c605cb773fbbf0e": {
+    "name": "巨冈精工",
+    "registeredName": "巨冈精工（广东）股份有限公司",
+    "aliases": [
+      "巨冈机械",
+      "CATO巨冈",
+      "东莞市巨冈机械工业有限公司"
+    ],
+    "sources": [
+      "https://www.catocnc.com/news/23.html"
+    ]
+  },
+  "e666b53371360f5e3db35f8d": {
+    "name": "冈田智能",
+    "registeredName": "冈田智能（江苏）股份有限公司",
+    "aliases": [
+      "冈田精机",
+      "冈田精机丹阳有限公司",
+      "网田智能（江苏）股份有限公司"
+    ],
+    "sources": [
+      "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260331/556c0aa49d4b4b9aba7a7652cadbb4fa.pdf"
+    ]
+  },
+  "2b88df1ec94eceda182bfe50": {
+    "name": "英嘉通半导体",
+    "registeredName": "苏州英嘉通半导体有限公司",
+    "aliases": [
+      "苏州英嘉通"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-08-28/1220999373.PDF"
+    ]
+  },
+  "3c4a6f8931139ee12abe5715": {
+    "name": "新纽元",
+    "registeredName": "苏州新纽元电子技术有限公司",
+    "aliases": [
+      "苏州新纽元"
+    ],
+    "sources": [
+      "https://www.36kr.com/p/2482281819134082"
+    ]
+  },
+  "6df8a18a55dffab07fdbc857": {
+    "name": "新锐股份",
+    "registeredName": "苏州新锐合金工具股份有限公司",
+    "aliases": [
+      "新锐合金",
+      "苏州新锐"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-09-29/1225585984.PDF"
+    ]
+  },
+  "28e1772ae9d9d6b7e7b5f974": {
+    "name": "沈阳机床",
+    "registeredName": "沈阳机床股份有限公司",
+    "aliases": [
+      "沈机股份"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-10-21/1224721391.PDF"
+    ]
+  },
+  "7dec7fc043d4afe5dd80e293": {
+    "name": "一汽解放",
+    "registeredName": "一汽解放集团股份有限公司",
+    "aliases": [
+      "一汽解放集团"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-10-15/1221384691.PDF"
+    ]
+  },
+  "95c45c5508fc49d660cb8a7b": {
+    "name": "中微众硅",
+    "registeredName": "中微众硅（杭州）电子科技有限公司",
+    "aliases": [
+      "杭州众硅电子科技有限公司",
+      "杭州众硅",
+      "众硅科技"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
+      "https://paper.cnstock.com/html/2026-06/23/content_2233860.htm"
+    ]
+  },
+  "d3865a81215bef443c29cb11": {
+    "name": "广州型腔",
+    "registeredName": "广州市型腔模具制造有限公司",
+    "aliases": [
+      "型腔模具",
+      "广州市型腔"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202309261599899683_1.pdf"
+    ]
   }
 }

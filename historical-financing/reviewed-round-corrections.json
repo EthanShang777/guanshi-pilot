@@ -6588,5 +6588,107 @@
       "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-01-05/58a22401-31e0-454e-a6c5-0d03106d3c0b.PDF",
       "https://pdf.dfcfw.com/pdf/H2_AN202604171821307148_1.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:16fdd3ca0cdb367d963d51c4b88a6a759d7fb8028fc5f4c76a3d2cb2218453f7",
+    "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80",
+    "day": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"石溪资本\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "21000万元",
+      "investors_json": "[{\"name\":\"中微半导体（上海）有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"浙江台州金石精密制造股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":16000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"中信证券投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"余姚石溪舜创创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062404.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:afd8c01feb3e46c607f90fc8a75aae4956a393cdc15884000a46e5621764ab0d",
+    "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80",
+    "day": "2025-02-28",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
+    "expected": {
+      "round": "B+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东证资本\",\"role\":null,\"amount\":null},{\"name\":\"毅达资本\",\"role\":null,\"amount\":null},{\"name\":\"温润投资\",\"role\":null,\"amount\":null},{\"name\":\"皖能电力\",\"role\":null,\"amount\":null},{\"name\":\"达晨财智\",\"role\":null,\"amount\":null}]",
+      "date": "2025-02-28",
+      "date_key": "2025-02-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B+轮",
+      "amount": "25500万元",
+      "investors_json": "[{\"name\":\"江苏高投毅达中小贰号创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2500000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"安徽省丰禾股权投资基金一期合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"青岛东证中新仁合私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"杭州达晨创程股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5250000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"深圳市达晨创程私募股权投资基金企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":8750000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"深圳市达晨财智创业投资管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}}]",
+      "date": "2025-02-28",
+      "date_key": "2025-02-28",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062404.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:7211800342d1e52a394bf04dc26692458efee79d47ce1e549c5c58c3101fbb11",
+    "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80",
+    "day": "2023-06-09",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"北峰基金\",\"role\":null,\"amount\":null},{\"name\":\"浙江产投\",\"role\":null,\"amount\":null},{\"name\":\"温润投资\",\"role\":null,\"amount\":null},{\"name\":\"蓝郡创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-06-09",
+      "date_key": "2023-06-09",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "28000万元",
+      "investors_json": "[{\"name\":\"杭州富浙资通股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"浙江富浙富创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"宁波蓝郡风鋆创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"杭州北峰芯辰股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"广东温润振信贰号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1975000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}},{\"name\":\"广东温润振信叁号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":25000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf\"}}]",
+      "date": "2023-06-27",
+      "date_key": "2023-06-27",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062404.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:aaf0aadbe54bf9d3d8efabbfcf08c48fed7ff8e58c632641e4efe4410d2b11a4",
+    "company_id": "co:full_legal_name:ead10c9c3794da406b40fa6c814225df",
+    "day": "2023-11-24",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202309261599899683_1.pdf",
+    "expected": {
+      "round": "D轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾控股\",\"role\":null,\"amount\":null},{\"name\":\"华泰洋河母基金\",\"role\":null,\"amount\":null},{\"name\":\"华泰紫金投资\",\"role\":null,\"amount\":null},{\"name\":\"嘉实投资\",\"role\":null,\"amount\":null},{\"name\":\"国调基金\",\"role\":null,\"amount\":null},{\"name\":\"大湾区共同家园发展基金\",\"role\":null,\"amount\":null},{\"name\":\"广州金控集团\",\"role\":null,\"amount\":null},{\"name\":\"盈峰投资\",\"role\":null,\"amount\":null},{\"name\":\"银河源汇\",\"role\":null,\"amount\":null}]",
+      "date": "2023-11-24",
+      "date_key": "2023-11-24",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"工业母机产业投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖北交投中金睿致创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"国调战略性新兴产业投资基金（滁州）合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市港昇科技创新管理有限公司\",\"role\":null,\"amount\":null},{\"name\":\"南京华泰紫金新兴产业基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京华泰洋河股权投资母基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广州广金睿德柒号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广州从化区明创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广州柘瓴产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"银河源汇投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"珠海嘉实盛德创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"粤港澳大湾区共同家园发展基金（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2023-11-24",
+      "date_key": "2023-11-24",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-04-26/1219831106.PDF",
+      "https://static.cninfo.com.cn/finalpage/2025-04-24/1223245929.PDF",
+      "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-30/240418_20260430_DY05.pdf"
+    ]
   }
 ]

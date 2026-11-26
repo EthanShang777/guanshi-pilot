@@ -1477,5 +1477,29 @@
     },
     "source": "https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf",
     "reason": "5月27日三方老股、6月11日两方增资分别签署；鼎晖中安为两笔共同参与方。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:a93c11eb111dba1b6da11c",
+      "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80"
+    },
+    "existing": {
+      "event_id": "financing_event:16fdd3ca0cdb367d963d51c4b88a6a759d7fb8028fc5f4c76a3d2cb2218453f7",
+      "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
+    "reason": "文件中的新增注册资本和向原股东支付的转让款分别列出，属于两笔交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:16fdd3ca0cdb367d963d51c4b88a6a759d7fb8028fc5f4c76a3d2cb2218453f7",
+      "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:a93c11eb111dba1b6da11c",
+      "company_id": "co:full_legal_name:7a574bf8144a3a826416a37b9ac0ee80"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821561636_1.pdf",
+    "reason": "文件中的新增注册资本和向原股东支付的转让款分别列出，属于两笔交易。"
   }
 ]
