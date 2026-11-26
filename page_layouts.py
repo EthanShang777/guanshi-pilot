@@ -13,8 +13,9 @@ def publish(out, deals):
     lookup = {}
     for path in records.glob('institution-??.json'):
         for key, row in json.loads(path.read_text()).items():
-            case = row['events'][0]
-            lookup[key] = [row['name'], len(row['events']), case[1], case[6] or case[5], case[0], case[2]]
+            cases = row['events']
+            case = cases[0] if cases else ('', '', '', '', '', '', '')
+            lookup[key] = [row['name'], len(cases), case[1], case[6] or case[5], case[0], case[2]]
     (records/'institution-names.json').write_text(json.dumps([[v[0], k] for k,v in lookup.items()],ensure_ascii=False))
     for asset in ('atlas.js','company-browser.js','master-search.js','directory-search.js'):
         shutil.copyfile(asset,out/asset)
@@ -55,8 +56,9 @@ def publish(out, deals):
             key=m[1]
             if key not in lookup:return m[0]
             name,n,company,sector,url,day=lookup[key]
+            latest = link(url,company+' · '+(day or '日期未列明')) if url else '<span></span>'
             return ('<div class="inst-line">'+link('institution.html?id='+key,name)+'<span>'+escape(sector or '')+'</span>'+
-                    link(url,company+' · '+(day or '日期未列明'))+f'<small>{n} 笔</small></div>')
+                    latest+f'<small>{n} 笔</small></div>')
         html,n=re.subn(r'<div class="directory-row"><a href="institution\.html\?id=([a-f0-9]+)">.*?</div>',institution,html)
         html, existing = re.subn(r'<div class="inst-line"><a href="institution\.html\?id=([a-f0-9]+)">.*?</div>',institution,html)
         if existing and not n:
