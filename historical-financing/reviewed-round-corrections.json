@@ -7615,5 +7615,31 @@
     "additional_sources": [
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:d47390b906247fc2f6c32940c9d57636f800ccbd7eb76bf181bb6c363741d162",
+    "company_id": "co:full_legal_name:8e8c662c6e782106dd0d5c33af48d476",
+    "day": "2011-10-01",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-04-12/1212886063.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"尚理投资\",\"role\":null,\"amount\":null},{\"name\":\"沃衍资本\",\"role\":null,\"amount\":null}]",
+      "date": "2011-10-01",
+      "date_key": "2011-10-01",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "74.303406万美元",
+      "investors_json": "[{\"name\":\"北京沃衍投资中心（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2011-09-19",
+      "date_key": "2011-09-19",
+      "date_kind": "发行人披露验资到账日"
+    },
+    "additional_sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/a16f2c70f691203854cfcb2132573909.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+    ]
   }
 ]

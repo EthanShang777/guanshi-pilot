@@ -16872,7 +16872,9 @@
       "pages": "73–74",
       "lpSources": [
         "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001146_20220526_2HRC.pdf",
-        "https://qccdata.qichacha.com/ReportData/PDF/2fd4c1034e64cfdbed63f70bf1a187be.pdf"
+        "https://qccdata.qichacha.com/ReportData/PDF/2fd4c1034e64cfdbed63f70bf1a187be.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf"
       ],
       "lpScope": "披露文件所列全体直接合伙人，按该时点认缴口径",
       "generalPartners": [
@@ -16882,7 +16884,71 @@
         }
       ],
       "managerLegalName": "中电产融私募基金管理有限公司",
-      "creditCode": "91440400MA55ADLUX5"
+      "creditCode": "91440400MA55ADLUX5",
+      "registrationCode": "SNA536",
+      "managerHistoricalName": "中电科基金管理有限公司",
+      "managerRegistrationCode": "P1070141",
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2021-12-10",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf",
+          "registeredCny": 2008000000,
+          "partners": [
+            {
+              "name": "中电科基金管理有限公司",
+              "disclosedContributionCny": 2000000,
+              "disclosedPercent": 0.1
+            },
+            {
+              "name": "珠海格力金融投资管理有限公司",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": 49.8
+            },
+            {
+              "name": "中电电子信息产业投资基金（天津）合伙企业（有限合伙）",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": 49.8
+            },
+            {
+              "name": "天津融和经济信息咨询合伙企业（有限合伙）",
+              "disclosedContributionCny": 6000000,
+              "disclosedPercent": 0.3
+            }
+          ]
+        },
+        {
+          "asOf": "2022-09-30",
+          "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+          "registeredCny": 2012000000,
+          "partners": [
+            {
+              "name": "中电产融私募基金管理有限公司",
+              "disclosedContributionCny": 2000000,
+              "disclosedPercent": 0.1
+            },
+            {
+              "name": "天津融和经济信息咨询合伙企业（有限合伙）",
+              "disclosedContributionCny": 10000000,
+              "disclosedPercent": 0.5
+            },
+            {
+              "name": "青岛黄实启汇股权投资合伙企业（有限合伙）",
+              "disclosedContributionCny": 550000000,
+              "disclosedPercent": 27.34
+            },
+            {
+              "name": "珠海格力金融投资管理有限公司",
+              "disclosedContributionCny": 650000000,
+              "disclosedPercent": 32.31
+            },
+            {
+              "name": "中电电子信息产业投资基金（天津）合伙企业（有限合伙）",
+              "disclosedContributionCny": 800000000,
+              "disclosedPercent": 39.76
+            }
+          ]
+        }
+      ]
     },
     "partners": [
       {
@@ -16914,6 +16980,340 @@
         "disclosedContributionCny": 10000000,
         "disclosedPercent": 0.5,
         "existingInstitution": "715eba441ece03fd2125722f"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "7872178b9a6748d7eb55e155",
+    "fundName": "苏州工业园区元禾重元贰号股权投资基金合伙企业（有限合伙）",
+    "managerName": "苏州工业园区元禾重元股权投资基金管理有限公司",
+    "managerId": "254b4468b9f4d97af05dd559",
+    "sizeCny": 1863900000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf",
+      "date": "2021-12-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "苏州德龙激光股份有限公司",
+      "pages": "73–75",
+      "lpSources": [],
+      "lpScope": "该公开披露时点的全部直接合伙人",
+      "generalPartners": [
+        {
+          "name": "苏州工业园区重元贰号股权投资管理中心（有限合伙）",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "managerLegalName": "苏州工业园区元禾重元股权投资基金管理有限公司",
+      "registrationCode": "SEH705",
+      "managerRegistrationCode": "P1000720",
+      "creditCode": "91320594MA1WKK1D4C"
+    },
+    "partners": [
+      {
+        "name": "苏州元禾控股股份有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 21.46,
+        "existingInstitution": "e29e660c8f2485afb90e98ab"
+      },
+      {
+        "name": "苏州工业园区产业投资基金（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 10.73,
+        "existingInstitution": "7a23c62cfca8d4e3e6a60462"
+      },
+      {
+        "name": "无锡惠开投资管理有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 10.73,
+        "existingInstitution": "401afd2c29fa104f2666b644"
+      },
+      {
+        "name": "南方资本管理有限公司",
+        "disclosedContributionCny": 118800000,
+        "disclosedPercent": 6.37,
+        "existingInstitution": "8b433cbbaea626fe3ae20336"
+      },
+      {
+        "name": "苏民资本有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.68,
+        "existingInstitution": "f0c5b4ec924f712eacc0ad4f"
+      },
+      {
+        "name": "苏州广电投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.68,
+        "existingInstitution": "95502bc26c7b5399cfc55cbc"
+      },
+      {
+        "name": "中衡设计集团股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.68,
+        "existingInstitution": "a157436691898739c452634a"
+      },
+      {
+        "name": "苏州信托有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 1.61,
+        "existingInstitution": "a0f2dc018d816eb7bccd1b9a"
+      },
+      {
+        "name": "苏州市世嘉科技股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 1.07,
+        "existingInstitution": "c5f3c63c305e98ffa350e0d3"
+      },
+      {
+        "name": "苏州工业园区众鑫致远股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 0.8,
+        "existingInstitution": "ab951cea4afc26fbb93b3c82"
+      },
+      {
+        "name": "天津市汇泽科技发展合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.68,
+        "existingInstitution": "8950f888f9fd1550bc9ef6dc"
+      },
+      {
+        "name": "苏州工业园区海融道生股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 120100000,
+        "disclosedPercent": 6.45,
+        "existingInstitution": "f9833422901785af270129c5"
+      },
+      {
+        "name": "苏州市上市发展引导基金（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 5.37,
+        "existingInstitution": "44af9f5a3439126f3dcebc5e"
+      },
+      {
+        "name": "苏州万纵创业投资中心（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.68,
+        "existingInstitution": "7dfdd48f9a133396f58c5425"
+      },
+      {
+        "name": "苏州易德龙科技股份有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 1.61,
+        "existingInstitution": "d53caedf616980b3d22465e2"
+      },
+      {
+        "name": "苏州博澳股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 1.61,
+        "existingInstitution": "46712f95963084a998f877dc"
+      },
+      {
+        "name": "常熟市千斤顶厂",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 1.61,
+        "existingInstitution": "a63346656b08564f3f229b89"
+      },
+      {
+        "name": "苏州国发苏创知识产权投资企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 1.07,
+        "existingInstitution": "fbf460602f065c47f88d5446"
+      },
+      {
+        "name": "深圳市德弘盛源投资中心（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 1.61,
+        "existingInstitution": "fe24c83a855e92105c176402"
+      },
+      {
+        "name": "苏州中方财团控股股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.68,
+        "existingInstitution": "31923ef1e593e940dfaf4466"
+      },
+      {
+        "name": "东吴人寿保险股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 5.37,
+        "existingInstitution": "041c56df4b1ef0b85b4a4338"
+      },
+      {
+        "name": "交银国信资产管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.68,
+        "existingInstitution": "a904f986814073bc84360da2"
+      },
+      {
+        "name": "无锡苏民汇鑫创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 2.68,
+        "existingInstitution": "64b08424196c3a1192f3dcaa"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "93ca9e75ff94f76ad95d7587",
+    "fundName": "南京市一汽创新基金投资管理中心（有限合伙）",
+    "managerName": "鼎佳汽车私募基金管理（北京）有限公司",
+    "managerId": "16fe602819ec6ae5efac2fd6",
+    "sizeCny": 1300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+      "date": "2022-09-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "武汉元丰汽车电控系统股份有限公司",
+      "pages": "63–64",
+      "lpSources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202206/RAS_202206_0001818F1BFA0E3FD13AD56D57CBDC3F.pdf"
+      ],
+      "lpScope": "该公开披露时点的全部直接合伙人",
+      "generalPartners": [
+        {
+          "name": "鼎佳汽车私募基金管理（北京）有限公司",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "managerLegalName": "鼎佳汽车私募基金管理（北京）有限公司",
+      "creditCode": "91220109MA170A8U99",
+      "registrationCode": "SEC240"
+    },
+    "partners": [
+      {
+        "name": "北京国创新能源汽车股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 30.77,
+        "existingInstitution": "6ce5c3ff9d5ae5873e477e51"
+      },
+      {
+        "name": "一汽资本控股有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 38.46,
+        "existingInstitution": "3ea8d767366608c3431df2b5"
+      },
+      {
+        "name": "吉林省吉盛资产管理有限责任公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 3.85,
+        "existingInstitution": "2882fe453c71b50d65abf315"
+      },
+      {
+        "name": "一汽资产经营管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 3.85,
+        "existingInstitution": "3534712a95d38db3848e942a"
+      },
+      {
+        "name": "南京浦口智汇新兴产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 15.38,
+        "existingInstitution": "70b39b32643152f120239301"
+      },
+      {
+        "name": "吉林省股权基金投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 3.85,
+        "existingInstitution": "b1bca20784bad8880c05b423"
+      },
+      {
+        "name": "珠海横琴新区雷石天盈股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.31,
+        "existingInstitution": "c49ec63bd97ba8d240ddfdbd"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "8174eb14a986ec67f990648b",
+    "fundName": "中电电子信息产业投资基金（天津）合伙企业（有限合伙）",
+    "managerName": "中电产融私募基金管理有限公司",
+    "managerId": "7d33268e7daf58d2ad5c92b6",
+    "sizeCny": 5217400000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225268669.PDF",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "河北中瓷电子科技股份有限公司",
+      "pages": "12–13",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-04-30/1225268668.PDF"
+      ],
+      "lpScope": "全部直接合伙人按结构图所列比例，未披露逐笔金额",
+      "generalPartners": [
+        {
+          "name": "中电产融私募基金管理有限公司",
+          "disclosedPercent": 0.24
+        }
+      ],
+      "creditCode": "91120118MA06ERAH58",
+      "managerLegalName": "中电产融私募基金管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "中电产业发展投资（天津）合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 19.17,
+        "existingInstitution": "6c6f67611b6b91cb2b1b09e7"
+      },
+      {
+        "name": "天津市海河产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 19.17,
+        "existingInstitution": "b58692cbd7106d2f4016c97e"
+      },
+      {
+        "name": "杭州公望元程投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 19.17,
+        "existingInstitution": "1e0d449012cc8524098a9804"
+      },
+      {
+        "name": "贵阳中天佳创投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 12.25,
+        "existingInstitution": "d0bca0afc80b02d20908b491"
+      },
+      {
+        "name": "青岛瀚凯国投投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 11.5,
+        "existingInstitution": "3fc6e5fc138104e90422b747"
+      },
+      {
+        "name": "平阴临创创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 6.92,
+        "existingInstitution": "17f140bfdf1296d9ac0d3d3f"
+      },
+      {
+        "name": "天津保税区投资控股集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 3.83,
+        "existingInstitution": "5e61cef827221bc2a5c4d241"
+      },
+      {
+        "name": "珠海格力金融投资管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 3.83,
+        "existingInstitution": "71c8d5568e2ee7cd67dc9355"
+      },
+      {
+        "name": "青岛黄河三角洲股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 3.83,
+        "existingInstitution": "8382296ecdb8d9f98f6481bd"
+      },
+      {
+        "name": "南京融和创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 0.1,
+        "existingInstitution": "ae3d569666d9d873d6d868fe"
       }
     ],
     "publishedStatistics": []

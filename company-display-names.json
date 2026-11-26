@@ -4945,5 +4945,50 @@
     "sources": [
       "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf"
     ]
+  },
+  "7ff35241d99d6cdaf62c4b8e": {
+    "name": "德龙激光",
+    "registeredName": "苏州德龙激光股份有限公司",
+    "aliases": [
+      "苏州德龙激光有限公司",
+      "德龙有限",
+      "688170"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-04-12/1212886063.PDF",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf",
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8115823&stockid=688170"
+    ]
+  },
+  "e2d1f553b3887f5e4c1aaeb7": {
+    "name": "元丰电控",
+    "registeredName": "武汉元丰汽车电控系统股份有限公司",
+    "aliases": [
+      "武汉元丰汽车电控系统有限公司",
+      "元丰有限"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf"
+    ]
+  },
+  "9ee02048d9dc20fcef4a23c2": {
+    "name": "大连藏龙",
+    "registeredName": "大连藏龙光电子科技有限公司",
+    "aliases": [
+      "大连藏龙光电子"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-08-20/1220908322.PDF"
+    ]
+  },
+  "1f09683791e11eda4b9373d7": {
+    "name": "雄安太芯",
+    "registeredName": "河北雄安太芯电子科技有限公司",
+    "aliases": [
+      "太芯电子"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-04-30/1225268669.PDF"
+    ]
   }
 }

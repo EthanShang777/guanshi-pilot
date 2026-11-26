@@ -2053,5 +2053,77 @@
     },
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202604/RAS_202604_282035C78E7831EAC547A48E2CBBC08DE9CF24.pdf",
     "reason": "2024-12-12全达兴及2024-12-26紫金港各以独立协议转让不同老股。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:bd437489647e6aa6f39578",
+      "company_id": "co:cn_uscc:2588a3c7463bf722f12d1bda00d18639"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f6abf40f96c8272414c5c4",
+      "company_id": "co:cn_uscc:2588a3c7463bf722f12d1bda00d18639"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2024-08-20/1220908322.PDF",
+    "reason": "公开协议区分五方1.6亿元对标的出资及三方8228.5715万元收购烽火基金老股，两方同时参加。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f6abf40f96c8272414c5c4",
+      "company_id": "co:cn_uscc:2588a3c7463bf722f12d1bda00d18639"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:bd437489647e6aa6f39578",
+      "company_id": "co:cn_uscc:2588a3c7463bf722f12d1bda00d18639"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2024-08-20/1220908322.PDF",
+    "reason": "公开协议区分五方1.6亿元对标的出资及三方8228.5715万元收购烽火基金老股，两方同时参加。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:961499f1abde6d43f68a6d",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8d5ebe9c3e5ed1dfd11e28",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+    "reason": "西安基金与瑞安化工向元丰投资交割回购，以及元丰投资向两家员工平台转让是相反方向、独立协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8d5ebe9c3e5ed1dfd11e28",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:961499f1abde6d43f68a6d",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+    "reason": "西安基金与瑞安化工向元丰投资交割回购，以及元丰投资向两家员工平台转让是相反方向、独立协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:cb7526d065afb63c7a851f",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:19cfffeeb9bbd8ab90b8c8",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+    "reason": "股东会决议、受让方和工商登记不同，1月26日十一方和2月5日两方为独立交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:19cfffeeb9bbd8ab90b8c8",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:cb7526d065afb63c7a851f",
+      "company_id": "co:cn_uscc:0b8d880ce073ba801d83b7ee5af82a15"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
+    "reason": "股东会决议、受让方和工商登记不同，1月26日十一方和2月5日两方为独立交易。"
   }
 ]

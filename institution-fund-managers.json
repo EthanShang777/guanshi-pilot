@@ -201,7 +201,10 @@
   },
   "中电电子信息产业投资基金（天津）合伙企业（有限合伙）": {
     "brand": "中电基金",
-    "source": "https://www.36kr.com/p/1914514779180807"
+    "source": "https://www.36kr.com/p/1914514779180807",
+    "coManagers": [
+      "中电产融私募基金管理有限公司"
+    ]
   },
   "江苏高投毅达中小贰号创业投资合伙企业（有限合伙）": {
     "brand": "毅达资本",
@@ -2875,5 +2878,25 @@
   "中电科（珠海）产业投资基金合伙企业（有限合伙）": {
     "brand": "中电产融私募基金管理有限公司",
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202210/001146_20221019_Q4J2.pdf"
+  },
+  "苏州工业园区元禾重元贰号股权投资基金合伙企业（有限合伙）": {
+    "brand": "苏州工业园区元禾重元股权投资基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+  },
+  "南京市一汽创新基金投资管理中心（有限合伙）": {
+    "brand": "鼎佳汽车私募基金管理（北京）有限公司",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf"
+  },
+  "北京沃衍投资中心（有限合伙）": {
+    "brand": "北京沃衍资本管理中心（有限合伙）",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+  },
+  "无锡悦衍投资中心（有限合伙）": {
+    "brand": "北京沃衍资本管理中心（有限合伙）",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
+  },
+  "苏州沃洁股权投资合伙企业（有限合伙）": {
+    "brand": "北京沃衍资本管理中心（有限合伙）",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
   }
 }
