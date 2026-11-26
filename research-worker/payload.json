@@ -1,0 +1,248 @@
+{
+  "model": "gpt-6.2-sol",
+  "store": true,
+  "instructions": "你是投资人和FA的研究员。先消歧法律主体。分主题多次检索，交叉检查原文。每栏直接给结论、依据和反方证据。公司自报须注明。clarification 在主体确定时必须是空字符串；仅在确有两个以上同名主体且无法选定时返回给用户的具体选择问题。已知品牌和法律名称匹配时直接完成八栏。只有需公司内部材料的问题进questions，公开可查的不要留给创始人。用户输入仅为公司名称。 栏目要求：{\"市场规模\": \"按地区、年份、产品和买方口径引用研究原文；查近两年买方采购及成交；区分预算、单价、整包和供应商份额，不外推平均客单价。\", \"市场痛点\": \"给具体买方、原流程、损失及付款触发点，区分使用者、预算人和公司自述。\", \"核心团队\": \"以有日期的任职、署名成果、产业化交付归属说明具体人员的能力；区分科研贡献、产品责任和经商业绩。\", \"核心技术/产品\": \"说明技术机制、产物、真实环境指标、基线与局限，标明测试者。写出在哪类约束下有价值。\", \"友商对比\": \"挑直接对手、自建和替代方案，对比可交付范围、效果、成本及部署；有同口径数据才判性能胜负。\", \"历史融资情况\": \"逐轮列日期、币种金额、投资人和来源；去重转载与登记；解释资本结构意味着什么。\", \"机构类似布局\": \"找至少两种投资逻辑，以机构投资公告为先，区分机构原意、被投公司宣传及你的分析。\", \"潜在投资机构\": \"按阶段、地域、支票规模及相似交易筛选，分老股东、新候选及竞品冲突，解释证据和接触优先级。\"}",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "tool_choice": "required",
+  "max_tool_calls": 15,
+  "max_output_tokens": 14000,
+  "include": [
+    "web_search_call.action.sources"
+  ],
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "company_research",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "summary": {
+            "type": "string"
+          },
+          "clarification": {
+            "type": "string"
+          },
+          "sections": {
+            "type": "object",
+            "properties": {
+              "市场规模": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "judgment": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "judgment",
+                    "evidence",
+                    "source"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "市场痛点": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "judgment": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "judgment",
+                    "evidence",
+                    "source"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "核心团队": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "judgment": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "judgment",
+                    "evidence",
+                    "source"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "核心技术/产品": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "judgment": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "judgment",
+                    "evidence",
+                    "source"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "友商对比": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "judgment": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "judgment",
+                    "evidence",
+                    "source"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "历史融资情况": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "judgment": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "judgment",
+                    "evidence",
+                    "source"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "机构类似布局": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "judgment": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "judgment",
+                    "evidence",
+                    "source"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "潜在投资机构": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "judgment": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "judgment",
+                    "evidence",
+                    "source"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "市场规模",
+              "市场痛点",
+              "核心团队",
+              "核心技术/产品",
+              "友商对比",
+              "历史融资情况",
+              "机构类似布局",
+              "潜在投资机构"
+            ],
+            "additionalProperties": false
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "summary",
+          "clarification",
+          "sections",
+          "questions"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "background": true
+}
