@@ -3192,5 +3192,86 @@
       "amount": "近亿元",
       "investors_json": "[{\"name\":\"东方富海\",\"role\":\"领投\",\"amount\":null},{\"name\":\"纪源资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"徐汇资本\",\"role\":null,\"amount\":null},{\"name\":\"德同资本\",\"role\":null,\"amount\":null},{\"name\":\"赛智伯乐\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:502a4bb639700d0d6360ad98d9718cc1bc4b939d94ab2e48deca9a0bab23d9aa",
+    "company_id": "co:full_legal_name:09aeb18b741830eb5ea7dbe6eaf1039e",
+    "day": "2026-10-19",
+    "source": "https://m.jiemian.com/article/15205065.html",
+    "expected": {
+      "round": "B轮",
+      "amount": "15亿人民币",
+      "investors_json": "[{\"name\":\"和利资本\",\"role\":null,\"amount\":null},{\"name\":\"武岳峰科创\",\"role\":null,\"amount\":null},{\"name\":\"泰达科投\",\"role\":null,\"amount\":null},{\"name\":\"玖兆投资\",\"role\":null,\"amount\":null},{\"name\":\"瑞芯微\",\"role\":null,\"amount\":null},{\"name\":\"盟海投资\",\"role\":null,\"amount\":null},{\"name\":\"睿势基金\",\"role\":null,\"amount\":null},{\"name\":\"联和资本\",\"role\":null,\"amount\":null},{\"name\":\"胜宏科技\",\"role\":null,\"amount\":null},{\"name\":\"越秀产业基金\",\"role\":null,\"amount\":null},{\"name\":\"领庆投资\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "A2轮",
+      "amount": "近15亿元",
+      "investors_json": "[{\"name\":\"和利资本\",\"role\":null,\"amount\":null},{\"name\":\"武岳峰科创\",\"role\":null,\"amount\":null},{\"name\":\"泰达科投\",\"role\":null,\"amount\":null},{\"name\":\"玖兆投资\",\"role\":null,\"amount\":null},{\"name\":\"瑞芯微\",\"role\":null,\"amount\":null},{\"name\":\"盟海投资\",\"role\":null,\"amount\":null},{\"name\":\"睿势基金\",\"role\":null,\"amount\":null},{\"name\":\"联和资本\",\"role\":null,\"amount\":null},{\"name\":\"胜宏科技\",\"role\":null,\"amount\":null},{\"name\":\"越秀产业基金\",\"role\":null,\"amount\":null},{\"name\":\"领庆投资\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:9a586ad51e8aa226edf20c83ee84acef2c8e25c2fcaa45eba9125e643916356a",
+    "company_id": "co:full_legal_name:c9dbeb105c5c64515eeed6175461942a",
+    "day": "2022-03-09",
+    "source": "https://shunwei.com/news/2119",
+    "expected": {
+      "round": "B轮",
+      "amount": "超5000万美元",
+      "investors_json": "[{\"name\":\"源码资本\",\"role\":null,\"amount\":null},{\"name\":\"美团龙珠\",\"role\":null,\"amount\":null},{\"name\":\"钟鼎资本\",\"role\":null,\"amount\":null},{\"name\":\"阿里巴巴\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null},{\"name\":\"高瓴创投\",\"role\":null,\"amount\":null},{\"name\":\"高瓴资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "超5000万美元",
+      "investors_json": "[{\"name\":\"源码资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"阿里巴巴\",\"role\":null,\"amount\":null},{\"name\":\"美团龙珠\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":\"追加投资\",\"amount\":null},{\"name\":\"高瓴创投\",\"role\":\"追加投资\",\"amount\":null},{\"name\":\"钟鼎资本\",\"role\":\"追加投资\",\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:478bccb72eba2d97eb9303282efb819c51306d028ab50aa536de4a95ecec5b56",
+    "company_id": "co:full_legal_name:c9dbeb105c5c64515eeed6175461942a",
+    "day": "2026-03-25",
+    "source": "https://www.chinalifeinvest.com/invest/report/2603/0035-1.htm",
+    "expected": {
+      "round": "C轮",
+      "amount": "近1亿美元",
+      "investors_json": "[{\"name\":\"国寿资本\",\"role\":null,\"amount\":null},{\"name\":\"清流资本\",\"role\":null,\"amount\":null},{\"name\":\"源码资本\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "近1亿美元",
+      "investors_json": "[{\"name\":\"国寿双碳基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"清流资本\",\"role\":null,\"amount\":null},{\"name\":\"源码资本\",\"role\":null,\"amount\":null},{\"name\":\"顺为资本\",\"role\":null,\"amount\":null}]"
+    },
+    "final_day": "2026-03-23"
+  },
+  {
+    "event_id": "financing_event:4a8ad1f286d0bf7839fcde9d186d2e7b665bcf9bde3a7af51b603b9c08981802",
+    "company_id": "",
+    "day": "2022-03-09",
+    "source": "https://shunwei.com/news/2119",
+    "expected": {
+      "round": "B轮",
+      "amount": "超5000万美元",
+      "investors_json": "[{\"name\":\"源码资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"钟鼎资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"顺为资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"高瓴创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"美团龙珠\",\"role\":null,\"amount\":null},{\"name\":\"阿里巴巴\",\"role\":null,\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "超5000万美元",
+      "investors_json": "[{\"name\":\"源码资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"钟鼎资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"顺为资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"高瓴创投\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"美团龙珠\",\"role\":null,\"amount\":null},{\"name\":\"阿里巴巴\",\"role\":null,\"amount\":null}]"
+    }
+  },
+  {
+    "event_id": "financing_event:ebcee861d3ed300a0f495fb1747dafeda12b3a3de269e5cfca94a8b7d01dd26d",
+    "company_id": "",
+    "day": "2026-03-23",
+    "source": "https://www.chinalifeinvest.com/invest/report/2603/0035-1.htm",
+    "expected": {
+      "round": "C轮",
+      "amount": "近1亿美元",
+      "investors_json": "[{\"name\":\"国寿双碳基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"清流资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"源码资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"顺为资本\",\"role\":\"跟投\",\"amount\":null}]"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "近1亿美元",
+      "investors_json": "[{\"name\":\"国寿双碳基金\",\"role\":\"领投\",\"amount\":null},{\"name\":\"清流资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"源码资本\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"顺为资本\",\"role\":\"跟投\",\"amount\":null}]"
+    }
   }
 ]
