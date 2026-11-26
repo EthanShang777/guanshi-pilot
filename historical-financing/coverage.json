@@ -6102,6 +6102,262 @@
           "可投余额"
         ]
       }
+    },
+    {
+      "institution": "MaxBC十月首周及松竹和MYSC出资链",
+      "checked_on": "2026-11-26",
+      "scope": "收束10月1至4日所有剩余目录点位，原始披露优先，分别记交易发生月份、融资统计口径和基金证据",
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000019.000163481.html",
+        "https://prtimes.jp/main/html/rd/p/000000018.000104108.html",
+        "https://www.venturesquare.net/en/1117493/",
+        "https://murf.ai/blog/series-a-announcement",
+        "https://es.linkedin.com/pulse/cites-en-acci%C3%B3n-cites-zp67f",
+        "https://presto.com/presto-raises-10-million-to-accelerate-voice-ai-leadership/"
+      ],
+      "candidate_count": 32,
+      "new_count": 15,
+      "new_october_count": 6,
+      "batch": "2026-11-26-first-week-reconciled-143.csv",
+      "event_reviews": {
+        "Sinseongo": {
+          "status": "十月核实新增",
+          "event": "20b31222ffeb886f58c92ed9",
+          "archived_day": "2026-10-01",
+          "source": "https://www.venturesquare.net/en/1117493/"
+        },
+        "J Dragon Games": {
+          "status": "十月核实新增",
+          "event": "60481cf281586251a428c54a",
+          "archived_day": "2026-10-02",
+          "source": "https://www.yna.co.kr/view/AKR20261002052500017"
+        },
+        "Romancive": {
+          "status": "十月核实新增",
+          "event": "120031af9f63539c8388dafc",
+          "archived_day": "2026-10-02",
+          "source": "https://www.hankyung.com/article/202610029442r"
+        },
+        "Topdog": {
+          "status": "核实为较早月份",
+          "event": "09f9df8348f5cb06ca73f597",
+          "archived_day": "2026-09-23",
+          "source": "https://www.prnewswire.com/news-releases/topdog-raises-2-5-million-seed-financing-to-scale-real-time-multiplayer-gaming-302887635.html"
+        },
+        "Murf AI": {
+          "status": "核实为较早月份",
+          "event": "71ac82b0c3e4737e27a6d11f",
+          "archived_day": "2022-09-21",
+          "source": "https://murf.ai/blog/series-a-announcement"
+        },
+        "Circulayo": {
+          "status": "十月核实新增",
+          "event": "86bd1252153507c07e206b2f",
+          "archived_day": "2026-10",
+          "source": "https://www.prmoment.com/pr-news-october-2026/prova-invests-in-circular-economy-saas-firm-circulayo"
+        },
+        "SE Innovations": {
+          "status": "核实为较早月份",
+          "event": "f287bbab790df885f963a039",
+          "archived_day": "2026-09-30",
+          "source": "https://view.asiae.co.kr/en/article/2026093011075712722"
+        },
+        "MOT": {
+          "status": "十月核实新增",
+          "event": "78c22a8c9b55c140b4259034",
+          "archived_day": "2026-10-02",
+          "source": "https://prtimes.jp/main/html/rd/p/000000019.000163481.html"
+        },
+        "Neocrop": {
+          "status": "十月核实新增",
+          "event": "ef7e188383e771a9edfa051b",
+          "archived_day": "2026-10-06",
+          "source": "https://www.startupjournal.io/article/neocrop-amplia-ronda-seed-us-2-75-millones-trigo-alto-en-fibra-cites"
+        },
+        "Centinel": {
+          "status": "核实为较早月份",
+          "event": "07d38e79ef90a0f9bb3bd6b5",
+          "archived_day": "2026-04",
+          "source": "https://capital-riesgo.es/en/articles/centinel-raises-1-2m-to-automate-accounting-for-large-enterprises-participants-include-boost-capital-partners-abac-capital-and-lanai-vc/"
+        },
+        "Presto": {
+          "status": "核实为较早月份",
+          "event": "be484d7511d6d52a084e5f3e",
+          "archived_day": "2026-09-28",
+          "source": "https://presto.com/presto-raises-10-million-to-accelerate-voice-ai-leadership/"
+        },
+        "ShengShu": {
+          "status": "已有交易，补充来源",
+          "event": "7e9ad73d5d62972a3ffde92a",
+          "archived_day": "2026-04-10",
+          "source": "https://www.genspi.com/en/news/series-b-funding/"
+        },
+        "UIN": {
+          "status": "已有交易，补充来源",
+          "event": "db54064849f975a4b0a7e8eb",
+          "archived_day": "2026-09-03",
+          "source": "https://www.forbesuruguay.com/negocios/levantaron-us-2-millones-startup-ayuda-bancos-fintechs-convertir-transacciones-habitos-n97055"
+        },
+        "Extend Robotics": {
+          "status": "已有交易，补充来源",
+          "event": "3fc06b59b5914522a89de8c0",
+          "archived_day": "2026-09-28",
+          "source": "https://www.extendrobotics.com/post/extend-robotics-raises-2-6-million-to-let-manufacturers-hire-robots-by-the-outcome-not-buy-them-by"
+        },
+        "Zenithon": {
+          "status": "已有交易，补充来源",
+          "event": "cb8e0cd429d62c1fe2870a0a",
+          "archived_day": "2026-09-30",
+          "source": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-zenithon-ai-on-dollar10-million-seed-financing.html"
+        },
+        "Walapay": {
+          "status": "已有交易，补充来源",
+          "event": "5008076e20da4db8df95840b",
+          "archived_day": "2026-10-01",
+          "source": "https://www.businesswire.com/news/home/20261001479192/en/"
+        },
+        "OSCP": {
+          "status": "已有交易，补充披露金额",
+          "event": "8b00830956b42cd23872c094",
+          "archived_day": "2026-10-01",
+          "source": "https://www.oscp.com/news/oscp-closes-series-financing-led-new-science-ventures"
+        },
+        "Foundational": {
+          "status": "已有交易，补充来源",
+          "event": "3466f75ddba0ff33e2cd1281",
+          "archived_day": "2026-10-01",
+          "source": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-foundational-on-pound82-million-pre-seed-financing.html"
+        },
+        "Deepslate": {
+          "status": "已有交易，补充来源",
+          "event": "351b0e48eb25c82f7e38ee80",
+          "archived_day": "2026-10-02",
+          "source": "https://www.ypog.law/en/press/deal-update-42cap-keen-venture-partners-dutch-founders-fund-amberra-nrw.bank-haufe-group-ventures-ventech-und-jupus2"
+        },
+        "Charter Space": {
+          "status": "已有交易",
+          "event": "7fb5e9c736cf63a0bd52c014",
+          "archived_day": "2026-09-30",
+          "source": "https://www.charter.space/news/seed-round-2026"
+        },
+        "Bangalore Watch Company": {
+          "status": "已有交易",
+          "event": "78b0e45b21cf4abf5e97d915",
+          "archived_day": "2026-09-30",
+          "source": "https://www.bangalorewatchco.in/blogs/press-release"
+        },
+        "enso": {
+          "status": "已有交易",
+          "event": "69450f08c34b83b36d8f2909",
+          "archived_day": "2026-10-01",
+          "source": "https://forbes.co.il/mickey-haslavsky-enso-ai-startup-raises-15-million-dollars-moretech-ventures/"
+        },
+        "Zaperon": {
+          "status": "已有交易",
+          "event": "620a025ed448a28fffff713a",
+          "archived_day": "2026-10-01",
+          "source": "https://www.zaperon.com/blog/zaperon-raises-750k-in-seed-funding-to-advance-its-unified-cybersecurity-platform-for-the-agentic-ai-era"
+        },
+        "Satlyt": {
+          "status": "已有交易",
+          "event": "d5881b2dd0108bd01ddfb51f",
+          "archived_day": "2026-10-01",
+          "source": "https://spaceinafrica.com/2026/10/01/satlyt-raises-usd-8-million-seed-to-turn-satellites-into-virtual-ai-data-centers/"
+        },
+        "Armadin": {
+          "status": "已有交易",
+          "event": "54f8ea43efb1a61023d3e22d",
+          "archived_day": "2026-10-01",
+          "source": "https://www.prnewswire.com/news-releases/armadin-raises-255-5-million-series-b-to-scale-effective-autonomous-security-302895278.html"
+        },
+        "Volantis": {
+          "status": "已有交易",
+          "event": "25b5727187399aaf23e6b29e",
+          "archived_day": "2026-10-01",
+          "source": "https://www.prnewswire.com/news-releases/volantis-raises-88m-series-a-to-demolish-the-ai-memory-wall-with-photonics-302895940.html"
+        },
+        "Voltaback": {
+          "status": "已有交易",
+          "event": "6300872b587381b71bd65a31",
+          "archived_day": "2026-10-01",
+          "source": "https://www.425ppm.com/presse/communiques/communique-de-presse-voltaback-1-octobre-2026"
+        },
+        "Computis": {
+          "status": "已有交易",
+          "event": "02ff250e901dedd22c8770d9",
+          "archived_day": "2026-10-01",
+          "source": "https://www.computis.it/blog/computis-round-pre-seed-2-milioni/"
+        },
+        "Photon": {
+          "status": "已有交易",
+          "event": "f9c7455298f370bfee9dfd0f",
+          "archived_day": "2026-10-01",
+          "source": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
+        },
+        "Parakeet Health": {
+          "status": "已有交易",
+          "event": "f060ed2e3a1e815fde5a773a",
+          "archived_day": "2026-10-01",
+          "source": "https://parakeethealth.com/blog/parakeet-health-raises-10-million-series-a-following-10x-growth-and-rapid-enterprise-adoption"
+        },
+        "doxx.net": {
+          "status": "已有交易",
+          "event": "6a18192f3eaa7bf31cb8e040",
+          "archived_day": "2026-10-01",
+          "source": "https://a16z.com/announcement/investing-in-doxxnet/"
+        },
+        "PERPTools": {
+          "status": "确认过往两笔代币融资；股权范围排除",
+          "archived_day": "2026-10-01",
+          "source": "https://docs.perptools.ai/docs/introduction/what-is-perptools",
+          "detail": "十月是两笔过往代币融资的对外披露；种子前300万美元、种子500万美元，实际日期范围及股权状态不混入"
+        }
+      },
+      "portfolios": [
+        {
+          "name": "松竹ベンチャーズ1号投資事業組合",
+          "manager": "松竹ベンチャーズ株式会社",
+          "lp": "松竹株式会社",
+          "size": {
+            "currency": "JPY",
+            "value": 1000000000,
+            "basis": "2022年设立阶段访谈规模"
+          },
+          "sources": [
+            "https://prtimes.jp/main/html/rd/p/000000019.000163481.html",
+            "https://prtimes.jp/main/html/rd/p/000000018.000104108.html",
+            "https://diamond.jp/articles/-/333798",
+            "https://www.firstcvc.jp/story/shochiku-tobita"
+          ],
+          "events": [
+            "78c22a8c9b55c140b4259034",
+            "c0bba2251f24511193d66d0f"
+          ],
+          "pending": [
+            "当前规模",
+            "逐笔实投",
+            "可投余额"
+          ]
+        },
+        {
+          "name": "어 모어 뷰티풀 챌린지 2호",
+          "manager": "MYSC",
+          "funder": "Amorepacific",
+          "sources": [
+            "https://www.venturesquare.net/en/1117493/"
+          ],
+          "events": [
+            "20b31222ffeb886f58c92ed9"
+          ],
+          "pending": [
+            "法定注册全称",
+            "总规模",
+            "合伙人份额",
+            "实际出资",
+            "可投余额"
+          ]
+        }
+      ]
     }
   ]
 }
