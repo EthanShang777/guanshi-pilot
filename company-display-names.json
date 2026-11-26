@@ -4215,5 +4215,47 @@
     "sources": [
       "https://pdf.dfcfw.com/pdf/H2_AN202309261599899683_1.pdf"
     ]
+  },
+  "3398ed9da0e1fb3e3de29bc2": {
+    "name": "天海氢能",
+    "registeredName": "北京天海氢能装备有限公司",
+    "aliases": [
+      "北京天海氢能"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0829/2025082903110_c.pdf"
+    ]
+  },
+  "881f4799c2c414dfa015f56c": {
+    "name": "钛灵特",
+    "registeredName": "无锡钛灵特能源科技有限公司",
+    "aliases": [
+      "无锡钛灵特"
+    ],
+    "sources": [
+      "https://www.allbrightlaw.com/CN/10454/45a0c99d1576e803.aspx"
+    ]
+  },
+  "a24e1944edca24839a61f6e9": {
+    "name": "三帝科技",
+    "registeredName": "北京三帝科技股份有限公司",
+    "aliases": [
+      "北京三帝科技",
+      "3DPTEK"
+    ],
+    "sources": [
+      "https://www.donews.com/news/detail/8/6014122.html"
+    ]
+  },
+  "6dd8db3632437ff35c04e3b2": {
+    "name": "山东未来机器人",
+    "registeredName": "山东未来机器人股份有限公司",
+    "aliases": [
+      "山东未来机器人有限公司",
+      "深海未来机器人"
+    ],
+    "sources": [
+      "https://m.pedaily.cn/vc/invest/f2747-r3134-v108630-c315"
+    ]
   }
 }

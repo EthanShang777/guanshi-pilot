@@ -11471,20 +11471,23 @@
     "fundName": "上海具身智创创业投资合伙企业（有限合伙）",
     "managerName": "上海孚腾私募基金管理有限公司",
     "managerId": "85bebcb96ef476df7e0cab9d",
-    "sizeCny": 565100000,
+    "sizeCny": 661000000,
     "capitalBasis": "认缴规模",
-    "otherLpCount": 0,
+    "otherLpCount": null,
     "source": {
-      "url": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223100963.PDF",
-      "date": "2025-04-16",
+      "url": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202607/cb5c55_20260702_0FJ1.pdf",
+      "date": "2026-07-02",
       "dateKind": "公开文件披露日",
-      "issuer": "华培数能合伙协议公告",
-      "pages": "第11至12页",
+      "issuer": "上海国投债券核查意见",
+      "pages": "穿透投资表第19、143页",
       "lpSources": [
+        "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260420/a7d644d0f0dd41678d6544801932ceac.PDF",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-05-14/245205_20260514_4OQ4.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-16/1223100963.PDF",
         "https://epaper.cs.com.cn/zgzqb/html/2025-05/21/nw.D110000zgzqb_20250521_2-B018.htm",
         "https://static.cninfo.com.cn/finalpage/2026-04-24/1225164489.PDF"
       ],
-      "lpScope": "备案公告已核成立，认缴5.651亿元，13名LP和2名GP；2025年报仅披露华培实缴300万元。",
+      "lpScope": "最新基金规模披露为6.61亿元；合伙人名单含历次可核披露，扩募后全表待核。除国孚领航与芯联集成外，其余认缴额沿用2025年设立公告，保留原始时点。",
       "generalPartners": [
         {
           "name": "上海孚腾私募基金管理有限公司",
@@ -11509,86 +11512,341 @@
           }
         ]
       },
-      "creditCode": "91310115MAEFE5J15G"
+      "creditCode": "91310115MAEFE5J15G",
+      "historicalPartnershipSummary": {
+        "sizeCny": 565100000,
+        "date": "2025-04-16",
+        "url": "https://static.cninfo.com.cn/finalpage/2025-04-16/1223100963.PDF",
+        "partners": [
+          {
+            "name": "上海国孚领航投资合伙企业（有限合伙）",
+            "disclosedContributionCny": 250000000,
+            "disclosedPercent": 44.24
+          },
+          {
+            "name": "上海浦东引领区投资中心（有限合伙）",
+            "disclosedContributionCny": 130000000,
+            "disclosedPercent": 23.005
+          },
+          {
+            "name": "上海张江科技创业投资有限公司",
+            "disclosedContributionCny": 52000000,
+            "disclosedPercent": 9.202
+          },
+          {
+            "name": "上海上汽创远创业投资合伙企业（有限合伙）",
+            "disclosedContributionCny": 30000000,
+            "disclosedPercent": 5.309
+          },
+          {
+            "name": "上海万昂投资管理有限公司",
+            "disclosedContributionCny": 28000000,
+            "disclosedPercent": 4.955
+          },
+          {
+            "name": "北海毅伯私募基金合伙企业（有限合伙）",
+            "disclosedContributionCny": 20000000,
+            "disclosedPercent": 3.539
+          },
+          {
+            "name": "无锡沂景股权投资合伙企业（有限合伙）",
+            "disclosedContributionCny": 10000000,
+            "disclosedPercent": 1.77
+          },
+          {
+            "name": "上海普陀科技投资有限公司",
+            "disclosedContributionCny": 28000000,
+            "disclosedPercent": 4.955
+          },
+          {
+            "name": "福氏工业（北京）有限公司",
+            "disclosedContributionCny": 5000000,
+            "disclosedPercent": 0.885
+          },
+          {
+            "name": "温州方道一期创业投资合伙企业（有限合伙）",
+            "disclosedContributionCny": 2000000,
+            "disclosedPercent": 0.354
+          },
+          {
+            "name": "温州成乔一期创业投资合伙企业（有限合伙）",
+            "disclosedContributionCny": 3000000,
+            "disclosedPercent": 0.531
+          },
+          {
+            "name": "上海观睿福祥企业咨询管理合伙企业（有限合伙）",
+            "disclosedContributionCny": 1000000,
+            "disclosedPercent": 0.177
+          },
+          {
+            "name": "上海华培数能科技（集团）股份有限公司",
+            "disclosedContributionCny": 5000000,
+            "disclosedPercent": 0.885
+          }
+        ]
+      },
+      "additionalPaidContributionSources": [
+        {
+          "url": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260420/a7d644d0f0dd41678d6544801932ceac.PDF",
+          "date": "2026-04-21",
+          "dateKind": "公开文件披露日",
+          "partners": [
+            {
+              "name": "芯联集成电路制造股份有限公司",
+              "paidCny": 12000000
+            }
+          ]
+        },
+        {
+          "url": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202607/cb5c55_20260702_0FJ1.pdf",
+          "date": "2026-07-02",
+          "dateKind": "公开文件披露日",
+          "partners": [
+            {
+              "name": "上海国孚领航投资合伙企业（有限合伙）",
+              "paidCny": 150000000
+            }
+          ]
+        }
+      ]
     },
     "partners": [
       {
         "name": "上海国孚领航投资合伙企业（有限合伙）",
         "disclosedContributionCny": 250000000,
-        "disclosedPercent": 44.24,
+        "disclosedPercent": null,
         "existingInstitution": "b25426e70b29e0803741f78e"
       },
       {
         "name": "上海浦东引领区投资中心（有限合伙）",
         "disclosedContributionCny": 130000000,
-        "disclosedPercent": 23.005,
+        "disclosedPercent": null,
         "existingInstitution": "6303c152eb8c0e61c7d2494e"
       },
       {
         "name": "上海张江科技创业投资有限公司",
         "disclosedContributionCny": 52000000,
-        "disclosedPercent": 9.202,
+        "disclosedPercent": null,
         "existingInstitution": "553086d16e6e76057585ada6"
       },
       {
         "name": "上海上汽创远创业投资合伙企业（有限合伙）",
         "disclosedContributionCny": 30000000,
-        "disclosedPercent": 5.309,
+        "disclosedPercent": null,
         "existingInstitution": "0ce939fb82eada17acd0fc51"
       },
       {
         "name": "上海万昂投资管理有限公司",
         "disclosedContributionCny": 28000000,
-        "disclosedPercent": 4.955,
+        "disclosedPercent": null,
         "existingInstitution": "eb447bb9504a73f7d90fcc35"
       },
       {
         "name": "北海毅伯私募基金合伙企业（有限合伙）",
         "disclosedContributionCny": 20000000,
-        "disclosedPercent": 3.539,
+        "disclosedPercent": null,
         "existingInstitution": "143dab364f5954653c287734"
       },
       {
         "name": "无锡沂景股权投资合伙企业（有限合伙）",
         "disclosedContributionCny": 10000000,
-        "disclosedPercent": 1.77,
+        "disclosedPercent": null,
         "existingInstitution": "8116a1900dd7530a1aad8cd4"
       },
       {
         "name": "上海普陀科技投资有限公司",
         "disclosedContributionCny": 28000000,
-        "disclosedPercent": 4.955,
+        "disclosedPercent": null,
         "existingInstitution": "1ef09c38764c783662bdfe72"
       },
       {
         "name": "福氏工业（北京）有限公司",
         "disclosedContributionCny": 5000000,
-        "disclosedPercent": 0.885,
+        "disclosedPercent": null,
         "existingInstitution": "76202cd390a73fb95449a08f"
       },
       {
         "name": "温州方道一期创业投资合伙企业（有限合伙）",
         "disclosedContributionCny": 2000000,
-        "disclosedPercent": 0.354,
+        "disclosedPercent": null,
         "existingInstitution": "d7aeba6bc660a42e6a2e2256"
       },
       {
         "name": "温州成乔一期创业投资合伙企业（有限合伙）",
         "disclosedContributionCny": 3000000,
-        "disclosedPercent": 0.531,
+        "disclosedPercent": null,
         "existingInstitution": "f93a6030ffc1b7bbece0e677"
       },
       {
         "name": "上海观睿福祥企业咨询管理合伙企业（有限合伙）",
         "disclosedContributionCny": 1000000,
-        "disclosedPercent": 0.177,
+        "disclosedPercent": null,
         "existingInstitution": "e8117c8d3672f991ea6c2b11"
       },
       {
         "name": "上海华培数能科技（集团）股份有限公司",
         "disclosedContributionCny": 5000000,
-        "disclosedPercent": 0.885,
+        "disclosedPercent": null,
         "existingInstitution": "7dcfbe959f5fc049f3359f63"
+      },
+      {
+        "name": "芯联集成电路制造股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": null,
+        "existingInstitution": "bb9223c82f52105dae7efd36"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c5c8317f394d8f2302cda888",
+    "fundName": "国机（苏州）先进装备与产业基础投资基金（有限合伙）",
+    "managerName": "国机（北京）投资基金管理有限责任公司",
+    "managerId": "576438fe3155a6597cc3f2ca",
+    "sizeCny": 2000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-08-11/245617_20260811_5ZJW.pdf",
+      "date": "2026-08-11",
+      "dateKind": "公开文件披露日",
+      "issuer": "苏州创投债券募集说明书",
+      "pages": "第20、21—22页",
+      "lpSources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0829/2025082903110_c.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-30/243054_20260430_2U31.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-08-26/245847_20260826_605R.pdf"
+      ],
+      "lpScope": "七家LP及一名GP认缴全表已核。苏州创投披露累计已投2.8亿元，表中1.6亿元仅为拟以本期债券资金置换的支出。",
+      "generalPartners": [
+        {
+          "name": "国机（北京）投资基金管理有限责任公司",
+          "disclosedContributionCny": 2000000
+        }
+      ],
+      "managerLegalName": "国机（北京）投资基金管理有限责任公司",
+      "filingCode": "SAMM39",
+      "filingDate": "2024-07-10",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-08-11/245617_20260811_5ZJW.pdf",
+        "date": "2026-08-11",
+        "dateKind": "公开文件披露日",
+        "partners": [
+          {
+            "name": "苏州创新投资集团有限公司",
+            "paidCny": 280000000
+          }
+        ]
+      },
+      "creditCode": "91320507MADLQRGL90"
+    },
+    "partners": [
+      {
+        "name": "中国机械工业集团有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 15,
+        "existingInstitution": "475d3aa5ef02191ec2ce3742"
+      },
+      {
+        "name": "国机资本控股有限公司",
+        "disclosedContributionCny": 298000000,
+        "disclosedPercent": 14.9,
+        "existingInstitution": "a4f4fdce63705a661f5c40d9"
+      },
+      {
+        "name": "国调二期协同发展基金股份有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 30,
+        "existingInstitution": "b6273fe81ad59dd3e8a22ad5"
+      },
+      {
+        "name": "苏州创新投资集团有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "af60c2c6dbe482b419d99da3"
+      },
+      {
+        "name": "苏州创元投资发展（集团）有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "979784e831e27a4c24727536"
+      },
+      {
+        "name": "苏州市相城二期新兴产业创业投资中心（有限合伙）",
+        "disclosedContributionCny": 120000000,
+        "disclosedPercent": 6,
+        "existingInstitution": "7edcef9a50717b2546548117"
+      },
+      {
+        "name": "苏州市相城区永芳创业投资有限公司",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 4,
+        "existingInstitution": "c43864ad3494296da450b619"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2025-12-31",
+        "fundedCny": 1400000000,
+        "investedCny": 170000000,
+        "investments": 4,
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-30/243054_20260430_2U31.pdf"
+      }
+    ]
+  },
+  {
+    "fundId": "f8977f35575957f6fb9d3592",
+    "fundName": "华舆高新交控（芜湖）产业链投资基金合伙企业（有限合伙）",
+    "managerName": "中车国创（北京）私募基金管理有限公司",
+    "managerId": "ae2bce3933f4f0ac1dab144d",
+    "sizeCny": 3031000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www.crrcgc.cc/Portals/71/Uploads/Files/2023/12-28/638393793652876933.pdf",
+      "date": "2023-12-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "中国中车基金设立公告",
+      "pages": "第1—2页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-11-13/1225668443.PDF",
+        "https://static.sse.com.cn/disclosure/bond/announcement/corporate/c/new/2026-06-11/152960_20260611_X7SK.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0829/2025082903110_c.pdf"
+      ],
+      "lpScope": "四家LP及一名GP认缴结构见中国中车公告，拓荆科技财务顾问报告复核主体、信用代码和基金规模。",
+      "generalPartners": [
+        {
+          "name": "中车国创（北京）私募基金管理有限公司",
+          "disclosedContributionCny": 31000000
+        }
+      ],
+      "managerLegalName": "中车国创（北京）私募基金管理有限公司",
+      "creditCode": "91340200MAD9CHNT49"
+    },
+    "partners": [
+      {
+        "name": "中车资本管理有限公司",
+        "disclosedContributionCny": 900000000,
+        "disclosedPercent": 29.69,
+        "existingInstitution": "bd0fb22a11d0df7f262014d6"
+      },
+      {
+        "name": "国调二期协同发展基金股份有限公司",
+        "disclosedContributionCny": 900000000,
+        "disclosedPercent": 29.69,
+        "existingInstitution": "b6273fe81ad59dd3e8a22ad5"
+      },
+      {
+        "name": "安徽省新型基础设施建设基金有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 19.8,
+        "existingInstitution": "40b3fa2d59c70f52b056ab35"
+      },
+      {
+        "name": "安徽省三重一创产业发展二期基金有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 19.8,
+        "existingInstitution": "e98cbd1db1a1d53ec57edd27"
       }
     ],
     "publishedStatistics": []

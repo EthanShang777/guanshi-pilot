@@ -6690,5 +6690,31 @@
       "https://static.cninfo.com.cn/finalpage/2025-04-24/1223245929.PDF",
       "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-30/240418_20260430_DY05.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:f2fb6ff54a87fa81f7bf1a0313a7c27552e3770572d4e9d107f341c7d995e2a5",
+    "company_id": "co:full_legal_name:23f1cc21dd910ab47caee77d96c50046",
+    "day": "2025-10-16",
+    "source": "https://www.xenserobotics.com/zh/article/387",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "亿级人民币",
+      "investors_json": "[{\"name\":\"孚腾资本\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上海戈壁创投\",\"role\":null,\"amount\":null},{\"name\":\"元禾原点\",\"role\":null,\"amount\":null},{\"name\":\"彬复资本\",\"role\":null,\"amount\":null},{\"name\":\"理想汽车\",\"role\":null,\"amount\":null},{\"name\":\"科实资本\",\"role\":null,\"amount\":null},{\"name\":\"高瓴创投\",\"role\":null,\"amount\":null}]",
+      "date": "2025-10-16",
+      "date_key": "2025-10-16",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "亿级人民币",
+      "investors_json": "[{\"name\":\"上海具身智创创业投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"上海戈壁创投\",\"role\":null,\"amount\":null},{\"name\":\"元禾原点\",\"role\":null,\"amount\":null},{\"name\":\"彬复资本\",\"role\":null,\"amount\":null},{\"name\":\"理想汽车\",\"role\":null,\"amount\":null},{\"name\":\"科实资本\",\"role\":null,\"amount\":null},{\"name\":\"高瓴创投\",\"role\":null,\"amount\":null}]",
+      "date": "2025-10-16",
+      "date_key": "2025-10-16",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://www.innohere.com/ir/155238/holder.html",
+      "https://www.cls.cn/detail/2170949"
+    ]
   }
 ]

@@ -133,7 +133,7 @@
         for(const f of row.lpFundRelations){
           const p=el('p','');
           p.append(link('institution.html?id='+f.fundId,f.fundName+' →'),
-                   el('span','　'+f.disclosedPercent+'% · '+f.source.date));
+                   el('span','　'+[Number.isFinite(f.disclosedPercent)?f.disclosedPercent+'%':'',f.source.date].filter(Boolean).join(' · ')));
           details.append(p);
         }
         section.append(details);
@@ -145,9 +145,10 @@
         funds.append(el('h2',row.fundDisclosures.some(fund=>fund.fundId===id)?'有限合伙人（LP）':'旗下基金的有限合伙人（LP）'));
         for(const fund of row.fundDisclosures){
           const details=el('details','');
-          const count=fund.partners.length+fund.otherLpCount;
+          const count=fund.partners.length+(fund.otherLpCount ?? 0);
+          const countLabel=(fund.otherLpCount===null?'已披露 ':'')+count+' 位 LP';
           const heading=fund.fundId===id?'查看公开披露':fund.fundName;
-          details.append(el('summary',heading+' · '+count+' 位 LP'));
+          details.append(el('summary',heading+' · '+countLabel));
           if(fund.fundId!==id){
             details.append(link('institution.html?id='+fund.fundId,'基金档案 →'));
           }
@@ -160,12 +161,18 @@
             item.append(partner.existingInstitution
               ? link('institution.html?id='+partner.existingInstitution,partner.name)
               : el('span',partner.name));
-            const amount=(partner.disclosedContributionCny/10000).toLocaleString('zh-CN',{maximumFractionDigits:4});
-            item.append(el('small',' · '+fund.capitalBasis+' '+amount+' 万元 · '+partner.disclosedPercent+'%'));
+            const amounts=[];
+            if(Number.isFinite(partner.disclosedContributionCny)){
+              const amount=(partner.disclosedContributionCny/10000).toLocaleString('zh-CN',{maximumFractionDigits:4});
+              amounts.push(fund.capitalBasis+' '+amount+' 万元');
+            }
+            if(Number.isFinite(partner.disclosedPercent))amounts.push(partner.disclosedPercent+'%');
+            if(amounts.length)item.append(el('small',' · '+amounts.join(' · ')));
             list.append(item);
           }
           details.append(list);
           if(fund.otherLpCount)details.append(el('p','另有 '+fund.otherLpCount+' 位个人 LP，见原始披露。'));
+          if(fund.otherLpCount===null && fund.source.lpScope)details.append(el('p',fund.source.lpScope));
           const citation=el('p','');
           citation.append(link(fund.source.url,fund.source.issuer+' ↗'),el('small',' · '+fund.source.dateKind+' '+fund.source.date));
           details.append(citation);

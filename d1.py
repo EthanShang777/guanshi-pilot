@@ -1,4 +1,5 @@
 """D1 baseline transfer and verification for the financing master."""
+import atexit
 import hashlib
 import json
 import os
@@ -15,14 +16,36 @@ DIGEST = '35ae70491436ec6a9df1c0a7b0d59e70f0423effd89af93f6364c9418ea10996'
 
 FIELDS = 'date company_name primary_sector secondary_sector round investors_json amount valuation date_kind sources_json event_id company_id raw_company_key date_key sector sector_source'.split()
 
+_last_request_started = float('-inf')
+_query_usage = {}
+
+
+def pace_request():
+    global _last_request_started
+    interval = float(os.environ.get('D1_MIN_REQUEST_INTERVAL_SECONDS', '0'))
+    remaining = interval - (time.monotonic() - _last_request_started)
+    if remaining > 0:
+        time.sleep(remaining)
+    _last_request_started = time.monotonic()
+
+
 def api(path='', body=None):
     req=urllib.request.Request(BASE+path, data=json.dumps(body).encode() if body is not None else None,
                                headers={'Authorization':'Bearer '+os.environ['CF_TOKEN'],'Content-Type':'application/json'})
-    try:
-        with urllib.request.urlopen(req, timeout=90) as res:
-            obj=json.load(res)
-    except HTTPError as err:
-        raise RuntimeError(f'D1 HTTP {err.code}: '+err.read().decode()[:500]) from None
+    for attempt in range(2):
+        pace_request()
+        try:
+            with urllib.request.urlopen(req, timeout=90) as res:
+                obj = json.load(res)
+            break
+        except HTTPError as err:
+            with err:
+                if err.code != 429 or attempt:
+                    raise RuntimeError(f'D1 HTTP {err.code}: ' + err.read().decode()[:500]) from None
+                value = err.headers.get('Retry-After', '')
+                delay = int(value) if value.isdecimal() else 300
+            print(f'D1 API rate limited; retrying in {delay}s', flush=True)
+            time.sleep(delay)
     if not obj['success']: raise RuntimeError(obj['errors'])
     return obj['result']
 
@@ -32,8 +55,28 @@ def database(create=False):
     if len(found)!=1: raise RuntimeError('Expected one financing database')
     return '/'+found[0]['uuid']
 
+def report_query_usage():
+    if _query_usage:
+        print('D1 query usage: ' + ' '.join(
+            f'{key}={_query_usage.get(key, 0)}' for key in
+            ('queries', 'rows_read', 'rows_written', 'queries_without_complete_metrics')))
+
+
 def query(db,sql,params=()):
-    return api(db+'/query',{'sql':sql,'params':params})[0]['results']
+    result = api(db+'/query',{'sql':sql,'params':params})[0]
+    if os.environ.get('GITHUB_ACTIONS') == 'true':
+        if not _query_usage:
+            atexit.register(report_query_usage)
+        _query_usage['queries'] = _query_usage.get('queries', 0) + 1
+        meta = result.get('meta') or {}
+        counts = {key: meta.get(key) for key in ('rows_read', 'rows_written')}
+        for key, count in counts.items():
+            if isinstance(count, (int, float)):
+                _query_usage[key] = _query_usage.get(key, 0) + count
+        if None in counts.values():
+            key = 'queries_without_complete_metrics'
+            _query_usage[key] = _query_usage.get(key, 0) + 1
+    return result['results']
 
 def baseline():
     mode=os.environ['MODE']

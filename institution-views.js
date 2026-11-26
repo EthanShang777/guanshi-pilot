@@ -148,7 +148,7 @@
       for(const f of detail?.lpFundRelations){
         const p=el('p','');
         p.append(hrefLink('institution.html?id='+f.fundId,f.fundName+' →'),
-                 el('span','　'+f.disclosedPercent+'% · '+f.source.date));
+                 el('span','　'+[Number.isFinite(f.disclosedPercent)?f.disclosedPercent+'%':'',f.source.date].filter(Boolean).join(' · ')));
         details.append(p);
       }
       section.append(details);
