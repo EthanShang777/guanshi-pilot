@@ -5667,6 +5667,87 @@
           ]
         }
       }
+    },
+    {
+      "institution": "张江科投",
+      "checked_on": "2026-11-26",
+      "scope": "张科禾苗及张科垚坤两条公开组合线索，并沿椎元医学和慕灿科技核对历史融资；限所列公开披露",
+      "sources": [
+        "https://desk.sh.gov.cn/pdfpt/gzdt/20260731/2219365b41c94d90a1c6293aa2a139e0.html",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-02-12/688085_20260212_WE0I.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-07-02/1225404368.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498848.PDF",
+        "https://www.richenfunds.com/news/xing-fu-zi-ben-wan-cheng-dui-cae-hou-qi-zhi-xiu-mu-can-ke-ji-shou-lun-du-jia-tou-zi",
+        "https://richenfunds.com/news/xing-fu-zi-ben-huo-ban-qi-ye-mu-can-ke-ji-wan-cheng-a-lun-rong-zi-xing-fu-zi-ben-zhui-jia-tou-zi",
+        "https://www.mhplawyer.com/CN/06-13286.aspx",
+        "https://desk.sh.gov.cn/pdfpt/gzdt/20260805/866c8e4ea71b4d79829ccc311f49ff1b.html",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-05-14/245205_20260514_4OQ4.pdf",
+        "https://www.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-01-04/240463_20240104_BV35.pdf"
+      ],
+      "candidate_count": 13,
+      "existing_count": 0,
+      "pending_count": 5,
+      "new_count": 8,
+      "batch": "2026-11-26-zhangjiang-portfolio-140.csv",
+      "events": {
+        "椎元天使": "49ec90130275663ab3a24c27",
+        "椎元2025年6月增资": "efe030125eff2c584c9b0d53",
+        "椎元2026年1月增资": "3f3684e169828db1d9c1b613",
+        "椎元2026年2月增资": "528ea56f81c7410d97310fa7",
+        "椎元A+": "3bd61438020f23c239c97d3a",
+        "慕灿Pre-A": "988022c91b02e3650e3de162",
+        "慕灿A": "097bc1e3bc469ffff6127838",
+        "慕灿B": "497a14f89ddb7c2fb017c725"
+      },
+      "field_followup": [
+        {
+          "subject": "椎元医学",
+          "field": "2025年6月和2026年1月两次增资的基金逐笔出资",
+          "state": "已查待披露",
+          "sources": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-02/1225404368.PDF"
+          ],
+          "next_source": "跟踪股东追加出资公告及目标公司后续股权披露"
+        },
+        {
+          "subject": "慕灿科技",
+          "field": "2026年7月B轮与A+报道是否同笔",
+          "state": "报道口径有冲突",
+          "sources": [
+            "https://desk.sh.gov.cn/pdfpt/gzdt/20260805/866c8e4ea71b4d79829ccc311f49ff1b.html",
+            "https://www.sohu.com/a/1050004563_546816"
+          ],
+          "next_source": "直接查毅达、武发或公司原发与股权变更日期；暂无证据单列A+"
+        },
+        {
+          "subject": "格灿光电",
+          "field": "2026年9月签约增资的到账或交割",
+          "state": "已查待披露",
+          "sources": [
+            "https://static.cninfo.com.cn/finalpage/2026-09-15/1225566611.PDF"
+          ],
+          "next_source": "查恒道科技后续定期报告投资款及格灿股权变动"
+        },
+        {
+          "subject": "文景能源",
+          "field": "天使+轮和实际直接出资基金",
+          "state": "已见公开交易线索",
+          "sources": [
+            "https://t.cj.sina.com.cn/articles/view/6517029999/18471fc6f00101gn0c"
+          ],
+          "next_source": "查张江科投或公司原发、公司法律主体及股东变化"
+        },
+        {
+          "subject": "上海张科垚坤创业投资合伙企业（有限合伙）",
+          "field": "全体LP、逐笔出资及同口径可投余额",
+          "state": "已查待披露",
+          "sources": [
+            "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-05-14/245205_20260514_4OQ4.pdf",
+            "https://www.sse.com.cn/disclosure/bond/announcement/company/c/new/2024-01-04/240463_20240104_BV35.pdf"
+          ],
+          "next_source": "核对后续募集书、基金公告和上市出资方财报；管理规模及已知实缴单列"
+        }
+      ]
     }
   ]
 }

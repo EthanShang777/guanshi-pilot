@@ -2281,5 +2281,23 @@
     "sources": [
       "https://www.hifi.com/blog/hifi-raises-usd37m-series-a-to-build-the-infrastructure-for-tokenized-money"
     ]
+  },
+  "9ff174df504301d54d89ebd1": {
+    "name": "椎元医学",
+    "registeredName": "椎元医学技术（上海）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://desk.sh.gov.cn/pdfpt/gzdt/20260731/2219365b41c94d90a1c6293aa2a139e0.html"
+    ]
+  },
+  "f48ed52874e002731b4ef2d2": {
+    "name": "慕灿科技",
+    "registeredName": "上海慕灿信息科技有限公司",
+    "aliases": [
+      "慕灿CAE"
+    ],
+    "sources": [
+      "https://www.richenfunds.com/news/xing-fu-zi-ben-wan-cheng-dui-cae-hou-qi-zhi-xiu-mu-can-ke-ji-shou-lun-du-jia-tou-zi"
+    ]
   }
 }
