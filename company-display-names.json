@@ -3664,5 +3664,48 @@
     "sources": [
       "https://www.qimingvc.com/cn/news/202503-QM-cn"
     ]
+  },
+  "625171714d81e8e257e46e28": {
+    "name": "宝益科技",
+    "registeredName": "厦门宝益科技有限公司",
+    "aliases": [
+      "厦门宝益"
+    ],
+    "sources": [
+      "https://www.fjdaily.com/app/content/2023-08/29/content_2032821.html"
+    ]
+  },
+  "2e21f338edc0b9ef421a1981": {
+    "name": "同舟纵横",
+    "registeredName": "同舟纵横（厦门）流体技术有限公司",
+    "aliases": [
+      "Crossflow"
+    ],
+    "sources": [
+      "https://www.xyzq.com.cn/xysec/info/article/75c464dd168947e293e648d759512233"
+    ]
+  },
+  "5f69bfdc8a06f5ef184474be": {
+    "name": "赛尔特",
+    "registeredName": "厦门赛尔特电子股份有限公司",
+    "aliases": [
+      "厦门赛尔特电子有限公司"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf"
+    ]
+  },
+  "2ac89f6a1ffa77ae8f8cc15b": {
+    "name": "盛合晶微",
+    "registeredName": "盛合晶微半导体有限公司",
+    "aliases": [
+      "SJ Semiconductor Corporation",
+      "盛合晶微688820",
+      "中芯长电"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+      "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260420_10815741.shtml"
+    ]
   }
 }

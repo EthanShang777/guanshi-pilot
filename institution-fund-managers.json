@@ -2276,5 +2276,33 @@
   "上海国资国企综改试验私募基金合伙企业（有限合伙）": {
     "brand": "国新国同（杭州）股权投资有限公司",
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf"
+  },
+  "福建省金投金鹏创业投资基金合伙企业（有限合伙）": {
+    "brand": "福建省金投私募基金管理有限公司",
+    "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+  },
+  "福建福金信科创业投资合伙企业（有限合伙）": {
+    "brand": "福建省电子信息产业股权投资管理有限公司",
+    "source": "https://notice.10jqka.com.cn/api/pdf/d905fe7d3b0e2df8.pdf"
+  },
+  "北京中科创星硬科技中小企业创业投资合伙企业（有限合伙）": {
+    "brand": "中科创星",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202401311619794932_1.pdf"
+  },
+  "福建专精一号创业投资合伙企业（有限合伙）": {
+    "brand": "兴证资本",
+    "source": "https://www.fjdaily.com/app/content/2023-08/29/content_2032821.html"
+  },
+  "福建专精二号创业投资合伙企业（有限合伙）": {
+    "brand": "兴证资本",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf"
+  },
+  "厦门赛富创业投资合伙企业（有限合伙）": {
+    "brand": "厦门赛富创业投资管理有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202512251808015386_1.pdf"
+  },
+  "北京小米智造股权投资基金合伙企业（有限合伙）": {
+    "brand": "小米私募股权基金管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/688478_20260227_GLW8.pdf"
   }
 }

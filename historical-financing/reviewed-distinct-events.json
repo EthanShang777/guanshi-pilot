@@ -805,5 +805,53 @@
     },
     "source": "https://blog.fit2cloud.com/?p=1135",
     "reason": "发行人同日公告两笔独立融资及各自投资方"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9c4eb7539a700ec3ef511d",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "existing": {
+      "event_id": "financing_event:65eddfedf8d8366c66bbef88c6b1d57ba52bcf27d9ac854d07d843a374735aee",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "reason": "相同披露月的老股受让和公司发行分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:65eddfedf8d8366c66bbef88c6b1d57ba52bcf27d9ac854d07d843a374735aee",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:9c4eb7539a700ec3ef511d",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "reason": "相同披露月的老股受让和公司发行分别披露"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:c3149decd5be7b12bf0189747a1fffb03b60a78e639843134b3899a8a0500e1f",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f5f903005c185f3bb1bcd8",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "reason": "同一轮分别于3月和9月交割"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f5f903005c185f3bb1bcd8",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "existing": {
+      "event_id": "financing_event:c3149decd5be7b12bf0189747a1fffb03b60a78e639843134b3899a8a0500e1f",
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "reason": "同一轮分别于3月和9月交割"
   }
 ]

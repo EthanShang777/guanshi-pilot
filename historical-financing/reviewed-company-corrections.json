@@ -747,5 +747,120 @@
       "date_kind": "2026-11-10同期报道日，具体交割日及单笔金额未披露",
       "investors_json": "[{\"name\":\"上海力合算芯人工智能产业创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京百敖软件有限公司\",\"role\":null,\"amount\":null},{\"name\":\"深圳力合泓鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]"
     }
+  },
+  {
+    "event_id": "financing_event:e8269001e2036e9a3739416dc74facf26f4db94d8581e236ab41403d9706852b",
+    "round": "A轮",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "expected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体（江阴）有限公司",
+      "raw_company_key": "盛合晶微半导体(江阴)有限公司",
+      "investors_json": "[{\"name\":\"中芯国际\",\"role\":null,\"amount\":null},{\"name\":\"国家集成电路产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"高通创投\",\"role\":null,\"amount\":null}]",
+      "date": "2015-09-16",
+      "date_key": "2015-09-16",
+      "date_kind": "发行人官网披露日，实际到账日期未披露"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体有限公司",
+      "raw_company_key": "盛合晶微; SJ Semiconductor Corporation",
+      "investors_json": "[{\"name\":\"中芯国际\",\"role\":null,\"amount\":null},{\"name\":\"国家集成电路产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"高通创投\",\"role\":null,\"amount\":null}]",
+      "date": "2015-09-16",
+      "date_key": "2015-09-16",
+      "date_kind": "发行人官网披露日，实际到账日期未披露"
+    }
+  },
+  {
+    "event_id": "financing_event:4feda7470c770c3a0427bf6c0bfddb7f9a17acb0f289ad48d2653b21c7840d30",
+    "round": "B轮",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "expected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体（江阴）有限公司",
+      "raw_company_key": "盛合晶微半导体(江阴)有限公司",
+      "investors_json": "[]",
+      "date": "2021-04-29",
+      "date_key": "2021-04-29",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体有限公司",
+      "raw_company_key": "盛合晶微; SJ Semiconductor Corporation",
+      "investors_json": "[]",
+      "date": "2021-04-29",
+      "date_key": "2021-04-29",
+      "date_kind": "原档日期"
+    }
+  },
+  {
+    "event_id": "financing_event:dd79f74be1c0109c78a766f07b68a2daae8af148570b26b9f4a5f0c0d6bfedae",
+    "round": "C轮",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "expected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体（江阴）有限公司",
+      "raw_company_key": "盛合晶微半导体(江阴)有限公司",
+      "investors_json": "[{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾厚望\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"光大控股\",\"role\":null,\"amount\":null},{\"name\":\"华泰国际\",\"role\":null,\"amount\":null},{\"name\":\"国方创新\",\"role\":null,\"amount\":null},{\"name\":\"建信信托\",\"role\":null,\"amount\":null},{\"name\":\"建信股权\",\"role\":null,\"amount\":null},{\"name\":\"碧桂园创投\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null}]",
+      "date": "2021-09-30",
+      "date_key": "2021-09-30",
+      "date_kind": "增资协议签署日，2022年3月16日宣布全额交割"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体有限公司",
+      "raw_company_key": "盛合晶微; SJ Semiconductor Corporation",
+      "investors_json": "[{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾厚望\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"光大控股\",\"role\":null,\"amount\":null},{\"name\":\"华泰国际\",\"role\":null,\"amount\":null},{\"name\":\"国方创新\",\"role\":null,\"amount\":null},{\"name\":\"建信信托\",\"role\":null,\"amount\":null},{\"name\":\"建信股权\",\"role\":null,\"amount\":null},{\"name\":\"碧桂园创投\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null}]",
+      "date": "2021-09-30",
+      "date_key": "2021-09-30",
+      "date_kind": "增资协议签署日，2022年3月16日宣布全额交割"
+    }
+  },
+  {
+    "event_id": "financing_event:c3149decd5be7b12bf0189747a1fffb03b60a78e639843134b3899a8a0500e1f",
+    "round": "C+轮",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "expected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体（江阴）有限公司",
+      "raw_company_key": "盛合晶微半导体(江阴)有限公司",
+      "investors_json": "[{\"name\":\"TCL创投\",\"role\":null,\"amount\":null},{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"中芯熙诚\",\"role\":null,\"amount\":null},{\"name\":\"元禾厚望\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"兰璞创投\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"尚颀资本\",\"role\":null,\"amount\":null},{\"name\":\"普建基金\",\"role\":null,\"amount\":null},{\"name\":\"渶策资本\",\"role\":null,\"amount\":null},{\"name\":\"立丰创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-03-29",
+      "date_key": "2023-03-29",
+      "date_kind": "首批签约日期，招股书确认3月及9月合计完成5.24亿美元"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体有限公司",
+      "raw_company_key": "盛合晶微; SJ Semiconductor Corporation",
+      "investors_json": "[{\"name\":\"TCL创投\",\"role\":null,\"amount\":null},{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"中芯熙诚\",\"role\":null,\"amount\":null},{\"name\":\"元禾厚望\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"兰璞创投\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"尚颀资本\",\"role\":null,\"amount\":null},{\"name\":\"普建基金\",\"role\":null,\"amount\":null},{\"name\":\"渶策资本\",\"role\":null,\"amount\":null},{\"name\":\"立丰创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-03-29",
+      "date_key": "2023-03-29",
+      "date_kind": "首批签约日期，招股书确认3月及9月合计完成5.24亿美元"
+    }
+  },
+  {
+    "event_id": "financing_event:65eddfedf8d8366c66bbef88c6b1d57ba52bcf27d9ac854d07d843a374735aee",
+    "round": "定向股权融资",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+    "expected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体（江阴）有限公司",
+      "raw_company_key": "盛合晶微半导体(江阴)有限公司",
+      "investors_json": "[{\"name\":\"上海国资国企综改试验私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1977.5000万美元\"},{\"name\":\"Gnk Limited\",\"role\":null,\"amount\":\"7000.0000万美元\"},{\"name\":\"上海金浦晟际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":\"6825.0000万美元\"},{\"name\":\"上海孚腾芯飞企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":\"4725.0000万美元\"},{\"name\":\"上海新芯产业私募投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"4025.0000万美元\"},{\"name\":\"苏州厚望研鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2843.7500万美元\"},{\"name\":\"上海国孚领航投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2660.0000万美元\"},{\"name\":\"无锡产发科创基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"30625.0000万美元\"},{\"name\":\"社保基金中关村自主创新投资基金（北京）合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1400.0000万美元\"},{\"name\":\"上海成达一号商务咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1400.0000万美元\"},{\"name\":\"上海临港数科创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1015.0000万美元\"},{\"name\":\"上海临港策源创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1015.0000万美元\"},{\"name\":\"江阴滨江澄源投资集团有限公司\",\"role\":null,\"amount\":null},{\"name\":\"上海国际集团有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "发行人公告交割日，招股书核新增股东1.75美元/股"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+      "company_name": "盛合晶微半导体有限公司",
+      "raw_company_key": "盛合晶微; SJ Semiconductor Corporation",
+      "investors_json": "[{\"name\":\"上海国资国企综改试验私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1977.5000万美元\"},{\"name\":\"Gnk Limited\",\"role\":null,\"amount\":\"7000.0000万美元\"},{\"name\":\"上海金浦晟际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":\"6825.0000万美元\"},{\"name\":\"上海孚腾芯飞企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":\"4725.0000万美元\"},{\"name\":\"上海新芯产业私募投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"4025.0000万美元\"},{\"name\":\"苏州厚望研鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2843.7500万美元\"},{\"name\":\"上海国孚领航投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2660.0000万美元\"},{\"name\":\"无锡产发科创基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"30625.0000万美元\"},{\"name\":\"社保基金中关村自主创新投资基金（北京）合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1400.0000万美元\"},{\"name\":\"上海成达一号商务咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1400.0000万美元\"},{\"name\":\"上海临港数科创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1015.0000万美元\"},{\"name\":\"上海临港策源创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1015.0000万美元\"},{\"name\":\"江阴滨江澄源投资集团有限公司\",\"role\":null,\"amount\":null},{\"name\":\"上海国际集团有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "发行人公告交割日，招股书核新增股东1.75美元/股"
+    }
   }
 ]

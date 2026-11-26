@@ -6481,5 +6481,560 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "a76ccbedb0e95351b3d67232",
+    "fundName": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+    "managerName": "福建省金投私募基金管理有限公司",
+    "managerId": "7053f94a12ef2bbe3616cbca",
+    "sizeCny": 2000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+      "date": "2025-06-30",
+      "dateKind": "发行人报告期末",
+      "issuer": "福建金投公司债募集说明书",
+      "pages": "第63–64页",
+      "lpSources": [
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_SPSJ.pdf",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202408/047953_20240813_3J8E.pdf"
+      ],
+      "lpScope": "认缴20亿元，LP福建金投、GP金投私募，合计100%。报告期末披露的4.22467亿元为基金对外投资累计支出。",
+      "generalPartners": [
+        {
+          "name": "福建省金投私募基金管理有限公司",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "filingDate": "2023-12-13",
+      "creditCode": "91350102MAD22J7MX0",
+      "deployedAcrossInvestmentsCny": 422467000
+    },
+    "partners": [
+      {
+        "name": "福建省金融投资有限责任公司",
+        "disclosedContributionCny": 1980000000,
+        "disclosedPercent": 99.0,
+        "existingInstitution": "ea164f9bb5fda9d608bd89fd"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "663e57804425dd5cbbea9ef9",
+    "fundName": "福建福金信科创业投资合伙企业（有限合伙）",
+    "managerName": "福建省电子信息产业股权投资管理有限公司",
+    "managerId": "e913f09b7617e6021c97a51f",
+    "sizeCny": 300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://notice.10jqka.com.cn/api/pdf/d905fe7d3b0e2df8.pdf",
+      "date": "2025-12-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "合力泰设立及备案公告",
+      "pages": "原公告第4页及进展公告第1–2页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-12-02/1224840666.PDF"
+      ],
+      "lpScope": "实际已完成工商登记和备案，四名LP和一名GP，实缴金额待报告原件。",
+      "generalPartners": [
+        {
+          "name": "福建省电子信息产业股权投资管理有限公司",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "filingCode": "SBLA12",
+      "filingDate": "2025-12-26",
+      "creditCode": "91350111MAK3R4M042"
+    },
+    "partners": [
+      {
+        "name": "福建星网锐捷通讯股份有限公司",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 26.67,
+        "existingInstitution": "03ebc007487756552fff4657"
+      },
+      {
+        "name": "合力泰科技股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 16.67,
+        "existingInstitution": "8b2b8e0ffcc54faeeccbb739"
+      },
+      {
+        "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 90000000,
+        "disclosedPercent": 30.0,
+        "existingInstitution": "a76ccbedb0e95351b3d67232"
+      },
+      {
+        "name": "福州市创业投资有限责任公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "4f8576655f19a70196ba39f0"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "6c618ac14f38f33c75b9c275",
+    "fundName": "北京中科创星硬科技中小企业创业投资合伙企业（有限合伙）",
+    "managerName": "中科创星",
+    "managerId": "0f81e81abcd5a16fcd06890f",
+    "sizeCny": 2577000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202401311619794932_1.pdf",
+      "date": "2024-05-31",
+      "dateKind": "所引多项披露的历史核查时点",
+      "issuer": "中新集团募毕公告、福建金投公司债及陕建披露",
+      "pages": "中新集团第1页；福建金投2024募集说明书",
+      "lpSources": [
+        "https://epaper.cs.com.cn/zgzqb/html/2024-02/01/nw.D110000zgzqb_20240201_3-B028.htm",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_SPSJ.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975366.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9541202&stockid=600248",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10154685"
+      ],
+      "lpScope": "完成募集并更新备案的25.77亿元。三个具名LP的认缴和各自实缴见分时点文件；其余合伙人明细未齐。",
+      "generalPartners": [
+        {
+          "name": "北京中科创星创业投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 27000000
+        }
+      ],
+      "managerLegalName": "北京中科创星创业投资管理合伙企业（有限合伙）",
+      "knownPaidContributions": [
+        {
+          "name": "陕西建工集团股份有限公司",
+          "amountCny": 20000000,
+          "asOf": "2023-12-31",
+          "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10154685"
+        },
+        {
+          "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+          "amountCny": 70000000,
+          "asOf": "2024-05-31",
+          "source": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_SPSJ.pdf"
+        },
+        {
+          "name": "中新苏州工业园区开发集团股份有限公司",
+          "amountCny": 100000000,
+          "asOf": "2026-02-11",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975366.PDF"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "中新苏州工业园区开发集团股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": null,
+        "existingInstitution": "b975bdb914aadfd409f1ecca"
+      },
+      {
+        "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": null,
+        "existingInstitution": "a76ccbedb0e95351b3d67232"
+      },
+      {
+        "name": "陕西建工集团股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": null,
+        "existingInstitution": "fd216fe08ca84116abc8f341"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1d1de8947ccc7aa807aa98fb",
+    "fundName": "福建专精二号创业投资合伙企业（有限合伙）",
+    "managerName": "兴证资本",
+    "managerId": "7c77fa064bc43659a0fee661",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf",
+      "date": "2026-03-31",
+      "dateKind": "发行人出资表截至日",
+      "issuer": "赛尔特公开转让说明书",
+      "pages": "第39–40页",
+      "lpSources": [
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202408/047953_20240813_3J8E.pdf"
+      ],
+      "lpScope": "发行人核对各直接股东份额，本基金已实缴1亿元，单家实缴与认缴一致。",
+      "generalPartners": [
+        {
+          "name": "兴证创新资本管理有限公司",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "creditCode": "91350802MA8W12JX20",
+      "managerLegalName": "兴证创新资本管理有限公司",
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf",
+        "date": "2026-03-31",
+        "dateKind": "发行人出资表截至日",
+        "totalCny": 100000000,
+        "partners": [
+          {
+            "name": "福建龙头产业股权投资基金合伙企业（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "龙岩市华盛企业投资有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "兴证投资管理有限公司",
+            "paidCny": 20000000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "兴证创新资本管理有限公司",
+            "paidCny": 20000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "福建龙头产业股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 30.0,
+        "existingInstitution": "f86a9c39623f987d8bfce6b2"
+      },
+      {
+        "name": "龙岩市华盛企业投资有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 30.0,
+        "existingInstitution": "ef5b81515ee5aeafc91eaf56"
+      },
+      {
+        "name": "兴证投资管理有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "506577b5077dcfc8ef7d395c"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "d3687df715fa18433f995224",
+    "fundName": "福建专精三号创业投资合伙企业（有限合伙）",
+    "managerName": "兴证资本",
+    "managerId": "7c77fa064bc43659a0fee661",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf",
+      "date": "2026-03-31",
+      "dateKind": "发行人出资表截至日",
+      "issuer": "赛尔特公开转让说明书",
+      "pages": "第35–36页",
+      "lpSources": [
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202408/047953_20240813_3J8E.pdf"
+      ],
+      "lpScope": "发行人核对各直接股东份额，本基金已实缴1亿元，单家实缴与认缴一致。",
+      "generalPartners": [
+        {
+          "name": "兴证创新资本管理有限公司",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "creditCode": "91350181MACTP99E8R",
+      "managerLegalName": "兴证创新资本管理有限公司",
+      "paidContributionSource": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf",
+        "date": "2026-03-31",
+        "dateKind": "发行人出资表截至日",
+        "totalCny": 100000000,
+        "partners": [
+          {
+            "name": "福清市汇融创业投资集团有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "兴证投资管理有限公司",
+            "paidCny": 20000000
+          },
+          {
+            "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+            "paidCny": 20000000
+          },
+          {
+            "name": "陈军",
+            "paidCny": 10000000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "兴证创新资本管理有限公司",
+            "paidCny": 20000000
+          }
+        ]
+      },
+      "filingDate": "2023-10-30"
+    },
+    "partners": [
+      {
+        "name": "福清市汇融创业投资集团有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 30.0,
+        "existingInstitution": "fb149753ada422886c62319d"
+      },
+      {
+        "name": "兴证投资管理有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "506577b5077dcfc8ef7d395c"
+      },
+      {
+        "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "a76ccbedb0e95351b3d67232"
+      },
+      {
+        "name": "陈军",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 10.0,
+        "existingInstitution": "82c5d5d5242e5744de764079"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1644b8cb4bea3508e7f21d8e",
+    "fundName": "厦门赛富创业投资合伙企业（有限合伙）",
+    "managerName": "厦门赛富创业投资管理有限公司",
+    "managerId": "ee03b108edb33afbf2a2e87e",
+    "sizeCny": 253000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512251808015386_1.pdf",
+      "date": "2025-12-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "鑫森炭业招股说明书",
+      "pages": "第36–37页",
+      "lpSources": [],
+      "lpScope": "工商认缴与12名LP按招股说明书，执行事务合伙人厦门赛富创业投资管理公司。基金已于2025年11月12日办理清算组备案，存量持股待按锁定约定退出。",
+      "generalPartners": [
+        {
+          "name": "厦门赛富创业投资管理有限公司",
+          "disclosedContributionCny": 3000000
+        }
+      ],
+      "creditCode": "91350203051197042P",
+      "fundStatus": "已进入清算程序，仍持有鑫森炭业股份"
+    },
+    "partners": [
+      {
+        "name": "厦门市创业投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 19.76,
+        "existingInstitution": "8ece310ed0f1dd0db28aea7c"
+      },
+      {
+        "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 19.76,
+        "existingInstitution": "a76ccbedb0e95351b3d67232"
+      },
+      {
+        "name": "兴证投资管理有限公司",
+        "disclosedContributionCny": 45000000,
+        "disclosedPercent": 17.79,
+        "existingInstitution": "506577b5077dcfc8ef7d395c"
+      },
+      {
+        "name": "厦门佳华晟股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 7.91,
+        "existingInstitution": "cddf075b7d1a560592201b9f"
+      },
+      {
+        "name": "杨瑞祥",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 5.93,
+        "existingInstitution": "38612877352b3a7fb25900a4"
+      },
+      {
+        "name": "唐俊明",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "339c2df73a4c0cb70b4270dd"
+      },
+      {
+        "name": "吴惠杰",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "c4f701b081a536d681be1470"
+      },
+      {
+        "name": "邱峰",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "7022911af57fb153728741fb"
+      },
+      {
+        "name": "卢文荣",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "78f5b35001692a10429cafe6"
+      },
+      {
+        "name": "杨桂兰",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "10be3dfdf8576d7445457822"
+      },
+      {
+        "name": "赵桐",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "c672bda1130086aaad3440b7"
+      },
+      {
+        "name": "施建安",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.95,
+        "existingInstitution": "d7992863f315a39b9711ea79"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "17e9fa2fcf5600265e766123",
+    "fundName": "北京小米智造股权投资基金合伙企业（有限合伙）",
+    "managerName": "小米私募股权基金管理有限公司",
+    "managerId": "0f14ed2bbe7ac0c3997167b2",
+    "sizeCny": 10000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/688478_20260227_GLW8.pdf",
+      "date": "2026-02-27",
+      "dateKind": "公开文件披露日",
+      "issuer": "晶升股份重组报告书",
+      "pages": "第85–88页",
+      "lpSources": [
+        "https://epaper.stcn.com/att/202606/13/ZQ13B011-XM_eBook.pdf"
+      ],
+      "lpScope": "认缴100亿元，16名LP及1名GP。福建金投金鹏2026年1月受让金顺持有的1亿元认缴份额，受让价款未披露。",
+      "generalPartners": [
+        {
+          "name": "北京小米企业管理有限公司",
+          "disclosedContributionCny": 30000000
+        }
+      ],
+      "creditCode": "91110400MA04FDBQ0R"
+    },
+    "partners": [
+      {
+        "name": "武汉壹捌壹零企业管理有限公司",
+        "disclosedContributionCny": 3600000000,
+        "disclosedPercent": 36.0,
+        "existingInstitution": "65e0f38a2951b86f76ba1106"
+      },
+      {
+        "name": "北京市政府投资引导基金（有限合伙）",
+        "disclosedContributionCny": 2000000000,
+        "disclosedPercent": 20.0,
+        "existingInstitution": "7297499744156f93f0390291"
+      },
+      {
+        "name": "天津市海创创新合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 10.0,
+        "existingInstitution": "867e79adaf77ab5a8b9b1cb3"
+      },
+      {
+        "name": "北京亦庄国际投资发展有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 10.0,
+        "existingInstitution": "32f957c545fb5b2d255d97b9"
+      },
+      {
+        "name": "广州华多网络科技有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 5.0,
+        "existingInstitution": "9c3fc4ff4b09dbf3e02ca97c"
+      },
+      {
+        "name": "兴证投资管理有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 5.0,
+        "existingInstitution": "506577b5077dcfc8ef7d395c"
+      },
+      {
+        "name": "武汉金山软件有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 5.0,
+        "existingInstitution": "ae3d1e60128b7ad34cdabf79"
+      },
+      {
+        "name": "兆易创新科技集团股份有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 2.0,
+        "existingInstitution": "8d732ccb8c35abfe32e68596"
+      },
+      {
+        "name": "苏州纳星创业投资管理有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 2.0,
+        "existingInstitution": "f25ac47740450d83efcab1a9"
+      },
+      {
+        "name": "海南华盈开泰投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 1.0,
+        "existingInstitution": "1141fd0bc2caee29003e0f27"
+      },
+      {
+        "name": "江苏帝奥微电子股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 1.0,
+        "existingInstitution": "d01698afe565e7f91e1add35"
+      },
+      {
+        "name": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 1.0,
+        "existingInstitution": "a76ccbedb0e95351b3d67232"
+      },
+      {
+        "name": "赣州光控苏区高质量发展产业投资基金（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 0.5,
+        "existingInstitution": "59604249338d16501e651818"
+      },
+      {
+        "name": "杰瓦特微电子（杭州）有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 0.5,
+        "existingInstitution": "3cbb673579f11e2d8a92ba23"
+      },
+      {
+        "name": "上海南芯半导体科技股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 0.5,
+        "existingInstitution": "aa84d0ec373e6248d59c2ae8"
+      },
+      {
+        "name": "温州信银浩鸿股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 0.2,
+        "existingInstitution": "85221b66a22673b20823fc71"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

@@ -9099,14 +9099,18 @@
           {
             "fund": "上海国资国企综改试验私募基金合伙企业（有限合伙）",
             "company": "盛合晶微半导体有限公司",
-            "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf",
-            "pages": "第81–82页",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+            "pages": "第90–91页",
             "date": "2024-12",
             "priceUsd": "1.75",
-            "shares": 23000000,
-            "considerationUsd": 40250000,
+            "shares": 11300000,
+            "considerationUsd": 19775000,
             "kind": "普通股认购",
-            "status": "待统一境内与境外档案并逐笔拆旧股"
+            "status": "逐行复核招股意向书原件后修正；此前PDF文本错列，2300万股属于上海新芯。",
+            "originalReading": {
+              "shares": 23000000,
+              "considerationUsd": 40250000
+            }
           }
         ],
         "disclosedButUnallocated": [
@@ -9161,6 +9165,234 @@
       },
       "retired_deal_redirects": {},
       "batch": "2026-11-27-junlian-network-165.csv"
+    },
+    {
+      "institution": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+      "checked_on": "2026-11-27",
+      "scope": "福建金投金鹏及已投子基金，沿福建专精与中科创星补查公司历史融资，修订盛合晶微的红筹身份及主要融资",
+      "sources": [
+        "https://www.fjdaily.com/app/content/2023-08/29/content_2032821.html",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+        "https://fdi.swt.fujian.gov.cn/show-22462.html",
+        "https://www.xyzq.com.cn/xysec/info/article/75c464dd168947e293e648d759512233",
+        "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+        "https://www.sjsemi.com/about/22699/133942.html",
+        "https://static.cninfo.com.cn/finalpage/2026-04-20/1225123800.PDF",
+        "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260420_10815741.shtml",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_SPSJ.pdf",
+        "https://notice.10jqka.com.cn/api/pdf/d905fe7d3b0e2df8.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-12-02/1224840666.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202401311619794932_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975366.PDF",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/688478_20260227_GLW8.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512251808015386_1.pdf",
+        "https://top.qcc.com/tc/d7a310000416.html",
+        "https://static.cninfo.com.cn/finalpage/2026-05-23/1225324955.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-07-11/1225419227.PDF",
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2022/2022-12/2022-12-13/8723065.PDF"
+      ],
+      "notes": {
+        "followup_sources": [
+          "https://www.fjdaily.com/app/content/2023-08/29/content_2032821.html",
+          "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf",
+          "https://fdi.swt.fujian.gov.cn/show-22462.html",
+          "https://www.xyzq.com.cn/xysec/info/article/75c464dd168947e293e648d759512233",
+          "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf",
+          "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+          "https://www.sjsemi.com/about/22699/133942.html",
+          "https://static.cninfo.com.cn/finalpage/2026-04-20/1225123800.PDF",
+          "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260420_10815741.shtml",
+          "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202409/047953_20240913_SPSJ.pdf",
+          "https://notice.10jqka.com.cn/api/pdf/d905fe7d3b0e2df8.pdf",
+          "https://static.cninfo.com.cn/finalpage/2025-12-02/1224840666.PDF",
+          "https://pdf.dfcfw.com/pdf/H2_AN202401311619794932_1.pdf",
+          "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975366.PDF",
+          "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/688478_20260227_GLW8.pdf",
+          "https://pdf.dfcfw.com/pdf/H2_AN202512251808015386_1.pdf",
+          "https://top.qcc.com/tc/d7a310000416.html",
+          "https://static.cninfo.com.cn/finalpage/2026-05-23/1225324955.PDF",
+          "https://static.cninfo.com.cn/finalpage/2026-07-11/1225419227.PDF",
+          "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2022/2022-12/2022-12-13/8723065.PDF"
+        ],
+        "parentFund": "福建省金投金鹏创业投资基金合伙企业（有限合伙）",
+        "confirmedFundLinks": [
+          {
+            "fund": "深圳君联深运私募股权投资基金合伙企业（有限合伙）",
+            "committedCny": 50000000,
+            "observedPaidCny": null,
+            "status": "已投或备案，各自披露时点见基金档案",
+            "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+          },
+          {
+            "fund": "福建专精三号创业投资合伙企业（有限合伙）",
+            "committedCny": 20000000,
+            "observedPaidCny": 20000000,
+            "status": "已投或备案，各自披露时点见基金档案",
+            "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+          },
+          {
+            "fund": "福岩高新（龙岩）私募创业投资合伙企业（有限合伙）",
+            "committedCny": null,
+            "observedPaidCny": null,
+            "status": "已投或备案，各自披露时点见基金档案",
+            "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+          },
+          {
+            "fund": "北京中科创星硬科技中小企业创业投资合伙企业（有限合伙）",
+            "committedCny": 100000000,
+            "observedPaidCny": 70000000,
+            "status": "已投或备案，各自披露时点见基金档案",
+            "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+          },
+          {
+            "fund": "福建时代泽远股权投资基金合伙企业（有限合伙）",
+            "committedCny": 200000000,
+            "observedPaidCny": 200000000,
+            "status": "已投或备案，各自披露时点见基金档案",
+            "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+          },
+          {
+            "fund": "福州鼎晖稳致股权投资基金合伙企业（有限合伙）",
+            "committedCny": null,
+            "observedPaidCny": null,
+            "status": "已投或备案，各自披露时点见基金档案",
+            "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+          },
+          {
+            "fund": "厦门赛富创业投资合伙企业（有限合伙）",
+            "committedCny": 50000000,
+            "observedPaidCny": null,
+            "status": "已投或备案，各自披露时点见基金档案",
+            "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-11-14/244218_20251114_P6BZ.pdf"
+          },
+          {
+            "fund": "福建福金信科创业投资合伙企业（有限合伙）",
+            "committedCny": 90000000,
+            "observedPaidCny": null,
+            "status": "已投或备案，各自披露时点见基金档案",
+            "source": "https://notice.10jqka.com.cn/api/pdf/d905fe7d3b0e2df8.pdf"
+          },
+          {
+            "fund": "北京小米智造股权投资基金合伙企业（有限合伙）",
+            "committedCny": 100000000,
+            "observedPaidCny": null,
+            "status": "认缴份额受让，成交价未披露",
+            "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/688478_20260227_GLW8.pdf"
+          }
+        ],
+        "caseUsd": [
+          {
+            "fund": "上海国资国企综改试验私募基金合伙企业（有限合伙）",
+            "shares": 11300000,
+            "amountUsd": "19775000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "Gnk Limited",
+            "shares": 40000000,
+            "amountUsd": "70000000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "上海金浦晟际企业管理合伙企业（有限合伙）",
+            "shares": 39000000,
+            "amountUsd": "68250000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "上海孚腾芯飞企业管理合伙企业（有限合伙）",
+            "shares": 27000000,
+            "amountUsd": "47250000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "上海新芯产业私募投资基金合伙企业（有限合伙）",
+            "shares": 23000000,
+            "amountUsd": "40250000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "苏州厚望研鑫创业投资合伙企业（有限合伙）",
+            "shares": 16250000,
+            "amountUsd": "28437500.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "上海国孚领航投资合伙企业（有限合伙）",
+            "shares": 15200000,
+            "amountUsd": "26600000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "无锡产发科创基金合伙企业（有限合伙）",
+            "shares": 175000000,
+            "amountUsd": "306250000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "社保基金中关村自主创新投资基金（北京）合伙企业（有限合伙）",
+            "shares": 8000000,
+            "amountUsd": "14000000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "上海成达一号商务咨询合伙企业（有限合伙）",
+            "shares": 8000000,
+            "amountUsd": "14000000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "上海临港数科创业投资合伙企业（有限合伙）",
+            "shares": 5800000,
+            "amountUsd": "10150000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          },
+          {
+            "fund": "上海临港策源创业投资合伙企业（有限合伙）",
+            "shares": 5800000,
+            "amountUsd": "10150000.00",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+          }
+        ],
+        "countryDecision": {
+          "issuer": "盛合晶微半导体有限公司",
+          "directOperatingSubsidiary": "盛合晶微半导体（江阴）有限公司",
+          "registeredAt": "开曼群岛",
+          "siteCompanyKey": "2ac89f6a1ffa77ae8f8cc15b",
+          "oldCompanyId": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF",
+          "pages": "第66、70–71页"
+        },
+        "caveats": [
+          "福建金投金鹏的4.22467亿元为截至2025-06-30对外出资，区分基金规模、实缴、逐只子基金和即时可投余额。",
+          "厦门赛富仅证对鑫森炭业的增资协议与当前持股；时间、逐笔及总对价待更早文件。厦门宝益A轮由专精一二号参与；专精三号另有持股记录，暂未对齐轮次。",
+          "先衍生物早期档案金额币种修正为人民币，A、A+按成都先导公告认购。3月融资公司披露与5月手续披露为同次A轮。",
+          "盛合晶微发行主体在开曼，与江阴经营主体区分并保留原导航稳定ID。C+第二批约1.84亿美元为合计差额，具体认购人未披露；B轮原日期及金额口径待确认。",
+          "盛合晶微D完整轮次7亿美元，原件所披露的新增认购人美元明细单独保存。1750万美元是另项老股。IPO 50.2757406816亿元为总额，15家战略配售为子项。"
+        ]
+      },
+      "events": {
+        "宝益科技A轮": "0ab713efe5f287151672dd3f",
+        "同舟纵横兴证投资": "22a3804137441579e56e56c1",
+        "赛尔特晋江融辰老股": "48f50a525d636c7b1a2b489c",
+        "赛尔特2026年股权转让": "07abf80c8e3fd0c40f548908",
+        "赛尔特创合鑫材增资": "4fb1cfabd025c0c55aae3fc9",
+        "盛合晶微早期增资": "ee74a0613000de399f3f43c7",
+        "盛合晶微B轮原档": "2e869ce2539b73887a831afa",
+        "盛合晶微C轮": "1e2c8e123ab57980a25ccfe6",
+        "盛合晶微C+首批": "dea0a3b674fae12ee8c585f8",
+        "盛合晶微7亿美元定向融资": "6fb54fa44614d06b147e74cf",
+        "盛合晶微C+第二批": "f3a5dd7e728894f5fdaea4e2",
+        "盛合晶微Advpackaging老股": "ca9ee27fe065b8f4d48492a6",
+        "盛合晶微IPO": "69305e69e62aab802ad0d00a",
+        "先衍生物早期增资": "16bdd7104ec541e884d12803",
+        "先衍生物Pre-A轮": "f25ca9a0c4505c6d27ff982a",
+        "先衍生物A轮": "a3edca33e0587049caf29e80",
+        "先衍生物A+轮": "474866b207157801e5bc5b97"
+      },
+      "retired_deal_redirects": {},
+      "batch": "2026-11-27-fujian-network-166.csv"
     }
   ]
 }

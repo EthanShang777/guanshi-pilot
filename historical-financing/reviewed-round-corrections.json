@@ -5836,5 +5836,231 @@
       "https://stock.stockstar.com/notice/SN2026110700001308.shtml",
       "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-07/688072_20261107_KEZM.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:d25c2342eab972ccf7e28f1c207e47f4f1d40f903a8edeac9f685c889396d6ce",
+    "company_id": "co:full_legal_name:5e35f7982987696016f5288db64c0570",
+    "day": "2024-12-31",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"创合鑫材基金\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "5000万元",
+      "investors_json": "[{\"name\":\"创合鑫材（厦门）制造业转型升级基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202608211828255702_1.pdf\"}}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "发行人披露全部款项到账日，次年1月14日工商变更"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:e8269001e2036e9a3739416dc74facf26f4db94d8581e236ab41403d9706852b",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "day": "2015-11-12",
+    "source": "https://www.sjsemi.com/about/22699/124322.html",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中芯国际\",\"role\":null,\"amount\":null},{\"name\":\"国家集成电路产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"高通创投\",\"role\":null,\"amount\":null}]",
+      "date": "2015-11-12",
+      "date_key": "2015-11-12",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "2.8亿美元",
+      "investors_json": "[{\"name\":\"中芯国际\",\"role\":null,\"amount\":null},{\"name\":\"国家集成电路产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"高通创投\",\"role\":null,\"amount\":null}]",
+      "date": "2015-09-16",
+      "date_key": "2015-09-16",
+      "date_kind": "发行人官网披露日，实际到账日期未披露"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:dd79f74be1c0109c78a766f07b68a2daae8af148570b26b9f4a5f0c0d6bfedae",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "day": "2021-10-08",
+    "source": "https://www.sjsemi.com/about/22699/126778.html",
+    "expected": {
+      "round": "C轮",
+      "amount": "3亿美元",
+      "investors_json": "[{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾厚望\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"光大控股\",\"role\":null,\"amount\":null},{\"name\":\"华泰国际\",\"role\":null,\"amount\":null},{\"name\":\"国方创新\",\"role\":null,\"amount\":null},{\"name\":\"建信信托\",\"role\":null,\"amount\":null},{\"name\":\"建信股权\",\"role\":null,\"amount\":null},{\"name\":\"碧桂园创投\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null}]",
+      "date": "2021-10-08",
+      "date_key": "2021-10-08",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "3亿美元",
+      "investors_json": "[{\"name\":\"中金资本\",\"role\":null,\"amount\":null},{\"name\":\"元禾厚望\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"光大控股\",\"role\":null,\"amount\":null},{\"name\":\"华泰国际\",\"role\":null,\"amount\":null},{\"name\":\"国方创新\",\"role\":null,\"amount\":null},{\"name\":\"建信信托\",\"role\":null,\"amount\":null},{\"name\":\"建信股权\",\"role\":null,\"amount\":null},{\"name\":\"碧桂园创投\",\"role\":null,\"amount\":null},{\"name\":\"金浦投资\",\"role\":null,\"amount\":null}]",
+      "date": "2021-09-30",
+      "date_key": "2021-09-30",
+      "date_kind": "增资协议签署日，2022年3月16日宣布全额交割"
+    },
+    "additional_sources": [
+      "https://www.sjsemi.com/about/22699/123317.html",
+      "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:c3149decd5be7b12bf0189747a1fffb03b60a78e639843134b3899a8a0500e1f",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "day": "2023-04-03",
+    "source": "https://www.sjsemi.com/about/22699/133942.html",
+    "expected": {
+      "round": "C+轮",
+      "amount": "3.4亿美元",
+      "investors_json": "[{\"name\":\"TCL创投\",\"role\":null,\"amount\":null},{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"中芯熙诚\",\"role\":null,\"amount\":null},{\"name\":\"元禾厚望\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"兰璞创投\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"尚颀资本\",\"role\":null,\"amount\":null},{\"name\":\"普建基金\",\"role\":null,\"amount\":null},{\"name\":\"渶策资本\",\"role\":null,\"amount\":null},{\"name\":\"立丰创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-04-03",
+      "date_key": "2023-04-03",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C+轮",
+      "amount": "3.4亿美元",
+      "investors_json": "[{\"name\":\"TCL创投\",\"role\":null,\"amount\":null},{\"name\":\"中信金石\",\"role\":null,\"amount\":null},{\"name\":\"中芯熙诚\",\"role\":null,\"amount\":null},{\"name\":\"元禾厚望\",\"role\":null,\"amount\":null},{\"name\":\"元禾璞华\",\"role\":null,\"amount\":null},{\"name\":\"兰璞创投\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"尚颀资本\",\"role\":null,\"amount\":null},{\"name\":\"普建基金\",\"role\":null,\"amount\":null},{\"name\":\"渶策资本\",\"role\":null,\"amount\":null},{\"name\":\"立丰创投\",\"role\":null,\"amount\":null}]",
+      "date": "2023-03-29",
+      "date_key": "2023-03-29",
+      "date_kind": "首批签约日期，招股书确认3月及9月合计完成5.24亿美元"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:65eddfedf8d8366c66bbef88c6b1d57ba52bcf27d9ac854d07d843a374735aee",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "day": "2024-12-31",
+    "source": "https://www.sjsemi.com/about/22699/144132.html",
+    "expected": {
+      "round": "D轮",
+      "amount": "7亿美元",
+      "investors_json": "[{\"name\":\"GoldenLink\",\"role\":null,\"amount\":null},{\"name\":\"上海国际集团\",\"role\":null,\"amount\":null},{\"name\":\"临港数科基金\",\"role\":null,\"amount\":null},{\"name\":\"临港新片区基金\",\"role\":null,\"amount\":null},{\"name\":\"君联资本\",\"role\":null,\"amount\":null},{\"name\":\"国寿股权\",\"role\":null,\"amount\":null},{\"name\":\"孚腾资本\",\"role\":null,\"amount\":null},{\"name\":\"新国联集团\",\"role\":null,\"amount\":null},{\"name\":\"新城投资\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向股权融资",
+      "amount": "7亿美元",
+      "investors_json": "[{\"name\":\"上海国资国企综改试验私募基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1977.5000万美元\"},{\"name\":\"Gnk Limited\",\"role\":null,\"amount\":\"7000.0000万美元\"},{\"name\":\"上海金浦晟际企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":\"6825.0000万美元\"},{\"name\":\"上海孚腾芯飞企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":\"4725.0000万美元\"},{\"name\":\"上海新芯产业私募投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"4025.0000万美元\"},{\"name\":\"苏州厚望研鑫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2843.7500万美元\"},{\"name\":\"上海国孚领航投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"2660.0000万美元\"},{\"name\":\"无锡产发科创基金合伙企业（有限合伙）\",\"role\":null,\"amount\":\"30625.0000万美元\"},{\"name\":\"社保基金中关村自主创新投资基金（北京）合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1400.0000万美元\"},{\"name\":\"上海成达一号商务咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1400.0000万美元\"},{\"name\":\"上海临港数科创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1015.0000万美元\"},{\"name\":\"上海临港策源创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":\"1015.0000万美元\"},{\"name\":\"江阴滨江澄源投资集团有限公司\",\"role\":null,\"amount\":null},{\"name\":\"上海国际集团有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-31",
+      "date_key": "2024-12-31",
+      "date_kind": "发行人公告交割日，招股书核新增股东1.75美元/股"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-03-31/1225064793.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:665a17b503923643e74d8cf833a48f0d14e9e6347af0b4bc4794e2966d7970dc",
+    "company_id": "co:full_legal_name:f5a61d717ecdf2926b4e20e05f526d20",
+    "day": "2022-12-12",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2022/2022-12/2022-12-13/8723065.PDF",
+    "expected": {
+      "round": "天使轮",
+      "amount": "6500万美元",
+      "investors_json": "[{\"name\":\"DelightfulKindnessLimited\",\"role\":null,\"amount\":null},{\"name\":\"云九资本\",\"role\":null,\"amount\":null},{\"name\":\"旸昀资本\",\"role\":null,\"amount\":null},{\"name\":\"磐霖资本\",\"role\":null,\"amount\":null},{\"name\":\"金恒富投资\",\"role\":null,\"amount\":null},{\"name\":\"钧天创投\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖投资\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-12",
+      "date_key": "2022-12-12",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "天使轮",
+      "amount": "6500万元",
+      "investors_json": "[{\"name\":\"DelightfulKindnessLimited\",\"role\":null,\"amount\":null},{\"name\":\"云九资本\",\"role\":null,\"amount\":null},{\"name\":\"旸昀资本\",\"role\":null,\"amount\":null},{\"name\":\"磐霖资本\",\"role\":null,\"amount\":null},{\"name\":\"金恒富投资\",\"role\":null,\"amount\":null},{\"name\":\"钧天创投\",\"role\":null,\"amount\":null},{\"name\":\"鼎晖投资\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-12",
+      "date_key": "2022-12-12",
+      "date_kind": "原档披露日期，上市公司原件确认币种为人民币"
+    },
+    "additional_sources": [
+      "https://bydrug.pharmcube.com/news/detail/f5bb3a1a3553f16d4a1cbe0710e2a896"
+    ]
+  },
+  {
+    "event_id": "financing_event:a69868f2037cb02fbb0ff54011aa3afd1722f1bcda856d4b4e697ab5e334cb0b",
+    "company_id": "co:full_legal_name:f5a61d717ecdf2926b4e20e05f526d20",
+    "day": "2024-08-29",
+    "source": "https://web.csp.chinamcloud.com/cms/cdgxqrmt_html/APP/fglm/4895318622.shtml",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"中科创星\",\"role\":null,\"amount\":null},{\"name\":\"国生资本\",\"role\":null,\"amount\":null},{\"name\":\"德厚投资\",\"role\":null,\"amount\":null},{\"name\":\"怀格资本\",\"role\":null,\"amount\":null},{\"name\":\"钧天创投\",\"role\":null,\"amount\":null}]",
+      "date": "2024-08-29",
+      "date_key": "2024-08-29",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"北京中科创星硬科技中小企业创业投资合伙企业（有限合伙）\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"国生资本\",\"role\":null,\"amount\":null},{\"name\":\"德厚投资\",\"role\":null,\"amount\":null},{\"name\":\"怀格资本\",\"role\":null,\"amount\":null},{\"name\":\"钧天创投\",\"role\":null,\"amount\":null}]",
+      "date": "2024-08-29",
+      "date_key": "2024-08-29",
+      "date_kind": "原档披露日，出资载体经股东名册交叉核对"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-05-23/1225324955.PDF",
+      "https://pdf.dfcfw.com/pdf/H2_AN202401311619794932_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:e91efa1ef98c706045d79801afc86a2a8b4e9999f88172c3f6a23026ee66bbdb",
+    "company_id": "co:full_legal_name:f5a61d717ecdf2926b4e20e05f526d20",
+    "day": "2026-03-20",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225324955.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "1.5亿人民币",
+      "investors_json": "[{\"name\":\"华博器械\",\"role\":null,\"amount\":null},{\"name\":\"厦门高新投\",\"role\":null,\"amount\":null},{\"name\":\"启申创投\",\"role\":null,\"amount\":null},{\"name\":\"嘉乐资本\",\"role\":null,\"amount\":null},{\"name\":\"增锐铭禾\",\"role\":null,\"amount\":null},{\"name\":\"怀格资本\",\"role\":null,\"amount\":null},{\"name\":\"成都先导\",\"role\":null,\"amount\":null},{\"name\":\"成都科创投集团\",\"role\":null,\"amount\":null},{\"name\":\"曹家铭\",\"role\":null,\"amount\":null},{\"name\":\"道远资本\",\"role\":null,\"amount\":null},{\"name\":\"钧天创投\",\"role\":null,\"amount\":null},{\"name\":\"银满资本\",\"role\":null,\"amount\":null}]",
+      "date": "2026-03-20",
+      "date_key": "2026-03-20",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "1.5亿人民币",
+      "investors_json": "[{\"name\":\"拉萨经济技术开发区华博医疗器械有限公司\",\"role\":null,\"amount\":null},{\"name\":\"厦门高新投\",\"role\":null,\"amount\":null},{\"name\":\"启申创投\",\"role\":null,\"amount\":null},{\"name\":\"嘉乐资本\",\"role\":null,\"amount\":null},{\"name\":\"增锐铭禾\",\"role\":null,\"amount\":null},{\"name\":\"怀格资本\",\"role\":null,\"amount\":null},{\"name\":\"成都先导\",\"role\":null,\"amount\":null},{\"name\":\"成都科创投集团\",\"role\":null,\"amount\":null},{\"name\":\"曹家铭\",\"role\":null,\"amount\":null},{\"name\":\"道远资本\",\"role\":null,\"amount\":null},{\"name\":\"钧天创投\",\"role\":null,\"amount\":null},{\"name\":\"银满资本\",\"role\":null,\"amount\":null},{\"name\":\"成都天使道远国生医疗健康创业投资合伙企业（有限合伙）\",\"role\":\"领投\",\"amount\":null},{\"name\":\"成都先导药物开发股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2400000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-05-23/1225324955.PDF\"}}]",
+      "date": "2026-03-20",
+      "date_key": "2026-03-20",
+      "date_kind": "原档融资披露日，成都先导2400万元到账及工商变更另见5月公告"
+    },
+    "additional_sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11960912&stockid=688222"
+    ]
+  },
+  {
+    "event_id": "financing_event:53686b277402721ce1da8ac7350f9352ac3d08be55cb9cf6208b4e4e61868244",
+    "company_id": "co:full_legal_name:f5a61d717ecdf2926b4e20e05f526d20",
+    "day": "2026-08-31",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225419227.PDF",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"高特佳投资\",\"role\":null,\"amount\":null}]",
+      "date": "2026-08-31",
+      "date_key": "2026-08-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "3000万元",
+      "investors_json": "[{\"name\":\"厦门高特佳瑞鹭创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-07-11/1225419227.PDF\"}}]",
+      "date": "2026-08-31",
+      "date_key": "2026-08-31",
+      "date_kind": "原档融资披露日，融资认购额据成都先导公告，完成信息据同期融资披露"
+    },
+    "additional_sources": [
+      "https://www.vbdata.cn/intelDetail/1086043",
+      "https://www.chinaventure.com.cn/news/80-20260904-393112.html"
+    ]
   }
 ]
