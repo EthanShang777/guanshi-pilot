@@ -239,5 +239,53 @@ class SyncFinancingTest(unittest.TestCase):
         self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events'), [original])
 
 
+    def test_reviewed_company_identity_keeps_the_event_and_leaves_other_company_records(self):
+        original = event('1', '原始快讯误挂公司', 'C++轮', company_id='wrong-company') | {'amount':'26.5亿元'}
+        unrelated = event('2', '原始快讯误挂公司', 'A轮', company_id='wrong-company')
+        self.assertEqual(financing.sync_rows(self.db, [original, unrelated], reviewed=True), (2, 0, 0))
+        corrected = dict(company_id='verified-company',company_name='核实后的实际融资方',raw_company_key='已核品牌; 核实后的实际融资方',
+                         date='2025-07-31',date_key='2025-07-31',date_kind='公开披露日',
+                         investors_json=financing.packed([dict(name='实际出资主体',role=None,amount='26.5亿元')]))
+        expected = {field:original[field] for field in corrected}
+        review = dict(event_id=original['event_id'],round=original['round'],
+                      source='https://example.com/issuer',expected=expected,corrected=corrected)
+        with TemporaryDirectory() as directory:
+            path=Path(directory)
+            (path/'reviewed-company-corrections.json').write_text(json.dumps([review]))
+            with patch.object(financing,'database',return_value=self.db), \
+                 patch('sys.argv',['sync_financing.py','--historical-dir',directory]):
+                financing.main()
+                financing.main()
+        actual=original|corrected|{'sources_json':financing.packed([SOURCE,review['source']])}
+        self.assertEqual(self.query(self.db,'SELECT * FROM financing_events ORDER BY event_id'),[actual,unrelated])
+        self.assertEqual(financing.sync_company_corrections(self.db,[review]),(0,1,0))
+        stale=review|{'corrected':corrected|{'company_name':'其他未核公司'}}
+        self.assertEqual(financing.sync_company_corrections(self.db,[stale]),(0,0,1))
+        self.assertEqual(self.query(self.db,'SELECT * FROM financing_events ORDER BY event_id'),[actual,unrelated])
+
+    def test_reviewed_distinct_rounds_for_one_company_are_idempotent(self):
+        company_id = 'co:cn_uscc:issuer'
+        june = event('june', '示例锂电', '战略融资', company_id=company_id,
+                     day='2026-06-30', urls=('https://example.com/bank',))
+        july = event('july', '示例锂电', '股权融资', company_id=company_id,
+                     day='2026-07-13', urls=('https://example.com/fund',))
+        july['investors_json'] = financing.packed([{'name': '另一出资方'}])
+        reviews = {(financing.event_identity(july), financing.event_identity(june))}
+        self.assertEqual(financing.sync_rows(self.db, [june], reviewed=True), (1, 0, 0))
+        self.assertEqual(financing.sync_rows(self.db, [july], reviewed=True), (0, 0, 1))
+
+        for field in ('sources_json', 'investors_json'):
+            with self.subTest(shared=field):
+                overlapping = july | {field: june[field]}
+                self.assertEqual(
+                    financing.match_status(overlapping, june, {july['event_id']}, reviews),
+                    'uncertain',
+                )
+
+        self.assertEqual(financing.sync_rows(self.db, [july], reviewed=True, distinct_events=reviews), (1, 0, 0))
+        self.assertEqual(financing.sync_rows(self.db, [june, july], reviewed=True, distinct_events=reviews), (0, 0, 0))
+        self.assertEqual(self.query(self.db, 'SELECT * FROM financing_events ORDER BY event_id'), [july, june])
+
+
 if __name__ == '__main__':
     unittest.main()

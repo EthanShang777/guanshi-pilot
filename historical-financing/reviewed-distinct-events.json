@@ -29,5 +29,17 @@
       "company_id": "co:historical-disclosure:181fdd46fc4a7246b9f4f1e"
     },
     "source": "https://origin.tech/blog/origin-emerges-from-stealth-with-20-million"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fbf4d51c827a543a905c67",
+      "company_id": "co:cn_uscc:8c8405a483c7a5032183ebf278725424"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e7bb9292a9920d9f697a61",
+      "company_id": "co:cn_uscc:8c8405a483c7a5032183ebf278725424"
+    },
+    "source": "https://www.cmccap.com/en/news/detail/430",
+    "compared_source": "https://static.cninfo.com.cn/finalpage/2026-06-30/1225396258.PDF"
   }
 ]
