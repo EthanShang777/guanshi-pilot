@@ -4103,5 +4103,435 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "54a1e0f1fe487e3d56eb0959",
+    "fundName": "招赢智造（湖北）产业投资基金合伙企业（有限合伙）",
+    "managerName": "湖北长江招银产业基金管理有限公司",
+    "managerId": "e869e129a433da6a6fcd7395",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-02-17/1222546046.PDF",
+      "date": "2025-02-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "金利华电重组预案及金帝股份投资公告",
+      "pages": "重组预案第54至55页及对外投资公告第7至8页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-01-06/1224919425.PDF"
+      ],
+      "lpScope": "1名LP、1名GP，比例乘以同日认缴额。2026年金帝公告核对实缴总额为5亿元。",
+      "generalPartners": [
+        {
+          "name": "湖北长江招银产业基金管理有限公司",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "paidAmountCny": 500000000,
+      "paidScope": "金帝股份2026-01-06公告披露基金实缴总额"
+    },
+    "partners": [
+      {
+        "name": "上海旗璟科技合伙企业（有限合伙）",
+        "disclosedContributionCny": 495000000,
+        "disclosedPercent": 99,
+        "existingInstitution": "20fe4187f94da62b9e504e1d"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "691626d77c10e890158eac02",
+    "fundName": "湖北长江招银成长股权投资合伙企业（有限合伙）",
+    "managerName": "湖北长江招银产业基金管理有限公司",
+    "managerId": "e869e129a433da6a6fcd7395",
+    "sizeCny": 2360000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+      "date": "2026-03-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "视涯科技招股说明书",
+      "pages": "第105页",
+      "lpSources": [
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6405483"
+      ],
+      "lpScope": "1名LP和1名GP。基金认缴与实缴总额均为23.6亿元。当前合伙人出资比例保留原披露精度。",
+      "generalPartners": [
+        {
+          "name": "湖北长江招银产业基金管理有限公司",
+          "disclosedPercent": 0.85
+        }
+      ],
+      "paidAmountCny": 2360000000,
+      "filingCode": "SW5490"
+    },
+    "partners": [
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 99.15,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c9ef4b879eea1a9709dea10d",
+    "fundName": "深圳招银电信新趋势股权投资基金合伙企业（有限合伙）",
+    "managerName": "深圳招银电信股权投资基金管理有限公司",
+    "managerId": "b9324270242e6e87404077bc",
+    "sizeCny": 3001000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+      "date": "2026-03-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "视涯科技招股说明书、高新兴2017年配售进展公告",
+      "pages": "招股说明书第105页及配售进展公告第2至3页",
+      "lpSources": [
+        "https://disc.static.szse.cn/download/disc/disk01/finalpage/2017-12-26/998dd864-d1fd-4efe-a863-cfe58eb56f65.PDF"
+      ],
+      "lpScope": "2名LP和1名GP，基金认缴及实缴总额30.01亿元。逐家认缴来自早期配售公告，比例与最新招股书一致。",
+      "generalPartners": [
+        {
+          "name": "深圳招银电信股权投资基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "paidAmountCny": 3001000000,
+      "filingCode": "SW2757"
+    },
+    "partners": [
+      {
+        "name": "招银国际金融控股（深圳）有限公司",
+        "disclosedContributionCny": 2400000000,
+        "disclosedPercent": 79.9733,
+        "existingInstitution": "c404872eba3a1316ea484c5f"
+      },
+      {
+        "name": "中国电信股份有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 19.9933,
+        "existingInstitution": "8d67023fdb30a456006203dd"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a0eb30238a4aa1460612fff9",
+    "fundName": "湖北长江招银文创股权投资基金合伙企业（有限合伙）",
+    "managerName": "湖北长江广电文创股权投资基金管理有限公司",
+    "managerId": "ff14c1ee6e11caf7c817f09c",
+    "sizeCny": 300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-06-28/1224017440.PDF",
+      "date": "2025-06-28",
+      "dateKind": "公开文件披露日",
+      "issuer": "浙数文化关于受让新华智云股权的公告",
+      "pages": "第2至3页",
+      "lpSources": [],
+      "lpScope": "逐家认缴额合计3亿元，确认执行事务合伙人认缴120万元；其他合伙人类别以协议复核。",
+      "generalPartners": [
+        {
+          "name": "湖北长江广电文创股权投资基金管理有限公司",
+          "disclosedContributionCny": 1200000
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 146700000,
+        "disclosedPercent": 48.9,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "武汉汉阳造文化产业投资有限公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "b5b514cccf5152fa2c56bc6b"
+      },
+      {
+        "name": "喀什长江影视文化有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "ea0c5d3d1b51df53902f5a0a"
+      },
+      {
+        "name": "武汉文化投资发展集团有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "6cb5e057ac8e2a718f34faff"
+      },
+      {
+        "name": "湖北长江广电传媒集团有限责任公司",
+        "disclosedContributionCny": 28800000,
+        "disclosedPercent": 9.6,
+        "existingInstitution": "d5ea5c66a310bce2b9351e26"
+      },
+      {
+        "name": "湖北长江招银产业基金管理有限公司",
+        "disclosedContributionCny": 1800000,
+        "disclosedPercent": 0.6,
+        "existingInstitution": "e869e129a433da6a6fcd7395"
+      },
+      {
+        "name": "深圳市招银共赢股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 1500000,
+        "disclosedPercent": 0.5,
+        "existingInstitution": "047a2bdda7d1686670cbdd66"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cfbc5ada8e774fdee20a6eca",
+    "fundName": "长江晨道（湖北）新能源产业投资合伙企业（有限合伙）",
+    "managerName": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+    "managerId": "8e8c58bb9af7d536289b49e4",
+    "sizeCny": 3151000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2024/2024-10/2024-10-22/10534927.PDF",
+      "date": "2024-10-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "金禄电子股东权益变动报告及发行保荐书",
+      "pages": "权益变动报告第5至6页",
+      "lpSources": [
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2022-08-30/fc237f00-6a39-466e-aa9e-aa91fdb04a0f.PDF"
+      ],
+      "lpScope": "10名LP和1名GP，逐家认缴。合计31.51亿元。",
+      "generalPartners": [
+        {
+          "name": "宁波梅山保税港区晨道投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "filingCode": "SX9811"
+    },
+    "partners": [
+      {
+        "name": "北京华鼎新动力股权投资基金（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 15.868,
+        "existingInstitution": "be201612451b618836fa6f4b"
+      },
+      {
+        "name": "宁波梅山保税港区问鼎投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 15.868,
+        "existingInstitution": "853378226a7126561373eae9"
+      },
+      {
+        "name": "湖北省长江合志股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 15.868,
+        "existingInstitution": "d9d813c24b151cb94c1ce1a3"
+      },
+      {
+        "name": "深圳东熹佳尚创业投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": 4.7604,
+        "existingInstitution": "9ddfd9f30ef0183fc6460237"
+      },
+      {
+        "name": "深圳市招银成长拾捌号股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 6.3472,
+        "existingInstitution": "a73038e433311bcac0e56bf1"
+      },
+      {
+        "name": "深圳市招银肆号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.1736,
+        "existingInstitution": "e6926238c0a9ddf8d5722243"
+      },
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 6.3472,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "招银国际金融控股（深圳）有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 15.868,
+        "existingInstitution": "c404872eba3a1316ea484c5f"
+      },
+      {
+        "name": "溧阳市产业投资引导基金有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 12.6944,
+        "existingInstitution": "31213e8da84a9334cd8adfe8"
+      },
+      {
+        "name": "江苏苏控创业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 3.1736,
+        "existingInstitution": "bafe012c560010e2dcce6683"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "70e9ea54894470c04bedebac",
+    "fundName": "招赢（湖北）智能制造产业基金合伙企业（有限合伙）",
+    "managerName": "湖北长江招银产业基金管理有限公司",
+    "managerId": "e869e129a433da6a6fcd7395",
+    "sizeCny": 1200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf",
+      "date": "2025-12-31",
+      "dateKind": "发行人报告期末",
+      "issuer": "双英集团招股说明书上会稿",
+      "pages": "第52页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-01-17/1222366611.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-08-21/1225487057.PDF"
+      ],
+      "lpScope": "截至2025年末按原件核实11名LP和1名GP，认缴与实缴各12亿元。2025年1月材料中的一名LP与后期文件不同，保留两期披露；待核是否转让或勘误。",
+      "generalPartners": [
+        {
+          "name": "湖北长江招银产业基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "filingCode": "STF448",
+      "paidContributionSource": {
+        "url": "https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf",
+        "date": "2025-12-31",
+        "dateKind": "发行人报告期末",
+        "partners": [
+          {
+            "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+            "paidCny": 710000000
+          },
+          {
+            "name": "武汉洪创投资管理有限公司",
+            "paidCny": 100000000
+          },
+          {
+            "name": "重庆产业投资母基金合伙企业（有限合伙）",
+            "paidCny": 100000000
+          },
+          {
+            "name": "武汉洪山新动能产业投资母基金管理合伙企业（有限合伙）",
+            "paidCny": 70000000
+          },
+          {
+            "name": "国联人寿保险股份有限公司",
+            "paidCny": 50000000
+          },
+          {
+            "name": "江西省文信二号文化产业发展投资基金（有限合伙）",
+            "paidCny": 50000000
+          },
+          {
+            "name": "泉州交发私募基金管理有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "漳州市战新产业投资合伙企业（有限合伙）",
+            "paidCny": 30000000
+          },
+          {
+            "name": "视涯科技股份有限公司",
+            "paidCny": 30000000
+          },
+          {
+            "name": "彭骞",
+            "paidCny": 10000000
+          },
+          {
+            "name": "福建省福能兴业股权投资管理有限公司",
+            "paidCny": 10000000
+          }
+        ],
+        "generalPartners": [
+          {
+            "name": "湖北长江招银产业基金管理有限公司",
+            "paidCny": 10000000
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "湖北长江招银产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 710000000,
+        "disclosedPercent": 59.16667,
+        "existingInstitution": "b27be11343dcc4551b198869"
+      },
+      {
+        "name": "武汉洪创投资管理有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 8.33333,
+        "existingInstitution": "7e3d432ea3510d85c7f7dfa4"
+      },
+      {
+        "name": "重庆产业投资母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 8.33333,
+        "existingInstitution": "57db9e1e4114e468f27c6cfa"
+      },
+      {
+        "name": "武汉洪山新动能产业投资母基金管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": 5.83333,
+        "existingInstitution": "16673e9ef9b5894669fe5151"
+      },
+      {
+        "name": "国联人寿保险股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.16667,
+        "existingInstitution": "fc45058c265b056ed298924b"
+      },
+      {
+        "name": "江西省文信二号文化产业发展投资基金（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 4.16667,
+        "existingInstitution": "04af4a3629c0da550383e03f"
+      },
+      {
+        "name": "泉州交发私募基金管理有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "f673f73215792f9843c4bf79"
+      },
+      {
+        "name": "漳州市战新产业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "8e1e6618f12f3a34e211e294"
+      },
+      {
+        "name": "视涯科技股份有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 2.5,
+        "existingInstitution": "779b14ab81d70a5b9a60b74a"
+      },
+      {
+        "name": "彭骞",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 0.83333,
+        "existingInstitution": "43b18ff83e6800c4898fc69a"
+      },
+      {
+        "name": "福建省福能兴业股权投资管理有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 0.83333,
+        "existingInstitution": "65eb7ec63e1ba74405c2b543"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

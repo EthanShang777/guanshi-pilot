@@ -8008,6 +8008,80 @@
         "忆恒E轮": "5c7375b415e3537fa05df049"
       },
       "batch": "2026-11-27-zhaoying-network-159.csv"
+    },
+    {
+      "institution": "湖北长江招银产业基金管理有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "沿两只招赢制造基金、南京招银与母基金核对双英、视涯、保时来及高新兴",
+      "sources": [
+        "https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf",
+        "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+        "https://www.bse.cn/disclosure/2026/2026-10-21/e9272ba018ab49e7b326f63bb59001a2.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11511775&stockid=688781",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11839091&stockid=688781",
+        "https://static.cninfo.com.cn/finalpage/2026-08-21/1225487057.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-01-06/1224919425.PDF",
+        "https://epaper.stcn.com/pic/202603/10/aadeb7043467b72d758b644705fc1157.pdf",
+        "https://cn-heipa.com/newsinfo/11005915.html",
+        "https://static.cninfo.com.cn/finalpage/2025-02-17/1222546046.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-06-28/1224017440.PDF",
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2024/2024-10/2024-10-22/10534927.PDF",
+        "https://disc.static.szse.cn/download/disc/disk01/finalpage/2017-12-26/998dd864-d1fd-4efe-a863-cfe58eb56f65.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6405483",
+        "https://static.cninfo.com.cn/finalpage/2022-08-30/1214450339.PDF"
+      ],
+      "notes": {
+        "followup_sources": [
+          "https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf",
+          "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+          "https://www.bse.cn/disclosure/2026/2026-10-21/e9272ba018ab49e7b326f63bb59001a2.pdf",
+          "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+          "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11511775&stockid=688781",
+          "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11839091&stockid=688781",
+          "https://static.cninfo.com.cn/finalpage/2026-08-21/1225487057.PDF",
+          "https://static.cninfo.com.cn/finalpage/2026-01-06/1224919425.PDF",
+          "https://epaper.stcn.com/pic/202603/10/aadeb7043467b72d758b644705fc1157.pdf",
+          "https://cn-heipa.com/newsinfo/11005915.html",
+          "https://static.cninfo.com.cn/finalpage/2025-02-17/1222546046.PDF",
+          "https://static.cninfo.com.cn/finalpage/2025-06-28/1224017440.PDF",
+          "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESZ_STOCK/2024/2024-10/2024-10-22/10534927.PDF",
+          "https://disc.static.szse.cn/download/disc/disk01/finalpage/2017-12-26/998dd864-d1fd-4efe-a863-cfe58eb56f65.PDF",
+          "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6405483",
+          "https://static.cninfo.com.cn/finalpage/2022-08-30/1214450339.PDF"
+        ],
+        "caveats": [
+          "双英2023年验资新增10499.998万元，由五家实缴。16名老股受让方按公开转让说明书所列确切股份与协议每股11.44元逐家核算。回购与后续转让分别入档；2019受让及2023回购对价按原披露每股价格标约数。",
+          "视涯南京招银2020年A轮实付645万元，2025年转让1173.1112万元由新弘达受让。2021年B轮两项，2023年C轮11.06亿元逐家录入。2023年5月资本公积转增排除；母子公司换股及旧档标成2020年B轮的原始出处继续核对。",
+          "保时来三次现金融资与两次股东快照交叉验证，金帝受让2160.4384万元另单列。招赢智造与南京招银均为公告已知股东，招银首轮的逐家载体及入股日待原始协议。",
+          "湖北长江招银母基金2022年披露注册资本100亿元。沿四只参投基金还原母基金关系，合伙协议中的完整LP和当前实缴待续查。不同名称的两只招赢制造基金独立核。",
+          "高新兴2017-12-26原档金额未披露且投资方为其他主体，按深交所和发行情况核实2018-01-05新股上市，配套募集329999995元及唯一配售基金。"
+        ]
+      },
+      "events": {
+        "双英2023实收增资": "da6982af3da5b3885e896f92",
+        "双英2019老股": "06395a6a2cadda7c6d07c26a",
+        "双英2023回购": "51973d37e7e042d5f1f55428",
+        "双英2023年12月老股": "a1942cdb7df05637a7ff6a31",
+        "双英2017定增": "58b897f50c7becdc1f40a708",
+        "双英公开发行": "e5bdf0371485284ac3972371",
+        "视涯南京招银A轮认购": "bf86e404bcacf231717746a8",
+        "视涯B轮首批": "c2cbc50c08d8822bdc5aac50",
+        "视涯B轮产业方追加": "49c038229d2a2c3a5d8d92d6",
+        "视涯C轮": "d4ee18d6f13cc730ef44699d",
+        "视涯火眼转让": "981ad4f708f3efb01a6df546",
+        "视涯徐州盛芯受让": "0db0a367ae1f99d13b46f39d",
+        "视涯2025第三次股份转让": "18e084956dd89ef865e2cabe",
+        "视涯2025第四次股份转让": "798314540b943cbaa3a16e0d",
+        "视涯2025第五次股份转让": "9372ad7d4956a8ed4315ac44",
+        "视涯南京招银退出": "6779ca46461231d4a635edf3",
+        "保时来2023A轮": "8b430ea564ebed853cc50751",
+        "保时来2024A+轮": "1409f87c4881c3916d415bde",
+        "保时来2026B轮": "8125df76c03742152a8371f2",
+        "保时来金帝受让": "d70235fe43a00fee663e5640",
+        "高新兴2018定增": "810ea11085cbdad6d3b8c6da"
+      },
+      "batch": "2026-11-27-zhaoyin-network-160.csv"
     }
   ]
 }

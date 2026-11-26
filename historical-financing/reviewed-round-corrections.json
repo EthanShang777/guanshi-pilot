@@ -5244,5 +5244,56 @@
     "additional_sources": [
       "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/001092_20211228_Q6I8.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+    "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec",
+    "day": "2023-12-27",
+    "source": "https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"广西投资集团\",\"role\":null,\"amount\":null},{\"name\":\"招银国际资本\",\"role\":null,\"amount\":null},{\"name\":\"泓诺创投\",\"role\":null,\"amount\":null},{\"name\":\"温氏投资\",\"role\":null,\"amount\":null}]",
+      "date": "2023-12-27",
+      "date_key": "2023-12-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "增资",
+      "amount": "10499.998万元",
+      "investors_json": "[{\"name\":\"重庆万州两江现代产业私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1500000000,\"basis\":\"实际出资\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf\"}},{\"name\":\"嘉兴英华锦秀股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"实际出资\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf\"}},{\"name\":\"重庆科兴科创股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"实际出资\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf\"}},{\"name\":\"广州祥荣远见创兴创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":999999000,\"basis\":\"实际出资\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf\"}},{\"name\":\"广州源合汇睿股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":999999000,\"basis\":\"实际出资\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-04-09/1775742014_618399.pdf\"}}]",
+      "date": "2023-12-29",
+      "date_key": "2023-12-29",
+      "date_kind": "验资确认的全部到账截止日"
+    },
+    "additional_sources": [
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931"
+    ]
+  },
+  {
+    "event_id": "financing_event:36c894493c41fb2889bbd39efc4523b4283572ff429a4d9357e1c57ae9fd1d61",
+    "company_id": "co:full_legal_name:f0e669fc61076fe1a68b750bf659a83f",
+    "day": "2017-12-26",
+    "source": "https://disc.static.szse.cn/download/disc/disk01/finalpage/2017-12-26/998dd864-d1fd-4efe-a863-cfe58eb56f65.PDF",
+    "expected": {
+      "round": "定向增发",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"凯利易方资本\",\"role\":null,\"amount\":null}]",
+      "date": "2017-12-26",
+      "date_key": "2017-12-26",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "32999.9995万元",
+      "investors_json": "[{\"name\":\"深圳招银电信新趋势股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":32999999500,\"basis\":\"实际出资\",\"source\":\"https://disc.static.szse.cn/download/disc/disk01/finalpage/2017-12-26/998dd864-d1fd-4efe-a863-cfe58eb56f65.PDF\"}}]",
+      "date": "2018-01-05",
+      "date_key": "2018-01-05",
+      "date_kind": "发行股份上市日"
+    },
+    "additional_sources": [
+      "https://money.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=3983839&stockid=300098",
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=5212080&stockid=300098"
+    ]
   }
 ]

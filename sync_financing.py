@@ -63,8 +63,9 @@ def match_status(incoming, existing, reviewed_ids, distinct_events=frozenset()):
     shared_investor = bool(investor_names(incoming) & investor_names(existing))
     different_rounds = stage != old_stage and SPECIFIC_ROUND.fullmatch(stage) and SPECIFIC_ROUND.fullmatch(old_stage)
     reviewed_pair = (event_identity(incoming), event_identity(existing)) in distinct_events
-    includes_transfer = stage != old_stage and '股权转让' in (stage, old_stage)
-    if reviewed_pair and relation == 'same' and includes_transfer:
+    separate_transfer = '股权转让' in (stage, old_stage) and (
+        stage != old_stage or incoming['date_key'] != existing['date_key'])
+    if reviewed_pair and relation == 'same' and separate_transfer:
         return 'different'
     if reviewed_pair and relation in ('same', 'conflict') and (
             different_rounds or not (shared_source or shared_investor)):

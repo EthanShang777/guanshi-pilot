@@ -253,5 +253,125 @@
     },
     "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2024-03-27/666c38f6-c578-4246-938a-ba9a74ce826c.PDF",
     "reason": "原始文件分别列示增资款与老股受让价款"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:14e849d51dc38cd6da0d65",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:33bf34983aeb289087df72",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:33bf34983aeb289087df72",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:14e849d51dc38cd6da0d65",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:33bf34983aeb289087df72",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:33bf34983aeb289087df72",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:14e849d51dc38cd6da0d65",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:14e849d51dc38cd6da0d65",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "existing": {
+      "event_id": "financing_event:2ed2aace83375fba9406edaf38fea7710ae7c25da3ed15a4415b0d35264b4a7d",
+      "company_id": "co:full_legal_name:73cbf2a9c021a397b91da60b246007ec"
+    },
+    "source": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:cc44849b6c05be839ed81a",
+      "company_id": "co:full_legal_name:75c2b6d86190aae568be93ef52cb56d5"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2acab6d56c95582d7e269b",
+      "company_id": "co:full_legal_name:75c2b6d86190aae568be93ef52cb56d5"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2acab6d56c95582d7e269b",
+      "company_id": "co:full_legal_name:75c2b6d86190aae568be93ef52cb56d5"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:cc44849b6c05be839ed81a",
+      "company_id": "co:full_legal_name:75c2b6d86190aae568be93ef52cb56d5"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3f247a60a3d6e08e86a423",
+      "company_id": "co:cn_uscc:7f9840c6efa34ba9b4d69a30a52758e7"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:0b608f92280629c73d104d",
+      "company_id": "co:cn_uscc:7f9840c6efa34ba9b4d69a30a52758e7"
+    },
+    "source": "https://epaper.stcn.com/pic/202603/10/aadeb7043467b72d758b644705fc1157.pdf",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:0b608f92280629c73d104d",
+      "company_id": "co:cn_uscc:7f9840c6efa34ba9b4d69a30a52758e7"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3f247a60a3d6e08e86a423",
+      "company_id": "co:cn_uscc:7f9840c6efa34ba9b4d69a30a52758e7"
+    },
+    "source": "https://epaper.stcn.com/pic/202603/10/aadeb7043467b72d758b644705fc1157.pdf",
+    "reason": "原始披露列明为独立的股权协议或出资事项"
   }
 ]

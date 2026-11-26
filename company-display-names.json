@@ -3152,10 +3152,14 @@
     "name": "视涯科技",
     "registeredName": "视涯科技股份有限公司",
     "aliases": [
-      "视涯半导体"
+      "视涯半导体",
+      "SeeYA Technology",
+      "合肥视涯技术有限公司",
+      "上海视涯信息科技有限公司"
     ],
     "sources": [
-      "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF"
+      "https://static.cninfo.com.cn/finalpage/2026-03-20/1225019140.PDF",
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11511775&stockid=688781"
     ]
   },
   "1419c5f93463032b7003a4df": {
@@ -3339,6 +3343,30 @@
     ],
     "sources": [
       "https://qccdata.qichacha.com/ReportData/PDF/82674ce10214b635b67dfd094c9fe1a4.pdf"
+    ]
+  },
+  "dba37e057d9f8fe967466793": {
+    "name": "双英集团",
+    "registeredName": "广西双英集团股份有限公司",
+    "aliases": [
+      "双英股份",
+      "柳州双英股份有限公司"
+    ],
+    "sources": [
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931",
+      "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202406281636984931&pageIndex=19",
+      "https://www.bse.cn/disclosure/2026/2026-10-21/e9272ba018ab49e7b326f63bb59001a2.pdf"
+    ]
+  },
+  "2e632e0d985b2d8a72bcfd98": {
+    "name": "保时来",
+    "registeredName": "保时来新材料科技（苏州）有限公司",
+    "aliases": [
+      "保时来新材料",
+      "保时来科技"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-01-06/1224919425.PDF"
     ]
   }
 }
