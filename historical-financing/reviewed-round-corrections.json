@@ -8736,5 +8736,56 @@
       "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
       "https://vc.pedaily.cn/invest/v4595"
     ]
+  },
+  {
+    "event_id": "financing_event:d6df2c4d4cc3f0912829a839122e7db9111fb179619ac303a0ef3c61ae9e91cb",
+    "company_id": "co:full_legal_name:5de53d70151024ffe5f25d50a5ab4159",
+    "day": "2024-11-26",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-24/1225026296.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "3.52亿人民币",
+      "investors_json": "[{\"name\":\"新宙邦\",\"role\":null,\"amount\":null}]",
+      "date": "2024-11-26",
+      "date_key": "2024-11-26",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "增资扩股",
+      "amount": "352039400元",
+      "investors_json": "[{\"name\":\"新宙邦\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":35203940000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-03-24/1225026296.PDF\"}}]",
+      "date": "2024-11-24",
+      "date_key": "2024-11-24",
+      "date_kind": "协议签订日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-11-26/1221855369.PDF",
+      "https://static.cninfo.com.cn/finalpage/2026-03-24/1225026298.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:39782c7d033de7fc11de5afeddb7869d7fb2dd2a28308562a78640e00d503dfd",
+    "company_id": "co:full_legal_name:5de53d70151024ffe5f25d50a5ab4159",
+    "day": "2017-06-23",
+    "source": "https://static.cninfo.com.cn/finalpage/2018-04-28/1204826888.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"中国宝安\",\"role\":null,\"amount\":null},{\"name\":\"和君资本\",\"role\":null,\"amount\":null},{\"name\":\"百富源资本\",\"role\":null,\"amount\":null}]",
+      "date": "2017-06-23",
+      "date_key": "2017-06-23",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"中国宝安\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2525000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-04-28/1204826888.PDF\"}},{\"name\":\"和君资本\",\"role\":null,\"amount\":null},{\"name\":\"百富源资本\",\"role\":null,\"amount\":null}]",
+      "date": "2017-06-23",
+      "date_key": "2017-06-23",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2017-08-30/1203895343.PDF"
+    ]
   }
 ]

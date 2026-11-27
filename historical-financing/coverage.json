@@ -10255,6 +10255,71 @@
       },
       "retired_deal_redirects": {},
       "batch": "historical-financing/2026-11-27-xingtai-saiwei-network-201.csv"
+    },
+    {
+      "institution": "蜂巢能源科技股份有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "从赛纬直接股东追溯蜂巢及石磊氟材料的出资、交易与基金LP",
+      "sources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_5GIK.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202303/001266_20230323_RTXZ.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2018/1026/LTN20181026451_C.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2019/0322/ltn201903221047_c.pdf",
+        "https://www.sec.gov/Archives/edgar/data/915913/000091591323000180/alb-20230930.htm",
+        "https://investors.albemarle.com/news-and-events/news/news-details/2022/Albemarle-Completes-Acquisition-of-Guangxi-Tianyuan-New-Energy-Materials-Co.-Ltd/default.aspx",
+        "https://static.cninfo.com.cn/finalpage/2024-11-26/1221855369.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-03-24/1225026298.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-03-24/1225026296.PDF",
+        "https://static.cninfo.com.cn/finalpage/2018-04-28/1204826888.PDF",
+        "https://static.cninfo.com.cn/finalpage/2017-08-30/1203895343.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202203151552652693_1.pdf",
+        "https://qccdata.qichacha.com/ReportData/PDF/70d958bdb9179c207f135bb49c817e48.pdf",
+        "https://qccdata.qichacha.com/ReportData/PDF/d81142af824c8875f0aa409ae9e8394c.pdf"
+      ],
+      "notes": [
+        {
+          "subject": "蜂巢能源科技股份有限公司",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf",
+          "result": "区分七次增资、设立到账与已完成老股。三次主要外部增资的直接机构按变动前后法律主体核对。"
+        },
+        {
+          "subject": "江西石磊氟材料有限责任公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-24/1225026296.PDF",
+          "result": "维持两笔原事件ID。新宙邦认购352039400元且最终全额到账；中国宝安2525万元只作同轮单方出资。"
+        },
+        {
+          "subject": "广西天源新能源材料有限公司",
+          "source": "https://www.sec.gov/Archives/edgar/data/915913/000091591323000180/alb-20230930.htm",
+          "result": "采用买方确认的2022-10-25完成日与约2亿美元现金对价，区别于更早工商日。"
+        }
+      ],
+      "events": {
+        "蜂巢能源长城汽车实缴": "26ba227a31d7c92a0192cab3",
+        "保定瑞茂支付现金受让": "19bf37814dcb918f895dbb8e",
+        "保定瑞茂两次补足原承诺": "2bfc957319c58d0f223de23c",
+        "保定瑞茂2019新增注资": "bb83b7eab4af3a1b3f485259",
+        "蜂巢持股平台与个人受让": "3ab689b529b6009a6d3543d0",
+        "蜂巢2020员工平台增资": "98d732b99207eba7ce020594",
+        "蜂巢能源2020两基金出资": "10d3c2b875956ab15fdb9796",
+        "旧股份由保定瑞茂收回": "8d225894151b7f158b4b3b7f",
+        "蜂巢2021员工平台增资": "008577f4af250e9505f401b8",
+        "蜂巢能源35亿增资": "1057755480fa4ef1fa94f4a4",
+        "蜂巢能源约102.8亿增资": "9d5266cd1c543da13cef5bdf",
+        "蜂巢能源61.528亿增资": "db1c27cdaace9f5f083c23cd",
+        "蜂巢取得无锡精普9.01%": "d4af09355ae5c2d5475e2bfc",
+        "蜂巢增资无锡精普": "40dcee95099f92a18f0066d8",
+        "捷威受让威蜂动力49%": "0ba47e93108363c69bb887e3",
+        "湖州蜂巢未缴份额受让": "190f12d7dc250c42ac256b33",
+        "蜂巢重整武汉中兴高能": "3afbfc54ac261d27b6cab880",
+        "雅保收购广西天源": "ce08601abbf18590f70cc4d4",
+        "日信宝安与江兴浩入股鹿山": "59c67102c0b8cac4c2571b5e",
+        "豪特节能2017定增": "111ea711813db59da2471444",
+        "新宙邦增资石磊氟材料": "fffe4f0382eb9381c5055dfc",
+        "石磊氟材料2017年A轮补证": "9e26a9ea22e4b10b1008e930"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-svolt-stone-network-202.csv"
     }
   ]
 }
