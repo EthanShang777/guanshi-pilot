@@ -3672,5 +3672,13 @@
     "coManagers": [
       "深圳清源时代投资管理控股有限公司"
     ]
+  },
+  "东莞勤合创业投资中心（有限合伙）": {
+    "brand": "清石资产管理（上海）有限公司",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2206091418103360.html"
+  },
+  "江苏疌泉君海荣芯投资合伙企业（有限合伙）": {
+    "brand": "无锡君海联芯投资管理有限公司",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2002111207103079.html"
   }
 }

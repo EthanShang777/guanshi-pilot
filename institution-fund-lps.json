@@ -24818,5 +24818,239 @@
         }
       ]
     }
+  },
+  {
+    "fundId": "2ed212c2776ed9f18914eb16",
+    "fundName": "东莞勤合创业投资中心（有限合伙）",
+    "managerId": "52123e2cfce96e1b53db8358",
+    "managerName": "清石资产管理（上海）有限公司",
+    "capitalBasis": "认缴规模",
+    "sizeCny": 2000000000,
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "上海摩勤智能技术有限公司",
+        "disclosedContributionCny": 980000000,
+        "disclosedPercent": "49.00",
+        "existingInstitution": "80501cfaf761f4216d9c9d33"
+      },
+      {
+        "name": "东莞市新兴战略性产业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": "30.00",
+        "existingInstitution": "9d979ba75a0dc859b5dfe9f4"
+      },
+      {
+        "name": "南京浦口智思集成电路产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": "c61a6cf29aa04c8c853a5517"
+      },
+      {
+        "name": "苏州汾湖创新产业投资中心（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": "036bb301908ccc7f777faca6"
+      },
+      {
+        "name": "绍兴韦豪企业管理咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": "77194cf89c486780f954a37b"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2025-12-03",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=32",
+        "fundedCny": 1000000000
+      }
+    ],
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=32",
+      "date": "2025-12-03",
+      "dateKind": "公开披露日",
+      "issuer": "铁近科技更正公开转让说明书",
+      "creditCode": "91441900MABM8X5L44",
+      "establishedDate": "2022-04-26",
+      "managerLegalName": "清石资产管理（上海）有限公司",
+      "managerRegistration": "P1070825",
+      "currentRegisteredName": "东莞勤合创业投资中心（有限合伙）",
+      "fundRegistration": "SVS349",
+      "fundEstablishedDate": "2022-06-01",
+      "filingDate": "2022-06-09",
+      "fundType": "创业投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2206091418103360.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "custodian": "中国建设银行股份有限公司",
+      "generalPartners": [
+        {
+          "name": "东莞勤合清石股权投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 20000000,
+          "disclosedPercent": "1.00",
+          "existingInstitution": "e6b0b06f2251339589c86dbd"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2025-12-03",
+        "totalCny": 1000000000,
+        "byPartner": {
+          "上海摩勤智能技术有限公司": 490000000,
+          "东莞市新兴战略性产业投资合伙企业（有限合伙）": 300000000,
+          "南京浦口智思集成电路产业基金合伙企业（有限合伙）": 100000000,
+          "苏州汾湖创新产业投资中心（有限合伙）": 50000000,
+          "绍兴韦豪企业管理咨询合伙企业（有限合伙）": 50000000,
+          "东莞勤合清石股权投资合伙企业（有限合伙）": 10000000
+        },
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=32",
+        "basis": "披露时点实缴"
+      },
+      "lpScope": "认缴与实缴分别引自铁近挂牌披露，历史实缴不代表当前余额。",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/688536_20240606_2CES.pdf#page=43",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=31"
+      ],
+      "termThrough": "2034-04-25",
+      "portfolioHoldings": [
+        {
+          "company": "苏州铁近机电科技股份有限公司",
+          "shares": 1000000,
+          "percent": "2.20",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf",
+          "scope": "股东名册披露，入股历史的轮次、日期和交易对价待核。"
+        }
+      ],
+      "nextCaseSource": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-13/688141_20260613_8HK5.pdf"
+    }
+  },
+  {
+    "fundId": "1dfa65718a19a758a935b267",
+    "fundName": "江苏疌泉君海荣芯投资合伙企业（有限合伙）",
+    "managerId": "dddcc2503bcdaa61c815792e",
+    "managerName": "无锡君海联芯投资管理有限公司",
+    "capitalBasis": "认缴规模",
+    "sizeCny": 1642424300,
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "SK海力士（无锡）投资有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": "36.53",
+        "existingInstitution": "1481195d8deb6aab4a42147a"
+      },
+      {
+        "name": "无锡高新区新动能产业发展基金（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "12.18",
+        "existingInstitution": "4480acc59edc32ab5c1a602b"
+      },
+      {
+        "name": "江苏省政府投资基金（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "12.18",
+        "existingInstitution": "5a73d13ddb9a7bf70b3cbfb4"
+      },
+      {
+        "name": "江苏疌泉太湖国联新兴成长产业投资企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "12.18",
+        "existingInstitution": "2780924575cca804097c3de0"
+      },
+      {
+        "name": "南京浦口智思集成电路产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "12.18",
+        "existingInstitution": "c61a6cf29aa04c8c853a5517"
+      },
+      {
+        "name": "信银理财有限责任公司（代信银理财超享象股权基金封闭式2号理财产品）",
+        "disclosedContributionCny": 126000000,
+        "disclosedPercent": "7.67",
+        "existingInstitution": "47bd887fa789e4e3bd92dc89"
+      },
+      {
+        "name": "拉萨欣导创业投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "3.04",
+        "existingInstitution": "c6c1111700a3cd26719cde56"
+      },
+      {
+        "name": "北京君联创业投资中心（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "3.04",
+        "existingInstitution": "b4ea91dc8133cdaa8a55a318"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2025-09-29",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202509291752868740_1.pdf#page=41",
+        "fundedCny": 1642424300
+      }
+    ],
+    "source": {
+      "url": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=286",
+      "date": "2026-04-29",
+      "dateKind": "公开披露日",
+      "issuer": "中微半导体收购报告书",
+      "creditCode": "91320214MA20PKLH4X",
+      "establishedDate": "2019-12-26",
+      "managerLegalName": "无锡君海联芯投资管理有限公司",
+      "managerRegistration": "P1070069",
+      "currentRegisteredName": "江苏疌泉君海荣芯投资合伙企业（有限合伙）",
+      "fundRegistration": "SJP631",
+      "fundEstablishedDate": "2019-12-26",
+      "filingDate": "2020-02-11",
+      "fundType": "股权投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2002111207103079.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "custodian": "中信银行股份有限公司",
+      "generalPartners": [
+        {
+          "name": "无锡君海新芯投资咨询有限公司",
+          "disclosedContributionCny": 16424300,
+          "disclosedPercent": "1.00",
+          "existingInstitution": "447c2e8b35f828b783c69006"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2025-09-29",
+        "totalCny": 1642424300,
+        "byPartner": {
+          "SK海力士（无锡）投资有限公司": 600000000,
+          "无锡高新区新动能产业发展基金（有限合伙）": 200000000,
+          "江苏省政府投资基金（有限合伙）": 200000000,
+          "江苏疌泉太湖国联新兴成长产业投资企业（有限合伙）": 200000000,
+          "南京浦口智思集成电路产业基金合伙企业（有限合伙）": 200000000,
+          "信银理财有限责任公司（代信银理财超享象股权基金封闭式2号理财产品）": 126000000,
+          "拉萨欣导创业投资有限公司": 50000000,
+          "北京君联创业投资中心（有限合伙）": 50000000,
+          "无锡君海新芯投资咨询有限公司": 16424300
+        },
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202509291752868740_1.pdf#page=41",
+        "basis": "披露时点实缴"
+      },
+      "lpScope": "合伙人以 2026 年收购报告为准，实缴以 2025 年挂牌披露为准。信银理财为产品代理出资，角色分列。",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202509291752868740_1.pdf#page=40",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=287"
+      ],
+      "priorPartnerTransfer": {
+        "title": "上海寓馨向拉萨欣导转让合伙份额",
+        "date": "2024-09",
+        "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=286"
+      },
+      "portfolioHoldings": [
+        {
+          "company": "伏达半导体（合肥）股份有限公司",
+          "shares": 2126078,
+          "percent": "0.59",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202509291752868740_1.pdf",
+          "scope": "历史增资或老股时点待查，持股证据可单独回查。"
+        }
+      ]
+    }
   }
 ]
