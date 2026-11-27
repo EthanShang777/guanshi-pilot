@@ -7667,5 +7667,235 @@
       "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/f3ba11e0a118359852773a5b2b46468e.pdf",
       "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF"
     ]
+  },
+  {
+    "event_id": "financing_event:93b5d98a573216b378410be4d4946c8e03512c0593f96e7fcdc2194c3310e7c6",
+    "company_id": "co:full_legal_name:c57b4948a7ab84e58c249a22e20d7d72",
+    "day": "2013-12-20",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/9ff7268c7a1b63a9a26e6724018a5c1c.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"光谷人才基金\",\"role\":null,\"amount\":null}]",
+      "date": "2013-12-20",
+      "date_key": "2013-12-20",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "1650万元",
+      "investors_json": "[{\"name\":\"武汉惠人生物创业投资基金中心（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1650000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/9ff7268c7a1b63a9a26e6724018a5c1c.pdf\"}},{\"name\":\"贵阳新天生物技术开发有限公司\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2013-12-20",
+      "date_key": "2013-12-20",
+      "date_kind": "发行人披露协议日"
+    },
+    "additional_sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/11f09fbf592bf87a6113f62f1df9abc0.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:04295069104c6db2681fadf9923f72e18a21e7f6138d3d0879ef7f3b6bc61cca",
+    "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3",
+    "day": "2011-05-20",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+    "expected": {
+      "round": "天使轮",
+      "amount": "6380万人民币",
+      "investors_json": "[{\"name\":\"高特佳投资\",\"role\":null,\"amount\":null}]",
+      "date": "2011-05-20",
+      "date_key": "2011-05-20",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "6380万元",
+      "investors_json": "[{\"name\":\"深圳市高特佳精选成长投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":2552000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"合肥高特佳创业投资有限责任公司\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":2552000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"上海高特佳春晖投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1276000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"彭成随\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2011-05-20",
+      "date_key": "2011-05-20",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:fb0a910690eb0f0c93f96e9d1200344f725a74f3587eb29414306f01ab700a8e",
+    "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3",
+    "day": "2014-12-22",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"富海银涛\",\"role\":null,\"amount\":null}]",
+      "date": "2014-12-22",
+      "date_key": "2014-12-22",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "1元",
+      "investors_json": "[{\"name\":\"深圳华骏投资有限公司\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":100,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"彭建中\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2014-12-22",
+      "date_key": "2014-12-22",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:ba6f8a5a4927d5def3d4a3fb493a5a0b41f71e56d8f06a0caae05f36e81fe781",
+    "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3",
+    "day": "2015-03-16",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "600万人民币",
+      "investors_json": "[{\"name\":\"东湖创投\",\"role\":null,\"amount\":null},{\"name\":\"磐谷创投\",\"role\":null,\"amount\":null}]",
+      "date": "2015-03-16",
+      "date_key": "2015-03-16",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "101162401元",
+      "investors_json": "[{\"name\":\"天津和悦谷雨股权投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":600000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"新疆东方世纪股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1800000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"新疆百富华股权投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":720000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"潘东丽\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1200000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"陶晔\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1800000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"张玉娣\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":600000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"武汉斯达谷投资中心（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1200000000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"赵立民\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":2196240000,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"李君\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":100,\"basis\":\"转让对价\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"彭建中\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2015-04-08",
+      "date_key": "2015-04-08",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:de5368535ce84810e4880193fa1083884c6a3d048beb0a5e1c425e416ba714f4",
+    "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3",
+    "day": "2015-06-23",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+    "expected": {
+      "round": "未披露",
+      "amount": "8157万人民币",
+      "investors_json": "[{\"name\":\"富诚创投\",\"role\":null,\"amount\":null},{\"name\":\"磐谷创投\",\"role\":null,\"amount\":null}]",
+      "date": "2015-06-23",
+      "date_key": "2015-06-23",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "17030万元",
+      "investors_json": "[{\"name\":\"南京富诚股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2242500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"深圳前海汇杰百川投资管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1495000000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"新疆百富华股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1787500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"北京企巢控股股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1202500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"深圳道格资本管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1007500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"邵梓诚\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1007500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"温达人\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1007500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"顾振民\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1007500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"龚晓东\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1007500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"林莉莉\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1007500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"李红\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":747500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"林涌新\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":617500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"陶晔\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1397500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"潘东丽\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":747500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}},{\"name\":\"张玉娣\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":747500000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf\"}}]",
+      "date": "2015-06-17",
+      "date_key": "2015-06-17",
+      "date_kind": "发行人披露验资到账日"
+    },
+    "additional_sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:974bab403ed2c55d8dd8648b933ba604e02acf68c6381e0e5b87ce103104e75e",
+    "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3",
+    "day": "2016-02-04",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+    "expected": {
+      "round": "定向增发",
+      "amount": "2769万人民币",
+      "investors_json": "[{\"name\":\"九州证券\",\"role\":null,\"amount\":null},{\"name\":\"天风证券\",\"role\":null,\"amount\":null}]",
+      "date": "2016-02-04",
+      "date_key": "2016-02-04",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "2769万元",
+      "investors_json": "[{\"name\":\"天风证券股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2704000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN201703270442789499_1.pdf\"}},{\"name\":\"九州证券股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":65000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN201703270442789499_1.pdf\"}}]",
+      "date": "2015-12-31",
+      "date_key": "2015-12-31",
+      "date_kind": "发行人披露验资到账日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN201703270442789499_1.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:67a7c5bde8110f594f7112c6da059451f182205cdd9773e20edf741715eea3c4",
+    "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3",
+    "day": "2016-04-22",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+    "expected": {
+      "round": "定向增发",
+      "amount": "1027万人民币",
+      "investors_json": "[{\"name\":\"天风证券\",\"role\":null,\"amount\":null}]",
+      "date": "2016-04-22",
+      "date_key": "2016-04-22",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "员工持股增资",
+      "amount": "1027万元",
+      "investors_json": "[{\"name\":\"天贝1号定向资管计划（贝斯达第一期员工持股计划）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1027000000,\"basis\":\"实际出资\",\"source\":\"https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf\"}}]",
+      "date": "2016-03-17",
+      "date_key": "2016-03-17",
+      "date_kind": "发行人披露验资到账日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf",
+      "https://qccdata.qichacha.com/ReportData/PDF/fdc80130abd56804416b788f6ee2de1e.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:4337743d4db5c2e193efa79df589189dd1588f3def3ab5b667cb6ebc174fc811",
+    "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3",
+    "day": "2017-02-27",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+    "expected": {
+      "round": "定向增发",
+      "amount": "2.04亿人民币",
+      "investors_json": "[{\"name\":\"东证资本\",\"role\":null,\"amount\":null},{\"name\":\"富厚创投\",\"role\":null,\"amount\":null},{\"name\":\"汉富资本\",\"role\":null,\"amount\":null},{\"name\":\"温氏投资\",\"role\":null,\"amount\":null},{\"name\":\"瀚华金控\",\"role\":null,\"amount\":null},{\"name\":\"盈科资本\",\"role\":null,\"amount\":null},{\"name\":\"赛富投资基金\",\"role\":null,\"amount\":null}]",
+      "date": "2017-02-27",
+      "date_key": "2017-02-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "20417.28万元",
+      "investors_json": "[{\"name\":\"西藏合富投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"广州赛富粤信中小企业产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京瀚华露笑投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广东温氏投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"王雪潮\",\"role\":null,\"amount\":null},{\"name\":\"李俊丽\",\"role\":null,\"amount\":null},{\"name\":\"汉富（北京）资本管理有限公司\",\"role\":null,\"amount\":null},{\"name\":\"陈智红\",\"role\":null,\"amount\":null},{\"name\":\"宁波泰格盈科创业投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海东证富厚投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海富厚乐投资管理中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海富厚族投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2017-01-10",
+      "date_key": "2017-01-10",
+      "date_kind": "发行人披露验资到账日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:b8d8832a56c608e35eb7a87b99d0eff91f1c4ba512f61eac380f8d436a6725ca",
+    "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3",
+    "day": "2017-01-13",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf",
+    "expected": {
+      "round": "定向增发",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"汉富资本\",\"role\":null,\"amount\":null}]",
+      "date": "2017-01-13",
+      "date_key": "2017-01-13",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "未披露",
+      "investors_json": "[]",
+      "date": "2017-01-13",
+      "date_key": "2017-01-13",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
+    ]
   }
 ]

@@ -5064,5 +5064,43 @@
     "sources": [
       "https://epaper.cs.com.cn/zgzqb/html/2017-08/25/nw.D110000zgzqb_20170825_2-B016.htm?div=-1"
     ]
+  },
+  "db63147b91395649e8c44040": {
+    "name": "新天药业",
+    "registeredName": "贵阳新天药业股份有限公司",
+    "aliases": [
+      "002873",
+      "贵阳新天药业"
+    ],
+    "sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/9ff7268c7a1b63a9a26e6724018a5c1c.pdf",
+      "https://static.cninfo.com.cn/finalpage/2018-04-24/1204703720.PDF",
+      "https://static.cninfo.com.cn/finalpage/2020-01-16/1207253586.PDF",
+      "https://epaper.cs.com.cn/zgzqb/html/2021-03/31/nw.D110000zgzqb_20210331_5-B037.htm"
+    ]
+  },
+  "10b4f920ba57cff14f1c28a4": {
+    "name": "贝斯达医疗",
+    "registeredName": "深圳市贝斯达医疗股份有限公司",
+    "aliases": [
+      "贝斯达",
+      "833638",
+      "深圳市贝斯达医疗器械有限公司"
+    ],
+    "sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+      "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
+    ]
+  },
+  "5f64b439e1bed98f546570e7": {
+    "name": "三江量通",
+    "registeredName": "武汉航天三江量子通信有限公司",
+    "aliases": [
+      "武汉航天三江量子",
+      "三江量子通信"
+    ],
+    "sources": [
+      "https://qccdata.qichacha.com/Disclosure/e7c22d236846ee69bf81fa15cc18a55d.pdf"
+    ]
   }
 }

@@ -17580,5 +17580,477 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "71fe203b7d918418809488dd",
+    "fundName": "上海国盛海通股权投资基金合伙企业（有限合伙）",
+    "managerName": "上海国盛资本管理有限公司",
+    "managerId": "1687cfcc586b9fee91e771a5",
+    "sizeCny": 5401000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9861681&stockid=002873",
+      "date": "2024-03-08",
+      "dateKind": "公开文件披露日",
+      "issuer": "贵阳新天药业股份有限公司",
+      "pages": "国盛海通基金产权控制关系",
+      "lpSources": [
+        "https://epaper.cs.com.cn/zgzqb/html/2021-03/31/nw.D110000zgzqb_20210331_5-B037.htm"
+      ],
+      "lpScope": "2024年3月重组预案披露的全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "上海国盛资本管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "上海国盛资本管理有限公司",
+      "creditCode": "91310000MA1FL62X6X"
+    },
+    "partners": [
+      {
+        "name": "上海国盛（集团）有限公司",
+        "disclosedContributionCny": 2500000000,
+        "disclosedPercent": 46.29,
+        "existingInstitution": "6bfa7c943b6d6c10a0ff9194"
+      },
+      {
+        "name": "上海海通证券资产管理有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 18.52,
+        "existingInstitution": "2fd11f2a4d4b94823bf6ac2f"
+      },
+      {
+        "name": "上海汽车集团股权投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 9.26,
+        "existingInstitution": "b7de0514dc7a491723b4c002"
+      },
+      {
+        "name": "上海国企改革发展股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 9.26,
+        "existingInstitution": "f78fe0a039133fbecc261f64"
+      },
+      {
+        "name": "上海电气控股集团有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 9.26,
+        "existingInstitution": "c3456ba294ee4d091f3c100a"
+      },
+      {
+        "name": "中国东方资产管理股份有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 3.7,
+        "existingInstitution": "89730701907075119423e62b"
+      },
+      {
+        "name": "上海富盛经济开发区开发有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 3.7,
+        "existingInstitution": "20866f01a587e4614b57d5d2"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "4fea6f828133f7ad6ac0afb4",
+    "fundName": "贵阳甲秀创业投资中心（有限合伙）",
+    "managerName": "贵阳成创合力创业投资管理企业（有限合伙）",
+    "managerId": "eac47de4f5287a747f6c6a7d",
+    "sizeCny": 122230000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qccdata.qichacha.com/ReportData/PDF/9ff7268c7a1b63a9a26e6724018a5c1c.pdf",
+      "date": "2017-05-04",
+      "dateKind": "公开文件披露日",
+      "issuer": "贵阳新天药业股份有限公司",
+      "pages": "71、108–109",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2017-05-04/1203474255.PDF",
+        "https://qccdata.qichacha.com/ReportData/PDF/11f09fbf592bf87a6113f62f1df9abc0.pdf"
+      ],
+      "lpScope": "2017年招股书披露的全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "贵阳成创合力创业投资管理企业（有限合伙）",
+          "disclosedContributionCny": 1230000
+        }
+      ],
+      "managerLegalName": "贵阳成创合力创业投资管理企业（有限合伙）",
+      "managerRole": "发行人披露的执行事务合伙人"
+    },
+    "partners": [
+      {
+        "name": "彭旭东",
+        "disclosedContributionCny": 49000000,
+        "disclosedPercent": 40.088,
+        "existingInstitution": "a72b7bec773fcc5df2383a08"
+      },
+      {
+        "name": "成都创新风险投资有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 24.544,
+        "existingInstitution": "c8bbe082606864a02da59c76"
+      },
+      {
+        "name": "贵阳市创业投资有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 24.544,
+        "existingInstitution": "843ba02107adb3d5eb3e5c70"
+      },
+      {
+        "name": "张珣",
+        "disclosedContributionCny": 12000000,
+        "disclosedPercent": 9.818,
+        "existingInstitution": "5563cbdc9d51e60efb1ab5de"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2017-05-04",
+        "fundedCny": 48892000,
+        "source": "https://qccdata.qichacha.com/ReportData/PDF/9ff7268c7a1b63a9a26e6724018a5c1c.pdf"
+      }
+    ]
+  },
+  {
+    "fundId": "ca572a0bd5effac1bb2f1766",
+    "fundName": "深圳市富海银涛柒号投资合伙企业（有限合伙）",
+    "managerName": "深圳市富海银涛投资管理合伙企业（有限合伙）",
+    "managerId": "8452f58517d0e01367f0370d",
+    "sizeCny": 54200000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+      "date": "2017-06",
+      "dateKind": "公开文件披露日",
+      "issuer": "深圳市贝斯达医疗股份有限公司",
+      "pages": "74–75",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+      ],
+      "lpScope": "2017年招股书披露的全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "深圳市富海银涛投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 29700
+        }
+      ],
+      "managerLegalName": "深圳市富海银涛投资管理合伙企业（有限合伙）",
+      "registrationCode": "SD5426",
+      "managerRegistrationCode": "P1001490",
+      "tableRoundingNote": "披露原表分项合计比披露总额多100元，保留原分项及总额"
+    },
+    "partners": [
+      {
+        "name": "深圳市晟葳投资有限公司",
+        "disclosedContributionCny": 27100000,
+        "disclosedPercent": 50,
+        "existingInstitution": "10487abeb22531d61f643c66"
+      },
+      {
+        "name": "深圳市富海银涛创业投资有限公司",
+        "disclosedContributionCny": 10006800,
+        "disclosedPercent": 18.46,
+        "existingInstitution": "1c4b446d4aeaee606fffca87"
+      },
+      {
+        "name": "深圳市富海银涛壹佰号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 6229600,
+        "disclosedPercent": 11.49,
+        "existingInstitution": "703835636cd9e24e8b46188c"
+      },
+      {
+        "name": "杭州富海银涛金业创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 5417000,
+        "disclosedPercent": 9.99,
+        "existingInstitution": "5604fc10ce3724bef05aba55"
+      },
+      {
+        "name": "芜湖天润创新投资中心（有限合伙）",
+        "disclosedContributionCny": 5417000,
+        "disclosedPercent": 9.99,
+        "existingInstitution": "dd211cee730d033792e6a1d2"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f990010d0a9616ce4a6f260f",
+    "fundName": "深圳市富海银涛贰号投资合伙企业（有限合伙）",
+    "managerName": "深圳市富海银涛资产管理股份有限公司",
+    "managerId": "24760daaaa68d6c1ad8d3d1b",
+    "sizeCny": 54000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+      "date": "2017-06",
+      "dateKind": "公开文件披露日",
+      "issuer": "深圳市贝斯达医疗股份有限公司",
+      "pages": "76–77",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+      ],
+      "lpScope": "2017年招股书披露的全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "深圳市富海银涛资产管理股份有限公司",
+          "disclosedContributionCny": 3200
+        }
+      ],
+      "managerLegalName": "深圳市富海银涛资产管理股份有限公司",
+      "registrationCode": "SD4440",
+      "managerRegistrationCode": "P1001468"
+    },
+    "partners": [
+      {
+        "name": "深圳市晟崴投资有限公司",
+        "disclosedContributionCny": 27000000,
+        "disclosedPercent": 50,
+        "existingInstitution": "8c50e179d1c2d36605b93f2d"
+      },
+      {
+        "name": "深圳市富海银涛创业投资有限公司",
+        "disclosedContributionCny": 16196800,
+        "disclosedPercent": 29.99,
+        "existingInstitution": "1c4b446d4aeaee606fffca87"
+      },
+      {
+        "name": "深圳市晓舟投资有限公司",
+        "disclosedContributionCny": 5400000,
+        "disclosedPercent": 10,
+        "existingInstitution": "f1959c1f771b184efa5c5a95"
+      },
+      {
+        "name": "芜湖天润创新投资中心（有限合伙）",
+        "disclosedContributionCny": 5400000,
+        "disclosedPercent": 10,
+        "existingInstitution": "dd211cee730d033792e6a1d2"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "902a8f468e0da5539e993aff",
+    "fundName": "深圳市高特佳精选成长投资合伙企业（有限合伙）",
+    "managerName": "深圳市高特佳投资集团有限公司",
+    "managerId": "0d9a6aa52b06ba6af7a0ac2e",
+    "sizeCny": 139000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+      "date": "2017-06",
+      "dateKind": "公开文件披露日",
+      "issuer": "深圳市贝斯达医疗股份有限公司",
+      "pages": "80–81",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+      ],
+      "lpScope": "2017年招股书披露的全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "深圳市高特佳投资集团有限公司",
+          "disclosedContributionCny": 5000000
+        }
+      ],
+      "managerLegalName": "深圳市高特佳投资集团有限公司",
+      "registrationCode": "SD2391",
+      "managerRegistrationCode": "P1000504"
+    },
+    "partners": [
+      {
+        "name": "苏州瑞牛二号投资中心（有限合伙）",
+        "disclosedContributionCny": 35000000,
+        "disclosedPercent": 25.18,
+        "existingInstitution": "379a21cb547d3c8948d075c4"
+      },
+      {
+        "name": "陈锐强",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 10.79,
+        "existingInstitution": "858c0b63f47d153d7f491bd7"
+      },
+      {
+        "name": "洪竞敏",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 7.19,
+        "existingInstitution": "af8051d17185f7ce67b36ac5"
+      },
+      {
+        "name": "王东榕",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 7.19,
+        "existingInstitution": "8b5a138403bec13a8b86b9d0"
+      },
+      {
+        "name": "赵光",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 7.19,
+        "existingInstitution": "078cb83d1eb84e16c45374d8"
+      },
+      {
+        "name": "田海林",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 7.19,
+        "existingInstitution": "682fa65a232cd0e0b6032a19"
+      },
+      {
+        "name": "李宗辉",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 7.19,
+        "existingInstitution": "7ee1d1852a80a1127b12dfe4"
+      },
+      {
+        "name": "李东民",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": 4.32,
+        "existingInstitution": "1a9059077cc5a764a1c9dec3"
+      },
+      {
+        "name": "唐咚",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 3.6,
+        "existingInstitution": "fa0463d9da8596b1501872d1"
+      },
+      {
+        "name": "胡萍",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 3.6,
+        "existingInstitution": "36fbcee588806febe3b04e68"
+      },
+      {
+        "name": "厦门市担保有限公司",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 2.16,
+        "existingInstitution": "bd2efcdfe3fb9be21e78d38f"
+      },
+      {
+        "name": "林静",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 2.16,
+        "existingInstitution": "6f3ada4171bffb30f9a07bdf"
+      },
+      {
+        "name": "孙启霖",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 1.44,
+        "existingInstitution": "0fd3c88ada9143a41f8a1106"
+      },
+      {
+        "name": "黄玉莲",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 1.44,
+        "existingInstitution": "8ec1dd1fc7b9deed5450d11d"
+      },
+      {
+        "name": "郑大庆",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 1.44,
+        "existingInstitution": "df4fb81857db4c4cd47a1fcf"
+      },
+      {
+        "name": "凌霄",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 1.44,
+        "existingInstitution": "470c1b122e382023a2bdee41"
+      },
+      {
+        "name": "徐龙兵",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 1.44,
+        "existingInstitution": "72b66c9fd526fb3f676274dd"
+      },
+      {
+        "name": "陈建",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 1.44,
+        "existingInstitution": "e57d4e7bf536a89b4a02fce0"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "758feae74316d41d9deffca3",
+    "fundName": "天津和悦谷雨股权投资基金合伙企业（有限合伙）",
+    "managerName": "北京磐谷创业投资有限责任公司",
+    "managerId": "c0f997c7ed2fa61a8145a973",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+      "date": "2017-06",
+      "dateKind": "公开文件披露日",
+      "issuer": "深圳市贝斯达医疗股份有限公司",
+      "pages": "92–93",
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+      ],
+      "lpScope": "2017年招股书披露的全体直接合伙人",
+      "generalPartners": [
+        {
+          "name": "李丽宁",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "北京磐谷创业投资有限责任公司",
+      "registrationCode": "SD6820",
+      "managerRegistrationCode": "P1008144"
+    },
+    "partners": [
+      {
+        "name": "孙戈",
+        "disclosedContributionCny": 99000000,
+        "disclosedPercent": 99,
+        "existingInstitution": "fe439b69e427f57aaf24096b"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c68904856681860c5610211d",
+    "fundName": "湖北航天高投光电子投资基金合伙企业（有限合伙）",
+    "managerName": "湖北航天高投光电子投资基金管理有限公司",
+    "managerId": "9f8514b82ce94cb417e442e0",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": null,
+    "source": {
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4122082&stockid=000547",
+      "date": "2018-03-15",
+      "dateKind": "公开文件披露日",
+      "issuer": "航天工业发展股份有限公司",
+      "pages": "航天科工资产对外投资",
+      "lpSources": [
+        "https://qccdata.qichacha.com/ReportData/PDF/93a600119924a98e6a5a97981188c8c9.pdf",
+        "https://qccdata.qichacha.com/Disclosure/e7c22d236846ee69bf81fa15cc18a55d.pdf",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9272925"
+      ],
+      "lpScope": "仅核实2018年公告列示的一名直接合伙方，其余合伙人及实际缴付待后续披露",
+      "generalPartners": [],
+      "managerLegalName": "湖北航天高投光电子投资基金管理有限公司",
+      "historicInvestmentExit": {
+        "company": "武汉航天三江量子通信有限公司",
+        "priorStakePercent": 10,
+        "capitalReductionCompleted": "2022-12-27",
+        "postStakePercent": 0,
+        "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9272925"
+      }
+    },
+    "partners": [
+      {
+        "name": "航天科工资产管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 21.67,
+        "existingInstitution": "47a0c94073ca90f5541d415d"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
