@@ -2937,5 +2937,15 @@
       "event_id": "financing_event:f98efe322e2908b95041191352939520123ab43aad6570aa7924bc0a286b32a0",
       "company_id": "co:full_legal_name:178b04f7bcc78176ab23f19a45a10325"
     }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8bd1291f99cfc9306219e5",
+      "company_id": "co:full_legal_name:59f79243bd6103a5f77c406a44274c7f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e933b5eb73af571bde1b38",
+      "company_id": "co:full_legal_name:59f79243bd6103a5f77c406a44274c7f"
+    }
   }
 ]

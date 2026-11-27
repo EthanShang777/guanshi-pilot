@@ -14921,6 +14921,48 @@
               "disclosedPercent": 1.105
             }
           ]
+        },
+        {
+          "asOf": "2021-03-12",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202103/000849_20210312_W3DI.pdf#page=102",
+          "registeredCny": 7750000000,
+          "partners": [
+            {
+              "name": "国投创合（上海）投资管理有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": "0.65"
+            },
+            {
+              "name": "国家开发投资集团有限公司",
+              "disclosedContributionCny": 2500000000,
+              "disclosedPercent": "32.26"
+            },
+            {
+              "name": "上海国盛（集团）有限公司",
+              "disclosedContributionCny": 2400000000,
+              "disclosedPercent": "30.97"
+            },
+            {
+              "name": "湖北省长江经济带产业引导基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 1500000000,
+              "disclosedPercent": "19.35"
+            },
+            {
+              "name": "上海市闵行区创新创业投资引导基金管理中心（上海市闵行区金融服务中心）",
+              "disclosedContributionCny": 600000000,
+              "disclosedPercent": "7.74"
+            },
+            {
+              "name": "天津港（集团）有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": "6.45"
+            },
+            {
+              "name": "江西赣江新区开发投资集团有限责任公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": "2.58"
+            }
+          ]
         }
       ],
       "paidContributionSource": {
@@ -22355,7 +22397,13 @@
         "sizeCny": 1175000000,
         "basis": "募集说明书表列基金规模，认缴或实缴口径未注明",
         "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2023-04-06/115121_20230406_X7PO.pdf"
-      }
+      },
+      "filingDate": "2021-09-29",
+      "establishedDate": "2021-08-11",
+      "fundRegistration": "SSV306",
+      "fundType": "创业投资基金",
+      "custodian": "招商银行股份有限公司",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2109291353104484.html"
     }
   },
   {
@@ -22508,6 +22556,149 @@
           "disclosedPercent": "0.20"
         }
       ]
+    }
+  },
+  {
+    "fundId": "a5aa63fed8b370eea01bde22",
+    "fundName": "先进制造产业投资基金（有限合伙）",
+    "managerId": "cc070776e701c9ff58fe78f8",
+    "managerName": "国投创新",
+    "sizeCny": 22000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "中华人民共和国财政部",
+        "disclosedContributionCny": 8000000000,
+        "disclosedPercent": "36.36",
+        "existingInstitution": "4ed5bb14a0acb59d8f10e24c"
+      },
+      {
+        "name": "国家开发投资集团有限公司",
+        "disclosedContributionCny": 4000000000,
+        "disclosedPercent": "18.18",
+        "existingInstitution": "f8d0214772925a353519ee37"
+      },
+      {
+        "name": "工银瑞信投资管理有限公司",
+        "disclosedContributionCny": 3480000000,
+        "disclosedPercent": "15.82",
+        "existingInstitution": "8974ffd8f0ae7bd57482257f"
+      },
+      {
+        "name": "江苏省政府投资基金（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.55",
+        "existingInstitution": "5a73d13ddb9a7bf70b3cbfb4"
+      },
+      {
+        "name": "广东粤财投资控股有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.55",
+        "existingInstitution": "c3659bc4d1ed9285fc4bb3d0"
+      },
+      {
+        "name": "浙江省产业基金有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.55",
+        "existingInstitution": "0ae730250d325ac6a8bf44a5"
+      },
+      {
+        "name": "上海电气控股集团有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.55",
+        "existingInstitution": "c3456ba294ee4d091f3c100a"
+      },
+      {
+        "name": "辽宁省产业（创业）投资引导基金管理中心",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.55",
+        "existingInstitution": "eb9a8f3a95e2f3c8a1478698"
+      },
+      {
+        "name": "云南省投资控股集团有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "2.27",
+        "existingInstitution": "1c9efb8c432d0e558c3b6a56"
+      },
+      {
+        "name": "重庆两江新区承为股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "2.27",
+        "existingInstitution": "1744feb0ed28f363614804fd"
+      },
+      {
+        "name": "深圳市引导基金投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "2.27",
+        "existingInstitution": "3cc2447cbfd075fdad3c7776"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2021-11-17",
+        "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202111/000939_20211117_YY5C.pdf#page=67",
+        "fundedCny": 21166666600,
+        "subscribedCny": 22000000000
+      }
+    ],
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001834_20230609_HK5R.pdf#page=57",
+      "date": "2023-06-09",
+      "dateKind": "公开文件披露日",
+      "issuer": "长风药业上交所招股书",
+      "pages": "PDF第57–58页、82页",
+      "lpScope": "披露全部具名机构LP及自然人LP人数，实缴按另列披露时点记录。",
+      "managerLegalName": "国投创新投资管理有限公司",
+      "generalPartners": [
+        {
+          "name": "国投创新投资管理有限公司",
+          "disclosedContributionCny": 20000000,
+          "disclosedPercent": "0.09"
+        }
+      ],
+      "creditCode": "91310000342453915W",
+      "fundRegistration": "SJ9119",
+      "filingDate": "2016-06-27",
+      "managerRegistration": "P1000719",
+      "aliases": [
+        "国投先进制造产业投资基金（有限合伙）"
+      ],
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202103/000849_20210312_W3DI.pdf#page=84",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202111/000939_20211117_YY5C.pdf#page=67"
+      ]
+    }
+  },
+  {
+    "fundId": "562b2112be65ffc39f7fb9ad",
+    "fundName": "宁波君度丰瑞股权投资合伙企业（有限合伙）",
+    "managerId": "73add1f0d2c3916f1faee2d2",
+    "managerName": "君度投资",
+    "sizeCny": 50000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 2,
+    "partners": [],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202103/000849_20210312_W3DI.pdf#page=115",
+      "date": "2021-03-12",
+      "dateKind": "公开文件披露日",
+      "issuer": "亚信安全上交所招股书",
+      "pages": "PDF第114–116页",
+      "lpScope": "披露全部具名机构LP及自然人LP人数，实缴按另列披露时点记录。",
+      "managerLegalName": "西藏君度投资有限公司",
+      "generalPartners": [
+        {
+          "name": "西藏君度投资有限公司",
+          "disclosedContributionCny": 18000000,
+          "disclosedPercent": "36.00"
+        }
+      ],
+      "creditCode": "91330206MA2H67EX7L",
+      "fundRegistration": "SLG662",
+      "filingDate": "2020-07-01",
+      "managerRegistration": "P1060014"
     }
   }
 ]
