@@ -5552,5 +5552,77 @@
     "sources": [
       "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
     ]
+  },
+  "92d4173059832b20481a22e4": {
+    "name": "珠海赛纬",
+    "registeredName": "珠海市赛纬电子材料股份有限公司",
+    "aliases": [
+      "珠海市赛纬电子材料有限公司",
+      "赛纬电子",
+      "赛纬材料"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf"
+    ]
+  },
+  "4b4fd885a1710614f999a5ed": {
+    "name": "赣州石磊",
+    "registeredName": "赣州石磊新能源科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf"
+    ]
+  },
+  "a1c8097d8e0637f34a03d737": {
+    "name": "浙江福纬",
+    "registeredName": "浙江福纬电子材料有限公司",
+    "aliases": [],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf"
+    ]
+  },
+  "ee41839378ef3896df6562c5": {
+    "name": "多氟多百川",
+    "registeredName": "河南省多氟多百川新材料有限公司",
+    "aliases": [
+      "河南百川"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-03-23/1216190000.PDF"
+    ]
+  },
+  "72fb5d9247c925d55450a98f": {
+    "name": "合肥赛纬",
+    "registeredName": "合肥市赛纬电子材料有限公司",
+    "aliases": [],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf"
+    ]
+  },
+  "ab1a0e119fb766d28b543515": {
+    "name": "合肥联创光学",
+    "registeredName": "合肥联创光学有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf"
+    ]
+  },
+  "a2b7a5bccbcee305b948daf7": {
+    "name": "欧益睿芯",
+    "registeredName": "合肥欧益睿芯科技有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf"
+    ]
+  },
+  "524f01e086aa25a277107b10": {
+    "name": "超电新能",
+    "registeredName": "江苏超电新能源科技发展有限公司",
+    "aliases": [
+      "江苏超电"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf"
+    ]
   }
 }
