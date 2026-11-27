@@ -2917,5 +2917,25 @@
     },
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
     "reason": "新记录为来源中独立老股买卖，旧记录对应不同增资或交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6f04656b7ca5b53b6f44ea",
+      "company_id": "co:full_legal_name:81db3c59ab2fc08efae928c9a49003f4"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:988bb6ce69888ce5381f7f",
+      "company_id": "co:full_legal_name:81db3c59ab2fc08efae928c9a49003f4"
+    }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9df5d5065c762cb4394fb2",
+      "company_id": "co:full_legal_name:178b04f7bcc78176ab23f19a45a10325"
+    },
+    "existing": {
+      "event_id": "financing_event:f98efe322e2908b95041191352939520123ab43aad6570aa7924bc0a286b32a0",
+      "company_id": "co:full_legal_name:178b04f7bcc78176ab23f19a45a10325"
+    }
   }
 ]
