@@ -9592,6 +9592,87 @@
         "946de79e19f3debd19f0d4d3": "547c0fa5c11c7bd28781e747"
       },
       "batch": "historical-financing/2026-11-27-huilun-network-193.csv"
+    },
+    {
+      "institution": "贵州省新型工业化发展股权投资基金合伙企业（有限合伙）",
+      "checked_on": "2026-11-27",
+      "scope": "沿基金反查贵州页岩气与威宁能源，沿贵阳中小基金反查丰茂，并查兰溪源泰、北京诚通工融与新动能等合伙人",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12577150&stockid=600903",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/9abe1a71b30486039bbf37f9a6cd85b3.pdf",
+        "https://www.wabei.cn/Home/News/253827",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/249dd1c86ef89d2e424342f0c29f61a1.pdf",
+        "https://stock.tianyancha.com/Announcement/eastmoney/c168ea4c8dc4aff1cb67a8f49a5beb85.pdf",
+        "https://static.cninfo.com.cn/finalpage/2025-04-25/1223331466.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202009151412675554_1.pdf",
+        "https://www.csrc.gov.cn/guizhou/c104864/c7468223/content.shtml",
+        "https://pdf.dfcfw.com/pdf/H2_AN202402261623580295_1.pdf?1708961528000.pdf=",
+        "https://finance.sina.com.cn/roll/2022-02-11/doc-ikyamrn0133402.shtml",
+        "https://static.cninfo.com.cn/finalpage/2022-11-26/1215211315.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-04-28/1216648718.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9394884",
+        "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444322.PDF",
+        "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf=",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/730b827ad81775470c8df1a923970f75.pdf",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/427b1a6281ba2eca45df3b3acea392c7.pdf"
+      ],
+      "notes": [
+        {
+          "subject": "贵州页岩气勘探开发有限责任公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF",
+          "result": "7笔可复核的实缴或增资加总30亿元，两笔无偿划转单列。2025派生分立仅重述股本，不记新增融资。"
+        },
+        {
+          "subject": "国家电投集团贵州金元威宁能源股份有限公司",
+          "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/9abe1a71b30486039bbf37f9a6cd85b3.pdf",
+          "result": "补录公开可证三次定增和一次老股转让。2022最终26方合计25.72898388亿元，投标拟认购不替代交易实收。"
+        },
+        {
+          "subject": "贵州丰茂供应链管理股份有限公司",
+          "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/730b827ad81775470c8df1a923970f75.pdf",
+          "result": "天使轮1500万、A轮4300万、A+轮5000万，另有两笔员工平台认购；工信部分退出价款961.6438万元。资产换股和整体股改无新增现金。"
+        },
+        {
+          "subject": "贵州省新型工业化发展股权投资基金合伙企业（有限合伙）",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12577150&stockid=600903",
+          "result": "补完整认缴明细、历史LP变化与2022时点130.24亿元整体实缴；被投关系新增威宁能源和贵州页岩气。"
+        },
+        {
+          "subject": "北京诚通工融股权投资基金（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444322.PDF",
+          "result": "旧名工银与现名工融为同一信用代码。240亿元口径核两LP和两GP，保留540亿元历史披露。"
+        },
+        {
+          "subject": "兰溪源泰股权投资合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2022-11-26/1215211315.PDF",
+          "result": "专项计划4.633亿元和实际认购4.59999984亿元分别记录。企业层面注册认缴14.08亿元、实缴4.633亿元取发行人披露。"
+        }
+      ],
+      "events": {
+        "贵州页岩气2018年1月实缴": "cc00e03a9cd350de80a83791",
+        "贵州页岩气2018年9月实缴": "08d6515df2bb2e8f33fd69bb",
+        "贵州页岩气2019年2月补缴": "2528fa6c94214641e6a9ea1a",
+        "贵州页岩气乌江7.5亿": "786a402c9b1f881e25531abd",
+        "贵州页岩气工业化2.5亿": "8896483c4d63930f221dd0df",
+        "贵州页岩气新动能7亿": "8d9e46fb2a5a271da2fcef32",
+        "贵州页岩气新动能3亿": "f04eb35cbb4bf2775cf1b929",
+        "贵州页岩气2019-01-16内部划转": "91bfe6fa227d25b2a787c689",
+        "贵州页岩气2022-11-05内部划转": "c9340cd448245af224e84ca7",
+        "威宁能源2020年3月定增": "f98b67d4af22bf5a458b2cfa",
+        "威宁能源2020年12月定增": "da471c0d5f588f04c7f5a098",
+        "威宁能源2022年26方定增": "434a48dd50e7f33f5a0bd575",
+        "威宁能源诚通工融退出": "6652df4456d189a37539c65b",
+        "丰茂天使轮": "cd7581a6edadf34b5b7fc2a4",
+        "丰茂聚曜现金增资": "16800a8d8cb1bb0d112799f9",
+        "丰茂A轮": "b790e0493b195389169cdc01",
+        "丰茂A+轮": "6940c3d816e564d495cf90cb",
+        "丰茂2023两平台增资": "1b904e418923f579d210715f",
+        "丰茂工信基金部分退出": "1edaf1acb6a89272347a4137"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-guizhou-network-194.csv"
     }
   ]
 }
