@@ -8787,5 +8787,30 @@
     "additional_sources": [
       "https://static.cninfo.com.cn/finalpage/2017-08-30/1203895343.PDF"
     ]
+  },
+  {
+    "event_id": "financing_event:f98efe322e2908b95041191352939520123ab43aad6570aa7924bc0a286b32a0",
+    "company_id": "co:full_legal_name:178b04f7bcc78176ab23f19a45a10325",
+    "source": "https://www.hkexnews.hk/app/sehk/2026/108774/a135238/sehk26073002078_c.pdf#page=10",
+    "additional_sources": [
+      "https://www.hkexnews.hk/app/sehk/2026/108774/a135238/sehk26073002078_c.pdf#page=11",
+      "https://www1.hkexnews.hk/app/sehk/2026/108774/a135238/sehk26073002068_c.pdf"
+    ],
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"卡奥斯\",\"role\":null,\"amount\":null},{\"name\":\"海尔智家战略投资部\",\"role\":null,\"amount\":null}]",
+      "date": "2025-09-12",
+      "date_key": "2025-09-12",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "204259585元",
+      "investors_json": "[{\"name\":\"卡奥斯能源科技有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20425958500,\"basis\":\"实际出资\",\"source\":\"https://www.hkexnews.hk/app/sehk/2026/108774/a135238/sehk26073002078_c.pdf#page=10\"}}]",
+      "date": "2025-08-14",
+      "date_key": "2025-08-14",
+      "date_kind": "取得控制日，增资款据上市申请已结算"
+    }
   }
 ]

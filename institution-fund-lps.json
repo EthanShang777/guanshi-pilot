@@ -22284,7 +22284,8 @@
           "subscribedCny": 180000000,
           "paidCny": 180000000
         }
-      ]
+      ],
+      "filingCode": "ST1852"
     }
   },
   {
@@ -22347,7 +22348,166 @@
           "paidCny": 70000000
         }
       ],
-      "firstCloseSource": "https://www.sigchina.com/site/news_details/2226"
+      "firstCloseSource": "https://www.sigchina.com/site/news_details/2226",
+      "filingCode": "SSV306",
+      "historicalSizeDisclosure": {
+        "asOf": "2023-04-06",
+        "sizeCny": 1175000000,
+        "basis": "募集说明书表列基金规模，认缴或实缴口径未注明",
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2023-04-06/115121_20230406_X7PO.pdf"
+      }
+    }
+  },
+  {
+    "fundId": "e70720ce691ef469fea4235f",
+    "fundName": "嘉兴国和晋鋆股权投资合伙企业（有限合伙）",
+    "managerId": "05cacab239830e31d05882ea",
+    "managerName": "国和投资",
+    "sizeCny": 40000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 3,
+    "partners": [
+      {
+        "name": "内蒙古小二汽车新零售科技有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "25.00",
+        "existingInstitution": "b5026bcf4377359bcb202178"
+      },
+      {
+        "name": "北京金玉人和投资有限公司",
+        "disclosedContributionCny": 9000000,
+        "disclosedPercent": "22.50",
+        "existingInstitution": "b01b2dcaceeef9db8fe694f5"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202303/RAS_202303_29CCEBAA1FA54327B41B85AFDD5BAD2F.pdf",
+      "date": "2022-12-31",
+      "dateKind": "合伙人名单披露时点",
+      "issuer": "港通医疗审核问询回复",
+      "pages": "第84页及91页备案信息",
+      "filingCode": "SND395",
+      "managerLegalName": "上海国和现代服务业股权投资管理有限公司",
+      "lpScope": "公开具名机构LP与自然人LP人数，合伙人出资为认缴，实缴待核。",
+      "generalPartners": [
+        {
+          "name": "上海璟诣企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 4000000,
+          "disclosedPercent": "10.00"
+        }
+      ]
+    }
+  },
+  {
+    "fundId": "0ea4a9c9cdf9c4a1a8235e50",
+    "fundName": "苏州凯辉成长投资基金合伙企业（有限合伙）",
+    "managerId": "9b02faf7a3454fff8e7204f5",
+    "managerName": "凯辉基金",
+    "sizeCny": 1455555556,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 3,
+    "partners": [
+      {
+        "name": "晋江凯辉产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "68.70",
+        "existingInstitution": "63044621f7b1147c0babfabc"
+      },
+      {
+        "name": "苏州市创新产业发展引导基金（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "13.74",
+        "existingInstitution": "de8cca9dca1e5358da0916ee"
+      },
+      {
+        "name": "苏州石湖领进贰号创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 51000000,
+        "disclosedPercent": "3.50",
+        "existingInstitution": "63e6320f2770cc89599a0846"
+      },
+      {
+        "name": "普洛斯建发（厦门）股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "3.44",
+        "existingInstitution": "45be44978293773994e320ed"
+      },
+      {
+        "name": "苏州市吴中金融控股集团有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "3.44",
+        "existingInstitution": "0a8eb15c28b01509b3b08713"
+      },
+      {
+        "name": "西藏工布江达县九盛投资有限责任公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "2.06",
+        "existingInstitution": "be539aba4ebcb0ae50526285"
+      },
+      {
+        "name": "厦门市天余投资管理有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "1.37",
+        "existingInstitution": "6fc88bbdd34802e2b9802146"
+      },
+      {
+        "name": "苏州吴中区辉璟山企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "0.69",
+        "existingInstitution": "a2b331c1d49b12af21129fe1"
+      },
+      {
+        "name": "深圳前海茂晟投资管理有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "0.69",
+        "existingInstitution": "d16a6a3e72e1440f64ba345b"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202303/RAS_202303_29CCEBAA1FA54327B41B85AFDD5BAD2F.pdf",
+      "date": "2022-12-31",
+      "dateKind": "合伙人名单披露时点",
+      "issuer": "港通医疗审核问询回复",
+      "pages": "第83–84页及91页备案信息",
+      "filingCode": "SEK853",
+      "managerLegalName": "湖北凯辉股权投资管理有限公司",
+      "lpScope": "公开具名机构LP与自然人LP人数，合伙人出资为认缴，实缴待核。",
+      "generalPartners": [
+        {
+          "name": "凯辉成长（苏州）商务咨询有限公司",
+          "disclosedContributionCny": 5822200,
+          "disclosedPercent": "0.40"
+        }
+      ]
+    }
+  },
+  {
+    "fundId": "2da9520ca3166982512ca1d5",
+    "fundName": "厦门冠亚创新陆期投资合伙企业（有限合伙）",
+    "managerId": "a83dfdf7b6e250420d611eb2",
+    "managerName": "冠亚投资",
+    "sizeCny": 50000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 1,
+    "partners": [],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202303/RAS_202303_29CCEBAA1FA54327B41B85AFDD5BAD2F.pdf",
+      "date": "2022-12-31",
+      "dateKind": "合伙人名单披露时点",
+      "issuer": "港通医疗审核问询回复",
+      "pages": "第84–85页及92页备案信息",
+      "filingCode": "SLX472",
+      "managerLegalName": "冠亚投资控股有限公司",
+      "lpScope": "公开具名机构LP与自然人LP人数，合伙人出资为认缴，实缴待核。",
+      "generalPartners": [
+        {
+          "name": "冠亚投资控股有限公司",
+          "disclosedContributionCny": 100000,
+          "disclosedPercent": "0.20"
+        }
+      ]
     }
   }
 ]
