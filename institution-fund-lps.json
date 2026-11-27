@@ -23485,5 +23485,180 @@
         }
       ]
     }
+  },
+  {
+    "fundId": "66f5232270e0348e6416a288",
+    "fundName": "宁波甬宁高芯股权投资合伙企业（有限合伙）",
+    "managerId": "f6520a8999468f46bc47d4ba",
+    "managerName": "宁波通商基金管理有限公司",
+    "sizeCny": 2800100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": null,
+    "publishedStatistics": [],
+    "partners": [
+      {
+        "name": "宁波市甬宁基建投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 1400000000,
+        "disclosedPercent": null,
+        "existingInstitution": "66803b2f874c36e15af3cc0e"
+      }
+    ],
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-31/244041_20251031_V2OB.pdf",
+      "date": "2025-10-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "宁兴集团上交所发行文件",
+      "lpScope": "宁兴与通商债券文件披露了甬宁母基金的认缴与个体实缴，其他LP及基金总实缴待核。",
+      "managerLegalName": "宁波通商基金管理有限公司",
+      "currentRegisteredName": "宁波甬宁高芯股权投资合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2403141739102382.html",
+      "fundRegistration": "SAHB67",
+      "filingDate": "2024-03-14",
+      "fundEstablishedDate": "2024-02-08",
+      "fundType": "股权投资基金",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "custodian": "浙商银行股份有限公司",
+      "establishedDate": "2024-02-02",
+      "aliases": [
+        "宁波甬宁高芯创业投资合伙企业（有限合伙）"
+      ],
+      "managerRegistration": "P1069609",
+      "lpSources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-31/244041_20251031_V2OB.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/2024101600018_c.pdf#page=350"
+      ],
+      "sizeEvidence": {
+        "source": "https://m.shuidi.cn/company-25bbb21a999d0b154b10a24b12690101.html",
+        "reportedCapitalCny": 2800100000
+      },
+      "individuallyReportedLpContributions": [
+        {
+          "name": "宁波市甬宁基建投资合伙企业（有限合伙）",
+          "currentRegisteredName": "宁波市甬宁基金合伙企业（有限合伙）",
+          "subscribedCny": 1400000000,
+          "paidCny": 983173900,
+          "asOf": "2025-03-31",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-31/244041_20251031_V2OB.pdf"
+        }
+      ],
+      "linkedDownstreamFund": {
+        "name": "璟泉甬宁高芯（北京）国际股权投资基金合伙企业（有限合伙）",
+        "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/2024101600018_c.pdf#page=350"
+      },
+      "acquisitionRoleEvidence": "地平线招股章程披露宁波甬宁高芯是北京璟泉甬宁高芯基金的LP。"
+    }
+  },
+  {
+    "fundId": "7663eb55871585fe2bf91cd0",
+    "fundName": "璟泉甬宁高芯（北京）国际股权投资基金合伙企业（有限合伙）",
+    "managerId": "5a023ef95c34282cc3ac58bb",
+    "managerName": "璟泉私募基金管理（北京）有限公司",
+    "sizeCny": 2701000000,
+    "capitalBasis": "工商登记出资额",
+    "otherLpCount": null,
+    "publishedStatistics": [],
+    "partners": [
+      {
+        "name": "宁波甬宁高芯股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "66f5232270e0348e6416a288"
+      }
+    ],
+    "source": {
+      "url": "https://m.shuidi.cn/company-e2327d61bdfcf9d2695668bc5c3c6d01.html",
+      "date": "2026-11-27",
+      "dateKind": "工商信息核验日",
+      "issuer": "公开工商登记信息",
+      "lpScope": "持有LP关系以地平线招股章程为准。未取得宁波甬宁高芯自身认缴和实缴金额。",
+      "managerLegalName": "璟泉私募基金管理（北京）有限公司",
+      "currentRegisteredName": "璟泉甬宁高芯（北京）国际股权投资基金合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2404181445102912.html",
+      "fundRegistration": "SAJL02",
+      "filingDate": "2024-04-18",
+      "fundEstablishedDate": "2024-03-27",
+      "fundType": "股权投资基金",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "custodian": "招商银行股份有限公司",
+      "establishedDate": "2024-02-08",
+      "lpSources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/2024101600018_c.pdf#page=350",
+        "https://m.shuidi.cn/company-25bbb21a999d0b154b10a24b12690101.html"
+      ],
+      "generalPartners": [
+        {
+          "name": "璟泉善诚管理咨询（北京）有限公司",
+          "disclosedContributionCny": null,
+          "disclosedPercent": null
+        }
+      ],
+      "sizeEvidence": {
+        "source": "https://m.shuidi.cn/company-e2327d61bdfcf9d2695668bc5c3c6d01.html",
+        "reportedCapitalCny": 2701000000,
+        "scope": "公开工商信息平台显示的登记总额"
+      },
+      "ipoLinkEvidence": {
+        "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/2024101600018_c.pdf#page=350",
+        "listedIssuer": "Horizon Robotics",
+        "directParticipant": "JSC International Investment Fund SPC",
+        "segregatedPortfolio": "宁波甬宁高芯SP",
+        "relation": "子基金间接持有该SP，直接基石投资人为SPC代表SP。"
+      }
+    }
+  },
+  {
+    "fundId": "56a7f895a73f58885155debb",
+    "fundName": "宁波甬才股权投资合伙企业（有限合伙）",
+    "managerId": "f6520a8999468f46bc47d4ba",
+    "managerName": "宁波通商基金管理有限公司",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "publishedStatistics": [],
+    "partners": [
+      {
+        "name": "宁波人才发展集团有限公司",
+        "disclosedContributionCny": 998500000,
+        "disclosedPercent": "99.85",
+        "existingInstitution": "11acee99c68c14ce959d0a11"
+      }
+    ],
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202508051721924418_1.pdf#page=45",
+      "date": "2025-08-05",
+      "dateKind": "公开文件披露日",
+      "issuer": "能之光正式招股说明书",
+      "lpScope": "能之光招股书列全额认缴，新公告复核两家执行事务合伙人。基金实缴未披露。",
+      "managerLegalName": "宁波通商基金管理有限公司",
+      "currentRegisteredName": "宁波甬才股权投资合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2312191936100283.html",
+      "fundRegistration": "SADN03",
+      "filingDate": "2023-12-19",
+      "fundEstablishedDate": "2023-11-10",
+      "fundType": "股权投资基金",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "custodian": "中国农业银行股份有限公司",
+      "creditCode": "91330212MAD08KQ04A",
+      "establishedDate": "2023-10-23",
+      "managerRegistration": "P1069609",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202508051721924418_1.pdf#page=45",
+        "https://static.cninfo.com.cn/finalpage/2026-09-15/1225563720.PDF"
+      ],
+      "generalPartners": [
+        {
+          "name": "宁波通商基金管理有限公司",
+          "disclosedContributionCny": 500000,
+          "disclosedPercent": "0.05"
+        },
+        {
+          "name": "宁波人才投资有限公司",
+          "disclosedContributionCny": 1000000,
+          "disclosedPercent": "0.10"
+        }
+      ],
+      "gpRoleVerifiedAt": "2026-09-15",
+      "gpRoleSource": "https://static.cninfo.com.cn/finalpage/2026-09-15/1225563720.PDF"
+    }
   }
 ]
