@@ -3027,5 +3027,15 @@
       "event_id": "public:historical-disclosure:ee2692a0dd1e366f277b9f",
       "company_id": "co:full_legal_name:4bc75d8039b0314b5aa87a7c47993e00"
     }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:64fcc457b546b42c7534af",
+      "company_id": "co:full_legal_name:b5837543b47b431dffe50fde6c8cd0a6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:dda1e5f66f355ceb80da56",
+      "company_id": "co:full_legal_name:b5837543b47b431dffe50fde6c8cd0a6"
+    }
   }
 ]
