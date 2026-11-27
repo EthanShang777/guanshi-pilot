@@ -3057,5 +3057,27 @@
       "event_id": "public:historical-disclosure:fabd2d0a30d0734694f2b8",
       "company_id": "co:full_legal_name:823984b91af64c37d0c2e3227cb9cb00"
     }
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6ba0fd1fbfbc97f9d4121b",
+      "company_id": "co:full_legal_name:d02bb3c3d95e81bf83f87c0e28e0971f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e02137168b293f73c7c071",
+      "company_id": "co:full_legal_name:d02bb3c3d95e81bf83f87c0e28e0971f"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN201906281336818024_1.pdf#page=21"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f80c1bb92f06cf9e32d876",
+      "company_id": "co:full_legal_name:3e9a229370badf7ee45be8bdcf7d34cd"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:59a4a9a86a8d3145beb6bc",
+      "company_id": "co:full_legal_name:3e9a229370badf7ee45be8bdcf7d34cd"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202104/000814_20210406_6902.pdf#page=76"
   }
 ]
