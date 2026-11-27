@@ -3657,5 +3657,20 @@
   "南京浦口高质量发展投资基金合伙企业（有限合伙）": {
     "brand": "南京雨山私募基金管理有限公司",
     "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2309281639100369.html"
+  },
+  "南京精智达清源创业投资合伙企业（有限合伙）": {
+    "brand": "深圳清源时代投资管理控股有限公司",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607161910101472.html"
+  },
+  "南京浦口智思集成电路产业基金合伙企业（有限合伙）": {
+    "brand": "元禾璞华同芯（苏州）投资管理有限公司",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2104261853104249.html"
+  },
+  "南京精智达清源投资基金": {
+    "brand": "南京精智达清源创业投资合伙企业（有限合伙）",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225430330.PDF",
+    "coManagers": [
+      "深圳清源时代投资管理控股有限公司"
+    ]
   }
 }
