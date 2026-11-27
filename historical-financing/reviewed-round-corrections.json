@@ -8237,5 +8237,105 @@
       "https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=7528910&stockid=603030",
       "https://epaper.cs.com.cn/zgzqb/images/2021-09/09/B016/zqB01609.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:f0389a7de6373879b7a4bb258a37894247deba45e6d8e98beea10b6603dbf6e1",
+    "company_id": "co:full_legal_name:13bfdd2861925d41b78b4a6c6234edf6",
+    "day": "2019-12-28",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf",
+    "expected": {
+      "round": "战略融资",
+      "amount": "115.55亿人民币",
+      "investors_json": "[{\"name\":\"中信证券投资\",\"role\":null,\"amount\":null},{\"name\":\"中国诚通\",\"role\":null,\"amount\":null},{\"name\":\"中国银行\",\"role\":null,\"amount\":null},{\"name\":\"农银投资\",\"role\":null,\"amount\":null},{\"name\":\"工银投资\",\"role\":null,\"amount\":null}]",
+      "date": "2019-12-28",
+      "date_key": "2019-12-28",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "战略融资",
+      "amount": "5777706144元",
+      "investors_json": "[{\"name\":\"农银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":249999945144,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf\"}},{\"name\":\"工银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":149999973204,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf\"}},{\"name\":\"北京诚通工融股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":99999971940,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf\"}},{\"name\":\"青岛中鑫鼎晖股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":59999983164,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf\"}},{\"name\":\"中信证券投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":17770740948,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf\"}}]",
+      "date": "2019-12-19",
+      "date_key": "2019-12-19",
+      "date_kind": "验资报告所载实缴截至日"
+    },
+    "additional_sources": [
+      "https://static.sse.com.cn/disclosure/bond/announcement/company/c/3800205201083437619286327.pdf",
+      "https://www.sinochemenergy.com/sinochemenergy/xwzx/gsdt/2024/12/I1323348161552449536.html"
+    ]
+  },
+  {
+    "event_id": "financing_event:7647a3e6b09a998483a2b1d25715a536294f1fabfafe1b32f33c9ecf0941afbc",
+    "company_id": "co:full_legal_name:39a24e83a9ac4224ef74db55a318ec50",
+    "day": "2021-09-29",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中国诚通\",\"role\":null,\"amount\":null},{\"name\":\"中央企业乡村产业投资基金\",\"role\":null,\"amount\":null},{\"name\":\"国家制造业转型升级基金\",\"role\":null,\"amount\":null},{\"name\":\"国投招商\",\"role\":null,\"amount\":null},{\"name\":\"工银投资\",\"role\":null,\"amount\":null},{\"name\":\"首钢基金\",\"role\":null,\"amount\":null}]",
+      "date": "2021-09-29",
+      "date_key": "2021-09-29",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "A轮",
+      "amount": "1700000000元",
+      "investors_json": "[{\"name\":\"北京诚通工融股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":52500000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF\"}},{\"name\":\"国开制造业转型升级基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":43750000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF\"}},{\"name\":\"京津冀产业协同发展投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":26250000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF\"}},{\"name\":\"北京首钢基金有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF\"}},{\"name\":\"工银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":17500000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF\"}},{\"name\":\"中央企业乡村产业投资基金股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF\"}}]",
+      "date": "2021-10",
+      "date_key": "2021-10-01",
+      "date_kind": "发行人披露已完成增资月份"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-09-13/1217834180.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:fd420b6e1ea952201dab80307bf24257f0bacb2076192b25a5b98a0235f8e243",
+    "company_id": "co:full_legal_name:39a24e83a9ac4224ef74db55a318ec50",
+    "day": "2022-12-22",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF",
+    "expected": {
+      "round": "B轮",
+      "amount": "20亿人民币",
+      "investors_json": "[{\"name\":\"东方富兴\",\"role\":null,\"amount\":null},{\"name\":\"中国世纪新城投资集团\",\"role\":null,\"amount\":null},{\"name\":\"中国电气装备投资\",\"role\":null,\"amount\":null},{\"name\":\"中银资产\",\"role\":null,\"amount\":null},{\"name\":\"光大金控\",\"role\":null,\"amount\":null},{\"name\":\"国开制造业转型升级基金\",\"role\":null,\"amount\":null},{\"name\":\"国投招商\",\"role\":null,\"amount\":null},{\"name\":\"国网产业基金\",\"role\":null,\"amount\":null},{\"name\":\"国融工发\",\"role\":null,\"amount\":null},{\"name\":\"国调基金\",\"role\":null,\"amount\":null},{\"name\":\"天域九五集团\",\"role\":null,\"amount\":null},{\"name\":\"工银投资\",\"role\":null,\"amount\":null},{\"name\":\"恒盛基金\",\"role\":null,\"amount\":null},{\"name\":\"河北产业投资引导基金\",\"role\":null,\"amount\":null},{\"name\":\"特变电工\",\"role\":null,\"amount\":null},{\"name\":\"首程控股\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-22",
+      "date_key": "2022-12-22",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "2000000000元",
+      "investors_json": "[{\"name\":\"北京诚通工融股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"国开制造业转型升级基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":30000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"京津冀产业协同发展投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":15000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"工银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"特变电工科技投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":30000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"青岛盛通新秀股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":20000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"河北天域九五电气有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":12000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"光大金控资产管理有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":8000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"东方前海博光投资管理（杭州）合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":8000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"北京融鑫聚力科技股权投资基金（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":8000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"北京首新金安股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":8000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"新电智网（天津）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":6000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"河北产投新材料发展中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"中国电气装备集团投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":5000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF\"}}]",
+      "date": "2022-12-22",
+      "date_key": "2022-12-22",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-09-13/1217834180.PDF",
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9029796"
+    ]
+  },
+  {
+    "event_id": "public:historical-disclosure:f7e12548b0623e1e165591",
+    "company_id": "co:full_legal_name:67c93cdef9d8428bb82338f1bd621ef6",
+    "day": "2024-01-22",
+    "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/e807519bab222d8febc583433fb42c9b.pdf",
+    "expected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"国家电投集团贵州金元股份有限公司\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"北京诚通工融股权投资基金（有限合伙）\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2024-01-22",
+      "date_key": "2024-01-22",
+      "date_kind": "发行人披露协议签署日"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"国家电投集团贵州金元股份有限公司\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"北京诚通工融股权投资基金（有限合伙）\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2024-05-08",
+      "date_key": "2024-05-08",
+      "date_kind": "发行人披露证券过户登记日"
+    },
+    "additional_sources": []
   }
 ]

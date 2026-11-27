@@ -2437,5 +2437,77 @@
     },
     "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/730b827ad81775470c8df1a923970f75.pdf",
     "reason": "挂牌法律意见书分别确认三方4300万元和创新赋能一方5000万元，登记日不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:f0389a7de6373879b7a4bb258a37894247deba45e6d8e98beea10b6603dbf6e1",
+      "company_id": "co:full_legal_name:13bfdd2861925d41b78b4a6c6234edf6"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f3850089a32b733073c78d",
+      "company_id": "co:full_legal_name:13bfdd2861925d41b78b4a6c6234edf6"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf",
+    "reason": "招股书列两份合同分别认购新股和购买原股东老股，收款主体、现金流向不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f3850089a32b733073c78d",
+      "company_id": "co:full_legal_name:13bfdd2861925d41b78b4a6c6234edf6"
+    },
+    "existing": {
+      "event_id": "financing_event:f0389a7de6373879b7a4bb258a37894247deba45e6d8e98beea10b6603dbf6e1",
+      "company_id": "co:full_legal_name:13bfdd2861925d41b78b4a6c6234edf6"
+    },
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf",
+    "reason": "招股书列两份合同分别认购新股和购买原股东老股，收款主体、现金流向不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c98e726426bfa5a5015e95",
+      "company_id": "co:full_legal_name:b97f39f7c4c6f3a5e07bca85bb0b9054"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:cf12c2a5110abcb87ffa5b",
+      "company_id": "co:full_legal_name:b97f39f7c4c6f3a5e07bca85bb0b9054"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+    "reason": "重组报告明确现金增资与股权转让各有独立股本和出资方，工商日期相同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:cf12c2a5110abcb87ffa5b",
+      "company_id": "co:full_legal_name:b97f39f7c4c6f3a5e07bca85bb0b9054"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c98e726426bfa5a5015e95",
+      "company_id": "co:full_legal_name:b97f39f7c4c6f3a5e07bca85bb0b9054"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+    "reason": "重组报告明确现金增资与股权转让各有独立股本和出资方，工商日期相同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fd099e6051d80c7bfe6ff2",
+      "company_id": "co:cn_uscc:81b44999fb642ee61082769ff79ec8b2"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ef6661a27dd26efe1ace40",
+      "company_id": "co:cn_uscc:81b44999fb642ee61082769ff79ec8b2"
+    },
+    "source": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-11-29/508028_20241129_AIFK.pdf",
+    "reason": "同一REIT资料列江苏电力收回诚通股份及后续SPV收购100%股权为两份独立协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ef6661a27dd26efe1ace40",
+      "company_id": "co:cn_uscc:81b44999fb642ee61082769ff79ec8b2"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:fd099e6051d80c7bfe6ff2",
+      "company_id": "co:cn_uscc:81b44999fb642ee61082769ff79ec8b2"
+    },
+    "source": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-11-29/508028_20241129_AIFK.pdf",
+    "reason": "同一REIT资料列江苏电力收回诚通股份及后续SPV收购100%股权为两份独立协议。"
   }
 ]

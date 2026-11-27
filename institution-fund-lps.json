@@ -12096,7 +12096,10 @@
       "dateKind": "公开文件披露日",
       "issuer": "思锐智能招股说明书",
       "pages": "第53页",
-      "lpSources": [],
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-17/04e0fc8c-2ae7-491e-b8d0-366d01f14768.PDF"
+      ],
       "lpScope": "单一LP国家制造业转型升级基金认缴387亿元，GP认缴7740万元；基金合计认缴及实缴387.774亿元。",
       "generalPartners": [
         {
@@ -12112,7 +12115,17 @@
         "dateKind": "公开文件披露日",
         "partners": [],
         "totalPaidCny": 38777400000
-      }
+      },
+      "historicalPartnerStakes": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF",
+          "asOf": "2021-09-18",
+          "sizeCny": 50100000000,
+          "partner": "国家制造业转型升级基金股份有限公司",
+          "disclosedContributionCny": 50000000000,
+          "disclosedPercent": 99.8004
+        }
+      ]
     },
     "partners": [
       {
@@ -18764,6 +18777,448 @@
         "name": "工银金融资产投资有限公司",
         "disclosedContributionCny": 11990000000,
         "disclosedPercent": 49.9583,
+        "existingInstitution": "2de0be01fd523580d2baa484"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "7bb98c28adc2d9c3c39ea134",
+    "fundName": "京津冀产业协同发展投资基金（有限合伙）",
+    "managerName": "国投招商投资管理有限公司",
+    "managerId": "2d82c4b720b230b2b9788168",
+    "sizeCny": 6717900000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-17/04e0fc8c-2ae7-491e-b8d0-366d01f14768.PDF",
+      "date": "2026-10-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "北京首钢股份有限公司",
+      "pages": "6–7",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF"
+      ],
+      "lpScope": "2026年公告确认最新认缴规模和两个具名主要合伙人，早期18名LP的金额及持份留在历史披露",
+      "generalPartners": [
+        {
+          "name": "国投招商投资管理有限公司"
+        }
+      ],
+      "managerLegalName": "国投招商投资管理有限公司",
+      "historicalPartnerStakes": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF",
+          "asOf": "2021-09-18",
+          "sizeCny": 10000000000,
+          "partners": [
+            {
+              "name": "先进制造产业投资基金（有限合伙）",
+              "disclosedContributionCny": 2000000000,
+              "disclosedPercent": 20
+            },
+            {
+              "name": "国家开发投资集团有限公司",
+              "disclosedContributionCny": 2000000000,
+              "disclosedPercent": 20
+            },
+            {
+              "name": "深圳市招商招银股权投资基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 1500000000,
+              "disclosedPercent": 15
+            },
+            {
+              "name": "北京首钢基金有限公司",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": 10
+            },
+            {
+              "name": "天津市海河产业基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": 10
+            },
+            {
+              "name": "北京工盈中关村科创基金（有限合伙）",
+              "disclosedContributionCny": 680000000,
+              "disclosedPercent": 6.8
+            },
+            {
+              "name": "招商局资本控股有限责任公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 5
+            },
+            {
+              "name": "河北省冀财产业引导股权投资基金有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 5
+            },
+            {
+              "name": "比亚迪汽车工业有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1
+            },
+            {
+              "name": "广东鸿发投资集团有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1
+            },
+            {
+              "name": "北京诺禾致源科技股份有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1
+            },
+            {
+              "name": "青岛海尔科技投资有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1
+            },
+            {
+              "name": "西藏商汤创业投资管理有限责任公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1
+            },
+            {
+              "name": "北京东升博展投资管理有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1
+            },
+            {
+              "name": "唐山海港港隆投资有限公司",
+              "disclosedContributionCny": 100000000,
+              "disclosedPercent": 1
+            },
+            {
+              "name": "石家庄高新区科发投资有限公司",
+              "disclosedContributionCny": 94000000,
+              "disclosedPercent": 0.94
+            },
+            {
+              "name": "上海新坤道吉资产管理中心（有限合伙）",
+              "disclosedContributionCny": 10000000,
+              "disclosedPercent": 0.1
+            },
+            {
+              "name": "中丽（天津）产城融合发展基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 6000000,
+              "disclosedPercent": 0.06
+            }
+          ]
+        }
+      ],
+      "creditCode": "91130600MA0939HK85"
+    },
+    "partners": [
+      {
+        "name": "先进制造产业投资基金（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "a5aa63fed8b370eea01bde22"
+      },
+      {
+        "name": "国家开发投资集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "f8d0214772925a353519ee37"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cd0c348d81e80964ad4b5d73",
+    "fundName": "北京首新金安股权投资合伙企业（有限合伙）",
+    "managerName": "北京首元新能投资管理有限公司",
+    "managerId": "bb1c55fb4ef5e79faea99993",
+    "sizeCny": 321271534.5,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-17/04e0fc8c-2ae7-491e-b8d0-366d01f14768.PDF",
+      "date": "2026-10-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "北京首钢股份有限公司",
+      "pages": "4–5",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF"
+      ],
+      "lpScope": "2026年6月后认缴总额及8名LP份额比例按当期披露，减资后的各户认缴额待证，2022合伙明细另附",
+      "generalPartners": [
+        {
+          "name": "北京首元新能投资管理有限公司"
+        }
+      ],
+      "managerLegalName": "北京首元新能投资管理有限公司",
+      "historicalPartnerStakes": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF",
+          "asOf": "2022-12-20",
+          "sizeCny": 2070545500,
+          "partners": [
+            {
+              "name": "北京首钢基金有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": 24.15
+            },
+            {
+              "name": "国家制造业转型升级基金股份有限公司",
+              "disclosedContributionCny": 400000000,
+              "disclosedPercent": 19.32
+            },
+            {
+              "name": "北京顺义科技创新集团有限公司",
+              "disclosedContributionCny": 400000000,
+              "disclosedPercent": 19.32
+            },
+            {
+              "name": "天津创吉实业发展有限公司",
+              "disclosedContributionCny": 300000000,
+              "disclosedPercent": 14.49
+            },
+            {
+              "name": "北京首钢股份有限公司",
+              "disclosedContributionCny": 200000000,
+              "disclosedPercent": 9.66
+            },
+            {
+              "name": "北京首源投资有限公司",
+              "disclosedContributionCny": 197340000,
+              "disclosedPercent": 9.53
+            },
+            {
+              "name": "北京八亿时空液晶科技股份有限公司",
+              "disclosedContributionCny": 50000000,
+              "disclosedPercent": 2.41
+            },
+            {
+              "name": "北京首新万泰管理咨询中心（有限合伙）",
+              "disclosedContributionCny": 2500000,
+              "disclosedPercent": 0.12
+            }
+          ]
+        }
+      ],
+      "creditCode": "91110113MA7G2EK434",
+      "exactCapitalCny": "321271534.50"
+    },
+    "partners": [
+      {
+        "name": "北京首钢基金有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 24.15,
+        "existingInstitution": "d943e11479b4a1ddba0f8d5b"
+      },
+      {
+        "name": "国家制造业转型升级基金股份有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 19.32,
+        "existingInstitution": "60aa98015bf1037ecf3d338b"
+      },
+      {
+        "name": "北京顺义科技创新集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 19.32,
+        "existingInstitution": "b36113da9549ac22e8355e80"
+      },
+      {
+        "name": "天津创吉实业发展有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 14.49,
+        "existingInstitution": "03997ab5e57e486213356df1"
+      },
+      {
+        "name": "北京首钢股份有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 9.66,
+        "existingInstitution": "b1f7636434d57064fa4532f3"
+      },
+      {
+        "name": "北京首源投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 9.53,
+        "existingInstitution": "9065b820e63e1a73abc51d76"
+      },
+      {
+        "name": "北京八亿时空液晶科技股份有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 2.41,
+        "existingInstitution": "0cf8061edb29bb82621094c0"
+      },
+      {
+        "name": "北京首新万泰管理咨询中心（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 0.12,
+        "existingInstitution": "f7026a9b4c7ab922fc320c06"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "e6fccdeb2ecd80fe47375f4f",
+    "fundName": "广西招工服贸投资合伙企业（有限合伙）",
+    "managerName": "招商局资本管理（北京）有限公司",
+    "managerId": "4bf6dbd85ae3c944311f9a04",
+    "sizeCny": 1061330086,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+      "date": "2021-11-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "中信证券股份有限公司",
+      "pages": "2-1-103–2-1-105",
+      "lpSources": [],
+      "lpScope": "2021年11月12日份额过户后5名直接LP和GP，原南京创鼎退出的份额另存",
+      "generalPartners": [
+        {
+          "name": "招商局资本管理（北京）有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "招商局资本管理（北京）有限公司",
+      "historicalPartnerStakes": [
+        {
+          "source": "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+          "asOf": "2020-09-28",
+          "partner": "南京创鼎铭和股权投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 50047155,
+          "disclosedPercent": 4.72
+        }
+      ],
+      "creditCode": "91450100MA5PXPY38J"
+    },
+    "partners": [
+      {
+        "name": "服务贸易创新发展引导基金（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 18.84,
+        "existingInstitution": "dc433bc3655387a581677ca1"
+      },
+      {
+        "name": "中国农垦产业发展基金（有限合伙）",
+        "disclosedContributionCny": 450047155,
+        "disclosedPercent": 42.42,
+        "existingInstitution": "08b64e28afa286478c1d84fc"
+      },
+      {
+        "name": "深圳市旗昌投资控股有限公司",
+        "disclosedContributionCny": 300282931,
+        "disclosedPercent": 28.29,
+        "existingInstitution": "9abe216b95777e012c4374b8"
+      },
+      {
+        "name": "海南农垦农业投资基金（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 9.42,
+        "existingInstitution": "400e37320bcf289f4c06de15"
+      },
+      {
+        "name": "张家港产业资本投资基金（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 0.94,
+        "existingInstitution": "0518760c89011574b41e9924"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "320627f1e85e81227fad4dec",
+    "fundName": "广西国有企业改革发展一期基金合伙企业（有限合伙）",
+    "managerName": "广西宏桂汇智基金管理有限公司",
+    "managerId": "e8653539d649aeb3ccccb3ca",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+      "date": "2021-11-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "中信证券股份有限公司",
+      "pages": "2-1-152–2-1-153",
+      "lpSources": [],
+      "lpScope": "2020年1月变更后1名LP及GP，披露认缴10亿元",
+      "generalPartners": [
+        {
+          "name": "广西宏桂汇智基金管理有限公司",
+          "disclosedContributionCny": 300000
+        }
+      ],
+      "managerLegalName": "广西宏桂汇智基金管理有限公司",
+      "creditCode": "91450100MA5P232T8R"
+    },
+    "partners": [
+      {
+        "name": "广西宏桂资本运营集团有限公司",
+        "disclosedContributionCny": 999700000,
+        "disclosedPercent": 99.97,
+        "existingInstitution": "0504b60928a9155ca2249c00"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "8d2ab565f6d4c105b13257cc",
+    "fundName": "北京通盈三号股权投资基金合伙企业（有限合伙）",
+    "managerName": "诚通通盈基金管理有限公司",
+    "managerId": "5f2e566fe56118e12cfd1471",
+    "sizeCny": 101000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-17/04e0fc8c-2ae7-491e-b8d0-366d01f14768.PDF",
+      "date": "2026-10-17",
+      "dateKind": "公开文件披露日",
+      "issuer": "北京首钢股份有限公司",
+      "pages": "9–10",
+      "lpSources": [],
+      "lpScope": "公开披露1名LP、1名GP及份额比例，各户认缴额未单列",
+      "generalPartners": [
+        {
+          "name": "诚通通盈基金管理有限公司",
+          "disclosedPercent": 0.9901
+        }
+      ],
+      "managerLegalName": "诚通通盈基金管理有限公司",
+      "creditCode": "91110102MA020Q3N7K"
+    },
+    "partners": [
+      {
+        "name": "建投嘉驰（上海）投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 99.0099,
+        "existingInstitution": "ae3d37422c09fdb5618a12fb"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cd5cd43453fdb41f3e2854ca",
+    "fundName": "工融金投（北京）新兴产业股权投资基金合伙企业（有限合伙）",
+    "managerName": "工银资本管理有限公司",
+    "managerId": "70f3208ca0d9546c57b3e26a",
+    "sizeCny": 10000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-01/1222191226.PDF",
+      "date": "2025-01-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "合肥晶合集成电路股份有限公司",
+      "pages": "2–3",
+      "lpSources": [],
+      "lpScope": "发行人披露工银投资99.99%，工银资本GP 0.01%，未逐户披露金额",
+      "generalPartners": [
+        {
+          "name": "工银资本管理有限公司",
+          "disclosedPercent": 0.01
+        }
+      ],
+      "managerLegalName": "工银资本管理有限公司",
+      "creditCode": "91110102MABYMLQ43X"
+    },
+    "partners": [
+      {
+        "name": "工银金融资产投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 99.99,
         "existingInstitution": "2de0be01fd523580d2baa484"
       }
     ],

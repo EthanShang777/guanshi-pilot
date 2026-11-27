@@ -9673,6 +9673,132 @@
       },
       "retired_deal_redirects": {},
       "batch": "historical-financing/2026-11-27-guizhou-network-194.csv"
+    },
+    {
+      "institution": "北京诚通工融股权投资基金（有限合伙）",
+      "checked_on": "2026-11-27",
+      "scope": "沿威宁股东反查诚通工融的滨海风电、首钢智新、中化能源、柳工、晶合并补基金LP",
+      "sources": [
+        "https://www.cctgroup.com.cn/cctgroup/2023-07/17/article_2025052219305060772.html",
+        "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-11-29/508028_20241129_AIFK.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/3800205201083437619286327.pdf",
+        "https://www.sinochemenergy.com/sinochemenergy/xwzx/gsdt/2024/12/I1323348161552449536.html",
+        "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF",
+        "https://static.cninfo.com.cn/finalpage/2022-12-20/1215395723.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-09-13/1217834180.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9029796",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-17/04e0fc8c-2ae7-491e-b8d0-366d01f14768.PDF",
+        "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+        "https://static.cninfo.com.cn/finalpage/2022-03-01/1212470934.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-04-19/1216454125.PDF",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202206/000872_20220614_RL1T.pdf",
+        "https://stock.stockstar.com/SN2023041200001875.shtml",
+        "https://static.cninfo.com.cn/finalpage/2023-08-09/1217492660.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-04-15/1219612124.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-04-21/1223174863.PDF",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-04/688249_20230504_I90B.pdf",
+        "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20230504_89473619.shtml",
+        "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498332.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-08-07/1225462849.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-09-26/1221291773.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-01-01/1222191226.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-10-17/1224716746.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-03-27/1225037053.PDF",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/e807519bab222d8febc583433fb42c9b.pdf"
+      ],
+      "notes": [
+        {
+          "subject": "国家电投集团滨海海上风力发电有限公司",
+          "source": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-11-29/508028_20241129_AIFK.pdf",
+          "result": "母股东八笔现金及诚通2021实际20亿元，新股本9.9272005295亿元；2023江苏电力付清回购、SPV收购分别建关系。"
+        },
+        {
+          "subject": "中化能源股份有限公司",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf",
+          "result": "两份协议股数相同且同价格。旧条115.55亿元拆为到账57.77706144亿元和老股合同对价57.77706144亿元。"
+        },
+        {
+          "subject": "首钢智新电磁材料（迁安）股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF",
+          "result": "A轮六方17亿、B轮十五方20亿元还原实际投资主体。各户按新增注册资本及同轮公告出资总款换算到元，仍优先追逐户凭证。"
+        },
+        {
+          "subject": "广西柳工集团机械有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+          "result": "混改现金18.6446562152亿与同日约15.5亿元老股另记。2021年末换股交割不是现金增资。"
+        },
+        {
+          "subject": "广西柳工机械股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-04-19/1216454125.PDF",
+          "result": "与柳工有限为独立公司，2023年正式发行柳工转2毛额30亿元。"
+        },
+        {
+          "subject": "合肥新晶集成电路有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2024-04-15/1219612124.PDF",
+          "result": "外部一轮60亿元及随后回购两批分别核，2023回购实际57.8970958904亿，2024收剩余7.2%实际10.9086027398亿元。"
+        },
+        {
+          "subject": "合肥晶合集成电路股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225498332.PDF",
+          "result": "2023年A股发行毛额99.6046104954亿元，13名战略配售主体。2026 H股首次69.821941亿港元及超额3.5164687亿港元单记。"
+        },
+        {
+          "subject": "合肥皖芯集成电路有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-01-01/1222191226.PDF",
+          "result": "完成16方合计95.5亿；2025年合肥建投实收现金口径30亿元单记，2024年被投子公司不与集团上市混计。"
+        },
+        {
+          "subject": "国家电投集团贵州金元威宁能源股份有限公司",
+          "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/e807519bab222d8febc583433fb42c9b.pdf",
+          "result": "确认旧签约日期2024-01-22与交割2024-05-08，保留旧事件ID。"
+        },
+        {
+          "subject": "京津冀产业协同发展投资基金（有限合伙）",
+          "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-17/04e0fc8c-2ae7-491e-b8d0-366d01f14768.PDF",
+          "result": "2026最新认缴67.179亿元及具名LP两位。保留2021年100亿元和18个LP逐项金额。"
+        },
+        {
+          "subject": "北京首新金安股权投资合伙企业（有限合伙）",
+          "source": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-10-17/04e0fc8c-2ae7-491e-b8d0-366d01f14768.PDF",
+          "result": "2026年6月压减至321271534.50元，仍披露原8个LP的份额比例。较早2022每户金额随历史证据留档。"
+        }
+      ],
+      "events": {
+        "滨海风电创始股东实缴2015-11-02": "299361af44bd122955e9d3c4",
+        "滨海风电创始股东实缴2015-12-30": "8b167239b50b842369b3ba53",
+        "滨海风电创始股东实缴2016-05-17": "0c8deb8bb14dc95e7a078345",
+        "滨海风电创始股东实缴2017-01-19": "e4fa3257a5f520bc05a2ed49",
+        "滨海风电创始股东实缴2018-03-19": "3b6cbc87574870b29d7d2a19",
+        "滨海风电创始股东实缴2018-07-25": "baaf5e41ef89221a40a63cc2",
+        "滨海风电创始股东实缴2018-08-31": "e5256e2e8ac2a9aafe065c96",
+        "滨海风电创始股东实缴2019-03-20": "e693692a4b2e88c2dbc5317d",
+        "滨海风电诚通实缴": "5bc699311578fe9e5f17afd8",
+        "滨海风电诚通退出": "99ba652fda29d6ab38ac77d1",
+        "滨海风电SPV全资交割": "6ba3a48ab2d5a22bc34bc7a8",
+        "中化能源五方实缴": "be443fbb4e00a70caffd6fe9",
+        "中化能源五方受让老股": "49aad856b448801dd18df3d5",
+        "首钢智新A轮六方": "bda79cd6a25ef22dc7cde1e6",
+        "首钢智新B轮十五方": "1b44abb6a6e2b818c2ae3b24",
+        "柳工有限六方现金增资": "a37aa9fdebd3166e0428a110",
+        "柳工有限混改老股": "82fc36e326b600723c07c585",
+        "柳工有限换股吸收合并": "9c49238788acb9ee44681cd9",
+        "威宁能源诚通过户": "6652df4456d189a37539c65b",
+        "柳工股份可转债": "1173db8e235fd27d80ac1be4",
+        "新晶集成母公司实缴": "aa14f6672022c705ce9097cd",
+        "新晶集成五方股权收购": "39df8f1b5bc6129f1a935762",
+        "新晶集成剩余7.2%股权收购": "16e6dcc8dfe4568276406c97",
+        "皖芯集成晶合初次实际出资": "e9293771caa33b372331ed48",
+        "皖芯集成控股股东受让剩余40%": "040d46a3bf21350bfea2f480",
+        "晶合集成A股首发": "6db5e0e5c27d89bf71736160",
+        "晶合集成H股上市": "41a8577f5be438393a02f918",
+        "晶合集成H股超额配售": "5c46889b216d733865d1aaa8",
+        "新晶集成外部八方增资": "1dfd2097d65e82f53a1e3f6c",
+        "皖芯集成十六方实缴": "c60d73da9888a5e8e6541092",
+        "皖芯集成合肥建投增资": "fb1acf6fa4914844319a5fc8"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-chengtong-network-195.csv"
     }
   ]
 }
