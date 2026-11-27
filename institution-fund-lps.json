@@ -20315,5 +20315,259 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "c32b86b9c69346496faea641",
+    "fundName": "甘肃拓阵股权投资基金合伙企业（有限合伙）",
+    "managerName": "上海瑞潇投资管理中心（有限合伙）",
+    "managerId": "489924c2d588470750e661f4",
+    "sizeCny": 400000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-15/1225426476.PDF",
+      "date": "2026-07-15",
+      "dateKind": "公开文件披露日",
+      "issuer": "德福科技简式权益变动报告书",
+      "pages": "第5页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-05/1224401932.PDF"
+      ],
+      "lpScope": "披露同代码基金认缴降为4亿元，报告列两家主要LP和GP，当前单户金额及其他份额待原件。2025披露4.15亿元另存历史。",
+      "generalPartners": [
+        {
+          "name": "上海瑞潇投资管理中心（有限合伙）"
+        }
+      ],
+      "managerLegalName": "上海瑞潇投资管理中心（有限合伙）",
+      "creditCode": "91620000MA729XKN64"
+    },
+    "partners": [
+      {
+        "name": "甘肃新业股权投资基金（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "4f31eef9d9292c98b54d4511"
+      },
+      {
+        "name": "甘肃省国有资产投资集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "c781328370e124cb884c0a51"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "4f31eef9d9292c98b54d4511",
+    "fundName": "甘肃新业股权投资基金（有限合伙）",
+    "managerName": "甘肃新业私募基金管理有限公司",
+    "managerId": "6e8819a194f1f2d978664c73",
+    "sizeCny": null,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7536516",
+      "date": "2021-09-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "白银有色2021年第三次临时股东大会会议资料",
+      "pages": "转让拓阵基金份额议案",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2022-04-26/1213109296.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8287057"
+      ],
+      "lpScope": "两家发起LP与一名GP已确认，认缴总额与各方金额待核。",
+      "generalPartners": [
+        {
+          "name": "甘肃新业私募基金管理有限公司"
+        }
+      ],
+      "managerLegalName": "甘肃新业私募基金管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "白银有色产业集团有限责任公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "7d2eb3fbe1b789820832beb3"
+      },
+      {
+        "name": "甘肃省新业资产经营有限责任公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "562a3f5aa79c5eb02bba8ec8"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c6966488959437098dc6d76e",
+    "fundName": "嘉善芯创壹号股权投资基金合伙企业（有限合伙）",
+    "managerName": "上海君桐股权投资管理有限公司",
+    "managerId": "3b95f37b40a24af67acd4ff8",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+      "date": "2026-06-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "季丰电子招股说明书",
+      "pages": "第92–95、111页",
+      "lpSources": [],
+      "lpScope": "招股书披露时点的出资和备案管理人。",
+      "generalPartners": [
+        {
+          "name": "上海君桐股权投资管理有限公司",
+          "disclosedContributionCny": 100000000
+        }
+      ],
+      "managerLegalName": "上海君桐股权投资管理有限公司",
+      "filingCode": "SLC358"
+    },
+    "partners": [
+      {
+        "name": "嘉善县金融投资有限公司",
+        "disclosedContributionCny": 900000000,
+        "disclosedPercent": 90,
+        "existingInstitution": "504ebe131a40b0db625e5abf"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "ca5cada1d06261cf103f2544",
+    "fundName": "嘉兴君源股权投资合伙企业（有限合伙）",
+    "managerName": "上海君桐股权投资管理有限公司",
+    "managerId": "3b95f37b40a24af67acd4ff8",
+    "sizeCny": 34000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 1,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+      "date": "2026-06-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "季丰电子招股说明书",
+      "pages": "第92–95、111页",
+      "lpSources": [],
+      "lpScope": "招股书披露时点的出资和备案管理人。",
+      "generalPartners": [
+        {
+          "name": "上海君泺企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "上海君桐股权投资管理有限公司",
+      "filingCode": "SXT264"
+    },
+    "partners": [
+      {
+        "name": "盐城东投科技创新投资管理有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 58.82,
+        "existingInstitution": "4a7c963c0b4a8729ff3d3a8b"
+      },
+      {
+        "name": "嘉兴晋同智产股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 29.41,
+        "existingInstitution": "4c1f0dd9a909d1608a736dbc"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "e5a4b9435a47b72112ddd094",
+    "fundName": "南通中皋君桐新兴产业投资合伙企业（有限合伙）",
+    "managerName": "上海君桐股权投资管理有限公司",
+    "managerId": "3b95f37b40a24af67acd4ff8",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+      "date": "2026-06-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "季丰电子招股说明书",
+      "pages": "第92–95、111页",
+      "lpSources": [],
+      "lpScope": "招股书披露时点的出资和备案管理人。",
+      "generalPartners": [
+        {
+          "name": "上海君泺企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "上海君桐股权投资管理有限公司",
+      "filingCode": "STG672"
+    },
+    "partners": [
+      {
+        "name": "如皋市科创投资集团有限公司",
+        "disclosedContributionCny": 99000000,
+        "disclosedPercent": 99,
+        "existingInstitution": "daefb4a69e469833886e8104"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "8c59f1021f1ff3185103635c",
+    "fundName": "嘉兴君晋股权投资合伙企业（有限合伙）",
+    "managerName": "上海君桐股权投资管理有限公司",
+    "managerId": "3b95f37b40a24af67acd4ff8",
+    "sizeCny": 116500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 1,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+      "date": "2026-06-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "季丰电子招股说明书",
+      "pages": "第92–95、111页",
+      "lpSources": [],
+      "lpScope": "招股书披露时点的出资和备案管理人。",
+      "generalPartners": [
+        {
+          "name": "上海君桐股权投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "上海君桐股权投资管理有限公司",
+      "filingCode": "SSJ179"
+    },
+    "partners": [
+      {
+        "name": "共青城永昌盛贰号股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 42.92,
+        "existingInstitution": "1ca0b0b710507aca0ed9fe5e"
+      },
+      {
+        "name": "山西晋阳常茂股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 34.33,
+        "existingInstitution": "a95ad560ca573000c3a2a028"
+      },
+      {
+        "name": "光彩芯辰（浙江）科技有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 8.58,
+        "existingInstitution": "d8f30c54afa2e08e2e90411b"
+      },
+      {
+        "name": "上海君禺商务信息咨询有限公司",
+        "disclosedContributionCny": 9000000,
+        "disclosedPercent": 7.73,
+        "existingInstitution": "dd34d32992f91eec573ccd17"
+      },
+      {
+        "name": "深圳晋阳股权投资管理有限公司",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 0.86,
+        "existingInstitution": "adedcb9ed43c069670e4c987"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

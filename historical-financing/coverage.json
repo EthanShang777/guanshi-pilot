@@ -10070,6 +10070,97 @@
       },
       "retired_deal_redirects": {},
       "batch": "historical-financing/2026-11-27-aiwei-defu-network-198.csv"
+    },
+    {
+      "institution": "春山浦江（上海）投资管理有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "沿春山锐卓及新业 LP 核季丰、国仪量子和甘肃拓阵",
+      "sources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_101905C72F79B092894D759FEEEE90505141F1.pdf",
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2022/2022-12/2022-12-01/8697919.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202011121428433296_1.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202012181441594851_1.pdf",
+        "https://stock.tianyancha.com/Announcement/cninfo/b1b04c460d99a922d912f05ca7ae02ad.pdf",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-10/688828_20260810_KEJC.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+        "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-07-15/1225426476.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8287057",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7536516",
+        "https://static.cninfo.com.cn/finalpage/2022-04-26/1213109296.PDF",
+        "https://dataclouds.cninfo.com.cn/sjother/ipo_data/zjh_publish/6aae0510f64b11ed9f61fa163ebe0297.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202210/RAS_202210_000183CF57B6FD3FED3D1B1C98C2CE3F.pdf"
+      ],
+      "notes": [
+        {
+          "subject": "上海季丰电子股份有限公司",
+          "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+          "result": "恢复三笔三板定增及C轮原ID，补2008设立实收、2016及2025货币补缴和正式披露的老股。春山105万股已见招股书实际持股，交易作价1995万元。"
+        },
+        {
+          "subject": "国仪量子技术（合肥）股份有限公司",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+          "result": "核对成立现金与技术入股、历次增资和转让，A+旧档为宣城火花老股受让。C轮依据审计股东会16家、约6.6亿。首发验资毛额849012200元。"
+        },
+        {
+          "subject": "甘肃拓阵股权投资基金合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-07-15/1225426476.PDF",
+          "result": "2021年白银退出2.5972亿元。2026同代码认缴4亿及两家主要LP；各方认缴款待复核。"
+        },
+        {
+          "subject": "甘肃德福新材料有限公司",
+          "source": "https://dataclouds.cninfo.com.cn/sjother/ipo_data/zjh_publish/6aae0510f64b11ed9f61fa163ebe0297.pdf",
+          "result": "2022工商变更登记5亿元认缴，白银有色一季度实缴1.95亿，其余两方尽调继续。"
+        },
+        {
+          "subject": "甘肃新业股权投资基金（有限合伙）",
+          "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7536516",
+          "result": "公开股东会议材料确认合伙人两LP一GP，待取认缴表与识别码。"
+        }
+      ],
+      "events": {
+        "季丰成立首期实缴": "ffff5b64601260403e623743",
+        "季丰2016货币补正": "45b65f86ef2f4eb687d87c8c",
+        "季丰2025货币补正": "67c2f397da0a8c4a044467c7",
+        "春山锐卓受让季丰": "0ebea2a8f06b6b25f03ddcc0",
+        "季丰已完成老股2023-11-29": "774ceca4b04434a0782fd161",
+        "季丰已完成老股2023-12-24": "b71bc64cc2dcf7cc8ce77529",
+        "季丰已完成老股2024-04-12": "70ab01ea6ea05c4cf3bb03b0",
+        "季丰已完成老股2024-10-29": "bf338990b3673f4953eb057e",
+        "季丰已完成老股2024-11-01": "2f0203a40d54b179f220b00b",
+        "季丰已完成老股2025-12-15": "3b227e005786cb0616b1a346",
+        "季丰已完成老股2025-12-19": "9eaaa3e3e4b6ea62c61fb30f",
+        "季丰已完成老股2025-12-31": "ff9361ab650fb6080979490b",
+        "季丰已完成老股2026-01-08": "b150cc3e5acc5efdcc7e5e37",
+        "季丰已完成老股2026-01-15": "310e89d8706cb2abf965a254",
+        "季丰已完成老股2026-01-19": "661e7c502b14c572f2e84b74",
+        "季丰已完成老股2026-01-26": "8b2451457121ed04255f5a4f",
+        "季丰已完成老股2026-01-28": "187aabf20da066bd26f06f86",
+        "季丰已完成老股2026-03-05": "6bac6c63ffb6068f793c6e8d",
+        "季丰2019第一笔定增": "ea2a2218eeff53115953e64a",
+        "季丰2019第二笔定增": "f81e909e67a5105a2734d9b1",
+        "季丰2020三板定增": "fe6675acf9ab5bbb3e1c8f58",
+        "季丰C轮实收": "9e5117482f9cdb0abdfb156d",
+        "国仪创始现金实缴": "f81051b8a7935c5c708dbd7f",
+        "国仪技术资产入股": "7c938c336e4b1bf8c04145ce",
+        "国仪2019三方现金增资": "91ea170ef402cd9e9ede7c88",
+        "国仪2019老股受让": "6c7d256ef4f8b4eb391b678b",
+        "国仪宣城火花受让": "f6f944afd30d5f8164ad2023",
+        "国仪朱永林受让": "b515043251b47e11bbbd6ecb",
+        "国仪2020七方现金增资": "0dc30cd39d91713b6caf00ab",
+        "国仪C轮增资": "9c0e645390b34e40ec47118d",
+        "国仪2021三方老股": "43852394cfc47c114a0af7ec",
+        "国仪粒子员工平台出资": "781a65c7e8a129057694e78a",
+        "国仪大科老股": "60820086541fa6c7da6e7a90",
+        "国仪三方老股": "dc87a1094633f7629c3f3ca3",
+        "国仪IPO": "5341efae17a69771dec48f76",
+        "拓阵份额易手": "fae152ba77090baa94cb374a",
+        "甘肃德福认缴增资": "fcd08b4f87b271554cdc5c41",
+        "季丰2022其余主体待核": "a0f579cb1e0b0ea264d9a1e4"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-jifeng-guoyi-network-199.csv"
     }
   ]
 }
