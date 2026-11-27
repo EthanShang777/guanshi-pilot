@@ -2581,5 +2581,29 @@
     },
     "source": "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF",
     "reason": "公告分别记录2019-12-26收购旧股及2019-12-27母公司以现金增资，收款主体和款项不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:62ccc61197c6fc931eeed8",
+      "company_id": "co:cn_uscc:cca8fdc2d2360ddce8413051e1440163"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:8315834cfdde6de5170921",
+      "company_id": "co:cn_uscc:cca8fdc2d2360ddce8413051e1440163"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+    "reason": "验资报告载6月增发27900万元，另有原股东6月完成转让23100万元。两笔款项收款方不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:8315834cfdde6de5170921",
+      "company_id": "co:cn_uscc:cca8fdc2d2360ddce8413051e1440163"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:62ccc61197c6fc931eeed8",
+      "company_id": "co:cn_uscc:cca8fdc2d2360ddce8413051e1440163"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+    "reason": "验资报告载6月增发27900万元，另有原股东6月完成转让23100万元。两笔款项收款方不同。"
   }
 ]

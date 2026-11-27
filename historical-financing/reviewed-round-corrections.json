@@ -8535,5 +8535,31 @@
       "date_kind": "发行人披露工商登记日"
     },
     "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:eb76189b6dc68aac5cf1b313d23f2265d0eee8fdb6038657e1f957daf2537bc6",
+    "company_id": "co:full_legal_name:ee873d575ae7034c0d056bfe213ffc5e",
+    "day": "2021-12-31",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF",
+    "expected": {
+      "round": "定向增发",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信证券\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-31",
+      "date_key": "2021-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "IPO",
+      "amount": "3201044000元",
+      "investors_json": "[{\"name\":\"中信证券投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":9603132000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"中信证券艾为电子员工参与科创板战略配售集合资产管理计划\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":24551548000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"闻泰科技股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3216360000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"小米科技（武汉）有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4043424000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"上海华虹宏力半导体制造有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4043424000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"南通华达微电子集团股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3216360000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"广东步步高电子科技有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4043424000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"OPPO广东移动通信有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4043424000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"中芯晶圆股权投资（宁波）有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4043424000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}},{\"name\":\"天水华天电子集团股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":3216360000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF\"}}]",
+      "date": "2021-08-16",
+      "date_key": "2021-08-16",
+      "date_kind": "科创板上市日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-04-16/1212944410.PDF",
+      "https://static.cninfo.com.cn/finalpage/2022-08-08/1214240814.PDF"
+    ]
   }
 ]
