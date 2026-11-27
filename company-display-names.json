@@ -5267,5 +5267,78 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF"
     ]
+  },
+  "da9c6ff10740e84d9c6ce8d8": {
+    "name": "华力微",
+    "registeredName": "上海华力微电子有限公司",
+    "aliases": [
+      "华力微电子"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_O5PF.pdf"
+    ]
+  },
+  "e54186159ef3f1c9ba0c9777": {
+    "name": "华虹宏力",
+    "registeredName": "华虹宏力半导体有限公司",
+    "aliases": [
+      "华虹半导体有限公司",
+      "华虹半导体",
+      "华虹公司",
+      "688347",
+      "01347",
+      "Hua Hong Grace Semiconductor Limited"
+    ],
+    "sources": [
+      "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-08-04/688347_20230804_5LFW.pdf"
+    ]
+  },
+  "3d509ddbc6129ea9cf0ae695": {
+    "name": "华羿微电",
+    "registeredName": "华羿微电子股份有限公司",
+    "aliases": [
+      "华羿微电子"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652018.PDF"
+    ]
+  },
+  "2895af8ac0c258cef3775a68": {
+    "name": "蒙东能源",
+    "registeredName": "内蒙古华电蒙东能源有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-07-31/1210613733.PDF"
+    ]
+  },
+  "ca658a8b4d400df45c2dd284": {
+    "name": "福源热电",
+    "registeredName": "天津华电福源热电有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-07-31/1210613733.PDF"
+    ]
+  },
+  "b87932a45a6cda1a7835c191": {
+    "name": "重庆医药",
+    "registeredName": "重庆医药（集团）股份有限公司",
+    "aliases": [
+      "重药股份",
+      "重庆医药集团"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-09-28/1217969530.PDF"
+    ]
+  },
+  "bc1bcb82758e84cd67515bb4": {
+    "name": "中交路桥",
+    "registeredName": "中交路桥建设有限公司",
+    "aliases": [
+      "中交路建"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-04-30/1219950369.pdf",
+      "https://static.cninfo.com.cn/finalpage/2023-06-26/1217141805.pdf"
+    ]
   }
 }

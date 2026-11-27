@@ -9799,6 +9799,107 @@
       },
       "retired_deal_redirects": {},
       "batch": "historical-financing/2026-11-27-chengtong-network-195.csv"
+    },
+    {
+      "institution": "建信金融资产投资有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "沿晶合股东核查华力微和建航三基金、建信投资对外增资及共同出资方",
+      "sources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_O5PF.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_NQAU.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-01-01/1224915502.PDF",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-09-12/688347_20260912_5J9K.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652018.PDF",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-08-04/688347_20230804_5LFW.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2024/0401/2024040100269_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601225_c.pdf",
+        "https://static.cninfo.com.cn/finalpage/2023-08-09/1217492660.PDF",
+        "https://static.cninfo.com.cn/finalpage/2021-07-31/1210613733.PDF",
+        "https://static.cninfo.com.cn/finalpage/2021-10-08/1211195042.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-06-10/1217028653.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-09-28/1217969530.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-04-27/1219859394.PDF",
+        "https://static.cninfo.com.cn/finalpage/2024-04-30/1219950369.pdf",
+        "https://static.cninfo.com.cn/finalpage/2023-06-26/1217141805.pdf"
+      ],
+      "notes": [
+        {
+          "subject": "上海华力微电子有限公司",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_O5PF.pdf",
+          "result": "早年九期实缴合79亿元，2016两方新实缴140亿元，2019现金增资和老股分开，2023与2025增资额待补。2026年9月3日97.4988%换股过户对价82.679022亿元。"
+        },
+        {
+          "subject": "华虹宏力半导体有限公司",
+          "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-08-04/688347_20230804_5LFW.pdf",
+          "result": "2023科创板首发212.03亿元，30名战略配售金额合106.015亿元，以注册地和两地证券代码识别主体。"
+        },
+        {
+          "subject": "华羿微电子股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652018.PDF",
+          "result": "100%标的股权确认已过户，合同对价29.96亿元，首期股份完成登记，现金及第二批股份另追。"
+        },
+        {
+          "subject": "内蒙古华电蒙东能源有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2021-07-31/1210613733.PDF",
+          "result": "2019建信投资10亿元实际到账；华电国际2021年9月15日收回45.15%股权。"
+        },
+        {
+          "subject": "天津华电福源热电有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2021-07-31/1210613733.PDF",
+          "result": "2020中银投资5亿元实际到账；华电国际2021年9月7日收回36.86%股权。"
+        },
+        {
+          "subject": "重庆医药（集团）股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-09-28/1217969530.PDF",
+          "result": "三方现金20亿元实收，工银10亿元、中银6亿元、建信4亿元。"
+        },
+        {
+          "subject": "中交路桥建设有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219950369.pdf",
+          "result": "2019工银中银20亿、2021交银国寿20亿、2022建信10亿匹配三条旧档，日期精度用披露月份，原事件ID保留。"
+        },
+        {
+          "subject": "上海国投先导集成电路私募投资基金合伙企业（有限合伙）",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_NQAU.pdf",
+          "result": "2025年末认缴450.01亿元，十位LP和一位GP。SAMQ44，管理人P1074817。"
+        },
+        {
+          "subject": "建信金融资产投资有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-08-09/1217492660.PDF",
+          "result": "建航一期直接LP，沿被投基金与下游中交路桥、蒙东能源和重庆医药的共投方继续补。"
+        }
+      ],
+      "events": {
+        "华力微早期实缴2010-01-13": "51c6b7ac09731ce2bf72fab8",
+        "华力微早期实缴2010-04-13": "f4e1bafba8958e43ebc0b857",
+        "华力微早期实缴2010-09-30": "3c3ee161b871c16bdf2cde35",
+        "华力微早期实缴2010-11-25": "dadf7b6bd5b53fd22234e446",
+        "华力微早期实缴2011-04-28": "df8b35447b1347a88a3242ec",
+        "华力微早期实缴2011-08-02": "8cec6ebe8a625c74c0212787",
+        "华力微早期实缴2011-11-14": "2f66ca1a26c04f163849ad54",
+        "华力微早期实缴2012-01-16": "29b0fae62147d7a7ca97460c",
+        "华力微早期实缴2014-02-13": "805a5b3f514ff3d2ff30b37b",
+        "华力微2016两方实缴": "1c6bcc92fea24aae0232b3ca",
+        "华力微2019新股增资": "c1b3dc333249f84e4ead1589",
+        "华力微2019老股转让": "71a17a6adc6e2fa719664dee",
+        "华力微2023两方增资": "a41f24cfd1f0864f3b3b4e53",
+        "华力微2025三方增资": "d2154514ccc9c579ba0f5b12",
+        "华力微2026换股完成": "8198d1cfa9aca18aa608697c",
+        "华虹科创板首发": "46b82ea794e408c469847eff",
+        "华羿微电100%过户披露": "e599d644725b70b993a12904",
+        "蒙东能源实收现金增资": "08e1cced4753074f41cf1004",
+        "蒙东能源华电收购过户": "8d3335c7bf82f2229cc04aee",
+        "福源热电实收现金增资": "e2b64d8fcc6f90eb9a085119",
+        "福源热电华电收购过户": "ec7fd10cdd2f4f7a8d82562c",
+        "重庆医药三家实缴": "3387e07bcc7f8f699be20ecc",
+        "中交路桥2019工银中银": "f326f5d5b5e71a55e1ceb500",
+        "中交路桥2021交银国寿": "1876fbbbc8b53b5e5dfe4272",
+        "中交路桥2022建信": "ae64ebe08ed27d6be6d573b6",
+        "新晶集成外部八方增资": "1dfd2097d65e82f53a1e3f6c",
+        "新晶集成五方股权收购": "39df8f1b5bc6129f1a935762"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-huali-jianxin-network-196.csv"
     }
   ]
 }
