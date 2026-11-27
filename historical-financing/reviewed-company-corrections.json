@@ -862,5 +862,34 @@
       "date_key": "2024-12-31",
       "date_kind": "发行人公告交割日，招股书核新增股东1.75美元/股"
     }
+  },
+  {
+    "event_id": "registry:190",
+    "round": "上市融资-赴港上市",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1023/2024102300944_c.pdf#page=3",
+    "additional_sources": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1023/2024102300944_c.pdf#page=4",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1023/2024102300944_c.pdf#page=5",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/2024101600018_c.pdf#page=350",
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2024/1120/2024112001093_c.pdf"
+    ],
+    "expected": {
+      "company_id": "co:cn_uscc:1af5a61b360e3ea010f04ce249f8ae56",
+      "company_name": "北京地平线信息技术有限公司",
+      "raw_company_key": "北京地平线信息技术有限公司",
+      "date": "2024-10-21",
+      "date_key": "2024-10-21",
+      "date_kind": "原档日期",
+      "investors_json": "[]"
+    },
+    "corrected": {
+      "company_id": "co:full_legal_name:e8801ff093f118e8f553d3c984da1c61",
+      "company_name": "Horizon Robotics",
+      "raw_company_key": "地平线机器人;地平线;Horizon Robotics 9660",
+      "date": "2024-10-24",
+      "date_key": "2024-10-24",
+      "date_kind": "港交所首个交易日，金额为初始发售净额",
+      "investors_json": "[{\"name\":\"Alisoft China Holding Limited\",\"role\":\"基石投资者\",\"amount\":\"388330740港元\"},{\"name\":\"Baidu (Hong Kong) Limited\",\"role\":\"基石投资者\",\"amount\":\"388330740港元\"},{\"name\":\"PARTICIPATIONS 1\",\"role\":\"基石投资者\",\"amount\":\"76873734港元\"},{\"name\":\"JSC International Investment Fund SPC（为及代表宁波甬宁高芯SP行事）\",\"role\":\"基石投资者\",\"amount\":\"853082748港元\"}]"
+    }
   }
 ]
