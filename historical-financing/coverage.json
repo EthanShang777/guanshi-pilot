@@ -9989,6 +9989,87 @@
       },
       "retired_deal_redirects": {},
       "batch": "historical-financing/2026-11-27-huayi-hualing-network-197.csv"
+    },
+    {
+      "institution": "新业九章（甘肃）私募股权基金管理有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "沿华天科技配售方及共同出资人复核德福科技、艾为电子与基金LP",
+      "sources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202611201831897465_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-08-22/1217604856.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-08-16/1217545321.PDF",
+        "https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF",
+        "https://static.cninfo.com.cn/finalpage/2022-04-16/1212944410.PDF",
+        "https://static.cninfo.com.cn/finalpage/2022-08-08/1214240814.PDF",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-02-24/688798_20260224_V5Z1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-01-20/1224940688.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-04-10/1225090195.PDF",
+        "https://static.cninfo.com.cn/finalpage/2025-08-05/1224401932.PDF",
+        "https://static.cninfo.com.cn/finalpage/2019-04-29/1206119732.PDF",
+        "https://static.cninfo.com.cn/finalpage/2020-03-19/1207383367.PDF",
+        "https://disc.static.szse.cn/disc/disk02/finalpage/2019-09-07/843c1412-5f2a-4238-a967-eeb3ad21929f.PDF"
+      ],
+      "notes": [
+        {
+          "subject": "九江德福科技股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+          "result": "核对设立验资、6次增资及2批老股交割。2018实缴8257.53万元含180.0225万元非现金，2019实收较协议少5000元。2023 IPO毛募18.90846076亿元。"
+        },
+        {
+          "subject": "上海艾为电子技术股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF",
+          "result": "核对2008验资、三次股转定增及2026可转债。原2021年末定增旧档按唯一当年新股发行核到IPO，保留原链接并补10家战略配售。"
+        },
+        {
+          "subject": "湖南华菱钢铁集团财务有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2020-03-19/1207383367.PDF",
+          "result": "2019年增资14亿元，其中现金12.2亿及资本公积1.8亿，仅该笔现金作为融资。"
+        },
+        {
+          "subject": "阳春新钢铁有限责任公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2020-03-19/1207383367.PDF",
+          "result": "2019年9月26日完成51%股权过户，单录价款16.554061亿元。"
+        },
+        {
+          "subject": "甘肃新业立德壹号股权投资基金合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+          "result": "核对直接LP、GP及管理人后续更名，和贰号为不同法律载体。"
+        },
+        {
+          "subject": "甘肃新业立德贰号股权投资基金合伙企业（有限合伙）",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202611201831897465_1.pdf",
+          "result": "核对基金认缴及管理人，并保留已上线华天科技认购。直接LP待核。"
+        },
+        {
+          "subject": "青岛春山锐卓股权投资合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-01-20/1224940688.PDF",
+          "result": "认缴8710万，艾为2021年实际出资8000万，2025末累计5个项目。"
+        }
+      ],
+      "events": {
+        "德福科技设立验资": "f4586c120d2d8bb3dfbe7725",
+        "德福科技2018-08-02增资实缴": "2dc8d82eff68938132eb4e59",
+        "德福科技2019-09-27增资实缴": "2f4fc1f4685d47c59a7393fa",
+        "德福科技2020-07-16增资实缴": "501eb082acb5a857e1181651",
+        "德福科技2020-11-03增资实缴": "ad0530bd3b0fa8f70cd63772",
+        "德福科技2021-03-05股权转让": "856956d67731325da37d14f7",
+        "德福科技2021-03-30增资实缴": "2b6b75cde2019e272bf15b1d",
+        "德福科技2021-06-02增资实缴": "9cdd7b667e9e366fcf560a60",
+        "德福科技2021-06-21股权转让": "91f719ee8010f21592dc2246",
+        "德福科技IPO": "e63041f594cbf43563c2547a",
+        "艾为电子2008-06-04设立出资": "1db2bb946a3675cf0e030003",
+        "艾为电子2016-03-10定向增发": "86eecbed5985bc20f6863b1e",
+        "艾为电子2017-04-28定向增发": "33ba542f8616cc39cc8fb762",
+        "艾为电子2018-02-05定向增发": "e27d4c4c216a206156a23440",
+        "艾为电子IPO原档核正": "b5cb4c0dedebaa09313f28b0",
+        "艾为电子2026可转债": "89923e68fe006481e1521c63",
+        "华菱财务现金增资": "70bebc11affcae2e662ca582",
+        "阳春新钢51%股权交割": "d5607ff9313dfbabf23fca4e",
+        "华天科技收购配套定增实收": "e597884e54ebfcbf543d6413"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-aiwei-defu-network-198.csv"
     }
   ]
 }

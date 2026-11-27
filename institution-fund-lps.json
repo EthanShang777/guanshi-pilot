@@ -19990,5 +19990,330 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "2d9bd2b3521b43c973ce6298",
+    "fundName": "甘肃新业立德壹号股权投资基金合伙企业（有限合伙）",
+    "managerName": "新业九章（甘肃）私募股权基金管理有限公司",
+    "managerId": "3ad58333630a339acd6b92b9",
+    "sizeCny": 24214400,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 7,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+      "date": "2023-08-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "德福科技招股说明书",
+      "pages": "第91–92、110页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF"
+      ],
+      "lpScope": "2023年招股书确认2个机构LP和7位自然人LP。管理人后来更名，核对2026年发行情况报告。",
+      "generalPartners": [
+        {
+          "name": "甘肃新业立德基金管理有限公司",
+          "disclosedContributionCny": 500000
+        }
+      ],
+      "managerLegalName": "新业九章（甘肃）私募股权基金管理有限公司",
+      "managerFormerNames": [
+        "甘肃新业立德基金管理有限公司"
+      ],
+      "managerNameEvidence": "https://pdf.dfcfw.com/pdf/H2_AN202611201831897465_1.pdf",
+      "filingCode": "SNV980",
+      "creditCode": "91620000MA74LHHE77"
+    },
+    "partners": [
+      {
+        "name": "甘肃省新业资产经营有限责任公司",
+        "disclosedContributionCny": 8864400,
+        "disclosedPercent": 36.61,
+        "existingInstitution": "562a3f5aa79c5eb02bba8ec8"
+      },
+      {
+        "name": "中鼎国立有限公司",
+        "disclosedContributionCny": 2200000,
+        "disclosedPercent": 9.09,
+        "existingInstitution": "7d6e6c903768a291635d0f79"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "caa1159fde91865e50408fda",
+    "fundName": "甘肃新业立德贰号股权投资基金合伙企业（有限合伙）",
+    "managerName": "新业九章（甘肃）私募股权基金管理有限公司",
+    "managerId": "3ad58333630a339acd6b92b9",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202611201831897465_1.pdf",
+      "date": "2026-11-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "华天科技发行情况报告书",
+      "pages": "发行对象基本情况",
+      "lpSources": [],
+      "lpScope": "基金法律名称、认缴额及管理人已核。直接LP名单待核。",
+      "generalPartners": [
+        {
+          "name": "新业九章（甘肃）私募股权基金管理有限公司"
+        }
+      ],
+      "managerLegalName": "新业九章（甘肃）私募股权基金管理有限公司",
+      "managerFormerNames": [
+        "甘肃新业立德基金管理有限公司"
+      ],
+      "creditCode": "91620000MA71FCNB1B"
+    },
+    "partners": [],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c32b86b9c69346496faea641",
+    "fundName": "甘肃拓阵股权投资基金合伙企业（有限合伙）",
+    "managerName": "上海瑞潇投资管理中心（有限合伙）",
+    "managerId": "489924c2d588470750e661f4",
+    "sizeCny": 415000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-08-05/1224401932.PDF",
+      "date": "2025-08-05",
+      "dateKind": "公开文件披露日",
+      "issuer": "德福科技简式权益变动报告及招股说明书",
+      "pages": "2025权益变动报告第3页及2023招股书第82、109页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-08-05/1224401932.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF"
+      ],
+      "lpScope": "认缴总额按2025权益变动报告确认。三家LP金额及比例来自2023招股书，2025报告未复核各LP比例。",
+      "generalPartners": [
+        {
+          "name": "上海瑞潇投资管理中心（有限合伙）",
+          "disclosedContributionCny": 20000000
+        }
+      ],
+      "managerLegalName": "上海瑞潇投资管理中心（有限合伙）",
+      "filingCode": "SEJ064",
+      "creditCode": "91620000MA729XKN64"
+    },
+    "partners": [
+      {
+        "name": "甘肃新业股权投资基金（有限合伙）",
+        "disclosedContributionCny": 190000000,
+        "disclosedPercent": 45.78,
+        "existingInstitution": "4f31eef9d9292c98b54d4511"
+      },
+      {
+        "name": "甘肃省国有资产投资集团有限公司",
+        "disclosedContributionCny": 190000000,
+        "disclosedPercent": 45.78,
+        "existingInstitution": "c781328370e124cb884c0a51"
+      },
+      {
+        "name": "汇天泽投资有限公司",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 3.61,
+        "existingInstitution": "f48bbf2af31f8c40fa2f776d"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "047538aae626fdb24ba4ffb8",
+    "fundName": "九江德福股权投资中心（有限合伙）",
+    "managerName": "九江昆泰股权投资基金管理有限公司",
+    "managerId": "15e706711e4163c1705a1ef6",
+    "sizeCny": 110416700,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+      "date": "2023-08-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "德福科技招股说明书",
+      "pages": "第84–85、109页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF"
+      ],
+      "lpScope": "招股说明书披露时点的机构LP名单与认缴额。",
+      "generalPartners": [
+        {
+          "name": "九江昆泰股权投资基金管理有限公司",
+          "disclosedContributionCny": 1104200
+        }
+      ],
+      "managerLegalName": "九江昆泰股权投资基金管理有限公司",
+      "filingCode": "SLF639",
+      "creditCode": "91360406MA38UE3D7G"
+    },
+    "partners": [
+      {
+        "name": "九江金瑞建设投资有限公司",
+        "disclosedContributionCny": 109312500,
+        "disclosedPercent": 99,
+        "existingInstitution": "e37be69ce1353b0c9012725c"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "12f52741ded05ffc11c76318",
+    "fundName": "平潭红道新能源投资合伙企业（有限合伙）",
+    "managerName": "红道（厦门）股权投资管理有限责任公司",
+    "managerId": "90e4cd94c623cf0efb71b6ee",
+    "sizeCny": 112100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 30,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+      "date": "2023-08-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "德福科技招股说明书",
+      "pages": "第93–95、109页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF"
+      ],
+      "lpScope": "招股书披露持股时点的机构LP及30位自然人LP。2023年2月更名为厦门红道新能源投资合伙企业（有限合伙）。",
+      "generalPartners": [
+        {
+          "name": "红道（厦门）股权投资管理有限责任公司",
+          "disclosedContributionCny": 2000000
+        }
+      ],
+      "managerLegalName": "红道（厦门）股权投资管理有限责任公司",
+      "filingCode": "SQB695",
+      "subsequentName": "厦门红道新能源投资合伙企业（有限合伙）",
+      "creditCode": "91350128MA8RG20J4J"
+    },
+    "partners": [
+      {
+        "name": "厦门象屿创业投资管理有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 17.84,
+        "existingInstitution": "78fd1d9777a87e60b29a499e"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "17c4a86906cb014fb59e28de",
+    "fundName": "新余恒晟箔材投资中心（有限合伙）",
+    "managerName": "杭州华智融科投资管理有限公司",
+    "managerId": "cec3f1737f7dcf4ded1082c7",
+    "sizeCny": 36000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 7,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+      "date": "2023-08-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "德福科技招股说明书",
+      "pages": "第99–100、109页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF"
+      ],
+      "lpScope": "招股说明书披露时点的机构LP名单与认缴额。",
+      "generalPartners": [
+        {
+          "name": "杭州华智融科投资管理有限公司",
+          "disclosedContributionCny": 100000
+        }
+      ],
+      "managerLegalName": "杭州华智融科投资管理有限公司",
+      "filingCode": "SQD165",
+      "creditCode": "91360504MA39UF6467"
+    },
+    "partners": [
+      {
+        "name": "通联支付网络服务股份有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 27.78,
+        "existingInstitution": "bb5e62dcbc849f7afe3b6011"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "25737ceb45f3f84f71053766",
+    "fundName": "共青城源德股权投资合伙企业（有限合伙）",
+    "managerName": "宁波宇杉投资管理有限公司",
+    "managerId": "e5b8bdca7954037088033fc1",
+    "sizeCny": 39000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 6,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
+      "date": "2023-08-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "德福科技招股说明书",
+      "pages": "第106–107、109页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF"
+      ],
+      "lpScope": "招股说明书披露时点的机构LP名单与认缴额。",
+      "generalPartners": [
+        {
+          "name": "共青城源福股权投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "宁波宇杉投资管理有限公司",
+      "filingCode": "SQT677",
+      "creditCode": "91360405MA3ADA19XJ"
+    },
+    "partners": [
+      {
+        "name": "上海朋喆投资管理中心（普通合伙）",
+        "disclosedContributionCny": 5200000,
+        "disclosedPercent": 13.33,
+        "existingInstitution": "3802c1ec0366f69184cc645a"
+      },
+      {
+        "name": "共青城博嘉合投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 1700000,
+        "disclosedPercent": 4.36,
+        "existingInstitution": "8ab59610c85a416efd59ac02"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "db813a81318863eb832628a5",
+    "fundName": "青岛春山锐卓股权投资合伙企业（有限合伙）",
+    "managerName": "春山浦江（上海）投资管理有限公司",
+    "managerId": "f2c75b209313474c60559c2c",
+    "sizeCny": 87100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 4,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-01-20/1224940688.PDF",
+      "date": "2026-01-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "艾为电子可转债募集说明书及定期报告",
+      "pages": "募集说明书第62页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2022-04-16/1212944410.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-04-10/1225090195.PDF"
+      ],
+      "lpScope": "2021年报确认1个机构LP、4个自然人LP和1个GP。2025年报确认截至2025年底艾为已出资8000万元，基金累计5个项目。",
+      "generalPartners": [
+        {
+          "name": "春山浦江（上海）投资管理有限公司",
+          "disclosedPercent": 0.1148
+        }
+      ],
+      "managerLegalName": "春山浦江（上海）投资管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "上海艾为电子技术股份有限公司",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": 91.8485,
+        "existingInstitution": "1f5e9ef5cc117a621ce1abab"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

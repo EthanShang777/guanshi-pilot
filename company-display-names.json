@@ -5392,5 +5392,52 @@
     "sources": [
       "https://pdf.dfcfw.com/pdf/H2_AN202611201831897465_1.pdf"
     ]
+  },
+  "7376fbc561af33457d6bb33e": {
+    "name": "德福科技",
+    "registeredName": "九江德福科技股份有限公司",
+    "aliases": [
+      "九江德福电子材料有限公司",
+      "德福有限",
+      "德福铜箔",
+      "301511"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF"
+    ]
+  },
+  "b3074dc82388963f93fff531": {
+    "name": "艾为电子",
+    "registeredName": "上海艾为电子技术股份有限公司",
+    "aliases": [
+      "上海艾为电子技术有限公司",
+      "艾为有限",
+      "688798",
+      "833221"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-08-10/1210710619.PDF",
+      "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-02-24/688798_20260224_V5Z1.pdf"
+    ]
+  },
+  "dd373986db1e70bfead75f19": {
+    "name": "华菱财务",
+    "registeredName": "湖南华菱钢铁集团财务有限公司",
+    "aliases": [
+      "华菱财务公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-03-19/1207383367.PDF"
+    ]
+  },
+  "0d66e5b5ccd04b990a1ab56a": {
+    "name": "阳春新钢",
+    "registeredName": "阳春新钢铁有限责任公司",
+    "aliases": [
+      "阳春新钢铁"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-03-19/1207383367.PDF"
+    ]
   }
 }
