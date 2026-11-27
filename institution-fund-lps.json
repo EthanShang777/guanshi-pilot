@@ -22700,5 +22700,408 @@
       "filingDate": "2020-07-01",
       "managerRegistration": "P1060014"
     }
+  },
+  {
+    "fundId": "de2bded37f0a49e6d640abd1",
+    "fundName": "江苏招银现代产业股权投资基金一期（有限合伙）",
+    "managerName": "江苏招银产业基金管理有限公司",
+    "managerId": "81d49a24ec5d09a1d2aa7739",
+    "sizeCny": 3005000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "招银国际金融控股（深圳）有限公司",
+        "disclosedContributionCny": 2000000000,
+        "disclosedPercent": "66.56",
+        "existingInstitution": "c404872eba3a1316ea484c5f"
+      },
+      {
+        "name": "江苏省政府投资基金（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "33.28",
+        "existingInstitution": "5a73d13ddb9a7bf70b3cbfb4"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0926/2025092600042_c.pdf#page=224",
+      "date": "2025-09-26",
+      "dateKind": "公开文件披露日",
+      "issuer": "长风药业港交所招股章程",
+      "pages": "章程PDF第224页，配套法律意见书正文第59–60页，出资金额依配套表",
+      "lpScope": "披露全部具名机构LP及自然人LP人数。基金实缴、认缴和目标规模按原件时点记录。",
+      "managerLegalName": "江苏招银产业基金管理有限公司",
+      "generalPartners": [
+        {
+          "name": "江苏招银产业基金管理有限公司",
+          "disclosedContributionCny": 5000000,
+          "disclosedPercent": "0.17"
+        }
+      ],
+      "creditCode": "91320100MA1NRB3F9L",
+      "establishedDate": "2017-04-13",
+      "fundRegistration": "SX2172",
+      "filingDate": "2017-09-22",
+      "managerRegistration": "P1063987",
+      "lpSources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0926/11855785/2025092600072_c.pdf#page=61"
+      ]
+    }
+  },
+  {
+    "fundId": "3b76a910164b21b087ce5773",
+    "fundName": "中金启德（厦门）创新生物医药创业投资合伙企业（有限合伙）",
+    "managerName": "中金资本",
+    "managerId": "86220ffbd1bb805f13addeeb",
+    "sizeCny": 4234530000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 1,
+    "partners": [
+      {
+        "name": "启智汇融（厦门）创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 1082010000,
+        "disclosedPercent": "25.5521",
+        "existingInstitution": "857a9602043708f3e32e9520"
+      },
+      {
+        "name": "西藏鼎泰企业管理有限公司",
+        "disclosedContributionCny": 480000000,
+        "disclosedPercent": "11.3354",
+        "existingInstitution": "66db9e722dcebec0595450e4"
+      },
+      {
+        "name": "青岛汇融启德创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 326010000,
+        "disclosedPercent": "7.6988",
+        "existingInstitution": "4a6f98ef92ffe56debc6e0b9"
+      },
+      {
+        "name": "中金启融（厦门）股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "7.0846",
+        "existingInstitution": "e801f5c3600f1b5a2976632f"
+      },
+      {
+        "name": "厦门市产业引导股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "7.0846",
+        "existingInstitution": "74b98ee8232947c4f50d342b"
+      },
+      {
+        "name": "青岛西岸汇融启德创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 279010000,
+        "disclosedPercent": "6.5889",
+        "existingInstitution": "5ea98ddbf31d812357dc7068"
+      },
+      {
+        "name": "厦门市翔安创业投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "3.5423",
+        "existingInstitution": "f2ac12f8b002dfd7aa359b59"
+      },
+      {
+        "name": "厦门联塑联盈投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 125000000,
+        "disclosedPercent": "2.9519",
+        "existingInstitution": "2486421b322186947a83cef7"
+      },
+      {
+        "name": "华美国际投资集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "2.3615",
+        "existingInstitution": "4ba51f8ae559c522f680d194"
+      },
+      {
+        "name": "镇江国有投资控股集团有限公司",
+        "disclosedContributionCny": 95000000,
+        "disclosedPercent": "2.2435",
+        "existingInstitution": "6b9f4e61d90cab6b9b945a6f"
+      },
+      {
+        "name": "厦门柏原管理咨询合伙企业（有限合伙）",
+        "disclosedContributionCny": 75000000,
+        "disclosedPercent": "1.7712",
+        "existingInstitution": "516a1933324313f33287ef88"
+      },
+      {
+        "name": "浙江盛景资本投资有限公司",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": "1.6531",
+        "existingInstitution": "21928de4871c75350f70e873"
+      },
+      {
+        "name": "启德智融（天津）股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 51000000,
+        "disclosedPercent": "1.2044",
+        "existingInstitution": "4ac44ff32e25f8f5bcbc804b"
+      },
+      {
+        "name": "哈尔滨哈投嘉信投资管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.1808",
+        "existingInstitution": "61c392f9c2cdcd132f1a37bb"
+      },
+      {
+        "name": "广州盈添投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.1808",
+        "existingInstitution": "20996a3741c76fc04c0f317f"
+      },
+      {
+        "name": "厦门信息集团资本运营有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.1808",
+        "existingInstitution": "2882111a0d62cd95bf544150"
+      },
+      {
+        "name": "无锡信捷电气股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.1808",
+        "existingInstitution": "41445c5fa22c5f44509953ab"
+      },
+      {
+        "name": "厦门金圆展鸿股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.1808",
+        "existingInstitution": "8cbf6a1301341dfc222a4073"
+      },
+      {
+        "name": "宁波燕创姚商创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.1808",
+        "existingInstitution": "183149f98eeac3ccb07ed711"
+      },
+      {
+        "name": "苏州汇伯壹号创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.1808",
+        "existingInstitution": "96dc73c679f47f129a642ac3"
+      },
+      {
+        "name": "安吉方泽企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.1808",
+        "existingInstitution": "b65e1559bec5d88b7121dedc"
+      },
+      {
+        "name": "河北港口集团有限公司",
+        "disclosedContributionCny": 49000000,
+        "disclosedPercent": "1.1572",
+        "existingInstitution": "6103f6dbbbd78795677d244f"
+      },
+      {
+        "name": "佳德致远（厦门）投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 46500000,
+        "disclosedPercent": "1.0981",
+        "existingInstitution": "0761c0a1d15c0fe101ce1816"
+      },
+      {
+        "name": "北京程睿科技有限责任公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "0.9446",
+        "existingInstitution": "3e793eaf3b7658a20ee84094"
+      },
+      {
+        "name": "重庆华森制药股份有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "0.7085",
+        "existingInstitution": "aed9e7491784be2beacfda31"
+      },
+      {
+        "name": "四川欣闻投资有限责任公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "0.7085",
+        "existingInstitution": "af017e79d827a91260908526"
+      },
+      {
+        "name": "福建圣农控股集团有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "0.7085",
+        "existingInstitution": "2787a586e4b4f0c8def58707"
+      },
+      {
+        "name": "厦门市金创集炬创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "0.4723",
+        "existingInstitution": "6cb92cd02012cd20b2606997"
+      },
+      {
+        "name": "深圳满溢通达科技企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "0.2362",
+        "existingInstitution": "c8abdc9c43801844092b996f"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2020-09",
+        "source": "https://notice.10jqka.com.cn/api/pdf/b6c629c14cdc2f81.pdf",
+        "fundedCny": 1630520000,
+        "scope": "首次募集实缴完成"
+      }
+    ],
+    "source": {
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1116/12413102/2026111600033_c.pdf#page=108",
+      "date": "2026-11-16",
+      "dateKind": "公开文件披露日",
+      "issuer": "港交所申请版本配套中伦法律意见书",
+      "pages": "法律意见书正文第108–111页",
+      "lpScope": "披露全部具名机构LP及自然人LP人数。基金实缴、认缴和目标规模按原件时点记录。",
+      "managerLegalName": "中金资本运营有限公司",
+      "generalPartners": [
+        {
+          "name": "中金资本运营有限公司",
+          "disclosedContributionCny": 46000000,
+          "disclosedPercent": "1.0863"
+        }
+      ],
+      "creditCode": "91350213MA339F5R80",
+      "establishedDate": "2019-10-10",
+      "fundRegistration": "SJK656",
+      "filingDate": "2020-02-12",
+      "managerRegistration": "I0030375",
+      "aliases": [
+        "中金启德（厦门）创新生物医药股权投资基金合伙企业（有限合伙）"
+      ],
+      "historicalFundraisingTarget": {
+        "asOf": "2020-11-20",
+        "amountCny": 4157530000,
+        "capitalBasis": "第二次募集完成后目标认缴",
+        "source": "https://notice.10jqka.com.cn/api/pdf/b6c629c14cdc2f81.pdf"
+      }
+    }
+  },
+  {
+    "fundId": "2ec490e87c43e58ad6cefdf7",
+    "fundName": "中金启辰（苏州）新兴产业股权投资基金合伙企业（有限合伙）",
+    "managerName": "中金资本运营有限公司",
+    "managerId": "0608860da9946084fa63506a",
+    "sizeCny": 2820300000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 5,
+    "partners": [
+      {
+        "name": "中国国有企业结构调整基金股份有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "29.43",
+        "existingInstitution": "83b305927e55606cb2f827a0"
+      },
+      {
+        "name": "中金启融（厦门）股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "15.96",
+        "existingInstitution": "e801f5c3600f1b5a2976632f"
+      },
+      {
+        "name": "苏州市创新产业发展引导基金（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "13.12",
+        "existingInstitution": "de8cca9dca1e5358da0916ee"
+      },
+      {
+        "name": "深圳市招商招银股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "10.64",
+        "existingInstitution": "1f7a04157d6b6fd3634bc546"
+      },
+      {
+        "name": "常熟市鸿仪投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "7.45",
+        "existingInstitution": "bdc72e498ea09a7ce282acc1"
+      },
+      {
+        "name": "常熟市国发创业投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "3.55",
+        "existingInstitution": "89666d8edfe472765923873f"
+      },
+      {
+        "name": "常熟市发展投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "3.19",
+        "existingInstitution": "0cb521da05e13df156e6483d"
+      },
+      {
+        "name": "贵州铁路人保壹期壹号股权投资基金中心（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "2.84",
+        "existingInstitution": "58414b3ff82e88dafc49d6a3"
+      },
+      {
+        "name": "上海张江科技创业投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "2.48",
+        "existingInstitution": "553086d16e6e76057585ada6"
+      },
+      {
+        "name": "苏州凯润股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "2.37",
+        "existingInstitution": "30ac8ad1fa27ec2103962c89"
+      },
+      {
+        "name": "成都武海置业有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "1.77",
+        "existingInstitution": "3a0ee67be5d27b66fb4a6218"
+      },
+      {
+        "name": "浙江融洲商贸有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "0.71",
+        "existingInstitution": "121a2063e8aa85db9b8a7b8e"
+      },
+      {
+        "name": "宁波保税区明之投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "0.68",
+        "existingInstitution": "9e8b5f45dfcb92ae4a26c99b"
+      },
+      {
+        "name": "宁波梅山保税港区荣言投资管理合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "0.54",
+        "existingInstitution": "af1902198a1b1070becc8661"
+      },
+      {
+        "name": "珠海横琴金斧子盘古柒拾号股权投资基金（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "0.27",
+        "existingInstitution": "5830a814b1099f33f4c7e4f4"
+      },
+      {
+        "name": "宁波梅山保税港区荣余投资管理合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "0.20",
+        "existingInstitution": "7439eeba57ddd55f18d9460c"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-21/1220416055.PDF#page=74",
+      "date": "2024-06-21",
+      "dateKind": "公开文件披露日",
+      "issuer": "爱迪特正式招股说明书",
+      "pages": "正文第1-1-74至1-1-75页；认缴口径由比亚迪半导体深交所招股书互证",
+      "lpScope": "披露全部具名机构LP及自然人LP人数。基金实缴、认缴和目标规模按原件时点记录。",
+      "managerLegalName": "中金资本运营有限公司",
+      "generalPartners": [
+        {
+          "name": "中金资本运营有限公司",
+          "disclosedContributionCny": null,
+          "disclosedPercent": "0.04"
+        }
+      ],
+      "creditCode": "91320581MA1P593R3L",
+      "establishedDate": "2017-06-07",
+      "fundRegistration": "SEZ596",
+      "filingDate": "2020-02-26",
+      "managerRegistration": "PT2600030375",
+      "lpSources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf"
+      ]
+    }
   }
 ]
