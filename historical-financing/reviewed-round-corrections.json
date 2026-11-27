@@ -8915,5 +8915,57 @@
       "date_key": "2022-01-28",
       "date_kind": "投资机构事件档案披露日"
     }
+  },
+  {
+    "event_id": "financing_event:0f7cc2b9425801754929ca84ed574e6ad38253adcfd88af593c72926dd502428",
+    "company_id": "co:full_legal_name:3e9a229370badf7ee45be8bdcf7d34cd",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=52",
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=53",
+      "https://www.sscapt.com/xw-mx1027.html"
+    ],
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"博源资本\",\"role\":null,\"amount\":null},{\"name\":\"春阳资本\",\"role\":null,\"amount\":null}]",
+      "date": "2019-12-30",
+      "date_key": "2019-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "90000000元",
+      "investors_json": "[{\"name\":\"南京银鞍岭英新能源产业投资基金合伙企业（有限合伙）\",\"role\":\"领投方\",\"amount\":null,\"contribution\":{\"amountFen\":5880000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=52\"}},{\"name\":\"成都博源新航创业投资基金合伙企业（有限合伙）\",\"role\":\"认购方\",\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=52\"}},{\"name\":\"上海盈鞍众骅企业管理合伙企业（有限合伙）\",\"role\":\"认购方\",\"amount\":null,\"contribution\":{\"amountFen\":120000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=52\"}}]",
+      "date": "2019-12-30",
+      "date_key": "2019-12-30",
+      "date_kind": "增资协议签署日"
+    }
+  },
+  {
+    "event_id": "financing_event:0f222803bff9a36e836529cfb9e69cb39afadbb09cd9a2ae5f4133dc56e5a165",
+    "company_id": "co:full_legal_name:3e9a229370badf7ee45be8bdcf7d34cd",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=56",
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=57",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202104/000814_20210406_6902.pdf#page=77",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202104/000814_20210406_6902.pdf#page=72",
+      "https://www.sscapt.com/xw-mx1027.html"
+    ],
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"银鞍资本\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-30",
+      "date_key": "2020-12-30",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "140000000元",
+      "investors_json": "[{\"name\":\"南京银鞍岭英新能源产业投资基金合伙企业（有限合伙）\",\"role\":\"认购方\",\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=56\"}},{\"name\":\"广西柳州广投国富科技创业投资基金合伙企业（普通合伙）\",\"role\":\"认购方\",\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=56\"}},{\"name\":\"珠海尚颀华金汽车产业股权投资基金（有限合伙）\",\"role\":\"认购方\",\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=56\"}},{\"name\":\"扬州尚颀汽车产业股权投资基金（有限合伙）\",\"role\":\"认购方\",\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=56\"}},{\"name\":\"东风资产管理有限公司\",\"role\":\"认购方\",\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=56\"}},{\"name\":\"南昌市青英投资基金（有限合伙）\",\"role\":\"认购方\",\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=56\"}}]",
+      "date": "2020-06-28",
+      "date_key": "2020-06-28",
+      "date_kind": "最后一批现金增资入股日，5至6月分批增资"
+    }
   }
 ]
