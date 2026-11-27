@@ -8894,5 +8894,26 @@
       "date_key": "2020-06-05",
       "date_kind": "发行人完成本次增资的工商登记日"
     }
+  },
+  {
+    "event_id": "public:historical-disclosure:ba37ef9e17617b7497bded9",
+    "company_id": "co:historical-disclosure:d68ce795a1bcaa1d30dbef2",
+    "source": "https://m.pedaily.cn/vc/invest/r3135-v605976",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海航空产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市启赋互联投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"苏州乾汇信立创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2022-01-28",
+      "date_key": "2022-01-28",
+      "date_kind": "股东入股记录"
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海航空产业股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市启赋互联投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"苏州乾汇信立创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2022-01-28",
+      "date_key": "2022-01-28",
+      "date_kind": "投资机构事件档案披露日"
+    }
   }
 ]
