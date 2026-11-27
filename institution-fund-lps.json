@@ -18263,24 +18263,508 @@
       "pages": "32–34",
       "lpSources": [
         "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
-        "https://top.qcc.com/tc/faa0cac080ff.html"
+        "https://top.qcc.com/tc/faa0cac080ff.html",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12577150&stockid=600903",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/249dd1c86ef89d2e424342f0c29f61a1.pdf"
       ],
       "lpScope": "2026年法律意见书核实唯一LP与GP",
       "generalPartners": [
         {
           "name": "贵州省贵鑫瑞和创业投资管理有限责任公司",
-          "disclosedPercent": 0.0036
+          "disclosedPercent": 0.0036,
+          "disclosedContributionCny": 1000000
         }
       ],
       "managerLegalName": "贵州省贵鑫瑞和创业投资管理有限责任公司",
-      "creditCode": "91520115MAAKDY7A35"
+      "creditCode": "91520115MAAKDY7A35",
+      "fundRegistration": "SQH282",
+      "paidCapitalDisclosures": [
+        {
+          "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/249dd1c86ef89d2e424342f0c29f61a1.pdf",
+          "date": "2022-10-12",
+          "dateKind": "公开文件披露日",
+          "partners": [],
+          "totalPaidCny": 13024000000
+        }
+      ],
+      "historicalPartnerStakes": [
+        {
+          "asOf": "2021-11",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12577150&stockid=600903",
+          "partner": "贵州金融控股集团有限责任公司",
+          "disclosedContributionCny": 28000000000,
+          "disclosedPercent": 99.9964
+        },
+        {
+          "asOf": "2023-12",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12577150&stockid=600903",
+          "partner": "贵州省黔晟国有资产经营有限责任公司",
+          "disclosedContributionCny": 28000000000,
+          "disclosedPercent": 99.9964
+        }
+      ]
     },
     "partners": [
       {
         "name": "贵州省产业发展有限公司",
-        "disclosedContributionCny": null,
+        "disclosedContributionCny": 28000000000,
         "disclosedPercent": 99.9964,
         "existingInstitution": "9ed8a35506ffa536ef41f4bc"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "485383f08df0ec71dc8e110c",
+    "fundName": "贵州省新动能产业发展基金合伙企业（有限合伙）",
+    "managerName": "贵州黔晟股权投资基金管理有限公司",
+    "managerId": "e4b701033fbf6556c2b8340c",
+    "sizeCny": 40000010000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12577150&stockid=600903",
+      "date": "2026-09-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "国投证券股份有限公司",
+      "pages": "2-1-85–2-1-86",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF",
+        "https://static.cninfo.com.cn/finalpage/2022-06-24/1213806501.PDF"
+      ],
+      "lpScope": "2024年3月变更后的1名LP与1名GP；监管文件另有以前LP结构",
+      "generalPartners": [
+        {
+          "name": "贵州黔晟股权投资基金管理有限公司",
+          "disclosedContributionCny": 10000
+        }
+      ],
+      "managerLegalName": "贵州黔晟股权投资基金管理有限公司",
+      "fundRegistration": "SVF436",
+      "historicalPartnerStakes": [
+        {
+          "asOf": "2022-03",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12577150&stockid=600903",
+          "partner": "贵州省黔晟国有资产经营有限责任公司",
+          "disclosedContributionCny": 10000000000,
+          "disclosedPercent": 99.9999
+        },
+        {
+          "asOf": "2023-03",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12577150&stockid=600903",
+          "partner": "贵州省黔晟国有资产经营有限责任公司",
+          "disclosedContributionCny": 40000000000,
+          "disclosedPercent": 99.999975
+        }
+      ],
+      "creditCode": "91520115MA7HWBTR5R"
+    },
+    "partners": [
+      {
+        "name": "贵州省产业发展有限公司",
+        "disclosedContributionCny": 40000000000,
+        "disclosedPercent": 99.999975,
+        "existingInstitution": "9ed8a35506ffa536ef41f4bc"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "e593b139907ac2b73d931d25",
+    "fundName": "兰溪源泰股权投资合伙企业（有限合伙）",
+    "managerName": "浙江浙能普华股权投资有限公司",
+    "managerId": "ea202ba72b91baefa6e5ed8c",
+    "sizeCny": 1408000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/249dd1c86ef89d2e424342f0c29f61a1.pdf",
+      "date": "2022-10-12",
+      "dateKind": "公开文件披露日",
+      "issuer": "国家电投集团贵州金元威宁能源股份有限公司",
+      "pages": "10–11",
+      "lpSources": [
+        "https://finance.sina.com.cn/roll/2022-02-11/doc-ikyamrn0133402.shtml",
+        "https://static.cninfo.com.cn/finalpage/2022-11-26/1215211315.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-04-28/1216648718.PDF"
+      ],
+      "lpScope": "参与威宁专项投资的2名LP及GP已披露，注册认缴总额与专项出资分别保留；注册认缴各户金额未披露",
+      "generalPartners": [
+        {
+          "name": "浙江浙能普华股权投资有限公司"
+        }
+      ],
+      "managerLegalName": "浙江浙能普华股权投资有限公司",
+      "fundRegistration": "STP167",
+      "paidCapitalDisclosures": [
+        {
+          "url": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/249dd1c86ef89d2e424342f0c29f61a1.pdf",
+          "date": "2022-10-12",
+          "dateKind": "公开文件披露日",
+          "partners": [],
+          "totalPaidCny": 463300000
+        }
+      ],
+      "historicalPartnerStakes": [
+        {
+          "source": "https://finance.sina.com.cn/roll/2022-02-11/doc-ikyamrn0133402.shtml",
+          "asOf": "2022-02-11",
+          "scope": "威宁能源专项投资，2名LP出资43230万元和3000万元，GP 100万元，专项金额含管理费用"
+        }
+      ],
+      "creditCode": "91330781MA7ET22D55"
+    },
+    "partners": [
+      {
+        "name": "浙江浙能电力股份有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "a7d6f1acd82ed730cffd75b9"
+      },
+      {
+        "name": "浙江省新能源投资集团股份有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "4ce75d8906287d0d2eec44e0"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "ab2a83fcd58f599e04782e46",
+    "fundName": "贵州省创新赋能大数据投资基金合伙企业（有限合伙）",
+    "managerName": "贵州筑银资本管理有限公司",
+    "managerId": "44b558760054f6c62421e57b",
+    "sizeCny": 3021000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf=",
+      "date": "2026-01-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "贵州丰茂供应链管理股份有限公司",
+      "pages": "1-1-18–1-1-19、1-1-24",
+      "lpSources": [
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/730b827ad81775470c8df1a923970f75.pdf"
+      ],
+      "lpScope": "披露7名LP和1名GP的认缴、实缴和持份",
+      "generalPartners": [
+        {
+          "name": "贵州筑银资本管理有限公司",
+          "disclosedContributionCny": 31000000
+        }
+      ],
+      "managerLegalName": "贵州筑银资本管理有限公司",
+      "fundRegistration": "STA931",
+      "paidCapitalDisclosures": [
+        {
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf=",
+          "date": "2026-01-30",
+          "dateKind": "公开文件披露日",
+          "partners": [
+            {
+              "name": "贵州省新型工业化发展股权投资基金合伙企业（有限合伙）",
+              "paidCny": 1335000000
+            },
+            {
+              "name": "贵阳产控资本有限公司",
+              "paidCny": 728000000
+            },
+            {
+              "name": "贵阳市工业发展基金合伙企业（有限合伙）",
+              "paidCny": 400000000
+            },
+            {
+              "name": "贵阳观山湖现代服务业发展创业投资基金合伙企业（有限合伙）",
+              "paidCny": 100000000
+            },
+            {
+              "name": "贵阳花溪产业投资（集团）有限公司",
+              "paidCny": 70000000
+            },
+            {
+              "name": "贵阳市云岩国有资本投资运营（集团）有限公司",
+              "paidCny": 37080000
+            },
+            {
+              "name": "贵州双龙航空港创新创业投资有限公司",
+              "paidCny": 10000000
+            },
+            {
+              "name": "贵州筑银资本管理有限公司",
+              "paidCny": 31000000
+            }
+          ],
+          "totalPaidCny": 2711080000
+        }
+      ],
+      "creditCode": "91520111MAAM0DJ1XN"
+    },
+    "partners": [
+      {
+        "name": "贵州省新型工业化发展股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 1500000000,
+        "disclosedPercent": 49.65,
+        "existingInstitution": "3bb86bfca61755e85506a86d",
+        "paidCny": 1335000000
+      },
+      {
+        "name": "贵阳产控资本有限公司",
+        "disclosedContributionCny": 735000000,
+        "disclosedPercent": 24.33,
+        "existingInstitution": "482732cf9a7bed582fb04881",
+        "paidCny": 728000000
+      },
+      {
+        "name": "贵阳市工业发展基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 13.24,
+        "existingInstitution": "95d0e5287568884b35edd9a2",
+        "paidCny": 400000000
+      },
+      {
+        "name": "贵阳观山湖现代服务业发展创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 6.62,
+        "existingInstitution": "e8796ddb0dde60cefdc94a6d",
+        "paidCny": 100000000
+      },
+      {
+        "name": "贵阳花溪产业投资（集团）有限公司",
+        "disclosedContributionCny": 105000000,
+        "disclosedPercent": 3.48,
+        "existingInstitution": "f77e6ccc962ee223015a8abb",
+        "paidCny": 70000000
+      },
+      {
+        "name": "贵阳市云岩国有资本投资运营（集团）有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": 1.32,
+        "existingInstitution": "8c1d7f57961b22ce16cf4ccf",
+        "paidCny": 37080000
+      },
+      {
+        "name": "贵州双龙航空港创新创业投资有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 0.33,
+        "existingInstitution": "fd137efb180dffb786c6b406",
+        "paidCny": 10000000
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "198b453e01c67756e57499aa",
+    "fundName": "贵州丰厚智源创业投资中心（有限合伙）",
+    "managerName": "丰厚投资管理（北京）有限公司",
+    "managerId": "cb24a55b7cb171b2ded8443c",
+    "sizeCny": 99500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf=",
+      "date": "2026-01-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "贵州丰茂供应链管理股份有限公司",
+      "pages": "1-1-20–1-1-21、1-1-24",
+      "lpSources": [
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/730b827ad81775470c8df1a923970f75.pdf"
+      ],
+      "lpScope": "披露10名LP和1名GP，合伙人认缴均实缴",
+      "generalPartners": [
+        {
+          "name": "贵州丰厚智晟企业管理咨询合伙企业（有限合伙）",
+          "disclosedContributionCny": 1490000
+        }
+      ],
+      "managerLegalName": "丰厚投资管理（北京）有限公司",
+      "fundRegistration": "SEN555",
+      "paidCapitalDisclosures": [
+        {
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf=",
+          "date": "2026-01-30",
+          "dateKind": "公开文件披露日",
+          "partners": [
+            {
+              "name": "厦门融洛股权投资合伙企业（有限合伙）",
+              "paidCny": 30000000
+            },
+            {
+              "name": "贵州省创业投资促进中心",
+              "paidCny": 29850000
+            },
+            {
+              "name": "贵阳市工业和信息化产业发展引导基金有限公司",
+              "paidCny": 19402500
+            },
+            {
+              "name": "源起科创（北京）基金管理有限公司",
+              "paidCny": 5000000
+            },
+            {
+              "name": "北京伟豪元和贰投资管理中心（有限合伙）",
+              "paidCny": 4757500
+            },
+            {
+              "name": "施珺",
+              "paidCny": 3000000
+            },
+            {
+              "name": "叶迈",
+              "paidCny": 2000000
+            },
+            {
+              "name": "宁波御舒投资管理合伙企业（有限合伙）",
+              "paidCny": 2000000
+            },
+            {
+              "name": "李志鹏",
+              "paidCny": 1000000
+            },
+            {
+              "name": "国能中电（北京）投资管理有限责任公司",
+              "paidCny": 1000000
+            },
+            {
+              "name": "贵州丰厚智晟企业管理咨询合伙企业（有限合伙）",
+              "paidCny": 1490000
+            }
+          ],
+          "totalPaidCny": 99500000
+        }
+      ],
+      "creditCode": "91520191MA6H0W5N0X"
+    },
+    "partners": [
+      {
+        "name": "厦门融洛股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 30.15,
+        "existingInstitution": "38712105ec0313979437b134",
+        "paidCny": 30000000
+      },
+      {
+        "name": "贵州省创业投资促进中心",
+        "disclosedContributionCny": 29850000,
+        "disclosedPercent": 30.0,
+        "existingInstitution": "e15253ee99856346031264d2",
+        "paidCny": 29850000
+      },
+      {
+        "name": "贵阳市工业和信息化产业发展引导基金有限公司",
+        "disclosedContributionCny": 19402500,
+        "disclosedPercent": 19.5,
+        "existingInstitution": "9c1867f37856f8d94d58b330",
+        "paidCny": 19402500
+      },
+      {
+        "name": "源起科创（北京）基金管理有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": 5.03,
+        "existingInstitution": "7c6c9de64138d3e5f5396852",
+        "paidCny": 5000000
+      },
+      {
+        "name": "北京伟豪元和贰投资管理中心（有限合伙）",
+        "disclosedContributionCny": 4757500,
+        "disclosedPercent": 4.78,
+        "existingInstitution": "3c7d0dd0095bcbbbf0154335",
+        "paidCny": 4757500
+      },
+      {
+        "name": "施珺",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": 3.02,
+        "existingInstitution": "1d066eebf857fbc10f11906d",
+        "paidCny": 3000000
+      },
+      {
+        "name": "叶迈",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 2.01,
+        "existingInstitution": "50db058b1f3dde777b90fd75",
+        "paidCny": 2000000
+      },
+      {
+        "name": "宁波御舒投资管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": 2.01,
+        "existingInstitution": "f45064727cf703a234197a0c",
+        "paidCny": 2000000
+      },
+      {
+        "name": "李志鹏",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 1.01,
+        "existingInstitution": "5d006f54b55b53a1c095cea5",
+        "paidCny": 1000000
+      },
+      {
+        "name": "国能中电（北京）投资管理有限责任公司",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": 1.01,
+        "existingInstitution": "cfc9e24403b77ff1c5588b70",
+        "paidCny": 1000000
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c1992205fb6793359d86f3a4",
+    "fundName": "北京诚通工融股权投资基金（有限合伙）",
+    "managerName": "工银资本管理有限公司",
+    "managerId": "70f3208ca0d9546c57b3e26a",
+    "sizeCny": 24000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444322.PDF",
+      "date": "2026-07-29",
+      "dateKind": "公开文件披露日",
+      "issuer": "深圳燃气集团股份有限公司",
+      "pages": "2–3",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9394884"
+      ],
+      "lpScope": "2026年公告核对2021年240亿元结构及两名LP与两名GP。2023年披露过540亿元口径，留历史规模",
+      "generalPartners": [
+        {
+          "name": "工银资本管理有限公司",
+          "disclosedContributionCny": 10000000
+        },
+        {
+          "name": "诚通通盈基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "工银资本管理有限公司",
+      "fundRegistration": "SGX600",
+      "formerNames": [
+        "北京诚通工银股权投资基金（有限合伙）"
+      ],
+      "historicalPartnerStakes": [
+        {
+          "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9394884",
+          "asOf": "2023-07",
+          "sizeCny": 54000000000,
+          "scope": "晶合集成公告披露合伙人扩募后认缴，保持披露口径，不作为现有规模"
+        }
+      ],
+      "creditCode": "91110102MA01MCHRXK"
+    },
+    "partners": [
+      {
+        "name": "中国诚通控股集团有限公司",
+        "disclosedContributionCny": 11990000000,
+        "disclosedPercent": 49.9583,
+        "existingInstitution": "820e98687370a12fc09d140c"
+      },
+      {
+        "name": "工银金融资产投资有限公司",
+        "disclosedContributionCny": 11990000000,
+        "disclosedPercent": 49.9583,
+        "existingInstitution": "2de0be01fd523580d2baa484"
       }
     ],
     "publishedStatistics": []

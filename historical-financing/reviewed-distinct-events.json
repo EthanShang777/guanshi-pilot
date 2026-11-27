@@ -2389,5 +2389,53 @@
     },
     "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
     "reason": "港交所申报文件将H轮向公司缴资与第四批向原股东购买股份列为独立事项，金额、支付日与现金收款方各异。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9e5da0f5b2f2c100a6004f",
+      "company_id": "co:cn_uscc:b7a0233849a25ee21e072de6607924db"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:250a81d36bbfb0764587db",
+      "company_id": "co:cn_uscc:b7a0233849a25ee21e072de6607924db"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF",
+    "reason": "同日登记的两笔独立变更。新动能现金增资与原持股在集团内部无偿划转分别披露。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:250a81d36bbfb0764587db",
+      "company_id": "co:cn_uscc:b7a0233849a25ee21e072de6607924db"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:9e5da0f5b2f2c100a6004f",
+      "company_id": "co:cn_uscc:b7a0233849a25ee21e072de6607924db"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF",
+    "reason": "同日登记的两笔独立变更。新动能现金增资与原持股在集团内部无偿划转分别披露。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:ca2e3ef208a4e2fe8d5ec1",
+      "company_id": "co:cn_uscc:04144fd0a68b4b7ef45b8c3bc0229fda"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:50a993e622de11c04dd14a",
+      "company_id": "co:cn_uscc:04144fd0a68b4b7ef45b8c3bc0229fda"
+    },
+    "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/730b827ad81775470c8df1a923970f75.pdf",
+    "reason": "挂牌法律意见书分别确认三方4300万元和创新赋能一方5000万元，登记日不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:50a993e622de11c04dd14a",
+      "company_id": "co:cn_uscc:04144fd0a68b4b7ef45b8c3bc0229fda"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:ca2e3ef208a4e2fe8d5ec1",
+      "company_id": "co:cn_uscc:04144fd0a68b4b7ef45b8c3bc0229fda"
+    },
+    "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/730b827ad81775470c8df1a923970f75.pdf",
+    "reason": "挂牌法律意见书分别确认三方4300万元和创新赋能一方5000万元，登记日不同。"
   }
 ]
