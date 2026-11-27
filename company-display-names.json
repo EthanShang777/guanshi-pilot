@@ -5102,5 +5102,49 @@
     "sources": [
       "https://qccdata.qichacha.com/Disclosure/e7c22d236846ee69bf81fa15cc18a55d.pdf"
     ]
+  },
+  "e70bb91f4fb7a23c236f38c9": {
+    "name": "汇伦医药",
+    "registeredName": "上海汇伦医药股份有限公司",
+    "aliases": [
+      "上海汇伦",
+      "上海滙倫",
+      "上海汇伦生命科技有限公司",
+      "上海汇伦生物科技有限公司"
+    ],
+    "sources": [
+      "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf"
+    ]
+  },
+  "210b7bbc6da01049de945413": {
+    "name": "全筑股份",
+    "registeredName": "上海全筑控股集团股份有限公司",
+    "aliases": [
+      "603030",
+      "上海全筑建筑装饰集团股份有限公司",
+      "上海全筑建筑装饰工程有限公司"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1648238&stockid=603030"
+    ]
+  },
+  "470317120ba9496901f034f3": {
+    "name": "全筑装饰",
+    "registeredName": "上海全筑装饰有限公司",
+    "aliases": [],
+    "sources": [
+      "https://crm.htsc.com.cn/pdf_finchina/CNSESH_STOCK/2019/2019-5/2019-05-25/5396862.pdf"
+    ]
+  },
+  "8cee290674e75e8e77293356": {
+    "name": "红墙股份",
+    "registeredName": "广东红墙新材料股份有限公司",
+    "aliases": [
+      "002809",
+      "惠州市红墙化学建材有限公司"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2016-08-09/1202548110.PDF"
+    ]
   }
 }

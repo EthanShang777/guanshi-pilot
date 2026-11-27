@@ -17606,7 +17606,27 @@
         }
       ],
       "managerLegalName": "上海国盛资本管理有限公司",
-      "creditCode": "91310000MA1FL62X6X"
+      "creditCode": "91310000MA1FL62X6X",
+      "trackedCompanyExit": [
+        {
+          "company": "上海汇伦医药股份有限公司",
+          "scope": "第四批老股之一",
+          "paidBy": "2024-11-06",
+          "transferee": "贵州省新型工业化发展股权投资基金合伙企业（有限合伙）",
+          "transferCny": 64115068,
+          "url": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf"
+        },
+        {
+          "company": "上海全筑装饰有限公司",
+          "scope": "拟回购与重整证据",
+          "contractCny": 327551750,
+          "placedFundsPaidNotice": "https://finance.sina.cn/2023-12-09/detail-imzxitxh7803068.d.html?wm=3049_0015",
+          "legalTitleDisclosedAsStillHeld": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9934182",
+          "asOf": "2024-04-01",
+          "source": "https://epaper.cs.com.cn/zgzqb/html/2022-09/23/nw.D110000zgzqb_20220923_6-A25.htm",
+          "verifiedShareTransfer": false
+        }
+      ]
     },
     "partners": [
       {
@@ -17805,7 +17825,15 @@
       ],
       "managerLegalName": "深圳市富海银涛资产管理股份有限公司",
       "registrationCode": "SD4440",
-      "managerRegistrationCode": "P1001468"
+      "managerRegistrationCode": "P1001468",
+      "historicalPartnerStakes": [
+        {
+          "asOf": "2016-08-09",
+          "source": "https://static.cninfo.com.cn/finalpage/2016-08-09/1202548110.PDF",
+          "partner": "芜湖天润创新投资中心（有限合伙）",
+          "disclosedPercent": 20
+        }
+      ]
     },
     "partners": [
       {
@@ -18049,6 +18077,210 @@
         "disclosedContributionCny": null,
         "disclosedPercent": 21.67,
         "existingInstitution": "47a0c94073ca90f5541d415d"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "dd211cee730d033792e6a1d2",
+    "fundName": "芜湖天润创新投资中心（有限合伙）",
+    "managerName": "芜湖富海天润投资管理有限公司",
+    "managerId": "b7dea115cea4e8cfef31d94d",
+    "sizeCny": 260100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2016-08-09/1202548110.PDF",
+      "date": "2016-08-09",
+      "dateKind": "公开文件披露日",
+      "issuer": "广东红墙新材料股份有限公司",
+      "pages": "98–100",
+      "lpSources": [],
+      "lpScope": "2016年招股书披露全体合伙人",
+      "generalPartners": [
+        {
+          "name": "芜湖富海天润投资管理有限公司",
+          "disclosedContributionCny": 100000
+        }
+      ],
+      "managerLegalName": "芜湖富海天润投资管理有限公司",
+      "registrationNumber": "340293000000638",
+      "managerRole": "发行人披露的执行事务合伙人",
+      "relatedCompanyOwnership": [
+        {
+          "directHoldingCompany": "深圳市富海灿阳投资发展有限公司",
+          "partnerSharePercent": 20,
+          "investee": "广东红墙新材料股份有限公司",
+          "directInvestorCashCny": 30000000,
+          "source": "https://static.cninfo.com.cn/finalpage/2016-08-09/1202548110.PDF"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "陈奇",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": 23.07,
+        "existingInstitution": "c5f3c6b3f6aa3e71b3acf7ec"
+      },
+      {
+        "name": "丁大宣",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 19.22,
+        "existingInstitution": "182c9b3af12843a9cbb52270"
+      },
+      {
+        "name": "钟志甫",
+        "disclosedContributionCny": 35000000,
+        "disclosedPercent": 13.46,
+        "existingInstitution": "f6586ca2d96330fb8833efbb"
+      },
+      {
+        "name": "叶跃庭",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 11.53,
+        "existingInstitution": "02d91fa8e74762c2253ff724"
+      },
+      {
+        "name": "何培富",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 7.69,
+        "existingInstitution": "f5a452625df25da8b6017eb5"
+      },
+      {
+        "name": "夏维亿",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 7.69,
+        "existingInstitution": "3df6363f9d0f67a8bbcbcd09"
+      },
+      {
+        "name": "程拥军",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": 5.77,
+        "existingInstitution": "c564fd18361089d261717988"
+      },
+      {
+        "name": "胡良水",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.84,
+        "existingInstitution": "fd82a7e0b0c3bb218466c063"
+      },
+      {
+        "name": "王敏雪",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.84,
+        "existingInstitution": "696d54c82f74fbe5db85b552"
+      },
+      {
+        "name": "安徽省铂润投资管理有限责任公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.84,
+        "existingInstitution": "0a7626768d3f637722e4a7ba"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "0599a0710472b9c8704c8075",
+    "fundName": "贵阳中小企业发展基金（有限合伙）",
+    "managerName": "贵阳市创业投资有限公司",
+    "managerId": "843ba02107adb3d5eb3e5c70",
+    "sizeCny": 278000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf=",
+      "date": "2026-01-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "贵州丰茂供应链管理股份有限公司",
+      "pages": "机构股东出资结构",
+      "lpSources": [
+        "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+        "https://top.qcc.com/tc/5fa224e3ec41.html"
+      ],
+      "lpScope": "2026年公开转让说明书披露四名LP与GP",
+      "generalPartners": [
+        {
+          "name": "贵阳市创业投资有限公司",
+          "disclosedContributionCny": 6800000
+        }
+      ],
+      "managerLegalName": "贵阳市创业投资有限公司",
+      "registrationCode": "SNZ579",
+      "creditCode": "91520113MAAK89NK12"
+    },
+    "partners": [
+      {
+        "name": "贵阳产控资本有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 71.94,
+        "existingInstitution": "482732cf9a7bed582fb04881",
+        "paidCny": 200000000
+      },
+      {
+        "name": "贵阳市工业和信息化产业发展引导基金有限公司",
+        "disclosedContributionCny": 53200000,
+        "disclosedPercent": 19.14,
+        "existingInstitution": "9c1867f37856f8d94d58b330",
+        "paidCny": 53200000
+      },
+      {
+        "name": "贵阳白云工业发展投资有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": 3.6,
+        "existingInstitution": "644ee3bc4b8b9581b6a0288f",
+        "paidCny": 10000000
+      },
+      {
+        "name": "贵州高科城发资产运营有限公司",
+        "disclosedContributionCny": 8000000,
+        "disclosedPercent": 2.88,
+        "existingInstitution": "1a6d01228a94c1abc1784d40",
+        "paidCny": 8000000
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2026-01-30",
+        "fundedCny": 278000000,
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf="
+      }
+    ]
+  },
+  {
+    "fundId": "3bb86bfca61755e85506a86d",
+    "fundName": "贵州省新型工业化发展股权投资基金合伙企业（有限合伙）",
+    "managerName": "贵州省贵鑫瑞和创业投资管理有限责任公司",
+    "managerId": "ad7b769251941771a3ed1874",
+    "sizeCny": 28001000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF",
+      "date": "2026-09-01",
+      "dateKind": "公开文件披露日",
+      "issuer": "贵州燃气集团股份有限公司",
+      "pages": "32–34",
+      "lpSources": [
+        "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+        "https://top.qcc.com/tc/faa0cac080ff.html"
+      ],
+      "lpScope": "2026年法律意见书核实唯一LP与GP",
+      "generalPartners": [
+        {
+          "name": "贵州省贵鑫瑞和创业投资管理有限责任公司",
+          "disclosedPercent": 0.0036
+        }
+      ],
+      "managerLegalName": "贵州省贵鑫瑞和创业投资管理有限责任公司",
+      "creditCode": "91520115MAAKDY7A35"
+    },
+    "partners": [
+      {
+        "name": "贵州省产业发展有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 99.9964,
+        "existingInstitution": "9ed8a35506ffa536ef41f4bc"
       }
     ],
     "publishedStatistics": []

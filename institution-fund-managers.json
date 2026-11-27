@@ -2966,5 +2966,37 @@
   "上海富厚族投资合伙企业（有限合伙）": {
     "brand": "上海富厚股权投资管理有限公司",
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+  },
+  "贵州省新型工业化发展股权投资基金合伙企业（有限合伙）": {
+    "brand": "贵州省贵鑫瑞和创业投资管理有限责任公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF"
+  },
+  "贵阳中小企业发展基金（有限合伙）": {
+    "brand": "贵阳市创业投资有限公司",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf="
+  },
+  "青岛天自汇伦投资合伙企业（有限合伙）": {
+    "brand": "上海天自投资管理有限公司",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf"
+  },
+  "烟台天自汇莱创业投资基金合伙企业（有限合伙）": {
+    "brand": "上海天自投资管理有限公司",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf"
+  },
+  "海南金慧丰创楹创业投资合伙企业（有限合伙）": {
+    "brand": "北京金慧丰投资管理有限公司",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf"
+  },
+  "北京金慧丰新越投资企业（有限合伙）": {
+    "brand": "北京金慧丰投资管理有限公司",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf"
+  },
+  "上海瑞廷资产管理有限公司-上海瑞廷银领进取1号私募证券投资基金": {
+    "brand": "上海瑞廷资产管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF"
+  },
+  "上海子午投资管理有限公司-子午启程一号私募证券投资基金": {
+    "brand": "上海子午投资管理有限公司",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF"
   }
 }

@@ -9393,6 +9393,205 @@
       },
       "retired_deal_redirects": {},
       "batch": "2026-11-27-fujian-network-166.csv"
+    },
+    {
+      "institution": "武汉惠人生物创业投资基金中心（有限合伙）",
+      "checked_on": "2026-11-27",
+      "scope": "通过武汉惠人补核新天药业、贝斯达出资及同轮基金、LP，再沿湖北航天高投核三江量通",
+      "sources": [
+        "https://qccdata.qichacha.com/ReportData/PDF/11f09fbf592bf87a6113f62f1df9abc0.pdf",
+        "https://qccdata.qichacha.com/ReportData/PDF/9ff7268c7a1b63a9a26e6724018a5c1c.pdf",
+        "https://static.cninfo.com.cn/finalpage/2017-05-04/1203474255.PDF",
+        "https://static.cninfo.com.cn/finalpage/2018-04-24/1204703720.PDF",
+        "https://static.cninfo.com.cn/finalpage/2020-01-16/1207253586.PDF",
+        "https://epaper.cs.com.cn/zgzqb/html/2021-03/31/nw.D110000zgzqb_20210331_5-B037.htm",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9861681&stockid=002873",
+        "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+        "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+        "https://qccdata.qichacha.com/ReportData/PDF/fdc80130abd56804416b788f6ee2de1e.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN201703270442789499_1.pdf",
+        "https://www.sse.com.cn/listing/renewal/ipo/index_listing_detail.shtml?auditId=25",
+        "https://qccdata.qichacha.com/Disclosure/e7c22d236846ee69bf81fa15cc18a55d.pdf",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9272925",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4122082&stockid=000547",
+        "https://qccdata.qichacha.com/ReportData/PDF/93a600119924a98e6a5a97981188c8c9.pdf"
+      ],
+      "notes": [
+        {
+          "subject": "贵阳新天药业股份有限公司",
+          "source": "https://qccdata.qichacha.com/ReportData/PDF/9ff7268c7a1b63a9a26e6724018a5c1c.pdf",
+          "result": "2013武汉惠人1650万元协议受让老股，2011甲秀按协议现金4500万元并经公司验资。首发及可转债金额独立，2021国盛海通8382万元老股完成过户。"
+        },
+        {
+          "subject": "深圳市贝斯达医疗股份有限公司",
+          "source": "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+          "result": "核2011到2017增资和转让实际类型。三方高特佳6380万、武汉惠人3750万及磐谷旗下天津和悦谷雨600万均有明确转让对价。2015年六月15方验资17030万，2017两条旧定增档合并至同一份12方20417.28万定增。"
+        },
+        {
+          "subject": "武汉航天三江量子通信有限公司",
+          "source": "https://qccdata.qichacha.com/Disclosure/e7c22d236846ee69bf81fa15cc18a55d.pdf",
+          "result": "招股书披露三方设立出资及3000万元实收资本。2022年12月27日湖北航天高投与武汉三江航天减资退出，未找到实际回款原件。"
+        },
+        {
+          "subject": "上海国盛海通股权投资基金合伙企业（有限合伙）",
+          "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9861681&stockid=002873",
+          "result": "2024年重组预案确认7名LP及GP，认缴54.01亿元。"
+        },
+        {
+          "subject": "贵阳甲秀创业投资中心（有限合伙）",
+          "source": "https://qccdata.qichacha.com/ReportData/PDF/9ff7268c7a1b63a9a26e6724018a5c1c.pdf",
+          "result": "2017年招股书确认认缴12223万元、实缴4889.20万元、4名LP及GP。"
+        },
+        {
+          "subject": "深圳市富海银涛贰号投资合伙企业（有限合伙）",
+          "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+          "result": "2017年公开招股书确认5400万元认缴及4位LP。"
+        },
+        {
+          "subject": "深圳市富海银涛柒号投资合伙企业（有限合伙）",
+          "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+          "result": "2017年公开招股书确认5420万元总认缴及5位LP，分项原文因取整加总相差100元。"
+        },
+        {
+          "subject": "深圳市高特佳精选成长投资合伙企业（有限合伙）",
+          "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+          "result": "2017年公开招股书确认1.39亿元认缴及18位LP。"
+        },
+        {
+          "subject": "天津和悦谷雨股权投资基金合伙企业（有限合伙）",
+          "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf",
+          "result": "2017年公开招股书确认磐谷旗下基金1亿元认缴，GP与基金管理人分别披露。"
+        },
+        {
+          "subject": "湖北航天高投光电子投资基金合伙企业（有限合伙）",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4122082&stockid=000547",
+          "result": "2018公告列示当时的2亿元规模与航天科工资产21.67%持份；后续实缴及其余LP待查。"
+        }
+      ],
+      "events": {
+        "新天药业甲秀创投现金认购": "8aa0821e49dd985defe5143d",
+        "新天药业2013武汉惠人老股": "2cb155462e813ec2c3284d62",
+        "新天药业IPO": "86fa2eef28ea78650873e49d",
+        "新天药业可转债": "3915920e9657ff11cc7b5a3a",
+        "新天药业国盛海通过户": "a1fcbd8782910fb29fc09489",
+        "贝斯达2011高特佳三方受让": "62d7034921c43f55dc5c4769",
+        "贝斯达华骏与富海二号实缴": "98589a96cdf3d034802ac219",
+        "贝斯达富海七号与高特佳恒富实缴": "60eec29caeffb1826d0de150",
+        "贝斯达无限空间2014现金增资": "d3526305a3448443bb2aa35d",
+        "贝斯达无限空间2014老股": "bdedaba105ee93e79ac3c902",
+        "贝斯达2014华骏获付补偿股": "552a4e8f6e8664824ee62d94",
+        "贝斯达武汉惠人已完成受让": "b00ef14bfd465e122ac39088",
+        "贝斯达2015年3月股东协议": "ceec7245ca343bcb97218949",
+        "贝斯达2015六月十五方实缴": "3998dce042979a1cecfe7485",
+        "贝斯达做市定增两方实缴": "ce86efd1b081cdafade134a0",
+        "贝斯达第一期员工计划实缴": "ed7eebc129e0ef6ae45de98e",
+        "贝斯达2017年单笔十二方定增": "598b1965187cbb0a7e8c8e48",
+        "贝斯达员工平台受让原资管计划老股": "ccbf97ffdb9e8fed95d1bda4",
+        "三江量通三方设立实收": "2a5841dd0a2ed92befeec664"
+      },
+      "retired_deal_redirects": {
+        "c8e6c9efd8b0282b1fcfc9d3": "598b1965187cbb0a7e8c8e48"
+      },
+      "batch": "historical-financing/2026-11-27-huiren-network-192.csv"
+    },
+    {
+      "institution": "上海国盛海通股权投资基金合伙企业（有限合伙）",
+      "checked_on": "2026-11-27",
+      "scope": "国盛海通与芜湖天润，沿被投企业回查融资沿革、GP/LP与直接出资",
+      "sources": [
+        "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+        "https://static.cninfo.com.cn/finalpage/2024-03-08/1219255818.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6687988&stockid=002873",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11344152&stockid=002873",
+        "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf=",
+        "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF",
+        "https://static.cninfo.com.cn/finalpage/2016-08-09/1202548110.PDF",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2022-04-29/0011d141-a1c5-49e0-b5d6-4547f6adeae8.PDF",
+        "https://static.cninfo.com.cn/finalpage/2016-09-14/1202699342.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1648238&stockid=603030",
+        "https://static.cninfo.com.cn/finalpage/2015-03-03/1200664368.PDF",
+        "https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=7528910&stockid=603030",
+        "https://epaper.cs.com.cn/zgzqb/images/2021-09/09/B016/zqB01609.pdf",
+        "https://crm.htsc.com.cn/pdf_finchina/CNSESH_STOCK/2019/2019-5/2019-05-25/5396862.pdf",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6153690&stockid=603030",
+        "https://epaper.cs.com.cn/zgzqb/html/2022-09/23/nw.D110000zgzqb_20220923_6-A25.htm",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9934182",
+        "https://finance.sina.cn/2023-12-09/detail-imzxitxh7803068.d.html?wm=3049_0015"
+      ],
+      "notes": [
+        {
+          "subject": "上海汇伦医药股份有限公司",
+          "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+          "result": "A至I含A+共十轮，按各轮最终实付、结清日、直接出资方和投后估值录入。2017同人博达原B+并回同一C轮，保留链接。2025旧4000万元由2000万现金认购与2000万老股构成，融资以三方全轮7200万元计。"
+        },
+        {
+          "subject": "上海国盛海通股权投资基金合伙企业（有限合伙）",
+          "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+          "result": "国盛海通为汇伦E轮的实际基金载体；2024向贵州工业化基金转让8082715股，获付64115068元，列第四批老股。"
+        },
+        {
+          "subject": "上海全筑装饰有限公司",
+          "source": "https://crm.htsc.com.cn/pdf_finchina/CNSESH_STOCK/2019/2019-5/2019-05-25/5396862.pdf",
+          "result": "3亿元合同认购及2019年报18.5%完成持股。2023公告确认募集资金用途款已付，2024法院重整时仍披露其持股，实际转让过户或剩余回款待核。"
+        },
+        {
+          "subject": "上海全筑控股集团股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF",
+          "result": "母公司2010两轮实缴和2021四方实际验资；全筑装饰2019集团内子公司交易另立主体。"
+        },
+        {
+          "subject": "广东红墙新材料股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2016-08-09/1202548110.PDF",
+          "result": "2010年实收3750万元，富海灿阳直接出资3000万元。芜湖天润持富海灿阳20%，仅作间接持有证据。"
+        },
+        {
+          "subject": "芜湖天润创新投资中心（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2016-08-09/1202548110.PDF",
+          "result": "2016披露认缴26010万元及10名LP，GP芜湖富海天润。富海贰号持份早期20%及后期10%留两时点。"
+        },
+        {
+          "subject": "贵阳中小企业发展基金（有限合伙）",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202601301818590747_1.pdf?1769801044000.pdf=",
+          "result": "公开转让说明书披露四名LP及一位GP，认缴与实缴均2.78亿元。"
+        },
+        {
+          "subject": "贵州省新型工业化发展股权投资基金合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF",
+          "result": "确认认缴280.01亿元和唯一LP、GP。99.9964%与0.0036%是四舍五入持份，个别认缴额和出资到账待原件。"
+        }
+      ],
+      "events": {
+        "汇伦医药A轮实收": "508069c89d9f05e57874314e",
+        "汇伦医药A+轮实收": "a2e27e1bb7232db4806417e7",
+        "汇伦医药B轮实收": "7f30da455c77e96b3c02fd56",
+        "汇伦医药C轮实收": "547c0fa5c11c7bd28781e747",
+        "汇伦医药D轮实收": "00f9fcdf3dc7cad0114cf5f1",
+        "汇伦医药E轮实收": "057be021fa78a0a483e0a4de",
+        "汇伦医药F轮实收": "7e929dd6003d89fabdce0209",
+        "汇伦医药G轮实收": "8dbc46a47fffdb45d015885b",
+        "汇伦医药H轮实收": "d2bcf794f03ace8d3ac23ed9",
+        "汇伦医药I轮实收": "ef74fae3305727f2b7c78cce",
+        "汇伦医药中安海外已付部分老股": "d5c134e41c21220363aed8f5",
+        "汇伦医药2021第二批老股": "544586cb49a7bac9e93f51cd",
+        "汇伦医药海南瑞信清算归还老股": "f5c18d6468f3e755521cf6ea",
+        "汇伦医药2024第四批老股": "719fa4666705a8f63f6b91d2",
+        "汇伦医药明月清算归还老股": "13c1e59a196f3fccba53cc2b",
+        "汇伦医药2025第七批老股": "723cd5d27d091ae04271725c",
+        "全筑股份五方实收6500万": "2fccc19d119b23238a64b29f",
+        "全筑股份城开和棋盘实缴": "cee81a29c3e55aea65a26715",
+        "全筑装饰国盛海通认购": "f14f5877bc3346a70014f56e",
+        "全筑股份2021四方定增验资": "b5c20c9338e8c81042e8ca67",
+        "红墙股份广东科创全额到账": "9202d1a5a3391bf2c558b1a5",
+        "红墙股份科创和富海灿阳两方实收": "b1ded2055eb30a96e2f7cf22",
+        "红墙股份实控人零元受让": "5720f31b53fa21768c2b42cc",
+        "红墙股份首发实收": "6aa9b3bf5bc1876e634de86f"
+      },
+      "retired_deal_redirects": {
+        "946de79e19f3debd19f0d4d3": "547c0fa5c11c7bd28781e747"
+      },
+      "batch": "historical-financing/2026-11-27-huilun-network-193.csv"
     }
   ]
 }

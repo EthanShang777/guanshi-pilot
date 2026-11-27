@@ -7897,5 +7897,345 @@
     "additional_sources": [
       "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:68804311c2e7d14b6cfbb1d5201da47d4a36a312fe8cd3577702833171ca45ca",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2014-06-27",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"贵阳创投\",\"role\":null,\"amount\":null}]",
+      "date": "2014-06-27",
+      "date_key": "2014-06-27",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "A+轮",
+      "amount": "20025000元",
+      "investors_json": "[{\"name\":\"上海汇伦医药科技有限公司\",\"role\":null,\"amount\":null},{\"name\":\"秦继红\",\"role\":null,\"amount\":null},{\"name\":\"葛文波\",\"role\":null,\"amount\":null},{\"name\":\"贵州明月创业投资基金管理企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"张玉虎\",\"role\":null,\"amount\":null},{\"name\":\"李文华\",\"role\":null,\"amount\":null},{\"name\":\"袁野\",\"role\":null,\"amount\":null},{\"name\":\"王文意\",\"role\":null,\"amount\":null},{\"name\":\"张云鹤\",\"role\":null,\"amount\":null},{\"name\":\"罗梦霞\",\"role\":null,\"amount\":null},{\"name\":\"汤靖雯\",\"role\":null,\"amount\":null},{\"name\":\"吴鹏飞\",\"role\":null,\"amount\":null},{\"name\":\"孙瑾\",\"role\":null,\"amount\":null},{\"name\":\"魏帅\",\"role\":null,\"amount\":null},{\"name\":\"肖亮\",\"role\":null,\"amount\":null},{\"name\":\"张红\",\"role\":null,\"amount\":null},{\"name\":\"夏红\",\"role\":null,\"amount\":null},{\"name\":\"顾玉兰\",\"role\":null,\"amount\":null},{\"name\":\"毛纪根\",\"role\":null,\"amount\":null},{\"name\":\"陈国栋\",\"role\":null,\"amount\":null},{\"name\":\"钱亚楠\",\"role\":null,\"amount\":null},{\"name\":\"沈蕾蕾\",\"role\":null,\"amount\":null},{\"name\":\"关玮\",\"role\":null,\"amount\":null},{\"name\":\"陈满仓\",\"role\":null,\"amount\":null},{\"name\":\"雷伯开\",\"role\":null,\"amount\":null},{\"name\":\"蔡杰\",\"role\":null,\"amount\":null},{\"name\":\"樊兴\",\"role\":null,\"amount\":null},{\"name\":\"刘莉\",\"role\":null,\"amount\":null},{\"name\":\"佟萌\",\"role\":null,\"amount\":null},{\"name\":\"钟芸\",\"role\":null,\"amount\":null},{\"name\":\"孙杰\",\"role\":null,\"amount\":null},{\"name\":\"陶元志\",\"role\":null,\"amount\":null},{\"name\":\"刘海珠\",\"role\":null,\"amount\":null},{\"name\":\"王松\",\"role\":null,\"amount\":null},{\"name\":\"居晋\",\"role\":null,\"amount\":null},{\"name\":\"朱梅臣\",\"role\":null,\"amount\":null},{\"name\":\"季维嘉\",\"role\":null,\"amount\":null},{\"name\":\"陈珏蓉\",\"role\":null,\"amount\":null},{\"name\":\"吴旻宣\",\"role\":null,\"amount\":null},{\"name\":\"汤聿海\",\"role\":null,\"amount\":null},{\"name\":\"沈征武\",\"role\":null,\"amount\":null}]",
+      "date": "2014-06-21",
+      "date_key": "2014-06-21",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "247837500元（投后）"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6687988&stockid=002873"
+    ]
+  },
+  {
+    "event_id": "financing_event:7127836c9c31fb81ffacd3546f1ba7c213d62697e03b642d4f0064d90415b761",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2015-02-12",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"张江火炬创投\",\"role\":null,\"amount\":null}]",
+      "date": "2015-02-12",
+      "date_key": "2015-02-12",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "B轮",
+      "amount": "70000000元",
+      "investors_json": "[{\"name\":\"上海源溯投资管理有限公司\",\"role\":null,\"amount\":null},{\"name\":\"上海张江生物医药产业创业投资有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2015-02-03",
+      "date_key": "2015-02-03",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "569778413元（投后）"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6687988&stockid=002873"
+    ]
+  },
+  {
+    "event_id": "financing_event:a31940866473f14ad6f240624eb34d00b19b68574c9dafa5df433c29a402e5ae",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2016-04-16",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"泰州融健达\",\"role\":null,\"amount\":null},{\"name\":\"金慧丰投资\",\"role\":null,\"amount\":null}]",
+      "date": "2016-04-16",
+      "date_key": "2016-04-16",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "107077000元",
+      "investors_json": "[{\"name\":\"北京丰润安华投资管理合伙企业\",\"role\":null,\"amount\":null},{\"name\":\"泰州中国医药城融健达创业投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"北京金慧丰新越投资企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"南京同人博达股权投资中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"王永超\",\"role\":null,\"amount\":null},{\"name\":\"郭瑜林\",\"role\":null,\"amount\":null},{\"name\":\"陈浩\",\"role\":null,\"amount\":null},{\"name\":\"蒋刚洪\",\"role\":null,\"amount\":null},{\"name\":\"王励勇\",\"role\":null,\"amount\":null},{\"name\":\"刘彬\",\"role\":null,\"amount\":null}]",
+      "date": "2017-01-23",
+      "date_key": "2017-01-23",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "829110256元（投后）"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6687988&stockid=002873"
+    ]
+  },
+  {
+    "event_id": "financing_event:5a74d908dc849c705401c7c63387ad54a40c1c3787f30220a5c30b33198af3bf",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2017-06-21",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "B+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"同人博达\",\"role\":null,\"amount\":null}]",
+      "date": "2017-06-21",
+      "date_key": "2017-06-21",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "已合并披露",
+      "amount": "未披露",
+      "investors_json": "[]",
+      "date": "2017-06-21",
+      "date_key": "2017-06-21",
+      "date_kind": "原档日期"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6687988&stockid=002873"
+    ]
+  },
+  {
+    "event_id": "financing_event:53c927f43abd19098e681d46ee07f7bc83463eccd5783160d7c3e92457d92796",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2020-01-13",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"云松投资\",\"role\":null,\"amount\":null},{\"name\":\"安徽创谷资本\",\"role\":null,\"amount\":null},{\"name\":\"新天药业\",\"role\":null,\"amount\":null}]",
+      "date": "2020-01-13",
+      "date_key": "2020-01-13",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "D轮",
+      "amount": "384999998元",
+      "investors_json": "[{\"name\":\"海南众泰宏伦管理咨询中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"贵阳双福酒店有限公司\",\"role\":null,\"amount\":null},{\"name\":\"中安海外技术引进投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"贵阳新天药业股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"施普兰迪（北京）文化交流发展有限公司\",\"role\":null,\"amount\":null},{\"name\":\"贵阳市工业和信息化产业发展引导基金有限公司\",\"role\":null,\"amount\":null},{\"name\":\"秦继红\",\"role\":null,\"amount\":null},{\"name\":\"董竹\",\"role\":null,\"amount\":null},{\"name\":\"王柳珍\",\"role\":null,\"amount\":null},{\"name\":\"董伟\",\"role\":null,\"amount\":null},{\"name\":\"李文华\",\"role\":null,\"amount\":null},{\"name\":\"张玉虎\",\"role\":null,\"amount\":null},{\"name\":\"袁野\",\"role\":null,\"amount\":null},{\"name\":\"王文意\",\"role\":null,\"amount\":null},{\"name\":\"葛文波\",\"role\":null,\"amount\":null},{\"name\":\"夏红\",\"role\":null,\"amount\":null},{\"name\":\"张云鹤\",\"role\":null,\"amount\":null},{\"name\":\"罗梦霞\",\"role\":null,\"amount\":null},{\"name\":\"汤靖雯\",\"role\":null,\"amount\":null},{\"name\":\"孙瑾\",\"role\":null,\"amount\":null},{\"name\":\"肖亮\",\"role\":null,\"amount\":null},{\"name\":\"魏帅\",\"role\":null,\"amount\":null},{\"name\":\"吴鹏飞\",\"role\":null,\"amount\":null},{\"name\":\"孙国明\",\"role\":null,\"amount\":null},{\"name\":\"张红\",\"role\":null,\"amount\":null},{\"name\":\"刘海珠\",\"role\":null,\"amount\":null},{\"name\":\"王光平\",\"role\":null,\"amount\":null},{\"name\":\"季维嘉\",\"role\":null,\"amount\":null},{\"name\":\"陈珏蓉\",\"role\":null,\"amount\":null},{\"name\":\"汤聿海\",\"role\":null,\"amount\":null},{\"name\":\"吴旻宣\",\"role\":null,\"amount\":null},{\"name\":\"沈征武\",\"role\":null,\"amount\":null}]",
+      "date": "2020-09-14",
+      "date_key": "2020-09-14",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "1236074025元（投后）"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=6687988&stockid=002873"
+    ]
+  },
+  {
+    "event_id": "financing_event:12b38379ff30d0c253c5461fa1a281a1470e8a9d41135c6e77d6f6bda9419f0b",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2021-07-16",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "D轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"上海国盛投资集团\",\"role\":null,\"amount\":null},{\"name\":\"同人博达\",\"role\":null,\"amount\":null},{\"name\":\"恒泰华盛资产\",\"role\":null,\"amount\":null},{\"name\":\"新天药业\",\"role\":null,\"amount\":null},{\"name\":\"泰州融健达\",\"role\":null,\"amount\":null},{\"name\":\"贵阳创投\",\"role\":null,\"amount\":null},{\"name\":\"金慧丰投资\",\"role\":null,\"amount\":null},{\"name\":\"银叶投资\",\"role\":null,\"amount\":null}]",
+      "date": "2021-07-16",
+      "date_key": "2021-07-16",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "E轮",
+      "amount": "345000000元",
+      "investors_json": "[{\"name\":\"贵阳新天药业股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"宁波梅山保税港区弘茂互联网投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"平阳朴毅投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海国盛海通股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"贵阳中小企业发展基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"嘉兴华玉兴汇企业管理合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2021-06-03",
+      "date_key": "2021-06-03",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "1963082222元（投后）"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-03-08/1219255818.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:6e4fa1c5039aebbfe0a8511be4e1dde4de27070dabae596a0c1f7063ad59f3f4",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2021-12-29",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "D+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"万联天泽\",\"role\":null,\"amount\":null},{\"name\":\"万联广生\",\"role\":null,\"amount\":null},{\"name\":\"天自投资\",\"role\":null,\"amount\":null},{\"name\":\"康橙投资\",\"role\":null,\"amount\":null},{\"name\":\"苹湖基金\",\"role\":null,\"amount\":null},{\"name\":\"金慧丰投资\",\"role\":null,\"amount\":null},{\"name\":\"高信资本\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-29",
+      "date_key": "2021-12-29",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "F轮",
+      "amount": "261860000元",
+      "investors_json": "[{\"name\":\"青岛天自汇伦投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"珠海康橙道同八期新兴产业股权投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"上海高信圣昇创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"湖北苹湖创业投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"万联广生投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"珠海康橙道同六期新兴产业股权投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广州天泽中鼎二期创业投资基金中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"海南众泰宏伦管理咨询中心（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"施普兰迪（北京）文化交流发展有限公司\",\"role\":null,\"amount\":null},{\"name\":\"董晔\",\"role\":null,\"amount\":null},{\"name\":\"王光平\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-24",
+      "date_key": "2021-12-24",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "2464610836元（投后）"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:16fece779c5ee43238cf573870a280133c189ba1496c5b3d7c68d1f9f515a616",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2022-10-31",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "战略融资",
+      "amount": "1.02亿人民币",
+      "investors_json": "[{\"name\":\"新天药业\",\"role\":null,\"amount\":null}]",
+      "date": "2022-10-31",
+      "date_key": "2022-10-31",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "G轮",
+      "amount": "102000000元",
+      "investors_json": "[{\"name\":\"贵阳新天药业股份有限公司\",\"role\":null,\"amount\":null},{\"name\":\"王金华\",\"role\":null,\"amount\":null},{\"name\":\"李辉贵\",\"role\":null,\"amount\":null},{\"name\":\"刘林鹏\",\"role\":null,\"amount\":null},{\"name\":\"唐黎\",\"role\":null,\"amount\":null},{\"name\":\"郑会敏\",\"role\":null,\"amount\":null},{\"name\":\"钟艾珈\",\"role\":null,\"amount\":null},{\"name\":\"钟艾珂\",\"role\":null,\"amount\":null},{\"name\":\"钟雨桐\",\"role\":null,\"amount\":null},{\"name\":\"张敬\",\"role\":null,\"amount\":null},{\"name\":\"刘鹏\",\"role\":null,\"amount\":null},{\"name\":\"邓国平\",\"role\":null,\"amount\":null},{\"name\":\"汤聿海\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-13",
+      "date_key": "2022-12-13",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "3001542160元（投后）"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:4fde2a76b6583f51274dca1c5e84c46a29322b3979f04b2bea01a95d42e0e913",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2024-10-29",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "E轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"贵鑫瑞和\",\"role\":null,\"amount\":null}]",
+      "date": "2024-10-29",
+      "date_key": "2024-10-29",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "H轮",
+      "amount": "60884932元",
+      "investors_json": "[{\"name\":\"贵州省新型工业化发展股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"贵阳市工业和信息化产业发展引导基金有限公司\",\"role\":null,\"amount\":null},{\"name\":\"贵州省金产壹号股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2024-11-05",
+      "date_key": "2024-11-05",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "3161437840元（投后）"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2026-09-01/1225538464.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:35f76b5dd9c03a577e0fc9e2d5ec2f0b3ecdeb0f26a07c82f14c475bebdd2e0c",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2025-08-22",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "战略融资",
+      "amount": "4000万人民币",
+      "investors_json": "[{\"name\":\"天自投资\",\"role\":null,\"amount\":null},{\"name\":\"新天药业\",\"role\":null,\"amount\":null},{\"name\":\"金慧丰投资\",\"role\":null,\"amount\":null}]",
+      "date": "2025-08-22",
+      "date_key": "2025-08-22",
+      "date_kind": "原档日期",
+      "valuation": ""
+    },
+    "corrected": {
+      "round": "I轮",
+      "amount": "72000000元",
+      "investors_json": "[{\"name\":\"烟台天自汇莱创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京金慧丰投资管理有限公司\",\"role\":null,\"amount\":null},{\"name\":\"贵阳新天药业股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2000000000,\"basis\":\"实际出资\",\"source\":\"https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11344152&stockid=002873\"}}]",
+      "date": "2025-09-18",
+      "date_key": "2025-09-18",
+      "date_kind": "发行人披露对价结清日",
+      "valuation": "3431027703元（投后）"
+    },
+    "additional_sources": [
+      "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11344152&stockid=002873"
+    ]
+  },
+  {
+    "event_id": "financing_event:0e4cab057fbe3df5ab8fda1a098454b61381c6ee2adbd1c106e0c35118e98451",
+    "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b",
+    "day": "2021-11-23",
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"金慧丰投资\",\"role\":null,\"amount\":null}]",
+      "date": "2021-11-23",
+      "date_key": "2021-11-23",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "68720176元",
+      "investors_json": "[{\"name\":\"海南金慧丰创楹创业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":5480000000,\"basis\":\"转让对价\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf\"}},{\"name\":\"上海卓楹创业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"转让对价\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf\"}},{\"name\":\"秦继红\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":37430100,\"basis\":\"转让对价\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf\"}},{\"name\":\"陆雅莉\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":354587500,\"basis\":\"转让对价\",\"source\":\"https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf\"}},{\"name\":\"宁波梅山保税港区弘茂互联网投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"吴鹏飞\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"肖亮\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"夏红\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2021-11-22",
+      "date_key": "2021-11-22",
+      "date_kind": "发行人披露对价结清日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-03-08/1219255818.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:ec29eff2308e0eaf152fb17940dd834448733bd6b1d5e14d33977b1fac15eeab",
+    "company_id": "co:full_legal_name:cd75b07abe0fd49d411c3f6a194b7609",
+    "day": "2010-08-01",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1648238&stockid=603030",
+    "expected": {
+      "round": "A轮",
+      "amount": "6500万人民币",
+      "investors_json": "[{\"name\":\"易居资本\",\"role\":null,\"amount\":null},{\"name\":\"谱润投资\",\"role\":null,\"amount\":null}]",
+      "date": "2010-08-01",
+      "date_key": "2010-08-01",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "现金增资",
+      "amount": "6500万元",
+      "investors_json": "[{\"name\":\"尹锋\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":130500000,\"basis\":\"实际出资\",\"source\":\"https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1648238&stockid=603030\"}},{\"name\":\"上海复星谱润股权投资企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2321700000,\"basis\":\"实际出资\",\"source\":\"https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1648238&stockid=603030\"}},{\"name\":\"上海谱润股权投资企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1547800000,\"basis\":\"实际出资\",\"source\":\"https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1648238&stockid=603030\"}},{\"name\":\"上海易居生源股权投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1420454500,\"basis\":\"实际出资\",\"source\":\"https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1648238&stockid=603030\"}},{\"name\":\"上海易居生泉股权投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1079545500,\"basis\":\"实际出资\",\"source\":\"https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=1648238&stockid=603030\"}}]",
+      "date": "2010-08-10",
+      "date_key": "2010-08-10",
+      "date_kind": "发行人披露验资到账日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2015-03-03/1200664368.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:d21f975b6a9a0da81447f80ff18dbc8a86bb709f785babc2c05b6a11812fb53f",
+    "company_id": "co:full_legal_name:cd75b07abe0fd49d411c3f6a194b7609",
+    "day": "2021-12-31",
+    "source": "https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF",
+    "expected": {
+      "round": "定向增发",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中信证券\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-31",
+      "date_key": "2021-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "139999987.76元",
+      "investors_json": "[{\"name\":\"上海聚通装饰集团有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":4999999706,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF\"}},{\"name\":\"上海瑞廷资产管理有限公司-上海瑞廷银领进取1号私募证券投资基金\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2999999690,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF\"}},{\"name\":\"上海子午投资管理有限公司-子午启程一号私募证券投资基金\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2999999690,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF\"}},{\"name\":\"吕蓓\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2999999690,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2021-09-08/1210981858.PDF\"}}]",
+      "date": "2021-08-24",
+      "date_key": "2021-08-24",
+      "date_kind": "发行人披露验资到账日"
+    },
+    "additional_sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?id=7528910&stockid=603030",
+      "https://epaper.cs.com.cn/zgzqb/images/2021-09/09/B016/zqB01609.pdf"
+    ]
   }
 ]
