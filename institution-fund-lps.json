@@ -23932,5 +23932,193 @@
         ]
       }
     }
+  },
+  {
+    "fundId": "516ec6d36e76a9d413286061",
+    "fundName": "北京国发航空发动机产业投资基金中心（有限合伙）",
+    "managerId": "7bfddd7697f45eda63d3d282",
+    "managerName": "航发基金管理有限公司",
+    "sizeCny": 6343200000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "中国烟草机械集团有限责任公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "15.76",
+        "existingInstitution": "166edc82e8e4a81f47f690b5"
+      },
+      {
+        "name": "国家制造业转型升级基金股份有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "15.76",
+        "existingInstitution": "60aa98015bf1037ecf3d338b"
+      },
+      {
+        "name": "中国航空发动机集团有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "15.76",
+        "existingInstitution": "ac99c318dc8edc3f6997381d"
+      },
+      {
+        "name": "农银金融资产投资有限公司",
+        "disclosedContributionCny": 990000000,
+        "disclosedPercent": "15.61",
+        "existingInstitution": "662eaf1a545a4183f5a6e888"
+      },
+      {
+        "name": "国家军民融合产业投资基金有限责任公司",
+        "disclosedContributionCny": 800000000,
+        "disclosedPercent": "12.61",
+        "existingInstitution": "2094c5f80d2c4e102fabd870"
+      },
+      {
+        "name": "中国信达资产管理股份有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": "9.46",
+        "existingInstitution": "48702fc52cfb81dc799c4233"
+      },
+      {
+        "name": "北京市海淀区政府投资引导基金（有限合伙）",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": "3.94",
+        "existingInstitution": "a2f8c68c19a3a4b2fe2a78cd"
+      },
+      {
+        "name": "北京市海淀区国有资本运营有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": "3.94",
+        "existingInstitution": "db7ccfe9dc30a8056d94fd41"
+      },
+      {
+        "name": "北京京国盛投资基金（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "3.15",
+        "existingInstitution": "535876281b6837b75e52e226"
+      },
+      {
+        "name": "株洲市国有资产投资控股集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "3.15",
+        "existingInstitution": "eff659960bcd4c19ae9c0299"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-08/1223020191.PDF#page=39",
+      "date": "2025-04-08",
+      "dateKind": "公开披露日",
+      "issuer": "泰豪科技发行股份购买资产预案",
+      "lpScope": "原始文件列全体合伙人出资额及比例。总实缴未见同口径公开证据。",
+      "managerLegalName": "航发基金管理有限公司",
+      "managerRegistration": "P1068413",
+      "currentRegisteredName": "北京国发航空发动机产业投资基金中心（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/1810310946109204.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "fundRegistration": "SEN684",
+      "fundEstablishedDate": "2018-09-28",
+      "filingDate": "2018-10-31",
+      "fundType": "股权投资基金",
+      "establishedDate": "2018-09-28",
+      "creditCode": "91110108MA01EWB52D",
+      "custodian": "中国农业银行股份有限公司",
+      "generalPartners": [
+        {
+          "name": "航发基金管理有限公司",
+          "disclosedContributionCny": 53200000,
+          "disclosedPercent": "0.84",
+          "existingInstitution": "7bfddd7697f45eda63d3d282"
+        }
+      ],
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-08/1223020191.PDF#page=40"
+      ],
+      "priorLpTransfer": {
+        "date": "2021-11-01",
+        "seller": "株洲市国有资产投资控股集团有限公司",
+        "changes": [
+          [
+            "中国信达资产管理股份有限公司",
+            600000000
+          ],
+          [
+            "北京京国盛投资基金（有限合伙）",
+            200000000
+          ]
+        ],
+        "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9349217&stockid=688563"
+      }
+    }
+  },
+  {
+    "fundId": "26f0df72aaadefc761c1970e",
+    "fundName": "上海航空产业股权投资基金合伙企业（有限合伙）",
+    "managerId": "b39f385a1245caaeeb6d88e3",
+    "managerName": "海望资本",
+    "sizeCny": 1010000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "上海浦东科技创新投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "49.5050",
+        "existingInstitution": "17e3dab6742be5c930fa0c0e"
+      },
+      {
+        "name": "上海临港新片区私募基金管理有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "29.7030",
+        "existingInstitution": "6f6a91764e45f8f8f4d9db83"
+      },
+      {
+        "name": "上海电气控股集团有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "14.8515",
+        "existingInstitution": "c3456ba294ee4d091f3c100a"
+      },
+      {
+        "name": "上海市信息投资股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "4.9505",
+        "existingInstitution": "d359940b3976d4fc6d59705f"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202412111641258149_1.pdf#page=28",
+      "date": "2024-12-11",
+      "dateKind": "公开披露日",
+      "issuer": "普旭科技挂牌法律意见",
+      "lpScope": "原始文件列全体合伙人出资额及比例。总实缴未见同口径公开证据。",
+      "managerLegalName": "上海浦东海望私募基金管理有限公司",
+      "managerRegistration": "P1072004",
+      "currentRegisteredName": "上海航空产业股权投资基金合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2012021816123539.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "fundRegistration": "SNJ334",
+      "fundEstablishedDate": "2020-11-27",
+      "filingDate": "2020-12-02",
+      "fundType": "股权投资基金",
+      "establishedDate": "2020-11-02",
+      "creditCode": "91310000MA1FL7J668",
+      "custodian": "上海浦东发展银行股份有限公司",
+      "generalPartners": [
+        {
+          "name": "上海海望凌云投资管理有限公司",
+          "disclosedContributionCny": 10000000,
+          "disclosedPercent": "0.9901",
+          "existingInstitution": "df9474d979047ab66f4fecd1"
+        }
+      ],
+      "managerAliasSource": "https://www.spinnotec.com/kecyq/haiwang",
+      "previousDisclosedManager": {
+        "name": "上海张江火炬创业投资有限公司",
+        "managerRegistration": "P1063443",
+        "asOf": "2023-04-11",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202304111585335597_1.pdf#page=61"
+      },
+      "roleScope": "海望凌云为执行事务合伙人，现备案管理人为上海浦东海望私募基金管理有限公司。"
+    }
   }
 ]
