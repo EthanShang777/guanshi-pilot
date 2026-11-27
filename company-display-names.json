@@ -5439,5 +5439,55 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2020-03-19/1207383367.PDF"
     ]
+  },
+  "627065bf42dd69d733f8e197": {
+    "name": "季丰电子",
+    "registeredName": "上海季丰电子股份有限公司",
+    "aliases": [
+      "上海季丰电子有限公司",
+      "870641",
+      "A26158"
+    ],
+    "sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+      "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2022/2022-12/2022-12-01/8697919.PDF"
+    ]
+  },
+  "b26f92d6903ed7a630989423": {
+    "name": "国仪量子",
+    "registeredName": "国仪量子技术（合肥）股份有限公司",
+    "aliases": [
+      "国仪量子（合肥）技术有限公司",
+      "国仪公司",
+      "688828",
+      "CIQTEK"
+    ],
+    "sources": [
+      "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+      "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-10/688828_20260810_KEJC.pdf"
+    ]
+  },
+  "8fc30c8af5e0f3aaa65ebc76": {
+    "name": "甘肃拓阵",
+    "registeredName": "甘肃拓阵股权投资基金合伙企业（有限合伙）",
+    "aliases": [
+      "拓阵投资",
+      "拓阵基金"
+    ],
+    "sources": [
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8287057"
+    ]
+  },
+  "731be116f89a8fe1ea2e2228": {
+    "name": "甘肃德福新材",
+    "registeredName": "甘肃德福新材料有限公司",
+    "aliases": [
+      "德福新材",
+      "甘肃德福"
+    ],
+    "sources": [
+      "https://dataclouds.cninfo.com.cn/sjother/ipo_data/zjh_publish/6aae0510f64b11ed9f61fa163ebe0297.pdf"
+    ]
   }
 }

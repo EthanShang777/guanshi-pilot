@@ -8561,5 +8561,180 @@
       "https://static.cninfo.com.cn/finalpage/2022-04-16/1212944410.PDF",
       "https://static.cninfo.com.cn/finalpage/2022-08-08/1214240814.PDF"
     ]
+  },
+  {
+    "event_id": "financing_event:ced484d18317b73f07cc4ad5dd86904eabce5425a82a404593a5a6f1b23b93d7",
+    "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f",
+    "day": "2019-05-07",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202011121428433296_1.pdf",
+    "expected": {
+      "round": "定向增发",
+      "amount": "525万人民币",
+      "investors_json": "[{\"name\":\"浩网一\",\"role\":null,\"amount\":null}]",
+      "date": "2019-05-07",
+      "date_key": "2019-05-07",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "5250000元",
+      "investors_json": "[{\"name\":\"上海浩网一电子科技有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":525000000,\"basis\":\"实际出资\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202011121428433296_1.pdf\"}}]",
+      "date": "2019-04-03",
+      "date_key": "2019-04-03",
+      "date_kind": "验资报告出具日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202012181441594851_1.pdf",
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_101905C72F79B092894D759FEEEE90505141F1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:f5928221e6049ad5f3b294ef499a0f3003c5de50717eabb9716ce5c2e0cc7291",
+    "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f",
+    "day": "2019-01-01",
+    "source": "https://stock.tianyancha.com/Announcement/cninfo/b1b04c460d99a922d912f05ca7ae02ad.pdf",
+    "expected": {
+      "round": "天使轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"斐翔投资\",\"role\":null,\"amount\":null}]",
+      "date": "2019-01-01",
+      "date_key": "2019-01-01",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "26250000元",
+      "investors_json": "[{\"name\":\"武汉斐翔汽车电子产业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2625000000,\"basis\":\"实际出资\",\"source\":\"https://stock.tianyancha.com/Announcement/cninfo/b1b04c460d99a922d912f05ca7ae02ad.pdf\"}}]",
+      "date": "2019-06-29",
+      "date_key": "2019-06-29",
+      "date_kind": "验资报告出具日"
+    },
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202011121428433296_1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:e7053f1abce52b3b294bfa458d43a87ae0674f18d05719a8e886c41b5962d859",
+    "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f",
+    "day": "2020-12-18",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202012181441594851_1.pdf",
+    "expected": {
+      "round": "定向增发",
+      "amount": "4797万人民币",
+      "investors_json": "[{\"name\":\"俱成资本\",\"role\":null,\"amount\":null},{\"name\":\"君桐资本\",\"role\":null,\"amount\":null},{\"name\":\"财通创新\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-18",
+      "date_key": "2020-12-18",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "定向增发",
+      "amount": "47973250元",
+      "investors_json": "[{\"name\":\"嘉善芯创壹号股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1998825000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202012181441594851_1.pdf\"}},{\"name\":\"财通创新投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1348500000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202012181441594851_1.pdf\"}},{\"name\":\"南京俱成秋实股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1450000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202012181441594851_1.pdf\"}}]",
+      "date": "2020-12-18",
+      "date_key": "2020-12-18",
+      "date_kind": "股转系统发行报告公告日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:d667a501a017942d9b1211dd94532597dd271a25ac465ccb7470f6a55f0ec781",
+    "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f",
+    "day": "2023-06-09",
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"励石创投\",\"role\":null,\"amount\":null},{\"name\":\"尚颀资本\",\"role\":null,\"amount\":null},{\"name\":\"普冉股份\",\"role\":null,\"amount\":null}]",
+      "date": "2023-06-09",
+      "date_key": "2023-06-09",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "130769736元",
+      "investors_json": "[{\"name\":\"河南尚颀汇融尚成一号产业基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":7038573600,\"basis\":\"实际出资\",\"source\":\"https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf\"}},{\"name\":\"天津合泰昇通国际贸易合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":2016000000,\"basis\":\"实际出资\",\"source\":\"https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf\"}},{\"name\":\"普冉半导体（上海）股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1512000000,\"basis\":\"实际出资\",\"source\":\"https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf\"}},{\"name\":\"商络电子投资（海南）有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1008000000,\"basis\":\"实际出资\",\"source\":\"https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf\"}},{\"name\":\"成都励石创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1008000000,\"basis\":\"实际出资\",\"source\":\"https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf\"}},{\"name\":\"上海骏晨翔电子有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":494400000,\"basis\":\"实际出资\",\"source\":\"https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf\"}}]",
+      "date": "2023-06-17",
+      "date_key": "2023-06-17",
+      "date_kind": "发行人披露验资截至日"
+    },
+    "additional_sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_101905C72F79B092894D759FEEEE90505141F1.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:ec53ba4bdbaee513ecd105516739523bafa8c730d3c1f207a1d37df044ddd2df",
+    "company_id": "co:full_legal_name:859c1c07d32a7acfc0860f3377164cff",
+    "day": "2019-12-22",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"宣城火花创投\",\"role\":null,\"amount\":null}]",
+      "date": "2019-12-22",
+      "date_key": "2019-12-22",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "约5777万元",
+      "investors_json": "[{\"name\":\"宣城火花科技创业投资有限公司\",\"role\":\"受让方\",\"amount\":null}]",
+      "date": "2020-01-07",
+      "date_key": "2020-01-07",
+      "date_kind": "股东会决议日（后续确认股本变动）"
+    },
+    "additional_sources": [
+      "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:7ae09db1e484176e3a08b8d6213853bf612510964c2e12015234358c1c4ce3fe",
+    "company_id": "co:full_legal_name:859c1c07d32a7acfc0860f3377164cff",
+    "day": "2021-12-24",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+    "expected": {
+      "round": "C轮",
+      "amount": "数亿人民币",
+      "investors_json": "[{\"name\":\"IDG资本\",\"role\":null,\"amount\":null},{\"name\":\"中钊资本\",\"role\":null,\"amount\":null},{\"name\":\"前海母基金\",\"role\":null,\"amount\":null},{\"name\":\"博时创新\",\"role\":null,\"amount\":null},{\"name\":\"合肥产投集团\",\"role\":null,\"amount\":null},{\"name\":\"同创伟业\",\"role\":null,\"amount\":null},{\"name\":\"国科资本\",\"role\":null,\"amount\":null},{\"name\":\"国风投基金\",\"role\":null,\"amount\":null},{\"name\":\"松禾资本\",\"role\":null,\"amount\":null},{\"name\":\"深投控\",\"role\":null,\"amount\":null},{\"name\":\"火花创投\",\"role\":null,\"amount\":null},{\"name\":\"讯飞创投\",\"role\":null,\"amount\":null},{\"name\":\"高瓴创投\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-24",
+      "date_key": "2021-12-24",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "约6.60亿元",
+      "investors_json": "[{\"name\":\"珠海溪云管理咨询合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳翼龙创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中小企业发展基金同创（合肥）合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥产投科仪股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"广东博资三号股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"重庆市涪陵区松禾智讯私募股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"中科院联动创新股权投资基金（绍兴）合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"前海股权投资基金（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥产投资本管理有限公司\",\"role\":null,\"amount\":null},{\"name\":\"珠海高瓴著恒股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"北京高瓴裕润股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"张家港深投控赛格合创股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"讯飞海河（天津）人工智能创业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"深圳市中钊和枫创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥科讯连山创新产业投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null},{\"name\":\"合肥同创诚泰股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12-08",
+      "date_key": "2021-12-08",
+      "date_kind": "股东会决议日（后续确认股本变动）"
+    },
+    "additional_sources": [
+      "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+    ]
+  },
+  {
+    "event_id": "financing_event:2631366f78e184d8d55bcb79167cf768ab1d3a58963be2e622c0d7bc52b258e4",
+    "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f",
+    "day": "2022-12-19",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2022/2022-12/2022-12-01/8697919.PDF",
+    "expected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"思瑞浦\",\"role\":null,\"amount\":null},{\"name\":\"春山资本\",\"role\":null,\"amount\":null},{\"name\":\"渝富资本\",\"role\":null,\"amount\":null},{\"name\":\"湖州中小创投\",\"role\":null,\"amount\":null},{\"name\":\"钜派投资\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-19",
+      "date_key": "2022-12-19",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"思瑞浦\",\"role\":null,\"amount\":null},{\"name\":\"渝富资本\",\"role\":null,\"amount\":null},{\"name\":\"湖州中小创投\",\"role\":null,\"amount\":null},{\"name\":\"钜派投资\",\"role\":null,\"amount\":null}]",
+      "date": "2022-12-19",
+      "date_key": "2022-12-19",
+      "date_kind": "媒体披露日期"
+    },
+    "additional_sources": [
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+      "https://vc.pedaily.cn/invest/v4595"
+    ]
   }
 ]

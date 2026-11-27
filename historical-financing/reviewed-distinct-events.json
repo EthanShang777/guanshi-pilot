@@ -2605,5 +2605,317 @@
     },
     "source": "https://static.cninfo.com.cn/finalpage/2023-08-10/1217501319.PDF",
     "reason": "验资报告载6月增发27900万元，另有原股东6月完成转让23100万元。两笔款项收款方不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fc85b0bd5e9294bd11a750",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:0ff56b76043c9dc7fb3aed",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:0ff56b76043c9dc7fb3aed",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:fc85b0bd5e9294bd11a750",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:2200eb54a4d7b3810da0b6",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:698ab7ebbf7630327b041d",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:698ab7ebbf7630327b041d",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:2200eb54a4d7b3810da0b6",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:698ab7ebbf7630327b041d",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4b91ea361d5bca8f414be2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4b91ea361d5bca8f414be2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:698ab7ebbf7630327b041d",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4b91ea361d5bca8f414be2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:46cb7b4a71dbd37be33c54",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:46cb7b4a71dbd37be33c54",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4b91ea361d5bca8f414be2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:46cb7b4a71dbd37be33c54",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b1033290a3ed36fb249b72",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:b1033290a3ed36fb249b72",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:46cb7b4a71dbd37be33c54",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:46cb7b4a71dbd37be33c54",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6de4b9878a41147c73b809",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6de4b9878a41147c73b809",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:46cb7b4a71dbd37be33c54",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:b1033290a3ed36fb249b72",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6de4b9878a41147c73b809",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6de4b9878a41147c73b809",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b1033290a3ed36fb249b72",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:b1033290a3ed36fb249b72",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:88684494b7dc27f68e95d1",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:88684494b7dc27f68e95d1",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b1033290a3ed36fb249b72",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:b1033290a3ed36fb249b72",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:24401bc542aa2cab63d3a2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:24401bc542aa2cab63d3a2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:b1033290a3ed36fb249b72",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6de4b9878a41147c73b809",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:88684494b7dc27f68e95d1",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:88684494b7dc27f68e95d1",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6de4b9878a41147c73b809",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6de4b9878a41147c73b809",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:24401bc542aa2cab63d3a2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:24401bc542aa2cab63d3a2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6de4b9878a41147c73b809",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:88684494b7dc27f68e95d1",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:24401bc542aa2cab63d3a2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:24401bc542aa2cab63d3a2",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:88684494b7dc27f68e95d1",
+      "company_id": "co:full_legal_name:3976114446c51d7ab0e21f332863d60f"
+    },
+    "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf",
+    "reason": "披露按不同合同或事项分别记载，保留各自签署日和对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1b4b8bd2a5ab8d37d08a2d",
+      "company_id": "co:full_legal_name:859c1c07d32a7acfc0860f3377164cff"
+    },
+    "existing": {
+      "event_id": "financing_event:7ae09db1e484176e3a08b8d6213853bf612510964c2e12015234358c1c4ce3fe",
+      "company_id": "co:full_legal_name:859c1c07d32a7acfc0860f3377164cff"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+    "reason": "新记录为来源中独立老股买卖，旧记录对应不同增资或交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:7ae09db1e484176e3a08b8d6213853bf612510964c2e12015234358c1c4ce3fe",
+      "company_id": "co:full_legal_name:859c1c07d32a7acfc0860f3377164cff"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1b4b8bd2a5ab8d37d08a2d",
+      "company_id": "co:full_legal_name:859c1c07d32a7acfc0860f3377164cff"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+    "reason": "新记录为来源中独立老股买卖，旧记录对应不同增资或交易。"
   }
 ]
