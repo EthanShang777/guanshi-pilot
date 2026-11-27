@@ -2125,5 +2125,221 @@
     },
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202209/RAS_202209_00018383E751B23FC100785A562CD03F.pdf",
     "reason": "股东会决议、受让方和工商登记不同，1月26日十一方和2月5日两方为独立交易。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3d9ebaab8f3ca43f25aa5e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e2fe6a0c5d0289afd07947",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e2fe6a0c5d0289afd07947",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3d9ebaab8f3ca43f25aa5e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3d9ebaab8f3ca43f25aa5e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:40076c246e39446345e2a1",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:40076c246e39446345e2a1",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3d9ebaab8f3ca43f25aa5e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:3d9ebaab8f3ca43f25aa5e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c52a11b41cb6dd2e069e0e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c52a11b41cb6dd2e069e0e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:3d9ebaab8f3ca43f25aa5e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e2fe6a0c5d0289afd07947",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:40076c246e39446345e2a1",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:40076c246e39446345e2a1",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e2fe6a0c5d0289afd07947",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:e2fe6a0c5d0289afd07947",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c52a11b41cb6dd2e069e0e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c52a11b41cb6dd2e069e0e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:e2fe6a0c5d0289afd07947",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:40076c246e39446345e2a1",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c52a11b41cb6dd2e069e0e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c52a11b41cb6dd2e069e0e",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:40076c246e39446345e2a1",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:38cdb4a1bfede32b3850cd",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4cabd2c61a33a58611232f",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4cabd2c61a33a58611232f",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:38cdb4a1bfede32b3850cd",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:38cdb4a1bfede32b3850cd",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:28e168ed00a966e00bfdba",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:28e168ed00a966e00bfdba",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:38cdb4a1bfede32b3850cd",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:4cabd2c61a33a58611232f",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:28e168ed00a966e00bfdba",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:28e168ed00a966e00bfdba",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:4cabd2c61a33a58611232f",
+      "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+    "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
   }
 ]

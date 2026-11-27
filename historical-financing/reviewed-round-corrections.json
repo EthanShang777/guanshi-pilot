@@ -7641,5 +7641,31 @@
       "https://qccdata.qichacha.com/ReportData/PDF/a16f2c70f691203854cfcb2132573909.pdf",
       "https://static.sse.com.cn/stock/disclosure/announcement/c/202112/000963_20211210_B900.pdf"
     ]
+  },
+  {
+    "event_id": "financing_event:3aed3ab2d1ced881abc8d6ded750dfaafa56ef61cd661c0f66903062d92b6566",
+    "company_id": "co:full_legal_name:32d06262009a22fb32afa8031f60604d",
+    "day": "2015-12-23",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001080_20220529_Z2V1.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"光谷创投\",\"role\":null,\"amount\":null}]",
+      "date": "2015-12-23",
+      "date_key": "2015-12-23",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "4800万元",
+      "investors_json": "[{\"name\":\"武汉惠人生物创业投资基金中心（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1800000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001080_20220529_Z2V1.pdf\"}},{\"name\":\"辛军\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":3000000000,\"basis\":\"转让对价\",\"source\":\"https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001080_20220529_Z2V1.pdf\"}},{\"name\":\"皮亚斌\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2015-12-23",
+      "date_key": "2015-12-23",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": [
+      "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/f3ba11e0a118359852773a5b2b46468e.pdf",
+      "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF"
+    ]
   }
 ]

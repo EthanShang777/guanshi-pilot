@@ -36,6 +36,31 @@ class SyncFinancingTest(unittest.TestCase):
     def query(self, db, sql, params=()):
         return [dict(row) for row in db.execute(sql, params)]
 
+    def test_reviewed_country_correction_updates_only_the_matching_issuer_and_replays(self):
+        rows = [event('old', '示例上市主体有限公司', 'A轮', company_id='co:registered:issuer'),
+                event('blank', '示例上市主体有限公司', 'B轮', company_id='co:registered:issuer'),
+                event('other', '示例上市主体有限公司', 'A轮', company_id='co:registered:other')]
+        for row, event_id in zip(rows, ('old','blank','other')):
+            row['event_id'] = event_id
+        fields = ','.join(financing.FIELDS)
+        placeholders = ','.join('?' for _ in financing.FIELDS)
+        self.db.executemany(f'INSERT INTO financing_events ({fields}) VALUES ({placeholders})',
+                            [[row[k] for k in financing.FIELDS] for row in rows])
+        self.db.execute("ALTER TABLE financing_events ADD COLUMN country TEXT NOT NULL DEFAULT ''")
+        self.db.execute("UPDATE financing_events SET country='中国' WHERE event_id IN ('old','other')")
+        corrections = [dict(event_id=ident, company_id='co:registered:issuer', company_name='示例上市主体有限公司',
+                            expected_country=prior, country='开曼群岛', source=SOURCE)
+                       for ident, prior in [('old','中国'),('blank',''),('other','中国')]]
+        with TemporaryDirectory() as directory:
+            (Path(directory) / 'reviewed-country-corrections.json').write_text(json.dumps(corrections))
+            with patch.object(financing, 'database', return_value=self.db), patch('sys.argv', ['sync_financing.py', '--historical-dir', directory]):
+                financing.main()
+                financing.main()
+        observed = {row['event_id']: row['country'] for row in self.query(self.db, 'SELECT event_id,country FROM financing_events')}
+        self.assertEqual(observed, {'old':'开曼群岛','blank':'开曼群岛','other':'中国'})
+        evidence = self.query(self.db, "SELECT country_source FROM financing_events WHERE event_id='old'")
+        self.assertEqual(evidence, [{'country_source': SOURCE}])
+
     def test_different_companies_can_share_a_source(self):
         rows = [event('1', '新星科技', 'A轮'), event('2', '前沿材料', 'A轮')]
         self.assertEqual(financing.sync_rows(self.db, rows), (2, 0, 0))

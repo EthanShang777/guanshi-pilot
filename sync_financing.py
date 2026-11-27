@@ -338,6 +338,37 @@ def sync_company_corrections(db, corrections):
                                   ('primary_sector', 'secondary_sector', 'sector', 'sector_source'))
 
 
+def sync_country_corrections(db, corrections):
+    if not corrections:
+        return
+    for item in corrections:
+        source = urlsplit(item['source'])
+        if (not all(item[field].strip() for field in ('event_id', 'company_id', 'company_name', 'country'))
+                or item['country'] == item['expected_country']
+                or source.scheme != 'https' or not source.hostname):
+            raise ValueError('Expected a reviewed issuer jurisdiction and a public source')
+    columns = {c['name'] for c in query(db, 'PRAGMA table_info(financing_events)')}
+    if 'country' not in columns:
+        query(db, "ALTER TABLE financing_events ADD COLUMN country TEXT NOT NULL DEFAULT ''")
+    if 'country_source' not in columns:
+        query(db, "ALTER TABLE financing_events ADD COLUMN country_source TEXT NOT NULL DEFAULT ''")
+    applied = already_applied = held = 0
+    identity = 'event_id=? AND company_id=? AND company_name=?'
+    for item in corrections:
+        issuer = [item[field] for field in ('event_id', 'company_id', 'company_name')]
+        if query(db, f'UPDATE financing_events SET country=?, country_source=? '
+                     f'WHERE {identity} AND country=? RETURNING event_id',
+                 [item['country'], item['source'], *issuer, item['expected_country']]):
+            applied += 1
+        elif query(db, f'SELECT event_id FROM financing_events WHERE {identity} AND country=?',
+                   [*issuer, item['country']]):
+            already_applied += 1
+        else:
+            held += 1
+            print('Reviewed country correction held:', item['event_id'])
+    print(f'D1 country corrections applied={applied} already_applied={already_applied} held={held}')
+
+
 def load_distinct_events(directory):
     path = directory / 'reviewed-distinct-events.json'
     if not path.is_file():
@@ -419,6 +450,9 @@ def main():
             corrections = args.historical_dir / 'reviewed-company-corrections.json'
             if corrections.is_file():
                 sync_company_corrections(db, json.loads(corrections.read_text()))
+            corrections = args.historical_dir / 'reviewed-country-corrections.json'
+            if corrections.is_file():
+                sync_country_corrections(db, json.loads(corrections.read_text()))
         return
     current=json.loads(Path('ledger.json').read_text())['events']
     old={e['id']:e for e in json.loads(args.previous_ledger.read_text())['events']} if args.previous_ledger else {}

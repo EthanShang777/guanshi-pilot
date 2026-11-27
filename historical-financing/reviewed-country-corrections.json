@@ -1,0 +1,66 @@
+[
+  {
+    "event_id": "financing_event:dd79f74be1c0109c78a766f07b68a2daae8af148570b26b9f4a5f0c0d6bfedae",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "company_name": "盛合晶微半导体有限公司",
+    "expected_country": "中国",
+    "country": "开曼群岛",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  },
+  {
+    "event_id": "financing_event:4feda7470c770c3a0427bf6c0bfddb7f9a17acb0f289ad48d2653b21c7840d30",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "company_name": "盛合晶微半导体有限公司",
+    "expected_country": "中国",
+    "country": "开曼群岛",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  },
+  {
+    "event_id": "public:historical-disclosure:c3ed04a1226cc2a352e6f0",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "company_name": "盛合晶微半导体有限公司",
+    "expected_country": "",
+    "country": "开曼群岛",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  },
+  {
+    "event_id": "financing_event:65eddfedf8d8366c66bbef88c6b1d57ba52bcf27d9ac854d07d843a374735aee",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "company_name": "盛合晶微半导体有限公司",
+    "expected_country": "中国",
+    "country": "开曼群岛",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  },
+  {
+    "event_id": "public:historical-disclosure:9c4eb7539a700ec3ef511d",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "company_name": "盛合晶微半导体有限公司",
+    "expected_country": "",
+    "country": "开曼群岛",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  },
+  {
+    "event_id": "financing_event:c3149decd5be7b12bf0189747a1fffb03b60a78e639843134b3899a8a0500e1f",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "company_name": "盛合晶微半导体有限公司",
+    "expected_country": "中国",
+    "country": "开曼群岛",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  },
+  {
+    "event_id": "financing_event:e8269001e2036e9a3739416dc74facf26f4db94d8581e236ab41403d9706852b",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "company_name": "盛合晶微半导体有限公司",
+    "expected_country": "中国",
+    "country": "开曼群岛",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  },
+  {
+    "event_id": "public:historical-disclosure:f5f903005c185f3bb1bcd8",
+    "company_id": "co:full_legal_name:dc1b1d56be574108692c2d6bd60fbad2",
+    "company_name": "盛合晶微半导体有限公司",
+    "expected_country": "",
+    "country": "开曼群岛",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  }
+]

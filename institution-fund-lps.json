@@ -17505,5 +17505,80 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "aaec73f3c8bd021da70f9558",
+    "fundName": "武汉惠人生物创业投资基金中心（有限合伙）",
+    "managerName": "武汉光谷创投私募基金管理有限公司",
+    "managerId": "c8057537aeb72ebb0a770c2b",
+    "sizeCny": 250000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://qccdata.qichacha.com/ReportData/PDF/fdc80130abd56804416b788f6ee2de1e.pdf",
+      "date": "2017-10-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "深圳市贝斯达医疗股份有限公司",
+      "pages": "93–94",
+      "lpSources": [
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=3377740&stockid=002873",
+        "https://static.cninfo.com.cn/finalpage/2020-04-28/1207648493.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12574796"
+      ],
+      "lpScope": "公开招股文件该时点的全部直接合伙人",
+      "generalPartners": [
+        {
+          "name": "武汉光谷创投基金管理有限公司",
+          "disclosedContributionCny": 7500000
+        }
+      ],
+      "managerLegalName": "武汉光谷创投私募基金管理有限公司",
+      "registrationCode": "SD4581",
+      "managerHistoricalName": "武汉光谷创投基金管理有限公司",
+      "managerRegistrationCode": "GC1900031604",
+      "assetOwnershipTransfers": [
+        {
+          "agreementMonth": "2013-06",
+          "fromName": "人福医药集团股份公司",
+          "toName": "天风天睿投资有限公司",
+          "percent": 11,
+          "transferCny": 27500000,
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/2696057882065775.pdf"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "天风天睿投资股份有限公司",
+        "disclosedContributionCny": 92500000,
+        "disclosedPercent": 37,
+        "existingInstitution": "77823563c5735bf402953d93"
+      },
+      {
+        "name": "武汉光谷创业投资基金有限公司",
+        "disclosedContributionCny": 55000000,
+        "disclosedPercent": 22,
+        "existingInstitution": "20ecfa6f4454213a616883a9"
+      },
+      {
+        "name": "国投高科技投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 20,
+        "existingInstitution": "7636e3c5ffdd454e9569c140"
+      },
+      {
+        "name": "武汉东湖创新科技投资有限公司",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": 10,
+        "existingInstitution": "d0aef742a2a5a2a02c349382"
+      },
+      {
+        "name": "长瑞星润投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": 8,
+        "existingInstitution": "172f6aacf4fffd770206e10e"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
