@@ -1798,7 +1798,10 @@
   },
   "前海股权投资基金（有限合伙）": {
     "brand": "前海母基金",
-    "source": "https://static.cninfo.com.cn/finalpage/2026-06-03/1225345430.PDF"
+    "source": "https://static.cninfo.com.cn/finalpage/2026-06-03/1225345430.PDF",
+    "coManagers": [
+      "前海方舟资产管理有限公司"
+    ]
   },
   "中原前海股权投资基金（有限合伙）": {
     "brand": "前海母基金",
@@ -3200,5 +3203,105 @@
   "南京渝兴益华贰号创业投资合伙企业（有限合伙）": {
     "brand": "南京江北益华私募基金管理有限公司",
     "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_1019050D264266C603470FA4D00B2974157343.pdf"
+  },
+  "合肥大科股权投资合伙企业（有限合伙）": {
+    "brand": "合肥产投资本创业投资管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "国风投（无锡）生物科技基金（有限合伙）": {
+    "brand": "国风投创新私募基金管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "无锡市新吴区新投融智创业投资合伙企业（有限合伙）": {
+    "brand": "无锡新投金石创业投资管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "宁波东燊智炫股权投资合伙企业（有限合伙）": {
+    "brand": "湖北省长江合志股权投资基金管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "长三角（合肥）数字经济股权投资基金合伙企业（有限合伙）": {
+    "brand": "安徽固信私募基金管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "淮安高投创盈投资基金（有限合伙）": {
+    "brand": "江苏盛堃投资管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "成都交子工融股权投资基金合伙企业（有限合伙）": {
+    "brand": "成都交子产业基金管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "合肥敦勤致科创业投资中心（有限合伙）": {
+    "brand": "合肥敦勤投资管理中心（有限合伙）",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "共青城龙芯创毅创业投资合伙企业（有限合伙）": {
+    "brand": "龙芯（深圳）私募创业投资基金管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "合肥市共创接力创业投资基金合伙企业（有限合伙）": {
+    "brand": "合肥兴泰资本管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "青岛新鼎啃哥合贰创业投资基金合伙企业（有限合伙）": {
+    "brand": "北京新鼎荣盛资本管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "安徽省国海瑞丞芯车联动创业投资基金合伙企业（有限合伙）": {
+    "brand": "国海创新资本投资管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "合肥同创诚泰股权投资合伙企业（有限合伙）": {
+    "brand": "安徽同创锦成资产管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "深圳翼龙创业投资合伙企业（有限合伙）": {
+    "brand": "国新风险投资管理（深圳）有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "中小企业发展基金同创（合肥）合伙企业（有限合伙）": {
+    "brand": "深圳同创伟业资产管理股份有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "广东博资三号股权投资合伙企业（有限合伙）": {
+    "brand": "海南博时创新管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "广东博资同泽一号股权投资合伙企业（有限合伙）": {
+    "brand": "海南博时创新管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "重庆市涪陵区松禾智讯私募股权投资基金合伙企业（有限合伙）": {
+    "brand": "深圳市松禾成长私募股权基金管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "中科院联动创新股权投资基金（绍兴）合伙企业（有限合伙）": {
+    "brand": "国科私募基金管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "深圳市领瑞基石股权投资基金合伙企业（有限合伙）": {
+    "brand": "深圳市领信基石股权投资基金管理合伙企业（有限合伙）",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "北京高瓴裕润股权投资基金合伙企业（有限合伙）": {
+    "brand": "珠海高瓴私募基金管理有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "张家港深投控赛格合创股权投资合伙企业（有限合伙）": {
+    "brand": "深圳市投控资本有限公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "讯飞海河（天津）人工智能创业投资基金合伙企业（有限合伙）": {
+    "brand": "合肥科讯创业投资管理合伙企业（有限合伙）",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "合肥科讯连山创新产业投资基金合伙企业（有限合伙）": {
+    "brand": "合肥科讯创业投资管理合伙企业（有限合伙）",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+  },
+  "深圳市中钊和枫创业投资合伙企业（有限合伙）": {
+    "brand": "深圳市中钊私募股权投资基金管理有限责任公司",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
   }
 }

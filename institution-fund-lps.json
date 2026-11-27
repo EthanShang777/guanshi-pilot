@@ -20569,5 +20569,753 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "7d63e5d4c19efce1cbf4fea4",
+    "fundName": "合肥大科股权投资合伙企业（有限合伙）",
+    "managerName": "合肥产投资本创业投资管理有限公司",
+    "managerId": "46451d28b03bf70038d1ef56",
+    "sizeCny": 501000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第66–67、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "合肥产投资本创业投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "合肥产投资本创业投资管理有限公司",
+      "filingCode": "SAMC04",
+      "creditCode": "91340111MADM0UFP2B"
+    },
+    "partners": [
+      {
+        "name": "合肥市创业投资引导基金有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "99.80",
+        "existingInstitution": "0314db9758a38458ff58694c"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "3c643f985b2c776ac79e979a",
+    "fundName": "国风投（无锡）生物科技基金（有限合伙）",
+    "managerName": "国风投创新私募基金管理有限公司",
+    "managerId": "79e31403b8e1bfb1b89f32dc",
+    "sizeCny": 4022000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第67–68、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "无锡新投联企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 2000000
+        }
+      ],
+      "managerLegalName": "国风投创新私募基金管理有限公司",
+      "filingCode": "SAFQ15",
+      "creditCode": "91320214MAD2PT6R7U"
+    },
+    "partners": [
+      {
+        "name": "国风投创新投资基金股份有限公司",
+        "disclosedContributionCny": 2500000000,
+        "disclosedPercent": "62.16",
+        "existingInstitution": "091070e8b3282a152213bf88"
+      },
+      {
+        "name": "无锡高新区新动能产业发展基金（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "24.86",
+        "existingInstitution": "4480acc59edc32ab5c1a602b"
+      },
+      {
+        "name": "无锡市国发资本运营有限公司",
+        "disclosedContributionCny": 475000000,
+        "disclosedPercent": "11.81",
+        "existingInstitution": "fb426d4860414a19c2db664c"
+      },
+      {
+        "name": "无锡市国联发展（集团）有限公司",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": "0.62",
+        "existingInstitution": "d3d32c330d15a4ec238ceaa5"
+      },
+      {
+        "name": "杭州揽珑股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "0.50",
+        "existingInstitution": "ad2c6e9c53e21bbb629e5400"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "aa8ca0bb99a4e50aa7bc4552",
+    "fundName": "无锡市新吴区新投融智创业投资合伙企业（有限合伙）",
+    "managerName": "无锡新投金石创业投资管理有限公司",
+    "managerId": "bc3a62515f2077166b7a0eeb",
+    "sizeCny": 204000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第68、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "无锡新投金石创业投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "无锡新投金石创业投资管理有限公司",
+      "filingCode": "STM866",
+      "creditCode": "91320214MA27D5LX5W"
+    },
+    "partners": [
+      {
+        "name": "无锡新区领航创业投资有限公司",
+        "disclosedContributionCny": 163000000,
+        "disclosedPercent": "79.90",
+        "existingInstitution": "c5bcb2e793684b892dd18f64"
+      },
+      {
+        "name": "无锡市新吴区旺庄科技发展有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "19.61",
+        "existingInstitution": "6e379adf4c4acc674698d271"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "1b86966936dac9bc0c387d71",
+    "fundName": "宁波东燊智炫股权投资合伙企业（有限合伙）",
+    "managerName": "湖北省长江合志股权投资基金管理有限公司",
+    "managerId": "7c209095e6a9217c47af0f07",
+    "sizeCny": 257000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第69–70、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "湖北省长江合志股权投资基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "宁波嘉岸创业投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "湖北省长江合志股权投资基金管理有限公司",
+      "filingCode": "SB1153",
+      "creditCode": "91330206MACK76Y831"
+    },
+    "partners": [
+      {
+        "name": "惠州市东燊嘉岸股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 240000000,
+        "disclosedPercent": "93.39",
+        "existingInstitution": "d4de56a47de8b4bd0e9a9af8"
+      },
+      {
+        "name": "宁波正棱柱创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "5.84",
+        "existingInstitution": "b42a564bec8a4bd5c0306d83"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "6ff4dbf8cb34fc5c4799a884",
+    "fundName": "长三角（合肥）数字经济股权投资基金合伙企业（有限合伙）",
+    "managerName": "安徽固信私募基金管理有限公司",
+    "managerId": "cd6ed86810ba882fda95754c",
+    "sizeCny": 1349500000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第70–71、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "安徽固信私募基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "安徽固信私募基金管理有限公司",
+      "filingCode": "SSG164",
+      "creditCode": "91340103MA8N162T4U"
+    },
+    "partners": [
+      {
+        "name": "安徽国控资本有限公司",
+        "disclosedContributionCny": 404500000,
+        "disclosedPercent": "29.97",
+        "existingInstitution": "0331177c66af20be6e1b7def"
+      },
+      {
+        "name": "芜湖高新国控产业投资有限公司",
+        "disclosedContributionCny": 160000000,
+        "disclosedPercent": "11.86",
+        "existingInstitution": "87e88d87b0f327ef9a7463f9"
+      },
+      {
+        "name": "合肥庐阳科技创新集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "7.41",
+        "existingInstitution": "4a7e33541018b0add913eaba"
+      },
+      {
+        "name": "当涂县民聚创业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "7.41",
+        "existingInstitution": "930a756dbb19f067744b96cb"
+      },
+      {
+        "name": "合肥产投国正股权投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "7.41",
+        "existingInstitution": "aff79b5b00b1ec2c5205dfe4"
+      },
+      {
+        "name": "马鞍山市兴博产业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "7.41",
+        "existingInstitution": "37c684a52463321ca3bca0fb"
+      },
+      {
+        "name": "安徽亨贞投资有限公司",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": "5.93",
+        "existingInstitution": "d4142178c36f2c97a43bd80a"
+      },
+      {
+        "name": "铜陵中旭产业投资有限公司",
+        "disclosedContributionCny": 80000000,
+        "disclosedPercent": "5.93",
+        "existingInstitution": "7023e0af7260ed93621a5bac"
+      },
+      {
+        "name": "当涂县产业引导投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "3.71",
+        "existingInstitution": "aca603fe277c0efa279ee49b"
+      },
+      {
+        "name": "铜陵交投资本管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "3.71",
+        "existingInstitution": "b54b718fb46aafb68649c47f"
+      },
+      {
+        "name": "铜陵市国有资本运营控股集团有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "2.96",
+        "existingInstitution": "dafb89c01e45e8eb3dc662bc"
+      },
+      {
+        "name": "铜陵市金誉资产运营有限公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "2.96",
+        "existingInstitution": "fe17cd6770a3325f1bb741c5"
+      },
+      {
+        "name": "上海固信瑞盈数据通信合伙企业（有限合伙）",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": "1.85",
+        "existingInstitution": "2c4cee401436426701a43125"
+      },
+      {
+        "name": "安徽省普济圩现代农业集团有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "0.74",
+        "existingInstitution": "64128a5bbf32d65a0f989630"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "4b1a3936f357b69e80b30d9d",
+    "fundName": "淮安高投创盈投资基金（有限合伙）",
+    "managerName": "江苏盛堃投资管理有限公司",
+    "managerId": "43b18d5280c330151a126e55",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第71、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "江苏盛堃投资管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "江苏盛堃投资管理有限公司",
+      "filingCode": "SAWN38",
+      "creditCode": "91320804MAEFJ9QP4C"
+    },
+    "partners": [
+      {
+        "name": "淮安高投创盈投资有限公司",
+        "disclosedContributionCny": 495000000,
+        "disclosedPercent": "49.50",
+        "existingInstitution": "439355ed008cf2f87714bdc8"
+      },
+      {
+        "name": "江苏恒誉投资发展有限公司",
+        "disclosedContributionCny": 495000000,
+        "disclosedPercent": "49.50",
+        "existingInstitution": "1190cc53fd036f31e0f10fe6"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "2227a1e5d1a3c80931435801",
+    "fundName": "成都交子工融股权投资基金合伙企业（有限合伙）",
+    "managerName": "成都交子产业基金管理有限公司",
+    "managerId": "49d4f246c25c35d80c3b4f1b",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第72、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "成都交子产业基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "工银资本管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "成都交子产业基金管理有限公司",
+      "filingCode": "SAWV56",
+      "creditCode": "91510100MAEDUWE8XN"
+    },
+    "partners": [
+      {
+        "name": "成都交子资本管理（集团）有限公司",
+        "disclosedContributionCny": 349000000,
+        "disclosedPercent": "34.90",
+        "existingInstitution": "6c08b2dc2adc74494c779813"
+      },
+      {
+        "name": "工银金融资产投资有限公司",
+        "disclosedContributionCny": 299000000,
+        "disclosedPercent": "29.90",
+        "existingInstitution": "2de0be01fd523580d2baa484"
+      },
+      {
+        "name": "成都新经济产业股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": "50a2d3a9107d7bba627b0fd3"
+      },
+      {
+        "name": "成都市简州新城投资集团有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "15.00",
+        "existingInstitution": "f147425b36987d5935660ded"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "29174012c724e024e2f746da",
+    "fundName": "合肥敦勤致科创业投资中心（有限合伙）",
+    "managerName": "合肥敦勤投资管理中心（有限合伙）",
+    "managerId": "73036dbc4f86c056c0b4fec6",
+    "sizeCny": 360530400,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 1,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第72–73、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "合肥敦勤投资管理中心（有限合伙）",
+          "disclosedContributionCny": 1030000
+        }
+      ],
+      "managerLegalName": "合肥敦勤投资管理中心（有限合伙）",
+      "filingCode": "SAWN83",
+      "creditCode": "91340100MAEECT4T2U"
+    },
+    "partners": [
+      {
+        "name": "西藏新华长江投资有限公司",
+        "disclosedContributionCny": 251500000,
+        "disclosedPercent": "69.76",
+        "existingInstitution": "34f74bbc72dd1f71e0c46b2c"
+      },
+      {
+        "name": "温州成乔一期创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 27000000,
+        "disclosedPercent": "7.49",
+        "existingInstitution": "f93a6030ffc1b7bbece0e677"
+      },
+      {
+        "name": "合肥民和科技实业有限公司",
+        "disclosedContributionCny": 20600000,
+        "disclosedPercent": "5.71",
+        "existingInstitution": "e86d5856e16b9a0674a742b7"
+      },
+      {
+        "name": "温州方道一期创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 16000000,
+        "disclosedPercent": "4.44",
+        "existingInstitution": "d7aeba6bc660a42e6a2e2256"
+      },
+      {
+        "name": "安徽长安开元投资有限公司",
+        "disclosedContributionCny": 12800000,
+        "disclosedPercent": "3.55",
+        "existingInstitution": "c4bec3696bb3b5f3bae4b20c"
+      },
+      {
+        "name": "安徽远曜科技有限公司",
+        "disclosedContributionCny": 11000400,
+        "disclosedPercent": "3.05",
+        "existingInstitution": "22337631ef72375a0bf2764b"
+      },
+      {
+        "name": "合肥卡迪尔生物科技有限公司",
+        "disclosedContributionCny": 10300000,
+        "disclosedPercent": "2.86",
+        "existingInstitution": "6aad0023d03929fe4d4e0d1d"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "cdd84760f95ba054ba90511e",
+    "fundName": "共青城龙芯创毅创业投资合伙企业（有限合伙）",
+    "managerName": "龙芯（深圳）私募创业投资基金管理有限公司",
+    "managerId": "eb6e2852ff7a307e11efa642",
+    "sizeCny": 140310000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 41,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第73–75、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "龙芯（深圳）私募创业投资基金管理有限公司",
+          "disclosedContributionCny": 10000
+        }
+      ],
+      "managerLegalName": "龙芯（深圳）私募创业投资基金管理有限公司",
+      "filingCode": "SAWS35",
+      "creditCode": "91360405MAEE02MA2H"
+    },
+    "partners": [
+      {
+        "name": "林芝鼎孚创业投资管理有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "7.13",
+        "existingInstitution": "bdcd016f22e4147e4742c1fd"
+      },
+      {
+        "name": "内蒙古弘瑞能源集团有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "7.13",
+        "existingInstitution": "e91289c083bfc65ce977d5e2"
+      },
+      {
+        "name": "厦门泡游网络科技有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "7.13",
+        "existingInstitution": "2b32b94a3272c3f70e287183"
+      },
+      {
+        "name": "共青城龙芯汇裕创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 5100000,
+        "disclosedPercent": "3.63",
+        "existingInstitution": "1616422d0a0aaf3d72730902"
+      },
+      {
+        "name": "乐山市普瑞泰新材料有限公司",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.43",
+        "existingInstitution": "c8998100637f357e4f686ce4"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f32e79e0217c0268a162c2c8",
+    "fundName": "合肥市共创接力创业投资基金合伙企业（有限合伙）",
+    "managerName": "合肥兴泰资本管理有限公司",
+    "managerId": "9becbcca2f6408a2d3884a49",
+    "sizeCny": 2800000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第76–77、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "合肥兴泰资本管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "合肥兴泰资本管理有限公司",
+      "filingCode": "SAPB18",
+      "creditCode": "91340111MADG24XP14"
+    },
+    "partners": [
+      {
+        "name": "合肥兴泰金融控股（集团）有限公司",
+        "disclosedContributionCny": 1100000000,
+        "disclosedPercent": "39.29",
+        "existingInstitution": "dbfcb19185ae4018f0e7d5fa"
+      },
+      {
+        "name": "合肥市产业投资引导基金有限公司",
+        "disclosedContributionCny": 490000000,
+        "disclosedPercent": "17.50",
+        "existingInstitution": "0e3bc4fbc06a75bb609b8b70"
+      },
+      {
+        "name": "安徽公共资源交易集团有限公司",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": "14.29",
+        "existingInstitution": "3c63e151e7504979558226a4"
+      },
+      {
+        "name": "合肥城建发展股份有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "7.14",
+        "existingInstitution": "e79dd20635cc245e8e201205"
+      },
+      {
+        "name": "合肥水务集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.57",
+        "existingInstitution": "7feeab491186306301561804"
+      },
+      {
+        "name": "合肥市引江济淮投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.57",
+        "existingInstitution": "4195c7de5d31f69b68e439c5"
+      },
+      {
+        "name": "安徽省合肥汽车客运有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.57",
+        "existingInstitution": "7b68dd7b65103b1070777b9a"
+      },
+      {
+        "name": "合肥百货大楼集团股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.57",
+        "existingInstitution": "b246e29bef04af18598949e7"
+      },
+      {
+        "name": "合肥工投工业科技发展有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.57",
+        "existingInstitution": "6c95ffe4d331be9ac4d650d1"
+      },
+      {
+        "name": "合肥市轨道交通集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "3.57",
+        "existingInstitution": "3b8a8919a6eb97dbcac35b00"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "b55e02a2222317005aa3f173",
+    "fundName": "青岛新鼎啃哥合贰创业投资基金合伙企业（有限合伙）",
+    "managerName": "北京新鼎荣盛资本管理有限公司",
+    "managerId": "e48de65b4432b6ad82018980",
+    "sizeCny": 134610000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 42,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第77–79、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "北京新鼎荣盛资本管理有限公司",
+          "disclosedContributionCny": 10000
+        }
+      ],
+      "managerLegalName": "北京新鼎荣盛资本管理有限公司",
+      "filingCode": "SATZ56",
+      "creditCode": "91370282MAE543N894"
+    },
+    "partners": [
+      {
+        "name": "青岛安晟新鼎创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "7.43",
+        "existingInstitution": "49c28f23597920bdfb8b49b4"
+      },
+      {
+        "name": "南京易之达企业管理咨询中心（有限合伙）",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": "4.46",
+        "existingInstitution": "ada8710fddbef51441495aae"
+      },
+      {
+        "name": "苏州鑫润新鼎创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": "4.46",
+        "existingInstitution": "94e729a989e4cb27715a315e"
+      },
+      {
+        "name": "青岛新鼎啃哥达叁创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": "4.46",
+        "existingInstitution": "82f772bab0ad3700d92f17e1"
+      },
+      {
+        "name": "广州洛德化工科贸有限公司",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.49",
+        "existingInstitution": "fc59fb6cafe19a8a78ea2aca"
+      },
+      {
+        "name": "武汉御中置业发展有限公司",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.49",
+        "existingInstitution": "0e8c401d75b1a50601c804f2"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "f52a0026d1a75fb3009d4d43",
+    "fundName": "安徽省国海瑞丞芯车联动创业投资基金合伙企业（有限合伙）",
+    "managerName": "国海创新资本投资管理有限公司",
+    "managerId": "0d60057cb5509dc2cfc492cf",
+    "sizeCny": 1110000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+      "date": "2026-04-30",
+      "dateKind": "公开文件披露日",
+      "issuer": "国仪量子招股说明书",
+      "pages": "第79–80、83页",
+      "lpSources": [],
+      "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
+      "generalPartners": [
+        {
+          "name": "国海创新资本投资管理有限公司",
+          "disclosedContributionCny": 498000000
+        },
+        {
+          "name": "合肥瑞丞私募基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "上海凤璟私募基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "国海创新资本投资管理有限公司",
+      "filingCode": "SADD11",
+      "creditCode": "91340200MAD1CN7R5M"
+    },
+    "partners": [
+      {
+        "name": "芜湖市瑞丞战新产业壹号基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "27.03",
+        "existingInstitution": "7052390bde2302415f3ec10e"
+      },
+      {
+        "name": "安徽省新能源汽车和智能网联汽车产业基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "18.02",
+        "existingInstitution": "e2577b51c8f137445bfedf8e"
+      },
+      {
+        "name": "安徽芯瑞达科技股份有限公司",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": "6.31",
+        "existingInstitution": "7014b94f95982be0c3db8a69"
+      },
+      {
+        "name": "安徽景华企业管理有限责任公司",
+        "disclosedContributionCny": 40000000,
+        "disclosedPercent": "3.60",
+        "existingInstitution": "ff738672cb2365138448a842"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
