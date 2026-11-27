@@ -23873,5 +23873,64 @@
       ],
       "lpIdentityScope": "宁波市政府明确引导基金以托管机构资本金形式存续。LP法律名称沿用披露，回链保留既有基金档案。"
     }
+  },
+  {
+    "fundId": "0a292e3d1ac77481abe3bcbc",
+    "fundName": "杭州伯乐中赢创业投资合伙企业（有限合伙）",
+    "managerId": "fd6388598f6ef396d3093c48",
+    "managerName": "赛智伯乐",
+    "sizeCny": 97625000,
+    "capitalBasis": "工商登记出资额",
+    "otherLpCount": null,
+    "partners": [
+      {
+        "name": "浙江中赢资本投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "94.88",
+        "existingInstitution": "8fac84ef354b17ef72d873a2"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-28/1224743459.PDF",
+      "date": "2025-10-28",
+      "dateKind": "公开披露日",
+      "issuer": "金字火腿对外投资公告",
+      "lpScope": "本期披露主要LP比例，未列明本期认缴金额和全体合伙人完整明细。",
+      "managerLegalName": "浙江赛智伯乐股权投资管理有限公司",
+      "managerAliasSource": "https://static.cninfo.com.cn/finalpage/2025-09-16/1224662613.PDF",
+      "managerRegistration": "P1001886",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/351000419658.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "杭州伯乐中赢创业投资合伙企业（有限合伙）",
+      "fundRegistration": "SK0582",
+      "filingDate": "2016-09-30",
+      "fundEstablishedDate": "2015-08-26",
+      "fundType": "股权投资基金",
+      "establishedDate": "2015-08-06",
+      "creditCode": "91330102352445548M",
+      "aliases": [
+        "杭州伯乐中赢股权投资合伙企业（有限合伙）",
+        "杭州伯乐圣赢股权投资合伙企业（有限合伙）"
+      ],
+      "generalPartners": [
+        {
+          "name": "浙江赛智伯乐股权投资管理有限公司",
+          "role": "执行事务合伙人"
+        }
+      ],
+      "olderSubscribedCapital": {
+        "capitalCny": 500000000,
+        "date": "2023-04-11",
+        "scope": "当期招股文件披露的认缴",
+        "lpCny": 495000000,
+        "lpPercent": "99",
+        "gpCny": 5000000,
+        "sources": [
+          "https://pdf.dfcfw.com/pdf/H2_AN202304111585335597_1.pdf#page=55",
+          "https://pdf.dfcfw.com/pdf/H2_AN202304111585335597_1.pdf#page=56"
+        ]
+      }
+    }
   }
 ]
