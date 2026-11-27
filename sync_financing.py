@@ -265,7 +265,7 @@ def sync_round_corrections(db, corrections):
     if dated:
         updated, unchanged, deferred = sync_reviewed_metadata(
             db, dated, ('round', 'amount', 'investors_json') + REVIEWED_DATE_FIELDS,
-            ('event_id', 'company_id'), 'transaction')
+            ('event_id', 'company_id'), 'transaction', optional_fields=('valuation',))
         applied += updated
         already_applied += unchanged
         held += deferred

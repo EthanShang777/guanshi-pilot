@@ -2365,5 +2365,29 @@
     },
     "source": "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
     "reason": "股转说明书第十三及第十四次股权变更单独披露，前者彭建中以1元向深圳华骏转让1.3277%，后者深圳华骏向武汉惠人以3750万元转让全部3.1579%，工商登记分别为2014-12-22及2015-01-04。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:fb06eca2d26aaf9f737299",
+      "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b"
+    },
+    "existing": {
+      "event_id": "financing_event:4fde2a76b6583f51274dca1c5e84c46a29322b3979f04b2bea01a95d42e0e913",
+      "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b"
+    },
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "reason": "港交所申报文件将H轮向公司缴资与第四批向原股东购买股份列为独立事项，金额、支付日与现金收款方各异。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:4fde2a76b6583f51274dca1c5e84c46a29322b3979f04b2bea01a95d42e0e913",
+      "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:fb06eca2d26aaf9f737299",
+      "company_id": "co:full_legal_name:3e1d60bbacb3c5078972adfc76af4d0b"
+    },
+    "source": "https://www1.hkexnews.hk/app/sehk/2026/108412/documents/sehk26040203666_c.pdf",
+    "reason": "港交所申报文件将H轮向公司缴资与第四批向原股东购买股份列为独立事项，金额、支付日与现金收款方各异。"
   }
 ]

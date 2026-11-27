@@ -61,6 +61,22 @@ class SyncFinancingTest(unittest.TestCase):
         evidence = self.query(self.db, "SELECT country_source FROM financing_events WHERE event_id='old'")
         self.assertEqual(evidence, [{'country_source': SOURCE}])
 
+    def test_reviewed_transaction_valuation_is_guarded_and_replay_safe(self):
+        row = event('valuation', '汇伦医药', '股权融资', company_id='huilun', day='2021-06-07')
+        self.assertEqual(financing.sync_rows(self.db, [row]), (1, 0, 0))
+        fields = ('date', 'date_key', 'date_kind', 'round', 'amount', 'investors_json', 'valuation')
+        expected = {field: row[field] for field in fields}
+        corrected = expected | dict(date='2021-06-03', date_key='2021-06-03', date_kind='实际到账日',
+                                    round='E轮', amount='345000000元', valuation='1963082222元（投后）')
+        correction = dict(event_id=row['event_id'], company_id='huilun', day=row['date_key'],
+                          source='https://example.com/issuer', expected=expected, corrected=corrected)
+        stale = correction | dict(expected=expected | dict(valuation='1000000000元'))
+        self.assertEqual(financing.sync_round_corrections(self.db, [stale]), (0, 0, 1))
+        self.assertEqual(financing.sync_round_corrections(self.db, [correction]), (1, 0, 0))
+        self.assertEqual(financing.sync_round_corrections(self.db, [correction]), (0, 1, 0))
+        self.assertEqual(self.query(self.db, 'SELECT date, valuation FROM financing_events'),
+                         [{'date': '2021-06-03', 'valuation': '1963082222元（投后）'}])
+
     def test_different_companies_can_share_a_source(self):
         rows = [event('1', '新星科技', 'A轮'), event('2', '前沿材料', 'A轮')]
         self.assertEqual(financing.sync_rows(self.db, rows), (2, 0, 0))
