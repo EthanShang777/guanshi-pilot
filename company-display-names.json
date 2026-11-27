@@ -5297,10 +5297,12 @@
     "name": "华羿微电",
     "registeredName": "华羿微电子股份有限公司",
     "aliases": [
-      "华羿微电子"
+      "华羿微电子",
+      "西安华羿微电子股份有限公司"
     ],
     "sources": [
-      "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652018.PDF"
+      "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652018.PDF",
+      "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001006.PDF"
     ]
   },
   "2895af8ac0c258cef3775a68": {
@@ -5339,6 +5341,56 @@
     "sources": [
       "https://static.cninfo.com.cn/finalpage/2024-04-30/1219950369.pdf",
       "https://static.cninfo.com.cn/finalpage/2023-06-26/1217141805.pdf"
+    ]
+  },
+  "cd53216cf0127507347dcfbc": {
+    "name": "华菱湘钢",
+    "registeredName": "湖南华菱湘潭钢铁有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+      "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF"
+    ]
+  },
+  "7e86715c8f4acaeb9634b85c": {
+    "name": "华菱涟钢",
+    "registeredName": "湖南华菱涟源钢铁有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+      "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF"
+    ]
+  },
+  "a2c52465c39a1d0c16177bbb": {
+    "name": "华菱衡钢",
+    "registeredName": "衡阳华菱钢管有限公司",
+    "aliases": [
+      "衡阳华菱钢管",
+      "华菱钢管"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+      "https://static.cninfo.com.cn/finalpage/2022-03-26/1212683498.PDF"
+    ]
+  },
+  "6b39879a81cc0a31cb152328": {
+    "name": "华菱节能",
+    "registeredName": "湖南华菱节能发电有限公司",
+    "aliases": [
+      "华菱节能发电"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF"
+    ]
+  },
+  "33cb7857a3b3ae1601073e68": {
+    "name": "华天科技",
+    "registeredName": "天水华天科技股份有限公司",
+    "aliases": [
+      "002185"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202611201831897465_1.pdf"
     ]
   }
 }

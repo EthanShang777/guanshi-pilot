@@ -19441,5 +19441,554 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "96abd1c1475afbd9509e95d4",
+    "fundName": "陕西省民营经济高质量发展纾困基金合伙企业（有限合伙）",
+    "managerName": "陕西投资基金管理有限公司",
+    "managerId": "2e306d943796b57274a3355e",
+    "sizeCny": 2515000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224976099.pdf",
+      "date": "2026-02-11",
+      "dateKind": "公开文件披露日",
+      "issuer": "天水华天科技股份有限公司",
+      "pages": "116–118",
+      "lpSources": [],
+      "lpScope": "报告披露的全部三位机构LP，海通早期以代资管计划名义出资。",
+      "generalPartners": [
+        {
+          "name": "陕西投资基金管理有限公司",
+          "disclosedContributionCny": 15000000,
+          "disclosedPercent": 0.6
+        }
+      ],
+      "managerLegalName": "陕西投资基金管理有限公司",
+      "associationRegistration": "SJL036",
+      "creditCode": "91610133MA6TR9Y295"
+    },
+    "partners": [
+      {
+        "name": "陕西金融控股集团有限公司",
+        "disclosedContributionCny": 1400000000,
+        "disclosedPercent": 55.67,
+        "existingInstitution": "c30ed38c3c39cd58985d98c7"
+      },
+      {
+        "name": "上海海通证券资产管理有限公司",
+        "disclosedContributionCny": 600000000,
+        "disclosedPercent": 23.86,
+        "existingInstitution": "2fd11f2a4d4b94823bf6ac2f"
+      },
+      {
+        "name": "陕西省政府投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": 19.88,
+        "existingInstitution": "168b9578aa832eee851b767a"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "ed34c9a1f8440dd4730d3988",
+    "fundName": "聚源中小企业发展创业投资基金（绍兴）合伙企业（有限合伙）",
+    "managerName": "中芯聚源私募基金管理（天津）合伙企业（有限合伙）",
+    "managerId": "b5e7f835acd5b0eec85ae7ac",
+    "sizeCny": 3600000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224976099.pdf",
+      "date": "2026-02-11",
+      "dateKind": "公开文件披露日",
+      "issuer": "天水华天科技股份有限公司",
+      "pages": "129–133",
+      "lpSources": [],
+      "lpScope": "报告签署日七位机构LP，保留越城区载体原名和管理人更名证据。",
+      "generalPartners": [
+        {
+          "name": "中芯聚源私募基金管理（天津）合伙企业（有限合伙）",
+          "disclosedContributionCny": 36000000,
+          "disclosedPercent": 1.0
+        }
+      ],
+      "managerLegalName": "中芯聚源私募基金管理（天津）合伙企业（有限合伙）",
+      "associationRegistration": "SNN898",
+      "historicalCommitments": [
+        {
+          "asOf": "2020-12",
+          "amountCny": 885600000,
+          "source": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224976099.pdf"
+        }
+      ],
+      "creditCode": "91330602MA2JR9H91D"
+    },
+    "partners": [
+      {
+        "name": "国家中小企业发展基金有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": 27.78,
+        "existingInstitution": "e2d997f4c6821b0ff35a44c6"
+      },
+      {
+        "name": "绍兴市重点产业股权投资基金有限公司",
+        "disclosedContributionCny": 900000000,
+        "disclosedPercent": 25.0,
+        "existingInstitution": "326753a478dfd69c2f5de6ca"
+      },
+      {
+        "name": "中芯晶圆股权投资（宁波）有限公司",
+        "disclosedContributionCny": 849600000,
+        "disclosedPercent": 23.6,
+        "existingInstitution": "0908d542a15747f388ae9ac5"
+      },
+      {
+        "name": "绍兴市越城区集成电路产业股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": 11.11,
+        "existingInstitution": "1f7caf25fc1b11edc7671909"
+      },
+      {
+        "name": "中信证券投资有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": 8.33,
+        "existingInstitution": "bb4f7f71c3b836f8a8951f86"
+      },
+      {
+        "name": "中信建投投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 2.78,
+        "existingInstitution": "80feb77c6f410633307c404f"
+      },
+      {
+        "name": "共青城兴芯投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 14400000,
+        "disclosedPercent": 0.4,
+        "existingInstitution": "07e3fbedef0565cf309ae856"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "8b95a456eb219b8ce1a18881",
+    "fundName": "上海超越摩尔股权投资基金合伙企业（有限合伙）",
+    "managerName": "上海超越摩尔私募基金管理有限公司",
+    "managerId": "d8b34802cdcc9ee951d5d267",
+    "sizeCny": 3031000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001006.PDF",
+      "date": "2026-03-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "天水华天科技股份有限公司",
+      "pages": "51",
+      "lpSources": [],
+      "lpScope": "法律意见全部九位机构LP。合伙人列值四舍五入，合计比披露总额多200元。",
+      "generalPartners": [
+        {
+          "name": "上海超越摩尔私募基金管理有限公司",
+          "disclosedContributionCny": 22256500,
+          "disclosedPercent": 0.73
+        }
+      ],
+      "managerLegalName": "上海超越摩尔私募基金管理有限公司",
+      "associationRegistration": "SCK683",
+      "creditCode": "91310000MA1FL4N12P"
+    },
+    "partners": [
+      {
+        "name": "国家集成电路产业投资基金股份有限公司",
+        "disclosedContributionCny": 1187011200,
+        "disclosedPercent": 39.16,
+        "existingInstitution": "9b6b8ff5c92ea4da95e58436"
+      },
+      {
+        "name": "张家港芯聚企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 412156700,
+        "disclosedPercent": 13.6,
+        "existingInstitution": "91fc3bfbad787f39fee3e979"
+      },
+      {
+        "name": "张家港保税区芯汇投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 329725300,
+        "disclosedPercent": 10.88,
+        "existingInstitution": "bcb781499c655afde173b79c"
+      },
+      {
+        "name": "舜元控股集团有限公司",
+        "disclosedContributionCny": 263780300,
+        "disclosedPercent": 8.7,
+        "existingInstitution": "833e954b73c391c248c7b3b6"
+      },
+      {
+        "name": "上海芯曜企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 222564600,
+        "disclosedPercent": 7.34,
+        "existingInstitution": "ade335a632e37f6b41ec46be"
+      },
+      {
+        "name": "上海国盛（集团）有限公司",
+        "disclosedContributionCny": 222564600,
+        "disclosedPercent": 7.34,
+        "existingInstitution": "6bfa7c943b6d6c10a0ff9194"
+      },
+      {
+        "name": "上海市信息投资股份有限公司",
+        "disclosedContributionCny": 148376400,
+        "disclosedPercent": 4.9,
+        "existingInstitution": "d359940b3976d4fc6d59705f"
+      },
+      {
+        "name": "上海引领接力行健私募基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 137209000,
+        "disclosedPercent": 4.53,
+        "existingInstitution": "0a9b3b826233e72be79604a2"
+      },
+      {
+        "name": "上海国孚领航投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 85355600,
+        "disclosedPercent": 2.82,
+        "existingInstitution": "b25426e70b29e0803741f78e"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "88bb55cba561b8aa7ecd3739",
+    "fundName": "陕西工业技改电子轻工产业投资基金合伙企业（有限合伙）",
+    "managerName": "陕西天泓创业投资合伙企业（有限合伙）",
+    "managerId": "2945610049f76d5e9ad6f381",
+    "sizeCny": 610000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001006.PDF",
+      "date": "2026-03-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "天水华天科技股份有限公司",
+      "pages": "54–55",
+      "lpSources": [],
+      "lpScope": "法律意见书披露全体机构LP。",
+      "generalPartners": [
+        {
+          "name": "陕西天泓创业投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "陕西天泓创业投资合伙企业（有限合伙）",
+      "associationRegistration": "SGP601",
+      "creditCode": "91611100MA6THD838P"
+    },
+    "partners": [
+      {
+        "name": "陕西投资基金管理有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 32.7869,
+        "existingInstitution": "2e306d943796b57274a3355e"
+      },
+      {
+        "name": "西咸新区战略性新兴产业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 32.7869,
+        "existingInstitution": "4a9fee1db049249e9bc743e4"
+      },
+      {
+        "name": "陕西西咸沣东产业发展引导投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": 32.7869,
+        "existingInstitution": "570db65f68417b52de7b1583"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a95758e7edeada05fc6cfa4e",
+    "fundName": "陕西兴航成投资基金合伙企业（有限合伙）",
+    "managerName": "西安敦成投资管理有限公司",
+    "managerId": "5a80ce5829a950d5e20b9f84",
+    "sizeCny": 251000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001006.PDF",
+      "date": "2026-03-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "天水华天科技股份有限公司",
+      "pages": "58–59",
+      "lpSources": [],
+      "lpScope": "法律意见书披露全体机构LP。",
+      "generalPartners": [
+        {
+          "name": "西安敦成私募基金管理有限公司",
+          "disclosedContributionCny": 4500000
+        }
+      ],
+      "managerLegalName": "西安敦成投资管理有限公司",
+      "associationRegistration": "SLR316",
+      "creditCode": "91610133MAB0JQBL3B"
+    },
+    "partners": [
+      {
+        "name": "兴正伟科技控股集团有限公司",
+        "disclosedContributionCny": 89196300,
+        "disclosedPercent": 35.54,
+        "existingInstitution": "1a0f2f7aba01f8b8c85abcca"
+      },
+      {
+        "name": "陕西科技控股集团有限责任公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": 19.92,
+        "existingInstitution": "04d7e75a35ed1be55a7b9465"
+      },
+      {
+        "name": "陕西盈润实业合伙企业（有限合伙）",
+        "disclosedContributionCny": 40238900,
+        "disclosedPercent": 16.03,
+        "existingInstitution": "edc23f347e444db9a8be5893"
+      },
+      {
+        "name": "陕西航天泵阀科技集团有限公司",
+        "disclosedContributionCny": 40238900,
+        "disclosedPercent": 16.03,
+        "existingInstitution": "82907e28563c91862e4e4163"
+      },
+      {
+        "name": "西安银石企业孵化器有限公司",
+        "disclosedContributionCny": 26825900,
+        "disclosedPercent": 10.69,
+        "existingInstitution": "7bf599bb68e11f326f4fb3e7"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "6703cbb8cefbaac174077072",
+    "fundName": "湖北小米长江产业基金合伙企业（有限合伙）",
+    "managerName": "湖北小米长江产业投资基金管理有限公司",
+    "managerId": "51c1c22449aede87290c576c",
+    "sizeCny": 12000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001006.PDF",
+      "date": "2026-03-10",
+      "dateKind": "公开文件披露日",
+      "issuer": "天水华天科技股份有限公司",
+      "pages": "52–53",
+      "lpSources": [],
+      "lpScope": "法律意见书的十五位机构LP。",
+      "generalPartners": [
+        {
+          "name": "湖北小米长江产业投资基金管理有限公司",
+          "disclosedContributionCny": 10000000
+        }
+      ],
+      "managerLegalName": "湖北小米长江产业投资基金管理有限公司",
+      "associationRegistration": "SEE206",
+      "creditCode": "91420100MA4KX8N35J"
+    },
+    "partners": [
+      {
+        "name": "珠海兴格资本投资有限公司",
+        "disclosedContributionCny": 2100000000,
+        "disclosedPercent": 17.5,
+        "existingInstitution": "105279a808c2e8a6fbb1c323"
+      },
+      {
+        "name": "湖北长江产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 2000000000,
+        "disclosedPercent": 16.67,
+        "existingInstitution": "1595f8f3be2832eaaf1022cb"
+      },
+      {
+        "name": "武汉光谷产业投资有限公司",
+        "disclosedContributionCny": 2000000000,
+        "disclosedPercent": 16.67,
+        "existingInstitution": "b3fff432eaf18ba39691bfd0"
+      },
+      {
+        "name": "小米科技有限责任公司",
+        "disclosedContributionCny": 2000000000,
+        "disclosedPercent": 16.67,
+        "existingInstitution": "df8030e3d1f5a3a4d044e603"
+      },
+      {
+        "name": "珠海格力金融投资管理有限公司",
+        "disclosedContributionCny": 1445000000,
+        "disclosedPercent": 12.04,
+        "existingInstitution": "71c8d5568e2ee7cd67dc9355"
+      },
+      {
+        "name": "上海信银海丝投资管理有限公司",
+        "disclosedContributionCny": 900000000,
+        "disclosedPercent": 7.5,
+        "existingInstitution": "f50696e4540a8ab108d3b42c"
+      },
+      {
+        "name": "深圳金晟硕煊创业投资中心（有限合伙）",
+        "disclosedContributionCny": 555000000,
+        "disclosedPercent": 4.63,
+        "existingInstitution": "26de61b75a13112232cb1950"
+      },
+      {
+        "name": "天津金星创业投资有限公司",
+        "disclosedContributionCny": 340000000,
+        "disclosedPercent": 2.83,
+        "existingInstitution": "1c3d3b6381072a8109206072"
+      },
+      {
+        "name": "北京汽车集团产业投资有限公司",
+        "disclosedContributionCny": 140000000,
+        "disclosedPercent": 1.17,
+        "existingInstitution": "203d0b5a24c98ac507bce2f9"
+      },
+      {
+        "name": "海南华盈开泰投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 0.83,
+        "existingInstitution": "1141fd0bc2caee29003e0f27"
+      },
+      {
+        "name": "中国对外经济贸易信托有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 0.83,
+        "existingInstitution": "31b6d9ed90abd6e0787ec287"
+      },
+      {
+        "name": "广发乾和投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": 0.83,
+        "existingInstitution": "4859732a6e0d5dc1b8dc0be7"
+      },
+      {
+        "name": "三峡资本控股有限责任公司",
+        "disclosedContributionCny": 90000000,
+        "disclosedPercent": 0.75,
+        "existingInstitution": "ac6814cd6ad0ca79ebfa3c04"
+      },
+      {
+        "name": "江苏溧阳光控股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 90000000,
+        "disclosedPercent": 0.75,
+        "existingInstitution": "524230fdec53de9cd88ec54b"
+      },
+      {
+        "name": "温州信银泰盈股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": 0.25,
+        "existingInstitution": "d2f466b260bcf8c36d1c9329"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "302e9cd8dd2b7d260f77d91a",
+    "fundName": "湖南华弘一号私募股权基金企业（有限合伙）",
+    "managerName": "湖南南华含弘投资管理有限公司",
+    "managerId": "1cf083ea91be6f1f7fbf93b4",
+    "sizeCny": 600000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+      "date": "2020-02-07",
+      "dateKind": "公开文件披露日",
+      "issuer": "湖南华菱钢铁股份有限公司",
+      "pages": "20",
+      "lpSources": [
+        {
+          "url": "https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF",
+          "date": "2018-12-05",
+          "pages": "6"
+        }
+      ],
+      "lpScope": "2020年公告披露6亿元规模。LP名单和比例取自2018年设立时3亿元口径，更新分户金额待原件。",
+      "generalPartners": [
+        {
+          "name": "湖南南华含弘投资管理有限公司",
+          "disclosedPercent": 0.33
+        }
+      ],
+      "managerLegalName": "湖南南华含弘投资管理有限公司",
+      "lpAsOf": "2018-12-05",
+      "creditCode": "91430104MA4Q1XRB5M",
+      "historicalCommitments": [
+        {
+          "asOf": "2018-12-05",
+          "amountCny": 300000000,
+          "source": "https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "湖南省财信产业基金管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 50.0,
+        "existingInstitution": "fa5e295e88630beb3ea03590"
+      },
+      {
+        "name": "湖南省资产管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 49.67,
+        "existingInstitution": "da373e6ed33d97fe1a577a8d"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "51fb895540aa5321c52b8d63",
+    "fundName": "深圳市招平穗达投资中心（有限合伙）",
+    "managerName": "招商投资管理（深圳）有限公司",
+    "managerId": "b11b2f680fe2a877519c1838",
+    "sizeCny": 1200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+      "date": "2020-02-07",
+      "dateKind": "公开文件披露日",
+      "issuer": "湖南华菱钢铁股份有限公司",
+      "pages": "21",
+      "lpSources": [
+        {
+          "url": "https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF",
+          "date": "2018-12-05",
+          "pages": "9–10"
+        }
+      ],
+      "lpScope": "2018年合伙结构图披露的两位LP和两位GP，2020年实施公告确认总规模仍为12亿元。",
+      "generalPartners": [
+        {
+          "name": "农银资本管理有限公司",
+          "disclosedPercent": 0.08
+        },
+        {
+          "name": "招商投资管理（深圳）有限公司",
+          "disclosedPercent": 0.08
+        }
+      ],
+      "managerLegalName": "招商投资管理（深圳）有限公司",
+      "lpAsOf": "2018-12-05",
+      "creditCode": "91440300MA5FDAR93L"
+    },
+    "partners": [
+      {
+        "name": "农银金融资产投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 49.92,
+        "existingInstitution": "662eaf1a545a4183f5a6e888"
+      },
+      {
+        "name": "深圳市招商平安资产管理有限责任公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": 49.92,
+        "existingInstitution": "96fe110cbd81a3aa381aec93"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]
