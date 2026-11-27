@@ -8337,5 +8337,76 @@
       "date_kind": "发行人披露证券过户登记日"
     },
     "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:126b638bdeea40e7f56066eeb841fcbb2ab9cad240dcc6f28a5657c0f69d7d76",
+    "company_id": "co:full_legal_name:2ebc0f04532449beb73fabce4d59a6f2",
+    "day": "2019-12-27",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219950369.pdf",
+    "expected": {
+      "round": "A轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中银资产\",\"role\":null,\"amount\":null},{\"name\":\"工银投资\",\"role\":null,\"amount\":null}]",
+      "date": "2019-12-27",
+      "date_key": "2019-12-27",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "债转股增资",
+      "amount": "2000000000元",
+      "investors_json": "[{\"name\":\"工银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2019-09",
+      "date_key": "2019-09-01",
+      "date_kind": "发行人审计披露月份"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:94966d498a2c10a7c5ce0bbd5ac6cb8561149042c8fc92960d24a8b76583dbbb",
+    "company_id": "co:full_legal_name:2ebc0f04532449beb73fabce4d59a6f2",
+    "day": "2022-08-09",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219950369.pdf",
+    "expected": {
+      "round": "A+轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"交银投资\",\"role\":null,\"amount\":null},{\"name\":\"国寿资产\",\"role\":null,\"amount\":null}]",
+      "date": "2022-08-09",
+      "date_key": "2022-08-09",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "债转股增资",
+      "amount": "2000000000元",
+      "investors_json": "[{\"name\":\"交银金融资产投资有限公司\",\"role\":null,\"amount\":null},{\"name\":\"中国人寿资产管理有限公司\",\"role\":null,\"amount\":null}]",
+      "date": "2021-12",
+      "date_key": "2021-12-01",
+      "date_kind": "发行人审计披露月份"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:c1ef84b2c3c04c25602b5103192108bb79b3c0a3489045e23998d0238b11fea6",
+    "company_id": "co:full_legal_name:2ebc0f04532449beb73fabce4d59a6f2",
+    "day": "2023-10-24",
+    "source": "https://static.cninfo.com.cn/finalpage/2023-06-26/1217141805.pdf",
+    "expected": {
+      "round": "B轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"建信投资\",\"role\":null,\"amount\":null}]",
+      "date": "2023-10-24",
+      "date_key": "2023-10-24",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "债转股增资",
+      "amount": "1000000000元",
+      "investors_json": "[{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":100000000000,\"basis\":\"实际出资\",\"source\":\"https://static.cninfo.com.cn/finalpage/2023-06-26/1217141805.pdf\"}}]",
+      "date": "2022-12",
+      "date_key": "2022-12-01",
+      "date_kind": "评级报告披露已实收月份"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2024-04-30/1219950369.pdf"
+    ]
   }
 ]

@@ -2509,5 +2509,29 @@
     },
     "source": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-11-29/508028_20241129_AIFK.pdf",
     "reason": "同一REIT资料列江苏电力收回诚通股份及后续SPV收购100%股权为两份独立协议。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:c99ed9cb744ff8e3a3c4ed",
+      "company_id": "co:cn_uscc:153e1f78a739682fc9c28aa4cc99c7ae"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:648a2cd2eb248b236abc10",
+      "company_id": "co:cn_uscc:153e1f78a739682fc9c28aa4cc99c7ae"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_O5PF.pdf",
+    "reason": "同一次登记明确记载两笔独立股权动作，1.8亿元增资至公司，114.851亿元老股为上海联和转让对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:648a2cd2eb248b236abc10",
+      "company_id": "co:cn_uscc:153e1f78a739682fc9c28aa4cc99c7ae"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:c99ed9cb744ff8e3a3c4ed",
+      "company_id": "co:cn_uscc:153e1f78a739682fc9c28aa4cc99c7ae"
+    },
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_O5PF.pdf",
+    "reason": "同一次登记明确记载两笔独立股权动作，1.8亿元增资至公司，114.851亿元老股为上海联和转让对价。"
   }
 ]
