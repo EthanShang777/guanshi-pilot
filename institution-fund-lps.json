@@ -24120,5 +24120,183 @@
       },
       "roleScope": "海望凌云为执行事务合伙人，现备案管理人为上海浦东海望私募基金管理有限公司。"
     }
+  },
+  {
+    "fundId": "5da6ca607d808c1af8d0f64d",
+    "fundName": "上海泓成创业投资合伙企业（有限合伙）",
+    "managerId": "593f9ff3cc26c83f3fdc0402",
+    "managerName": "上海纳米创投",
+    "sizeCny": 354110000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 5,
+    "partners": [],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-26/1224984701.PDF#page=36",
+      "date": "2026-02-26",
+      "dateKind": "公开披露日",
+      "issuer": "中伦律师法律核查意见",
+      "lpScope": "原始文件列全体合伙人，机构LP公开回链，个人LP保留人数及其认缴合计。",
+      "managerLegalName": "上海纳米创业投资有限公司",
+      "managerRegistration": "P1004288",
+      "fundRegistration": "SD4058",
+      "fundType": "创业投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/351000135617.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "上海泓成创业投资合伙企业（有限合伙）",
+      "fundEstablishedDate": "2010-09-11",
+      "filingDate": "2015-01-14",
+      "establishedDate": "2010-09-10",
+      "creditCode": "91310000561890445U",
+      "generalPartners": [
+        {
+          "name": "上海纳米创业投资有限公司",
+          "disclosedContributionCny": 10000,
+          "disclosedPercent": "0.0028",
+          "existingInstitution": "953c9d33ab6e8bdd39249bd4"
+        }
+      ],
+      "naturalLpSubscribedTotalCny": 354100000,
+      "managerAliasSource": "https://m.pedaily.cn/vc/vc/107508.html",
+      "lpDataAsOf": "2026-01-18",
+      "aliases": [
+        "上海泓成股权投资合伙企业（有限合伙）",
+        "上海泓成投资合伙企业（有限合伙）"
+      ],
+      "exactPriorLegalNameSource": "https://static.cninfo.com.cn/finalpage/2026-05-29/1225336879.PDF#page=116",
+      "historicalProfileId": "690962c72688ac0594d51dc0",
+      "priorLegalNameIdentitySource": "https://static.cninfo.com.cn/finalpage/2017-06-21/1203634126.PDF"
+    }
+  },
+  {
+    "fundId": "0cc9e8e2cc9625e692b47a0e",
+    "fundName": "嘉兴翌瑟创业投资合伙企业（有限合伙）",
+    "managerId": "d5749739f5c3742c2928006d",
+    "managerName": "上海福翌私募基金管理有限公司",
+    "sizeCny": 31900000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 5,
+    "partners": [
+      {
+        "name": "上海宇培（集团）有限公司",
+        "disclosedContributionCny": 10300000,
+        "disclosedPercent": "32.2884",
+        "existingInstitution": "520d9235d91b5ef219279084"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202412111641258149_1.pdf#page=30",
+      "date": "2024-12-11",
+      "dateKind": "公开披露日",
+      "issuer": "普旭科技挂牌法律意见",
+      "lpScope": "原始文件列全体合伙人，机构LP公开回链，个人LP保留人数及其认缴合计。",
+      "managerLegalName": "上海福翌私募基金管理有限公司",
+      "managerRegistration": "P1012598",
+      "fundRegistration": "SAAD22",
+      "fundType": "创业投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2309081103105100.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "嘉兴翌瑟创业投资合伙企业（有限合伙）",
+      "fundEstablishedDate": "2023-08-28",
+      "filingDate": "2023-09-08",
+      "establishedDate": "2022-08-18",
+      "creditCode": "91330402MABXB9E43T",
+      "generalPartners": [
+        {
+          "name": "上海福翌私募基金管理有限公司",
+          "disclosedContributionCny": 1000000,
+          "disclosedPercent": "3.1348",
+          "existingInstitution": "d5749739f5c3742c2928006d"
+        }
+      ],
+      "naturalLpSubscribedTotalCny": 20600000,
+      "custodian": "兴业证券股份有限公司"
+    }
+  },
+  {
+    "fundId": "624f269da366ddb95171bf81",
+    "fundName": "成都博源新航创业投资基金合伙企业（有限合伙）",
+    "managerId": "5b37593c245a74709bbe72e8",
+    "managerName": "博源资本",
+    "sizeCny": 300000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "新希望投资集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "33.3333",
+        "existingInstitution": "45846eb474ec3f892f8afad4"
+      },
+      {
+        "name": "中金启元国家新兴产业创业投资引导基金（有限合伙）",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": "20.0000",
+        "existingInstitution": "533348867c4e0f72e8f6240f"
+      },
+      {
+        "name": "成都天府创新股权投资基金中心（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "16.6667",
+        "existingInstitution": "5770cf6b1fe1b261fb77bc26"
+      },
+      {
+        "name": "沐盟科技集团有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "10.0000",
+        "existingInstitution": "4f1a31691ffde805c8053578"
+      },
+      {
+        "name": "四川奥凯投资发展有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "10.0000",
+        "existingInstitution": "031f0d1c813b2dd6c05f08b7"
+      },
+      {
+        "name": "拉萨市利睿德创业投资有限公司",
+        "disclosedContributionCny": 24000000,
+        "disclosedPercent": "8.0000",
+        "existingInstitution": "f7e1007423a3ce2b4e99feed"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202412111641258149_1.pdf#page=32",
+      "date": "2024-12-11",
+      "dateKind": "公开披露日",
+      "issuer": "普旭科技挂牌法律意见",
+      "lpScope": "原始文件列全体合伙人，机构LP公开回链，个人LP保留人数及其认缴合计。",
+      "managerLegalName": "成都博源投资管理有限公司",
+      "managerRegistration": "P1001117",
+      "fundRegistration": "SCG834",
+      "fundType": "股权投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/1802071733102088.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "成都博源新航创业投资基金合伙企业（有限合伙）",
+      "fundEstablishedDate": "2018-01-25",
+      "filingDate": "2018-02-07",
+      "establishedDate": "2017-11-27",
+      "creditCode": "91510100MA6C71AE83",
+      "generalPartners": [
+        {
+          "name": "宁波博源星河创业投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 6000000,
+          "disclosedPercent": "2.0000",
+          "existingInstitution": "31e2419d944b4bad95cb69e5"
+        }
+      ],
+      "naturalLpSubscribedTotalCny": 0,
+      "custodian": "招商银行股份有限公司",
+      "managerAliasSource": "https://www.jdkg.com/jdgroup/xwzx/jddt/335125/index.html",
+      "lpSources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_78D4B25A952B43E897A5CEE992A38EBC.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202606/RAS_202606_161935CD85D7C7DA7A4314B1D323C2AF4888ED.pdf"
+      ],
+      "renewedOperatingStatusNote": "2024年法律意见披露原工商期限，2026年11月中基协显示正在运作；新到期日未披露。"
+    }
   }
 ]
