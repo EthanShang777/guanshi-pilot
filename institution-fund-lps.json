@@ -24485,5 +24485,151 @@
       ],
       "capitalReconciliation": "同页工商认缴和历史合伙人表总额分列。合伙人表未标明实缴。"
     }
+  },
+  {
+    "fundId": "afaf2c7ff52dc23680275ff6",
+    "fundName": "南京浦口开发区高科技产业投资基金合伙企业（有限合伙）",
+    "managerId": "1eaa5fc4f56ee3873d362eb2",
+    "managerName": "和利资本",
+    "sizeCny": 2000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "南京浦口开发区高科技投资有限公司",
+        "disclosedContributionCny": 1980000000,
+        "disclosedPercent": "99.00",
+        "existingInstitution": "b66f374eaf4e5aa715d18c8b"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://stockmc.xueqiu.com/202511/688802_20251127_CZ8L.pdf#page=704",
+      "date": "2025-11-27",
+      "dateKind": "公开披露日",
+      "issuer": "沐曦发行人律师工作报告附表",
+      "managerLegalName": "和利创业投资管理（苏州）有限公司",
+      "managerRegistration": "P1001980",
+      "creditCode": "91320111MA217PUJ4R",
+      "establishedDate": "2020-04-13",
+      "fundRegistration": "SJZ884",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2008311704101525.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "南京浦口开发区高科技产业投资基金合伙企业（有限合伙）",
+      "fundEstablishedDate": "2020-08-20",
+      "filingDate": "2020-08-31",
+      "fundType": "创业投资基金",
+      "custodian": "上海浦东发展银行股份有限公司",
+      "registeredOperatingStatus": "正在运作",
+      "lpScope": "律师核查合伙协议和工商。机构 LP 认缴 19.8 亿元，普通合伙人认缴 0.2 亿元。总实缴待核。",
+      "generalPartners": [
+        {
+          "name": "南京和利万章创业投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 20000000,
+          "disclosedPercent": "1.00",
+          "existingInstitution": "157bce4cd742e772319137ee"
+        }
+      ],
+      "lpSources": [
+        "https://stockmc.xueqiu.com/202511/688802_20251127_CZ8L.pdf#page=703",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002078_20250827_OO1E.pdf"
+      ],
+      "managingBrandSource": "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002078_20250827_OO1E.pdf",
+      "underlyingInvestmentDetail": {
+        "company": "沐曦集成电路（上海）股份有限公司",
+        "phase": "A 轮第一期",
+        "agreementDate": "2021-06-08",
+        "commitmentAmountCny": 30000000,
+        "source": "https://stockmc.xueqiu.com/202511/688802_20251127_CZ8L.pdf#page=55"
+      }
+    },
+    "reviewedInvestments": [
+      {
+        "eventId": "017e95da7b887d22a0c46eea",
+        "amountFen": 3000000000,
+        "basis": "认购金额",
+        "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11519370&stockid=688802"
+      }
+    ]
+  },
+  {
+    "fundId": "c5f205d4efb8d67b84e2e9d2",
+    "fundName": "南京浦口高质量发展投资基金合伙企业（有限合伙）",
+    "managerId": "7228eea6f8c6e025a3e49e22",
+    "managerName": "南京雨山私募基金管理有限公司",
+    "sizeCny": 5000000000,
+    "capitalBasis": "工商认缴",
+    "otherLpCount": null,
+    "partners": [
+      {
+        "name": "南京浦口开发区高科技投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "b66f374eaf4e5aa715d18c8b"
+      },
+      {
+        "name": "南京浦口康居建设集团有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "4.00",
+        "existingInstitution": "6beeb8420bb868427a823dcf"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12410317&stockid=688627",
+      "date": "2026-06-25",
+      "dateKind": "公开披露日",
+      "issuer": "精智达参与投资设立基金进展公告",
+      "managerLegalName": "南京雨山私募基金管理有限公司",
+      "managerRegistration": "P1073611",
+      "creditCode": "91320111MACNTLTE4H",
+      "establishedDate": "2023-07-14",
+      "fundRegistration": "SABN86",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2309281639100369.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "南京浦口高质量发展投资基金合伙企业（有限合伙）",
+      "fundEstablishedDate": "2023-08-30",
+      "filingDate": "2023-09-28",
+      "fundType": "股权投资基金",
+      "custodian": "中国工商银行股份有限公司",
+      "registeredOperatingStatus": "正在运作",
+      "lpScope": "中微穿透文件列直接合伙人。本页核入浦口高投和浦口康居。浦口康居认缴 2 亿元、占 4%，浦口高投金额及其他合伙人的角色和金额待核。50 亿元为工商认缴。",
+      "lpSources": [
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=823",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=827",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/b905aa5fa35e91068f9c0071aff74948.pdf#page=84",
+        "https://gzw.nanjing.gov.cn/gzdt/202407/t20240719_4718512.html"
+      ],
+      "lpRoleEvidence": [
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_28f19c7b1d204e69a131292d0b793078.html",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/e6e55797fd8b39f63fce85511cca6724.pdf",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=823"
+      ],
+      "knownOtherDirectPartners": [
+        "南京江北新区雨山创新投资有限公司",
+        "南京浦口科创投资集团有限公司",
+        "南京市浦口区国有资产投资经营有限公司",
+        "南京民康房地产开发有限公司",
+        "南京浦口交通建设集团有限公司",
+        "南京浦口城乡建设集团有限公司",
+        "南京浦口文化旅游发展集团有限公司",
+        "南京农创园科创投资集团有限公司"
+      ],
+      "managerRegistrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2204071433107017.html",
+      "executingPartner": {
+        "name": "南京雨山私募基金管理有限公司",
+        "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12410317&stockid=688627"
+      },
+      "knownLpCommitments": [
+        {
+          "fundName": "南京精智达清源创业投资合伙企业（有限合伙）",
+          "amountCny": 14000000,
+          "percent": "7.00",
+          "role": "有限合伙人",
+          "basis": "认缴",
+          "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12410317&stockid=688627"
+        }
+      ]
+    }
   }
 ]
