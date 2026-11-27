@@ -5036,5 +5036,33 @@
     "sources": [
       "https://www.szse.cn/disclosure/notice/t20090819_508315.html"
     ]
+  },
+  "9c0b6c79103f6e2f205617b8": {
+    "name": "长盈通",
+    "registeredName": "武汉长盈通光电技术股份有限公司",
+    "aliases": [
+      "武汉长盈通光电技术有限公司",
+      "长盈通光电",
+      "688143"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202205/001080_20220529_Z2V1.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202208/001080_20220815_NOW0.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202208/001080_20220815_YKW0.pdf",
+      "https://static.cninfo.com.cn/finalpage/2022-12-09/1215304863.PDF"
+    ]
+  },
+  "f1b13da1a9c3c89a94acb0db": {
+    "name": "国创光电子创新中心",
+    "registeredName": "武汉光谷信息光电子创新中心有限公司",
+    "aliases": [
+      "光电子创新中心",
+      "国家信息光电子创新中心",
+      "武汉光谷信息光电子创新中心"
+    ],
+    "sources": [
+      "https://epaper.cs.com.cn/zgzqb/html/2017-08/25/nw.D110000zgzqb_20170825_2-B016.htm?div=-1"
+    ]
   }
 }
