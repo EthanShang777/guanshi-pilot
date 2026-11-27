@@ -5848,5 +5848,27 @@
     "sources": [
       "https://www.sec.gov/Archives/edgar/data/2128259/000212825926000004/primary_doc.xml"
     ]
+  },
+  "584ab9c112b2bc6ff22205bd": {
+    "name": "卡奥斯",
+    "registeredName": "卡奥斯物联科技股份有限公司",
+    "aliases": [
+      "COSMOPlat",
+      "海尔工业控股有限公司"
+    ],
+    "sources": [
+      "https://www.hkexnews.hk/app/sehk/2026/108774/a135238/sehk26073002078_c.pdf",
+      "https://www1.hkexnews.hk/app/sehk/2026/108774/a135238/sehk26073002068_c.pdf"
+    ]
+  },
+  "2bcb9b60a02033c3e2e85ae7": {
+    "name": "港通医疗",
+    "registeredName": "四川港通医疗设备集团股份有限公司",
+    "aliases": [
+      "港通医疗"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-07-17/1217302228.PDF"
+    ]
   }
 }

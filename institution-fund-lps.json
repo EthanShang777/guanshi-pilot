@@ -22061,5 +22061,293 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "8ede43c2e5886b5b8d3d3498",
+    "fundName": "上海国和现代服务业股权投资基金合伙企业（有限合伙）",
+    "managerId": "05cacab239830e31d05882ea",
+    "managerName": "国和投资",
+    "sizeCny": 2535750000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "上海国际集团资产管理有限公司",
+        "disclosedContributionCny": 756000000,
+        "disclosedPercent": "29.81",
+        "existingInstitution": "1194969b23641c06839c1bf1"
+      },
+      {
+        "name": "上海陆家嘴金融发展有限公司",
+        "disclosedContributionCny": 504000000,
+        "disclosedPercent": "19.88",
+        "existingInstitution": "18c5c02b7c27903c95820e96"
+      },
+      {
+        "name": "上海佳富投资有限公司",
+        "disclosedContributionCny": 282857100,
+        "disclosedPercent": "11.15",
+        "existingInstitution": "068ab4d8df79ca00c381f439"
+      },
+      {
+        "name": "上海中房置业股份有限公司",
+        "disclosedContributionCny": 275000000,
+        "disclosedPercent": "10.84",
+        "existingInstitution": "80d9f8e737d87602e1efd233"
+      },
+      {
+        "name": "中城联合投资集团有限公司",
+        "disclosedContributionCny": 141428600,
+        "disclosedPercent": "5.58",
+        "existingInstitution": "a9f5878f77ea526af3414d6e"
+      },
+      {
+        "name": "厦门乾宝投资有限公司",
+        "disclosedContributionCny": 200214300,
+        "disclosedPercent": "7.90",
+        "existingInstitution": "4e128472df50001bead69944"
+      },
+      {
+        "name": "上海通华投资控股有限公司",
+        "disclosedContributionCny": 90000000,
+        "disclosedPercent": "3.55",
+        "existingInstitution": "9fa3924c21178f55333e667f"
+      },
+      {
+        "name": "远东控股集团有限公司",
+        "disclosedContributionCny": 63000000,
+        "disclosedPercent": "2.48",
+        "existingInstitution": "db80bbde155a81b222a9a4b4"
+      },
+      {
+        "name": "上海骏合投资管理有限公司",
+        "disclosedContributionCny": 55000000,
+        "disclosedPercent": "2.17",
+        "existingInstitution": "9cba23a8f00d8e08b427f4b1"
+      },
+      {
+        "name": "内蒙古恒东投资有限公司",
+        "disclosedContributionCny": 55000000,
+        "disclosedPercent": "2.17",
+        "existingInstitution": "fc46b50d208e6fc107894a5e"
+      },
+      {
+        "name": "上海贯合投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "1.97",
+        "existingInstitution": "887d305f50aff58974e8f4d8"
+      },
+      {
+        "name": "上海红旌投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": "0.99",
+        "existingInstitution": "1a2923bae328e5b8f4da7f5a"
+      },
+      {
+        "name": "西藏新盟投资发展有限公司",
+        "disclosedContributionCny": 22500000,
+        "disclosedPercent": "0.89",
+        "existingInstitution": "495a51dfd131cc88d7c4f8a2"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://stock.tianyancha.com/Announcement/eastmoney/bf41311437937ffb27bb4b818b3b688a.pdf",
+      "date": "2015-11-20",
+      "dateKind": "公开文件披露日",
+      "issuer": "云南创新招股说明书申报稿",
+      "pages": "第114–115页",
+      "lpSources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/240263_20260625_DMIO.pdf"
+      ],
+      "lpScope": "13名有限合伙人和1名普通合伙人为招股书历史披露，认缴采用逐户合计。",
+      "generalPartners": [
+        {
+          "name": "上海致晨投资管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 15750000,
+          "disclosedPercent": "0.62"
+        }
+      ],
+      "managerLegalName": "上海国和现代服务业股权投资管理有限公司",
+      "lpPaidDisclosures": [
+        {
+          "asOf": "2025-12-31",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/240263_20260625_DMIO.pdf",
+          "name": "上海国际集团资产管理有限公司",
+          "subscribedCny": 756000000,
+          "paidCny": 756000000
+        }
+      ]
+    }
+  },
+  {
+    "fundId": "213603237d22d7d33ab21a57",
+    "fundName": "上海国和二期现代服务业股权投资基金合伙企业（有限合伙）",
+    "managerId": "05cacab239830e31d05882ea",
+    "managerName": "国和投资",
+    "sizeCny": 1342000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "利安人寿保险股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "22.35",
+        "existingInstitution": "5fec0fe91fcfff7a10db48de"
+      },
+      {
+        "name": "上海黄浦投资控股（集团）有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "14.90",
+        "existingInstitution": "b57b62a8da089a17e657227a"
+      },
+      {
+        "name": "上海紫江臻玮企业发展有限公司",
+        "disclosedContributionCny": 180000000,
+        "disclosedPercent": "13.41",
+        "existingInstitution": "ef66bc3b06a79597530fec8e"
+      },
+      {
+        "name": "上海国际集团资产管理有限公司",
+        "disclosedContributionCny": 180000000,
+        "disclosedPercent": "13.41",
+        "existingInstitution": "1194969b23641c06839c1bf1"
+      },
+      {
+        "name": "上海建工集团投资有限公司",
+        "disclosedContributionCny": 150000000,
+        "disclosedPercent": "11.18",
+        "existingInstitution": "c84ce77acc758dde3fb2fba5"
+      },
+      {
+        "name": "上海国方母基金一期股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 75000000,
+        "disclosedPercent": "5.59",
+        "existingInstitution": "bedd2b8581d344a5e2fd05bb"
+      },
+      {
+        "name": "厦门乾宝投资有限公司",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": "5.22",
+        "existingInstitution": "4e128472df50001bead69944"
+      },
+      {
+        "name": "上海佳富投资有限公司",
+        "disclosedContributionCny": 70000000,
+        "disclosedPercent": "5.22",
+        "existingInstitution": "068ab4d8df79ca00c381f439"
+      },
+      {
+        "name": "上海丹采企业管理合伙企业（普通合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "3.73",
+        "existingInstitution": "42441fcafe5410788c3ec7c5"
+      },
+      {
+        "name": "上海德利厚投资管理合伙企业（普通合伙）",
+        "disclosedContributionCny": 27000000,
+        "disclosedPercent": "2.01",
+        "existingInstitution": "42886bac971fecd5ea1d2380"
+      },
+      {
+        "name": "上海国方母基金二期股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": "1.86",
+        "existingInstitution": "c85436a4f7f58a86a204358a"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202103/000849_20210312_W3DI.pdf",
+      "date": "2021-03-12",
+      "dateKind": "公开文件披露日",
+      "issuer": "亚信安全招股说明书申报稿",
+      "pages": "第112–113页",
+      "lpSources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/240263_20260625_DMIO.pdf"
+      ],
+      "lpScope": "11名有限合伙人和1名普通合伙人为招股书历史披露。",
+      "generalPartners": [
+        {
+          "name": "上海和简企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": 15000000,
+          "disclosedPercent": "1.12"
+        }
+      ],
+      "managerLegalName": "上海国和现代服务业股权投资管理有限公司",
+      "creditCode": "91310000MA1FL3FM07",
+      "lpPaidDisclosures": [
+        {
+          "asOf": "2025-12-31",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/240263_20260625_DMIO.pdf",
+          "name": "上海国际集团资产管理有限公司",
+          "subscribedCny": 180000000,
+          "paidCny": 180000000
+        }
+      ]
+    }
+  },
+  {
+    "fundId": "ba49799e94ab0a136a08b434",
+    "fundName": "上海国和三期现代服务业股权投资基金合伙企业（有限合伙）",
+    "managerId": "05cacab239830e31d05882ea",
+    "managerName": "国和投资",
+    "sizeCny": 1125000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "上海国际集团资产管理有限公司",
+        "disclosedContributionCny": 250000000,
+        "disclosedPercent": null,
+        "existingInstitution": "1194969b23641c06839c1bf1"
+      },
+      {
+        "name": "苏州国际发展集团有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": null,
+        "existingInstitution": "fb6435815a30e81f6e3d2de4"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2024-12-31",
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-03-13/244858_20260313_NP6F.pdf",
+        "fundedCny": 807100000,
+        "subscribedCny": 1153000000
+      }
+    ],
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/240263_20260625_DMIO.pdf",
+      "date": "2026-06-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "上海国际集团债券跟踪评级报告",
+      "pages": "表3",
+      "lpSources": [
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/240263_20260625_DMIO.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-03-13/244858_20260313_NP6F.pdf"
+      ],
+      "lpScope": "认缴11.25亿元为2025年末披露。两名LP为不同日期的公开披露，完整名册待核。",
+      "generalPartners": [],
+      "managerLegalName": "上海国和现代服务业股权投资管理有限公司",
+      "capitalAsOf": "2025-12-31",
+      "lpPaidDisclosures": [
+        {
+          "asOf": "2025-12-31",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-06-25/240263_20260625_DMIO.pdf",
+          "name": "上海国际集团资产管理有限公司",
+          "subscribedCny": 250000000,
+          "paidCny": 175000000
+        },
+        {
+          "asOf": "2024-12-31",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-03-13/244858_20260313_NP6F.pdf",
+          "name": "苏州国际发展集团有限公司",
+          "subscribedCny": 100000000,
+          "paidCny": 70000000
+        }
+      ],
+      "firstCloseSource": "https://www.sigchina.com/site/news_details/2226"
+    }
   }
 ]
