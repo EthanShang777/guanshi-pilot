@@ -2341,5 +2341,29 @@
     },
     "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF",
     "reason": "招股书逐项列示的不同交易，协议、受让方、工商日期或验资凭证能够区分。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1e0187aa1770d4d0226462",
+      "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3"
+    },
+    "existing": {
+      "event_id": "financing_event:fb0a910690eb0f0c93f96e9d1200344f725a74f3587eb29414306f01ab700a8e",
+      "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3"
+    },
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+    "reason": "股转说明书第十三及第十四次股权变更单独披露，前者彭建中以1元向深圳华骏转让1.3277%，后者深圳华骏向武汉惠人以3750万元转让全部3.1579%，工商登记分别为2014-12-22及2015-01-04。"
+  },
+  {
+    "incoming": {
+      "event_id": "financing_event:fb0a910690eb0f0c93f96e9d1200344f725a74f3587eb29414306f01ab700a8e",
+      "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1e0187aa1770d4d0226462",
+      "company_id": "co:full_legal_name:a24e563e06195b02e6d8012195c949c3"
+    },
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/8bb3c947d1e0526f5af7bc4fb0eec959.pdf",
+    "reason": "股转说明书第十三及第十四次股权变更单独披露，前者彭建中以1元向深圳华骏转让1.3277%，后者深圳华骏向武汉惠人以3750万元转让全部3.1579%，工商登记分别为2014-12-22及2015-01-04。"
   }
 ]

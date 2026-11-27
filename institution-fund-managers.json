@@ -2926,5 +2926,45 @@
   "北京春霖股权投资中心（有限合伙）": {
     "brand": "中信建投资本管理有限公司",
     "source": "https://static.cninfo.com.cn/finalpage/2022-12-05/1215276238.PDF"
+  },
+  "上海国盛海通股权投资基金合伙企业（有限合伙）": {
+    "brand": "上海国盛资本管理有限公司",
+    "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=9861681&stockid=002873"
+  },
+  "深圳市富海银涛贰号投资合伙企业（有限合伙）": {
+    "brand": "深圳市富海银涛资产管理股份有限公司",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
+  },
+  "深圳市富海银涛柒号投资合伙企业（有限合伙）": {
+    "brand": "深圳市富海银涛投资管理合伙企业（有限合伙）",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
+  },
+  "深圳市高特佳精选成长投资合伙企业（有限合伙）": {
+    "brand": "深圳市高特佳投资集团有限公司",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
+  },
+  "合肥高特佳创业投资有限责任公司": {
+    "brand": "合肥佳融创业投资管理有限公司",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
+  },
+  "深圳市高特佳精选恒富投资合伙企业（有限合伙）": {
+    "brand": "深圳市高特佳投资集团有限公司",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
+  },
+  "天津和悦谷雨股权投资基金合伙企业（有限合伙）": {
+    "brand": "北京磐谷创业投资有限责任公司",
+    "source": "https://qccdata.qichacha.com/ReportData/PDF/0638fa875499ebc59d298a3dba6e1fc6.pdf"
+  },
+  "上海东证富厚投资合伙企业（有限合伙）": {
+    "brand": "上海富厚股权投资管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+  },
+  "上海富厚乐投资管理中心（有限合伙）": {
+    "brand": "上海富厚股权投资管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
+  },
+  "上海富厚族投资合伙企业（有限合伙）": {
+    "brand": "上海富厚股权投资管理有限公司",
+    "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/201905/000025_20190512_8MTR.pdf"
   }
 }
