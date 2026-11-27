@@ -8967,5 +8967,30 @@
       "date_key": "2020-06-28",
       "date_kind": "最后一批现金增资入股日，5至6月分批增资"
     }
+  },
+  {
+    "event_id": "financing_event:883261b1b3e116781ca8198bea738f93918116d5c23112653e4afc9f3140c442",
+    "company_id": "co:full_legal_name:24ac5aee9f8ecb72d6550d093339c678",
+    "source": "https://www.chinaventure.com.cn/flash/20260915-90095.html",
+    "additional_sources": [
+      "https://finance.eastmoney.com/a/202609153874886049.html",
+      "https://static.cninfo.com.cn/finalpage/2026-07-18/1225430330.PDF#page=2"
+    ],
+    "expected": {
+      "round": "Pre-A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"南京精智达清源投资基金\",\"role\":null,\"amount\":null},{\"name\":\"川商基金\",\"role\":null,\"amount\":null},{\"name\":\"清源投资\",\"role\":null,\"amount\":null}]",
+      "date": "2026-09-15",
+      "date_key": "2026-09-15",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "Pre-A轮",
+      "amount": "近亿人民币",
+      "investors_json": "[{\"name\":\"南京精智达清源投资基金\",\"role\":\"领投\",\"amount\":null,\"verifiedLegalName\":\"南京精智达清源创业投资合伙企业（有限合伙）\"},{\"name\":\"川商基金\",\"role\":\"跟投\",\"amount\":null},{\"name\":\"清源投资\",\"role\":\"老股东跟投\",\"amount\":null}]",
+      "date": "2026-09-15",
+      "date_key": "2026-09-15",
+      "date_kind": "报道披露日，投中资本为独家财务顾问"
+    }
   }
 ]

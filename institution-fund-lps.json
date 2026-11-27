@@ -24631,5 +24631,192 @@
         }
       ]
     }
+  },
+  {
+    "fundId": "0dd09899e7c27bd1f18f07e5",
+    "fundName": "南京精智达清源创业投资合伙企业（有限合伙）",
+    "managerId": "8dc59ebd7111a823e4a02190",
+    "managerName": "深圳清源时代投资管理控股有限公司",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "深圳精智达技术股份有限公司",
+        "disclosedContributionCny": 54000000,
+        "disclosedPercent": "27.00",
+        "existingInstitution": "b662811ea611085f72a395b7"
+      },
+      {
+        "name": "常州清源时代投资管理有限公司",
+        "disclosedContributionCny": 44000000,
+        "disclosedPercent": "22.00",
+        "existingInstitution": "34cac607846a49ee38e7dab2"
+      },
+      {
+        "name": "南京浦口开发区高科技投资有限公司",
+        "disclosedContributionCny": 36000000,
+        "disclosedPercent": "18.00",
+        "existingInstitution": "b66f374eaf4e5aa715d18c8b"
+      },
+      {
+        "name": "南京浦口城乡建设集团有限公司",
+        "disclosedContributionCny": 22000000,
+        "disclosedPercent": "11.00",
+        "existingInstitution": "3826393ea53b3fcfd20c0336"
+      },
+      {
+        "name": "南京浦口康居建设集团有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": "6beeb8420bb868427a823dcf"
+      },
+      {
+        "name": "南京浦口高质量发展投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 14000000,
+        "disclosedPercent": "7.00",
+        "existingInstitution": "c5f205d4efb8d67b84e2e9d2"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://paper.cnstock.com/html/2026-06/25/content_2235125.htm",
+      "date": "2026-06-25",
+      "dateKind": "公开披露日",
+      "issuer": "精智达合伙协议签署进展公告",
+      "managerLegalName": "深圳清源时代投资管理控股有限公司",
+      "managerRegistration": "P1016622",
+      "managerRegistrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000024886.html",
+      "currentRegisteredName": "南京精智达清源创业投资合伙企业（有限合伙）",
+      "fundRegistration": "SB0095",
+      "fundEstablishedDate": "2026-07-13",
+      "filingDate": "2026-07-16",
+      "implementationType": "受托管理",
+      "fundType": "创业投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607161910101472.html",
+      "custodian": "浙商银行股份有限公司",
+      "lpScope": "已签署合伙协议披露全部机构 LP 的认缴。精智达截至 2026 年 6 月 30 日直接 LP 实缴零，基金当前总实缴待核。",
+      "generalPartners": [
+        {
+          "name": "南京智清创业投资有限公司",
+          "disclosedContributionCny": 10000000,
+          "disclosedPercent": "5.00",
+          "existingInstitution": "5b02b935129c0580d0419b3a"
+        }
+      ],
+      "gpCreditCode": "91320191MAKEUJ3518",
+      "agreementDate": "2026-06-23",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-07-18/1225430330.PDF#page=2",
+        "https://static.cninfo.com.cn/finalpage/2026-08-19/1225480779.PDF#page=31"
+      ],
+      "managerGroupOwnershipSource": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202605181822397281",
+      "portfolioDisclosure": {
+        "name": "深圳康微视觉技术有限公司",
+        "date": "2026-09-15",
+        "role": "领投",
+        "priceBasis": "单家认购金额未披露",
+        "source": "https://www.chinaventure.com.cn/flash/20260915-90095.html"
+      },
+      "partnerPaid": {
+        "name": "深圳精智达技术股份有限公司",
+        "basis": "直接LP实缴",
+        "amountCny": 0,
+        "asOf": "2026-06-30",
+        "source": "https://static.cninfo.com.cn/finalpage/2026-08-19/1225480779.PDF#page=31"
+      },
+      "paidToGpEntity": {
+        "payer": "南京精智达技术有限公司",
+        "recipient": "南京智清创业投资有限公司",
+        "capitalCny": 3100000,
+        "stakePercent": "31",
+        "basis": "GP公司股权实缴",
+        "asOf": "2026-06-30",
+        "source": "https://static.cninfo.com.cn/finalpage/2026-08-19/1225480779.PDF#page=31"
+      }
+    }
+  },
+  {
+    "fundId": "c61a6cf29aa04c8c853a5517",
+    "fundName": "南京浦口智思集成电路产业基金合伙企业（有限合伙）",
+    "managerId": "c5700f667f0039ea00321fb6",
+    "managerName": "元禾璞华同芯（苏州）投资管理有限公司",
+    "sizeCny": 1010000000,
+    "capitalBasis": "出资总额（历史披露）",
+    "otherLpCount": null,
+    "partners": [
+      {
+        "name": "南京浦口高质量发展投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "c5f205d4efb8d67b84e2e9d2"
+      },
+      {
+        "name": "南京江北新区雨山创新投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "e131f567dcb736fb60b358e9"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2022/2022-4/2022-04-29/8147569.PDF#page=5",
+      "date": "2022-04-29",
+      "dateKind": "公开披露日",
+      "issuer": "韦尔股份参与东莞勤合公告",
+      "managerLegalName": "元禾璞华同芯（苏州）投资管理有限公司",
+      "managerRegistration": "P1071690",
+      "managerRegistrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2011231453108707.html",
+      "currentRegisteredName": "南京浦口智思集成电路产业基金合伙企业（有限合伙）",
+      "fundRegistration": "SQH817",
+      "fundEstablishedDate": "2021-03-30",
+      "filingDate": "2021-04-26",
+      "implementationType": "受托管理",
+      "fundType": "股权投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2104261853104249.html",
+      "custodian": "中国银行股份有限公司",
+      "creditCode": "91320111MA25JTQB3K",
+      "establishedDate": "2021-03-30",
+      "lpScope": "中微 2026 年交易报告披露两家直接出资方和执行主体。浦口高质量发展于 2023 年 11 月入伙。出资比例与实缴待核。档案规模取 2022 年公开出资总额。",
+      "generalPartners": [
+        {
+          "name": "南京浦口元禾璞华企业管理合伙企业（有限合伙）",
+          "disclosedContributionCny": null,
+          "disclosedPercent": null,
+          "existingInstitution": "a8f457e73f6021f9434ddada"
+        }
+      ],
+      "lpSources": [
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=826",
+        "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=827"
+      ],
+      "lpAdmission": {
+        "name": "南京浦口高质量发展投资基金合伙企业（有限合伙）",
+        "date": "2023-11-23",
+        "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf#page=826"
+      },
+      "portfolioFundDisclosures": [
+        {
+          "fundName": "东莞勤合创业投资中心（有限合伙）",
+          "committedCny": 200000000,
+          "fraction": "10.00",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202406/688536_20240606_2CES.pdf",
+          "paidCny": 100000000,
+          "paidSource": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202512031793268488&pageIndex=11"
+        },
+        {
+          "fundName": "江苏疌泉君海荣芯投资合伙企业（有限合伙）",
+          "committedCny": 200000000,
+          "fraction": "12.18",
+          "source": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-29/688012_20260429_2YSG.pdf",
+          "paidCny": 200000000,
+          "paidSource": "https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202509291752868740&pageIndex=15"
+        }
+      ]
+    }
   }
 ]
