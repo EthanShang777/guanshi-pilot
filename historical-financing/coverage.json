@@ -9900,6 +9900,95 @@
       },
       "retired_deal_redirects": {},
       "batch": "historical-financing/2026-11-27-huali-jianxin-network-196.csv"
+    },
+    {
+      "institution": "建信金融资产投资有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "沿华羿微电历史出资人与建信投资三钢项目补录验资、交割与基金LP",
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001006.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-06-30/1217185000.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-02-11/1224976099.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652021.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652018.PDF",
+        "https://pdf.dfcfw.com/pdf/H2_AN202611201831897465_1.pdf",
+        "https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF",
+        "https://disc.static.szse.cn/download/disc/disk01/finalpage/2018-12-22/8bf6d6ea-5eb1-4a61-93c2-9a7b9721a950.PDF",
+        "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+        "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF",
+        "https://static.cninfo.com.cn/finalpage/2022-03-26/1212683498.PDF",
+        "https://static.cninfo.com.cn/finalpage/2020-04-29/1207660846.PDF"
+      ],
+      "notes": [
+        {
+          "subject": "华羿微电子股份有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001006.PDF",
+          "result": "七个验资日现金实缴11.364455亿元，2021年6月6方2亿元及12月17方6亿元。三笔股转单录。2026年10月16日工商信息已载全部过户，原事件ID保留。"
+        },
+        {
+          "subject": "天水华天科技股份有限公司",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202611201831897465_1.pdf",
+          "result": "2026-11-16验资，10位配售对象认购31,152,647股、每股12.84元，毛款399,999,987.48元，净款375,758,710.49元。标的股权转让与上市公司配套融资各为一笔。"
+        },
+        {
+          "subject": "湖南华菱湘潭钢铁有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF",
+          "result": "2018实缴认购13.776亿元，2019-12-26少数股交割，次日母公司现金62.51829594亿元。"
+        },
+        {
+          "subject": "湖南华菱涟源钢铁有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF",
+          "result": "2018实缴认购12.136亿元，2019-12-26少数股交割，次日母公司现金9.94118773亿元。"
+        },
+        {
+          "subject": "衡阳华菱钢管有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2022-03-26/1212683498.PDF",
+          "result": "2012年现金145419927.79元，2017年两笔老股反向过户，2018债转股总款6.888亿元，2019-12-26收回少数股。"
+        },
+        {
+          "subject": "湖南华菱节能发电有限公司",
+          "source": "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+          "result": "2019-12-27 100%股份过户至华菱涟钢，签约对价17.313766亿元有过渡期调整。"
+        },
+        {
+          "subject": "湖北小米长江产业基金合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001006.PDF",
+          "result": "当期认缴120亿元及十五位机构LP，通过华羿微电2021实收轮次与小米产业投资载体双向关联。"
+        },
+        {
+          "subject": "湖南华弘一号私募股权基金企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+          "result": "2020当期6亿元与2018设立3亿元分时点，保留旧两位LP与比例，待较新分户资料。"
+        }
+      ],
+      "events": {
+        "华羿微电实缴2017-07-10": "2e73a02662c3495736355ba0",
+        "华羿微电实缴2017-10-16": "e75df7a45ca701a16741b046",
+        "华羿微电实缴2017-12-27": "58a431bc7cce5ab782536dae",
+        "华羿微电实缴2019-12-31": "bb38c137e215ad08a5d954f8",
+        "华羿微电实缴2021-03-31": "d6cade49813d789b0e087bb2",
+        "华羿微电实缴2021-06-18": "4157294a03561b3373ea64de",
+        "华羿微电实缴2021-12-09": "a6397bce128a891637904d59",
+        "华羿微电未缴创始股转让": "545c223c375ce2e749c70363",
+        "华羿微电未缴新股转让": "24cddf0c4b41bc0770f03479",
+        "华羿微电员工平台受让": "c0371dbf8aba6f3680eb76a0",
+        "华羿微电100%过户确证": "e599d644725b70b993a12904",
+        "华菱湘钢2018债转股实缴": "1da1ef08fa4e458120311502",
+        "华菱湘钢2019股权交割": "6047356c6a14a47ba6a2ea59",
+        "华菱涟钢2018债转股实缴": "cd445a5df8d4bd45fff5f400",
+        "华菱涟钢2019股权交割": "2d7c9be37e6352c9fa70b008",
+        "华菱衡钢2018债转股实缴": "1c334be70e3edc7ae1819bdd",
+        "华菱衡钢2019股权交割": "7578b3c037f099a4646978fb",
+        "华菱湘钢2019母公司现金增资": "109aed5a105f4a6083063805",
+        "华菱涟钢2019母公司现金增资": "114bd9232a6b6c17ee3fcc1f",
+        "华菱衡钢2017首次过户": "4d157b9e6602bc1fdd6b8d5e",
+        "华菱衡钢2017回转": "faa21351dea8f5744279aa2b",
+        "华菱衡钢2012现金增资": "43d734132ae80ec3645c715d",
+        "华菱节能100%过户": "dc3bffd7274c3c49ef3e2270",
+        "华天科技收购配套定增实收": "e597884e54ebfcbf543d6413"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-huayi-hualing-network-197.csv"
     }
   ]
 }

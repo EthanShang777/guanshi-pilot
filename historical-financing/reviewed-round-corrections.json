@@ -8408,5 +8408,132 @@
     "additional_sources": [
       "https://static.cninfo.com.cn/finalpage/2024-04-30/1219950369.pdf"
     ]
+  },
+  {
+    "event_id": "public:historical-disclosure:4772a190ee00c87f737113",
+    "company_id": "co:full_legal_name:1a743dc0575d2de0d0c8a2645511b845",
+    "day": "2026-11-03",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652021.PDF",
+    "expected": {
+      "round": "股权转让",
+      "amount": "2996000000元",
+      "investors_json": "[{\"name\":\"天水华天科技股份有限公司\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":299600000000,\"basis\":\"转让对价\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-11-03/1225652018.PDF\"}},{\"name\":\"天水华天电子集团股份有限公司\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"西安后羿投资管理合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"西安芯天钰铂企业管理合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"西安芯天金铂企业管理合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"南京飞桥微电子有限公司\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"昆山启村投资中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"上海同凝企业管理中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"聚源中小企业发展创业投资基金（绍兴）合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"中信证券投资有限公司\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"湖北小米长江产业基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"陕西省民营经济高质量发展纾困基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"扬州齐芯原力五号股权投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"甘肃兴陇先进装备制造创业投资基金有限公司\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"江苏盛宇华天创业投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"嘉兴兴雁投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"南京盛宇润鑫创业投资管理中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"嘉兴聚力展业柒号股权投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"无锡一村挚耕投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"上海超越摩尔股权投资基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"西安西高投基石投资基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"陕西工业技改电子轻工产业投资基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"嘉兴根诚股权投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"青岛万桥冷链股权投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"金华金开德弘联信毕方贰号投资中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"陕西兴航成投资基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"上海创丰昕文创业投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"北京理想万盛投资管理中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2026-11-03",
+      "date_key": "2026-11-03",
+      "date_kind": "发行人披露已完成过户截至日"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "2996000000元",
+      "investors_json": "[{\"name\":\"天水华天科技股份有限公司\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":299600000000,\"basis\":\"转让对价\",\"source\":\"https://static.cninfo.com.cn/finalpage/2026-11-03/1225652018.PDF\"}},{\"name\":\"天水华天电子集团股份有限公司\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"西安后羿投资管理合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"西安芯天钰铂企业管理合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"西安芯天金铂企业管理合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"南京飞桥微电子有限公司\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"昆山启村投资中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"上海同凝企业管理中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"聚源中小企业发展创业投资基金（绍兴）合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"中信证券投资有限公司\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"湖北小米长江产业基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"陕西省民营经济高质量发展纾困基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"扬州齐芯原力五号股权投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"甘肃兴陇先进装备制造创业投资基金有限公司\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"江苏盛宇华天创业投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"嘉兴兴雁投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"南京盛宇润鑫创业投资管理中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"嘉兴聚力展业柒号股权投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"无锡一村挚耕投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"上海超越摩尔股权投资基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"西安西高投基石投资基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"陕西工业技改电子轻工产业投资基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"嘉兴根诚股权投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"青岛万桥冷链股权投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"金华金开德弘联信毕方贰号投资中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"陕西兴航成投资基金合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"上海创丰昕文创业投资合伙企业（有限合伙）\",\"role\":\"转让方\",\"amount\":null},{\"name\":\"北京理想万盛投资管理中心（有限合伙）\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2026-10-16",
+      "date_key": "2026-10-16",
+      "date_kind": "登记信息表披露已过户截至日"
+    },
+    "additional_sources": []
+  },
+  {
+    "event_id": "financing_event:5763b3eb3c0d9ca3ef72b0e32a6e9f7e9411e3a13de99f1e0a084a0ed6d4184e",
+    "company_id": "co:full_legal_name:577c49e46f9b41d507d88240cf3d9fe4",
+    "day": "2018-12-25",
+    "source": "https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中国中信金融资产\",\"role\":null,\"amount\":null},{\"name\":\"农银国际\",\"role\":null,\"amount\":null},{\"name\":\"南华含弘\",\"role\":null,\"amount\":null},{\"name\":\"建信金融资产\",\"role\":null,\"amount\":null},{\"name\":\"建设银行\",\"role\":null,\"amount\":null},{\"name\":\"招商平安资产\",\"role\":null,\"amount\":null}]",
+      "date": "2018-12-25",
+      "date_key": "2018-12-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "债转股增资",
+      "amount": "1377600000元",
+      "investors_json": "[{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":33600000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":25200000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"湖南华弘一号私募股权基金企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":25200000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"中国华融资产管理股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":21000000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"农银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":16800000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"深圳市招平穗达投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":15960000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}}]",
+      "date": "2018-12-17",
+      "date_key": "2018-12-17",
+      "date_kind": "验资报告出具日"
+    },
+    "additional_sources": [
+      "https://disc.static.szse.cn/download/disc/disk01/finalpage/2018-12-22/8bf6d6ea-5eb1-4a61-93c2-9a7b9721a950.PDF",
+      "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+      "https://static.cninfo.com.cn/finalpage/2020-04-29/1207660846.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:3beaaf6f121232c4ca2a6a775d30435f1577aebef0df5159e5c10114f13ab619",
+    "company_id": "co:full_legal_name:106afbabfa3b0c481c215702d8aa3812",
+    "day": "2018-12-25",
+    "source": "https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中国中信金融资产\",\"role\":null,\"amount\":null},{\"name\":\"农银国际\",\"role\":null,\"amount\":null},{\"name\":\"南华含弘\",\"role\":null,\"amount\":null},{\"name\":\"建信金融资产\",\"role\":null,\"amount\":null},{\"name\":\"建设银行\",\"role\":null,\"amount\":null},{\"name\":\"招商平安资产\",\"role\":null,\"amount\":null}]",
+      "date": "2018-12-25",
+      "date_key": "2018-12-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "债转股增资",
+      "amount": "1213600000元",
+      "investors_json": "[{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":29600000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":22200000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"湖南华弘一号私募股权基金企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":22200000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"中国华融资产管理股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":18500000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"农银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":14800000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"深圳市招平穗达投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":14060000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}}]",
+      "date": "2018-12-17",
+      "date_key": "2018-12-17",
+      "date_kind": "验资报告出具日"
+    },
+    "additional_sources": [
+      "https://disc.static.szse.cn/download/disc/disk01/finalpage/2018-12-22/8bf6d6ea-5eb1-4a61-93c2-9a7b9721a950.PDF",
+      "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+      "https://static.cninfo.com.cn/finalpage/2020-04-29/1207660846.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:0e2d5235c14f52c7dbe848e3a559d317a44b43937c8ea86a57706f8e053675dd",
+    "company_id": "co:full_legal_name:7bacd7249480d4391845dc65e422d2cf",
+    "day": "2018-12-25",
+    "source": "https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"中国中信金融资产\",\"role\":null,\"amount\":null},{\"name\":\"农银国际\",\"role\":null,\"amount\":null},{\"name\":\"南华含弘\",\"role\":null,\"amount\":null},{\"name\":\"建信金融资产\",\"role\":null,\"amount\":null},{\"name\":\"建设银行\",\"role\":null,\"amount\":null},{\"name\":\"招商平安资产\",\"role\":null,\"amount\":null}]",
+      "date": "2018-12-25",
+      "date_key": "2018-12-25",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "债转股增资",
+      "amount": "688800000元",
+      "investors_json": "[{\"name\":\"建信金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":16800000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"中银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":12600000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"湖南华弘一号私募股权基金企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":12600000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"中国华融资产管理股份有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10500000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"农银金融资产投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":8400000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}},{\"name\":\"深圳市招平穗达投资中心（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":7980000000,\"basis\":\"认购金额\",\"source\":\"https://static.cninfo.com.cn/finalpage/2018-12-05/1205650648.PDF\"}}]",
+      "date": "2018-12-14",
+      "date_key": "2018-12-14",
+      "date_kind": "验资报告披露实缴截至日"
+    },
+    "additional_sources": [
+      "https://static.cninfo.com.cn/finalpage/2022-03-26/1212683498.PDF",
+      "https://static.cninfo.com.cn/finalpage/2020-02-07/1207296576.PDF",
+      "https://static.cninfo.com.cn/finalpage/2020-04-29/1207660846.PDF"
+    ]
+  },
+  {
+    "event_id": "financing_event:15dc2ae3c7f150ca50417e16d06cc730dfce7d84484c7df08a9880eb6dbbb378",
+    "company_id": "co:full_legal_name:7bacd7249480d4391845dc65e422d2cf",
+    "day": "2017-02-22",
+    "source": "https://static.cninfo.com.cn/finalpage/2022-03-26/1212683498.PDF",
+    "expected": {
+      "round": "战略融资",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"华菱钢铁\",\"role\":null,\"amount\":null}]",
+      "date": "2017-02-22",
+      "date_key": "2017-02-22",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"湖南华菱钢铁集团有限责任公司\",\"role\":\"受让方\",\"amount\":null},{\"name\":\"湖南华菱钢铁股份有限公司\",\"role\":\"转让方\",\"amount\":null}]",
+      "date": "2017-02-21",
+      "date_key": "2017-02-21",
+      "date_kind": "发行人披露工商登记日"
+    },
+    "additional_sources": []
   }
 ]

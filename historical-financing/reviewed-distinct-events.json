@@ -2533,5 +2533,53 @@
     },
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688347_20260330_O5PF.pdf",
     "reason": "同一次登记明确记载两笔独立股权动作，1.8亿元增资至公司，114.851亿元老股为上海联和转让对价。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:f2cce606166a207718dd9d",
+      "company_id": "co:full_legal_name:577c49e46f9b41d507d88240cf3d9fe4"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:9548e2fdd506582304268f",
+      "company_id": "co:full_legal_name:577c49e46f9b41d507d88240cf3d9fe4"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF",
+    "reason": "公告分别记录2019-12-26收购旧股及2019-12-27母公司以现金增资，收款主体和款项不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:9548e2fdd506582304268f",
+      "company_id": "co:full_legal_name:577c49e46f9b41d507d88240cf3d9fe4"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:f2cce606166a207718dd9d",
+      "company_id": "co:full_legal_name:577c49e46f9b41d507d88240cf3d9fe4"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF",
+    "reason": "公告分别记录2019-12-26收购旧股及2019-12-27母公司以现金增资，收款主体和款项不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:5b7647e97f1d1d98a3798a",
+      "company_id": "co:full_legal_name:106afbabfa3b0c481c215702d8aa3812"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:6e70fc3ef2d63774fa3fd8",
+      "company_id": "co:full_legal_name:106afbabfa3b0c481c215702d8aa3812"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF",
+    "reason": "公告分别记录2019-12-26收购旧股及2019-12-27母公司以现金增资，收款主体和款项不同。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:6e70fc3ef2d63774fa3fd8",
+      "company_id": "co:full_legal_name:106afbabfa3b0c481c215702d8aa3812"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:5b7647e97f1d1d98a3798a",
+      "company_id": "co:full_legal_name:106afbabfa3b0c481c215702d8aa3812"
+    },
+    "source": "https://static.cninfo.com.cn/finalpage/2019-12-31/1207206544.PDF",
+    "reason": "公告分别记录2019-12-26收购旧股及2019-12-27母公司以现金增资，收款主体和款项不同。"
   }
 ]
