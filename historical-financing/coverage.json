@@ -10204,6 +10204,57 @@
       },
       "retired_deal_redirects": {},
       "batch": "historical-financing/2026-11-27-guoyi-portfolio-network-200.csv"
+    },
+    {
+      "institution": "合肥兴泰资本管理有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "沿兴泰引导基金及赛纬九家直接出资方反查历史投资与机构 LP",
+      "sources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf",
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202303/RAS_202303_C81C328FD9844BEA9BA6F11E194248D0.pdf",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "https://static.cninfo.com.cn/finalpage/2024-04-17/1219634538.PDF",
+        "https://static.cninfo.com.cn/finalpage/2023-03-23/1216190000.PDF",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10171333"
+      ],
+      "notes": [
+        {
+          "subject": "珠海市赛纬电子材料股份有限公司",
+          "source": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf",
+          "result": "2022年9.25亿元验资对应九家直接出资方；合肥产业引导基金的2亿元是对合庐城发一号的LP出资。2022集团内部转让另外记录。"
+        },
+        {
+          "subject": "合肥兴泰资本管理有限公司",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+          "result": "联创光学、欧益睿芯分期实缴按同一持股投资归档，记单一披露出资方及累计金额。江苏超电核对2000万元单方出资。"
+        },
+        {
+          "subject": "合肥市共创接力创业投资基金合伙企业（有限合伙）",
+          "source": "https://static.cninfo.com.cn/finalpage/2024-04-17/1219634538.PDF",
+          "result": "核对2024成立时股东名册与2026招股书，匹配统一代码和认缴规模。引导基金截至2024年末已实缴9800万元；同表总实到列与单户数冲突，留待核。"
+        }
+      ],
+      "events": {
+        "赛纬设立出资": "3649bf28dd56e015841b2949",
+        "赛纬2011机构增资": "aa9775efdb7debf1738b9c01",
+        "嘉兴英飞转让赛纬": "5cf621a8a13bd6627fb05d3c",
+        "赛纬2020旧股": "cc9c2686c7426ab20b6264a1",
+        "赛纬员工平台受让": "3041d906557e6a0be4807644",
+        "远景集团内部受让赛纬": "1de20a1adf5ccfc600e24023",
+        "赛纬2022现金增资": "d6426522d7e5ae09f13f5b78",
+        "赣州石磊设立": "875fa033aa26e861aac5f2f4",
+        "赣州石磊赛纬入股": "412ddae09e79782090bf2c87",
+        "赣州石磊双方增资": "44ff60547e34c77beddf214d",
+        "赛纬退出赣州石磊": "d66e298af3caa93b9572ad84",
+        "浙江福纬股权交割": "eb72b278696a126e4895b256",
+        "多氟多与赛纬设立河南百川": "1c8f835ea08eaec31f54499c",
+        "合肥赛纬设立出资": "c60a965c7a9068631da7ae2b",
+        "合肥联创光学两次缴款": "eb774269c1a17eaee0a1aa22",
+        "欧益睿芯两次缴款": "6651a84e12c96214c7fcc032",
+        "江苏超电股权投资": "8cc6b15ba2b62a15800b6d3b"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-xingtai-saiwei-network-201.csv"
     }
   ]
 }

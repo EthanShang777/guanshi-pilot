@@ -21114,7 +21114,10 @@
       "dateKind": "公开文件披露日",
       "issuer": "国仪量子招股说明书",
       "pages": "第76–77、83页",
-      "lpSources": [],
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-04-17/1219634538.PDF",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf"
+      ],
       "lpScope": "招股说明书披露时点的认缴出资比例。机构LP按直接合伙关系列示。",
       "generalPartners": [
         {
@@ -21124,7 +21127,18 @@
       ],
       "managerLegalName": "合肥兴泰资本管理有限公司",
       "filingCode": "SAPB18",
-      "creditCode": "91340111MADG24XP14"
+      "creditCode": "91340111MADG24XP14",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "date": "2024-12-31",
+        "dateKind": "披露统计截至日",
+        "partners": [
+          {
+            "name": "合肥市产业投资引导基金有限公司",
+            "paidCny": 98000000
+          }
+        ]
+      }
     },
     "partners": [
       {
@@ -21317,5 +21331,548 @@
       }
     ],
     "publishedStatistics": []
+  },
+  {
+    "fundId": "31ce83332152a99959d67310",
+    "fundName": "安徽省合庐产业新城城发一号产业投资基金合伙企业（有限合伙）",
+    "managerName": "安徽瑞木投资管理有限公司",
+    "managerId": "bb3cab77aed631ca7527d93a",
+    "sizeCny": 631000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf",
+      "date": "2023-07-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "珠海赛纬招股说明书",
+      "pages": "第59、67–68、77页",
+      "lpSources": [],
+      "lpScope": "按申报披露时点的认缴出资列示直接机构LP。",
+      "generalPartners": [
+        {
+          "name": "安徽瑞木投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "安徽瑞木投资管理有限公司",
+      "filingCode": "SVF615",
+      "creditCode": "91340124MA8NR9KH0K",
+      "paidContributionSource": {
+        "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf",
+        "date": "2023-07-25",
+        "dateKind": "公开文件披露日",
+        "partners": [],
+        "totalPaidCny": 631000000
+      }
+    },
+    "partners": [
+      {
+        "name": "安徽省合庐产业新城发展基金（有限合伙）",
+        "disclosedContributionCny": 220000000,
+        "disclosedPercent": "34.87",
+        "existingInstitution": "17af0076be01fa5b2a8a84b6"
+      },
+      {
+        "name": "淮南市兴淮产业投资促进基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 210000000,
+        "disclosedPercent": "33.28",
+        "existingInstitution": "c07eceafe51902b6ce25c49e"
+      },
+      {
+        "name": "合肥市产业投资引导基金有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "31.70",
+        "existingInstitution": "0e3bc4fbc06a75bb609b8b70"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "a72ab0fbd355ba99e1e20c08",
+    "fundName": "贵阳蜂巢申宏新能源绿色产业投资基金合伙企业（有限合伙）",
+    "managerName": "申银万国投资有限公司",
+    "managerId": "11e06747faa076f87060baba",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf",
+      "date": "2023-07-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "珠海赛纬招股说明书",
+      "pages": "第68、77页",
+      "lpSources": [],
+      "lpScope": "按申报披露时点的认缴出资列示直接机构LP。",
+      "generalPartners": [
+        {
+          "name": "申银万国投资有限公司",
+          "disclosedContributionCny": 100000000
+        }
+      ],
+      "managerLegalName": "申银万国投资有限公司",
+      "filingCode": "STL868",
+      "creditCode": "91520115MA7DPJKT4H"
+    },
+    "partners": [
+      {
+        "name": "贵阳产控资本有限公司",
+        "disclosedContributionCny": 275000000,
+        "disclosedPercent": "55.00",
+        "existingInstitution": "482732cf9a7bed582fb04881"
+      },
+      {
+        "name": "蜂巢能源科技股份有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "20.00",
+        "existingInstitution": "12b471f52fb2523040dde131"
+      },
+      {
+        "name": "常州市凯中投资有限公司",
+        "disclosedContributionCny": 25000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": "f32d5efdad2399f247f9f7a8"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "5ee71dbebd17407ae1e3122b",
+    "fundName": "合肥兴邦先进制造股权投资合伙企业（有限合伙）",
+    "managerName": "中信建投资本管理有限公司",
+    "managerId": "334e72b655bf123a47dd74d2",
+    "sizeCny": 1502000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf",
+      "date": "2023-07-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "珠海赛纬招股说明书",
+      "pages": "第72、77页",
+      "lpSources": [],
+      "lpScope": "按申报披露时点的认缴出资列示直接机构LP。",
+      "generalPartners": [
+        {
+          "name": "中信建投资本管理有限公司",
+          "disclosedContributionCny": 100000000
+        },
+        {
+          "name": "深圳国裕高华投资管理有限公司",
+          "disclosedContributionCny": 1000000
+        },
+        {
+          "name": "中投中财基金管理有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "中信建投资本管理有限公司",
+      "filingCode": "SJF233",
+      "creditCode": "91340100MA2T9FRY7L"
+    },
+    "partners": [
+      {
+        "name": "青岛海控联合产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 400000000,
+        "disclosedPercent": "26.63",
+        "existingInstitution": "ab0b903d0fba00f5de245cce"
+      },
+      {
+        "name": "中信重工机械股份有限公司",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "19.97",
+        "existingInstitution": "01d71b0f91ff0b8ba7e9813d"
+      },
+      {
+        "name": "合肥高新兴泰产业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "19.97",
+        "existingInstitution": "6f972442823d6ddd139098dd"
+      },
+      {
+        "name": "河南省豫投军民融合产业投资基金（有限合伙）",
+        "disclosedContributionCny": 300000000,
+        "disclosedPercent": "19.97",
+        "existingInstitution": "a24c6f3871694f4d7970e2db"
+      },
+      {
+        "name": "山西太钢创业投资有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "6.66",
+        "existingInstitution": "cf126cf1341d48349b3a2cae"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "bdbfd998709d9970b8248e33",
+    "fundName": "芜湖致远同舟股权投资合伙企业（有限合伙）",
+    "managerName": "招商致远资本投资有限公司",
+    "managerId": "e09b68176cdc203e12dbec1c",
+    "sizeCny": 40600000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 2,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf",
+      "date": "2023-07-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "珠海赛纬招股说明书",
+      "pages": "第73–74、77页",
+      "lpSources": [],
+      "lpScope": "按申报披露时点的认缴出资列示直接机构LP。",
+      "generalPartners": [
+        {
+          "name": "招商致远资本投资有限公司",
+          "disclosedContributionCny": 1000000
+        }
+      ],
+      "managerLegalName": "招商致远资本投资有限公司",
+      "filingCode": "SVG149",
+      "creditCode": "91340208MA2NWWRD10"
+    },
+    "partners": [
+      {
+        "name": "招商证券投资有限公司",
+        "disclosedContributionCny": 19300000,
+        "disclosedPercent": "47.54",
+        "existingInstitution": "644807373fef57c347186a85"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "c85f61cccd6a51f24a436381",
+    "fundName": "珠海招证冠智新能源产业创业投资合伙企业（有限合伙）",
+    "managerName": "招商致远资本投资有限公司",
+    "managerId": "e09b68176cdc203e12dbec1c",
+    "sizeCny": 207000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 15,
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202307/RAS_202307_80BC63524BEB41B493C9EFD5D5087200.pdf",
+      "date": "2023-07-25",
+      "dateKind": "公开文件披露日",
+      "issuer": "珠海赛纬招股说明书",
+      "pages": "第74–75、77页",
+      "lpSources": [],
+      "lpScope": "按申报披露时点的认缴出资列示直接机构LP。",
+      "generalPartners": [
+        {
+          "name": "招商致远资本投资有限公司",
+          "disclosedContributionCny": 32000000
+        }
+      ],
+      "managerLegalName": "招商致远资本投资有限公司",
+      "filingCode": "SVG305",
+      "creditCode": "91440400MA7KEU7Q3C"
+    },
+    "partners": [
+      {
+        "name": "宁波旭长朝企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "14.49",
+        "existingInstitution": "61c46b3d29eae0fa223d7721"
+      },
+      {
+        "name": "招商证券投资有限公司",
+        "disclosedContributionCny": 28000000,
+        "disclosedPercent": "13.53",
+        "existingInstitution": "644807373fef57c347186a85"
+      },
+      {
+        "name": "珠海冠智投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "9.66",
+        "existingInstitution": "6c0b863fcb7956a78a914d36"
+      },
+      {
+        "name": "珠海致远和赢投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 3500000,
+        "disclosedPercent": "1.69",
+        "existingInstitution": "ef75ca87d9b619a4572729a5"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "6f972442823d6ddd139098dd",
+    "fundName": "合肥高新兴泰产业投资基金合伙企业（有限合伙）",
+    "managerName": "合肥中合合悦私募基金管理有限公司",
+    "managerId": "7a3fa820a6896fbbb0b5518a",
+    "sizeCny": 5000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "兴泰控股2025年第二期债券募集说明书",
+      "pages": "第121–123页",
+      "lpSources": [],
+      "lpScope": "截至2024年末，出资方公开披露自身认缴及实缴。其余合伙人待核。",
+      "generalPartners": [],
+      "managerLegalName": "合肥中合合悦私募基金管理有限公司",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "date": "2024-12-31",
+        "dateKind": "披露统计截至日",
+        "partners": [
+          {
+            "name": "合肥市产业投资引导基金有限公司",
+            "paidCny": 268000000
+          }
+        ],
+        "totalPaidCny": 1084000000
+      }
+    },
+    "partners": [
+      {
+        "name": "合肥市产业投资引导基金有限公司",
+        "disclosedContributionCny": 1238000000,
+        "disclosedPercent": null,
+        "existingInstitution": "0e3bc4fbc06a75bb609b8b70"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2024-12-31",
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "fundedCny": 1084000000
+      }
+    ]
+  },
+  {
+    "fundId": "bf99e9320f925b3fbd91dcf8",
+    "fundName": "合肥兴泰慧科创业投资合伙企业（有限合伙）",
+    "managerName": "合肥兴泰资本管理有限公司",
+    "managerId": "9becbcca2f6408a2d3884a49",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "兴泰控股2025年第二期债券募集说明书",
+      "pages": "第121–123页",
+      "lpSources": [],
+      "lpScope": "截至2024年末，出资方公开披露自身认缴及实缴。其余合伙人待核。",
+      "generalPartners": [],
+      "managerLegalName": "合肥兴泰资本管理有限公司",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "date": "2024-12-31",
+        "dateKind": "披露统计截至日",
+        "partners": [
+          {
+            "name": "合肥市产业投资引导基金有限公司",
+            "paidCny": 63000000
+          }
+        ],
+        "totalPaidCny": 151000000
+      }
+    },
+    "partners": [
+      {
+        "name": "合肥市产业投资引导基金有限公司",
+        "disclosedContributionCny": 105000000,
+        "disclosedPercent": null,
+        "existingInstitution": "0e3bc4fbc06a75bb609b8b70"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2024-12-31",
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "fundedCny": 151000000
+      }
+    ]
+  },
+  {
+    "fundId": "8e01ee88ccfc4bb2c9935879",
+    "fundName": "国科新能（合肥）智能电动汽车创业投资合伙企业（有限合伙）",
+    "managerName": "合肥国科新能股权投资管理合伙企业（有限合伙）",
+    "managerId": "2ad22f82d3605a4b188c3007",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "兴泰控股2025年第二期债券募集说明书",
+      "pages": "第121–123页",
+      "lpSources": [],
+      "lpScope": "截至2024年末，出资方公开披露自身认缴及实缴。其余合伙人待核。",
+      "generalPartners": [],
+      "managerLegalName": "合肥国科新能股权投资管理合伙企业（有限合伙）",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "date": "2024-12-31",
+        "dateKind": "披露统计截至日",
+        "partners": [
+          {
+            "name": "合肥市产业投资引导基金有限公司",
+            "paidCny": 245000000
+          }
+        ],
+        "totalPaidCny": 1000000000
+      }
+    },
+    "partners": [
+      {
+        "name": "合肥市产业投资引导基金有限公司",
+        "disclosedContributionCny": 245000000,
+        "disclosedPercent": null,
+        "existingInstitution": "0e3bc4fbc06a75bb609b8b70"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2024-12-31",
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "fundedCny": 1000000000
+      }
+    ]
+  },
+  {
+    "fundId": "811cf77de47d51a9e435a605",
+    "fundName": "安徽鲁信皖禾科技创新创业股权投资基金（有限合伙）",
+    "managerName": "安徽鲁信私募股权投资基金管理有限公司",
+    "managerId": "c72e1a6810048753a46d6c81",
+    "sizeCny": 500000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "兴泰控股2025年第二期债券募集说明书",
+      "pages": "第121–123页",
+      "lpSources": [],
+      "lpScope": "截至2024年末，出资方公开披露自身认缴及实缴。其余合伙人待核。",
+      "generalPartners": [],
+      "managerLegalName": "安徽鲁信私募股权投资基金管理有限公司",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "date": "2024-12-31",
+        "dateKind": "披露统计截至日",
+        "partners": [
+          {
+            "name": "合肥市产业投资引导基金有限公司",
+            "paidCny": 120000000
+          }
+        ],
+        "totalPaidCny": 500000000
+      }
+    },
+    "partners": [
+      {
+        "name": "合肥市产业投资引导基金有限公司",
+        "disclosedContributionCny": 120000000,
+        "disclosedPercent": null,
+        "existingInstitution": "0e3bc4fbc06a75bb609b8b70"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2024-12-31",
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "fundedCny": 500000000
+      }
+    ]
+  },
+  {
+    "fundId": "8089b360942fc3d8f25b10e1",
+    "fundName": "安徽兴泰新研创新创业投资合伙企业（有限合伙）",
+    "managerName": "合肥兴泰资本管理有限公司",
+    "managerId": "9becbcca2f6408a2d3884a49",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "兴泰控股2025年第二期债券募集说明书",
+      "pages": "第121–123页",
+      "lpSources": [],
+      "lpScope": "截至2024年末，出资方公开披露自身认缴及实缴。其余合伙人待核。",
+      "generalPartners": [],
+      "managerLegalName": "合肥兴泰资本管理有限公司",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "date": "2024-12-31",
+        "dateKind": "披露统计截至日",
+        "partners": [
+          {
+            "name": "合肥市产业投资引导基金有限公司",
+            "paidCny": 30000000
+          }
+        ],
+        "totalPaidCny": 60000000
+      }
+    },
+    "partners": [
+      {
+        "name": "合肥市产业投资引导基金有限公司",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": null,
+        "existingInstitution": "0e3bc4fbc06a75bb609b8b70"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2024-12-31",
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "fundedCny": 60000000
+      }
+    ]
+  },
+  {
+    "fundId": "4bf342ae6f268f5e22046408",
+    "fundName": "安徽雏鹰红砖东方投资基金合伙企业（有限合伙）",
+    "managerName": "合肥兴泰资本管理有限公司",
+    "managerId": "9becbcca2f6408a2d3884a49",
+    "sizeCny": 200000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+      "date": "2025-05-22",
+      "dateKind": "公开文件披露日",
+      "issuer": "兴泰控股2025年第二期债券募集说明书",
+      "pages": "第121–123页",
+      "lpSources": [],
+      "lpScope": "截至2024年末，出资方公开披露自身认缴及实缴。其余合伙人待核。",
+      "generalPartners": [],
+      "managerLegalName": "合肥兴泰资本管理有限公司",
+      "paidContributionSource": {
+        "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "date": "2024-12-31",
+        "dateKind": "披露统计截至日",
+        "partners": [
+          {
+            "name": "合肥市产业投资引导基金有限公司",
+            "paidCny": 6000000
+          }
+        ],
+        "totalPaidCny": 60000000
+      }
+    },
+    "partners": [
+      {
+        "name": "合肥市产业投资引导基金有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": null,
+        "existingInstitution": "0e3bc4fbc06a75bb609b8b70"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2024-12-31",
+        "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf",
+        "fundedCny": 60000000
+      }
+    ]
   }
 ]
