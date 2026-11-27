@@ -23103,5 +23103,211 @@
         "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017A34A169F33FC77BE1E95217383F.pdf"
       ]
     }
+  },
+  {
+    "fundId": "a5aa63fed8b370eea01bde22",
+    "fundName": "先进制造产业投资基金（有限合伙）",
+    "managerId": "cc070776e701c9ff58fe78f8",
+    "managerName": "国投创新",
+    "sizeCny": 21700000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": null,
+    "partners": [
+      {
+        "name": "中华人民共和国财政部",
+        "disclosedContributionCny": 7700000000,
+        "disclosedPercent": "35.48",
+        "existingInstitution": "4ed5bb14a0acb59d8f10e24c"
+      },
+      {
+        "name": "国家开发投资集团有限公司",
+        "disclosedContributionCny": 4000000000,
+        "disclosedPercent": "18.43",
+        "existingInstitution": "f8d0214772925a353519ee37"
+      },
+      {
+        "name": "工银瑞信投资管理有限公司",
+        "disclosedContributionCny": 3480000000,
+        "disclosedPercent": "16.04",
+        "existingInstitution": "8974ffd8f0ae7bd57482257f"
+      },
+      {
+        "name": "江苏省政府投资基金（有限合伙）",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.61",
+        "existingInstitution": "5a73d13ddb9a7bf70b3cbfb4"
+      },
+      {
+        "name": "广东粤财投资控股有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.61",
+        "existingInstitution": "c3659bc4d1ed9285fc4bb3d0"
+      },
+      {
+        "name": "浙江省产业基金有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.61",
+        "existingInstitution": "0ae730250d325ac6a8bf44a5"
+      },
+      {
+        "name": "上海电气控股集团有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.61",
+        "existingInstitution": "c3456ba294ee4d091f3c100a"
+      },
+      {
+        "name": "辽宁金融控股集团有限公司",
+        "disclosedContributionCny": 1000000000,
+        "disclosedPercent": "4.61",
+        "existingInstitution": "169d3735ac8113106852a33d"
+      },
+      {
+        "name": "云南省投资控股集团有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "2.30",
+        "existingInstitution": "1c9efb8c432d0e558c3b6a56"
+      },
+      {
+        "name": "重庆两江新区承为股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "2.30",
+        "existingInstitution": "1744feb0ed28f363614804fd"
+      },
+      {
+        "name": "深圳市引导基金投资有限公司",
+        "disclosedContributionCny": 500000000,
+        "disclosedPercent": "2.30",
+        "existingInstitution": "3cc2447cbfd075fdad3c7776"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-24/1225026225.PDF#page=3",
+      "date": "2026-03-24",
+      "dateKind": "认缴规模公告日",
+      "issuer": "均胜电子交易公告",
+      "pages": "认缴和前三大LP见均胜电子公告PDF第3页。完整LP构成见2025年长风法律意见书正文第59页。",
+      "lpScope": "LP名单和出资额采用2025年9月公开披露。重庆承为更名为重庆两江新区承为私募股权投资基金合伙企业（有限合伙），沿用原机构链接。",
+      "managerLegalName": "国投创新投资管理有限公司",
+      "generalPartners": [
+        {
+          "name": "国投创新投资管理有限公司",
+          "disclosedContributionCny": 20000000,
+          "disclosedPercent": "0.09"
+        }
+      ],
+      "creditCode": "91310000342453915W",
+      "fundRegistration": "SJ9119",
+      "filingDate": "2016-06-27",
+      "managerRegistration": "P1000719",
+      "aliases": [
+        "国投先进制造产业投资基金（有限合伙）"
+      ],
+      "lpSources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0926/2025092600042_c.pdf#page=222",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0926/11855785/2025092600072_c.pdf#page=60"
+      ],
+      "lpAsOf": "2025-09-26",
+      "establishedDate": "2015-05-11",
+      "partnerIdentityEvidence": [
+        {
+          "nameUsedForLink": "重庆两江新区承为股权投资基金合伙企业（有限合伙）",
+          "reportedLegalName": "重庆两江新区承为私募股权投资基金合伙企业（有限合伙）",
+          "creditCode": "91500000MA5U67L09B",
+          "source": [
+            "https://static.cninfo.com.cn/finalpage/2019-12-21/1207182201.PDF",
+            "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1211/11951810/2025121100032_c.pdf"
+          ]
+        }
+      ],
+      "confirmedTopLpPercent2026": {
+        "中华人民共和国财政部": "35.4839",
+        "国家开发投资集团有限公司": "18.4332",
+        "工银瑞信投资管理有限公司": "16.0369"
+      },
+      "historicalLpDisclosures": [
+        {
+          "asOf": "2023-06-09",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202306/001834_20230609_HK5R.pdf#page=57",
+          "capitalBasis": "认缴规模",
+          "registeredCny": 22000000000,
+          "partners": [
+            {
+              "name": "中华人民共和国财政部",
+              "disclosedContributionCny": 8000000000,
+              "disclosedPercent": "36.36",
+              "existingInstitution": "4ed5bb14a0acb59d8f10e24c"
+            },
+            {
+              "name": "国家开发投资集团有限公司",
+              "disclosedContributionCny": 4000000000,
+              "disclosedPercent": "18.18",
+              "existingInstitution": "f8d0214772925a353519ee37"
+            },
+            {
+              "name": "工银瑞信投资管理有限公司",
+              "disclosedContributionCny": 3480000000,
+              "disclosedPercent": "15.82",
+              "existingInstitution": "8974ffd8f0ae7bd57482257f"
+            },
+            {
+              "name": "江苏省政府投资基金（有限合伙）",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": "4.55",
+              "existingInstitution": "5a73d13ddb9a7bf70b3cbfb4"
+            },
+            {
+              "name": "广东粤财投资控股有限公司",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": "4.55",
+              "existingInstitution": "c3659bc4d1ed9285fc4bb3d0"
+            },
+            {
+              "name": "浙江省产业基金有限公司",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": "4.55",
+              "existingInstitution": "0ae730250d325ac6a8bf44a5"
+            },
+            {
+              "name": "上海电气控股集团有限公司",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": "4.55",
+              "existingInstitution": "c3456ba294ee4d091f3c100a"
+            },
+            {
+              "name": "辽宁省产业（创业）投资引导基金管理中心",
+              "disclosedContributionCny": 1000000000,
+              "disclosedPercent": "4.55",
+              "existingInstitution": "eb9a8f3a95e2f3c8a1478698"
+            },
+            {
+              "name": "云南省投资控股集团有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": "2.27",
+              "existingInstitution": "1c9efb8c432d0e558c3b6a56"
+            },
+            {
+              "name": "重庆两江新区承为股权投资基金合伙企业（有限合伙）",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": "2.27",
+              "existingInstitution": "1744feb0ed28f363614804fd"
+            },
+            {
+              "name": "深圳市引导基金投资有限公司",
+              "disclosedContributionCny": 500000000,
+              "disclosedPercent": "2.27",
+              "existingInstitution": "3cc2447cbfd075fdad3c7776"
+            }
+          ],
+          "generalPartners": [
+            {
+              "name": "国投创新投资管理有限公司",
+              "disclosedContributionCny": 20000000,
+              "disclosedPercent": "0.09"
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
