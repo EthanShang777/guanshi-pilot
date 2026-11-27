@@ -62,5 +62,13 @@
     "expected_country": "",
     "country": "开曼群岛",
     "source": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102846.PDF"
+  },
+  {
+    "event_id": "registry:190",
+    "company_id": "co:full_legal_name:e8801ff093f118e8f553d3c984da1c61",
+    "company_name": "Horizon Robotics",
+    "expected_country": "中国",
+    "country": "开曼群岛",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1023/2024102300944_c.pdf#page=1"
   }
 ]

@@ -8868,5 +8868,31 @@
       "date_kind": "出资协议及股东大会日，7月1日全额付款",
       "valuation": "3176000273.3元（投后）"
     }
+  },
+  {
+    "event_id": "financing_event:a1264227eb2810ed8e6fa581fda781328df48bcecea11092f564b170307d96ec",
+    "company_id": "co:full_legal_name:b5837543b47b431dffe50fde6c8cd0a6",
+    "day": "2020-12-31",
+    "source": "https://stock.tianyancha.com/Announcement/eastmoney/d304f0c3322e96d4796a098002205bc7.pdf#page=40",
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf",
+      "https://pitchhub.36kr.com/project/1818808721461381"
+    ],
+    "expected": {
+      "round": "C轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"华桐创投\",\"role\":null,\"amount\":null},{\"name\":\"海邦投资\",\"role\":null,\"amount\":null}]",
+      "date": "2020-12-31",
+      "date_key": "2020-12-31",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "C轮",
+      "amount": "62791338元",
+      "investors_json": "[{\"name\":\"宁波华桐恒越创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1200000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"宁波海邦智合创业投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"徐玲希\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":800000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"杨戎冰\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":800000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"翁晓冬\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":600000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"关奇汉\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":539000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"吴欣荣\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":400000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"江英\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":400000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"张曙\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":200000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"任冬友\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":200000000,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}},{\"name\":\"张发饶\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":140133800,\"basis\":\"认购金额\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202202211548337735_1.pdf\"}}]",
+      "date": "2020-06-05",
+      "date_key": "2020-06-05",
+      "date_kind": "发行人完成本次增资的工商登记日"
+    }
   }
 ]
