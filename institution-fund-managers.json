@@ -3597,5 +3597,17 @@
   "宁波甬才股权投资合伙企业（有限合伙）": {
     "brand": "宁波通商基金管理有限公司",
     "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2312191936100283.html"
+  },
+  "宁波赛智韵升创业投资合伙企业（有限合伙）": {
+    "brand": "宁波赛智慧金创业投资管理有限公司",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/1706091659109405.html"
+  },
+  "宁波华桐恒越创业投资合伙企业（有限合伙）": {
+    "brand": "华桐创投",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/1808061048108848.html"
+  },
+  "宁波海邦智合创业投资合伙企业（有限合伙）": {
+    "brand": "海邦投资",
+    "source": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2001201714104010.html"
   }
 }

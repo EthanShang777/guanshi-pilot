@@ -23660,5 +23660,218 @@
       "gpRoleVerifiedAt": "2026-09-15",
       "gpRoleSource": "https://static.cninfo.com.cn/finalpage/2026-09-15/1225563720.PDF"
     }
+  },
+  {
+    "fundId": "4e8326f0983c518ef69e263a",
+    "fundName": "宁波赛智韵升创业投资合伙企业（有限合伙）",
+    "managerId": "b5d6f4bc18ce4d0b0fcc1239",
+    "managerName": "宁波赛智慧金创业投资管理有限公司",
+    "sizeCny": 149000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 10,
+    "partners": [
+      {
+        "name": "宁波优越投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "13.42",
+        "existingInstitution": "14c74daa8d060cee23f4ecf6"
+      },
+      {
+        "name": "宁波韵升股份有限公司",
+        "disclosedContributionCny": 16500000,
+        "disclosedPercent": "11.07",
+        "existingInstitution": "441d3c7fa600b80ad00278fb"
+      },
+      {
+        "name": "镇海石化海达发展有限责任公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "6.71",
+        "existingInstitution": "d79c035db09437a9fcf1719d"
+      },
+      {
+        "name": "宁波创业风险投资有限公司",
+        "disclosedContributionCny": 7500000,
+        "disclosedPercent": "5.03",
+        "existingInstitution": "78d5cade6718dedaabdda627"
+      },
+      {
+        "name": "杭州朴树文化发展合伙企业（有限合伙）",
+        "disclosedContributionCny": 5250000,
+        "disclosedPercent": "3.52",
+        "existingInstitution": "c38012f6b8c054c8f1870340"
+      },
+      {
+        "name": "杭州灵峰赛伯乐创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 3750000,
+        "disclosedPercent": "2.52",
+        "existingInstitution": "8b696c4ad63e53294dad7c70"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202508051721924418_1.pdf#page=44",
+      "date": "2025-08-05",
+      "dateKind": "公开披露日",
+      "issuer": "能之光招股说明书",
+      "lpScope": "原始文件披露全体LP的认缴。公开档案列机构LP，其余人数与认缴合计可回查。",
+      "generalPartners": [
+        {
+          "name": "宁波赛智慧金创业投资管理有限公司",
+          "disclosedContributionCny": 1500000,
+          "disclosedPercent": "1.01",
+          "existingInstitution": "b5d6f4bc18ce4d0b0fcc1239"
+        }
+      ],
+      "naturalLpSubscribedTotalCny": 84500000,
+      "managerLegalName": "宁波赛智慧金创业投资管理有限公司",
+      "managerRegistration": "P1062483",
+      "currentRegisteredName": "宁波赛智韵升创业投资合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/1706091659109405.html",
+      "fundRegistration": "ST2486",
+      "filingDate": "2017-06-12",
+      "fundEstablishedDate": "2016-03-28",
+      "fundType": "创业投资基金",
+      "custodian": "中国工商银行股份有限公司",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "creditCode": "91330201MA281NP3X7",
+      "establishedDate": "2016-03-28",
+      "aliases": [
+        "宁波赛伯乐韵升新材料创业投资合伙企业（有限合伙）"
+      ],
+      "beneficiaryEvidence": "发行人招股说明书披露赛智韵升为历史股东，未列入本次战略配售。"
+    }
+  },
+  {
+    "fundId": "22e623464519ab7368151398",
+    "fundName": "宁波华桐恒越创业投资合伙企业（有限合伙）",
+    "managerId": "8dbb4463fdd51e20c328b81f",
+    "managerName": "华桐创投",
+    "sizeCny": 104001000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 8,
+    "partners": [
+      {
+        "name": "宁波工业投资集团有限公司",
+        "disclosedContributionCny": 26000000,
+        "disclosedPercent": "25.0000",
+        "existingInstitution": "4e2277adcff7c654eecc0b17"
+      },
+      {
+        "name": "宁波市电子工业资产经营有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "19.2306",
+        "existingInstitution": "a7e6a617ae1ba26cad55d063"
+      },
+      {
+        "name": "宁波东元创业投资有限公司",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "14.4229",
+        "existingInstitution": "99d8c833cf89d84398b8fe67"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-08-27/1224581274.PDF",
+      "date": "2025-08-27",
+      "dateKind": "公开披露日",
+      "issuer": "必易微收购公告",
+      "lpScope": "原始文件披露全体LP的认缴。公开档案列机构LP，其余人数与认缴合计可回查。",
+      "generalPartners": [
+        {
+          "name": "宁波华桐创业投资管理有限公司",
+          "disclosedContributionCny": 1501000,
+          "disclosedPercent": "1.4433",
+          "existingInstitution": "8dbb4463fdd51e20c328b81f"
+        }
+      ],
+      "naturalLpSubscribedTotalCny": 41500000,
+      "managerLegalName": "宁波华桐创业投资管理有限公司",
+      "managerRegistration": "P1031861",
+      "currentRegisteredName": "宁波华桐恒越创业投资合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/1808061048108848.html",
+      "fundRegistration": "SEE144",
+      "filingDate": "2018-08-06",
+      "fundEstablishedDate": "2018-06-19",
+      "fundType": "创业投资基金",
+      "custodian": "中国建设银行股份有限公司",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "managerAliasSource": "https://static.cninfo.com.cn/finalpage/2022-01-01/1212075968.PDF",
+      "creditCode": "91330206MA2CHC146A",
+      "establishedDate": "2018-06-19",
+      "priorLpSource": "https://stock.tianyancha.com/Announcement/eastmoney/d304f0c3322e96d4796a098002205bc7.pdf",
+      "priorLpScope": "较早能之光法律意见书的机构与个人LP计数不同，本披露以2025年必易微新公告为准。"
+    }
+  },
+  {
+    "fundId": "c0c08d63d68888c724a5aebc",
+    "fundName": "宁波海邦智合创业投资合伙企业（有限合伙）",
+    "managerId": "1d4b88c8445c57cb8fc47c12",
+    "managerName": "海邦投资",
+    "sizeCny": 202100000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "partners": [
+      {
+        "name": "宁波沣华智合创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 85100000,
+        "disclosedPercent": "42.11",
+        "existingInstitution": "4da1d5fb45034a619b765244"
+      },
+      {
+        "name": "宁波东投创达投资有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "24.74",
+        "existingInstitution": "b5c25fa54792f68b4f2b8f74"
+      },
+      {
+        "name": "宁波市创业投资引导基金管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "24.74",
+        "existingInstitution": "2494814c3a1a7aefa091854f"
+      },
+      {
+        "name": "新和成控股集团有限公司",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "7.42",
+        "existingInstitution": "0dcfc79a86fce31ba1e215c2"
+      }
+    ],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_B6FC08D70674410EB74C2447ED052DEF.pdf#page=43",
+      "date": "2023-06-28",
+      "dateKind": "公开披露日",
+      "issuer": "宁波华瓷招股说明书",
+      "lpScope": "原始文件披露全体LP的认缴。公开档案列机构LP，其余人数与认缴合计可回查。",
+      "generalPartners": [
+        {
+          "name": "杭州海邦沣华投资管理有限公司",
+          "disclosedContributionCny": 2000000,
+          "disclosedPercent": "0.99",
+          "existingInstitution": "37a83a064229c08db74491bb"
+        }
+      ],
+      "naturalLpSubscribedTotalCny": 0,
+      "managerLegalName": "浙江海邦私募基金管理有限公司",
+      "managerRegistration": "P1065980",
+      "currentRegisteredName": "宁波海邦智合创业投资合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2001201714104010.html",
+      "fundRegistration": "SJN231",
+      "filingDate": "2020-01-20",
+      "fundEstablishedDate": "2019-12-17",
+      "fundType": "创业投资基金",
+      "custodian": "中信银行股份有限公司",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "managerFormerName": "浙江海邦投资管理有限公司",
+      "managerAliasSource": "https://dataclouds.cninfo.com.cn/sjother2/documents/2025/20251114/3f96e86cd3d148db95c3025f5f04ef4e.pdf",
+      "creditCode": "91330212MA2GT6FB58",
+      "establishedDate": "2019-08-06",
+      "separateFromOldSeller": "宁波海邦人才创业投资合伙企业（有限合伙）",
+      "lpSources": [
+        "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202306/RAS_202306_B6FC08D70674410EB74C2447ED052DEF.pdf#page=44",
+        "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2984/site/attach/0/d3702f710cdd45cda04604758d561d2f.pdf"
+      ],
+      "lpIdentityScope": "宁波市政府明确引导基金以托管机构资本金形式存续。LP法律名称沿用披露，回链保留既有基金档案。"
+    }
   }
 ]
