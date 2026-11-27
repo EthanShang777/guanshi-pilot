@@ -5180,5 +5180,92 @@
     "sources": [
       "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/730b827ad81775470c8df1a923970f75.pdf"
     ]
+  },
+  "9219963c20dc25ebcd54e554": {
+    "name": "滨海海上风电",
+    "registeredName": "国家电投集团滨海海上风力发电有限公司",
+    "aliases": [
+      "中电投滨海海上风力发电有限公司",
+      "国电投滨海海风"
+    ],
+    "sources": [
+      "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-11-29/508028_20241129_AIFK.pdf"
+    ]
+  },
+  "fd0b0c7be60e4e90813a64bc": {
+    "name": "中化能源",
+    "registeredName": "中化能源股份有限公司",
+    "aliases": [],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202102091460413689_1.pdf"
+    ]
+  },
+  "cf61f8945b8ab74f8eaaf447": {
+    "name": "柳工有限",
+    "registeredName": "广西柳工集团机械有限公司",
+    "aliases": [
+      "广西柳工集团机械",
+      "柳工混改主体"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-11-17/1211604407.PDF"
+    ]
+  },
+  "9c31e86390ca6bfdd67a91a2": {
+    "name": "柳工股份",
+    "registeredName": "广西柳工机械股份有限公司",
+    "aliases": [
+      "柳工",
+      "000528"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2023-04-19/1216454125.PDF"
+    ]
+  },
+  "c2a32c914c85b456ff97a24c": {
+    "name": "新晶集成",
+    "registeredName": "合肥新晶集成电路有限公司",
+    "aliases": [
+      "合肥新晶",
+      "晶合集成二厂"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202206/000872_20220614_RL1T.pdf"
+    ]
+  },
+  "650c579b3b3f61398d3dd694": {
+    "name": "皖芯集成",
+    "registeredName": "合肥皖芯集成电路有限公司",
+    "aliases": [
+      "合肥皖芯",
+      "晶合集成三期"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2025-04-21/1223174863.PDF"
+    ]
+  },
+  "b35c2213d07c32751a469c0c": {
+    "name": "晶合集成",
+    "registeredName": "合肥晶合集成电路股份有限公司",
+    "aliases": [
+      "合肥晶合集成电路有限公司",
+      "Nexchip",
+      "688249",
+      "02249"
+    ],
+    "sources": [
+      "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-05-04/688249_20230504_I90B.pdf"
+    ]
+  },
+  "fa3c879d0479f7c2dabc5cfd": {
+    "name": "首钢智新",
+    "registeredName": "首钢智新电磁材料（迁安）股份有限公司",
+    "aliases": [
+      "首钢智新迁安电磁材料有限公司",
+      "智新电磁"
+    ],
+    "sources": [
+      "https://static.cninfo.com.cn/finalpage/2021-09-18/1211094974.PDF"
+    ]
   }
 }
