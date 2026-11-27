@@ -5624,5 +5624,84 @@
     "sources": [
       "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-05-22/243035_20250522_15NN.pdf"
     ]
+  },
+  "02ee46ef063f016679ee524e": {
+    "name": "蜂巢能源",
+    "registeredName": "蜂巢能源科技股份有限公司",
+    "aliases": [
+      "蜂巢能源科技有限公司",
+      "SVOLT"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf"
+    ]
+  },
+  "bbf38c8a6d57dc844f899abc": {
+    "name": "无锡蜂巢",
+    "registeredName": "蜂巢能源科技（无锡）有限公司",
+    "aliases": [
+      "无锡市精普机械有限公司"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf"
+    ]
+  },
+  "ca33355506723e2776b7e81c": {
+    "name": "威蜂动力",
+    "registeredName": "江苏威蜂动力工业有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf"
+    ]
+  },
+  "a31ead2997d7a27fb2e0b62e": {
+    "name": "湖州蜂巢",
+    "registeredName": "蜂巢能源科技（湖州）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf"
+    ]
+  },
+  "d6c900786f31c7542d46bcf9": {
+    "name": "武汉蜂巢",
+    "registeredName": "蜂巢能源（武汉）有限公司",
+    "aliases": [
+      "中兴高能技术有限责任公司"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf"
+    ]
+  },
+  "089922e6bf4c967d38015a88": {
+    "name": "广西天源",
+    "registeredName": "广西天源新能源材料有限公司",
+    "aliases": [
+      "Guangxi Tianyuan New Energy Materials Co., Ltd.",
+      "广西雅保锂业有限公司"
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/915913/000091591323000180/alb-20230930.htm"
+    ]
+  },
+  "284a034b90c42f5bc98bedbd": {
+    "name": "鹿山新材",
+    "registeredName": "广州鹿山新材料股份有限公司",
+    "aliases": [
+      "广州市鹿山化工材料有限公司"
+    ],
+    "sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202203151552652693_1.pdf"
+    ]
+  },
+  "ca11e7274bb27454871a763c": {
+    "name": "豪特节能",
+    "registeredName": "广州豪特节能环保科技股份有限公司",
+    "aliases": [
+      "广州豪特",
+      "广州豪特电器设备有限公司"
+    ],
+    "sources": [
+      "https://qccdata.qichacha.com/ReportData/PDF/70d958bdb9179c207f135bb49c817e48.pdf"
+    ]
   }
 }

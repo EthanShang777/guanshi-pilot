@@ -21874,5 +21874,192 @@
         "fundedCny": 60000000
       }
     ]
+  },
+  {
+    "fundId": "0ca383187d6d12add47cdd6d",
+    "fundName": "天津鼎晖洪立股权投资合伙企业（有限合伙）",
+    "managerName": "鼎晖股权投资管理（天津）有限公司",
+    "managerId": "63473abf243b5917be62f9c4",
+    "sizeCny": 402510000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf",
+      "date": "2022-11-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "蜂巢能源招股说明书",
+      "pages": "第111、133页",
+      "lpSources": [],
+      "lpScope": "招股书披露的出资方比例。",
+      "generalPartners": [
+        {
+          "name": "鼎晖股权投资管理（天津）有限公司",
+          "disclosedPercent": "0.0025"
+        }
+      ],
+      "managerLegalName": "鼎晖股权投资管理（天津）有限公司",
+      "filingCode": "STK227"
+    },
+    "partners": [
+      {
+        "name": "厦门鼎晖景淳股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "90.0475",
+        "existingInstitution": "851df2769439dac10d012553"
+      },
+      {
+        "name": "北海祖龙创业投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "9.9500",
+        "existingInstitution": "d6dc70ce0ee6c12cadc5a407"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "6ee861fe733ecd091dc22327",
+    "fundName": "杭州海亮九智股权投资合伙企业（有限合伙）",
+    "managerName": "杭州九智投资管理有限公司",
+    "managerId": "5a51115c596024460daf4e75",
+    "sizeCny": 501000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf",
+      "date": "2022-11-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "蜂巢能源招股说明书",
+      "pages": "第111–112、133页",
+      "lpSources": [],
+      "lpScope": "按招股书披露出资比例。",
+      "generalPartners": [
+        {
+          "name": "杭州九智投资管理有限公司",
+          "disclosedPercent": "0.3992"
+        }
+      ],
+      "managerLegalName": "杭州九智投资管理有限公司",
+      "filingCode": "STF889"
+    },
+    "partners": [
+      {
+        "name": "杭州长智企业管理有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "34.9301",
+        "existingInstitution": "dfbfbf2edb90a5285025b180"
+      },
+      {
+        "name": "浙江海亮股份有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "19.9601",
+        "existingInstitution": "e08fe6e637ad010668a10805"
+      },
+      {
+        "name": "杭州蜂能汲智企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "15.1697",
+        "existingInstitution": "d2a91685aff533411f3132c8"
+      },
+      {
+        "name": "杭州金研学而拾昊股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "14.9701",
+        "existingInstitution": "7b4eec8ace1248dc38f33374"
+      },
+      {
+        "name": "杭州仑智股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "6.9860",
+        "existingInstitution": "6b502b3c36f018105af2a10e"
+      },
+      {
+        "name": "杭州越智一期股权投资合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "5.9880",
+        "existingInstitution": "cefaf908a8af08c8c245a6c4"
+      },
+      {
+        "name": "杭州汕智企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "1.5968",
+        "existingInstitution": "fa173efaef7bd48a14c71f49"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "e896931307ea9e1bcb8cb496",
+    "fundName": "湖州锦誉股权投资合伙企业（有限合伙）",
+    "managerName": "湖州锦富股权投资基金管理有限公司",
+    "managerId": "acc8b92a8fff6d2bfab88bf2",
+    "sizeCny": 1000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf",
+      "date": "2022-11-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "蜂巢能源招股说明书",
+      "pages": "第125、134页",
+      "lpSources": [],
+      "lpScope": "按招股书披露出资比例。",
+      "generalPartners": [
+        {
+          "name": "湖州锦富股权投资基金管理有限公司",
+          "disclosedPercent": "2.00"
+        }
+      ],
+      "managerLegalName": "湖州锦富股权投资基金管理有限公司",
+      "filingCode": "SSL977"
+    },
+    "partners": [
+      {
+        "name": "湖州锦实股权投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "98.00",
+        "existingInstitution": "8d6e387b687d27e0eeaf1f18"
+      }
+    ],
+    "publishedStatistics": []
+  },
+  {
+    "fundId": "7437a26af1b253ebed4df70b",
+    "fundName": "鲁优（淄博）股权投资基金合伙企业（有限合伙）",
+    "managerName": "优势金控（上海）资产管理有限公司",
+    "managerId": "186d6cd539dfb11aaceb05ef",
+    "sizeCny": 100000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202211/001266_20221118_4XZH.pdf",
+      "date": "2022-11-18",
+      "dateKind": "公开文件披露日",
+      "issuer": "蜂巢能源招股说明书",
+      "pages": "第125–126、134页",
+      "lpSources": [],
+      "lpScope": "按招股书披露出资比例。",
+      "generalPartners": [
+        {
+          "name": "优势金控（上海）资产管理有限公司",
+          "disclosedPercent": "1.00"
+        }
+      ],
+      "managerLegalName": "优势金控（上海）资产管理有限公司"
+    },
+    "partners": [
+      {
+        "name": "山东恒燊投资有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "50.00",
+        "existingInstitution": "e5021c0a1229ca1657c95a46"
+      },
+      {
+        "name": "上海初景企业管理中心（有限合伙）",
+        "disclosedContributionCny": null,
+        "disclosedPercent": "49.00",
+        "existingInstitution": "d7e0e2fc9f997d54b4e99fcd"
+      }
+    ],
+    "publishedStatistics": []
   }
 ]

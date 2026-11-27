@@ -55,7 +55,7 @@
   },
   {
     "event_id": "financing_event:826f7b529514ac5a2903352996538767738d9d6d06684a03cdbab5ac52bfe9ad",
-    "company_id": "co:full_legal_name:01ff8323bb05cd3a3f0fb342db5ad3f5",
+    "company_id": "co:full_legal_name:41355279b63a8cfe0eefeae8579ee6f0",
     "day": "2026-10-28",
     "round": "B轮",
     "source": "https://www.neuroxess.com/news/naohukejiwancheng7yiyuanblunrongziguotoujulishenchuangtouyuqinzhizibenlingtou/",
@@ -137,7 +137,7 @@
   {
     "event_id": "financing_event:43c13b1bad41ffc421b2f3e90c43e47afde719c74eed15d11355d9eca09d7c65",
     "company_id": "co:cn_uscc:83778fe4512c65bc9ab3f36e098864cf",
-    "day": "",
+    "day": "2026-11-17",
     "round": "第二轮外部融资",
     "source": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
     "expected": "",
