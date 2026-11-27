@@ -10161,6 +10161,49 @@
       },
       "retired_deal_redirects": {},
       "batch": "historical-financing/2026-11-27-jifeng-guoyi-network-199.csv"
+    },
+    {
+      "institution": "国仪量子技术（合肥）股份有限公司",
+      "checked_on": "2026-11-27",
+      "scope": "沿国仪量子股东、受让基金及参控股公司回查投资与机构 LP",
+      "sources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002112_20260512_ZBVC.pdf",
+        "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
+      ],
+      "notes": [
+        {
+          "subject": "国仪量子技术（合肥）股份有限公司",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf",
+          "result": "2025-04-30挂牌成交，11方431.97万股，按公开报价328.13元/股计算。5月股本转增不作为新融资。"
+        },
+        {
+          "subject": "国仪量子关联被投企业",
+          "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002112_20260512_ZBVC.pdf",
+          "result": "两笔收购、一笔交割、一笔老股权益变动及三项可独立确认的融资或出资按交易方式及日期口径分别核验。国仪精测的收购事项用法律意见书披露月份。"
+        },
+        {
+          "subject": "国仪量子私募基金股东",
+          "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
+          "result": "12只基金核验备案管理人、认缴规模与机构LP。普通合伙人与备案管理人保留原有各自口径。"
+        }
+      ],
+      "events": {
+        "国仪量子产权挂牌转让": "715fbb28a658e73d7f51efec",
+        "纳境粒子100%股权交割": "657198a30fe8db22054369a4",
+        "海旷达56%股权交割": "cdca98d7cfe452fad5e77a01",
+        "国仪精测36%股权转让": "60e6013d1ef5bc107a571a65",
+        "国仪计测17.56%股权转让": "535e6f64cda2cc4676858792",
+        "国仪量子参股昕磁科技": "ff0677768cbaa9d8acd34b70",
+        "国仪量子参股科大硅谷": "fbaeeabeb8de8844c0debc03",
+        "国仪清能售后回租": "05311110ebec42df9ce2954a",
+        "国仪大科旧股": "60820086541fa6c7da6e7a90",
+        "国仪国风投新投融智旧股": "dc87a1094633f7629c3f3ca3",
+        "国仪B轮增资": "0dc30cd39d91713b6caf00ab",
+        "国仪C轮增资": "9c0e645390b34e40ec47118d"
+      },
+      "retired_deal_redirects": {},
+      "batch": "historical-financing/2026-11-27-guoyi-portfolio-network-200.csv"
     }
   ]
 }

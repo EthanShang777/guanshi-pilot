@@ -5460,7 +5460,8 @@
       "国仪量子（合肥）技术有限公司",
       "国仪公司",
       "688828",
-      "CIQTEK"
+      "CIQTEK",
+      "合肥国仪量子"
     ],
     "sources": [
       "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf",
@@ -5488,6 +5489,68 @@
     ],
     "sources": [
       "https://dataclouds.cninfo.com.cn/sjother/ipo_data/zjh_publish/6aae0510f64b11ed9f61fa163ebe0297.pdf"
+    ]
+  },
+  "77a20caf5ac5b3bd84c41723": {
+    "name": "纳境粒子",
+    "registeredName": "国仪量子技术（广州）有限公司",
+    "aliases": [
+      "纳境鼎新粒子科技（广州）有限公司"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf"
+    ]
+  },
+  "554abc441aaba9c864f0b313": {
+    "name": "海旷达科技",
+    "registeredName": "合肥海旷达科技有限公司",
+    "aliases": [
+      "合肥国仪海聚科技有限公司"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf"
+    ]
+  },
+  "8ca42ba585599455099a68aa": {
+    "name": "国仪精测",
+    "registeredName": "北京国仪精测技术有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002112_20260512_ZBVC.pdf"
+    ]
+  },
+  "0a75fc3a9ac65410606945a6": {
+    "name": "国仪计测",
+    "registeredName": "国仪计测（深圳）量子科技有限公司",
+    "aliases": [
+      "国仪深圳"
+    ],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf"
+    ]
+  },
+  "6fe1fa217cd9db7301aa0cc8": {
+    "name": "昕磁科技",
+    "registeredName": "昕磁科技（重庆）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202604/002112_20260430_1A4L.pdf"
+    ]
+  },
+  "a320f58629c1991ca5fd39ff": {
+    "name": "科大硅谷",
+    "registeredName": "科大硅谷服务平台（安徽）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002112_20260512_ZBVC.pdf"
+    ]
+  },
+  "971bdeda12950c291c8a49a6": {
+    "name": "国仪清能",
+    "registeredName": "国仪清能科技（重庆）有限公司",
+    "aliases": [],
+    "sources": [
+      "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260430/555a718cc1d240b78d8495f4394b08f3.pdf"
     ]
   }
 }
