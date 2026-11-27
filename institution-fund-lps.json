@@ -23309,5 +23309,181 @@
         }
       ]
     }
+  },
+  {
+    "fundId": "2a2d910167815d55b610ddb5",
+    "fundName": "宁波通高股权投资合伙企业（有限合伙）",
+    "managerId": "f6520a8999468f46bc47d4ba",
+    "managerName": "宁波通商基金管理有限公司",
+    "sizeCny": 1000600000,
+    "capitalBasis": "工商登记出资额",
+    "otherLpCount": null,
+    "partners": [],
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2024-03-05/1219230677.PDF#page=2",
+      "date": "2024-03-05",
+      "dateKind": "公开文件披露日",
+      "issuer": "均胜电子交易公告",
+      "pages": "PDF第2页与基金业协会备案公示。",
+      "lpScope": "已披露执行事务合伙人。LP名单和各方认缴、实缴额度待核。",
+      "managerLegalName": "宁波通商基金管理有限公司",
+      "managerRegistration": "P1069609",
+      "managerRegistrationSource": "https://static.sse.com.cn/stock/disclosure/announcement/c/202212/001346_20221222_7TLM.pdf",
+      "generalPartners": [
+        {
+          "name": "宁波通商基金管理有限公司",
+          "disclosedContributionCny": null,
+          "disclosedPercent": null
+        }
+      ],
+      "currentRegisteredName": "宁波通高股权投资合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2402281931125902.html",
+      "fundRegistration": "SAGR47",
+      "filingDate": "2024-02-29",
+      "fundEstablishedDate": "2024-01-24",
+      "fundType": "股权投资基金",
+      "custodian": "中国工商银行股份有限公司",
+      "fundOperationState": "正在运作",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "reportedPaidInThreshold": [],
+      "creditCode": "91330201MADB2R5L9X",
+      "establishedDate": "2024-01-24"
+    }
+  },
+  {
+    "fundId": "66803b2f874c36e15af3cc0e",
+    "fundName": "宁波市甬宁基建投资合伙企业（有限合伙）",
+    "managerId": "f6520a8999468f46bc47d4ba",
+    "managerName": "宁波通商基金管理有限公司",
+    "sizeCny": 30000000000,
+    "capitalBasis": "认缴规模",
+    "otherLpCount": null,
+    "partners": [
+      {
+        "name": "宁波通商控股集团有限公司",
+        "disclosedContributionCny": null,
+        "disclosedPercent": null,
+        "existingInstitution": "601f15781840550bbe55b88f"
+      },
+      {
+        "name": "宁波市轨道交通集团有限公司",
+        "disclosedContributionCny": 4500000000,
+        "disclosedPercent": null,
+        "existingInstitution": "2d2e312b8d58ac110fab190e"
+      },
+      {
+        "name": "宁波交通投资集团有限公司",
+        "disclosedContributionCny": 3000000000,
+        "disclosedPercent": null,
+        "existingInstitution": "c70b4c518bd5b315c3ca3136"
+      },
+      {
+        "name": "宁兴集团（宁波）有限公司",
+        "disclosedContributionCny": 900000000,
+        "disclosedPercent": null,
+        "existingInstitution": "5e46f48a9f8cb19d3a67bbfd"
+      }
+    ],
+    "publishedStatistics": [
+      {
+        "asOf": "2025-09-30",
+        "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/0599dfe2072fb9134c886c92f77bca48.pdf#page=27",
+        "fundedCny": 2247173900,
+        "subscribedCny": 30000000000
+      }
+    ],
+    "source": {
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-31/244041_20251031_V2OB.pdf#page=31",
+      "date": "2025-10-31",
+      "dateKind": "公开文件披露日",
+      "issuer": "宁兴集团上交所发行文件",
+      "pages": "PDF第31–32页。跨源LP明细按各自披露时点，基金实缴见交投后续发行文件PDF第27页。",
+      "lpScope": "中基协备案现名为宁波市甬宁基金合伙企业（有限合伙）。LP名单按公开文件收录。部分认缴口径合计与300亿元有差异，待合伙协议确认。",
+      "managerLegalName": "宁波通商基金管理有限公司",
+      "managerRegistration": "P1069609",
+      "managerRegistrationSource": "https://static.sse.com.cn/stock/disclosure/announcement/c/202212/001346_20221222_7TLM.pdf",
+      "generalPartners": [
+        {
+          "name": "宁波通商基金管理有限公司",
+          "disclosedContributionCny": null,
+          "disclosedPercent": null
+        }
+      ],
+      "currentRegisteredName": "宁波市甬宁基金合伙企业（有限合伙）",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2103151853108719.html",
+      "fundRegistration": "SNT215",
+      "filingDate": "2021-03-16",
+      "fundEstablishedDate": "2020-12-14",
+      "fundType": "股权投资基金",
+      "custodian": "中国工商银行股份有限公司",
+      "fundOperationState": "正在运作",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "reportedPaidInThreshold": [
+        "根据管理人最新报送信息，本基金实缴比例低于认缴规模的20%（2026年第3季度季度更新信息）"
+      ],
+      "creditCode": "91330200MA2J3QXM5T",
+      "establishedDate": "2020-12-08",
+      "aliases": [
+        "宁波市甬宁基金合伙企业（有限合伙）"
+      ],
+      "businessIdentitySource": "https://static.cninfo.com.cn/finalpage/2024-03-05/1219230677.PDF#page=2",
+      "nameHistorySource": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/0599dfe2072fb9134c886c92f77bca48.pdf#page=27",
+      "governmentFundCode": "240012",
+      "lpSources": [
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202504/798c40_20250403_3DYU.pdf",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/24e37827c7d9a8e6da1594ac9b837a41.pdf#page=37",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-04-30/242961_20250430_QIXE.pdf#page=5",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/602aa144fef71646536e706df506f834.pdf",
+        "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202509/05d518_20250905_CQA3.pdf#page=29",
+        "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/0599dfe2072fb9134c886c92f77bca48.pdf#page=27",
+        "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-31/244041_20251031_V2OB.pdf#page=31"
+      ],
+      "individuallyReportedLpContributions": [
+        {
+          "name": "宁波通商控股集团有限公司",
+          "subscribedCny": 21900000000,
+          "paidCny": 1757000000,
+          "asOf": "2025-03-31",
+          "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/24e37827c7d9a8e6da1594ac9b837a41.pdf#page=37",
+          "note": "全部公开LP金额跨期加总超过基金工商出资额，当前份额待合伙协议对账。"
+        },
+        {
+          "name": "宁波市轨道交通集团有限公司",
+          "subscribedCny": 4500000000,
+          "paidCny": 201000000,
+          "asOf": "2024-09-30",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-04-30/242961_20250430_QIXE.pdf#page=5"
+        },
+        {
+          "name": "宁波市轨道交通集团有限公司",
+          "subscribedCny": 4500000000,
+          "paidCny": 337000000,
+          "asOf": "2025-09-30",
+          "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/602aa144fef71646536e706df506f834.pdf"
+        },
+        {
+          "name": "宁波交通投资集团有限公司",
+          "subscribedCny": 3000000000,
+          "paidCny": 176000000,
+          "asOf": "2025-03-31",
+          "source": "https://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202509/05d518_20250905_CQA3.pdf#page=29"
+        },
+        {
+          "name": "宁波交通投资集团有限公司",
+          "subscribedCny": 3000000000,
+          "paidCny": 224717400,
+          "asOf": "2025-09-30",
+          "source": "https://qxb-pdf-osscache.qixin.com/AnBaseinfo/0599dfe2072fb9134c886c92f77bca48.pdf#page=27"
+        },
+        {
+          "name": "宁兴集团（宁波）有限公司",
+          "subscribedCny": 900000000,
+          "paidCny": 53000000,
+          "asOf": "2025-03-31",
+          "source": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2025-10-31/244041_20251031_V2OB.pdf#page=31"
+        }
+      ]
+    }
   }
 ]
