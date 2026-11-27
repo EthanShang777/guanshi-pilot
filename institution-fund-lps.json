@@ -24298,5 +24298,192 @@
       ],
       "renewedOperatingStatusNote": "2024年法律意见披露原工商期限，2026年11月中基协显示正在运作；新到期日未披露。"
     }
+  },
+  {
+    "fundId": "d4e3ea3ac975a5ae0bac92f8",
+    "fundName": "南京银鞍岭英新能源产业投资基金合伙企业（有限合伙）",
+    "managerId": "c29f7b9cef8d3e6218351afd",
+    "managerName": "银鞍资本",
+    "sizeCny": 415000000,
+    "capitalBasis": "认缴规模",
+    "partners": [
+      {
+        "name": "南京浦口开发区高科技投资有限公司",
+        "disclosedContributionCny": 210000000,
+        "disclosedPercent": "50.60",
+        "existingInstitution": "b66f374eaf4e5aa715d18c8b"
+      },
+      {
+        "name": "中化国际（控股）股份有限公司",
+        "disclosedContributionCny": 200000000,
+        "disclosedPercent": "48.19",
+        "existingInstitution": "63dda3b27458216172a34e72"
+      }
+    ],
+    "otherLpCount": 0,
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=72",
+      "date": "2021-09-27",
+      "dateKind": "公开披露日",
+      "issuer": "中自环保招股意向书",
+      "creditCode": "91320111MA1YAM7Y7B",
+      "establishedDate": "2019-04-28",
+      "managerLegalName": "上海银鞍股权投资管理有限公司",
+      "managerRegistration": "P1069494",
+      "fundRegistration": "SGQ048",
+      "fundEstablishedDate": "2019-05-10",
+      "filingDate": "2019-05-29",
+      "fundType": "股权投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/1905291651105821.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "南京银鞍岭英新能源产业投资基金合伙企业（有限合伙）",
+      "custodian": "上海浦东发展银行股份有限公司",
+      "generalPartners": [
+        {
+          "name": "上海银鞍股权投资管理有限公司",
+          "disclosedContributionCny": 5000000,
+          "disclosedPercent": "1.20",
+          "existingInstitution": "3f2bd41f10a9af4d32e7493b"
+        }
+      ],
+      "lpScope": "签署时全体合伙人的历史出资。2026 年权益报告仍披露 4.15 亿元注册资本和同一执行事务合伙人。",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2025-04-30/1223413365.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-03-03/1224990971.PDF#page=5"
+      ],
+      "operatingTermThrough": "2029-04-27",
+      "registeredCapitalConfirmation": {
+        "amountCny": 415000000,
+        "asOf": "2026-03-03",
+        "source": "https://static.cninfo.com.cn/finalpage/2026-03-03/1224990971.PDF#page=5"
+      },
+      "managerAliasSource": "https://www.sscapt.com/xw-mx1027.html",
+      "reviewedLpIdentity": [
+        {
+          "legalName": "中化国际（控股）股份有限公司",
+          "profileName": "中化国际",
+          "profileId": "63dda3b27458216172a34e72",
+          "source": "https://pdf.dfcfw.com/pdf/H2_AN202012241443530561_1.pdf"
+        }
+      ],
+      "similarlyNamedFundIsSeparate": "https://static.sse.com.cn/stock/disclosure/announcement/c/202508/002078_20250827_OO1E.pdf"
+    }
+  },
+  {
+    "fundId": "8ee4c54d2e920ebce964f110",
+    "fundName": "成都川联科装创业投资合伙企业（有限合伙）",
+    "managerId": "5b37593c245a74709bbe72e8",
+    "managerName": "博源资本",
+    "sizeCny": 42000000,
+    "capitalBasis": "认缴规模",
+    "partners": [
+      {
+        "name": "四川海特实业有限公司",
+        "disclosedContributionCny": 8000000,
+        "disclosedPercent": "19.05",
+        "existingInstitution": "12809a1b9791a523ce5c062d"
+      },
+      {
+        "name": "共青城星晖投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 7000000,
+        "disclosedPercent": "16.67",
+        "existingInstitution": "6eb9f12df0e845c78a9466a8"
+      }
+    ],
+    "otherLpCount": 6,
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=81",
+      "date": "2021-09-27",
+      "dateKind": "公开披露日",
+      "issuer": "中自环保招股意向书",
+      "creditCode": "91510100MA61TC5R2M",
+      "establishedDate": "2016-01-21",
+      "managerLegalName": "成都博源投资管理有限公司",
+      "managerRegistration": "P1001117",
+      "fundRegistration": "SLF926",
+      "fundEstablishedDate": "2020-05-11",
+      "filingDate": "2020-08-24",
+      "fundType": "创业投资基金",
+      "registeredOperatingStatus": "正在运作",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2008241813101903.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "成都川联科装创业投资合伙企业（有限合伙）",
+      "generalPartners": [
+        {
+          "name": "成都博源投资管理有限公司",
+          "disclosedContributionCny": 1000000,
+          "disclosedPercent": "2.38",
+          "existingInstitution": "07553e07a905b1d03edb7aa8"
+        }
+      ],
+      "lpScope": "签署时全体合伙人出资。机构 LP 回链，六位自然人合计认缴 2,600 万元。当前总实缴待核。",
+      "naturalLpSubscribedTotalCny": 26000000,
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=80",
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202106/000814_20210621_8PQL.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202204131559030991_1.pdf"
+      ]
+    }
+  },
+  {
+    "fundId": "1550aa3f0728bd6a0d15e53d",
+    "fundName": "深圳春阳颂景创业投资合伙企业（有限合伙）",
+    "managerId": "2f0e2fc568dcbbd4e90bfad9",
+    "managerName": "春阳资本",
+    "sizeCny": 21500000,
+    "capitalBasis": "合伙人表披露出资额",
+    "partners": [
+      {
+        "name": "广州新泽资本管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 2600000,
+        "disclosedPercent": "12.09",
+        "existingInstitution": "79cba350098e2c4284115956"
+      },
+      {
+        "name": "安徽省天河食品有限责任公司",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "9.30",
+        "existingInstitution": "9fd32470765b90f4298e85f5"
+      }
+    ],
+    "otherLpCount": null,
+    "publishedStatistics": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2021-09-27/1211158918.PDF#page=87",
+      "date": "2021-09-27",
+      "dateKind": "公开披露日",
+      "issuer": "中自环保招股意向书",
+      "creditCode": "91440300MA5FY5GC9N",
+      "establishedDate": "2019-11-25",
+      "managerLegalName": "深圳前海春阳资产管理有限公司",
+      "managerRegistration": "P1008852",
+      "fundRegistration": "SJX416",
+      "fundEstablishedDate": "2020-03-23",
+      "filingDate": "2020-04-03",
+      "fundType": "创业投资基金",
+      "registeredOperatingStatus": "提前清算",
+      "registrationSource": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2004032020102068.html",
+      "registrationVerifiedAsOf": "2026-11-27",
+      "currentRegisteredName": "深圳春阳颂景创业投资合伙企业（有限合伙）",
+      "generalPartners": [
+        {
+          "name": "深圳前海春阳资产管理有限公司",
+          "disclosedContributionCny": 100000,
+          "disclosedPercent": "0.47",
+          "existingInstitution": "5f37de6700cffaddcd08ae01"
+        }
+      ],
+      "lpScope": "2021 年同页另列工商认缴 5,000 万元。合伙人表合计 2,150 万元，含五位个人 LP，金额口径待进一步核实。中基协当前显示提前清算。",
+      "registeredSubscribedCny": 50000000,
+      "historicalTableNaturalLpCount": 5,
+      "historicalTableNaturalLpContributionCny": 16800000,
+      "lpSources": [
+        "https://static.sse.com.cn/stock/disclosure/announcement/c/202104/000814_20210406_6902.pdf#page=72"
+      ],
+      "capitalReconciliation": "同页工商认缴和历史合伙人表总额分列。合伙人表未标明实缴。"
+    }
   }
 ]
