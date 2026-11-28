@@ -28704,5 +28704,113 @@
     },
     "partners": [],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "2a9ca607076be4fb2b23011b",
+    "fundName": "四川鼎量未莱创业投资合伙企业（有限合伙）",
+    "managerId": "22aecd45212d9fe1dbfd8142",
+    "managerName": "成都鼎兴量子投资管理有限公司",
+    "sizeCny": 515000000,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-17/1225567728.PDF#page=4",
+      "date": "2026-09-17",
+      "dateKind": "公告日，认缴表对应2026年9月15日工商变更",
+      "issuer": "安德利2026-038号公告",
+      "pages": "第4至5页",
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2026-09-17/1225567728.PDF#page=5",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12661559&stockid=605198"
+      ],
+      "lpScope": "11名LP，宁波量子鼎升已退出；基金总实缴待核。",
+      "creditCode": "91510108MAKKQN6F7U",
+      "fundRegistration": "SGS186",
+      "registrationScope": "2026年10月23日备案，见安德利2026-048号公告",
+      "managerLegalName": "成都鼎兴量子投资管理有限公司",
+      "generalPartners": [
+        {
+          "name": "成都鼎兴量子投资管理有限公司",
+          "disclosedContributionCny": 8700000,
+          "disclosedPercent": "1.69"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2026-10-27",
+        "basis": "仅安德利公告实缴",
+        "byPartner": {
+          "烟台北方安德利果汁股份有限公司": 15000000
+        },
+        "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12661559&stockid=605198"
+      }
+    },
+    "partners": [
+      {
+        "name": "四川省成果转化投资引导基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "19.42",
+        "existingInstitution": "c5fcea915ca668c79d602ff4"
+      },
+      {
+        "name": "烟台北方安德利果汁股份有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "9.71",
+        "existingInstitution": "73da76e0be29f825de25b78f"
+      },
+      {
+        "name": "海南海澄东证华盈创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "9.71",
+        "existingInstitution": "ff5e6fccbdd26e587fbe8ef0"
+      },
+      {
+        "name": "宜宾市科教产业投资集团有限公司",
+        "disclosedContributionCny": 45000000,
+        "disclosedPercent": "8.74",
+        "existingInstitution": "90d7010233e856e72de28063"
+      },
+      {
+        "name": "东莞市城市发展母基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "5.83",
+        "existingInstitution": "039b91079e2a65a1dd2c550a"
+      },
+      {
+        "name": "苏州博远汇智投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "5.83",
+        "existingInstitution": "1ba811a464ce2ffa77902117"
+      },
+      {
+        "name": "金宇航",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": "0.19",
+        "existingInstitution": null
+      },
+      {
+        "name": "胡旭",
+        "disclosedContributionCny": 300000,
+        "disclosedPercent": "0.06",
+        "existingInstitution": null
+      },
+      {
+        "name": "成都成华智创产业振兴股权投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 100000000,
+        "disclosedPercent": "19.42",
+        "existingInstitution": "a6c37ccf86b41a2bcc1c6de8"
+      },
+      {
+        "name": "苏州浒新投资管理有限公司",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "9.71",
+        "existingInstitution": "f8c26ff713e3aac507a67e30"
+      },
+      {
+        "name": "成都市郫都区交子满园产业发展基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 50000000,
+        "disclosedPercent": "9.71",
+        "existingInstitution": "2f87a2683b8ee1dfed8bd041"
+      }
+    ]
   }
 ]
