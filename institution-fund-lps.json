@@ -27305,5 +27305,154 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "4ae56e9eed668ba00d469882",
+    "fundName": "昆山玉侨勇祥创业投资合伙企业（有限合伙）",
+    "managerId": "5f197890796fb49fd42e3823",
+    "managerName": "昆山玉侨合投资管理有限公司",
+    "capitalBasis": "披露出资额（原件未区分认缴/实缴）",
+    "sizeCny": 120000000,
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=26",
+      "date": "2025-12-30",
+      "dateKind": "法律意见书公开披露日，出资为原件工商登记历史时点",
+      "issuer": "锦天城关于江苏博涛智能热工股份有限公司挂牌法律意见书",
+      "pages": "物理26页（3-3-24）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=26"
+      ],
+      "lpScope": "有限合伙企业合伙人表，执行事务合伙人为昆山玉侨合投资管理有限公司，其余伙伴依原结构记录；不凭自然人同名或缺少原档推定关联。",
+      "creditCode": "91320583MA212QPH17",
+      "establishedDate": "2020-03-23",
+      "managerLegalName": "昆山玉侨合投资管理有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=38",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理38页（1-1-37）",
+        "basis": "基金及管理人备案表明确列示关联，管理人非仅据执行事务合伙人推定。"
+      },
+      "fundRegistration": "SNK415",
+      "fundFilingDate": "2021-02-26",
+      "managerRegistration": "P1068726",
+      "managerRegistrationDate": "2018-07-25",
+      "registrationScope": "备案表为原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "披露出资额（原件未区分认缴/实缴）",
+      "paidDisclosureNote": "原件合伙人表仅标出资额，未区分认缴或实缴；不推定实缴或当前可投余额。",
+      "percentageNote": "金额和比例均分别保留原文，合计100.00%。",
+      "generalPartners": [
+        {
+          "name": "昆山玉侨合投资管理有限公司",
+          "disclosedContributionCny": 1200000,
+          "disclosedPercent": "1.00"
+        }
+      ],
+      "amountTexts": {
+        "disclosedCapitalCny": "120000000.00",
+        "GP": {
+          "name": "昆山玉侨合投资管理有限公司",
+          "disclosedCapitalCny": "1200000.00",
+          "disclosedPercent": "1.00"
+        },
+        "LPs": [
+          {
+            "name": "宁波玉侨启程创业投资基金合伙企业（有限合伙）",
+            "disclosedCapitalCny": "114000000.00",
+            "disclosedPercent": "95.00"
+          },
+          {
+            "name": "唐俏琦",
+            "disclosedCapitalCny": "4800000.00",
+            "disclosedPercent": "4.00"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "宁波玉侨启程创业投资基金合伙企业（有限合伙）",
+        "disclosedContributionCny": 114000000,
+        "disclosedPercent": "95.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "唐俏琦",
+        "disclosedContributionCny": 4800000,
+        "disclosedPercent": "4.00",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
+  },
+  {
+    "fundId": "ca3b8200412f646f708c9953",
+    "fundName": "昆山玉侨勇如创业投资合伙企业（有限合伙）",
+    "managerId": "5f197890796fb49fd42e3823",
+    "managerName": "昆山玉侨合投资管理有限公司",
+    "capitalBasis": "披露出资额（原件未区分认缴/实缴）",
+    "sizeCny": 40000000,
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=33",
+      "date": "2025-12-30",
+      "dateKind": "法律意见书公开披露日，出资为原件工商登记历史时点",
+      "issuer": "锦天城关于江苏博涛智能热工股份有限公司挂牌法律意见书",
+      "pages": "物理33页（3-3-31）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=33"
+      ],
+      "lpScope": "有限合伙企业合伙人表，执行事务合伙人为昆山玉侨合投资管理有限公司，其余伙伴依原结构记录；不凭自然人同名或缺少原档推定关联。",
+      "creditCode": "91320583MA24YQWK8U",
+      "establishedDate": "2021-01-06",
+      "managerLegalName": "昆山玉侨合投资管理有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=38",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理38页（1-1-37）",
+        "basis": "基金及管理人备案表明确列示关联，管理人非仅据执行事务合伙人推定。"
+      },
+      "fundRegistration": "SSH563",
+      "fundFilingDate": "2021-08-13",
+      "managerRegistration": "P1068726",
+      "managerRegistrationDate": "2018-07-25",
+      "registrationScope": "备案表为原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "披露出资额（原件未区分认缴/实缴）",
+      "paidDisclosureNote": "原件合伙人表仅标出资额，未区分认缴或实缴；不推定实缴或当前可投余额。",
+      "percentageNote": "金额和比例均分别保留原文，合计100.00%。",
+      "generalPartners": [
+        {
+          "name": "昆山玉侨合投资管理有限公司",
+          "disclosedContributionCny": 400000,
+          "disclosedPercent": "1.00"
+        }
+      ],
+      "amountTexts": {
+        "disclosedCapitalCny": "40000000.00",
+        "GP": {
+          "name": "昆山玉侨合投资管理有限公司",
+          "disclosedCapitalCny": "400000.00",
+          "disclosedPercent": "1.00"
+        },
+        "LPs": [
+          {
+            "name": "张娟",
+            "disclosedCapitalCny": "39600000.00",
+            "disclosedPercent": "99.00"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "张娟",
+        "disclosedContributionCny": 39600000,
+        "disclosedPercent": "99.00",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
