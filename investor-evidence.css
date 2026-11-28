@@ -1,0 +1,154 @@
+#investor-evidence, #investor-judgments {
+  --evidence-ink: #26313b;
+  --evidence-muted: #505d68;
+  --evidence-line: #dbe2e7;
+  --evidence-surface: #fff;
+  --evidence-subtle: #f6f8fa;
+  --evidence-focus: #a1452d;
+  color: var(--evidence-ink);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#investor-evidence {
+  max-width: 1040px;
+  border: 1px solid var(--evidence-line);
+  border-radius: 8px;
+  background: var(--evidence-surface);
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+#investor-evidence :is(h2, h3), #investor-judgments :is(h2, h3) {
+  margin: 0;
+  color: var(--evidence-ink);
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+#investor-evidence h3, #investor-judgments h3 { font-size: 14px; }
+#investor-evidence a, #investor-judgments a { color: var(--evidence-focus); overflow-wrap: anywhere; }
+#investor-evidence :is(p, ul), #investor-judgments :is(p, ul) { margin-block: 5px; }
+.investor-evidence-muted { color: var(--evidence-muted); }
+.investor-evidence-heading, .investor-evidence-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 15px;
+  align-items: baseline;
+  min-width: 0;
+}
+.investor-evidence-heading { justify-content: space-between; }
+.investor-evidence-heading > :first-child { flex: 1 1 130px; min-width: 0; overflow-wrap: anywhere; }
+.investor-evidence-heading > a { flex: 0 0 auto; }
+.investor-evidence-row {
+  padding-block: 13px;
+  border-bottom: 1px solid var(--evidence-line);
+  overflow-wrap: anywhere;
+}
+.investor-evidence-row:last-child { border-bottom: 0; }
+.investor-evidence-detail { margin-top: 8px; }
+.investor-evidence-detail summary { cursor:pointer; color: var(--evidence-muted); width: fit-content; }
+.investor-evidence-detail[open] { padding-bottom: 5px; }
+.investor-evidence-dates { margin-block: 6px; font-variant-numeric: tabular-nums; }
+.investor-evidence-dates div {
+  display: grid;
+  grid-template-columns: minmax(7em, 12em) minmax(0, 1fr);
+  gap: 8px;
+  padding: 3px 0;
+}
+.investor-evidence-dates dt { color: var(--evidence-muted); }
+.investor-evidence-dates dd { margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
+.investor-source-list { padding-inline-start: 20px; }
+
+#investor-evidence :is(button, select), #investor-judgments :is(input, textarea, select, button) {
+  min-height: 36px;
+  padding: 5px 9px;
+  border: 1px solid var(--evidence-line);
+  border-radius: 5px;
+  background: var(--evidence-surface);
+  color: var(--evidence-ink);
+  font: inherit;
+}
+#investor-evidence button:not(:disabled), #investor-judgments button:not(:disabled) { cursor: pointer; }
+#investor-evidence button:hover:not(:disabled), #investor-judgments button:hover:not(:disabled) {
+  border-color: var(--evidence-focus);
+}
+#investor-evidence :focus-visible, #investor-judgments :focus-visible {
+  outline: 2px solid var(--evidence-focus);
+  outline-offset: 2px;
+}
+#investor-judgments button:disabled { opacity: .65; }
+
+.investor-judgment-layout {
+  display: grid;
+  grid-template-columns: minmax(155px, .7fr) minmax(0, 1.65fr) minmax(235px, 1fr);
+  align-items: start;
+  gap: 16px;
+  margin-block: 12px 32px;
+}
+
+.investor-judgment-layout > * {
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid var(--evidence-line);
+  border-radius: 8px;
+  background: var(--evidence-surface);
+}
+
+.investor-judgment-list > button {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  text-align: start;
+  overflow-wrap: anywhere;
+}
+.investor-judgment-list > button[aria-current="true"] {
+  border-color: var(--evidence-focus) !important;
+  background: var(--evidence-subtle) !important;
+}
+.investor-judgment-list small { display: block; color: var(--evidence-muted); }
+
+.investor-judgment-form { display: grid; gap: 10px; margin-block: 8px; }
+.investor-judgment-form label { display: grid; gap: 4px; min-width: 0; }
+.investor-judgment-form :is(input, textarea, select) { box-sizing: border-box; width: 100%; }
+.investor-judgment-form textarea { resize: vertical; }
+.investor-judgment-associations {
+  min-width: 0;
+  border-top: 1px solid var(--evidence-line);
+  padding-top: 9px;
+}
+.investor-judgment-associations ul { list-style: none; padding: 0; }
+.investor-judgment-associations li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px 12px;
+  min-width: 0;
+  padding: 3px 0;
+}
+.investor-judgment-associations li button { flex: none; }
+.investor-judgment-associations .investor-evidence-actions { align-items: end; }
+.investor-judgment-associations label { flex: 1 1 140px; }
+#investor-judgments .investor-judgment-primary {
+  border-color: var(--evidence-focus);
+  background: var(--evidence-focus);
+  color: #fff;
+  font-weight: 650;
+}
+.investor-judgment-history > div { border-top: 1px solid var(--evidence-line); margin-top: 7px; padding-top: 6px; }
+
+@media(max-width: 1010px) {
+  .investor-judgment-layout { grid-template-columns: minmax(155px, .55fr) minmax(0, 1.45fr); }
+  .investor-judgment-related { grid-column: 2; }
+}
+
+@media(max-width: 680px) {
+  .investor-judgment-layout { grid-template-columns: minmax(0, 1fr); gap: 9px; }
+  .investor-judgment-related { grid-column: auto; }
+  .investor-judgment-list { max-height: 175px; overflow: auto; }
+  .investor-evidence-dates div { grid-template-columns: minmax(6.5em, .75fr) minmax(0, 1.25fr); }
+  #investor-evidence { padding: 12px; }
+  #investor-evidence :is(button, select), #investor-judgments :is(input, textarea, select, button) { min-height: 42px; }
+}

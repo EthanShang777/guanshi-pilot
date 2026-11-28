@@ -27,6 +27,7 @@ on:
       - 'institution_identity.py'
       - 'atlas.py'
       - 'site.css'
+      - 'palette.css'
       - 'workspace.*'
       - 'fa-*.js'
       - 'fa-*.css'
@@ -34,6 +35,15 @@ on:
       - 'projects-body.html'
       - 'page_layouts.py'
       - 'refresh_public_views.py'
+      - 'investor*.py'
+      - 'investor*.js'
+      - 'investor*.css'
+      - 'investor*.html'
+      - 'reader.py'
+      - 'report-reader.css'
+      - 'atlas.js'
+      - 'atlas.css'
+      - 'dots_intake.py'
   issue_comment:
     types: [created]
   workflow_dispatch:
@@ -104,6 +114,7 @@ jobs:
         run: |
           cp ledger.json "$RUNNER_TEMP/previous-ledger.json"
           python update.py --replay-check --ingest-only
+          echo "INVESTOR_CV_CHECKED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
       - name: Sync changed disclosures to financing master
         if: steps.mode.outputs.dots != 'true' && inputs.published_run == '' && github.event_name != 'push'
         env:
@@ -165,7 +176,16 @@ jobs:
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-        run: python publish_master.py
+          INVESTOR_DOTS_RECEIPT: ${{ runner.temp }}/dots-receipt.json
+          INVESTOR_PRIOR_EVIDENCE: ${{ runner.temp }}/investor-evidence.json
+          INVESTOR_PRIOR_BASIS: ${{ runner.temp }}/investor-evidence-basis.json
+        run: |
+          for asset in investor-evidence.json investor-evidence-basis.json; do
+            curl -fsSL --max-time 12 --max-filesize 5000000 \
+              "https://ethanshang777.github.io/guanshi-pilot/records/$asset?v=$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" \
+              -o "$RUNNER_TEMP/$asset.part" && mv "$RUNNER_TEMP/$asset.part" "$RUNNER_TEMP/$asset" || true
+          done
+          python publish_master.py
       - uses: actions/upload-pages-artifact@v3
         if: steps.mode.outputs.dots != 'true' || steps.dots.outputs.has_records == 'true'
         with:

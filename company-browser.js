@@ -4,6 +4,12 @@
   const [select,sub]=root.querySelectorAll('select');
   const list=root.querySelector('#company-results'),status=root.querySelector('[role=status]');
   const [prev,next]=root.querySelectorAll('nav button'),cache=new Map();
+  const compare=typeof investorCompare==='undefined'?null:investorCompare;
+  compare?.mountTray(root.querySelector('.company-tools'));
+  if(compare)list.querySelectorAll('.company-entry header').forEach(header=>{
+    const name=header.querySelector('h2 a');
+    if(name)header.append(compare.button(name.href,name.textContent));
+  });
   const params=new URLSearchParams(location.search);
   input.value=params.get('q')||'';
   const initial=sectorFilter.resolve(params.get('sector')||'',params.get('sub')||'');
@@ -18,6 +24,7 @@
   function card([key,name,area,sector,day,stage,amount,parties,count,url]){
     const a=el('article');a.className='company-entry';
     const header=el('header'),h=el('h2');h.append(link('company.html?id='+key,name));header.append(h,el('small',[area,sector].filter(Boolean).join(' · ')));
+    if(compare)header.append(compare.button(key,name));
     const main=el('div'),deal=link(url,[day,stage,amount].filter(Boolean).join(' · ')||'交易信息未列明');deal.className='company-deal';main.append(deal);
     if(parties.length){const p=el('p','投资方　');parties.forEach(([n,u],i)=>{if(i)p.append('、');p.append(link(u,n));});main.append(p);}
     const details=el('details');details.dataset.company=key;details.append(el('summary','交易记录 · '+count+' 笔'));a.append(header,main,details);return a;

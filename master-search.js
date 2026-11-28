@@ -6,6 +6,8 @@
     await faMatching.start({form,count,list,load});
     return;
   }
+  const compare=typeof investorCompare==='undefined'?null:investorCompare;
+  compare?.mountTray(form);
   try{
     const work=typeof researchWorkspace!=='undefined'?researchWorkspace:null;
     const meta=await load('manifest'),args=work?.args||new URLSearchParams(location.search),cache=new Map();
@@ -135,6 +137,7 @@
             }
             const tr=list.insertRow(), nameCell=document.createElement('th');
             nameCell.scope='row';nameCell.append(anchor(g.name,href));tr.append(nameCell);
+            if(compare && view==='companies')nameCell.append(compare.button(href,g.name));
             if(work && view==='companies')work.evidence(nameCell,href);
             const matches=tr.insertCell();matches.textContent=g.rows.length+' 笔';
             if(view==='institutions'){
@@ -150,6 +153,7 @@
         }else for(const r of found.slice((page-1)*24,page*24)){
           const tr=document.createElement('tr'), company=document.createElement('th'), a=document.createElement('a');
           company.scope='row';a.href='deal.html?id='+r[0];a.textContent=r[1];company.append(a);tr.append(company);
+          if(compare)company.append(compare.button(r[11],r[1]));
           for(const value of [r[10],r[3],r[5],r[6],r[7].join('、'),r[8],[r[4],r[9]].filter(Boolean).join(' / ')]){
             tr.insertCell().textContent=value||'未记录';
           }

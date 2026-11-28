@@ -55,6 +55,7 @@
     const adjacentLink=link(adjacentUrl,'找相邻方向投资方');
     create.hidden=true;
     actions.append(create);
+    if(typeof investorCompare!=='undefined')actions.append(investorCompare.button(id,row.name));
     identity.append(actions);
     if(typeof faStore!=='undefined'){
       async function refreshAction(){
@@ -195,7 +196,10 @@
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
 
     }else if(kind==='company'){
-      root.append(companyLead(row,id),el('h2','交易记录 · '+row.events.length+' 笔'));
+      const lead=companyLead(row,id);
+      root.append(lead);
+      if(typeof investorCompare!=='undefined')investorCompare.mountTray(lead);
+      root.append(el('h2','交易记录 · '+row.events.length+' 笔'));
       const find=document.getElementById('local-find');
       if(find){
         const tools=el('details','');tools.className='fa-page-find';

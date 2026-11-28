@@ -33,9 +33,9 @@ def dump(path, value):
 def token(value):
     return sha256(value.encode()).hexdigest()[:24]
 
-def page(path,title,section,content,*,meta='',cover=False):
+def page(path,title,section,content,*,meta='',cover=False,with_find=True):
     nav=''.join('<a href="'+u+'"'+(' aria-current="location"' if label==section else '')+'>'+label+'</a>' for u,label in NAV)
-    search=BAR if path not in ('landscape.html','companies.html','projects.html') else ''
+    search=BAR if with_find and path not in ('landscape.html','companies.html','projects.html') else ''
     if path not in ('landscape.html','companies.html','company.html') and 'class="arc-track"' not in content:
         component=DECKS.get(section,'')
         # A shared fragment for secondary pages keeps the publication compact.
@@ -477,6 +477,11 @@ def build(rows, fund_facts=()):
     public_filter(OUT, direction_names)
     search_page()
     research_pages(deals)
+    from investor_evidence import publish as publish_evidence
+    from investor_publication import publish_workspace
+    published_deals = (deal for bucket in buckets.values() for deal in bucket.values() if 'key' in deal)
+    publish_evidence(OUT,published_deals,rows=rows)
+    publish_workspace(OUT,page)
     for p in Path('.').glob('research-company-*.html'):
         if not (OUT/p.name).exists():
             title=re.search(r'<h1>(.*?)</h1>',p.read_text()).group(1)
