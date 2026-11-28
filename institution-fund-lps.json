@@ -28870,5 +28870,64 @@
         ]
       }
     }
+  },
+  {
+    "fundId": "855789ae251f4a6be8a3230d",
+    "fundName": "成都成华产业振兴股权投资基金合伙企业（有限合伙）",
+    "managerId": "30b12beec2cb53dff7e7d563",
+    "managerName": "成都成华科技创业投资有限公司",
+    "capitalBasis": "公开披露管理规模",
+    "sizeCny": 2000000000,
+    "otherLpCount": null,
+    "partners": [],
+    "source": {
+      "url": "https://cj.sina.com.cn/articles/view/6105713761/16bedcc6102001ux5k",
+      "date": "2025-12-06",
+      "dateKind": "公开报道日",
+      "issuer": "红星新闻引成都市成华区披露",
+      "aliases": [
+        "成华产业振兴基金（一期）"
+      ],
+      "managerEvidence": {
+        "url": "https://e.sinochemitc.com/cms/channel/ywgg1fw/154281.htm",
+        "date": "2025-01-13",
+        "issuer": "成都成华科技创业投资有限公司委托发布的审计比选公告",
+        "basis": "一期时期由成华科创投为基金选聘审计机构，与成华区对一期管理人的披露交叉核对。"
+      },
+      "lpSources": [
+        "https://static.cninfo.com.cn/finalpage/2024-04-30/1219959701.pdf#page=50",
+        "https://pdf.dfcfw.com/pdf/H2_AN202504301665065586_1.pdf#page=75",
+        "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/BOND/2024/2024-5/2024-05-20/20367742.PDF#page=18"
+      ],
+      "lpScope": "成都成华国资2023年末披露该基金账面余额7,375万元。成都东方广益披露2024年末账面余额11,665.4932万元及15%份额。棚改惠民2023年债券年报确认其投资，单笔金额未列明。上述财报余额按各自时点保存。GP、完整LP名单、逐户认缴和实缴、基金总实缴及备案编号待核。",
+      "auditedInvestorPositions": [
+        {
+          "name": "成都成华国资经营投资有限责任公司",
+          "asOf": "2023-12-31",
+          "basis": "其他权益工具投资年末余额",
+          "closingBookValueCny": 73750000,
+          "url": "https://static.cninfo.com.cn/finalpage/2024-04-30/1219959701.pdf#page=50",
+          "physicalPage": 50
+        },
+        {
+          "name": "成都东方广益投资有限公司",
+          "asOf": "2024-12-31",
+          "basis": "其他权益工具投资账面金额",
+          "openingBookValueCny": 73750000,
+          "increaseCny": 42904932,
+          "closingBookValueCny": 116654932,
+          "disclosedPercent": "15.00",
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202504301665065586_1.pdf#page=75",
+          "physicalPage": 75
+        },
+        {
+          "name": "成都成华棚户区惠民改造建设有限责任公司",
+          "asOf": "2023-12-31",
+          "basis": "报告期内投资已披露；单项金额未披露",
+          "url": "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/BOND/2024/2024-5/2024-05-20/20367742.PDF#page=18",
+          "physicalPage": 18
+        }
+      ]
+    }
   }
 ]
