@@ -27234,5 +27234,76 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "732f6912b288976a9f70a0de",
+    "fundName": "苏州东合鼎元创业投资合伙企业（有限合伙）",
+    "managerId": "e381f8ffe499f935aed26a3d",
+    "managerName": "苏州东合创业投资管理有限公司",
+    "sizeCny": 31800000,
+    "capitalBasis": "披露出资额（原件未区分认缴/实缴）",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=22",
+      "date": "2025-12-30",
+      "dateKind": "法律意见书公开披露日，出资为原件工商登记历史时点",
+      "issuer": "锦天城关于江苏博涛智能热工股份有限公司挂牌法律意见书",
+      "pages": "物理22至23页（3-3-20至21）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=23"
+      ],
+      "lpScope": "两名合伙人，执行事务合伙人为苏州东合创业投资管理有限公司，另一名为倪祖根；自然人身份不以同名合并。",
+      "creditCode": "91320505MA215EDD6R",
+      "establishedDate": "2020-04-02",
+      "managerLegalName": "苏州东合创业投资管理有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=37",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理37页（1-1-36）",
+        "basis": "基金及管理人备案表明确列示关联，管理人非仅据执行事务合伙人推定。"
+      },
+      "fundRegistration": "SSF680",
+      "fundFilingDate": "2021-09-18",
+      "managerRegistration": "P1066701",
+      "managerRegistrationDate": "2018-01-09",
+      "registrationScope": "备案表为原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "披露出资额（原件未区分认缴/实缴）",
+      "paidDisclosureNote": "原件合伙人表仅标出资额，未区分认缴或实缴；不推定实缴或当前可投余额。",
+      "percentageNote": "原件99.00%与1.00%合计100.00%，金额和比例均分别保留原文。",
+      "generalPartners": [
+        {
+          "name": "苏州东合创业投资管理有限公司",
+          "disclosedContributionCny": 318000,
+          "disclosedPercent": "1.00"
+        }
+      ],
+      "amountTexts": {
+        "disclosedCapitalCny": "31800000.00",
+        "GP": {
+          "name": "苏州东合创业投资管理有限公司",
+          "disclosedCapitalCny": "318000.00",
+          "disclosedPercent": "1.00",
+          "roleBasis": "法律意见书执行事务合伙人"
+        },
+        "LPs": [
+          {
+            "name": "倪祖根",
+            "disclosedCapitalCny": "31482000.00",
+            "disclosedPercent": "99.00",
+            "roleBasis": "有限合伙企业二人结构，另一个为原件明列执行事务GP；不强连同名自然人。"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "倪祖根",
+        "disclosedContributionCny": 31482000,
+        "disclosedPercent": "99.00",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
