@@ -25052,5 +25052,179 @@
         }
       ]
     }
+  },
+  {
+    "fundId": "8dad303640187bbe8072fdd7",
+    "fundName": "常州力伟泉达创业投资中心（有限合伙）",
+    "managerId": "37733ce33c13364416157bce",
+    "managerName": "力中投资",
+    "sizeCny": 30001000,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=33",
+      "date": "2025-12-03",
+      "dateKind": "公开文件披露日",
+      "issuer": "铁近科技公开转让说明书",
+      "pages": "物理PDF第32至33页；管理人及基金登记第38页",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=32",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=38"
+      ],
+      "lpScope": "3名LP及1项GP。认缴和历史披露实缴分别记录，不作当前余额。",
+      "managerLegalName": "常州力中投资管理有限公司",
+      "managerRegistration": "P1069968",
+      "creditCode": "91320412MA26XFN89X",
+      "establishedDate": "2021-08-26",
+      "fundRegistration": "SSR193",
+      "generalPartners": [
+        {
+          "name": "常州力中投资管理有限公司",
+          "disclosedContributionCny": 1000,
+          "disclosedPercent": "0.01"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2025-12-03",
+        "basis": "原件披露时点实缴",
+        "totalCny": 20368400,
+        "byPartner": {
+          "苏达": 5500000,
+          "华荣伟": 5500000,
+          "丁泉军": 9368400,
+          "常州力中投资管理有限公司": 0
+        },
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=33"
+      },
+      "percentageNote": "原文GP认缴1000元、列示比例0.01%；按30001000元总额反算约0.00333%，保留原文披露比例，不自行改写。"
+    },
+    "partners": [
+      {
+        "name": "苏达",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "33.33",
+        "existingInstitution": null
+      },
+      {
+        "name": "华荣伟",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "33.33",
+        "existingInstitution": null
+      },
+      {
+        "name": "丁泉军",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "33.33",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": [
+      {
+        "eventId": "a288ec9e738a495a04056905",
+        "amountFen": 1236840000,
+        "basis": "转让对价",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=44"
+      }
+    ]
+  },
+  {
+    "fundId": "37ed9b13165a55fed69a0ea7",
+    "fundName": "常州力和科创业投资中心（有限合伙）",
+    "managerId": "37733ce33c13364416157bce",
+    "managerName": "力中投资",
+    "sizeCny": 100000000,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=33",
+      "date": "2025-12-03",
+      "dateKind": "公开文件披露日",
+      "issuer": "铁近科技公开转让说明书",
+      "pages": "物理PDF第32至33页；管理人及基金登记第38页",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=32",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=38"
+      ],
+      "lpScope": "6名LP及1项GP。认缴和历史披露实缴分别记录，不作当前余额。",
+      "managerLegalName": "常州力中投资管理有限公司",
+      "managerRegistration": "P1069968",
+      "creditCode": "91320412MA7NEYEC7Y",
+      "establishedDate": "2022-05-12",
+      "fundRegistration": "SXA696",
+      "generalPartners": [
+        {
+          "name": "常州力中投资管理有限公司",
+          "disclosedContributionCny": 1000000,
+          "disclosedPercent": "1.00"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2025-12-03",
+        "basis": "原件披露时点实缴",
+        "totalCny": 100000000,
+        "byPartner": {
+          "江苏雷利电机股份有限公司": 30000000,
+          "常州科教城产业投资基金（有限合伙）": 29000000,
+          "范春燕": 10000000,
+          "江苏海棠投资有限公司": 10000000,
+          "江苏和晶科技有限公司": 10000000,
+          "周元琴": 10000000,
+          "常州力中投资管理有限公司": 1000000
+        },
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=33"
+      }
+    },
+    "partners": [
+      {
+        "name": "江苏雷利电机股份有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "30.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "常州科教城产业投资基金（有限合伙）",
+        "disclosedContributionCny": 29000000,
+        "disclosedPercent": "29.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "范春燕",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "江苏海棠投资有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "江苏和晶科技有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "周元琴",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": [
+      {
+        "eventId": "a288ec9e738a495a04056905",
+        "amountFen": 824550000,
+        "basis": "转让对价",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=44"
+      },
+      {
+        "eventId": "dc5cb107f3e4e3efdc7e3b45",
+        "amountFen": 206140000,
+        "basis": "转让对价",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=45"
+      }
+    ]
   }
 ]
