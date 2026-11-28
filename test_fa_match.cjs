@@ -3,7 +3,7 @@ const assert=require('node:assert/strict');
 const {readFileSync}=require('node:fs');
 const {runInNewContext}=require('node:vm');
 const code=readFileSync('fa-match.js','utf8');
-const {analyze,parseQuery}=runInNewContext(code+'\nfaMatching');
+const {analyze,loadMatchingRows,parseQuery}=runInNewContext(code+'\nfaMatching');
 const sectorFilter={
   matches({sector,sub},s,d){return (!sector||s===sector)&&(!sub||sub===d);}
 };
@@ -57,4 +57,39 @@ test('explicit adjacent scope stays in the parent and uses only other identified
   const request=input({sub:'',adjacent:true});
   request.project={...request.project,sector:robot,sub:fine};
   assert.deepEqual(names(analyze(request)),['无关机构']);
+});
+
+const sectorFile='fa-sector-robotics-automation-abcdef123456';
+const meta={years:['2026','2025'],faSearchSectors:{[robot]:sectorFile}};
+test('scoped queries reuse one canonical sector shard and preserve the full analysis',async()=>{
+  const calls=[];
+  const load=async name=>{
+    calls.push(name);
+    return rows.filter(row=>row[4]===robot);
+  };
+  const cache=new Map();
+  for(const cohort of ['new','follow','all']){
+    const request=input({cohort});
+    const scoped=await loadMatchingRows(request.filters,meta,load,cache,()=>true);
+    assert.deepEqual(analyze({...request,rows:scoped}),analyze(request));
+  }
+  assert.deepEqual(calls,[sectorFile]);
+});
+
+test('missing shards fall back to the full annual input and errors stay retryable',async()=>{
+  const calls=[];
+  let missing=true;
+  const load=async name=>{
+    calls.push(name);
+    if(name===sectorFile&&missing)throw Error('missing shard');
+    return name===sectorFile?rows.filter(row=>row[4]===robot):rows.filter(row=>row[3].startsWith(name.slice(-4)));
+  };
+  const {filters}=input();
+  const cache=new Map();
+  const fallback=await loadMatchingRows(filters,meta,load,cache,()=>true);
+  assert.deepEqual(Array.from(fallback),rows);
+  missing=false;
+  await loadMatchingRows(filters,meta,load,cache,()=>true);
+  await loadMatchingRows({...filters,year:'2025'},meta,load,cache,()=>true);
+  assert.deepEqual(calls,[sectorFile,'search-2026','search-2025',sectorFile]);
 });

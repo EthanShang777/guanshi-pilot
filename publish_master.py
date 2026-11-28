@@ -2,13 +2,14 @@
 from collections import defaultdict, Counter
 from hashlib import sha256
 from html import escape as esc
+from itertools import chain
 from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 import json
 import re
 import shutil
 
-from fa_publication import SCRIPTS as FA_SCRIPTS, publish_assets as publish_fa_assets, write_fund_index
+from fa_publication import SCRIPTS as FA_SCRIPTS, publish_assets as publish_fa_assets, write_fund_index, write_sector_search
 from fund_master import contribution, coverage_facts, prepare_cloud, register_coverage, replace_derived, snapshot
 from reader import build_library
 from institution_identity import REVIEWED_ALIASES, participant
@@ -137,7 +138,7 @@ def research_pages(deals):
         '<div class="finance-scroll" tabindex="0" role="region" aria-label="检索结果" hidden>')
     shell = shell.replace('<script defer src="master-search.js?v=fa-projects1">',
         FA_SCRIPTS + '<script src="workspace.js?v=project2"></script>'
-        '<script src="fa-match.js?v=1"></script><script defer src="master-search.js?v=fa-projects1">')
+        '<script src="fa-match.js?v=2"></script><script defer src="master-search.js?v=fa-projects1">')
     (OUT/'workspace.html').write_text(shell)
     from company_research import publish
     publish(OUT,deals)
@@ -470,6 +471,7 @@ def build(rows, fund_facts=()):
     manifest={'events':len(deals),'companies':len(companies),
               'institutions':sum(not row.get('evidenceOnly') for row in institutions.values()),
               'years':list(by_year),'sectors':list(groups),'subs':subs, 'institutionAliases':aliases,
+              'faSearchSectors':write_sector_search(data, chain.from_iterable(by_year.values())),
               'taxonomyVersion': 1}
     dump(data/'manifest.json',manifest)
     public_filter(OUT, direction_names)
