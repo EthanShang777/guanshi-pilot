@@ -1,8 +1,8 @@
 {
   "version": 1,
   "batch": 238,
-  "base_main_sha": "594a21e60df36346577c7789c6ee935cf5f73599",
-  "candidate_sha256": "a4c00cf52708f7eb7365bbe7c774752a3df2a046d95e4cb91df1532789cb21b9",
+  "base_main_sha": "73cf3b59a8d0ee51a66f7c24ba77af450163135d",
+  "candidate_sha256": "6156cecbbc43e63b9a196ac59e1bdf995a73b9320afa56f1e28eb2b637e770d2",
   "batch_digests": [
     "d417675c3dc3949548e0e9105333a3fc2ffe41880834b38a9b21d9855e493db4"
   ],
@@ -16,5 +16,5 @@
       "day": "2025-05-27"
     }
   ],
-  "scope_sha256": "7fe3569c59fd9a3d43117063e5aaf1287db672bac4218f71270f0b50bbd5149f"
+  "scope_sha256": "a1a26fbbf54a975511821c4999e090e97564b009f1e4363ae94e288ea64321f4"
 }
