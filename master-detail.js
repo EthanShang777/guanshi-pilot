@@ -2,13 +2,129 @@
   const root=document.querySelector('#record'), kind=root.dataset.kind;
   const id=new URLSearchParams(location.search).get('id');
   const el=(tag,text)=>{const n=document.createElement(tag);n.textContent=text;return n;};
-  const link=(url,text)=>{const a=el('a',text);a.href=url;return a;};
+  let activeProject;
+  const link=(url,text)=>{const a=el('a',text);a.href=activeProject?faNavigation.contextHref(url,activeProject):url;return a;};
   const yuan=fen=>(fen/100).toLocaleString('zh-CN',{maximumFractionDigits:2})+' 元';
   function context(url,sector,sub){
     const target=new URL(url,location.href);
     if(sector)target.searchParams.set('sector',sector);
     if(sub)target.searchParams.set('sub',sub);
-    return target.href;
+    return activeProject?faNavigation.contextHref(target.href,activeProject):target.href;
+  }
+  const nonFinancing = new Set(['股权转让','拟增资','介绍上市']);
+  function companyLead(row,id){
+    const lead=el('section','');
+    lead.className='fa-company-lead';
+    const identity=el('div',''), money=el('div','');
+    const sourceClaims=row.profile?.claims?.filter(claim=>claim.sources?.length)||[];
+    const business=sourceClaims.find(claim=>/官方.*(?:产品|企业页)|支持.*部署|提供.*工具|主营|产品为/u.test(claim.text));
+    const analysis=sourceClaims.find(claim=>claim!==business);
+    const limits=[...new Set(sourceClaims.flatMap(claim=>claim.limits||[]))];
+    if(row.registeredName && row.registeredName!==row.name){
+      const registered=el('p',row.registeredName);registered.className='fa-company-identity';
+      identity.append(registered);
+    }
+    if(!row.registeredName && !/(?:公司|合伙企业|研究院|研究所|工厂|大学|合作社)$/u.test(row.name)){
+      const legal=el('p','法定名称待核');legal.className='fa-company-meta';identity.append(legal);
+    }
+    if(row.aliases?.length){
+      const aliases=el('p','已核名称 '+row.aliases.join('、'));aliases.className='fa-company-meta';identity.append(aliases);
+    }
+    const heading=[row.location,row.primaryId==='unknown'?'赛道待归类':row.primary,row.sub].filter(Boolean).join(' · ');
+    if(heading){const meta=el('p',heading);meta.className='fa-company-meta';identity.append(meta);}
+    const summaryLine=business?.text.match(/^[^。！？]+[。！？]?/u)?.[0];
+    const intro=el('p',summaryLine||(
+      row.sub?'融资档案中的业务方向为「'+row.sub+'」。':'公开档案暂无可引用的具体主营说明。'));
+    intro.className='fa-company-business';
+    identity.append(intro);
+    if(business){
+      const evidence=el('p','');
+      business.sources.slice(0,2).forEach(source=>evidence.append(link(source.url,source.title+' ↗'),' '));
+      identity.append(evidence);
+    }
+    const actions=el('div','');actions.className='fa-company-actions';
+    const chooser='projects.html?'+new URLSearchParams({company:id});
+    const initial='为本轮找投资方';
+    const primary=link(chooser,initial);primary.className='fa-detail-primary';
+    actions.append(primary);
+    const create=link(chooser+'&new=1','新建融资项目');
+    const adjacentParams=new URLSearchParams({view:'institutions',client:id});
+    if(row.primaryId!=='unknown')adjacentParams.set('sector',row.primary);
+    if(row.sub && row.primaryId!=='unknown' && row.hasFineDirection!==false)adjacentParams.set('adjacent',row.sub);
+    const adjacentUrl='workspace.html?'+adjacentParams;
+    const adjacentLink=link(adjacentUrl,'找相邻方向投资方');
+    create.hidden=true;
+    actions.append(create);
+    identity.append(actions);
+    if(typeof faStore!=='undefined'){
+      async function refreshAction(){
+        try{
+          const own=(await faStore.listProjects()).filter(project=>project.companyId===id);
+          const selected=activeProject?.companyId===id?own.find(project=>project.id===activeProject.id):null;
+          const direct=selected||(own.length===1?own[0]:null);
+          adjacentLink.href=direct?faNavigation.matchUrl(direct.id)+'&scope=adjacent':adjacentUrl;
+          if(direct){
+            primary.href=faNavigation.matchUrl(direct.id);
+            primary.textContent='继续项目';
+          }else{
+            primary.href=chooser;
+            primary.textContent=own.length?'选择融资项目':initial;
+          }
+          create.hidden=own.length===0;
+        }catch{
+          primary.href=chooser;
+          primary.textContent=initial;
+        }
+      }
+      refreshAction();
+      window.addEventListener('pageshow',event=>{if(event.persisted)refreshAction();});
+    }
+    const usefulLinks=el('nav','');usefulLinks.className='fa-company-links';usefulLinks.setAttribute('aria-label','公司资料');
+    if(row.events.some(event=>!nonFinancing.has(event[2])))usefulLinks.append(link('company-research.html?id='+id,'公司研究台'));
+    usefulLinks.append(adjacentLink);
+    if(row.sub)usefulLinks.append(link(context('workspace.html?view=companies',row.primary,row.sub),'对照同行'));
+    identity.append(usefulLinks);
+
+    const financing=row.events.filter(event=>!nonFinancing.has(event[2]));
+    money.className='fa-company-financing';
+    money.append(el('h2','最近融资'));
+    if(financing.length){
+      const [href,day,stage,amount]=financing[0];
+      const terms=el('p','');terms.append(link(href,[day,stage,amount].filter(Boolean).join(' · ')||'查看交易披露'));
+      money.append(terms);
+    }else money.append(el('p','档案暂无已收录融资。'));
+    const counterparties=new Map();
+    financing.forEach(event=>event[4].forEach(([label,href])=>{
+      if(!counterparties.has(href))counterparties.set(href,label);
+    }));
+    if(counterparties.size){
+      const all=[...counterparties];
+      const backers=el('p','历史披露资方　');backers.className='fa-history-backers';
+      function addNames(target,names){
+        names.forEach(([href,label],i)=>target.append(i?'、':'',link(href,label)));
+      }
+      addNames(backers,all.slice(0,3));money.append(backers);
+      if(all.length>3){
+        const more=el('details',''), rest=el('p','');
+        more.append(el('summary','其他披露资方 · '+(all.length-3)+' 家'),rest);
+        addNames(rest,all.slice(3));money.append(more);
+      }
+    }else money.append(el('p','历史披露资方待补充。'));
+    const gap=el('p', limits[0]||'商业化进展待补充具名客户、付费或验收证据。');gap.className='fa-company-gap';money.append(gap);
+    if(analysis||row.profile?.question||limits.length>1||business?.text!==summaryLine){
+      const item=el('details','');item.className='fa-company-evidence';
+      item.append(el('summary','研究判断与待核问题'));
+      if(analysis){
+        item.append(el('small',row.profile.asof||'档案研究'),el('p',analysis.text));
+        analysis.sources.slice(0,2).forEach(source=>item.append(link(source.url,source.title+' ↗'),' '));
+      }
+      if(business && business.text!==summaryLine)item.append(el('p',business.text));
+      if(row.profile?.question)item.append(el('p',row.profile.question));
+      for(const limit of limits.slice(1))item.append(el('p',limit));
+      money.append(item);
+    }
+    lead.append(identity,money);
+    return lead;
   }
   if(!id && root.dataset.default){location.replace(root.dataset.default);return;}
   try{
@@ -22,6 +138,10 @@
       destination.searchParams.set('id',row.redirect);
       location.replace(destination.href);
       return;
+    }
+    if(typeof faNavigation!=='undefined'){
+      activeProject=await faNavigation.currentProject();
+      if(activeProject)root.append(faNavigation.projectBar(activeProject));
     }
     const name=row.company||row.name;
     document.querySelector('h1').textContent=name;document.title=name+' · 观势';
@@ -75,25 +195,13 @@
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
 
     }else if(kind==='company'){
-      if(row.events.some(event=>event[2]!=='股权转让')){
-        root.append(link('company-research.html?id='+id,'打开公司研究台 →'),el('span','　'));
+      root.append(companyLead(row,id),el('h2','交易记录 · '+row.events.length+' 笔'));
+      const find=document.getElementById('local-find');
+      if(find){
+        const tools=el('details','');tools.className='fa-page-find';
+        tools.append(el('summary','页内查找'),find);root.append(tools);
       }
-      const adjacent=new URLSearchParams({view:'institutions',client:id});
-      if(row.primaryId!=='unknown')adjacent.set('sector',row.primary);
-      if(row.sub && row.primaryId!=='unknown' && row.hasFineDirection!==false)adjacent.set('adjacent',row.sub);
-      root.append(link('workspace.html?'+adjacent,'找相邻方向投资方 →'),el('span','　'));
-      if(row.sub){
-        root.append(link(context('workspace.html?view=companies',row.primary,row.sub),'对照同行 · '+row.sub+' →'));
-      }
-      if(row.profile){
-        const claim=row.profile.claims.find(c=>c.sources.length);
-        if(claim){
-          root.append(el('h2','公司研究 · '+row.profile.asof),el('p',claim.text));
-          for(const source of claim.sources)root.append(link(source.url,source.title+' ↗ '));
-          if(row.profile.question)root.append(el('p',row.profile.question));
-        }
-      }
-      root.append(el('p',[row.location,row.sector].filter(Boolean).join(' · ')),el('h2','交易记录 · '+row.events.length+' 笔'),companyHistory.timeline(row,context));
+      root.append(companyHistory.timeline(row,context));
     }else{
       const params=new URLSearchParams(location.search),sub=params.get('sub'),sector=params.get('sector');
       const related=row.events.filter(r=>sub?r[6]===sub && (!sector||r[5]===sector):sector && r[5]===sector);

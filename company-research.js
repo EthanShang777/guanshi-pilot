@@ -3,7 +3,15 @@
   const normalize=name=>name.normalize('NFKC').trim().toLowerCase();
   const nameKey=name=>normalize(name).replace(/\s+/g,'').replace(/\((?:独家领投|共同领投|联合领投|领投|跟投|参投|追加|追加投资|追投|续投)\)$/u,'');
   const node=(tag,text)=>{const el=document.createElement(tag);el.textContent=text;return el;};
-  function link(text,url){const a=node('a',text);a.href=url;return a;}
+  let activeProject;
+  function link(text,url){const a=node('a',text);a.href=activeProject?faNavigation.contextHref(url,activeProject):url;return a;}
+  if(typeof faNavigation!=='undefined')faNavigation.currentProject().then(project=>{
+    if(project){
+      activeProject=project;
+      document.querySelector('main.desk').prepend(faNavigation.projectBar(project));
+      for(const anchor of document.querySelectorAll('main.desk a'))anchor.href=faNavigation.contextHref(anchor.href,project);
+    }
+  });
   function line(parent,...children){const p=document.createElement('p');p.append(...children);parent.append(p);}
   const studyContract=byId('generated-study').dataset;
   const sections=JSON.parse(studyContract.sections);
@@ -31,7 +39,10 @@
     }).catch(e=>{cache.delete(key);throw e;}));
     return cache.get(key);
   }
-  const research=id=>'company-research.html?id='+encodeURIComponent(id);
+  const research=id=>{
+    const href='company-research.html?id='+encodeURIComponent(id);
+    return activeProject?faNavigation.contextHref(href,activeProject):href;
+  };
   let version=0;
   async function show(id){
     const seq=++version;
@@ -204,7 +215,7 @@
     e.preventDefault();const q=normalize(input.value);if(!q)return;
     const seq=++version;status.textContent='正在查找…';byId('choices').replaceChildren();byId('company-board').hidden=true;
     byId('generated-study').hidden=true;
-    if(e.submitter?.value!=='lookup'){
+    if(e.submitter?.value==='generate'){
       try{await generateResearch(input.value.trim(),seq);}catch(err){if(seq===version)status.textContent=err.message;}
       return;
     }

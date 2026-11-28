@@ -1,6 +1,7 @@
 (async function () {
   const root = document.querySelector('#inst-app');
   const params = new URLSearchParams(location.search);
+  let activeProject;
   const compare = new Intl.Collator('zh-CN-u-co-pinyin', {numeric:true});
   function el(tag, text, cls) {
     const item = document.createElement(tag);
@@ -10,7 +11,7 @@
   }
   function link(label, href) {
     const a = el('a', label);
-    a.href = href;
+    a.href = activeProject ? faNavigation.contextHref(href,activeProject) : href;
     return a;
   }
   function button(label, action) {
@@ -114,12 +115,20 @@
       location.replace(target.href);
       return;
     }
+    activeProject = typeof faNavigation==='undefined'?null:await faNavigation.currentProject();
+    const projectFilters=activeProject?.view?.filters;
+    const hasRouteScope=params.has('sector')||params.has('sub');
+    const position=hasRouteScope
+      ? sectorFilter.resolve(params.get('sector')||'',params.get('sub')||'')
+      : activeProject ? sectorFilter.resolve(projectFilters?.sector??activeProject.sector??'',
+                                            projectFilters?.sub??activeProject.sub??'') : sectorFilter.resolve();
     const name=row.name;
     const events=[...row.events].sort((a,b)=>(b[2]||'').localeCompare(a[2]||''));
     const sector=e=>e[5]||'待归类';
     const companyCount=list=>new Set(list.map(e=>e[7])).size;
     document.title=name+' · 机构档案 · 观势';
-    root.replaceChildren(link('← 机构总览','institutions.html'),el('h1',name));
+    root.replaceChildren(activeProject?faNavigation.projectBar(activeProject):link('← 机构总览','institutions.html'),el('h1',name));
+    if(activeProject)root.append(faNavigation.institutionSelection(activeProject,id,row,position));
     root.append(el('p',[row.evidenceOnly?'原始交易参与描述 · '+row.evidenceOnly:row.directoryType,companyCount(events)+' 家公司',events.length+' 笔收录交易','最近收录 '+(events[0]?.[2]||'日期未列明')].filter(Boolean).join('　·　'),'inst-meta'));
     if(row.aliases?.length){
       const info=el('details');info.append(el('summary','原始名称与别名'),el('p',row.aliases.join('、')));
@@ -198,7 +207,7 @@
       sectorFilter.setValue(control,initial);control.onchange=render;filters.append(control);return control;
     }
     const options=fn=>[...new Set(events.map(fn).filter(Boolean))].sort(compare.compare);
-    const initial=sectorFilter.resolve(params.get('sector')||'',params.get('sub')||'');
+    const initial=position;
     const selected=select('全部赛道',options(sector),initial.sector);
     const sub=select('全部细分方向',[],initial.sub);
     function showDirections(value=''){

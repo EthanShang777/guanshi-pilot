@@ -8,6 +8,7 @@ import json
 import re
 import shutil
 
+from fa_publication import SCRIPTS as FA_SCRIPTS, publish_assets as publish_fa_assets, write_fund_index
 from fund_master import contribution, coverage_facts, prepare_cloud, register_coverage, replace_derived, snapshot
 from reader import build_library
 from institution_identity import REVIEWED_ALIASES, participant
@@ -16,7 +17,8 @@ from update import filename, event_url, link
 
 OUT = Path('public')
 NAV = [('index.html','融资事件'),('companies.html','公司档案'),('institutions.html','机构档案'),
-       ('reports.html','研究周报'),('landscape.html','赛道画布'),('changes.html','变化追踪')]
+       ('reports.html','研究周报'),('landscape.html','赛道画布'),('changes.html','变化追踪'),
+       ('projects.html','我的项目')]
 DECKS = {}
 OUT_OF_FINANCING = {'股权转让', '介绍上市', '拟增资'}
 SECTOR_SCRIPT = '<script src="sector-filter.js?v=1"></script>'
@@ -32,7 +34,7 @@ def token(value):
 
 def page(path,title,section,content,*,meta='',cover=False):
     nav=''.join('<a href="'+u+'"'+(' aria-current="location"' if label==section else '')+'>'+label+'</a>' for u,label in NAV)
-    search=BAR if path not in ('landscape.html','companies.html') else ''
+    search=BAR if path not in ('landscape.html','companies.html','projects.html') else ''
     if path not in ('landscape.html','companies.html','company.html') and 'class="arc-track"' not in content:
         component=DECKS.get(section,'')
         # A shared fragment for secondary pages keeps the publication compact.
@@ -99,9 +101,11 @@ def search_page():
              '<option value="family">含相邻轮次</option></select></label>'
              '<label>查看<select name="view"><option value="">融资事件</option><option value="companies">公司名单</option>'
              '<option value="institutions">机构名单</option></select></label>')
-    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+SECTOR_SCRIPT+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
+    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+SECTOR_SCRIPT+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js?v=fa-projects1"></script>')
 
 def research_pages(deals):
+    publish_fa_assets(OUT)
+    page('projects.html', '我的项目', '我的项目', FA_SCRIPTS + Path('projects-body.html').read_text())
     entry = Path('research-entry.html').read_text()
     for asset in ('workspace.css', 'workspace.js'):
         shutil.copyfile(asset, OUT/asset)
@@ -116,13 +120,14 @@ def research_pages(deals):
                     'if(!workspaceParams.size)location.replace("company-research.html");'
                     'if(/^[a-f0-9]{24}$/.test(workspaceParams.get("client")||""))'
                     'document.currentScript.parentElement.classList.add("workspace-project")</script>')
-    workspace_main = '<main class="workspace">'+entry_script+'<link rel="stylesheet" href="workspace.css?v=project2">'
+    workspace_main = '<main class="workspace">'+entry_script+'<link rel="stylesheet" href="workspace.css?v=fa-projects1">'
     shell = (OUT/'search.html').read_text().replace('融资交叉检索 · 观势','研究工作区 · 观势').replace('<main>',workspace_main)
     shell = shell.replace('<h1>融资交叉检索</h1>', '<p class="work-kicker">研究工作区 · 服务项目</p><h1 id="work-title">研究工作区</h1>').replace(BAR, '').replace('<script src="within-page.js"></script>', '')
     reset = '<button type="reset">清除条件</button>'
     shell = shell.replace(reset, '', 1).replace('</form><p id="match-count"',
         '<div class="work-filter-actions">'+reset+'</div></form><p id="match-count"', 1)
-    shell = shell.replace('<form id="archive-form">',entry+'<p id="work-context"></p><form id="archive-form">')
+    shell = shell.replace('<form id="archive-form">', entry + '<section id="fa-match-project" hidden></section>'
+                          '<p id="work-context"></p><form id="archive-form">')
     shortlist = ('<details id="shortlist"><summary id="shortlist-summary">查看清单 '
                  '<span id="shortlist-count" role="status">已选 0 项</span></summary>'
                  '<p id="shortlist-empty">暂无已选对象</p><ul id="shortlist-items" hidden></ul></details>')
@@ -130,8 +135,9 @@ def research_pages(deals):
         '<div class="work-results-bar"><p id="match-count" role="status">正在读取检索索引…</p>'+shortlist+'</div>')
     shell = shell.replace('<div class="finance-scroll" tabindex="0" role="region" aria-label="融资事件表">',
         '<div class="finance-scroll" tabindex="0" role="region" aria-label="检索结果" hidden>')
-    shell = shell.replace('<script defer src="master-search.js">',
-        '<script src="workspace.js?v=project2"></script><script defer src="master-search.js?v=workspace2">')
+    shell = shell.replace('<script defer src="master-search.js?v=fa-projects1">',
+        FA_SCRIPTS + '<script src="workspace.js?v=project2"></script>'
+        '<script src="fa-match.js?v=1"></script><script defer src="master-search.js?v=fa-projects1">')
     (OUT/'workspace.html').write_text(shell)
     from company_research import publish
     publish(OUT,deals)
@@ -140,6 +146,7 @@ def build(rows, fund_facts=()):
     funds, reviewed_allocations = snapshot(fund_facts)
     OUT.mkdir(exist_ok=True)
     data=OUT/'records';data.mkdir(exist_ok=True)
+    write_fund_index(OUT, funds)
     for asset in ('within-page.js','shelf.js','atlas.css','atlas.js','master-detail.js','master-search.js','load-shelf.js','company-browser.js','company-history.js'):
         shutil.copyfile(asset,OUT/asset)
     locations=json.loads(Path('country-locations.json').read_text())
