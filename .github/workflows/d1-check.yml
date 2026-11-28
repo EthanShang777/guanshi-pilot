@@ -1,6 +1,10 @@
 name: Verify financing database access
 on: workflow_dispatch
 permissions: {}
+concurrency:
+  group: daily-financing
+  cancel-in-progress: false
+  queue: max
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -13,22 +17,57 @@ jobs:
           python3 - <<'PY'
           import json, os, urllib.request
           from urllib.error import HTTPError
-          def get(path):
-              req = urllib.request.Request("https://api.cloudflare.com/client/v4/"+path, headers={"Authorization":"Bearer "+os.environ["CF_TOKEN"]})
+          def request(path, payload=None):
+              body = json.dumps(payload).encode() if payload is not None else None
+              headers = {"Authorization": "Bearer " + os.environ["CF_TOKEN"]}
+              if body is not None:
+                  headers["Content-Type"] = "application/json"
+              req = urllib.request.Request("https://api.cloudflare.com/client/v4/" + path, data=body, headers=headers)
               try:
                   with urllib.request.urlopen(req, timeout=30) as response:
-                      return json.load(response)["result"]
+                      envelope = json.load(response)
               except HTTPError as e:
-                  raise SystemExit(f"Cloudflare returned HTTP {e.code} for {path.split('/')[0]}")
-          if get("user/tokens/verify")["status"] != "active":
+                  errors = json.load(e).get("errors", [])
+                  raise SystemExit(f"Cloudflare HTTP {e.code}, error codes {[x.get('code') for x in errors]}") from None
+              if not envelope["success"]:
+                  raise SystemExit(f"Cloudflare error codes {[x.get('code') for x in envelope['errors']]}")
+              return envelope["result"]
+          if request("user/tokens/verify")["status"] != "active":
               raise SystemExit("Token inactive")
           print("Token active", flush=True)
           account = os.environ["ACCOUNT"]
           if not account:
-              accounts = get("accounts")
+              accounts = request("accounts")
               if len(accounts) != 1:
                   raise SystemExit("Set CLOUDFLARE_ACCOUNT_ID to identify the target account")
               account = accounts[0]["id"]
-          get(f"accounts/{account}/d1/database?per_page=1")
-          print("D1 listing verified")
+          root = f"accounts/{account}/d1/database"
+          matches = [db for db in request(root + "?name=guanshi-financing") if db["name"] == "guanshi-financing"]
+          if len(matches) != 1:
+              raise SystemExit("Expected one production financing database")
+
+          def select(sql, params):
+              result, = request(root + "/" + matches[0]["uuid"] + "/query", {"sql": sql, "params": params})
+              if not result["success"] or result["meta"]["rows_written"] != 0:
+                  raise SystemExit("D1 read-only evidence verification failed")
+              print(f"D1 rows_read={result['meta']['rows_read']} rows_written=0", flush=True)
+              return result["results"]
+
+          batch_digest = "97ff425cddfa5e9b5965e8c4be159b4aa66058e43a3449842c7d11431b12eebf"
+          new_ids = (
+              "public:historical-disclosure:3164ce64c342f0a383eaa9",
+              "public:historical-disclosure:ab839780c0f25a482962e4",
+              "public:historical-disclosure:33e9b4e06fb553020a73a7",
+          )
+          original_id = "financing_event:8d3a6ea95dc998ed64c1da6730a53c893d180dac3ce2f5825f64523297b87ac3"
+          batches = select("""SELECT digest, filename, rows_added, sources_linked, rows_held, processed_at
+                              FROM historical_financing_batches WHERE digest=?""", [batch_digest])
+          rows = select("""SELECT event_id, company_name, date, round, amount, investors_json
+                           FROM financing_events WHERE event_id IN (?,?,?,?) ORDER BY event_id""", [*new_ids, original_id])
+          present = {row["event_id"] for row in rows}
+          for row in rows:
+              row["investors"] = [item["name"] for item in json.loads(row.pop("investors_json"))]
+          print("Batch 229 D1 state " + json.dumps({"digest": batch_digest, "batch_records": batches,
+                 "candidate_ids_absent": [item for item in new_ids if item not in present],
+                 "original_id_present": original_id in present, "records": rows}, ensure_ascii=False), flush=True)
           PY
