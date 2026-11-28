@@ -27163,5 +27163,76 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "3d7ee6eae35c9694fa49a71a",
+    "fundName": "苏州乾汇信业创业投资合伙企业（有限合伙）",
+    "managerId": "7fa8bf65a6952584df9f8982",
+    "managerName": "苏州乾汇智投资本管理有限公司",
+    "sizeCny": 100500000,
+    "capitalBasis": "披露出资额（原件未区分认缴/实缴）",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=25",
+      "date": "2025-12-30",
+      "dateKind": "法律意见书公开披露日，出资为原件工商登记历史时点",
+      "issuer": "锦天城关于江苏博涛智能热工股份有限公司挂牌法律意见书",
+      "pages": "物理25至26页（3-3-23至24）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=26"
+      ],
+      "lpScope": "两名合伙人，执行事务合伙人为苏州乾汇智投资本管理有限公司，另一名为李锋；不强连同名自然人档案。",
+      "creditCode": "91320594MA242KPN7G",
+      "establishedDate": "2020-12-16",
+      "managerLegalName": "苏州乾汇智投资本管理有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=38",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理38页（1-1-37）",
+        "basis": "基金及管理人备案表明确列示关联，管理人非仅据执行事务合伙人推定。"
+      },
+      "fundRegistration": "SNQ042",
+      "fundFilingDate": "2020-12-31",
+      "managerRegistration": "P1071480",
+      "managerRegistrationDate": "2020-11-09",
+      "registrationScope": "备案表为原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "披露出资额（原件未区分认缴/实缴）",
+      "paidDisclosureNote": "原件合伙人表仅标出资额，未区分认缴或实缴；不推定实缴或当前可投余额。",
+      "percentageNote": "两项原文99.01%与1.00%相加100.01%，原表合计100.00%；分别保留，不擅自调整。",
+      "generalPartners": [
+        {
+          "name": "苏州乾汇智投资本管理有限公司",
+          "disclosedContributionCny": 1000000,
+          "disclosedPercent": "1.00"
+        }
+      ],
+      "amountTexts": {
+        "disclosedCapitalCny": "100500000.00",
+        "GP": {
+          "name": "苏州乾汇智投资本管理有限公司",
+          "disclosedCapitalCny": "1000000.00",
+          "disclosedPercent": "1.00",
+          "roleBasis": "原件执行事务合伙人"
+        },
+        "LPs": [
+          {
+            "name": "李锋",
+            "disclosedCapitalCny": "99500000.00",
+            "disclosedPercent": "99.01",
+            "roleBasis": "有限合伙企业共两名合伙人，另一名为原件明列执行事务合伙人；此名不强连同名自然人档案。"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "李锋",
+        "disclosedContributionCny": 99500000,
+        "disclosedPercent": "99.01",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
