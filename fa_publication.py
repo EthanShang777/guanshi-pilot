@@ -7,13 +7,15 @@ import shutil
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from sector_taxonomy import ROOT_IDS
+from sector_taxonomy import BRANCHES, ROOT_IDS
 
 SCRIPTS = '<script src="fa-store.js?v=1"></script><script src="fa-navigation.js?v=1"></script>'
 DETAIL_ASSETS = '<link rel="stylesheet" href="fa-details.css?v=1">' + SCRIPTS
 DETAIL_PAGES = ('company.html', 'deal.html', 'institution.html')
 ASSETS = ('fa-store.js', 'fa-navigation.js', 'fa-details.css', 'fa-projects.js', 'fa-projects.css', 'fa-match.js')
 ID_PATTERN = re.compile(r'[0-9a-f]{24}')
+# Small direction buckets avoid downloading a whole sector for one fine direction.
+DIRECTION_ROWS_PER_BUCKET = 96
 
 
 def fund_index(funds):
@@ -40,11 +42,42 @@ def write_fund_index(out, funds):
     ))
 
 
-def write_sector_search(data, rows):
+def direction_bucket(direction, count):
+    # Match the 32-bit Unicode code-point hash in fa-match.js.
+    value = 2166136261
+    for char in direction:
+        value = ((value ^ ord(char)) * 16777619) & 0xffffffff
+    return value % count
+
+
+def write_direction_buckets(data, sector_shard, rows):
+    count = (len(rows) + DIRECTION_ROWS_PER_BUCKET - 1) // DIRECTION_ROWS_PER_BUCKET
+    if count < 2:
+        return 0
+    buckets = [[] for _ in range(count)]
+    for row in rows:
+        direction, membership = row[9], row[12]
+        if direction:
+            labels = [direction] + [BRANCHES[branch] for branch in membership if branch in BRANCHES]
+            targets = {direction_bucket(label, count) for label in labels}
+        else:
+            # Unclassified directions remain eligible in every query within this sector.
+            targets = range(count)
+        for target in targets:
+            buckets[target].append(row)
+    suffix = sector_shard.removeprefix('fa-sector-')
+    for number, items in enumerate(buckets):
+        path = data / f'fa-direction-v1-{suffix}-{number}.json'
+        path.write_text(json.dumps(items, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    return count
+
+
+def write_search_indexes(data, rows):
     by_sector = defaultdict(list)
     for row in rows:
         by_sector[row[4]].append(row)
     index = {}
+    directions = {}
     for sector, items in by_sector.items():
         if sector not in ROOT_IDS:
             continue
@@ -53,7 +86,10 @@ def write_sector_search(data, rows):
         name = f'fa-sector-{ROOT_IDS[sector]}-{sha256(payload).hexdigest()[:12]}'
         (data / f'{name}.json').write_bytes(payload)
         index[sector] = name
-    return index
+        count = write_direction_buckets(data, name, items)
+        if count:
+            directions[sector] = count
+    return {'faSearchSectors': index, 'faSearchDirectionBuckets': directions}
 
 
 def publish_assets(out):

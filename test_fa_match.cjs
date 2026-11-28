@@ -93,3 +93,26 @@ test('missing shards fall back to the full annual input and errors stay retryabl
   await loadMatchingRows({...filters,year:'2025'},meta,load,cache,()=>true);
   assert.deepEqual(calls,[sectorFile,'search-2026','search-2025',sectorFile]);
 });
+
+test('Dify direction requests one smaller shard and failed reads fall back to its sector',async()=>{
+  const sector='软件与企业服务', sub='企业智能体与应用开发平台';
+  const sectorPath='fa-sector-software-enterprise-abcdef123456';
+  const directionPath='fa-direction-v1-software-enterprise-abcdef123456-47';
+  const indexed={years:['2026'],faSearchSectors:{[sector]:sectorPath},faSearchDirectionBuckets:{[sector]:63}};
+  const filters={sector,sub};
+  const calls=[];
+  const load=async name=>{calls.push(name);return name===directionPath?[rows[0]]:rows;};
+  const cache=new Map();
+  await loadMatchingRows(filters,indexed,load,cache,()=>true);
+  await loadMatchingRows({...filters,cohort:'follow'},indexed,load,cache,()=>true);
+  assert.deepEqual(calls,[directionPath]);
+  const failDirection=async name=>{
+    calls.push(name);
+    if(name===directionPath)throw Error('unavailable');
+    return rows;
+  };
+  const fallback=await loadMatchingRows(filters,indexed,failDirection,new Map(),()=>true);
+  assert.deepEqual(fallback,rows);
+  await loadMatchingRows({...filters,sub:'',adjacent:true},indexed,load,cache,()=>true);
+  assert.deepEqual(calls,[directionPath,directionPath,sectorPath,sectorPath]);
+});

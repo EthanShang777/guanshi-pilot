@@ -2,7 +2,7 @@
 import json
 import shutil
 
-from fa_publication import write_sector_search
+from fa_publication import write_search_indexes
 from publish_master import DECKS, OUT, dump, research_pages, search_page
 from sector_taxonomy import public_filter
 
@@ -14,7 +14,7 @@ if manifest.get('taxonomyVersion') != 1:
 rows = [entry for year in manifest['years']
         for entry in json.loads((data / f'search-{year}.json').read_text())]
 deals = dict.fromkeys(entry[0] for entry in rows)
-manifest['faSearchSectors'] = write_sector_search(data, rows)
+manifest.update(write_search_indexes(data, rows))
 del rows
 directions = {}
 for path in data.glob('deal-??.json'):
