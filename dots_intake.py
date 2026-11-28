@@ -1,6 +1,6 @@
 """Reconcile verified public Dots batches through the financing master."""
 from collections import Counter
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from hashlib import sha256
 from itertools import chain
 import json
@@ -130,6 +130,7 @@ def reconcile_candidate(db, candidate, company_ids):
     name = company["legal_name"] or company["display_name"]
     aliases = ";".join(dict.fromkeys((name, company["display_name"])))
     urls = list(dict.fromkeys(s["url"] for s in candidate["sources"]))
+    evidence = {s["url"]:s for s in candidate["sources"]}
     cv_id = canonical_cv(urls)
     incoming_id = cv_id or "dots:daily:"+sha256(ident.encode()).hexdigest()[:24]
     investors = [party | {"amount": None} for party in candidate["investors"]
@@ -166,11 +167,16 @@ def reconcile_candidate(db, candidate, company_ids):
             return result | {"status": "held", "reason": "existing_event_identity_disagrees"}
         both = amount_key(row["amount"]), amount_key(chosen["amount"])
         if all(both) and both[0] != both[1] and not set(urls) & set(json.loads(chosen["sources_json"] or "[]")):
-            return result | {"status": "held", "reason": "reported_amount_disagrees"}
+            return result | {"status": "held", "reason": "reported_amount_disagrees",
+                             "related_event_id": chosen["event_id"], "reported_amount": row["amount"],
+                             "announced_on": day, "evidence_sources": list(evidence.values()),
+                             "recorded_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
         if any(old["event_id"]!=chosen["event_id"] for old in matches):
             return result | {"status": "held", "reason": "duplicate_live_matches"}
         event_id = chosen["event_id"]
+        old_urls = set(json.loads(chosen["sources_json"] or "[]"))
         status = "source_added" if append_sources(db,event_id,row["sources_json"]) else "covered"
+        changed_urls = [url for url in urls if url not in old_urls] if status == "source_added" else []
     else:
         if related:
             return result | {"status": "held", "reason": "ambiguous_nearby_financing"}
@@ -186,6 +192,7 @@ def reconcile_candidate(db, candidate, company_ids):
         added, linked, held = sync_rows(db,[row],reviewed=True)
         require((added,linked,held) == (1,0,0), "unexpected result during serial D1 write")
         event_id, status = incoming_id,"added"
+        changed_urls = urls
     inserted = query(db,'''INSERT INTO dots_financing_candidates (candidate_id, event_id)
                       VALUES (?,?) ON CONFLICT(candidate_id) DO NOTHING RETURNING event_id''', [ident,event_id])
     if not inserted:
@@ -193,7 +200,9 @@ def reconcile_candidate(db, candidate, company_ids):
     event = query(db,"SELECT * FROM financing_events WHERE event_id=?", [event_id])[0]
     require(set(urls).issubset(json.loads(event["sources_json"])), "sources absent after D1 write")
     return result | {"status": status, "event_id": event_id, "sources": urls,
-                     "candidate_mapping_added": bool(inserted)}
+                     "candidate_mapping_added": bool(inserted), "announced_on": day,
+                     "evidence_sources": [evidence[url] for url in changed_urls],
+                     "recorded_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
 
 
 def apply_batches(batches):
@@ -281,7 +290,11 @@ def main(argv):
         require(comment["issue_url"]==f"https://api.github.com/repos/{OWNER}/issues/1","unexpected issue")
     require(eligible(comment), "unexpected submitter")
     batch=read_comment(comment)
-    result=apply_batches([(comment,batch)]) if batch["candidates"] else []
+    result=apply_batches([(comment,batch)]) if batch["candidates"] else [{
+        "comment_id":comment["id"],"comment_url":ISSUE+"#issuecomment-"+str(comment["id"]),
+        "batch_id":batch["batch_id"],"scanned_at":batch["scanned_at"],"counts":{},
+        "replay_counts":{},"candidates":[],
+    }]
     path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
     with open(os.environ["GITHUB_OUTPUT"],"a") as f:
         print("has_records="+str(any("event_id" in r for b in result for r in b["candidates"])).lower(),file=f)

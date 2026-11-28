@@ -1,0 +1,42 @@
+<section id="investor-workbench" aria-label="个人投资工作台">
+  <div class="workbench-tools">
+    <a class="task-button task-primary" href="compare.html">开始比较</a>
+    <a class="task-button" href="judgments.html">记录研究判断</a>
+    <a class="task-button" href="#workbench-watch" data-open-workbench="workbench-watch">管理关注</a>
+  </div>
+  <div class="workbench-layout">
+    <section class="workbench-panel workbench-changes" aria-labelledby="workbench-change-title">
+      <header><h2 id="workbench-change-title">与我有关的变化</h2><a href="changes.html">查看变化追踪</a></header>
+      <div id="workbench-changes" aria-live="polite"><p class="task-state">正在读取关注与证据…</p></div>
+    </section>
+    <div class="workbench-side">
+      <section class="workbench-panel" aria-labelledby="workbench-continue-title">
+        <header><h2 id="workbench-continue-title">继续研究</h2></header>
+        <div id="workbench-continue"><p class="task-state">正在读取研究记录…</p></div>
+      </section>
+      <section class="workbench-panel" aria-labelledby="workbench-next-title">
+        <header><h2 id="workbench-next-title">下一步事项</h2></header>
+        <div id="workbench-next"><p class="task-state">正在读取待推进事项…</p></div>
+      </section>
+    </div>
+  </div>
+  <details class="workbench-panel workbench-settings" id="workbench-watch">
+    <summary>管理关注</summary>
+    <form id="workbench-watch-form" class="workbench-form">
+      <label>添加赛道<select name="sector" required><option value="">选择赛道</option></select></label>
+      <button type="submit">关注赛道</button>
+      <a href="lookup.html">查找公司和机构</a>
+    </form>
+    <p id="workbench-watch-status" class="task-state" role="status"></p>
+    <div id="workbench-watches"></div>
+  </details>
+  <details class="workbench-panel workbench-settings" id="workbench-backup">
+    <summary>浏览器数据与备份</summary>
+    <p>关注、比较、研究判断与项目保存在当前浏览器。更换浏览器可通过 JSON 备份恢复。</p>
+    <div class="task-links">
+      <button type="button" id="workbench-export">导出本机备份</button>
+      <label class="task-button import-label">导入备份<input id="workbench-import" type="file" accept=".json,application/json"></label>
+    </div>
+    <p id="workbench-backup-status" role="status" class="task-state"></p>
+  </details>
+</section>

@@ -9,7 +9,7 @@ from urllib.parse import urlsplit
 
 from sector_taxonomy import BRANCHES, ROOT_IDS
 
-SCRIPTS = '<script src="fa-store.js?v=1"></script><script src="fa-navigation.js?v=1"></script>'
+SCRIPTS = '<script src="fa-store.js?v=2"></script><script src="fa-navigation.js?v=1"></script>'
 DETAIL_ASSETS = '<link rel="stylesheet" href="fa-details.css?v=1">' + SCRIPTS
 DETAIL_PAGES = ('company.html', 'deal.html', 'institution.html')
 ASSETS = ('fa-store.js', 'fa-navigation.js', 'fa-details.css', 'fa-projects.js', 'fa-projects.css', 'fa-match.js')
@@ -106,7 +106,7 @@ def publish_assets(out):
         write_fund_index(out, funds.values())
     for name in DETAIL_PAGES:
         page = out / name
-        html = page.read_text()
+        html = re.sub(r'fa-store\.js\?v=\w+', 'fa-store.js?v=2', page.read_text())
         if DETAIL_ASSETS not in html:
             html = html.replace('</style><header', '</style>' + DETAIL_ASSETS + '<header', 1)
         html = re.sub(r'master-detail\.js\?v=[^"]+', 'master-detail.js?v=fa-projects1', html)

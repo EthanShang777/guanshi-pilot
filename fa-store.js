@@ -6,6 +6,7 @@ const faStore = (() => {
   const format = 'guanshi-fa-backup';
   const statuses = Object.freeze(['待联系', '已联系', '有回应', '暂缓', '不适配']);
   const entityTypes = new Set(['institution', 'fund']);
+  const researchKinds = new Set(['watch', 'comparison', 'judgment', 'draft']);
   const projectFields = ['companyId', 'companyName', 'title', 'stage', 'amount', 'currency', 'ticket',
     'region', 'keywords', 'notes', 'sector', 'sub'];
   const feedbackFields = ['userReason', 'concerns', 'nextAction', 'feedback', 'status'];
@@ -137,13 +138,17 @@ const faStore = (() => {
     if (connection) return connection;
     connection = new Promise((resolve, reject) => {
       if (!globalThis.indexedDB) return reject(fault('storage', '当前浏览器无法使用项目存储。'));
-      const request = indexedDB.open(database, 1);
-      request.onupgradeneeded = () => {
+      const request = indexedDB.open(database, 2);
+      request.onupgradeneeded = event => {
         const db = request.result;
-        db.createObjectStore('projects', {keyPath:'id'});
-        const records = db.createObjectStore('candidates', {keyPath:['projectId', 'entityType', 'entityId']});
-        records.createIndex('project', 'projectId');
-        db.createObjectStore('pending', {keyPath:'key'});
+        if (event.oldVersion < 1) {
+          db.createObjectStore('projects', {keyPath:'id'});
+          const records = db.createObjectStore('candidates', {keyPath:['projectId', 'entityType', 'entityId']});
+          records.createIndex('project', 'projectId');
+          db.createObjectStore('pending', {keyPath:'key'});
+        }
+        const research = db.createObjectStore('research', {keyPath:['kind','id']});
+        research.createIndex('kind','kind');
       };
       request.onsuccess = () => {
         const db = request.result;
@@ -241,6 +246,56 @@ const faStore = (() => {
     if (current.revision !== expected) {
       throw fault('conflict', '其他标签页已修改这条记录。请核对最新内容，当前输入可保留后重试。');
     }
+  }
+
+  function researchKey(kind, id) {
+    if (!researchKinds.has(kind) || typeof id !== 'string' || !/^[A-Za-z\d][A-Za-z\d:_-]{0,127}$/.test(id)) {
+      throw invalid('研究记录编号无效。');
+    }
+    return [kind,id];
+  }
+
+  function researchInfo(kind, input) {
+    if (!object(input)) throw invalid('研究记录格式无效。');
+    const [type,id] = researchKey(kind,input.id);
+    const {kind:ignoredKind,createdAt,updatedAt,revision,...record} = data(input);
+    return {...record,kind:type,id};
+  }
+
+  const listResearch = kind => transaction(['research'],'readonly',async ({research}) => {
+    if (!researchKinds.has(kind)) throw invalid('研究记录类型无效。');
+    const records = await value(research.index('kind').getAll(kind));
+    return records.sort((a,b) => b.updatedAt.localeCompare(a.updatedAt));
+  });
+
+  const getResearch = (kind,id) => transaction(['research'],'readonly',async ({research}) =>
+    (await value(research.get(researchKey(kind,id)))) ?? null);
+
+  async function saveResearch(kind,input,expectedRevision=null) {
+    const info = researchInfo(kind,input);
+    const key = researchKey(kind,info.id);
+    const row = await transaction(['research'],'readwrite',async ({research}) => {
+      const previous = await value(research.get(key));
+      checkRevision(previous ?? {revision:null},expectedRevision);
+      if (previous && same(researchInfo(kind,previous),info)) return previous;
+      const time = now();
+      const row = {...info, createdAt:previous?.createdAt ?? time, updatedAt:time, revision:(previous?.revision ?? 0)+1};
+      await value(research.put(row));
+      return row;
+    });
+    notify({kind:'research',recordKind:kind,id:info.id});
+    return row;
+  }
+
+  async function removeResearch(kind,id,expectedRevision) {
+    const key = researchKey(kind,id);
+    await transaction(['research'],'readwrite',async ({research}) => {
+      const previous = await value(research.get(key));
+      if (!previous) return;
+      checkRevision(previous,expectedRevision);
+      await value(research.delete(key));
+    });
+    notify({kind:'research',recordKind:kind,id});
   }
 
   async function updateProject(id, patch, expectedRevision) {
@@ -342,6 +397,7 @@ const faStore = (() => {
       }
       if (Object.hasOwn(changed, 'status')) changed.statusUpdatedAt = time;
       if (Object.hasOwn(changed, 'feedback')) changed.feedbackUpdatedAt = time;
+      if (Object.hasOwn(changed, 'nextAction')) changed.nextActionUpdatedAt = time;
       const nextEvidence = Object.hasOwn(patch, 'evidence') ? evidence(patch.evidence) : previous.evidence;
       const nextFunds = Object.hasOwn(patch, 'funds') ? funds(patch.funds) : previous.funds;
       if (!same(previous.evidence, nextEvidence) || !same(previous.funds, nextFunds)) {
@@ -421,14 +477,14 @@ const faStore = (() => {
   }
 
   async function exportBackup({includePrivate = true} = {}) {
-    return transaction(['projects', 'candidates', 'pending'], 'readonly', async ({projects, candidates, pending}) => {
-      const [allProjects, allCandidates, pendingRecords] = await Promise.all([
-        value(projects.getAll()), value(candidates.getAll()), value(pending.getAll()),
+    return transaction(['projects', 'candidates', 'pending', 'research'], 'readonly', async ({projects, candidates, pending, research}) => {
+      const [allProjects, allCandidates, pendingRecords, researchRecords] = await Promise.all([
+        value(projects.getAll()), value(candidates.getAll()), value(pending.getAll()), includePrivate ? value(research.getAll()) : [],
       ]);
       return {format, version:1, exportedAt:now(), includesPrivate:includePrivate,
         projects:includePrivate ? allProjects : allProjects.map(row => ({...row, notes:''})),
         candidates:includePrivate ? allCandidates : allCandidates.map(row => ({...row, feedback:''})),
-        pending:pendingRecords};
+        pending:pendingRecords, research:researchRecords};
     });
   }
 
@@ -467,6 +523,7 @@ const faStore = (() => {
       return {projectId:row.projectId, ...info, revision:revision(row.revision),
         addedAt:date(row.addedAt), updatedAt:date(row.updatedAt),
         statusUpdatedAt:date(row.statusUpdatedAt || row.updatedAt), feedbackUpdatedAt:row.feedbackUpdatedAt ? date(row.feedbackUpdatedAt) : '',
+        ...(row.nextActionUpdatedAt ? {nextActionUpdatedAt:date(row.nextActionUpdatedAt)} : {}),
         removedAt:row.removedAt ? date(row.removedAt) : '', evidenceUpdatedAt:date(row.evidenceUpdatedAt || row.addedAt),
         priorEvidence:(row.priorEvidence ?? []).map(item => {
           if (!object(item)) throw invalid('原始案例快照格式无效。');
@@ -487,12 +544,21 @@ const faStore = (() => {
         capturedAt:date(row.capturedAt), assignedAt:row.assignedAt ? date(row.assignedAt) : '',
         projectId:row.assignedAt ? row.projectId : ''};
     });
-    return {projects, candidates, pending};
+    if (backup.research != null && !Array.isArray(backup.research)) throw invalid('研究备份格式无效。');
+    const researchKeys = new Set();
+    const research = (backup.research ?? []).map(row => {
+      const info = researchInfo(row?.kind,row);
+      const key = researchKey(info.kind,info.id).join('|');
+      if (researchKeys.has(key)) throw invalid('研究备份中存在重复编号。');
+      researchKeys.add(key);
+      return {...info, revision:revision(row.revision), createdAt:date(row.createdAt), updatedAt:date(row.updatedAt)};
+    });
+    return {projects, candidates, pending, research};
   }
 
   async function importBackup(input, {asCopy = false} = {}) {
     const backup = decodeBackup(input);
-    const result = {projects:0, candidates:0, pending:0, conflicts:0};
+    const result = {projects:0, candidates:0, pending:0, research:0, conflicts:0};
     const ids = new Map();
     if (asCopy) {
       for (const project of backup.projects) {
@@ -504,14 +570,29 @@ const faStore = (() => {
       }
       for (const row of backup.candidates) row.projectId = ids.get(row.projectId);
       for (const row of backup.pending) if (row.projectId) row.projectId = ids.get(row.projectId);
+      const comparisonIds = new Map();
+      for (const row of backup.research) {
+        if (row.kind === 'comparison') comparisonIds.set(row.id,crypto.randomUUID());
+      }
+      for (const row of backup.research) {
+        if (row.kind === 'comparison') row.id = comparisonIds.get(row.id);
+        if (row.kind === 'judgment') row.id = crypto.randomUUID();
+        if (row.projectId && ids.has(row.projectId)) row.projectId = ids.get(row.projectId);
+        if (Array.isArray(row.targets)) row.targets = row.targets.map(target => {
+          const id = target?.type === 'project' ? ids.get(target.id) :
+            target?.type === 'comparison' ? comparisonIds.get(target.id) : '';
+          return id ? {...target,id,href:''} : target;
+        });
+      }
     }
-    await transaction(['projects', 'candidates', 'pending'], 'readwrite', async tables => {
+    await transaction(['projects', 'candidates', 'pending', 'research'], 'readwrite', async tables => {
       const companyConflicts = new Set();
       for (const name of Object.keys(backup)) {
         for (const row of backup[name]) {
           if (companyConflicts.has(row.projectId)) continue;
           const key = name === 'projects' ? row.id :
-            name === 'candidates' ? candidateKey(row.projectId, row.entityType, row.entityId) : row.key;
+            name === 'candidates' ? candidateKey(row.projectId, row.entityType, row.entityId) :
+              name === 'research' ? researchKey(row.kind,row.id) : row.key;
           const current = await value(tables[name].get(key));
           if (name === 'projects' && current && current.companyId !== row.companyId) {
             companyConflicts.add(row.id);
@@ -566,6 +647,7 @@ const faStore = (() => {
 
   return Object.freeze({
     statuses, subscribe, listProjects, getProject, createProject, updateProject, saveView,
+    listResearch, getResearch, saveResearch, removeResearch,
     listCandidates, saveCandidate, updateCandidate, removeCandidate, restoreCandidate,
     captureLegacy, listPending, assignPending, exportBackup, importBackup,
     csv:(project, candidates, options) => '\uFEFF'+delimited(exportedRows(project, candidates, options), ','),
