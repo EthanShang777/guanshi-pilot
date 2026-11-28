@@ -19,8 +19,14 @@ on:
       - 'company-browser.js'
       - 'company-research-body.html'
       - 'company-research.js'
+  issue_comment:
+    types: [created]
   workflow_dispatch:
     inputs:
+      dots_comment_id:
+        description: Recheck one Dots inbox comment by its numeric comment ID
+        type: string
+        required: false
       published_run:
         description: Refresh interface from the current successful Pages artifact (run ID)
         type: string
@@ -40,11 +46,16 @@ permissions:
 concurrency:
   group: daily-financing
   cancel-in-progress: false
+  queue: max
 env:
   # The Cloudflare API permits 1,200 requests per five minutes per token.
   D1_MIN_REQUEST_INTERVAL_SECONDS: '0.32'
 jobs:
   update:
+    if: >-
+      github.event_name != 'issue_comment' ||
+      (github.event.issue.number == 1 && !github.event.issue.pull_request &&
+       github.event.comment.user.id == 110958536)
     runs-on: ubuntu-latest
     timeout-minutes: 45
     environment:
@@ -57,13 +68,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Select Dots input
+        id: mode
+        env:
+          EVENT: ${{ github.event_name }}
+          DOTS_COMMENT: ${{ inputs.dots_comment_id }}
+        run: |
+          if [ "$EVENT" = "issue_comment" ] || [ -n "$DOTS_COMMENT" ]; then
+            echo "dots=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Reconcile Dots disclosures and verify D1 replay
+        id: dots
+        if: steps.mode.outputs.dots == 'true'
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: python dots_intake.py apply "$RUNNER_TEMP/dots-receipt.json"
       - name: Fetch ChinaVenture disclosures
-        if: inputs.published_run == '' && github.event_name != 'push'
+        if: steps.mode.outputs.dots != 'true' && inputs.published_run == '' && github.event_name != 'push'
         run: |
           cp ledger.json "$RUNNER_TEMP/previous-ledger.json"
           python update.py --replay-check --ingest-only
       - name: Sync changed disclosures to financing master
-        if: inputs.published_run == '' && github.event_name != 'push'
+        if: steps.mode.outputs.dots != 'true' && inputs.published_run == '' && github.event_name != 'push'
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
@@ -75,7 +102,7 @@ jobs:
             python sync_financing.py "$RUNNER_TEMP/previous-ledger.json"
           fi
       - name: Save ledger and pages
-        if: inputs.published_run == '' && github.event_name != 'push'
+        if: steps.mode.outputs.dots != 'true' && inputs.published_run == '' && github.event_name != 'push'
         run: |
           git config user.name github-actions[bot]
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -97,13 +124,13 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
       - name: Sync reviewed historical financing batches
-        if: inputs.published_run == '' && github.event_name != 'push' || steps.batches.outputs.changed == 'true'
+        if: steps.mode.outputs.dots != 'true' && ((inputs.published_run == '' && github.event_name != 'push') || steps.batches.outputs.changed == 'true')
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
         run: python sync_financing.py --historical-dir historical-financing
       - name: Restore current public snapshot
-        if: inputs.published_run != ''
+        if: steps.mode.outputs.dots != 'true' && inputs.published_run != ''
         uses: actions/download-artifact@v4
         with:
           name: github-pages
@@ -111,7 +138,7 @@ jobs:
           github-token: ${{ github.token }}
           path: snapshot
       - name: Refresh published views
-        if: inputs.published_run != ''
+        if: steps.mode.outputs.dots != 'true' && inputs.published_run != ''
         run: |
           mkdir public
           tar -xf snapshot/artifact.tar -C public
@@ -119,16 +146,18 @@ jobs:
           cmp public/records/manifest.json /tmp/live-manifest
           python refresh_public_views.py
       - name: Publish full D1 financing snapshot
-        if: inputs.published_run == ''
+        if: (steps.mode.outputs.dots != 'true' && inputs.published_run == '') || steps.dots.outputs.has_records == 'true'
         env:
           CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
         run: python publish_master.py
       - uses: actions/upload-pages-artifact@v3
+        if: steps.mode.outputs.dots != 'true' || steps.dots.outputs.has_records == 'true'
         with:
           path: public
       - name: Deploy published pages
         id: deploy
+        if: steps.mode.outputs.dots != 'true' || steps.dots.outputs.has_records == 'true'
         continue-on-error: true
         uses: actions/deploy-pages@v4
       - name: Allow time for artifact indexing
@@ -137,3 +166,19 @@ jobs:
       - name: Retry Pages deployment
         if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
+      - name: Read back Dots records from Pages
+        if: steps.mode.outputs.dots == 'true'
+        run: |
+          for attempt in 1 2 3; do
+            if python dots_intake.py verify "$RUNNER_TEMP/dots-receipt.json"; then
+              exit 0
+            fi
+            sleep 12
+          done
+          exit 1
+      - name: Save Dots receipt
+        if: always() && steps.mode.outputs.dots == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dots-receipt
+          path: ${{ runner.temp }}/dots-receipt.json
