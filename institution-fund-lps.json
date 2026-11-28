@@ -28329,5 +28329,127 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "caa776ae82434bebee6b817b",
+    "fundName": "常熟吴越天使创业投资合伙企业（有限合伙）",
+    "managerId": "89666d8edfe472765923873f",
+    "managerName": "常熟市国发创业投资有限公司",
+    "capitalBasis": "认缴规模",
+    "sizeCny": 180000000,
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=40",
+      "date": "2026-06-26",
+      "dateKind": "招股说明书公开披露日，认缴为原件签署时点",
+      "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+      "pages": "物理40页（1-1-39）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=40"
+      ],
+      "lpScope": "原件完整列出1名普通合伙人和4名有限合伙人，表头明确认缴资本；GP常熟启新与管理人国发分列。",
+      "creditCode": "91320581MACHNKPX3T",
+      "establishedDate": "2023-05-05",
+      "legalIdentityEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf",
+        "physicalPages": [
+          46,
+          47,
+          48
+        ],
+        "published": "2025-12-30",
+        "sha256": "d95ea90e4969e48a5c748ff580cff276c737acb12113f00c89f16da5eba14fe2",
+        "basis": "信用代码/成立日；第48页SB3097与新版一致",
+        "visualChecked": [
+          46
+        ]
+      },
+      "managerLegalName": "常熟市国发创业投资有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=40",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理38、40页（1-1-37、1-1-39）",
+        "basis": "第40页完整法定名称、SB3097及管理人明示，第38页备案日期；未以GP推定管理人。"
+      },
+      "fundRegistration": "SB3097",
+      "fundFilingDate": "2023-07-19",
+      "managerRegistration": "P1060794",
+      "managerRegistrationDate": "2017-01-04",
+      "registrationScope": "原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "认缴资本（万元）",
+      "paidDisclosureNote": "原件仅认缴资本，未披露实缴及当前可投余额，不推定。",
+      "percentageNote": "原比例合计100.00%，金额及比例保留原数。",
+      "generalPartners": [
+        {
+          "name": "常熟启新创业投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 1800000,
+          "disclosedPercent": "1.00",
+          "role": "普通合伙人"
+        }
+      ],
+      "amountTexts": {
+        "committedCny": "180000000.00",
+        "GP": {
+          "name": "常熟启新创业投资合伙企业（有限合伙）",
+          "committedCny": "1800000.00",
+          "disclosedPercent": "1.00",
+          "roleBasis": "招股说明书原表明示普通合伙人"
+        },
+        "LPs": [
+          {
+            "name": "常熟市投资控股集团有限公司",
+            "committedCny": "95200000.00",
+            "disclosedPercent": "52.89",
+            "roleBasis": "招股说明书原表明示有限合伙人"
+          },
+          {
+            "name": "苏州天使投资引导基金（有限合伙）",
+            "committedCny": "53000000.00",
+            "disclosedPercent": "29.44",
+            "roleBasis": "招股说明书原表明示有限合伙人"
+          },
+          {
+            "name": "常熟开晟股权投资有限公司",
+            "committedCny": "20000000.00",
+            "disclosedPercent": "11.11",
+            "roleBasis": "招股说明书原表明示有限合伙人"
+          },
+          {
+            "name": "常熟大学科技园有限公司",
+            "committedCny": "10000000.00",
+            "disclosedPercent": "5.56",
+            "roleBasis": "招股说明书原表明示有限合伙人"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "常熟市投资控股集团有限公司",
+        "disclosedContributionCny": 95200000,
+        "disclosedPercent": "52.89",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州天使投资引导基金（有限合伙）",
+        "disclosedContributionCny": 53000000,
+        "disclosedPercent": "29.44",
+        "existingInstitution": "aa5f461da889e56e9f6f4bd7"
+      },
+      {
+        "name": "常熟开晟股权投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "11.11",
+        "existingInstitution": null
+      },
+      {
+        "name": "常熟大学科技园有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "5.56",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
