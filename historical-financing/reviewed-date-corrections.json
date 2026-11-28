@@ -118,5 +118,24 @@
       "https://m.nbd.com.cn/articles/2026-10-13/4602541.html",
       "https://www.eeo.com.cn/2026/1014/1064207.shtml"
     ]
+  },
+  {
+    "event_id": "financing_event:3758fcc5c07b8db6e6c6bcc47d8d4578d4fca37289d1c0cf9a6e4b2cb183ba5d",
+    "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a",
+    "round": "A轮",
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-10-23/d992ac3948d2b07d125292d6344858d9.pdf#page=54",
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf#page=58"
+    ],
+    "expected": {
+      "date": "2023-03-21",
+      "date_key": "2023-03-21",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "date": "2023-03-21",
+      "date_key": "2023-03-21",
+      "date_kind": "工商变更日（股东会决议日2023-03-16）"
+    }
   }
 ]
