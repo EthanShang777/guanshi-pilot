@@ -25226,5 +25226,72 @@
         "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=45"
       }
     ]
+  },
+  {
+    "fundId": "6cd5acf687ea471c9d6da2a4",
+    "fundName": "苏州龙驹铁鑫创业投资合伙企业（有限合伙）",
+    "managerId": "0ad2d3bfe5b45fda135129fa",
+    "managerName": "苏州龙驹东方投资管理企业（有限合伙）",
+    "sizeCny": 23484419,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=31",
+      "date": "2025-12-03",
+      "dateKind": "公开文件披露日，认缴及实缴为原件历史时点",
+      "issuer": "铁近科技公开转让说明书",
+      "pages": "物理PDF第31页（1-1-30），登记表第38页（1-1-37）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=38"
+      ],
+      "lpScope": "3名LP及1项GP。历史实缴不等于当前可投余额。",
+      "creditCode": "91320507MA25MKUY9B",
+      "establishedDate": "2021-04-08",
+      "managerLegalName": "苏州龙驹东方投资管理企业（有限合伙）",
+      "fundRegistration": "SQL294",
+      "managerRegistration": "P1061848",
+      "registrationScope": "原件历史披露；未核当前AMAC状态。登记表简称附星号，含义未核。",
+      "generalPartners": [
+        {
+          "name": "苏州龙驹东方投资管理企业（有限合伙）",
+          "disclosedContributionCny": 10000,
+          "disclosedPercent": "0.04"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2025-12-03",
+        "basis": "原件披露时点实缴",
+        "totalCny": 19382523.47,
+        "byPartner": {
+          "苏州龙驹东方投资管理企业（有限合伙）": 8600.0,
+          "陆翰": 7763923.47,
+          "许霖杰": 8170000.0,
+          "沈磊": 3440000.0
+        },
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=31"
+      },
+      "percentageNote": "4项列示比例相加99.99%，原文合计100%，保留原文四舍五入尾差。"
+    },
+    "partners": [
+      {
+        "name": "陆翰",
+        "disclosedContributionCny": 9974419,
+        "disclosedPercent": "42.47",
+        "existingInstitution": null
+      },
+      {
+        "name": "许霖杰",
+        "disclosedContributionCny": 9500000,
+        "disclosedPercent": "40.45",
+        "existingInstitution": null
+      },
+      {
+        "name": "沈磊",
+        "disclosedContributionCny": 4000000,
+        "disclosedPercent": "17.03",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
