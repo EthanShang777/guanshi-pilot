@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "batch": 231,
+  "base_main_sha": "4a57b59e527b4a14eb2b939ad38161a36506616e",
+  "candidate_sha256": "9c1473910388371d3576d91c9aacd4b9905a0e2173fee04f53d77e7069e6c5f6",
+  "batch_digests": [],
+  "fund_ids": [
+    "6cd5acf687ea471c9d6da2a4"
+  ],
+  "event_ids": [],
+  "company_windows": [],
+  "scope_sha256": "40b30958a06f27093009faccbdfd0763097805e004862b12fc5919e25b326aa5"
+}
