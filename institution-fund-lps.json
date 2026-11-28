@@ -28634,5 +28634,75 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "2f87a2683b8ee1dfed8bd041",
+    "fundName": "成都市郫都区交子满园产业发展基金合伙企业（有限合伙）",
+    "managerId": "49d4f246c25c35d80c3b4f1b",
+    "managerName": "成都交子产业基金管理有限公司",
+    "capitalBasis": "首期规模（未区分认缴/实缴）",
+    "sizeCny": 1000000000,
+    "otherLpCount": null,
+    "source": {
+      "url": "https://m.chinaventure.com.cn/news/108-20251101-388668.html",
+      "date": "2025-11-01",
+      "dateKind": "管理人/首期规模公开征集公告日期；登记与执行GP见2026年独立原件",
+      "issuer": "投中网刊载郫都交子满园基金常态化征集子基金合作管理机构的公告",
+      "pages": "公告正文首段",
+      "lpSources": [],
+      "lpScope": "尚未取得完整LP名单、性质及出资表，LP行留空、总人数未知；不把2026年登记原件所列主要持份额定性为LP，不补猜其它GP。",
+      "creditCode": "91510124MAG00RRJ78",
+      "establishedDate": "2025-09-26",
+      "managerLegalName": "成都交子产业基金管理有限公司",
+      "managerEvidence": {
+        "url": "https://m.chinaventure.com.cn/news/108-20251101-388668.html",
+        "date": "2025-11-01",
+        "issuer": "投中网刊载《常态化征集子基金合作管理机构的公告》",
+        "basis": "公告正文明确完整基金名称、首期10亿元、成都交子产业基金管理有限公司担任管理人；不是据GP推断。"
+      },
+      "managerRelationshipAsOf": "2025-11-01",
+      "managerScope": "记录该历史公告明示关系，不推未披露变更或当前任职。",
+      "laterRegistryEvidence": {
+        "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-09-17/605198_20260917_4US9.pdf",
+        "date": "2026-09-17",
+        "physicalPages": [
+          3,
+          4
+        ],
+        "creditCode": "91510124MAG00RRJ78",
+        "establishedDate": "2025-09-26",
+        "reportedRegistryCapitalCny": "1000000000.00",
+        "executivePartner": "成都交子产业基金管理有限公司",
+        "executivePartnerAsOf": "2026-09-17",
+        "unclassifiedPartner": {
+          "name": "成都鹃银立园企业管理合伙企业（有限合伙）",
+          "disclosedPercent": "79.9",
+          "nature": "原件仅列主要股东/实际控制人，未在该表确认LP性质，不建LP事实"
+        }
+      },
+      "capitalAmountBasis": "原公告首期规模10亿元；未区分认缴/实缴，不记作已募集或可投额度。",
+      "paidDisclosureNote": "未披露基金总实缴和当前可投余额，不推定。",
+      "generalPartners": [
+        {
+          "name": "成都交子产业基金管理有限公司",
+          "disclosedContributionCny": null,
+          "disclosedPercent": null,
+          "asOf": "2026-09-17",
+          "source": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-09-17/605198_20260917_4US9.pdf#page=3",
+          "scope": "仅该日期原件明示的执行事务合伙人，不表示完整GP名单。"
+        }
+      ],
+      "GPCompleteListUnknown": true,
+      "unclassifiedPartnerEvidence": {
+        "name": "成都鹃银立园企业管理合伙企业（有限合伙）",
+        "disclosedPercent": "79.9",
+        "nature": "原件仅列主要股东/实际控制人，未在该表确认LP性质，不建LP事实"
+      },
+      "amountTexts": {
+        "reportedFirstPhaseSizeCny": "1000000000.00"
+      }
+    },
+    "partners": [],
+    "reviewedInvestments": []
   }
 ]
