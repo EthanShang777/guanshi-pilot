@@ -1,0 +1,51 @@
+name: Dots cloud audit
+
+on:
+  schedule:
+    # 09:05 in Beijing on November 29. The date guard limits the audit to 2026.
+    - cron: '5 1 29 11 *'
+  workflow_dispatch:
+    inputs:
+      baseline:
+        description: Verify the known 2026-11-28 control receipt
+        type: boolean
+        default: false
+
+permissions:
+  actions: read
+  contents: read
+  issues: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Select audit date
+        id: date
+        env:
+          EVENT: ${{ github.event_name }}
+          BASELINE: ${{ inputs.baseline }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ] && [ "$BASELINE" = "true" ]; then
+            echo "day=2026-11-28" >> "$GITHUB_OUTPUT"
+          elif [ "$(date -u +%F)" = "2026-11-29" ]; then
+            echo "day=2026-11-29" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.date.outputs.day != ''
+        with:
+          persist-credentials: false
+      - name: Audit the Dots delivery and its production receipt
+        id: audit
+        if: steps.date.outputs.day != ''
+        env:
+          AUDIT_DAY: ${{ steps.date.outputs.day }}
+          GH_TOKEN: ${{ github.token }}
+        run: python3 dots_cloud_audit.py "$AUDIT_DAY"
+      - name: Store read-only audit evidence
+        if: always() && steps.audit.conclusion != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dots-cloud-audit
+          path: dots-cloud-audit.json
