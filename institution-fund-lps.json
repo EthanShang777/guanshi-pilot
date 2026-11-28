@@ -26557,5 +26557,258 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "1aff36491d33573bd111f990",
+    "fundName": "苏州乾汇信立创业投资合伙企业（有限合伙）",
+    "managerId": "7fa8bf65a6952584df9f8982",
+    "managerName": "苏州乾汇智投资本管理有限公司",
+    "sizeCny": 192000000,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=27",
+      "date": "2025-02-25",
+      "dateKind": "公开文件披露日，认缴为法律意见书工商档案历史时点",
+      "issuer": "国浩律师（上海）事务所新吴光电法律意见书",
+      "pages": "物理27至28页（3-3-26至27）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=28"
+      ],
+      "lpScope": "18名LP及1项GP；仅披露认缴，未披露实缴或当前可投余额。",
+      "creditCode": "91320509MA23FGBW06",
+      "managerLegalName": "苏州乾汇智投资本管理有限公司",
+      "fundRegistration": "SNL332",
+      "fundFilingDate": "2020-12-25",
+      "managerRegistration": "P1071480",
+      "managerRegistrationDate": "2020-11-09",
+      "registrationScope": "仅律师意见书历史披露，未核当前AMAC状态。",
+      "operatingTerm": {
+        "start": "2020-12-01",
+        "end": "2027-12-31",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=27",
+        "note": "原件列营业期限，不将其起点补填为已核成立日期。"
+      },
+      "paidDisclosureNote": "原件此表仅披露认缴，实缴和当前可投余额未披露，不以认缴代替。",
+      "percentageNote": "19项列示比例相加99.99%，原件合计100%；分别保留原文，不擅自调整。",
+      "generalPartners": [
+        {
+          "name": "苏州乾汇智投资本管理有限公司",
+          "disclosedContributionCny": 3000000,
+          "disclosedPercent": "1.56"
+        }
+      ],
+      "amountTexts": {
+        "committedCny": "192000000.00",
+        "GP": {
+          "name": "苏州乾汇智投资本管理有限公司",
+          "commitmentCny": "3000000.00",
+          "disclosedPercent": "1.56"
+        },
+        "LPs": [
+          {
+            "name": "苏州和晓投资管理有限公司",
+            "commitmentCny": "60000000.00",
+            "disclosedPercent": "31.25"
+          },
+          {
+            "name": "李锋",
+            "commitmentCny": "20000000.00",
+            "disclosedPercent": "10.42"
+          },
+          {
+            "name": "上海优泊网络科技有限责任公司",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "5.21"
+          },
+          {
+            "name": "王琦",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "5.21"
+          },
+          {
+            "name": "苏州宏佳赢投资咨询合伙企业（普通合伙）",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "5.21"
+          },
+          {
+            "name": "苏州汇方融萃企业管理咨询有限公司",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "5.21"
+          },
+          {
+            "name": "苏州海桐企业管理服务有限公司",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "5.21"
+          },
+          {
+            "name": "施荣",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "5.21"
+          },
+          {
+            "name": "上海谦府酒店管理有限公司",
+            "commitmentCny": "8000000.00",
+            "disclosedPercent": "4.17"
+          },
+          {
+            "name": "南通智盛浩瑞企业管理服务有限公司",
+            "commitmentCny": "6000000.00",
+            "disclosedPercent": "3.13"
+          },
+          {
+            "name": "严康",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "2.60"
+          },
+          {
+            "name": "吕同序",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "2.60"
+          },
+          {
+            "name": "施新荣",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "2.60"
+          },
+          {
+            "name": "江苏梦嘉控股集团有限公司",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "2.60"
+          },
+          {
+            "name": "金福康",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "2.60"
+          },
+          {
+            "name": "黄卫东",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "2.60"
+          },
+          {
+            "name": "万娟",
+            "commitmentCny": "3000000.00",
+            "disclosedPercent": "1.56"
+          },
+          {
+            "name": "苏州初伍消防安全服务有限公司",
+            "commitmentCny": "2000000.00",
+            "disclosedPercent": "1.04"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "苏州和晓投资管理有限公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": "31.25",
+        "existingInstitution": null
+      },
+      {
+        "name": "李锋",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "10.42",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海优泊网络科技有限责任公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "5.21",
+        "existingInstitution": null
+      },
+      {
+        "name": "王琦",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "5.21",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州宏佳赢投资咨询合伙企业（普通合伙）",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "5.21",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州汇方融萃企业管理咨询有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "5.21",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州海桐企业管理服务有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "5.21",
+        "existingInstitution": null
+      },
+      {
+        "name": "施荣",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "5.21",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海谦府酒店管理有限公司",
+        "disclosedContributionCny": 8000000,
+        "disclosedPercent": "4.17",
+        "existingInstitution": null
+      },
+      {
+        "name": "南通智盛浩瑞企业管理服务有限公司",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": "3.13",
+        "existingInstitution": null
+      },
+      {
+        "name": "严康",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "2.60",
+        "existingInstitution": null
+      },
+      {
+        "name": "吕同序",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "2.60",
+        "existingInstitution": null
+      },
+      {
+        "name": "施新荣",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "2.60",
+        "existingInstitution": null
+      },
+      {
+        "name": "江苏梦嘉控股集团有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "2.60",
+        "existingInstitution": null
+      },
+      {
+        "name": "金福康",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "2.60",
+        "existingInstitution": null
+      },
+      {
+        "name": "黄卫东",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "2.60",
+        "existingInstitution": null
+      },
+      {
+        "name": "万娟",
+        "disclosedContributionCny": 3000000,
+        "disclosedPercent": "1.56",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州初伍消防安全服务有限公司",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.04",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
