@@ -2,6 +2,10 @@
   const form=document.querySelector('#archive-form'), count=document.querySelector('#match-count'),list=document.querySelector('#matches');
   const keys=['company','investor','sector','year','stage','sub','mode','view'];
   const load=async name=>{const res=await fetch('records/'+name+'.json');if(!res.ok)throw Error();return res.json();};
+  if(typeof faMatching!=='undefined' && new URLSearchParams(location.search).has('project')){
+    await faMatching.start({form,count,list,load});
+    return;
+  }
   try{
     const work=typeof researchWorkspace!=='undefined'?researchWorkspace:null;
     const meta=await load('manifest'),args=work?.args||new URLSearchParams(location.search),cache=new Map();

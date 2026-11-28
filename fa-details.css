@@ -1,0 +1,26 @@
+.fa-context-bar{display:flex;align-items:center;gap:.65rem 1rem;flex-wrap:wrap;margin:0 0 1rem;padding:.65rem 0;border-bottom:1px solid var(--line);font-size:.9rem}
+.fa-context-bar>span{min-width:0;flex:1;overflow-wrap:anywhere;font-weight:600}
+.fa-context-bar>a,.fa-company-links>a{color:var(--ink);text-decoration:underline;text-underline-offset:.24em}
+.fa-company-lead{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(1.25rem,4vw,3.5rem);align-items:start;margin:0 0 1.75rem;padding:1.15rem 0 1.4rem;border-bottom:1px solid var(--line)}
+.fa-company-lead h2{margin:0 0 .5rem;font-size:1.05rem}
+.fa-company-lead p{margin:.35rem 0;line-height:1.52}
+.fa-company-business{font-size:clamp(1.05rem,1.5vw,1.32rem);font-weight:600;max-width:55ch}
+.fa-company-identity,.fa-company-gap,.fa-detail-status,.fa-company-meta,.fa-company-evidence small{color:var(--muted);font-size:.9rem}
+.fa-company-links,.fa-company-actions,.fa-institution-pick{display:flex;gap:.6rem 1rem;align-items:center;flex-wrap:wrap;margin:.85rem 0}
+.fa-company-actions{margin:1.1rem 0 .6rem}
+.fa-detail-primary{display:inline-flex;align-items:center;justify-content:center;max-width:100%;min-height:44px;padding:.48rem .85rem;background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:5px;text-decoration:none;font:inherit;font-weight:600;cursor:pointer}
+.fa-detail-primary:hover{background:var(--accent);color:var(--ink);border-color:var(--ink);text-decoration:none}
+.fa-detail-primary:disabled{opacity:.74;cursor:wait}
+.fa-detail-primary[aria-pressed=true]{background:var(--field);color:var(--ink)}
+.fa-company-evidence{border-top:1px solid var(--line);margin-top:.75rem;padding-top:.75rem}
+.fa-company-evidence a{display:inline}
+.fa-company-evidence summary,.fa-page-find summary{cursor:pointer}
+.fa-page-find{margin:.5rem 0 1rem}
+.fa-company-financing a,.fa-history-backers a{overflow-wrap:anywhere}
+.fa-company-lead [hidden],.fa-institution-pick:empty{display:none}
+@media(max-width:650px){
+  .fa-company-lead{display:flex;flex-direction:column;gap:1rem;padding-top:.65rem}
+  .fa-company-lead>div{width:100%;min-width:0}
+  .fa-company-actions .fa-detail-primary{width:100%}
+  .fa-context-bar>span{flex:1 1 40%}
+}

@@ -28,6 +28,10 @@ on:
       - 'atlas.py'
       - 'site.css'
       - 'workspace.*'
+      - 'fa-*.js'
+      - 'fa-*.css'
+      - 'fa_publication.py'
+      - 'projects-body.html'
       - 'page_layouts.py'
       - 'refresh_public_views.py'
   issue_comment:

@@ -71,6 +71,7 @@ def research_topics(deals):
 
 
 def render_page(search_page):
+    from fa_publication import DETAIL_ASSETS
     head = search_page.split('<main>', 1)[0]
     head = head.replace('融资交叉检索 · 观势','公司研究台 · 观势').replace(' aria-current="location"', '')
     sections = escape(json.dumps(RESEARCH_SECTIONS, ensure_ascii=False), quote=True)
@@ -80,7 +81,7 @@ def render_page(search_page):
     body = (Path('company-research-body.html').read_text()
             .replace('id="generated-study"', f'id="generated-study" data-sections="{sections}" data-institutions="{aliases}"')
             .replace('<div class="memo-grid">', render_sample(sample) + '<div class="memo-grid">'))
-    return head + body + '</html>'
+    return head + DETAIL_ASSETS + body + '</html>'
 
 
 def publish(out, deals):
@@ -106,6 +107,9 @@ def publish(out, deals):
             current = ' aria-current="page"' if path.name=='company-research.html' else ''
             html = html.replace(marker,marker+f'<a href="company-research.html"{current}>公司研究台</a>',1)
         if marker in html:
+            if 'href="projects.html"' not in html:
+                end = html.find('</nav>', html.index(marker))
+                html = html[:end] + '<a href="projects.html">我的项目</a>' + html[end:]
             import re
             html = re.sub(r'<section class="arc">.*?</section>', '',html,flags=re.S)
             html = re.sub(r'<div data-shelf="[^"]*"></div>|<script src="(?:load-)?shelf.js"></script>', '',html)
