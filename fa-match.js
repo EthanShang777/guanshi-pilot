@@ -198,6 +198,13 @@ const faMatching = (() => {
       mode:'exact',year:'',keyword:project.keywords || '',investor:'',cohort:'new',sort:'evidence',excludeUnknown:false,adjacent:false};
   }
 
+  function directionBucket(direction, count) {
+    // Match the publication hash over Unicode code points.
+    let value = 2166136261;
+    for (const char of direction) value = Math.imul(value ^ char.codePointAt(0), 16777619) >>> 0;
+    return value % count;
+  }
+
   async function loadMatchingRows(filters, meta, load, cache, isCurrent) {
     if (!filters.sector && !filters.sub && !filters.investor && !filters.keyword) return [];
     function records(name) {
@@ -209,11 +216,19 @@ const faMatching = (() => {
     }
     const shard = meta.faSearchSectors?.[filters.sector];
     if (!filters.year && typeof shard === 'string') {
-      try {
-        return await records(shard);
-      } catch {
-        // Older or partially cached deployments can still use the annual dataset.
-        if (!isCurrent()) return [];
+      const scoped = [shard];
+      const count = meta.faSearchDirectionBuckets?.[filters.sector];
+      if (filters.sub && Number.isInteger(count) && count > 1) {
+        const number = directionBucket(filters.sub, count);
+        scoped.unshift('fa-direction-v1-'+shard.slice('fa-sector-'.length)+'-'+number);
+      }
+      for (const name of scoped) {
+        try {
+          return await records(name);
+        } catch {
+          // When a scoped shard is unavailable, try the next broader index.
+          if (!isCurrent()) return [];
+        }
       }
     }
     const years=filters.year?[filters.year]:meta.years;
