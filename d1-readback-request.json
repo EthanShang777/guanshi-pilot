@@ -1,23 +1,13 @@
 {
   "version": 1,
-  "batch": 238,
-  "base_main_sha": "b0d6474d6a972587b546067aa94237830ce670a8",
-  "candidate_sha256": "6156cecbbc43e63b9a196ac59e1bdf995a73b9320afa56f1e28eb2b637e770d2",
+  "batch": 240,
+  "base_main_sha": "4f8eb482509031a6afe70fef7c4717ec39d997b1",
+  "candidate_sha256": "ad9521df67d856ba4e9362844ea3f453986c8b1f67af9fe91dbeb19db12c9965",
   "batch_digests": [],
-  "fund_ids": [],
-  "event_ids": [
-    "public:historical-disclosure:0f28ac0405dff2f9897ab6",
-    "financing_event:297db429cbe389b640ac701904c3a70b683151f62f5f9aa572d6bcfaf92296cd"
+  "fund_ids": [
+    "c45c72eec42d24ee4d224f92"
   ],
-  "company_windows": [
-    {
-      "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665",
-      "day": "2025-05-27"
-    },
-    {
-      "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665",
-      "day": "2025-06-11"
-    }
-  ],
-  "scope_sha256": "34d5d6929294ebbe8ccb3c1e0e31d4daafb43afbd03ec8911637c10138879511"
+  "event_ids": [],
+  "company_windows": [],
+  "scope_sha256": "14369dd602486053bbb1ea4eaf388800d0795e41c6eded1331c27722479b1a15"
 }
