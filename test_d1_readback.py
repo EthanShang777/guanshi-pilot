@@ -47,6 +47,13 @@ class ReadbackTests(unittest.TestCase):
   scope=m.parse_request(request(fund_ids=[],company_windows=[{'company_id':co,'day':'2025-01-03'}]),BASE)
   q=m.queries(scope)[0];rows=list(db.execute(q['sql'],q['params']))
   self.assertEqual(len(rows),4)
+ def test_normalized_partial_date_preserves_window_candidates(self):
+  db=sqlite3.connect(':memory:');db.row_factory=sqlite3.Row
+  db.execute('CREATE TABLE financing_events(event_id,company_id,company_name,date,date_key,round,amount,valuation,investors_json,sources_json)')
+  co='co:full_legal_name:'+'a'*32
+  db.execute('INSERT INTO financing_events VALUES (?,?,?,?,?,?,?,?,?,?)',('month',co,'x','2025-01','2025-01-01','A','100','','[]','[]'))
+  scope=m.parse_request(request(fund_ids=[],company_windows=[{'company_id':co,'day':'2025-01-23'}]),BASE)
+  q=m.queries(scope)[0];self.assertEqual(len(list(db.execute(q['sql'],q['params']))),1)
  def test_minimal_receipt_and_no_private_payload(self):
   s=m.parse_request(request(),BASE)
   def select(q):return {'success':True,'results':[{'kind':'fund','payload':'DO_NOT_PRINT_PRIVATE'}],'meta':{'rows_read':1,'rows_written':0,'changed_db':False}}

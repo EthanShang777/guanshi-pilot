@@ -130,9 +130,9 @@ jobs:
                   day = dt.date.fromisoformat(key['day'])
                   low, high = day-dt.timedelta(days=14), day+dt.timedelta(days=14)
                   partial = sorted({low.strftime('%Y'), high.strftime('%Y'), low.strftime('%Y-%m'), high.strftime('%Y-%m')})
-                  params = [key['company_id'], low.isoformat(), high.isoformat(), json.dumps(partial)]
+                  params = [key['company_id'], low.isoformat(), high.isoformat(), json.dumps(partial), json.dumps(partial)]
                   add('company_date_window', key,
-                      'SELECT event_id,company_id,company_name,date,date_key,round,amount,valuation,investors_json,sources_json FROM financing_events WHERE company_id=? AND ((date_key>=? AND date_key<=?) OR date_key IN (SELECT value FROM json_each(?))) ORDER BY event_id LIMIT 201', params, 200)
+                      'SELECT event_id,company_id,company_name,date,date_key,round,amount,valuation,investors_json,sources_json FROM financing_events WHERE company_id=? AND ((date_key>=? AND date_key<=?) OR date_key IN (SELECT value FROM json_each(?)) OR date IN (SELECT value FROM json_each(?))) ORDER BY event_id LIMIT 201', params, 200)
               return out
 
 
