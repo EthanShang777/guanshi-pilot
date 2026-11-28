@@ -310,7 +310,77 @@
       "sources": [
         "https://www.chinaventure.com.cn/flash/20261126-90303.html"
       ]
+    },
+    {
+      "id": "90304",
+      "day": "2026-11-27",
+      "company": "律动造物",
+      "title": "律动造物完成数千万元种子轮融资",
+      "sector": "待归类",
+      "round": "种子轮",
+      "first_close": false,
+      "investors": [
+        "线性资本",
+        "英诺基金",
+        "源启翌才",
+        "新南威尔士大学（无锡）产业创新中心"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261127-90304.html"
+      ]
+    },
+    {
+      "id": "90305",
+      "day": "2026-11-27",
+      "company": "时空智子",
+      "title": "时空智子完成数千万元B轮融资",
+      "sector": "待归类",
+      "round": "B轮",
+      "first_close": false,
+      "investors": [
+        "同创伟业联合光谷科创投",
+        "光谷人才基金"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261127-90305.html"
+      ]
+    },
+    {
+      "id": "90306",
+      "day": "2026-11-27",
+      "company": "柯君医药",
+      "title": "柯君医药完成数亿元 C+ 轮融资交割",
+      "sector": "待归类",
+      "round": "C+轮",
+      "first_close": false,
+      "investors": [
+        "国投创合",
+        "翠亨创投",
+        "倚锋资本",
+        "通瀛资本",
+        "富汇创投"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261127-90306.html"
+      ]
+    },
+    {
+      "id": "90307",
+      "day": "2026-11-27",
+      "company": "索塔无界",
+      "title": "索塔无界完成数千万元天使轮融资",
+      "sector": "待归类",
+      "round": "天使轮",
+      "first_close": false,
+      "investors": [
+        "旭珂投资（K-Capital）",
+        "浦东创投",
+        "林洋与君"
+      ],
+      "sources": [
+        "https://www.chinaventure.com.cn/flash/20261127-90307.html"
+      ]
     }
   ],
-  "through": "2026-11-26"
+  "through": "2026-11-27"
 }
