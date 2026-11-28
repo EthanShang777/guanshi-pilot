@@ -34,21 +34,40 @@
     }
     return result;
   };
-  function directory({types,rows}) {
+  function directory({types,rows,directions,scopePaths}) {
     document.title='机构总览 · 观势';
     const search=el('input'), nav=el('nav'), letters=el('nav'), results=el('div');
     search.type='search'; search.placeholder='搜索机构惯用名、全称或别名';
     search.setAttribute('aria-label',search.placeholder);
+    search.value=params.get('q')||'';
+    const controls=el('div',null,'inst-filters'), sector=el('select'), sub=el('select');
+    const initial=sectorFilter.resolve(params.get('sector')||'',params.get('sub')||'');
+    sector.setAttribute('aria-label','行业赛道');sub.setAttribute('aria-label','细分方向');
+    sector.append(new Option('全部赛道',''),...Object.keys(directions).sort(compare.compare).map(n=>new Option(n,n)));
+    sectorFilter.setValue(sector,initial.sector);
+    function showDirections(value=''){
+      const names=sector.value?directions[sector.value]||[]:[...new Set(Object.values(directions).flat())].sort(compare.compare);
+      sub.replaceChildren(new Option('全部方向',''),...names.map(n=>new Option(n,n)));
+      sectorFilter.setValue(sub,value);
+    }
+    showDirections(initial.sub);
+    controls.append(search,sector,sub);
     let type=-1, letter='', limit=24;
     rows.sort((a,b)=>compare.compare(a[0],b[0]));
     function render() {
-      const query=norm(search.value);
+      const query=norm(search.value), scope=sectorFilter.resolve(sector.value,sub.value);
+      const target=new URL(location.href);
+      for(const [key,value] of Object.entries({q:search.value.trim(),sector:scope.sector,sub:scope.sub})){
+        if(value)target.searchParams.set(key,value);else target.searchParams.delete(key);
+      }
+      history.replaceState(null,'',target);
       nav.replaceChildren(); letters.replaceChildren(); results.replaceChildren();
       ['全部类型',...types].forEach((label,i)=>{
         const b=button(label,()=>{type=i-1;letter='';limit=24;render();});
         b.setAttribute('aria-pressed',type===i-1); nav.append(b);
       });
-      const matches=rows.filter(r=>(type<0||r[2]===type)&&(!query||[r[0],...r[4]].some(n=>norm(n).includes(query))));
+      const matches=rows.filter(r=>(type<0||r[2]===type)&&(!query||[r[0],...r[4]].some(n=>norm(n).includes(query)))&&
+        (!scope.sector&&!scope.sub||r[7].some(code=>sectorFilter.matches(scope,...scopePaths[code]))));
       const initials=[...new Set(matches.map(r=>r[3]))].sort();
       for(const l of ['',...initials]){
         const b=button(l||'全部字母',()=>{letter=l;limit=24;render();});
@@ -65,8 +84,12 @@
           section.append(el('h3',initial));
           const grid=el('div',null,'inst-grid');
           for(const [name,id,,,,count,sectors] of list){
-            const a=link(name,profileUrl(id));
-            a.append(el('small',[sectors,count+' 家公司'].filter(Boolean).join(' · ')));grid.append(a);
+            const destination=new URL(profileUrl(id),location.href);
+            if(scope.sector)destination.searchParams.set('sector',scope.sector);
+            if(scope.sub)destination.searchParams.set('sub',scope.sub);
+            const a=link(name,destination.href);
+            const countLabel=(scope.sector||scope.sub?'全部融资案例 ':'')+count+' 家公司';
+            a.append(el('small',[sectors,countLabel].filter(Boolean).join(' · ')));grid.append(a);
           }
           section.append(grid);
         }
@@ -76,25 +99,38 @@
       if(!results.children.length)results.append(el('p','没有匹配的机构。'));
       if(more)results.append(button('显示更多机构',()=>{limit+=48;render();}));
     }
-    search.oninput=()=>{letter='';limit=24;render();};
-    root.replaceChildren(el('h1','机构总览'),search,nav,letters,results);render();
+    const update=()=>{letter='';limit=24;render();};
+    search.oninput=update;sub.onchange=update;sector.onchange=()=>{showDirections();update();};
+    root.replaceChildren(el('h1','机构总览'),controls,nav,letters,results);render();
   }
   async function profile(id) {
-    const [index, shard]=await Promise.all([load('institution-directory'),load('institution-'+id.slice(0,2))]);
-    const entry=index.rows.find(r=>r[1]===id);
-    const row=entry?.[7]?await load('portfolio-'+id):shard[id];
+    const shard=await load('institution-'+id.slice(0,2));
+    const row=shard[id];
     if(!row)throw Error();
-    const name=entry?.[0]||row.name;
+    if(row.redirect){
+      if(!/^[0-9a-f]{24}$/.test(row.redirect)||row.redirect===id)throw Error();
+      const target=new URL(location.href);
+      target.searchParams.set('id',row.redirect);
+      location.replace(target.href);
+      return;
+    }
+    const name=row.name;
     const events=[...row.events].sort((a,b)=>(b[2]||'').localeCompare(a[2]||''));
     const sector=e=>e[5]||'待归类';
     const companyCount=list=>new Set(list.map(e=>e[7])).size;
     document.title=name+' · 机构档案 · 观势';
     root.replaceChildren(link('← 机构总览','institutions.html'),el('h1',name));
-    root.append(el('p',[entry&&index.types[entry[2]],companyCount(events)+' 家公司',events.length+' 笔收录交易','最近收录 '+(events[0]?.[2]||'日期未列明')].filter(Boolean).join('　·　'),'inst-meta'));
-    if(row.entities || entry?.[4].length){
-      const info=el('details');info.append(el('summary','机构名称与关联主体'));
-      if(entry?.[4].length)info.append(el('p',entry[4].join('、')));
-      for(const [entity,url] of row.entities||[])if(url)info.append(link(entity+' · 管理关系来源',url),el('br'));
+    root.append(el('p',[row.evidenceOnly?'原始交易参与描述 · '+row.evidenceOnly:row.directoryType,companyCount(events)+' 家公司',events.length+' 笔收录交易','最近收录 '+(events[0]?.[2]||'日期未列明')].filter(Boolean).join('　·　'),'inst-meta'));
+    if(row.aliases?.length){
+      const info=el('details');info.append(el('summary','原始名称与别名'),el('p',row.aliases.join('、')));
+      if(row.aliasSource)info.append(link('别名依据 ↗',row.aliasSource));
+      root.append(info);
+    }
+    if(row.relatedInstitutions?.length){
+      const info=el('details');info.append(el('summary','关联机构与投资主体'));
+      for(const [name,href,source,relation] of row.relatedInstitutions){
+        const item=el('p');item.append(link(name,href),' · '+relation, ' · ',link('关系来源 ↗',source));info.append(item);
+      }
       root.append(info);
     }
     const detail=shard[id];
@@ -159,22 +195,36 @@
       const control=el('select');control.setAttribute('aria-label',title);
       control.append(new Option(title,''));
       for(const v of values)control.append(new Option(v,v));
-      control.value=initial;control.onchange=render;filters.append(control);return control;
+      sectorFilter.setValue(control,initial);control.onchange=render;filters.append(control);return control;
     }
     const options=fn=>[...new Set(events.map(fn).filter(Boolean))].sort(compare.compare);
-    const selected=select('全部赛道',options(sector),params.get('sector')||'');
-    const sub=select('全部细分方向',options(e=>e[6]),params.get('sub')||'');
+    const initial=sectorFilter.resolve(params.get('sector')||'',params.get('sub')||'');
+    const selected=select('全部赛道',options(sector),initial.sector);
+    const sub=select('全部细分方向',[],initial.sub);
+    function showDirections(value=''){
+      const values=new Set();
+      for(const e of events){
+        if(selected.value && sector(e)!==selected.value)continue;
+        if(e[6])values.add(e[6]);
+        for(const branch of e[8]||[])values.add(sectorFilter.branchLabel(branch));
+      }
+      sub.replaceChildren(new Option('全部细分方向',''),...[...values].sort(compare.compare).map(n=>new Option(n,n)));
+      sectorFilter.setValue(sub,value);
+    }
+    showDirections(initial.sub);
+    selected.onchange=()=>{showDirections();render();};
     const stage=select('全部参与轮次',options(e=>e[3]));
     const time=select('全部时间',['近两年']);
     const cutoff=new Date();cutoff.setFullYear(cutoff.getFullYear()-2);
     const earliest=cutoff.toISOString().slice(0,10), today=new Date().toISOString().slice(0,10);
     function render(){
-      const base=events.filter(e=>(!time.value||(e[2]>=earliest&&e[2]<=today))&&(!stage.value||stage.value===e[3])&&(!sub.value||sub.value===e[6]));
-      const filtered=base.filter(e=>!selected.value||selected.value===sector(e));
+      const scope=sectorFilter.resolve(selected.value,sub.value);
+      const filtered=events.filter(e=>(!time.value||(e[2]>=earliest&&e[2]<=today))&&(!stage.value||stage.value===e[3])&&
+        (!scope.sector&&!scope.sub||!['股权转让','介绍上市','拟增资'].includes(e[3])&&sectorFilter.matches(scope,sector(e),e[6],e[8])));
       layout.replaceChildren(el('h2','赛道布局'));
       for(const [s,list] of [...groups(filtered,sector)].sort((a,b)=>companyCount(b[1])-companyCount(a[1]))){
         const line=el('div',null,'inst-sector');
-        line.append(button(s+' · '+companyCount(list)+' 家',()=>{selected.value=s;render();}));
+        line.append(button(s+' · '+companyCount(list)+' 家',()=>{selected.value=s;showDirections();render();}));
         for(const values of [...groups(list,e=>e[7]).values()].slice(0,3)){
           const e=values[0];line.append(link(e[1]+(e[6]?' · '+e[6]:''),e[7]));
         }

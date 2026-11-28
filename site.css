@@ -209,7 +209,8 @@ mark.local-hit {color:#142217;background:#dce9ba;border-radius:2px}mark.local-hi
 
 .company-tools{display:flex;gap:8px;margin:4px 0 12px}
 .company-tools :is(input,select),.company-pager button{background:#141f18;color:var(--ink);border:1px solid var(--line);min-height:44px;border-radius:8px;font:inherit;padding:8px 12px}
-.company-tools input{flex:1;min-width:0}.company-tools select{max-width:40%}
+.company-tools input{flex:1;min-width:0}.company-tools select{min-width:0;max-width:35%}
+@media(max-width:540px){.company-tools{flex-wrap:wrap}.company-tools input{flex-basis:100%}.company-tools select{flex:1;max-width:100%}}
 .company-count,.company-entry small,.company-history time{color:var(--muted);font-size:13px}
 .company-entry{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:12px 24px;padding:18px 0;border-bottom:1px solid var(--line);align-items:start;overflow-wrap:anywhere}
 .company-entry h2{font:600 18px/1.45 var(--serif);margin:0 0 4px}

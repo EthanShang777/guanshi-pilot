@@ -38,23 +38,50 @@
       for(const url of row.sources){const p=el('p','');p.append(link(url,'来源 · '+new URL(url).hostname));root.append(p);}
       const parties=el('section','');parties.className='counterparties';parties.append(el('h2',row.stage==='股权转让'?'受让方':'参与机构'));
       const allocations = new Map((row.partyAllocations || []).map(p=>[p.institutionId,p]));
+      const observations=row.participation||[];
       for(const [n,url] of row.parties){
         const target=context(url,row.sector,row.sub);
-        const detail=allocations.get(new URL(target).searchParams.get('id'));
-        parties.append(link(target,[n,detail && (detail.basis+' '+yuan(detail.amountFen))].filter(Boolean).join(' · ')+' →'));
+        const id=new URL(target).searchParams.get('id'), detail=allocations.get(id);
+        const roles=[...new Set(observations.filter(item=>item.name===n).flatMap(item=>item.roles))];
+        const line=el('p','');
+        line.append(link(target,[n,...roles,detail&&(detail.basis+' '+yuan(detail.amountFen))].filter(Boolean).join(' · ')+' →'));
+        if(detail?.source)line.append(' ',link(detail.source,'出资来源 ↗'));
+        if(row.allocationConflicts?.includes(id))line.append(' · 出资披露口径待核');
+        parties.append(line);
       }
-      if(!row.parties.length)parties.append(el('p','未列明'));root.append(parties);
+      if(!row.parties.length)parties.append(el('p','未列明具名参与方'));
+      root.append(parties);
+      if(observations.length || row.sectorEvidence){
+        const evidence=el('details','');evidence.append(el('summary','原始分类与交易参与披露'));
+        const taxonomy=row.sectorEvidence;
+        if(taxonomy) {
+          const labels=[...new Set([taxonomy.primary,taxonomy.secondary,taxonomy.label].filter(Boolean))];
+          const field=el('p','来源分类 · '+(labels.join(' / ')||'未列明'));
+          if(/^https?:[/][/]/.test(taxonomy.source||''))field.append(' · ',link(taxonomy.source,'分类依据 ↗'));
+          else if(taxonomy.source)field.append(' · '+taxonomy.source);
+          evidence.append(field);
+        }
+        for(const item of observations){
+          const line=el('p',[item.rawName,...item.roles,item.name?null:item.status,item.amount].filter(Boolean).join(' · '));
+          const value=item.contribution;
+          if(value && Number.isSafeInteger(value.amountFen)){
+            line.append(' · 原始出资披露 '+[value.basis,yuan(value.amountFen)].filter(Boolean).join(' '));
+            if(row.sources.includes(value.source))line.append(' ',link(value.source,'披露来源 ↗'));
+          }
+          evidence.append(line);
+        }
+        root.append(evidence);
+      }
       for(const rid of row.reports)root.append(link('report-'+rid+'.html','相关研究 →'));
 
     }else if(kind==='company'){
       if(row.events.some(event=>event[2]!=='股权转让')){
         root.append(link('company-research.html?id='+id,'打开公司研究台 →'),el('span','　'));
       }
-      if(row.primary){
-        const adjacent=new URLSearchParams({view:'institutions',sector:row.primary,client:id});
-        if(row.sub)adjacent.set('adjacent',row.sub);
-        root.append(link('workspace.html?'+adjacent,'找相邻方向投资方 →'),el('span','　'));
-      }
+      const adjacent=new URLSearchParams({view:'institutions',client:id});
+      if(row.primaryId!=='unknown')adjacent.set('sector',row.primary);
+      if(row.sub && row.primaryId!=='unknown' && row.hasFineDirection!==false)adjacent.set('adjacent',row.sub);
+      root.append(link('workspace.html?'+adjacent,'找相邻方向投资方 →'),el('span','　'));
       if(row.sub){
         root.append(link(context('workspace.html?view=companies',row.primary,row.sub),'对照同行 · '+row.sub+' →'));
       }

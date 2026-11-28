@@ -1,74 +1,131 @@
 {
   "company": "f47ef648ab8c198592a47f10",
+  "asOf": "2026-11-28",
+  "questions": ["在企业内网完成试点的客户中，有多少转为付费部署，并在次年续约？"],
   "modules": [
     {
-      "title": "市场规模",
-      "finding": "aiXcoder专注于企业级AI研发场景，提供深度定制服务，帮助各领域企业提升软件开发效率和产品质量。",
-      "gap": "缺乏具体的市场规模数据。",
-      "sources": [
-        "https://www.aixcoder.com/zh/about"
-      ],
-      "review": "本条仅描述目标客户，市场金额尚缺测算。"
-    },
-    {
-      "title": "市场痛点",
-      "finding": "aiXcoder提供企业内网部署，按代码规模、团队数量、并发和定制需求配置方案。",
-      "gap": "缺乏具体的客户案例和实施效果数据。",
-      "sources": [
-        "https://www.aixcoder.com/zh/about"
+      "section": "市场规模",
+      "assessment": "本样本将市场界定为中国大陆企业在 2025–2026 年采购的 AI 软件研发工具及其直接定制和部署服务。单列配套算力开支，排除个人订阅和通用大模型平台。可按金融、通信、能源、航天等买方分组，用同口径的年度采购数量和实际合同额测算。",
+      "gap": "缺少能覆盖上述买方的同口径年度成交额及代表性合同样本，暂无法估算。兴业银行采购公告仅提供项目结果或需求，未披露对应合同金额，无法得出客单价。",
+      "facts": [
+        {
+          "text": "2025 年兴业银行披露大模型研发提效项目入围供应商为科大讯飞。2026 年该行另发 AI 原生研发平台供应商征集调研，属于采购意向。",
+          "sources": [
+            {"title": "兴业银行采购结果公告", "date": "2025-11-11", "url": "https://cg.cib.com.cn/cms/default/webfile/ywgg3/20251111/1172859390202478592.html"},
+            {"title": "兴业银行采购调研公告", "date": "2026-09-22", "url": "https://cg.cib.com.cn/cms/default/webfile/gyszj/20260922/1287085184109248512.html"}
+          ]
+        }
       ]
     },
     {
-      "title": "核心团队",
-      "finding": "aiXcoder团队自2013年起探索深度学习技术在代码生成和理解方面的应用，累计发表论文100多篇。",
-      "gap": "缺乏具体的管理团队成员信息。",
-      "sources": [
-        "https://www.aixcoder.com/zh/about"
-      ]
-    },
-    {
-      "title": "核心技术/产品",
-      "finding": "aiXcoder推出国内首个企业级上下文工程平台，结合AI和软件工程理念，提供深度定制服务。",
-      "gap": "缺乏具体的技术细节和产品功能描述。",
-      "sources": [
-        "https://finance.sina.cn/stock/jdts/2025-09-04/detail-infpimri1790929.d.html"
+      "section": "市场痛点",
+      "facts": [
+        {
+          "text": "兴业银行的研发团队需要在现有软件研发流程中处理项目级代码理解、单元测试生成和代码审查等任务。采购原文把这些需求列在同一个平台项目中，并要求覆盖从产品构思到变更管理的研发流程。",
+          "sources": [
+            {"title": "兴业银行 AI 原生研发平台供应商征集", "date": "2026-09-22", "url": "https://cg.cib.com.cn/cms/default/webfile/gyszj/20260922/1287085184109248512.html"}
+          ]
+        }
       ],
-      "review": "“国内首个”为报道口径，尚缺独立比较。"
+      "assessment": "该买方的需求覆盖编码以外的协作环节。评估工具时应分别考察代码编写、测试和审查的净节时。",
+      "gap": "这份买方材料没有披露现行流程的损失工时、预算或验收结果，也未披露对硅心科技的采购。"
     },
     {
-      "title": "友商对比",
-      "finding": "aiXcoder与其他AI编程工具相比，提供企业级私有化部署和深度定制服务。",
-      "gap": "缺乏具体的竞争对手分析和比较数据。",
-      "sources": [
-        "https://www.aixcoder.com/zh/about"
-      ]
-    },
-    {
-      "title": "历史融资情况",
-      "finding": "aiXcoder于2025年1月完成A++轮融资，投资方为中关村协同创新基金。",
-      "gap": "缺乏具体的融资金额和其他投资方信息。",
-      "sources": [
-        "https://finance.sina.com.cn/tech/roll/2025-04-25/doc-ineukhfx2051205.shtml"
+      "section": "核心团队",
+      "facts": [
+        {
+          "text": "公司称其团队自 2013 年起研究程序生成与理解，累计发表 100 多篇论文。2022 年公司融资采访将李戈列为创始人、谢涛列为首席科学家。",
+          "sources": [
+            {"title": "aiXcoder 公司介绍（公司自述）", "url": "https://www.aixcoder.com/zh/about"},
+            {"title": "创业邦 A 轮采访", "date": "2022-03-22", "url": "https://www.cyzone.cn/article/674791.html"}
+          ]
+        }
       ],
-      "review": "后续轮次及交割日期待原发材料核实。"
+      "gap": "现任管理层、关键工程人员分工及大规模商业交付责任待核实。"
     },
     {
-      "title": "机构类似布局",
-      "finding": "aiXcoder的技术和产品布局与其他AI编程工具类似，提供代码生成和理解服务。",
-      "gap": "缺乏具体的竞争对手分析和比较数据。",
-      "sources": [
-        "https://www.aixcoder.com/zh/about"
+      "section": "核心技术/产品",
+      "facts": [
+        {
+          "text": "公司面向企业研发团队提供代码生成、测例与脚本生成、代码库分析等工具，并提供内网部署、领域模型训练和定制服务。2025 年 9 月公开报道介绍其企业级上下文工程平台，使用可编排智能体将企业数据和研发工具接入代码任务。",
+          "sources": [
+            {"title": "aiXcoder 产品文档（公司自述）", "url": "https://www.aixcoder.com/zh/products"},
+            {"title": "aiXcoder 企业解决方案（公司自述）", "url": "https://www.aixcoder.com/zh/services"},
+            {"title": "网易科技平台发布报道", "date": "2025-09-04", "url": "https://finance.sina.cn/stock/jdts/2025-09-04/detail-infpimri1790929.d.html"}
+          ]
+        },
+        {
+          "text": "北京市经信局案例库收录一项通信研发应用。案例称代码补全准确率提高 15 个百分点，测试脚本开发效率提高超过 50%。",
+          "sources": [
+            {"title": "北京市经信局应用案例（案例单位为硅心科技）", "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/nbjhsy/alzs/index_10.html"}
+          ]
+        }
       ],
-      "review": "本条比较的是产品，尚缺具名机构及其投资案例。"
+      "gap": "通信案例缺少买方名称、测试基线、样本量和验收材料。其他行业客户、价格、部署规模及续约率待核实。"
     },
     {
-      "title": "潜在投资机构",
-      "finding": "aiXcoder已获得多家投资机构的支持，包括清流资本、高瓴创投、伽利略资本、彬复资本、三七互娱等。",
-      "gap": "缺乏具体的投资金额和投资条款信息。",
-      "sources": [
-        "https://finance.sina.com.cn/tech/roll/2025-04-25/doc-ineukhfx2051205.shtml"
+      "section": "友商对比",
+      "facts": [
+        {
+          "text": "Cursor 在 2024 年 A 轮材料中以基于 VS Code 的 AI 编辑器切入，支持自然语言编辑和代码库对话。硅心科技公开方案强调企业内网运行、企业知识库和领域定制。两者都涉及代码库上下文和代码生成。",
+          "sources": [
+            {"title": "a16z 的 Cursor 投资说明", "date": "2024-08-22", "url": "https://a16z.com/announcement/investing-in-cursor/"},
+            {"title": "aiXcoder 企业解决方案（公司自述）", "url": "https://www.aixcoder.com/zh/services"}
+          ]
+        }
       ],
-      "review": "下列名称属于历史资方，新增接洽对象待筛选。"
+      "assessment": "在现有 IDE 集成、模型能否完全在内网运行、长代码库检索以及定制交付成本上做同场景比较。",
+      "gap": "缺少同一企业代码库上的效果、人工返工与交付成本数据。"
+    },
+    {
+      "section": "历史融资情况",
+      "facts": [
+        {
+          "text": "2018 年公开披露伽利略资本注资。2022 年 3 月 A 轮披露数千万元，由高瓴创投独家投资。",
+          "sources": [
+            {"title": "创业邦 A 轮采访及前序投资披露", "date": "2022-03-22", "url": "https://www.cyzone.cn/article/674791.html"}
+          ]
+        },
+        {
+          "text": "2023 年 9 月 A+ 轮披露整轮数千万元人民币，彬复资本领投，清流资本、三七互娱跟投。",
+          "sources": [
+            {"title": "本轮财务顾问义柏资本交易说明", "date": "2023-09-04", "url": "https://media.qimingpian.cn/2023/09/04/2a5f8a9eeade0df5f639567531446b2c.html"}
+          ]
+        },
+        {
+          "text": "公司确认 2025 年 1 月完成 A++ 轮。4 月对外披露列中关村资本为投资方。交易档案另列已收录的具体基金载体及其来源。",
+          "sources": [
+            {"title": "aiXcoder 公司介绍（公司自述）", "url": "https://www.aixcoder.com/zh/about"},
+            {"title": "历史参投方清流资本披露", "date": "2025-04-24", "url": "https://media.qimingpian.cn/2025/04/24/d0155c182dd2e0487845fd4bfa86fd02.html"},
+            {"title": "投中网报道", "date": "2025-04-25", "url": "https://finance.sina.com.cn/tech/roll/2025-04-25/doc-ineukhfx2051205.shtml"}
+          ]
+        }
+      ],
+      "followOn": "若评估老股东追加，先核对仍持有份额的出资载体、跟投权及基金投资期。",
+      "gap": "A++ 轮整轮金额、各家实际出资额及是否有老股东拟追加尚缺公开证据。"
+    },
+    {
+      "section": "机构类似布局",
+      "facts": [
+        {
+          "text": "a16z 于 2024 年 8 月公告投资 Cursor A 轮，说明其看重 AI 在编辑器中与开发者协作的入口。",
+          "sources": [
+            {"title": "a16z 投资公告", "date": "2024-08-22", "url": "https://a16z.com/announcement/investing-in-cursor/"}
+          ]
+        },
+        {
+          "text": "Augment Code 公布 2024 年 4 月 B 轮出资方包含 Sutter Hill Ventures、Index Ventures 等，公告将产品定位为软件团队的 AI 编码辅助工具。",
+          "sources": [
+            {"title": "Augment Code B 轮公告（公告正文日期）", "date": "2024-04-24", "url": "https://www.augmentcode.com/blog/augment-inc-raises-227-million"}
+          ]
+        }
+      ],
+      "assessment": "Cursor 对应开发者工作台入口，Augment Code 对应企业团队的代码库协作工具。与硅心科技的对照维度是代码库理解和研发工作流，案例地域、客户与交付模式不同。",
+      "gap": "上述披露仅支持历史投资案例与所述逻辑。大陆企业研发工具投资的可比阶段、出资口径和基金覆盖需要另查。"
+    },
+    {
+      "section": "新增潜在机构",
+      "gap": "已有公开案例中，尚未核实有哪家机构同时符合大陆投资范围、拟融资阶段与规模、竞品冲突和新进资方四项条件。当前缺少拟融信息及基金投资期证据，暂不列名。"
     }
   ]
 }

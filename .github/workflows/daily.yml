@@ -19,6 +19,17 @@ on:
       - 'company-browser.js'
       - 'company-research-body.html'
       - 'company-research.js'
+      - 'company-research.css'
+      - 'company_research.py'
+      - 'research-api-sample.json'
+      - 'sector_taxonomy.py'
+      - 'sector-filter.js'
+      - 'institution_identity.py'
+      - 'atlas.py'
+      - 'site.css'
+      - 'workspace.*'
+      - 'page_layouts.py'
+      - 'refresh_public_views.py'
   issue_comment:
     types: [created]
   workflow_dispatch:

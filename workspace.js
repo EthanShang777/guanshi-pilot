@@ -1,7 +1,15 @@
 const researchWorkspace=(()=>{
   const args=new URLSearchParams(location.search);
   const question=args.get('question')||'';
-  const notes=[];
+  const clientId=/^[a-f0-9]{24}$/.test(args.get('client')||'') ? args.get('client') : '';
+  const title=document.querySelector('#work-title');
+  const description=document.querySelector('#work-context');
+  const summary=document.querySelector('#shortlist-summary');
+  const count=document.querySelector('#shortlist-count');
+  const items=document.querySelector('#shortlist-items');
+  const empty=document.querySelector('#shortlist-empty');
+  let client=null, excluded=new Set();
+  if(clientId)title.textContent='正在读取服务项目…';
   function interpret(meta){
     if(!question||args.has('view'))return;
     const topics=Object.entries(meta.subs).flatMap(([sector,subs])=>subs.map(sub=>({sector,sub})));
@@ -16,42 +24,95 @@ const researchWorkspace=(()=>{
     args.set('view',/机构|资方|投资方/.test(question)?'institutions':'companies');
   }
   let saved=[];
-  try{saved=JSON.parse(sessionStorage.getItem('guanshi-shortlist')||'[]');}catch{}
-  function renderSaved(){
-    const box=document.querySelector('#shortlist');box.replaceChildren();
-    if(!saved.length)return;
-    const title=document.createElement('h2');title.textContent='已选清单 · '+saved.length;box.append(title);
-    for(const item of saved){
-      const line=document.createElement('p'),a=document.createElement('a');a.href=item.href;a.textContent=item.name;
-      line.append(a,'　'+item.reason+'　',pick(item));box.append(line);
-    }
+  try{
+    const stored=JSON.parse(sessionStorage.getItem('guanshi-shortlist')||'[]');
+    if(Array.isArray(stored))saved=stored.filter(item=>item && typeof item.href==='string');
+  }catch{}
+  // Institution detail links carry the active filters, but the record ID is stable.
+  function itemKey(href){
+    const url=new URL(href,location.href),id=url.searchParams.get('id');
+    return id ? url.pathname+'?id='+id : url.href;
   }
-  function pick(item){
-    const b=document.createElement('button');b.className='pick';b.type='button';b.dataset.key=item.href;
-    const active=saved.some(i=>i.href===item.href);b.textContent=active?'移出清单':'加入清单';b.setAttribute('aria-pressed',String(active));
+  saved=[...new Map(saved.map(item=>[itemKey(item.href),item])).values()];
+  function renderSaved(){
+    count.textContent='已选 '+saved.length+' 项';
+    items.hidden=!saved.length;
+    empty.hidden=!!saved.length;
+    const lines=saved.map(item=>{
+      const line=document.createElement('li'), a=document.createElement('a');
+      const copy=document.createElement('div'), reason=document.createElement('small');
+      a.href=item.href;a.textContent=item.name;reason.textContent=item.reason;
+      copy.append(a,reason);line.append(copy,pick(item,true));
+      return line;
+    });
+    items.replaceChildren(...lines);
+  }
+  function updateButton(button,item,active,remove){
+    const action=remove?'移出清单':active?'已加入':'加入清单';
+    button.textContent=action;
+    button.setAttribute('aria-label',action+(active&&!remove?'，点击移出':'')+' '+item.name);
+    if(!remove)button.setAttribute('aria-pressed',String(active));
+    button.title=active&&!remove?'点击移出清单':'';
+  }
+  function pick(item,remove=false){
+    const key=itemKey(item.href), b=document.createElement('button');
+    b.className='pick';b.type='button';b.dataset.key=key;
+    updateButton(b,item,saved.some(i=>itemKey(i.href)===key),remove);
     b.onclick=()=>{
-      const exists=saved.some(i=>i.href===item.href);
-      saved=exists?saved.filter(i=>i.href!==item.href):[...saved,item];
+      const exists=saved.some(i=>itemKey(i.href)===key);
+      saved=exists?saved.filter(i=>itemKey(i.href)!==key):[...saved,item];
       try{sessionStorage.setItem('guanshi-shortlist',JSON.stringify(saved));}catch{}
       renderSaved();
-      for(const other of document.querySelectorAll('.pick'))if(other.dataset.key===item.href){other.setAttribute('aria-pressed',String(!exists));other.textContent=exists?'加入清单':'移出清单';}
-    };return b;
+      for(const other of document.querySelectorAll('#matches .pick')){
+        if(other.dataset.key===key)updateButton(other,item,!exists,false);
+      }
+      if(remove)summary.focus();
+    };
+    return b;
   }
   async function prepare(meta){
     interpret(meta);
     document.querySelector('.research-entry input').value=question;
-    const context=document.querySelector('#work-context');
-    if(question)notes.push('已应用的检索条件见下方，可直接修改。地域、投资意向及竞争关系需另行核实。');
-    let client=null;
-    const id=args.get('client');
-    if(/^[a-f0-9]{24}$/.test(id||'')){
-      const response=await fetch('records/company-'+id.slice(0,2)+'.json');
+    renderSaved();
+    if(!clientId)return excluded;
+    try{
+      const response=await fetch('records/company-'+clientId.slice(0,2)+'.json');
       if(!response.ok)throw Error();
-      client=(await response.json())[id];if(!client)throw Error();
-      notes.push('服务项目：'+client.name+'。机构结果已排除本站收录的该公司历次参投资方；相邻方向按同一级赛道的其他细分方向筛选。');
+      client=(await response.json())[clientId];
+      if(!client)throw Error();
+      title.textContent=client.name;
+      excluded=new Set(client.events.flatMap(event=>event[4].map(party=>party[0])));
+    }catch{
+      title.textContent='服务项目档案未能读取';
     }
-    context.textContent=notes.join(' ');renderSaved();
-    return new Set(client?.events.flatMap(e=>e[4].map(i=>i[0]))||[]);
+    return excluded;
+  }
+  function scope({sector,sub,view,hasConditions}){
+    if(!clientId){
+      description.textContent=question?(hasConditions?'当前检索条件见下方，可直接修改。':'未识别出赛道、轮次或年份，可在下方选择条件。'):'';
+      return '';
+    }
+    const selected=[sector,sub].filter(Boolean).join(' / ')||'全部赛道';
+    const current='按「'+selected+'」检索。';
+    if(!client){
+      description.textContent=current+' 未能读取项目档案，未排除历史参投资方或相邻细分方向。';
+      return '';
+    }
+    if(view!=='institutions'){
+      description.textContent=current;
+      return '';
+    }
+    const historical=excluded.size?'已排除本站记录中的项目历史资方。':'';
+    const requested=args.get('adjacent');
+    const direction=requested && (typeof sectorFilter==='undefined'?requested:sectorFilter.resolve(client.primary,requested).sub);
+    const adjacent=!sub && sector===client.primary && client.hasFineDirection!==false && direction && direction===client.sub ? direction : '';
+    if(adjacent){
+      description.textContent=current+' 已排除「'+adjacent+'」及未标明细分方向的交易。'+historical;
+    }else{
+      const reason=requested||client.sub?'当前条件未触发相邻方向排除。':'项目细分方向待核实，未作相邻方向排除。';
+      description.textContent=current+' '+reason+historical;
+    }
+    return adjacent;
   }
   function evidence(cell,href){
     const details=document.createElement('details'),summary=document.createElement('summary');
@@ -76,5 +137,5 @@ const researchWorkspace=(()=>{
       }catch{body.textContent='档案读取失败，可点击公司名查看。';}
     };
   }
-  return {args,prepare,pick,evidence};
+  return {args,prepare,scope,pick,evidence};
 })();
