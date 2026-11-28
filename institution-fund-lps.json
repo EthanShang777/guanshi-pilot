@@ -25293,5 +25293,57 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "40305450319b3ca01f5469ca",
+    "fundName": "苏州七都创禾产业投资合伙企业（有限合伙）",
+    "managerId": "0b5e8dbf712c9ce98659bf19",
+    "managerName": "苏州东方创禾私募基金管理有限公司",
+    "sizeCny": 80000000,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=35",
+      "date": "2025-12-03",
+      "dateKind": "公开文件披露日，认缴/实缴为原件历史时点",
+      "issuer": "铁近科技公开转让说明书",
+      "pages": "物理35页（1-1-34）、登记表38页（1-1-37）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=38"
+      ],
+      "lpScope": "1名LP和1项GP；历史实缴不等于可投余额",
+      "creditCode": "91320509MABTKEMR1J",
+      "establishedDate": "2022-07-13",
+      "managerLegalName": "苏州东方创禾私募基金管理有限公司",
+      "fundRegistration": "SXC371",
+      "managerRegistration": "P1069365",
+      "registrationScope": "仅历史披露，未核当前AMAC状态",
+      "generalPartners": [
+        {
+          "name": "苏州东方创禾私募基金管理有限公司",
+          "disclosedContributionCny": 8000000,
+          "disclosedPercent": "10.00"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2025-12-03",
+        "basis": "原件披露时点实缴",
+        "totalCny": 57000000,
+        "byPartner": {
+          "苏州东方创禾私募基金管理有限公司": 5700000,
+          "江苏南太湖投资有限公司": 51300000
+        },
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=35"
+      }
+    },
+    "partners": [
+      {
+        "name": "江苏南太湖投资有限公司",
+        "disclosedContributionCny": 72000000,
+        "disclosedPercent": "90.00",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
