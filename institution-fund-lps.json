@@ -28005,5 +28005,329 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "8cf0ecf28616dacce77de234",
+    "fundName": "苏州金雨创业投资合伙企业（有限合伙）",
+    "managerId": "0ece9c9812f6e0fb80e5da33",
+    "managerName": "金雨茂物（西藏）创业投资管理有限公司",
+    "capitalBasis": "披露出资额（原件未区分认缴/实缴）",
+    "sizeCny": 391000000,
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=43",
+      "date": "2025-12-30",
+      "dateKind": "法律意见书公开披露日，出资为原件工商登记历史时点",
+      "issuer": "锦天城关于江苏博涛智能热工股份有限公司挂牌法律意见书",
+      "pages": "物理43至45页（3-3-41至43）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=44",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=45"
+      ],
+      "lpScope": "23名合伙人，法律意见书明示执行事务GP为苏州金码，招股说明书另明示基金管理人为金雨茂物；二者不同，另22名依有限合伙结构记录，不强连自然人或未核企业原档。",
+      "creditCode": "91320509MABN9BEP08",
+      "establishedDate": "2022-05-19",
+      "managerLegalName": "金雨茂物（西藏）创业投资管理有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=38",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理38页（1-1-37）",
+        "basis": "基金及管理人备案表明确列示关联，管理人非仅据执行事务合伙人推定。"
+      },
+      "fundRegistration": "SVU403",
+      "fundFilingDate": "2022-07-01",
+      "managerRegistration": "P1018011",
+      "managerRegistrationDate": "2015-07-16",
+      "registrationScope": "备案表为原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "披露出资额（原件未区分认缴/实缴）",
+      "paidDisclosureNote": "原件合伙人表仅标出资额，未区分认缴或实缴；不推定实缴或当前可投余额。",
+      "percentageNote": "逐项原比例合计100.05%，表合计100.00%；保留原数，不归一化。",
+      "generalPartners": [
+        {
+          "name": "苏州金码创业投资合伙企业（有限合伙）",
+          "disclosedContributionCny": 8000000,
+          "disclosedPercent": "2.05"
+        }
+      ],
+      "amountTexts": {
+        "disclosedCapitalCny": "391000000.00",
+        "GP": {
+          "name": "苏州金码创业投资合伙企业（有限合伙）",
+          "disclosedCapitalCny": "8000000.00",
+          "disclosedPercent": "2.05",
+          "roleBasis": "法律意见书执行事务合伙人，与明示基金管理人不同，不混同。"
+        },
+        "LPs": [
+          {
+            "name": "苏州震泽科技产业园有限公司",
+            "disclosedCapitalCny": "60000000.00",
+            "disclosedPercent": "15.35",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "徐晓明",
+            "disclosedCapitalCny": "30000000.00",
+            "disclosedPercent": "7.67",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "鲍惠荣",
+            "disclosedCapitalCny": "30000000.00",
+            "disclosedPercent": "7.67",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "吕炳南",
+            "disclosedCapitalCny": "30000000.00",
+            "disclosedPercent": "7.67",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "刘剑锋",
+            "disclosedCapitalCny": "30000000.00",
+            "disclosedPercent": "7.67",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "苏州市聚杰投资有限公司",
+            "disclosedCapitalCny": "20000000.00",
+            "disclosedPercent": "5.12",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "陈雪华",
+            "disclosedCapitalCny": "20000000.00",
+            "disclosedPercent": "5.12",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "王志愚",
+            "disclosedCapitalCny": "20000000.00",
+            "disclosedPercent": "5.12",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "俞萍",
+            "disclosedCapitalCny": "20000000.00",
+            "disclosedPercent": "5.12",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "周祥荣",
+            "disclosedCapitalCny": "15000000.00",
+            "disclosedPercent": "3.84",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "姚昱泽",
+            "disclosedCapitalCny": "15000000.00",
+            "disclosedPercent": "3.84",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "陆新华",
+            "disclosedCapitalCny": "15000000.00",
+            "disclosedPercent": "3.84",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "陈刚",
+            "disclosedCapitalCny": "15000000.00",
+            "disclosedPercent": "3.84",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "丁福英",
+            "disclosedCapitalCny": "10000000.00",
+            "disclosedPercent": "2.56",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "钱春华",
+            "disclosedCapitalCny": "10000000.00",
+            "disclosedPercent": "2.56",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "叶小强",
+            "disclosedCapitalCny": "10000000.00",
+            "disclosedPercent": "2.56",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "吴新云",
+            "disclosedCapitalCny": "8000000.00",
+            "disclosedPercent": "2.05",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "吕庆",
+            "disclosedCapitalCny": "5000000.00",
+            "disclosedPercent": "1.28",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "祁锡荣",
+            "disclosedCapitalCny": "5000000.00",
+            "disclosedPercent": "1.28",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "苏州普今生物科技有限公司",
+            "disclosedCapitalCny": "5000000.00",
+            "disclosedPercent": "1.28",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "金梦园",
+            "disclosedCapitalCny": "5000000.00",
+            "disclosedPercent": "1.28",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          },
+          {
+            "name": "吴冬林",
+            "disclosedCapitalCny": "5000000.00",
+            "disclosedPercent": "1.28",
+            "roleBasis": "有限合伙原结构，明确GP以外合伙人；不凭自然人同名连结。"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "苏州震泽科技产业园有限公司",
+        "disclosedContributionCny": 60000000,
+        "disclosedPercent": "15.35",
+        "existingInstitution": null
+      },
+      {
+        "name": "徐晓明",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "7.67",
+        "existingInstitution": null
+      },
+      {
+        "name": "鲍惠荣",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "7.67",
+        "existingInstitution": null
+      },
+      {
+        "name": "吕炳南",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "7.67",
+        "existingInstitution": null
+      },
+      {
+        "name": "刘剑锋",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "7.67",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州市聚杰投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "5.12",
+        "existingInstitution": null
+      },
+      {
+        "name": "陈雪华",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "5.12",
+        "existingInstitution": null
+      },
+      {
+        "name": "王志愚",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "5.12",
+        "existingInstitution": null
+      },
+      {
+        "name": "俞萍",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "5.12",
+        "existingInstitution": null
+      },
+      {
+        "name": "周祥荣",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "3.84",
+        "existingInstitution": null
+      },
+      {
+        "name": "姚昱泽",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "3.84",
+        "existingInstitution": null
+      },
+      {
+        "name": "陆新华",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "3.84",
+        "existingInstitution": null
+      },
+      {
+        "name": "陈刚",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "3.84",
+        "existingInstitution": null
+      },
+      {
+        "name": "丁福英",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "2.56",
+        "existingInstitution": null
+      },
+      {
+        "name": "钱春华",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "2.56",
+        "existingInstitution": null
+      },
+      {
+        "name": "叶小强",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "2.56",
+        "existingInstitution": null
+      },
+      {
+        "name": "吴新云",
+        "disclosedContributionCny": 8000000,
+        "disclosedPercent": "2.05",
+        "existingInstitution": null
+      },
+      {
+        "name": "吕庆",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.28",
+        "existingInstitution": null
+      },
+      {
+        "name": "祁锡荣",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.28",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州普今生物科技有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.28",
+        "existingInstitution": null
+      },
+      {
+        "name": "金梦园",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.28",
+        "existingInstitution": null
+      },
+      {
+        "name": "吴冬林",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.28",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
