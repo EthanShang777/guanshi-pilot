@@ -198,6 +198,34 @@ const faMatching = (() => {
       mode:'exact',year:'',keyword:project.keywords || '',investor:'',cohort:'new',sort:'evidence',excludeUnknown:false,adjacent:false};
   }
 
+  async function loadMatchingRows(filters, meta, load, cache, isCurrent) {
+    if (!filters.sector && !filters.sub && !filters.investor && !filters.keyword) return [];
+    function records(name) {
+      if (!cache.has(name)) cache.set(name,load(name).then(rows=>{
+        if (!Array.isArray(rows)) throw Error('Invalid financing search shard');
+        return rows;
+      }).catch(error=>{cache.delete(name);throw error;}));
+      return cache.get(name);
+    }
+    const shard = meta.faSearchSectors?.[filters.sector];
+    if (!filters.year && typeof shard === 'string') {
+      try {
+        return await records(shard);
+      } catch {
+        // Older or partially cached deployments can still use the annual dataset.
+        if (!isCurrent()) return [];
+      }
+    }
+    const years=filters.year?[filters.year]:meta.years;
+    const rows=[];
+    for (let i=0;i<years.length;i+=4) {
+      const batch=await Promise.all(years.slice(i,i+4).map(year=>records('search-'+year)));
+      if (!isCurrent()) return [];
+      for (const items of batch) rows.push(...items);
+    }
+    return rows;
+  }
+
   function historyRows(company, companyId) {
     if (!company) return [];
     return company.events.filter(event => !clientStageExcluded.has(event[2])).map(event => {
@@ -258,7 +286,7 @@ const faMatching = (() => {
       }
       const fundIndex=await fundsPromise;
       const past=historyRows(company,companyId);
-      const yearCache=new Map();
+      const searchCache=new Map();
       const savedView=project.view || {};
       const restored={...initialFilters(project), ...savedView.filters};
       function canUseAdjacent(){
@@ -442,21 +470,6 @@ const faMatching = (() => {
             status.textContent='项目已在别处更新。当前条件已保留，请确认后再次保存。';
           } else status.textContent='保存项目条件失败。当前条件已保留，可再次保存。';
         } finally{saveConditions.disabled=false;}
-      }
-
-      async function fetchYears(values, seq) {
-        if ((!values.sector && !values.sub && !values.investor && !values.keyword)) return [];
-        const years=values.year?[values.year]:meta.years;
-        const records=[];
-        for(let i=0;i<years.length;i+=4){
-          const batch=await Promise.all(years.slice(i,i+4).map(y=>{
-            if(!yearCache.has(y))yearCache.set(y,load('search-'+y).catch(e=>{yearCache.delete(y);throw e;}));
-            return yearCache.get(y);
-          }));
-          if(seq!==version)return [];
-          for(const rows of batch)records.push(...rows);
-        }
-        return records;
       }
 
       const identityCache=new Map();
@@ -704,7 +717,7 @@ const faMatching = (() => {
         const filters=readFilters();
         loading(filters);
         try{
-          const records=await fetchYears(filters,seq);
+          const records=await loadMatchingRows(filters,meta,load,searchCache,()=>seq===version&&!disposed);
           if(seq!==version||disposed)return;
           const result=analyze({rows:records,historyRows:past,filters,project,fundIndex,aliases:meta.institutionAliases,sectorFilter});
           const total=result.groups.length,pages=Math.max(1,Math.ceil(total/24));
@@ -816,5 +829,5 @@ const faMatching = (() => {
     }
   }
 
-  return {analyze, parseQuery, start};
+  return {analyze, loadMatchingRows, parseQuery, start};
 })();

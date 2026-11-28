@@ -1,9 +1,13 @@
-"""Publish FA client assets and a read-only index of disclosed legal fund managers."""
+"""Publish FA client assets and indexes derived from public financing records."""
+from collections import defaultdict
+from hashlib import sha256
 import json
 import re
 import shutil
 from pathlib import Path
 from urllib.parse import urlsplit
+
+from sector_taxonomy import ROOT_IDS
 
 SCRIPTS = '<script src="fa-store.js?v=1"></script><script src="fa-navigation.js?v=1"></script>'
 DETAIL_ASSETS = '<link rel="stylesheet" href="fa-details.css?v=1">' + SCRIPTS
@@ -34,6 +38,22 @@ def write_fund_index(out, funds):
     (out / 'records' / 'fa-funds.json').write_text(json.dumps(
         fund_index(funds), ensure_ascii=False, sort_keys=True, separators=(',', ':'),
     ))
+
+
+def write_sector_search(data, rows):
+    by_sector = defaultdict(list)
+    for row in rows:
+        by_sector[row[4]].append(row)
+    index = {}
+    for sector, items in by_sector.items():
+        if sector not in ROOT_IDS:
+            continue
+        # A manifest can reference only the exact snapshot that produced this shard.
+        payload = json.dumps(items, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
+        name = f'fa-sector-{ROOT_IDS[sector]}-{sha256(payload).hexdigest()[:12]}'
+        (data / f'{name}.json').write_bytes(payload)
+        index[sector] = name
+    return index
 
 
 def publish_assets(out):
