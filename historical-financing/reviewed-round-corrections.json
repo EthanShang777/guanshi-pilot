@@ -9017,5 +9017,21 @@
       "date_key": "2023-06-09",
       "date_kind": "股权转让协议签署日，三名股东合计转让50万股"
     }
+  },
+  {
+    "event_id": "public:historical-disclosure:0f28ac0405dff2f9897ab6",
+    "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665",
+    "day": "2025-05-27",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf",
+    "expected": {
+      "round": "股权转让",
+      "amount": "11715.74万元",
+      "investors_json": "[{\"name\":\"鼎晖中安并购（安徽）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10215740000,\"basis\":\"转让对价\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf\"}},{\"name\":\"中新苏州工业园区创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000000000,\"basis\":\"转让对价\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf\"}},{\"name\":\"陕西众投湛卢二期股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":500000000,\"basis\":\"转让对价\",\"source\":\"https://www.bse.cn/disclosure/2026/2026-10-30/1793349306748_226412.pdf\"}}]"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "11715.74541万元",
+      "investors_json": "[{\"name\":\"鼎晖中安并购（安徽）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10215744986,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf\"}},{\"name\":\"中新苏州工业园区创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000001428,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf\"}},{\"name\":\"陕西众投湛卢二期股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":499998996,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf\"}}]"
+    }
   }
 ]
