@@ -28812,5 +28812,38 @@
         "existingInstitution": "2f87a2683b8ee1dfed8bd041"
       }
     ]
+  },
+  {
+    "fundId": "a6c37ccf86b41a2bcc1c6de8",
+    "fundName": "成都成华智创产业振兴股权投资基金合伙企业（有限合伙）",
+    "managerId": "30b12beec2cb53dff7e7d563",
+    "managerName": "成都成华科技创业投资有限公司",
+    "capitalBasis": "工商登记出资额",
+    "sizeCny": 6000000000,
+    "otherLpCount": null,
+    "partners": [],
+    "source": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-17/1225567728.PDF#page=2",
+      "date": "2026-09-17",
+      "dateKind": "上市公司公告日",
+      "issuer": "安德利2026-038号公告",
+      "pages": "第2页",
+      "creditCode": "91510108MAK0LETJ6K",
+      "establishedDate": "2025-11-21",
+      "managerEvidence": {
+        "url": "https://cj.sina.com.cn/articles/view/6105713761/16bedcc6102001ux5k",
+        "date": "2025-12-06",
+        "issuer": "红星新闻引成华区信息",
+        "basis": "成华科创投为二期管理人"
+      },
+      "generalPartners": [
+        {
+          "name": "成都成华智远腾悦企业管理有限公司",
+          "disclosedContributionCny": null,
+          "disclosedPercent": null
+        }
+      ],
+      "lpScope": "出资额为工商披露，LP法定全称、认缴分配、总实缴待核。"
+    }
   }
 ]
