@@ -9033,5 +9033,29 @@
       "amount": "11715.74541万元",
       "investors_json": "[{\"name\":\"鼎晖中安并购（安徽）股权投资基金合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":10215744986,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf\"}},{\"name\":\"中新苏州工业园区创业投资有限公司\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":1000001428,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf\"}},{\"name\":\"陕西众投湛卢二期股权投资合伙企业（有限合伙）\",\"role\":null,\"amount\":null,\"contribution\":{\"amountFen\":499998996,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf\"}}]"
     }
+  },
+  {
+    "event_id": "financing_event:11487a2272b7e668899f62b37d2656e000707c8299a834f69b1a02b5b43b80c3",
+    "company_id": "co:full_legal_name:b4c06ff22e9cf0b69f443e0cb8078665",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf#page=121",
+    "additional_sources": [
+      "https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf#page=122"
+    ],
+    "expected": {
+      "round": "D轮",
+      "amount": "未披露",
+      "investors_json": "[{\"name\":\"东方国资\",\"role\":null,\"amount\":null},{\"name\":\"吴江创迅\",\"role\":null,\"amount\":null}]",
+      "date": "2024-12-09",
+      "date_key": "2024-12-09",
+      "date_kind": "原档日期"
+    },
+    "corrected": {
+      "round": "股权转让",
+      "amount": "45807375元",
+      "investors_json": "[{\"name\":\"苏州东方低空产业投资基金合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":2980737500,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf#page=122\"}},{\"name\":\"苏州七都创禾产业投资合伙企业（有限合伙）\",\"role\":\"受让方\",\"amount\":null,\"contribution\":{\"amountFen\":1600000000,\"basis\":\"转让对价\",\"source\":\"https://pdf.dfcfw.com/pdf/H2_AN202604241821549228_1.pdf#page=122\"}}]",
+      "date": "2024-12-09",
+      "date_key": "2024-12-09",
+      "date_kind": "产权交易凭证出具日，确认受让方已足额付清转让价款"
+    }
   }
 ]
