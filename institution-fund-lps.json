@@ -25433,5 +25433,75 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "036bb301908ccc7f777faca6",
+    "fundName": "苏州汾湖创新产业投资中心（有限合伙）",
+    "managerId": "52123e2cfce96e1b53db8358",
+    "managerName": "清石资产管理（上海）有限公司",
+    "sizeCny": 1807193337.4,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=32",
+      "date": "2025-12-03",
+      "dateKind": "公开文件披露日，认缴/实缴为原件历史时点",
+      "issuer": "铁近科技公开转让说明书",
+      "pages": "物理32页（1-1-31）、登记表38页（1-1-37）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=38"
+      ],
+      "lpScope": "1名LP和1项GP；GP执行事务合伙人与基金管理人分别按原件记录，历史实缴不等于当前可投余额",
+      "creditCode": "91320509MA1XC0ET07",
+      "establishedDate": "2018-10-23",
+      "managerLegalName": "清石资产管理（上海）有限公司",
+      "fundRegistration": "SGG821",
+      "managerRegistration": "P1070825",
+      "registrationScope": "仅历史披露，未核当前AMAC状态",
+      "generalPartners": [
+        {
+          "name": "苏州清汾资本管理有限公司",
+          "disclosedContributionCny": 1805193.34,
+          "disclosedPercent": "0.10"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2025-12-03",
+        "basis": "原件披露时点实缴",
+        "totalCny": 1470657137.4,
+        "byPartner": {
+          "苏州清汾资本管理有限公司": 1468993.34,
+          "苏州汾湖高新控股有限公司": 1469188144.06
+        },
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=32"
+      },
+      "amountTexts": {
+        "committedCny": "1807193337.40",
+        "paidCny": "1470657137.40",
+        "GP": {
+          "name": "苏州清汾资本管理有限公司",
+          "commitmentCny": "1805193.34",
+          "paidCny": "1468993.34",
+          "disclosedPercent": "0.10"
+        },
+        "LPs": [
+          {
+            "name": "苏州汾湖高新控股有限公司",
+            "commitmentCny": "1805388144.06",
+            "paidCny": "1469188144.06",
+            "disclosedPercent": "99.90"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "苏州汾湖高新控股有限公司",
+        "disclosedContributionCny": 1805388144.06,
+        "disclosedPercent": "99.90",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
