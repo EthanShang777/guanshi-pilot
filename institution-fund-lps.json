@@ -26810,5 +26810,358 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "87d9409953cc5d189f911499",
+    "fundName": "苏州永鑫融慧创业投资合伙企业（有限合伙）",
+    "managerId": "f6e9968e567e77391400b328",
+    "managerName": "苏州永鑫方舟股权投资管理合伙企业（普通合伙）",
+    "sizeCny": 278300000,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=22",
+      "date": "2025-02-25",
+      "dateKind": "公开文件披露日，认缴为法律意见书工商档案历史时点",
+      "issuer": "国浩律师（上海）事务所新吴光电法律意见书",
+      "pages": "物理22至24页（3-3-21至23）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=23",
+        "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=24"
+      ],
+      "lpScope": "27名LP及1项GP；仅披露认缴，实缴和当前可投余额未披露。",
+      "creditCode": "91320594MA21AL353E",
+      "managerLegalName": "苏州永鑫方舟股权投资管理合伙企业（普通合伙）",
+      "fundRegistration": "SLK647",
+      "fundFilingDate": "2020-07-20",
+      "managerRegistration": "P1017017",
+      "managerRegistrationDate": "2015-07-01",
+      "registrationScope": "仅律师意见书历史披露，未核当前AMAC状态。",
+      "operatingTerm": {
+        "start": "2020-04-22",
+        "end": "2030-04-21",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=23",
+        "note": "原件列营业期限，不将其起点补填为已核成立日期。"
+      },
+      "paidDisclosureNote": "原件仅披露认缴，实缴及当前可投余额未披露。",
+      "percentageNote": "28项列示比例相加99.9994%，原件合计100.0000%；分别保留原文，不擅自调整。",
+      "generalPartners": [
+        {
+          "name": "苏州永鑫方舟股权投资管理合伙企业（普通合伙）",
+          "disclosedContributionCny": 2800000,
+          "disclosedPercent": "1.0061"
+        }
+      ],
+      "amountTexts": {
+        "committedCny": "278300000.00",
+        "GP": {
+          "name": "苏州永鑫方舟股权投资管理合伙企业（普通合伙）",
+          "commitmentCny": "2800000.00",
+          "disclosedPercent": "1.0061"
+        },
+        "LPs": [
+          {
+            "name": "苏州亿歌网络科技有限公司",
+            "commitmentCny": "30000000.00",
+            "disclosedPercent": "10.7797"
+          },
+          {
+            "name": "韦勇",
+            "commitmentCny": "23000000.00",
+            "disclosedPercent": "8.2645"
+          },
+          {
+            "name": "苏州工业园区企业发展服务中心",
+            "commitmentCny": "20000000.00",
+            "disclosedPercent": "7.1865"
+          },
+          {
+            "name": "徐翔",
+            "commitmentCny": "18000000.00",
+            "disclosedPercent": "6.4678"
+          },
+          {
+            "name": "宁波优凯创业投资合伙企业（有限合伙）",
+            "commitmentCny": "15000000.00",
+            "disclosedPercent": "5.3899"
+          },
+          {
+            "name": "上海幼策投资咨询有限公司",
+            "commitmentCny": "11000000.00",
+            "disclosedPercent": "3.9526"
+          },
+          {
+            "name": "高国良",
+            "commitmentCny": "11000000.00",
+            "disclosedPercent": "3.9526"
+          },
+          {
+            "name": "薛怡敏",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "孔德双",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "苏州斯科赛斯石化有限公司",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "陆盘根",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "袁永峰",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "陈琦",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "蒋孝黄",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "蔡苏建",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "崔惠峰",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "3.5932"
+          },
+          {
+            "name": "苏州逐梦商务信息咨询有限公司",
+            "commitmentCny": "6500000.00",
+            "disclosedPercent": "2.3356"
+          },
+          {
+            "name": "苏州佰林特新材料有限公司",
+            "commitmentCny": "6000000.00",
+            "disclosedPercent": "2.1559"
+          },
+          {
+            "name": "江苏前程木业科技有限公司",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          },
+          {
+            "name": "林伟星",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          },
+          {
+            "name": "程海燕",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          },
+          {
+            "name": "聂杰",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          },
+          {
+            "name": "刘发军",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          },
+          {
+            "name": "王荣",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          },
+          {
+            "name": "凌震生",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          },
+          {
+            "name": "张志雄",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          },
+          {
+            "name": "刘圣",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "1.7966"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "苏州亿歌网络科技有限公司",
+        "disclosedContributionCny": 30000000,
+        "disclosedPercent": "10.7797",
+        "existingInstitution": null
+      },
+      {
+        "name": "韦勇",
+        "disclosedContributionCny": 23000000,
+        "disclosedPercent": "8.2645",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州工业园区企业发展服务中心",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "7.1865",
+        "existingInstitution": "b11908ab834bb2f1bd76b279"
+      },
+      {
+        "name": "徐翔",
+        "disclosedContributionCny": 18000000,
+        "disclosedPercent": "6.4678",
+        "existingInstitution": null
+      },
+      {
+        "name": "宁波优凯创业投资合伙企业（有限合伙）",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "5.3899",
+        "existingInstitution": null
+      },
+      {
+        "name": "上海幼策投资咨询有限公司",
+        "disclosedContributionCny": 11000000,
+        "disclosedPercent": "3.9526",
+        "existingInstitution": null
+      },
+      {
+        "name": "高国良",
+        "disclosedContributionCny": 11000000,
+        "disclosedPercent": "3.9526",
+        "existingInstitution": null
+      },
+      {
+        "name": "薛怡敏",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "孔德双",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州斯科赛斯石化有限公司",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "陆盘根",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "袁永峰",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "陈琦",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "蒋孝黄",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "蔡苏建",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "崔惠峰",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.5932",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州逐梦商务信息咨询有限公司",
+        "disclosedContributionCny": 6500000,
+        "disclosedPercent": "2.3356",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州佰林特新材料有限公司",
+        "disclosedContributionCny": 6000000,
+        "disclosedPercent": "2.1559",
+        "existingInstitution": null
+      },
+      {
+        "name": "江苏前程木业科技有限公司",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      },
+      {
+        "name": "林伟星",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      },
+      {
+        "name": "程海燕",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      },
+      {
+        "name": "聂杰",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      },
+      {
+        "name": "刘发军",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      },
+      {
+        "name": "王荣",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      },
+      {
+        "name": "凌震生",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      },
+      {
+        "name": "张志雄",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      },
+      {
+        "name": "刘圣",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.7966",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
