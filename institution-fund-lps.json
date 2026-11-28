@@ -25904,5 +25904,450 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "f300c9fe54b568c044d6a981",
+    "fundName": "苏州龙驹创合创业投资合伙企业（有限合伙）",
+    "managerId": "0ad2d3bfe5b45fda135129fa",
+    "managerName": "苏州龙驹东方投资管理企业（有限合伙）",
+    "sizeCny": 266000000,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=28",
+      "date": "2025-12-03",
+      "dateKind": "公开文件披露日，认缴及实缴为原件历史时点",
+      "issuer": "铁近科技公开转让说明书",
+      "pages": "物理28至29页（1-1-27至28）、释义8页及登记表38页",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=29",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=8",
+        "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=25",
+        "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=26"
+      ],
+      "lpScope": "29名LP及1项GP；历史实缴不等于当前可投余额",
+      "creditCode": "91320509MA20WYEK00",
+      "establishedDate": "2020-02-26",
+      "managerLegalName": "苏州龙驹东方投资管理企业（有限合伙）",
+      "fundRegistration": "SJV056",
+      "managerRegistration": "P1061848",
+      "registrationScope": "仅原件历史披露；2020-04-16基金备案、2017-03-15管理人登记见新吴光电法律意见书26页，未核当前AMAC状态。",
+      "legalNameEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=24",
+        "basis": "律师按工商档案及营业执照列明完整法定名和信用代码，与铁近基本信息28页一致。",
+        "alternateSourceName": "苏州龙驹创合创业投资企业（有限合伙）",
+        "note": "铁近释义和年度报告另一写法保留为原件差异，不自动合并ID或交易。"
+      },
+      "generalPartners": [
+        {
+          "name": "苏州龙驹东方投资管理企业（有限合伙）",
+          "disclosedContributionCny": 3000000,
+          "disclosedPercent": "1.13"
+        }
+      ],
+      "paidDisclosure": {
+        "asOf": "2025-12-03",
+        "basis": "原件披露时点实缴",
+        "totalCny": 266000000,
+        "componentsTotalCny": 266000000,
+        "byPartner": {
+          "苏州龙驹东方投资管理企业（有限合伙）": 3000000,
+          "江苏盛泽产业投资有限公司": 20000000,
+          "苏州汾湖创新产业投资中心（有限合伙）": 20000000,
+          "苏州市吴江城市投资发展集团有限公司": 20000000,
+          "苏州中方财团控股股份有限公司": 20000000,
+          "苏州市创客天使投资管理有限公司": 16000000,
+          "苏州永鼎投资有限公司": 15000000,
+          "秦小华": 10000000,
+          "李志聪": 10000000,
+          "刘保国": 10000000,
+          "沈根祥": 10000000,
+          "陈刚": 10000000,
+          "陆枫": 10000000,
+          "杨建荣": 10000000,
+          "顾明龙": 7000000,
+          "吴震宇": 5000000,
+          "郭芳": 5000000,
+          "平强": 5000000,
+          "肖碧青": 5000000,
+          "薛飞": 5000000,
+          "潘小忠": 5000000,
+          "王柏年": 5000000,
+          "吕菁": 5000000,
+          "王庆华": 5000000,
+          "金志萍": 5000000,
+          "金梦园": 5000000,
+          "马雪琴": 5000000,
+          "周强敏": 5000000,
+          "严文戟": 5000000,
+          "许小帆": 5000000
+        },
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202512031793268488_1.pdf#page=29"
+      },
+      "percentageNote": "30项列示比例相加100.02%，原件合计100%；保留表内两位小数，不擅自调整。",
+      "amountTexts": {
+        "committedCny": "266000000.00",
+        "reportedPaidCny": "266000000.00",
+        "GP": {
+          "name": "苏州龙驹东方投资管理企业（有限合伙）",
+          "commitmentCny": "3000000.00",
+          "paidCny": "3000000.00",
+          "disclosedPercent": "1.13"
+        },
+        "LPs": [
+          {
+            "name": "江苏盛泽产业投资有限公司",
+            "commitmentCny": "20000000.00",
+            "paidCny": "20000000.00",
+            "disclosedPercent": "7.52"
+          },
+          {
+            "name": "苏州汾湖创新产业投资中心（有限合伙）",
+            "commitmentCny": "20000000.00",
+            "paidCny": "20000000.00",
+            "disclosedPercent": "7.52"
+          },
+          {
+            "name": "苏州市吴江城市投资发展集团有限公司",
+            "commitmentCny": "20000000.00",
+            "paidCny": "20000000.00",
+            "disclosedPercent": "7.52"
+          },
+          {
+            "name": "苏州中方财团控股股份有限公司",
+            "commitmentCny": "20000000.00",
+            "paidCny": "20000000.00",
+            "disclosedPercent": "7.52"
+          },
+          {
+            "name": "苏州市创客天使投资管理有限公司",
+            "commitmentCny": "16000000.00",
+            "paidCny": "16000000.00",
+            "disclosedPercent": "6.02"
+          },
+          {
+            "name": "苏州永鼎投资有限公司",
+            "commitmentCny": "15000000.00",
+            "paidCny": "15000000.00",
+            "disclosedPercent": "5.64"
+          },
+          {
+            "name": "秦小华",
+            "commitmentCny": "10000000.00",
+            "paidCny": "10000000.00",
+            "disclosedPercent": "3.76"
+          },
+          {
+            "name": "李志聪",
+            "commitmentCny": "10000000.00",
+            "paidCny": "10000000.00",
+            "disclosedPercent": "3.76"
+          },
+          {
+            "name": "刘保国",
+            "commitmentCny": "10000000.00",
+            "paidCny": "10000000.00",
+            "disclosedPercent": "3.76"
+          },
+          {
+            "name": "沈根祥",
+            "commitmentCny": "10000000.00",
+            "paidCny": "10000000.00",
+            "disclosedPercent": "3.76"
+          },
+          {
+            "name": "陈刚",
+            "commitmentCny": "10000000.00",
+            "paidCny": "10000000.00",
+            "disclosedPercent": "3.76"
+          },
+          {
+            "name": "陆枫",
+            "commitmentCny": "10000000.00",
+            "paidCny": "10000000.00",
+            "disclosedPercent": "3.76"
+          },
+          {
+            "name": "杨建荣",
+            "commitmentCny": "10000000.00",
+            "paidCny": "10000000.00",
+            "disclosedPercent": "3.76"
+          },
+          {
+            "name": "顾明龙",
+            "commitmentCny": "7000000.00",
+            "paidCny": "7000000.00",
+            "disclosedPercent": "2.63"
+          },
+          {
+            "name": "吴震宇",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "郭芳",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "平强",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "肖碧青",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "薛飞",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "潘小忠",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "王柏年",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "吕菁",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "王庆华",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "金志萍",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "金梦园",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "马雪琴",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "周强敏",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "严文戟",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          },
+          {
+            "name": "许小帆",
+            "commitmentCny": "5000000.00",
+            "paidCny": "5000000.00",
+            "disclosedPercent": "1.88"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "江苏盛泽产业投资有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "7.52",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州汾湖创新产业投资中心（有限合伙）",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "7.52",
+        "existingInstitution": "036bb301908ccc7f777faca6"
+      },
+      {
+        "name": "苏州市吴江城市投资发展集团有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "7.52",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州中方财团控股股份有限公司",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "7.52",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州市创客天使投资管理有限公司",
+        "disclosedContributionCny": 16000000,
+        "disclosedPercent": "6.02",
+        "existingInstitution": null
+      },
+      {
+        "name": "苏州永鼎投资有限公司",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "5.64",
+        "existingInstitution": null
+      },
+      {
+        "name": "秦小华",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.76",
+        "existingInstitution": null
+      },
+      {
+        "name": "李志聪",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.76",
+        "existingInstitution": null
+      },
+      {
+        "name": "刘保国",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.76",
+        "existingInstitution": null
+      },
+      {
+        "name": "沈根祥",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.76",
+        "existingInstitution": null
+      },
+      {
+        "name": "陈刚",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.76",
+        "existingInstitution": null
+      },
+      {
+        "name": "陆枫",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.76",
+        "existingInstitution": null
+      },
+      {
+        "name": "杨建荣",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "3.76",
+        "existingInstitution": null
+      },
+      {
+        "name": "顾明龙",
+        "disclosedContributionCny": 7000000,
+        "disclosedPercent": "2.63",
+        "existingInstitution": null
+      },
+      {
+        "name": "吴震宇",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "郭芳",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "平强",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "肖碧青",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "薛飞",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "潘小忠",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "王柏年",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "吕菁",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "王庆华",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "金志萍",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "金梦园",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "马雪琴",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "周强敏",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "严文戟",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      },
+      {
+        "name": "许小帆",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "1.88",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
