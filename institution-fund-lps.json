@@ -28451,5 +28451,188 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "8f4721c0ae25c53616aaf383",
+    "fundName": "合肥仁元投资管理中心（有限合伙）",
+    "managerId": "0c2ef6259c5326f650176205",
+    "managerName": "合肥仁发新能私募基金管理有限公司",
+    "capitalBasis": "披露出资额（原件未区分认缴/实缴）",
+    "sizeCny": 122010100,
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=34",
+      "date": "2025-12-30",
+      "dateKind": "法律意见书公开披露日，出资为原件工商登记历史时点",
+      "issuer": "锦天城关于江苏博涛智能热工股份有限公司挂牌法律意见书",
+      "pages": "物理34页（3-3-32）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=34"
+      ],
+      "lpScope": "有限合伙原合伙人表，执行事务GP明示为合肥仁发新能私募基金管理有限公司，其余具名合伙人依原结构记录；不凭自然人同名或缺少企业原档推定身份链接。",
+      "creditCode": "91340100MA2W2K3Y24",
+      "establishedDate": "2020-08-03",
+      "managerLegalName": "合肥仁发新能私募基金管理有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=38",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理38至39页（1-1-37至38）",
+        "basis": "基金及管理人备案表明确列示关联，管理人非仅据执行事务合伙人推定。"
+      },
+      "fundRegistration": "SLU078",
+      "fundFilingDate": "2020-10-22",
+      "managerRegistration": "P1071061",
+      "managerRegistrationDate": "2020-07-07",
+      "registrationScope": "备案表为原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "披露出资额（原件未区分认缴/实缴）",
+      "paidDisclosureNote": "原件合伙人表仅标出资额，未区分认缴或实缴；不推定实缴或当前可投余额。",
+      "percentageNote": "金额和比例均分别保留原文，合计100.00%。",
+      "generalPartners": [
+        {
+          "name": "合肥仁发新能私募基金管理有限公司",
+          "disclosedContributionCny": 3982300,
+          "disclosedPercent": "3.26"
+        }
+      ],
+      "amountTexts": {
+        "disclosedCapitalCny": "122010100.00",
+        "GP": {
+          "name": "合肥仁发新能私募基金管理有限公司",
+          "disclosedCapitalCny": "3982300.00",
+          "disclosedPercent": "3.26"
+        },
+        "LPs": [
+          {
+            "name": "合肥曙阳企业管理合伙企业（有限合伙）",
+            "disclosedCapitalCny": "56500000.00",
+            "disclosedPercent": "46.31"
+          },
+          {
+            "name": "合肥黎阳企业管理合伙企业（有限合伙）",
+            "disclosedCapitalCny": "40027800.00",
+            "disclosedPercent": "32.81"
+          },
+          {
+            "name": "赵为",
+            "disclosedCapitalCny": "20000000.00",
+            "disclosedPercent": "16.39"
+          },
+          {
+            "name": "合肥名阳企业管理合伙企业（有限合伙）",
+            "disclosedCapitalCny": "1500000.00",
+            "disclosedPercent": "1.23"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "合肥曙阳企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 56500000,
+        "disclosedPercent": "46.31",
+        "existingInstitution": null
+      },
+      {
+        "name": "合肥黎阳企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 40027800,
+        "disclosedPercent": "32.81",
+        "existingInstitution": null
+      },
+      {
+        "name": "赵为",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "16.39",
+        "existingInstitution": null
+      },
+      {
+        "name": "合肥名阳企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 1500000,
+        "disclosedPercent": "1.23",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
+  },
+  {
+    "fundId": "236473c56a8f2b8414ea9e69",
+    "fundName": "合肥仁创投资管理中心（有限合伙）",
+    "managerId": "0c2ef6259c5326f650176205",
+    "managerName": "合肥仁发新能私募基金管理有限公司",
+    "capitalBasis": "披露出资额（原件未区分认缴/实缴）",
+    "sizeCny": 154070400,
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=34",
+      "date": "2025-12-30",
+      "dateKind": "法律意见书公开披露日，出资为原件工商登记历史时点",
+      "issuer": "锦天城关于江苏博涛智能热工股份有限公司挂牌法律意见书",
+      "pages": "物理34至35页（3-3-32至33）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=34",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=35"
+      ],
+      "lpScope": "有限合伙原合伙人表，执行事务GP明示为合肥仁发新能私募基金管理有限公司，其余具名合伙人依原结构记录；不凭自然人同名或缺少企业原档推定身份链接。",
+      "creditCode": "91340100MA2W2K4G18",
+      "establishedDate": "2020-08-03",
+      "managerLegalName": "合肥仁发新能私募基金管理有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=38",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理38至39页（1-1-37至38）",
+        "basis": "基金及管理人备案表明确列示关联，管理人非仅据执行事务合伙人推定。"
+      },
+      "fundRegistration": "SLQ782",
+      "fundFilingDate": "2020-10-22",
+      "managerRegistration": "P1071061",
+      "managerRegistrationDate": "2020-07-07",
+      "registrationScope": "备案表为原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "披露出资额（原件未区分认缴/实缴）",
+      "paidDisclosureNote": "原件合伙人表仅标出资额，未区分认缴或实缴；不推定实缴或当前可投余额。",
+      "percentageNote": "金额和比例均分别保留原文，合计100.00%。",
+      "generalPartners": [
+        {
+          "name": "合肥仁发新能私募基金管理有限公司",
+          "disclosedContributionCny": 570400,
+          "disclosedPercent": "0.37"
+        }
+      ],
+      "amountTexts": {
+        "disclosedCapitalCny": "154070400.00",
+        "GP": {
+          "name": "合肥仁发新能私募基金管理有限公司",
+          "disclosedCapitalCny": "570400.00",
+          "disclosedPercent": "0.37"
+        },
+        "LPs": [
+          {
+            "name": "曹仁贤",
+            "disclosedCapitalCny": "152000000.00",
+            "disclosedPercent": "98.66"
+          },
+          {
+            "name": "合肥名阳企业管理合伙企业（有限合伙）",
+            "disclosedCapitalCny": "1500000.00",
+            "disclosedPercent": "0.97"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "曹仁贤",
+        "disclosedContributionCny": 152000000,
+        "disclosedPercent": "98.66",
+        "existingInstitution": null
+      },
+      {
+        "name": "合肥名阳企业管理合伙企业（有限合伙）",
+        "disclosedContributionCny": 1500000,
+        "disclosedPercent": "0.97",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
