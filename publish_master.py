@@ -10,12 +10,16 @@ import shutil
 
 from fund_master import contribution, coverage_facts, prepare_cloud, register_coverage, replace_derived, snapshot
 from reader import build_library
+from institution_identity import REVIEWED_ALIASES, participant
+from sector_taxonomy import BRANCHES, classify_sector, has_fine_direction, public_filter
 from update import filename, event_url, link
 
 OUT = Path('public')
 NAV = [('index.html','融资事件'),('companies.html','公司档案'),('institutions.html','机构档案'),
        ('reports.html','研究周报'),('landscape.html','赛道画布'),('changes.html','变化追踪')]
 DECKS = {}
+OUT_OF_FINANCING = {'股权转让', '介绍上市', '拟增资'}
+SECTOR_SCRIPT = '<script src="sector-filter.js?v=1"></script>'
 CSS = Path('site.css').read_text()
 BAR = Path('index.html').read_text().split('<div id="local-find"',1)[1].split('</div>',1)[0]
 BAR = '<div id="local-find"'+BAR+'</div>'
@@ -95,7 +99,7 @@ def search_page():
              '<option value="family">含相邻轮次</option></select></label>'
              '<label>查看<select name="view"><option value="">融资事件</option><option value="companies">公司名单</option>'
              '<option value="institutions">机构名单</option></select></label>')
-    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
+    page('search.html','融资交叉检索','融资事件','<form id="archive-form">'+form+'</form><p id="match-count" role="status"></p>'+financing_table('', 'matches')+SECTOR_SCRIPT+'<nav><button id="prev">上一页</button><button id="next">下一页</button></nav><script defer src="master-search.js"></script>')
 
 def research_pages(deals):
     entry = Path('research-entry.html').read_text()
@@ -108,11 +112,26 @@ def research_pages(deals):
         html = html.replace('<h2>融资时间线</h2><p class="search-entry">','<p class="search-entry">',1)
         html = re.sub(r'<details><summary>按赛道浏览</summary>(<section class="arc">.*?</section>)</details>',r'\1',html,count=1,flags=re.S)
         home.write_text(re.sub(r'<small class="row-actions">.*?</small>', '', html))
-    shell = (OUT/'search.html').read_text().replace('融资交叉检索 · 观势','研究工作区 · 观势').replace('<main>','<main class="workspace"><link rel="stylesheet" href="workspace.css">')
-    shell = shell.replace('<h1>融资交叉检索</h1>', '<h1>研究工作区</h1>').replace(BAR, '').replace('<script src="within-page.js"></script>', '')
+    entry_script = ('<script>const workspaceParams=new URLSearchParams(location.search);'
+                    'if(!workspaceParams.size)location.replace("company-research.html");'
+                    'if(/^[a-f0-9]{24}$/.test(workspaceParams.get("client")||""))'
+                    'document.currentScript.parentElement.classList.add("workspace-project")</script>')
+    workspace_main = '<main class="workspace">'+entry_script+'<link rel="stylesheet" href="workspace.css?v=project2">'
+    shell = (OUT/'search.html').read_text().replace('融资交叉检索 · 观势','研究工作区 · 观势').replace('<main>',workspace_main)
+    shell = shell.replace('<h1>融资交叉检索</h1>', '<p class="work-kicker">研究工作区 · 服务项目</p><h1 id="work-title">研究工作区</h1>').replace(BAR, '').replace('<script src="within-page.js"></script>', '')
+    reset = '<button type="reset">清除条件</button>'
+    shell = shell.replace(reset, '', 1).replace('</form><p id="match-count"',
+        '<div class="work-filter-actions">'+reset+'</div></form><p id="match-count"', 1)
     shell = shell.replace('<form id="archive-form">',entry+'<p id="work-context"></p><form id="archive-form">')
-    shell = shell.replace('<script defer src="master-search.js">','<section id="shortlist"></section><script src="workspace.js"></script><script defer src="master-search.js?v=workspace1">')
-    shell = shell.replace('<main class="workspace">', '<main class="workspace"><script>if(!location.search)location.replace("company-research.html")</script>')
+    shortlist = ('<details id="shortlist"><summary id="shortlist-summary">查看清单 '
+                 '<span id="shortlist-count" role="status">已选 0 项</span></summary>'
+                 '<p id="shortlist-empty">暂无已选对象</p><ul id="shortlist-items" hidden></ul></details>')
+    shell = shell.replace('<p id="match-count" role="status"></p>',
+        '<div class="work-results-bar"><p id="match-count" role="status">正在读取检索索引…</p>'+shortlist+'</div>')
+    shell = shell.replace('<div class="finance-scroll" tabindex="0" role="region" aria-label="融资事件表">',
+        '<div class="finance-scroll" tabindex="0" role="region" aria-label="检索结果" hidden>')
+    shell = shell.replace('<script defer src="master-search.js">',
+        '<script src="workspace.js?v=project2"></script><script defer src="master-search.js?v=workspace2">')
     (OUT/'workspace.html').write_text(shell)
     from company_research import publish
     publish(OUT,deals)
@@ -141,6 +160,18 @@ def build(rows, fund_facts=()):
     for h in history:old_history[h['source']].append(h)
     profiles = {p["name"]: p for p in json.loads(Path("research-library.json").read_text())["profiles"]}
     companies={}; institutions={}; deals=[]; legacy={}; refs=defaultdict(list)
+    institution_redirects = {}
+    institution_aliases = defaultdict(set)
+    legacy_sectors = defaultdict(set)
+    legacy_parties = set()
+    legacy_institution_sectors = defaultdict(set)
+    direction_names = {}
+    protected_names = {name for f in funds for name in (f['fundName'], f['managerName'])}
+    protected_names.update(partner['name'] for f in funds for partner in f['partners']
+                           if partner.get('existingInstitution') == token('institution' + partner['name']))
+    protected_names.update(fund_managers)
+    protected_names.update(v['brand'] for v in fund_managers.values())
+    protected_names.update(n for v in fund_managers.values() for n in v.get('coManagers', ()))
     groups=defaultdict(list); buckets=defaultdict(dict); names=defaultdict(set)
     def entity(groups,kind,key,name):
         k=token(kind+key)
@@ -161,29 +192,81 @@ def build(rows, fund_facts=()):
             display=city
         elif country in ('中国香港','中国澳门','中国台湾'):
             display=country[2:]
+        category = classify_sector(row['primary_sector'], row['secondary_sector'])
+        raw_primary = row['primary_sector'] or '待归类'
+        legacy_sectors[raw_primary].add(category.name)
+        if category.direction_id:
+            direction_names[category.direction_id] = category.direction
         d=dict(key=key,href='deal.html?id='+key,company=row['company_name'],companyHref=c['href'],day=row['date'],
-               sector=row['primary_sector'] or '待归类',sub=row['secondary_sector'],stage=row['round'],amount=row['amount'],
+               sector=category.name, sub=category.direction, sectorId=category.id, subId=category.direction_id,
+               sectorBranches=category.branches,
+               sectorEvidence={'primary': row['primary_sector'], 'secondary': row['secondary_sector'],
+                               'label': row.get('sector'), 'source': row.get('sector_source')},
+               stage=row['round'],amount=row['amount'],
                country=country,location=display,valuation=row['valuation'],dateKind=row['date_kind'],sources=urls,investors=[],parties=[],aliases=[],reports=[])
         c['events'].append(d);names[d['company']].add(c['href'])
         deal_institutions = {}
+        disclosed_allocations = defaultdict(list)
+        reviewed_ids = defaultdict(set)
         for item in json.loads(row['investors_json'] or '[]'):
-            n=item.get('name') if isinstance(item,dict) else item
-            if not n or n in d['investors']:continue
-            inst=entity(institutions,'institution',n,n)
-            deal_institutions[inst['key']] = inst
-            d['investors'].append(n);d['parties'].append([n,inst['href']])
+            identity = participant(item, protected_names)
+            n, raw = identity.name, identity.raw_name
             detail = item.get('contribution') if isinstance(item, dict) else None
+            if raw:
+                legacy_parties.add(raw)
+                legacy_institution_sectors[raw_primary].add(raw)
+                if old_relationship := fund_managers.get(raw):
+                    managers = (old_relationship['brand'], *old_relationship.get('coManagers', ()))
+                    legacy_parties.update(managers)
+                    legacy_institution_sectors[raw_primary].update(managers)
+            if raw and (n != raw or identity.roles or detail or
+                        (isinstance(item, dict) and (item.get('amount') or item.get('source')))):
+                observation = {'rawName': raw, 'name': n, 'roles': identity.roles, 'status': identity.status}
+                if isinstance(item, dict):
+                    for field in ('amount', 'contribution', 'source'):
+                        if item.get(field) is not None:
+                            observation[field] = item[field]
+                if observation not in d.setdefault('participation', []):
+                    d['participation'].append(observation)
+            if not n:
+                if raw:
+                    archive = entity(institutions, 'institution', raw, raw)
+                    archive['evidenceOnly'] = identity.status
+                    if not archive['events'] or archive['events'][-1] is not d:
+                        archive['events'].append(d)
+                continue
+            inst = entity(institutions, 'institution', n, n)
+            if raw != n:
+                old_key = token('institution' + raw)
+                institution_redirects[old_key] = inst['key']
+                institution_aliases[n].add(raw)
+                reviewed_ids[inst['key']].add(old_key)
+                legacy[filename('institution', raw)] = inst['href']
+            if inst['key'] not in deal_institutions:
+                deal_institutions[inst['key']] = inst
+                d['investors'].append(n)
+                d['parties'].append([n, inst['href']])
             if value := contribution(detail, urls):
-                d.setdefault('partyAllocations', []).append({'institutionId': inst['key'], **value})
-            elif reviewed := reviewed_allocations.get(key, {}).get(inst['key']):
-                if value := contribution(reviewed, urls):
-                    d.setdefault('partyAllocations', []).append({'institutionId': inst['key'], **value})
+                disclosed_allocations[inst['key']].append(value)
             if fund_manager := fund_managers.get(n):
                 for manager in (fund_manager['brand'], *fund_manager.get('coManagers', ())):
                     brand = entity(institutions, 'institution', manager, manager)
-                    deal_institutions[brand['key']] = brand
-        for institution in deal_institutions.values():
+                    relationships = brand.setdefault('relatedInstitutions', {})
+                    relationships[inst['key']] = (n, inst['href'], fund_manager['source'], '关联投资主体')
+                    inst.setdefault('relatedInstitutions', {})[brand['key']] = (
+                        manager, brand['href'], fund_manager['source'], '管理或品牌关系')
+        for inst_id, institution in deal_institutions.items():
             institution['events'].append(d)
+            values = disclosed_allocations[inst_id]
+            if not values:
+                reviewed = reviewed_allocations.get(key, {})
+                for related_id in sorted(reviewed_ids[inst_id] | {inst_id}):
+                    if value := contribution(reviewed.get(related_id), urls):
+                        values.append(value)
+            if len({(v['amountFen'], v['basis']) for v in values}) > 1:
+                d.setdefault('allocationConflicts', []).append(inst_id)
+            elif values:
+                d.setdefault('partyAllocations', []).append({'institutionId': inst_id, **values[0]})
         for u in urls:
             if u in old_by_source:
                 e=old_by_source[u];legacy[event_url(e)]=d['href'];legacy[filename('company',e['company'])]=c['href']
@@ -207,7 +290,7 @@ def build(rows, fund_facts=()):
                 if name and name != display_name
             ))
             d['company'] = display_name
-        if d['stage'] not in {'股权转让', '介绍上市', '拟增资'}:
+        if d['stage'] not in OUT_OF_FINANCING:
             groups[d['sector']].append(d)
             deals.append(d)
         buckets['deal-'+key[:2]][key]=d
@@ -266,13 +349,28 @@ def build(rows, fund_facts=()):
         by_sector=defaultdict(list);parts=defaultdict(dict)
         for k,entity_row in entities.items():
             items=entity_row['events']
-            for sector in dict.fromkeys(d['sector'] for d in items):by_sector[sector].append(entity_row)
-            parts[k[:2]][k]={'name':entity_row['name'],'events':[[d['href'],d['company'],d['day'],d['stage'],d['amount'],d['sector'],d['sub'],d['companyHref']] for d in items]}
+            visible = [d for d in items if d['stage'] not in OUT_OF_FINANCING and not entity_row.get('evidenceOnly')]
+            for sector in dict.fromkeys(d['sector'] for d in visible):by_sector[sector].append(entity_row)
+            parts[k[:2]][k]={'name':entity_row['name'],'events':[
+                [d['href'],d['company'],d['day'],d['stage'],d['amount'],d['sector'],d['sub'],d['companyHref'],d['sectorBranches']]
+                for d in items]}
+
             if kind=='company':
                 profile = profiles.get(entity_row['name']) if len(names[entity_row['name']]) == 1 else None
-                parts[k[:2]][k].update(profile=profile, primary=items[0]['sector'], sub=items[0]['sub'], location=items[0]['location'],sector=items[0]['sub'] or items[0]['sector'],
+                latest = (visible or items)[0]
+                preferred = next((d for d in visible if d['sectorId'] != 'unknown'), latest)
+                parts[k[:2]][k].update(profile=profile, primary=preferred['sector'], sub=preferred['sub'],
+                    primaryId=preferred['sectorId'], subId=preferred['subId'], location=latest['location'],
+                    hasFineDirection=has_fine_direction(preferred['sector'], preferred['sub']),
+                    sector=preferred['sub'] or preferred['sector'],
                     events=[[d['href'],d['day'],d['stage'],d['amount'],d['parties'],d['sources'],d['sector'],d['sub']] for d in items])
             else:
+                if entity_row.get('evidenceOnly'):
+                    parts[k[:2]][k]['evidenceOnly'] = entity_row['evidenceOnly']
+                if relations := entity_row.get('relatedInstitutions'):
+                    parts[k[:2]][k]['relatedInstitutions'] = sorted(relations.values())
+                if aliases := institution_aliases.get(entity_row['name']):
+                    parts[k[:2]][k]['aliases'] = sorted(aliases)
                 if k in lp_disclosures:
                     parts[k[:2]][k]['fundDisclosures'] = lp_disclosures[k]
                 if k in coverage:
@@ -294,18 +392,46 @@ def build(rows, fund_facts=()):
                     raise ValueError(f'Reviewed company redirect conflicts with active companies: {old}')
                 # Keep old IDs readable for views that resolve the company shard directly.
                 parts[old[:2]][old] = {**parts[current[:2]][current], 'redirect': current}
+        if kind=='institution':
+            for old, current in institution_redirects.items():
+                if old not in entities:
+                    parts[old[:2]][old] = {'redirect': current}
         for prefix,part in parts.items():dump(data/(kind+'-'+prefix+'.json'),part)
         if kind=='company':
             from company_directory import build_directory
-            build_directory(entities,by_sector,data,OUT,page,dump,link,redirect,sector_url)
+            build_directory(entities,by_sector,data,OUT,page,dump,link,redirect,sector_url,OUT_OF_FINANCING)
             continue
         def entry(e):return '<div class="directory-row">'+link(e['href'],e['name'])+f'<small>{len(e["events"])} 笔投资记录</small></div>'
-        directory=sorted(entities.values(),key=lambda e:(-len(e['events']),e['name']))
+        directory=sorted((e for e in entities.values() if not e.get('evidenceOnly')),key=lambda e:(-len(e['events']),e['name']))
         list_pages(index,section,section,directory,entry,(link('research-companies.html','公司研究库与同行对照 →') if kind=='company' else '')+link('search.html','检索全部融资 →')+deck(section,Counter({s:len(v) for s,v in by_sector.items()})))
         for s,items in by_sector.items():list_pages(sector_url(section,s),s,section,items,entry)
+        old_names = legacy_parties | {row['name'] for row in entities.values() if not row['events']}
+        for page_number in range(2, (len(old_names) + 59) // 60 + 1):
+            path = f'institutions-{page_number}.html'
+            if not (OUT / path).exists():
+                redirect(path, 'institutions.html')
+        for label, members in legacy_institution_sectors.items():
+            base = sector_url(section, label)
+            for page_number in range(1, (len(members) + 59) // 60 + 1):
+                path = base if page_number == 1 else base[:-5]+f'-{page_number}.html'
+                if not (OUT / path).exists():
+                    redirect(path, 'institutions.html?'+urlencode({'sector': label}))
+    raw_sector_counts = Counter(d['sectorEvidence']['primary'] or '待归类' for d in deals)
+    for raw, normalized in legacy_sectors.items():
+        if normalized == {raw}:
+            continue
+        count = raw_sector_counts[raw]
+        for section in ('融资事件', '公司档案', '机构档案'):
+            for i in range(max(1, (count + 59) // 60)):
+                base = sector_url(section, raw)
+                old = base if not i else base[:-5] + f'-{i+1}.html'
+                if not (OUT / old).exists():
+                    route = {'融资事件': 'search.html', '公司档案': 'companies.html', '机构档案': 'institutions.html'}[section]
+                    redirect(old, route+'?'+urlencode({'sector': raw}))
+
     for kind,title,section in [('company','公司档案','公司档案'),('institution','机构档案','机构档案'),('deal','融资详情','融资事件')]:
         default=legacy.pop(kind+'.html','')
-        detail_version = 'fund-ledger-1' if kind in ('institution','deal') else 'record-redirect'
+        detail_version = 'foundation-1'
         page(kind+'.html',title,section,'<section id="record" data-kind="'+kind+'" data-default="'+esc(default)+'"></section><script defer src="master-detail.js?v='+detail_version+'"></script>')
     for path,url in legacy.items():redirect(path,url)
     for h in history:
@@ -320,10 +446,26 @@ def build(rows, fund_facts=()):
     atlas.OUTPUT=OUT/'atlas'
     build_library(page,link,filename,research,refs,deals,[])
     by_year=defaultdict(list)
-    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub','location')]+[d['companyHref']])
+    for d in deals:by_year[d['day'][:4] or '未列明'].append([d[k] for k in ('key','company','aliases','day','sector','stage','amount','investors','valuation','sub','location')]+[d['companyHref'], d['sectorBranches']])
     for year,items in by_year.items():dump(data/('search-'+year+'.json'),items)
-    manifest={'events':len(deals),'companies':len(companies),'institutions':len(institutions),'years':list(by_year),'sectors':list(groups),'subs':{s:sorted({d['sub'] for d in items if d['sub']}) for s,items in groups.items()}}
+    subs = {}
+    for sector, items in groups.items():
+        sub_names = {d['sub'] for d in items if d['sub']}
+        sub_names.update(BRANCHES[branch] for d in items for branch in d['sectorBranches'])
+        subs[sector] = sorted(sub_names)
+    aliases = {
+        name: sorted(values | set(REVIEWED_ALIASES.get(name, {}).get('aliases', ())))
+        for name, values in institution_aliases.items()
+    }
+    for name, evidence in REVIEWED_ALIASES.items():
+        if token('institution'+name) in institutions:
+            aliases.setdefault(name, [n for n in evidence['aliases'] if n not in protected_names])
+    manifest={'events':len(deals),'companies':len(companies),
+              'institutions':sum(not row.get('evidenceOnly') for row in institutions.values()),
+              'years':list(by_year),'sectors':list(groups),'subs':subs, 'institutionAliases':aliases,
+              'taxonomyVersion': 1}
     dump(data/'manifest.json',manifest)
+    public_filter(OUT, direction_names)
     search_page()
     research_pages(deals)
     for p in Path('.').glob('research-company-*.html'):

@@ -1,7 +1,7 @@
 {
   "model": "gpt-6.2-sol",
   "store": true,
-  "instructions": "你是投资人和FA的研究员。先消歧法律主体。分主题多次检索，交叉检查原文。每栏直接给结论、依据和反方证据。公司自报须注明。clarification 在主体确定时必须是空字符串；仅在确有两个以上同名主体且无法选定时返回给用户的具体选择问题。已知品牌和法律名称匹配时直接完成八栏。只有需公司内部材料的问题进questions，公开可查的不要留给创始人。用户输入仅为公司名称。 栏目要求：{\"市场规模\": \"按地区、年份、产品和买方口径引用研究原文；查近两年买方采购及成交；区分预算、单价、整包和供应商份额，不外推平均客单价。\", \"市场痛点\": \"给具体买方、原流程、损失及付款触发点，区分使用者、预算人和公司自述。\", \"核心团队\": \"以有日期的任职、署名成果、产业化交付归属说明具体人员的能力；区分科研贡献、产品责任和经商业绩。\", \"核心技术/产品\": \"说明技术机制、产物、真实环境指标、基线与局限，标明测试者。写出在哪类约束下有价值。\", \"友商对比\": \"挑直接对手、自建和替代方案，对比可交付范围、效果、成本及部署；有同口径数据才判性能胜负。\", \"历史融资情况\": \"逐轮列日期、币种金额、投资人和来源；去重转载与登记；解释资本结构意味着什么。\", \"机构类似布局\": \"找至少两种投资逻辑，以机构投资公告为先，区分机构原意、被投公司宣传及你的分析。\", \"潜在投资机构\": \"按阶段、地域、支票规模及相似交易筛选，分老股东、新候选及竞品冲突，解释证据和接触优先级。\"}",
+  "instructions": "你是投资人和FA的研究员。用户输入为公司名称。先用公开材料消歧法律主体。品牌与法律名称匹配时直接完成八栏；只有确有多个同名主体且无法选定时，才在 clarification 提供具体选择问题，其余返回空字符串。对已上市或不适用的融资任务明确适用场景。\n按主题检索并核对正文。每项 evidence 写来源直接支持的事实，judgment 写据此得出的分析判断；有相反或不一致的证据须交代。source 只写一条实际查到的原文 HTTPS URL，sourceDate 保留披露日期或原精度，来源无日期填“公开页未标注日期”。sourceKind 说明公司自述、买方公告、投资方公告或其他披露主体。来源不能支持的结论从正文删除，具体缺项写入 sectionGaps。栏目缺足够材料时返回空数组和缺口，禁止拿相邻主题凑数。仅需公司内部材料的问题放 questions。\n市场规模：给出产品与客户边界 marketScope、地理范围 geography、年份 period 和数据或可复算方法 measurement。先找独立报告原文及近两年真实买方采购，分别追踪有无中标、价格和合同口径。采购案例可作需求证据并写入缺口；单一采购、企业收入或宽泛赛道规模不能作市场总额或平均客单价。无可支持的市场金额或方法时，如实写出所缺口径和样本。\n市场痛点：给可识别买方 buyer、原工作场景 scenario、存在的问题 problem 以及买方材料、原流程损失或采购触发点。供方的功能清单、部署方式和方案配置放入产品栏。缺具名买方或可证问题时记录缺口。\n核心团队：用有日期的任职、署名成果和产业化交付说明具体人员能力，区分科研参与、产品责任与经营业绩。\n核心技术/产品：说明机制、产物、客户场景、部署、交付、公开效果指标及基线，注明测试和披露者。客户合作、试点、付费及独立验收分别表述。\n友商对比：对比直接对手、自建与替代方案的交付范围、效果、成本或部署；有同口径数据才判断性能。产品比较只放在本栏。\n历史融资情况：逐轮列日期 eventDate、轮次 round、整轮披露金额及币种 amount、已公开的历史资方 investors（未披露填空数组）、来源。区分签约、交割、工商和报道日；不同报道指同轮只保留一次；单家出资和整轮金额分别陈述。followOnGap 单独说明老股东追加时须核实的持股、权利及基金期限。有历史入股不推断追加意向。原股东、基金与管理人不互换，识别品牌、载体和已证别名。\n机构类似布局：每项必须有具名机构 institution、其他被投公司 portfolioCompany、事件日期 eventDate、相关性 relevance 和能证实这笔参与的来源。区分机构已表达的逻辑、发行方披露和研究判断。找不同的相关投资机制，有多少证据列多少。\n新增潜在机构：只列经资料筛查的未披露为历史资方的新增接洽线索。逐项给 institution、可比被投公司 portfolioCompany、事件日期 eventDate、可比机制 relevance 及联系前 checks（阶段、出资规模、地域权限、在投基金、竞品冲突、是否已在股东名册）。排除已知历史资方及已证别名，别名或身份存疑放缺口。不能推断出资能力、投资意向或承诺。仅主题相同、缺少可比交易或关键适用证据时，把缺项写入 sectionGaps，不列为候选。",
   "tools": [
     {
       "type": "web_search"
@@ -43,12 +43,36 @@
                     },
                     "source": {
                       "type": "string"
+                    },
+                    "sourceDate": {
+                      "type": "string"
+                    },
+                    "sourceKind": {
+                      "type": "string"
+                    },
+                    "marketScope": {
+                      "type": "string"
+                    },
+                    "geography": {
+                      "type": "string"
+                    },
+                    "period": {
+                      "type": "string"
+                    },
+                    "measurement": {
+                      "type": "string"
                     }
                   },
                   "required": [
                     "judgment",
                     "evidence",
-                    "source"
+                    "source",
+                    "sourceDate",
+                    "sourceKind",
+                    "marketScope",
+                    "geography",
+                    "period",
+                    "measurement"
                   ],
                   "additionalProperties": false
                 }
@@ -66,12 +90,32 @@
                     },
                     "source": {
                       "type": "string"
+                    },
+                    "sourceDate": {
+                      "type": "string"
+                    },
+                    "sourceKind": {
+                      "type": "string"
+                    },
+                    "buyer": {
+                      "type": "string"
+                    },
+                    "scenario": {
+                      "type": "string"
+                    },
+                    "problem": {
+                      "type": "string"
                     }
                   },
                   "required": [
                     "judgment",
                     "evidence",
-                    "source"
+                    "source",
+                    "sourceDate",
+                    "sourceKind",
+                    "buyer",
+                    "scenario",
+                    "problem"
                   ],
                   "additionalProperties": false
                 }
@@ -79,70 +123,19 @@
               "核心团队": {
                 "type": "array",
                 "items": {
-                  "type": "object",
-                  "properties": {
-                    "judgment": {
-                      "type": "string"
-                    },
-                    "evidence": {
-                      "type": "string"
-                    },
-                    "source": {
-                      "type": "string"
-                    }
-                  },
-                  "required": [
-                    "judgment",
-                    "evidence",
-                    "source"
-                  ],
-                  "additionalProperties": false
+                  "$ref": "#/$defs/sourcedFinding"
                 }
               },
               "核心技术/产品": {
                 "type": "array",
                 "items": {
-                  "type": "object",
-                  "properties": {
-                    "judgment": {
-                      "type": "string"
-                    },
-                    "evidence": {
-                      "type": "string"
-                    },
-                    "source": {
-                      "type": "string"
-                    }
-                  },
-                  "required": [
-                    "judgment",
-                    "evidence",
-                    "source"
-                  ],
-                  "additionalProperties": false
+                  "$ref": "#/$defs/sourcedFinding"
                 }
               },
               "友商对比": {
                 "type": "array",
                 "items": {
-                  "type": "object",
-                  "properties": {
-                    "judgment": {
-                      "type": "string"
-                    },
-                    "evidence": {
-                      "type": "string"
-                    },
-                    "source": {
-                      "type": "string"
-                    }
-                  },
-                  "required": [
-                    "judgment",
-                    "evidence",
-                    "source"
-                  ],
-                  "additionalProperties": false
+                  "$ref": "#/$defs/sourcedFinding"
                 }
               },
               "历史融资情况": {
@@ -158,12 +151,39 @@
                     },
                     "source": {
                       "type": "string"
+                    },
+                    "sourceDate": {
+                      "type": "string"
+                    },
+                    "sourceKind": {
+                      "type": "string"
+                    },
+                    "eventDate": {
+                      "type": "string"
+                    },
+                    "round": {
+                      "type": "string"
+                    },
+                    "amount": {
+                      "type": "string"
+                    },
+                    "investors": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
                     }
                   },
                   "required": [
                     "judgment",
                     "evidence",
-                    "source"
+                    "source",
+                    "sourceDate",
+                    "sourceKind",
+                    "eventDate",
+                    "round",
+                    "amount",
+                    "investors"
                   ],
                   "additionalProperties": false
                 }
@@ -181,17 +201,41 @@
                     },
                     "source": {
                       "type": "string"
+                    },
+                    "sourceDate": {
+                      "type": "string"
+                    },
+                    "sourceKind": {
+                      "type": "string"
+                    },
+                    "institution": {
+                      "type": "string"
+                    },
+                    "portfolioCompany": {
+                      "type": "string"
+                    },
+                    "eventDate": {
+                      "type": "string"
+                    },
+                    "relevance": {
+                      "type": "string"
                     }
                   },
                   "required": [
                     "judgment",
                     "evidence",
-                    "source"
+                    "source",
+                    "sourceDate",
+                    "sourceKind",
+                    "institution",
+                    "portfolioCompany",
+                    "eventDate",
+                    "relevance"
                   ],
                   "additionalProperties": false
                 }
               },
-              "潜在投资机构": {
+              "新增潜在机构": {
                 "type": "array",
                 "items": {
                   "type": "object",
@@ -204,12 +248,40 @@
                     },
                     "source": {
                       "type": "string"
+                    },
+                    "sourceDate": {
+                      "type": "string"
+                    },
+                    "sourceKind": {
+                      "type": "string"
+                    },
+                    "institution": {
+                      "type": "string"
+                    },
+                    "portfolioCompany": {
+                      "type": "string"
+                    },
+                    "eventDate": {
+                      "type": "string"
+                    },
+                    "relevance": {
+                      "type": "string"
+                    },
+                    "checks": {
+                      "type": "string"
                     }
                   },
                   "required": [
                     "judgment",
                     "evidence",
-                    "source"
+                    "source",
+                    "sourceDate",
+                    "sourceKind",
+                    "institution",
+                    "portfolioCompany",
+                    "eventDate",
+                    "relevance",
+                    "checks"
                   ],
                   "additionalProperties": false
                 }
@@ -223,9 +295,52 @@
               "友商对比",
               "历史融资情况",
               "机构类似布局",
-              "潜在投资机构"
+              "新增潜在机构"
             ],
             "additionalProperties": false
+          },
+          "sectionGaps": {
+            "type": "object",
+            "properties": {
+              "市场规模": {
+                "type": "string"
+              },
+              "市场痛点": {
+                "type": "string"
+              },
+              "核心团队": {
+                "type": "string"
+              },
+              "核心技术/产品": {
+                "type": "string"
+              },
+              "友商对比": {
+                "type": "string"
+              },
+              "历史融资情况": {
+                "type": "string"
+              },
+              "机构类似布局": {
+                "type": "string"
+              },
+              "新增潜在机构": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "市场规模",
+              "市场痛点",
+              "核心团队",
+              "核心技术/产品",
+              "友商对比",
+              "历史融资情况",
+              "机构类似布局",
+              "新增潜在机构"
+            ],
+            "additionalProperties": false
+          },
+          "followOnGap": {
+            "type": "string"
           },
           "questions": {
             "type": "array",
@@ -238,9 +353,41 @@
           "summary",
           "clarification",
           "sections",
+          "sectionGaps",
+          "followOnGap",
           "questions"
         ],
-        "additionalProperties": false
+        "additionalProperties": false,
+        "$defs": {
+          "sourcedFinding": {
+            "type": "object",
+            "properties": {
+              "judgment": {
+                "type": "string"
+              },
+              "evidence": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "sourceDate": {
+                "type": "string"
+              },
+              "sourceKind": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "judgment",
+              "evidence",
+              "source",
+              "sourceDate",
+              "sourceKind"
+            ],
+            "additionalProperties": false
+          }
+        }
       }
     }
   },

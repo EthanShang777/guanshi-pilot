@@ -3,6 +3,9 @@ import json
 from collections import defaultdict
 from pathlib import Path
 from html import escape
+from urllib.parse import urlencode
+
+from sector_taxonomy import BRANCHES, classify_sector
 
 
 OUTPUT = Path('atlas')
@@ -28,18 +31,16 @@ def build_atlas(rows, reports, live, filename, topics, subject):
                 if (src,dst,label) not in seen:
                     seen.add((src,dst,label))
                     nodes[src]['edges'].append(entry)
-        root = node(kind,title)
-        populate(root,node,edge)
-        if kind == '融资赛道':
-            for ident, n in nodes.items():
-                if ident == root:
-                    members = {i for i,item in nodes.items() if item['role']=='公司'}
-                elif n['role']=='业务方向':
-                    members = {i for i,_ in n['edges'] if nodes[i]['role']=='公司'}
-                else:
-                    continue
-                deals = {i for company in members for i,_ in nodes[company]['edges'] if nodes[i]['role']=='融资'}
-                n['summary']=f'{len(members)} 家公司 · {len(deals)} 笔融资'
+        stats = defaultdict(lambda: (set(), set()))
+        def count(ident, company, deal):
+            companies, deals = stats[ident]
+            companies.add(company)
+            deals.add(deal)
+        root_url = 'search.html?'+urlencode({'sector': title}) if kind == '融资赛道' else ''
+        root = node(kind,title,root_url)
+        populate(root,node,edge,count)
+        for ident, (companies, deals) in stats.items():
+            nodes[ident]['summary']=f'{len(companies)} 家公司 · {len(deals)} 笔融资'
         file = filename('graph',key).replace('.html','.json')
         if len(nodes)>500:
             # Keep the overview and each neighbourhood load independent of sector size.
@@ -57,20 +58,38 @@ def build_atlas(rows, reports, live, filename, topics, subject):
             lookup[n['name']].append([file,ident])
     groups = defaultdict(list)
     for row in rows:
+        if 'sectorId' not in row:
+            category = classify_sector(row['sector'], row.get('sub'))
+            row = row | {'sector': category.name, 'sub': category.direction, 'sectorBranches': category.branches}
         groups[row['sector']].append(row)
-    by_href = {('event.html' if e['id']=='seed' else 'event-'+e['id']+'.html'):e for e in live}
     for sector,items in sorted(groups.items(),key=lambda pair:pair[0]!='芯片与算力'):
-        def financing(root,node,edge):
+        def financing(root,node,edge,count):
             for r in items:
                 name=r['company']
                 company=node('公司',name,r.get('companyHref') or (filename('company',name) if name in live_by_company else ''),r.get('companyHref'))
-                business=r.get('sub') or by_href.get(r['href'],{}).get('business')
-                parent=root
-                if business:
-                    parent=node('业务方向',business)
-                    edge(root,parent,'业务方向','所属赛道')
-                edge(parent,company,'公司','所属方向')
                 deal=node('融资',name+' · '+r['day']+' · '+(r['stage'] or '轮次未列明'),r['href'],r['href'])
+                count(root,company,deal)
+                parent_nodes = []
+                for branch_id in r['sectorBranches']:
+                    label = BRANCHES[branch_id]
+                    url = 'search.html?'+urlencode({'sector': sector, 'sub': label})
+                    branch = node('子赛道',label,url,branch_id)
+                    edge(root,branch,'子赛道','上级赛道')
+                    count(branch,company,deal)
+                    parent_nodes.append(branch)
+                parent_nodes = parent_nodes or [root]
+                business = r.get('sub')
+                if business in [BRANCHES[branch] for branch in r['sectorBranches']]:
+                    business = ''
+                if business:
+                    url = 'search.html?'+urlencode({'sector': sector, 'sub': business})
+                    direction = node('业务方向',business,url,r.get('subId'))
+                    for parent in parent_nodes:
+                        edge(parent,direction,'业务方向','所属赛道')
+                    count(direction,company,deal)
+                    parent_nodes = [direction]
+                for parent in parent_nodes:
+                    edge(parent,company,'公司','所属方向')
                 edge(company,deal,'融资记录','融资公司')
                 for inv in r['investors']:
                     investor=node('机构',inv,dict(r.get('parties',[])).get(inv) or (filename('institution',inv) if inv in live_by_investor else ''))
@@ -79,7 +98,7 @@ def build_atlas(rows, reports, live, filename, topics, subject):
                     edge(deal,node('周报',reports[rid]['title'],'report-'+rid+'.html',rid),'关联研究','相关融资')
         write_group(sector,'融资赛道','sector-'+sector,financing)
     for topic,title in topics.items():
-        def research(root,node,edge):
+        def research(root,node,edge,count):
             for rid,r in reports.items():
                 if r['topic']!=topic: continue
                 for item in r['events']:
