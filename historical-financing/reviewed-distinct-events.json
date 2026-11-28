@@ -3079,5 +3079,77 @@
       "company_id": "co:full_legal_name:3e9a229370badf7ee45be8bdcf7d34cd"
     },
     "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202104/000814_20210406_6902.pdf#page=76"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1f7773c6cd02069d03a8b7",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:132ea7c2f56aeb7932a699",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-10-23/d992ac3948d2b07d125292d6344858d9.pdf#page=62",
+    "reason": "发行人分别披露三个协议签署日及独立股数、交易对价。同一买方联新的两份协议独立签署。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:1f7773c6cd02069d03a8b7",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:686e7faaaf63f46611a149",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-10-23/d992ac3948d2b07d125292d6344858d9.pdf#page=62",
+    "reason": "发行人分别披露三个协议签署日及独立股数、交易对价。同一买方联新的两份协议独立签署。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:132ea7c2f56aeb7932a699",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1f7773c6cd02069d03a8b7",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-10-23/d992ac3948d2b07d125292d6344858d9.pdf#page=62",
+    "reason": "发行人分别披露三个协议签署日及独立股数、交易对价。同一买方联新的两份协议独立签署。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:132ea7c2f56aeb7932a699",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:686e7faaaf63f46611a149",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-10-23/d992ac3948d2b07d125292d6344858d9.pdf#page=62",
+    "reason": "发行人分别披露三个协议签署日及独立股数、交易对价。同一买方联新的两份协议独立签署。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:686e7faaaf63f46611a149",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:1f7773c6cd02069d03a8b7",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-10-23/d992ac3948d2b07d125292d6344858d9.pdf#page=62",
+    "reason": "发行人分别披露三个协议签署日及独立股数、交易对价。同一买方联新的两份协议独立签署。"
+  },
+  {
+    "incoming": {
+      "event_id": "public:historical-disclosure:686e7faaaf63f46611a149",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "existing": {
+      "event_id": "public:historical-disclosure:132ea7c2f56aeb7932a699",
+      "company_id": "co:full_legal_name:20051fbd445b3912f8960e0e06ba3e8a"
+    },
+    "source": "https://dataclouds.cninfo.com.cn/sjother2/documents/2026/2026-10-23/d992ac3948d2b07d125292d6344858d9.pdf#page=62",
+    "reason": "发行人分别披露三个协议签署日及独立股数、交易对价。同一买方联新的两份协议独立签署。"
   }
 ]
