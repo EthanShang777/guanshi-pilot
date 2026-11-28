@@ -27454,5 +27454,233 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "6aa5c466329e006a077732f0",
+    "fundName": "平阳中肃创赢股权投资合伙企业（有限合伙）",
+    "managerId": "e467bded0ec6120ddb792bf4",
+    "managerName": "上海中肃创业投资管理有限公司",
+    "capitalBasis": "披露出资额（原件未区分认缴/实缴）",
+    "sizeCny": 108000000,
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=27",
+      "date": "2025-12-30",
+      "dateKind": "法律意见书公开披露日，出资为原件工商登记历史时点",
+      "issuer": "锦天城关于江苏博涛智能热工股份有限公司挂牌法律意见书",
+      "pages": "物理27至28页（3-3-25至26）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=27",
+        "https://pdf.dfcfw.com/pdf/H2_AN202512301811297470_1.pdf#page=28"
+      ],
+      "lpScope": "15名合伙人中原件明确执行事务GP为上海中肃创业投资管理有限公司，另14名依有限合伙结构记录；自然人不凭同名连结，企业LP未有可核原档不强连。",
+      "creditCode": "91330326MA2JCA3XX5",
+      "establishedDate": "2020-11-23",
+      "managerLegalName": "上海中肃创业投资管理有限公司",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202606261824947642_1.pdf#page=38",
+        "date": "2026-06-26",
+        "issuer": "江苏博涛智能热工股份有限公司招股说明书（申报稿）",
+        "pages": "物理38页（1-1-37）",
+        "basis": "基金及管理人备案表明确列示关联，管理人非仅据执行事务合伙人推定。"
+      },
+      "fundRegistration": "SSH672",
+      "fundFilingDate": "2021-08-11",
+      "managerRegistration": "P1071209",
+      "managerRegistrationDate": "2020-08-18",
+      "registrationScope": "备案表为原件历史披露，未核当前AMAC状态。",
+      "capitalAmountBasis": "披露出资额（原件未区分认缴/实缴）",
+      "paidDisclosureNote": "原件合伙人表仅标出资额，未区分认缴或实缴；不推定实缴或当前可投余额。",
+      "percentageNote": "逐项原比例合计100.00%，与表合计100.00%分别保留。",
+      "generalPartners": [
+        {
+          "name": "上海中肃创业投资管理有限公司",
+          "disclosedContributionCny": 2000000,
+          "disclosedPercent": "1.85"
+        }
+      ],
+      "amountTexts": {
+        "disclosedCapitalCny": "108000000.00",
+        "GP": {
+          "name": "上海中肃创业投资管理有限公司",
+          "disclosedCapitalCny": "2000000.00",
+          "disclosedPercent": "1.85",
+          "roleBasis": "法律意见书执行事务合伙人"
+        },
+        "LPs": [
+          {
+            "name": "曹仁贤",
+            "disclosedCapitalCny": "20000000.00",
+            "disclosedPercent": "18.52",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "伊廷雷",
+            "disclosedCapitalCny": "20000000.00",
+            "disclosedPercent": "18.52",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "周燕",
+            "disclosedCapitalCny": "15000000.00",
+            "disclosedPercent": "13.89",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "张骅",
+            "disclosedCapitalCny": "10000000.00",
+            "disclosedPercent": "9.26",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "陈先保",
+            "disclosedCapitalCny": "10000000.00",
+            "disclosedPercent": "9.26",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "林磊",
+            "disclosedCapitalCny": "10000000.00",
+            "disclosedPercent": "9.26",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "周海慧",
+            "disclosedCapitalCny": "5000000.00",
+            "disclosedPercent": "4.63",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "周方平",
+            "disclosedCapitalCny": "5000000.00",
+            "disclosedPercent": "4.63",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "罗红",
+            "disclosedCapitalCny": "2000000.00",
+            "disclosedPercent": "1.85",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "陈黎",
+            "disclosedCapitalCny": "2000000.00",
+            "disclosedPercent": "1.85",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "李炯",
+            "disclosedCapitalCny": "2000000.00",
+            "disclosedPercent": "1.85",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "秦朗",
+            "disclosedCapitalCny": "2000000.00",
+            "disclosedPercent": "1.85",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "超达汽车配件有限公司",
+            "disclosedCapitalCny": "2000000.00",
+            "disclosedPercent": "1.85",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          },
+          {
+            "name": "何敏",
+            "disclosedCapitalCny": "1000000.00",
+            "disclosedPercent": "0.93",
+            "roleBasis": "有限合伙企业原合伙人结构，明确GP以外的合伙人；不以自然人同名连结。"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "曹仁贤",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "18.52",
+        "existingInstitution": null
+      },
+      {
+        "name": "伊廷雷",
+        "disclosedContributionCny": 20000000,
+        "disclosedPercent": "18.52",
+        "existingInstitution": null
+      },
+      {
+        "name": "周燕",
+        "disclosedContributionCny": 15000000,
+        "disclosedPercent": "13.89",
+        "existingInstitution": null
+      },
+      {
+        "name": "张骅",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "9.26",
+        "existingInstitution": null
+      },
+      {
+        "name": "陈先保",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "9.26",
+        "existingInstitution": null
+      },
+      {
+        "name": "林磊",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "9.26",
+        "existingInstitution": null
+      },
+      {
+        "name": "周海慧",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "4.63",
+        "existingInstitution": null
+      },
+      {
+        "name": "周方平",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "4.63",
+        "existingInstitution": null
+      },
+      {
+        "name": "罗红",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.85",
+        "existingInstitution": null
+      },
+      {
+        "name": "陈黎",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.85",
+        "existingInstitution": null
+      },
+      {
+        "name": "李炯",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.85",
+        "existingInstitution": null
+      },
+      {
+        "name": "秦朗",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.85",
+        "existingInstitution": null
+      },
+      {
+        "name": "超达汽车配件有限公司",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "1.85",
+        "existingInstitution": null
+      },
+      {
+        "name": "何敏",
+        "disclosedContributionCny": 1000000,
+        "disclosedPercent": "0.93",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
