@@ -1,13 +1,14 @@
 {
   "version": 1,
-  "batch": 251,
-  "base_main_sha": "869a413c9fd78f0524da2ebb03c520e44b1aa076",
-  "candidate_sha256": "0e47b9f325006f55cefb1b8e1371af9555367f8d56544ac6cdcf717ad9bb33ad",
+  "batch": 252,
+  "base_main_sha": "bbf612d832f0e890301f71ddad6cb437338fa937",
+  "candidate_sha256": "51afd808d1ac275a6a72a4b5ce08b5a4fed8f00d6afbf4d362e7c2dd7e9bd7ff",
   "batch_digests": [],
   "fund_ids": [
-    "caa776ae82434bebee6b817b"
+    "8f4721c0ae25c53616aaf383",
+    "236473c56a8f2b8414ea9e69"
   ],
   "event_ids": [],
   "company_windows": [],
-  "scope_sha256": "a934f0d8d8b2b34b95ec0b99ce3b23f7ac418f0924202b16da639ab4c289e81c"
+  "scope_sha256": "bd5117049e0c883a7a5920f7896618cc0630f8b3f74f8181e39612fd63f89e2a"
 }
