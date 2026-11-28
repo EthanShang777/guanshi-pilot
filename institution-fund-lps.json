@@ -26349,5 +26349,213 @@
       }
     ],
     "reviewedInvestments": []
+  },
+  {
+    "fundId": "c45c72eec42d24ee4d224f92",
+    "fundName": "苏州君鼎开山创业投资中心（有限合伙）",
+    "managerId": "bb12823d9ea073d563dec5a5",
+    "managerName": "君鼎私募基金管理有限公司",
+    "sizeCny": 100000000,
+    "capitalBasis": "披露认缴额",
+    "otherLpCount": 0,
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=26",
+      "date": "2025-02-25",
+      "dateKind": "公开文件披露日，认缴为法律意见书工商档案历史时点",
+      "issuer": "国浩律师（上海）事务所新吴光电法律意见书",
+      "pages": "物理26至27页（3-3-25至26）",
+      "lpSources": [
+        "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=27"
+      ],
+      "lpScope": "14名LP及1项GP；仅披露认缴，未披露实缴或当前可投余额。",
+      "creditCode": "91320509MA253LRM0K",
+      "managerLegalName": "君鼎私募基金管理有限公司",
+      "fundRegistration": "SNY036",
+      "fundFilingDate": "2021-02-23",
+      "managerRegistration": "P1033117",
+      "managerRegistrationDate": "2016-08-24",
+      "registrationScope": "仅律师意见书历史披露，未核当前AMAC状态。",
+      "operatingTerm": {
+        "start": "2021-01-22",
+        "end": "无固定期限",
+        "source": "https://pdf.dfcfw.com/pdf/H2_AN202502251643478578_1.pdf#page=26",
+        "note": "法律意见书列营业期限2021-01-22至无固定期限；未另列成立日期，不把营业期限起点填为已核成立日期。"
+      },
+      "paidDisclosureNote": "原件此表仅披露认缴，实缴和当前可投余额未披露，不以认缴代替。",
+      "generalPartners": [
+        {
+          "name": "君鼎私募基金管理有限公司",
+          "disclosedContributionCny": 1000000,
+          "disclosedPercent": "1.00"
+        }
+      ],
+      "amountTexts": {
+        "committedCny": "100000000.00",
+        "GP": {
+          "name": "君鼎私募基金管理有限公司",
+          "commitmentCny": "1000000.00",
+          "disclosedPercent": "1.00"
+        },
+        "LPs": [
+          {
+            "name": "张中楠",
+            "commitmentCny": "19000000.00",
+            "disclosedPercent": "19.00"
+          },
+          {
+            "name": "柴永福",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "10.00"
+          },
+          {
+            "name": "吴哲",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "10.00"
+          },
+          {
+            "name": "温雷",
+            "commitmentCny": "10000000.00",
+            "disclosedPercent": "10.00"
+          },
+          {
+            "name": "徐慎",
+            "commitmentCny": "8000000.00",
+            "disclosedPercent": "8.00"
+          },
+          {
+            "name": "宋华娟",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "5.00"
+          },
+          {
+            "name": "徐天平",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "5.00"
+          },
+          {
+            "name": "沈波",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "5.00"
+          },
+          {
+            "name": "许小丰",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "5.00"
+          },
+          {
+            "name": "陆云芳",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "5.00"
+          },
+          {
+            "name": "陆新华",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "5.00"
+          },
+          {
+            "name": "周凤美",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "5.00"
+          },
+          {
+            "name": "袁延杰",
+            "commitmentCny": "5000000.00",
+            "disclosedPercent": "5.00"
+          },
+          {
+            "name": "谭文文",
+            "commitmentCny": "2000000.00",
+            "disclosedPercent": "2.00"
+          }
+        ]
+      }
+    },
+    "partners": [
+      {
+        "name": "张中楠",
+        "disclosedContributionCny": 19000000,
+        "disclosedPercent": "19.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "柴永福",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "吴哲",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "温雷",
+        "disclosedContributionCny": 10000000,
+        "disclosedPercent": "10.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "徐慎",
+        "disclosedContributionCny": 8000000,
+        "disclosedPercent": "8.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "宋华娟",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "徐天平",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "沈波",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "许小丰",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "陆云芳",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "陆新华",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "周凤美",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "袁延杰",
+        "disclosedContributionCny": 5000000,
+        "disclosedPercent": "5.00",
+        "existingInstitution": null
+      },
+      {
+        "name": "谭文文",
+        "disclosedContributionCny": 2000000,
+        "disclosedPercent": "2.00",
+        "existingInstitution": null
+      }
+    ],
+    "reviewedInvestments": []
   }
 ]
