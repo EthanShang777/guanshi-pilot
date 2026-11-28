@@ -28929,5 +28929,41 @@
         }
       ]
     }
+  },
+  {
+    "fundId": "34fd6f8194094362fca15c5c",
+    "fundName": "共青城民生红景三期投资中心（有限合伙）",
+    "managerId": "bffba02116ef961b0d23ce19",
+    "managerName": "民生股权投资基金管理有限公司",
+    "capitalBasis": "登记注册资本",
+    "sizeCny": 71000000,
+    "otherLpCount": null,
+    "partners": [],
+    "source": {
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202412021641147660_1.pdf#page=92",
+      "date": "2024-12-02",
+      "dateKind": "挂牌问询回复披露日",
+      "issuer": "佛山青松第二轮审核问询回复",
+      "pages": "物理第92页（文内第43页）",
+      "fundRegistration": "SXR410",
+      "managerLegalName": "民生股权投资基金管理有限公司",
+      "managerRegistration": "GC2600011640",
+      "managerEvidence": {
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202611061831504307_1.pdf#page=85",
+        "date": "2026-11-06",
+        "issuer": "纽氏达特招股说明书上会稿",
+        "pages": "物理第85页",
+        "basis": "所列证券公司私募投资基金产品备案及管理人登记"
+      },
+      "lpScope": "2024年挂牌问询回复列示登记注册资本7,100万元及赵富荣持股比例17.61%。完整合伙人表、GP、认缴实缴拆分和可投余额待核。",
+      "ownershipEvidence": {
+        "holder": "赵富荣",
+        "disclosedPercent": "17.61",
+        "basis": "原件列示持股比例，具体合伙人性质待核",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202412021641147660_1.pdf#page=92"
+      },
+      "documentMonth": "2024-11",
+      "fundType": "证券公司私募投资基金"
+    }
   }
 ]
